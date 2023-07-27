@@ -1,34 +1,18 @@
 {
   "main": {
-    "id": "8aabe4f5c78f42dd",
+    "id": "4d12cad67f0a4207",
     "type": "split",
     "children": [
       {
-        "id": "0aa64a045a4e2349",
+        "id": "93302c90ad1de517",
         "type": "tabs",
         "children": [
           {
-            "id": "d90b1751baba7616",
+            "id": "226cb190a3b5a6b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LearnXcode/Debugginig.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ecab77c6b89efee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UnitTests/CodingBat/001.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -37,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "36aa2c68ecb5b963",
+    "id": "9bfc7473a674d789",
     "type": "split",
     "children": [
       {
-        "id": "e815af47f3ed32a3",
+        "id": "a0a10844e3ce1d65",
         "type": "tabs",
         "children": [
           {
-            "id": "0475739d34ea0a26",
+            "id": "6715f082df2e099d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +39,7 @@
             }
           },
           {
-            "id": "b3dd248cb9228503",
+            "id": "6162e34117e441e9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,7 +54,7 @@
             }
           },
           {
-            "id": "d874085ad43bc4cf",
+            "id": "6f53f49806ba9ca1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -84,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "add8c74a3dd24340",
+    "id": "60c72b2817aee3b5",
     "type": "split",
     "children": [
       {
-        "id": "12824160e2c4907c",
+        "id": "99d7bc418743489e",
         "type": "tabs",
         "children": [
           {
-            "id": "fb21b81dd8f0da59",
+            "id": "f306711a1c1b5570",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LearnXcode/Debugginig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,19 +92,18 @@
             }
           },
           {
-            "id": "affd291d2a6e1fd5",
+            "id": "8cd4742151921f26",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LearnXcode/Debugginig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "fd1e5ef93da9841c",
+            "id": "7ec5b71957ad6a47",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,13 +114,11 @@
             }
           },
           {
-            "id": "693aa3c712f31c6b",
+            "id": "77a9a2946fefcfc7",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "LearnXcode/Debugginig.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,17 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d90b1751baba7616",
-  "lastOpenFiles": [
-    "iOS Dev Job Interview/Video.md",
-    "LearnXcode/Debugginig.md",
-    "iOS Dev Job Interview",
-    "UnitTests/RunAdvices/How2Run.md",
-    "LearnXcode",
-    "UnitTests/CodingBat/001.md",
-    "UnitTests/RunAdvices.md",
-    "UnitTests/RunAdvices",
-    "UnitTests/CodingBat",
-    "UnitTests"
-  ]
+  "active": "226cb190a3b5a6b9",
+  "lastOpenFiles": []
 }
