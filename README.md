@@ -1,2 +1,2 @@
-# practice001
-some practice project from udemy 
+#     CodingWorkoutsAndNotes
+daily workout with coding
