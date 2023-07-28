@@ -1,14 +1,14 @@
 //
-//  CodingBatTestsUITests.swift
-//  CodingBatTestsUITests
+//  CodingBatUITests.swift
+//  CodingBatUITests
 //
 //  Created by Grzegorz Kulesza on 18/07/2023.
 //
 
 import XCTest
-@testable import CodingBatTests // Import your main target
+@testable import CodingBat // Import your main target
 
-final class CodingBatTestsUITests: XCTestCase {
+final class CodingBatUITests: XCTestCase {
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

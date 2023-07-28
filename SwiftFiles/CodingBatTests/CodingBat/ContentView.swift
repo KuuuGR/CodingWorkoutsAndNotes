@@ -1,22 +1,22 @@
 //
 //  ContentView.swift
-//  CodingBatTests
+//  CodingBat
 //
 //  Created by Grzegorz Kulesza on 18/07/2023.
 //
 
 import SwiftUI
 
-class SleepInManager {
-    func sleepIn(_ weekday: Bool, _ vacation: Bool) -> Bool {
-        return !weekday || vacation
-    }
-}
-
 struct ContentView: View {
+    var imageName: String
+
+    init(imageName: String = "globe") {
+        self.imageName = imageName
+    }
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: imageName)
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")

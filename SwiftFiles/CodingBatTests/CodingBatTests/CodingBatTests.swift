@@ -1,14 +1,14 @@
 //
-//  CodingBatTestsTests.swift
-//  CodingBatTestsTests
+//  CodingBatTests.swift
+//  CodingBatTests
 //
 //  Created by Grzegorz Kulesza on 18/07/2023.
 //
 
 import XCTest
-@testable import CodingBatTests
+@testable import CodingBat
 
-final class CodingBatTestsTests: XCTestCase {
+final class CodingBatTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

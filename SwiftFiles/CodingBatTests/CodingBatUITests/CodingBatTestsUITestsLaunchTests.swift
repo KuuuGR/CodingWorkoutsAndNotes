@@ -1,13 +1,13 @@
 //
-//  CodingBatTestsUITestsLaunchTests.swift
-//  CodingBatTestsUITests
+//  CodingBatUITestsLaunchTests.swift
+//  CodingBatUITests
 //
 //  Created by Grzegorz Kulesza on 18/07/2023.
 //
 
 import XCTest
 
-final class CodingBatTestsUITestsLaunchTests: XCTestCase {
+final class CodingBatUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
