@@ -1,5 +1,7 @@
 1. Github has no authentication method using password. So you need to generate PrivateAccess Token to have access to public repository
-2. Additionally for private accounts there is a need to make SSH and connect your computer with GitHub
+	-  If you switch from HTTPS to SSH (or vice versa), the easiest way to make SourceTree work again is to clone the repository again from GitHub with the new connection method. If the previous repository has some changes, you can use Finder to copy the entire folder content and then make a commit in the new repository.
+	- This procedure is considered a good practice, especially when using tokens with expiration times. It is not recommended to use tokens without expiration time due to safety procedures.
+1. Additionally for private accounts there is a need to make SSH and connect your computer with GitHub
 	1. Here are the step-by-step instructions to add your SSH key to your GitHub account on your MacBook:
 		1. **Check for Existing SSH Keys:** 
 			First, you'll want to check if you already have an SSH key on your MacBook. Open the Terminal application (you can find it in the Utilities folder within the Applications folder or use Spotlight search to find it), and enter the following command:
