@@ -47,4 +47,30 @@ class WarmupOneManager {
         }
     }
     
+    
+    /**
+       Given an integer `n`, the `nearHundred` function determines whether it is within 10 of 100 or 200.
+       
+       - Parameters:
+            - n: The integer input value.
+       
+       - Returns: `true` if the input integer is within 10 of 100 or 200, `false` otherwise.
+    */
+    func nearHundred(_ n: Int) -> Bool {
+        let diffFrom100 = abs(n - 100)
+        let diffFrom200 = abs(n - 200)
+        
+        return diffFrom100 <= 10 || diffFrom200 <= 10
+    }
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }

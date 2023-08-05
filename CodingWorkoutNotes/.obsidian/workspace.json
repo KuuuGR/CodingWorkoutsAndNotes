@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UnitTests/Swift tests.md",
+                "file": "GitHub Configs/Connect SourceThree with GitHub.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UnitTests/Swift tests.md",
+                "file": "GitHub Configs/Connect SourceThree with GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UnitTests/Swift tests.md",
+                "file": "GitHub Configs/Connect SourceThree with GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UnitTests/Swift tests.md"
+                "file": "GitHub Configs/Connect SourceThree with GitHub.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   "active": "226cb190a3b5a6b9",
   "lastOpenFiles": [
     "UnitTests/Swift tests.md",
+    "GitHub Configs/Connect SourceThree with GitHub.md",
+    "GitHub Configs",
     "UnitTests"
   ]
 }
