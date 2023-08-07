@@ -31,7 +31,7 @@ class WarmupOneManagerTests: XCTestCase {
         super.tearDown()
     }
     
-    //MARK: PROPER FUNCTION TESTS:
+    //MARK: MAIN FUNCTION TESTS:
     
     /// This test method tests the `sleepIn` function of `WarmupOneManager` with different combinations of input values.
     func testSleepIn() {
@@ -98,6 +98,46 @@ class WarmupOneManagerTests: XCTestCase {
         XCTAssertFalse(warmupOneManager.nearHundred(211)) // Expects false
     }
 
+    
+    // TESTS FOR missingChar FUNCTION:
+    /**
+     Test the `missingChar` function of the `WarmupOneManager` class.
+
+     This test method verifies the correctness of the `missingChar` function by testing it with various input values.
+
+     - Test Cases:
+       1. When the input string is "kitten" and the index n is 1, the function should return "ktten".
+       2. When the input string is "kitten" and the index n is 0, the function should return "itten".
+       3. When the input string is "kitten" and the index n is 4, the function should return "kittn".
+
+     This test method is part of the `WarmupOneManagerTests` class and ensures that the `missingChar` function behaves as expected for different scenarios.
+
+     - Note: The `missingChar` function takes a non-empty string and an integer `n`, and returns a new string with the character at index `n` removed.
+     */
+    func testMissingChar() {
+        // Test case 1: input string = "kitten", index n = 1
+        XCTAssertEqual(warmupOneManager.missingChar("kitten", 1), "ktten") // Expects "ktten"
+
+        // Test case 2: input string = "kitten", index n = 0
+        XCTAssertEqual(warmupOneManager.missingChar("kitten", 0), "itten") // Expects "itten"
+
+        // Test case 3: input string = "kitten", index n = 4
+        XCTAssertEqual(warmupOneManager.missingChar("kitten", 4), "kittn") // Expects "kittn"
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     //MARK: PERFORMANCE TESTS:
 
      /// Test cases for performance evaluation of "nearHundred" function
@@ -122,6 +162,25 @@ class WarmupOneManagerTests: XCTestCase {
          }
      }
     
+    
+    /// Test cases for performance evaluation of "missingChar" function
+    let missingCharTestCases: [(str: String, n: Int)] = [
+        ("kitten", 1),
+        ("hello", 0),
+        ("coding", 5),
+        ("world", 2),
+        ("swift", 4)
+    ]
+
+    /// This test method measures the performance of the `missingChar` function in `WarmupOneManager`.
+    func testMissingCharPerformance() {
+        measure {
+            for testCase in missingCharTestCases {
+                _ = warmupOneManager.missingChar(testCase.str, testCase.n)
+            }
+        }
+    }
+
     
     
     

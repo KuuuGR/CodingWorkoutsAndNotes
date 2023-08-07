@@ -47,7 +47,6 @@ class WarmupOneManager {
         }
     }
     
-    
     /**
        Given an integer `n`, the `nearHundred` function determines whether it is within 10 of 100 or 200.
        
@@ -64,6 +63,25 @@ class WarmupOneManager {
     }
 
 
+    /**
+     Returns a new string where the character at the specified index has been removed.
+
+     - Parameters:
+        - str: The original input string.
+        - index: The index of the character to be removed. It should be a valid index in the range 0..len(str)-1 inclusive.
+
+     - Returns: A new string with the character at the given index removed.
+
+     - Note: The function assumes that the index provided is a valid index in the input string.
+     */
+    func missingChar(_ str: String, _ index: Int) -> String {
+        var result = str
+        result.remove(at: str.index(str.startIndex, offsetBy: index))
+        return result
+    }
+    
+    
+    
     
     
     
