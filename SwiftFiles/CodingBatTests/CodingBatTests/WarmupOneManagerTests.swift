@@ -126,10 +126,23 @@ class WarmupOneManagerTests: XCTestCase {
     }
     
     
+    /**
+     Test the `monkeyTrouble` function.
+     */
+    func testMonkeyTrouble() {
+        // Test case 1: Both monkeys are smiling
+        XCTAssertTrue(warmupOneManager.monkeyTrouble(true, true))
+        
+        // Test case 2: Both monkeys are not smiling
+        XCTAssertTrue(warmupOneManager.monkeyTrouble(false, false))
+        
+        // Test case 3: One monkey is smiling, the other is not
+        XCTAssertFalse(warmupOneManager.monkeyTrouble(true, false))
+        XCTAssertFalse(warmupOneManager.monkeyTrouble(false, true))
+    }
     
     
-    
-    
+
     
     
     
@@ -180,6 +193,7 @@ class WarmupOneManagerTests: XCTestCase {
             }
         }
     }
+
 
     
     

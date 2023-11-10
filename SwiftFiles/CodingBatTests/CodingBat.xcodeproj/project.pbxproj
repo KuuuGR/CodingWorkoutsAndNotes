@@ -17,6 +17,7 @@
 		07784DA42A736A590062FFF9 /* CodingBatPython.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07784DA32A736A590062FFF9 /* CodingBatPython.swift */; };
 		07784DA52A736A590062FFF9 /* CodingBatPython.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07784DA32A736A590062FFF9 /* CodingBatPython.swift */; };
 		07784DA92A737BCA0062FFF9 /* CodingBatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07784DA82A737BCA0062FFF9 /* CodingBatApp.swift */; };
+		07F60B5B2A827AC000ECF711 /* WarmupOneManagerTests+TestSuite..swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F60B5A2A827AC000ECF711 /* WarmupOneManagerTests+TestSuite..swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		07784DA12A6650C40062FFF9 /* WarmupOneManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmupOneManagerTests.swift; sourceTree = "<group>"; };
 		07784DA32A736A590062FFF9 /* CodingBatPython.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingBatPython.swift; sourceTree = "<group>"; };
 		07784DA82A737BCA0062FFF9 /* CodingBatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingBatApp.swift; sourceTree = "<group>"; };
+		07F60B5A2A827AC000ECF711 /* WarmupOneManagerTests+TestSuite..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WarmupOneManagerTests+TestSuite..swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				07784DA12A6650C40062FFF9 /* WarmupOneManagerTests.swift */,
+				07F60B5A2A827AC000ECF711 /* WarmupOneManagerTests+TestSuite..swift */,
 				07784D852A6647980062FFF9 /* CodingBatTests.swift */,
 			);
 			path = CodingBatTests;
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07784D862A6647980062FFF9 /* CodingBatTests.swift in Sources */,
+				07F60B5B2A827AC000ECF711 /* WarmupOneManagerTests+TestSuite..swift in Sources */,
 				07784DA52A736A590062FFF9 /* CodingBatPython.swift in Sources */,
 				07784DA22A6650C40062FFF9 /* WarmupOneManagerTests.swift in Sources */,
 			);

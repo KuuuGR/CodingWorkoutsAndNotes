@@ -81,7 +81,19 @@ class WarmupOneManager {
     }
     
     
-    
+    /**
+     Checks if we are in trouble based on the smiling status of two monkeys.
+     
+     - Parameters:
+        - aSmile: A boolean indicating whether monkey 'a' is smiling.
+        - bSmile: A boolean indicating whether monkey 'b' is smiling.
+     - Returns: A boolean indicating whether we are in trouble or not.
+     */
+    func monkeyTrouble(_ aSmile: Bool, _ bSmile: Bool) -> Bool {
+        return (aSmile && bSmile) || (!aSmile && !bSmile)
+    }
+
+
     
     
     
