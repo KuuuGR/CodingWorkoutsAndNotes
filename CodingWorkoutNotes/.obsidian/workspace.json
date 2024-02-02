@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mojo/Transcriptions/Notes.md",
+                "file": "Typing/MyLayout/Ideas.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mojo/Transcriptions/Notes.md",
+                "file": "Typing/MyLayout/Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mojo/Transcriptions/Notes.md",
+                "file": "Typing/MyLayout/Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mojo/Transcriptions/Notes.md"
+                "file": "Typing/MyLayout/Ideas.md"
               }
             }
           }
@@ -161,13 +161,27 @@
   },
   "active": "ff0afc631bd23ae9",
   "lastOpenFiles": [
-    "Mojo/Transcriptions/Raw.md",
+    "Typing/Layouts/TrainingData/aTrainingDataIT.md",
+    "Typing/MyLayout/Ideas.md",
+    "Typing/MyLayout",
+    "Typing/Layouts/TrainingData/Lex Friedman.md",
+    "Typing/Layouts/TrainingData/Random Stuff.md",
+    "Typing/Layouts/TrainingData",
+    "Zx Organize Helper/Expanded_Raw.md",
+    "Zx Organize Helper/Gain Knowledge.md",
+    "Zx Organize Helper/Organise Knowledge.md",
+    "Typing/Keyboards/YouTube/Notes.md",
+    "Typing/Keyboards/YouTube/Raw.md",
+    "Typing/Keyboards/YouTube",
+    "Typing/Untitled.md",
+    "Typing/Keyboards",
     "Mojo/Transcriptions/Notes.md",
+    "Typing/Layouts",
+    "Typing",
+    "Mojo/Transcriptions/Raw.md",
     "Mojo/GPTs help/RAW/Chris Lattner in Lex Fridman podcast 381.md",
     "Mojo/Links.md",
     "Mojo/GPTs help/RAW/Untitled.md",
-    "Zx Organize Helper/Organise Knowledge.md",
-    "Zx Organize Helper/Gain Knowledge.md",
     "Zx Organize Helper/Untitled.md",
     "OrganizeHelper/Untitled.md",
     "Zx Organize Helper",
@@ -182,19 +196,6 @@
     "Kata/Learn Ideas.md",
     "Kata/Own 001 - Percent Tricks.md",
     "Kata/Swift_BP_Boot2.md",
-    "Swift/Essential developer/Links.md",
-    "Swift/Swift 4 Android/links.md",
-    "Swift/Paul Hudson/Links.md",
-    "Swift/News/Swift 5.9.md",
-    "Swift/Essential developer/Transcriptions/Notes.md",
-    "Swift/CodeWithChris/Links.md",
-    "Swift/Essential developer/Transcriptions/Raw.md",
-    "Swift/CodeWithChris/Untitled.md",
-    "Swift/CodeWithChris",
-    "Swift/Paul Hudson",
-    "Swift/Essential developer/Transcriptions/open?vault=CodingWorkoutNotes&file=Untitled.inetloc",
-    "Swift/Essential developer/Transcriptions/Links1.txt",
-    "Swift/Essential developer/Transcriptions/link2copy.txt",
-    "Swift/Essential developer/Transcriptions"
+    "Swift/Essential developer/Links.md"
   ]
 }
