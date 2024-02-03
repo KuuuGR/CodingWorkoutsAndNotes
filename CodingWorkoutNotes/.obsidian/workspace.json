@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typing/MyLayout/Ideas.md",
+                "file": "Typing/Layouts/TrainingData/EN/Sam Charrington.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typing/MyLayout/Ideas.md",
+                "file": "Typing/Layouts/TrainingData/EN/Sam Charrington.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typing/MyLayout/Ideas.md",
+                "file": "Typing/Layouts/TrainingData/EN/Sam Charrington.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typing/MyLayout/Ideas.md"
+                "file": "Typing/Layouts/TrainingData/EN/Sam Charrington.md"
               }
             }
           }
@@ -161,11 +161,21 @@
   },
   "active": "ff0afc631bd23ae9",
   "lastOpenFiles": [
-    "Typing/Layouts/TrainingData/aTrainingDataIT.md",
+    "Typing/Layouts/TrainingData/EN/Lex Friedman.md",
+    "Typing/Layouts/TrainingData/EN/Sam Charrington.md",
+    "Typing/Layouts/TrainingData/EN/Steven Bartlett.md",
+    "Typing/Layouts/TrainingData/EN/zRandom Stuff.md",
+    "Mojo/Transcriptions/Raw.md",
+    "Mojo/Transcriptions/Notes.md",
+    "Typing/Layouts/TrainingData/emptySheet.md",
+    "Typing/Layouts/TrainingData/EN",
+    "Typing/Layouts/TrainingData/PL/różności.md",
+    "Typing/Layouts/TrainingData/PL/erotyka/PortalKobiet.md",
+    "Typing/Layouts/TrainingData/PL/erotyka/Untitled.md",
+    "Typing/Layouts/TrainingData/PL/erotyka",
     "Typing/MyLayout/Ideas.md",
+    "Typing/Layouts/TrainingData/PL",
     "Typing/MyLayout",
-    "Typing/Layouts/TrainingData/Lex Friedman.md",
-    "Typing/Layouts/TrainingData/Random Stuff.md",
     "Typing/Layouts/TrainingData",
     "Zx Organize Helper/Expanded_Raw.md",
     "Zx Organize Helper/Gain Knowledge.md",
@@ -175,10 +185,8 @@
     "Typing/Keyboards/YouTube",
     "Typing/Untitled.md",
     "Typing/Keyboards",
-    "Mojo/Transcriptions/Notes.md",
     "Typing/Layouts",
     "Typing",
-    "Mojo/Transcriptions/Raw.md",
     "Mojo/GPTs help/RAW/Chris Lattner in Lex Fridman podcast 381.md",
     "Mojo/Links.md",
     "Mojo/GPTs help/RAW/Untitled.md",
@@ -186,16 +194,8 @@
     "OrganizeHelper/Untitled.md",
     "Zx Organize Helper",
     "Mojo/GPTs help/Chris Lattner and Lex Fridman.md",
-    "Mojo/Transcriptions",
     "Swift/John Sundell/Links.md",
     "Swift/Random Swift/Links.md",
-    "Swift/John Sundell",
-    "Zx GitHub Configs/Connect SourceThree with GitHub.md",
-    "Swift/Random Swift",
-    "Kata/Fields of improvement.md",
-    "Kata/Learn Ideas.md",
-    "Kata/Own 001 - Percent Tricks.md",
-    "Kata/Swift_BP_Boot2.md",
-    "Swift/Essential developer/Links.md"
+    "Zx GitHub Configs/Connect SourceThree with GitHub.md"
   ]
 }
