@@ -1071,7 +1071,7 @@ paste here
 ----------
 
 -----
---10--
+--10--     https://www.youtube.com/@lexfridman/videos
 
 -----
 Date:
@@ -1107,7 +1107,8 @@ paste here
 ----------
 
 -----
---07--
+
+--07--  
 
 -----
 Date:
@@ -1119,26 +1120,1307 @@ paste here
 ----------
 
 -----
+
 --06--
 
 -----
-Date:
-Link:
+Date: 2016.09.27
+Link: [Sequence to Sequence Deep Learning (Quoc Le, Google)](https://www.youtube.com/watch?v=G5RY_SUJih4)
 Transcription:
 
-paste here
+eating that were divided in two parts so number one and we work with you and
+develop the sequence to sequence learning and then that's the second part I would I will place sequin to sequence
+in a broader context or a lot of exciting work in this area now so let's
+multiply this by a an example so a week
+ago I came back from vacation and my in my inbox I have five hundred and eight
+emails and reply emails and a lot of emails I basically just require just yes
+and no answer so let's try to see whether we can do a system that can
+automatically reply these emails to say yes and no and for example so some of
+the email would be you know from my my friend on she said hi in the subject and
+she said are you visiting Vietnam for the New Year walk that would be her content and then my probable reply would
+be yes so you can gather another set like this and then you know you have
+some inputs content so less for now let's ignore the the the on the author
+of the email and the subject but let's focus on the content so let's suppose that you gather some email and some
+input would be something like are you visited in Vietnam for the New Year Kwok and the answer will be yes and then the
+another email would be are you hanging out with us tonight the answer is no because I'm quite busy
+so the third email would be did you read the coolness paper on breast net the
+answer is yes because I liked it now let's let's do a little bit of
+processing we're basically in the in the previous slide we have gear and comma
+and then kwok and then question mark and so on so let's let's do a little bit of
+processing and then put the the comma a
+space between gear and comma and then Kwok and question mark and so on so this
+step a lot of people call tokenization and normalization so let's do that with our emails now so and then the second
+step I would do would be to do feature representation so in this step what I'm going to do is the following I'm going
+to construct a 2,000 dimensional vector 2,000 represent the size of English
+vocabulary and then I'm going to go through email I'm going to count how many times a particular word occur in my
+email for example for example the world
+are occur one in my email so I increase the counter and then you occur one so I
+increased another counter and s etc and then I will reserve at the end a token
+to reserve to just count all the words that just our vocabulary okay and then
+now you now use successful you if you do this project a process you're going to
+convert all of you or your email from input to output pairs where the input would be fixed line representation of
+20,000 dimensional vector and output would be either year or one okay any
+questions so far okay good
+okay so I will get so as you said somebody in the audience that the order
+of the words don't matter matter and the answer is yes so I'm going to get back to that issue later now so
+that's x and y and now your job my job now is to try to find some W search that
+W time X can approximate Y Y is the output right and Y here is yes and no so
+because of this problem is has two categories you can think of it as a
+logistic regression problem now if anybody follow the gray cs2 10:29 class
+by andrew probably can formulate this very quickly but in a very short you the
+album comes as follow you kind of try to come up with a vector for every email
+your w is a two column matrix okay
+the first column will find the probability for the eat whether the email have to be answer as yes second
+column will be answered as no and then you basically take the dot product
+between w1 at the first column now Adam is called the stochastic gwendy set so
+you run for iteration one to like a million you run for a long long time you sample a random email X and then some
+reply and then if the reply is yes then you want to update your w1 and w2 such
+that you increase the probability that the answer is yes so you increase the
+first probability now if your reply is if the correct reply is no then you're
+gonna update w1 and w2 so that you can increase the probability of the is email
+to be answered as you know so the second probability okay so let's call those a p1 and p2 now so because to
+update I said to update the increase what does that mean what that means is that you find the gradient of the
+partial gradient of the objective function with respect to some parameter so now you have to pick some alpha which
+is the learning rate and then you say W 1 is equal to W 1 plus some alpha the
+partial derivative of block of P 1 with respect to D of W 1 ok
+now I cheated a little bit here because I used the log function it turns out because the log function is a mono is a
+monotonic increasing function so increasing P 1 is equivalent to increase in the log of P 1 ok and it usually with
+this formulation stochastic gradient descent works better any question so far
+and then you can also update you know W 2 if the email is to be reply is yes and
+you can you can have different way to update and to if the reply is no so
+what's a and then if you have a new email coming in then you take X and then
+then you control into the vector then you compute the first probability ok W 1
+time X divided by W exponential W 1 time X plus exponential or W 2 time X and if
+that probability is larger than 0.5 then you say yes and if that probability is
+less than 0.5 then you say no ok so that's how you do prediction with this
+now now this there's a problem with this representation is that there's some
+information loss so somebody in the audience just said that the order of the words don't matter and that's that's
+true now let's let's fix this problem by using something called the recurrent
+Network and I think a rigid soldier already talked about recurrent networks
+and some part of it yesterday and Andrei as well now there the idea of a
+recurrent Network is basically you have also have fixed representation for your
+input but it actually preserves some sort of info ordering information and
+the way that you compute the hidden units the following so the function hash of Euro is
+basically hyperbolic hyperbolic tangent of some some matrix you time the work
+vector for the world are okay so Richard also talk about what vectors yesterday
+so you you can take what vectors coming out of what to back or you can just
+actually randomly initialize them if you want to okay so let's suppose that that's H of zero now H of one would be a
+function of H zero and the vector for
+you which is a times H of zero plus u
+times V of vector u and then you can keep going with that to see one of my
+three three most complicated slides so you are you should ask questions no
+questions so everybody familiar with recording that sir well
+okay so to make predictions with this but you you tack on the label at the
+last step and then you say try to predict why for me how do you do that now here I I basically you you went the
+way you did before and basically you make update on the W matrix which is the
+the classifier at the top like what I said earlier now but you also have to
+update all the relevant matrices which is the matrix you the matrix a and some
+work vectors right so this is basically you have to compute the partial
+derivative of the last function with respect to those parameters now that's
+going to be very complicated and usually I when I do that I do that myself I get
+that wrong but there's a lot of tools out there that you can use which is you
+can use auto auto differentiation in tensor flow or you can call torch or you
+can call piano to actually compute the derivatives and once you have the derivatives you can just make the update
+right yeah yes so you the matrix you are
+share so I'm going to go back to one side so this matrix you I share all for
+all vertical matrices right and the size
+you have to determine ahead of time for example the number of column would be
+the size of the work vectors but the number of rows must be like like a
+thousand if you want or maybe 255 you want so this is model selection and it
+depends on whether you under fit in over fitting to choose a bigger model or a smaller model and your compute power so
+that you can train a larger model a smaller model
+the matrix you yeah so the the work
+vectors the world vectors the number of work vectors that you use are the size
+of vocabulary right which is so you gonna tend to end up with 20,000 work
+vectors right but the the size of so that means you have 20,000 rows in
+matrix U but the number of column you can sorry the number of column is 20,000
+but the number of row would be you have to determine up just yourself okay any
+other questions now okay so what's a big
+picture so the big picture is I started with bag-of-words representations and
+then I talked about a and n as a new way to represent variable size input that
+can capture some sort of ordering information then I'll talk about Auto differentiation so that you can compute
+the partial derivatives and these you can find auto intensive flow or piano or
+torch now then I talked about stochastic when descent as a way to train the
+neural networks and the question so far
+okay you have a question oh that's also
+depends on how big your your training set and how big is your computer and so
+on right but usually if you use an N and if you used like a hidden state of a hundred you should take like a couple
+hours yeah but it depends largely largely depends on you know size of
+training data because you want to iterate for all a lot of you sample a lot of emails right you and you want
+your algorithm to see as many emails as possible right so okay so if you use
+such algorithm to just say yes no and just know then you might end up losing a lot of friends
+because because because we don't just
+say yes no because we went to say when
+for example my friend asked me are you visiting Vietnam for the new year walk then maybe the better answer would be yes see you soon right that's not better
+nicer way to approach this and then if if my friends ask me are you hanging out
+with us tonight so instances say no I would say no I'm too busy or did you read the coop ok
+right so let's let's see how we're going to fix this so so before I'm gonna tell
+you the solution I would say this is the this problem is drew it basically
+requires you to map between variable size input and some variable to some
+variable size output right and if you can do something like this then there's a lot of applications because you can do
+auto reply which is what we've been working on so far but we can also work on user to do translation just like
+between English French you can do image captioning so input would be an a fixed
+like vector or representation coming from conflict and then output would be the cat sat on the mat right or you can
+do summarization the input will be a document and output would be some summer summary of it or you can do two speech
+transcription where you can have input would be speech frames and output would
+be words or you can do conversation so basically the input would be the
+conversation so far and the output could be might reply or you can do cue night etc etc so we can keep going on now so
+how do we solve this problem so so this is this is hard so let's check out what
+Android capacity has to say about recurrent networks okay so so Android
+say that there's more than one way that you can configure your network to do things so we can do you could use your
+network to map recurrent networks to map one two right so the at the bottom that's an
+input the the green would be the hidden state and the output would be the what
+you want to predict now 1 1 2 1 is not what we want right because we have many
+too many so it's probably more like the last two to the right right but we
+arrived as the solution that I said in the red box and the reason why it does
+that's a better solution is because the the the size of the input and the size
+of output can vary a lot sometimes you have smaller input but larger output but
+sometimes you have larger input and smaller output so if you do the one in
+the red circle you can be very flexible right if you do the one to the extreme
+right then maybe the output has to be smaller or at least the same with the
+with the input right which what we are that's what we don't want so let's construct a solution that look
+like that so okay so here's the solution so the input would be something like hi
+how are you right and then let's put a special token unless let's say the token
+is end and then you're going to predict the first token which is M and then you
+predict the second token fine and then you predict the throat Oken thanks and then you keep going on until you predict
+the world end and then you stopped now I
+want to mention that B in the previous set of slides I was just talking about
+yes and no and ingest no you have only two choices okay now you have more than
+two choices you have actually 20,000 choices and you can actually use the
+algorithm that are the the logistic regression and you can expand it to cover that more than one more than two
+choices you can have a lot of choices okay and then the algorithm uses just
+follow the same way now so dizzy my first solution when I say walk - sick
+- sick but it turns out it didn't work very well and the reason why I didn't work very well is the model never know
+what it actually predicted in the in the last step so it keep a keep going and
+you keep synthesizing output but it didn't know what it said it didn't know what decision it committed in the
+previous step so a better simpler solution would look like this a better solution is you back basically you feed
+what the model predicts in the previous step as input to the next step alright
+so for example in this case I'm going to take am I'm going to feed it in to the next step so that I'm conduct completing
+the dance in the second world which is fine and etc so a lot of people call
+this concept auto regressive so you you take your you eat your own output and
+make it as your input any questions so far or whenever it produced end then
+just stop there's a special token end yeah now okay so the so relevant architecture
+here would be the end code people also call the encoder as the what the
+recurrent network in the input and the decoder would be the recurrent network in the output okay okay so how do you
+train this so again so you basically you run for a million steps you see all your
+emails and then you say you sample and for each iteration you sample an email X
+and a reply why why would be you know I'm fine thanks right and then the
+sample random work YT in Y and then you update the iron and encoder and decoder
+parameters so that you can increase the probability that Y of T is correct given
+all what you seen before which is your YT minus 1 YT minus 2 etc and also all
+the axes right and then you have to compute the partial derivatives to make
+it work so the computing part partial this is very difficult so again I recommend you to use something like Auto
+differentiation intensive flow or torch or Tiano okay you have a question yeah
+but the recurrent Network the number of parameters didn't change because you have U and V a UV and I are fixed right
+okay so the question in the in the audience is that there's um if the iron
+and are different in four different example and the answer is yes so the number of steps and are different I have
+a question there okay yeah I'm gonna get
+to that in the next slide yeah okay all right so the question is a
+in practice how long would I go to for the RN I would say if you usually stop
+at like 400 steps or something like that because outside of that it's going to be too long to make the update and compute
+it's very expensive to compute but you
+can go more if you want to yeah I have a question yeah
+yeah yeah yeah so that's a problem so if I'm going to talk about the prediction
+next so let me go to the prediction and then you can ask questions so okay so how do you do prediction so this the
+first algorithm that can we can you can do is go greedy decoding okay in greedy
+decoding is for any incoming email X I'm going to find I'm going to predict the
+first word okay and then you find the most likely word and then you feed back in and then you find the next most
+likely word and then then you feed back in and etc so if you keep going you keep
+going until you see the world end and then stop all it is exceed a certain length you stop okay
+now that's just do greedy okay so let's let's do a little bit less greedy so it
+turns out that so given X you can predict more than one candidate so let's say you can predict a candidate's let's
+say three okay so you take three candidates and then for each candidate
+you're going to feed in the next step and then you arrive at three so the next step you're going to be have nine candidates right and then you're going
+to end up going that way so here's a picture so given input X I'm going to
+predict the first token there would be hi yes and please and given every first
+token like this I'm going to feed back into the network and the network will produce another three and etc so you're
+going to end up with a lot of a lot of candidates so how did you select the best candidate well you can traverse
+each beam and then you compute the John probability at each step and then you
+find the sequence I have the highest probability to be the sequence of choice
+what is your reply any question to see
+the most complicated slide in my talk oh yeah yes so the question is what do
+you do with our vocabulary works now it turns out in this algorithm what you do is that for any word that is our
+vocabulary you create a token call unknown and you map everything to
+unknown or anything that our vocal every vocabulary to be unknown so it doesn't
+seem very nicely but usually it works well there's a bunch of algorithms to
+address these issues for example they break it into like characters and things like that and then it you could fix this problem
+yeah yeah the cost function is that so I
+go back one slide so the cost function one more slide so the cost function is
+that you sample a random were YT here
+let's suppose that here I this is my input sofa or an input and I'm sample YT
+let's say T is equal to 2 so which means the work fine okay I'm at the work fine
+I want to increase the probability of the model to predict whoa fine
+so the every time the model will make a lot of predictions some a lot of them
+will be incorrect right so you have a lot of probabilities you have probability for the water and
+the probably a and etc and then probably for zzzzz right and you have a lot of
+probabilities you want the probability probabilities for the worst for the work
+fine to be as high as possible you increase the probability does that make
+sense or you condition on IIM so you condition
+so when I'm at fine my input would be hi how are you and and um okay that's
+that's all I see and then I need to make a prediction and I have to make that prediction right right and you know if
+I'm at the world thanks my input would be hi how are you and I'm fine and I
+gotta get my thanks for probability right okay yeah I have a question here
+oh I haven't thought about it yet so the
+question is how do you personalize so well one way to do it is basically embed a user as a vector so let's suppose that
+you have a lot of users and you embed a user as a vector that's one way to do it yeah I have a question here
+yeah yeah so the question is that let's
+suppose that my beam search is 10 then you go to from 10 like a hundred and
+then a thousand and suddenly it grows very quickly right it go to rule a if
+you if your sequence is long then you end up with K to the N or something like that well one way to do it is basically
+you do truncate that beam search where any any sequence with very low probability you just pick it up you
+don't use it anymore so you go so you can do this you can do 3 9 and then you
+ten to seven and then you go back up to 9 right and then you keep going so that
+way you don't end up with a huge beam and usually in practice using like a
+beam size of three or ten would work just fine and whoops wait yeah yeah I
+have a question okay so for because it's
+a 9n we don't have to Pat the input now to be fast sometimes we have to Pat the
+input because we want to make use make sure that batch processing what's very
+well so you'd be bad but we paired with only like zero tokens
+okay yeah so let's suppose that you have
+a sequence of ten then you have a graph of ten when you have a sequence a batch of all twenty you haven't made a graph
+for twenty and etc yeah that will make the GPU very happy I have a question
+that oh so so you are you asking sort of so
+my interpretation of your question is how do you insert the world embedding into the model is that correct our user
+embed an old if you want to personalize the thing then at the beginning you have a vector and that's a vector for quoc
+with a ID one two three four five and then if is Peter then the vector would
+be five six seven eight yeah yeah that's
+one way to do it yeah well there's more than one way you can do it at the end or you can do it at
+the beginning or you can insert a tab at every prediction steps but my proposal
+is just predict put it at the beginning the simpler okay I have a question there yeah you
+yeah
+that's a very good question the question is what if the model details right if we
+make a prediction and then that's a bad prediction and your model never see and then it keeps detailing and it will
+pretty produce garbage yeah that's a that's a good question so I'm going to get to that so well so this is sly so
+there's an algorithm for scheduled sampling so in scheduled sampling what you do is you you instead of feeding the
+truth during training you can fee feet what sample from the sub max so what
+generated by the model and then feed in as input so that the model understands
+that if it produce something bad it would suck actually can recover from it right so that's that's one way to
+address this issue is that make sense yeah any question there's a question
+here okay yeah yeah yeah so in this
+algorithm yeah the question is how large is the the size of the Dakota well my
+answer is that try to be as large as possible but it's going to be very slow and in this algorithm what happens is
+that you you use the same you use like
+fixed length embedding for like to represent the very very much the long
+term dependency like a huge input right and that's going to be a problem so I'm
+going to come back to that issue with the attention model in a second okay
+any question okay here's a question
+ah so does the model learn synonyms is
+that a question or what's the question oh I see well yeah it turns out that if
+you learn it turns out that it mapped good and if you visualize embedding the good and fine and so on I'm not very
+closely to the to the embedding space but in the output there's we don't know
+what else to do the other approach is basically to train the world embeddings using water vac and then try to ask the
+model to regress to the world imbalance right so that's one way to address this issue we tried something like that did
+not work very well so whatever we have in here was pretty good okay I have to
+keep going but like any way the algorithm that you've seen so far turns
+out actually answer some emails so if you use the smart reply feature in inbox
+it's already used this system in production now for example in the indc
+me email my colleague Ricardo got an email from his friend saying that hey we
+wanted to invite you to join us from the early Thanksgiving on November 22nd
+beginning around 2:00 p.m. please bring your favorite dish and reserve by next week and then it would propose three
+answers for example the first answer would be telecine second answer would be
+will be there and the third answer is sorry we won't be able to make it now
+this where do these three answer come from those those are the beams now there's an algorithm to actually figure
+out the diversity as well of the beams so that you don't end up with very similar answers so there's an algorithm
+that like a heuristic that make these beams a little bit more diverse and then
+they pick the best three to present to you
+okay any question yeah I have a question here
+yeah there's no guarantees so the question is how do I guarantee that the the beam would terminate an end now
+there's no guarantee it can go on forever the indeed there are certain cases like that if you don't train the
+model very well now but if you train the model well with with very good accuracy then the model usually terminates highly
+see any cases that it don't terminate it doesn't terminate yeah but there are
+some corner cases that it will do funny things but you you can stop the model
+after like a thousand or hundred or something like that so that you make sure that the model doesn't do that
+doesn't go on crazy right I have a question here
+that's very interesting yeah it just comes out because there's a lot of emails and if you invite someone there's
+more than one person and it might be it learns about Thanksgiving it just mean inviting the whole family things like
+that yeah it just learned from statistics yeah or
+maybe that something like that yeah okay okay oh in industry algorithm so the
+question is do I do any post processing to correct the grammar of the beams in this algorithm we did not have to do it
+yeah okay I have another question
+so okay so the question how contextual so I would say we don't have any user embedding in this so it's pretty general
+the input would be the previous emails and the output would be the prediction
+the reply that's all we have so it sees a context which is the threat sofa okay
+did I answer your question okay yeah we
+you can catch me up after the talk yeah oh yeah it ran down too so yeah slow
+question oh oh I see
+so the question is there's some some emails are not relevant for a smart apply maybe they've too long or you
+should not reply or something like that so in fact we have two algorithms so one hour with them this is to say yes or no
+to reply right and then after it passes
+the threshold there's an algorithm to run to produce the threshold so it's a combine of two our rhythms that are
+actually I presented earlier yeah I have
+to get going but you can get back to the question so there's a lot of a more interesting stuff coming along okay so
+so what's a big picture so far so the big picture is that we have an i NN encoder that it's all the input and then
+we have an iron and decoder the trying to predict one token at a time in the output now everything else force is the
+same way so you can use stochastic when you sent to train the algorithm and then
+you you do beam search decoding usually you do app in search of up 3 and then
+you should be able to find good food good beam with the highest probability now someone in the audience brought up
+the issue that we use fixed length representation so just before you you make a prediction
+the Japan the hm and the white thing right before you go to the Dakota okay
+that is the fixed-line representation and you can think of it as like it's a vector that capture all everything in
+the in the input right it could be a thousand words or could be five words
+and you use a fixed length representation for a variable length input which is kind of not so nice so we
+want to to fix that issue so there's an algorithm coming along and it's actually
+invented at a at University of Montreal you're sure he's here so the idea is to
+use an attention so how does an attention work so in principle what you
+want is something like this every time before you make a prediction let's say you predict the world am you kind of won
+a loop again at all the hidden state so far you want to look at all what you see
+in the input software okay now say when you do fine you also want to see all the
+all the hidden state of the input sofa and and on now how do you do that in as
+a program so well you can do this so you H of M you predict a vector C let's say
+that vector is the same dimension with all the H okay
+so if the your H of one each dimension of 100 then C also have a dimension of
+100 okay and then you take C and then you do dot product dot product with all the H okay and then you have
+coefficients a 0 a 1 blah blah blah to a
+to the N okay and those are scalars okay
+and then after you have those scalars you compute something called the beta which is basically I stop max of all the
+Alpha right so 2q compute that you take the exponent bi is an exponential our AI
+divided by the sum of Exponential's okay okay and then you take those bi and then
+multiply by H by and then you take the weighted average and then you take the sum and then you
+send it to add additional signal to predict the war and and then you keep
+going with that right so in the next step you also predict another C and then you take that C to compute the dot
+product you compute the B the a and then you can compute the B you can take the B you do the weighted average and then you
+send it to the next time to send it to the prediction and then you use stochastic when you send to Train
+everything okay and this autumn is implemented in
+tensorflow okay so how how into table
+what is going on here so let's suppose that you want to use this for translation so in translation you wanna
+for example the input would be hi how are you and the output is Ola combos
+paths or something like that okay and then when you put it the first word you
+want Ola to correspond to the world hi okay because there's an one-to-one
+mapping between the word high and Ola so if you use the attention model the
+beta's that you learn will put a strong wait for the words Ola for the world
+high and then it has a smaller wait for all the stuff and then if you keep going then when you say Como's then it will
+focus on how and etc okay so it moves that coefficient it put a strong
+emphasis on the relevant world and especially for translation it's extremely useful because you know the
+one-to-one mapping between the input and output any question so far this is
+definitely very complicated yeah I have a question
+all right now the beta other day and be alone so I don't I don't
+and so the question is how do I deal with languages where the order them like reverse for example English to Chinese
+Japanese right so some of the verbs get moved and things like that well I didn't I did not have cold air be they are
+learned so by virtue of learning they will figure out what beta to put right
+to wait the input and those are computer basically computed migrated set right so
+they just keep on learning okay I have a
+questionnaire okay yeah so the question
+is are they any work on putting attention in the output yeah I think I think you can do that I'm not too
+familiar with any work in here but I think it's possible to do it I think some people explore something like that
+yeah any question oh I have a question another question
+yeah yeah yeah yeah yeah so so the question
+is less about because right now the world hi is capitalized at the first
+character it doesn't mean I'm using two n or n vocabulary size so in practice
+you we should do some normalization if you have a small data set what you should do is you normalize the tax so
+high will be like lowercase and etc now if you have a huge data set doesn't
+matter we just learn okay yeah I have a question there right yeah so it
+so the question is in a sense it's capture the the positional information in the import yeah I agree I have a
+question there a pattern punctuation ah
+so the question is what do I do with punctuation well they are in right now
+I just present the algorithm as if it's a very simple implementation like the
+very basic but one thing that you can do is you you before you train the
+algorithm you put a space between the world and the punctuation so that you do
+some that is that step is called tokenization or normalization in language processing so you can use any
+like a stanford NLP package or something like that to normalize your text so that
+is easy to train now if you have infinite data then if you just learn itself okay so I should get going
+because there's a lot of other interesting stuff okay so it turns out that the the basic implementation but if
+you want to get good results and if you have big data sets so one thing that you can do is to make the network deep and
+one way to make deep is is in the following way so you stack your your recurrent network
+on top of each other right so you know like in the first sequence of sequence paper we use a network of four but
+people are gradually increasing to like six I and so on right now and they getting better and better result like in image
+net if you make a network people you also get better results okay so i if you
+wanna train sequin to sequins with attention then do a couple years ago
+when we like many laps working on this problem were behind the state-of-the-art
+but right now in translation many translation tasks basically this model
+our audio already achieved state-of-the-art without in a lot of these the pomt datasets so to train this
+model so number one is that as i said you might end up with a lot of
+vocabulary our vocal vocabulary issues
+so what Barack Obama will be this an unknown right Hillary Clinton and season
+unknown now you you might use something like what segments right so you segment
+the words out for example Barack Obama would be bar and drag and etc or you can
+use all the smart algorithms for example word character split you can split words
+that have unknown to be in two characters and then you treat the meta character there's some work at Stanford
+and they prove that it works very well so that's one way to do it you know tip number two is that you you when you
+train this algorithm because you when you do back propagation or forward propagation you multiply you essentially
+multiply a matrix many many times so you have explosion of function value or or
+the gradient or implosion as well now one thing that you can do is you click
+the grade in a certain value right so you say that if the gradient magnitude
+of the gradient is larger than 10 set it to ten okay then tip number three is to
+use giu or in our work we use a long short term memory okay so I want to
+revisit this long short-term memory business a little bit okay so what's the long short-term memory so in
+use an iron cell basically you can catenate your input and your the the
+hidden state and then you multiply by some theta and then you apply with some
+activation function let's say that's a hyperbolic tangent okay now that's the
+simple function for n n now in lsdm you
+basically you multiply the input and hash by a huge big matrix let's call
+that theta that theta is four times bigger than the theta I said in the iron
+and cell and then you're going to take that Z okay that coming out you split it
+into four blocks its block you can compute the gates and then you you use
+the the value of a something called like the cell and then you keep adding the newly computed computed values to the
+cell so there's this apart here that I say that the integral of C is that what
+it does is basically it keep a hidden state where it keep adding information to it so it doesn't multiply information
+but it's keep adding information you don't need to know a lot of this if you want to just apply a SDM because it's
+already implemented intensive law any
+questions so far okay so in terms of applications you can
+use this thing to do summarization so I've seen I started seeing work in some radiation pretty
+exciting you can do image captioning so and the input in that case would just be
+a representation of an image coming out from vgg or coming out for google net
+and etc and then you send it to the I end and and we do the decoding for you or you can use it for speech recognition
+or transcription or you can use it for QA so to the next part of the project
+the top and we'll talk a little bit about speech recognition okay so well in speech recognition the
+input could be maybe waveforms right and then an output could be some words you know hi how's it well
+one thing that you can do is you drop your input into Windows that's the green
+box is there and then you crop a lot of them and then you send a lot of them to an iron and then you convert it into MFC
+see before you send to Ana MFC see or spectrogram or something like that okay and then you use the algorithm that I
+said earlier and then with attention and then you do the transcription you
+predict one word at a time in the output now the problem with this algorithm is
+that in turn when it comes to speech you end up with a lot of input right you can
+end up with thousands and thousand steps so back propagating in time even with attention can be difficult now one thing
+that you can do is basically you do some kind of a pyramid to map the input so
+you if you do enough layers you can divide your input into a factor of eight
+or sixteen if you do enough layers right and then you produce the output so we we
+work in on an implementation where the output is actually characters like like
+the in the by - squawk where they have the ctc now I have to say that the
+strength of this algorithm is that you actually have an implicit language model in the output so when I say I when I
+have the word how is actually conditioned on hi and stop before right and including the
+input so there's an implicit language model already but the problem with this
+is that actually you have to wait until the end of the input to do the coding so
+the decoding has to be done offline okay so if you use this for voice search it
+might not be too nice because people want to see the some some output right
+away okay so in that case there's an algorithm that can use it do it in an online fashion
+block-by-block now also I have to
+mention that in translation this hour the sequence sequence a wit attention
+works great it's a among the stay of the art but when it comes to speech it doesn't work
+as well as the CDC at least in published results we're not as good as CDC which
+is whatever what Adam talked earlier or some of the hmm DNN hybrid which is
+which is the most Wylie speech system currently so I want to pause there and
+then I can take questions any questions I have a question at the back yeah yeah
+yeah yeah
+Oh so how does the book in translation
+well in translation what we do is basically we have pairs of sentences so
+for example hi how are you and then hola como estas right and then we have pairs
+of sentences like this and then we just feed it into the turns out into the sequence two sequences attention at
+every step we again we're going to predict one word at a time but before we make a prediction the model has the
+attention so it actually see the the input once more before it makes a
+prediction that's how it works now what is can you repeat okay what is the issue with with a model again please
+yeah
+I see well I I can't quite follow the question but let's take it offline
+is that okay yeah yeah and then we can do some paper okay together
+I have a question yeah yeah yeah okay so
+the model I did the inbox thing that I presented it was on in English but there's no limitation in the model in
+terms of language so let's suppose that you in your inbox that you sometimes you
+write in English and sometimes you you write in in Vietnamese or sometimes you write it in Spanish whatever and you
+personalize by user embedding that I would say that it will just learn your behavior and then we will basically
+predict the world that you want you make you but make sure that your your output bank vocabulary is large enough so that
+it covers not only the English words but also the Spanish word and etc like
+Vietnamese and so on so your vocabulary gonna be not going to be 20,000 it's going to be like a hundred thousand
+because you have more choices and then you have to change your model on on those examples yeah it's a matter of the
+training data that's all okay I have a questionnaire yeah
+yeah yeah I saw the question is that in the case of voice search right now you have to wait at the end to make a
+prediction is there any otherwise yeah yeah the answer yes you can make a prediction block by block so you can
+actually figure out like an algorithm a simple algorithm to actually segment the speech and then make a prediction and
+then take the prediction and feed it it as input at the next block so you can keep going like that so you in theory
+you can actually do online decoding but but I'm saying that the work on you can
+do online decoding but that work is currently work in progress how about
+that okay I have a question there yeah
+over here so we have some input email and then some output email where export
+written emails reply and then you can just strain it that way yeah yeah okay I
+have a couple questions
+yeah yeah the question is that in speech
+recognition the CDC seems to be a very nice framework because it match it laser like a monotonic increase Minh in the
+output and the input but let CTC make this independent assumption it doesn't
+have a language model in it maybe that's the the sequence of sequence I can address this oh yeah I
+think that's a great idea maybe we should write a paper together okay I think I think I haven't seen it
+but I think that's a very good idea question
+I say okay great so so the question is that is there because right now we
+predict one step at a time is there any way to actually look globally at the output and maybe use some kind of
+reinforcement learning to adjust the output and the answer is yes so there's a recently a recent paper at Facebook
+who I think sequence level training or something like that where they don't optimize for one step at time but they
+predict they look at the globally and then they try to improve world at a rate or they try to improve blue score or
+things like that for translation and it seems to be making some improvement in the metrics that they care about now if
+you show it to humans though people still prefer the output from this model
+so some of the metrics that we use in translation and so on might not be what
+the metrics that we optimize and the next step prediction seem to be what people like a lot in translation yeah so
+so the question is can we add the GaN loss like it again lost yeah I think that's a great idea yeah I have a
+question here yeah yeah
+change yeah yeah
+so let's suppose that you type the first ha hola then you can actually start the
+beam from there so the question is is there any way to incorporate user input
+so I say yeah it let's suppose that you wanna you say hola sorry
+hi how are you right and then as soon as the person type hola that actually restrict your beam so you
+can actually condition your beam on the first world Ola and your beam will be better yeah I think that's a good idea
+I have a question oh so how much data
+did we use so in translation for example we use the several several WMT coppices
+Cobra and the W empty copper I usually have tens of millions of seven pairs of
+tendencies something like that and every every sentence have like 20 words on
+average twenty thirty words on average I can't remember but that's something like that order of magnitude yeah yeah I have a question there I
+can't really hear also how's it compared
+to Google search auto-completion I honestly I don't know what to use
+underneath a Google search auto-completion but if I were if they you if I think they should use something
+like this because it's okay I have still
+lots of interesting stuff coming along so okay okay so what's a big picture so
+the big picture is so far I talked about sequin to sequence learning and
+yesterday Andrew was talking about most of the big trends in deep learning and
+it talking about the second trend was basically doing end-to-end deep learning so you can characterize sequence of
+sequence learning as an 2n deep learning as well now so the framework is very
+general so it should work from a lot of NLP related tasks because a lot of them
+you would have input sequence and output sequence in our NLP it could be input
+would be some text and output would be some you know passing trees that's also possible but it works great when you
+have a lot of data now when you don't have enough data then maybe you want to consider dividing your problems into
+smaller components and then creating your sequin to sequence in the sub components and then merge them okay now
+if you don't have a lot of data but you have a lot of related tasks then it's
+also possible to actually merge all these tasks by combining the data and then have an indicator bit to say this
+is translation this is summarization this is email reply and then change only
+and that should improve your your output to now this basically conclude the parts
+about sequence sequence and then the next part I'm going to apply sequence to sequence in a big picture of the active
+on ongoing work in neural nets for NLP
+so if you have any questions you you can ask now I take maybe two questions because I think I running out of time so
+I have a question yeah
+also the question is does the modem handle emoji I don't know but it's emoji
+is like a piece of text to write so you can just like feed it into as another extra token if you make them if you make
+your vocabulary 200,000 then you should be able to cover emoji as well yeah I
+have a question also if you have new
+data coming in so should I return the model where you I think towards the end
+we lower the learning rate so if you add new data it just it will not make a lot
+of good updates so usually we make you you can add new data increase the learning rate and then continue to Train
+yeah that should work okay so I already took two questions let's keep going so
+so this is an active area that actually is a very exciting which is in the area
+of automatic unite so you can think that maybe the set up would be can you read a
+Wikipedia page and then answer a question or can you read a book and answer your question now you in theory
+you can use sequin to sequence with attention and then to do this task so
+it's going to look like this you're going to read the book right one token a time and with the book then treat a
+question and then you're going to use the attention to look at all the pages
+and then you make a prediction of the tokens right so so that cut up that's
+kind of sometimes you do we do answer this question that way sometimes we don't have knowledge about the fact so
+we actually read the book again to answer the fact but a lot of the time if you ask me is Barack Obama the president
+of the United States I would say yes because it's already in my memory so
+maybe it's better to actually akhmet the iron with some kind of memory okay so that it will not to do this look
+back again right it's kind of annoying look back again so there's an active area of this research
+I'm not a definite expert but I'm very aware so I can place you in the right
+context here so work in this area would be memory networks by Western and folks
+at Facebook there will be new rotating machines that deepmind dynamic memory networks would
+be a richer soldier presented yesterday and then stuck augmented iron ends by
+Facebook again and etc now well let's list so I want to show you a like
+high-level what is this augmented memory means okay so let's think about the
+attention so the attention looked like this so you and in the end coder you're going to look at at some input okay and then
+you have a controller which is your H variable and then you keep updating very high variable but along the side you're
+gonna write down into memory your h1 h2 h3 and etc right you store it into a
+memory clear-rite and in the decoder what you're going to do is you gonna continue
+continue producing some output right are you going to update your controller G but you're going to read from memory
+your H okay right so that so so again so
+in the import you write to memory in and then in the output you read from memory
+now now let's let's try to be a little bit more general and the general would
+be at any point in time you can read and write right you have a controller and
+you can read and write read and write all the time now to do that you you have to follow in architectures you have some
+memory bank big memory back ok and then you you can use the right you can decide
+to write some information into it from by a combination of the memory bank in
+the previous step and the hidden variable in the previous step and then you also read into the hidden state to
+and then you could make an amount update and then you can keep going forever like that so this concept is called an N with
+augmented memory okay is that is that
+somewhat clear any question you have a
+question the question is when you read
+do you read the entire memory bank a lot of these algorithms are actually soft
+attention so yes it will look the entire memory you can actually predict where to
+look right and then read that only that block now with the problem with that is
+you end up with very it's not differentiable anymore right because this the thing that you
+don't read don't contribute to the gradient so it's going to be hard to train but you can use to reinforce and
+so on to train it so there's a reason our paper reinforcement learning new row
+Turing machines but actually so there's something like this right not exactly but it will deal with discrete actions
+okay any question no question Wow okay
+so the another extension that a lot of people talk about is using an N with
+augmented operations so you want to augment the neural network with some
+kind of operations like addition subtraction multiplication the sine
+function etc lot of love functions so to motivate you you can think about Q and I
+can fall into this for example histor context the building was constructed in the year 2000 and then it was in later
+all people say oh it was then destroyed in the year 2010 and then the question
+would be how long it the building survived and the answer would be ten years now how would you answer this
+question where you say 2010 subtract two thousand ten years now neural nets if
+you can train with a lot example it can do that too you can learn too subtract numbers and things like that it
+requires a lot of data to do so all right so maybe is better to augment them
+with functions like addition and subtraction right so the way you can do
+it is that the neural network will read all the token so far and we'll push the
+numbers into a stack and then you get the more the neural net is augmented by
+a subtraction and a addition function and these two phone and then you assign
+these a probability for these two functions so green the more duck does
+mean the higher probability okay so you aside to probability and these two you compute the weighted average of the
+values coming out of these two function and then you take that and then you pop it and you push it into the stack in the
+next step and then in the next step you will call the addition and subtraction again and etc that's the principle of
+something called neural programmers or new neural programmer interpreters so there are two papers last year from
+Google brain and nygma was talking about this so so that's that's some of the
+related work in the area of augmenting recurrent networks with with operations
+with memory etc now what's a big picture ok so the big picture I want to revisit
+and I say so what I've talked to today
+is sequin to sequence learning and it's an end-to-end deep learning task so it's
+one of the big trends happening in natural language it's very general so
+you can use if you have a lot and a lot of supervised data it's a very supervised learning algorithm so if you
+have a lot of data it should work well but if you don't have enough supervised data then you consider dividing your
+problem and then training different in different components or you can train jointly in an multitask settings and
+people also train it jointly with auto encoder namely to read the input sentence and then predict the output
+sentence again and that's also and then you train jointly with all the tasks and
+works as well if you if you go home and
+then you want to make impact at your work tomorrow then so far that that's so far so good that that can make some
+impact now if you want to do some research and I think like things with memory operation operation augmentation
+are some of the exciting areas but but it seems like still work in progress but
+I would expect a lot of advances in this area in the near future so so you if you
+want to know more you can take a look at pre-solar block you talk about attention
+and of my augmented recurrent networks I also wrote some tutorials pretty simple
+this the sequin to sequence with attention for translation is implemented
+intensive flow so you can download and you can use you can actually download tensor flow and train it what I said
+today now this there's a lot of work going on
+in this area not on many of these are not mine so I so as you can see you can
+even read the world just means how many papers come along in this this area so I
+can pause there and I have five minutes to answer questions I have a question
+there yeah yeah
+yeah
+yeah I see okay can you speak to the
+microphone because I can't hear very well add a microphone and then I think people can hear that as well when you're
+treating a Q&A network so you're taking the example of training from a book to answer questions yeah so if let's say
+Harry Potter who was Harry Potter's father now there could be many books that have a character Harry so he has a
+context resolution issue which is which Harry should I answer the question for ya how do you solve the context context
+problem in your training this kind of Q&A type Network I think that's a great question so I think one thing is that
+you can always personalize for example you know that the guy when I talk about you can have a representation for the
+user and then you know that when he say Harry his because he actually been reading a lot of books about Harry
+Potter so it's more likely to be Harry Potter but I think with the hour time I
+said I just want to make sure that it's as simple as possible so the father if you do the juicer has to ask the
+question Harry Potter rather than Harry but I'm saying if you
+represent user vectors and then you inject more additional knowledge about
+the users about the context into as additional token in the input of the net
+the net can figure it out by itself yes so that's one way to do it yeah okay I
+have a question yeah you did some work on Doc to Vic yeah do you have an idea
+what the state of the art in generalizing were two veggies to more than one word oh I see
+I think skip thoughts are interested in
+directions here so dr. that is one way but skip thought so that the idea of
+skip thoughts was Ruslan salakhutdinov with author on this a his idea is basically using sequence
+to sequence to predict the next sentence so the input would be the current
+sentence the output we would be the the the the previous sentence all connect sentence and then you can train a model
+like that if the model is called skip four and I have heard a lot of good things about skip thoughts where you can
+take the embedding at the end and then you can do document classification and
+things like that and it works very well so that's that's probably one place that you can you know can go my colleague at
+Google is also working on something called auto encoder so he instead of predicting the next sentence he predict
+the current sentence so trying to repeat the current sentence and and that's kind of work well too yeah yeah see what was
+your thoughts on how to solve the common sense reasoning problem Oh common sense I'm deeply interested in common sense
+but I gotta say I have no idea I think maybe you can do something like I think
+common sense is about a lot of first of all there's a lot of knowledge about the world that is not captured in text right
+for example gravity and things like that so maybe you really need to actually combine a lot of morality that's that's
+one way to think about it all the way all the thing is do you make sure that unsupervised learning work that's
+another approach but I think this digital research area I think I'm just
+making guesses right now is there a good way to have sent all these rules and you
+know using some soft yes yes so the question is how do you represent
+Dru's so so if you think about this network the neural programmer network that it actually augmented by addition
+and and subtraction then these are rules
+right you can augment it with a table of proofs and then ask the network to
+actually attend into the truth table people have looked
+to this direction so that's one way to do it okay saying basically argument is to do some logical reasoning yeah yeah
+yeah hey okay great talk yeah thank you um are is there like a practical rule of
+thumb for how many sequence pairs you need to train such a model successfully yes a is there are there any tips to
+reduce how many pairs you need if you don't I said okay so usually the bigger
+data set the better but like the corpus that people train this on translation for example English to German it's only
+about about 3 5 million pairs of sentences or something like that so that's kind of small 3 million right and
+still people are able to make it to the state of the art so that's that's pretty encouraging now if you don't even don't
+have a lot of data that I would say things like pre-trained your work vectors with language models or a word
+to vac right that's that's one area that you have a lot of parameters you can pre
+train your model with some kind of language model and then you reduce the sub max that's another area that you
+have a lot of parameters or use drop out in the input embed in or drop out some random word in the input sentence so
+those things can improve the regular radiation when you don't have a lot of data okay yeah thank you okay yeah
+thank you all so we'll reconvene at 6 o'clock for yoshua bengio
+closing keynote
 
 ----------
 
 -----
---05-- https://www.youtube.com/@lexfridman/videos
+
+--05-- 
 
 -----
-Date:
-Link:
+Date: 2016.09.27
+Link: [TensorFlow Tutorial (Sherry Moore, Google Brain)](https://www.youtube.com/watch?v=Ejec3ID_h0w)
+
+Summary:
+In this lecture, Sherry Moore from the Google Brain team delivers a comprehensive tutorial on TensorFlow, a machine learning library developed by Google. The session begins with an introduction to TensorFlow, explaining its purpose, functionalities, and its extensive use at Google. Sherry emphasizes TensorFlow's flexibility and suitability for machine learning applications, attributing its design to close collaboration with researchers.
+
+The tutorial progresses to hands-on coding, guiding attendees through building models to address classic machine learning problems, particularly focusing on linear regression and classification. Sherry meticulously explains the core concepts, such as tensors, dataflow graphs, nodes, and how TensorFlow's architecture enables asynchronous operations.
+
+The practical part of the session includes the construction of neural networks, with detailed walkthroughs of creating variable objects, inference graphs, training graphs, and the use of placeholders. Sherry introduces TensorFlow's modular design, emphasizing its front-end libraries, execution runtime, and compatibility with various devices, including CPUs, GPUs, TPUs, and mobile devices.
+
+Throughout the tutorial, Sherry engages with the audience, answering questions, and encouraging exploration of TensorFlow's capabilities. She introduces advanced features like saving checkpoints, loading models, running evaluations, and adjusting hyperparameters. The practical exercises are designed to solidify understanding, encouraging attendees to modify and experiment with the code.
+
+Sherry underscores TensorFlow's capability to streamline the process from research to prototyping to production, encouraging contributions to the open-source project and highlighting the active support and continual development of TensorFlow by the team.
+
+In the Q&A session, Sherry and her team address various inquiries about TensorFlow's functionalities, including C++ API usage, Windows support, model portability, data loading, and integration with other frameworks. The session concludes with a note on TensorFlow's commitment to advancing machine learning, fostering a collaborative environment, and the availability of resources and support for users.
+
 Transcription:
 
-paste here
+Introduction
+so I'm going to take a picture so I remember how many of you are here smile
+like Sammy says my name is sherry Moore I work in a Google brain team so today
+I'll be giving a tutorial on tensor flow first I'll talk up a little bit about what tends to flow is and how it works
+how we use it at Google and then the important part is that I'm going to work
+with you together to build a couple models to solve the most classic machine
+learning problems so Cal get your feet beat for those of you from New Zealand anybody from New Zealand so hopefully at
+the end you'll be going home with all the tools that you have to build all the
+wonderful things that you have watched today like all the image recognition the
+training of different colors arts making music so that's the goal so before I go
+any further has everybody installed tensorflow yay
+Thank you
+brilliant thank you and I would like to acknowledge so I know the link here says Syrian but if you have Wolff g TF
+tutorial is perfectly fine Wolff is actually the my colleague who spent all the time verifying installation and
+every single platform so I would really like to thank him thanks wolf if you're watching and also I have my wonderful
+product bus a product manager in the audience somewhere so if you guys have any requests for tensorflow
+make sure that you go find him and tell him why that tencel must support this
+feature or exact somewhere all right so there he is so with that we can move
+forward to talk about tensor flow so what exactly is tends to flow tensor
+flow is a machine learning library that we developed at Google and we open-source the last November and ever
+What is TensorFlow
+since then we have become the most most popular machine learning library and get
+help how do we know because we have over
+32,000 stars those of you who track github you know how hard it is to get
+rid of those acknowledgement and we also have over 14,000 Forks and we have over
+800 no 8,000 contributions from 400 developers 400 individual developers and
+we designed this specifically for machine learning however is your see
+later because of its really flexible dataflow infrastructure it makes it
+really suitable for pretty much any application that can fit into that model basically if your model can be
+asynchronous in fire on when data is ready you can probably use tinder for it
+originally we worked alongside with all the researchers as a matter of fact I was really fortunate when I joined the
+team I sit right next to Alex the person who invented alex net so that's how closely we work together as we develop
+tends to flow they would tell us no this is how we use it yes when you do this it
+makes our lives a lot easier and this is why we believe that we have developed an infrastructure that will work really
+well for researchers and also being Google we also always have in mind that we would like to take from research to
+prototyping to production in no time we don't want to want you to write all the code that's typically you're just
+throwing away we want to write code that can learn to cut and paste and save in the file and privatize it immediately so
+tensile is really designing with that in mind so we will have way into your deep
+learning school so can anybody tell me if you want to build a neural net what
+must you have what are the primitives what are the yeah primitive I think is
+the word I'm looking for what must you have to build neural net
+anybody what is in the neural net
+This American history so in an Iran that you have neurons that's right
+so in and you need so all these neurons what do they operate on what do all
+these neurons do they process data data and they operate on data and they do
+something such as convolution matrix multiplication max pooling average
+pooling dropout whatever that is so intensive flow all the data is held in
+something called a tensor tensor is nothing more than a multi-dimensional
+array for those of you who are familiar with numpy arrays it's very similar to the ND array and the graph I think one
+of the gentlemen earlier this morning described there's this concept that the graph which is a composition of all
+these neurons that do different functions and all these neurons are
+connected to each other through the inputs and outputs so as data become available they would fire by firing men
+they do what they're designed to do such as doing matrix multiplication or convolution and then they will produce
+output for the next competition know that's computer connected to the output so by doing this so I don't know how
+many of you can actually see this animation yeah so this is to really
+How TensorFlow works
+visualize how tensor flow works all these nodes the Oval ones are
+computation this rectangle ones are staple nodes so all these nodes they would generate
+output or they take input and as soon as all the inputs for a particular node are
+available it would do its thing produce output and then the tensor all the data
+which are how in tensors will flow through your network therefore tensor
+flow yeah so everybody's like wow this sounds like
+magic how does it work so who said is it sir other car glasses any sufficiently was
+the word any sufficiently advanced technology is indistinguishable from magic so that's what this is it's just
+really awesome excuse me for a second I
+know I want I want to get through this as quickly as possible so we can actually do the lab that you're all dying to do so as any good
+infrastructure so this is I want to give you a little image of you know how we design this in tensorflow just like any
+well-designed infrastructure has to be really modular because being module allows you to innovate to upgrade to
+improve to modify to do what everyone with any piece as long as you keep the api's consistent everybody can work in
+parallel it's really empowering I think that's one of the wonderful things that's done at Google pretty much any
+infrastructure at Google is really modular they talked really about to to each other all you need to maintain is
+the API was stability so in this case we
+have a front end I think you guys must have seen some examples of how you construct a graph so we have the
+Frontend libraries
+front-end libraries written your favorite language and if C++ and Python is no your favorite language feel free
+to contribute we always welcome contribution so you write you can show your graph in your favorite language and
+this graph will be sent to we call the core a tensile execution system that's
+your runtime and that's what you all will be running today on your laptop when you open your up your Python
+notebook or should be the notebook so the execution runtime depending on where
+you are going to run this application it will send the kernel to the
+corresponding device so it could be a CPU could be GPO could be your phone could be CPU anybody knows what TPU is
+brilliant very nice I was a stratum say anybody knows what TPU is ever there's
+like mmm translation so this is good so just to highlight our portability today
+Portability
+you'll be running intensive roll in your laptop we run it in our data center you everybody can run on your iOS on your
+iPhone your Android phone I would love to see people putting it on Raspberry Pi
+because can you imagine you can just write on tensorflow application it could
+be your security system because you know somebody just stole my bike and my security camera capture all this grainy
+stuff that I cannot tell wouldn't it be nice if you do machine learning on this
+thing and they just start taking high-resolution pictures you know when when things are moving rather than
+constantly capturing all this grainy images which is totally useless so I think the application literally
+applications are limitless you know your imagination is delivered so we talked
+about what tensorflow is how it works how do we use it at Google we use it
+How we use it
+everywhere I think you have seen some of the examples we use it to recognize pictures this is actually done with
+inception they can recognize after the box one of thousand images you have to
+retrain it if you wanted to recognize they're all your relatives or you know your pets it's not difficult and we I
+have links you know for you to actually if you want to train on your own images it's really easy they should totally try
+it will they be funny we go to your relative your own 40 year reunion you just go hi you know you who you I know
+who you are you know just show off a little it would be brilliant and we also use it to do Google Voice Search this is
+the one that's super awesome so how many of you use smart reply have you ever
+Smart Reply
+used smart reply yeah yeah this is awesome especially for those of you who are doing what you're not supposed to do
+you know texting while driving your new song email coming in and you can just say oh yes I'll be there you know so
+based on the statistics that collected in February over 10% of the
+other responses and on mobile is actually done by our smart reply that's or I believe if we have maybe exact can
+collect some stats for me later maybe by now you'll be like 80% it's actually
+really funny at the very beginning when we train it the first answer is always I love you like that's probably it right
+not the right answer we also play games
+of you I'm sure have follow this the all kinds of games that are being developed
+Games
+it's really fun to watch if you watch it literally come up with scenarios for you to play as well it not only learns to
+play the game but learns how to make a game for you is fascinating and of
+course art everything many of you have done the Steve dream if we have time in the end of the lab we can we can try
+this so if you're super fast we can all try to mix a Mart and all those what I
+Models
+just talked about of course Google being this wonderful generous company and wants to share our knowledge so we have
+actually published our models so if you go to that link you'll find all these
+inception and captioning language model on the billion words the latest rest net
+on c14 sequence the sequence which I think Kwok will be talking about tomorrow and in the world we have many
+Highlevel libraries
+other high-level libraries so today my lab the lab that we would do will be on
+the core tensorflow api's but there are tons of new higher level API such as
+some of the mentioned cares and we have slim we have pretty tensor we have TF
+learn we have many libraries that's developed on top of the court in several api's then we encourage people to do so
+if whatever is out there does not fit your needs perfectly go for it develop yo and we welcome the contribution we
+published a lot of that here I might have blurred some of the boundaries but these are basically all the models and
+libraries that we have produced and we really love contribution if you have
+developable really cool model please do send to us and we would you know we would showcase
+your your work so that's the
+introduction of tensorflow how does everybody feel are you all ready to get started
+alright so okay before you bring up your Python notebook I want to say what we
+are going to do first okay so as I mentioned there are two classic machine learning problems everybody does one is
+linear regression the other is classification so we are going to do two simple laps to cover those I do have a
+lot of small exercises you can play with I encourage you to play with it to be a lot more comfortable so the first one is
+Linear Regression
+a linear regression so I'm sure it has been covered yeah in today's lectures
+somebody must have covered linear regression can you can anybody give me a
+one-line summary what is the linear regression problem anybody the
+professors well if you don't know go
+google it so I didn't know the the audience you know when when semi asked
+Mystery Creation
+me to do this so I wanted to I wrote this for one of the high schools so I
+think it's doom kind of makes sense right because all of us have done have played this game at one point of our
+lives like I you know if you if you tell me a five or tell you ten and you try to
+guess you know about the equation is we must have all done this I think my friends are still doing on Facebook
+saying oh you know only Genius can solve this kind of equation and then they would be like yeah you I solved it I was
+like my god if anybody you know I one friend you guys if you click on another one of those sir
+but basically this is what we are trying to do in the first lab so we will have a
+mystery creation it's really simple it's just a linear you know literally a line and then we I will tell you that this is
+you know the formula but I'm not going to give you a weight W and B you know
+all of you have learned by now W stands for weight and bias B stands for bias so the idea is that if you are given
+enough samples if you're given enough x and y values you should be able to make
+a pretty good guess what W and B is so that's what we are going to do so now
+Jupiter Notebook
+you can bring up your Jupiter notebook if you don't have it up already
+yeah everybody have it up yes can I see show them hands everybody
+those are yeah brilliant alright so um for pretty much any models
+these are going to come up over and over again and just to make sure that you're all paying attention I do have I asked
+them if I was supposed to bring Shrek and he said no but I do have a lot of tensorflow stickers and I have all kinds
+of little toys so later I'm going to ask this question whoever can answer will
+get some mystery present so really pay attention okay so pretty much with it
+whenever you build any model there are I would say four things that you need you need input you need data so you're going
+to see in both labs we're going to be defining some data you're going to be built building an inference graph I
+think in other lectures is also called a forward graph to the point that it produces logits or the logistic outputs
+and then you're going to have a training training operations which is where you
+would define a loss an optimizer and I
+think that's pretty much it hanging and there's the fourth thing yeah and then
+you will basically run the graph so the three important things okay you'll always have your data your inference
+graph you always have to define your laws and your optimizer and the training is
+basically to minimize your loss so I'm going to be asking that later all right so now we know what we're going to do so
+you can go start go to that lab yeah everybody have it so shift returned
+we'll run the first one you said I have no idea what happening here return again still
+nothing however let's see what we are producing here so you can also do the
+same on your laptop you can uncomment that plot you can say so you know what
+kind of data you're generating so in this case when he returned why are we seeing this is your input data this is
+when you try to make a guess when your friend tell me oh you don't give me your x and y so this is how you know when
+your X is 0.2 you know your Y is 0.32 so this is basically your input data
+yeah everybody following if at any point you're kind of lost raise your hand and
+your buddy next you will be able to help you so now
+it's all okay I want to say one more thing so today the laughs are all on really core tends to flow ap is the
+reason I want to do that I know there are a lot of people who will use carrots use another thing that we have heavily
+advertised which is contribute contribute you've learned so I feel like I'm giving you all the ingredients so
+even though you could go to Whole Foods and buy the packaged meal you know maybe
+one day you don't like the way they cook it so I'm giving you all your lobsters your Kobe beef okay so that you can
+actually assemble whatever you want to build to yourself so this next one is
+very key it's a very key concept here you see variables so variable intensive
+flow is how is corresponding to the square any of you remember this slide
+okay I'm going to switch quickly don't freak out so actually I wanted you all
+to commit this little graph to to your memory because you'll be seeing this
+over and over again and it makes a lot more sense when you have this visual representation so intensive flow the way
+we hold all the data the ways and the biases associated associated with your
+network is using something called variable it's a state fold operation I'm going to switch back
+okay so this is what we are doing in Section 1.3 we are building those square
+Variable Objects
+nodes in your network to hold these ways and variables and they are the ones when you train that's where their gradients
+will be applied to so that they will eventually resemble the target network
+that you are trying to to train for so now you have built it wonderful okay so
+you can shift return do you see anything nope so exactly we'll have rebuilt let's
+uncomment and take a look so these are called the variable objects so at the
+bottom of the slide for this lab I have a link which is our Google 3 dogs the
+API Docs which is available in github I think you should always have that up so
+whenever you want to do something you will know what kind of operations are possible with this object for example I
+can say here what's the name of this oh it's called variable 6y so call
+variable 6 oh it's because when I create this variable I didn't give it a name so
+I can say Sherri's sure you wait I hope that's not
+but so see now my variable is called Sheree wait same thing with my so this
+would be a good practice because late later
+cheery-bye is
+well because I ran this so many times every single time you run if you don't restart that it's going to continue to
+grow your current path so to avoid that confusion let me restart it restart
+ja I had the word sorry
+so now so we have done built our input build an inference graph now we can
+Training Graph
+actually build our training graph and as you have all learned we need to define a
+loss function we need to define an optimizer I think it's also called
+something else record regulator maybe some other terms and your ultimate goal
+is to minimize your loss so I'm not going to do it here but you can do it at your your leisure you can you know
+income and all the these things that you have created and see what they are and I
+can tell you these are different operations so that's how you actually get to learn about the network that you
+have built really well in the next line I'm also not going to uncomment but you should at one point this is how you
+cannot you can see what you have built so actually why don't do that because this is really critical and as you debug
+this will become so this is the network
+that you have built they have names different names they have inputs and outputs they have attributes and this is
+how we connect all these nodes together this is your neural net so what you have
+what you're seeing right now is your neural net that you have just built yeah everybody following so now the next step
+now you're done right you build your network you build all your training now you can let's do some training so in
+tensor flow do you remember in the architecture that I showed you have the front-end C++ and Python front-end you
+use that to build your graphs and then you send a graph to your runtime and this is exactly what we're doing here
+whenever you this is how we talk to the runtime we create something called session you get a handle to the session
+and then when you say run you're basically sending this session your graph so this is different from the
+other machine learning libraries I forgot which one those are so comparative your happens as you type
+tensor flow is different you have to construct your graph and then you'll create session to talk to your runtime
+so that it knows how to run on your different devices that's a very important concept
+because people constantly compare and it's just different okay so now you can
+also commented to see what the initial values are but we're not going to do that we're just going to run it and now
+we're going to train the data is not so
+what do you think of the data did we succeed in guessing is everybody
+following what we're trying to do yeah yes no so what was our job objective
+before I started the lab what did I say my objective was yes to guess the
+Results
+mystery function so have we succeeded it's really hard to tell all right so
+now all of you can go to the end and income in this part let's see how
+successful we are
+so the Greenline was what we have initialized our weight and buyers - yeah
+the blue dots were the initial value of the target values and the red dots is
+our trained value makes sense so how successful are we great big success yeah
+I would say so so any questions any questions so far so
+other things so everybody should play with this you're not going to break it this is a notebook Python notebook the
+worst that happens is they're just they okay clear all like what I just did and change it so what can you play with
+since today you learn all these concepts about different loss motions different optimizers all this crazy different
+inputs different data so now you can play with that how about instead of let's pick one so instead of gradient
+Other optimizers
+descent what are the other optimizers how can you find out I guess that's a
+better question if I want to know what other optimizers are available in tensor flow how can I find out very good yes
+the github good Google 3 the G 3 doc link with the AP is I'm going to switch
+one more tab bear with me so this is when you go there this is what you can
+find you can find all that I mean make it bigger so you can find all the
+different optimizers so you can play with that so maybe gradient descent is not the
+best optimizer you can use so you go there and say why the other optimizers and then you can learn a come here in
+search optimizer oh you can say wow you know I have added Delta a dag red Adam
+I'm sure there are more a momentum so we also welcome contribution if you don't
+like any of these please do you know go contribute write a new optimizer send a
+pull request we would love to have it so I would like to say this over and over again we love contribution is an open-source project
+so keep that in mind we would love to see your code or your models on github so back to this one how is everybody
+feeling this is too simple yeah should we go wet just yes can I say that
+oh is that right
+Learn something new
+he tapped to see all the other optimizers human Oh brilliant
+see I didn't even know that learn something new every day let me go there tap here oh yay so this is even easier
+thank you clearly I don't program in notebook as often as I should have
+so this is where you can all the wonderful things that you can do thank you this is probably a little too low
+level I think it has everything but that's a very good tip thank you so
+anything else you would like to see what linear regression is too simple you guys all want to register commend some digits
+alright so that sounds like a consensus to me so let's move if you just go to
+the bottom you can say click on this one
+What is M
+so this is our M this model so before you start the lab so once again more
+return to do so we have all these handwritten digits what does M this
+stand for does anybody know what is M does stand for
+very good see somebody can Google very good so it has a stencil I think makes
+National Institute of Standards and Technology something like that so they
+have this giant collection of digits so you know if you go to the post office
+you already know that it's the trivial to solve problem but I don't know if they actually use machine learning but
+our goal today is to build little never using tensorflow that can recognize these digits once
+again we will not have all the answers right so all we know is that the network
+the input will give us a 1 and it will say it's a 9 and then the IMP and then
+we have the so-called ground truth and then they will look at and say no you're wrong and then we have to say ok fine
+this is a difference we are going to train the network that way so that's our goal yeah everybody see the network on
+the side so now we can go to the lab so
+What is important when building a network
+can anybody tell me why the three or four things that's really important whenever you build a network what's the
+first one your data second one inference
+graph third one your train graph and with this slab I'm going to teach you a
+little bit more they are like the rock you know it like when you go to restaurant I not only give you your
+lobstery or your Kobe beef I'm also going to give you a little rock so you can cook it ok so in this lab I've also
+teach some absolute absolutely critical additional infrastructure pieces such as
+how to save a checkpoint how to load from a checkpoint and how do you evaluate your network I think somebody
+at one point asked how do you know the network is enough you evaluated to see if it's good enough so those are the
+three new pieces of information that I'll be teaching you and also I'll teach
+you a really really useful concept is called place holder that was requested
+by all the researchers we didn't used to have it but they they all came to us and say when I trained I want to be able to feed my
+network any day that we want so that's a really key concept that's really useful for any practical training whenever you
+start writing real training code I think you that will come in handy so those are the I think four concepts now that I
+will introduce in this lab that's slightly different from the previous on how to save checkpoint how to go from
+checkpoint how to run evaluation and how to use placeholders I think the placeholder is actually going to be the
+first one so once again we have our typical boilerplate stuff so that you hit return you import a bunch of
+libraries the second one this is just for convenience I define a set of
+constants some of them you can play with such as the maximum number of steps
+where you're going to save all your data how big the batch sizes are but some
+other things that you cannot change because of the data that I am providing you for example the amnesties any
+questions so far so now we'll read some data it's
+everybody there in 2.3 I'm a 2.3 right now so now I use if you don't have slash
+temp it might be an issue but hopefully you do if you don't have slash lim
+change the directory directory name so
+the next one is where we build inference so can anybody is just glancing and tell me what we're building what kind of
+network how many layers am i building
+I have two hidden layers you have all learned hidden layers here today and I
+also have a linear layer which will produce logits that's correct so that's
+what all the inference graphs will always do they always construct and they
+produce logistic outputs so once again here you can uncomment it and see it what kind of graph you have built once
+you have done the whole tutorial by yourself you can actually run tensor
+board and you can actually load this graph that you have saved and you can visualize it like what I have shown in
+the slide I didn't draw the slide by hand it's actually produced by tensor
+boards so you can see the connection of all your notes so I feel that that visual representation is really
+important also it's very easy for you to validate that you have indeed build a graph that you thought sometimes people
+call something repeatedly and they have generated this check and they grab they're like oh that wasn't what I meant
+so being able to visualize it's really important any questions so far see here
+I have good habits I actually gave all my variables names once again the hidden layer one hidden layer two they all have
+weights and biases weights and biases etc so now we're going to build our
+train graphs so here is actually here
+Train graphs
+there's no new concept once again you define a loss function we once again pick gradient descent as our optimizer
+we added a global step variable that's what we will use later when we save our
+checkpoints so you actually know at which point what checkpoint this
+corresponds to otherwise if you'll always save it to the same name then later you know you said wow this this
+result is so wonderful but how long did it take you have no idea so that's a
+training concept that we introduced it's called global step basically how long you have trained and we usually save
+that with a chair point so you know which chair point has the best information yeah everybody is good
+at 2.5 so now the next one is the additional stuff that I just mentioned oh that piece of rock that I'm giving
+Placeholders
+you now to cook yourself so one is the place holder so we are going to define
+two one two hold your image and the other two hold your labels there we
+build it this way so that we only need to build a graph once and we will be able to use it for both training
+inference and evaluation later it's very handy you don't have to do it this way
+and one of the exercises I put in my slides to try to do it differently but this is a very handy way and get you
+very far with minimum work so as I said in the slides I know I don't have any
+highlighters beam's but you see there it says after you create your placeholders
+I said add to collection and remember this up and later we'll see how we're
+going to recall this up and how we're going to use it in the next one we're
+going to call inference build our inference is everybody following this
+part okay and once again we remember our logits and then we create our train up
+and our los up just like with linear regression just like with the linear
+regression we're going to initialize all variables and now at the bottom of this
+Saver
+cell that's the second new concept that I'm introducing which is the saver this
+is what you will use to do checkpoints to save the states of your network so that later you can evaluate it or if
+your training was interrupted you can know from a previous checkpoint and continue training from there rather than
+always we initialize all your variables and start from scratch when your training really big networks such as
+Inception is absolutely critical because when I I think when I first trained
+inception it took probably six days and then later when we have 50 replicas it
+took still like stay of the Rs do two and a half days you don't want to have to start from scratch every single time so yeah
+everybody got that the placeholder and the saver so now it's 2.7 we're going to
+Reduce Loss
+go to 2.7 hmm lots of code can anybody
+tell me what it's trying to do so this
+is an yes so it's trying to minimize loss we can actually see this so I will
+run it once okay where did I go okay
+very fast it's done but what if I really
+want to see what it's doing so python is wonderful so I would like to actually
+see did somebody show like how you know your training is going wow they show the
+loss going down going down low I think my training is going really well so we're going to do something similar
+sorry so I'm going to create a variable audio car losses which is just an array
+so here I'm actually going to remember
+it
+pinned so am i collecting
+man plot map la lip anybody remember
+this is a plot let's try this whoa look
+at that now do you see you're lost going down so it's you train your loss
+actually goes down so this is how when you do large-scale training this is what
+we typically do we have a gazillion of this jobs running in the morning with just glanced at it and we know which one
+is doing really really well so of course you know that that's just when you are up for the typing that's a really really
+handy tool but I'm going to show you something even better oh that's part of the exercise me and I
+don't have it so it's one of the exercise I also put the answers in the
+backup slides that you guys are welcome to cut and paste into a cell they can
+actually run all all the evaluation sets against your checkpoint so that you know
+how well you're performing so you don't have to rely on your eyes you know cleansing or my loss is going down or
+relying on validating a single image but see this is how easy it is this is how
+easy the prototype and you can learn it very often our researchers would cut and
+paste their collab code and put in a file and and that's basically their
+algorithm and they will publish that with their paper they would send it to
+our data scientists or production people we would actually privatize some of their research this this is how easy
+literally from research to prototyping to production really streamlined and you can do it in no time so for those of you
+LS
+who have run the step can you do an LS in your data path wherever you'll save
+to that wherever you declare your trainer to be what do you see in there
+checkpoints that's right that's the that's the money that's after all this
+work well the Oldham one during all this training on all these gazillion machines that's where all your ways your biases
+are stored so that later you can you know load this network up and do your
+inception to recognize images to reply to email to do art etc etc so that's
+really critical but how do we use it have no fear all right let's move on to
+Checkpoint
+2.8 if you are not already there so can somebody tell me what we're trying to do
+first that's right first we load the
+checkpoint and you remember all the things that we told them told our program to remember the logits
+and the image placeholder in the label placeholder how are we going to use it now we're going to feed in some images
+from our evaluation and see what it thinks so now if you hit return
+Return
+what's the ground truth 5 what's our prediction 3 what's the
+actual image could be 3 could be 5 you
+know but so the machine is getting pretty close why I would I would say that's a 3 ok let's try a different
+different one so you can hear return again in the same cell ohai need to
+somehow move this so what's the ground truth this time yeah I got it right so you can keep
+hitting you know you can keep hitting return and see you know how well it's doing but instead of validating you know
+instead of hitting return a hundred times and count how many times I had gotten it wrong as I said in one of the
+exercises and I also put the answer in the slide so you can cut and paste and
+actually do a complete validation on the whole validation set but what do you
+think I really so you can actually hand write a different digit but the trick is that
+a lot of people actually try there and told me it doesn't seem to work so remember in on the slide I said this is
+what the machine sees this is where I see s and this is more the machine sees so in the end instead of set all the
+numbers are between 0 and 1 I believe I could be wrong but I believe it's between 0 & 1 so if you just use a
+random tool like your phone you write the number and you upload it number one the picture might be too big and need to
+scale it down number two it might have a different representation sometimes it's
+from 0 to 255 and you need to scale it you know to the range that M this that
+how you have trained your network if you train your network with those data and then it should be able to recognize the
+same set of data just like when we teach a baby right if if you have never been exposed to something you're not going to
+be able to recognize it just like with oriole one of our colleagues caption was at that program a
+while ago anytime when I see something that it doesn't recognize have anybody play with that captioning software is
+super fun so you can take a picture and say you know two people eating pizza or
+you know dog surfing but any time it sees something that has never been
+trained on it would say men talking on the cell phone so for a while we had a
+lot of fun with it we would put a watermelon on the post and they would say men talking on the cell phone you put a bunch of furniture in the room you
+know with nothing and it was they men talking on the cell phone so it was really fun but just like with your
+numbers if you have never trained it with that style like if I write Chinese
+characters here it's never going to recognize it but this is pretty fun so you can play with it you know you can
+Exercises
+see how well see every time see so far is 100 percent other than the first one which I cannot tell either so what are
+some of the exercises that we can do here what do you want to do with this lab it's too easy huh because I made it
+so easy because know that you guys are all experts but now otherwise I would have done it much harder now let me see what things we can
+do so you can uncomment all the graphs
+oh so here's one actually you already see it so try this can you guys try
+saving the checkpoints say every 100 steps and you're going to have a
+gazillion but they're tiny tiny checkpoints so it's okay and try to run evaluation with a different checkpoint
+and see what you get do you know how to do that yeah everybody not to do that so the idea is
+that when you run the evaluation is in the it's very similar so we typically
+run training in the evaluation in parallel or validation so us it trains
+Training Evaluations
+every so often say every half an hour depending on the the depending on your
+problem so with inception every ten minutes we're also the run evaluation to see how well our model is doing so if
+our model gets to say 78.6% which I believe is the state of the art we'll be like ooh my mother's done training so
+that's how that's why you want to save checkpoints often and then you know validate them often if you're done with
+that already did you notice anything if you try to load from a really already checkpoint how is your how good is it
+when it tries to identify the the digits just take a wild guess
+yeah very bad maybe whenever you every other one is wrong but this M this is
+such a small data set is very easy to train and we have such a you know deep network if you only have one layer or
+maybe it won't get it right so another
+exercise I think all these you can you can do after the lecture after this session is that really try to learn too
+evaluation from scratch rather than actually another part but run evaluation
+on the complete validation set that's a that's a really necessary skill to
+develop as you build bigger models and need to run validation so I think this
+is the end of my my lab I do have bonus laughs but I want to cover this first
+the bottom line is that tensorflow is really it's for machine learning is really from research to prototyping to
+TensorFlow is for Machine Learning
+production it's really designed for that and I really hope everybody in the audience can give it a try and if there
+are any features that you find it lacking that you would like to see implemented either send us pour requests
+Questions
+we always welcome contribution I'll talk to my wonderful product manager Zack sitting over there he is taking requests
+for features so with that yeah things
+that have fun
+Thank You Shari did we have time for questions for those who actually tried
+it see you so well done and everybody feel like their experts are all ready to
+go make arts now right right goes deep dream cool if there are no questions I
+hope there's one question I think someone who's trying desperately hi my
+Peachy
+name is peachy low and first of all thank you for the for introducing tensorflow and for designing it I have
+two questions so the first questions is I know the tensorflow have C++ API right so let's
+say if I use Kira's or any of the Python front-end I train a model can I have
+that sense of loss support adjust I can pull out the C++ model of it and then
+just use that yes you can so even if I use for example Kira's custom layer that
+I caught using Python I still can get those things correct oh it's just a front-end that's different how you
+construct the graph nice but we are not as complete on our C++ API designs for
+example a lot of the training libraries are not complete yes so but for the
+simple models yes you can do well let's say not the training but let's say if I just want the testing part because I
+don't need to do I mean the training I was doing is we do have that already Oh actually if you go to our website
+there's a label images does CC I think that's literally just loading from SharePoint and run the inference in C
+then that's all written in C++ so that's a good example to follow Oh a second one so another thing that I
+noticed that you support almost everything except windows everything acceptable I mean I always Android have
+no fear actually we are actively doing that but when I first joined the team I
+think there were 10 of us and we have to do everything like before open sourcing all of us were in the in the
+in the conference from together we're all riding dog we're fixing everything so now we have more people that's like
+the top of our list we would love to support it so so I'm just curious because I I mean when I look at the road
+man I didn't see a clear timeline for Windows but the thing I know they just
+like the reason why you cannot support Windows is because of basil basil doesn't support Windows so let's say
+theoretically well I mean what you think just like I know basil they're just that you will get window Phi at some someone
+November that is why they say so once Plato can run in Windows can I expect
+wedges I could immediately do tens of law do you foresee some other problem maybe Zac would like to take that
+question okay this so yeah let's talk
+offline yeah sure thank you very much sorry I great presentation yeah my name
+is Yuri fish I have a question about GPUs are they available right now for testing and playing for non Google
+employees are we I don't think so at the
+moment and do you know when it might be available in the Google well would you like to take that one
+I'm so glad we have a Prada boss here so he can okay thank you nice to Tori I
+Tori
+have a question are there any like plans to integrate tensorflow
+with the like open-source framework like my sauce and HDFS to make the distribute
+tensorflow easy so there are definitely plans we are also always actively
+working on new features but we cannot provide a solid timeline right now so
+that we do have like like is you know we do have plans we do have projects in
+progress but we cannot commit on a timeline so I cannot give you a time
+saying yes by November you have so thank you but if you have this type
+of question I think Zac is the best person to answer today oh hi I was
+Load your own data
+wondering um the sensor flow having examples to load your own data of what witch did um so the current example has
+a m nest of data set are there examples out there to load your own data set yes yes definitely I think we have two ones
+called the tencel flow poet I think that one that example shows you how you can
+know your own data set I think is there
+another one Zack are you aware of another one that might be a loading your own data set I know we have retraining
+model you know if you go to tensorflow we have an example to do retraining those you can download from anywhere so
+in our example we just downloaded a bunch of flowers so you can definitely download whatever pictures that you want
+to return thank you hello thank you for
+your presentation I have a question concerning the the training you can't you can train using throw tensorflow
+in any virtually any system like Android and what about the model is do you
+provide anything to move the model to Android is there because I'm generally
+you programming Java there and yes so that's a beautiful thing you remember the architecture that I showed yes you
+build a model and they just send it to the runtime it's the same model running on any of the different platforms it can
+be a laptop and Roy you have your own specific format for the model or it's
+Justin you build a model is just bunch of matrix and matrix and values yeah is
+there any special special format for your model because I sometimes it will
+it is big yes comparable I will not recommend training the inception on your phone because all the convolution is a
+bad problem probably kill it ten times over so definitely
+so there will be that type of limitation like I think you guys talked about the number of parameters if it blows the
+memory footprint on your phone it's just not going to work and if the compute like it special for convolution it uses
+of other computers yes that's for straining but what inference you can run it anywhere okay thank you it's the same
+model you just restore actually are examples like label image that's our C++
+version I think I also wrote one's called classify images in Python that's all so you can run it on your phone so
+any of these you can write your own and though the sharepoint and run it on your phone as well so definitely I encourage
+you to do that thank you hi I have a question related to tens of
+Writing TensorFlow in Python
+flow solving so I went through the the online documentation and currently I
+think it requires some coding in C++ and then combined with Python is there only
+going to be you know only Python solution that's going to be provided or is it always going to be you know I
+think you need to do some first step you need to create a module and then you know it just imported into water I am
+actually surprised to hear that because I'm pretty sure that you can write the model in just Python or just C++ you
+don't have to write it in one way or the other they might have a special exporter tool at one point that was the case they
+wrote their exporter in C++ I think that's well probably what you were talking about but you don't have to
+build it in any specific way the model is just you can write in whatever
+language you like as long as it produces that graph and that's all it needs so so
+tender for serving the tutorial actually if you go on the side it had yeah a
+little steps actually okay so I will look into that so maybe you can come find me later and now I'll see what the
+situations I do know that at one point they were writing the exporter in C++ only but that should have changed by now
+because we are doing another version of the serving tensorflow serving and is
+there any plan to you know provide API is for other languages like you know
+like MX night has something called MX like J's and you know you mean that the front-end front-end yeah yeah we have Co
+I think we have Co we have some other languages maybe as I can speak more to it and once again if those languages on
+our favorite please do contribute and if you would like us to do it talk to Zach
+and maybe he can put out you know maybe I don't know because there's somebody else for the Android you need Java for
+nicely so I think that's going to help out in integrating these models with us yeah that's great great feedback will
+definitely take note thank you thank you I have a caution I'm having embedded GP
+board TX 1 which is an ARM processor and I really wanted to work with the tensorflow but I got to know that it can
+only run on x86 boards so when can we expect the tensorflow can support ARM
+processors we will have to get back to you after I have consulted with my Prada
+boss say when we can add that support thank you sorry one last question thanks
+for the presentation sherry I have a question regarding D when you have the model you want to run variants is it
+possible to make an executable out of it so we can drop it into a container or
+run it separately from serving is that that's something that you guys are looking into just run the inference yeah
+just have it as the time as a binary yeah yeah you can definitely do that right now you can yeah you can all use
+you are always able to do that you mean just save you man just save the you
+won't what I mean is that if you can package it into a single binary source
+that you can just pass around yes yes we actually do that today that's how the label image works it's just it's only
+individual binary okay they actually converted all the chair points into constants so it doesn't even
+need to do this lo etc it just reads a bunch of constants and runs it so it's super fast
+yep okay that's a thanks sherry again
+we are going to take a short break of ten minutes let me remind you for those who haven't noticed yet but all the
+slides of all the talks will be available on the website so do not worry they will be available at some point as
+soon as we get them from the speakers oh I forgot to ask my bonus question but in any case I have a lot of tensorflow
+stickers up here if you like one to put proudly display your laptop come get it
 
 ----------
 

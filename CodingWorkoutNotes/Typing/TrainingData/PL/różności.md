@@ -1,6 +1,35 @@
 
 
 
+-----
+Jakie opłaty szykuje Apple dla developerów?
+
+**Polish:**
+
+**Temat Wideo:** Wideo omawia wprowadzenie przez Apple opłaty "Core Technology Fee" w UE w odpowiedzi na Digital Markets Act. Opłata ta jest reakcją na nowe przepisy wymagające od cyfrowych strażników, takich jak Apple i Google Play Store, umożliwienia integracji stron trzecich i zapobiegania wykorzystywaniu nieuczciwych przewag konkurencyjnych.
+
+**Kluczowe Wyzywania:**
+
+1. **Dostosowanie do Digital Markets Act:** Apple jest zobowiązane do przestrzegania nowych przepisów UE mających na celu stworzenie bardziej sprawiedliwego cyfrowego rynku.
+2. **Wprowadzenie Opłaty Core Technology Fee:** Wprowadzenie przez Apple opłaty jest postrzegane jako sposób na obejście intencji nowego prawa poprzez nałożenie dodatkowych kosztów na deweloperów osiągających wyjątkową skalę na iOS w UE.
+3. **Potencjalna Konfrontacja Prawna i Społeczna:** Posunięcie to może być postrzegane jako "złośliwe zastosowanie prawa" i może spotkać się z wyzwaniami prawnymi lub społecznym sprzeciwem, podobnie jak reakcja na opłatę za czas uruchomienia Unity.
+
+**Znaczenie i Przydatność Tematu:**
+
+1. **Wpływ na Deweloperów:** Opłata ma znaczące implikacje dla deweloperów aplikacji w UE, szczególnie tych z dużą liczbą instalacji.
+2. **Standardy Branżowe:** Posunięcie to ustanawia precedens dla tego, jak cyfrowi strażnicy mogą reagować na podobne regulacje w przyszłości, wpływając na globalny krajobraz rozwoju i dystrybucji aplikacji.
+
+**Co Zostało Zrobione:**
+
+1. **Wprowadzenie Nowej Opłaty:** Apple wprowadziło opłatę Core Technology Fee dla deweloperów, którzy chcą wykorzystać nowe zasady Digital Markets Act i osiągnąć więcej niż 1 milion instalacji rocznie.
+2. **Możliwość Pozostania na Obecnych Warunkach:** Deweloperzy mogą wybrać pozostanie przy obecnych warunkach i uniknąć opłaty, ale ogranicza to ich możliwość korzystania z systemów płatności stron trzecich i rynków zewnętrznych.
+
+**Potencjalne Zagrożenia lub Zalety:**
+
+1. **Obciążenie Finansowe dla Deweloperów:** Opłata nakłada znaczące obciążenie finansowe na sukcesywnie rozwijane aplikacje, potencjalnie czyniąc mniej opłacalnym dla deweloperów dystrybucję ich aplikacji przez platformy stron trzecich.
+2. **Ograniczenie Wyboru na Rynku:** Chociaż Digital Markets Act ma na celu zaoferowanie więcej wyborów konsumentom i deweloperom, opłata może ograniczyć te wybory, czyniąc alternatywne platformy mniej atrakcyjnymi.
+
+
 
 
 --------------------

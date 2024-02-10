@@ -8,31 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f4e07e0691c6e45",
+            "id": "ed286238af694249",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mojo/Transcriptions/Raw.md",
+                "file": "Swift/Essential developer/Essential Developer.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ff0afc631bd23ae9",
+            "id": "8b2551a2b6d6c595",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typing/Layouts/TrainingData/EN/Sam Charrington.md",
+                "file": "Typing/TrainingData/EN/zRandom Stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a45cd24526a4c006",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Typing/TrainingData/EN/zRandom Stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66807297b19c3671",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swift/various.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f025f9a30d801e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swift/various.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typing/Layouts/TrainingData/EN/Sam Charrington.md",
+                "file": "Swift/various.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typing/Layouts/TrainingData/EN/Sam Charrington.md",
+                "file": "Swift/various.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typing/Layouts/TrainingData/EN/Sam Charrington.md"
+                "file": "Swift/various.md"
               }
             }
           }
@@ -151,51 +187,51 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff0afc631bd23ae9",
+  "active": "1f025f9a30d801e7",
   "lastOpenFiles": [
-    "Typing/Layouts/TrainingData/EN/Lex Friedman.md",
-    "Typing/Layouts/TrainingData/EN/Sam Charrington.md",
-    "Typing/Layouts/TrainingData/EN/Steven Bartlett.md",
-    "Typing/Layouts/TrainingData/EN/zRandom Stuff.md",
-    "Mojo/Transcriptions/Raw.md",
-    "Mojo/Transcriptions/Notes.md",
-    "Typing/Layouts/TrainingData/emptySheet.md",
-    "Typing/Layouts/TrainingData/EN",
-    "Typing/Layouts/TrainingData/PL/różności.md",
-    "Typing/Layouts/TrainingData/PL/erotyka/PortalKobiet.md",
-    "Typing/Layouts/TrainingData/PL/erotyka/Untitled.md",
-    "Typing/Layouts/TrainingData/PL/erotyka",
-    "Typing/MyLayout/Ideas.md",
-    "Typing/Layouts/TrainingData/PL",
-    "Typing/MyLayout",
-    "Typing/Layouts/TrainingData",
-    "Zx Organize Helper/Expanded_Raw.md",
-    "Zx Organize Helper/Gain Knowledge.md",
-    "Zx Organize Helper/Organise Knowledge.md",
-    "Typing/Keyboards/YouTube/Notes.md",
-    "Typing/Keyboards/YouTube/Raw.md",
-    "Typing/Keyboards/YouTube",
-    "Typing/Untitled.md",
-    "Typing/Keyboards",
-    "Typing/Layouts",
-    "Typing",
-    "Mojo/GPTs help/RAW/Chris Lattner in Lex Fridman podcast 381.md",
-    "Mojo/Links.md",
-    "Mojo/GPTs help/RAW/Untitled.md",
-    "Zx Organize Helper/Untitled.md",
-    "OrganizeHelper/Untitled.md",
-    "Zx Organize Helper",
-    "Mojo/GPTs help/Chris Lattner and Lex Fridman.md",
-    "Swift/John Sundell/Links.md",
     "Swift/Random Swift/Links.md",
-    "Zx GitHub Configs/Connect SourceThree with GitHub.md"
+    "Swift/various.md",
+    "Zx Organize Helper/ask noteGPT.md",
+    "Zx Organize Helper/make Notes.md",
+    "Zx Organize Helper/Organise Knowledge.md",
+    "General Developer/Improve/Healthy Software Developer.md",
+    "Swift/CodeWithChris/Links.md",
+    "Swift/Swift 4 Android/links.md",
+    "Swift/Paul Hudson/Links.md",
+    "Swift/News/Swift 5.9.md",
+    "Untitled 7.md",
+    "Typing/TrainingData/EN/zRandom Stuff.md",
+    "Typing/TrainingData/EN/Lex Friedman.md",
+    "Untitled 6.md",
+    "Typing/TrainingData/EN/Sam Charrington.md",
+    "Untitled 5.md",
+    "Typing/TrainingData/Zbiór.md",
+    "Typing/TrainingData/PL/różności.md",
+    "Swift/Essential developer/Links + Transcriptions.md",
+    "Swift/Essential developer/Updated_Links_Transcriptions.md",
+    "Swift/Essential developer/Essential Developer.md",
+    "Untitled 4.md",
+    "Zx Organize Helper/Gain Knowledge.md",
+    "Zx Organize Helper/Expanded_Raw_600.md",
+    "Zx Organize Helper/Expanded_Raw_99.md",
+    "Swift/Essential developer/Transcriptions/Notes.md",
+    "Zx scratchBook",
+    "General Developer/Improve",
+    "General Developer",
+    "Swift/Write documentation",
+    "Typing/TrainingData/EN",
+    "Typing/TrainingData/PL/erotyka",
+    "Typing/TrainingData/PL",
+    "Typing/MyLayout",
+    "Typing/TrainingData",
+    "Typing/Keyboards/YouTube"
   ]
 }
