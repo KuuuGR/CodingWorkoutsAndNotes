@@ -46,7 +46,17 @@
 44. [# Web App Vs Mobile App - Is There A difference?](https://www.youtube.com/watch?v=QTY61TC1qc8)
 45. [# You are using useFetch WRONG! (I hope you don't)](https://www.youtube.com/watch?v=njsGVmcWviY)
 46. [# Custom $fetch and Repository Pattern in Nuxt 3](https://www.youtube.com/watch?v=jXH8Tr-exhI)
-47. 
+47. [# Why I DONT LIKE Open Source Software w/ Jonathan Blow | Prime Reacts](https://www.youtube.com/watch?v=kn59Yn55Pos)
+48.  [# How to Type 3x Faster in 7 Days (from a Med Student)](https://www.youtube.com/watch?v=gi5Y8wUZtIA)
+49.  [# An Actually BIG WEEK In The World of AI](https://www.youtube.com/watch?v=l9eEO67NOxc)
+50. [# Free Complete Course: You need to learn this programming language to be a senior developer!](https://www.youtube.com/watch?v=6uqgiFhW0Fs)
+51. [# You dont know OOP](https://www.youtube.com/watch?v=VRlIGV4gl5Q)
+52. [# Is OOP EVIL??? Reacting to my favorite dev Youtube video](https://www.youtube.com/watch?v=YpJufWdZFB8)
+53. [# I Cannot Believe How Good This VS Code AI Coding Assistant Is!](https://www.youtube.com/watch?v=TALwI3J4asY)
+54. 
+
+
+
 
 -----
 --99--
@@ -601,38 +611,1596 @@ paste here
 ----------
 
 -----
+
 --53--
 
 -----
-Date:
-Link:
+Date: 2023.12.14
+Link: . [# I Cannot Believe How Good This VS Code AI Coding Assistant Is!](https://www.youtube.com/watch?v=TALwI3J4asY)
 Transcription:
 
-paste here
+today I'm going to check out an AI
+coding assistant called Cody now I know
+your first question is going to be how
+is this different from co-pilot well I
+think the main differentiator is that
+it's much more context aware it knows
+your entire code base so when you ask it
+help with something it looks at other
+files and it makes recommendations based
+on your specific context which makes it
+more helpful but let's Jump Right In and
+check it out all right here is the web
+page let's meet Cody it uh knows your
+entire code base can answer technical
+questions write code directly in your
+IDE using your code graph for context
+and accuracy all right uh looks like it
+has the basic AI assistant autocomplete
+that we're used to let's see what else
+uh AI powered chat for your codes we can
+ask it questions about our code base we
+can run custom and pre-built commands so
+explain code or entire repositories
+generate unit tests that's pretty nice
+describe code smells for best practices
+and Define your own custom commands all
+right pretty cool we'll jump into those
+in a bit and check it out and what's
+really nice is there's a free tier with
+a generous rate limit which you don't
+get everywhere so let's go ahead and log
+in I'll use GitHub and I'll go ahead and
+authorize this and it looks like it
+works with a few different idees I'm
+going to use it in VSS code cool I'll go
+ahead and install this and I'll go ahead
+and sign in with
+[Music]
+GitHub
+authorize cool so now it looks like we
+have on in our sidebar commands so we
+can chat create documentation that's
+really cool edit explain smell test and
+custom command and we have our chat we
+can start a new chat let's load up a
+repo and start asking questions I have
+this repository here that I've been
+checking out a course Builder from Joel
+hooks so let's ask some questions about
+this uh go over to Cody let's create a
+new chat looks like we can choose from
+different AIS to chat with Claud 2.0 2.1
+instant GPT 3.5 and four right it looks
+like in here we can use the at symbol to
+include a specific file that we want to
+talk about or ask questions about or
+hash for the type of symbol okay that's
+cool so we can specify specific pieces
+of code we can use a SL command for all
+the different built-in commands uh I'm
+just going to start out by saying
+explain this repo to me let's see what
+it
+does pretty cool okay so let's see it
+looks like it it looked at one file it
+looked at the readme all right so it got
+all of its context from the readme um it
+says that this is a proof of concept for
+building an online course creation tool
+a synchronous event driven workflows
+mono repost structure uh includes this
+in the text stack that's nice and and
+let's see we got some example of events
+Youtube upload transcript summary so I
+can see this being extremely helpful
+when you're going into a brand new
+project you have no idea what's going on
+U just start asking questions and Cody
+will answer them so to get a better
+sense of what Cody is actually capable
+of I want to see if it can help me build
+an app I have this idea to build an
+elevated uh gamified to-do app so
+instead of U mundane tasks like um
+getting groceries it could be gathering
+the Kingdom's Provisions or instead of
+studying it could be mastering the
+ancient Scrolls so transforming everyday
+tasks into exciting quests so let's see
+if we can get Cody to help us build that
+all right so I have a basic nextjs app I
+just ran create next app and this is the
+default page. TSX file and I have it
+running over here on the right side so
+let's open up Cody and let's start a new
+chat I guess so I asked it to help help
+me create this app and I explained what
+the app is epicd is a dynamic gamified
+to-do application that combines task
+management with ventage fanty Adventure
+theme yada yada and this is what it came
+up with here's some suggestions the Tex
+stack so it knows that we're using xjs
+uh it knows we're going to need some
+hooks um it's suggesting a CMS I'm not
+sure that I need that at this point uh
+versel will be used to deploy says we
+need a homepage with hero section
+example quests uh call to action uh
+dashboard Quest details profile features
+would be authentication Dynamic Quest
+data Quest status retro pixel art theme
+nice uh ideas for gamification animation
+sound effects Mobile app all right so
+nice suggestions let's see how can we
+get started so let's just see what
+happens if I say help me implement the
+changes to the p page. TSX
+file okay so it looks like it is wanting
+us to use some imports here fetch quests
+from utils
+quests Quest
+Card okay import page
+module then we have our
+quests
+and all right let's just add this in see
+what it does so we can copy this code or
+we can insert it directly okay so
+obviously we're going to have some
+issues because we don't have these uh
+util files and components so let's work
+through fixing that so we'll need uh to
+fetch some requests utils quests let's
+go over here and let's create a utils
+folder and a
+quest all right so let's say um
+implement the utils
+SL quests.
+TSX
+file to only return wa to return some
+dummy data for
+now okay so let's go ahead and Implement
+that so we are recoring and function
+fetch Quest and looks like we've got
+some dummy quests in here with ID name
+description and whether they are
+complete or not so pretty cool let's
+save that go back here okay and it's
+still I put under app okay so I have to
+change this uh let's use the at and then
+app that should do it all right so now
+let's create the quest cards so
+components Quest Card let's go ahead and
+create that we'll go to
+app create a new
+file
+components and then Quest
+card. TSX all right now let's go
+and ask Cody to
+implement the quest card code let's see
+what that
+does okay so it gave us um Quest Card
+module. CSS as well as the Quest Card
+TSX let's Implement that and then let's
+also add the Quest Card module CSS so
+let's add that over there it looks like
+we're looking for name description and
+completed uh so that might be different
+than well let's go ahead and and do the
+same thing here let's at app
+this and then we're using this Quest
+card and where are we all right so we
+have our name so we need an ID a name
+and a
+description and so come over here we've
+got name description and
+completed and then what do we have here
+again ID name description completed okay
+so we need to also send this
+completed and then why are we getting
+squigglys here all right let's see if
+Cody can help us fix this first we need
+to get our
+Quest data and let's see if we can get a
+quick fix on
+this nice so Cody helped us to implement
+an
+interface I might want to put the
+interface up here
+though looks like all of that is good
+let's go to our card let's do a quick
+fix and ask Cody to fix
+that okay so now it has helped us to Def
+find these it looks like we don't have
+any other errors so let's go back over
+here and we're having some issues here
+because of use effect so let's go back
+because we are using a use effect here
+and we've got some State and we've got
+some local handling stuff we do need to
+make this a client component so we'll
+say use client and save that then let's
+go back and I think we have some uh
+existing Styles here let's just go ahead
+and
+delete these Styles and this is what
+Cody gave us so far I mean pretty good
+start uh my epic quests slay the evil
+dragon rescue the princess hunt for
+Treasure pretty cool we need we need to
+make some iterations on this obviously
+we need to be able to complete them and
+do other things so let's go to uh the
+quest card and let's make some changes
+here so I'm going to select this and
+then control shift p there's probably
+something in here for
+Cody uh Cody
+commands looks like um alt C on Windows
+might be option C probably on Mac all
+right so let's do this um alt C okay now
+we got my slash commands ask doc edit
+all right yeah let's do edit and then
+let's say um add a way
+to check a quest t as
+completed okay so it looks like it
+added a span
+here um and
+checkbox check to complete on change
+okay let's
+see all right let's apply that save so
+now we' got some check boxes is all
+right not complete not complete complete
+all right now let's work on the Styles a
+bit so let's say
+um
+edit okay Cody just applied a whole
+bunch of Styles um kind of made it a
+little better let's go back to the chat
+and let's implement the quest
+card um module CSS based
+[Music]
+on Quest
+Card
+create these styles
+for
+that okay all right so let's uh let's
+copy that and enter that there let's see
+what it looks
+like looks looks great it does okay
+let's um all right so let's highlight
+the whole thing here and let's edit and
+say make the
+text uh
+black nice all right that's much better
+okay so we have uh slay the dragon
+rescue the princess hunt for Treasures
+this one is complete these are not um I
+can't check them so we have to add that
+functionality we also need functionality
+to add another one so let's go back here
+to page
+um let's see where should we put this
+we'll put it
+here between the header and the other
+stuff and let's
+say edit add a an
+input to add more
+quests I like the animations the it's
+just like going all over the place
+checking things out out and
+boom all right so we are implementing
+some stuff here all right we've got new
+Quest use State blank and then we are
+adding a new
+Quest da da
+nice set Quest adding that and then we
+have an input here on change set new
+Quest pretty nice all right let's save
+that let's go and style it what is this
+squiggly here must have labels okay
+let's do a quick fix on
+that all right let's style this up let's
+go
+here let's say add Styles I don't know
+let's just see what it comes up
+with okay so it added some Styles here
+that we need to add
+into the
+module so we've got label
+input and button okay so let's go over
+to our page module and I'm going to go
+back to my chat this this time and I'm
+going to say uh suggest styles
+for the new
+Quest input section
+of page let's see what it does
+there let's check this out let's copy it
+and put it into here we'll just doesn't
+matter where all right let's just put it
+here save and yeah that looks amazing
+H he we got a nice hover there oh and
+the functionality actually works it's
+not checking uh new Quest description
+not complete not complete oh so let's
+try this test it actually it works
+straight away um all right let's just do
+one more thing let's um do this edit
+and
+add padding
+between input and
+button okay so it
+added ping all right let's save that and
+see all right that looks much better um
+one other thing I just want to do real
+quick where is the
+H1 uh let's just highlight the whole
+thing I'm not sure I don't want to find
+where it's at I'm just going to say
+add
+padding below the I think it's an H1
+let's say H1 I'm not sure if it actually
+is or not I don't
+remember nice that worked it found it it
+figured out where to put it and it added
+the padding pretty cool so I didn't have
+to go look for it okay let's go back to
+um the ability to complete a quest so
+completed is here so we need to be able
+to complete it
+from uh from the card okay so obviously
+we need a call here and it probably
+needs to boil up
+to we're getting our name description we
+probably need to pull it into here I
+mean this is just like I'm not trying to
+make this perfect so uh let's go to page
+let's Implement
+functionality all right let's do this
+we're going to just highlight the whole
+thing
+here and we're going to say
+Implement
+functionality
+to complete a quest and pass that to the
+quest uh what's it called
+Quest Card Quest
+Card QUEST card
+so let's see what Cody comes up
+with Okay so let's see where are here's
+the
+edits so we have a complete Quest
+function here which is going to set the
+quest and find it and set it to complete
+that's cool and then and then on
+complete call the complete Quest and
+pass the quest ID quest ID okay so this
+is not exactly I guess this is what I
+asked Cody to do but this is not what I
+meant Cody to do so complete Quest is
+what I meant to just pass this function
+so complete
+Quest should equal and then not a
+function just pass it complete Quest and
+then in QUEST card we need to pull in
+complete Quest and also we're not
+pulling the ID so let's
+say retrieve the ID and complete Quest
+function call the
+function when the quest is marked as
+complete wow okay this is pretty cool
+all right so we have the ID and then we
+have ID string yep and then onchange
+complete Quest passing the
+ID pretty
+cool um nice let's save that we go back
+now we also need to pass in the ID um
+and so let's go ahead and do that that's
+pretty quick I don't need Cody to help
+me with that I think I can handle it um
+what uh what else we have got something
+going on here there's a quest ID okay
+what is
+this implicit any on quest ID
+okay so let's see if we can get Cody to
+help us fix
+this okay what did Cody
+do quest ID string okay
+so seems like this should work now let's
+see if we can complete we can complete
+oh we can't
+uncomplete we can complete but we can't
+uncomplete well that's all right all
+right that's fair I didn't ask Cody to
+help me uncomplete I just said help me
+complete so pretty funny so I'm pretty
+happy with what I was able to accomplish
+in such a short period of time and I
+didn't get a chance to look at the unit
+test generation the code smells and
+documentation that's that's pretty key
+being able to create documentation on
+the fly as you go and let AI help you
+you create that that's pretty cool Cody
+is generally available as of today
+December the 14th so go give it a try at
+sourcegraph
+docomo I'm going to keep iterating on
+this app and use Cody along the way so
+look out for more videos
 
 ----------
 
 -----
+
 --52--
 
 -----
-Date:
-Link:
+Date: 2022.07.18
+Link: [# Is OOP EVIL??? Reacting to my favorite dev Youtube video](https://www.youtube.com/watch?v=YpJufWdZFB8)
+
+Notes:
+**Video Title:** Object-Oriented Programming is Bad by Brian Will
+
+**Summary of Content:** Brian Will delivers a compelling argument against the use of Object-Oriented Programming (OOP), challenging the conventional wisdom that OOP is the superior or default programming paradigm. He critiques OOP for its complexity, inefficiency, and for leading developers astray with its emphasis on encapsulation and inheritance. Instead, Will advocates for procedural programming, presenting it as a more straightforward, efficient alternative.
+
+**Advantages of Procedural Programming:**
+
+- Simplifies the coding process by focusing on functions rather than objects.
+- Reduces complexity by not forcing every piece of functionality into the OOP paradigm.
+- Encourages the use of pure functions, which are easier to understand and debug.
+- Avoids the overuse of abstraction and unnecessary classes, leading to cleaner, more readable code.
+
+**Drawbacks of Object-Oriented Programming:**
+
+- Often leads to unnecessary complexity and abstraction.
+- Encapsulation, a core principle of OOP, can create rigid code structures that are difficult to modify.
+- Inheritance is criticized for being less relevant and sometimes harmful to code clarity and functionality.
+- The ideology of OOP can lead to analysis paralysis, where developers spend excessive time on class design rather than actual coding.
+
+**Tips and Advice:**
+
+- Consider procedural programming for its simplicity and directness.
+- Use classes sparingly and only when there's a strong association between functions and data types.
+- Favor pure functions to enhance code readability and maintainability.
+- Don't be afraid of longer functions if they maintain logic sequence and coherence.
+
+**Lecture Content:**
+
+- Will deconstructs OOP to its core components and identifies where it falls short in practical application.
+- Offers a critique on how OOP's emphasis on abstraction and encapsulation leads to bloated and convoluted codebases.
+- Advocates for a return to procedural programming, presenting it as a viable alternative that simplifies development and focuses on functionality over form.
+
+**Main Challenges:**
+
+- Overcoming the entrenched belief in the superiority of OOP within the programming community.
+- Resisting the temptation to default to OOP practices due to educational and industry norms.
+- Simplifying codebases that have been overly complicated by OOP practices without losing functionality or readability.
+
+**The Importance and Usefulness of the Topic:**
+
+- Challenges conventional programming paradigms and encourages critical thinking about best practices.
+- Offers practical advice for developers looking to simplify their code and improve efficiency.
+- Raises awareness about the pitfalls of blindly following programming ideologies without considering their practical implications.
+
+**Accomplishments:**
+
+- Will's critique of OOP has resonated with many in the programming community, sparking discussions and reevaluations of coding practices.
+- The video serves as an educational tool for those new to programming or those entrenched in OOP, offering a fresh perspective.
+
+**Interesting Quotes or Insightful Sentences:**
+
+- "Encapsulation does not work at a fine-grained level, which is the core of what object-oriented ideology prescribes."
+- "Pure functions are the only truly self-contained units of code."
+- "What object-oriented programming promises becomes a fool's game where there aren't any real good answers."
+
+**Conclusion:** Brian Will's critique of OOP in favor of procedural programming challenges the status quo, urging developers to reconsider the effectiveness of their coding paradigms. By highlighting the drawbacks of OOP and the advantages of procedural programming, Will encourages a shift towards simpler, more logical coding practices that prioritize functionality over complex abstraction.
+
 Transcription:
 
-paste here
+this is such a banger take and it's entirely correct no comment there's no reason to use inheritance it's 2022.
+[Music] i'm a business manager i care about technical decisions
+oop is a bad technical decision my stack lets people who worked out a ramen shop writing zig on board in a week
+op does not help here period you don't got to call me out that hard brian come on
+look some of us need auto complete don't make fun of us too badly for it
+[Music] shall we get started
+object-oriented programming is bad by brian will this is a talk from 2016 that
+occasionally he posts updates to but this is the classic this is like one of
+the the best og youtube talks ever sitting comfy with 1.7 million plays every
+single one of which is deserved let's do it
+when i say that this video is probably the most important programming video you're ever going to watch it's partly because what i'm going to tell you is
+distinctly a minority position among programmers probably five percent or under programmers will tell you that
+definitively object-oriented programming is just not a good idea and in fact is going to lead you astray maybe you'll
+have another 20 30 percent of programmers who will hem and haw and say that it has some virtues and some weaknesses and it might be better
+applied to some problems than others i'm not telling you that i'm telling you definitively no object-oriented
+programming doesn't fit any problem and you shouldn't take it seriously this is almost certainly not what you
+were told in school if you attended a programming course in the last 15 years or you read most educational materials
+about programming the the pervasive default assumption is just well object-oriented programming is the right way to go and it's just a subtle matter
+so i reiterate this is probably going to be the most important video you watch about programming because it's going to tell you something you're not going to
+get from a vast majority of other sources first off i'm going to try and make clear exactly what i'm complaining about
+and what i'm not complaining about and then i'm going to try and explain well what is object-oriented programming really because if we don't nail that
+down it's almost impossible to criticize and then i'll try and account for well if object-oriented programming isn't
+good why does it dominate the industry that's kind of an important question actually and then i'll actually get into well why
+doesn't object 20 programming not work what's bad about it and then lastly if i'm telling you to not program in an object jointed style then what do you do
+instead what is the alternative it's called procedural programming but what does that look like exactly
+so what are the problems with object-oriented programming well first off the problem is really not classes
+per se that is i think it's actually possible to program occasionally with classes in a way that's fairly benign i
+don't think it's particularly beneficial but for aesthetic reasons it might
+seem more pleasing to have an explicit association between certain functions and certain data types doing this
+pervasively though as i'll make clear is a really bad idea that's where everything goes wrong is when you try
+and shove every function of your code every behavior into an association with a data type that leads to disaster
+secondly i don't think the problem with object-oriented programming is about performance i recommend you watch this
+talk by mike acting called data-oriented design in c-plus plus he makes some very interesting points and provides some
+insight into that world of programming which most of us don't do but i think he overstates this case fine there's a lot
+of software out there that should be written with much more regard for performance but i think there's tons of software that just really doesn't apply
+you'll also hear complaints about excessive abstraction from generally the same people people like mike acton and again here i think
+they're overstating their case i think abstraction is actually a worthy goal in practice most abstractions
+aren't good it takes a long long time to develop good ones and as i'll explain the major problem with obtaining
+programming is it does tend to produce abstractions that aren't any good that's the real problem not the idea of
+abstraction itself another interesting talk to watch is one by abner coinbrey called what
+programming is never about and the thing which he says programming is never about is code prettiness how code looks
+aesthetics his main point is that programmers typically focus too much on surface concerns about their code rather than
+stuff that really matters i think though he actually simply misstates his case or rather his thesis
+doesn't really follow from his arguments which are generally valid i think when really pressed he would
+admit that elegance simplicity flexibility readability maintainability structure all these things you might
+file under code aesthetics i think you admit actually do matter but i think the more accurate way to spin his point is
+that these surface level virtues of code are good things and actually important
+typing hazard just made a really good point in youtube chat he likes this talk because eventually
+brian does get prescriptive and suggests solutions rather than just complaining about code being bad whereas
+somebody like jonathan blow just complains a whole bunch and says do better but doesn't show you what better
+could or should look like jonathan blow is everything i hate about programming influencer bros
+brian's on the other side of that and i really hope that i'm building a community and a
+persona whatever that leans more brian and less
+whatever the [ __ ] jonathan's doing yeah
+but object-oriented programming and abstraction-heavy programming in general fails to deliver them in fact it
+provides just the illusion why did you say oreos i was already hungry i'm gonna go grab snacks
+actually important but object-oriented programming and abstraction-heavy programming in general fails to deliver
+them in fact it provides just the illusion of these things object-oriented programming is sold on the basis that it supposedly provides
+these things but particularly simplicity and elegance it actually makes things worse
+lastly be clear that i'm pushing procedural programming not necessarily functional programming which is a
+different thing as i'll make clear in a moment i happen to think that functional programming actually is the future of
+higher level code i think it may actually be the default way we program at a higher level in 10 years from now
+or something but there are serious efficiency problems that make functional programming not really viable in certain
+domains of programming and so my message is whether your code ends up functional or imperative that's a separate matter
+regardless your code should be procedural rather than object oriented
+so it's a good time now to make clear exactly what are the competing paradigms of programming that we're really talking
+about there are four main possibilities your code can first be both procedural and
+imperative procedural meaning that you have no explicit association between your data types and your functions your
+behaviors and imperative meaning that we just mutate state whenever we feel like
+it we don't have any special handling of shared state which can cause problems as your code gets larger and larger and
+more complex but in procedural and imperative programming we just cope with the problems as they arise and you can
+think of this style of programming as being basically the default it's the the obvious way to get work done
+so this is really how all programming was done in the early days of computers but then starting in the 60s as programs
+got more and more complicated people began thinking about well how do we solve this problem of shared state
+because it really can get out of hand and so we got two major prescriptions on how to handle the problem
+one of these prescriptions says that our code should be procedural yet functional meaning that all or most of the
+functions that make up our code should be pure they should not deal with state and so programming in the style we would
+tackle the problem of shared state by minimizing state trying to get rid of as much of it as possible
+the other prescription people came up with said that our code should be object oriented and imperative and the strategy
+here is that we simply segregate our state we take the state that makes up our program and instead of sharing it
+promiscuously we try and divide and conquer the problem we package it into these encapsulated
+i do want to talk about the slide a bit i
+i like this framing a lot i think that treating procedural and imperative as a
+default and then changing parts from there is a really clear model for
+where things start and how these things are different
+i also really like the call out that procedural and functional's goal is to minimize state i'm sure all of you have
+heard me rant about this all the time i want my state on the db and i want the simplest pipe from there
+to my users and that pipe is functional because the data exists in one place the user exists on the other side of it and
+i call a bunch of functions to generate the page or the content or whatever for that user the functional pipe
+to that data store allows us to keep the state as minimal as possible and i
+really like how functional programming mindset and paradigms enable that even a
+functional programming itself isn't always the answer
+the mindset that it encourages is why things like serverless functions make so much sense
+and functions the ideology are as powerful as functions the concept
+in that way also shadow elixir
+units that we call objects and objects contain other objects and so forth and that's how we conquer the problem
+and these two prescriptions are actually orthogonal to each other we can do both the functional business to minimize the
+amount of state which our program deals with and then whatever state is left over we can then segregate into separate
+units of encapsulation and in fact i think this combination approach may actually be the ideal way
+to structure programs at least in terms of high level code where we don't care so much about efficiency
+as i'll explain i think segregating state is actually a valid strategy up to a certain level of detail a certain
+level of complexity and so if we first minimize the amount of state which our code deals with it then becomes a viable
+strategy to segregate the remaining state you may
+have noticed in my definition of object-oriented programming that i said nothing about inheritance and that is because inheritance is simply irrelevant
+no one defends it anymore even people who advocate for object-oriented programming will very very commonly these days tell you to be very very
+careful in using inheritance or maybe not to use it at all and so it's not really pertinent to any argument about
+whether object-oriented programming is good or bad this is such a banger take and it's entirely correct
+no comment there's no reason to use inheritance it's 2022.
+for similar reasons i didn't say anything about polymorphism in my definition because polymorphism really good or bad isn't exclusive to
+object-oriented programming you can have procedural code that is polymorphic and in fact even more polymorphic than is
+typically available in most object-oriented languages so it's really not part of the discussion as far as i'm concerned when
+i complain about object-oriented programming i'm really complaining about one idea encapsulation encapsulation
+does not work or as i should qualify this encapsulation does not work at a fine-grained level which is the core of
+what object-oriented ideology prescribes that we need to take the state of our programs and divide and conquer that
+problem by chopping it up into tiny little pieces that is the nature of object-oriented code and it doesn't work it leads to
+madness before delving into why object-oriented
+programming doesn't work it is important to address this mystery of well if object-oriented programming isn't so great why does it now dominate the
+industry and why has it done so for almost the last 20 years i've heard it sometimes suggested that
+well this was an imposition of management management wants interchangeable developers so it can
+have a cookie-cutter assembly line development process hence business types were really enthusiastic about
+object-oriented programming promises about code reusability and compartmentalization
+it's a theory that sounds plausible to me but the main sticking point is that object-oriented programming doesn't actually deliver these promises you'd
+think people would have noticed sometime in the last 20 years yet they seem not to have noticed
+i'm also skeptical of the idea that management actually really inserts themselves in these technical decisions that often i suppose once say
+object-oriented programming was well-established and that became the pervasive norm then yeah sure management
+would push towards doing what everyone else is doing so that they can draw from the the larger talent pool but otherwise
+aside from pushing engineers to just go along with the legacy system and not rebuild everything i just don't think
+that many business managers really care that much about technical decisions
+i'm a business manager i care about technical decisions oop is a bad technical decision
+my stack lets people who worked out a ramen shop writing zig on board in a week
+oop does not help here period just a lie the zig ramen archetype oh god yeah
+mel's the best uh they're one of the most talented engineers i've worked with the the grind is very real with that one
+they've never done web dev or typescript at all before working at ping and the
+i like to think that the t3 stack helped them on board pretty quick and yeah they
+destroy and quickly ship full stack features with no assistance needed and i do think that
+our more functional focus stack allows them to move faster and i
+yeah as a manager i think it's irresponsible to not make
+decisions that how do i put it like oop is the
+the manager decision you make if you heard about programming in university and they're just going with what you learned there
+but yeah i
+there aren't many positions i've personally been in as a manager or a hiring person
+where oop tech would have made my life easier
+so even at that level i don't necessarily agree the larger talent pool
+but otherwise aside from pushing engineers to just go along with the legacy system and not rebuild everything
+i just don't think that many business managers really care that much about technical decisions i'm much more inclined to think that
+object-oriented programming is something that programmers did to themselves and the question is then well why
+i think a big part of the answer simply comes down to java when it was first introduced in the mid 90s java seemed
+like a welcome reprieve to many programmers compared to the alternatives java seemed really simple
+for example on the pc this is what application development looked like you had to use the win32 api in c and not
+only did programmers have to concern themselves with memory management as you do in c but on top of that win32 just
+doesn't feel like the sea that you would learn from books that's not what you would learn from k r it's not what you would learn in school it's all this
+excess macro heavy stuff on top that is really mystifying even the tools you would use to write c
+programs on a windows platform the visual studio tools you know wouldn't be the same as what you would learn in
+university probably where you probably had a unix system and that's what you learned so it was over to this platform with a
+quite high barrier to entry but then also in this period it was undergoing this ugly transition from win16 to win32
+and so you can begin to see why programmers were desperately looking for some way out the only real alternative at the time in
+pc programming was what visual basic but that was another effective microsoft platform you're locking yourself into
+and i suppose otherwise you might use pascal or delphi but that platform had its own issues and so it shouldn't be too surprising that when sun
+microsystems came along and said here's this free thing that everyone can use across all platforms
+that got people's attention and java had other things going for it that certainly seemed more accessible
+just in terms of like its naming conventions for example you look at the java apis and you see things like file
+input stream which is not cryptic at all yes there are definitely issues in how abstracted uh many of the apis are and
+you know having to derive base classes to use the apis and all that nonsense but on first glance on surface
+inspection it certainly seems like a friendlier system it's not like unix where you have stuff like io ctl which
+is you're supposed to know is input output control and other really horrible abbreviations and then 132 had the same
+thing you know lpct str stands for was long pointer to a const t char
+string so even if you know what a t char is and a long pointer is you're stuck in this world where everything is cryptically
+abbreviated and it's just this goddamn puzzle that you have to figure out at every step java came in and said no we don't
+necessarily have to program that way we can write real programs that don't have to be horribly cryptic in that way
+and then java took things too far in the other direction but that's again we'll get to that java also smartly had the c like syntax
+the curly brace syntax so superficially at least it seemed familiar to programmers from c and c plus plus and
+it seemed like real programming it has curly braces after all and then the whole compilation to vm
+bytecode business was again very alluring to programmers trying to escape their platform headaches and then java
+also offered some very basic niceties like proper namespaces without header files for christ's sake we still have to
+deal with header file to do our real programming in cnc plus
+plus at least 20 years after we should have ditched them if for this one thing alone i think it's worth giving java some credit hit mainstream's programming
+without header files and then of course also very alluring garbage collection i know some hardcore low-level programmers out there will
+insist that garbage collection is never necessary it's never a good idea but whether or not that's the case it's really hard to argue with the appeal it
+shouldn't be surprising that the vast armies of people doing business quote applications wanted to stop thinking about memory management
+java also mainstreamed exceptions as the primary way to handle errors and whatever problems this may have in practice i think it definitely seems
+appealing because the alternative is ugly the alternative is what we do in c and c plus plus of having to have an inbound error return value or like you
+know saving to a global and checking the global after everything you call it's not pretty um go align with multiple return and that style probably is the
+better way to go but that's not the solution it came up with and so it normalized this other thing that seemed better at the time
+i think some people also came to like the subject verb object nature of method calls over straight function calls because well this is just what we do in
+english it's subject first then verb then object i myself don't find it all that appealing i prefer consistency and
+i think the distinction between subject and object in many many cases gets very very murky which is one of the problems with objective programming as we'll get
+to but the style of syntax in java led to this convenience people i think since then have become addicted to which is in
+their ides it offers them for this data type what are my options what can i do with this thing it seems to enable a
+style of programming where you can just sort of browse you don't have to hold all the options in your head you just have a vague notion of way i'm going to
+take that thing and transform into this other thing i don't remember exactly what the method is called i'll just group my way there using autocompletion
+in my ide you don't got to call me out that hard brian come on
+look some of us need auto complete don't make fun of us too badly for it
+again there's really actually no reason you couldn't have the same style of convenience in a purely procedural language you would just have an auto completion for given this first argument
+what functions take this type as its first argument oh that sounds like the rpc
+effectively the same thing really but because of quirks of history and syntax design this particular editing convenience has been implemented for
+languages like java but generally not straight procedural languages and i think method auto-completion may actually largely explain why people
+sometimes claim that object-oriented apis feel easier to use it's because you can largely auto-complete your way
+through most of the usage another thing java seemed to have going for it is that back in the 90s this was
+the heyday of gui programming and it seemed really logical to map components as we see them in a gui window and
+classes in an object-oriented program that seemed like a very natural correspondence this was the most tangible version of the real world
+modeling which object oriented promised at the time it seemed like a very plausible story and on top of that you
+have the virtue of java being supposedly cross-platform with the java swing api so you can write guise that will run on any system they'll look horribly ugly
+but at least hey they're running everything you could do so-called rad rapid application development of gui applications like you do in visual basic
+except in java you're not locked into microsoft's platform so the funny thing to me about java is
+that i think in an alternate history it could have had virtually all the same success if not even more perhaps if it weren't object oriented at all it could
+have just been a straight procedural language and would have had still a big long list of attractive selling points we could have had all the same
+portability the same garbage collection the same exception handling and so forth down the line without any of the
+object-orientedness or at the very least without forcing everything into the mold of classes you could have a language like python say where there are classes
+but also just straight procedural code if you want and they can live side by side just fine so there still is this question java
+aside there seems to be some appeal to object-oriented programming in itself and what is that well i think very simply if you go back to the 60s and 70s
+as people were grappling with the problems of software systems getting larger and larger people tried to identify units of code
+everything is a widget just triggered me so hard oh god
+oh god that hit deep
+yeah i
+yeah i we just talked about in chat a bit i have nothing to say this talk's really good i i don't know why i thought i'd
+have more comments but like everything brian says here is entirely correct he has fantastic
+history does a fair enough job of describing why people like these patterns
+and then dismantles the whole thing so yeah
+distraction that were larger than individual functions and data types it's natural to want to describe any complex
+system in terms of large-scale components you know if you talk about human anatomy you don't explain it first in terms of microbiology that would be
+nuts we first talk about very major organs like the brain and the heart and kidneys and so forth as software gets
+larger and larger it felt like these units of code we were building out of the base materials these data structures and functions they became smaller and
+smaller relative to the whole sadly though the one general answer people could come up with of what is a unit of code abstraction bigger than a
+function and bigger than a data type is just simply a combination of the two and hence objects were born we took our
+functions and our data types and we associated them together an abstraction that is bigger than a
+function and data type is a program
+mic drop sorry i yeah i i don't like pseudo medium
+abstractions in that sense i say as a react developer that writes react components that have logic contained
+within them all the time but yeah i i think that those primitives are very
+good having data types and functions as your core primitives and then abstracting things from there
+into these larger units we want to think in terms of paragraphs rather than individual sentences and object-oriented programming seemed to have an answer for
+how we could do that it's also very natural that as we build larger and larger systems and complex things as much as possible we want
+simple rote rules to guide us object-oriented programming seemed to present a unit of abstraction and a set of guidelines whereby we could
+incrementally accrete larger and larger systems this line of thinking is what led us to patterns and then the so-called solid principles and
+dependency injection and test-driven development and all this stuff which has subsequently been piled on by many people who insist that this is now the
+one true way to do object-oriented programming but to me all these best practices represent band-aids they are
+compensation for the fact that the original vision of object-oriented programming has never panned out and every few years there's a new ideology
+in town about how we actually do objective programming for real systems that's not the solid y'all are thinking
+of don't get too excited fine it's very easy to miss this dynamic i
+know i did for several years because i think within all of these addendums to object-oriented programming there's lots of mystical speech dancing around
+genuine insights but it's not quite cohesive object-only programming feels like this circle which we've been trying
+to square for over a generation now finally let's talk about what's really
+wrong with object-oriented programming specifically encapsulation which is the lint spin of the whole thing so consider what is an object an object
+is this bundle of encapsulated state and we don't interact with the state of that object directly all interactions with that state from the outside world come
+in through messages messages to the object the object has a defined set of messages which it will receive called its public interface and so we have
+private information hidden behind a public interface when an object receives a message it may in turn send messages to other objects
+and so we can conceive of an object-oriented program being this graph of objects all communicating with each other by sending messages
+many people today forget though that the original conception of a message is not exactly synonymous with just a method call yes in practice it means calling
+methods but a message strictly speaking sends only copies of state it doesn't send references a message sends and returns information about state not
+state itself and well wait a minute objects themselves are state and this has some interesting consequences it means that
+strictly speaking messages cannot pass around object references i've never seen a java or c-sharp codebase that ever
+follows this rule perhaps some small talk programs have but in general this rule is not observed at all and probably
+for good reason as we'll discuss but anyway if we take the rule seriously it means then for an object to send a message to another object the first
+object must hold a private reference to that other object because otherwise how is it going to talk to it to talk an object you have to have a reference to
+it and where is an object going to get i just want to rewind to that anyway if
+we take the rule seriously it means then for an object to send a message to another object the first object hold a private
+reference to that other object because otherwise how is it going to talk to it to talk an object you have to have a reference an object there it is [ __ ]
+couldn't pause and time an object and object programming is how we're
+referring to object programming now then i'm just going to get a reference to another object if it can't get object
+references from messages the references which an object needs have to all be there at the object's inception they
+have to be there for the whole lifetime of the object and there's an even deeper consequence which is that if an object is sending
+messages to another that other object is part of the first object's private state and by the principle of encapsulation an
+object should be responsible for all the objects which it sends messages to this should be obvious if you consider that messages indirectly read and modify
+state when b sends a message to a here it's messing with the state of a indirectly sure but it's still messing with its state and so what happens when
+other objects come along and send messages to that same object what's happening here we have shared state it's hardly any different than if you had a
+single global variable being shared by say 10 functions if you have an object receiving messages from 10 other objects those objects are all effectively tied
+together because they're implicitly sharing this state i'll drop one of my
+first hot takes i
+think that react makes it a little too easy to do this as well
+is this serverless well uh not quite the problem here is
+if i have like a form that's deep and a
+navigation bar on top and i want to like persist some of the form but not all of the form when you change tabs maybe
+you're switching between types of a sign up you're switching between user sign up and admin sign up
+and you want to attach the
+how do i put it you want to attach the place you're at in navigation directly
+to some state but not all of it so that some state persists others doesn't
+you're now exposing weird hooks to trigger resets arbitrarily and letting
+things from above hook in to a deeper component to trigger and untrigger those it can get really messy if you don't
+abstract to a high enough level and i've seen that enough times to say that
+declarative generally has this problem this isn't specific to oop this is a
+declarative model problem that oop encourages a little more heavily but can happen in any
+declarative solution back to it sure the interactions with that state
+are indirect through public methods but those methods are providing very trivial kinds of coordination of the state you can impose rules through the accessor
+methods like saying oh if you access this field it's a number well you can only increment that number you can't mutate it in any other way fine but it's
+a very trivial kind of protection the hard problems of shared state are much much deeper where in the system of 10
+objects all sharing this state is the real coordination and the answer is there isn't any as soon as you have objects being shared encapsulation just
+flies out the window so if we're taking encapsulation seriously the only real way to structure a program to structure our objects as a
+graph is not as a freeform graph but as a strict hierarchy at the top of our hierarchy we have an object representing effectively the
+whole program it's our god object and that has its direct children which represent the subcomponents and those children in turn have their own
+subcomponents and so on down the line and each object in the hierarchy is responsible for its direct children and
+the messages being passed strictly only ever go from parent to their direct child the guide object here for example
+is not supposed to reach down to its grandchild it has to do all of its interactions with this grandchild indirectly through the grandchild's parent otherwise who really is
+responsible for that object who's managing its state it's supposed to be the direct parent and so what happens when we have some
+sort of cross-cutting concern like down in the hierarchy it turns out oh wait there's some business that that object has with another object in a totally
+different branch of the hierarchy how do they talk to each other well not directly everything has to go
+does this look familiar to y'all y'all react devs
+yeah this isn't just class components this is components hierarchy hierarchy
+can have annoying problems like if there's some state in b and we want a to have access we're either doing a stupid
+portal or we're doing something stupider yeah context is a very object-oriented model
+good point parasocial let's get back to it go through their common ancestor for a
+to send a message to b here it can't actually directly invoke any kind of method it has to mutate its own state in some way and then information about that
+state that new intention of the object gets returned from a message sent from a's parent a's parent in turn same thing
+has to happen so it gets back up to the common ancestor and then only finally when we get to the common ancestor can that intent be realized as a series of
+message calls but not directly down to b it has to be bucket brigaded down through the hierarchy that is how you
+handle cross-cutting concerns in a strict encapsulated hierarchy obviously no one writes programs this
+way or at least no one writes whole programs this way and for good reason it's an absurd way to have to write your code
+now you might argue that people do follow these principles in practice they just do so inconsistently and perhaps there is some value in a code base where
+you apply these principles inconsistently perhaps half-ass encapsulation actually gets us something so imagine we have some sort of
+free-form graph of objects making up a program and we decide oh well there's a subsystem of objects that together should be their own self-contained
+encapsulated hierarchy of objects and so we're going to refactor our code well very often what that means is not only do we have to do a lot of complicated
+rethinking of the structure of the relationships here of what calls what on the other objects we very typically have to introduce more objects like say here
+to represent this whole new subsystem we probably have to do some new subgod object some ruler of this subsystem
+now all interactions with the subsystem have to be reconceptualized as going through this minor deity so say we successfully do this
+refactoring and now while our code doesn't follow the principles of encapsulation perfectly it's doing so in a half consistent way and maybe there's
+some benefit there well i think what tends to happen is subsequently we decide oh wait we need some new interaction between elements of
+this encapsulated subsystem and instead of having to do the hard work of figuring out how exactly it all gets coordinated from the root of that
+subsystem the temptation is to just handle the business directly but if we want to do the proper thing we have two
+options and maybe it turns out that that stuff external to the subsystem actually just needs to get integrated into that subsystem and so it comes under the
+purview of the subsystems route but otherwise we now have two subsystems that need to coordinate and who's going to do the coordination well now we need
+a new subsystem god object responsible for the collective business of these two subsystems and now all interactions of
+these two subsystems have to go through this root object but also all interactions with the outside world and these two subsystems have to go through
+this new root object so as you can see chances are really good that what you would actually do is say [ __ ] it and just do this you would
+just reach in and have the objects directly interact with each other whether they should properly do so or not and now where is encapsulation
+what's the point whether you follow the rules strictly or loosely you're in a bad place if you follow the rules strictly most things
+you do end up being very unobviously structured and very indirect and the number of defined entities in your code
+base proliferates with no end in sight the nature of these entities tends to be very abstract and nebulous but alternatively if you follow the rules
+loosely what are you even getting why are you bothering what is the point when i look at your object-oriented code base what i'm going to encounter is
+either this over-engineered giant power of abstractions or i'm going to be looking at this inconsistently architected pile of objects that are all
+probably tangled together like christmas lights you'll have all these objects giving you a warm fuzzy feeling of encapsulation but you're not going to
+have any real encapsulation of any significance what people tend to create when they design object-oriented programs are
+overly architected buildings where the walls have been prematurely erected before we have really figured out what the needs of the floor plan are and so
+what happens is down the line turns out oh wait we need to get from this room over here to that room over there but oh wait we've erected berries in between so
+we end up busting a bunch of holes through all the walls like the kool-aid guy and the resulting pattern is really not organized at all it's just swiss
+cheese we thought we were being disciplined and neatly modularizing all the state but then the requirements changed or we just didn't anticipate
+certain details of the implementation and we end up with a mess the lesson we should take from this is to be very careful about erecting
+barriers about imposing structure it's actually better to start out with a free-form absence of structure rather than impose a structure that will likely
+turn out to not really fit our problem i have a really funny example of this
+did you all know that random
+step back sure y'all have probably boarded an airplane before
+and you boarded front to back did you know
+that random would be a much more effective way to board a plane back to front would be
+better ish but not significantly going like outside to inside from back
+to front would make more sense but then you're splitting up groups and they hate that randomly
+sending people in to the plane tends to board significantly faster
+specifically because the structure gets figured out through the randomness and that's to an extent
+what's being discussed here which is when a bad structure is prescribed
+that is worse than having no structure at all i also love how many people just shouted out cgp cray yes i watched that video
+look we're all nerds here we all watch the same nerd [ __ ] y'all are youtube degen's
+enough to be here on a on a holiday so yeah we watch the same things on youtube
+sorry sure more than half of you have even seen this talk but you're sticking around because it's really good and you
+like me bad structure that doesn't really fit our problem not only makes it harder to
+implement the code in the first place it hinders change and it confuses anyone who looks at our code because it's implying one thing but then what's
+really going on is another in the objective world we have to think about all these graphs we have to think about an inheritance hierarchy we have to
+think about a composition graph we have to think about data flows between the object and also we're thinking about a call graph the liberating thing about
+procedural code is there's just the call graph we also of course do have to think about how our data is structured and how
+our data gets transformed throughout the course of the program but the beauty of procedural code is that we can think about that totally independent of any
+notion of responsibilities when i'm looking at my data i can think just about my data and when i'm looking at my functions i'm not thinking about all
+these self-imposed barriers i'm not constantly trying to group and modularize everything into these small units of so-called single
+responsibilities when i sit down to write object-oriented code i always have to play this game i have this mental list of the obvious
+data types which my code will deal with and have the separate mental list of all the imagined behaviors i want in my program although the functionality i
+imagine it to have and then what object-oriented ideology demands is that i take all my behaviors and i somehow associate each one with one of my data
+types inevitably what this means in any non-trivial program is i'm actually going to have to introduce all sorts of additional data types just to be these
+containers for certain behaviors which otherwise don't naturally fit with any of my obvious data types the data types i knew i actually wanted because they
+represent actual data i need in fact as programs get larger and larger in object-oriented code it tends to be that these unobvious unnatural data types
+tend to actually predominate you end up with a majority of so-called data types which really aren't there because they're representing data they exist
+simply as attacks to conform to this ideology about code modularization very quickly we end up in what steve yeage called the kingdom of nouns where
+every aspect of our program has to be reconceptualized as not just mere standalone verbs you know functions they have to be reconceptualized as nouns
+things that represent a set of behaviors and so what we get in our object-oriented code bases are all these service classes and manager classes and
+other what i call doer classes these very nebulous and abstract entities even when dealing with data types and
+behaviors that are relatively concrete which have fairly visible connections to the functionality apparent to actual users of the program even here the
+matchmaking game constantly presents us with these obnoxious philosophical dilemmas in object-oriented analysis and design we constantly have to ask
+ourselves stupid questions like should a message send itself because maybe instead we should have some sender object which sends messages or wait a
+minute maybe there should be a receiver object which receives messages or a connection object which transmits messages so very quickly the real world
+modeling which object-oriented programming promises becomes a fool's game where there aren't any real good answers
+in my experience object-oriented analysis and design very quickly becomes analysis paralysis if you take the
+ideology seriously as i did you're going to waste a lot of time hemming and haunting about to conceptualize these elements of your program object jointed
+programming is generally sold to students on the basis of these trivial examples that neatly model real world taxonomy but everyone's favorite pointed
+analysis and design is a lot of very abstract access structure with no obvious real-world analogs
+note here that programmers have their own peculiar definition of abstract when programmers talk about abstraction they're generally talking about
+simplified interface over complex inner workings what's odd about this is that in more general usage abstract has a
+connotation of being hard to understand something which is abstract has no resemblance to the things of common daily life and it turns out that most
+things which programs do are abstract in this sense and so it shouldn't be surprising that we have great difficulty
+conceptualizing the components of a typical program in terms of neatly self-contained modules particularly modules which have any real world analog
+when we pollute our code with generic entities like managers and factories and services we're not really making anything easier to understand we're just
+putting a happy face on the underlying abstract business and for every excess layer of abstraction we're getting more
+abstractness in attempting to neatly modularize and label every little fiddly bit that our program does we're actually
+just making our program harder to understand yep yep
+simpler code is always better than well-named complex code something that happens all the time when
+i look at object-oriented code bases is that i'll try and find the parts in code that corresponds to some user-visible functionality but trying to find the
+functionality going by clues from the names of classes and the names of methods tends to be very misleading very typically my expectation that
+functionality x would be in a class named x turns out to be wrong because the abstract nature of what we typically do in programs generally necessitates
+that functionality is not going to be self-contained it's not going to neatly fit into one neat module and so the class which is called x will very
+superficially relate to x but then all the real work is done elsewhere scattered throughout the code this makes me question what is the value
+of having a class called x if it doesn't really contain all the business effects what this class x really represents is
+actually misleading code structure and how is that helpful how is that conducive to understanding of your code base
+the other reason i have this problem reading code bases and trying to track down where functionality actually lives is because object-oriented design tends
+to fracture functionality in our code it tends to take what otherwise could be relatively self-contained code and split
+it up into many separate methods across many separate classes typically often in many separate files for god's sake this
+fracturing is accepted because of an ideology about encapsulation and this notion of classes and methods properly
+having so-called single responsibilities and there are certainly valid arguments for that idea certainly it is much
+easier to get a small short function correct than to get a large scrolling function correct but the important question is that in splitting your code
+up to many little small methods and many separate classes are we actually decreasing the total complexity of our program or just displacing the
+complexity just merely spreading it around in either case there's this attendant tradeoff we're making where by splitting up larger units of code into
+many smaller ones we're greatly increasing the so-called surface area of our code where i come along
+this is a very underrated and very good take like
+splitting things up feels good because you chopped it and now you have a smaller piece to look at but if you
+need all the pieces to understand what that piece does you just made it more work to keep track
+of it all i look at your code base and i try and get a foothold and everything split up into these tiny little units these tiny
+little packets of code reading this kind of code often feels frustrating in the same way it can be frustrating to eat a bunch of little candies that are all
+individually wrapped and when all your methods are really really short you end up having to jump all around the code to find any line of logic a lot of business
+that otherwise could be neatly sequentially expressed in longer methods gets artificially split up so it feels like you've taken a neatly sorted deck
+of cards and thrown them into the air so you can play 52 card pickup okay so if you're not going to be
+writing object-oriented code what are you going to be doing instead you're going to be writing procedural code but what does that look like well as i
+mentioned at the beginning this doesn't necessarily mean you need to avoid classes entirely if you have a language like python or c plus plus where you
+have both straight functions and also classes there are some cases where the association between your data types and certain functions is really really
+strong that it fits some organizational purposes to just explicitly associate them together by making those functions methods of that type the most obvious
+example would be adts abstract data types things like queues and lists and so forth the key thing to keep in mind however is
+that the moment you start hemming and hawing about whether this particular function really has a primary association with that data type that should be the moment you say screw it
+will make it just a plain function because it turns out that most things we do in code tend to be cross-cutting concerns they don't have necessarily
+special obvious relationships with particular data types they might concern more than one data type and that's why you should generally prefer functions so
+you don't have to play this silly game of matchmaking functions to data types so we're gonna be writing our code
+primarily out of plain functions and we're not going to attempt to encapsulate the state of our program at a fine grained level because it doesn't
+work however shared state is still a problem and if we're not careful it can get out of hand we can't totally solve
+the problem unless we do pure functional programming but short of that there are broad guidelines we can follow to mitigate the problem
+first off when in doubt parameterize this means that rather than passing data to functions through global variables you should instead make that data an
+explicit parameter of the function so it has to get explicitly passed in as much as possible we want data access on our program to flow through the call graph
+so anytime you're attempting to pass data to a function through a global because it seems more efficient or maybe just more convenient you should give that a strong reconsideration
+secondly whatever globals you do end up within your program they can be slightly helpful to group and logically into data types even if this means you effectively
+have a data type with one instance in your whole program this little trick can often make your code seem just a little bit more organized in a sense you're
+just using data types this way to create tiny little sub-name spaces but if you do a good job logically grouping your globals this way as a side benefit this
+can complement rule number one because now you can more conveniently pass this global state to functions by bundling your data together into types you
+typically cut down on the number of parameters which functions have to take though do be careful there isn't art to how you logically group things together
+the third guideline is to opportunistically favor pure functions even if you're not explicitly working in a functional style or working in a
+functional language if you see an opportunity to make a function pure it's generally a good strategy to take that opportunity again pure functions tend to
+come in at efficiency cost but the brilliant thing about pure functions is that they're the only truly self-contained unit of code when i'm
+reading and writing a pure function oh what a banger pure functions are the only truly
+self-contained units of code
+i don't think i've ever said something that smart that was like my own statement god
+yeah pure functions are the only true unit everything else is in abstraction and most of those abstractions are kind of
+bad and should be avoided if you can a pure function for those that don't know is a function with no side effects
+you call it with things and you get back a thing that's it doesn't change anything about your system it doesn't
+write to a variable in memory it doesn't modify the thing you handed it you give it something and you get back something
+else it could even be the same thing but no side effects
+one avoidable pure functions one you can
+code without side effects is not code nope fundamentally disagree
+that's just a bad take does most code need side effects yes but
+if you can manage those side effects then
+and abstract them as much as possible and your code is simple pure pieces
+that you architect in a way that gives you an output that is a side effect like
+running pure code has side effects in the sense that something new is created
+but no it just i fundamentally disagree i don't have to think about anything
+else i can just consider that function entirely unto itself therefore they tend to be easier to understand and to make correct
+the fourth guideline is that we actually should try to encapsulate our code only in a very loose general sense at the level of namespaces packages modules
+whatever your language has so when i'm working in golang for example i think of each package as having its own private state and then a public interface i find
+that encapsulation at this course grain level tends to work because you're typically dealing with much larger units of code than the supposedly ideal
+classes of object-oriented programming the typical golang program is going to have not that many packages maybe like 10 at the high end and structuring a
+mere handful of elements into higher key encapsulation is reasonably doable when it turns out during development that oh
+wait i have some cross-cutting concern in my packages and so we're going to violate this perfect hierarchy encapsulation again it's not such a big
+deal because you're dealing with a relatively small graph of objects all the basic problems of encapsulation are still there is just at the course
+growing to macro level the problems are reasonably manageable the last guideline is that you shouldn't be scared of long functions for a long
+time now programming students have been advised to when in doubt chop their code into smaller and smaller functions but doing this has significant costs there
+are trade-offs it turns out that most programs have these key sections where most of what the code is doing is a long laundry list of stuff and what we're
+told to do in these scenarios is write functions like this where all the business has been extracted out to separate functions the problem with
+doing this pervasively is that what was naturally a logical sequence of code and was otherwise written in sequence top to
+bottom is now spread and out of order throughout your code base obviously in cases where the business extracted to a separate function is
+something that you want to call in multiple places that's a very good reason to have a function but if all these functions were just called in this one place i would generally prefer
+looking at code where the business of those functions is just done in line and if you want high level documentation of
+what's going on in myfunk here then you just put what i would call a section comment denoting what each section of the code does
+in this arrangement the sequence of the business is totally i'm guilty of this i've been trying to get better about it actually writing functions that are much
+more top to bottom here's everything not abstracting just because i can
+this is a very good thing to key in on a function that does everything it needs
+to like if something will never be reused it probably doesn't need to be abstracted
+i agree this applies to react components to an extent i for use effecty type stuff i like to
+break that out for the the naming sake like if the output is a single thing you care about i still like doing that
+abstraction but that's more for clarity while reading because of the
+interop between react and
+state management solutions and use effect and jsx but yeah i almost always agree with this
+very specifically good [ __ ] anyways totally clear and when i'm browsing the
+whole code base when i'm looking outside this function there's less clutter because there are now fewer functions i have to look at and wonder well hey where is that called i wonder what that
+thing does it also has advantage of letting us avoid having to name functions naming stuff is really important in code but
+it's really really hard to do well and in general i find it preferable if we can avoid naming entities as much as possible in this arrangement we don't
+have to think hard about what to call these functions we can just have a comment line and have a full english sentence which generally is better at conveying accurate meaning and also is
+simply easier to write if for whatever reason it doesn't seem adequate to simply comment the section rather than extract it to a separate
+function the next best thing is to make it a private function a nested function such that it's clear this function is
+not called anywhere else it's only called within this function in this arrangement i as a reader of your code coming from the outside i'm still
+presented with a smaller surface area fewer entities in the code and so it's just easier for me to get a foothold now when you do write functions which
+are hundreds if not thousands of lines long you still should keep in mind general guidelines about code readability basic things like not strained too far from the left margin
+for too far or for too long you know you don't want to have code that's indented in eight levels because it gets really obnoxious scrolling in the down code if
+you have to scroll over for one thing and also it tends to just imply there's a lot of busy logic in this part of code and it gets confusing
+so likewise you also need to look out for parts of functions where the logic's just getting too complex the first thing to do is of course to try and simplify
+your logic but failing that there are gonna be cases where hey we should just split this off into a separate function so it's more neatly self-contained complexity
+the other concern with longer functions is that as your function gets longer and longer you tend to accrue more and more local variables so what you want to do
+is hopefully a language allows us you want to try and constrain the scope of the local variables so that they don't exist for the full duration of the function but rather for subsections this
+way either reader of your code when they scan up and down the function i don't have to think about all the variables for the whole duration of the function i
+write functions all the time like that just to contain a variable so it doesn't leak
+from the local scope not the best practice in defining functions all over the place but i do it a lot
+the way this is done in most curly brace languages is you can just introduce a new sub-scope with curly braces so here for example this integer x variable only
+exists within these curly braces when you have sub-sections of a function which you are commenting it's generally a good idea to when in doubt and close
+them in curly braces this gives readers of the function and assurance that variables from the preceding sections don't fall through to the following
+sections and so in later sections we don't have to think about the variables that were used above where possible the even better thing to
+do is to enclose these local scopes in their own anonymous function that's then just immediately called and the advantage here
+yeah this is the thing i was saying i do this too much it'd be cool to have blocks this way but in the nested functions programming so it's just its
+own sub scope but also within this anomalous function it's guaranteed that any return is not going to return out of the enclosing function it'll return just
+out of this enclosed function and so we have a stronger guarantee that the logic of this subsection is self-contained from the enclosing function
+unfortunately what i often really want when creating subsections of longer functions is a feature that doesn't exist in any language i know of it's an
+idea i've only seen in other place it was jonathan blow in his talks about his programming language he's making and the idea is that we want something like an
+anonymous function which doesn't see anything of its enclosing scope the virtue of extracting a section of code
+out to a truly separate function is that everything that comes into the function has to be explicitly passed to a parameter it would be great if we could write
+inline anonymous functions with the same virtue specifically what i would propose is imagine we had a reserved word use
+that introduces a block and in the header of the use we list variables from the enclosing scope which we want to be
+accessible in this block but otherwise anything from the enclosing scope would not be visible these listed variables however would really actually be copies
+of those variables so if you assigned x or y here in the scope you're assigning to x and y the local variables of this
+used block not to x and y of the enclosing scope which is the effect you get with a truly separate function right you assign to the parameters of the
+function you're not modifying what was passed to the function you're just modifying those local variables that's the same thing we want in this use block
+furthermore a use block should itself return values so you use return inside the use block and it doesn't return from the enclosing function returns from the
+use itself that uses an expression and so we can return values from this use and assign it to this variable a
+so in effect we'd have this block of code which is as neatly self-contained as a separate function however it is written in line and so it's very very
+clear that oh this is a piece of code that's only used in this one place you don't have to go look for it elsewhere and also we don't even have to give it a
+name instead we can just put a section common header before the use block and that is generally much better for containing the actual intent of this
+block of code if later i really like this pattern i wish this was
+more popular in more languages down the line we decided that this block of code actually should be extracted to its own proper function that's a very easy thing
+to do you can have an editor convenience that does that for you automatically it's already clear what the parameters and the arguments should be all the
+programming would have to do is provide a name for the new function so anyway it'd be nice if languages had this feature unfortunately i don't know
+of anyone that does but regardless you shouldn't be so scared of long functions they actually have their place in most code bases
+at the very least i hope i can get you to try procedural programming it doesn't really matter what language you're in if you're in java or c sharp you can write
+procedural code you can break the rules but if you've ever felt any of the paralysis that i felt attempting to do object-oriented programming properly to
+square the circle i think you'll find abandoning all those ideas and just reverting to procedural code to be a liberating experience
+i can tell you from personal experience of having read these books that you don't need to read them they don't have answers they're not going to square the circle and you're going to waste
+productive years of your life trying to live up to their ideals i'm not sure bangers are these ideas there are bits and pieces that have value test driven
+development for example has some interesting ideas there's value in testing but that's part of the problem is that kernels of good ideas have been
+taken to holistic extremes in a way that i think has been disastrous for the industry and certainly for programming education there are very few solid
+holistic answers about how we should write code we'd all be better off if we stopped chasing uncle bob catching strays
+yeah uh that was 44 minutes and 35 seconds of straight bangers
+just every point was great fantastic video uh every time i watch it
+i am happy that i do what i do and that i know the things that i know
+he's uh fantastic and he has a few other videos uh the
+god is unity overview stuff's actually really good even though i hate unity what's funny is he hates oop and he's a
+game dev take that as you will he has
+uh where's the one i'm thinking of he did a a video where he
+rewrote a program sorry the object oriented programming is good this one's shorter
+really good he goes a little more in detail on like one or two specific use cases where it's okay
+but he has another awareness like he rewrote the same program multiple times i think it's this one
+oh generation programming is embarrassing four short examples yeah this one is phenomenal if you want to see
+like the extent at which oop is bad he goes very in depth on like specific examples there
+great video highly highly recommend uh checking that out and generally for game
+devs check out his stuff more he does things very different and is still very productive
+did you know that over half my viewers haven't subscribed yet that's insane y'all just click these videos and listen
+to me shout and hope that the algorithm is going to show you the next one make sure you hit that subscribe button maybe even the bell next to it so that you
+know when i'm posting videos also if you didn't know this almost all of my content is live streamed on twitch while
+i'm making it everything on the youtube is cuts clips whatever from my twitch show so if you're not already watching
+make sure you go to twitch.tv theo where i'm live every wednesday around 2 or 3 p.m and i go live on fridays pretty
+often as well thank you again for watching this video really excited thank you
 
 ----------
 
 -----
+
 --51--
 
 -----
-Date:
-Link:
+Date: 2024.01.31
+Link:  [# You dont know OOP](https://www.youtube.com/watch?v=VRlIGV4gl5Q)
+
+Notes:
+
+**Summary of Key Points from the Video Transcription:**
+
+**Advantages:**
+
+- Emphasizes encapsulation, which minimizes inter-module dependencies.
+- Supports subtyping and polymorphism, allowing for flexible code reuse.
+- Structural typing (e.g., in Go) is favored for its compile-time checks and ease of use.
+- Encourages bundling data with behavior for coherent object models.
+
+**Drawbacks:**
+
+- Inheritance is often criticized for being problematic and leading to complex hierarchies.
+- Misuse of object-oriented principles can lead to overcomplication and unnecessary abstractions.
+- Getters and setters are sometimes overused, potentially leading to inefficient encapsulation.
+- Certain patterns like Singleton are seen as glorified global variables, which could be problematic.
+
+**Tips and Advice:**
+
+- Focus on real needs instead of planning for every potential future development.
+- Consider the use of interfaces and structural typing to reduce complexity and improve flexibility.
+- Be wary of overusing design patterns without understanding their impact and necessity.
+- Explore and understand the benefits and limitations of both object-oriented and functional programming paradigms.
+
+**Main Challenges:**
+
+- Deciding when and how to use object-oriented features effectively.
+- Balancing the use of inheritance and composition.
+- Avoiding over-abstraction and keeping the codebase manageable.
+
+**Importance and Usefulness:**
+
+- Object-oriented programming provides a useful model for organizing code and managing complexity.
+- Encapsulation and polymorphism are crucial for creating flexible and maintainable software systems.
+- Understanding OOP principles is important for working with many modern programming languages and frameworks.
+
+**Accomplishments:**
+
+- The transcription outlines a nuanced view of OOP, acknowledging its strengths and weaknesses.
+- Provides practical advice on avoiding common pitfalls in object-oriented design.
+
+**Interesting Quotes or Insightful Sentences:**
+
+- "Inheritance 99.6% of the time is terrible."
+- "OOP to me means only messaging, local retention, and protection and hiding of state processes."
+- "The real power of OOP lies not in the specific features like inheritance but in its overall approach to software design."
+- "Don't use public properties, use getters and setters instead, which is completely wrong."
+- "We are using languages that force us to think in classes, with architectures that don't require objects."
+
+This summary encapsulates the transcription's exploration of object-oriented programming, emphasizing the nuanced approach required to effectively leverage OOP principles while avoiding common pitfalls.
+
 Transcription:
 
-paste here
+I think aspects of oop are nice and there sometimes I like things about it
+now it just depends on to what extent you mean by oop like I do not like the word extends okay I do not like
+inheritance inheritance 99 six% of the time is terrible
+but there's just you know there's always just that there's always just
+inheritance tax is wrong okay the PE people don't understand o o me mean or
+to me means only messaging local retention and protection and hiding of State processes uh and extreme late
+binding of all things Alan K the guy who coined the term object-oriented programming okay okay it seems like a
+lot of people dislike objectoriented programming functional Bros hey can I get some Fs in chat for all my
+functional Bros out there can I get some Fs in chat for all my functional Bros out there lots of functional Bros okay
+this this is this is the Gathering Place of a lot of them all right how about this one let's invert it for a second
+can I get some some O's in chat for those that like o o O's in chat if you like o o okay damn okay you know what we
+got to do before we start this let's jump in here let's let's hit him with a pull okay because this seems a little
+excessive don't you think o or FP uh yes to O yes to FP I program
+procedural all right let's see it epic typing thank you I haven't had coffee dude I don't know if I can give up this
+coffee business I don't know if I can I'm feeling so weak I'm feeling so right now I've never felt more weak in my
+lifetime I've never felt more weak in my lifetime uh damn okay so I wasn't
+expecting this what would JavaScript do I don't know what JavaScript would do declarative or imperative uh declarative
+is the world's greatest scam really declarative is the world's greatest scam for sure because it always feels so easy
+but then all of a sudden as you use it it becomes incred ibly difficult it's
+like super nice until it's super awful how much coffee do you drink regularly couple cups anyways okay so it looks
+like we have more oops than FPS and then we got the this whatever this is this procedural group
+they're pretty heavy over here that's why I like implicit returns shut up you shut your dirty mouth all right so let's
+let's G let's keep on going okay it seems like a lot of people dislike object-oriented programming the first things to come to mind when hearing
+these three letters are cars inheritance getter Setters and object Factory singl tens yes all of these are true this
+always seems kind of odd to me not only do I like o I feel that it often is the
+best SL most obvious way to model a problem all right here's why I think it is so I I'd really like it if they could
+give uh whoever whoever who wrote this Sigma blog uh my Sigma my Sigma Aster uh
+if someone could tell me how much experience does whoever wrote this article have with functional programming
+because that's always the big thing that I see is that you see a lot of people critique about how something is or is
+not and they often have little to no experience in one category versus another so I always do appreciate a
+little bit more of a hey this is you know I've done years of whatever like if he was just like I was a full-time hasal
+Dev for this long and he got he left hasell I mean I'd be very curious as to his his
+reasoning okay because normally you don't leave hasell just saying hasal mentioned let's go I think before anything further we should probably
+Define what we are talking about unfortunately oop is not well defined for the sake of coherence let's settle
+on a clear and unambiguous definition first okay this guy is starting to sound like a functional programmer uh we will
+be talking about objects a lot so what are they most introduction texts to oop use physical things like cars and
+animals to illustrate what objects are and while that is not wrong it's
+literally where the object metaphor comes from Alan Kay was thinking in terms of biological cells and networks
+it's certainly misleading because objects are much more than that okay Peter Wagner writes objects
+are collections of operations that share a state okay kind of like a cured a
+curried parameter in a function it's kind of I mean like I mean you know delicious rust it has a struct and you
+can attach methods to it the methods are the shared state right the methods share a state right I love that if that
+falls into the definition of o I love o I love structs with functions you love
+chicken curry okay I get it I get it uh Mark stepik and Daniel bobra babra uh
+Define objects as the following objects are entities that combine the properties of procedures and data since they
+perform computations and save local state uniform use of objects contrast with the use of separate procedures and
+data in conventional programming okay here's another definition by the gang of four object oriented programming are
+some made up let's see are made up of objects and object packages both data and procedures that can operate on data
+procedures are typically called Methods or operations like if we're just talking about this right now I'm on oop train I
+like my data I like methods that work on that data I find it easier to use in the world of
+LSPs uh I don't like a bunch of functions because I find it harder to figure out what functions I need to call
+to do things whereas if you have a simple object that I can do a DOT separator on and I get all the methods
+to manipulate and or do something with set object I find it very easy and simple so I'm curious where this is
+going because where does the break happen at what point do I say I hate this let's find out
+okay okay that's a good start but I still think an important characteristic of objects is missing maybe Tim Ren can
+help objects are units of state that are generally Opa to the outside this I think is an important part we will see
+later why that is is an object can however provide the possibility to interact with its state by the means of
+message passing oh my goodness method method path I'm having a stroke haven't had coffee in two days message passing
+methods H okay yeah okay wait a second collections of
+operations that share State entities that combine procedures and data units of State what the hell is that supposed
+to mean meth it's meth it's meth people
+well uh in means that object is an abstract term and an object can potentially be anything anything with
+state that is it can be a physical item like a car an abstract concept it can be
+a random piece of data with some sort of behavior attached to it oop just means we model our problem using these objects
+that is it I mean if that is all the definition
+of o is then I mean I'm I'm on board yeah
+then everything is oop well not everything is O because some people some things aren't o function like pure
+functional programming where you functional programming in which you have no methods then I would say yeah right
+functions where you can only just pass in like structs C would be not
+uh C would be like just not doing it
+right I know the problem is is everything o yeah yeah yeah yeah uh when lightning
+strikes a tree what uh whose behavior is that I don't know what are you talking
+about what the hell are you talk why did I read that out loud uh you might be thinking hold on we Define oop without
+even touching classes what gives the answer is simple classes are not strictly necessary for o a shocker I
+know of course we need to be able to construct new objects and a class-based languages are admittedly way more
+prevalent however or prevalent however this is not the only way to achieve the
+goal languages like JavaScript although es6 introduced classes is to the languages or Lua used
+the concept called prototyped based or prototypal oop instead of providing a schema for constructing new objects we
+use existing objects as prototype this approach can have real world benefits as it reduces the language complexity I
+don't know if that's true at all I mean protot uh prototypal uh o op is
+interesting like Lu's uh metat tables are very very interesting but it's most certainly I would not call it simple I
+would not say that it reduces complexity they're weird as hell they're not weird as hell they're you have to like again
+you can't fit them into the construct of what you already are used to you have to kind of think a little bit differently and they're really not all that bad
+they're they're interesting uh just let's see see just as a side note classes don't need to be called classes
+languages like go or rust ooh uh and also see to some extent call them strs
+for example do c structs it's hereditary another term while not technically necessary is often associated with oop
+as inheritance there are two reasons to use inheritance okay okay I I I would love to see
+this rust of course rust mentioned because that it makes sense because it's just strs right right now okay I think
+we I think we got something here I think we're seeing a more clear picture of what he means by o is not bad uh another
+term that while not technically necessary is often associated with oop as inheritance boo can we get some like
+uh there are two reasons to use inheritance first is to reuse existing code however in modern programming this
+is usually discouraged in favor of object composition an object inside another object yo dog I heard you like
+objects yes python yeah get that python out uh
+yeah hell yeah object in an object the second reason and to me the more important one is for abstraction and
+polymorphism the term the technical term is uh for this is subtyping yeah I don't
+know I don't know know I have never met an inheritance chain that I really liked
+you know what I mean just saying I've never really like I've just really never liked inheritance every time I've ever
+used inheritance I've been upset about it inheritance is not o op correct well I mean in some sense he's saying it sort
+of is but let's find out yes I think the topic is important enough to Warn its own heading subtyping is not exclusive
+to oop however it is a special significance here since it's the primary way of modeling polymorphism the idea is
+to combine multiple different classes that share common messages have methods with similar semantics into a super type
+that defines those messages now the super type can be used instead of the uh instead of a specifying a subtype my
+favorite example of how subtyping can be used in practice is the Java collection framework it defines interfaces we'll
+talk about what exactly interfaces are for example use cases are lists cues
+sets Maps as well as different implementations with different characteristics which support those use
+cases hell yeah hell yeah um nothing like a good oldfashioned
+concurrent skip list baby I don't remember I I don't remember my uh I'm
+not even sure what I'm looking at link transfer Q is an abstract CU which is a abstract collection which is a collection which is an
+iterable is that how you read that see I don't think inheritance is a
+good way to solve this I think the trait system in rust or just being able to have like you know
+orthogonal types to this is is way better right I don't want to have to have iterable as something I inherit
+from this graph was generated from java docs by scraping all known subclasses of collection and map and removing
+non-relevant nodes oh okay they removed non-relevant notes everybody nonrelevant
+ones this is actually this is actually a tightened up version of it thank God I know I mean I wouldn't have been able to
+understand it otherwise uh so let's say I want to process a list of data I want to use a
+list interface everywhere at the point where I instantiate the list I choose array list since I us let's see it's
+usually more performant implementation that is not a sentence I want anyone to listen to because I do not know if
+that's true or not uh it really has its time in place later on it turns out that
+the program is doing a lot of inserts and deletes at the beginning of the list which is pretty slow on arrays to speed up the program I can switch to a link
+list without changing any of its type signatures side note when calling a
+method we need to know the actual class of the object not just its declared class otherwise subtyping won't work
+properly this is called late Dynamic binding it's technical execution is a bit tricky and is the main reason why
+C++ objects and object pointers behave differently CV tables okay I mean yeah
+interfaces are great I think we all agree that interfaces are great right you love the collections API there's
+there's a lot of good stuff in the collections interfaces are great someone said no of course interfaces are
+great you love interfaces don't try to tell me you don't love
+interfaces no you don't love interfaces why not array list isn't an array yes it
+is it's an array underneath the hood in which stores the items and then as the
+list exceeds its capacity it reallocates and moves often doubling in size
+commonly referred to as a dynamic list or a dynamic array so no one can tell me why they don't like interfaces
+interfaces are fantastic is go slices array list go arrays the make arrays they act like
+array list yes that's why you have they I assume they're probably an array list underneath the hood I assume they're not
+uh linked list they're Dynamic arrays yes um let's see I love contracts I read every sentence interfaces stole my
+girlfriend okay you guys aren't helping at all I think we can't and shouldn't talk about subtyping without mentioning behavioral subtyping and Barbara uh
+lisov the basic idea of Behavioral subtyping is that a subtype should behave in a way similar to the parent type Barbara lisov who later won a
+touring award for her work on programming languages in oop in particular formalized the concept in 1987 into strong behavioral subtyping a
+subtype should be able to use in every situation its parent type can be used in
+okay okay this sounds like she created inheritance solid mentioned I'm not really sure what I don't know if I'm I'm
+applauding Barbara maybe I should be I don't know uh subtype requirement
+let this be a property provable about objects X type T then only this should
+be true for all objects of Y of Type S where s is a subtype of T classic
+classic classic just get just just get get it together people what are we reading hll ah yes ah yes okay let's try
+to understand this okay this is a property provable of objects X of type T
+then this should be true for all objects of Y of sub of Type S where s is a subtype of T I'm not really sure the
+problem is I don't quite understand what this is trying to say is this a function that takes in parameter X like what's
+its meaning no I'm not saying the word fee I'm saying speak English stop speaking them Greeks boy uh this is
+called uh lisov substitution principle I won't go into details here but the basic idea is that any precondition for types
+data or state for parameters can not be stronger than the super type while any postcondition for results cannot be
+weaker than uh the super type the notion is related to the design by contract methodology that started to pop up
+around the same
+time oh
+okay did I get that
+correct well this was that stupid article we read lcav lcav what did I how did I say
+it I did lovs okay yeah
+yeah yes I've been using chat GPT to learn Roblox
+okay l
+I got hit I got hit with the L there L uh okay uh is one of the five solid
+principles of object-oriented programming and design formulated by Barbara Lov in 19 87 it states that
+objects of a superclass should be replaceable with objects of its subclass without affecting the correctness of the program in Practical terms it means that
+a subass should extend the behavior of a superclass not alter it here is a practical example to illustrate L uh
+lisov substitution principle super class bird K subass Sparrow in this example
+the bird class as method fly and the spal class being a bird naturally implements fly method adhere to the
+LSP adhering to the LSP however the ostrich class although a bird cannot fly and raises a not Implement exception
+this violates uh the lov's whatever principle uh because it changes behavior
+of the superclass uh method leading to unexpect Behavior yeah yes it does
+that's because this just never works o disproven by Chad G
+gity bird flying bird okay so this would be how you do
+the correct version of it oh my goodness it is it is like
+communism you just have to do it correctly and then it works
+gosh dang gosh dang I've been wrong this whole
+time okay I I mean that's okay I I I guess I get
+this I feel like this isn't uh doesn't have to be
+with the thing I don't like about this in general is that there's so much more subtyping you
+have to do whenever you use inheritance as opposed to having a behavior you can attach to
+something like that's why I do like go or rust is because I can just have a struct and then I just make the
+struct just have more behaviors and be
+usable at any point in interface that I fulfill like to me this is just a 9,000
+times better version of solving this exact same problem it's just so much easier because
+whenever you do this like think about how many things you have to get correct right you have to get it correct to the
+point where you actually make sure that you don't bork this principle but let's be real here whenever you use this
+whenever you've done in inheritance you've borked this principle at some point you work at a place that borks
+this principle no matter what this thing is always broken it's you're done effed
+up you're done effed up a Aon every single time sparrow bird iterable drawable yeah
+exactly and so you end up making these this this is what always happens whenever I see someone try to do o op
+right is that you end up getting this really really really long chain where you have to go through like 15 different
+classes to figure out what the hell is happening because it just doesn't
+work because everything has to be so gosh darn
+narrow this is an extremely correct solution but it ignores the Practical reality that implementing it fully and
+more complicated than the context management overhead of not doing at all yes exactly it precisely it's always so
+simple it's the same reason why I always on like like any example app people give me like look at how easy react is
+do you see this example app or look at how easy it is to use Redux look at this sample app look look at how easy to use
+HTM X look at this sample app the reality is that real applications take
+everything that you like and pour a gentle amount of just
+oil over it and just ruin everything okay ruins everything every
+good concept just turns awful when you use it in
+reality oil I didn't have anything there okay my bra okay I haven't add coffee okay just let me let me PB all
+right in some cases we don't care about the code sharing aspect of inherit but still want to profit off of subtyping we
+might never actually use the super type implementation of the methods and can therefore omit it entirely this is in
+fact so common it even has a name virtual or abstract methods you know rust does have some
+things that are very similar to this uh in the sense that you can do traits and then if you have enough methods defined on a trait you can even do trait default
+implementation have you seen that so you can actually have like an what feels like an abstract class in some sense
+because the trait itself self has a default implementation it's
+interesting have you seen this have you heard about this I'm that's what that's why I'm saying it rust is O op all the
+way baby all the way uh that's mostly because rust is failing towards the C++
+approach of implementing everything for everyone classic uh some languages Let's see we might even end up removing all
+state from our abstract super type and only use it as a stencil for defining methods this is called an interface O
+Yay interfaces some some languages go or even go a step further by the way I think one of the biggest faults of a
+typescript interfaces is that it allows well there's actually a couple faults but one of the big faults ambient
+interfaced make my dream sad collisions are very very sad but the second one is
+also which by the way they can also be very very nice but the second one is also that they allow properties on an interface I think properties are truly
+an implementation detail and they should not be there just saying uh some languages go a step further and
+completely decouple interfaces from classes there are two different schools of thought here yeah I like the I like the secal structural typing as opposed
+to uh usual nominal typing is when an interface implementations are not declared at all you can simply use the
+object as an implementation as long as all the necessary methods are defined this is uh statically checked at compile
+time examples of languages that support structural typing are go I love I actually really do like that both for interfaces themselves and type
+constraints and C++ for Concepts yeah but are Concepts even implemented like how long have Concepts been
+around how long have they been around are we actually getting Concepts
+and do I even really know what concepts are even though I did read it once Concepts feel like traits give it 10
+years yeah Concepts feel like traits conceptually speaking yes uh they need some time to marinate uh duck typing is
+similar but the existence of methods is only checked at runtime languages use this pattern uh included Python and
+JavaScript one disadvantage that's often cited is that it is more complicated to figure out which classes can be expected
+at a particular point in the program yeah yeah I mean that's that's the whole I yeah fully agree actually so I'm I'm a
+big fan of structural typing by the way I actually really like this because you get all the compile time goodies but you
+get kind of like the ease of use of everything else you know what I mean like you don't have to say like oh I'm
+all these things you're just you just are those things I am this thing now I will say
+that with rust the use of Turbo fishes plus parse is you know is really cool I like that I prefer type unions or rust
+enums to interfaces uh most of the time enums give you a list of types that you can accept and do pre-type
+implementation or per type implementation interfaces force you to be abstract yeah but there's many there's plenty of places that you need
+interfaces like right like parsing the from trait in in Rust is a great is is a
+great example you just need to be able to parse something to something else it just has to be an interface you know
+what I mean it can't it can't be an enom uh anyways the second pattern doesn't seem to have an established name yet the
+idea is to declare that the class implementing an interface after the class was already defined an example of a language that does this is rust with
+traits unfortunately traits is a horrible name for this concept since traits usually just refer to mixins I've
+heard the term extension traits in reference to extension methods in C cotlin DZ nuts uh but this doesn't seem
+to be very common either another language that supports this feature is hcll they call it type classes but hll
+is arguably not object oriented arguably one would argue that hll is not
+object oriented uh okay yes I I do agree traits is a terrible name uh because
+once you know what a trait is then it makes still some not sense but I just call I just use that word because that's
+what I I know now um all right hideand-seek the term that is often used with oop is encapsulation there are
+actually two applicable definitions of the term the first one refers to bundling data with behavior the object
+metaphor and the second one refers to restricting access to the state only to the object itself I would like to focus
+a bit on the latter since I think a lot of people don't understand it properly encapsulation is the technique for
+minimizing interpr dependencies among separately written modules by defining strict external interfaces so why is it
+important to restrict access to State well there is multiple reasons we could argue that it would violate lov's
+history constraint well I didn't know about Lov history constraint now did we
+I feel like I need to wash it normally I order larges and they they fit
+nicely encapsulation versus abstraction yeah yeah yeah yeah yeah yeah yeah yeah yeah we're we're kind of on the
+encapsulation uh El ligma history constraint classic but I think it that
+oh my goodness but I think it's much more practical to look at it from the perspective of a developer who wants to refactor the code base let's say we want
+to change the internal structure of an object like in the list example earlier maybe we want to switch from an array
+list to a link list but if other components are reliant on the internal state in the case of the array list this
+could be an internal primitive array we cannot easily change it we would need to
+find all places outside the class where the internal structure is re referenced the problem gets even worse when the
+class is exported and used by modules that we might not even control again
+this is why I said earlier this is like precisely the reason why I said earlier that interfaces in typescript that allow
+properties was a great mistake you look more buff in this one
+I've been feeling buff okay I've been feeling like I'm getting in shape these days I have been sore for
+like the last eight weeks straight and I'm just sick of it sick of
+it open close principle open for extension close for modification uh object coupling and
+class cohesion are often talked about uh encapsulation object coupling describes how much different objects depend on
+each other high object coupling are we talk about AFR or eant coupling uh implies that objects in question rely on
+a lot on each other which usually means that or usually means they should be one single object instead if objects rely on
+each other's internal structures they are highly coupled class cohesion describes the same characteristic but from a different perspective it's a
+measure of how coherent a class responsibilities are a class should ideally represent one idea and only do
+stuff Rel relateded to that idea low class co uh cohesion usually means high
+object coupling and vice versa okay so these are some of those things
+that you know normally I would love to agree with all these things yeah if you just use
+composition you don't have this problem again a lot of these problems I feel like are self-made problems I think Judo you are very very correct in the sense
+that a lot of these problems that we're reading are purely problems created by
+people who love o and now we have oop problem whiteboard
+masturbation there's a lot of whiteboard masturbation in oop and it can be very very difficult to follow along because
+there's just so much of it I'm not sure if you've done any objectoriented programming you've heard something like don't use public properties properties
+in the sense of member variables at some point and this is true because public properties expose the internal State and can potentially cause high object
+coupling however as with any Dogma it is usually a good idea to question it in this case the complete guideline is
+don't use public properties use Getters and Setters instead which is completely wrong I would actually agree with this
+completely Getters and Setters are such a waste of of energy and mental headp space in terms of encapsulation Getters
+and Setters are just as bad as public properties exactly as they do nothing to prevent object coupling if you have a
+class without meth any methods besides Getters and Setters it it doesn't really fit our object definition a term that
+has been used uh for this is record by the way if you just have Getters and Setters like real talk Getters and
+Setters are just slightly less convenient properties you're still just as I mean I know that c has get and set
+I just don't understand the the the purpose of get most Getters and Setters there's like very few Getters and
+Setters that make any sort of sense but what's the point I people just want to
+not have properties I don't know what the point of Getters and Setters are you want to be able to programmatically be
+able to define a a definition without having Getters and Setters are by far
+highly one of the most like I swear it's one of the biggest lies in all of programming I guess we're going
+to have to do something really quick aren't we um let's go like this so let's just delete that uh I know
+I know C has a version of them right uh I don't know where my music is but anyways so imagine you have a private
+you know a private uh Foo it's a number okay am I on JS or TS ah crap I'm in t
+JS here let's let's make this TS because it makes it more clear I think anyways
+okay there you go shut up anyways so we have this food right we have this priv so then we can have these things like uh
+here we'll call this private underscore food you know what I mean you know what I mean then we'd have something like get
+Fu that returns a number that returns out this
+Fu look at that look at that look at that x uh V value right uh void and then
+we go this. Fu equals V okay fantastic all right
+oopsies uh FV uh what is it uh number there we go let's see cannot have type
+annotations okay shut up shut up all right so that means we can have a new Foo right here and I'm going fu. Fu
+equals 123 dude just use an effing method at this point can we all
+agree that this it's just you could put some more logic in this right you can definitely put some
+more logic in here that you want to do right you could have some sort of calculated method what happened if you had something like this right uh bar and
+so then you wanted length right and that was this. Fu plus this bar okay so that
+means I'd go something like this what is my length right oh look at how nice that is that's really really nice in fact I
+have an exact use case for this exact thing right here did you know that I have an exact use case because if you
+build yourself a say a request queue you have two different you have two different lengths right you have the uh
+uh items right which is an array let's just say and then you also have inflight requests
+which is going to be a number so the length is actually those two numbers put together right it's going to be this.in
+items q. length plus uh this.f flight request right or you can just stop being
+a jackass and just use a just use a effing method okay just use a method okay why are you doing this to yourself
+okay what are you doing what are you doing request Q okay just stop it just
+use just use just just use a method
+okay save the parenthesis but it makes it dude it just somehow it is such a lie
+to do this right this feels like you're lying
+like computed properties are always just I I genuinely feel that they're they're kind of dangerous you know what I mean I
+just feel like whenever you use a computed property you're doing something in which is a little naughty and you
+should ask yourself why am I doing a computed property this is the thing if
+you actually want to use this with interfaces you have to recognize that a programming interface doesn't specify a data type it specifies a transport
+otherwise it's an abstract class or template which are not the same thing facts and if you go with a computed
+property you know it doesn't really work out in the interface sense of the world right uh I would name it compute length
+okay great I would name it length I in fact I would even name it link I would name it Len okay cuz that is who I am
+okay that is what I would do I would name it like that and then I'd have its counterpart method uh empty which
+returns bull buing which would be Len equals zero okay oh my goodness oh my
+goodness all right there you go look at that all right fantastic or just L L's l
+l doesn't make any sense Len is perfectly fine Len makes high level code look like Assembly Language no it doesn't make it look like Assembly
+Language where do you guys where where do you guys get off you guys don't program enough rust okay go program some
+Rust and come back to me Lenin communism Lenin Co communism anyways all right
+okay so what is oop op is related to State and behavior are bundled into units objects other property other
+properties objectoriented languages may have our classes prototypes encapsulation subtyping and inheritance
+let's look at the Modern languages at least top 15 okay okay here let me I'm going to zoom this out just because it's a little bit
+easier to look at these things JavaScript encapsulation okay this is
+wrong it does have encapsulation modern JavaScript does have privates right uh python uh not on a language level okay
+fair yes I mean python you can in can't you inspect values in closures uh let's see
+typescript classes it also has encapsulation no JavaScript also has if you use
+uh you can also use this right
+right and that means I I can't access Fu
+right like that's that's real it actually does have it and that's at a language level and when you in fact when
+you when you in fact when you uh when you string Json stringify
+it
+um so it is actually at a pretty high language level dang
+it uh get rid of all this
+crap there we
+go get the hell out of here
+okay cool cool cool talk cool talk okay cool talk cool talk I don't know what
+that is why is my LSP
+breaking all
+right I take out everything look at that see notice that it only printed F
+69 it didn't in fact actually print the private property the property the
+private property is actually pre yes I'm ignoring the fact that all that other just happened okay do you even knowe uh today if you want to ship your
+project on schedule and minimize the amount of tech debt uh you forward use go yeah anyways you get it all right all
+right some good stuff in here no one cares about no one cares about these ones uh sear a c none of them okay it
+doesn't even have objects well I mean are strs objects I don't know are structs objects I guess you can't quite
+say they're objects because you can't because a part of his definition of objects are they have function pointers right they have methods so you can't say
+it no they're just TRS they're just memory C has perfect encapsulation PHP
+go yeah Powershell didn't even realize that was a language uh go on a package
+Leal uh level and structural typing best typing honestly it's best typing I think structural typing might be my favorite
+typing right it might be my favorite typing I Thought I Loved Russ nominal typing extension traits but I think I
+actually like structural typing better just in general uh okay so let's see now that we
+have a good understanding of what exactly oop is and what we can expect from a language that implements the oop Paradigm let's take a look at some
+common points of criticism I shamelessly crowdsource most of the following part by asking my friends what they hate
+about oop but what are objects what uh so objects are can be anything right so how do I know what should be be an
+object when should I combine things what should be separated well that's called experience bro and this exists in or not
+in objectoriented like that's just that's just that's called programming doc uh
+well in the end that's just practice and experience with time you'll get a feeling about what shouldn't uh what shouldn't be an object however to get
+started there are some tricks that might help you uh here's what the gang of four has to say dude it's that skill issue
+going on here object-oriented design methodologies favor many different approaches you can write a problem statement single out the nouns and verbs
+and create correspond by the way if you're hit me with nouns and verbs and you're talking about programming I already know that you're hitting that
+whiteboard too hard okay I don't know about all this I don't know all I don't know about all this this nouns and verbs
+and adjectives and participles going on here uh or can you focus on on the
+collaborations and responsibilities in your system or can you model the real world and translate the objects found
+during analysis into design there will always be disagreement with approaches uh on which approach is best speeding
+speeded Speedy things go in Speedy things come out op slow or so I've heard the rational is that the vtable lookups
+are overhead compared to direct function calls I don't know I don't actually know
+whether that's true so I decided to test it the test setup is as follows I wrote the same program a touring machine
+checking for binary palindromes three times once using object-oriented programming once using structural
+programming using only functions loops tupal and arrays and stuff like this and one using functional program for good
+measure I measured everything in C++ so it's equally playing field an equal playing field also C++ has the first
+class function class functions Lambda expressions for functional version hell
+yeah it does everybody loves who here doesn't love
+c++'s lambdas aren't they just so good yeah there you go thank you
+jamely appreciate that that's what I always like seeing what am I capturing what are the arguments where's the
+function body it's just like damnn son I don't even know what the hell is happening um there is 100,000 test cases
+the total time is measured the compiler is clang 1403 and the target platform is Apple silicon M1 I can test each and uh
+with both o uh 0 and 03 for the O implementation I made sure not to rely
+on Heap allocations since the context witches would probably completely ruin the runtime I did however use
+inheritance the template pattern to be specific to make the template pattern to be specific to make vtable lookups as
+realistic as possible the structured version also allocates everything on the stack I built two different versions the
+first one uses tupal in the translation table lookup however I wasn't sure how tupal are implemented under the hood and
+I wanted to avoid using objects by accident if possible so I wrote another version that only relies on functions
+but it turns out the results were uh so close I couldn't tell the difference does that mean FP is winner or loser is
+this how many cycles we're doing or as we can see the structured version
+is marginally uh is marginally 5% faster than the object oriented uh one okay
+hold on okay so more is worse more is worse
+you know this just tells me you got some skill issues going on you got some skill issues on the functional program if you acally wrote something that is 10 times
+slower you got some skill issues o camel is dead that's just skill issues that's
+skill issues for sure uh when using 03 the performance is basically identical so my guess is that C++ Optimizer was
+able to get rid of whatever uh impacted the performance the functional implementation is not even remotely closed to a certain extent this is
+probably caused by The Benchmark I chose touring machines are inherently stateful which is pretty awkward to model in a
+functional way did you model it well though did you um another aspect is that
+even though I use C++ 14 which supports return type inference I was forced to use standard function template as a
+wrapper for the Lambda expressions Anonymous types are a pain in the backside which according to my test are
+quite a bit slow slower than native Lum Expressions okay so he might have forced himself to use
+something that wasn't very Swift I don't remember programming a touring machine you're programming on a touring machine have you ever thought about that I
+should have probably done some more rigorous statistical tests or at least calculated the deviation but honestly I was too lazy I may write up an update on
+proper analysis later on uh in case you wanted to do some tests on your own feel free to send me the results afterwards
+the source code is on GitHub uh also I should probably apologize for the horrible code C++ is not my native language and I hacked it together in an
+hour or so again dangers here dangers uh anyways without rigorous statistic uh
+statistics my conclusion of the test is that there is only a very small difference in performance adding more
+abstraction layers or using different data structures probably has more significant impact agreed agreed this
+article is a skill issue this article is not a full skill issue there's a lot of good Insight here however other benchmarks on embedded systems have
+found 10% performance penalty compared to procedural implementation let's go procedural another paper comparing the
+performance of different aspects of O as well as different design pattern has shown that virtual functions which I
+used in my implementation can impact the performance negatively uh the template pattern which I also used can decrease
+the performance by about 3 to 4% but this may also be uh this might also just
+be because it relies on Virtual functions by the way whenever you see percents and stuff like this I will just completely disregard most of this it
+might slow it down it might slow it down all right abstract nonsense for some reason oop leads us to over complicated
+everything we need we endlessly or we needlessly build abstractions on top of abstractions seemingly for the sole
+purpose of making pretty uml diagrams okay this is a pretty good argument but this works for every type of
+programming can we agree to that I think that anybody that has the ability to program in a more abstract language will
+by the very necessity make more complicated and Abstract things the
+startup not only has increasing net worth but also increased net girth
+thanks pick I hope that girth is feeling quite girthy the thing is it's caused by how we use the tools not the tools
+themselves my suspicion is that most the these issues arise from developers wanting to be clever and build generic solutions to cover every possible future
+development yep exists in every single language I think a lot of this can be avoided by adjusting the workflow
+specifically if the end goal is not determined from the beginning don't plan on every eventuality from the start only
+plan for what you need you'll need dude I love this this is so good this is so good this is like the greatest piece of
+advice in this entire article right here is just build what you need stop stop
+stop the requirements might change later on so your amazing highly generic solution that you worked on for four
+weeks straight might not be used in the end a waste of time facts uh the threat
+of get and set op is so verbose there is so much boilerplate Getters and Setters for example Sai this is a personal pet
+peeve of mine we touched on this earlier but but I would really like to hammer this part home if you really need Getters and Setters for every single
+member variable it's probably not a proper object to start with also bad programming skill issues I'd highly
+encourage reconsidering your object model try to reduce coupling if it's really a record class with no internal
+Behavior everything might as well be public there is hardly a point in using Getters and Setters a similar thing
+though admittedly it's better applies to properties in languages like C oh c mentioned damn it we got C here of
+course code generators uh like the infamous
+lombok C people classic cper the only reason for the use of Getters and
+Setters over public members is whether or when there is some additional logic like validation of invariance for
+example that's fair I still think it's just dangerous I think you should use a method and not a Getters and Setters uh
+kind of related if you have a value object with no Setters but a lot of Getters make sure to not accidentally
+expose a modifiable reference to same internal State otherwise you've got Setters that's not intentional
+ooh okay okay this is the LA this looks like kind of like the last one uh object
+factory factory Singleton I guess there are two topics that fits this heading the first being naming Madness that has
+been established in Enterprise software development this is again not a per se an issue with o although for some reason
+it seems to happen a lot more in oop this is more of an issue of O dog I
+happened to be uh a Calvin Henny fan and he gave an amazing talk on naming in programming at devweek 2015 among other
+things he talks about how naming can influence modeling I highly recommend watching it okay on the second topic it
+is a rabbit hole of design patterns that are often blindly applied seemingly without any thought on why exactly
+specifically the factory pattern has some valid use case or uses but because people overuse that pattern so much it's
+now synonymous with unnecessary abstractions everything's a factory C is a really good programming language
+you watch your mouth Judo we don't complement it out loud there are some courses Also let's see there is there
+are of course also established patterns where you should really have a damn good reason to actually use it at least in a
+strictly objectoriented context single Singleton for example Singleton is in essence just a fancy name for Global
+variable great fun little side note in the spring framework Beans by default gets a Singleton scope meaning if not
+stated otherwise every single Bean is global your beans are Global boy the dream of spring another thing I've been
+noticing with modern Enterprise applications is that they're actually not objectoriented entities dto are
+records not objects beans Services repositories don't hold State and could just well be plain functions in modules
+we are we are using languages that Force us to think in classes with architectures that don't require objects
+spring boot could just as well be written in C it's pretty sweet it's
+pretty sweet maybe spring is not that bad maybe spring is not that bad maybe I
+like spring I don't even know uh what a ride in my longest blog post so far maybe a bit too long I'll make sure the
+next one is shorter I also found a really interesting talk by barara uh lisov about abstraction but I just wasn't sure where
+to put it so here you go uh I particularly like the stab against python for throwing encapsulation out the window anyways I hope I could shed
+some light on the topic maybe you've learned something or at least you found some of my ramblings somewhat entertaining see you soon Sigma let's
+good I actually really like that this is Sigma grind set I actually really like this article there's a lot of good things in it but at the end of the day I
+still don't quite understand o you know real talk I still think the problem with
+o the problem with any of these things is that they all have very they're all accomplishing the same goal with
+slightly different approaches and I think at the end of the day one reason why I like one reason why I've grown to
+like go so much in the recent time is that it just forces you to be stupid and
+by forcing you to be stupid I find myself highly productive simple is not intuitive at all you got to quit
+regurgitating dumb dumb dumb phrases you read on the internet okay I know whose blog post you're effectively quoting
+word for word it's not that great the internet is always
+right just saying uh the prime SE all okay I haven't had coffee in a couple days and I'm angry okay simple is good
+NS simple can be very very good and in most cases simple is good enough it just depends on how simplistic you have you
+just don't want to exceed a certain line of Simplicity cuz once there's a certain line of Simplicity then it becomes very
+difficult I don't think Go's a great language no one ever said that it's a
+very mid language it just is very very practical is rust simple rust is neither
+simple nor easy uh take that a step further I think that languages with a
+better modules and interfaces had become more popular sooner we wouldn't have gotten microservice as hell and we would
+still be on a lot of monoliths potentially
+maybe go is so mid it's good yeah it's just it's super mid it's pretty good he quick caffeine too yeah nice job nice
+job him what is a great language for you then I like go it's a great shitty
+language it's like a great shitty language and I like to use it and I
+enjoy using it we'll see if I keep on enjoy using it after a year I'm going to give it a good year of trying to build a bunch of little things in it and I'll
+see how I feel at the end you know what I mean we'll see we'll see
+anyways become grug brain use Simple Things okay it will make your life
+easier just trust me just try not using as complicated stuff try hmx with go
+enjoy it the name you know what the name is and you will shut the hell up
 
 ----------
 
@@ -640,11 +2208,695 @@ paste here
 --50--
 
 -----
-Date:
-Link:
+Date: 2024.02.04
+Link:  [# Free Complete Course: You need to learn this programming language to be a senior developer!](https://www.youtube.com/watch?v=6uqgiFhW0Fs)
+Note:
+### Summary of the Interview with Dr. Chuck
+
+**Advantages of Learning C:**
+
+- **Foundation for Understanding Programming:** C is crucial for understanding the basics and the underlying mechanics of programming languages.
+- **Transition from Junior to Senior Programmer:** Mastery of C can be a significant step in evolving from a junior programmer who fixes syntax errors to a senior programmer who understands deeper concepts and system behaviors.
+- **Insight into Programming Fundamentals:** Offers an in-depth look into programming constructs, memory management, and the importance of efficiency and security in coding.
+
+**Drawbacks:**
+
+- **Complexity and Safety Issues:** C programming involves dealing with pointers, memory management, and manual allocation, which can introduce security vulnerabilities and bugs if not handled carefully.
+- **Not Recommended for Modern Production Use:** Due to its complexity and the high risk of errors, C is not advised for writing new production software, especially web applications or systems exposed to the internet.
+
+**Tips and Advice:**
+
+- **Learn C for Deep Understanding, Not Daily Use:** C is valuable for educational purposes and understanding programming at a fundamental level, but other languages are preferable for application development.
+- **Transition to Other Languages Post-C:** After learning C, moving to languages like Python or Java can be smoother, as the concepts grasped in C apply across modern programming languages.
+
+**Lecture Content:**
+
+- **C Programming Language's Historical Significance:** Discussed the inception and impact of C on software portability and the development of Unix, highlighting its role in making cross-platform applications feasible.
+
+**Main Challenges:**
+
+- **Security Vulnerabilities:** The inherent risks and complexities of C, such as pointer arithmetic and manual memory management, lead to security challenges.
+
+**Importance and Usefulness:**
+
+- **Understanding Computing's Foundations:** Learning C is pivotal for comprehending the fundamental concepts that underpin modern computing architectures and software development practices.
+
+**Accomplishments:**
+
+- **Creation of a Comprehensive C Course:** Dr. Chuck developed a course that not only teaches the syntax of C but also its historical context, importance, and its role in shaping the software development landscape.
+
+**Interesting Quotes or Insightful Sentences:**
+
+- "C is probably the single most important programming language that anyone will ever learn and it is the programming language that no one should ever use."
+- "This course is the step from junior programmer to senior programmer."
+
+### Conclusion:
+
+Dr. Chuck's interview elucidates the critical role of the C programming language in the evolution of software development. Despite its drawbacks, such as complexity and potential for security vulnerabilities, learning C offers unparalleled insight into the mechanics of programming. This knowledge is foundational for those aiming to advance from basic programming capabilities to a deeper, more comprehensive understanding of software development. Dr. Chuck's dedication to education and his innovative approach to teaching C underline the importance of both historical context and practical knowledge in mastering programming.
+
+Dr. Chuck discussed the idea of finding a successor to C, mentioning Rust as a potential candidate. However, his views on Rust were mixed, indicating that while he initially thought Rust could be an ideal successor due to its safety features and modern affordances, he later found that Rust still carried some of the complexities and flaws inherent to C. This realization led him to reassess the position of Rust as a direct successor to C.
+
+### Successor to C:
+
+- **Initial Enthusiasm for Rust:** Dr. Chuck initially speculated that Rust could serve as the successor to C, imagining a language that retained C's efficiency while addressing its safety concerns.
+- **Reevaluation of Rust:** Upon closer inspection, he concluded that Rust, although it introduced modern features and improved safety, did not fully escape the complexities that made C challenging to use safely. This observation led him to question Rust's suitability as a direct replacement for C.
+
+### View on Innovations:
+
+- **Pragmatic Approach:** Dr. Chuck's approach to innovation in programming languages is pragmatic. He values advancements that significantly improve safety, efficiency, and ease of use without introducing unnecessary complexity.
+- **Importance of Fundamentals:** He emphasizes understanding the fundamental principles of programming, as seen in his discussion on the value of learning C. This understanding is crucial for both appreciating innovations and making informed decisions about adopting new technologies.
+- **Openness to New Tools:** While he expresses skepticism about certain languages as complete successors to C, Dr. Chuck is not dismissive of new tools and languages. Instead, he advocates for using the right tools for specific tasks, highlighting the importance of choosing technologies based on their strengths and suitability to the project's requirements.
+
+In summary, Dr. Chuck's views on the successor to C and his stance on innovations reflect a balance between appreciating foundational knowledge and being open to advancements that offer tangible improvements to programming practices. He recognizes the significance of innovation while also acknowledging the enduring value of understanding core programming concepts.
+
 Transcription:
 
-paste here
+Coming up
+I I really have come to learn something this class took me four years and and I've really learned that uh C is
+probably the single most important programming language than anyone will ever learn and it is the programming language that no one should ever use
+once you learn to program you you probably need to spend a little time figuring out how programs code really
+works and if you go and use Django or you do databases or some other thing you
+kind of move away from the purity of what programming really is but secretly what I wanted to do is I wanted to take
+code that was written by chat PT and put it in this production software I'm like cuz I want to say like I want cat GPT to
+be a partial author of my software so I didn't want to look too close at it I just wanted because I test it out just
+fine right that's the worry that's the worry
+yeah hey everyone it's David Bumble back with the amazing Dr Chuck Dr Chuck welcome it's great to be here David uh
+The most important programming language
+I've been looking forward to this for as long as since we did our last recording uh last interview because uh I've been
+building this this course for four years and I looking forward to updating you on it yeah you got to tell us about this because this is really exciting I
+believe I've heard you say this is about the best programming language right well I'm not sure about that I think that
+what this is is this is about the programming language that you should never write any code in unless you're writing some weird microcontroller or
+something I I've really have come to learn something this class took me four years and and I've really learned that
+uh C is probably the single most important programming language that anyone will ever learn and it is the programming language that no one should
+ever use and uh and so that's kind of an interesting irony because I I have been thinking a lot
+about the difference between a junior programmer who can kind of cut and paste things and fix syntax errors and a
+senior programmer who can see sort of Through The Mists and see what's really going on and be that senior uh developer
+and when there's a problem or when there's a performance problem they sort of have a a a a six sense that allows
+them to see inside what's going on Beyond just I wrote this codee and it seems to work and yet so I keep thinking
+that this this course is the the step from Junior programmer to senior programmer and the C programming language is the thing we all fall back
+on as senior developers whether we know it or not I like the differ differentiation you made you said it's
+the most important language not what I the term I use the best but most important but something you shouldn't
+use can you explain what you mean by that well it's the most important because of the understanding bit that I
+just got done talking about but it's it's the it's something you shouldn't use because it's just a dangerous
+programming language right it uh you know everything is a pointer you can miss me mess up pointers you can over
+reference pointers you can mess up your stack I mean literally go if you go back literally for the past 25 years every
+single significant security failure in operating systems and softwares is almost always related to the C
+programming language like heart ple if you go all the way back to Heart ple that's a long time ago that was code in C okay and you know it's just when you
+write and see you have to be super disciplined you have to have code review and even when you do that something will
+get through it's just really dangerous to write professionally and see and then put that out there for the world to see
+I'm sure parts of the Cisco kernel are written in C and that's okay because people aren't hacking it and attacking
+it if you build a website and it's written in C or you build SSL and it's written in C that's dangerous yeah it's
+The successor to C
+interesting because I I think we discussed it last time and just for everyone who in I'll link previous
+videos below you said that the successor perhaps to see might be rust yeah
+although we that was some time ago we talked about rust and rust hasn't shown up in my uh feed much it uh it doesn't
+seem all that uh likely to becoming the successor and I've got some comments
+from people that talked uh on our last conversation whether or not rust was the next thing and I think what had happened
+was is I had guessed that rust instead of investigating rust I imagine what rust would be if I wrote it and I'm like
+if I wrote rust if I designed rust it'd be awesome but unfortunately rust was not built by me and so it still has a
+number of the flaws of C still in it and so if if it has the flaws of C but it's got some Modern affordances like what
+exactly is the point I mean somewhere between C and python what's there
+because it still doesn't make it easy to do certain things and it's kind of like a little better C but then why so I
+think the jury on rust is going to stay out I just don't see that it adds all that much above C and it doesn't
+necessarily solve all the problems of sea if it was like a real safe sea I could I could get behind that but it's
+not so just um I need to emphasize this just for everyone who's watching Dr Chuck the reason why we're having this conversation is you provide amazing
+Dr. Chuck's free C course // C Programming for Everybody
+resources for people around the world so I think we need to emphasize that the
+reason we're having this talk is you've released a new C course that people can access for free is is that correct that
+is correct I uh it's called C programming for everybody it's out on corsera and it is available for free on
+www.cc free.com is this based on the the previous conversation we had was uh that
+very famous book that you love in the 1978 C book is that is that correct I'm glad you brought it there
+you go I brought it so yeah yeah it is based on that and so the again because
+the idea of C programing for everybody it's not that you're going to write code and be a professional C programmer C is
+foundational notion of Technology it is it is it is the moment in 1978 where
+software portability became feasible and practical irrespective of the underlying hardware and so if you look at
+everything up to 1978 we were using languages like Fortran or Cobalt and if
+you had a CDC computer you wrote your stuff in Fortran system stuff non-system stuff if you were at a a burough
+computer you wrote your stuff in Cobalt and the cobal on Bros computers was super fast and so the idea is you go
+from one computer to the other but you just have to completely change everything all new operating systems all new languages all new library sets and
+and C was research inadvertent Research into how to build one operating system
+Unix one programming language C and then have that work on virtually any piece of Hardware that you would come across and
+part of it was because the people at Bell labs in New Jersey were given a
+bunch of hand-me-down crappy computers they didn't have a lot of money so they had to build an operating system and a language for hand-me-down crappy
+previous generation or two generations back computers they had to make something work on them but then they
+they would get one hand-me-down this year and then they get a different hand-me-down next year and a different hand-me-down next then we have 12
+hand-me-downs from this other thing that they were going to try to do some so they had to come up with a way to get an
+A working environment that let him get work done and yet was independent of the
+hardware that they were just being given as hand-me-downs and so this book the 78
+Edition which is becoming ever so rare that book is this it goes off an
+interview sorry go on it it did as a matter of fact after the last interview that price of that book spiked up to
+over $100 um it's it's somewhere between 25 and $75 right now this book is
+written in a style of a research paper like a research report from an in it's
+like well we were trying this and we tried that and this other thing worked and this worked pretty well and the we had two ways of doing this and this is
+the one thing and so these authors in this book break the fourth wall all the time they just aren't telling you here's
+the programming language C and here's where you put the semicolon no they're saying like here's what we were thinking in all the two things that didn't work
+out so well but we figured it out afterwards and so the 1984 edition of that book which I actually don't have a
+copy of the 1984 Edition took all that out because by 1984 the language was
+just like of course see what else would you ever do and um so what I like is the
+notion that C's laid the groundwork for uh modern software portability and the
+book was written before it was an assured thing and so that's what I find super delightful about it and it you
+just you're reading the book and you're saying well how come this is such a hard problem the answer is because these are
+the people that made it possible to solve the hard problem and so you have to read it you go back in time and you
+read it and you're like everything was difficult in 1978 nothing was and this book was you ways to make it
+easier and that to me is the the most important thing it's like the movie Somewhere in Time where you just go back
+in time and you kind of live in a different time and enjoy that different time and then you come back to the
+present and you don't have to write the code any in this in this language so that's the fun part of going back in
+time learning a language with a you know wearing an old hat from
+1978 right so I'm going to wear an old hat while I take this teach take this course and then you come back and you're
+in the modern world again and you have Python and you have dynamic memory you have more than 640k of RAM and all these
+kinds of things that that make life wonderful so Dr Chuck some questions that people might have about the course
+What should be your first programming language // Python for Everybody
+should I take c as my first programming language uh absolutely not the key thing is is C learning C is the way that you
+learn about that first programming language and in and these days python is pretty much the standard first
+programming language it doesn't waste your time there's no details like stack frames or pointers or anything like that
+in Python and you can you can go to work with python you can you can work in artificial intelligence you can work
+with data mining you can work in all kind web development all kinds of things in Python and so so it's foolish not to
+take python as a first language and of course I teach python for everybody which is the world's largest and most
+successful Python Programming course three million around the world have taken that course and so that's the
+first course no question the interesting thing and we we talked before I am increasingly starting to think that c
+should be the second programming language um oh that's interesting I know when we talked two years ago I I thought
+that c should be like the fourth or fifth thing that you learn and the reason for that is that once you learn a
+program you you probably need to spend a little time figuring out how programs code really works and if you go and use
+Jango or you do databases or some other thing you kind of move away from the purity of what programming really is and
+so this course C programming for everybody turned out so well and I didn't know how advanced it was going to
+be as a matter of fact I've been spent I spent four years working on this class and you and I I think talked two years ago kind of halfway through that half
+way through it takes me a long time to build new classes because you know there's a lot to it and so what I've
+kind of learned in the past four years of building this course is the the most difficult Concept in all of programming
+Object Orient Programming
+is objectoriented programming it absolutely is and I think that most
+python courses most C courses most C+ plus courses and literally most Java courses do an awful job of teaching
+object ored programming and that's because they say well we're going to make an animal and then we're make a cat
+that inherits from animal and then we're going to make a dog that inherits from animal and we're going to make the cat meow and the dog bark now you know
+object R programming and if you ever are a professional programmer it is not about animals cats and dogs it's it's
+about solving problems of isolating code without you know and implementing things
+and changing implementations and there's so much to it that understanding object
+Orient programming is to me the key to becoming a successful professional programmer and so this course the SE
+course when when we talked last time I I didn't think I was going to talk about object writing programming in the C
+course as as a matter of fact I I had this whole story arc and I I I think of course this is stories I had this whole
+story where at the end I'm like and I'm not going to talk about object Orin programming and I had these two poems I
+read the end and one one was miles to go before we sleep both were from Robert Frost um in a forest dark and deep miles
+to go before we sleep snow is falling all that stuff and um and I had another one says I'm going to take The Road Less
+travel and the idea that I had when I was reading the poem The Road last traveled was I'm not going to teach you
+object rning programming and all most people at this point in the class teach you object rning programming so I had all these lectures recorded with these
+two poems in them at the very end of the class and and what happened was is I was teaching the class live because I did
+that a year ago I was teaching it on campus live and I'm like I had a bunch of really sh sharp students from courses
+I only had 12 students so I could talk to them continuously and and I said okay we're done now and they're
+like you're done I'm like yeah Road Road Less Traveled we're not going to go that
+way and they're go like you can't do that you have to tell us about objects and you have to tell us about
+C++ I'm like no but I don't like C++ and they're like yeah but we like C++
+and so I had to go back first and edit the poems now there's only one poem in
+the thing and that is miles to go before we sleep and then what I decided to do was Focus the last third of the class
+which you know as of this time last year didn't even exist on implementing
+objectoriented programming in c and so what I began to do is I said let's just
+say you're at C and you're in 1978 and you're looking forward and you
+you think object programming is cool how would you build C++ if you were in C and
+then how would you build Python and the object orientation of python if you were in see and this turned out to be great I
+mean I just all of a sudden it's like giant Road opened up in front of me and the last the last few parts of the class
+are literally implementing dictionary string and list the core data structures
+of python and so we look at python code and then we Implement and see the kinds of things under the covers to implement
+the list object the string object and the dictionary object and then the the way the course ends the C course ends is
+we literally do as the last exercise of the course the first exercise of my
+python course except that we do it in C and so it's this it's this
+beautiful it's this beautiful kind of like whoa what a beautiful Story I mean again I think of this as a storytelling
+not as like yeah learn this learn that but it's this beautiful story now one of the things that's happened since we last
+"Stealing" The C Programming Language book // Interview with Brian Kernighan
+talked I don't know if we talked since I interviewed um Brian kerigan the guy who wrote the book did did we talk about
+that no you no we haven't no you said you were going to talk to him at some point that was where we ended it last time well I
+mean start that story a little bit earlier right so there's this book from 1978 that you cannot buy it's not
+available online so the Reas part of the reason it took me four years to make it is the first two years I basically stole
+the book I bought a bunch of used copies of the book I cut off a spine of the best one I digitized it at high level
+and I OCR it and I put all that stuff in GitHub and I hired a bunch of graduate students to go over line by line fix
+every single thing to make a cool online version of this and I made all the uh code executable and I made all the all
+this stuff and I built this book without ever knowing if I was going to get in trouble and so a large part of the four
+years was talking to lawyers to see could am I going to get in trouble for what I just did I I just had to do it
+because it's just like I love this book so much so um but there was a good reason the book is out of print it's not
+available you would think about using it right yeah yeah and and and the lawyers told me there's a thing called fear use
+right it's academic purposes it's a historical thing so lawyers felt like I had a pretty good chance right I it was
+enough of a good chance for me to go forward so I built this perfect beautiful digital copy of the book and
+right before we were going to put it start the process to convert it to go on
+corsera I thought to myself that I better send a not this is a December
+last year 12 months ago I better send a note to Brian kernigan because even though my lawyers said that we would
+fight them and I had a good case I did not want to offend uh someone who I
+considered like a god right in the in computer science so I sent a note December of last year I mean December
+two years ago December 22 I said Brian I made this book and I
+hope you like it and I didn't hear from for a couple of weeks and then and then he uh he said hm that's interesting I
+have included on this email the editor of that book from Pearson and uh and so
+I'm like oh boy and so I I uh yeah and so I I I I replied to the email and I
+sent a note to Gary the fellow piar I said Gary I love this book it's a great book I'm using under fair
+use I think it's good thing and people are going to love and I love the 1978 Edition and Gary said could we get
+together on a zoom call I'm like oh damn that is not gonna go well at all so so
+Gary I I'm like I'm just like I thought should I should I call the University
+lawyers and tell them I'm going to get on a zoom call with Pearson should I call my own lawyers should I do whatever
+I thought about it for a very long time I finally say you know what I think I'm just going to go alone on this
+particular one and I'm going to schedule a call with Gary the Pearson editor of the book so I get on the call with
+Pearson and there's one other guy and the guy looks like me he's like old goatee white gray hair and he says the
+first thing out of his mouth is like man I love what you did with the book I'm like okay this is not going to be so bad
+this is not going to be so bad and then the next thing he said is could I have a copy of it I'm like what wow I'm like of
+course you can have a copy of it so it turns out that they have been um resurrecting old books and what I had
+done in creating in effect a pristine perfect digital copy of an old book that
+literally was only on paper they're like huh oh wow we have this online service and if we could get our hands on your
+book we could put that into our online service and I'm like uh boy this that's not how I thought this conversation was
+going to go at on so i' I've had an ongoing conversation with Pearson once Pearson and I were friendly I sent a
+note to Brian kigan and said could I come to Princeton and bring my camera gear and interview you and so I did I
+flew out to Princeton uh February of February 2023 and um we started doing an
+interview and some of my interviews I'm very ready for and some of them I'm not well prepared for I thought this one was
+so easy that I would be super well prepared for I wasn't I literally wasn't well prepared for an interview of Brian
+kernigan a person who I thought that I knew I'd watched YouTube videos of him so the first thing you know about Brian kernigan is he didn't really inent see
+Brian kernigan was the guy who wrote all the books and so if you look at the co-author k kigan and Richie Richie is
+the one that built the and kernan's like hey can I write your stuff down and just get it out as a textbook Richie's like
+yeah I don't care do whatever you want so Kuran was a leader and he was an important fellow he even wrote like a
+memoir his own Unix Memoir this one I got signed by
+him and he was like a leader at at Bell Labs he was like he was like a boss at Bell labs and so I started asking him
+questions and I he's like how what was it like to invent C he's like I didn't invent C I like oh boy but then he was
+kind and he told me a bunch of really good stories and then at one point we started talking about C++ and I want to
+The history of C and C
+give your viewers a poll and that is from like 1980 to 1984 BN strrip the
+inventor of C++ was working on C++ the question is what country was be strrip
+working in when he was building and evolving C++ or just kind okay so let's
+do a do we get in the comments we can we yeah we can let them go in the comments but so let me give you some choices a
+Norway B Finland C Denmark D UK e United
+States of America so know the answer well so if you know he's he's European
+he sounds European looks European I got an interview of him and um and he went I think he went to a university in Denmark
+the answer to the question hopefully by now you've all figured this out is e United States of America not just United
+States of America VN stroo the inventor of C graduated with his PhD from
+whatever University and was hired by AT&T Bell labs in M Hill New Jersey and
+so J strer was working on C++ two doors down from Dennis Richie working on C I
+mean seriously oh wow and so you look at the evolution of SE from 1978 79 through 84 C++ was in the
+building co-evolving things like the void type Etc and I'm like holy crap and
+then I had to redo the course again because I always thought that C++ was kind of like an annoyance right it was
+like oh there's C and then there's this weirdo European C++ thing not at all C++
+was core to its development and as Brian tells in the interview his interview he's like oh yeah we loved him because
+he was he was so his C++ code generate such weird C code that it it broke
+everything you could possibly break and see and it helped us fix and so then you see this co-evolution of
+c and C++ in the early 1980s and so the next interview that I don't have
+scheduled yet but I've got agreed to is with GTO van rossom and once once I
+realized that a c and the C++ were one concept right they were not like a weird
+add-on I'm like now that I've done all this study of how you would build python
+in C I'm like I want wonder if gido van rossom has a weird connection and he
+wasn't just a weird guy from the Netherlands right just a random weird guy and we have this cover story on
+python that was oh for children and da d d da d da I think and we'll see when I get that interview I think that what
+we're going to find is that Ido van rosom in the in the 80s was going
+through the exact same thing that I'm going through in the last half of this course and saying what's the best way to use C and I think he if you look at the
+patterns over and over and over again in Python you see that there are imitations of how C++ did it but I think GTO was
+doing C++ one better I think gido looked at C++ and said no you don't quite have
+it right I'm going to build this language that's kind of a demonstrator of what C++ should be and I'm going to
+advance the actual research of what object or programming is forwards because I don't think C++ does a good
+job I'm putting words into his mouth and I hope he doesn't see this before this interview right but I that's that's
+right now that's my my hypothesis as to how it worked that he wasn't just making an easy to program language he was also
+trying to create a stellar absolute perfect best practice for what object
+earning programming meant by creating all these things and what's cool in C programming for everybody is we if if
+that's the path he took the last part of this course goes right down that path and you see just how beautiful and
+elegant it is and then you see things like how the dictionary has evolved from python 2 to Python 3 to python 36 to
+python 37 and on and on and then it turns out that that's just the natural thing you do as you start to build all
+these objects in C and so we build a hash which is what python 2os all the
+way up to python 3.6 it was a hash not a then we do a a a tree map and we do all these little things and we do multiple
+data structures and layering like a link list and a hashmap on top of each other
+and then a a link tree and a and and you're just like I think this is exactly
+what GTO van rossom was doing and thinking as he was building Python and
+if that's then the case right if if Kido van rossom was really trying to finish
+the research work that was started in SE with kigan and and C++ bejn spro strip
+if Yeo was really like I'm GNA finish this work that you all have started I
+think it's a beautiful beautiful concept and back to what I think was your first question is like that tells me that the
+right thing to do is to Learn Python and then learn C to get back to Python and
+then you have this like complete readiness for object-oriented programming and then you take like a Jango class and I talk about objector
+programming Jango class and you're like no I get that I know what that means and that's what senior programmers need to
+have that capability so that when they're taking a Java class and I say object blah blah blah they're there or JavaScript object blah blah blah and
+they're there so it is quite a journey and you know the because there is no
+textbook for what I'm doing because I'm really thinking this is research and a historical curiosity I mean I got to go
+where the story I'm I'm more of a documentary filmmaker than I am a a bookwriter right I think of this as like
+I run around with my backpack with a bunch of cameras do documentaries all over the place and then make a story
+from the documentaries and so um I just hope that people see this course as it is not just another Secour that just
+teaches from a random book this is like the history of computing orientation
+Technologies we know it because I'm a bit slow Python's written in C is that correct uh yes the main python that we
+The history of Python
+use is of what you said right exactly s go now there's other pythons that are written in other implemented in other
+language but the but when gido started it was in C and by far the most popular python implementation is called cpython
+and you can look at the source code and you can see how what's in the current python today that makes dictionaries
+work and you can kind of if you know see you can look through that code and that's what you're doing in your course z a little bit I mean what I'm really
+doing is I'm writing simpler versions of what it would be so that you know it's like that'd be like in the first couple
+of weeks when G was writing python 1.0 back in '87 or whenever it was I'm I'm writing the code that he was writing on
+Christmas that year which is I'm going to write a string class and it's crude but at least it proves that I can write
+a string class and I can make it really easy to use and you know safe no pointer
+problems no security problems on and on and on so yeah so you basically python
+in C kind of the same thing is is that is that kind of right right not so much the language but the libraries right the
+the objects that you're you're using in in Python that's lovely so I mean I think that's a great explanation so
+that's why the full circle is there so you start with python go to C and you're back into python because you then you're basically writing
+python not the rest of your career you can write python or JavaScript or Java the rest of your career and not worry
+about C but C is make it so that you're not unsure of what it is that you're doing as you're writing an of the
+languages you are sure of what's going on this is quite a change from what we spoke about last time we you can just revisit it for people who haven't seen
+The path to becoming a master programmer
+it our previous videos because you got the master programmer and if you can just explain that concept and then like
+you I've got it written here like 10 courses that that we mentioned last time it was python Jango PHP where and then
+SQL and then C but you've changed that I have changed that right and so so the the path to the master programmer in the
+in short is the idea that I want to create a set of courses that when a student completes those courses I'm
+willing to hire them so I've got a whole bunch of courses python Jango PHP as you mentioned SQL and now C and I thought
+that c was like the beginning of the more advanced phase of this master programmer but now I kind of think it's
+the second class in the path to the master programmer and then you take like a class like Jango and you're like oh
+object Orient I get it and you're so all of a sudden everything you're doing in Jango you're doing it from a a much stronger position and so it's not it's
+not that I don't like any of those courses that I that I have and they're still in the path to the master
+programmer um but the cclass is the second class in the path to the master programmer when my urg my originally I
+thought it was going to be the fifth class and the ironic thing is I'm kind of following the path computer science
+does a lot of computer science schools teach that's ironic it is ironic they
+teach python first and C second although they tend to teach C++ second which I think is a mistake but I I do think that
+what I'm doing articulates uh really well with computer science in that you
+my python course is not really recognizable as the first computer science python course and my C course is
+not really recognizable as the first computer science C course and and so if you're going to go and get a computer
+science degree people should take my python course and then they should take my C course and then they should go take
+a computer science degree right because the way they're going to teach you C and
+C++ and Python and computer science is rigorous they're they're really teaching you like the language you know how to
+change spark plugs I'm teaching the feeling of all these things I'm teaching the the kind of the the Gestalt of what
+python is from a gall perspective what C is from a good shult perspective and I'm preparing you very very well for a
+rigorous treatment of python C and C++ so that you will crush those courses so
+a big part of computer science is people walk into these courses and they're not really ready for them and so um I think
+that people should take python for everybody and see program for everybody in high school so that when they go get a computer science degree they're
+actually successful and they love it from end to end as compared to they're miserable they can't figure it out they don't actually learn anything and two
+years later they drop out and quit so for me these are pre-computer science classes these are not Replacements and
+even even the object Orient stuff I'm doing at the end of C programming for everybody it's not as strict and
+rigorous as the typical computer science class that's going to teach trees and Maps they're going to make a lot harder
+class but they're not going to care about the feeling of what what it means to be a hashmap and what GA was thinking
+when he was building one of these things and so so that's the path to the master programmer I really only have at this
+point in my mind two more classes to the path of the master programmer although there could be a third class yeah I mean you know me I change my mind all the
+time and once I teach things and I give them to students students tell me I'm wrong and I change so the next course I'm going to build is computer hardware
+Dr. Chuck's next course // Hardware for Everybody
+for everybody I'm not going to computer architecture I'm going to talk a little bit about machine language Assembly
+Language I talk a little bit about Gates and I found a book and and um and here's
+the book it's called Computer Engineering for babies okay oh wow so if
+you hit this button the light lights up yep see that that's my level yeah so
+this is a wire and the light lights up that's a notk if you push it it turns to
+zero that's good that is very good this is an exclusive
+or if you push them both it's stays off if you push either one it stays on so I
+found this book Chase Roberts poor Chase Roberts is going to be featured on your podcast and he's going to sell way more
+books than he ever thought he was going to sell I probably warn him that is how I teach Hardware I mean I I sent a note
+to this guy I'm like I love your book and I want to write a second one he wrote a second one I didn't like his
+second book as well but I want to write a second one about starting with Gates and just it's not that hard started
+gates to learn a little bit and then you talk a little machine language so that I think and I think that might not be it's kind
+of like a one credit college class kind of like a survey of computer architecture and then I'm going to teach a Java class but by the time I'm
+teaching a Java class I'm G to teach you how to program like a professional right it's not just I'll teach the programming language Java and then I'll teach you
+how to program like a professional and we'll start looking at really hard problems and and that stuff so I'm not I'm not that far away at this point from
+what I think of as the last Master programmer class to the point where I'm starting to produce people that I will hire at that point yeah because last
+time you had assembly we you you still thinking of doing that assembly is an architect computer architecture is Hardware plus assembly I've been
+thinking more about it and now that the cclass is done I got so much done in that class the hardware and assembly
+class is kind of going to collapse into one and then last time you had rust and AWS but like based on the sort of what
+you see the I don't see rust as adding much value anymore at this point I just I wish it had I I think there is a place
+for a language that that has sort of like the low-level expectations of C but at the same time there's a number of
+libraries that make it uh much safer to use and that's the problem strings are not sa I want safe strings I want safe
+Free and available Dr. Chuck courses
+lists and I want safe dictionaries I mean that's that's really what I want as a c language that has python like
+underlying libraries Dr Chuck I just want to emphasize something so to make sure that everyone understands this
+you've got this path to master programmer and all the content is freely available is that correct yes it is yes
+it is it's also available on corsera but it's also just available on websites that I have up and you just go to you
+know online. dru.com and you see all of them and when new ones come out they'll
+be there as well so I'm committed to making all my material as free as
+possible I I don't think that that that precludes people paying for Content when
+you pay for Content there's somebody that kind of certifies that you've done the work it gives you a certificate it's one thing for you to say that you took a
+course it's another thing for somebody else to say that you took a course and so things like certification there's value in that but it costs money to
+certify you I mean you can't just to say oh yeah I'll self-certify well that doesn't say much so yeah and so the idea
+is that I I am really passionate about making software development as a career available to everyone everywhere in the
+world um regardless of uh how much money they have and regardless of the kind of resources that they have to bring to
+bear and I think our world will be a better place when we do that I love that because I mean that's the thing some
+people can afford it and they can get the extras but some people just can't afford anything and this gives them the
+opportunity to change their lives and I love what you're doing I love that you're doing that you said in our last interview something along the lines that
+$100 is a lot of money for a lot of the world yes absolutely um and I mean I I
+teach at the University of Michigan and you would think that everyone who steps foot in the University of Michigan is you know financially super solid and
+then we WE Post student student jobs and we get tons of applications and you
+think oh well isn't everybody rich and the answer is no it turns out even at a place like Michigan where there's a
+lot of wealthy people going to school there there are plenty of students that are not wealthy and they're they're
+fighting and they're fighting semester to semester and so if we think about these things as appealing to um you know
+those with limited means like and and not think of it as like oh this is a cool boot camp and I'm going to charge
+somebody $220,000 for a month worth of stuff and and you're going to sit and learn Ruby on Rails for 12 hours a day I
+mean I I find that really reprehensible that that's what people decide is the right thing because there are people
+that can afford to pay for that but I also think that those courses aren't all that useful and the long the long-term
+benefit of a you know two Monon $20,000 boot camp is nowhere near as good as
+carefully taking a bunch of free course materials and really uh understanding what's going on in those courses and
+taking your time and then growing your learning while you're going to work working and learning at the same time is way better than going to some boot camp
+and then walking out with a fresh load of stuff in your head that you think you're going to make money on but then
+you don't get a job and then it all FL it all goes away in another month so I'm glad you mentioned that because you
+mentioned earlier that someone could take Python and uh C and then they could go do computer science but let's say I
+don't want to go to university I just want to like get a job can I take this master sorry the road map to master
+programmer and um am I ready perhaps to get a job at that point absolutely absolutely so and and again you need to
+have some breath you need to have some breath so that when you walk into a job chances are good that you're not going
+to do exactly what you were taught in college and or in your boot camp and so you if you learn a bunch of different
+languages on the way to the master programmer then when you when they say we're using rust we' be like oh yeah
+okay I kind of know CN I kind of know python I know PHP and I know Java I'll figure rust out right and so whatever it
+is um you know Scala there's all these unfortunately there's all these like languages of the moment that seem to be
+exciting and they they they they contribute something but then they don't necessarily uh completely stick so if
+Where to get started
+I'm starting out first language to start with python and then second language c
+yeah I wanted I just want to like hmer home on the on the point what's what I'm going to learn in C that I'm not
+learning in Python is it just a better understanding how programming works is it object oriented object orientated
+programming what am I getting that's the difference between those two and why why don't I just stick with python perhaps
+well if you if you take a python class uh you can be employed and that's what I'll call a junior programmer right and
+and there are lots of people that do pretty well as Junior programmers and they go to stack Overflow and chat GPT
+and you know paste a few things in and and get the work done that day and they move forward but there Comes This Moment
+where you get stuck if all you know is Python and all you've done is kind of basic python stuff you get stuck where
+you got to go find somebody senior right someone who's got done a lot more and the question becomes especially if for
+companies how do we get people from this sort of junior level to senior level and
+we can we we're pretty good at making junior level programmers these days with things like corsera Etc but then how do
+you make senior folks and that is where the cclass comes in so one of the things I'm I'm I'm trying to convince companies
+who have found the python class really uh useful is that the cclass is even more useful because it's going to take
+your current employees and it's going to up their game and it's going to give them the necessary tools to to kind of
+grow from Junior to senior and go from just you know you got a bunch of Junior programmers and they're doing a bunch of stuff but then you got all these senior
+people that kind of have to help them when they get stuck well how do you make more people to help everybody when they get stuck and that's where the C-Class
+comes in is it's the ones where you're not afraid and I guess you know I'm not afraid of what programming is when I'm
+done with a cclass and that's the that's one of the things I love about it and that's one of the things I love about having a computer science degree is I'm
+just not afraid eventually I'll put enough print statements in it darn it I'll figure it out and I don't care what language it is I don't care any of that
+stuff and that's what I'm trying to I'm trying to create a course that can take you to that point where you're not
+afraid of the technology that you're using but I shouldn't use C in production because of all the vulnerabilities and issues with C right
+When to use C
+no and I I sure hope you don't find a job where they tell you that your job is to write a whole bunch of C code because that that's really really difficult and
+should be reserved for the you know the most specialized of things and these days if you're going to do something
+super specialized you might want to use C++ because the problems that you are going to need to solve in a sort of a
+highly I don't know rigorous and scary environment C++ is probably the better tool to see for that I'm glad you said
+Which programming language to learn next
+that because it was like okay so if I don't you see what do I learn is it rust is it C++ what do what do I learn next
+that's a good question um that that's that's a good question I'm looking at the I tend not
+to do anything I tend not to like teaching proprietary Technologies I tend to like teaching open source
+Technologies and if you look at the business world uh business World uses
+either open- Source Stacks which are like Python and Java or they use
+proprietary Stacks which are like Windows C and Visual Basic so you'll
+notice that I don't teach anything in the windows C Visual Basic World C++ is a weird thing right I'm not sure that a
+lot of general purpose folks use C++ for building web servers I know that
+Microsoft people use C for building web servers but I don't think open people I think
+they tend to either build them in PHP python or Java and so what I've done is
+I've covered what I consider the essential languages on the open side of
+the house I'm not pretending that I am a Microsoft certifi certified software developer right because those languages
+are completely different there's there's equivalences because C is more like Java than it is like C++ even though it uses
+syntax that's C++ like um and so I you know I'm not I'm not trying to sort of
+get into the business side but if you but a lot of places don't like using Microsoft Windows because of the
+continuous licensing uh problems that you have and whereas if you're starting a really big company the last thing you
+want to do is uh base it on a proprietary you know pay per click kind
+of a thing and so you're going to use python or Java or PHP or something like that JavaScript as well I also think
+it's that whole thing that Linux is you know I'd rather have learn Linux than than Windows yeah too and I'd rather te
+yeah the lamp yeah I'd rather teach Linux than teach Windows it just lasts longer and you know the the knowledge
+that you gain on Linux I think lasts longer than the knowledge you gain on Windows and I just think it's so portable um if you understand Linux I
+think I I just remember now you said in a in a previous interview you shouldn't because a lot of people make this
+Learn different programming languages
+mistake they think they must just learn one language and I think you said something along the lines five or six languages is what you should learn right
+yes absolutely absolutely and it's at some point you uh you need to learn a number of different languages because
+you have to relax when the syntax changes you can't have gotten so much that you're sort of like a savant on the
+syntax and if you see different syntax that it's somehow it it throws you for a loop the answer the concepts in any
+programming language are the same and until you've learned a bunch of programming languages you're not you're not operating in Concepts you're
+operating in syntax and that's that's a key and it's not easy to do you can't just say hey this week we're we're going
+to stop talking about syntax we're going to talk about Concepts blah blah blah blah blah two hours later and so you somehow know Concepts the answer is no
+you don't Concepts come to you just with repeated work and I love that because I mean I think and I I mean people in the
+can put all kinds of comments in you know feel free to put comments below but I I have this got feeling that if I know
+Linux it's easy to pick up Windows if I know C it'll be easy to pick up other languages um the and if well multiple
+languages it's easy to learn others so I love what you've done that it's open source rather than proprietary right Dr
+How AI/ChatGPT changes coding
+Chuck elephant in the room a lot of young people have asked me this it's pointless learning to code it's
+pointless doing anything intact networking coding cyber security whatever AI is going to eat all of our
+jobs what's your opinion about Ai and then perhaps later you can talk about chat gbt and how that's changing uh
+coding perhaps or what what's your opinion so perhaps you can talk about Ai and then come back to like is chat GPT
+like making us dumb something along those lines so I I'll just start by saying that chat GPT T is not going to
+take all of our jobs I mean if chat GPT was going to take all of our jobs the previous 85 or 90 different
+technological breakthroughs and C GPT is definitely a breakthrough but the previous breakthroughs are we're going
+to take our jobs and they didn't right I mean I whenever we are talking to anything mechanical whether it's chat
+GPT we get really upset really fast because they can't even take the simplest things right but so that it
+just taking our jobs is just such a foolish kind of dog whistle kind of way to think about it but chat PT is amazing
+chat PT is the you know the closest thing we've seen up till now to True
+artificial intelligence and there are some things that it does really well couple of quick stories right so last
+semester which was September 2023 I called the first semester of chat GPT
+and we had sort of seen it in the spring and the you know the April May time frame and we spent all summer like
+worrying about what was going to happen when September rolls around and and we got to F face students with chat GPT and
+my colleagues to a person we not going to prohibit it and not going to fight it
+I mean it's dumb that's like fighting search or that's like you know fighting text messages I mean it's just like stop
+find out a way to use it so I will say that when I prepared for my fall 2023
+September 2023 course I put a lot of thought in to how to deal with a chat
+GPT Menace right meaning that a lot of I looked at my assessments I looked at how I taught and I'm like I gotta change I I
+gotta change all this stuff right the biggest thing I did to fight chat GPT is this it's paper I can't see
+clearly you left to explain sorry go on it's a piece of paper so the biggest thing that I did to fight chat GPT last
+semester was to use paper exams and I'm like ha oh that's interesting yeah yeah
+yeah I will give you a multiple choice question ABCD and you're walking in with a pen and a paper and two pages of notes
+and I don't care how you learned it but you're not going to take your ex my exam with chat DPT next to you you can do all
+my homework with chat GPT next to you all you want but you got to take my exam and it turned out it was great students
+love the exam I love the exam it felt really good I felt like I had built the best assessment that I had in the past
+10 years of teaching and then this semeer comes along and I look back on it and I realized that the paper exam was a
+good idea cat GPT had nothing to do with it ultimately right cat GPT was just a
+thing my reaction was to do a paper exam and so what it turned out was it was a
+way for me to get the students attention and give them responsibility for learning so that they couldn't use chat
+GPT when they take the exam and so I like okay if that was good I'm going to switch and so this semester I'm using three exams and literally I've stopped
+thinking about chat GPT in my teaching completely right I mean I'll use it someday maybe some company will make a
+cool chat GPT that looks at all the videos I do and students can ask questions about something and I've seen
+prototypes of this already where you say how does time and a half for overtime to get calculated and it finds the exact
+place in all my lectures that I talk about that students will love that right because instead of having to watch all the lectures and remember what go went
+where they can ask a question about the lecture and be taken right to it does that make it so they don't have to learn
+anything no it actually makes it so it's easier to learn stuff because they're not looking at junk they don't want to
+look at so it's going to help it's it's going to help and um and so chat GPT
+made me think as a teacher what I'm doing right what I'm doing wrong how I could be better and it was all when it
+was all said and done the things I did to kind of deal with Chad GPT made me a better teacher and had almost when so
+said and done I should I just should have looked at myself and said how can I teach better how can I help my students learn better and and CHP just happened
+to be like the the scary the scary thing that got me thinking about that so that's that's one one chat GPT example
+so another chat GPT example had to do with I had a bug and the Sakai project
+which is a million lines of java and it has to do with double URL en coding and
+so was passing stuff and back and forth between servers and they got double URL encoded and um that's little percent
+signs on URLs and um turns out that some firewalls are starting to break wurl
+encoding they're starting lot not past wur coding so so I need to come up with a different way of passing this data
+back and forth and I wanted to use a technology called Bas 64 which turns it
+all into like hex numbers and digits and upper and lowercase letters but Bas 64 has like an equal sign and a couple of
+other weird characters that require WL coding anyways so I thought well how
+about this thing called Bas 62 which is exactly the same thing that base 64 except it doesn't have those characters
+that I didn't want in base 64 and and so I propped up chat GP PT cuz I couldn't find a b62 library b62 is a thing that's
+talked about but there was no b62 Library so I popped up chat GPT and I said could you write me a Java based B
+62 library and it goes sure so I look at it like yeah that's pretty cool that
+looks good I look at this and I look at that I look at some of the code I'm like okay that looks pretty good I'm like could you write some Java DOC for that
+and it goes sure and so it writes the Java doc then I say could you write a unit test for that and it writes a unit test for it and like that's a cool unit
+test it even seem like it has a sense of humor like I do when I write unit tests and so I I took this stuff and I took
+this stuff and I threw it into a patch in Sakai as a fix for this bug and it
+did fix the bug right because I wasn't doing URL coding I was doing this B 62 and coding so I went through code review
+and the people reviewing it they weren't entirely excited about my Approach they think I should use B 64 because B 62 is
+not common and they look for a bunch of libraries but I I've kind of fought them on that I'm like I want to do this but
+secretly what I wanted to do is I wanted to take code that was written by chat GPT and put it in this production
+software I'm like because I wanted to say like I want cat gbt to be a partial author of my software so I didn't want
+to look too close at it I just wanted because I test it out just fine right that's the worry that's the worry yeah
+so so I kind of they had argued with me and I kind of beat him down and that ARG
+the code review people I beat them down in the argument so I over their gentle
+suggest questions I put it in and we hand it over to quality assurance and 24 hours later it breaks and the quality
+assurance person ran something and it blew up and I looked at the trace back and I could see exactly the line and I
+looked at the line of code I'm like oh I see why that broke exactly why I broke and so long story short luckily I'd been
+the corview people had argued with me long enough about this thing that I kind of knew exactly what I was going to do if it didn't work out so like in less
+than an hour I had a better solution that used B 64 with like a hack on top of it and it's like but we've done all
+this research cuz they' argued with me about why I was using this thing and I thought through all the Alternatives but I didn't want to do the Alternatives so
+it turned out when it's all said and done but chat GPT had taken a base 64 algorithm and changed 2third of it to be
+like base 62 but it's really hard to change the other third it turns out having to do with the fact that it's not
+a power of two they just wrote a bad Bas 62 Al Chachi V roal algorithm and I look
+at it I'm like oh that's exactly what Junior programmer would have done if you
+put a lot of pressure on them and said you only have one hour and I'm GNA based
+on when you write this code if you're not done with this code in an hour I'm going not going to hire you and so chat
+GPT feels a tremendous pressure when asked to write a Bas 62 encoding algorithm and so it reacted just like a
+junior developer and it was very confident it was right it was so confident that it was right and I was so
+happy that it passed the unit test which it did it turns out the year was probabilistic and you had to have all kinds of weird patterns to happen
+eventually the QA people did that and so that says wow it's a junior programmer
+it's prone to mistakes and it has no sense that it's wrong zero zero Z zero
+sense that it's wrong so I'm GNA I'm going to start a series of podcasts where I use chat GPT and kind of because
+it I've done a couple of other things where I've I've used it and I've learned it I I really enjoy it so the the other
+ChatGPT vs college essays
+thing that you know at my age my friends had kids and they're going to college and the question becomes do you write
+your college essays using chat GPT and a friend of mine who also teaches at the University of Michigan has a son who's
+applying for college and he was really afraid that his son would use chat GPT or perhaps lose to someone who had
+written their essay in chat GPT so his strategy which was really I thought brilliant he's like do something that
+chat GPT would never conceive of doing and then write about that thing that you
+did and write passionately about the thing that you did so they bought an old car like a 1976 chel and they started
+working on the car together and his college essay was what he learned doing work on 1976 chel getting dirty and so
+think about it chat GPT can't work on a 1976 chel so it can't talk about its
+experience doing that so there are ways to write an essay that could never be written by AR arcial intelligence
+because artificial intelligence can't experience life they can talk about like you know the cause of the Civil War
+perhaps um but uh so I went from a year ago being scared of of chat GP to like
+it's just a it's just another thing and I want to learn how to use it and teach my students how to use it and companies
+will come up with cool uses for it and I will like that um but it's it's not going to stop anybody's need uh for
+becoming a programmer and frankly I think it increases the need to be a senior programmer because I think chat
+gbt has the same conceptual understanding of software development as Junior programmers and will'll make the
+exact same mistakes Junior programmers and the way I found the mistakes of the code that I wrote I let cat GPT write
+for me was when myself and two other senior programmers were going over it looking at where the flaws might be and
+Cat GPT just couldn't do that right and so I'm not worried I love chat GPT it's fine I just Snicker time people you know
+overestimate its capabilities so just to counter to that once that essay is online though the next version of AI
+will have that story and could grab that right uh absolutely absolutely without a doubt I mean I think the key thing
+though is as long as it's a personal Journey it's difficult for you to say um pretend that I just bought a 1975 chevel
+and pretend that I worked on it and write a story about how I learned
+leadership and uh problem solv solving while I did that I mean it it hard to
+ask the question even though you gave it that essay right um and and and so I I
+think it's difficult for chat GPT to have a truly personal thing that comes out I think it can describe things but
+it can't really share feelings and so where do you see it going because CH gbt is like V1 of a lot of what people have
+The future of AI // Is programming still worth it?
+seen But AI it the talk about exponential increase in intelligence and
+stuff do you think if I was a young person and I'm just framing this always the questions that I get on YouTube is
+it worth me still getting into programming because I'm I fear that you know chat GPD perhaps can't do
+everything but what about five years from today I think that that question comes from people who are not yet
+programmers imagining going to a beginning programmer position and thinking that a lot of the things that you do as a beginning programmer have
+become easier with chat GPT so they maybe won't need as many people the problem is is that your goal when
+learning to program is not just to become a beginning programmer but to be a senior programmer and that's where the creativity just comes in right when
+you're creatively solving a problem I just don't think the cat GPT can help you I think chat GP can can help you
+write a a a a s a digital signature library or it can write help help you uh
+you know parse Json or whatever and so those are things that we tend to do as J Junior programmers but the concept of
+like whoa that's a really interesting problem chat jpt has no chance with those really interesting problems so
+that for me is why it is that uh programmers should not just assume that they're going to go and become a junior
+programmer and that's the end of their career and I and I also think that companies are going to want to take and
+invest and get their their employees doing higher level thinking which I think is just going to make the world a
+better place right you know if we just kind of have like a whole bunch of Junior programmers like a typing pool in a big big room with banging on keyboards
+continuously you know we're going to be better than that you know we're going to just like typewriters to word processors
+and so you're going to move up a level you're going to have to become uh creative and understand how how computers really work I think that it's
+going to be fine but I you know this is where talking about C programming for everybody I think people who are currently working are going to need some
+kind of education that leads them out of the kind of the mechanical into the creative in terms of software
+development I love that I mean it's a great answer because I've seen so many examples of the AI chat gbt just being
+the poster child creating code that's vulnerable so it looks fine and it works
+but it's not best practice it's vulnerable it's got issues like your example is great um only a senior
+programmer would pick up those issues I see it in networking on the networking side trying to get it to configure like
+um bgp or OPF or some kind of writing protocol it kind of does it but if you actually know what you're doing you spot
+all the mistakes yeah I mean that I mean it'll be it'll be helpful and and you know but but at the same time there are
+things that are just going to do really well and that is I mean I I can't wait until there is a company or an open
+source project that can scan a corpus of an online course and give you a a really
+rich index of that course because one of the one of the problems that I have in scaling courses is that there is a there
+is a conflict between personalization and scale and and people get stuck on
+the weirdest things and then they drop out in in in large large scale classes and if I can come up with ways and I I
+really believe that they're just like got stuck on one thing and then they got mad and then they left and then they
+gave up on their education that's at least online like that like on corsera or just online or free code camp or
+wherever you're going it's just too easy to quit but if I get something that can catch him at that moment and just give them a little bit of love a little bit
+of a little bit of encouragement and I don't think that requires like super genius software that just requires
+software that understands the material that I'm teaching from and can lead students to the right answers to the questions that they have Dr Chuck it
+Visiting students around the world
+sounds like you've been stuck like creating this course do you actually manage to travel at all so one of the
+things that I've been holding off with C programming for everybody is doing the thing that I love to do and that is go visit my students all over the world and
+I've you know been there 7 times and I think uh since Co I've only gone like three times I just they luckily ended up
+somewhere so I'm picking up my uh my travel and going to visit students more
+and more and I see that you go to conferences and come up to you and talk and and I'm a little jealous of that
+that's really that's really cool that you get to do that um and so I'm kind of kicking this off with a week and a half
+long trip to India uh with corsera where we're going to go and visit um we're
+going to visit a number of universities that have adopted my python course and I'm going to try to convince them to
+also adopt the C course and then we're going to go to a number of businesses that have adopted the python course and
+I'm going to try to convince them to do the C course for all the reasons that we've talked about right so in in University this is a great second course
+at at and but for businesses I think it's even more important because you might have someone who took a cclass 20
+years ago but they didn't know why they took a cclass they didn't know what the value of that C-Class was my C-Class
+will give them the story the back story and it will it'll teach them what they should have learned from that cclass
+that they probably didn't back in the day when they were just taught a straight up cclass and so the other
+thing I'm hoping to do when I get to India is uh is meet some of the employees that I've got uh from the
+master programmer right I mean I've had a couple I don't have enough scale to do all of them but I'm going to meet some
+of the the the students that I that's have taken all my courses that I've hired I I know I get a lot of requests
+but I don't have right now I can't hire everybody who wants to come work for me but I'm going to meet some of my people
+for for the first time and I'm going to go visit uh I I think I told you that we have a a number of blind schools in
+India that use my python course to try to teach blind students how to program I
+think that you know visually impaired and programming actually really work well I you know you you some there's so
+many internal thoughts and Concepts and and constructs that we do as programmers and I don't think you need to see seeing
+is not as critical and uh so the other the other thing that that we we we've done is um uh I've hired uh some blind
+folks to do accessibility testing on uh on the sky project and I'm going to meet some of those as well so I I kind of put
+myself in a sort of in a cabin and finish this course and now that I'm done with this course I'm going to get back
+out in the real world and start meeting people again Dr Chuck I really want to thank you you know for giving so much to the world
+Conclusion
+I mean I think you said there's 3 million students on your python course right y so 3 million lives potentially
+impacted in a in a major way just that through that one course I really want to thank you you know not trying to like
+create some boot camp and become like a millionaire overnight by charging $20,000 or whatever stupid money people
+charge but by giving to the world and um you know I come from South Africa originally and I've seen poverty I know
+that people they're very very clever people amazing people out there that if they just get the opportunity can change
+their lives change their family lives um and I really want to thank you you know for giving back to the world thanks for
+bringing that up I it it reminds me of a YouTube comment that I just got in the last couple of weeks where uh I I had
+posted a video and someone said Dr Chuck thank you for all of the great classes uh I took one of your classes a long
+time ago and now I'm a teacher and I'm teaching programming myself and I'm like
+oh that's really cool and then like a couple days later another person says and by the way way I'm a student in that
+person's class and I'm going to become a teacher too and so so I love it it just
+it's just so joyful to uh see the positive you just put something out there in the world and you hope that it
+does good and uh it is a joyful thing when it does Dr Chuck thanks so much really appreciate you spending so much
+time with me and sharing with the community as always big kudos to you for you know giving to the world and you
+know making the stuff available because people can change their lives through this so thanks so much thank you for doing what you do as as
+well
+
 
 ----------
 
@@ -652,35 +2904,1734 @@ paste here
 --49--
 
 -----
-Date:
-Link:
+Date: 2024.02.09
+Link: [# An Actually BIG WEEK In The World of AI](https://www.youtube.com/watch?v=l9eEO67NOxc)
+
+Notes:
+### Summary of AI News and Developments
+
+This video covers a wide range of AI developments and news, highlighting significant advancements and releases from major companies like Google, Microsoft, Apple, YouTube, and more. It discusses the launch of new AI models and products, improvements in AI tools, and innovative uses of AI in various fields. The content showcases how AI is rapidly evolving and impacting different aspects of technology and daily life.
+
+### Advantages
+
+- **Innovation:** AI is driving innovation across multiple sectors, introducing new capabilities and enhancing existing technologies.
+- **Accessibility:** Developments like Google's Gemini Ultra and Microsoft's Copilot Improvements are making powerful AI tools more accessible to the public.
+- **Creative Assistance:** AI tools are increasingly capable of aiding in creative processes, as shown by YouTube Growth tools and MidJourney's art generation updates.
+- **Historical Discoveries:** AI has enabled significant historical discoveries, such as the reading of ancient scrolls that were previously indecipherable.
+
+### Drawbacks
+
+- **Misuse and Scams:** There's a growing concern over the misuse of AI, such as in the creation of convincing fake IDs and the orchestration of a $25 million heist using deepfake technology.
+- **Verification Challenges:** The ease of creating fake documents with AI poses challenges for verification processes, necessitating new methods of identity confirmation.
+
+### Tips and Advice
+
+- **Experiment with AI:** Users are encouraged to explore and experiment with various AI tools and platforms to understand their capabilities and limitations.
+- **Be Cautious:** With the increasing sophistication of AI-generated content, it's important to be vigilant about verifying the authenticity of information and media.
+
+### Lecture Content/Main Challenges
+
+- **Rapid Evolution:** One of the main challenges in the field of AI is keeping up with its rapid development and integration into various industries.
+- **Ethical and Security Concerns:** As AI becomes more advanced, addressing ethical considerations and security vulnerabilities becomes increasingly important.
+
+### The Importance and Usefulness of the Topic
+
+- AI's rapid development is significantly impacting technology, creativity, and society. Understanding these changes is crucial for navigating future trends and innovations.
+
+### Accomplishments
+
+- Launch of new AI models and tools by major tech companies.
+- Successful application of AI in creative processes, historical research, and problem-solving.
+
+### Interesting Quotes/Insightful Sentences
+
+- "If we thought last year was a wild ride for AI, well it feels like this year is going to be no different."
+- "Something that had been unreadable for 2,000 years is now readable."
+- "These open-source models are getting better and better...some of them even catching up to GPT-3.5."
+
+### Main Challenges
+
+- Keeping up with the rapid pace of AI development.
+- Addressing ethical and security concerns associated with AI advancements.
+
+### The Importance and Usefulness of the Topic
+
+AI's evolution is reshaping industries, enhancing creative processes, and solving complex problems, making it a pivotal area of interest and importance in today's technology landscape.
+
 Transcription:
 
-paste here
+Intro
+well I couldn't be more excited because
+AI news is really really ramping up
+January quite honestly fairly slow month
+for the world of AI this week we've got
+announcements from Google from Microsoft
+from Apple from YouTube from mid journey
+and so much more a lot is happening
+right now and if we thought last year
+was a wild ride for AI well it feels
+like this year is going to be no
+different so let's break it down
+Google Gemini
+starting with the fact that we just got
+Gemini Ultra Google is completely moving
+away from the barred brand and going all
+in on Gemini with all of their AI
+products in fact if you go to b.google.r
+you to gemini.com now and on the new
+Gemini we have two options you can see
+we've got Gemini and now we have a
+Gemini Advanced most likely you'll see a
+button to upgrade but I've actually
+already upgraded the Gemini Advanced
+because well I published a video
+yesterday all about Gemini Advanced and
+Gemini Ultra so I don't need to go too
+deep into the Google news on this one
+because we did a pretty deep dive here
+in yesterday's video if we take a look
+here at the updates page on Gemini you
+can see Bard is now Gemini and the new
+Gemini Advanced which costs 20 bucks a
+month to use uses the Gemini Ultra 1.0
+model which supposedly is the model they
+showed off a few months ago when they
+made a big deal about Gemini Ultra and
+then we found out kind of the next day
+that most of that video was sort of
+faked but according to the press release
+here it's far more capable at highly
+complex tasks like coding logical
+reasoning following nuanced instructions
+and creative collaboration it's
+available in 150 different countries it
+currently has an Android app with an IOS
+app in the works however if you watch
+the video that I made about Gemini
+already Gemini Ultra SL Gemini Advanced
+hasn't really lived up to the hype yet
+it's really fast it's pretty good at
+creativity on par with gp4 but then with
+problem solving and coding and
+explaining what's in an image and even
+generating images were all pretty
+overwhelming for this being the model
+that Google claimed was going to be way
+better than gp4 but if you want to check
+it out I highly recommend going to
+gemini.com clicking to upgrade to Gemini
+Advanced and you actually get two months
+free it's 20 bucks a month but that's
+after the two-month trial period so so
+if you want to give it a go go try it
+for 2 months free mark your calendar if
+it's not doing it for you just make sure
+you cancel it before the 2 months is up
+and you'll never spend a dime on Gemini
+but definitely check it out compare it
+to chat GPT yourself so far personally I
+still think cat GPT is a little bit
+better but I do fully expect Gemini to
+improve at a very rapid Pace at this
+Microsoft Copilot Improvements
+point and the timing of this Gemini
+launch is pretty interesting because it
+comes right on the heels of Microsoft
+making some big changes and updates to
+co-pilot and it also comes several days
+before the Super Bowl where Microsoft is
+planning to release a co-pilot ad
+showing to the world what it's capable
+of I do have a video next week coming
+all about co-pilot where we're going to
+dive in and talk about a lot of the new
+features that co-pilot has rolled out
+however one of the most impressive
+features that I've noticed recently is
+with their image generation tool if we
+go to copilot microsoft.com you can see
+we have a redesigned homepage here it
+looks slightly different slightly
+cleaner but still gives you some prompts
+that you can test out to see what it's
+capable of but if we tell it to design
+an image there's some new image features
+they've rolled in I'll give it a prompt
+like create an image of a humanoid robot
+on a cliff watching the sunset while
+we're waiting we actually get this
+really cool animation and once it
+finally generates our image check this
+out if I click into any single image
+here like this one and then I move my
+mouse around over the image you can see
+it's automatically segmenting the image
+and I can select any piece of the image
+if I keep clicking I can select more of
+the image so I can select this full
+robot here and then it gives me two
+options and I'm sure there's going to be
+more options coming really soon like the
+ability to remove objects all together
+and possibly even imp paint what we're
+selecting but right now we get colorpop
+and blur background I click blur
+background you'll notice it made the
+background slightly more blurry while
+the robot is still in Focus let's go
+ahead and undo it you can see it gets a
+little more clear I'm going to go ahead
+and select our robot again and this time
+let's try colourpop and you can see what
+it did it made the whole rest of the
+image black and white while leaving just
+color on the robot let's go ahead and un
+do that and this time let's just select
+the ocean and the sky and do a color pop
+on that and now we've got a black and
+white robot and the hills are black and
+white but the sky and ocean are colorful
+another really cool feature about the
+new image generator right inside of
+co-pilot is these reyz options I can
+select low poly here and it will
+essentially generate the same image but
+in a low poly style here's what it looks
+like if I use watercolor here's what I
+get when I do pixel art and here's what
+it looks like in claymation the dolly3
+art generator directly inside of
+co-pilot as well as inside of Microsoft
+designer has gotten a huge upgrade and
+I'm really impressed with what this can
+do I mean it's blowing away what imagin
+instead of Google is capable of right
+now for today's video I partnered with
+YouTube Growth With AI
+two buddy from Ben Labs a company that
+I've been using their tool for a long
+time long before they ever sponsored me
+and now they've even got some really
+amazing AI features built into the
+platform so check this out if I log into
+my YouTube account and go to edit one of
+my videos here you'll notice a new
+little TW buddy icon on the right side
+of my dashboard by clicking here there
+are so many cool things I could do with
+my videos one of the really smart new AI
+features is this suggested shorts
+feature I simply click this it will then
+analyze my video and then tell me
+exactly which chunk of the video would
+make a really good short so this
+suggests 2641 through
+2656 not only does it suggest shorts for
+this video that I'm on right now it also
+gave me some suggestions from other
+videos on my channel that would be good
+candidates to create shorts from as well
+my other favorite AI feature is the
+title generator you'll notice a new
+button showed up right below where I
+enter my title and if I click on it tell
+it a little bit about what my video is
+about and click generate ideas it will
+use AI to give me a handful of
+additional potential title ideas you
+probably won't be shocked to learn that
+most of the titles that I use on this
+YouTube channel AI helped me generate
+it's only fitting right and Tu budy
+gives us the tool built in right into
+our YouTube dashboard so I don't need to
+go to any other third-party apps outside
+of YouTube I can get exactly what I need
+inside the platform again I've used
+tubebuddy for years for my own YouTube
+channel it's one of the ways that I've
+really managed to grow this channel so
+of course I couldn't have been more
+excited when Tu budy offered to partner
+with me and sponsor some of my my videos
+so thank you so much again to tubebuddy
+if you're using YouTube and you don't
+already have a tubebuddy account I'll
+make sure the link is in the description
+but it's really going to help you make
+life a lot easier when trying to grow
+and scale your online presence with
+YouTube since we're on the topic of AI
+MidJourney is out of Discord!
+art already let's talk about mid Journey
+cuz mid Journey has some major updates
+they just announced including the
+announcement that if you've generated
+more than a th000 images on Mid Journey
+you can now actually use the mid Journey
+website to to generate your art you can
+finally get out of the Discord to
+generate images assuming you've
+generated over a th000 images with mid
+Journey you can simply go to alpha. Mid
+journey.com and it will bring you to
+this page where you can generate your
+images you can see up here we've got a
+little box that says imagine and just
+like in Discord we typed whatever we
+want our prompt to be here but instead
+of adding a whole bunch of extra strings
+and commands to the end of our image I
+can click these little settings here on
+the right side of the search box and we
+we can change to Portrait Square
+landscape and pretty much all of the
+various aspect ratios that are the most
+common we can adjust the stylization the
+weirdness the variety we can set it to
+standard mode or raw mode we can
+generate in any one of the old models or
+the nii models and you can set your
+speed to relax fast or Turbo since I've
+already used this prompt already let's
+go ahead and use it again a humanoid
+robot sitting on a cliff watching the
+sunset let's set it as a 16 N9 aspect
+ratio I'm going to crank up the
+stylization a bit crank up the weirdness
+a bit leave it on standard version 6 and
+fast and if I just hit enter and if I'm
+on this create tab over here on the left
+I can actually see the percentage done
+that it is it hasn't started yet and
+after a few seconds we get some images
+that look like this now hovering over
+the images we have the option to very
+subtle or very strong over on the right
+we have options to rerun edit hide and
+under more we've got copy report
+download or open in Discord if I click
+on edit you can see it puts the original
+prompt back up here so that I can just
+create a new prompt if I need to if I
+click on an individual image like this
+one it gives me a whole new set of
+options over here on the right we've got
+very subtle very strong upscale subtle
+upscale creative remix subtle remix
+strong pan up down left right the
+various zooms change aspect ratio we can
+rerun vary region or reuse the image or
+the prompt if I vary region it takes me
+to a page where I can just select a
+certain area select this area and put
+add a baseball cap it'll submit the job
+by click on create I can watch as it
+gets completed here and we have some
+images where it attempted to add a
+baseball cap so pretty much everything
+you can do in the Discord it seems like
+you can do directly on the website now
+however there is one feature that
+recently got rolled out that I don't
+know how to do on the website yet I only
+know how to do it in the Discord and
+MidJourney Style Reference Feature
+it's a feature called style reference
+this helps you get a consistent style
+across every image that you generate
+let's say I really like this pixel art
+image here I could take this image drop
+it into Discord and go ahead and just
+save it in my Discord now that I have
+the image uploaded I can pick a prompt
+and prompt it in the same style so let's
+go ahead and type imagine a humanoid
+robot sitting on a cliff watching the
+sunset but then I add this additional
+code at the end-- sref that's short for
+style reference and then right after the
+style reference I'm going to put a space
+and then I'm going to copy the link to
+this image so I'm going to right click
+copy link right next to our srf here I'm
+going to paste our URL here and it
+should use the above image as a style
+reference for our new prompt and just
+like that we got some images of a robot
+on a cliff staring at the sunset pixel
+art same color palette and everything a
+really cool feature if you want to make
+sure you get the exact same style to
+every image that you create now there
+are some other options and ability to
+blend multiple images together and set
+weights and all sorts of stuff like that
+so something to play around with and
+make some really cool images in mid
+Apple's AI Image Tool
+Journey Apple's also getting in the AI
+image generation game they're working on
+a new model called mg e or mllm guided
+image editing here's the actual paper on
+archive.org where they show really what
+it's capable of with the types of text
+prompts you would give it so here's a
+picture of a pepperoni pizza they gave
+it a prompt of make it more healthy it
+then spits out a new pizza with extra
+vegetables on it here's an image where
+there's somebody in the background here
+they gave the prompt remove the woman in
+the background and then the woman is
+removed it looks like the couch she's
+sitting on is removed as well here's
+another image where they said add
+contrast to simulate more light and it
+brightened up the image let the laptop
+have a green web page and it changed
+this image to this image there are a
+whole bunch of other examples inside of
+this paper that really show you what
+it's capable of but this is new research
+coming out of apple that we don't
+necessarily have access to but will
+probably be in Apple devices fairly soon
+AI Image Labeling
+and since we're on the topic of AI art
+generation both meta and open AI have
+talked about labeling the images that
+are created with their various AI art
+generators we can see here that on this
+meta article in the coming months we
+will label images that users post to
+Facebook Instagram and threads when we
+can detect industry standard indicators
+that they are AI generated they've
+labeled photo realistic images created
+using meta AI since it launched so that
+people know that they are imagined with
+AI and then Dolly 3 is adding the
+c2p which is an open technical standard
+that allows Publishers companies and
+others to embed specific metadata into
+the media to verify the origin and to
+tell people that it was generated with
+AI camera manufacturers are also
+adopting this standard as well as news
+organizations and others so that as more
+images get thrown into the wild be it
+through cameras AI generation or
+whatever else this
+c2p standard will help people understand
+what's real and what's not theoretically
+so if you're generating any images with
+Dolly 3 anytime soon well it's going to
+get this metadata if I'm honest I think
+there's probably going to be some easy
+workarounds for people to strip the
+metadata so I don't know how helpful
+it's going to be but it's a start and
+hopefully it's going to minimize some
+scams and fake images from spreading
+around to some degree also in the past
+YouTube's 2024 Vision
+week Neil Mohan the CEO of YouTube
+released a letter on the YouTube blog
+here about their 2024 priorities can you
+guess what priority number one was AI
+will Empower human creativity on their
+list of 2024 priorities AI seems to be
+the number one priority for them they've
+released a handful of various AI
+experiments into the YouTube platform
+things like dream screen and the music
+AI incubator and the ability to
+summarize comments with AI but from the
+sounds of it this is just the beginning
+of YouTube's AI Journey they have a lot
+more in store in the world of AI for
+YouTube so as a YouTuber I'm excited to
+see what the bring into the table this
+week stability AI also released a new
+Stable Video Diffusion 1.1
+video model stable video diffusion 1.1
+it seems to be a fairly slight
+improvement over the original stable
+video diffusion but if I'm honest all of
+these AI video generators at the moment
+are still kind of looking the same to me
+now I've gotten some sneak peeks at some
+stuff in the works and I truly think
+models like these stable video diffusion
+models are going to look fairly archaic
+in 4 to 6 months from now things are
+moving at a super rapid Pace the stable
+video diffusion model is available on
+hugging face we can see some examples of
+videos generated everything has that
+kind of slowmo feel to it still and if
+you want you can download the files on
+hugging face you just got to give them
+some details about yourself before it'll
+let you but then you should be able to
+run this locally on your computer if
+you've got a GPU powerful enough me
+personally I'm still going to places
+like Runway and Pika to get images
+generated because I feel like they're
+all kind of the same at this point they
+all feel like they make very similar
+Style videos this is interesting hugging
+Hugging Face Gets "Assistants"
+face this week launched an open-source
+AI assistant similar to chat gpts custom
+gpts so hugging face has their own sort
+of open- source version of chat GPT
+right now it's using rol 8X 7B but
+there's various other models available
+that you can swap to whenever you want
+well they've just added this little
+assistance option down in the bottom
+left and very very very similar to
+custom gpts we've got some nice add-ons
+that we can use directly inside of
+hugging chat things like an Italian
+grandma or a prisoner interrogation game
+or a bot that will mercilessly insult
+you so if you like chat GPT and the
+concept of custom gpts well maybe try
+hugging chat with an open source model
+along with one of these AI assistants
+which are also free to use in open
+source and since I've said open source a
+Smaug-72B
+lot in the last couple minutes let's
+talk about smog 72b this is a brand new
+open source model it's actually a find
+tune version of the Quinn 72b model but
+inside these various benchmarking tests
+you can see that it actually performed
+better in almost every single area over
+mistal medium mistal small Gemini Pro
+and GPT 3.5 so these open-source models
+like this smog 72b the mix of experts
+model and the recently leaked mistal
+medium that was floating around these
+things are getting really powerful these
+open source models are getting better
+and better and better some of them even
+catching up to GPT 3.5 turbo Gemini Pro
+and in the case of the recently leaked
+version of mistal medium that one was
+showing signs of being close to GPT four
+open source is really cranking along
+right now this is a really interesting
+Ancient Scrolls Translated With AI
+story that also came out this week this
+was posted on Nat fredman's Twitter
+account here he said 10 months ago we
+launched the vivus challenge to solve
+the ancient problems of herculanum papai
+papai papai papy to solve the ancient
+problem of herculanum papery I know I
+butchered that a library of Scrolls that
+were flash Fried by the eruption of
+Mount Vesuvius in 79 ad today we are
+Overjoyed to announce that our crazy
+project has succeeded after 2,000 years
+we can finally read the Scrolls
+something that had been unreadable for
+2,000 years is now readable and you
+might be asking well what does this have
+to do with AI well in this article on
+business week from Ashley Vance called
+can AI unlock the secrets of the ancient
+world Ashley talked about Nat Freeman so
+Nat had a hunch that AI algorithms might
+be able to find patterns in the scroll
+images that humans had missed over the
+past few years they begun experimenting
+with AI the team have scanned the
+scrolls with more powerful Imaging
+machines examined portions of the
+Papyrus where ink was visible and
+trained algorithms on what those
+patterns looked like the Hope was that
+AI would start picking up on details
+that the human eye missed and could
+apply what it learned to more up
+fiscated Scroll chunks this approach
+proved fruitful though it remained a
+battle of inches they uncovered bits and
+pieces of the Scrolls but they were
+mostly unreadable they put together a
+challenge and got a lot of other people
+involved and eventually it paid off and
+the AI systems had brought the past to
+life now I'll link up this article below
+because it's really well written and
+it's a really good story of how AI was
+able to translate these ancient texts
+that were 2,000 years old but not all
+the AI news this week is good news there
+25m AI Heist
+was a massive Heist using AI where a
+scammer got away with $25 million now
+the way this scam worked was somebody
+got on a zoom call and there was a bunch
+of various deep faked members of the
+team including a deep fake version of
+the Chief Financial Officer and multiple
+employees of a company it says the
+scammers were able to convincingly
+replicate the appearance and voices of
+targeted individuals using publicly
+available video and audio footage now
+there's not a lot of details they
+haven't announced what company got
+scammed and they haven't exactly broken
+down what the scamers said to convince
+the company to pass along $25 million
+but whatever happened it worked and
+these deep fakes and voice clones were
+able to convincingly trick a company out
+of $25 million and along the same vein
+AI Fake IDs
+AI has been generating some pretty
+convincing driver's licenses lately now
+if you spent any time messing with
+crypto if you want to sign up for an
+account like a coinbase account you have
+to do what's called KY seeing or know
+your customer and during this process
+you have to verify that you're a real
+person that you're only creating One
+account they want to see a picture of
+your driver's license along with a cell
+to sort of verify that it's you and as
+it turns out you can now fake these kyc
+documents and convince some of these
+sites that the ID that you're showing
+them is 100% legit meaning that the way
+a lot of sites verify You by using an ID
+and a picture of you is no longer going
+to be an effective method of
+verification we're going to have to find
+some new ways to do this ironically
+don't shoot me for saying this but I do
+believe blockchain is probably the
+answer there's probably some sort of
+blockchain tech that will be a much
+better way to verify who you are and
+that it really is you interacting with a
+website online in fact I think that's
+kind of what Sam alman's World coin was
+trying to accomplish whether that's the
+answer or not I don't know but photos of
+driver's licenses are no longer going to
+be something to verify that you are
+really who you say you are they're too
+easy to fake now but in good news
+AI Robocalls Are Now Illegal
+something that's going to minimize some
+of these scams is that the FC see
+officially banned rooc calls with AI
+generated voices last week we talked
+about it that it was something they'd
+been talking about doing while this week
+they made it official it is now 100%
+illegal to make Robo calls with AI
+generated voices I don't know how harsh
+the penalties are for committing this
+crime and I also don't know how many of
+the Bad actors that are actually trying
+to pull off scams and stuff are going to
+follow these laws but it's a step in the
+right direction and if you saw my video
+AI Psychedelics
+from earlier this week you know that I
+got an apple vision Pro pretty much for
+the sole purpose of making video content
+with an apple Vision Pro I personally
+don't have a whole ton of use cases for
+it other than just playing with it and
+showing it off for video content but
+here's something that I found really
+cool that's combining AI with something
+like the Apple Vision Pro this is from
+Justin means here he says you can
+generate entire worlds with out takes
+for Vision Pro immersive animated 360
+worlds upscale to 8K runs entirely local
+on Apple silicon all you need is a
+prompt and outtakes AI will handle the
+rest coming soon to Apple Store this
+could also be called the Psychedelic
+simulator right it kind of gives you the
+impression that maybe you're on
+psychedelics or something and stuff is
+appearing and disappearing in front of
+you as you look around but I'm in for it
+I want to play with it it looks really
+AI / AR Glasses From Brilliant
+cool and since we're on the topic of
+wearables for your face this company
+brilliant Labs is releasing these AI
+powered glasses from the looks of this
+video it looks like going to have
+augmented reality right on the glasses
+they're going to be multimodal you can
+use them with a prescription it can do
+translation to other languages you can
+look at the nutrition value of things
+you can search the web with them you can
+even generate images directly inside of
+these glasses and if we take a peek at
+their website here check this out
+they're fully open source too so the
+tech behind this and any code running on
+it I'm assuming is available for anybody
+to use let's go ahead and click on
+pre-order now I was just curious about
+the price PR they're coming in at 349
+bucks which is actually comparable to
+the meta rayb bands so taking a closer
+look at them here it looks like the
+software that is going to be running on
+them are openly available models now it
+says visual analysis of the world around
+you powered by open AI That's not
+technically open source but it'll be
+using an open API that most people have
+access to it'll be able to translate the
+world around you but that's powered by
+Whisper searching the web will be
+powered by perplexity and you can hack
+and modify the frames because it's all
+open source so these look pretty
+interesting if these do everything they
+claim to do these could be the Best
+glasses on the market because they
+appeared to be able to do what we can do
+with our meta Ray bands but also what we
+can do with something like the xreal air
+glasses xreal air giving us the
+augmented reality capabilities The Meta
+rayb bands giving us the large language
+model translation and sort of vision
+image recognition capabilities you can
+do all of that in a standalone pair of
+glasses these are going to be absolutely
+insane and that's what I got for you
+Additional Announcements
+today lots of AI news this week it seems
+to be picking up steam I'm expecting
+every week from here on out to have
+really cool really big announcements
+that I can't wait to talk about if you
+haven't already check out futur tools.
+this is the website where I create all
+of the coolest AI tools I come across I
+share all of the AI news I find these
+videos which I record on Thursdays is
+just a little piece of all of the AI
+news that's rolling out I have to pick
+and choose the most important things to
+talk about because there's so much these
+days but all the rest I do share on
+Future tools under the news page and I
+have a free Weekly Newsletter where I'll
+send you just the coolest tools I come
+across just the most important news that
+you need to know for the week and when
+you sign up you get free access to the
+AI income database which is a database
+of various ways to make money using AI
+you can find it all over at futur tools.
+a couple real quick announcements I will
+be in Austin Texas during South by
+Southwest as part of the content hacker
+live event on March 12th and 13th if
+you're in Austin already or you're
+planning on coming to South by Southwest
+you're going to want to be at this event
+we're going to do a whole evening sort
+of fireside chat about Ai Ai and
+marketing the future of AI all sorts of
+really cool AI stuff in person we'll be
+hanging out having drinks eating
+together it should be a really good time
+I'll link up to where you can learn more
+about this event in the description you
+are thinking about going and you don't
+live in Austin book soon because those
+hotels do book up fast also I will be in
+person at Nvidia GTC this year up in San
+Jose but they do have a free virtual
+event that you can attend I'll make sure
+the details for this event are also
+linked up below Nvidia is actually
+giving me an RTX 480 super GPU to give
+out to one of the subscribers who also
+registers for this free GTC event so
+make sure you get registered Maybe take
+a screenshot of your registration
+confirmation just in case I need to
+verify but I'm going to be giving away a
+4080 super to one person who registers
+for this completely free virtual event
+and if you're going to be the in person
+hunt me down and say hi and that's it
+that's really all I got for you today I
+hope you enjoyed this video if you did
+and you want more news videos like this
+you want AI tutorials you want to stay
+in the loop with everything Ai and
+future tech make sure you like this
+video And subscribe to this channel that
+will make sure more videos like this one
+show up in your YouTube feed once again
+I really really appreciate you and thank
+you so much to tube buddy for sponsoring
+this video I will see you all in the
+next video bye-bye
 
 ----------
 
 -----
+
 --48--
 
 -----
-Date:
-Link:
+
+Date: 2023.08.27
+Link: [# How to Type 3x Faster in 7 Days (from a Med Student)](https://www.youtube.com/watch?v=gi5Y8wUZtIA)
+Note: 
+### Summary
+
+The video discusses strategies to improve typing speed, which the speaker found beneficial for completing essays and academic work efficiently. Key techniques include practicing short burst typing speed using 15-second tests, grouping syllables together while typing, practicing with real sentences on websites like TypeRacer, focusing on 100% accuracy, and utilizing keyboard shortcuts to correct mistakes quickly. These methods collectively helped the speaker increase their typing speed significantly, making them more productive in their university studies and beyond.
+
+### Advantages
+
+- **Increased Typing Speed:** Short burst practices and syllable grouping can significantly increase typing speed.
+- **Efficiency in Academic Work:** Faster typing speeds can make essay writing and note-taking more efficient.
+- **Improved Accuracy:** Focusing on 100% accuracy helps in learning scientific terminology and reduces the time spent on corrections.
+- **Better Productivity:** Efficiency in typing can lead to overall better productivity in academic and professional tasks.
+
+### Drawbacks
+
+- **Learning Curve:** Techniques such as grouping syllables and using specific keyboard shortcuts may require time to master.
+- **Potential Overemphasis on Speed:** There's a risk of prioritizing speed over content quality or understanding in academic work.
+
+### Tips and Advice
+
+- Practice typing in short, focused bursts to improve real-world typing speed.
+- Group syllables together to type words more quickly.
+- Use real sentences for practice to better simulate actual typing needs.
+- Aim for 100% accuracy to build correct muscle memory and reduce time spent on corrections.
+- Utilize keyboard shortcuts to efficiently correct mistakes without losing focus.
+
+### Main Challenges
+
+- Adapting to a new typing method, such as syllable grouping.
+- Maintaining high accuracy while increasing speed.
+- Learning and remembering keyboard shortcuts for efficiency.
+
+### Importance and Usefulness
+
+Improving typing speed and accuracy is crucial for efficiency in academic writing, professional communication, and daily computer use. These skills are particularly valuable in fields that require extensive writing or note-taking, such as medical school or other academic disciplines.
+
+### Accomplishments
+
+The speaker managed to increase their typing speed from 130 words per minute to over 200 words per minute in a short period. They also became more efficient in typing essays and taking lecture notes, contributing to their academic success.
+
+### Interesting Quotes
+
+- "Train it like a Sprint and focus on the first 15 seconds because in real-world use, that's the interval you'll be typing for most of the time."
+- "It's all muscle and memory... and that's when you notice a massive bump in your typing speed."
+- "If you keep tapping something wrong and don't slow down, you're just reinforcing the muscle memory to press it wrong in the future."
+
+### Lecture Content
+
+The video serves as a practical lecture on enhancing typing skills for academic and professional efficiency. It covers techniques for increasing typing speed, the importance of accuracy, and the utility of keyboard shortcuts in streamlining the typing process.
+
 Transcription:
 
-paste here
+the first thing I did to type faster
+that helped me get through 5000 word
+essays and literally a day or two is
+that I improved what I call my short
+burst typing speed and that was by only
+doing 15 second typing tests 10 times a
+day usually using the website monkey
+type because in real life when you type
+outside of typing tests you aren't
+typing for minutes straight on you type
+for a few seconds when Electro speaks
+and then stops or when you're typing up
+in essay and then take a break to think
+before carrying on so instead of
+training your fingers for a marathon by
+trying to improve your typing speed
+across a minute long pattern test train
+it like a Sprint and focus on the first
+15 seconds because in real world use
+that's the interview you'll be typing
+for most of the time like even though my
+one minute typing record is 184 words
+per minute that didn't directly help me
+much for essays at medical school or
+help from a bachelor's or master's
+degree dissertations but with 15 second
+or 15 word typing tests I saw a much
+faster rate of improvement than one
+minute tests like I went from 130 words
+per minute to over 200 in a pretty short
+space of time and that made me more
+productive at medical school because I
+could do things like keep up with taking
+elections without having to pause or
+rewind the lecture recording the next
+thing helped me go from tapping around
+110 words per minute to being able to
+consistently type above 150 words per
+minute within a few days and this was to
+stop typing letter by letter and instead
+type by grouping syllables together as a
+single motion with your fingers like as
+an example when I've typed the word
+typing there's two syllables Thai and
+ping so the first syllable is pressed
+more or less immediately together and
+the second syllable ping is pressed
+together as well so if I type YouTube U
+is done in one motion and Tube as
+another and this does take a bit of
+getting used to but it's all muscle and
+memory so as you start to actively group
+syllables together for some words you
+will end up doing it automatically for
+other words just after a few days and
+that's when you notice a massive bump in
+your typing speed and okay so these
+points kind of made the assumption that
+you know how to type without looking at
+your keyboard and whether you're good at
+touch typing or not or helps the most
+with real world use is getting practice
+with typing real sentences but websites
+like 10 fast fingers or monkey type
+don't use real sentences is so what I'd
+recommend is using the website type
+racer where you type quotes from real
+scripts and compete against the real
+people at a similar level to you and
+with this website I saw how much of a
+difference in typing speed there was
+like on 10 fast fingers I might have
+been consistently 160 words per minute
+but on time pressure with real sentences
+I started at around 100 words per minute
+but when I got used to using
+punctuations using shift instead of caps
+lock and making sure not to make
+mistakes I got much better touch typing
+and can type around 130 to 140 words per
+minute on type person out too and now
+with the essays for medical school I'm
+just much more fluid with pressing keys
+instead of having to search for things
+like apostrophes brackets or a full stop
+now the next thing is even more
+important than trying to type as fast as
+possible and thus to make sure that you
+have a hundred percent accuracy when you
+type like for me some words I can type
+really fast but some other words takes a
+lot more time especially with medical
+school when there's a lot of scientific
+terminology that I need to know and what
+I used to do was try to maintain that
+higher speed for those words but that
+usually end up with me making mistakes
+but on most typing websites like temples
+fingers or monkey type that's fine
+because you can make mistakes and carry
+on but if you're writing an essay you
+can't just ignore a spending mistake and
+carry on so similar to how slow down on
+a piece I'm learning to play on the
+piano I'll start to intentionally take
+more time on Words that were Authority
+type because that helps develop the
+muscle memory to do it the right way by
+reinforcing you to press it the right
+way and that eventually brings it up to
+speed with the other words and remember
+if you keep tapping something wrong and
+don't slow down you're just reinforcing
+the muscle memory to press it wrong in
+the future so slow down and do it right
+and the next thing literally saves me
+from ever having to rewind a lecture or
+mix spelling mistakes never be a problem
+for me and thus knowing two of the
+biggest keyboard shortcuts ever I never
+see anybody use the first is a shortcut
+to delete a word at a time with a single
+press using the keys option and
+backspace and then next is the shortcut
+to the entire sentences using command
+and backspace and it might sound like
+it's not that useful but you know how
+annoying it is when you're in a lecture
+and you type something wrong and delete
+letter by letter and then you fall back
+on what the professor says and then you
+miss a bunch of stuff so just condense
+all these presses to one single press so
+that you don't get slowed down by
+mistakes and these tips focused a lot on
+keeping you from being slowed down by
+making you more efficient with how you
+type so that you can be more productive
+and make things like University work run
+much smoother but typing faster is just
+one small piece in the puzzle to become
+as productive as humanly possible so in
+this video here I cried out the world's
+most productive person's routine for 30
+days and made it even more productive
+and you can learn about the biggest
+productivity habits I added into this
+routine so that you can start doing them
+too
 
 ----------
 
 -----
+
 --47--
 
 -----
-Date:
-Link:
+Date: 2023.05.16
+Link: [# Why I DONT LIKE Open Source Software w/ Jonathan Blow | Prime Reacts](https://www.youtube.com/watch?v=kn59Yn55Pos)
+Notes:
+### Summary
+
+The video features a discussion on the state and philosophy of open source software, focusing on Jonathan Blow's critical perspective. The main points address the stagnation in open source innovation, the issues with open source creativity, the dynamics of contributions and pull requests, and the broader implications of how open source communities function and the quality of software that is produced.
+
+### Advantages of Open Source Software
+
+- **Innovation and Evolution**: Mention of React and its evolution (class components, higher-order components, functional components, hooks, server components) suggests open source can drive innovation.
+- **Community Contributions**: Open source allows for widespread community contributions, potentially leading to diverse input and rapid improvements.
+
+### Drawbacks
+
+- **Perceived Stagnation**: Jonathan Blow critiques open source for being stagnant and lacking creativity, merely copying existing ideas.
+- **Quality Control Challenges**: The video discusses the challenge of maintaining quality when everyone can contribute, leading to potential dilution of software quality.
+- **Class Structure in Open Source**: Despite the democratic appearance, open source projects often have a class structure where a few maintainers have significant control over contributions.
+
+### Tips and Advice
+
+- **Consideration Before Contributing**: Before making public contributions, double-check work and consult with others to ensure quality and relevance.
+- **Supporting Open Source**: Users should consider financially supporting projects they heavily rely on to ensure continued quality and development.
+
+### Main Challenges
+
+- **Balancing Contributions**: Deciding who can contribute and how to manage contributions without stifling innovation or allowing quality to deteriorate.
+- **Maintaining Quality**: Ensuring that contributions enhance rather than detract from the project, requiring strong technical judgment.
+
+### Importance and Usefulness of the Topic
+
+- The discussion highlights the critical balance open source projects must maintain between openness to contributions and maintaining high standards of quality.
+- It underscores the significance of understanding the underlying dynamics and challenges of open source software development for both contributors and maintainers.
+
+### Accomplishments
+
+- **Innovation in Open Source**: Despite criticisms, examples like React demonstrate that open source projects can and do innovate.
+- **Community Engagement**: Open source projects engage a wide community, leading to extensive use and contributions across the globe.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Open source software also almost never does anything creative; all they ever do is copy other things." - A provocative claim that sparks discussion on the nature of innovation in open source.
+- "Open source is super Democratic but there's inherently a very strong class structure there." - Highlights the paradox within open source projects between democratic ideals and the reality of hierarchical control.
+- "You eliminate that culture of technical judgment about what is good and what is bad then software is over." - Emphasizes the importance of maintaining a high standard for contributions to ensure the advancement and quality of software.
+
+This discussion sheds light on the nuanced and complex nature of open source software, presenting a critical yet insightful examination of its current state, challenges, and the ongoing debate on how best to balance open contributions with quality control and innovation.
+
 Transcription:
 
-paste here
+all right you guys want to do this uh
+again I know we've done quite a few
+Jonathan Blow ones but
+I just love his takes because they're
+just they're just far enough from how I
+have takes that they bother me but
+they're just close enough that you could
+convince me maybe that it's true right
+there's something about it that's just
+really cool I like listening to things
+that in general I disagree with
+something about it I don't know what it
+is and so this is very exciting very
+smart engineer let's see it
+very excited about this why Jonathan
+Blow on open source software here we go
+open source software has been stagnant
+for 20 plus years if uh does he know
+anything about react okay think about
+the think about this one you got higher
+first off you have class components you
+have higher order components you have
+functional components you have hooks you
+would now have react server components
+apparently this man knows nothing about
+open Stars am I right am I right I mean
+come on clearly
+right in your UI as if it's a server is
+going to be just one of the greatest
+inventions of mankind if I thought it
+was doing a good job why would I have to
+do something else
+open source software also almost never
+does anything creative all they ever do
+is copy other things
+interesting
+is that true
+I mean the the hard part about that is
+obviously the the hard the hard part
+about that is obviously
+um you know when you really think about
+it days since
+um last JavaScript framework
+uh
+is
+I mean they're always creating something
+new so I do think that there is
+something to that that maybe it's like
+the world in which you're working in
+that makes it a little bit different
+and so like in the JavaScript world I
+mean if you've thought of it you should
+probably build it and open source it
+generally how it works but I am curious
+the date is a couple years ago uh but I
+like this take which is you know the
+more I think about it are people doing
+something
+uniquely you knew in the open source
+world I don't know I'd say yeah I think
+personally yes but let's let them cook
+okay let's let them cook
+yeah yeah I think so Judo it tends to be
+the better copy in a kind of a bad way
+they're very bad at creativity for some
+reason
+you will never know why I don't submit
+pull requests the idea of a pull request
+is offensive kind of right it's like hey
+go do all this work
+and then I the guy you can submit to me
+your request that I pay attention to
+your work and then I the guy who decides
+what goes in will decide to take your
+work or not right
+um by definition of guy who decides and
+if I decide not to then you wasted your
+time right
+like everyone pretend oh I I do want to
+pause on that that's it is a really good
+point which I think we can all agree
+that open source work is a largely
+thankless job
+and those that are the ones just simply
+making the changes but not owning the
+repos
+they're one of the biggest Heroes of
+them all they get none of the street
+cred
+and they get all of the hassle
+like that is it is very very respectable
+very very difficult stuff and I
+definitely don't want to uh minimize
+what they do and so I think that he has
+a very good point here which is that it
+is like a genuinely shitty relationship
+open source is super Democratic but
+there's inherently a very strong class
+structure there right yeah so if you
+support authoritarian Democratic you're
+kind of lower class in a sense
+right
+yeah I mean I I I'm agreeing with it but
+second off it open source is not
+Democratic there's nothing Democratic
+about open source people always have
+this like idea that Democrat or uh that
+open source is like the People's Choice
+For Stuff it's actually largely
+authoritarian it's whoever is in charge
+Whoever has merged privileges chooses
+the you know the line and the thing is
+is that I say no to PRS constantly it's
+not communist it's it's it's
+authoritarian it's kingship it's
+monarchy it's whatever whatever you want
+to call it where there's it's a very
+small amount of people that make the
+choice and there's a very large amount
+of people who wish to use it or make
+changes to it
+you can you
+'ve got your own country that's the
+beautiful part about open source
+creating your own country well fascism
+and and communism art are virtually the
+same when it comes to hierarchies of
+power but it is like
+they're they're not like that it's a
+little bit different
+I think we're I think trying to relate
+them to a political structure might not
+be the best way to go about this whole
+open source thing
+I think what it really is is that
+somebody draws in an imaginary piece of
+land that they are King but their land
+comes with benefits and if you like
+their land
+you can look at their land
+and you can even suggest changes to the
+land but they may say no
+you can get an identical copy of their
+land and create your own land based off
+their land and there's nothing they can
+do about it
+just saying it's a weird it's like
+there's no political you can't really
+relate it to anything
+especially on a giant project like llvm
+the fact that I think they have such bad
+taste and everything
+there's something very uh
+negative about submitting to the
+Judgment of people who you believe have
+very bad taste do you know what I mean
+what's the alternative to pull request
+for open source just so everyone commit
+whatever no um
+mechanism by which you admit trusted
+people
+and then just don't don't take
+contributions from other people
+hmm
+let's try to think about that for a
+second let's just let's try out his
+thought on this in a sense
+well it's not a stupid take it's an
+interesting take which is
+you effectively set up a set of people
+who are willing to contribute and those
+are the people who can contribute and
+everybody else can't contribute they can
+like issue requests is my guess that's
+it like hey this doesn't really work for
+me
+uh to me it doesn't yeah I think scaling
+is a huge issue
+no it'd be open source meaning you can
+still look at it you can understand it
+but you can't uh
+you can't simply make pull requests do I
+agree with this take
+I mean that's honestly that's more like
+how Google does open source like when
+you really if you don't know anything
+about Google's General structures is
+that typically at least earlier it may
+have changed today but typically you
+couldn't just make a PR to one of Google
+ran open source projects it the change
+has to be effectuated from somebody
+within there's like this there there was
+like a ring of people who could make
+changes in a ring of people who could
+make changes the Ring of people who
+could make changes was everybody yeah
+open source closed command is that a bad
+thing
+I'm not going to say it's a bad thing
+it's a different thing would we have
+better software today I don't know like
+this idea that people have where they're
+like this is the one way to do it
+because this is what is
+I don't agree with that but I also agree
+with it all at the exact same time right
+tradition and history make a huge impact
+in what we do today but is it always the
+best I don't know a lot of thoughts go
+in my head okay a lot of thoughts okay
+okay
+did I just turn into Chris Farley almost
+right there I felt like that was like a
+Chris Farley Charlie Day five dollar a
+month girl twitch
+Extravaganza right there I don't know
+how you work that out but you work that
+out somehow
+I think that would result in higher
+quality and much less friction
+yeah it's like for anything the level of
+complexity that llvm or whatever is
+either people really know the code and
+can contribute or
+they barely know the code and it takes
+more effort to make their stuff usable
+than
+then it's worth it it's like you could
+have just done it faster right
+I do agree with this take in a sense
+that if you like go look at uh T Pope he
+writes all of his plugins in vimscript
+vinscript's a very Arcane very nuanced
+very educated I mean the language itself
+is an edge case it's not like there is
+nothing but an edge case you're like oh
+what'd you do there well did you know
+you're like what did I do wrong uh
+it's a permanent you just did the wrong
+thing and he is extremely good at it and
+so he even says like don't try to make
+the change just tell me what you want
+and I will try to see if I can do it
+quickly because of just how arcane like
+the stuff is and so I I totally can I
+can buy that argument in
+very complex open source right so you're
+talking about anything that requires
+enough pre-existing knowledge to be
+useful this is also why I think if you
+are giving
+uh you should consider giving to open
+source projects like everyone should
+give some level of money to the project
+they use the most right I think this is
+very very important aspect you know
+just throwing that out there
+and that's sort of the flaw in the open
+source patches welcome model
+is it it doesn't exactly conceptually
+make sense
+the open source philosophy new day new
+time to be upset about open source let's
+go is the current open source philosophy
+is everybody can program and everybody
+can check stuff in and it's always
+positive to do that and help and you're
+building the software along with
+everyone else so I think if someone sees
+someone like Casey criticized code
+that's checked in in that way it might
+at least subliminally and maybe
+consciously reverberate like oh if I
+check in something
+I could be judged in such a negative way
+and I don't want that
+but actually
+hmm
+like that rah-rah everybody's happy and
+holding flowers picture of software
+development is wrong it matters if you
+check in stuff
+that is very good or if you check in
+stuff that is mediocre or if you check
+in stuff that is bad that matters it
+matters a lot
+um and people need to be aware that it
+matters and the way that you
+evaluate that
+is via people having strong opinions
+about what is good code and what is not
+good code right
+there may be more or less productive
+ways to express those opinions for sure
+but I do want to take a moment on that
+one that's actually
+hey you do always got to respect a man
+who cuts the sleeves off his T-shirt
+absolutely and cuts the neck hole that's
+his that's a custom neck hole okay
+that's custom that's that's vintage
+um but
+I do think there's something very
+important to this which is
+how you first present yourself
+especially in the open source community
+there is definitely some I mean he's
+absolutely right like if you make a PR
+that's just kind of horseshit like you
+thought you fixed something but you just
+didn't really think about it you just
+threw it all in there and that's that
+you can give yourself a negative
+reputation which may not even be wanted
+right or you see somebody who you think
+is really smart which is what he just
+said earlier and they get raked over the
+coals for a PR and it makes it feel like
+you could never submit something I do
+think there is something there's there's
+definitely a good observation
+in in that right a good little piece of
+takeaway so if you're going to do
+something public make sure you um
+you know take a moment to double check
+what you do uh make sure you don't get
+caught off guard ask some people some
+questions maybe beforehand uh before you
+do that you know I think there's a lot
+of I think there's a lot of good things
+you could think about right there social
+problem yeah social problems exist ever
+exactly
+let's argue is good too if you lose that
+culture of technical judgment about what
+is good and what is bad then software is
+over
+then literally
+software becomes
+critical basket weaving right
+I feel like there's a joke that he must
+make regular because critical basket
+weaving I just I don't even understand
+what becomes what that
+I don't even know I don't even know
+and you might feel happy about that for
+a couple years because you get to
+participate and feel good but like
+it's not it's not a good place to go you
+don't want you don't want computers to
+go there
+so there's two store two levels to this
+if what you're objecting to is the
+criticism then you're just
+anti-engineering and that's no good
+right if what you're objecting is to is
+the the flavor and attitude and the
+nature with which Casey was expressing
+his criticism
+then there's a little bit more of a
+point there however again
+you eliminate that at your peril right
+interesting interesting interesting
+there is something very unique about
+software
+that when you when you write something
+when you build something and someone
+criticizes it I think there's this
+inherent thing I think we all are guilty
+of doing it that it's not the code that
+they're criticizing but I think it's
+often easy to think that it's you with
+whom they're criticizing
+and second up I think there's also
+especially in the open source world
+there's a gigantic language and culture
+barrier that people who seem like
+they're just might be somebody
+who's different than you right like this
+is a real thing you see this all the
+time
+um
+and so I definitely think there's like
+there's there's a lot there and then
+thirdly you have somebody who's probably
+answered the same question 500 times and
+therefore they just like write out a
+terse answer because they've seen it and
+that's that what do I think of the actic
+solution or the actors thing for those
+that don't know there's this whole acts
+thing in 2009 that everyone got all
+upset and uh I honestly when I read it I
+didn't understand why everyone was
+pissed off like when I read it nothing
+about it seemed that shocking I was
+actually more shocked at how many people
+said it was an ordeal when it was
+just like a guy who was terse who said I
+don't really want to do that
+right like that that's it like the owner
+of actors was like I don't really want
+to do that I don't see why I need to do
+this and they're just like oh you know
+and it just like blew up and you're just
+like okay whoa whoa it kind of seems
+like the community is kind of shitty in
+this situation whereas the owner was
+just maybe more tersed than he could
+have been but it also turns out he was
+like
+super Russian I don't know if there's
+like Russian and super Russian but he's
+like super Russian and just communicated
+in a very direct way and that's just
+like not what anyone was used to and so
+everyone in the
+rust Community which is known for being
+maybe a little softer just couldn't
+handle the super Russian nature of super
+Russian man and just like dilapidated
+under the fact that he's just like
+unsafe code is pot of rust and they're
+just like
+you know like it just like exploded
+it is it is perfectly fine to have
+unsafe rust I can only deal with Russian
+accent if I have sad face like I cannot
+do it doesn't I cannot do Russian
+accents without angry face and I have to
+admit somewhere the taliano just
+I don't even know if it's Russian okay I
+don't even know anyways back to the
+story it is well known that many of the
+greatest contributors to society not
+just in software but in all science and
+technology and the Arts everywhere many
+of those people have been hard to work
+with for one reason or another and
+partially that's because they care
+tremendously about what they are doing
+they care tremendously about the form in
+which they are working all right
+he's right uh I I believe if I'm not
+mistaken Gauss was considered like a
+full and so was Euler if I'm not
+mistaken very very well known for being
+like super
+you might say oh but that guy doesn't
+need to be crotchety and mean about that
+thing but you can't you can't like take
+away that part of the personality and
+have everything else right because that
+part of the personality is quite likely
+an integral part of what made the rest
+of the artist or the scientist as good
+as they are
+[Music]
+I really like that take
+honestly real talk I love that take
+which is there's a part of someone that
+cares so much
+that it's easy to become an
+because what you see as simple other
+people look at as complex because of
+your depth of knowledge and then on top
+of that there is like this constant
+desire to make something better and so
+there is definitely there's something
+about that I mean I always personally
+want to err on the side of communicating
+well
+um
+but I'm not necessarily disagreeing with
+this take I've met people who've like
+I've met I I can think of one person
+who's exceptionally smart we're talking
+one of the smartest people I've ever met
+and communicates in a more terse fashion
+and it's because he really cares about
+things and so
+could he could you get more flies with
+honey yeah
+but would he still be the person out
+there fighting
+right
+like that's that's a it's a really good
+point which is do you take away the
+thing in which gives that person their
+uniqueness by robbing them of that
+I don't know
+I don't know
+right you can't like
+just decide Albert Einstein should have
+had a different personality but he
+should have still done all the cool
+relativity stuff and figured all that
+out and then I'm gonna sit on my couch
+and eat Cheetos and I'll criticize
+Einstein for not being a good person in
+some certain way that a hundred years
+later I decide is the right way to be
+but but I will take all the stuff that
+he contributed because it helps me eat
+Cheetos and that's great
+right honestly this is a really good
+point applies to Modern software as well
+which is like it's very easy from an
+armchair quarterback to say what is good
+and what is bad but the people actually
+doing the work
+like they're the ones that are getting
+raked quite frequently whereas it's the
+people that aren't even apart it's the
+crowd it's the people that want to be on
+the side of whatever that jump in on
+these things you know it's very
+interesting you can say anything you
+want on the internet and inevitably
+somebody will negatively say some
+counter position to you no matter what
+even if they have absolutely no
+experience you Rich Harris can get up
+there and say I like JS docs and he got
+like on the front page of Hacker News
+people are saying how ridiculous it is
+how do they do generic they're just
+saying a bunch of false stuff because
+they actually haven't used the
+technology
+but there's this like idea that they're
+they're actually smart enough to make
+judgments about it and they don't know
+nothing
+right it is very interesting this it's a
+very I mean it happens in all forms of
+society
+that's so like that it is important for
+us to see that kind of
+lazy
+bloated fat
+uh social criticism of others as as
+being as toxic as it actually is and is
+being as unproductive and Decay inducing
+as it actually is that's way more toxic
+than a programmer saying angry things
+that kind of criticism because because
+that kind of criticism that's in Vogue
+in places like Twitter right now is
+um it's not in Vogue for what it what is
+on Twitter Twitter is based on that
+Twitter is the outcome of people having
+shitty opinions
+that's it that that is what Twitter is
+it would not exist without the well
+actually
+at a large scale it will destroy Human
+Society
+whereas the crotchety programmer thing
+on a large scale built a large part of
+the human society that we have right now
+okay so like be very careful with that
+stuff and on my part I feel that one of
+the better contributions that I can make
+is to not tolerate that kind of
+criticism
+like I just won't put up with it you
+know if you come to this Channel with
+that kind of thing I just I'll just ban
+you because
+it's stupid and I don't have time for it
+and uh
+yeah there's too much of it it's cheap
+it's it's cheap all it is is posturing
+so that you know the person making the
+criticism can feel better can show other
+people that they are a good person
+and it's gross it's really gross and and
+it's destructive
+we don't need it
+so I I genuinely do think he has a lot
+of correctness on this
+um I do I I want to I I want to say this
+one point which I think is really
+important I don't fully agree with the
+statement right like if you come in here
+and you and you and you say that I'm not
+communicating you know nice enough or
+whatever I do try to consider those
+things right I think that's probably
+because I just have a bit more of a
+social aspect or I feel responsible for
+my words not
+like
+I do feel some sort of level
+responsibility but at the same time I
+think that there is also just this
+inherent problem that exists which is
+there's like a plane of of IQ if you
+will or whatever right the IQ curve
+which is you probably have like the dumb
+and smart guy on the side being like
+Taurus communication is great but the
+middle ground guy it's like I'm just so
+I just hate everybody who communicates
+angrily I think they should all just
+have to quit software and lose their
+jobs I hate everything about them right
+like that that that plane does exist
+where it's kind of funny uh where
+there's like this this this very
+interesting oopsie Daisy that exists um
+I don't know
+I think you should always strive to be
+good
+no matter what I think it always is good
+to think about what would you feel if
+you had everything you said
+put up for people to see
+right I think I think that's just a I I
+personally that's how I try to operate
+if I'd be proud to have everyone see
+what I'm saying
+then I I'm fine saying it even if it's
+hurtful
+then I think that's fine but that's kind
+of generally
+how I try to do it
+this is a good one by the way this is a
+really good one
+I just can't play it on YouTube I can't
+play it from this machine because
+YouTube will will demonetize me
+anyways just thought just a thought
+I don't disagree I don't fully agree
+I do think people that are saying that
+you know that that largely complain
+about these things uh
+I think that if you had the same level
+of accomplishment as the person you're
+complaining against I think it'd go a
+lot further right like I think if you
+know Casey is really well known in the
+code and in this like performance
+whatever community so is John right
+Jonathan so if Casey said yo John I
+think you're being a little harsh in
+this situation I think he would hear it
+better so I do think that there is like
+this pure aspect where if you wish to
+make a change you also need to be on a
+similar plane I think it does help a lot
+um
+yeah I I just think it just exists that
+way right it's very hard
+um
+it's very hard I don't know it's
+interesting
+I think it's interesting
+nonetheless good thing to always think
+about
+credibility credibility makes a huge is
+very very important right if someone
+tells me I'm stupid and they're one week
+into programming
+not gonna lie I don't really care you
+know
+I uh don't necessarily care
 
 ----------
 

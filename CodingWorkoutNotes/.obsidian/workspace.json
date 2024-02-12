@@ -8,67 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed286238af694249",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Swift/Essential developer/Essential Developer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b2551a2b6d6c595",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Typing/TrainingData/EN/zRandom Stuff.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a45cd24526a4c006",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Typing/TrainingData/EN/zRandom Stuff.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66807297b19c3671",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Swift/various.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1f025f9a30d801e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/various.md",
+                "file": "Typing/TrainingData/EN/Lex Friedman.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/various.md",
+                "file": "Typing/TrainingData/EN/Lex Friedman.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift/various.md",
+                "file": "Typing/TrainingData/EN/Lex Friedman.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/various.md"
+                "file": "Typing/TrainingData/EN/Lex Friedman.md"
               }
             }
           }
@@ -197,8 +148,24 @@
   },
   "active": "1f025f9a30d801e7",
   "lastOpenFiles": [
-    "Swift/Random Swift/Links.md",
+    "Untitled.md",
+    "Typing/TrainingData/EN/Lex Friedman.md",
+    "Untitled 7.md",
+    "Untitled 8.md",
+    "Untitled 4.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Typing/TrainingData/EN/zRandom Stuff.md",
+    "Typing/MyLayout/Ideas.md",
+    "Typing/TrainingData/EN/Steven Bartlett.md",
+    "Typing/TrainingData/EN/Sam Charrington.md",
+    "Typing/TrainingData/Zbiór.md",
+    "Typing/TrainingData/PL/różności.md",
+    "Typing/MyLayout/layout tester.md",
+    "Swift/Essential developer/Essential Developer.md",
     "Swift/various.md",
+    "Swift/Random Swift/Links.md",
     "Zx Organize Helper/ask noteGPT.md",
     "Zx Organize Helper/make Notes.md",
     "Zx Organize Helper/Organise Knowledge.md",
@@ -207,22 +174,6 @@
     "Swift/Swift 4 Android/links.md",
     "Swift/Paul Hudson/Links.md",
     "Swift/News/Swift 5.9.md",
-    "Untitled 7.md",
-    "Typing/TrainingData/EN/zRandom Stuff.md",
-    "Typing/TrainingData/EN/Lex Friedman.md",
-    "Untitled 6.md",
-    "Typing/TrainingData/EN/Sam Charrington.md",
-    "Untitled 5.md",
-    "Typing/TrainingData/Zbiór.md",
-    "Typing/TrainingData/PL/różności.md",
-    "Swift/Essential developer/Links + Transcriptions.md",
-    "Swift/Essential developer/Updated_Links_Transcriptions.md",
-    "Swift/Essential developer/Essential Developer.md",
-    "Untitled 4.md",
-    "Zx Organize Helper/Gain Knowledge.md",
-    "Zx Organize Helper/Expanded_Raw_600.md",
-    "Zx Organize Helper/Expanded_Raw_99.md",
-    "Swift/Essential developer/Transcriptions/Notes.md",
     "Zx scratchBook",
     "General Developer/Improve",
     "General Developer",
