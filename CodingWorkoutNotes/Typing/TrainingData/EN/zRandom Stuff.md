@@ -53,7 +53,16 @@
 51. [# You dont know OOP](https://www.youtube.com/watch?v=VRlIGV4gl5Q)
 52. [# Is OOP EVIL??? Reacting to my favorite dev Youtube video](https://www.youtube.com/watch?v=YpJufWdZFB8)
 53. [# I Cannot Believe How Good This VS Code AI Coding Assistant Is!](https://www.youtube.com/watch?v=TALwI3J4asY)
-54. 
+54. [# You are absolutely fluent in English if you can understand these](https://www.youtube.com/watch?v=c6T9QEvczHc)
+55.  [# How to Brainstorm better than ChatGPT with Knowledge Graphs and GPT 4 | InfraNodus Tutorial](https://www.youtube.com/watch?v=XMwa9q6wWkw)🌟🌟🌟🌟🌟🌟
+56. [# This Free ChatGPT SEO Script Is Worth Millions](https://www.youtube.com/watch?v=rjtfCARo8O8)
+57. [# The Unreasonable Effectiveness Of Plain Text](https://www.youtube.com/watch?v=WgV6M1LyfNY)
+58. [# How I'd Learn AI (If I Had to Start Over)](https://www.youtube.com/watch?v=TR7AGmey1C8)
+59.  [# Google's AI Makes Stunning Progress with Logical Reasoning](https://www.youtube.com/watch?v=NrNjvIrCqII)
+60.  [# Coding Is Changing...Here Is What You NEED To Know](https://www.youtube.com/watch?v=YsCHobUSaLw)
+61. [# The Harsh Reality of Being a Data Analyst](https://www.youtube.com/watch?v=HoNg-ncwE2c)
+62. [# How to Become a Data Analyst in 2024? (complete roadmap)](https://www.youtube.com/watch?v=iYiD2Ray9Bk)🌟🌟
+63. 
 
 
 
@@ -503,26 +512,809 @@ paste here
 ----------
 
 -----
+
 --62--
 
 -----
-Date:
-Link:
+Date: 2024.01.01
+Link:  [# How to Become a Data Analyst in 2024? (complete roadmap)](https://www.youtube.com/watch?v=iYiD2Ray9Bk)
+
+Notes:
+### Summary of the Content
+
+This video presents a comprehensive roadmap for becoming a data analyst in 2024, emphasizing the self-teaching approach. It begins by defining the role of a data analyst, highlighting the importance of making data-driven decisions in businesses. The roadmap covers various steps, including understanding job roles, learning essential skills (statistics, math, data analysis fundamentals), mastering tools (Excel, Tableau, SQL, Python), developing soft skills (communication, storytelling), executing hands-on projects, and preparing for interviews. The video encourages viewers to research their target roles and companies, develop a learning plan, and practice their skills through projects and mock interviews to become competitive candidates in the job market.
+
+### Advantages
+
+- Provides a clear and actionable roadmap for aspiring data analysts.
+- Encourages research to tailor the learning process to specific job roles and companies.
+- Stresses the importance of both hard and soft skills in the field.
+- Recommends practical exercises and projects to apply learned skills.
+
+### Drawbacks
+
+- May be overwhelming for complete beginners due to the breadth of skills and tools recommended.
+- Assumes access to certain resources and platforms that may not be free.
+
+### Tips and Advice
+
+- Start by researching your target role and company to customize your learning plan.
+- Focus on mastering essential tools like Excel, SQL, and Python, as they form the core of most data analysis work.
+- Develop soft skills, especially communication and storytelling, to effectively present data insights.
+- Engage in hands-on projects to apply your skills and build a portfolio that showcases your capabilities.
+
+### Main Challenges
+
+- Navigating the vast amount of learning resources and identifying the most relevant ones.
+- Balancing the learning of technical skills with the development of soft skills.
+- Standing out in a competitive job market by demonstrating both practical skills and the ability to derive insights from data.
+
+### The Importance and Usefulness of the Topic
+
+Understanding the pathway to becoming a data analyst is crucial for anyone interested in entering the field. This video offers a structured approach to acquiring the necessary skills, making it an invaluable resource for aspiring data analysts.
+
+### Accomplishments
+
+- Offers a detailed and structured approach to becoming a data analyst through self-teaching.
+- Highlights the importance of understanding job requirements and tailoring the learning process accordingly.
+- Provides practical advice on skill development, project work, and interview preparation.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Data analyst's role is specifically important to any company because a data analyst is basically telling you what's happening with your business so you can make data-driven decisions."
+- "By doing this exercise, you are basically creating a roadmap for you which gives you an idea of like okay what's your end state looks like."
+- "The goal in doing all of this work is to land a job and enter your career as a data analyst."
+
+### Lecture Content: Technical Insights
+
+- Overview of the data analyst role and its significance in making data-driven business decisions.
+- Discussion on the importance of statistics, math, and data analysis fundamentals.
+- Emphasis on mastering essential tools and coding languages for data analysis.
+- The significance of soft skills in presenting data insights and communicating with stakeholders.
+
+### Conclusion
+
+The video provides a comprehensive guide for individuals aiming to become data analysts, emphasizing a self-teaching approach. By following the outlined roadmap, aspiring data analysts can develop the necessary technical and soft skills, engage in practical projects, and effectively prepare for job interviews. This structured approach is designed to equip viewers with the knowledge and skills required to succeed in the competitive field of data analytics.
+
 Transcription:
 
-paste here
+data analytics was a hot career last
+year the year before and it's not going
+anywhere in 2024 so if you have been
+wanting to become a data analyst then
+you have clicked on the Right video
+because in this video I'm going to be
+sharing data analyst road map that you
+can use to become a data analyst in 2024
+there are three ways to become a data
+analyst you can earn a degree you can
+take boot camps which is a condensed
+version of degree program and third you
+can do self- teing in this video I'm
+going to be focusing on self- teing and
+how you can learn different subjects in
+data analytics to become a data analyst
+in my opinion learning data analytics is
+not that difficult for somebody who is
+just starting out they probably have no
+idea where to get started what to learn
+so this video is specifically dedicated
+to you so before we talk about the road
+map let's actually talk about what does
+a data analyst do so businesses are
+collecting a ton of data and they want
+to make data driven decision and that's
+exactly when a data analyst comes in
+they help the company make datadriven
+decision using that data so data analyst
+in this case would be looking at
+historical data understanding
+performance where things are going well
+where things could be improved and
+helping business guide into making a
+decision that would help them grow in
+the future and this is why data
+analyst's role is specifically important
+to any company because a data analyst is
+basically telling you what's happening
+with your business so you can make data
+driven decisions data analyst falls into
+the data science umbrella there are
+several roles in the data science
+umbrella including data scientists
+machine learning data engineer AI
+Specialists but in this video we'll be
+focusing on data analyst topic before we
+jump into the road map I want you to do
+one exercise I want you to research the
+role I want you to figure out what your
+target data analyst role looks like what
+your target company looks like let's say
+your target company is Amazon in this
+case you will go to Amazon career
+website look up data analyst role read
+the job description and try to
+understand what are are the skill sets
+that they are asking for what are the
+tools that they're asking for what is
+the language that they're asking for
+you're going to take a note and write it
+down and we're going to come back to
+this the next thing you're going to do
+is you're going to go to LinkedIn and
+find somebody who is already working as
+a data analyst at Amazon and you're
+going to see what their background is
+did they take any specific courses did
+they take any specific certificates
+basically try to understand what their
+day-to-day work is like and what exactly
+is their background and you're going to
+make a note of that information as well
+now you have basically created a data
+set based on your research of the role
+where you will use that data and work
+backward from it for example let's say
+your target company prefers that you
+know how to work with Google Sheets and
+Tableau or in Amazon's case Amazon loves
+to use their own specific native AWS
+products such as quick site is one of
+the tools that they would be using so
+you might see that on the job
+description as well as somebody who is
+working there so by doing this exercise
+you actually are basically creating a
+road map for you which gives you an idea
+of like okay what's your end state looks
+like where do you want to go and this is
+actually really really helpful I
+actually do this for all of my work not
+just for learning something new but also
+like when I'm doing like my project
+scoping I try to figure out like what
+exactly do I want to what does my ideal
+outcome looks like so it's very similar
+to that you're doing project management
+of your data analyst learning road map
+so let's say you have understood the
+role you know what you want to do what
+your ideal role looks like now we're
+going to jump into that road map there
+are a few things that I'm going to be
+mentioning I'm going to be talking about
+how much statistics and math you need to
+know what coding languages you need to
+know what tools you need to know I'm
+also going to be covering some soft
+skills as well as project and Hands-On
+work and finally ending with interview
+prep so we're going to be covering a lot
+in this video so start taking notes so
+the first thing I want to talk about
+statistics math and data analysis
+fundamentals for statistics I would
+suggest that you start with
+understanding descriptive and
+inferential statistics descriptive
+statistics is like a summary of your
+data or a snapshot of what your data
+looks like it basically helps you
+understand main characteristics of your
+data inferential statistics is basically
+taking it one step further it's taking
+the snapshot of the data and making
+educated decision think of like
+experimentation prediction and things
+like that that's where you will be using
+inferential statistics to understand
+your data in a more educated way and
+make predictions from it this is a
+visualization that basically explains
+what is the difference between
+statistics and an inferential statistic
+you can learn these topics from anywhere
+you can pick any book that talks about
+these two topics just make sure that
+it's focused on data analysis so that
+learning can be catered to like your
+needs for math I would say you need
+basic understanding of arithmetic math
+and algebra although you would likely
+not be using as much math it's likely
+when you have to do some statistics or
+some machine learning work the chances
+of you doing that as a data analyst is
+low but it's always good to have some
+knowledge of math the third thing that I
+would like you to cover here is some
+data analysis fundamentals what does it
+mean when we say data cleaning data
+collection like understanding
+understanding what each of those terms
+mean so you are able to talk in a data
+analyst language there are several
+resources for learning all the
+statistics math and data analysis there
+are YouTube channels I love KH Academy
+for learning stats and math definitely a
+great resource for data analysis
+fundamentals you can pick up any book so
+one of the free resource that I found on
+learning data analysis fundamentals is
+this free ebook called introduction to
+data analytics this ebook is created by
+HubSpot who is also sponsoring this
+portion of the video the EB book covers
+data analysis fundamentals and starts
+from like very basic such as data
+cleaning data collection and then jumps
+into more advanced topics such as bias
+versus variance which is one of the
+topics that you will need to know for
+inferential statistics it also talks
+about what are some use cases for using
+generative AI when it comes to doing
+data analysis which I think is like
+really cool there's several other
+examples that are included for the types
+of data analysis and data analysis
+methods that you can use as a data
+analyst all in all this is a super handy
+ebook to have by your side when learning
+data analytics and the best part is that
+it is free it's linked in the
+description below so feel free to
+download it now let's say if you have
+learned the statistics math and data
+analysis fundamentals then we're going
+to jump into tools for tools learn Excel
+Excel is the bread and butter the
+chances are you're going to be spending
+a lot of time in Excel or Google sheet
+depending on what your company prefers
+so become very comfortable with Excel
+some of the things that you should do in
+Excel is data cleaning sorting creating
+pivot tables writing formulas to do
+descriptive statistics learn how to do
+data visualization in Excel and also
+learn how to make it pretty because
+everybody loves pretty reports and
+pretty Excel files Excel and Google
+Sheets can be very similar so I would
+suggest to focus on one and then you can
+easily transition to other now if you
+have done your research and you
+understand that your target company and
+Target role uses a tool like Tableau or
+something like quicksite or looker
+Studio then you will kind of like Target
+which tool to learn based off of that
+let's say the role that you looked at
+what preferred learning Tableau so let's
+say the research that you did based on
+that research you learn that you need to
+learn Tableau as a data analyst so
+that's where you would kind of like
+start learning Tableau and figure out
+what kind of things that you need to do
+in Tableau whether that is like creating
+reports doing visualizations and so on
+by learning this tool you should be able
+to make reports and visualizations in
+these tool because the chances are when
+you're working as a data analyst the
+business stakeholders will come to you
+and will ask you to build reports in a
+tableau or a quicksite or a looker
+Studio type of tool so learning this
+tool is definitely going to be helpful
+so highly recommend that you pick one
+and build on it and then eventually you
+can transition between the tools but
+just picking one and sticking to it just
+simplifies your learning process these
+two things you should definitely be very
+very comfortable with now let's say you
+have learned these tools the next thing
+that you should be doing is learn the
+coding languages obviously the first and
+primary coding language that I'm going
+to mention is SQL and I don't even have
+to say it you need to know SQL because
+the chances are that 90% of your time as
+a data analyst you will will be using
+SQL there might be a 5 to 10% chance
+where you will be using python but if
+you are starting out in coding like
+definitely understand how to write your
+select statements how to get data from a
+database using SQL how to do filtering
+how to join multiple data sets how to do
+aggregate analysis how to use Advanced
+analytics function in SQL basically
+understanding logic is very important as
+well in addition to like understanding
+SQL syntax so definitely do a lot of
+practice on learning SQL you can also
+Learn Python but make sure when you're
+learning python focus on python for
+specifically for data analysis because
+you can easily get lost when it comes to
+learning python I have done a few videos
+for learning python data analysis you
+can watch one of those to get some ideas
+obviously you can use generative AI to
+kind of like help you create a road map
+here and figure out what topics you need
+to learn another cool thing that I would
+like to share here like if you're going
+from SQL to python it's also helpful
+that you use tools such as chat GPT to
+help you learn I have personally asked
+it to convert coding language for
+example you can give it SQL group ey and
+say can you convert this to a python
+coding snippet and then you can kind of
+like learn through that process that how
+you would do a group by in python or how
+you would join two data sets in Python
+so just a tip here if you are going from
+SQL to python python again is super
+intuitive and it's easy to learn so
+definitely add it to your toolkit for
+doing data analysis by now you have
+basic understanding of stats maths data
+analysis fundamentals you know which
+tools to use you know how to use them
+you know the coding languages as SQL and
+python now we need to work on your soft
+skills by now whatever I have talked
+about it's called hard skills because
+these are the skills that you need to
+note in order to do your job now in
+order to do your job effectively you
+actually need to have soft skills and by
+soft skills I primarily mean
+communication and storytelling when
+you're doing your analysis when you're
+doing your work at the end of that
+analysis or even at the start of your
+project you actually need to understand
+the problem and the only way that you
+can get to the core of the problem let's
+say if a product manager comes to you
+and I ask you to do some data analysis
+you need to ask them questions back and
+you need to understand what exactly
+they're trying to get to because
+sometimes stakeholders ask you question
+when they don't exactly know what they
+want so by you asking them questions and
+trying to understand the problem you are
+able to get to a better solution
+similarly at the end of your project you
+actually you have to present your work
+whether that you do it verbally or you
+do it in a written format or you do it
+in a presentation format so get better
+at communication get better at writing
+get better at storytelling because that
+would make you effective data analyst
+there are several ways to practice that
+you can practice it at home with friends
+in front of a mirror with a camera write
+blogs get more Hands-On writing
+experience all these things like make
+you a better
+Communicator I don't know if that's a
+term but basically you need to have
+really good soft skills in order to
+succeed in a data analyst career after
+doing all that you basically have the
+toolkit for data analyst now you need to
+do Hands-On project and build your
+portfolio so you can show it on your
+resume there are several ways to
+approach this one is that you can Define
+your your own problems for example you
+can look at your credit card purchases
+over the last 6 months and you can try
+to analyze it or for me I can do like
+how much I have walked between the
+different months of the year and I can
+do analysis on that I can do cool
+visualization so that's one way to kind
+of like figure out what your project
+should be the other is that you can also
+like go to these websites a website
+called analytics Vidya which has like
+specific problems and data set given to
+you and you can like build the data
+analysis project around it now the
+reason I am saying that there are so
+many ways that you can do projects
+because I want you to do it the only way
+you can learn is if you do it and if you
+don't do it there are two downsides to
+it one you don't learn it might seem
+like that you have learned it but
+eventually you'll forget it and second
+it helps you build your portfolio that's
+how companies are going to know that you
+can do the data analyst work and that's
+how they're going to be able to hire you
+so you need to do the Hands-On work you
+need to figure out your projects and you
+need to kind of like start building your
+different project portfolio you can also
+find free data set on several sources
+such as like kaggle has free data sets
+it also sometimes has the problems along
+with the data set that you can use the
+data set download it and solve for that
+problem there's also Google data set
+search that you can use to download free
+data based on your interest on anything
+well not anything but like most of the
+topics are covered and you can kind of
+like build your projects around it one
+of the other platforms that I mentioned
+is analytics viia has a lot of problem
+as well as data set available if you
+thought you were done you're not I have
+one more step because I really want you
+to be ready for real world and the only
+way you can be ready for a real world is
+if you are able to land a job and the
+only way you are able to land a job is
+if you do the interview prep you have
+done all the hard work you have learned
+the statistics math data analysis
+fundamentals you have learned the tools
+you have learned the coding you have
+figured out your communication you have
+done Hands-On project you're applying
+for jobs and you're getting a call now
+you need to pass that interview in order
+to get that job so this is where you
+need to kind of sit down do your
+research figure out what kind of
+questions your dream job your target
+company is asking for that Target role
+that you have and start practicing and
+do a lot of practice one of my favorite
+ways to do is is I anticipate the
+question I write it out on a document
+and then I practice it this is more for
+like behavioral questions and then I
+practice with the friend I do mock
+interviews with the friend because the
+problem is that even though it might
+seem like that you know it when you are
+in a pressure setting talking to
+somebody else sometimes you forget and
+sometimes you're not able to identify
+what things that you could be saying
+better or shouldn't have said your
+friend or or the person that you're mock
+interviewing with is going to help you
+figure those out so do a lot of mock
+interviews do a lot of interview prep do
+a lot of Hands-On SQL problems python
+problems is that what they're asking one
+of my favorite platforms obviously you
+can use lead code one of my favorite
+platforms that is more focused on data
+analysis and data scientist work is St
+of scratch I'm going to link them below
+as well so make sure that you're
+prepared for the real world because the
+goal in doing all of this work is to
+land a job and enter your career as a
+data analyst and only by having good
+interview prep you will be able to work
+as a data analyst and be able to get
+into your target role that we discussed
+at the start of the video all right
+that's all I wanted to say thank you so
+much for watching if you found value in
+this video give this video a thumbs up
+because it will help with the algorithm
+and let me know in comments if you have
+any thoughts or questions and I will see
+you in the next video have a good one
+bye
 
 ----------
 
 -----
+
 --61--
 
 -----
-Date:
-Link:
+Date: 2023.08.28
+Link: [# The Harsh Reality of Being a Data Analyst](https://www.youtube.com/watch?v=HoNg-ncwE2c)
+
+Notes:
+Summary of the Content
+
+This video discusses the less glamorous aspects of being a data analyst, aiming to provide a balanced perspective for those considering a career in data analytics. The speaker, with over ten years of experience in various data science roles, outlines three main points that highlight the challenges and realities of working as a data analyst. These include the perception of data analysis not being a tech role, leading to lower salaries; the highly competitive entry-level job market due to the low barrier to entry; and the trend of data analysis being seen as a transitional career path, with many analysts moving to other roles for better opportunities and career growth. Additionally, a bonus point mentions the less prestigious perception of data analysts compared to data scientists and data engineers.
+Advantages
+
+    Offers a realistic view of the data analyst career, helping viewers make informed decisions.
+    Encourages viewers to consider long-term career paths and potential growth opportunities.
+    Highlights the importance of continuous learning and skill development in the field.
+
+Drawbacks
+
+    Might discourage some viewers from pursuing a career in data analytics due to the highlighted challenges.
+    The perception of data analysis as a non-tech role may affect job satisfaction and career choices.
+
+Tips and Advice
+
+    Focus on developing a strong foundation in coding, SQL, Python, and essential data analysis tools.
+    Consider specializing in a niche within data analysis to stand out in the competitive job market.
+    Build a professional brand and network to increase job opportunities and career advancement.
+    Stay informed about industry trends and emerging technologies to remain relevant in the field.
+
+Main Challenges
+
+    Overcoming the competitive nature of the entry-level data analyst job market.
+    Navigating the career path in data analysis, especially when considering long-term goals and potential transitions to other roles.
+    Dealing with perceptions of prestige and value within the data science job family.
+
+The Importance and Usefulness of the Topic
+
+Understanding the realities of working as a data analyst is crucial for those considering entering the field. This video provides valuable insights into the challenges and considerations that come with a career in data analytics, helping viewers prepare for and navigate the job market effectively.
+Accomplishments
+
+    Provides a comprehensive overview of the less discussed aspects of being a data analyst.
+    Offers actionable advice for aspiring data analysts to improve their job prospects and career development.
+    Encourages an honest reflection on personal career goals and the realities of the data analyst job market.
+
+Interesting Quotes or Insightful Sentences
+
+    "Data analyst is not considered a tech role, thus the salary is not reflective of a tech role salary."
+    "The barrier to entry is very low...anyone and everyone can be a data analyst if they want to."
+    "Among the data science job family, the data analyst job family is considered less prestigious than data scientists and data engineers."
+
+Lecture Content: Technical Insights
+
+    Discussion on the skills required to become a data analyst, including SQL, Python, and other coding languages.
+    Insights into the job market dynamics for data analysts, including the impact of competition and perceptions within the tech industry.
+    Exploration of career progression opportunities and challenges for data analysts.
+
+Conclusion
+
+The video provides a candid look at the challenges and realities of being a data analyst, balancing the often glamorized portrayal of the career with practical insights into the job market and career progression. By understanding these aspects, individuals can better prepare for a career in data analytics, focusing on skill development, networking, and strategic career planning to navigate the competitive landscape and achieve their professional goals.
 Transcription:
 
-paste here
+Intro
+thank you HubSpot for sponsoring this
+video data analyst has been one of the
+hottest careers out there it gets a lot
+of attention from content creators
+course creators and everybody who is
+interested in starting a career in Tech
+however the problem is that you only get
+to see the Glamorous side of being a
+data analyst so I am dedicating this
+video to talk about the unglamorous side
+the harsh reality of being a data
+analyst so anybody who is considering a
+career in data analytics can make a
+well-rounded decision I have been in the
+industry for over 10 years across
+various data science roles including
+data engineering data scientists data
+analytics so I have seen it all well for
+Data Analyst is not a tech role
+the most part there are three points
+that I'll be covering in this video by
+no means this video is to bash the data
+analytics job family it is primarily
+created to shed light on some of the
+difficult things that data analysts have
+to deal with once they start a career as
+a data analyst so what are those harsh
+realities of data analysts well let's
+start with number one data analyst is
+not a tech role while you must be
+wondering why that is the case because
+as a data analyst you have to learn SQL
+and Python and some other coding
+language in some cases so why is this
+not considered a tech role the problem
+is and this is something that I learned
+after starting a career is that in the
+system at these companies data analyst
+is not considered a tech role thus the
+salary is not reflective of a tech roll
+salary which means that your pay will be
+lower than Tech rolls in general and
+Is this unfair
+those Tech roles could be data engineer
+data scientists software engineer and
+some of you might be like this is unfair
+but this is actually the reality however
+you're not gonna find this out until you
+actually start working and you start
+realizing that this is how it is labeled
+in the system now this this information
+I wish like more people knew about it
+before they jumping into the data
+analyst field and to be honest I find it
+a little bit unfair because no other
+non-tech role requires that you know
+coding especially this much as a data
+analysts you get to spend a lot of your
+time writing SQL sometimes python so why
+not consider it as a technical role and
+pay accordingly I'm not sure why exactly
+it is the case maybe because it's SQL
+and a lot of people see don't consider
+SQL as a coding language I would love to
+hear your thoughts what do you think
+about SQL being a coding language and
+data analysts not being a data analyst
+on the Tech Career letter but that's the
+reality the second reason and if this is
+going to actually sound odd because it's
+actually a good thing but there are
+consequences data analyst is one of
+those careers where you actually don't
+need to go to school you can just take
+online courses you can actually just
+watch YouTube videos and become a data
+analyst there are so much content out
+there on SQL python Excel that internet
+is filled with data analyst curriculum
+and data analyst tutorials and that is
+The barrier to entry
+teaching you how to become a data
+analyst the barrier to entry is very low
+including myself I have shared several
+roadmaps honestly maybe I'm biased but
+it's not that hard to become a data
+analyst it's not that difficult to learn
+Excel SQL some other reporting tool and
+become a data analyst even the people
+who are not data analysts will learn
+these tool and start calling themselves
+data analyst anyone and everyone can be
+a data analyst if they want to now this
+results in a problem that there is a
+surplus of data analysts in the market
+especially at the entry level which
+means that your job search process
+especially as an entry-level data
+analyst is going to be very very
+competitive you have to be top of the
+top I don't know if that's even a thing
+top of the top to be able to stand out
+in your job search process as a data
+analyst now this I'm talking about
+somebody who is just new to the industry
+I don't know like maybe some of you can
+tell me in the comments if I'm wrong but
+as far as I have seen is that
+entry-level data analyst is one of the
+hardest job to get your foot in the door
+there's so much competition because
+there is a lot of people who are
+becoming data analysts you have to be
+top tier to land a job as a data analyst
+especially in today's market now this is
+something that you you don't learn when
+somebody is selling you their course to
+become a data analyst or somebody's
+telling you the roadmap to become a data
+analyst even I have excluded this
+information not on purpose but this is
+actually the reality and you should be
+aware of it well on the topic of data
+analyst skills and coding I wanted to
+share this intro to python ebook which
+is a beginner guide for learning python
+for data analysis and focuses on
+libraries such as Panda and numpy and
+more this ebook is created by HubSpot
+who is also sponsoring this portion of
+the video the ebook covers libraries
+such as numpy pandas matplotlib which
+are essential libraries for data
+analysis this could be super handy if
+you are just starting out with python
+and planning to use it for data analysis
+it walks you through basic ideas gives
+you coding Snippets that you can plug
+and play I'm linking the ebook in the
+description below feel free to download
+it now let's talk about the third harsh
+reality of being a data analyst the
+third reason may or may not be a
+surprise to you but it is definitely a
+surprise for people after they start
+working as a data analyst and after a
+while they realized that a lot of people
+end up leaving the data analysts career
+letter there are a few reasons why a
+Data Analyst as a transition career
+large chunk of people see data analysts
+as a transition career path they see it
+as an entry point to become something to
+transition to something else later such
+as product manager data scientist data
+engineer or something else there is
+nothing wrong with transitioning into a
+different career even for people who use
+data analyst as a transition career
+there is nothing wrong with it the
+problem is that people who are picking
+the data analyst career path as their
+long-term career path is going to end up
+seeing a lot of people besides them
+leave the job family transition out to
+different job families and this is very
+very demotivating as somebody who has
+seen a lot of the data scientists
+transition out to different job families
+I can tell you this is pretty
+demotivating yes there are a lot of
+people who transition out of the data
+scientist job family but even a larger
+amount transition out from the data
+analyst job family a lot of the data
+Bonus
+analysts cap at senior our data analyst
+you will rarely see people who are
+principal data analysts or stock data
+analysts you won't come across those
+people many times because the chances
+are that you will be peaking at a senior
+data analyst level and might have to
+transition out whether because of your
+personal reasons or because there is no
+career growth beyond that all right my
+last my bonus reason which is not
+honestly it's going to sound really
+Petty but I'm going to say it anyway
+because that's how people see it among
+the data science job family data analyst
+jaw family is considered less
+prestigious than data scientists and
+data engineer I feel horrible saying
+this but this is the reality and you
+might have some people look down upon
+you
+actually those people might be data
+scientists and data Engineers so
+just leaving it out here and then we're
+not talking about this when we're
+despite all the negatives data analyst
+is a great career to be in especially if
+this is something that you enjoy doing
+there is nothing better than doing
+something that you're passionate about
+every job family has some negatives and
+have some positives these are some of
+the negatives that I have noticed for
+the data analyst job letter and I wanted
+to create a video and share it with you
+all and if you're interested in becoming
+a data analyst you can watch this video
+next I would love to know your thoughts
+what are your thoughts on this topic
+what are some harsh realities as a data
+analyst that you have seen in your
+career whether that is through job
+search or while you are working in as a
+data analyst let me know in comments and
+with that have a beautiful day I'll talk
+to you in another video have a good one
+bye
 
 ----------
 
@@ -530,11 +1322,362 @@ paste here
 --60--
 
 -----
-Date:
-Link:
-Transcription:
+Date: 2024.02.09
+Link: [# Coding Is Changing...Here Is What You NEED To Know](https://www.youtube.com/watch?v=YsCHobUSaLw)
 
-paste here
+Notes:
+### Summary of the Content
+
+This video addresses the current state of the tech job market, noting the increased competition and reduced availability of open tech positions. The speaker, who began studying computer science in 2015, reflects on the changes in the industry, including major layoffs and the influx of new programmers drawn by the allure of high salaries and remote work. Despite these challenges, the video emphasizes that coding remains a valuable skill with opportunities for employment. It offers a roadmap for standing out in the crowded job market, including learning to code, specializing in a niche, building a developer brand, networking, and continuously learning to stay updated with technological advancements.
+
+### Advantages
+
+- Highlights the enduring value of coding skills despite market fluctuations.
+- Provides actionable steps for enhancing employability in the tech industry.
+- Emphasizes the importance of continuous learning and adaptation to new technologies.
+
+### Drawbacks
+
+- The increased competition in the tech job market may discourage new entrants.
+- Specializing in a niche might limit the range of job opportunities available.
+
+### Tips and Advice
+
+- Focus on building a strong foundation in coding and software development.
+- Consider specializing in in-demand but less saturated areas of tech.
+- Develop a personal brand and showcase your skills through platforms like GitHub.
+- Engage in networking to discover opportunities and gain recommendations.
+- Stay informed about emerging technologies and integrate them into your skill set.
+
+### Main Challenges
+
+- Overcoming the competitive nature of the current tech job market.
+- Identifying and specializing in a niche that aligns with personal interests and market demand.
+- Building a developer brand and network in a crowded field.
+
+### The Importance and Usefulness of the Topic
+
+Understanding the dynamics of the tech job market and identifying strategies to stand out are crucial for aspiring and current software engineers. This video provides valuable insights into navigating the competitive landscape, making it relevant for anyone looking to enter or advance in the tech industry.
+
+### Accomplishments
+
+- Outlined a comprehensive roadmap for becoming a competitive candidate in the tech job market.
+- Addressed the impact of recent industry changes on job availability and competition.
+- Encouraged a positive mindset and proactive approach to career development in tech.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Learning to code is still a really high-value skill."
+- "The programming job market fluctuates; there's going to be highs, there's going to be lows."
+- "It's not as simple as learning how to code, building a couple of projects, and spamming applications to get hired."
+
+### Lecture Content: Technical Insights
+
+- Discussion on the saturation of the tech job market and strategies to differentiate oneself.
+- Overview of essential skills and practices for building a competitive profile in software engineering.
+- Insights into the benefits of continuous learning and staying abreast of technological trends.
+
+### Conclusion
+
+The video provides a realistic yet optimistic view of the tech job market, offering practical advice for aspiring software engineers to enhance their employability. By focusing on skill development, specialization, branding, networking, and continuous learning, individuals can navigate the competitive landscape and find rewarding opportunities in the tech industry.
+
+Transcription: 
+
+let's face it coding has changed a lot
+when I first decided to study computer
+science in 2015 I did so not only
+because software engineers make a lot of
+money but because there was a lot of
+opportunity at the time at that time
+every single company was transitioning
+into becoming a tech company building
+their online presence through social
+media and building apps and websites
+which would require Engineers to run it
+really seemed like there was infinite
+opportunity and it was really easy to
+land internships and Engineering
+positions but nowadays it's a lot more
+competitive last year we saw major
+layoffs across the entire tech industry
+this could have been due to over hiring
+the current state of the economy
+advancements and Technologies but it's
+really all speculation what we do know
+for a fact is that the number of open
+tech jobs is way down from its all-time
+Peak by almost 60% the job market is
+oversaturated and developers are
+struggling to find employment when we
+shifted to work from home a lot of
+people took up coding and it's really
+popularly known now on the internet that
+software engineers make six figures and
+you can do it from your bedroom so
+developers are now not only competing
+with all of these new programmers but
+they're also competing with all of these
+experienced Engineers that got laid off
+so is all hope lost when it comes to
+getting a tech job absolutely not
+computer programming jobs still have
+some of the lowest unemployment rates
+and while we are way down from the
+all-time high of number of open tech
+jobs we are recovering slightly now and
+this is because the programming job
+market fluctuates there's going to be
+highs there's going to be lows but
+learning to code is still a really high
+value skill the question we need to be
+asking ourselves is how do we stand out
+in the current job market and the truth
+is to be a competitive candidate
+nowadays just learning to code isn't
+enough but there are steps that you can
+take to make yourself a much more
+competitive candidate in today's job
+market and the first step is of course
+learning to code you're going to need to
+learn a programming language you're
+going to need to know how to build
+software you're going to need to know
+data structures algorithms you're going
+to need to know the fundamentals this is
+just basic knowledge nowadays but the
+Great thing about this is that learning
+to code is also easier than ever there
+are more online resources than ever
+right now and in my opinion it's easier
+to learn how to code on the internet
+than it is through a structured
+curriculum at a university speaking of
+online resources if you're trying to
+learn how to code you should definitely
+check out the sponsor of this video 02
+Mastery this is a platform I've
+collaborated with multiple times because
+I get such good feedback about the
+platform it's a platform with dozens of
+courses and online resources to help
+people learn how to code and to get
+hired zero to Mastery has courses for
+every step of your career whether you're
+a beginner learning how to code whether
+you're trying to get hired or you're a
+professional trying to advance your
+skill set they've really got courses for
+whatever field of programming you're
+interested whatever you're trying to
+learn whether that's web development
+machine learning web 3 Cloud engineering
+cyber security or they've even got
+courses if you just want to work on your
+soft skills they've got worldclass
+instructors and over a million students
+have either enrolled or graduated from
+their courses one of the coolest things
+they do is a career path quiz which
+based on your current skill set and your
+career goals they'll recommend a path of
+learning for you they have monthly and
+annual memberships and if you click the
+link in the description you'll even get
+a discount and the platform was actually
+made by a self-taught developer so if
+you want to teach yourself to learn how
+of code check out zero to Mastery so
+once you've learned how of code the next
+thing you want to do is pick a niche or
+specialize in a specific field of
+programming over the past few years a
+lot of people have pushed this narrative
+that it's really easy to get hired as a
+software engineer here and all you have
+to do is pick up web development build
+some projects and then start applying
+and while that may have been true a
+couple years ago the job market is a
+little bit more competitive so if
+everybody knows how to build reactjs web
+apps it might be a smart idea to pick a
+different Niche or a different field of
+programming to go into while web
+development is still a great career path
+you might find more success in the
+industry if you pick a different
+programming field that is in demand but
+not that many people are pursuing this
+could be something like mobile
+development data science cyber security
+devops or even cloud computing
+specializing in a particular skill set
+that's in demand but not a lot of other
+people have will make you a more
+desirable candidate the next thing
+that's almost essential nowadays is
+building a developer brand building a
+developer brand has become so important
+now because everything's online and
+these companies want proof that you're a
+competent programmer developer brand is
+simple it just comes down to
+highlighting all of your positive
+characteristics and then showcasing your
+skill set you can do this through things
+like social media posting your content
+showcasing your skills building an
+impressive GitHub profile or just
+building a really great developer
+portfolio it's really important nowadays
+to have a great LinkedIn profile you
+should have a professional head shot you
+should be connecting with all of your
+peers and people you've worked with in
+the past you definitely should have a
+highquality resume you should put all
+your projects on GitHub make
+contributions on GitHub show that you're
+active as a programmer and then
+developer portfolio in my opinion is the
+biggest rep representation of you as a
+programmer this is where you have full
+control to Showcase all your skill sets
+in a centralized location you could put
+all of those components your GitHub your
+resume your projects and you can build
+the portfolio and showcase that you know
+how to build a nice website the more
+companies can look you up and find
+things that prove that you're a
+competent programmer the better the next
+thing that's essential nowadays is
+networking in a lot of cases now I'm
+seeing examples of people sending out
+hundreds if not thousands of
+applications and getting no responses
+over and over and over and I think a lot
+of people that are actually getting tech
+jobs now are getting them through their
+Network now obviously having a good
+network doesn't automatically get you
+the job most of the time there's going
+to be an interview process that you have
+to go through but it does get you that
+foot in the door through growing your
+network this is where you're also going
+to hear about a lot of the best
+opportunities and knowing reputable
+Engineers that can attest to your skill
+set is extremely valuable when you're
+trying to get hired networking used to
+be one of the main reasons that people
+went to college but nowadays it's so
+much easier because of social media it's
+really easy to connect with developers
+on platforms like LinkedIn and Twitter
+and joining programming communities on
+Discord and all of the developer
+communities online are really welcoming
+and positive and speaking of developer
+communities me and three other coding
+YouTubers Kevin nton Jr Kenny gunderman
+and Tech with Tim we just started a free
+coding Community you guys can join I'll
+link it in the description but it's
+great we've got like 5,000 members
+everybody's networking everyone's trying
+to improve their skills and support each
+other and motivate each other so I
+highly recommend joining that if you're
+interested in joining a developer
+community and then the last thing you
+need to do to stay competitive in the
+job market and every programmer needs to
+do this in general is continuously learn
+and stay up to date with popular Trends
+and Technologies you should absolutely
+be familiar with Technologies like AI
+Assistance or no code platforms at this
+point and if you don't and you're not
+staying up to date with these emerging
+Technologies then you may get left
+behind the information you know now can
+become outdated you know people used to
+program computers using switches then
+they developed assembly code then they
+developed C and then they developed
+Python and if you're not staying up
+to-date with current Technologies then
+you're not going to be developing
+software at the current standard and
+you're not going to get hired this
+doesn't mean that you have to be some
+kind of tech hype Beast learning every
+single new technology that comes out but
+you should be continuously learning
+putting some time aside learning new
+things and when things are
+overwhelmingly helpful and everybody is
+using them and it's clearly an important
+Trend then you should look into those
+specific Technologies and get
+comfortable with them and just for an
+example chat gbt if you're a programmer
+that hasn't used chat GPT yet what are
+you doing now all of the steps I've
+covered in this video to be competitive
+in the job market I've covered before in
+other videos the difference being a
+couple years ago some of these were
+optional and today to be a competitive
+candidate in the job market these are
+all required it's not as simple as
+learning how to code building a couple
+projects and spamming applications to
+get hired while that might have worked a
+couple years ago I don't think it's
+working as well nowadays so you need to
+have that developer brand you need to
+Showcase your skills you need that
+Network to help you navigate the
+industry and you really should
+specialize in something and develop
+skills that other people don't have it
+may sound like a much more tedious and
+difficult process to become a software
+engineer nowadays but it's not
+necessarily true this is because things
+like chat gbt have completely broken BR
+en the barrier there was before to
+become a developer there may be way more
+developers than there ever was right now
+but there's also way more online
+resources and there's way more tools to
+help you level up your skill set and
+learn how to code there's one last thing
+I could say it seems like there's a lot
+of negative content being pushed about
+the job market getting a tech job and
+even learning how to code in general but
+if you go into learning how to code and
+trying to get a job with a negative
+mindset that will only hold you back
+it's the people that remain optimistic
+and hopeful and challenge themselves and
+overcome those challenges those are the
+people that are going to succeed and
+those are the people that will get hired
+as software Engineers so just keep
+pushing learning develop your skills and
+figure out how you can promote yourself
+as a developer and that's really going
+to help you in the long run with Landing
+a full-time role thank you guys for
+watching this video If you enjoyed
+please leave a like And subscribe to the
+channel and I'll see you guys in the
+next one peace
 
 ----------
 
@@ -542,35 +1685,859 @@ paste here
 --59--
 
 -----
-Date:
-Link:
+Date: 2024.01.30
+Link: [# Google's AI Makes Stunning Progress with Logical Reasoning](https://www.youtube.com/watch?v=NrNjvIrCqII)
+
+Notes:
+In this video, Google's latest artificial intelligence breakthrough, AlphaGeometry, is discussed. Developed by scientists at Google DeepMind and Google Research, AlphaGeometry is the first AI system capable of outperforming the average participant at the International Mathematical Olympiad in geometry problem-solving. The AI's neuro-symbolic approach combines neural language models with symbolic deduction, enabling it to solve complex geometry problems and produce human-readable, step-by-step proofs. The video explores the implications of AlphaGeometry's capabilities, suggesting that it marks a significant advancement in AI's ability to reason logically and could have widespread applications beyond mathematics.
+
+### Advantages
+
+- Demonstrates AI's growing capability in logical reasoning and knowledge discovery.
+- Provides human-readable proofs, making AI's decision-making process more transparent.
+- Potential applications across various domains requiring rational thinking and logical deduction.
+
+### Drawbacks
+
+- The AI-generated proofs are typically longer than those produced by humans.
+- Raises concerns about the future of jobs and human labor in the face of rapidly advancing AI and robotics.
+
+### Tips and Advice
+
+- For those interested in learning more about AI and neural networks, consider exploring educational resources like Brilliant.org.
+- Keep an eye on the development of AI technologies to understand their potential impact on various fields.
+
+### Main Challenges
+
+- Ensuring AI systems like AlphaGeometry are accessible and understandable to those without advanced technical knowledge.
+- Addressing the ethical and societal implications of AI advancements, particularly regarding employment and the role of humans in future workforces.
+
+### The Importance and Usefulness of the Topic
+
+The development of AlphaGeometry highlights the significant progress being made in artificial intelligence, particularly in areas that require high levels of logical reasoning and deduction. This advancement not only showcases AI's potential to solve complex mathematical problems but also opens the door to its application in other critical domains, potentially revolutionizing how we approach problem-solving across disciplines.
+
+### Accomplishments
+
+- AlphaGeometry's ability to outperform the average International Mathematical Olympiad participant.
+- The AI's neuro-symbolic approach that mimics human-like reasoning.
+- Production of human-readable, logical proofs that contribute to the transparency of AI decision-making processes.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Mathematics isn’t just one more thing, it’s everywhere."
+- "The combination of both makes for a very, very powerful system."
+
+### Lecture Content: Technical Insights
+
+- Introduction to AlphaGeometry and its neuro-symbolic approach.
+- Discussion on the significance of AI's ability to produce human-readable proofs.
+- Overview of the potential applications and implications of AI advancements.
+
+### Conclusion
+
+The video provides a comprehensive overview of Google's AlphaGeometry, emphasizing its groundbreaking performance in solving Olympiad-level geometry problems and its broader implications for the future of AI. By offering insights into how AlphaGeometry works and the potential uses of such AI systems, the video underscores the importance of understanding and engaging with AI developments, both for those in technical fields and the general public.
+
 Transcription:
 
-paste here
+Google has unveiled a new artificially  intelligent system, AlphaGeometry,  
+that can solve problems of mathematical geometry.  It’s the first computer program to surpass the  
+average performance of participants at the  International Mathematical Olympiad. That  
+might sound like an incremental improvement,  just one more thing that AI is really good at,  
+but mathematics isn’t just one more thing,  it’s everywhere. This makes Google’s  
+recent development a significant  step forward. Let’s have a look. 
+This new research was done by scientists at  Google DeepMind and Google Research and just  
+published in Nature. They tested their new  program AlphaGeometry with a set of problems  
+posed at the international mathematical  Olympiad during the years 2000 to 2022. 
+After the program was trained, it was given  30 Olympiad geometry problems. The AI solved  
+25 of them correctly within the standard  Olympiad time limit. This performance far  
+surpassed the capabilities of the previous  state-of-the-art system, which could only  
+solve 10 of these geometry problems. To put this  into perspective, the average participant at these  
+Olympiads solves about 15 problems correctly. A  gold medallist typically solves almost 26. So,  
+the new AI is better than the average, but not  quite beating the smartest of the smart humans.
+Clearly this AI is doing very well,  but how does it work? AlphaGeometry  
+uses what’s called a neuro-symbolic approach.  That means it combines a neural language model,  
+like ChatGPT, with symbolic deduction like  that used by software like Mathematica.
+The neural language models are good  at identifying general patterns and  
+relationships in data. This makes it possible  to quickly come up with potentially useful  
+ideas. These symbolic deduction programs  on the other hand basically allow to infer  
+logical relationships. The combination  of both makes for a very, very powerful  
+system. It’s indeed much more similar to how  the human brain works than just neural networks  
+because it combines "intuitive" ideas that  we extract from input, with more deliberate,  
+rational decision-making. Similar to  Kahneman’s system 1 and system 2 thinking. 
+It’s like basically AlphaGeometry has what  ChatGPT is missing, it understands logic. 
+One of the problems that has so far prevented  AI from becoming good at maths in general or  
+geometry in particular is the lack of training  data. There are only so many proofs that humans  
+have written down that you can train them on.  The Google researchers have addressed this  
+by first generating a vast pool of synthetic  proofs that added up to as much as 100 million  
+examples. Thanks to this, AlphaGeometry could  train without relying on human demonstrations.
+Better still, AlphaGeometry doesn’t just spit  out a result, it delivers a human-readable  
+step-by-step proof. Basically it works by  trying to find a sequence of steps that  
+logically fit together and that also solves  the problem. Though it isn’t irrelevant to  
+mention that most of the proofs it found were  considerably longer than those from humans.
+But the significance of AlphaGeometry's  achievement goes beyond solving geometry problems.  
+It generally highlights AI's growing ability to  reason logically, discover new knowledge, and  
+verify solutions. And not only this, it can also  explain how it arrived at the conclusion. Such a  
+type of AI system has uses that extend way beyond  just geometry. Not only can this achievement be  
+generalized across various mathematical domains,  but it will without doubt also come in handy in  
+other areas where rational thinking and logical  deduction is of use. Like, eh, everything.
+Now throw in a bunch of data  in addition to the reasoning  
+skills and you have the perfect  scientist, unbiased, clearheaded,  
+able to digest huge amounts of data  and draw logical conclusions from it.
+That AlphaGeometry is able to explain how it  arrived at a conclusion should also help alleviate  
+the fears of people who think that AI will be  a black box that no human can follow. You see,  
+the thing with mathematical proofs or arguments  in general is that it’s difficult to come up with  
+correct chains of reasoning, but once you have  the proof it’s much simpler to check whether  
+its correct. Though simpler doesn’t mean simple… These developments in AI also raise an interesting  
+philosophical question, which is whether there  is anything humans can do which AI will not  
+eventually also be able to do. At the moment, the  major protection for jobs from being taken over by  
+AI is that a lot of human labour requires sensor  input or physical skills that robots don’t have,  
+or AI can’t cope with. Yet. Because  robots are developing incredibly quickly,  
+and if you combine this development with AI,  there really won’t be much left for us to do.
+Maybe we’ll all just make YouTube  videos? Well, actually, Google is  
+also working on a text-to-video system that  isn’t yet publicly available but from which  
+they shared some amazing examples last  week. So soon enough I can replace myself  
+with an AI which will make total sense  because all my viewers will be robots.
+If you want to learn more about neural  networks, I recommend you check out the  
+neural network course on Brilliant dot  org who have been sponsoring this video.
+The neural network course will give you  a deeper understanding of how intelligent  
+artificial intelligence really is with some  hands-on examples. And Brilliant has courses  
+on many other topics in science and mathematics,  too. Whether you are interested in neural nets or  
+quantum computing or linear algebra, they have you  covered. I even have my own course there, that’s  
+an introduction to quantum mechanics. It’ll bring  you up to speed on all the basics, interference,  
+superpositions, entanglement, and so on up to  the uncertainty principle and Bell’s theorem.
+Brilliant is really the best place to build up  your background knowledge on all those science  
+videos which you’ve been watching. You can try  it out for free for 30 days, but if you go there,  
+use our link brilliant dot org slash sabine,  because the first 200 to use our link will  
+get 20% off the annual premium subscription. So  go give it a try, Brilliant is time well spent.
+Thanks for watching, see you tomorrow.
 
 ----------
 
 -----
+
 --58--
 
 -----
-Date:
-Link:
+Date: 2023.11.29
+Link:  [# How I'd Learn AI (If I Had to Start Over)](https://www.youtube.com/watch?v=TR7AGmey1C8)
+
+Notes:
+### Summary of the Content
+
+In this informative video, Tris introduces viewers to the world of Artificial Intelligence (AI), emphasizing the significance of understanding and building with AI, rather than merely using it. Tris outlines a comprehensive roadmap for individuals at any level to expand their AI skill set, covering essential areas such as programming in Python, Git version control, using APIs, understanding neural networks, and real-world project development. The roadmap is designed to guide viewers through learning the fundamentals of AI and its subfields, including machine learning, deep learning, and generative AI, with practical steps and resources for further learning.
+
+### Advantages
+
+- Provides a structured approach to learning AI from the ground up.
+- Highlights the importance of hands-on experience through real-world projects.
+- Emphasizes the value of understanding AI to enhance work and create impact.
+
+### Drawbacks
+
+- The fast-paced nature of AI development may overwhelm beginners.
+- Some viewers might require additional support or resources for complex topics.
+
+### Tips and Advice
+
+- Start with the basics of programming in Python and gradually advance to more complex topics.
+- Utilize open-source libraries and tools to experiment and build projects.
+- Document and share your learning and projects to help others and solidify your understanding.
+
+### Main Challenges
+
+- Keeping up with the rapid advancements and changes in AI technologies.
+- Developing a deep understanding of AI concepts without a background in related fields like mathematics or programming.
+
+### The Importance and Usefulness of the Topic
+
+AI's transformative potential across industries makes it crucial for tech professionals and enthusiasts to understand and harness its capabilities. Learning AI not only prepares individuals for future changes in their work but also enables them to contribute to solving complex problems and innovating in their fields.
+
+### Accomplishments
+
+- Outlined a clear and accessible roadmap for learning AI.
+- Provided resources and recommendations for further exploration and learning.
+- Encouraged practical application and sharing of knowledge through projects and documentation.
+
+### Interesting Quotes or Insightful Sentences
+
+- "If there's something that's going to change my life and work forever, I want to learn everything about it."
+- "The only way to keep up is to continuously learn."
+
+### Lecture Content: Technical Insights
+
+- Introduction to programming with Python, focusing on libraries essential for AI development.
+- Overview of Git for version control and collaboration on AI projects.
+- Explanation of neural networks, deep learning, and the importance of text embeddings and vector storage.
+- Discussion on the significance of real-world projects and mental models in AI.
+
+### Conclusion
+
+Tris's video offers a valuable and comprehensive roadmap for anyone interested in diving into AI, providing the tools, resources, and knowledge needed to start building and understanding AI technologies. Whether you're a beginner or looking to deepen your expertise, this guide serves as a solid foundation for exploring the exciting field of AI.
+
 Transcription:
 
-paste here
+Intro
+if you want to jump into artificial
+intelligence and build things with AI
+today how should you start things are so
+fast changing my stomach hurts whenever
+I think about it loads of open- source
+tools and models are being created every
+single day Microsoft co-pilot is being
+launched very soon which brings AI to
+all Microsoft Office applications so if
+your hands touch keyboard for work this
+is going to change your job in the next
+few years this motivates me if there's
+something that's going to change my life
+and work forever I want to learn
+everything about it I want to learn how
+AI is built how to build with AI and how
+to use it to enhance my work I think as
+someone working in the tech field you
+want to be in the position where you can
+build things with AI rather than just
+consume it so today I'll be sharing with
+you a road map as a One-Stop shop for
+you to expand your AI skill set learn
+the fundamentals of AI and learn to
+build with AI even if you don't have any
+background in machine learning
+mathematics statistics or programming I
+hope you walk away with some useful
+ideas of where to start let's get
+Why should you learn AI
+started so why should we bother learning
+AI this whole AI machine learning and
+deep learning thing has been around
+since the 1950s the AI we often talk
+about today is generative AI which is a
+subset of machine learning and deep
+learning generative AI can now write
+codes generate stunning images writing
+music diagnos rare conditions creating
+outline for presentations reading images
+and much much more companies are looking
+into implementing AI solutions to solve
+their specific problems this is a gold
+mine because everything is still so new
+so if you have the knowledge and know
+how to build things with AI you can
+create huge impact as with anything in
+its early days AI model still have many
+issues that need to be solved they are
+not yet reliable or stable they
+potentially possess biases among other
+things that's why we need more people
+who have the in-depth understanding and
+can get to the bottom of the
+Technologies to solve various problems
+even if you don't build things yourself
+the knowledge can help you avoid a lot
+of misunderstanding and misinformation
+such as AI can do everything as long as
+you got the right plugins okay when it
+Low code / No code approach
+comes to learning AI of course there's
+no one- siiz fit all road map you might
+have seen a lot of low codes or no code
+tools to help you get started with AI
+and even develop things like an AI
+chatbot you can certainly play with them
+to have the first feeling of how things
+work and what is possible and even build
+great real world Solutions with them as
+you get more into it you might realize
+that those tools might feel like a
+little bit of a black box they might not
+be so flexible that you can customize a
+lot of things or sometimes your solution
+works and sometimes it fails so if you
+really want to learn how artificial
+intelligence works and build tools that
+are reliable scalable and can be
+tailored to your specific use case I
+think that's when you hit the ceiling
+and can't rely solely on those low code
+platforms anymore personally I often
+prefer to have a solid understanding of
+how things work from ground up so let me
+walk you through a road map for learning
+AI you can download this full road map
+in PDF together with my recommended
+learning resources you can find the link
+in the description below on the
+Programming (Python)
+fundamental level you want to learn the
+basics of programming python is one of
+if not the most used programming
+languages for machine learning deep
+learning and AI so some coding knowledge
+in Python would be essential for working
+with python you can certainly use
+several Ides or integrated development
+environments for example Visual Studio
+code by charm or Jupiter notebook
+Jupiter notebook is my favorite
+environment to start learning python
+here's a simple setup of a python
+project in Jupiter notebook and here's
+the same project in Visual Studio code
+you can use any of these tools and they
+are completely free if you've never
+coded in Python before make sure to at
+least get yourself familiar with the
+four basics of python firstly data types
+and the operations that you can do on
+them data structures and how to work
+with them conditionals loops and
+functions and lastly objectoriented
+programming and using external libraries
+when learning python the most essential
+libraries to learn are numai for
+computing and working with numerical
+data pandas for wrangling table data or
+data frames when you're already familiar
+with those libraries you can start
+learning some other libraries that you
+can use for your AI project for example
+M plot lip is a popular library for data
+visualization Spacey for basic text
+processing functionalities and so on for
+working with large language models Lang
+chain is a very useful library to learn
+to develop multiple applications on top
+of airms what's nice with python is that
+there are so many open-source libraries
+that you can use to develop almost
+anything you want the next thing I'd
+Git
+recommend you learning is Git Version
+Control if you're not yet familiar with
+it git is an open-source software for
+tracking changes in your project
+basically managing versions of your
+project Version Control is essential
+when you're collaborating with other
+people in a large or complex project
+they're actually just a few Concepts you
+need to understand to start using git as
+shown in this diagram the funny thing is
+that many people actually confuse git
+with GitHub GitHub is a hosting platform
+for git repositories so that you can
+share your project with other people
+across the internet meanwhile git is the
+software itself through GitHub you can
+directly see and contribute to other
+people's project so how can you start
+using git the easiest way is to install
+GitHub desktop stop is a user interface
+tool to help you work with Git or if you
+prefer to use the terminal you can also
+interact with Git through the terminal
+comments I always keep a small cheat
+sheet here to remind me of some common G
+comments which I find super convenient
+and helpful another essential thing to
+APIs
+learn in your AI journey is using apis
+knowing how to use apis is a magical
+skill that opens up a whole new world of
+possibilities API stands for application
+programming interface it's a way for
+computer programs to communicate with
+each other basically there are two Jons
+you need to learn yeah just two API
+request which is also referred to as API
+call and API response depending on the
+API you can make a request for data or
+for model prediction in the case of chat
+CPT without knowing how to use the API
+you'll be limited to the chat interface
+on the open a website don't get me wrong
+I love the chat to be website but you
+can't develop your own tool this way or
+Neural networks
+integrate the AI model into your current
+system okay on to the next level we are
+concerned with the theoretical
+fundamentals of AI I recommend you at
+least get some highlevel theoretical
+understanding of AI and its subfields
+such as machine learning neuron networks
+and deep learning and optionally
+computer vision n and reinforcement
+learning okay if we look at this diagram
+again deep learning is a subset of
+machine learning traditional machine
+learning algorithms mostly fall into
+either supervised learning this is when
+you actually have the target labels to
+train the prediction model on or
+unsupervised learning when there's no
+target labels in general these
+algorithms only work for Tabo data think
+of data tables with each record Being a
+row and each data feature being a column
+in that table if you're interested you
+can quickly go over some machine
+learning jargons and get some high level
+understanding of these algorithms
+they're all cool to learn but since AI
+today uses deep learning I think to save
+time you can probably just jump right
+into deep learning I think you will
+anyway learn the essential machine
+learning Concepts along the way as we
+just briefly talked about neuron network
+is the algorithm behind deep learning it
+works incredibly well for unstructured
+data like text and images for neuron
+Network you want to understand the main
+Concepts such as forward propagation
+back propagation gradient descend
+algorithm and how weights are updated in
+the network if you like some math you
+can try to understand all the
+calculations underlying the neuron
+Network they are really not too
+difficult to understand so don't shy
+away from it neuron Network in itself is
+pretty simple and maybe even a bit
+inferior from the mathematical sta
+discal point of view no offense here to
+the fathers of deep learning but when
+Neural network architectures
+you stack many many Network layers
+together into a complex architecture
+this is when things get interesting the
+neuron Network now can start recognizing
+digits classifying cats and dogs to
+predicting the next tokens in the case
+of LMS today convolutional neuron
+networks use to be a very popular
+architecture for deep learning with
+images because it can recognize patterns
+on images and record neuron networks
+used to be very popular for text
+modeling because it can understand
+sequences however these architectures
+have become pretty upsolid since the
+invention of Transformers architecture
+in 2017 this is the architecture behind
+the foundation language models nowadays
+Transformers outperform pretty much all
+the earlier architectures so you might
+want to jump into it right away and
+reverse engineer the knowledge if you
+see any Gap as you work with the AI
+models you also want to get yourself a
+high level understanding of how the
+foundation models underlying them are
+trained in general they trained through
+an unsupervised process it's up to you
+to learn more about the nitty-gritty
+details of training your language models
+when working with language models you
+Text embeddings & vector store
+might hear the common term text
+embeddings this is a very useful concept
+to understand text embedding converts
+text into vectors of numbers nowadays we
+often forget that computers cannot
+actually understand human languages
+computers can only understand numbers so
+this conversion step is really necessary
+there have been many embedding models
+created with ever SM ways to capture
+meanings into those vectors no matter
+Real-world projects
+what you're learning or where you are on
+this journey you can build relevant
+projects to get your hands dirty and
+experiment with things this will help
+you connect the dots and challenge your
+own understanding for example if you're
+learning python you can build your first
+neuronetwork in Python using kasas or
+tensorflow library is only a few lines
+of code if it's too to high level you
+can try to write a neuron Network and
+Implement gradient descent from scratch
+with numai when you're learning the
+theories a real world project would be
+to pick one specific concept you find
+interesting and write a blog post or
+make a video on it this will help you
+understand the concept deeper and help
+other people too if you're ready to
+tackle more complex AI project you can
+build a real world application for
+example you can create a document
+retrieval app basically to create a chat
+with PDF kind of application where
+people can upload a document and ask
+specific questions based on the
+documents or you can create your own
+chatbot I also want to mention that no
+matter what project you do big or small
+make sure you document them for
+reference for yourself and share that
+with other people through articles and
+social media posts you really never know
+how many people might find it useful the
+Mental models & specializations
+next thing I'd recommend is to develop
+mental models around Ai and perhaps
+specialize in a certain area within AI
+if you want to I think reading books
+about AI is a great way to go through
+the noise on social media and get a more
+well-rounded background of AI this also
+equips you with the right Frameworks and
+tools to reason and interpret things
+that you see or hear about AI today you
+can also find my AI book list in the
+road map personally I also find it so
+crazy how much important stuff around AI
+that is not talked about more widely on
+the mainstream media there are many
+topics around AI that don't make
+headlines for example Advanced prompt
+engineering methods to improve the
+quality of the airm response like
+self-consistency chain of thoughts
+prompting or automatic prompting autogen
+project by Microsoft that allows you to
+develop LM applications using multiple
+agents that can converse with each other
+to solve tasks Advanced document keyway
+with multimodel documents that can work
+well with complex table taes images and
+other data structures AI security and
+hiking the other day I watched a YouTube
+video of researcher who uncovers some
+serious security issues with machine
+learning models this is a very
+overlooked area until now so if you know
+computer security very well please do
+Humanity your favor and look into this
+we also have ai Safety Research that is
+the area to find ways to align ai's
+goals with humans goals because if we
+fail to do this we are literally screwed
+and finally AI regulations if you're
+interested in laws in Europe the EU AI
+Act is one of the big things that are
+coming to regulate the use of AI the US
+government also recently passed the
+executive order on the safe secure and
+trustworthy development and use of
+artificial intelligence to address the
+potential risks of AI no one knows how
+helpful these regulations are going to
+Extra resources
+be so if you want to dive into any of
+these areas it's generally quite easy to
+find information on these Topics by
+reading books research papers articles
+and watching videos on my channel for
+example I also follow some newsletters
+like the bat newsletter by Andre in to
+get informed about some important AI
+developments medium is also where I
+often find really useful articles I
+sometimes dive into research papers as
+well to learn about some new cool
+research my friend Sophia Yang has an
+awesome Channel where she breaks down
+all the cool research around AI so make
+sure to check out her Channel if you
+like this stuff we are still in very
+early days of AI and we don't know how
+things will turn out in the next few
+years but one thing we know for sure is
+that things are changing faster and
+faster the only way to keep up is to
+continuously learn so I hope you found
+this video helpful and if you like the
+video smash the like button and
+subscribe to my channel for future
+content around data science and AI thank
+you for watching
+bye-bye
 
 ----------
 
 -----
+
 --57--
 
 -----
-Date:
-Link:
+Date: 2023.10.13
+Link: [# The Unreasonable Effectiveness Of Plain Text](https://www.youtube.com/watch?v=WgV6M1LyfNY)
+
+Notes:
+### Summary of the Content
+
+Tris from No Boilerplate discusses the challenges faced by digital and tech teams, emphasizing the importance of simplification and discipline in choosing and sticking with tools and processes. The video highlights the power of using plain text and Git, specifically GitHub, for managing projects, documentation, and team collaboration effectively. Tris introduces the concept of a Ulysses pact as a strategy for preventing future distractions by new tools that might disrupt established workflows. The video advocates for minimalism in project management and documentation, leveraging Markdown for formatting and GitHub for version control and collaboration.
+
+### Advantages
+
+- Simplifies project management and documentation.
+- Ensures long-term accessibility and portability of data.
+- Encourages discipline and focus by minimizing tool churn.
+- Facilitates offline access to all project materials.
+
+### Drawbacks
+
+- Requires initial learning curve for teams unfamiliar with Git or Markdown.
+- May seem too minimalistic for teams used to feature-rich project management tools.
+
+### Tips and Advice
+
+- Start by implementing GitHub and Markdown for small projects or within small teams.
+- Use pull requests and GitHub Actions to automate and streamline workflows.
+- Keep documentation and project management as simple and accessible as possible.
+- Consider the benefits of offline access and universal text formats for long-term project sustainability.
+
+### Main Challenges
+
+- Convincing teams to adopt a minimalistic approach and to learn new tools.
+- Overcoming the temptation to switch to new, potentially unnecessary tools.
+- Maintaining discipline in the use of chosen tools and formats over time.
+
+### The Importance and Usefulness of the Topic
+
+Understanding how to leverage Git and plain text for project management and documentation is crucial for improving team efficiency, ensuring data portability, and avoiding the pitfalls of constantly changing digital tools. This knowledge is valuable for any team looking to streamline their processes and focus on what truly matters.
+
+### Accomplishments
+
+- Demonstrated how to use GitHub for project management, documentation, and team collaboration.
+- Introduced the concept of a Ulysses pact for technology and tool choices.
+- Advocated for the use of Markdown for documentation.
+
+### Interesting Quotes or Insightful Sentences
+
+- "In order to do more, you must have the discipline to do less."
+- "Tying yourself to the mast by standardising on one tool, and not only that, but a plain text tool, means your data will live forever."
+- "Programmers are extremely practised at managing enormous distributed, concurrent, text projects."
+
+### Lecture Content: Technical Insights
+
+- Overview of using Git and GitHub for project management.
+- Introduction to Markdown for documentation.
+- Explanation of how pull requests and GitHub Actions can automate workflows.
+
+### Conclusion
+
+The video provides a compelling argument for adopting a minimalist approach to project management and documentation through the use of Git, GitHub, and Markdown. By focusing on simplicity, discipline, and the long-term viability of data, teams can improve their efficiency and avoid the common pitfalls associated with constantly changing digital tools.
+
 Transcription:
 
-paste here
+Hi friends, my name is Tris and this is No Boilerplate, focusing on fast technical videos.
+All good teams are alike. Each bad team is bad in its own way.
+Software is an incredible thing, isn't it? Combined with the internet, a small team of friends can change the world over night.
+Every company no matter what their industry must now run  a tech team, even if only to maintain their website.
+So why are they all so bad at it?
+Everything you see in this video — script, links and images — are part of a plain text markdown document
+available freely on GitHub under a public domain license.
+If you've worked in a web team, tech team, or any digital creative team, you've likely felt the pain:
+bad software, constantly changing processes, and lots and lots of meetings.
+I discussed some of these problems in my Agile video that made me a lot of friends, but today, I want to go bigger.
+You can solve all these problems in a single blow. The secret is: in order to do more, you must have the discipline to do less.
+A lot of the ideas that I will mention today are not new. They've been understood in the startup and digital world for a long time.
+But regression to the mean is prevalent.
+It's not just enough to argue for good tools today, you must stop the future churn of new absent processes that solve the same things in different but equivalent ways.
+And you do this with a Ulysses pact.
+In The Odyssey, Odysseus (confusingly called Ulysses in English literature) had to travel through siren-infested waters.
+This was a well-understood problem in his world. Sailors would simply solve this by putting wax in their ears,
+so the sirens' tempting song wouldn't lure them to their deaths.
+But Odysseus had a challenge: He WANTED to hear the Sirens' beautiful song.
+He certainly didn't want to drown, so he ordered his crew to tie him to the mast of the ship,
+and to ignore any of his pleas to let him go, until safety.
+This way, he was able to guard against future bad decisions he knew he would make
+by setting up a framework to control his future self.
+This is the Ulysses pact, and it's a very common trick:
+- leaving your credit card or keys at home when going out drinking is a Ulysses pact,
+- publishing a warrant canary on your company's website is a Ulysses pact,
+- and standardising all your tools on plain text is a Ulysses pact.
+In the future, you, or your successor, or your team might well be tempted
+to try the latest hot project management software, or documentation tool or scrum system.
+While it might be good for a while, the act of changing tools constantly is an enormous overhead for your team,
+and one that gives the lasting impression that anything we write down is likely to be legacy very soon,
+trapped in a deprecated app that "we just don't use anymore", so why bother writing anything down.
+Tying yourself to the mast by standardising on one tool, and not only that, but a plain text tool, means your data will live forever,
+and the network effect can make it more and more valuable over time, instead of less and less.
+Teams of people need to be on the same page. Both literally and figuratively.
+The natural way to do this is by talking to one another. But talking does not scale, and is extremely impermanent.
+After the sound waves have bounced off the walls and reverberated for a second
+After the sound waves have bounced off the walls and reverberated for a second.
+After the sound waves have bounced off the walls and reverberated for a second..
+After the sound waves have bounced off the walls and reverberated for a second...
+the words are gone, and what is left is our memory of them.
+Human memory is extremely unreliable, subjective, and the root cause of many problems.
+After a discussion, it is not apparent that everyone has agreed upon exactly the same thing.
+And you now need another meeting to double-check that.
+The solution is documentation.
+Communication is most reliable when it is in black and white.
+Everyone understands this, from 10,000-page government specifications to an email sign-off from the client you're making a 3-minute track for.
+Yes, have more immediate conversations, by video, or chat, but write down what you concluded, and get the other person to confirm it.
+You can improve every part of your team, business, or organisation by recording what decisions you have made, and WHY,
+in a system that allows for asynchronous discussion and improvements.
+The ADR process is excellent for this, for example. There are a thousand competing apps that claim to solve these problems for you.
+These apps all re-invent the wheel in their own way, and new ones are being released every week.
+I've used most of them, perhaps you have too, and they're all rubbish.
+But there is a group of people who are extremely practised at managing enormous distributed, concurrent, text projects:
+Programmers!
+As an example, if you use Google Docs, your small team can collaborate on a few files a day, in a drive of perhaps a hundred or two hundred.
+And just like in most other documentation systems, that won't scale.
+Programmers simultaneously edit thousands of files a day, across repositories of data so numerous that we don't keep count.
+What are programmers using, and can non-programmers use it too?
+The answer is yes, yes we can.
+I recommend you use the most popular distributed version control system on the planet: Git.
+You'll use this through one of the many git web hosts, the largest of which is GitHub, which I recommend for most people.
+Though I mention GitHub primarily in this video, I'm not sponsored by them, or anything like that,
+I just acknowledge that popularity matters.
+Support, experience, and integrations with other services will all be far, far easier if you use the standard.
+All these tools started as a web interface around the incredible tool: Git.
+By the way, the creator of Linux, Linus Torvalds, also later created git, to solve the problem that he created:
+that the Linux project had become SO LARGE that existing plain text collaboration tools were not scaling.
+He jokes that he named his first project, Linux, after himself, and so it was natural to name the second one after himself too!
+From simple code-hosting beginnings, these git services have grown to be so much more than that,
+trusted by the largest projects in the world, built by the largest companies in the world.
+The foundation of my ideal team uses the raw materials that GitHub has given us.
+What are the raw materials?
+I'll show this with a demo: we're going to build a GitHub organisation for No Boilerplate.
+This video is not sponsored by GitHub, my work is possible thanks to viewers like you.
+If you'd like to see and give feedback on my videos up to a week early, as well as get discord perks, and even your name in the credits,
+it would be very kind of you to check my Patreon.
+I'm also offering a limited number of mentoring slots.
+If you'd like one-to-one tuition on Rust, Python, Web tech, Personal organisation, or anything that I talk about in my videos,
+do sign up and let's chat! It's just me running this channel, and I'm so grateful to everyone for supporting me on this wild adventure.
+Let's make our plain text team:
+The foundational unit with any git host is the repo.
+This doesn't just correspond with one git repository, but one logical project or subproject.
+Organisational tools like the Wiki (for documentation), Projects (for project management) and more can sit here,
+right next to your project's files, right where you need them.
+Each GitHub repository has a wiki, a folder of linked markdown files that anyone with access can edit,
+either in the friendly web editor, or, by cloning the wiki with git,
+on their own computer with whatever editor they like.
+This is the minimum viable documentation tool, and it's useful for when git's full collaboration system isn't needed,
+and you just want to throw some linked markdown files together quickly.
+Github, GitLab, and most of the Internet have standardised on Markdown.
+Just like Slack, Discord, many websites, and sometimes Facebook depending on the phase of the moon,
+they all format text using this lightweight standard called Markdown.
+Markdown is my favourite text format, it's really simple to use, and is designed to look good both in plain text and rendered as rich text,
+unlike HTML, which is unreadable by most people unless rendered in a browser.
+Here we've got a heading, denoted by the hash symbol, italic with underscores, bold with double asterisks, and links using this bracket pairing syntax.
+There are a few more options available, which you can look up at markdownguide.org,
+but this is the overwhelming majority of formatting you'll need on a day-to-day basis.
+The genius of storing your data in this universal plain-text format is that should you wish to migrate from GitHub to another similar platform,
+your data is portable and under your control.
+GitHub formats Markdown very nicely, but you can export it in any format you like,
+and edit it with any tool you like, present and future.
+Including my favourite tool here, Obsidian.
+Markdown keeps your team focussed on what is important by allowing you just enough formatting, but no rich customisation options.
+You're not making a beautiful client brochure, so you shouldn't use 90's desktop publishing tools to make your company's critical documentation.
+Back to GitHub's features:
+Though not part of the git system, Issues are a natural addition that all git hosts have implemented:
+A simple task system for capturing work that needs doing.
+These could be new features, customer requests, bug reports, or ideas.
+They have a rich comment thread for discussion, can be assigned to team members, and tagged with custom tags.
+This minimum viable project management system could be all you need.
+Certainly, for a solo or small team, capturing requirements in Issues might be enough.
+But if you need more, you need Milestones.
+GitHub milestones are a grouping of issues with a deadline.
+They typically represent a target, a release, or something the team is working towards.
+Milestones just have a title, a description, and a date.
+No burndown charts, no swim lanes, no complex statistics, just a progress bar.
+This might be enough project management for you. If not, it is time for GitHub Projects.
+Each GitHub repo, team, and organisation can have a project board,
+a lightweight kanban board with customisable columns, allowing you to group your issues together,
+and observe their progress through your current iteration.
+This represents the information radiator for your team, a bird's-eye view of what is happening with the project,
+and something you might gather around for your morning catchup meeting.
+You don't need all the features of Trello, JIRA, or anything like that. You need the minimum viable board.
+This bare-bones tool completely side-steps 'the JIRA effect',
+which is if you have a tool that is packed full of time tracking, velocity points, and so on
+the temptation is to use all these features, even if they give no value and complicate your processes.
+If you have one meeting a day, it should be a standup. Good standups replace other meetings and accelerate your project dramatically.
+The way I like to do standups is not by asking everyone what they did yesterday and what they intend to do today.
+That's a great way to find out at length what Dave did on his day off,
+but not a good way to find out what's happening with the project specifically.
+I recommend walking your board, backwards, from right to left. Everyone is timeboxed, keeping the meeting tight.
+If you don't have an issue on the board, you don't speak yet. Perhaps you could write or pick up a task from the backlog and talk about it tomorrow.
+At the end, the team member who is facilitating the meeting asks if anyone has any blockers, and we're done.
+The most important part of this most important meeting is asking if you have any blockers.
+A good standup means that no-one can get lost or delayed by more than 24 hours.
+Note I didn't say the PM or DM or scrum master or whoever facilitates.
+That person doesn't exist in my team. These are not roles, they are hats.
+I don't know if your team needs any other meetings, but it is vital that you do a standup.
+Back to GitHub.
+GitHub provides an umbrella group of users called an organisation.
+This is your company, and if you're building your products in the open, as I recommend you do, you won't pay GitHub a thing.
+Most git hosts provide their services for free for open-source companies.
+If you have too much money, you can pay GitHub for a plan to make your data closed.
+If you require more subdivision, Organisations are divided into Teams.
+Teams on GitHub allow you to granularly scope repo, project, wiki, and other permissions to the different teams in your organisation.
+I recommend allowing everyone to write and contribute to all projects,
+you want the network effect and low admin overhead. This pattern is called "internal open source".
+But if you wish, perhaps for regulatory reasons, read and write access to repos can be restricted by team.
+Now we're getting into the detail of GitHub.
+I adore pull requests, sometimes called merge requests in other systems.
+PRs represent a change to the files in a repo, with an explanation of what you did, some links, and a discussion.
+After the discussion is satisfied, perhaps as simply as a colleague saying "LGTM"
+or as heavy weight as a full change review with an audit trail that would satisfy a bank,
+the changes are merged into the repo.
+PRs can have powerful automation, called Actions.
+PRs and actions can run your company for you if you let them.
+Though Actions were built for running tests on source code, with a little imagination, they can be used for anything:
+- If you're uploading vector images, an action can build all the rasterised resolutions the client wants.
+- If you're uploading video or audio clips, an action can run them through plugins to remove noise,
+add a music track, and upload the draft to YouTube.
+If you're checking in company documents, an action can simply spellcheck it.
+Actions can run hundreds of times an hour, always adhere to best practice, and never make mistakes.
+Automating your company gives you an enormous competitive speed and quality advantage.
+You could also, for example, set up style guide enforcement, blocking the PR if the phrase "on premise" has been found.
+When your company's code, visual assets, and administration, are all in git repositories, you gain another huge superpower.
+All of this becomes accessible offline. Every file, every photo, every design, and document can be on your computer.
+The magic of offline isn't necessarily that you don't need the internet (though that is a handy feature on a plane)
+but that it's FAST, the data is RIGHT HERE on your computer and you can do ANYTHING with it.
+If you need to change the company's name across 10,000 files, it's trivial. It's find and replace.
+If you, instead, had 5-15 different web services that you scattered all your team's data across,
+you'd have to log in to each one, and hope they had the feature to find and replace within their own walled garden.
+Most, somehow, don't have this basic feature.
+GOOGLE DOCS doesn't have this basic feature: you can't find and replace across a drive of files!
+And the reason for this, I suspect, is that would be TERRIFYING, wouldn't it?
+What if a new hire accidentally did that, you'd have to roll back all those files manually, that could take days!
+But with git, it would be a PR, clearly showing what was happening, and mistakes are trivial to fix.
+Plain-text files, with just enough Markdown syntax to convey meaning,
+allow you and your team to work with this data in the way that they want,
+not the way that Google or Atlassian or whoever thinks is best.
+Doesn't this take up a lot of space on your disk? Not plain text.
+But even if you're storing large files, storage is cheap if you're smart. A topic for another video, perhaps.
+The benefits of git, especially for teams already using it for code and text collaboration, are that
+1. you're already paying for it, and 2. it's never going away.
+It is impossible to imagine a management reshuffle that might decide on another tool just because it is the flavour of the month.
+Git and GitHub dominate the coding world,
+and I recommend GitHub not only because it is the biggest but also the most featureful.
+Even if you don't think git and plain text are the best option, I still suggest you use them
+because stability is far, far better than a constantly churning tool choice,
+as staff come, and go and fashions change, and Google decommission another product.
+RIP Jamboard :'c
+You can't do all these utopian things in most companies, I'm painfully aware.
+But you CAN do SOME of these things, even just in your immediate team, or only for yourself.
+I'd be interested to know what other ways good teams buck the hype cycle in favour of sane, evidence-based improvements.
+Thank you.
+If you would like to support my channel, get early ad-free and tracking-free videos, VIP discord access or one-to-one mentoring,
+head to https://patreon.com/noboilerplate.
+If you're interested in transhumanism and hopepunk stories, please check out my weekly sci-fi podcast, Lost Terminal.
+Or if urban fantasy is more your bag, do listen to a strange and beautiful podcast I produce every full moon called Modem Prometheus.
+Transcripts and compile-checked markdown source code are available on GitHub,
+links in the description, and corrections are in the pinned ERRATA comment.
+Thank you so much for watching, talk to you on Discord. [Subtitled by @speykious]
 
 ----------
 
@@ -578,11 +2545,343 @@ paste here
 --56--
 
 -----
-Date:
-Link:
+Date: 2024.01.20
+Link: [# This Free ChatGPT SEO Script Is Worth Millions](https://www.youtube.com/watch?v=rjtfCARo8O8)
+
+Notes:
+### Summary of the Content
+
+The video demonstrates a comprehensive step-by-step guide on setting up and using a script for automating content generation using a combination of Git, Python, Visual Studio Code, and ChatGPT's API. The script, designed for business owners with a focus on e-commerce, automates the creation of SEO-friendly, product-focused blog posts by leveraging internal links, product images, and a structured content plan. It emphasizes the importance of precise prompt engineering and script customization to generate high-quality, relevant articles that align with Google's ranking preferences.
+
+### Advantages
+
+- Automates the content creation process, significantly reducing the time and effort required to generate SEO-friendly blog posts.
+- Customizable script allows for specific product focus, adhering to brand and SEO requirements.
+- Integrates seamlessly with business websites, supporting internal linking and product image inclusion for enhanced SEO performance.
+
+### Drawbacks
+
+- Requires technical setup, including installations and script configurations, which might be challenging for non-technical users.
+- Script may occasionally select inappropriate product images or details, necessitating manual review and adjustments.
+
+### Tips and Advice
+
+- Ensure all required software (Git, Python, Visual Studio Code) and packages (OpenAI API) are correctly installed and configured.
+- Customize the script prompts and file names according to specific content needs and SEO strategies.
+- Regularly review the generated content for accuracy and relevance, making manual adjustments as necessary to maintain high-quality outputs.
+
+### Main Challenges
+
+- Balancing automation with content quality, ensuring the generated articles meet both SEO and reader engagement criteria.
+- Managing the script's reliance on accurate product information and internal links to create coherent and relevant content.
+
+### The Importance and Usefulness of the Topic
+
+Automating content creation for e-commerce websites is crucial for maintaining an active, SEO-optimized online presence. This process supports consistent blog post generation, enhancing website traffic, user engagement, and ultimately, sales conversion rates.
+
+### Accomplishments
+
+- Demonstrated a novel method for automating content generation that combines coding skills with AI capabilities.
+- Provided a clear, actionable guide for setting up the environment and running the script to produce targeted blog posts.
+
+### Interesting Quotes or Insightful Sentences
+
+- "This is how I am currently destroying Google."
+- "Each article needs a maximum of five product images and internal links."
+- "It's the most consistent thing I have seen so far."
+
+### Lecture Content: Technical Insights
+
+- Detailed instructions on installing necessary software and libraries.
+- Explanation of script functionalities, including file preparation (internal links, products list) and content plan structuring.
+- Guidance on prompt engineering for customized content generation.
+
+### Conclusion
+
+The video offers a valuable resource for business owners and digital marketers looking to streamline their content creation process through automation. By carefully following the setup instructions and customizing the script to fit their specific needs, users can efficiently produce high-quality, SEO-friendly blog posts that support their marketing strategies and business goals.
+
+
 Transcription:
 
-paste here
+I could be selling this process for Millions but instead what I'm going to do is give it away for
+free I'm on a new user account on my computer I have absolutely nothing
+installed so I'm acting like I'm an outsider and I'm going to go nice and slow and I'm going to show you how I do
+absolutely everything and then I'm going to show you how the script works as well and how you can get it to work for your
+business so the first thing is you need to get gitm I have talk about this process say
+before on my channel but I just think the script is too good to not talk about
+so go to download and then just download um whichever version you need to download for your
+computer and then open it hit yes then just keep pressing
+next then you should get to the end here and it should start to install git while that's installing we can get python so
+so go to python.org downloads just download the latest
+version it works with um the assistant API it was um autogen that didn't work
+with an earlier version of python so the first thing we downloaded is just a way for you to clone a GitHub
+repository and put it on your computer it's the easiest way to share code this is just generally how people share code
+especially if there's more than one file inside a folder this is the best way to do it and then the second thing we
+downloaded is python which is both a programming language and a like a
+Computing system I guess I don't really know what it is um but you need it on your system in order to run python
+script so so we're going to press finish here that's get installed and visual our
+python is almost downloaded and then the other thing we need is Visual Studio code code Visual Studio code is an
+IDE so an IDE is basically a way to
+interact with a folder which has code inside so if you just scroll down on the
+homepage and press download it's just a way to change the code without doing complicated things
+and it's just a really really easy way to do it so to kind of explain what it is on
+the side on the left you have like your work space and then on the right you
+have whatever you are currently whichever file inside the workspace you are currently clicked on now previously
+what I was trying to do was just trying to make an entire script just inside one
+folder without using visual studio code but it's really really complicated and
+once you have more folders and files it it just becomes extremely complicated very very quickly so the easiest way to
+interact with code is using Visual Studio code so we have python installed we do need to do something specific with
+python so I am going to run through the installation process so the you have to do this here
+add python. XE to path I'm pretty sure if you don't do that like some some crazy thing happens basically where it
+doesn't really work properly so make sure that you add it to path at the bottom so now you can we can just close
+this here and then let's go to the download here and open the visual studio code setup this is fine this is all easy
+just press yes yes next actually sorry make sure you do add open with code here
+and add open with code here and also you may as well corre uh create a desktop
+item as well and then install it the reason is is because you can then open fold folders onside your desktop like if
+I want to use this folder I can right click it and there'll be an option here
+in a second that says open with code which is actually really really useful there it is open with visuals
+studio so now we'll launch it we are now inside Visual Studio code this is where
+we're going to be doing pretty much everything else
+so what we can do now is we can press terminal new
+terminal I know that we don't have anything open right now but we're going to create the folder with my files
+already inside and they're organized in a way that I will explain to you in a moment
+so you can either go to this link or you can just do get clone so like this you can just write
+get clone or you can just copy this I'll leave this in the description as well and then copy the link like this and
+then say just call it like Auto blogger or something before I do that though I just want to quickly show you what's
+going to happen so let's go to the GitHub H repository which is what this
+is and you can see there are several files in here
+okay so you can see this one was updated 26 minutes ago okay so this is the one that
+you should be using testing 3. Pi I left the others in there because I'm a messy programmer and I don't know what I'm
+doing because I'm a complete Noob so what's going to happen is I'm going to say get clone and then this link and
+then this is the name of the file that you want to put the auto blogger inside
+so when I hit enter here provided that I've done everything right which I haven't okay so I didn't
+add it to path properly in the installation process and I do remember doing this so just click uh the search
+button the Windows button and click edit the system variables
+here click environmental variables I can't pause the recording
+while I'm doing this you're just going to have to suffer with me guys double click the path entry under system
+variables double click the path entry with the new button in the editor
+add this so new
+this does seem to already be there though which is a little bit worrying and
+this close and reopen the console okay so let's see if this works close the
+console let's just close Visual Studio code open it up again please work or I'm
+going to look really stupid terminal new terminal rerun the same thing there we
+go it works nice perfect okay so now we have Auto blogger we have the auto blogger on our system now we can start
+to play with it so what you want to do is you want to press open folder here and you want
+to look for auto blogger which is right here select folder so like I said before you want to
+hit yes trust orders there I think I don't know if it actually matters so like I said before you we're going to be
+using testing 3. piy so the first thing you want to do is you want to add your open API key to the eighth
+line okay I just made everything bigger uh so you can kind of see a little bit better so add your API key here and then
+the first thing you need to do is you need to get your internal links so you should already already have a list of
+your internal links but if you don't you can just go to your s map so I go to tan. it/ sitemap.xml
+and you can do this semi-manually you can do this yourself you should already have a list of your important Pages
+anyway if you're a smaller website then it's really really easy to get a list of your internal links just do it manually
+and then we're going to get sitemap to clip board just because it's the easiest way
+to do it for me it's a Chrome extension which just
+really really helps with this process in general so once you've added it to Chrome then just
+click on it press https and press start that should copy your url to the
+clipboard and then you can just click inside internal links. text here click inside it press contrl a and then press
+contrl V and then make sure this is very very important press contrl
+s okay so you copied pasted over everything and then you saved it I don't
+know why they what is this why are they adding this category why do they do this to me why did they do this to
+me look at the they've oh my God they've just duplicated I need to delete
+these anyway sorry I'm getting distracted but this is so annoying this this wasn't me this is just some idiot
+um my old job who's just doing stupid things anyway so the next thing we need
+is uh products. text which is just a list of your products now you do not
+have to do this the complicated way but I do recommend doing it the way that I'm going to show you so 2 Men test.py is
+another script this does not do any writing it doesn't do anything crazy all it does is it just chooses 200 URLs or
+200 products from the list of your from from your sitap basically so we'll go
+back on the sit map here the first one on Shopify anyway this this part of the
+process only works on Shopify guys but just if you're on WordPress you can just scrape your own website it or you know
+whatever you want just have a list of your products it's not that complicated okay right click save as and then save
+as and then click the download like drag it and then press alt Tab and then keep
+dragging it and then put it here okay you can also you can do it in in other
+ways but that's just how I do it and then right click it and then copy relative path and then we're going to go
+back into TW men test.py and on line 28 you'll see it says XML file path
+equals sitemap products 20. XML so that's the old one so what I'm going to
+do is I'm going to highlight the relative path which is what you can see here okay so it means like the the
+yeah the the name of the file and I'm just going to highlight it and then do contrl +v that then
+replaces the sitap so now it's going to read your sit map instead of my sitemap then we go
+to these three little buttons here terminal new terminal and I'm going to do python to men
+test.py and it'll just give me 200 links 200 products now if you want more
+products I I don't recommend going too high just because it makes chat GPT a bit more confused you can just change
+online four it says def extract sitemap data XML file path num URLs number of
+URLs equals 200 so you can put this to 400 for example i' would recommend
+leaving it under 300 because otherwise the data input is just too much
+information for um the assistant and then you can run it again it will just give you another few hundred product
+works and then you want to click and hold here like just to the right of the
+last letter of the output so click hold and then drag up and then just drag all
+the way up to the first letter and then let go of your mouse and then press
+contrl C okay to copy then you want to click in products. text you want to
+click inside it you want to press control a and then you want to press contrl V like that so this is probably a
+few too many lines you don't really want this many lines you want maybe like 800
+is a is a good one okay you can also specify um if you want specific products
+you could change this script to look for certain words like sneakers Etc but I I
+would recommend keeping it simple and just letting chat gbt do its thing now if you don't have that many products
+then problem solved basically automatically the final thing we need so this is so far we've done the internal
+links and we've done the products that's Now set up that's two files the final
+file is the content plan what you can do the first thing you can do is you can click on the before the first letter of
+the third line and then drag all the way down like that to the last letter but you can kind of do it where it just
+knows what you want it want it to do and then delete Del delete and then contrl s
+to save okay so what that does is it allows you to just write one blog post
+at a time um just so you can practice the output because my output might not
+be the same as your output the way it reads products. text might be different the way your Shopify uh sitemap is set
+up or the way you input your products might be different okay so you do always need to test so I recommend just testing
+on one at first and then if you like the output then try it on a few more so
+we're going to click inside here we're going to do crl a contrl c and then we're going to go over to our trusty
+friend chat GPT so I actually like to use chat GPT
+3.5 because it's a little bit quicker and what I like to say is keep this exact
+format
+okay and then you just think of some topics so best sneaker Brands 2024 best
+black sneakers 2024 best
+crocodile um I'll just put best crocodile 2024 cuz I can't remember what items of we have
+and then I'll give it the format here this is the format and then we'll hit
+enter so it's completely messed that up and I'm just going to say please keep
+the exact format of this content
+plan okay there we go so I said um stop adding lists I'm just asking you to make
+make a Content plan blah blah blah so once you've got it you can always return back to this um chat with chat gbt I'm
+just going to say remove as it interferes with with the
+formatting okay there we go so now we have it perfect I'm going to press copy and then from now on you can just say
+now add another line best shirts of 2024 for
+example and yeah so you can now just use this chat as much as you want to do this so
+we're going to click well we don't even need to click back in here we just hit contrl V here and then delete once and
+then contrl s now there might be a problem with the formatting so you just going to have you kind of have to just
+trust the trust the process here so I'm now going to delete this one
+right here and I'm going to press contrl s again now we're pretty much ready to go you can run your script now and and
+the result should be a consistently good article now I will say sometimes it does
+struggle with choosing the right product sometimes you might have to just change the Articles a little bit but generally
+speaking this is one of the most consistent ways I found of ranking easily on Google now before we actually run the
+script let's have a little look at what is actually happening here so the first
+thing that happens is the files are uploaded to open AI or they're like
+associated with this um assistant that we're about to create so the files are
+internal links. text products. text and TW men content plan expanded one. CSV I
+don't know why I've done it like that I don't know why all my file names are stupid but whatever and then it creates
+the assistant so the assistant is the identity of the chat GPT model almost
+that you want want to create now that's not really what it is but that's kind of what I'm getting the feeling of but what
+I will say is that you do still have to do some prompt engineering so you you are G I am giving you this prompt here
+but if you want to change it just if you want to make it informational for example just change this to every
+article should have three brand images minimum and then change this file name
+to Brand images. text and then inside testing do3 fre change this to Brand
+images. text and then just change everything else to just make it right
+informational content you don't need me to do that you it does not take that long okay you just need to change
+something in this prompt now I'm going to put this prompt inside a notepad just so we can have a little look at it it's
+a bit easier to read so we'll do oops let's do some wrapping View
+format word r there we go so instructions every article should have three product image images minimum when
+finding products ensure they are relevant to the specific article you are writing you must ensure the product image links are written fully and
+correctly sometimes it will give you dud images all you have to do is just in the markdown output just change that image
+link it doesn't take very long it's very very easy to do every article must have product images include at least three
+real product images in the final articles choose I know that that's a repeat but just trust me this is how you
+how you have to do these things choose only relevant product images do not invent image links never invent links or
+product images never use sources or footnotes read internal links. text and products. text you always choose five
+strictly relevant don't ask why I'm just repeating over and over and over um this is what you have to do this
+is how I've managed to get it to give me good output it's just repeating myself over and over and over so all you have
+to do is just change the framing of this don't change the repetition don't change blah blah blah just change what you're
+giving it and change product images to Brand images for example so let's have a look at the second prompt so you can
+start to see how this script actually works so read the product URLs to find
+suitable products for articles I should change this to um all and
+titles I think this is why it sometimes doesn't choose the a good image I will
+change that in the real script as well but read the product URLs and titles to
+find suitable products for articles never invent links or product images choose five internal links and five
+product images that are relevant to blog post idea for example for exotic leather shoes look for crocodile shoes Etc
+Pursuit articles look Pursuits now you can change that to whatever is relevant specifically to your uh business again I
+want to show you something quite interesting the What's Happening Here is because the CSV has been opened
+previously in the script I'm not I don't know where that is but it has been we can now call blog post
+idea inside these two brackets that is how I have managed to get the script to
+write out content for a Content plan okay so
+again you can change anything you want um in any of these prompts
+okay and then the penultimate prompt is outline request do not invent image
+links use the prod images and internal links from get internal links which is
+this um function right here de def get internal links it's the function before
+the prompt before that we just went through and use them to create an outline for an article about blog post
+idea in the outline do not use sources or footnotes but just add relevant product images in a relevant section and
+a relevant internal Link in a relevant section it doesn't follow this but it does work in the end so there is no need
+for a lot of sources each article needs a maximum of five product images and internal links it completely ignores
+that so yeah it is what it is and then the final one is the the the writing
+prompt so use great s Neville English do not use overly creative or crazy language write as if writing for the
+Guardian newspaper just give information don't write like a magazine use Simple language do not invent image links you
+are writing from a firstperson plural perspective for the business refer to it in the first person plural add a key
+takeaway table at the top of the article summarizing the main points never invent
+internal links or product images choose five internal links and five product imag that are relevant to an article and
+then write a detailed article based on the following outline but put it into and then it calls the outline here okay
+so this at the bottom of here you'll see it will say print outline yeah print outline for blah blah blah and then
+outline so then we call outline and that's how we get it to write about what we want but put it into a proper title
+which invites a click title should be around six 60 characters include the product images and internal links
+naturally and with relevance inside the article use markdown formatting and ensure to use tables and lists to add to
+formatting use three relevant product images and internal links maximum never invent any internal
+links or product images anyway that is the process now
+now let's just run the script and I'll show you how it actually works so we're going to do python testing 3.
+pi oh of course I haven't even installed open AI so yeah I'm glad that I tried to
+run the script in this video so you're going to have to install open Ai and to
+do that you just have to do pip install open AI That's literally it so we'll add
+that to the video thing here now you have the script
+then install open AI using tip install
+open and we need to add the API key as well so just go to your
+playground if you don't have open AI if you don't have access to gbt 4 okay what you need to do is you need to use the
+API inside playground as usual I will be deleting the secret key at the end of
+this video so don't try and um use it and then we should be ready to run the
+script so it'll be python testing 3. Pi this is on a new system so I'm not using
+anything to my advantage I'm not hiding anything I've just shown you exactly how
+I would set up this process from A to B and let's just see let's see what the
+output is I'm I'm curious so at the moment what I've been doing is I've also been using chat GPT 3.5 to format the
+Articles now you don't have to do this another thing you could do is you could
+wait until it outputs the entire um plan so the end of this run in
+about 9 minutes it takes about 3 minutes per article what it will do is it will output an article that is um it will
+output a CSV called two men content plan expanded um processed plan or processed
+or something and this will be a new file you can then import that into Google
+Sheets and then you can just use a a a API call in Google Sheets to
+format the content as well and then you have you know all of the Articles very very easily formatted however what I
+suggest you do instead and what I am doing personally because I am writing for clients and I don't want to write
+crap and I want the content to be good what I'm doing is I'm watching the content as it comes out and making sure
+it's good so let's have a look article for best sneaker brands for 2024 let's copy this and you can tell me what you
+think this is live I haven't hidden anything so if this is bad I'm going to
+look pretty stupid so I'm going to say format this article properly and then
+hit enter so key sneaker Brands to watch in
+2024 really good title key takeaways this is aand we sell this is a brand we sell this is a brand we sell Hugo Boss
+with an image of a pair of Hugo Boss sneakers absolutely
+wonderful and then a link to the an internal link to our sneakers collection
+let's scroll down bloody beautiful a pair of Kiton sneakers with a link to
+the Kiton collection it worked I'm so happy prata another brand we sell with a
+link to Prem sneakers and that's it very very simple
+article not that many words this is how I am currently destroying Google
+okay now what I will say is you do kind of need like a legitimate business um to
+do this and so you need to like be selling things that's kind of yeah the
+drawback to this so each one you can see the outline the this time it's black sneakers so
+I've taken a big risk here because sometimes it struggles with color but we will see the output in a second okay I'm
+I'm risking it I'm risking it for a chocolate biscuit let's see what the output is what I will say is I've had
+good success with colors and bad success with colors or bad results with colors
+so it it does work sometimes but I will say now I am taking a big risk um for
+this video this 30 minute long video but even if this one even if this output
+gives me like a different color Che or something I'm not too bothered because the first output was absolutely perfect
+so if you want to see the output or I like to do things in convert markdown to HTML so go to markdown to html.com click
+here crl a contrl V and then if you want to edit things like change a link or like an image link or something you can
+just very very easily just change this link and you could just change this title to a different Hugo Boss sneaker
+it's really really easy to do you can very easily edit the article uh here and then you can just use markdown you take
+the HTML and you can put it into Shopify so let's see let's see let's see let's
+see this is probably going to let me down but it's okay so now format this
+article come on don't give me any different colored shoes come on you can do it you can do it come on I don't have
+High Hopes I'm not going to lie let's see okay they're black they have black on them oh they
+they're blue they're blue anyway like I said before you can just hit copy here
+and you could just you know very easily change the product image link I'll show
+you what that looks like uh we'll go to collections Kiton actually we'll just go to sneakers
+and just find a pair of black sneakers okay so you can literally just
+right click uh copy link no sorry copy image address click back here so which one was
+wrong it was the third one so all you have to do is just change
+this to this and I'll just change this to Black
+temporarily and then you can see now we have the black pair of shoes
+instead anyway I will say yeah occasionally you do need to edit things um but in general it's the most
+consistent thing I have seen so far so this time we're doing crocodile so let's
+see I did check the products. text if you check products. text contrl F
+crocodile you'll see there are some crocodile items here so I mean if it Nails this one I will be very very
+happy it's now done it took 6 minutes to write three articles come on guys that
+is pretty impressive and then we'll have a look at the cost as well in just a second so we'll say now do this article
+and we'll see how it does come on you can do
+it oh they do have crocodile on them that is crocodile that is crocodile that
+is crocodile and that's that does have crocodile on
+as well yep I remember seeing these products they have crocodile like Zips
+um I think this is crocodile as well perfect yeah absolutely bloody perfect
+thank you so much for watching guys I'm really really proud of what I've done here I'm really really happy with the
+the results you can see it has internal links it has it can choose images
+specifically from the products it's amazing thank you so much for watching guys I'll see you
+very very soon with some more content if you're watching until the very end you're a legend as usual and peace out
 
 ----------
 
@@ -590,23 +2889,569 @@ paste here
 --55--
 
 -----
-Date:
-Link:
+Date: 2023.10.06
+Link: [# How to Brainstorm better than ChatGPT with Knowledge Graphs and GPT 4 | InfraNodus Tutorial](https://www.youtube.com/watch?v=XMwa9q6wWkw)
+
+Notes:
+### Summary of the Content
+
+This video tutorial showcases how to use data visualization in combination with ChatGPT to enhance idea development through an app called InfraNodus. The presenter illustrates a method for breaking down complex information into manageable, interconnected fragments to foster creative thinking and idea generation. The focus is on developing a deeper understanding of heart rate variability (HRV) and exploring its nuances for an app development project. By integrating AI-generated content with personal insights and further inquiry, the approach facilitates a dynamic exploration of topics, allowing for a comprehensive and coherent build-up of ideas.
+
+### Advantages
+
+- Enables iterative learning and idea development.
+- Visual representation of ideas helps identify connections and gaps.
+- Encourages deeper exploration of subjects by highlighting new directions and clusters.
+
+### Drawbacks
+
+- The process might be initially complex for new users.
+- Requires critical thinking to identify and correct AI-generated inaccuracies.
+
+### Tips and Advice
+
+- Use AI to generate initial ideas but remain critical and refine these ideas with personal knowledge.
+- Focus on developing connections between different ideas to explore the subject comprehensively.
+- Utilize the graph to navigate through the thinking process, identifying both central themes and peripheral ideas.
+
+### Main Challenges
+
+- Ensuring the accuracy of AI-generated content.
+- Managing the complexity of ideas and maintaining coherence in the discourse.
+
+### The Importance and Usefulness of the Topic
+
+Understanding HRV is crucial for developing health and wellness apps. The video underscores the importance of nuanced knowledge in app development, aiming to provide users with insights beyond what is typically offered by fitness trackers.
+
+### Accomplishments
+
+- Demonstrated a novel method of combining AI with data visualization for idea development.
+- Explored the technical and physiological aspects of HRV in depth.
+- Identified potential areas for app differentiation and innovation.
+
+### Interesting Quotes or Insightful Sentences
+
+- "This is not to make AI think for you; this is just a stimulator to come up with some fragments of ideas."
+- "This balance creates HRV, an indicator of physical and mental resilience."
+- "Reveal non-obvious: slice off the knowns to get to the unknowns."
+
+### Lecture Content: Technical and Conceptual Insights
+
+- Distinguished between time-domain and frequency-domain methods for calculating HRV.
+- Explored the implications of HRV for emotional and physiological resilience.
+- Discussed the relevance of sympathetic and parasympathetic nervous system balance to HRV.
+
+### Conclusion
+
+The video provides a compelling demonstration of leveraging AI and data visualization for creative and analytical thinking. By systematically breaking down and exploring the topic of HRV, the presenter not only deepens their understanding but also outlines a framework for others to generate and refine their own ideas effectively. This approach is particularly useful for complex subjects where interconnections between ideas can illuminate new perspectives and opportunities for innovation.
+
 Transcription:
 
-paste here
+Introduction
+hello everyone in this video I'm going to  show you how you can use a combination of  
+data visualization and chat jpt to develop your  ideas in an interesting way so that instead of  
+having an interface like this where you have  to read through lengthy responses you can do  
+it more iteratively in short fragments so you can  really focus on developing your own thinking and  
+not taking the reades that are produced by GPT  so keep watching to learn how it works we'll  
+be using the app that's called InfraNodus, that  I developed and to do that you can go into the  
+"Generate a new idea" app
+apps import page and choose AI ideation live AI  ideation and once you choose this you start with  
+the topic that you're you're interested in you  can either write an abstract or just like the  
+key phrase that describes what you're interested  in for me it's heart rate variability um because  
+I'm currently working on an app that would allow  people to measure it in ways that goes beyond what  
+what the fitness trackers can do and I want to  learn a little bit more about this subject for  
+instance and not so much to learn about it because  I already know what it's about but to see what are  
+the specific nuances that I should take into  consideration when I'm developing this whole  
+discourse right so for example here I'm starting  from the basics I type in heart rate variability  
+it gives me an explanation of what that is so if  I see something I like that I want to add into  
+How to process AI content
+my stack of ideas I'm going to save it to the  graph here is just a definition of what heart  
+rate variability is as a measure of variation in  between every heartbeat used as an indicator of  
+physiological resilience and emotional stress  this is great because it reminds me directly  
+you know how I could also Market this app that  it can increase your resilience and adaptivity  
+and reduce stress here I can generate more  responses um but basically it's say more or  
+less the same thing but maybe in different words  I'm going to save another one because I like the  
+idea of phys phys The Logical flexibility that  seems very interesting too so I'm going to save  
+that as well and then what happens here is  when I want to develop it further um I have  
+some thoughts in mind so I can actually write  my own ideas for how it can go further or I  
+Using the knowledge graph to generate AI ideas
+can also choose some stuff on the graph like  for instance emotional resilience heartbeat  
+and let's see maybe another word variability I  can select the terms I like on the graph that  
+I would like to be better connected and then I  go into the inside panel and just select this  
+one again so they marked and then it can generate  content related to these four ideas so it's just  
+going to come up with some thought that links  this idea of emotional resilience and heart  
+rate variability because that's the aspect that  I'm really interested in the connection of this  
+body marker to how we feel both on the level  of emotions and also physiologically right  
+so here here it says emotional resilience can  significantly influence heartbit variability  
+indicating an individual's ability to adaptively  respond in stressful situations this is great this  
+could almost read like an explanation of why  this app or this approach would be interesting  
+so I can save it into the graph generate  more responses emotional resilience can  
+be gsh through heartbeat variability a stable  heart rate indicates better Stress Management  
+and adaptability emotional so I want to show you  something here because this is not exactly true  
+I already know this the the subject so it made  a slight factual mistake it's not exactly that  
+the stable heart rate indicates better Stress  Management but that makes me think that maybe  
+I can go deeper into the subject and use the AI  to generate some ideas in relation to that right  
+so I will make a manual query and I'm going to  say okay what's the connection between HRV and  
+Make your own AI query
+emotional and physiological resilience here I'm  using chat GPT GT4 mode so that usually generates  
+better answers and factual responses so here  it says how it's an indicator of physiological  
+flexibility a higher HRV signifies healthier  emotional and physiological resilience as it  
+reflects the body's ability to adapt efficiently  to stressor so this is great now I'm going to show  
+you something else I'm adding it into the graph  and I want to dive a little bit deeper into the  
+Elaborating an AI-generated idea
+subject so I'm going to click elaborate here and  then by default it proposes me to make sort of  
+like an instruction or a prompt for chat jpt  or GPT 4 to develop this further right and the  
+default one is elaborate on the statement I  could also write explain why this is the case
+scientifically I'm improvising let's see  if it's going to work out if it's going  
+to give an interesting answer or not sometimes  it takes time to think so here it says that HRV  
+is grounded scientifically in a nervous systems  operations specifically the connections between  
+sympathetic and parasympathetic systems so this  is great because now we're getting deeper into  
+the science of things and look what happens when  I add this into the graph it will add a completely  
+new cluster so here it's shown here with with  the light green color right which shows me that  
+my discourse is developing in a New Direction so  I was in this region first like on this pink and  
+on this kind of dark green cluster and now I'm  getting into this parasympathetic sympathetic  
+one right so there I can actually select those  and maybe also HRV and then again use this  
+function to generate some content in relation to  parasympathetic and sympathetic so I can develop  
+this cluster a little bit further and this is  basically how you would use the graph live and  
+A big difference from using ChatGPT
+this is a big difference from how you would be  having a conversation if you did that using GPT  
+you know like you would basically like I think I  have here a conversation on on HRV so I have to  
+read through all of this I have to find the stuff  that I want to develop further by reading text  
+here directly visually I can see where I should  make connections I'm seeing this new cluster I  
+know that I want to connect it to the main idea  so I just select some nodes and ask it to do that  
+for me right and again this is not to make AI  think for you this is just a stimulator to come  
+up with some fragments of ideas which I can then  later rephrase myself make new connections between  
+them and then generate some original content  based on what I'm thinking about so here it says  
+it's kind of like a general statement interact to  influence okay that's great so here is explaining  
+me the biological sort of reason why it works like  that and I can again elaborate how it works uh
+biologically so you see here I'm giving it a  prompt of what it should do with the statement  
+that it itself generated so this is great because  it's a real human in the loop interaction with the  
+"Human in the loop" AI
+AI where I'm making it produce ideas but I'm not  making it write a whole textt for me I'm always  
+in control of every paragraph of every statement  it makes and I'm only choosing the stuff I like  
+and I'm using it to inspire myself to see in which  direction it could be interesting to develop this  
+discourse further right so here it's explaining  exactly what happens that the parasympathetic  
+system slows the heart rate promoting rest and  digest functions and the sympathetic system  
+accelerates it for flight of or fight responses  this balance create HRV and indicator of physical  
+and mental resist resilience this is great I  could even use the sentence in my own text or  
+in my promotion materials and so on right so then  I can generate some more stuff here is just kind  
+of like a rephrase of that but I'm going to keep  that also because that's interesting and finally  
+I can also generate actually more responses and  see if it comes up with something completely  
+different on another iteration sometimes you  might run it a few times to see if there's an  
+interesting thing to do here okay so then  one other thing that I like to do is to be  
+like okay I look at the graph again let's let's  take a zoom out View and this I always encourage  
+people to do it in foren notes because this is  what the graph is really good for now you see  
+things on a really detailed granular level you  see the main ideas like variability heartbeat  
+parasympathetic sympathetic nervous systems  and so on but this is a very granular level  
+so sometimes it's nice to zoom out and to see see  what are the main ideas you're working on so here  
+I click on High level ideas you also have the  button here in the analytics panel the analytics  
+panel is available here right and then it shows  me what this conversation is about all right so  
+I see that it's about Hardware at variability  stress adaptation resilience autonomous nervous  
+system so this is great because it gives me a  very clear idea of where the conversation is  
+going and also makes me think of whether I'm  missing anything I see I'm talking about the  
+How to check if you're missing anything from your ideation process
+actual thing I'm interested in and also stress  and resilience makes me think that I want to go  
+more into technical details and this is great  because this is exactly what this graph allows  
+me to do to always have this sort of feedback  reflection on my thinking process and if I use  
+it right if I ask myself what am I missing not not  only what's there but what am I missing then I'm  
+going to develop ideas in a very interesting  way so here I'm going to say okay maybe let's  
+focus on the technical aspect aspect and I will  write a question how is a heart rate variability  
+normally calculated by the way you can also take  the current context into account but I prefer not  
+to do that because I like to keep the answers more  open because then I can cover more territory at  
+the beginning and only later I start connecting  them together and kind of trying to make it more  
+coherent and this is also why the graph is really  good because it shows you which which part of the  
+process you're in somehow you know now we're just  throwing some ideas on the mental map um trying to  
+Using the graph as a map to navigate your thinking process
+expand as much as possible at some point we will  need to start also connecting the ideas better  
+because we want the discourse to be coherent  and not all over the place but to be focused on  
+one thing so this is what we will do later so  here it says that HRV is typically calculated  
+using time domain methods measuring intervals  between successive heartbeats or frequency the  
+main methods considering distribution in various  frequency bands so this is good I'm getting to  
+technical details I'm going to save this research  further on those here it's explaining me a little  
+bit more what those time domain methods are I'm  going to save that as well for example standard  
+deviation of interbit intervals and I know that  for example Apple watch uses this approach but I'm  
+going to ask it to elaborate and please explain  if any other methods can be used in addition to  
+the ones listed below okay so I'm going to give  it its own response and then ask it to say to me  
+if we can develop it further and find some other  methods that are used in science to analyze hrp  
+and here we get to the more interesting stuff like  for instance nonlinear analysis like the trended  
+fluctuation analysis or Point curve plots that can  be used for assessment so I'm going going to save  
+this this I'm going to also edit it a little  bit so I will remove P care plots and let's
+see how we can elaborate on this why would DFA  be interesting in this context right so again  
+I'm using a prompt to specify how we can develop  an idea that was given out by Chad in interesting  
+way here it's explaining how DFA this nonlinear  analysis techniques adds a new dimension okay so  
+this is it just says it's unveiling potentially  enlightening Insight so a little bit too General  
+nonlinear lens unveiling concealed aspects in time  domain and frequency domain method and the third  
+answer intricate complexity so let's say like  which aspects are unveiled spe specifically and  
+let's go into more Precision here and by the way  you will also see that the deeper we go the more  
+topics the more specific topics appears here so  here we see that um it's adding hidden elements  
+so so it's revealing some hidden elements so let's  say we we save this and we decide to ask how does  
+DFA DET trended fluctuation analysis work and why  it can be interesting for measuring hrb okay save  
+this into the graph and I'm doing it all in real  time so bear with me if it takes a little moment  
+but I'm doing that so you can also use the same  workflow in your own Explorations and here we say  
+that it's a statistical approach for detecting  l long range correlations in Time series data  
+so there I get more specific and and let's see  if there's something else and again something  
+else so maybe I like this first one long range  correlations in sensor in in Time series data  
+so I just choose that part and ask it to elaborate  it further so as you can see it's generating some  
+ideas fragments of those ideas I'm taking them  in saving what I like and asking it to develop  
+it further and here you see it says that it  can unveil statistical nature of seemingly  
+random Trends um is an inovative technique that  unveils the presence of long range correlations  
+mathematical intricacy okay and then another  one unveils hidden long range correlations  
+and recurrent Trends so this is interesting this  is what it's doing actually it's it's un bailing  
+some hidden Trends and long range correlation  so I can save this as you can see I'm developing  
+this part on the hidden correlations and this  is the part that is maybe also something very  
+special for my content or for the project that  I'm working on because I really want to focus on  
+um sort of providing more data than other tools  or or approaches do so this is great because it  
+helps me find where I could specialize somehow  right so here I see this hidden correlations  
+and maybe I can even remove HRV and then hide it  from the graph slice it off and then I can also  
+Reveal non-obvious: slice off the knowns to get to the unknowns
+hide time because we talked about it a lot heart  rate variability and what it enables me to do is  
+to find what are the topics that I could develop  for further so this I really recommend you to do  
+during the interaction that you have with this  tool that once you get or or you cover the main  
+topics which might even seem generic because you  already know what they're about you remove them  
+all from the graph to see what other the topics  that you should go into further so for example one  
+here I see is is this one is very interesting  is is the connection of HRV to resilience and  
+psychological and emotional well-being this  is great and then this technical aspect of um  
+sympathetic nervous system response balance so  maybe we can even sort of focus on this two and  
+to do that you go into blind spots and you can  highlight the gaps between different ideas in  
+the network so the Clusters which could be better  connected but are not and then ask InfraNodus to  
+generate some idea for you that would connect  them both so for example here we're lacking  
+some connection between autonomous nervous system  and heart rate variability and this is because we  
+removed all these terms but this is great because  we will force it now to generate some idea that  
+would connect those two clusters together  I could also do it myself so I could look  
+at those two topics and think of a connection  myself I can also use the eye and generate some  
+interesting question that can stimulate me to  think further in this direction right so here  
+it's asking what are the physiological responses  of the sympathetic nervous system that influence  
+emotional resilience and heartbeat interval as  indicators of typically fofl function and their  
+impact on overall body health so this is really  good because it's allowing me to go much deeper  
+into the specific aspect of how our nervous system  works and why HRV is an important metric so I'm  
+going to save this into my notes this is another  function you have here that you can save it into  
+notes if it's some idea that you want to develop  further um I don't want to be part of this main  
+discourse because this is just a kind of like a  notepad of ideas but when I get get to something  
+that I know I need to research further then I'm  going to save it into notes and go on with that  
+and then if I'm done with this Gap by the way I  can also turn on their names and then find another  
+Gap some stuff that are missing so for example  stress adaptation and data analytics so this  
+Finding structural gaps in your thinking
+is great seemingly unrelated topics but exactly  because they are unrelated we will generate some  
+idea that would connect them in an interesting way  and Link them together so so let's see if there is  
+some interesting question that comes up what is  the correlation between traditional approaches  
+to creating healthy balance of stress and dynamic  pattern signifying efficient and good long-term  
+outcomes and statistical Series so this is a bit  too much like just using the keywords to generate  
+something but I always use it as inspiration to  make me think how I could fix this question to  
+make it interesting because actually the worse  is the phrasing the more interesting is going  
+to be the outcome because it's not so good the  phrasing because those topics are not related  
+but this is usually where the good ideas are  right so it's kind of like a balance you have  
+to strike between connecting things that are  hard to connect and also making them coherent  
+so in this case I'm going to see what are the  correlations between Dynamic pattern of stress  
+healthy good lifestyle in the long run so this can  be interesting to explore further I can save it to  
+notes or I can ask the system to elaborate on this  topic and generate interesting content in relation  
+to this question that it asked itself to come up  with some interesting idea so here it's talking  
+about um fluctuations and how more variability  means that you can handle stress better so this  
+I'm going to save in the graph because it's quite  interesting and also into my notes as well because  
+I find it useful for further discourse so in the  end once I go through a few iterations I can get  
+the nodes back into the graph that I removed and  then I see the full representation of all my ideas  
+and if I have to come back to this graph any time  later for further developing it into some text or  
+maybe some ideas or marketing material I can  always look at the graph see what it's about  
+see what the main topics are and then usually  I like to focus on some idea at the periphery  
+maybe here individual ability I will select those  notes to see in which context they were used so it  
+shows me here here exactly the sentence that uses  individual ability to adaptively respond and then  
+I'm going to develop this discourse further by  either thinking how it can go on in this direction  
+or by choosing to use gp4 to generate some ideas  um in relation to this topics and by the way I  
+could also do very simple thing by taking the  current context into account so once I select  
+those and take the current context into account  it's going to generate something that will also  
+relate to heart rate variability so the original  topic that I've been talking about you see and  
+then when I add this you will see that it links  everything on the periphery to the center which  
+usually makes the text more coherent so these  are some different approaches that you can use  
+to generate ideas you see we built like a very  sort of comprehensive and coherent at the same  
+time mind map of ideas by the way this measure  topical diversity shows how how diverse it is or  
+how focused it is at the moment it's medium you  have an explanation of what that means when you  
+click here but basically you want to aim for the  yellow or the green because if it's in the red  
+it means it's too biased if it's in the blue it  means it's too dispers so you want to be somewhere  
+focused but also to have enough diversity in  your ideas uhif you're writing let's say an  
+informative text right so this is how you would  approach this try it out on InfraNodus.Com and  
+let me know how it works also subscribe to this  channel so you can get informed about new videos  
+when they come out and if you have any questions  or comments please let me know and thank you
 
 ----------
 
 -----
+
 --54--
 
 -----
-Date:
-Link:
+Date:  2023.06.07
+Link: [# You are absolutely fluent in English if you can understand these](https://www.youtube.com/watch?v=c6T9QEvczHc)
+
+Notes:
+### Summary of the Content
+
+In this engaging video, Lucy from English with Lucy dives into the humorous world of jokes, emphasizing their importance in British culture and advanced language learning. She explains how jokes, especially those involving play on words and puns, can significantly aid in understanding language nuances and improving comprehension skills. Lucy introduces key linguistic concepts such as homophones, homographs, and homonyms, providing examples for each. She then illustrates these concepts through a series of jokes, explaining the linguistic puns involved, making it a fun and educational lesson on English wordplay.
+
+### Advantages
+
+- Enhances understanding of language nuances.
+- Improves comprehension skills through the flexibility of words and sentences.
+- Offers a fun and engaging way to learn complex language concepts.
+
+### Drawbacks
+
+- The humor in puns and wordplay can be challenging for learners at different levels of fluency to grasp.
+- Explaining jokes might reduce their humorous effect.
+
+### Tips and Advice
+
+- Familiarize yourself with multiple meanings of words to appreciate the humor in puns.
+- Pay attention to context when encountering homophones to avoid confusion.
+- Practice with jokes and puns can make learning enjoyable and reinforce language skills.
+
+### Main Challenges
+
+- Understanding the humor in puns requires a good grasp of language nuances and vocabulary.
+- Distinguishing between homophones, homographs, and homonyms can be confusing for learners.
+
+### The Importance and Usefulness of the Topic
+
+Understanding and appreciating humor in a language is crucial for advanced fluency and cultural integration. It helps learners connect with native speakers and understand social cues better.
+
+### Accomplishments
+
+- Lucy provides a comprehensive guide to understanding English wordplay through jokes.
+- The video includes a free PDF with a lesson summary and a quiz to test understanding, enhancing the learning experience.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Understanding jokes and nuance is a really important aspect of the advanced levels of fluency."
+- "There is a fine line between a numerator and a denominator. Only a fraction will understand."
+- "This absolutely hilarious pun plays on the homophones alright, and all right."
+
+### Lecture Content: Linguistic Concepts
+
+- **Homophones**: Words that sound the same but have different meanings, origins, or spellings.
+- **Homographs**: Words that are spelled the same but have different meanings and may have different pronunciations.
+- **Homonyms**: Words that have the same spelling and pronunciation but different meanings.
+
+### Conclusion
+
+Lucy's lesson on jokes and wordplay is not just a dive into the lighter side of English learning but also a strategic approach to mastering advanced language skills. Through the clever use of puns and a detailed explanation of linguistic concepts, learners are equipped to navigate the complexities of English with greater ease and enjoyment.
+
 Transcription:
 
-paste here
+Intro
+- Hello, lovely students
+and welcome back to English with Lucy.
+I've got a really fun lesson for you today
+because we're going to delve
+or dive into the world of jokes.
+This is a really important part of British culture.
+It's how we connect and follow social cues.
+We're going to talk about play on words, puns,
+all that good stuff.
+Now, I know that jokes tend to be silly, but trust me,
+this is actually quite serious business
+because understanding jokes and nuance
+is a really important aspect
+of the advanced levels of fluency.
+Familiarising yourself with multiple meanings
+of words is important at any level,
+so practising with the flexibility of words
+and sentences is a great way to put your brain to work
+and increase your comprehension skills.
+Something that might help you even further
+is that I have created a free PDF for today's lesson.
+It contains everything that we're going to cover today,
+plus a quiz so you can test your understanding.
+If you'd like to download that, all you have to do is click
+on the link in the description box,
+you enter your name and your email address.
+You sign up to my mailing list
+and the PDF will arrive directly
+in your inbox, and after that,
+you'll automatically receive my free weekly lesson PDFs.
+You'll also hear about my news, updates and course offers.
+It's a free service and you can unsubscribe at any time.
+Right, let's get started with the lesson.
+What are puns or dad jokes?
+So I think the most common form of wordplay is the pun
+and there is so much pun-related content circulating
+around the internet.
+Now, they're often referred to as dad jokes
+and I personally love them.
+A pun uses the multiple meanings of a term
+or similar sounding words for an intended humorous effect
+and puns often rely on homophones, homographs or homonyms.
+"But what are homophones, homographs and homonyms?"
+I hear you ask from your tiny little screen.
+Homophones
+Homophones are words that have the same pronunciation
+but different meanings, origins or spellings.
+They can cause confusion
+in spoken language because they sound identical.
+So context is extremely important.
+Here are some examples.
+We have pair, a set of two, and pear,
+a type of fruit.
+We have flour, the ingredient for baking cakes,
+and flower, a blooming plant.
+Break, to separate into pieces
+and brake, a device for slowing a vehicle.
+Homographs
+Now, homographs have the same spelling
+but different meanings
+and they may have different pronunciations.
+For example, bow, to bend at the waist,
+and bow, a decorative knot.
+Tear, to rip something
+and tear, a drop of liquid from the eye.
+We also have lead, a type of metal,
+and lead, to guide or direct.
+So as you can see, they can cause confusion in writing
+because of their identical spelling.
+Homonyms
+And finally, we have homonyms,
+which are words that have the same spelling
+and pronunciation, but different meanings.
+Homonyms can be considered a combination
+of homophones and homographs
+and thus, cause confusion in both speaking and writing.
+So much fun.
+Here are some examples.
+We have bark, the outer covering of a tree,
+and bark, (dog barking)
+the sounded dog makes.
+Bank, a financial institution
+and bank, the side of a river.
+Bat, a flying mammal, and bat, a piece of sports equipment.
+Okay, now that we have all
+of that background info out of the way,
+let's see how you do with some of these play on words.
+If you don't understand them, that's okay.
+Let's just see how you do.
+Joke number 1
+Okay, firstly, did you hear
+about the guy whose whole left side was cut off?
+He's all right now. (Lucy chuckling)
+Do you get it?
+Do you get why it's funny?
+Okay, jokes are never as funny when you have to explain them
+but that's why we're here, right?
+And that was a total dad joke.
+This absolutely hilarious pun plays
+on the homophones alright, and all right.
+The joke is that the man who had his left side cut off
+would be in a terrible state, but the punchline reveals
+that he is alright, meaning he's doing well.
+All right also means only the right side,
+no left because he's had his left side removed.
+He consists only of his right side, so he is all right.
+Wow, that is so unfunny now that I've explained it.
+Joke number 2
+Okay, another one.
+Did you hear about the bicycle
+that couldn't stand on its own?
+Yeah, it was too tired.
+Okay, this is a certified dad joke right here.
+Here we have the homophones too tired and two-tired.
+We need to understand that too tired means exhausted
+while two-tired means having two wheels or two tyres,
+the rubber bit on the wheels.
+The bike couldn't stand on its own
+because something with two tyres will obviously fall over
+and something that is very, very tired will also fall over.
+So doubly funny, hilarious.
+Editors, please can you insert a laugh track.
+(people laughing)
+Thank you. (Lucy chuckling)
+Joke number 3
+Okay, next.
+Love this one.
+Why are postmen so unhappy all the time?
+Because they're given the sack every morning.
+(Lucy chuckling)
+My husband's in the background
+and he actually laughed a little bit.
+It was like a (Lucy snorting).
+Do you ever do that when you see a funny video
+on your phone and you don't laugh, you just go.
+(Lucy snorting)
+(Lucy chuckling)
+Now we can see how homonyms can also be used to make puns.
+Here we're playing with the double meaning
+of the phrase give the sack or given the sack.
+In this context, to be given the sack means to be fired
+or dismissed from a job, but the joke
+is that the postmen are given the sack every morning
+because they are provided with a bag
+or a big sack to carry the post in.
+(Lucy clapping)
+Joke number 4
+Okay, next one.
+I love this one.
+My mum tried to make a joke about the TV
+but it wasn't remotely funny.
+(Lucy chuckling)
+Okay, I guess rather than being a dad joke, this one's more
+of a mum joke, but here we're using the double meaning
+of the word remote.
+In this context, adding -ly or -ly
+to remote makes the adverb remotely,
+which means not at all.
+If something is not remotely funny, it's not at all funny.
+However, remote is also a shortened informal way
+to say remote control.
+This, the device used to change channels on a TV.
+That is pure comedic gold if you ask me.
+Not remotely funny.
+(Lucy chuckling)
+She tried to make a joke about the TV,
+but it wasn't remotely funny.
+Maybe I should stop teaching and go into comedy.
+Joke number 5
+Are you ready for our final and most difficult one?
+Our most difficult dad joke, it's a big one.
+There is a fine line between a numerator and a denominator.
+It's okay if you didn't get that.
+Only a fraction will understand.
+(Lucy chuckling)
+Okay, this is actually a two for one, two pun alert,
+double pun alert.
+We have two puns in this joke.
+First, in mathematics,
+a fraction is a numerical quantity that represents a part
+of a whole expressed as a numerator over a denominator.
+Part of the joke is that there is a fine line which refers
+to the horizontal line that separates them in a fraction
+but a fine line also means a very small difference.
+For example, there's a very fine line
+between confidence and arrogance.
+Well, here we're saying there's a fine line
+between a numerator and a denominator
+because they're part of a fraction.
+The second part of the joke
+is that the word fraction means a small number
+outside of its mathematical meaning.
+Only a fraction will understand.
+Only a small number of people will understand.
+Okay, I know these are pretty challenging
+but learning English should be enjoyable
+so don't forget to download today's PDFs.
+We have lots more examples in there
+and we have a quiz to test your understanding.
+The link is in the description box.
+Also, you can connect with me on my social media.
+I've got my Instagram and my Facebook.
+I've also got my website where we've got lots more lessons
+and an interactive pronunciation tool where you can click
+on phonemes and hear me pronounce them,
+and you can also check out all of my courses.
+We have now released our B1 programme, our B2 programme
+and our C1 programme.
+They're all available for enrollment now.
+They are amazing if I do say so myself.
+I'm incredibly proud of them and incredibly excited
+for you to take them and experience them.
+I will see you soon in another lesson.
+(Lucy kissing)
+(lively music)
+
 
 ----------
 
@@ -617,6 +3462,52 @@ paste here
 -----
 Date: 2023.12.14
 Link: . [# I Cannot Believe How Good This VS Code AI Coding Assistant Is!](https://www.youtube.com/watch?v=TALwI3J4asY)
+
+### Summary of the Content
+
+The video introduces and demonstrates the use of Cody, an AI coding assistant, distinct from Co-pilot due to its context-aware capabilities. It utilizes the entire codebase to provide relevant suggestions and help with coding tasks directly in the IDE. Key features explored include answering technical questions, generating unit tests, describing code smells, creating documentation, and the ability to define custom commands. The presenter tests Cody by developing a gamified to-do application, showcasing how Cody assists in building features, suggesting improvements, and fixing issues in real-time.
+
+### Advantages
+
+- **Context Awareness**: Cody understands the entire codebase, making its recommendations highly relevant.
+- **Versatile Functionality**: Offers a wide range of features from generating unit tests to describing best practices.
+- **IDE Integration**: Works directly within popular IDEs, enhancing the coding workflow.
+- **Custom Commands**: Users can define their own commands for tailored assistance.
+- **Free Tier Availability**: Accessible for users with a generous rate limit.
+
+### Drawbacks
+
+- **Dependency on External Libraries**: Some solutions suggested by Cody require additional setup or dependencies not initially present in the project.
+- **Limited to Certain IDEs**: While it supports popular IDEs, its utility is confined to the environments it integrates with.
+
+### Tips and Advice
+
+- Utilize Cody for both specific codebase queries and general coding assistance.
+- Leverage the custom commands feature to adapt Cody to your unique coding style and needs.
+- Explore Cody's capabilities beyond just code generation, such as documentation and unit test creation, to fully benefit from its features.
+
+### Main Challenges
+
+- Integrating AI suggestions seamlessly into existing codebases, especially when missing dependencies or specific project setups are involved.
+- Balancing the use of AI assistance with manual coding to ensure a deep understanding of the codebase.
+
+### The Importance and Usefulness of the Topic
+
+Cody represents a significant advancement in AI-powered coding assistance, emphasizing the importance of context-aware tools in software development. Its ability to understand and interact with the entire codebase makes it an invaluable tool for developers looking to improve efficiency and code quality.
+
+### Accomplishments
+
+- Successful integration and demonstration of Cody in developing a gamified to-do application.
+- Showcased Cody's potential in real-world coding scenarios, from generating feature code to styling and debugging.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Cody knows your entire code base."
+- "Transforming everyday tasks into exciting quests."
+- "Cody is generally available as of today, December the 14th."
+
+This overview captures the essence of the video presentation, highlighting Cody's capabilities, its impact on coding practices, and the potential benefits for developers seeking to enhance their productivity and code quality.
+
 Transcription:
 
 today I'm going to check out an AI
@@ -15900,6 +18791,62 @@ The video provides a step-by-step guide on translating a C++ implementation of t
 - "ARMv7 assembly does not have a built-in modulus operator, so we kind of have to do this manually."
 
 In conclusion, the video serves as a detailed guide for developers looking to bridge the gap between high-level and low-level programming by translating C++ code into assembly, providing insights into the intricacies and challenges involved in the process.
+
+Notes2
+### Summary of the Content
+
+In this tutorial, Lori Wired demonstrates how to translate a C++ program that computes the Greatest Common Divisor (GCD) into ARM assembly language. The tutorial covers the basics of the Euclidean algorithm for finding the GCD and provides a step-by-step guide on implementing both recursive and iterative versions in assembly. By the end of the video, viewers learn how to compile and run the assembly code on a Raspberry Pi, showcasing the computed GCD results.
+
+### Advantages
+
+- Offers a practical approach to understanding assembly language.
+- Demonstrates the process of translating high-level C++ code to ARM assembly.
+- Highlights the efficiency of recursive algorithms in assembly.
+
+### Drawbacks
+
+- Assembly language can be challenging for beginners.
+- The process requires understanding of both C++ and ARM assembly syntax.
+- Manual implementation of operations like modulus, not directly supported in assembly.
+
+### Tips and Advice
+
+- Start by implementing algorithms in a high-level language before translating to assembly.
+- Use comments to map out the algorithm in assembly.
+- Regularly compile and test the code to catch errors early.
+
+### Main Challenges
+
+- Translating high-level constructs like recursion into assembly.
+- Implementing arithmetic operations manually due to assembly limitations.
+- Debugging assembly code, which can be more complex than in high-level languages.
+
+### The Importance and Usefulness of the Topic
+
+Understanding how to translate algorithms from high-level languages to assembly is crucial for optimizing software performance and gaining a deeper understanding of computer architecture. This knowledge is particularly useful for systems programming, embedded systems development, and optimization tasks.
+
+### Accomplishments
+
+- Successfully translated the Euclidean algorithm from C++ to ARM assembly.
+- Compiled and ran the assembly code on a Raspberry Pi, accurately computing the GCD.
+- Demonstrated the recursive approach to solving problems in assembly language.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Implementing the algorithm first in a higher-level language like C++ makes it easier to translate to assembly."
+- "ARMv7 assembly does not have a built-in modulus operator, requiring a manual implementation."
+- "Running the GCD visualizer confirms the successful computation of the GCD in assembly."
+
+### Lecture Content: Technical Insights
+
+- Detailed explanation of the Euclidean algorithm for computing the GCD.
+- Comparison of recursive and iterative approaches in algorithm implementation.
+- Insights into ARM assembly language syntax and conventions.
+
+### Conclusion
+
+The tutorial effectively bridges the gap between high-level programming concepts and low-level assembly language implementation. By translating the GCD algorithm from C++ to ARM assembly, viewers gain practical skills in assembly programming, algorithm translation, and an appreciation for the underlying operations performed by higher-level languages. This knowledge is invaluable for anyone interested in systems programming, optimization, or understanding the inner workings of computer hardware.
+
 
 
 Transcription:

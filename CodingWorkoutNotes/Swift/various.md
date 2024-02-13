@@ -1,8 +1,11 @@
 1. [What I Want to See in Swift in 2024 (But Probably Wouldn’t) | @SwiftBird](https://www.youtube.com/watch?v=TnwcB6f9tSw)
 2. [# 30 tips to be a better iOS developer](https://www.youtube.com/watch?v=HEQGm1gVtOQ)
-3. [# iOS Interview Questions and Answers with Sample Code](https://www.youtube.com/watch?v=gmyEHW7zDYc)
+3. [# iOS Interview Questions and Answers with Sample Code](https://www.youtube.com/watch?v=gmyEHW7zDYc)✰⋆🌟
 4. [2023 LLVM Dev Mtg - Compact Value Witnesses in Swift](https://www.youtube.com/watch?v=hjgDwdGJIhI)
-5. 
+5. [# SwiftUI Navigation Made Easy: Harnessing the Magic of Enums](https://www.youtube.com/watch?v=do4uZBXP6bc)
+6. [# All You Need to Know About Swift Macros | Swift Macros Deep Dive (Part 1) | @SwiftBird](https://www.youtube.com/watch?v=LrY9f5kOQ_4)
+7. [# 15-Year-Old App Goes All Swift | Caffeine Refactored | @SwiftBird](https://www.youtube.com/watch?v=fehxCCKWpZA)
+8. 
 
 
 
@@ -1115,23 +1118,402 @@ paste here
 --07--
 
 -----
-Date:
-Link:
+Date: 2023.05.17
+Link: [# 15-Year-Old App Goes All Swift | Caffeine Refactored | @SwiftBird](https://www.youtube.com/watch?v=fehxCCKWpZA)
+Note:
+### Summary of the Content
+
+This video by Yakov from The Swift Bird blog shares the journey of rewriting the Caffeine app for Mac in Swift. Yakov discusses the motivations behind the switch from Objective-C to Swift, the challenges encountered during the process, and the improvements made to the app.
+
+### Advantages of Switching to Swift
+
+- **Language Efficiency**: Swift's modern features allowed for more streamlined and robust code.
+- **Enhanced User Experience**: The transition aimed to maintain the simplicity and functionality that Caffeine users have come to expect, without altering the app's familiar interface.
+
+### Challenges in Transition
+
+- **Integration Hurdles**: Mixing Swift with Objective-C presented significant challenges, such as import loops and the need for extensive forward declarations.
+- **AppKit API Limitations**: Updates to macOS and AppKit's APIs necessitated workarounds, especially for the app's menu bar icon functionality.
+
+### Key Takeaways and Tips
+
+- **Step-by-Step Approach**: Yakov recommends a phased approach to transitioning languages within a project—starting with a literal translation before moving on to refactoring.
+- **Swift's Enums for Clarity**: Utilizing Swift's enumeration capabilities can significantly reduce the reliance on "magic numbers" and improve code readability.
+
+### Technical Insights
+
+- Yakov provides a detailed account of converting Objective-C code to Swift, addressing the specific changes made to the time presets and the menu-bar icon.
+- The video highlights the limitations posed by deprecated AppKit APIs and describes the creative solutions employed to maintain the app's one-click activation feature.
+
+### Accomplishments and Reflections
+
+- **Successful Rewrite**: The project successfully updated Caffeine for modern macOS versions, leveraging Swift's strengths to enhance the app's codebase.
+- **Continuous Learning**: Yakov views Caffeine as a learning project, expressing satisfaction with the rewrite and curiosity about exploring SwiftUI for future developments.
+
+### Interesting Quotes
+
+- "Even though Swift is advertised as a more safe and reliable programming language—and it is, undoubtedly—using it in the mixed environment takes some compromise."
+- "Caffeine, just as all of my side projects, is first and foremost a playground where I can learn and practice with new technologies."
+
+### Conclusion
+
+Yakov concludes by sharing his contentment with the rewrite and his plans to delve into SwiftUI, emphasizing the joy of learning new technologies through software development. He encourages viewers to support the channel and teases upcoming content.
+
+### Engagement Encouragement
+
+Yakov invites viewers to like, subscribe, and consider supporting The Swift Bird for more tech and software development content, promising more insightful videos in the future.
+
 Transcription:
 
-paste here
+Intro
+Hey! I’m Yakov, and this is The Swift  Bird, a blog about tech, software,  
+and birds. From time to time, I cover  some of my own projects on this channel,  
+and in this video, I’ll tell you about  how I rewrote the Caffeine app in Swift.
+If you find this video helpful or at least  entertaining, please give it a like and  
+subscribe to the channel. You can also support  me with a small donation at the links below.
+Now, let’s get started!
+About Caffeine
+Caffeine is a small Mac utility which prevents the  computer from going to sleep. It was originally  
+published back in the mid-2000s and last  updated over ten years ago. Since then,  
+the company behind Caffeine has  gone out of business, but luckily,  
+it open-sourced the code. Ever since I learned  about Caffeine, I used it nearly every day for  
+reading long documents, exporting videos,  and doing other tasks. But as macOS evolved,  
+Caffeine’s degraded to the point where the Mac  refused to even launch the app—just because it  
+wasn’t signed with a valid certificate. And at  that point, I decided to do something about it.
+In my previous video on Caffeine, I explained  what I found in the open-source repo and what  
+I did to modernize the app. I reused  the original Objective-C codebase,  
+and the result was good enough to put  the app on the App Store. But if you’re  
+Why Switch to Swift
+familiar with both Objective-C  and Swift, you know how much you  
+can improve and optimize by switching to the  new language. And that’s exactly what I did.
+I wanted to preserve the look and feel that users  expected from Caffeine, and because of that,  
+I didn’t feel comfortable to just scrap the old  code and write new one from scratch. Instead,  
+I followed the step-by-step approach:  literally translating the code first,  
+and then refactoring it  with Swift-native solutions.
+Translating the Code Literally (What Could Go Wrong?)
+When you introduce the first batch of Swift  components, Xcode provides a Swift header. You  
+import it in existing Objective-C files to make  Swift symbols visible. Normally, you don’t see the  
+header file in the project structure ’cause it’s  generated on the fly. However, you can influence  
+what goes into the file by annotating your Swift  components with the @objc attribute: in the end,  
+only the symbols which have this attribute  become available to the Objective-C runtime.
+The Swift header has a counterpart—the bridging  header. The latter is used for interacting with  
+Objective-C code in Swift. But unlike the Swift  header, the bridging one requires more manual  
+work—just as everything else in Objective-C.  You get an actual file in the project folder,  
+and inside the file, you list the components  which should be available in Swift.
+I started with importing only the  precompiled header, or PCH. In the  
+Objective-C part of Caffeine’s codebase, this file  was responsible for importing the Cocoa framework  
+and global constants—that way I didn’t have to  manually import them in each individual file.
+Up to that point, everything was going fine. But  as soon as I imported an actual component of the  
+app, something nasty appeared—an import loop. You  see, Swift’s module-based system is pretty smart  
+about resolving dependencies between components:  all the symbols that sit inside the same module  
+can see and interact with each other. The most  common case where this gets handy is when you  
+define a delegate protocol. The component itself  keeps a reference to the delegate declaration,  
+but delegate methods often use the component’s  type in their signatures. With Swift being smart  
+enough to figure out the relationship  between the component and its delegate,  
+you don’t need to do anything extra: they  just know about each other’s existence.
+But the languages which use headers require  you to think in advance. You cannot import  
+the delegate’s header in the component,  and then import the component’s header in  
+the delegate, because that would result in  a cycle—sort of a chicken-or-egg problem:  
+the compiler just doesn’t know where to  start resolving imports and dependencies.
+This problem is usually solved with forward  declarations: you put one in a file,  
+and by doing so, you’re just saying,  “I won’t import the actual header,  
+but I can guarantee that this component exists.”  If you’ve been making software for a while,  
+you know that just trusting the developer is  never a good idea. But on the brighter side,  
+you can go piece-by-piece and forward-declare  each component only when it’s needed:  
+it’s possible to do so because each component has  a separate header, so you sacrifice only a little.
+However, when one of the components comes from  Swift, things become less convenient and safe.  
+That’s exactly because you have just one Swift  header for the entire module. You lose that  
+sort of granularity. At that point, the number of  forward declarations in Caffeine’s codebase grew  
+dramatically, despite my attempts to start the  refactoring with the most isolated components. So  
+even though Swift is advertised as a more safe  and reliable programming language—and it is,  
+undoubtedly—using it in the mixed  environment takes some compromise. I’d  
+say mixing Swift and Objective-C within a single  module puts it in a pretty unstable state:  
+ideally, you should separate the  languages at module boundaries.
+With some degree of pain, I did finish translating  Objective-C into Swift. I’m not showing you a lot  
+of code here because there wasn’t much to look  at: it was literally a line-by-line translation.  
+And thankfully, I was able to remove everything  Objective-C-related at the end of the process,  
+so the bridging header and the forward  declarations were no longer needed.
+And here comes the more interesting part,  where Caffeine gained an actual Swift flavor.
+Adding Some Swift Flavor
+The thing I was concerned about the most was  time presets. If you used Caffeine—and if not,  
+you’ll find the link in the description—you  know that it lets you specify for how long  
+the app should be preventing the computer  from going to sleep. Once the timer’s fired,  
+the normal behavior is restored. In the original  version I cloned from GitHub, this was achieved  
+through a combination of integer literals and  “magic numbers.” For example, positive numbers  
+denoted the timeout in minutes, -1 meant that the  app should not disable automatically, and so on.
+You probably know that “magic numbers” are a  code smell. They are literally an open gate  
+for bugs and confusion. Luckily, Swift provides  a much better tool—enumerations, or enums. Just  
+to be clear, enums exist in Objective-C as well,  but in Swift they’re much more powerful. If I’d  
+started refactoring the magic numbers before the  code was rewritten in Swift, I would’ve needed  
+two entities: one for specifying whether Caffeine  should autostop at all, and another for specifying  
+the timeout. Swift let me encapsulate these  features in a single enum with associated values.
+Updating the Menu-Bar Icon (Did Apple Break AppKit’s APIs?)
+One more thing that’s gotten a major  overhaul was the icon displayed in  
+the menu bar. It benefited from Swift as  well, though to a lesser extent. Changes  
+in the AppKit framework played a bigger  role in the update, after all. Plus,  
+I had to fix a problem that didn’t exist before.  And, frankly, I’m not really happy with the fix.
+Here’s a quick overview of how the icon worked  before the change. In older macOS versions,  
+icons in the menu bar used to be just regular  views: you could display anything and handle  
+user interaction any way you wanted. A few  releases ago, however, Apple began restricting  
+the capabilities and deprecating the old APIs.  In El Capitan, the properties and methods used  
+for working with custom views got deprecated. You  were given the button property instead and were  
+supposed to do only two things: set an image  or title that displays in the menu bar, and  
+specify the menu which opens on click. Not some  arbitrary action but a concrete NSMenu instance.
+I assume Apple did so for two reasons. On the  one hand, it wanted to make manipulating the  
+menu bar easier, and on the other, Apple’s  goal was achieving better consistency across  
+all apps and all environments: Light and  Dark Modes, different menu-bar heights,  
+you name it. I suppose these new APIs  work pretty well for most of the apps,  
+because who wants to mess around with  drawing views in frames, like it’s 2008.
+However, Caffeine required a bit more flexibility.  You see, the app appeals to many users because  
+of its simplicity: when you want to disable the  computer’s sleep, you don’t have to open a menu  
+and select something from the list—instead you  just click the icon; but at the same time, more  
+advanced options are just one click away—except  now you click with the other mouse button.
+AppKit’s out-of-the-box behavior didn’t support  that, so I had to find a workaround. Initially I  
+wanted to continue using the deprecated view  property and only convert it to Auto Layout.  
+But macOS Ventura didn’t want to give up that  easily. Eventually, I gave up and switched to  
+the new button property, so a separate component  for the menu-bar icon was no longer needed.
+However, dropping the one-click activation was  absolutely not an option because as a user,  
+I would hate this sudden  complication. As a result,  
+I came up with a somewhat dubious solution:  tracking button events target-action style  
+and handling them manually: you know,  when one of the mouse buttons is pressed,  
+Caffeine activates immediately, and when  the other is unpressed, the menu opens.
+And yeah, I said “unpressed;” it wasn’t a mistake.  Just as the solution was around the corner,  
+I suddenly found another quirk in the menu-bar  logic. Apparently, if the menu opened as the  
+button was pressed down, it didn’t unpress  automatically. I researched other icons but  
+didn’t get any conclusive findings: some of them  showed a menu with either button pressed down,  
+others only responded to the left one, and  a couple apps didn’t do anything until the  
+button was released. These results had gotten  me stumped, so I decided to just leave it as  
+is. Maybe I’ll revisit this thing down  the roadmap. Speaking of the roadmap…
+Conclusion + What’s Next
+Caffeine, just as all of my side projects, is  first and foremost a playground where I can learn  
+and practice with new technologies. Strictly  speaking, the entire Swift transition wasn’t  
+really needed—the app worked pretty fine without  it. But I wanted to challenge myself at how much  
+smaller and more elegant I can make Caffeine’s  code. I’d say I’m satisfied with the results,  
+and that little icon quirk will be the  subject of my next caffeine-inspired research.
+But a much bigger research subject will  be SwiftUI. I’m still skeptical about it,  
+especially when it comes to Mac apps. I can’t  say for sure that Caffeine will transition  
+to this framework—in part because doing so  would require dropping older macOS versions.
+But again, Caffeine is a  play-and-learn project to me,  
+and that’s what I enjoy about software  development: it lets you learn every day.
+Outro
+That’s it for today’s video. If you found it  helpful or entertaining, please hit the like  
+button and subscribe to The Swift Bird. You also  help me maintain this channel when you sponsor  
+it at the links below. I’ll see you later—next  week probably—and until then, have a great time!
 
 ----------
 
 -----
+
 --06--
 
 -----
-Date:
-Link:
-Transcription:
+Date: 2023.11.01
+Link: [# All You Need to Know About Swift Macros | Swift Macros Deep Dive (Part 1) | @SwiftBird](https://www.youtube.com/watch?v=LrY9f5kOQ_4)
 
-paste here
+Notes:
+### Summary of the Content
+
+This video is the first part of a two-part series focusing on Swift macros. The presenter, Yakov from The Swift Bird channel, dives into the concept, implementation, and potential benefits of using macros in Swift programming. The goal is to provide a comprehensive understanding of Swift macros, starting from their inception and rationale to a detailed examination of their operation and applications. The second part, promised to follow shortly, will include hands-on examples of writing, debugging, and testing macros.
+
+### Advantages
+
+- **Swift Evolution**: Macros represent a significant advancement in Swift, allowing for more compile-time checks and reducing runtime errors.
+- **Reduced Boilerplate**: Macros can significantly reduce repetitive code, making development faster and more enjoyable.
+- **Increased Safety**: By shifting more checks to compile-time, macros contribute to writing safer and more reliable code.
+
+### Drawbacks
+
+- **Complexity and Risks**: Integrating macros adds complexity to the development process and comes with its own set of risks, particularly if the macro expansion introduces errors or unexpected behavior.
+- **Limited Access**: Macros operate in a sandboxed environment without access to the surrounding code, which may limit their applicability in certain scenarios.
+
+### Tips and Advice
+
+- **Understand the Basics**: Before diving into macro writing, have a solid grasp of Swift's compilation process and the role of macros within it.
+- **Debugging Macros**: Leverage Swift's ability to detail the macro transformation process for effective debugging.
+- **Stay Informed**: Keep an eye on the ongoing development of Swift macros, as their capabilities and limitations are subject to change.
+
+### Main Challenges
+
+- Learning Curve: Grasping the concept and syntax of macros, especially for developers new to compile-time code transformation.
+- Debugging: Identifying and resolving issues that arise from macro expansions can be challenging without a thorough understanding of their workings.
+
+### The Importance and Usefulness of the Topic
+
+Swift macros are poised to revolutionize Swift development by making code more concise, type-safe, and error-proof. This series aims to equip Swift developers with the knowledge to leverage macros effectively, enhancing both the development process and the quality of the resulting software.
+
+### Accomplishments
+
+- **Comprehensive Overview**: Provides a thorough introduction to Swift macros, including their rationale, types, and operational details.
+- **Practical Insights**: Promises hands-on examples in the upcoming part 2, aiming to bridge theory with practical application.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Macros are another step in this direction. By using them, you can implement even more safety checks at build time."
+- "Macros are kept separate from everything else. This ensures predictable results—which is a huge plus."
+
+### Lecture Content: Technical Insights
+
+- Detailed exploration of the Swift compilation process and how macros fit into it.
+- Discussion of attached and freestanding macros, including their distinct characteristics and use cases.
+
+### Conclusion
+
+The video sets the stage for a deep dive into Swift macros, highlighting their potential to streamline Swift development through compile-time code transformation. With the promise of hands-on demonstrations in the upcoming second part, viewers are encouraged to familiarize themselves with the foundational concepts presented here to fully benefit from the practical applications to be covered.
+
+Transcription: 
+
+Intro
+Hey! Welcome to the Swift Bird! I’m Yakov.
+Now that Apple has released all  of this year’s major OS updates,  
+it’s time to have a deeper look at  what they can offer to us, developers.
+Recently, I published a video about the  latest Swift update, version 5.9. One of  
+the biggest features this time was macros, and  in my video, I give a brief overview of what  
+they are about. I’ll post a link to that video  somewhere here, in case you need a refresher.
+It may come in handy, because today, I’m going  on a big journey to learn everything there is  
+to know about Swift macros. I’ll have a  look at the vision behind them and some  
+implementation details. And of course,  I’ll be writing a few macros of my own.
+Well, kinda. I initially filmed this as a single  video, but the result turned out so loaded  
+with details, I decided to make it a two-parter  instead. So in this video I’ll be having a look  
+at macros in general: how they emerged, how they  work, and how they fit into the big picture. And  
+in part 2, which you’ll see in a few days, I’ll  be writing, debugging, and testing my own macros.  
+Again, this only came up in post, so the following  narrative doesn’t reflect this change of plan.
+If you’re only interested in the tutorial part,  you can skip to that section in the video. But I  
+hope you’ll join me on each stop. Knowing how to  use a tool is very helpful for practical tasks,  
+but understanding why it was designed this  way makes you a much better engineer. Besides,  
+while I was doing the research and  experimenting with my own macros,  
+I found several caveats which you’ll  understand better if you don’t skip anything.
+If that sounds good, give this video a  thumbs-up, subscribe to The Swift Bird,  
+and prepare for the ride. And if you wanna  see more of such content in the future,  
+consider supporting this little  channel at the links below.
+Ready? Now hold your breath,  because we’re taking a deep dive.
+Macros—a Logical Step in the Evolution of Swift
+My first stop on this journey is gonna be  discovering the reason why macros were added,  
+in the first place. I mean, didn’t  Swift already offer us all the tools  
+we need to create great software and,  in the meantime, enjoy the process?
+There’s actually a pull request in  the Swift Evolution repo on GitHub.  
+The document in this PR answers  many questions about how macros  
+came to be. I’ll post a link in this video’s  description, so you can have a look later.
+But instead of just going through this document,  
+I’d like to draw your attention to one  global trend in the Swift evolution.  
+If you look at its history from the very  beginning, and especially if you compare  
+Swift to Objective-C, you’ll definitely see  one idea that comes up over and over again.
+Take a look at this code. It’s just  one class method calling another one,  
+right? Notice anything strange?
+Well, this code compiles and  launches normally. But that  
+doesn’t mean it works the way I  wanted. It’s quite the opposite,  
+actually. The first method has a typo,  so the second one will never be called.
+But Objective-C isn’t really concerned.  Because of its dynamic nature,  
+it just assumes that some symbol  will match the call at runtime.  
+There’s quite a few techniques for  supplying implementations indirectly:  
+swizzling is one of them. This behavior  doesn’t make Objective-C a badly designed  
+language. But its paradigms sometimes make it  pretty hard to write, maintain, and debug code.
+So here is the same code in Swift. As soon as you  try to call a method that doesn’t exist, you get  
+a compiler error. You’ll notice something’s wrong  way before you even have a chance to run the app.
+Okay, you may say comparing  Swift and Objective-C isn’t fair.
+I kinda agree. They were created in very  different eras of technological history.
+Then here’s another example.
+That is how you decode JSON in Swift 3.
+And that’s how you do it in Swift 4.
+The Decodable protocol not only  made the code more compact,  
+but it also made it impossible to  mess up property names. Once again,  
+the responsibility for checking everything  shifted from the runtime to the compiler.
+KeyPaths are another example. But I  won’t go into detail. You get the idea.
+Swift is becoming more static-oriented.  In other words, more aspects are checked  
+while you’re writing the code, and  fewer—when the code is running.
+The benefits are clear. The  feedback loop becomes shorter;  
+you spend less time debugging, and can more  often write the correct code on the first try.
+Macros are another step in  this direction. By using them,  
+you can implement even more safety checks  at build time. Besides, macros can reduce  
+the amount of boilerplate—the code for common  tasks, which you write over and over again.
+Hopefully, by the end of this video,  
+you’ll see how macros can make your  work faster and more enjoyable.
+Macros Behind the Scenes (+ Compilation-Process Overview)
+Now, let’s talk about how  macros work behind the scenes,  
+and what they can and cannot do with your code.
+At this point, it may be helpful to  understand what happens with your code  
+after you click the Build button. I’m not  going too deep into compiler design today,  
+but I’ll give you a simplified explanation  tailored to this video’s topic. By the way,  
+let me know in the comments if you want an  in-depth video about the Swift compiler.
+So, there are three steps we’ll have a  look at today. There’s more in total,  
+but the others aren’t really important for macros.
+The first one is parsing. Even though Swift code  is not an article or poem, it’s still just plain  
+text. It doesn’t have a defined structure. While  it stays like that, the computer cannot do much  
+with it. To fix this, the code is tokenized and  transformed into an abstract syntax tree, or AST.
+The tokenizer goes through your code while  paying attention to keywords, such as func,  
+if, or return. These words declare operations  which help construct the tree and define the  
+relationships between its nodes. Here’s  what an AST may look like in the end.
+Once the tree is constructed, the compiler  can understand and reason about it. If your  
+code doesn’t contain lexical errors, such as  typos, missing returns, or unknown symbols,  
+it can be compiled into machine code, a bunch of  ones and zeroes which the processor can execute.
+It’s not really machine code at this point.  Because the Swift compiler is based on LLVM,  
+it uses the intermediate representation—sort  
+of a universal language. The IR acts as a  bridge between the language of your choice,  
+be it Swift, Rust, C, or something else,  and the processor architecture: ARM, x86,  
+PowerPC, and many more. This is somewhat  similar to the Java Virtual Machine,  
+but in contrast it allows the program to run at  the native speed, without any runtime translation.
+I won’t go any deeper, but I decided  to highlight this mechanism because I  
+believe it’s such a cool feature. I’ll  leave a few links in the description,  
+and I encourage you to have a  look at them when you have time.
+Once the compiler’s done its job, the linker  comes into play. It looks for any outstanding  
+references to external libraries, and makes  sure those calls are handled correctly.
+How (and When) Macros Work
+There’s a few stages after that, but  we’re interested in the three steps  
+I described. To be precise, in the gap  between parsing and compilation. It’s at  
+this point that macros are enacted. And, after  compilation, it’s as if they don’t even exist,  
+so remaining build phases occur just as always.
+Macros are basically separate programs.  They’re built independently of your app’s  
+code and run before the main compilation stage.
+Once the app code is transformed into an  abstract syntax tree—but before it’s turned  
+into machine code—Swift macros get their chance  to shine. They receive the part of the syntax  
+tree belonging to the macro, and they transform  it into a new structure. Besides the syntax tree,  
+the macro implementation also receives  any input you provided explicitly.
+Macros can add new code which is then fed to  the Swift compiler along with your original  
+code. However, macros cannot modify or  delete any existing code of your app.
+Moreover, they don’t even have access  to it. That’s because macros run in a  
+sandboxed environment with no access to your  source file, any other files on the disk,  
+or the internet. Just like I said, macros are  kept separate from everything else. This ensures  
+predictable results—which is a huge plus. But  it also means that the macro cannot see any  
+code which comes before and after the call. So  the macro’s logic cannot take it into account.
+The macro code, as well as its input and  output, are checked just like any Swift  
+sources. If something’s wrong, the macro build  fails, which in turn triggers your entire build  
+to fail. So by integrating macros, you assume  additional responsibilities and risks. However,  
+you can ask Swift to show the transformation  process in detail. Thanks to that, macros are  
+not some black box to you. I’ll get back  to macro debugging later in this video.
+Four Steps of Macro Expansion
+Let’s now have a closer look at how macros work.  
+This process has four steps, and  they are pretty straightforward.
+First, the compiler reads your app code  and creates an in-memory representation  
+of the syntax. It’s the very same  parsing step we discussed earlier.
+After that, the part of your code’s  AST relevant to the macro call is  
+sent to the implementation. The  implementation processes this AST  
+and returns the updated structure.  This process is called expansion.
+Next, the code returned from the macro  is put back where the macro was called.  
+The compiler basically replaces the  macro call with its expanded form.
+Finally, the compiler takes the updated code  and continues with the normal compilation.
+At this point, you can see how  Swift compilation works in general,  
+and how it integrates macros into  the process. Before I start writing  
+Attached and Freestanding Macros
+and calling macros, there’s just a  few more things I want to highlight.
+As you probably know, Swift  offers two kinds of macros:  
+attached and freestanding. They’re  similar in how they work at a high level,  
+but they differ in where you can use them and  what you can actually achieve by doing so.
+Attached macros modify the declarations  they’re used with, such as classes, properties,  
+or methods. Without a declaration, attached  macros don’t make much sense and cannot be used.
+They can add new capabilities  to the declaration. For example,  
+they can define a new method or  declare conformance to a protocol.
+Freestanding macros, in contrast, can be used  all by themselves, without being attached to  
+some symbol. But there’s more than one flavor  of freestanding macros—there’s actually two.
+Declaration macros introduce new symbols,  such as classes. And expression macros produce  
+values or perform actions. An example  of an action is compiler diagnostics,  
+such as warnings or errors—expression  macros can trigger them based on some  
+logic. The difference between declaration  and expression macros is pretty significant,  
+and it determines how you  declare and implement the macros.
+To Be Continued…
+Which finally brings us to the part where I  actually write, use, and debug some macros.
+And… you’ll see all of that in part 2 of  this video. It should be out in a few days,  
+but my main goal here is to make it  as clear and detailed as possible,  
+so I’m not rushing it, I’ll be honest. In the  meantime, let me know if you have any questions  
+so I can answer them in the second part. Don’t  forget to subscribe, and stay tuned for more.
 
 ----------
 
@@ -1139,11 +1521,182 @@ paste here
 --05--
 
 -----
-Date:
-Link:
+Date: 2024.02.12
+Link: [# SwiftUI Navigation Made Easy: Harnessing the Magic of Enums](https://www.youtube.com/watch?v=do4uZBXP6bc)
+
+Notes:
+### Summary of the Content
+
+The tutorial introduces an efficient and elegant way of handling navigation in SwiftUI, focusing on decoupling navigation from views using enums and navigation link values. It starts with a basic Xcode project setup and demonstrates how to create enums for navigation stack destinations. The tutorial also introduces a method for using these enums with navigation links in SwiftUI views, including the application of dependency injection for navigation destinations. Furthermore, the video mentions mentoring services for iOS development and hints at future topics like integrating sheets into SwiftUI navigation.
+
+### Advantages
+
+- **Decouples Navigation from Views:** Enhances code modularity and readability.
+- **Uses Enums for Navigation Destinations:** Provides a clear and organized way to manage navigation paths.
+- **Supports Dependency Injection:** Facilitates passing data between views seamlessly.
+
+### Drawbacks
+
+- **Complexity for Beginners:** The concepts and implementation might be challenging for SwiftUI beginners.
+- **Specific to SwiftUI Navigation:** The methods discussed are tailored to SwiftUI, limiting applicability to other frameworks or UI toolkits.
+
+### Tips and Advice
+
+- **Subscribe and Like the Video:** To support the series and receive updates on future tutorials.
+- **Consider One-on-One Mentoring:** For personalized guidance and advanced learning in iOS development.
+
+### Lecture Content
+
+- Efficient navigation in SwiftUI using enums and navigation link values.
+- Decoupling navigation logic from views.
+- Implementing navigation destinations with dependency injection.
+
+### Main Challenges
+
+- Understanding and applying the concept of decoupling navigation from views.
+- Implementing enum-based navigation stack destinations effectively.
+
+### Importance and Usefulness of the Topic
+
+Navigating efficiently in SwiftUI is crucial for developing intuitive and maintainable iOS applications. The techniques discussed improve code organization, facilitate data passing between views, and enhance the overall development process.
+
+### Accomplishments
+
+- Demonstrated a method to simplify navigation in SwiftUI.
+- Introduced a practical application of enums and navigation link values in navigation.
+- Provided a foundation for integrating more complex navigation patterns, like sheets.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Navigation in SwiftUI is confusing, to say the least. Let's fix it."
+- "Decoupling all of that from the views is the easiest way of doing that through creating some sort of a coordinator router / enum."
+- "As a passionate iOS developer aiming to advance your skills, partnering with me as a mentor could significantly impact your career trajectory."
+
+### Where to Go Next
+
+- The tutorial promises to cover the integration of sheets into SwiftUI navigation in the next episode, indicating a continuation of advanced navigation techniques in SwiftUI.
+- Encourages viewers to subscribe and check out one-on-one mentoring sessions for deeper learning and personalized guidance in iOS development.
+
 Transcription:
 
-paste here
+INTRODUCTION
+Navigation in Swift UI is confusing to say the least. There's Navigation Stack and Sheets and  
+Navigation Link and values. It is a mess. So let's fix it. In this tutorial series I'm going to  
+cover the most efficient and elegant way of using  Navigation in SwiftUI. From Links to Sheets from  
+values to navigation destinations, we are going to  cover it all. So let's jump right in. And if you'd  
+STARTER XCODE PROJECT
+like to hire me on a one-on-one session go ahead  and check out rebeloper.com/mentoring. Now today  
+is the first of a series where we are going  to digest and make navigation super fun and easy  
+in SwiftUI. So for that I have just started a  an Xcode project with some files already added  
+in here. As you can see we have our content view.  It has a tab view, it has root 1 view root 2 view  
+here is the root 1 view and root 2 view with some notes here what I have to  
+do today and then we have destination 1 view  and destination 2 view. Today we are going to  
+talk about how you can make your navigation  decoupled from the view with the help of enums.  
+And we are going to continue on that so make  sure that you SUBSCRIBE to the channel and  
+maybe LIKE this video also if you do enjoy it  because there is more to come. This is the first  
+in a series. So what do we want to do? Well we are not going to use the default navigation stack  
+ENUM NAVIGATION PLAN
+either with a puff or without a puff with the  navigation link, we want to decouple  
+all of that from the views. And the easiest way  of doing that is through creating some sort of  
+a coordinator router / enum because that is  what we are going to use as our building block.  
+So let's create a new file and I added the  tab view so you can see that we have to create all  
+of these enums for the different navigation stack destinations so called but you will see  
+why this project is starting as it is. So let's click on the file art over here let's click on  
+NAVIGATION LINK VALUES
+next and what we are going to do right over here  is specify some values. Most probably you already 
+seen some navigation stack tutorials where we have some values. Well this is where we are going to set them up.
+So I'm going to name this appropriately. So it will be root 1. So it's the navigation stack for  
+our root 1 tab view and navigation link values.  Navigation link values because all of these  
+destinations will be added onto a navigation link, okay. So that's our file and let's import SwiftUI  
+we are going to need that and let's create our  enum and that will be our root one navigation  
+link values and because we are going to use this  inside the navigation destination this has to  
+be hashable. So there you go and then because we  want to set all of our destination views right  
+over here inside the enum this will be a view. It's really, really interesting right? So let's have  
+two cases in this enum. So case destination 1  and then case destination 2 and for  
+destination 2 we are going to use dependency injection. So you rest assure that you know how  
+to do that. Currently I'm just going to add add in  the title and that is of type string but of course  
+you can add in any hashable right over here, any  hashable model that you might want to push through  
+the destination 2, okay. So those are the two  cases now it's time to add our actual views.  
+It's as simple as that. As a passionate iOS developer  aiming to advance your skills partnering with  
+MENTORING
+me as a mentor through rebeloper.com/mentoring  could significantly impact your career trajectory.  
+Art with extensive industry experience and a  profound comprehension of iOS development, I offer  
+invaluable perspectives hands-on expertise and  effective strategies to navigate the complexities  
+of app creation. Prioritizing practical abilities,  current industry insights and streamlined coding  
+methodologies. I am dedicated to equipping you  with the knowledge and proficiency essential  
+for success in the dynamic realm of iOS  development. Come join me at rebeloper.com/mentoring
+and together let's elevate your journey in iOS development. So as you can see we are not conforming
+ADD A VIEW INTO AN ENUM
+to the view protocol just yet, what we need to do is add our body. And here it is our body and now we need to switch through  
+all of our cases. So let just go switch self and  I'm going to use Xcode autocompletion right over here  
+so it's helping me out really nicely. We have  destination 1 and 2 and right over here  
+we are going to add destination 1 view and then  right over here destination 2 view and I'm moving  
+the title forward so into the destination 2 view.  And that's it. It's really as simple as it gets.  
+Now let's move forward and let's see how are would  we actually use this root one navigation link  
+these values. So let's go to our root 1 view and  here we would just add a navigation link to the  
+ADD A NAVIGATION LINK
+destination 1 view. So let's just add it. So let's just see navigation link and we are going  
+to use the one with the value and label. You could just use the title key and value but yeah whatever  
+you see it fit. Make sure that you are using  the one with the value. So the value, here comes  
+the really, really fun part it will be root 1,  what's it called, 'roort', let's let's rename  
+that because I see that I made a  typo right over here. Refactor, rename. It has to  
+be a root instead of 'roort', oh really nice, okay. So let's go back to our root 1 view command that  
+back in and then root 1 destination, well well  it's not autocompleting, I'm just going to  
+well actually not destination, navigation link. So root 1 navigation link values dot and where do  
+I want to navigate over here? Well to destination 1 and then the label, let's have a text right  
+over here of destination 1 view. I'm just going to copy and paste it right over there.
+So that's one and now I also want to show you  how you can move the actual title, well you know  
+dependency injection. We are going to set the  navigation link on the destination 1 view to  
+move to the destination 1 view. Right over here  let's just have again the value and label and  
+that will be root one navigation link values dot  and now we just choose the destination to view  
+and the title let's just say it's Ada and then  the label again a simple text to show where  
+we are actually going to go, okay. This is how we move. This is how we navigate. It's really, really  
+straightforward. Now we do have to set all of this  up because you know this isn't set up inside a  
+SET UP NAVIGATION DESTINATIONS
+navigation stack at all, just yet. So let's do that. Let's go to the content view. As you can  
+see we have root 1 view and the tab item. What we want to do is add this into a navigation stack
+of course as usual and then on the navigation stack  we want to set up our navigation destinations.  
+And of course if you are a little bit familiar  with navigation stack you want to add it  
+onto the root of the navigation stack. So you just say navigation destination and we are going to use  
+the one for and destination. So the for that is  our root 1 navigation link values dot self  
+and usually what you would do as the next step  you would just hit Return and that would just  
+make this hashable available and  according to the value. You would just navigate  
+away somewhere, but remember we don't have to  do that in this case because we have our  
+body. So we just add in these two brackets  and then dollar sign zero. So it will use itself.  
+So the value is a hashable which is fine. It will use itself. Why I mean by itself? Well because it's  
+a view. According to the case it will just use itself. It's really, really straightforward, okay.  
+So now let's build and run and let's see if we  made everything set up correctly and if we do we  
+TESTING THE IMPLEMENTATION
+are going to have also a view extension which  will make this a little bit easier. So here we  
+have tab 1, tab view that's nice. Destination 1 view, it's working. Destination 2 view.
+It's moved Ada into that view. We can just go back over  there which is really, really nice, okay. So that's  
+fine but what if I want to add  this also to the root view controller. So I create  
+CREATING A VIEW EXTENSION
+another root to navigation link values then put  it in the navigation stacks. Set the navigation  
+destination and this is kind of encryptic  you know not many developers know about this.  
+So let's just create a view extension on this.  So I'm going to create a new file right over  
+here call it view+, so it's  an extension on the view. We do need to import  
+SwiftUI right over here and it's an extension on  the view, there we go. And I'm just going to add in  
+here our navigation link values. So that function  will be called navigation link values and we are  
+going to add in some type of data. You will see  in just a second. I'm going to name this   
+of type D and then a data and that will be D dot type, there we go and we are going to  
+return some view and here we need to specify  what this 'D' is. So where D is hashable and view.
+Basically that's it. Now I can just go to our  
+content view and try to replicate all of this stuff. So first of all we need a Navigation Stack  
+and inside the Navigation Stack we are going to  use self because this view modifier will be added  
+to a certain view. We're going to use self dot and  then navigation destination for, what's the hashable  
+well that's the data and the destination well  that will be again $zero. it's really,  
+really nice. Now we can go back and on the content view we can just replace all of this mumbo jumbo  
+so let me just comment this out, so you will be  able to see it later on. I'm just going to use root 1 view
+and then navigation link values, there we go. Navigation link values and just provide that  
+protocol. So root navigation link values dot self, much nicer if I do say so myself, okay. This is as easy  
+as it gets now we have decoupled navigation but we  did not cover Sheets. So if you want to know  
+WHERE TO GO NEXT
+how we are going to add sheets to this make sure that  you SUBSCRIBE to the channel hit that notification bell
+to get notified and we are going to cover  sheets and some more in the next episode and if  
+you'd like to meet me on a one-on-one Zoom call  go ahead and check out rebeloper.com/mentoring.
+
+Ponowne odtwarzanie czatu jest wyłączone podczas tej
 
 ----------
 

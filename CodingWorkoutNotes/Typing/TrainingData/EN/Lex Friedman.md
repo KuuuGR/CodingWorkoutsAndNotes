@@ -534,11 +534,399 @@ paste here
 --55--  https://www.youtube.com/@lexfridman/videos
 
 -----
-Date:
-Link:
+Date: 2019.01.17
+Link: [# Deep Learning State of the Art (2019) - MIT](https://www.youtube.com/watch?v=53YvP6gdD7U)
 Transcription:
 
-paste here
+The thing I would very much like to talk about today is the state of the art in deep learning.
+Here we stand in 2019 really at the height of some of the great accomplishments
+that have happened. But also stand at the beginning. And it's up to us to define where this incredible
+data-driven technology takes us. And so I'd like to talk a little bit about the breakthroughs that happened in 2017 and 2018
+that take us to this point. So this lecture is not on the state of the art results on
+main machine learning benchmarks. So the various image classification and object detection
+or the NLP benchmarks or the GAN benchmarks. This isn't about the cutting edge algorithm
+that's available on github that performs best on a particular benchmark. This is about ideas
+ideas and developments that are at the cutting edge of what defines this exciting field of deep learning.
+And so I'd like to go through a bunch of different areas that I think they're really exciting.
+Of course this is also not a lecture that's complete There's other things that may be totally missing that happened
+in 2017-18 that are particularly exciting to people here and people beyond.
+For example medical applications of deep learning is something I totally don't touch on.
+And protein folding and all kinds of applications that there has been some exciting developments
+from deep mind and so on that don't touch on. So forgive me if your favorite developments are missing
+but hopefully this encompasses some of the really fundamental things that have happened
+both on the theory side and the application side and then the community side of all of us being able to work
+together on this and these kinds of technologies. I think 2018 in terms of deep learning is the year of
+BERT and Natural Language Processing
+natural language processing. Many have described this year as the ImageNet moment.
+In 2012 for computer vision when AlexNet was the first neural network that really gave that big jump in performance.
+And computer vision it started to inspire people what's possible with deep learning with purely learning based methods.
+In the same way there's been a series of developments from 2016-17 led up to 18 with a development of BERT
+that has made on benchmarks and in our ability to
+apply NLP to solve various NLP tasks, natural language processing tasks a total leap.
+So let's tell the story of what takes us there. There's a few developments. I've mentioned a little bit on Monday
+about the encoder decoder or recurrent neural networks. So this idea of recurrent neural networks encode sequences of data
+and output something, output either a single prediction or another sequence.
+When the input sequence and the output sequence are not the same, necessarily the same size,
+they're like in machine translation we have to translate from one language to another the encoder decoder architecture takes the following process.
+It takes in the sequence of words or the sequence of samples as the input
+and uses the recurrent units whether LSTM, GRU and beyond
+and encodes that sentence into a single vector. So forms an embedding of that sentence of what it
+represent, representation of that sentence. And then feeds that representation in the decoder
+recurrent neural network that then generates the sequence of words that form
+the sentence in the language that's being translated to. So first you encode by taking the sequence and
+mapping it to a fixed size vector representation. And then you decode by taking that fixed size vector representation
+and unrolling it into the sentence that can be of different length than the input sentence. Okay that's the encoder-decoder structure for recurrent neural networks
+has been very effective for machine translation and dealing with arbitrary length input sequences,
+arbitrary length output sequences. Next step attention.
+What is attention? Well it's the next step beyond it's an improvement on the
+the encoder-decoder architecture.
+It allows the, it provides a mechanism that allows to look back at the input sequence.
+So suppose to saying that you have a sequence that's the input sentence
+and that all gets collapsed into a single vector representation. You're allowed to look back at the particular samples from the input sequence
+as part of the decoding process. That's attention and you can also learn which aspects
+are important for which aspects of the decoding process, which aspects the input sequence
+are important to the output sequence. Visualize in another way
+and there's a few visualizations here. They're quite incredible that are done by Jay Alammar.
+I highly recommend you follow the links and look at the
+further details of these visualizations of attention. So if we look at neural machine translation
+the encoder RNN takes a sequence of words and throughout, after every sequence forms a set of
+hidden representations, hidden state that captures the representation of the worlds that followed.
+And those sets of hidden representations as opposed to being collapsed to a single fixed size vector, are then
+all pushed forward to the decoder. That are then used by the decoder to translate
+but in a selective way. Where the decoder here visualized on the y-axis
+the input language and on the X the output language the decoder weighs the different parts of the input sequence differently
+in order to determine how to best translate generate the word that forms a translation in the full output sentence.
+Okay that's attention, allowing expanding the encoder-decoder architecture
+to allow for selective attention to the input sequence
+as opposed to collapsing everything down into fixed representation. Okay next step self-attention.
+In the encoding process allowing the encoder to also
+selectively look informing the hidden representations
+at other parts of the input sequence in order to form those representations.
+It allows you to determine for certain words.
+What are the important relevant aspects of the input sequence that can help you encode that word the best?
+So it improves the encoder process by allowing it to look at the entirety of the context. That's self-attention.
+Building a transformer. It's using the self attention mechanism in the encoder
+to form these sets of representations on the input sequence. And then as part of the decoding process follow the same
+but in reverse with a bunch of self-attention that's able to look back again.
+So it's self attention on the encoder attention on the decoder and that's where the magic, that's where the entirety magic is.
+That's able to capture the rich context of the input sequence in order to generate
+in the contextual way the output sequence. So let's take a step back then and look at what is critical to natural language
+in order to be able to reason about words, construct a language model
+and be able to reason about the words in order to classify a sentence or translate a sentence
+or compare two sentences and so on. There the sentences are collections of words or characters
+and those characters and words have to have an efficient representation that's meaningful for that kind of understanding.
+And that's what the process of embedding is. We talked a little bit about it on Monday. And so the traditional Word2Vec  process of
+embedding is you use some kind of trick in an unsupervised way to map words into
+into a compressed representation. So language modeling is the process of determining
+which words follow each other usually. So one way you can use it as in a skip gram model
+taking a huge datasets of words you know, there's writing all over the place taking those datasets
+and feeding a neural network that in a supervised way looks
+at which words are usually follow the input. So the input is a word the output is which word are
+statistically likely to follow that word. And the same with the preceding word. And doing this kind of unsupervised learning
+if you throw away the output and the input and just taking the hidden representation form in the middle
+that's how you form this compressed embedding a meaningful representation that when
+two words are related in a language modeling sense, two words that are related they're going to be in that representation close to each other.
+And when they're totally unrelated have nothing to do with each other they're far away ELMo is the approach of using bi-directional L STMs
+to learn that representation. And what bi-directional, bi-directionally? So looking not just the sequence that let up to the word but in both directions the sequence that
+following, the sequence that before. And that allows you to learn the rich full context of the word.
+In learning the rich full context of the word you're forming representations that are much better able to represent the statistical language model
+behind the kind of corpus of language that you're you're looking at. And this has taken a big leap in ability to then
+that for further algorithms then with the language model a reasoning about doing things like
+sentence classification, sentence comparison, so on. Translation that representation is much more effective
+for working with language. The idea of the OpenAI transformer
+is the next step forward is taking the the same transformer that I mentioned previously.
+The encoder with self-attention decoder with attention looking back at the input sequence.
+And using, taking the language learned by the decoder
+and using that as a language model and then chopping off layers and training in a specific on a specific language tasks like sentence classification.
+Now BERT is the thing that did the big leap in performance.
+With the transformer formulation there is always there's no bi-directional element.
+There is, it's always moving forward. So the encoding step and the decoding step with BERT is
+it's richly bi-directional it takes in the full sequence of the sentence
+and masks out some percentage of the words, 15% of the words.
+15% of the samples of tokens from the sequence. And tasks the entire encoding
+self-attention mechanism to predict the words that are missing.
+That construct and then you stack a ton of them together. A ton of those encoders self-attention feed-forward network,
+self attention feed forward network together. And that allows you to learn the rich context of the language to then at the end perform all kinds of tasks.
+You can create first of all, like Elmo and like Word2Vec, create rich contextual embeddings.
+Take a set of words and represent them in the space that's very efficient to reason with.
+You can do language classification, you can do settings pair classification,
+you can do the similarity of two sentences, multiple choice question answering, general question answering,
+tagging of sentences. okay I'll link it on that one a little bit too long.
+but it is also the one I'm really excited about and really if there's a breakthrough this year
+is been it's thanks to BERT. The other thing I'm very excited about is totally
+jumping away from the new rips,
+Tesla Autopilot Hardware v2+: Neural Networks at Scale
+the theory, those kind of academic developments and deep learning and into the world of applied deep learning.
+So Tesla has a system called Autopilot
+where the hardware version 2 of that system
+is a newer  implementation of the NVIDIA Drive PX 2 system
+which runs a ton of neural networks. There's 8 cameras on the car and
+a variant of the inception network is now taking in all a cameras
+at different resolutions as input and performing various tasks,
+like drivable area segmentation, like object detection and some basic localization tasks.
+So you have now a huge fleet of vehicles where it's not engineers
+some I'm sure engineers but it's really regular consumers, people that have purchased the car have no understanding
+in many cases of what neural networks limitations the capabilities are so on. Now it has a neural network is controlling the well being
+has its decisions, its perceptions and the control decisions based on those perceptions
+are controlling the life of a human being. And that to me is one of the great breakthroughs of 17 and 18.
+In terms of the development of what AI can do in a practical sense in impacting the world.
+And so one billion miles over 1 billion miles have been driven in Autopilot.
+Now there's two types of systems in currently operating in Tesla's. .There's hardware version 1, hardware version 2.
+Hardware version 1 was Intel Mobileye monocular camera perception system.
+As far as we know that was not using a neural network. And it was a fix system. That wasn't learning, at least online learning in the Tesla's.
+The other is hardware version 2 and it's about half and half now in terms of the miles driven.
+The hardware version 2 has a neural network that's always learning. There's weekly updates. It's always improving the model shipping new weights and so on.
+That's the exciting set of breakthroughs in terms of AutoML, the dream of automating some aspects or
+AdaNet: AutoML with Ensembles
+all aspects or many aspects as possible of the machine learning process where you can just drop in a dataset that you're working on
+and the system will automatically determine all the parameters
+from the details of the architectures, the size are the architecture, the different modules and then architecture
+the hyper parameters use for training the architecture running that they're doing the inference everything.
+All is done for you. All you just feed it is data So that's been the success of the neural architecture search in 16 and 17.
+And there's been a few ideas with Google AutoML that's really trying to almost create an API we just drop in data set.
+And it's using reinforcement learning and recurrent neural networks to given a few modules,
+stitch them together in such a way where the objective function is optimizing the performance of the overall system.
+And they've showed a lot of exciting results. Google showed and others that outperform state of art systems
+both in terms of efficiency and in terms of accuracy. Now in 18 there've been a few improvements on
+this direction and one of them is a AdaNet where it's now using the same reinforcement
+learning AutoML formulation to build ensembles on your network. So in many cases state-of-the-art performance can be achieved
+by as opposed to taking a single architecture, is building up a multitude and ensemble a collection of architectures.
+And that's what is doing here is given candidate architectures,
+stitching them together to form an ensemble to get state-of-the-art performance. Now that state of the art performance is not a leap
+a breakthrough leap forward but it's nevertheless a step forward. And it's a very exciting field that's going to be
+receiving more and more attention. There's an area of machine learning that's heavily under studied
+AutoAugment: Deep RL Data Augmentation
+and I think it's extremely exciting area. And if you look at 2012 with AlexNet achieving
+the breakthrough performance of showing what deep learning networks are capable of.
+From that point, from 2012 to today there's been non-stop
+extremely active developments of different architectures that even on just ImageNet alone on doing the image classification task
+have improved performance over and over and over with totally new ideas.
+Now on the other side on the data side there's been very few ideas about how to do data augmentation.
+So data augmentation is the process of, you know, it's what
+kids always do when you learn about an object right? You look at an object and you kind of like twist it around is
+is taking the raw data and messing it in such a way
+that it can give you much richer representation of what this can this data can look like in other forms
+in other contexts in the real world. There's been very few developments I think still
+and there's this AutoAugment is just a step a tiny step into that direction that I hope that
+we as a community invest a lot of effort in. So what AutoAugment does? As it says, ok, so there's these data augmentation methods
+like translating the image, sharing the image, doing color manipulation like color inversion.
+Let's take those as basic actions you can take and then use reinforcement learning and an RNN again construct to stitch those actions
+together in such a way that can augment data like an ImageNet, you train on the data, it gets state-of-the-art performance.
+So mess with the data in a way that optimizes the way you mess with the data. So.
+And then they've also showed that given that the
+set of data augmentation policies that are learned to optimize for example for ImageNet
+given the some kind of architecture you can take that learn the set of policies for data augmentation and apply it to a totally different dataset.
+So there's the process of transfer learning. So what is transfer learning?
+We talked about transfer learning, you have a neural network that learns to do cat versus dog
+or no learns to do a thousand class classification problem on image. And then you transfer, you chop off few layers and you transfer on the task of
+your own dataset of cat versus dog. What you're transferring is the weights
+that are learned on the ImageNet classification task. And now you're then fine-tuning those weights on the
+specific, personal cat vs. dog dataset you have.
+Now you can do the same thing here. You can transfer as part of the transfer learning process,
+take the data augmentation policies learned on ImageNet,
+and transfer those. You can transfer both the weights and the policies. That's a really super exciting idea I think.
+It wasn't quite demonstrated extremely well here in terms of performance,
+so it got an improvement in performance and so on, but any kind of inspired an idea that's something
+that we need to really think about. How to augment data in an interesting way such that given just a few samples of data?
+We can generate huge data sets in a way that you can then form meaningful complex rich representations from.
+I think that's really exciting in one of the ways that you break open the problem of how do we learn a lot from a little.
+Training deep neural networks with synthetic data. This also really an exciting topic
+Training Deep Networks with Synthetic Data
+that a few groups but especially NVIDIA invested a lot in. Here's a from a CVPR2018 probably my favorite work on this topic
+is they really went crazy and said ok let's mess
+with synthetic data in every way we could possibly can. So on the left there're shown a set of backgrounds
+then there's also a set of artificial objects and you have a car or some kind of object that you're trying to classify.
+So let's take that car and mess with it with every way possible. Apply lighting variation to whatever way possible,
+rotate everything that is crazy so what NVIDIA is really good at is creating realistic scenes.
+And they said okay let's create realistic scenes but let's also go away aboveboard and not do realistic at all.
+Do things that can't possibly happen in reality. And so generally these huge datasets I want
+to train and again achieve quite interesting quite a quite good performance
+on image classification. Of course they're trying to apply  to ImageNet and so on these kinds of tasks,
+you're not going to outperform networks that were trained on ImageNet. But they show that with just a small sample from from those real images
+they can fine tune this network train on synthetic images, totally fake images to achieve state of the art performance.
+Again another way to generate, to get, to learn a lot for very little
+by generating fake worlds synthetically.
+Segmentation Annotation with Polygon-RNN
+The process of annotation which for supervised learning is what you need to do in order to
+train the network, you need to be able to provide ground truth, you need to be able to label whatever the entity that is being learned.
+And so for image classification that's saying what is going on in the image. And part of that was done on ImageNet by
+doing a Google search for creating candidates. Now saying what's going on in the image is a pretty easy tasks.
+Then there is the object detection task of detecting the boundary box.
+And so saying drawing the actual boundary box is a little bit more difficult but it's a couple of clicks and so on.
+Then if we take the finals the probably one of the higher complexity tasks of perception
+of image understanding is segmentation. It's actually drawing either pixel level or polygons
+the outline of particular object. Now if you have to annotate that that's extremely costly.
+So the work with Polygon-RNN is to use recurrent neural networks to make suggestions for polygons.
+It's really interesting. There's a few tricks to form these high-resolution polygons.
+So the idea is it drops in a single point you draw a boundary box around an object.
+You use convolutional neural networks to drop the first point. And then use recurrent neural networks to draw around it.
+And the performance is really good There's a few tricks and this tool is available online.
+It's a really interesting idea again the dream with AutoML is to remove
+the human from the picture as much as possible. With data augmentation remove the human from the
+picture as much as possible for a menial data. Automate the boring stuff and in this case
+the act of drawing a polygon tried to automated as much as possible. The interesting other dimension along which
+DAWNBench: Training Fast and Cheap
+deep learning is recently being trying to be optimized is how do we make deep learning accessible.
+Fast, cheap, accessible. So the DAWNBench from Stanford the benchmark
+the DAWNBench benchmark from Stanford asked formulated an interesting competition,
+which got a lot of attention and a lot of progress. It's saying if we want to achieve 93% accuracy
+on ImageNet and 94% on CIFAR10, let's now compete, that's like the requirement,
+let's now compete how you can do it in the least amount of time and for the least amount of dollars.
+Do the training in the least amount of time and the training in the least amount of dollars like literally dollars you are allowed to spend to do this.
+And fast AI you know it's a renegade awesome renegade group of deep learning researchers
+have been able to train on ImageNet in 3 hours. So this is for training process for 25 bucks.
+So training a network that achieves 93% accuracy for 25 bucks,
+and 94% accuracy for 26 cents on CIFAR10.
+So the key idea that they were playing with is quite simple. But really boils down to messing with the learning rate
+throughout the process of training. So the learning rate is how much you based on the loss function
+based on the error the neural network observes, how much do you adjust the weights. So they found that if they crank up the learning rate
+while decreasing the momentum, which is a parameter of the optimization process,
+and they do it that jointly they're able to make the network learn really fast. That's really exciting and the benchmark itself is also really exciting
+because that's exactly for people sitting in this room that opens up the door to doing all kinds of fundamental deep learning
+problems without the resources of Google DeepMind or OpenAI or Facebook or so on, without computational resources.
+That's important for academia that's important for independent researchers and so on. So GANs. There's been a lot of work on
+BigGAN: State of the Art in Image Synthesis
+generative adversarial neural networks. And in some ways there has not been breakthrough
+ideas in GANs for quite a bit.
+And I think began from Google DeepMind an ability to generate
+incredibly high-resolution images. And it's the same GAN technique,
+so in terms of breakthroughs and innovations but scaled. So the increase the model capacity and increase the the batch size
+the number of images that are fed that are fed to the network. It produces incredible images
+I encourage you to go online and and look at them It's hard to believe that they're generated.
+So that was 2018 for GANs was a year of scaling and parameter tuning
+as opposed to breakthrough new ideas. Video-to-Video Synthesis. This work is from NVIDIA
+Video-to-Video Synthesis
+is looking at the problem so there's been a lot of work on general going from image to image.
+So from a particular image generating another image. So whether it's colorizing an image or just to traditionally define GANs.
+The idea with video to video synthesis that a few people have been working on but NVIDIA took a good step forward is to make the video
+to make the temporal consistency the temporal dynamics part of the optimization process. So make it look not jumpy.
+So if you look here at the comparison the for this particular.
+So the input is the labels on the top left and the output of the of the NVIDIA approach is on the bottom right.
+See it's temper it's very temporarily consistent. If you look at the image to image mapping that's
+that state the pix2pixHD. It's very jumpy, it's not temporally consistent at all.
+And there's some naive approaches for trying to maintain temporal consistency.
+That's in the bottom left. So you can apply this to all kinds of tasks all kinds of video to video mapping.
+Here is mapping it to face edges. Edge detection on faces mapping it to faces.
+Generating faces from just edges. You can look at body pose to actual images.
+As an input to the network you can take the pose of the person and generate the  video of the person.
+Okay semantic segmentation. The problem of perception, so if began with AlexNet and ImageNet
+Semantic Segmentation
+has been further and further developments where the input, the problem is of basic image classification,
+where the input is an image and the output is a classification was going on in that image and the fundamental architecture can be reused
+for more complex tasks like detection like segmentation and so on, interpreting what's going on in the image.
+So these large networks from VGGNet, GoogLeNet, ResNet, SENet, DenseNet
+all these networks are forming rich representations that can then be used for all kinds of tasks whether that task is object detection.
+This here shown is the region based methods where the neural network is tasked the
+convolutional layers make region proposals. So much of candidates to be considered.
+And then there's a step that's determining what's in those different regions and forming boundary boxes around them in a for-loop way.
+And then there is the one-shot method single-shot method where in a single pass
+all of the boundary boxes in their classes generated. And there has been a tremendous amount of work
+in the space of object detection. Some are single shot method, some are region based methods.
+And there's been a lot of exciting work but not more not I would say breakthrough ideas.
+And then we take it to the highest level of perception which is semantic segmentation.
+There's also been a lot of work there the state of the art performance
+is at least for the open source systems is DeepLabv3+ on the PASCAL VOC challenge.
+So semantic segmentation and catch it all up started 2014 with fully convolution neural networks.
+Chopping off the fully connected layers and then outputting the heatmap very grainy very low resolution.
+Then improving that was SegNet performing maxpooling with a breakthrough idea that's reused in a lot of cases is
+Dilated Convolution, Atrous convolutions having some spacing which increases the
+field of view of the convolutional filter. The key idea behind DeepLabv3 that
+is the state of the art is the multi-scale processing.
+Without increasing the parameters the multi scale is achieved by the "atrous rate"
+So taking those atrous convolutions and increasing the spacing. And you can think of the increasing that spacing
+by enlarging the model's field of view. And so you can consider all these different scales of processing and looking at the
+at the layers of features. So allowing you to be able to grasp the greater context
+as part of the upsampling deconvolutional step. And that's what's produced in the state of art performances
+and that's where we have the tutorial on github showing this DeepLab
+architecture trained on CityScapes. CityScapes is a driving segmentation data set
+that is one of the most commonly used for the task of driving scene segmentation.
+Okay on the deep reinforcement learning for.
+AlphaZero & OpenAI Five
+So this is touching a bit a bit on the 2017. But i think the excitement really settled in 2018
+as the work from Google and from OpenAI, DeepMind. So it started in DQN paper from Google DeepMind where they beat a bunch of
+a bunch of Atari games achieving superhuman performance with deep reinforcement learning methods.
+That are taking in just the raw pixels of the game, so the same kind of architecture is able to learn how to beat these,
+how to beat these games. Super exciting idea that kind of has echoes
+of what general intelligence is. Taking in the raw raw information and being able to understand
+the game, the sort of physics of the game sufficient to be able to beat it. Then in 2016 AlphaGo with some supervision and some playing against itself,
+self play, some supervised learning on expert world champ players
+and some self play where it plays against itself was able to beat the top of the world champion at Go.
+And then 2017 AlphaGo Zero a specialized version of Alpha Zero
+was able to beat the AlphaGo with just a few days of training.
+and zero supervision from expert games. So through the process of self play again this is kind of
+getting the human out of the picture more and more and more
+which is why Alpha Zero is probably or this AlphaGo Zero was the demonstration of
+the cleanest demonstration of all the nice progress in deep reinforcement learning. I think if we look at the history of AI
+when you're sitting on a porch hundred years from now sort of reminiscing back Alpha Zero will be a thing that people will
+remember as an interesting moment in time, as a key moment in time.
+And Alpha Zero was applied in 2017 to beat.
+Alpha Zero paper was in 2017 and it was this year played StockFish in chess which is the best engine, chess playing engines
+is able to beat it with just four hours of training of course the four hours this caveat.
+Because four hours for Google DeepMind is highly distributed training. So it's not four hours for an undergraduate student sitting in their dorm room.
+But meaning it was able to self play to very quickly learn to beat the state of the art chess engine.
+And learned to beat the state of the art Shogi engine Elmo.
+And the interesting thing here is you know with perfect information games like chess
+you have a tree and you have all the decisions you could possibly make and so the farther along you look at along that tree presumably the better you do.
+That's how DeepBlue beat Kasparov in the 90s is you just look as far as possible in a down the tree
+to determine which is the action is the most optimal. If you look at the way human grandmasters think
+it certainly doesn't feel like they're like looking down a tree. There's something like creative intuition there's something like
+you can see the patterns in the board, you can do a few calculations but really it's an order of hundreds.
+It's not on the order of millions or billions which is kind of the
+the StockFish the state of the art chess engine approach.
+And Alpha Zero is moving closer and closer closer towards the human grandmaster concerning very few future moves.
+It's able through the neural network estimator that's estimating the quality of the move and the quality of the different, the current quality of the board and
+and the quality of the moves that follow. It's able to do much much less look ahead.
+So the neural network learns the fundamental information just like when a grandmaster looks
+at a board they can tell how good that is. So that's again interesting, it's a step towards
+at least echoes of what human intelligence is in this very structured formal constrained world of chess
+and go and shogi. And then there's the other side of the world that's messy.
+It's still games. It's still constrained in that way but OpenAI has taken on the challenge of playing games
+that are much messier to have this resemblance
+of the real world and the fact that you have to do teamwork, you have to look at long time horizons
+with huge amounts of imperfect information, hidden information, uncertainty.
+So within that world they've taken on the challenge of a popular game Dota 2.
+On the human side of that
+there's the competition the international hosted every year where you know in 2018 the winning team gets 11 million dollars. So it's a very popular very active competition has been
+going on for a few years. They've been improving and it achieved a lot of interesting milestones in 2017.
+Their 1v1 bot beat the top professional Dota 2 player. The way you achieve great things is as you try.
+And in 2018 they tried to go 5v5. The OpenAI team lost two games
+a go against the top Dota 2 players at the 2018 international.
+And of course their ranking here the MMR ranking in Dota 2
+has been increasing over and over but there's a lot of challenges here that make it extremely difficult.
+To beat the human players and this is, you know, in every story rocky
+or whatever you think about losing is essential element of a story that leads to then
+a movie in a book and the greatness. So you better believe that they're coming back next year.
+And there's going to be a lot of exciting developments there. It also, Dota 2 and this particular video game makes it currently
+this really two games that have the public eye in terms of AI taking on his benchmarks.
+So we saw go incredible accomplishment What's next? So last year the associate were the best paper in Europe's.
+There was the heads up Texas No Limit Hold'em AI was able to beat the top level players was completely current
+well not completely but currently out of reach is the general not heads up one versus one but the general team
+Texas No Limit Hold'em here you go. And on the gaming side this dream of Dota 2 now
+that's the benchmark that everybody's targeting. And it's actually incredibly difficult one and some people think would be a long time before we can win.
+And on the more practical side of things the
+2018, start in 2017 has been a year of
+Deep Learning Frameworks
+of the frameworks growing up of maturing
+and creating ecosystems around them. With TensorFlow with the history there dating back a few years
+has really with TensorFlow 1.0 as come
+to be sort of a mature framework PyTorch 1.0 came out 2018 is matured as well.
+And now the really exciting developments in the TensorFlow with the eager execution and beyond
+that's coming out TensorFlow 2.0 in in 2019. So really those two players have made incredible leaps in standardizing deep learning.
+In the fact that a lot of the ideas I talked about today and Monday and we'll keep talking about
+are all have a github repository with implementations in TensorFlow and PyTorch.
+Making extremely accessible and that's really exciting. it's probably best to quote Geoff Hinton the "Godfather" of deep learning,
+2019 and beyond
+one of the key people behind backpropagation said recently on backpropagation is "My view is throw it all away and start again"
+His believes backpropagation is totally broken and an idea that has ancient
+and it needs to be completely revolutionized and the practical protocol for doing that is he said the future
+depends on some graduate student who's deeply suspicious of everything I've said that's probably a good way to end
+the discussion about what the state of the art in deep learning holds because everything we're doing is fundamentally based on
+ideas from the 60s and the 80s and really in terms of
+new ideas, there has not been many new ideas especially the state of the art results that I've mentioned
+are all based on fundamentally, on stochastic gradient descent and backpropagation.
+It's ripe for totally new ideas. So it's up to us to define
+the real breakthroughs and the real state of the art 2019 and beyond. So that I'd like to thank you and
+the stuff is on the website deeplearning.mit.edu.
 
 ----------
 
@@ -546,11 +934,595 @@ paste here
 --54--
 
 -----
-Date:
-Link:
+Date: 2019.01.11
+Link: [# Deep Learning Basics: Introduction and Overview](https://www.youtube.com/watch?v=O5xeyoRL95U)
 Transcription:
 
-paste here
+Welcome everyone to 2019. It's really good to see everybody here
+make it in the cold. This is 6.S094 Deep Learning for Self-Driving Cars.
+It is part of a series of courses on deep learning that we're running throughout this month.
+The website that you can get all the content of videos, the lectures and the code is deeplearning.mit.edu.
+The videos and slides will be made available there along with a github repository
+that's accompanying the course. Assignments for registered students will be emailed later on in the week.
+And you can always contact us with questions, concerns, comments at hcai, human centered AI, at mit.edu.
+So let's start through the basics, the fundamentals. To summarize in one slide,
+Deep learning in one slide
+what is deep learning? It is a way to extract useful patterns from data
+in an automated way with as little human effort involved
+as possible hence to automate it. How? The fundamental aspect that we'll talk about
+a lot is the optimization of neural networks. The practical nature that we'll provide the code
+and so on is that there's libraries that make it accessible
+and easy to do some of the most powerful things in deep learning using Python, TensorFlow & friends.
+The hard part always with machine learning artificial intelligence in general
+is asking good questions and getting good data. A lot of times the exciting aspects of what's the news covers
+and a lot of the exciting aspects of what is published and that the prestigious conferences in an archive,
+in a blog post is the methodology. The hard part is applying the
+methodology to solve real world problems, to solve fascinating interesting problems. And that requires data,
+that requires asking the right questions of that data, organizing that data
+and labeling selecting aspects of that data that can reveal the answers to the questions you ask.
+So why has this breakthrough over the past decade
+of the application of neural networks, the ideas in neural networks? What has happened? What has changed?
+They've been around since the 1940s. And ideas were percolating even before.
+The digitization of information, data. The ability to access data easily in a distributed fashion across the world.
+All kinds of problems have now a digital form. They can be accessed by learning algorithms.
+Hardware; compute, both the Moore's Law of CPU and GPU
+and ASICs, Google's TPU systems, hardware that enables the efficient
+effective large-scale execution of these algorithms.
+Community; people here, people all over the world are being able to work together, to talk to each other,
+to feed the fire of excitement behind machine learning. github and beyond.
+The tooling;  we'll talk about TensorFlow PyTorch and everything in between
+that enables a person with an idea
+to reach a solution in less and less and less time. Higher and higher levels of abstraction
+empower people to solve problems in less and less time with less and less knowledge,
+where the idea and the data become the central point, not the effort, that takes you from an idea to the solution.
+And there's been a lot of exciting progress. Some of which we'll talk about from face recognition to
+the general problem of scene understanding, image classification, the speech, text, natural language processing, transcription,
+translation in medical applications and medical diagnosis. And cars
+being able to solve many aspects of perception in autonomous vehicles with drivable area, lane detection,
+object detection, digital assistance, ones on your phone and beyond the ones in your home.
+Ads, recommender systems from Netflix to search to social, Facebook.
+And of course deep reinforcement learning successes in the playing of games,
+from board games to StarCraft and Dota.
+History of ideas and tools
+Let's take a step back. Deep learning is more than a set of tools
+to solve practical problems. Pamela McCorduck said in 79
+"AI began with the ancient wish to forge the gods." Throughout our history, throughout our civilization, human civilization
+we've dreamed about creating echoes of whatever is in this mind of ours in the machine.
+And creating living organisms from the popular culture in the 1800s
+with Frankenstein to Ex Machina this vision is dream of understanding intelligence and creating intelligence has captivated all of us.
+And deep learning is at the core of that. Because there's aspects of, the learning aspects
+that captivate our imagination about what is possible. Given data and methodology what learning
+learning to learn and beyond how far that can take us.
+And here visualized is just 3% of the neurons and one millionth of the synapses in our own brain.
+This incredible structure that's in our mind and there's only echoes of it. Small shadows of it in our artificial neural networks that we're able to create.
+But nevertheless those echoes are inspiring to us.
+The history of neural networks on this pale blue dot of ours
+started quite a while ago with summers and winters,
+with excitements and periods of pessimism. Starting in the 40s with neural networks and
+the implementation of those neural networks is a perceptron in the 50s; with ideas of backpropagation,
+restricted Boltzmann machine, recurrent neural networks in the 70s and 80s; with convolutional neural networks
+and the MNIST data set with data sets beginning to percolate LSTM, bi-directional RNNs in the 90s;
+and the rebranding and the rebirth of neural networks under the flag of Deep Learning
+and Deep Belief Nets in 2006; the birth of ImageNet, the data set that on which
+the possibilities of a deep learning can bring to the world
+has been first illustrated in the recent years in 2009. And AlexNet the network that an ImageNet performed exactly that
+with a few ideas like dropout and improved neural networks over time every year by year
+improving the performance of neural networks. In 2014 the idea of GANs, the Yann LeCun called
+the most exciting idea of the last 20 years, the Generative Adversarial Networks, the ability to with very little supervision
+generate data, to generate ideas after forming representation of those. From the understanding from the high-level
+abstractions of what is extracted in the data be able to generate new samples. Create, the idea of being able to create
+as opposed to memorize is really exciting. And on the applied side in 2014 with DeepFace
+the ability to do face recognition. There's been a lot of breakthroughs on the computer vision front
+that being one of them. The world was inspired, captivated in 2016
+with AlphaGo, and in 17 with AlphaZero beating with less and less and less effort
+the best players in the in the world at Go. The problem that for mostly the history of
+artificial intelligence thought to be unsolvable. And new ideas with capsule networks and in this year, the year 2018
+was the year of natural language processing. A lot of interesting breakthroughs of Google's Bert and others that we'll talk about
+breakthroughs on ability to understand language, understand speech
+and everything including generation that's built all around that.
+And there's a parallel history of tooling starting in the 60s with the perceptron and the wiring diagrams.
+They're ending with this year with PyTorch 1.0 and TensorFlow 2.0.
+These really solidified, exciting, powerful ecosystems of tools
+that enable you to do very, to do a lot with very little effort.
+The sky is the limit, thanks to the tooling.
+Simple example in TensorFlow
+So let's then from the big picture taken to the smallest. Everything should be made as simple as possible.
+So let's start simple with a little piece of code before we jump into the details
+and a big run through everything that is possible in deep learning. At the very basic level with just a few lines of code
+really six here, six little pieces of code, you can train a neural network that understand
+what's going on in an image. The classic, that I will always love MNIST data set,
+the handwritten digits where the input to a neural network or machine learning system is a picture of a handwritten digit
+and the output is the number that's in that digit.
+It's as simple as in the 1st Step: import a library TensorFlow.
+2nd step: import the data set MNIST. 3rd step, like Lego bricks, stack on top of each other
+the neural network layer by layer, with a hidden layer, an input layer and output layer.
+Step 4 train the model as simple as a single line: model fit. Evaluate the model in Step 5 on the testing data set.
+And that's it. In Step 6 you're ready to deploy. You're ready to predict what's in the image.
+It's simple as that. And much of this code obviously much more complicated or
+much more elaborate and rich and interesting and complex we'll be making available on
+github on our repository that accompanies these courses. Today we'll release the first tutorial on driver scene segmentation.
+I encourage everybody to go through it. And then on the tooling side in one slide,
+TensorFlow in one slide
+before we dive into the neural networks and deep learning. The tooling side amongst many other things
+TensorFlow is a deep learning library, an open source library from Google. The most popular one today.
+The most active with a large ecosystem. It's not just something you import in Python
+and to solve some basic problems. There's an entire ecosystem of tooling. There's different levels of APIs.
+Much of what we'll do in this course will be the highest level API with Keras. But there's also the ability to run in the browser with TensorFlow.js,
+on the phone with TensorFlow Lite. In the cloud without any need to have a computer hardware,
+anything any of the libraries set up on your own machine, you can run all the code that we're providing in the cloud
+with Google Colab, Colaboratory. And the optimized ASICs hardware that Google is
+optimized for TensorFlow with their TPU-Tensor Processing Unit ability to visualize tensorboard models that provide TensorFlow Hub.
+And there's just, this is an entire ecosystem including most importantly I think documentation of blogs
+that make it extremely accessible to understand the fundamentals of the tooling
+that allow you to solve the problems from natural language processing to computer vision to GANs-Generative Adversarial Networks and
+everything in between with deeper enforcement learning and so on. So  that's why we were excited to work both in theory in this course,
+in this series of lectures, and in the tooling, in the applied side of TensorFlow.
+It really makes it exceptionally these ideas exceptionally accessible. So deep learning at the core is the ability to form
+Deep learning is representation learning
+higher and higher level of abstractions of representations in data and raw patterns.
+Higher and higher levels of understanding of patterns.
+And those representations are extremely important
+and effective for being able to interpret data.
+Under certain representations data is trivial to understand, cat versus dog,
+blue dot versus green triangle. Under others it's much more difficult.
+In this task drawing a line under polar coordinates is trivial,
+under Cartesian coordinates is very difficult, well impossible to do accurately.
+And that's a trivial example of a representation. So our task with deep learning, with machine learning in general
+is forming representations that map the topology. This, the whatever the topology, the rich space of the problem
+that you're trying to deal with of the raw inputs, map it in such a way
+that the final representation is trivial to work with,
+trivial to classify, trivial to perform regression,
+trivial to generate new samples of that data. And that representation of higher and higher levels of representation
+is really the dream of artificial intelligence.
+That is what understanding is, making the complex simple, like
+like Einstein back in a few slides ago said. And that with Juergen Schmidhuber and whoever else said it, I don't know,
+that's been the dream of all of science in general.
+Of the history of science is the history of compression progress, of forming simpler
+and simpler representations of ideas.
+The models of the universe of our solar system
+with the earth at the center of it is much more complex to perform to do physics on
+then a model where the Sun is at the center. Those higher and higher levels of simple representations
+enable us to do extremely powerful things. That has been the dream of science and the dream of artificial intelligence.
+Why deep learning (and why not)
+And why deep learning? What is so special about deep learning in the grander
+world of machine learning and artificial intelligence? It's the ability to more and more remove the input of human experts,
+remove the human from the picture, the human costly inefficient effort of human beings in the picture.
+Deep learning automates much of the extraction from the raw
+gets us closer and closer to the raw data without the need of human involvement, human expert involvement.
+Ability to form representations from the raw data as opposed to having a human being need to extract features
+as was done in the 80s and 90s in the early aughts to extract features
+with which then the machine learning algorithms can work with. The automated extraction of features enables us to work with large and larger datasets
+removing the human completely except from the supervision labeling step at the very end.
+It doesn't require the human expert. But at the same time
+there is limits to our technologies. There's always a balance between excitement and disillusionment.
+The Gartner hype cycle, as much as we don't like to think about it,
+applies to almost every single technology. Of course the magnitude of the peaks and the troughs is different.
+But I would say we are at the peak of inflated expectation with deep learning.
+And that's something we have to think about as we talk about some of the ideas and exciting possibilities of the future.
+And with self driving cars that we'll talk about in future lectures in this course we're at the same. In fact we're little bit beyond the peak.
+And so it's up to us. This is MIT and engineers and the people working on this in the world
+to carry us through the trough, to carry us through the future as the ups and downs
+of the excitement progresses forward
+into the plateau of productivity. Why else not deep learning?
+If we look at real world applications especially with humanoid robotics, robotics manipulation
+and even yes autonomous vehicles, majority aspects of the autonomous vehicles
+do not involve to an extensive amount machine learning today.
+The problems are not formulated as data driven learning, instead they're model-based optimization methods
+that don't learn from data over time. And then from the speakers that these couple of weeks
+we'll get to see how much machine learning starting to creep in. But the examples shown here with the Boston
+with amazing humanoid robotics in Boston Dynamics to date almost no machine learning has been used
+except for trivial perception. The same with autonomous vehicles. Almost no machine learning and deep learning has been used
+except with perception. Some aspect of enhanced perception from the visual texture information.
+Plus what's becoming, what's starting to be used a little bit more is the use of recurrent neural networks
+to predict the future, to predict the intent of the different players in the scene
+in order to anticipate what the future is. But these are very early steps. Most of the success of EC today the 10 million miles away Moses achieved
+has been attributed mostly to non machine learning methods.
+Why else not deep learning? Here's a really clean example of unintended consequences
+of ethical issues. We have to really think about. When an algorithm learns from data
+based on an objective function, a loss function, the power, the consequences of an algorithm that
+optimizes that function is not always obvious. Here's an example of a human player playing the game
+of coast runners with a, it's a boat racing game where the task is to go
+around the racetrack and try to win the race. And the objective is to get as many points as possible.
+There are three ways to get points. The finishing time, how long it took you to finish. The finishing position, where you were in ranking.
+And picking up cone called turbos those little green things along the way.
+They give you points. Okay simple enough. So we designed an agent in this case an RL Agent
+that optimizes for the rewards. And what we find on the right here,
+the optimal the agent discovers that the optimal actually has nothing to do with finishing the race or the ranking.
+They can get much more points by just focusing on the turbos and collecting those
+those little green dots because they regenerate. So if you go in circles over and over and over slamming into the wall
+collecting the green turbos. And that's a very clear example of
+a well-reasoned, formulated objective function
+that has totally unexpected consequences. At least without sort of considering
+considering those consequences ahead of time. And so that shows the need for AI safety
+for a human in the loop of machine learning. That's why not deep learning exclusively.
+Challenges for supervised learning
+The challenge of deep learning algorithms, of deep learning applied
+is to ask the right question and understand what the answers mean.
+You have to take a step back and look at the difference,
+the distinction, the levels, degrees of what the algorithm is accomplishing.
+For example image classification is not necessarily scene understanding. In fact it's very far from scene understanding.
+Classification may be very far from understanding. And the datasets can vary drastically
+across the different benchmarks in the datasets used. The professionally done photographs versus
+synthetically generated images versus real world data. And the real world data is where the big impact is.
+So often times the one doesn't transfer to the other. That's the challenge of deep learning.
+Solving all of these problems of different lighting variations, impose variation, inter class variation
+all the things that we take for granted human beings with our incredible perception system. All have to be solved in order to gain
+greater and greater understanding of a scene. And all the other things we have to close the gap
+on that we're not even close to yet. Here's an image from Andrej Karpathy blog from a few years ago
+of former President Obama's stepping on a scale. We can classify, we can do semantic segmentation
+of the scene, we can do object detection, we can do a little bit of 3d reconstruction from a video version of the scene.
+But we can't do well is all the things we take for granted. We can't tell the images in the mirrors versus in reality as different.
+We can't deal with the sparsity of information. Just a few pixels on President Obama's face
+we can still identify Mr.President. The 3D structure of the scene
+that there's a foot on top of a scale that there's human beings behind
+with from a single image. Things we can trivially do using all the common-sense semantic knowledge that we have
+cannot do the physics of the scene that there's gravity. And the biggest thing,
+the hardest thing is what some people's minds. And what some people's minds about what's on other people's minds and so on.
+Mental models of the world being able to infer what people are thinking about. Be able to infer there's been a lot of exciting work here at MIT about
+what people are looking at. But we're not even close to solving that problem either. But what they're thinking about we're not even
+we haven't even begun to really think about that problem. And we do trivially as human beings.
+And I think at the core of that I think I'm harboring on the visual perception problem.
+Because it's one we take really for granted as human beings especially when trying to solve real world problems,
+especially when trying to solve autonomous driving is we've have 540 million years of data for visual perception
+so we take it for granted. We don't realize how difficult it is. And we can't focus all our attention on this recent development
+of a hundred thousand years of abstract thought being able to play chess being able to reason.
+But the visual perception is nevertheless extremely difficult. At every single layer of what's required to perceive, interpret
+and understand the fundamentals of a scene. In a trivial way to show that is just all the ways you can mess
+with these image classification systems by adding a little bit of noise. The last few years there's been a lot of papers a lot of work
+to show that you can mess with these systems by adding noise. Here with 99% accuracy predicted dog
+add a little bit of distortion you immediately the system predicts with 99% accuracy that's an ostrich.
+And you can do that kind of manipulation with just a single pixel. So that's just a clean way to show the gap between image classification
+on an artificial data cell like ImageNet and real world perception that has to be solved,
+especially for life critical situations like autonomous driving.
+I really like this Max Tegmark's visualization of this rising sea
+of the landscape of human competence from Hans Moravec.
+And this is the difference as we progress forward.
+And we discussed some of these machine learning methods is there is the human intelligence, the general human intelligence.
+Let's call Einstein here. That's able to generalize over all kinds of problems
+over all kinds of from the common sense to the incredibly complex. And then there is the way we've been doing
+especially data-driven machine learning, which is Savant, which is specialized intelligence.
+Extremely smart at a particular task but not being able to transfer except in the very narrow
+neighborhood on this landscape of different of art, cinematography, book writing at the peaks
+and chess, arithmetic and theorem proving and vision at the at the bottom in the lake.
+And there's this rising sea as we saw a problem after problem the question can the methodology in and the approach of
+deep learning of everything we're doing now keep the sea rising or do fundamental breakthroughs
+have to happen in order to generalize and solve these problems. And so from the specialized where the successes are
+the systems are essentially boiled down to given  the dataset
+and given the ground truth for that data set, here's the apartment cost in the Boston area
+be able to input several parameters and based on those parameters predict the apartment cost.
+That's the basic premise approach behind the  successful
+supervised deep learning systems today. If you have good enough data, that's good enough ground truth
+that can be formalized, we can solve it. Some of the recent promise that we will do an entire series of lectures
+in the third week on deep reinforcement learning show that from raw sensory information with very little annotation
+to self play whether systems learn without human supervision
+are able to perform extremely well in these constrained context. The question of a video game.
+Here pong to pixels being able to perceive the raw pixels of this pong game as raw input
+and learn the fundamental quote unquote physics of this game. Understand how it is this game behaves
+and how to be able to win this game. That's kind of a step toward general purpose artificial intelligence.
+But it is a very small step because it's in a simulated very trivial situation.
+That's the challenge, that's before us with less and less human supervision be able to solve huge real-world problems.
+From the top supervised learning where majority of the teaching
+is done by human beings throughout the annotation process, through labeling all the data, by showing different examples
+and further and further down to semi-supervised learning, reinforcement learning and supervised learning
+removing the teacher from the picture. And making that teacher extremely efficient when is needed.
+Of course data augmentation is one way we'll talk about.
+So taking a small number of examples and messing with that set of examples, augmenting that set of examples,
+through trivial and through complex methods of cropping, stretching, shifting and so on.
+Including to generative networks modifying those images to grow a small data set into a large one
+to minimize, to decrease further and further the input that's a human is
+the input of the human teacher. But still that's quite far away from the incredibly efficient
+both teaching and learning that humans do. This is a video and there's many of them online for the first time a human baby walking.
+We learn to do this you know, it's one shot learning.
+One day you're on four, all fours, and the next day your two hands up
+and then you figure out the rest. One shot. Well you can kind of ish, you can kind of play around with it.
+But the point is you extremely efficient. With only a few examples we are able to learn the fundamental aspect of
+how to solve a particular problem. Machines in most cases need thousands, millions
+and sometimes more examples depending on the life critical nature of the application.
+The data flow of supervised learning systems is there's input data,
+there's a learning system and there is output. Now in the training stage for the output we have the ground truth.
+And so we use that ground truth to teach the system. In the testing stage when it goes out into the wild there's new input data over
+which we have to generalize with the learning system, we have to make our best guess. In the training stage that the processes with neural networks is, given
+the input data for which we have the ground truth, pass it through the model, get the prediction. And given that we have the ground truth
+we can compare the prediction to the ground truth, look at the error. And based on that error adjust the weights.
+The types of predictions we can make is regression and classification. Regression is continuous and classification is categorical.
+Here if we look at whether the regression problem says
+what is the temperature going to be tomorrow. And the classification formulation of that problem says is it going to be hot or cold
+or some threshold definition of what hot or cold is. That's regression and classification.
+And the classification front it can be multi class which is the the standard formulation. We are tasked with saying,
+what is, there's only a particular entity can be only be one thing,
+and then there's multi-label or a particular entity can be multiple things. And overall the input to the system can be not just a single
+sample of the particular dataset and the output doesn't have to be a particular sample of the ground truth dataset.
+They can be a sequence, sequence to sequence, a single sample to a sequence, a sequence to the sample
+and so on. From video captioning or it's video captioning to translation to
+natural language generation to of course the one-to-one computing to general computer vision.
+Okay that's the bigger picture. Let's step back from the big to the small to a single neuron inspired by our own brain,
+the biological neural networks in our brain, in the computational block that is behind a lot of the intelligence in our mind.
+The artificial neuron has inputs with weights on them plus a bias and activation function
+and an output. It's inspired by this thing as I showed it before. Here visualizes the Thalamocortial system
+with three million neurons and 476 million synapses. The full brain has a hundred billion billion neurons
+and a thousand trillion synapses.
+ResNet and some of the other state-of-the-art networks have tens hundreds of millions
+of edges of synapses. The human brain has ten million times more synapses
+than artificial neural neural networks and there's other differences. The topology is asynchronous
+and not constructed in layers. The learning algorithm for artificial neural networks is backpropagation
+for our biological networks we don't know.
+That's one of the mysteries of the human brain. There's ideas but we really don't know. A power consumption human brains are much more efficient
+than you know networks that's one of the problems that we're trying to solve and ASICs are starting to begin to solve some of these problems.
+And the stages of learning in the biological neural networks you really never stop learning.
+You're always learning, always changing both on the hardware and a software. In artificial neural networks often times there's a training stage,
+there's a distinct training stage and there's a distinct testing stage when you release the thing in the wild. Online learning is an exceptionally difficult thing
+that we're still in the very early stages of.
+This neuron takes a few inputs, the fundamental computational block behind neural networks,
+takes a few inputs, applies weights which are the parameters that are learned, sums them up, puts it into a nonlinear activation function after adding the bias,
+also learned parameter and gives an output. And the task of this neuron is to get excited
+based on certain aspects of the layers, features inputs that follow before.
+And in that ability to discriminate get excited by certain things
+and get not excited about other things hold a little piece of information of whatever level of abstraction it is.
+So when you combine many of them together you have knowledge.
+Different levels of abstractions form a knowledge base that's able to represent, understand or even act on a particular set of raw inputs.
+And you stack these neurons together in layers both in width and depth increasing further on.
+And there's a lot of different architectural variants. But they begin at this basic fact that with just a single hidden layer of a neural network.
+The possibilities are endless. You can approximate an any arbitrary function.
+A neural network with a single hidden layer can approximate any function. That means any other neural network with multiple layers and so on
+is just interesting optimizations of how we can discover those functions.
+The possibilities are endless. And the other aspect here is the mathematical underpinnings
+of neural networks with the weights and the differentiable activation functions
+are such that in a few steps from the inputs to the outputs
+are deeply parallelizable. And that's why the other aspect on the compute
+the parallelizability of neural networks is what enables some of the exciting
+advancements on the graphical processing unit the GPUs
+and with ASICs TPUs. The ability to run across, across machines,
+across GPU units in the very large distributed scale
+to be able to train and perform inference on neural networks. Activation functions.
+Key low-level concepts
+These activation functions put together are tasked with optimizing a loss function.
+For regression that loss function is mean squared error usually, there's a lot of variance.
+And for classifications cross entropy loss. In the cross entropy loss the ground truth is 0,1. In the mean squared error it's a real number.
+And so with the loss function and the weights and the bias and the activation functions propagating forward to the network from the input to the output.
+Using the loss function we use the algorithm of backpropagation, which I did an entire lecture last time,
+to adjust the weights. To have the air flow backwards to the network
+and adjust the weights such that once again the weights that were responsible for
+producing the correct output are increased in the weights that were responsible for
+producing the incorrect output are decreased The forward pass gives you the error.
+The backward pass computes the gradients and based on the gradients the optimization algorithm combine a learning rate adjust the weights.
+The learning rate is how fast the network learns. And all of this is possible on the numerical computation
+side with automatic differentiation. The optimization problem given those gradients
+that are computed and enough backward flow to the network of the gradients is Stochastic Gradient Descent.
+There's a lot of variants of this optimization algorithms that solve various problems from Dying ReLUs to Vanishing Gradients.
+There's a lot of different parameters and momentum and so on.
+That's really just boil down to all the different problems that are It is part of a series of courses This is 6.S094 deep learning for self-driving cars. making in the cold. It's really good to see everybody here solved with non linear optimization.
+Mini-batch size. What is the right size of a batch? Or really it's called mini batch when it's not the entire dataset
+to you based on which to compute the gradients to adjust the learning. Do you do it over a very large amount?
+Or do you do it with stochastic gradient descent for every single sample of the data?
+If you listen to Yann LeCun and a lot of recent literature is small minibatch sizes are good.
+He says "Training with large minibatches is bad for your health. More importantly, it's bad for your test error.
+Friends don't let friends use minibatches larger than 32" Larger batch size means more computational speed
+because you don't have to update the weights often. But smaller batch size empirically produces better generalization.
+The problem we're often on the broader scale of learning trying to solve is overfitting.
+And the way we solve it is the regularization. We want to train on a dataset without memorizing to an extent
+that you only do well in that trained dataset. So you want it to be generalizable into future
+into into into the future things that you haven't seen yet. So obviously this is a problem for small datasets
+and also for sets of parameters that you choose. Here shown an example of a sine curve trying to fit
+particular data versus a 9-degree polynomial, trying to fit a particular set of data with the blue dots.
+The 9-degree polynomial is overfitting. It does very well for that particular set of samples
+but does not generalize well in the general case And the trade-off here is, as you train further and further
+at a certain point there's a deviation between the
+the error being decreased to 0 on the training set
+and going to 1 on the test set. And that's the balance we have to strike.
+That's done with the validation set. So you take a piece of the training set for which you have the ground truth
+and you call it the validation set in set inside and you evaluate the performance of your system on that validation set.
+And after you notice that your training network is performing poorly
+on the validation set for prolonged period of time, that's when you stop. That's early stoppage.
+Basically it's getting better and better and better and then there's some period of time, there's always noise of course, and after some period of time is definitely getting worse.
+That's we need to stop there. So that provides an automated way to discovering when need to stop.
+And there's a lot of other regularization methodologies. Of course as I mentioned dropout is very interesting approach for.
+And it's variance of simply with a certain kind of probability
+randomly remove nodes in the network, both the incoming and outgoing edges,
+randomly throughout the training process. And there's normalization.
+Normalization is obviously always applied at the input.
+So whenever you have dataset as different lighting conditions different variations
+they get different sources and so on, you have to all kind of put on the same level ground.
+So that we're learning the fundamental aspects of the input data as opposed to the some less relevant semantic information
+like lighting variation and so on. So we usually always normalize. For example if it's a computer vision with pixels from 0 to 255,
+you always normalize to 0 to 1 or -1 to 1 or normalize based on the mean and the standard deviation.
+That's something you should almost always do. The thing that enabled a lot of breakthrough performances
+in the past few years is batch normalization. It's performing its kind of same normalization later on in the network,
+looking at the inputs to the hidden layers.
+And normalizing based on the batch of data which on which  yo're training normalized based on mean and the standard deviation.
+As batch normalization with batch renormalization fixes a few of the challenges
+which is given that you're normalizing during the training
+on the minibatches in the training data set, that doesn't directly map to the inference station the testing.
+And so it allows, by keeping a running average, it, across both training and testing,
+you're able to asymptotically approach a global normalization. So this idea across all the weights
+not just the inputs across all the weights you normalize the world in the all the levels of abstractions you forming.
+And batch renorm solves a lot of these problems doing inference. And there's a lot of other ideas from layer to weight to
+instance normalization to group normalization. And you can play with a lot of these ideas in the TensorFlow playground.
+On playground.tensorflow.org that I highly recommend. So now let's run through a bunch of different ideas
+Higher-level methods
+some of which we'll cover in future lectures. And what is all of this in this world of deep learning
+from computer vision to deep reinforcement learning to the different small level techniques to the large natural language processing?
+So convolutional neural networks, the thing that enables image classification. So these convolution of filters slide over the image and
+able to take advantage of the the spatial invariance of visual information that a cat in the top-left corner is the same as features associated with cats in the top right corner and so on.
+Images are just a set of numbers and our task is to take that image and produce a classification
+and use the spatial in the spatial variance of visual information to make that
+to slide a convolution filter across the image. And learn that filter as opposed to
+as opposed to assigning equal value to features that are present in various
+at various regions of the image. And stacked on top feature these convolution filters can form
+high-level abstractions of visual information and images with AlexNet, as I've mentioned, and the ImageNet data set and challenge
+captivating the world of what is possible with neural networks have been further and further improved
+superseding human performance with of special note
+GoogLeNet with the inception module. There's different ideas that came along ResNet with the residual blocks.
+And SENet most recently. So the object detection problem is a step the next step
+in the visual recognition. So the image classification is just taking the entire image saying what's in the image.
+Object detection localization is saying find all the objects of interest
+in the scene and classify them. The region based methods like shown here Faster R-CNN
+takes the image, uses convolution neural network to extract features in that image
+and generate region proposals. Here's a bunch of candidates that you should look at. And within those candidates, it classifies what they are
+and generates a four parameters the bounding box
+that thing that captures that thing. So object detection localization ultimately boils down to a bounding box,
+a rectangle with a class. That's the most likely class that's in that bounding box.
+And you can really summarize region based methods as you generate the region proposal
+here little pseudocode and do a for loop over the over the region proposals
+and perform detection on that for loop. The Single-Shot methods remove the for loop.
+There's a single pass through, you had a bunch of, take a for example here shown SSD.
+Take a pretrained neural network that's been trained to do image classification, stack a bunch of convolutional layers on top,
+from each layer extract features that are then able to generate in a single pass
+classes boundary boxes, boundary box predictions and the class associate of this boundary box.
+The trade off here, this is where the popular yellow v123come from
+the trade-off here oftentimes is in performance and accuracy.
+So single-shot methods are often less performant
+especially on in terms of accuracy on objects that really far away or rather objects that are small in the image or really large.
+Then the next step up in visual perception, visual understanding is semantic segmentation.
+That's where the tutorial that we presented here on github is covering. Semantic segmentation is the task of now as opposed to a boundary box
+or the classify the entire image or detecting the object is a boundary box is assigning at a pixel level
+the boundaries of what the object is. Every single, in full scene classic full scene segmentation classifying,
+what every single pixel which class that pixel belongs to. And the fundamental aspect there's
+we'll cover a little bit or a lot more on Wednesday is taking a image classification network,
+chopping it off at some point. And then having which is performing the encoding step
+of compressing a representation of the scene. And taking that a representation with a decoder
+upsampling in a dense way.
+So taking that representation upsampling the pixel level classification.
+So that upsampling has a lot of tricks that we'll talk through. They are interesting but ultimately boils down to
+the encoding step of forming a representation what's going on on the scene and then decoding step that upsamples
+the pixel level annotation, classification of all the individual pixels. And as I mentioned here the underlying idea applied
+most extensively most successfully in computer vision is transfer learning.
+Most commonly applied way of transfer learning is taking a pre-trained your network
+like ResNet and chopping it off at some point. It's chopping off the fully connected layers,
+some aspects some parts of the layers and then taking a data set,
+a new data set and retraining that network. So what is this useful for?
+For every single application computer vision in industry. When you have a specific application
+like you want to build a pedestrian detector. If you want to build a pedestrian detector and you have a pedestrian dataset,
+it's useful to take ResNet trained on ImageNet or COCO
+And taking that network, chopping off some of the layers trained in the general case of vision perception. and then retrain it on your specialized pedestrian dataset.
+And depending on how large the dataset is the sum of the previous layers that from the pre-training network should be fixed,
+frozen. And sometimes not depending on how large the data is. And this is extremely effective in computer vision
+but also in audio speech and NLP.
+And so as I mentioned with the pre-trained networks
+they are ultimately forming representations of the database on which classifications the regression is made,
+prediction is made. But a cleanest example of this is the auto encoder
+of forming representations in an unsupervised way. The input is an image and the output is that exactly same image.
+So why do we do that? Of you add a bottleneck in the network
+where there is where the network is narrower at the
+in the middle than it is on the inputs and the outputs. It's forced to compress the data down into meaningful representation.
+That's what the auto encoder does. You're training it to reproduce the output
+and reproduce it with a latent representation that is smaller than the original raw data.
+That's a really powerful way to compress the data. It's used for removing noise and so on. But it's also just a effective way to demonstrate a concept.
+It can also be used for embeddings. We have a huge amount of data and you want to
+form a compressed efficient representation of that data.
+Now in practice, this is completely unsupervised. In practice, if you want to form an efficient useful representation of the data,
+you want to train it in a supervised way. You want to train it on a discriminative task
+where you have labelled data. And the network is trained to identify cat versus dog.
+Network that's trained in the discriminative way on an annotated supervised learning way
+is able to form better representation. But nevertheless the concept stands. And one way to visualize these concepts is the
+the tool that I really love projector.tensorflow.org, is a way to visualize these different representations
+these different embeddings. You should definitely play with and you can insert your own data.
+Okay going further and further in this direction of unsupervised and forming representations is
+generative adversarial networks. From these representations being able to generate new data. And the fundamental methodology of GANs is to have two networks.
+One is the generator, one is the discriminator and they compete against each other in order to, for the generator
+to get better and better and better at generating realistic images.
+The generator's tasks from noise to generate images based on a certain representation that are realistic.
+And the discriminator is the critic that has to discriminate
+between real images and those generated by the generator. And both get better together.
+The generator gets better and better at generating real images to trick the discriminator
+and the discriminator gets better and better at telling the difference in real and fake
+until the generator is able to generate some incredible things.
+So shown here in by the work with NVIDIA, mean the ability to generate realistic faces
+as skyrocketed in the past 3 years. So these are samples of celebrities photos that have been able to generate.
+Those are all generated by GAN. There's ability to generate temporally consistent video over time
+with GANs. And then there's the ability shown at the bottom right and Nvidia I'm sure
+I'm sure also we'll talk about the pixel level from semantic segmentation being. So from the semantic pixel segmentation on the right
+be able to generate completely the scene on the left.
+All the raw rich high-definition pixels on the left.
+The natural language processing world same, forming representations, forming embeddings
+with Word2Vec, ability to from words to form representation
+that are efficiently able to then be used to reason about the words.
+The whole idea of forming representation about the data is taking a huge, you know, vocabulary over a million words.
+You want to be able to map it into a space
+are in a Euclidean sense in Euclidean distance between words are
+semantically far apart from each other as well. So things that are similar are together in that space.
+And one way of doing that with skip grams for example is looking at a source text
+and turning into a large body of text, into a supervised learning problem
+by learning to map, predict from the words from a particular word to all its neighbors.
+So training network on the connections that are commonly seen in natural language.
+And based on those connections we're able to know which words are related to each other. Now the main thing here is.
+Now I won't get into too many details but the the main thing here with the input vector representing the words
+and the output vector representing the probability that those words are connected to each other.
+The main thing both are thrown away in the end the main thing is the middle, the hidden layer
+That representation gives you the embedding. That represent these words in such a way where in the Euclidean space
+the ones that are close together semantically. Are semantically together in the ones that are not are semantically far apart.
+And natural language and other sequence data,
+text, speech, audio, video relies on recurrent neural networks.
+Recurrent neural networks are able to learn temporal data, temporal dynamics in the data.
+Sequence data and are able to generate sequence data. The challenge is that they're not able to learn long-term context.
+Because when unrolling a neural network it's trained by unrolling and doing backpropagation
+without any tricks the backpropagation of the gradient fades away very quickly. So you're not able to memorize the context
+in a longer form of the sentences. Unless there's extensions here with LSTMs that are use long term dependency
+is captured by allowing the network to forget information,
+allow it to freely pass through information in time.
+So what to forget what to remember and every time decide what to output.
+And all of those aspects have gates that are all trainable with sigmoid and tanh functions.
+Bi-directional real recurrent neural networks from the 90s is an extension often used for providing
+context in both direction. So recurrent neural networks simply define is
+learning representations what happened in the past. Now in many cases you're able, it's not real-time operation in that
+you're able to also look into the future. You look into the data that falls out of the sequence. So benefits you do a forward pass to the network
+beyond the current and then back.
+The encoder-decoder architecture in recurrent neural networks used very much when the sequence on the input
+and the sequence and the output are not relied to be of the same length. The task is to first with the encoder network encode everything
+that's came, everything on the input sequence. So this is useful for machine translation for example.
+So encoding all the information the input sequence in English and then in the language you translating to
+given that representation, keep feeding it into the decoder recurrent neural network to generate the translation.
+The input might be much smaller or much larger than the output. That's the encoder decoder architecture.
+And then there's improvements. Attention is the improvement on this encoder-decoder architecture
+that allows you to as opposed to taking the input sequence, forming a representation of it and that's it.
+It allows you to actually look back at different parts of the input. So not just relying in the on the single vector representation
+of all the entire input.
+And a lot of excitement has been around the idea as I mentioned
+some of the dream of artificial intelligence and machine learning in general has been to remove the human more and more and more from the picture.
+Being able to automate some of the difficult tasks. So AutoML from Google and just the general concept of
+neural architecture search, NasNet. The ability to automate the discovery of
+parameters of a neural network. And the ability to discover the actual architecture
+that produces the best result. So with neural architecture search you have basic
+basic modules similar to the ResNet modules, and with a recurrent neural network
+you keep assembling and network together. And assembling in such a way that it minimizes
+the loss of the overall classification performance. And it's shown that you can then construct
+a neural network that's much more efficient and much more accurate than state of the art
+on classification tasks like ImageNet here shown with a plot erved at the very least competitive with the state of the art and SCnet.
+It's super exciting that as opposed to like I said stacking lego pieces yourself, the final result is essentially you step back
+and you say here's I have a data set with the with the labels with the ground truth
+which is what Google the dream of Google AutoML is have the data set you tell me what kind of neural network
+will do best on this data set. And that's it. so all you bring is the data It constructs the network through this neural architecture search
+and it returns to you the model and that's it. It solves, it makes it possible to solve the exception
+you know, solve many of the real world problems that essentially boil down to I have a few classes
+I need to be very accurate on here's my data set. And then I convert the problem of a deep learning researcher
+to the problem of maybe what's traditionally what's more commonly called the sort of a data science
+engineer where the task is as I said focuses on what is the right question
+and what is the right data to solve that question. And deep reinforcement learning taking further steps
+along the path of decreasing human input. Deep reinforcement learning is the task of an agent
+to act in the world based on the observations of the state and the rewards received in that state,
+knowing very little about the world and learning from the very sparse nature of the reward.
+Sometimes only when you in the gaming context when you win or lose. Or in the robotics contest when you successfully accomplish a task or not
+with a very sparse award are able to learn how to behave in that world. Here with with cats learning how the Bell maps to the food
+and a lot of the amazing work at open AI and deep mind about the robotics manipulation and navigation
+through self play in simulated environments. And of course the best of our own deep reinforcement learning
+competition with deep traffic that all of you can participate. And I encourage you to try to win that with no supervised knowledge.
+No human supervision through sparse rewards from the simulation
+or through self play constructs able to learn how to operate successfully in this world.
+Toward artificial general intelligence
+And those are the steps we're taking towards general towards artificial general intelligence.
+This is the exciting from the breakthrough ideas
+that we'll talk about on Wednesday natural language processing to generative adversarial networks.
+They're able to generate arbitrary, data high resolution data, create data. Really from this understanding of the world
+to deep reinforcement learning being able to learn how to act in the world, very little input from human supervision
+is taking further and further steps and there's been a lot of exciting ideas going by different names. Sometimes misused,
+sometimes overused, sometimes misinterpreted of transfer learning,
+meta learning and the hyper parameter architecture search basically removing a human as much as possible
+from the menial tasks and involving a human only on the fundamental side as I mentioned with the racing boat on the ethical side.
+And the things that us humans at least pretend to be quite good at
+which is understanding the fundamental big questions, understanding the data that empowers us to solve real world problems,
+and understand the ethical balance that needs to be struck in order to solve those problems. Well on the bottom right I show that's our job here in this room
+our job for all the engineers in the world to solve these problems and progress forward through the current summer
+and through the winter, if it ever comes. So with that I'd like to thank you and you can get the videos, code and so on
+online deeplearning.mit.edu. Thank you very much guys.
 
 ----------
 
@@ -558,11 +1530,626 @@ paste here
 --53--
 
 -----
-Date:
-Link:
+Date: 2018.12.28
+Link: [# Tuomas Sandholm: Poker and Game Theory | Lex Fridman Podcast #12](https://www.youtube.com/watch?v=b7bStIQovcY)
 Transcription:
 
-paste here
+the following is a conversation with Thomas sent home he's a professor same you and co-creator of lebra's which is
+the first AI system to be top human players in the game of heads-up No Limit Texas Hold'em he has published over 450
+papers on game theory and machine learning including a best paper in 2017 at nips now renamed to new reps which is
+where I caught up with him for this conversation his research and companies have had wide reaching impact in the
+real world especially because he and his group not only proposed new ideas but
+also build systems to prove that these ideas work in the real world this
+conversation is part of the MIT course on artificial general intelligence and the artificial intelligence podcast if
+you enjoy subscribe on youtube itunes or simply connect with me on Twitter at Lex
+Friedman spelled Fri D and now here's my conversation with Thomas sent home can
+you describe at the high level the game of poker Texas Hold'em heads-up Texas
+Hold'em for people who might not be familiar at this card game yeah happy to
+so heads up No Limit Texas Hold'em has really emerged in the AI community as a main benchmark for testing these
+application independent algorithms for imperfect information game solving and
+this is a game that's actually played by humans you don't see that much on TV or
+casinos because well for obvious reasons but you do see it in some expert level
+casinos and you see it in the best poker movies of all time it's actually an event in the World Series of Poker but
+mostly it's played online and typically for pretty big sums of money and this is
+a game that usually only experts play so if you recall to your home game on a
+Friday night it probably is not gonna be hits up no Limit Texas Hold'em it might be no let me it takes us Hold'em in some
+cases but typically for a big group and it's not as competitive well heads up
+means it's two-player so it's really like me against you Am I you better much like chess or or or go
+in that sense but an imperfect information game which makes it much harder because I have to deal with issues of you knowing things that I
+don't know and I know things that you don't know instead of pieces being nicely laid on the board for both of us to see
+so in Texas Hold'em there's a two cards that you only see the game on to you
+yeah there is they gradually lay out some cards that add up overall to five cards that everybody can see yeah the
+imperfect nature of the information is the two cards that you're holding on front yeah so as you said you know you
+first get two cards in private each and then you this a betting round then you
+get three clubs in public on the table then there's a betting round then you get the fourth card in public on the
+table they're spitting around then you get the five fifth card on the table there's a bending drop so there's a total of four betting rounds and four
+torrontés of information revelation if you will the only the first tranche is private and they omits public from there
+and this is probably probably by far the
+most popular game in AI and just the general public in terms of imperfect
+information so it's probably the most popular spectator game to watch right so
+which is why it's a super exciting game tackle so it sits on the order of chess
+I would say in terms of popularity in terms of AI setting it as the bar of
+what is intelligence so in 2017 labret does how do you
+pronounce it Liberato lebra das lebra does beats little laughing they're a little bit Latin LeBron is beat a few
+for expert human players can you describe that event what you learned
+from it what was it like what was the process in general for people who have not read the papers and study yeah so
+the event was that we invited four of the top 10 players with these are specialist players in heads-up no Limit
+Texas Hold'em which is very important because this game is actually quite different than the the multiplayer
+version we brought me in to Pittsburgh to play at the reverse casino for twenty days we wanted to get a
+hundred and twenty thousand hands in because we wanted to get statistical significance so it's a lot of hands for
+humans to play even for this top pros who play fairly quickly normally so we
+couldn't just have one of them play so many hands twenty days they were playing basically morning to evening and he
+raised two hundred thousand as a little incentive for them to play and the setting was so that they didn't all get
+fifty thousand we actually paid them out based on how they did against the AI
+each so they had an incentive to play as hard as they could whether they're way
+ahead the way behind or right at the mark of beating the AI and you don't make any money unfortunately right no we
+can't make any money so so originally a couple of years earlier I actually explored whether we could actually play
+for money because that would be of course interesting as well to play against the top people for money but the
+Pennsylvania Gaming Board said no so so if we couldn't so this is much like an exhibit like for a musician or a boxer
+or something like that nevertheless you're keeping track of the money and brought us one close to two
+million dollars I think so so if there if it was for real money if you were
+able to earn money that was a quite impressive and inspiring achievement just a few details what what were the
+players looking at I mean were they behind the computer what was the interface like yes there they were
+playing much like they normally do these top players when they play this game they play mostly online so they used to
+playing through what UI yes and they did the same thing here so there was this layout you could imagine there's a table
+on the screen this the the human sitting there and then there's the AI sitting
+there and the the screen source everything is happening the cards coming out and so the bets being made and we
+also had the betting history for the human so if the human for what what had happened in the ham so far they could
+actually reference back and and and so forth is there a reason they were given access to the betting
+history for well we just uh it's a it didn't really matter that they wouldn't
+have forgotten anyway these are top quality people but we just want to put out there so it's not a question for
+human for getting and the AI somehow trying to get advantage of better memory so what was that like I mean that was an
+incredible accomplishment so what did it feel like before the event did you have
+doubt hope where was your confidence at yeah that's great so a great question so eighteen
+months earlier I had organized the similar brains versus AI competition with our previous a I call clerical and
+we couldn't beat the humans so this time around it was only eighteen months later
+and I knew that this new AI Lovato's was way stronger but it's hard to say how
+you'll do against the top humans before you try so I thought we had about a 50/50 shot and the international betting
+sites put us a us as a four to one or five to one underdog so it's kind of
+interesting that people really believe in people and I get over AI not just
+people people don't just believe over believing themselves but they have overconfidence in other people as well compared to the performance of AI and
+yeah so we were afford to 105 to 108 beating the humans in a row we were
+still 50/50 on the international betting sites do you think there's something special and magical about poker and in
+the way people think about it in a sense you have I mean even in chess there's no
+Hollywood movies poker is this the star of many movies and there's this feeling
+that certain human facial expressions and body language eye movement all these
+tells are critical to poker you can look into somebody's soul understand their
+betting strategy and so on there so that's probably why the possibly do you
+think that is why people have a confidence that humans will outperform because AI systems cannot in
+construct perceive these kinds of tells they're only looking at betting patterns and and nothing else the betting
+patterns and and statistics so what's
+more important to you if you step back and human players human versus human what's the role these tells of these
+ideas that we romanticize yeah so I split it into two parts so one is why do
+humans trust he much more than AI and all have overconfidence in humans yes I
+think that's that's not really related to tell a question it's just that they've seen these top players how good
+they are and they're really fantastic so it's just hard to believe therefore that
+the Navy I could beat them yeah so I think that's where that comes from and and that's actually maybe a more general lesson about the AI that until you've
+seen it over perform a human it's hard to believe it it could but then the tails a lot of these top players they're
+so good at hiding tails that among the top players it's actually not really
+worth it for them to invest a lot of effort trying to find tails in each other because there's a so good at
+hiding them so yes at the kind of Friday evening game tells are gonna be a huge
+thing you can read other people and if you're a good reader you you'll read them like an open book but at the top
+levels of poker no details become a list of the much much smaller and smaller aspect of the game as you go to the top
+levels the the amount of strategies the amount of possible actions is is very
+large ten to the power of one hundred plus so there has to be some I've read a
+few the papers related it has it has to form some abstractions of various hands
+and actions so what kind of abstractions are effective for the game of poker yeah
+so you're exactly right so when you go from a game tree that's ten to the 161
+especially in an imperfect information game it's way too large to solve directly even with our fastest ik
+finding algorithms so you wanna abstract it first and abstraction in games is
+much trickier than abstraction in mdps or other single agent settings because
+you have these abstraction pathologies that if I have a finer grained abstraction the strategy that I can get
+from that for the real game might actually be worse than the strategy I can get from the coarse-grained abstraction if you have to be very
+careful now the the kinds of abstractions just to zoom out we're talking about there's the hands
+abstractions and then there's betting strategies yeah what I think actions yeah baiting access or so there's
+information obstruction to talk about general games information abstraction which is the abstraction of what chance
+does and this would be the cards in the case of poker and then there's action abstraction which is abstracting the
+actions of the actual players which would be bits in the case of poker yourself and the other players yes
+yourself and other players and for information abstraction we were
+completely automated so these were these are algorithms but they do what we call
+potential aware abstraction where we don't just look at the value of the hand but also how it might materialize in the
+good or bad hands over time and it's a certain kind of bottom-up process with integer programming there and clustering
+and various aspects how do you build build this abstraction and then in the
+action abstraction there it's largely based on how humans other and other AIS
+have played this game in the past but in the beginning we actually use an automated action abstraction technology
+which is provably convergent that it finds the optimal combination of eight
+sizes but it's not very scalable so we couldn't use it for the whole game but we used it for the first couple of
+betting actions so what's more important the strength of the hand so the information retraction or the how you
+play them the actions does you know the romanticized notion again
+is that it doesn't matter what hands you have that the actions the betting may be
+the way you win no matter what hands you have yeah so that's why you have to play a lot of hands so that the role of luck
+gets smaller so you could otherwise get lucky and get some good hands and then
+you're gonna win the match even with thousands of hands you can get lucky because there's so much variance in No
+Limit Texas Hold'em because if we both go all-in it's a huge stack or variant
+so there are these massive swings in No Limit Texas Hold'em so that's why you
+have to play not just thousands but over a hundred thousand hands don't get statistical significance let me ask
+another way this question if you didn't even look at your hands but they didn't
+know that the your opponents didn't know that how well would you be able to do oh that's a good question there's actually
+I heard this story that this is Norwegian female poker player goal and at uber stud who's actually won a
+tournament by doing exactly that but that would be extremely rare so so I
+cannot really play well the hands do
+have some role to play oh yes so LeBron is does not use as far as I understand a
+used learning methods deep learning is there room for learning in you know
+there's no reason why lab artist doesn't you know combined with an alphago type approach for estimating the quality for
+function estimator what are your thoughts on this maybe as compared to
+another algorithm which I'm not that familiar with deep stack the the engine that does use deep learning that it's
+unclear how well it does but nevertheless uses deep learning so what are your thoughts about learning methods
+to aid in the way that teller Broadus plays the game of poker yeah so as you
+said Lee barratto's did not use learning methods and played very well without them since then we have actually
+actually here we have a couple of papers on things that do use learning technique
+Saxon so and deep learning in particular and the sort of the way you're talking
+about where it's learning an evaluation function but in imperfect information
+games unlike let's say in Co or now now also in chess and shogi it's not some
+sufficient to learn an evaluation for a state because the value of an
+information set depends not only on the exact state but it also depends on both
+players beliefs like if I have a bad hand I'm much better off if the opponent
+thinks I'm have a good hand and vice versa if I have a good hand I'm much better off if the opponent believes I
+have a bad hand so the value of a state is not just a function of the cards it
+depends on if you will the path of play but only to the extent that is captured
+in the belief distributions so so that's why it's not as simple as as it is
+imperfect information games another one I'd say it's simple there either it's of course very complicated computationally
+there too but at least conceptually it's very straightforward there's a state there's an evaluation function you can
+try to learn it here you have to do something more and what we do is in one
+of these papers we're looking at allowing where we allow with the opponent to actually take different
+strategies at the leaf of the search tree as F if you will and and that is a
+different way of doing it and it doesn't assume therefore a particular way that the opponent plays but it allows
+opponent to choose from a set of different continuation strategies and
+that forces us to not be too optimistic in our local head search and that's
+that's one way you can do sound look ahead search in imperfect information games which is very different difficult
+and in us you were asking about deep stack what they did it was very
+different than what we do either in Lee brothers or in this new work they were gender and Umrah generating
+various situations in the game then they were doing Luca head from there to the end of the game as if that was a start
+of a different game and then they were using deep learning to learn those values of those states but the states
+were not just the physical states they include the belief distributions when you talk about look ahead for deep stack
+or with libertas does it mean considering every possibility that the game can involve is that we're talking
+about extremely sort of like this exponentially growth of a tree yes so we're talking about exactly that
+much like you do in Alpha Beta search or want to crawl to research but with
+different techniques so there's a different search algorithm and then we have to deal with the leaves differently
+so if you think about what Lee brothers did we didn't have to worry about this because we only did it at the end of the
+game so we would always terminate into a real situation and we would know what to
+payout this it didn't do this depth limited loka heads but now in this new paper which is called depth limited
+I think it's called depth limited research for imperfect information games we can actually do sound depth limited
+look at it so we can actually started with a look ahead from the beginning of the game on because that's too complicated to do for
+this whole long game so in Lee brothers we were just doing it for the end so and then the other side
+this belief distribution so is it explicitly modeled what kind of beliefs
+that the opponent might have yeah yeah it is explicitly modeled but it's not
+assumed the beliefs are actually output not input of course the starting beliefs
+are input but they just fall from the rules of the game because we know that the dealer deals uniformly from the dick
+so I know that every pair of cards that you might have is equally likely I know
+that for a fact that's as follows from the rules of the game of course except the two cards that I have I know you don't have those yes
+you have to take that into account that's called card removal and that's very important is the dealing always
+coming from a single deck in the heads up so you can assume single deck know
+that if some if if I have the ace of spades I know you don't have an ace of spades
+okay so in the beginning your belief is basically the fact that it's a fair dealing of hands but how do you adjust
+start to adjust that belief well that's a where this beauty of games here it
+comes so nash equilibrium which john nash introduced in 1950 introduces what
+rational play is when you have more than one player and these are pairs of
+strategies where strategies are contingency plans one for each player so
+neither player wants to deviate to a different strategy given that the other doesn't deviate but as a
+side effect you get the beliefs from Bayes rule so Nash equilibrium really
+isn't just deriving in these imperfect information games Nash equilibrium doesn't just define strategies it also
+defines beliefs for both us and it defines beliefs for each state so at the
+each state it's if they take all information sets at each information set
+in the game there's a set of different states that we might be in but I don't
+know which one we're in Nash equilibrium tells me exactly what is a probability distribution over those real world
+states in my mind how does naturally give you that distribution so why I'll
+do a simple example so you know the game rock-paper-scissors so we can draw it as
+player 1 moves first and then player 2 moves but of course it's important that
+player 2 doesn't know what player 1 moved otherwise player 2 would win every time so we can draw that as an
+information set where player 1 makes one of three moves first and then there's an information set for player 2 so player 2
+doesn't know which of those nodes the world is it but once we know the
+strategy for player 1 Nash equilibrium will say that you play 1/3 Rock 1/3 paper 1/3 caesars from that I can derive
+my beliefs of the information set that they wanted 1/3 wants it though so Bayes gives you that basis you but is that
+specific to a particular player or is it is there something you quickly update with the game theory isn't really player
+specific so that's what also why we don't need any data we don't need any history how these particular humans
+played in the past or how any AI or even had played before it's all about rationality so we just think the AI just
+thinks about what would a rational opponent do and what would I do if I were right I am rational and that that's
+that's the idea of game theory so it's really a data free opponent free
+approach sir comes from the design of the game as opposed to the design of the player exactly if there's no opponent
+modeling per se I mean we've done some work on combining opponent modeling with game theory so you couldn't exploit weak
+players even more but that's another strand and in the Lee brothers we didn't turn that on because I decided that
+these players are too good and when you start to exploit an opponent you'll
+typically open yourself up self up to exploitation and these guys have so few holes to exploit and they're world's
+leading experts in counter exploitation so I decided that we're not gonna turn that stuff on actually I saw a few
+papers exploiting opponents it sound very interesting to explore do you think
+there's room for exploitation generally outside of LeBron us is is there subject
+or people differences that could be exploited maybe not just in poker but in
+general interactions negotiations all these other domains that yours considering yeah I definitely we've done
+some work on that and I really like their work at hybridize is the two so you figure out what would a rational
+opponent do and by the way that's safe in these zero-sum games two player zero-sum games because if the opponent
+does something irrational yes it might show throw off my beliefs but the amount
+that the player can gain by throwing off my belief is always less than they lose
+by playing poorly so so it's safe but still if somebody's weak as a player you
+might want to play differently to exploit them more so that you can think about it this way a game theoretic
+strategies are unbeatable but it doesn't maximally beat the other opponent so the
+winnings per hand might be better with a different strategy and the hybrid is that you start from a game theoretic
+approach and then as you gain data from about the opponent in certain parts of
+the game tree that in those parts of the game tree you start to tweak your strategy more and more towards
+exploitation while still staying fairly close to the game theoretic strategy so as to not open yourself up to
+exploitation too much how do you do that do you try to vary up
+strategies make it unpredictable it's like what is it tit-for-tat strategies in prisoner's
+dilemma or well it doesn't that that's a repeated game kind of prisoner's dilemma
+repeats it games but but even there there's no proof that says that that's the best thing but experimentally it
+actually does does does well so what kind of games are there first of all I don't know if this is something that you
+could just summarize there's perfect information games or all the informations on the table there is
+imperfect information games there's repeated games you play over and over
+there's zero-sum games there's nonzero-sum games yeah and then there's
+a really important distinction you're making two-player versus more players so
+what are what other games out there and what's the difference for example with
+this two-player game versus more players yeah what are the key differences right
+here so let me start from the the basic so a repeated game is a game where the
+same exact game is played over and over in these extensive form games where
+think about three form maybe with these information says to represent incomplete information you can have kind of
+repetitive interactions even repeated games are a special case of that by the way but if the game doesn't have to be
+exactly the same selectively sourcing all trips yes we kind of see it the same supply base year to year but what I'm
+buying is a little different every time and the supply base is a little different every time and so on so it's not really repeated so to find a purely
+repeated game is actually very rare in the world so they're really a very coarse model of what's going on then if
+you move up from repeat just repeated simple repeated matrix games not all the
+way to extensive form games but in between they're stochastic games where you know
+this these think about it like these little matrix games and when you take an action and your
+home takes an action they determine not which next state I'm going to next game
+I'm going to but the distribution over next games where I might be going to so
+so that's the stochastic game but it's like matrix games repeated stochastic games extensive form games that is from
+less to more general and and poker is an example of the last one so it's really
+the most general setting extensive form games and that's kind of what the AI
+community has been working on and being benched marked on with this heads-up No
+Limit Texas Hold'em can you describe extensive form games what was the motto here yeah so if you
+imagine with the tree form so it's really the tree form like in chess there's a search tree versus a matrix is
+a matrix yeah and that's the new matrix is called the matrix form or by matrix form or normal form game and here you
+have the tree form so you can actually do certain types of reasoning there that you'll lose the information when you go
+to normal form there's a certain form of equivalence like if you go from three
+form and you say it every possible contingency plan is the strategy then I
+can actually go back to the normal form but I lose some information from the lack of sequentiality then the
+multiplayer versus two-player distinction is an important one so two-player games in zero-sum are
+conceptually easier and computationally easier there's still huge like this one
+this one but they're conceptually easier and computationally easier in that
+conceptually you don't have to worry about which equilibrium is the other guy going to play when there are multiple
+because any equilibrium strategy is a best response to any other equilibrium strategy so I can play a different
+equilibrium from you and we'll still get the right values of the game that falls apart even with two players when you
+have general some games even without cooperation just even without cooperation so there's a big gap from
+two player zero-sum to two-player general sum or even to three player zero-sum that's that's a big gap
+at least in theory can you maybe not mathematically provide the intuition why
+it all falls apart with three or more players it seems like you should still be able to have a Nash equilibrium that
+yeah that's instructive that holds okay so it is true that all finite games have
+a Nash equilibrium so this is what your Nash actually proved so they do have a
+Nash equilibrium that's not a problem the problem is that there can be many and then there's a question of which
+equilibrium to select so and if you select your strategy from a different equilibrium and I select mind then did
+what does that mean I and in this non zero sum games we may lose some joint
+benefits we hope by being just simply stupid we could actually both be better off if we did something else yes and in
+three player you get other problems also like collusion that maybe you and I can get up on a third player and we can do
+radically better by colluding so that there are lots of issues that come up there so no Brown student you workers on this
+has mentioned I looked through the AMA and read it he mentioned that the
+ability of poker players to collaborate will make the game he was asked the question of how would you make the game
+of poker or both of you were asked the question how would you make the game of poker
+beyond being solvable by current AI methods and he said that there's not
+many ways of making poker more difficult but collaboration or cooperation between
+players would make it extremely difficult so can you provide the intuition behind why that is if you
+agree with that idea yeah so we've done a lot of work coalitional games and we
+actually have a paper here with my other student cappella Farina and some other collaborators on after net nips on that
+actually just came back from the poster session where we present life so when
+you have a collusion it's a it's a different problem yes and it typically gets even harder then
+even the game representations some of the game representations don't really allow go to computation so we actually
+introduced a new game representation for for that is that kind of cooperation
+part of the model is are you do you have do you have information about the fact
+that other players are cooperating or is it just this chaos that where nothing is known so there's some something's
+unknown can you give an example of a collusion type game or Z you select
+breach that so think about bridge it's like when you and I are on a team our payoffs are the same the problem is
+that we can't talk so so when I get my cards I can't whisper to you what my cards are that would not be allowed so
+we have to somehow coordinate our strategies ahead of time and only ahead
+of time and then there are certain signals we can talk about but they have to be such that the other team also
+understands them so so that that's that's an example where the coordination is already built into the rules of the
+game but in many other situations like auctions or negotiations or diplomatic
+relationships poker it's not really built-in but it still can be very
+helpful for the coders I've read you right somewhere the negotiations you
+come to the table with prior like a strategy that like that you're willing
+to do and not willing to do those kinds of things so how do you start to now
+moving away from poker movie beyond poker into other applications like negotiations how do you start applying
+this to other and to other domains yeah even real world domains that you've
+worked on yeah I actually have two start-up companies doing exactly that one is called strategic machine and
+that's for kind of build applications gaming sports all sorts of things like that any applications of this to
+business and to sports and to gaming to various types of things for in finance
+electricity markets and so on and the other is called strategy robot where we are taking this to military secure
+the cyber security and intelligence applications I think you worked a little bit in how he put it advertisement sort
+of suggesting ad kind of thing yeah auction that's another component optimized markets optimized but that's
+much more about a combinatorial market and optimization based technology that's not using these game theoretic reasoning
+technologies I think okay so what sort of high level do you think about our
+ability to use game theoretic concepts to model human behavior do you think do
+you think human behavior is amenable to this kind of modeling so outside of the poker games and where have you seen it
+done successfully in your work I'm not sure the goal really is modeling humans
+like for example if I'm playing a zero-sum game yes I don't really care that the opponent is actually following
+my model of rational behavior because if they're not that's even better for me
+right so so they see with the opponents and games there's a the prerequisite is
+that you've formalized the interaction in some way that can be amenable to
+analysis and you've done this amazing work with mechanism design designing
+games that have certain outcomes but so
+I'll tell you an example for my for my world of autonomous vehicles right we're studying pedestrians and pedestrians and
+cars negotiating this nonverbal communication there's this weird and game dance of tension where pedestrians
+are basically saying I trusted you won't kill me and so as a jaywalker I will step onto the road even though I'm
+breaking the law and there's this tension and the question is we really don't know how to model that well in
+trying to model intent and so people sometimes bring up ideas of game theory
+and so on do you think that aspect of human behavior can use these kinds of
+imperfect information approaches modeling how do we how do you start to attack a
+problem like that when you don't even know how the game design the game to describe the situation in order to solve
+it okay so I haven't really thought about jaywalking but one thing that I think could be a good application in an
+autonomous vehicles is the following so let's say that you have fleets of autonomous cars operated by different
+companies so maybe here's the way more fleet and here's the uber fleet if you
+think about the rules of the road they define certain little rules but that still leaves a huge strategy space open
+like as a simple example when cars merge you know how he must merge you know they slow down and look at each other and try
+to I try to merge wouldn't it be better if these situations would all repeat pre-negotiated so we can actually merge
+at full speed and we know that this is the situation this is how we do it and it's all gonna be faster but there are
+way too many situations to negotiate manually so you could do use automated negotiation this is the idea at least
+you could use automated negotiation to negotiate all of these situations or many of them in advance and of course it
+might be that hey maybe you're not gonna always let me go first maybe you said okay well in these
+situations all let you go first but in exchange you're gonna give me - how much you're gonna let me go first in this
+situation yes so it's this huge combinatorial negotiation and do you think there's
+room in that example of merging to model this whole situation is an imperfect information game or do you really want
+to consider it to be a perfect no that's a good question yeah that's a good question I'm paid the price of assuming
+that you don't know everything yeah I don't know it's certainly much easier games with perfect information are much
+easier so if you can get away with it you should but if the real situation is
+of imperfect information then you're going to have to deal with in for imperfect information great so what
+lessons have you learned the annual computer poker competition an incredible
+accomplishment of AI you know you look at the history of deep blue go these kind of moments when I stepped
+up in an engineering effort and a scientific effort combined to beat the
+best human players so what do you take away from this whole experience what have you learned about designing it has
+systems that play these kinds of games and what does that mean for sort of AI
+in general for the future of IAI development yeah so that's a good question so there's so much to say about
+it I do like this type of performance oriented research although in my group
+we go all the way from like idea to theory to experiments to big system fielding the commercialization so we
+spend that spectrum but I think that in a lot of situations in AI you really
+have to build the big systems and evaluate them at a scale before you know what works and doesn't and we've seen
+that in the computational game theory community that there are a lot of techniques that look good in the small
+but then they cease to look good in the large and we've also seen that there are a lot of techniques that look superior
+in theory and I really mean in terms of convergence rates better like first-order methods better convergence
+rates like the CFR based based algorithms yet the CFR pay based algorithms are the fastest in practice
+so it really tells me that you have to test this in reality the theory isn't tight enough if you will to tell you
+which algorithms are better than the others and you have to look at these
+things that in the large because any sort of projections you do from the small and at least in this domain be
+very misleading so that that's kind of from from a kind of science and engineering perspective from personal
+perspective it's been just a wild experience in that with the first poker competition the first or first brains
+versus AI man-machine poker competition that we organized there had been by the way for other poker games there had been
+previous competitions but this was for heads up No Limit this was the first and I probably became the most hated person
+in the world of Poker and I didn't mean to III size that they cracked in the
+game for yeah it was a lot of people felt that it was a real threat to the whole game the whole
+existence of the game if AI becomes better than humans people would be
+scared to play poker because there are the superhuman AI is running around taking their money and you know all of
+that so so I just it's just really aggressive just in the comments were super aggressive I got everything
+it's just short of death threats do you think the same was true for chess
+because right now they just completed the World Championships and chess and humans just started ignoring the fact
+that there's AI systems now that I'll perform humans and they still enjoy the game is still a beautiful game that's
+what I think yeah and I think the same thing happens in poker and so I didn't think of myself as somebody was gonna
+kill the game and I don't think I did yeah I've really learned to love this game I wasn't a poker player before but
+learn so many new ones is about it from these AIS and they've really changed how the game is played by the way so they
+have these very Martian ways of playing poker and the top humans are now incorporating those types of strategies
+into their own play so if anything to me our work has made poker a richer more
+interesting game for humans to play not something that is gonna steer him as away from it entirely just a quick
+comment and something you said which is if I may say so in academia is a little
+bit rare sometimes it's pretty brave to put your ideas to the test in the way
+you described saying that sometimes good ideas don't work when you actually try to apply them
+at scale and so where does that come from I mean what if you could do a advice for people what what drives you
+in that sense were you always this way I mean it takes a brave person I guess is what I'm saying to test their ideas and
+to see if this thing actually works against human top human players and so on yeah I don't know about brave but it
+takes a lot of work it takes a lot of work and a lot of time to organize do
+make something big and to organize an event and stuff like that and what drives you in that effort because you
+could still I would argue get a best paper award and nips as you did in 17
+without doing this that's right yes and so so in general I believe it's very
+important to do things in in the real world and at scale and that's really
+where the the the pudding if you will proof is in the pudding that's what that's where it is in this particular
+case it was kind of a competition between different groups and for many
+years as to who can be the first one to beat the top humans that heads up No Limit Texas Hold'em so it became it
+became kind of a like a competition who
+can get there yeah so a little friendly competition could be I can do wonders for progress yes so the topic of
+mechanism design which is really interesting also kind of new to me except as an observer if I don't know
+politics and any I'm an observer of mechanisms but you write in your paper
+an automated mechanism design that I quickly read so mechanism design is
+designing the rules of the game so you get a certain desirable outcome and you
+have this work on doing so in an automatic fashion as opposed to
+fine-tuning it so what have you learned from those efforts if you look say I
+don't know at complex it's like our political system can we design our
+political system to have in an automated fashion to have outcomes that we want
+can we design something like traffic lights to be smart where it gets
+outcomes that we want so what are the lessons you draw from that work yeah so
+I still very much believe in the automated mechanism design direction yes but it's not a panacea
+there are impossibility results in mechanism design saying that there is no mechanism that accomplishes objective X
+in Class C so so they it's not gonna there's no way using any mechanism
+design tools manual or automated to do certain things in mechanism design he can't describe that again so meaning
+there it's impossible to achieve that yeah yes it was likely impossible so so
+so these are these are not statements about human ingenuity who might come up with something smart these are proofs
+that if you wanna accomplish properties X in Class C that is not to oppose with
+any mechanism the good thing about automated mechanism design is that we're not really designing for a class we're
+designing for specific settings at the time so even if there's an impossibility
+result for the whole class it just doesn't mean that all of the cases in
+the class are impossible it just means that some of the cases are impossible so we can actually carve these islands of
+possibility within these known impossible classes and we've actually done that so what one of the famous
+results in mechanism design is a Meyer sham set its weight theorem for pi Roger Myerson and Mark Satterthwaite from 1983
+so it's an impossibility of efficient trade under imperfect information we show that you can in many settings avoid
+that and get the efficient trade anyway depending on how they design the game okay so depending how you design the
+game and of course it's not it doesn't in any way any way contradict to
+impossibility result or impossibility results is still there but it just finds spots within this impossible class where
+in those spots you don't have time possibility sorry if I'm going a bit philosophical but what lessons you draw
+towards like I mentioned politics or human interaction and designing mechanisms for outside of just these
+kinds of trading or auctioning or purely
+formal games our human interaction like a political system what how do you think it's applicable to yeah politics or to
+business to negotiations these kinds of things
+designing rules that have certain outcomes yeah yeah I do think so have
+you seen success that successfully done yes and really oh you mean mechanism design or automated make automated
+mechanism design but so so mechanism design itself has had fairly limited
+success so far there are certain cases but most of the real-world situations are actually not sound from a mechanism
+design perspective even in those cases where they've been designed by very knowledgeable mechanism design people
+the people are typically just taking some insights from the theory and applying those insights into the real
+world rather than applying the mechanisms directly so one famous example of is the FCC spectrum auctions
+so I've also had a small role in that and very good economists have been where
+excellent economists have been working on that with no game theory yet the rules that are designed in practice
+they're they're such that bidding truthfully is not the best strategy usually mechanism design we try to make
+things easy for the participants so telling the truth is the best strategy but but even in those very high stakes
+auctions where you have tens of billions of dollars worth of expect from being auctioned truth-telling is not the best
+strategy and by the way nobody knows even a single optimal bidding strategy
+for those auctions what's the challenge of coming up with an optimum because there's a lot of players and there's a
+lot of players but many items for sale and the these mechanisms are such that
+even with just two items or one item bidding truthfully wouldn't be the best
+strategy if you look at the history of AI it's marked by seminal events and
+alphago being a world champion human go player I would put librettist winning
+the heads of no-limit hold'em as one of such event thank you and what do you
+think is the next such event whether it's in
+your life or in the broadly AI community that you think might be out there that
+would surprise the world so that's a great question and I don't really know the answer in terms of game solving hits
+up No Limit Texas Hold'em really was the one remaining widely agreed-upon
+benchmark so that was the big milestone now are there other things yes certainly
+there are but there there is not one that the community has kind of focused on so what could be other things there
+are groups working on StarCraft there are groups working on dota2 these are video games yes or you could have like
+diplomacy or Hanavi you know things like that these are like recreational games
+but none of them are really acknowledged that's kind of the main next challenge
+problem like chess or go or heads-up No Limit Texas Hold'em was so I don't
+really know in the game solving space what is or what will will be the next benchmark I hope kind of hope that there will be a
+next benchmark because really the different groups working on the same problem really drove these application
+independent techniques for put very quickly over ten years do you think there's an open problem that excites you
+that you start moving away from games into real world games like say the stock
+market trading yeah that's that's kind of how I am so I am probably not going
+to work as hard on these recreational
+benchmarks I'm doing to startups on game solving technology strategic machine and strategy robot and we're really
+interested in pushing this stuff into practice what do you think would be
+really you know a powerful result that
+would be surprising that would be if you can say I mean you know five years ten
+years from now something that statistically you would say is not very likely but if there's a breakthrough
+what achieve yeah so I think that overall we're in a very different
+situation in game theory than we are in let's say machine learning yes
+so in machine learning it's a fairly mature technology and it's very broadly applied and proven success in the real
+world in game solving there are almost no applications yet we have just become superhuman which
+machine learning you could argue happened in the 90s if not earlier and at least some supervised learning at
+certain complex supervised learning applications now I think a next challenge problem I
+know you're not asking about this way you're you're asking about the technology breakthrough but I think the big big breakthrough is to be able to
+show it hey maybe most of let's say military planning or most of business strategy will actually be done
+strategically using computational game theory that that's what I would like to see as a next five or ten year goal
+maybe you can explain to me again forgive me if this is an obvious question but you know machine learning
+methods neural networks are suffer from not being transparent not being explainable a game theoretic methods you
+know Nash equilibria do they generally when you see the different solutions are they when you talk about military
+operations are they once you see the strategies do they make sense that they explainable or do they suffer from the
+same problems as neural networks do so that's that's a good question I would say a little bit yes and no and what I
+mean by that is that these games are ethic strategies let's say Nash equilibrium it has provable properties
+so it's unlike let's say deep learning where you kind of cross your fingers hopefully it'll work and then after the
+fact when you have the weights you're still crossing your fingers and I hope it will work here you know that the
+solution quality is there this provable or Souls from quality guarantees now that doesn't necessarily mean that the
+strategies are human understandable that's a whole other problem so that's also I think it deep learning and
+computational game theory are in the same boat in that sense that both are difficult to understand but at least the
+game theoretic techniques they have this guarantees of guarantee quality so did
+you see business operations to achieve your corporations or even military in the future being at least the strong
+candidates being proposed by automated systems do you see that yeah I do I do
+but that's more of a really belief than a substantiated fact depending on where
+you land and optimism or pessimism that's a relief to me that's an exciting future especially if they're provable
+things in terms of optimality so looking into the future there's a a few folks worried
+about the especially you look at the game of poker which is probably one of
+the last benchmarks in terms of games being solved they they worry about the future and the existential threats of
+artificial intelligence so the negative impact in whatever form on society is that something that concerns you as much
+are you more optimistic about the positive impacts of AI oh I am much more
+optimistic about the positive impacts so just in my own work what we've done so far we run the nationwide kidney
+exchange hundreds of people are walking around alive today who would it be and it's increased employment you had you
+have a lot of people now running kidney changes and at the transplant centers
+interacting with the kidney exchange you have extra surgeons nurses
+anesthesiologists hospitals all of that as so so employment is increasing from
+that and the world is becoming a better place another example is combinatorial sourcing auctions we did 800 large-scale
+combinatorial sourcing auctions from 2001 to 2010 in a previous startup of
+mine called combine it and we increased the supply chain efficiency on that
+sixty billion dollars of spend by twelve point six percent so that's over six
+billion dollars of efficiency improvement in the world and this is also like shifting value from somebody
+to somebody else just efficiency improvement like in trucking less empty driving so there's less waste less
+carbon footprint and so on it's a huge positive impact in the near term but
+sort of to stay in it for a little longer because I think game theory is a
+role to play here well let me actually come back and tell you this is one thing I think Asia is also going to make the
+world much safer so so so that's another aspect that often gets overlooked well
+let me ask this question maybe you can speak to the the safer so I talked to max tegmark is do a Russell who are very
+concerned about the resume yeah and often the concern is about value misalignment so AI systems
+basically working operating towards goals that are not the same as human
+civilization human beings so it seems like game theory has a role to play there to to make sure the values are
+aligned with human beings I don't know if that's how you think about it if not how do you think AI might help with this
+problem how do you think a i'ma make the world safer yeah I think this value
+misalignment is a fairly theoretical worry and I haven't really seen it in it
+because I do a lot of real applications I don't see it anywhere the closest I've seen it was the
+following type of mental exercise really where I had this argument in the late 80s when we were building these
+transportation optimization systems and somebody had heard that it's a good idea to have high utilization of assets so
+they told me that hey why don't you put that as objective and we didn't even pull it as an objective because I just
+showed him it you know if you had that as your objective the solution would be to load your trucks full and driving
+circles nothing would ever get delivered you'd have a hundred percent utilization so yeah I know this phenomenon I've
+known this for over 30 years in but I've never seen it actually be a problem reality in reality and yes if you have
+the wrong objective the AI will optimize that to the hilt and it's gonna fit more than some human who's kind of trying to
+so within a half-baked way with some human insight to but I just haven't seen
+that materialize in practice there's this gap that you actually put your finger on very clearly just now between
+theory and reality that's very difficult to put into words I think it's what you
+can theoretically imagine the worst possible case or even yeah I mean bad
+cases and what usually happens in reality so for example to me maybe it's
+something you can comment on having grown up and I had grew up in the Soviet Union you know there's currently
+10,000 nuclear weapons in the world and for many decades it's theoretically
+surprising to me that the nuclear war is not broken out do you think about this
+aspect from a game theoretic perspective in general why is that true why in
+theory you could see how things would go terribly wrong and somehow yet they have not yeah how do you think so so I do
+think that about that a lot I think the biggest two threats that we're facing as mankind one is climate change and the
+other is nuclear war so I saw so those are my main two worries that they're worried about and I've tried to do
+something about climate I thought about trying to do something for climate change twice actually before two of my
+startups had actually commissioned studies of what we could do on those things and we didn't really find a sweet
+spot but I'm still keeping an eye out on that if there's something where we could actually provide a market solution or
+optimization solution or some other technology solution to problems right now
+like for example pollution critic markets was what we were looking at then and it was much more the lack of
+political will by those markets were not so successful rather than bad market
+design so I could go in and make a better market design but that wouldn't really move the needle on the world very
+much if there's no political will and in the u.s. you know the market at least the Chicago market was just shut down
+and and so on so it and then it doesn't really help create your market design was there any nuclear side it's more so
+global warming is more encroaching
+problem you know nuclear weapons have been here it's an obvious problem has
+just been sitting there so how do you think about what is the mechanism design there that just made everything seem
+stable and are you still extremely worried I am still extremely worried so
+you probably know the simple game theory of mad so solar so this was a mutually
+assured destruction and it's like it doesn't require any computation with small matrices you can actually convince
+yourself that the game is such that nobody wants to initiate yeah that's a very coarse-grained analysis and it
+really works in a situation where you have two superpowers or small number of superpowers now things are very
+different you have a smaller nuke so the threshold of initiating is smaller and
+you have smaller countries and non non nation actors who make it Nokes and so
+on so it's I think it's riskier now than it was maybe ever before and what idea
+application by I you've talked about a little bit but what is the most exciting
+to you right now I mean you you're here at nips europe's now you have a few excellent pieces of
+work but what are you thinking into the future with several companies you're doing what's the most exciting thing or one of the exciting things the number
+one thing but for me right now is coming up with these scalable techniques for
+game solving and applying them into the real world they're still very interested
+in market design as well and we're doing that in the optimized markets but I'm most interested if number one right now
+is strategic machine strategy robots getting that technology out there and seeing as you were in the trenches doing
+applications what needs to be actually filled what technology gap still need to be filled so it's so hard to just put
+your feet on the table and imagine what needs to be done but when you're actually doing real applications the
+applications tell you what needs to be done and I really enjoy that interaction is it a challenging process to apply
+some of the stay the are techniques you're working on and and having the
+the various players in industry or the military or people who could really
+benefit from it actually use it what's that process like of you know in autonomous vehicles will work with
+automotive companies and they're in in many ways they're a little bit old-fashioned it's difficult they really
+want to use this technology there's clearly will have a significant benefit but the systems aren't quite in place to
+easily have them integrated in terms of data in terms of compute in terms of all
+these kinds of things so deuce is that one of the bigger challenges that you're facing and how do you tackle that
+challenge yeah I think that's always a challenge that that's gonna slowness and inertia really of let's do things the
+way we've always done it you just have to find the internal champions that the customer who understand that hey things
+can't be the same way in the future otherwise bad things are going to happen and it's in order most vehicles it's
+actually very interesting that the car makers are doing that then they're very traditional but at the same time you have tech companies who have nothing to
+do with cars or transportation like Google and Baidu really pushing on
+autonomous cars I find it fascinating clearly you're super excited about
+actually these ideas having an impact in the world in terms of the technology in
+terms of ideas and research their directions that you're also excited about whether that's on the some of the
+approaches you talked about for the imperfect information games whether it's applying deep learning just some of these problems is there something that
+you're excited in in the research side of things yeah yeah lots of different things in the game solving so solving
+even bigger games games will you have more hidden action of the play your
+actions as well poker is a game where really the chance actions are hidden or
+some of them are hidden but the player actions are public the multiplayer games of various sorts
+collusion opponent exploitation all and
+even longer games some games that basically go forever but they're not repeated so seek extensive phone games
+that go forever whoa what what would that even look like how do you represent that how do you solve that what's an
+example of a game like that or is this some of the stochastic games the imagine let's say business strategy so it's and
+not just modeling like a particular interaction but thinking about the business from here to eternity
+or I think or let's let's say military
+strategy so it's not like war is going to go away how do you think about military strategy that's going to go
+forever how do you even model that how do you know whether a move was good that
+you somebody made and and and so on so that that's kind of one direction I'm
+also very interested in learning much more scalable techniques for integer
+programming so we had a nice email paper this summer on that for the first automated algorithm configuration paper
+that has theoretical generalization guarantees so if I see these many training examples and I told my
+algorithm in this way it's going to have good performance on the real distribution which have not seen so
+which is kind of interesting that you know algorithm configuration has been going on now for at least 17 years
+seriously and there has not been any generalization theory before well this
+is really exciting and it's been it's a huge honor to talk to you thank you so much to us thank you for bringing
+livadas to the world and all the great work you're done well thank you very much it's been fun good questions
+you
 
 ----------
 
@@ -570,11 +2157,729 @@ paste here
 --52--
 
 -----
-Date:
-Link:
+Date: 2018.12.23
+Link: [# Juergen Schmidhuber: Godel Machines, Meta-Learning, and LSTMs | Lex Fridman Podcast #11](https://www.youtube.com/watch?v=3FIo6evmweo)
 Transcription:
 
-paste here
+the following is a conversation with jurgen schmidhuber he's the co-director of a CSA a lab and a co-creator of long
+short term memory networks LS TMS are used in billions of devices today for
+speech recognition translation and much more over 30 years he has proposed a lot
+of interesting out-of-the-box ideas a meta learning adversarial networks computer vision and even a formal theory
+of quote creativity curiosity and fun this conversation is part of the MIT
+course and artificial general intelligence and the artificial intelligence podcast if you enjoy it subscribe on youtube itunes or simply
+connect with me on twitter at Lex Friedman spelled Fri D and now here's my
+conversation with jurgen schmidhuber early on you dreamed of AI systems that
+self-improve recursively when was that dream born when I was a baby
+no it's not true I mean it was a teenager and what was the catalyst for
+that birth what was the thing that first inspired you when I was a boy I'm I was
+thinking about what to do in my life and then I thought the most exciting thing
+is to solve the riddles of the universe and and that means you have to become a
+physicist however then I realized that there's something even grander you can
+try to build a machine that isn't really a machine any longer that learns to
+become a much better physicist than I could ever hope to be and that's how I thought maybe I can multiply my tiny
+little bit of creativity into infinity but ultimately that creativity will be
+multiplied to understand the universe around us that's that's the the
+curiosity for that mystery that that drove you yes so if you can build a
+machine that learns to solve more and more complex problems and more and more
+general problems older then you basically have solved all the problems
+at least all the solvable problems so how do you think what is the mechanism
+for that kind of general solver look like obviously we don't quite yet have
+one or know how to build one who have ideas and you have had throughout your career several ideas about it so how do
+you think about that mechanism so in the 80s I thought about how to build this
+machine that learns to solve all these problems I cannot solve myself and I
+thought it is clear that has to be a machine that not only learns to solve
+this problem here and problem here but it also has to learn to improve the learning algorithm itself so
+it has to have the learning algorithm in a representation that allows it to
+inspect it and modify it such that it can come up with a better learning
+algorithm so I call that meta learning learning to learn and recursive
+self-improvement that is really the pinnacle of that why you then not only alarm how to improve on that problem and
+on that but you also improve the way the machine improves and you also improve the way it improves the way it improves
+itself and that was my 1987 diploma thesis which was all about that
+hierarchy of metal or knows that I have
+no computational limits except for the well known limits that Google identified
+in 1931 and for the limits our physics in the recent years meta learning has
+gained popularity in a in a specific kind of form you've talked about how
+that's not really meta learning with Newall networks that's more basic
+transfer learning can you talk about the difference between the big general meta learning and a more narrow sense of meta
+learning the way it's used today the ways talked about today let's take the example of a deep neural networks that
+has learnt to classify images and maybe you have trained that network on 100
+different databases of images and now a new database comes along and you want to
+quickly learn the new thing as well so one simple way of doing that as you take
+the network which already knows 100 types of databases and then you would
+just take the top layer of that and you retrain that using the new label data
+that you have in the new image database and then it turns out that it really
+really quickly can learn that to one shot basically because from the first
+100 data sets it already has learned so much about about computer vision that it can reuse
+that and that is then almost good enough to solve the new task except you need a
+little bit of adjustment on the top so that is transfer learning and it has
+been done in principle for many decades people have done similar things for decades meta-learning true mental
+learning is about having the learning algorithm itself open to introspection
+by the system that is using it and also
+open to modification such that the learning system has an opportunity to modify any part of the learning
+algorithm and then evaluate the consequences of that modification and
+then learn from that to create a better learning algorithm and so on recursively
+so that's a very different animal where you are opening the space of possible
+learning algorithms to the learning system itself right so you've like in
+this 2004 paper you described get all machines and programs that we write
+themselves yeah right philosophically and even in your paper mathematically these are really compelling ideas but
+practically do you see these self referential programs being successful in
+the near term to having an impact where sort of a demonstrates to the world that
+this direction is a is a good one to pursue in the near term yes we had these
+two different types of fundamental research how to build a universal problem solver one basically exploiting
+[Music] proof search and things like that that
+you need to come up with asymptotic Liam optimal theoretically optimal
+self-improvement and problems all of us however one has to admit that through
+this proof search comes in an additive constant an overhead an additive
+overhead that vanishes in comparison to
+what you have to do to solve large problems however for many of the small
+problems that we want to solve in our everyday life we cannot ignore this constant overhead and that's why we also
+have been doing other things non universal things such as recurrent
+neural networks which are trained by gradient descent and local search techniques which aren't universal at all
+which aren't provably optimal at all like the other stuff that we did but which are much more practical as long as
+we only want to solve the small problems that we are
+typically trying to solve in this environment here yes so the universal
+problem solvers like the girdle machine but also Markos who does fastest way of
+solving all possible problems which he developed around 2012 - in my lab they
+are associated with these constant overheads for proof search which guarantee is that the thing that you're
+doing is optimal for example there is this fastest way of solving all problems
+with a computable solution which is due to Marcus Marcus jota and to explain
+what's going on there let's take traveling salesman problems with traveling salesman problems you have a
+number of cities in cities and you try to find the shortest path through all
+these cities without visiting any city twice and nobody know is the fastest way
+of solving Traveling Salesman problems tsps but let's assume there is a method
+of solving them within n to the 5 operations where n is the number of
+cities then the universal method of
+Marcus is going to solve the same trolley salesman problem
+also within n to the 5 steps plus o of 1
+plus a constant number of steps that you need for the proof searcher which you
+need to show that this particular class of problems that Traveling Salesman
+salesman problems can be solved within a certain time bound within order into the
+five steps basically and this additive constant doesn't care for in which means
+as n is getting larger and larger as you have more and more cities the constant
+overhead pales in comparison and that means that almost all large problems
+I solved in the best possible way our way today we already have a universal
+problem solver like sound however it's not practical because the overhead the
+constant overhead is so large that for the small kinds of problems that we want
+to solve in this little biosphere by the way when you say small you're talking
+about things that fall within the constraints of our computational systems thinking they can seem quite large to us
+mere humans right that's right yeah so they seem large and even unsolvable in a
+practical sense today but they are still small compared to almost all problems
+because almost all problems are large problems which are much larger than any
+constant do you find it useful as a person who is dreamed of creating a
+general learning system has worked on creating one has done a lot of interesting ideas there to think about P
+versus NP this formalization of how hard
+problems are how they scale this kind of worst-case analysis type of thinking do
+you find that useful or is it only just a mathematical it's a set of
+mathematical techniques to give you intuition about what's good and bad mm-hmm so P versus NP that's super
+interesting from a theoretical point of view and in fact as you are thinking about that problem you can also get
+inspiration for better practical problems always on the other hand we
+have to admit that at the moment as he best practical problem solvers for all
+kinds of problems that we are now solving through what is called AI at the moment they are not of the kind that is
+inspired by these questions you know there we are using general-purpose
+computers such as recurrent neural networks but we have a search technique which is just local search gradient
+descent to try to find a program that is running on these recurrent networks such
+that it can or some interesting problems such as speech recognition
+machine translation and something like that and there is very little theory
+behind the best solutions that we have at the moment that can do that do you
+think that needs to change you think that world change or can we go can we create a general intelligence systems
+without ever really proving that that system is intelligent in some kind of mathematical way solving machine
+translation perfectly or something like that within some kind of syntactic definition of a language or can we just be super
+impressed by the thing working extremely well and that's sufficient there's an old saying and I don't know who brought
+it up first which says there's nothing more practical than a good theory and um
+yeah and a good theory of problem-solving under limited resources
+like here in this universe or on this little planet has to take into account
+these limited resources and so probably that is locking
+a theory in which is related to what we already have sees a sim totally optimal
+comes almost which which tells us what we need in addition to that to come up
+with a practically optimal problem so long so I believe we will have something
+like that and maybe just a few little tiny twists unnecessary to to change what we already
+have to come up with that as well as long as we don't have that we mmm admit
+that we are taking sub optimal ways and we can y'all not Verizon long shorter
+memory for equipped with local search techniques and we are happy that it
+works better than any competing method but that doesn't mean that we we think
+we are done you've said that an AGI system will ultimately be a simple one a
+general intelligent system will ultimately be a simple one maybe a pseudocode of a few lines to be able to
+describe it can you talk through your intuition behind this idea why you feel that uh at
+its core intelligence is a simple algorithm experience tells us that this
+stuff that works best is really simple so see asymptotic team optimal ways of
+solving problems if you look at them and just a few lines of code it's really true although they are these amazing
+properties just a few lines of code then the most promising and most useful
+practical things maybe don't have this proof of optimality associated with them
+however they are so just a few lines of code the most successful mmm we can
+neural networks you can write them down and five lines of pseudocode that's a
+beautiful almost poetic idea but what you're describing there is this the
+lines of pseudocode are sitting on top of layers and layers abstractions in a sense hmm so you're
+saying at the very top mmm you'll be a beautifully written sort of algorithm
+but do you think that there's many layers of abstractions we have to first learn to construct yeah of course we are
+building on all these great abstractions that people have invented over the
+millennia such as matrix multiplications and real numbers and basic arithmetic
+and calculus and derivations of error
+functions and derivatives of error functions and stuff like that so without that language that greatly
+simplifies our way our thinking about these problems we couldn't do anything
+so in that sense as always we are standing on the shoulders of the Giants who in the past simplified the problem
+of problem solving so much that now we have a chance to do the final step the
+final step will be a simple one oh if we if you take a step back through all of
+human civilization in just the universe in check how do you think about evolution and
+what if creating a universe is required to achieve this final step what if going
+through the very painful and an inefficient process of evolution is needed to come up with this set of
+abstractions that ultimately to intelligence do you think there's a shortcut or do you think we have to
+create something like our universe in order to create something like human level intelligence hmm so far the only
+example we have is this one this universe and you live you better maybe
+not but we are part of this whole process right so apparently so it might
+be the key is that the code that runs the universe as really really simple everything points
+to that possibility because gravity and other basic forces are really simple
+laws that can be easily described also in just a few lines of code basically and and then there are these other
+events that the apparently random events in the history of the universe which as
+far as we know at the moment don't have a compact code but who knows maybe somebody and the near future is going to
+figure out the pseudo-random generator which is which is computing whether the
+measurement of that spin up or down thing here is going to be positive or
+negative underlying quantum mechanics yes so you ultimately think quantum mechanics is a pseudo-random number
+generator monistic there's no randomness in our universe does God play dice so a
+couple of years ago a famous physicist quantum physicist Anton Zeilinger he
+wrote an essay in nature and it started more or less like that one of the
+fundamental insights our theme of the 20th century was that the universe is
+fundamentally random on the quantum level and that whenever you measure spin
+up or down or something like that a new bit of information enters the history of the universe and while I was reading
+that I was already typing the responds and they had to publish it because I was
+right that there's no evidence no physical evidence for that so there's an
+alternative explanation where everything that we consider random is actually
+pseudo-random such as the decimal expansion of pi
+supply is interesting because every three-digit sequence every sequence of
+three digits appears roughly one in a thousand times and every five digit
+sequence appears roughly one in ten thousand times what do you really would
+expect if it was run random but there's a very short algorithm short program
+that computes all of that so it's extremely compressible and who knows maybe tomorrow somebody some grad
+student at CERN goes back over all these data points better decay and whatever
+and figures out oh it's the second billion digits of pi or something like
+that we don't have any fundamental reason at the moment to believe that
+this is truly random and not just a deterministic video game if it was a
+deterministic video game it would be much more beautiful because beauty is
+simplicity and many of the basic laws of the universe like gravity and the other
+basic forces are very simple so very short programs can explain what these are doing and and it would be awful and
+ugly the universe would be ugly the history of the universe would be ugly if for the extra things the random the
+seemingly random data points that we get all the time that we really need a huge
+number of extra bits to destroy all these um these extra bits of information
+so as long as we don't have evidence that there is no short program that
+computes the entire history of the entire universe we are a scientists
+compelled to look further for that Swiss program your intuition says there exists
+a shortest a program that can backtrack to the to the creation of the universe
+so the shortest path to the creation yes including all the
+entanglement things and all the spin up-and-down measurements that have been
+taken place since 13.8 billion years ago
+and so yeah so we don't have a proof that it is random we don't have a proof
+of that it is compressible to a short program but as long as we don't have
+that proof we are obliged as scientists to keep looking for that simple explanation absolutely so you said
+simplicity is beautiful or beauty is simple either one works but you also
+work on curiosity discovery you know the romantic notion of
+randomness of serendipity of being
+surprised by things that are about you kind of in our poetic notion of reality
+we think as humans require randomness so you don't find randomness beautiful you
+use you find simple determinism beautiful yeah okay so why why because
+the explanation becomes shorter a universe that is compressible to a short
+program is much more elegant and much more beautiful than another one which
+needs an almost infinite number of bits to be described as far as we know many
+things that are happening in this universe are really simple in terms are from short programs that compute gravity
+and the interaction between elementary particles and so on so all of that seems
+to be very very simple every electron seems to reuse the same sub program all
+the time as it is interacting with other elementary particles if we now require
+an extra Oracle injecting new bits of information all the time for these extra
+things which are currently no understood such as
+better decay then the whole description
+length our data that we can observe out of the history of the universe would
+become much longer and therefore uglier
+and uglier again the simplicity is elegant and beautiful all the history of science is
+a history of compression progress yes so you've described sort of as we build up
+abstractions and you've talked about the idea of compression how do you see this
+the history of science the history of humanity our civilization and life on earth as some kind of path towards
+greater and greater compression what do you mean by there how do you think of that indeed the history of science is a
+history of compression progress what does that mean hundreds of years ago
+there was an astronomer whose name was Keppler and he looked at the data points
+that he got by watching planets move and then he had all these data points and
+suddenly turnouts that he can greatly compress the data by predicting it
+through an ellipse law so it turns out that all these data points are more or
+less on ellipses around the Sun and another guy came along whose name was
+Newton and before him hook and they said the same thing that is making these
+planets move like that is what makes the apples fall down and it also holds form
+stones and for all kinds of other objects and suddenly many many of these
+compression of these observations became much more compressible because as long as you can predict the next thing given
+what you have seen so far you can compress it you don't have to store that data extra this is called predict
+coding and then there was still something wrong with that theory of the
+universe and you had deviations from these predictions of the theory and 300
+years later another guy came along whose name was Einstein and he he was able to
+explain away all these deviations from the predictions of the old theory
+through a new theory which was called the general theory of relativity which
+at first glance looks a little bit more complicated and you have to warp space and time but you can't phrase it within
+one single sentence which is no matter how fast you accelerate and how fast are
+hard you decelerate and no matter what is the gravity in your local framework
+Lightspeed always looks the same and from from that you can calculate all the
+consequences so it's a very simple thing and it allows you to further compress
+all the observations because suddenly there are hardly any deviations any
+longer that you can measure from the predictions of this new theory so all of
+science is a history of compression progress you never arrive immediately at
+the shortest explanation of the data but you're making progress whenever you are
+making progress you have an insight you see all first I needed so many bits of
+information to describe the data to describe my falling apples my video are falling apples I need so many data so
+many pixels have to be stored but then suddenly I realize no there is a very
+simple way of predicting the third frame in the video from the first tool and and
+maybe not every little detail can be predicted but more or less most of these orange blocks blobs that are coming down
+they accelerate in the same way which means that I can greatly compress the video and the amount of compression
+progress that is the depth of the insight that you have at that moment
+that's the fun that you have the Scientific fun that fun in that discovery and we can build artificial
+systems that do the same thing they measure the depth of their insights as they are looking at the data which is
+coming in through their own experiments and we give them a reward an intrinsic
+reward and proportion to this depth of insight and since they are trying to
+maximize the rewards they get they are
+suddenly motivated to come up with new action sequences with new experiments
+that have the property that the data that is coming in as a consequence are these experiments has the property that
+they can learn something about see a pattern in there which they hadn't seen
+yet before so there's an idea of power play you've described a training general
+problem solver in this kind of way of looking for the unsolved problems yeah can you describe that idea a little
+further it's another very simple idea so normally what you do in computer science you have you have some guy who gives you
+a problem and then there is a huge search space of potential solution
+candidates and you somehow try them out and you have more less sophisticated
+ways of moving around in that search space until you finally found a solution
+which you consider satisfactory that's what most of computer science is about
+power play just goes one little step further and says let's not only search
+for solutions to a given problem but let's search two pairs of problems and
+their solutions where the system itself has the opportunity to phrase its own
+problem so we are looking suddenly at pairs of problems and their solutions or
+modifications are the problems over that is supposed to generate a solution to that
+new problem and and this additional
+degree of freedom allows us to build Korea systems that are like scientists
+in the sense that they not only try to solve and try to find answers to
+existing questions no they are also free to impose their own questions so if you
+want to build an artificial scientist we have to give it that freedom and power play is exactly doing that so that's
+that's a dimension of freedom that's important to have but how do you are hardly you think that
+how multi-dimensional and difficult the space of them coming up in your
+questions is yeah so as as it's one of the things that as human beings we consider to be the thing that makes us
+special the intelligence that makes us special is that brilliant insight yeah
+that can create something totally new yes so now let's look at the extreme
+case let's look at the set of all possible problems that you can formally
+describe which is infinite which should be the next problem that a scientist or
+power-play is going to solve well it should be the easiest problem that goes
+beyond what you already know so it should be the simplest problem
+that the current problems all of that you have which can already sold 100 problems that he cannot solve yet by
+just generalizing so it has to be new so it has to require a modification of the
+problem solver such that the new problem solver can solve this new thing but the old problem solver cannot do it
+and in addition to that we have to make sure that the problem solver doesn't
+forget any of the previous solutions right and so by definition power play is
+now trying always to search and this pair of in in the set of pairs of
+problems and problems over modifications for a combination that minimize the time
+to achieve these criteria so as always trying to find the problem which is
+easiest to add to the repertoire so just like grad students and academics and
+researchers can spend the whole career in a local minima hmm stuck trying to come up with interesting
+questions but ultimately doing very little do you think it's easy well in
+this approach of looking for the simplest unsolvable problem to get stuck in a local minima is not never really
+discovering new you know really jumping outside of the hundred problems the very
+solved in a genuine creative way no because that's the nature of power play
+that it's always trying to break its current generalization abilities by
+coming up with a new problem which is beyond the current horizon just shifting the horizon of knowledge a
+little bit out there breaking the existing rules search says the new thing becomes
+solvable but wasn't solvable by the old thing so like adding a new axiom like
+what Google did when he came up with these new sentences new theorems that
+didn't have a proof in the phone system which means you can add them to the repertoire
+hoping that that they are not going to damage the consistency of the whole
+thing so in the paper with the amazing title formal theory of creativity fun in
+intrinsic motivation you talk about discovery as intrinsic reward so if you
+view humans as intelligent agents what do you think is the purpose and meaning
+of life far as humans is you've talked about this discovery do you see humans
+as an instance of power play agents yeah so humans are curious and
+that means they behave like scientists not only the official scientists but
+even the babies behave like scientists and they play around with toys to figure
+out how the world works and how it is responding to their actions and that's
+how they learn about gravity and everything and yeah in 1990 we had the
+first systems like the hand would just try to to play around with the environment and come up with situations
+that go beyond what they knew at that time and then get a reward for creating
+these situations and then becoming more general problem solvers and being able to understand more of the world so yeah
+I think in principle that that that
+curiosity strategy or sophisticated
+versions of whether chess is quiet they are what we have built-in as well because evolution discovered that's a
+good way of exploring the unknown world and a guy who explores the unknown world has a higher chance of solving problems
+that he needs to survive in this world on the other hand those guys who were
+too curious they were weeded out as well so you have to find this trade-off evolution found a certain trade-off
+apparently in our society there are as a certain percentage of extremely
+exploitive guy and it doesn't matter if they die because many of the others are more
+conservative and and and so yeah it would be surprising to me if if that
+principle of artificial curiosity wouldn't be present and almost exactly
+the same form here in our brains so you're a bit of a musician and an
+artist so continuing on this topic of creativity what do you think is the role
+of creativity and intelligence so you've kind of implied that it's essential for
+intelligence if you think of intelligence as a problem-solving system
+as ability to solve problems but do you think it's essential this idea of
+creativity we never have a program a sub
+program that is called creativity or something it's just a side effect of when our problem solvers do they are
+searching a space of problems or a space of candidates of solution candidates
+until they hopefully find a solution to have given from them but then there are these two types of creativity and both
+of them are now present in our machines the first one has been around for a long time which is human gives problem to
+machine machine tries to find a solution to that and this has been happening for
+many decades and for many decades machines have found creative solutions to interesting problems where humans
+were not aware of these particularly in creative solutions but then appreciated
+that the machine found that the second is the pure creativity that I would call
+what I just mentioned I would call the applied creativity like applied art
+where somebody tells you now make a nice picture off of this Pope and you will
+get money for that okay so here is the artist and he makes a convincing picture
+of the Pope and the Pope likes it and gives him the money and then there is the pure creative
+creativity which is more like the power play and the artificial curiosity thing where you have the freedom to select
+your own problem like a scientist who defines his own question to study and so
+that is the pure creativity of UL and opposed to the applied creativity which
+serves another and in that distinction there's almost echoes of narrow AI
+versus general AI so this kind of constrained painting of a pope seems
+like the the approaches of what people are calling narrow AI and pure
+creativity seems to be maybe I'm just biased as a human but it seems to be an
+essential element of human level intelligence is that what you're
+implying to a degree if you zoom back a little
+bit and you just look at a general problem-solving machine which is trying to solve arbitrary problems then this
+machine will figure out in the course of solving problems that it's good to be
+curious so all of what I said just now about this prewired curiosity and this
+will to invent new problems that the system doesn't know how to solve yet should be just a byproduct of the
+general search however apparently evolution has built it into us because
+it turned out to be so successful a pre-wiring a buyer's a very successful
+exploratory buyers that that we are born with and you've also said that
+consciousness in the same kind of way may be a byproduct of problem-solving
+you know do you think do you find it's an interesting by-product you think it's a useful by-product what are your
+thoughts on consciousness in general or is it simply a byproduct of greater and
+greater capabilities of problem-solving that's that's similar to creativity in
+that sense yeah we never have a procedure called consciousness in our
+machines however we get as side effects of what these machines are doing things
+that seem to be closely related to what people call consciousness so for example
+in 1990 we had simple systems which were basically recurrent networks and
+therefore universal computers trying to map incoming data into actions that lead
+to success maximizing reward in a given environment always finding the charging station in
+time whenever the battery's low and negative signals are coming from the battery always finds the charging
+station in time without bumping against painful obstacles on the way so
+complicated things but very easily motivated and then we give these little
+a separate we can all network which is
+just predicting what's happening if I do that in that what will happen as a consequence of these actions that I'm
+executing and it's just trained on the long and long history of interactions with the world so it becomes a
+predictive model loss of art basically and therefore also a compressor our
+theme observations after what because whatever you can predict you don't have
+to store extras or compression is a side effect of prediction and how does this
+record Network impress well it's inventing little sub programs little sub Network networks that stand for
+everything that frequently appears in the environment like bottles and microphones and faces maybe lots of
+faces in my environment so I'm learning to create something like a prototype
+face and a new face comes along and all I have to encode are the deviations from the prototype so it's compressing all
+the time the stuff that frequently appears there's one thing that appears
+all the time that is present all the time when the agent is interacting with
+its environment which is the agent itself so just for data compression reasons it
+is extremely natural for this we can network to come up with little sub
+networks that stand for the properties of the agents the hand you know the the
+other actuators and all the stuff that you need to better encode the data which
+is influenced by the actions of the agent so they're just as a side effect of
+data compression during problem-solving you have inter myself models now you can
+use this model of the world to plan your future and that's what yours have done
+since 1990 so the recurrent Network which is the controller which is trying
+to maximize reward can use this model as a network of the what is this model network as a wild this predictive model
+of the world to plan ahead and say let's not do this action sequence let's do this action sequence instead because it
+leads to more predictor to rewards and whenever it's waking up these layers of
+networks let's stand for itself and it's thinking about itself and it's thinking
+about itself and it's exploring mentally the consequences of its own actions and
+and now you tell me what is still missing missing the next the gap to
+consciousness yeah hi there there isn't that's a really beautiful idea that you know if life is a collection of data and
+in life is a process of compressing that data to act efficiently you in that data
+you yourself appear very often so it's useful to form compressions of yourself
+and it's a really beautiful formulation of what consciousness is a necessary side-effect it's actually quite
+compelling to me you've described our nen's developed LST aims long short-term
+memory networks the there type of recurrent neural networks they have
+gotten a lot of success recently so these are networks that model the temporal aspects in the data temporal
+patterns in the data and you've called them the deepest of the Newell networks right so what do you think is the value
+of depth in the models that we use to learn since you mentioned the long
+short-term memory and the lsdm I have to mention the names of the brilliant
+students of course that's worse first of all and my first student ever set for writer who
+had fundamental insights already in this diploma thesis then Felix Kias had
+additional important contributions Alex gray is a guy from Scotland who is
+mostly responsible for this CTC algorithm which is now often used to to train the Alice TM to do the speech
+recognition on all the Google Android phones and whatever and Siri and so on
+so these guys without these guys I would
+be nothing it's a lot of incredible work what is now the depth what is the importance of depth well
+most problems in the real world are deep in the sense that the current input
+doesn't tell you all you need to know about the environment mm-hmm so instead
+you have to have a memory of what happened in the past and often important
+parts of that memory are dated they are pretty old and so when you're doing
+speech recognition for example and somebody says eleven then that's about
+half a second or something like that which means it's already fifty-eight time steps and another guy or the same
+guy says seven so the ending is the same Evan but now the system has to see the
+distinction between seven and eleven and the only way I can see the differences it has to store that fifty steps ago
+there wasn't or a nerve eleven or seven so there you have already a problem of
+depth fifty because for each time step you have something like a virtual a
+layer and the expanded unrolled version of this Riccar network which is doing the speech recognition so these long
+time lags they translate into problem depth and most problems and this world
+Asajj that you really have to look far back in time to understand what is the problem and to
+solvent but just like with our CMS you don't necessarily need to when you look
+back in time remember every aspect you just need to remember the important aspects that's right the network has to
+learn to put the important stuff in into memory and to ignore the unimportant
+noise so but in that sense deeper and deeper is better or is there a
+limitation is is there I mean LCM is one of the great examples of architectures that do something
+beyond just deeper and deeper networks there's clever mechanisms for filtering
+data for remembering and forgetting so do you think that that kind of thinking is necessary if you think about LCM is a
+leap a big leap forward over traditional vanilla are nuns what do you think is
+the next leap hmm it within this context so LCM is a very clever improvement but
+LCM still don't have the same kind of ability to see far back in the future in
+the in the past as us humans do the credit assignment problem across way
+back not just 50 times steps or a hundred or a thousand but millions and
+billions it's not clear what are the practical limits of the lsdm when it
+comes to looking back already in 2006 I think we had examples where it not only
+looked back tens of thousands of steps but really millions of steps and who won
+Paris artists in my lab I think was the first author of a paper where we really
+was a 2006 or something had examples word learn to look back for more than 10
+million steps so for most problems of
+speech recognition it's not necessary to look that far back but there are examples where it does now so looking
+back thing [Music] that's rather easy because there is only one past but there are many possible
+futures and so a reinforcement learning system which is trying to maximize its
+future expected rewards and doesn't know yet which of these many possible future
+should I select given this one single past it's facing problems that the LCN
+by itself cannot solve so the other sim is good for coming up with a compact
+representation of the history so far of the history and observations in action
+so far but now how do you plan in an efficient and good way among all these
+how do you select one of these many possible action sequences that a reinforcement learning system has to
+consider to maximize reward in this unknown future so again it behaves this
+basic setup where you have one week on network which gets in the video and the
+speech and whatever and it's executing actions and is trying to maximize reward so there is no teacher who tells it what
+to do at which point in time and then there's the other network which is
+just predicting what's going to happen if I do that then and that could be an
+LCM Network and it allows to look back all the way to make better predictions
+of the next time step so essentially although it's men predicting only the next time step it is motivated to learn
+to put into memory something that happened maybe a million steps ago because it's important to memorize that
+if you want to predict that at the next time step the next event you know how
+can a model of the world like that a predictive model of the world be used by
+the first guy let's call it the controller and the model the controller and the model how can the model be used
+by the controller to efficiently select among these many possible futures so
+naive way we had about 30 years ago was let's just use the model of the world as
+a stand-in as a simulation of the wall and millisecond by millisecond we planned the future and that means we
+have to roll it out really in detail and it will work only as the model is really good and it will still be inefficient
+because we have to look at all these possible futures and and there are so many of them so instead what we do now
+since 2015 and our cm systems controller model systems we give the controller the
+opportunity to learn by itself how to use the potentially relevant parts of
+the M of the model network to solve new problems more quickly and if it wants to
+it can learn to ignore the M and sometimes it's a good idea to ignore the the M because it's really bad it's a bad
+predictor in this particular situation of life where the control is currently
+trying to maximize r1 however it can also allow and to address and exploit
+some of the sub programs that came about in the model network through compressing
+the data by predicting it so it now has an opportunity to reuse that code the
+ethnic information in the modern are trying to reduce its own search space
+such that it can solve a new problem more quickly than without the model
+compression so you're ultimately optimistic and excited about the power
+of ära of reinforcement learning in the context of real systems absolutely yeah
+so you see RL as a potential having a huge impact beyond just sort of the M
+part is often develop on supervised learning methods
+you see RL as a four problems of cell
+traffic cars or any kind of applied cyber BOTS X that's the correct
+interesting direction for research in your view I do think so we have a
+company called Mason's Mason's which has applied to enforcement learning to
+little Howdy's there are DS which learn to park without
+a teacher the same principles were used of course so these little Audi's they
+are small maybe like that so I'm much smaller than the real Howdy's but they
+have all the sensors that you find the real howdy is you find the cameras that lead on sensors they go up to 120 20
+kilometres an hour if you if they want to and and they are from pain sensors
+basically and they don't want to bump against obstacles and other Howdy's and
+so they must learn like little babies to a park take the wrong vision input and
+translate that into actions that lead to successful packing behavior which is a
+rewarding thing and yes they learn that they are salt we have examples like that and it's only in the beginning this is
+just the tip of the iceberg and I believe the next wave of a line is going
+to be all about that so at the moment the current wave of AI is about passive
+pattern observation and prediction and and that's what you have on your
+smartphone and what the major companies on the Pacific of em are using to sell you ads to do marketing that's the
+current sort of profit in AI and that's only one or two percent of the world economy which is big enough to make
+these company is pretty much the most valuable companies in the world but there's a much much bigger fraction of
+the economy going to be affected by the next wave which is really about machines that shape the data through our own
+actions and you think simulation is ultimately the biggest way that that
+though those methods will be successful in the next 10 20 years we're not talking about a hundred years from now we're talking about sort of the
+near-term impact of RL do you think really good simulation is required or is
+there other techniques like imitation learning you know observing other humans
+yeah operating in the real world where do you think this success will come from so at the moment we have a tendency of
+using physics simulations to learn
+behavior for machines that learn to solve problems that humans also do not
+know how to solve however this is not the future because the future is and
+what little babies do they don't use a physics engine to simulate the world
+no they learn a predictive model of the world which maybe sometimes is wrong in
+many ways but captures all kinds of important abstract high-level predictions which are really important
+to be successful and and that's what is what was the future thirty years ago
+when you started that type of research but it's still the future and now we are know much better how to go there to to
+move there to move forward and to really make working systems based on that where
+you have a learning model of the world a model of the world that learns to predict what's going to happen if I do
+that and that and then the controller uses that model
+to more quickly learn successful action sequences and then of course always this
+crazy thing in the beginning the model is stupid so the controller should be motivated to come up with experiments
+with action sequences that lead to data that improve the model do you think
+improving the model constructing an understanding of the world in this connection is the in now the popular
+approaches have been successful you know grounded in ideas of neural networks but
+in the 80s with expert systems there's symbolic AI approaches which to us
+humans are more intuitive in a sense that it makes sense that you build up
+knowledge in this knowledge representation what kind of lessons can we draw in our current approaches mmm
+for from expert systems from symbolic yeah so I became aware of all of that in
+the 80s and back then a logic program logic programming was a huge thing was
+inspiring to yourself did you find it compelling because most a lot of your work was not so much in that realm mary
+is more in learning systems yes or no but we did all of that so we my first
+publication ever actually was 1987 was a the implementation of genetic algorithm
+of a genetic programming system in prologue prologue that's what you learn
+back then which is a logic programming language and the Japanese the anthers huge fifth-generation AI project which
+was mostly about logic programming back then although a neural networks existed
+and were well known back then and deep learning has existed since 1965 since
+this guy and the UK and even anko started it but the Japanese and many other people they
+focus really on this logic programming and I was influenced to the extent that I said okay let's take these
+biologically inspired rules like evolution programs and and and implement
+that in the language which I know which was Prolog for example back then and then in in many ways as came back later
+because the Garuda machine for example has approved search on board and without
+that it would not be optimal well Marcus what does universal algorithm for solving all well-defined problems as
+approved search on board so that's very much logic programming without that it
+would not be a Centanni optimum but then on the other hand because we have a very pragmatic is also we focused on we
+cannula networks and and and some optimal stuff such as gradient based
+search and program space rather than provably optimal things the logic
+programming does it certainly has a usefulness in when you're trying to
+construct something provably optimal or probably good or something like that but is it useful for for practical problems
+it's really useful at volunteer improving the best theorem provers today are not neural networks right no say our
+logic programming systems and they are much better theorem provers than most math students and the first or second
+semester on but for reasoning to for playing games of go or chess or for
+robots autonomous vehicles that operate in the real world or object manipulation
+you know you think learning yeah as long as the problems have little to do with
+with C or improving themselves then as
+long as that is not the case you you just want to have better pattern recognition so to build a self-driving
+car you want to have better pattern recognition and and pedestrian recognition and all these
+things and you want to your minimum you want to minimize the number of false
+positives which is currently is slowing down self-driving cars in many ways and and all that has very little to do with
+logic programming yeah what are you most
+excited about in terms of directions of artificial intelligence at this moment in the next few years in your own
+research and in the broader community so I think in the not so distant future we
+will have for the first time little robots that learn like kids and I
+will be able to say to the robot um look here robot we are going to assemble a
+smartphone it's takes a slab of plastic and the school driver and let's screw in
+the screw like that no no not like that like so hmm not like that like that and
+I don't have a data glove or something he will see me and he will hear me and
+he will try to do something with his own actuators which will be really different
+from mine but he will understand the difference and will learn to imitate me
+but not in the supervised way where a teacher is giving target signals for all
+his muscles all the time no by doing this high level imitation where he first has to learn to imitate
+me and then to interpret these additional noises coming from my mouth as helping helpful signals to to do that
+Hannah and then it will by itself come
+up with faster ways and more efficient ways of doing the same thing and finally
+I stopped his learning algorithm and make a million copies and sell it and so
+at the moment this is not possible but we already see how we are going to get there and you can imagine to the extent
+that this works economically and cheaply it's going to change everything almost
+all our production is going to be affected by that and a much bigger wave
+much bigger ai wave is coming than the one that we are currently witnessing which is mostly about passive pattern
+recognition on your smartphone this is about active machines that shapes data Susy actions they are executing and they
+learn to do that in a good way so many
+of the traditional industries are going to be affected by that all the companies
+that are building machines well equip these machines with cameras
+and other sensors and they are going to learn to solve all kinds of problems
+through interaction with humans but also a lot on their own to improve what they
+already can do and lots of old economy
+is going to be affected by that and in recent years I have seen that all the economy is actually waking up and
+realizing that those vacations and are you optimistic about the future are you
+concerned there's a lot of people concerned in the near term about the
+transformation of the nature of work the kind of ideas that you just suggested
+would have a significant impact of what kind of things could be automated are you optimistic about that future are you
+nervous about that future and looking a little bit farther into the future
+there's people like you la musk - a rustle concerned about the existential
+threats of that future so in the near term job loss in the long term
+existential threat are these concerns to you or yalta mele optimistic so let's
+first address the near future we have
+had predictions of job losses for many decades for example when industrial
+robots came along many people many people predicted and lots of jobs are
+going to get lost and in a sense say were right because back then there were
+car factories and hundreds of people and these factories assembled cars and today
+the same car factories have hundreds of robots and maybe three guys watching the robots on the other hand those countries
+that have lots of robots per capita Japan Korea and Germany Switzerland a
+couple of other countries they have really low unemployment rates
+somehow all kinds of new jobs were created back then nobody anticipated
+those jobs and decades ago I already
+said it's really easy to say which jobs are going to get lost but it's really
+hard to predict the new ones 30 years ago who would have predicted all these
+people making money as YouTube bloggers
+200 years ago 60% of all people used to
+work in agriculture today maybe 1% but
+still only I don't know 5% unemployment lots of new jobs were created and Homo
+Luden's the the playing man is inventing new jobs all the time most of these jobs
+are not existentially necessary for the survival of our species there are only
+very few existentially necessary jobs such as farming and building houses and
+and warming up the houses but less than 10% of the population is doing that and most of these newly invented jobs are
+about interacting with other people in new ways through new media and so on
+getting new high types of kudos and forms of likes and whatever and even
+making money through that so homo Luden's the playing man doesn't want to
+be unemployed and that's why he is inventing new jobs all the time and he
+keeps considering these jobs as really important and is investing a lot of energy and hours of work into into those
+and new jobs it's quite beautifully put were really nervous about the future because we
+can't predict what kind of new jobs would be created but your ultimate ly optimistic that we humans are so
+Restless that we create and give meaning to newer in your jobs telling you likes on faith things that
+get likes on Facebook or whatever the social platform is so what about long-term existential threat of AI where
+our whole civilization may be swallowed up by this ultra super intelligent
+systems maybe it's not going to be smaller DUP but I'd be surprised if B
+were B humans were the last step and the evolution of the universe you you've
+actually at this beautiful comment somewhere that I've seen saying that
+artificial quite insightful artificial general intelligence systems just like
+us humans will likely not want to interact with humans they'll just interact amongst themselves
+just like ants interact amongst themselves and only tangentially
+interact with humans hmm and it's quite an interesting idea that once we create a GI that will lose interest in humans
+and and have compete for their own Facebook Likes on their own social platforms so within that quite elegant
+idea how do we know in a hypothetical sense that there's not already
+intelligent systems out there how do you think broadly of general intelligence greater than us how do we know it's out
+there mmm how would we know it's around us and could it already be I'd be
+surprised even with within the next few decades or something like that we we
+won't have a eyes that truly smarts in every single way and better problem solvers and almost every single
+important way and I'd be surprised as
+they wouldn't realize what we have realized a long time ago which is that
+almost all physical resources are not here and this biosphere but for thou
+the rest of the solar system gets 2 billion times more solar energy than our
+little planet there's lots of material out there that you can use to build robots and self-replicating robot
+factories and all this stuff and they are going to do that and there will be scientists and curious and they will
+explore what they can do and in the beginning they will be fascinated by
+life and by their own origins and our civilization they will want to understand that completely just like
+people today would like to understand how life works and um and also the
+history of our own existence and civilization and also on the physical
+laws that created all of that so they in the beginning they will be fascinated my
+life once they understand that I was interest like anybody who loses interest
+and things he understands and then as you said the most interesting sources
+information for them will be others of their own kind
+so at least in the long run there seems to be some sort of protection through
+lack of interest on the other side
+and now it seems also clear as far as we understand physics you need matter and
+energy to compute and to build more robots and infrastructure and more AI
+civilization and III ecology is consisting of trillions of different
+types of AIS and and so it seems inconceivable to me that this thing is
+not going to expand some AI ecology not controlled by one AI but one by
+trillions of different types of AI is competing and all kinds of quickly
+evolving and disappearing ecological niches in ways that we cannot fathom at the moment but it's going to expand
+limited by Lightspeed and physics it's going to expand and and now we realize
+that the universe is still young it's only 13.8 billion years old and it's going to be a thousand times
+older than that so there's plenty of time to conquer the entire universe and
+to fill it with intelligence and senders and receivers such that AI scan trouble
+the way they are traveling in our labs today which is by radio from sender to
+receiver and let's call the current age of the universe one Eon
+one Eon now it will take just a few eons
+from now and the entire visible universe is going to be full of that stuff and
+let's look ahead to a time when the universe is going to be one thousand times older than it is now they will
+look back and they will say look almost immediately after the Big Bang only a few eons later the entire
+universe started to become intelligent now to your question how do we see
+whether anything like that has already happened or is already in a more advanced stage in some other part of the
+universe of the visible universe we are trying to look out there and nothing like that has happened so far or is that
+her do you think we'll recognize it or how do we know it's not among us how do we know planets aren't in themselves
+intelligent beings how do we know ants
+seen as a collective are not much greater intelligence in our own these
+kinds of ideas no but it was a boy I was thinking about these things and I
+thought hmm maybe it has already happened because back then I know I knew I learned from popular physics books
+that the structure the large-scale structure of the universe is not homogeneous and you have these clusters
+of galaxies and then in between there are these huge empty spaces and I
+thought hmm maybe they aren't really empty it's just that in the middle of that some AI civilization already has
+expanded and then has covered a bottle of a billion light-years diameter and is
+using all the energy of all the stars within that bubble for its own unfathomable purposes and so it always
+happened and we just failed to interpret the signs but then alarmed effect
+gravity by itself explains the large-scale structure of the universe and that this is not a convincing
+explanation and then I thought maybe maybe it's the dark matter because as
+far as we know today 80% of the measurable matter is invisible and we
+know that because otherwise our galaxy or other galaxies would fall apart they
+would they are rotating too quickly and then the idea was maybe all us he is AI
+civilizations and hourly out there they they just invisible because they are
+really efficient in using the energies at their own local systems and that's why they appear dark to us but this is
+awesome at a convincing explanation because then the question becomes why is
+there are there still any visible stars left in our own galaxy which also must have a
+lot of dark matter so that is also not a convincing thing and today I like to
+think it's quite plausible that maybe are the first at least in our local light cone within a few hundreds of
+millions of light years that we can reliably observe is there exciting to
+you it will might be the first and it would make us much more important
+because if we mess it up through a nuclear war then then maybe this will
+have an effect on the on the on the development on of the entire universe so
+let's not mess it up let's not mess it up Union thank you so much for talking today I really appreciate it it's my
+pleasure
+you
 
 ----------
 
@@ -582,71 +2887,3587 @@ paste here
 --51--
 
 -----
-Date:
-Link:
+Date: 2018.12.16
+Link: [# Pieter Abbeel: Deep Reinforcement Learning | Lex Fridman Podcast #10](https://www.youtube.com/watch?v=l-mYLq6eZPY)
 Transcription:
 
-paste here
+the following is a conversation with Petera Beal he's a professor UC Berkeley and the director of the Berkeley
+robotics learning lab he's one of the top researchers in the world working on how we make robots understand and
+interact with the world around them especially using imitation and deeper enforcement learning this conversation
+is part of the MIT course and artificial general intelligence and the artificial intelligence podcast if you enjoy it
+please subscribe on YouTube iTunes where your podcast provider of choice or simply connect with me on Twitter at Lex
+Friedman spelled Fri D and now here's my conversation with Peter a Biel you've
+Robot tennis
+mentioned that if there was one person you could meet you'll be Roger Federer so let me ask when do you think we will
+have a robot that fully autonomously can beat Roger Federer at tennis Roger
+Federer level player at tennis huh well first if you can make it happen for me to meet Roger let me know terms of
+getting a robot to beat him at tennis it's kind of an interesting question
+because for a lot of the challenges we think about in AI the software is really
+the missing piece but for something like this the hardware is nowhere near either
+like to really have a robot that can physically run around the Boston
+Dynamics robots are starting to get there but still not really human level ability to to run around and then swing
+a racket that's a hardware problem I don't think it's a harder problem only I
+think it's a hardware and a software problem I think it's both and I think they'll they'll have independent
+progress so I'd say the the hardware maybe in 10-15 years I'm just late not
+grass I've dressed with a sliding yeah oh plague I'm not sure what's Carter
+grass or clay the clay involves sliding which might be harder to master actually
+yeah but you're not limited to bipedal I mean I'm sure there's I can build a
+machine it's a whole different question of course you know you can if you can say okay this robot can be on wheels they can move around on
+wheels and can be designed differently then I think that that can be done
+sooner probably than a full humanoid type of setup what do you think is swing a racket so you've worked at basic
+manipulation how hard do you think is the task of swinging or racket would be
+able to hit a nice backhand or a forehand okay let's say let's say we just set up
+stationary a nice robot arm let's say you know a standard industrial arm and
+it can wash the ball come and then swing the racket it's a good question I'm not
+sure it would be super hard to do I mean I'm sure it would require a lot if we do
+it breed with reinforced Maleny would require a lot of trial and error it's not gonna swing it right the first time around but yeah I don't I don't see why
+I couldn't see the right way I think it's learn about I think if you set up a
+ball machine let's say on one side and then a robot with a tennis racket on the other side
+I think it's learn about and maybe a little bit of pre training and
+simulation yeah I think that's I think that's feasible I think I think the swinging the racket is feasible I'd be
+very interesting to see how much precision it can get listen I mean that's that's where I mean
+some of the human players can hit it on the lines which is very high precision with spin this win is it is an
+interesting whether RL can learn to put a spin on the ball well you got me interested maybe someday we'll set this
+is your answer is basically okay for this problem it sounds fascinating but
+for the general problem of a tennis player we might be a little bit farther away what's the most impressive thing
+you've seen a robot do in the physical world so physically for me it's the
+Robot parkour
+Boston Dynamics videos always just ring home and just super impressed
+recently the robot running up the stairs doing the parkour type thing I mean yes we don't know what's
+underneath they don't really write a lot of detail but even if it's hard coded underneath which you might or might not
+be just the physical abilities of doing that parkour that's a very impressive so a lot right there have you met spot many
+or any of those robots in person might spot mini last hearing in April at the
+Mars event that Jeff Bezos organizes they brought it out there and it was
+nicely falling around Jeff when Jeff left the room they had it follow him along which is pretty
+impressive so I think there's some confidence to know that there's no learning going on in those robots the
+The psychology of robots
+psychology of it so while knowing that while knowing there's not if there's any learning going on it's very limited
+I met spot Minnie earlier this year and knowing everything that's going on
+having one-on-one interaction so I got to spend some time alone and there's a
+immediately a deep connection on the psychological level even though you know the fundamentals how it works there's
+something magical so do you think about the psychology of interacting with
+robots in the physical world even you just showed me the pr2 the the robot and
+and there was a little bit something like a face head a little bit something like a face there's something that
+immediately draws you to it do you think about that aspect of of the robotics problem well it's very
+hard with bread here we'll give him a name Berkeley robot for the elimination
+of tedious tasks is very hard to not think of the robot as a person and it
+seems like everybody calls him a he for whatever reason but that also makes it more a person than if it was a it and
+it's it seems pretty natural to think of it that way this past weekend really struck me I've seen pepper many times on
+on videos but then I was at an event organized by this was by fidelity and
+they had scripted pepper to help moderate some sessions and yet scripted
+pepper to have the personality of a child a little bit and it was very hard to not think of it as its own person in
+some sense because it was just kind of jumping it would just jump into conversation making it very interactive moderate will be saying pepper just jump
+in hold on how about me can I participate in this doing it just like I heard this is like like a person and I
+was 100% scripted and even then it was hard not to have that sense of somehow there is something there so as we have
+robots interact in this physical world is that a signal that can be used in reinforcement learning you've you've
+worked a little bit in this direction but do you think that's that psychology can be somehow pulled in now so that's a
+question I would say a lot a lot of people ask and I think part of why they ask it is
+Can robots have emotion
+they're thinking about how unique are we really still ask people like after they
+see some results they see a computer play go to say computer do this that they're like ok but can it really have
+emotion can it really interact with us in that way and then once you're around
+robots you already start feeling it and I think that kind of maybe mythologically the way that I think of
+it is if you run something like reinforce some Linux about optimizing some objective and there's no reason
+that D object couldn't be tied into how much there's a person like interacting
+with this system and why could not the reinforcement learning system optimized for their robot being fun to be around
+and why wouldn't it then naturally become more and more interactive and more and more maybe like a person or like a pet I
+don't know what it would exactly be but more more have those features and acquire them automatically as long as
+you can formalize an objective of what it means to like something what how you
+exhibit what's the ground truth how do you how do you get the reward from human
+cause you have to somehow collect that information within you human but you you're saying if you can
+formulate as an objective it can be learned there is no reason it couldn't emergent through learning and maybe one
+way to formulate has an objective you wouldn't have to necessarily score it explicitly so standard rewards are
+numbers and numbers are hard to come by this is a 1.5 or 0.7 on some scale it's
+very hard to do for a person but much easier is for a person to say okay what you did the last five minutes was much
+nicer than we did the previous five minutes and that now gives a comparison compare and in fact there have been some
+results in that for example Paul Christiana and collaborators at open e I had the hopper madoka Hopper one legged
+robot the Batman's little back flips yeah purely from feedback I like this better than that that's kind of equally
+good and after a bunch of interactions it figured out what it was the person was asking for it namely a back flip and
+so I think the same thing od wasn't trying to do a back flip it was just getting a score from the
+comparison score from the person based on hers and having a mind in their own mind what I wanted to do a back flip but
+the robot didn't know what it was supposed to be doing it just knew that sometimes the person said this is better
+this is worse and then the robot figure it out what the person was actually after was a back flip and I'd imagine
+the same would be true for things like more interactive robots that the robot would figure out over time oh this kind
+of thing apparently has appreciated more than this other kind of thing so when I
+first picked up Sutton's Richard Sutton's reinforcement learning book before sort of this deep
+learning before the re-emergence of neural networks is a powerful mechanism for machine learning IRL seemed to me
+like magic as a as beautiful so that seemed like what intelligence is RL
+reinforcement learning so how do you think we can possibly learn anything
+about the world when the reward for the actions is delayed is so sparse like
+where is why do you think RL works why do you think you can learn anything
+under such sparse awards whether it's regular reinforcement learning a deeper enforcement learning what's your
+intuition the kind of part of that is why is RL why does it need so many
+Intuition behind RL
+samples so many experiences to learn from because really what's happening is when you have a sparse reward you do
+something maybe for like I don't know you take a hundred actions and then you get a reward and maybe get like a score
+of three and I'm like okay three not sure what that means you go again and now I get to and now you know that that
+sequence of hundred actions that you did the second time around somehow was worse than the sequence of hundred actions you did the first time around but that's
+tough to now know which one of those were better or worse some might have been good and bad in either one and so
+that's why I need so many experience but once you have enough experiences effectively rlist easing that apart it's
+time to say okay when what is consistently there when you get a higher reward and what's consistently there
+when you get a lower reward and then kind of the magic of sums is the policy grant update is to say
+now let's update the neural network to make the actions that were kind of present when things are good more likely
+and make the actions that are present when things are not as good less likely so that's that is the counterpoint but
+it seems like you would need to run it a lot more than you do even though right now people could say that RL is very
+inefficient but it seems to be way more efficient than one would imagine on paper that the the simple updates to the
+policy the policy gradient that that's somehow you can learn is exactly users said what are the common actions that
+seem to produce some good results that that somehow can learn anything it seems
+counterintuitive at least did is there some intuition behind yeah so I think
+there's a few ways to think about this the way I Tennant about it mostly originally when so when
+we started working on deep reinforcement learning here at Berkeley which was maybe two thousand eleven twelve thirteen around that time
+challenge Schulman was a PhD student initially kind of driving it too forward here and did it the way we thought about
+it at the time was if you think about rectified linear units or kind of break the fire type neural networks what do
+you get you get something that's piecewise linear feedback control and if you look at the literature linear
+feedback control is extremely successful can solve many many problems surprisingly well
+I remember for example when we did helicopter flight if you're in a stationary flight regime not a non
+station by the stationary flight regime like hover you can use linear feedback control to stabilize a helicopter a very complex dynamical system but the
+controller is relatively simple and so I think that's a big part of is that if you do feedback control even though the
+system you control can be very very complex often relatively simple control
+architectures can already do a lot but then also just linear is not good enough and so one way you can think of these
+neural networks is that in sometimes they tile the space which people were already trying to do more by hand or
+with finite state machines say this linear controller here this leaner controller here you'll network learns
+that alva spins a linear controller here another linear controller here but it's more subtle than that yeah and so it's
+benefiting from this linear control aspect is benefiting from the tiling but it's somehow tiling it one dimension at
+a time because if let's say you have a two layer network even the hidden layer you make a transition from active to
+inactive or the other way around that is essentially one axis but not acts as a line but one direction that you change
+and so you have this kind of very gradual tiling of the space we have a lot of sharing between the linear
+controllers that tile the space and that was always my intuition s of why to expect that this might work pretty well
+it's essentially leveraging the fact that linear feedback control is so good but of course not enough and this is a
+gradual tiling of the space with linear feedback controls that share a lot of expertise across them so that that's
+that's really nice intuition do you think that scales to the more and more general problems of when you start going
+up the number of controllers dimensions when you start going down in terms of
+how often you get a clean reward signal does that intuition carry forward to
+those crazy or weird or worlds that we think of as the real world so I think
+Time skills
+where things get really tricky in the real world compared to the things we've looked at so far with great success in
+reinforcement learning is the time skills which takes us to an
+extreme so when you think about the real world I mean I don't know maybe some
+student decided to do a a PhD here right okay that's that's the decision that's a
+very high-level decision but if you think about their lives I mean any person's life it's a sequence of muscle
+fiber contractions and relaxations and that's how you interact with the world and that's a very high frequency control
+thing but it's ultimately what you do and how you affect the world until I guess we have brain readings and you can
+maybe do it slightly differently but typically that's how you affect the world and the decision of doing a PhD is
+like so abstract relative to what you're actually doing in the world and I think that's where credit assignment becomes
+just completely beyond what any current RL algorithm can do and we need
+hierarchical reasoning at a level that is just not available at all yet where
+do you think we can pick up hierarchical reasoning by which mechanisms yeah so maybe let me highlight what I think the
+Limitations
+limitations are of what already was done 20-30 years ago in fact you'll find
+reasoning systems that reason over relatively long horizons but the problems that they were not grounded in
+the real world so people would have to hand design some kind of logical
+dynamical descriptions of the world and that didn't tie into perception and so
+then time to real objects and so forth and so that that was a big gap now with deep learning we start having the
+ability to really see with sensors
+process that and understand what's in the world and so it's a good time to try to bring these things together one I see
+a few ways of getting there one way to get there would be to say deep learning can get bolted on somehow to some of
+these more traditional approaches now bolted on would probably mean you need to do some kind of end-to-end training
+where you say my deep learning processing somehow leads to a representation that in Perm uses some
+kind of traditional underlying dynamical systems that can be used for planning
+and that's for example the direction Aviv Tamar and the North Korea touch here have been pushing with causal info
+gone and of course other people to that that's that's one way can we somehow force it into the form factor that is
+amenable to reasoning another direction we've been thinking about for a long time and they didn't
+make any progress on was more information theoretic approaches so the idea there was that what it means to
+take high-level action is to take and choose a latent variable now that tells
+you a lot about what's gonna be the case in the future because that's what it means to to take a high-level action I
+say what I decide I'm gonna navigate to the gas station because need to get gas
+for my car well that'll now take five minutes to get there but the fact that I get there I could already tell that from
+the high-level action it took much earlier that we had a very hard time
+getting success with not saying it's a dead-end necessarily but we had a lot of
+trouble getting that to work and then we start revisiting the notion of what are we really trying to achieve what we're
+trying to achieve is non ously hierarchy per se but you could think about what does hierarchy give us what it's we hope
+it would give us is better credit assignment kind of what is better credit ominous is given is giving us it gives
+us faster learning right and so faster
+learning is ultimately maybe what we're after and so that's what we ended up with the RL squared paper on learning -
+reinforcement learn which at a time rocky duan LED and that's exactly the
+meta learning approach or is say okay we don't know how to design hierarchy we know what we want to get from it let's
+just enter an optimize for what want to get from it and see if it might emerging we saw things emerge the maze navigation
+had consistent motion down hallways which is what you want a hierarchical
+control should say I want to go down this hallway and then when there is an option to take a turn I can this art will take a turn or not and repeat even
+had the notion of where have you been before or not do not revisit places you've been before it still didn't scale
+yet to the real world kind of scenarios I think you had in mind but it was some
+sign of life that maybe you can meta learn these hierarchal concepts I mean it seems like through these meta
+learning concepts get at the what I think is one of the hardest and most important problems of
+AI which is transfer learning so it's generalization how far along this
+journey towards building general systems are we being able to do transfer learning well so there's some signs that
+you can generalize a little bit but do you think we're on the right path or it's totally different breakthroughs are
+needed to be able to transfer knowledge between different learned models yeah
+Reusable results
+I'm I'm pretty tired on this and then I think there are some very many there
+there's just some very impressive results already right I mean yes I would say when even with the initial and a big
+breakthrough in 2012 with Aleks net right the initial the initial thing is okay great this does better on imagenet
+hands image recognition but then immediately thereafter that was of course the notion that Wow
+what was learned on image net and you now want to solve a new task you can fine-tune Aleks net for new tasks and
+that was often found to be the even bigger deal that you learned something that was reusable which was not often
+the case before usually machine learning you learned something for one scenario and that was it and that's really exciting I mean that's just a huge
+application that's probably the biggest success of transfer learning today in terms of scope and impact that was huge
+breakthrough and then recently I feel like similar kind of but by scaling
+things up it seems like this has been expanded upon like people training even bigger networks they might transfer even
+better if you looked at for example some of the opening eye results on language models and some of the recent Google
+results on language models they are learned for just prediction and then
+they get reused for other tasks and so I think there is something there where
+somehow if you train a big enough model on enough things it seems to transfer some deepmind results I thought were
+very impressive unreal results where it was learned to navigate mazes in ways
+where it wasn't just reinforcement learning going to have other objectives was optimizing for so I think there's a lot of interesting
+results already I think maybe words hard to wrap my head around this to which
+extend or when do we call something generalization right or the levels of generalization involved in these
+different tasks alright so you draw this by the way just to frame things you've
+heard you say somewhere it's the difference between learning to master versus learning to generalize that it's
+a nice line to think about and it guess you're saying that's a gray area of what
+learning to master and learning to generalize where once think I might have heard this I might have heard it
+somewhere else and I think it might have been one of one of your interviews and maybe the one with yo show Benjamin on
+hundred percent sure but I like the example I'm gonna act not sure who it
+was but the example was essentially if you use current deep learning techniques what we're doing to predict let's say
+the relative motion of our planets it would do pretty well but then now if a
+massive new mass enters our solar system it would prompt predict what will happen
+right and that's a different kind of journal is a Shahnaz a generalization that relies on the ultimate simplest
+simplest explanation that we have available today to explain the motion of planets where I was just pattern
+recognition could predict our current solar system motion pretty well no problem and so I think that's an example
+of a kind of generalization that is a little different from what we've achieved so far and it's not clear if
+just you know regularizing more I'm forcing it to come up with a simpler simpler simple experience but it's not
+simple but that's what physics researchers do right to say can I make this even simpler how simple can I get
+this what's a simplest equation I can explain everything right yeah the master equation for the entire dynamics of the
+universe we haven't really pushed that direction as hard in in deep learning I would say not sure if it should be
+pushed but it seems a kind of generalization you get from that that you don't get in our current methods so far so I just talked to vladimir
+vapnik for example who was a statistician the statistical learning and he kind of dreams of creating these
+are the a equals e equals mc-squared for learning right the general theory of
+learning do you think that's a fruitless pursuit in the near term in within the
+next several decades I think that's a really interesting pursuit and in the
+Modularity
+following sense and that there is a lot of evidence that the brain is pretty
+modular and so I wouldn't maybe think of it as the theory maybe the the underlying theory but more kind of the
+principle where there have been findings where people who are blind will use the
+part of the brain usually used for vision for other functions and even
+after some kind of if people will get rewired in some way they might I'm able to reuse parts of their brain for other
+functions and so what that suggests is some kind of modularity and I think it
+is a pretty natural thing to strive forward to see can we find that modularity can we find this thing of
+course it's not every part of the brain is not exactly the same not everything can be rewired arbitrarily but if you
+think of things like the neocortex which is pretty big part of the brain that seems fairly modular from what the
+findings so far can you design something equally modular and if you can just grow
+it it becomes more capable probably I think that would be the kind of interesting underlying principle to
+shoot for that is not unrealistic do you think you prefer math or empirical trial
+and error for the discovery of the essence of what it means to do something intelligent so reinforcement learning embodies both
+groups right then prove that something converges prove the bounds and then at
+the same time a lot of those successes are well let's try this and see if it works so which do you gravitate towards
+how do you think of those two parts of your brain so
+Mathematical Formalisation
+maybe I would prefer we could make the progress with mathematics and the reason
+maybe I would prefer that is because because often if you have something you can mathematically formalise you can
+leapfrog a lot of experimentation and experimentation takes a long time to get through and a lot of trial and error
+kind of reinforcement learning your research process but you need to do a lot of trial and error before you get to
+a success so if we can leapfrog doubt in my mind that's what the math is about and hopefully once you do a bunch of
+experiments you start seeing a pattern you can do some derivations that leapfrog some experiments but I agree
+with you I mean in practice a lot of the progress has been such that we have not been able to find the math that allows
+it to leapfrog ahead and we are kind of making gradual progress one step at a time a new experiment here a new
+experiment there that gives us new insights and gradually building up but not getting to something yet where we're
+just okay here's an equation that now explains how you know that would be have been two years of experimentation to get
+there but this tells us what the results going to be unfortunately not so much yes not so much yeah but your hope is
+there in trying to teach robots or systems to do everyday tasks or even in
+simulation what what do you think you're more excited about imitation learning or
+self play so letting robots learn from humans or letting robots plan their own to try to
+figure out in their own way and eventually play eventually interact with
+humans or to solve whatever problem is what's the more exciting to you what's more promising you think as a research
+direction so when we look at self play
+Selfplay
+what's so beautiful about it is goes back to kind of the challenges in reinforcement learning so the challenge
+of reinforced learning is getting signal and if you don't never succeed you don't get any signal in self play you're on
+both sides so one of you succeeds and the beauty is also one of you fails and so you see the contrast you see the one
+version of me that it better the other version and so every time you play yourself you get signal and so
+whenever you can turn something into self play you're in a beautiful situation where you can naturally learn
+much more quickly than in most other reinforced learning environments so I think I think if somehow we can turn
+more reinforcement learning problems into self play formulations that would go real really far so far south play has
+been largely around games where there is natural opponents but if we could do
+self play if for other things and let's say I don't know a robot learns to build a house I mean that's a pretty advanced thing to try to do for a robot but maybe
+it tries to build a hut or something if that can be done through self play it would learn a lot more quickly if
+somebody can figure that out and I think that would be something where it goes closer to kind of the mathematical leap
+frogging where somebody figures out a formalism to it's okay any RL problem by playing this and this
+idea you can turn it into a self play problem where you get signal a lot more easily
+reality is many problems we don't know how to turn the self lay and so either we need to provide detailed reward that
+doesn't just reward for achieving a goal but rewards for making progress and that becomes time-consuming and once you're
+starting to do that let's say you want a robot to do something you need to give all this detailed reward well why not just give a demonstration right because
+why not just show the robot and now the question is how do you show the robot one way to show is to tally operate the
+robot and then the robot really experiences things and that's nice because that's really high signal-to-noise ratio data and we've
+done a lot of that and you teach your robot skills in just 10 minutes you can teach your robot a new basic skill like
+okay pick up the bottle place it somewhere else that's a skill no matter where the bottle starts maybe it always goes on to a target or something
+that's fairly is a teacher about with tally up now what's even more
+interesting if you can now teach robot through third person learning where the robot watches you do something and
+doesn't experience it but just watches it and says okay well if you're showing me that that means I should be doing
+this and I'm not gonna be using your hand because I don't get to control your hand but I'm gonna use my hand I'd do that mapping and so that's where I think
+one of the big breakthroughs has happened this year this was led by Chelsea Finn here it's almost like
+machine translation for demonstrations were you have a human demonstration and the robot learns to translated into what
+it means for the robot to do it and that was a meta learning for a Malaysian learn from one to get the other and that
+I think opens up a lot of opportunities to learn a lot more quickly so my focus is on autonomous vehicles do you think
+this approach of third-person watching is about the autonomous driving is amenable to this a kind of approach so
+for autonomous driving I would say it's third-person is slightly easier and the
+reason I'm gonna say slightly easier to do a third-person is because the hard
+dynamics are very well understood so the easier than of first-person you mean or
+easier so I think the distinction between third-person and first-person is not a very important distinction for
+autonomous driving they're very similar because the distinction is really about
+who turns the steering wheel and or maybe I'll let me put it differently how
+to get from a point where you are now to a point let's say a couple meters in front of you and that's a problem that's
+very well understood and that's the only distinction being third and first-person there whereas with the robot manipulation interaction forces are very
+complex and it's still a very different thing for autonomous driving I think
+there is still the question imitation versus RL so imitation gives you a lot
+more signal I think where imitation is lacking and needs some extra machinery
+is it doesn't in its normal format doesn't think about goals or objectives
+and of course there are versions of imitation learning inverse reinforce learning type imitation which also
+thinks about goals I think then we're getting much closer but I think it's very hard to think of a fully reactive
+car generalizing well if it really doesn't have a notion of objectives to
+generalize well to the kind of general that you would want you'd want more than just that reactivity that you get from
+just behavioral cloning / supervised learning so a lot of the work whether
+its self play imitation learning would benefit significantly from simulation from
+effective simulation and you're doing a lot of stuff in the physical world and in simulation do you have hope for
+greater and greater power of simulation loop being boundless eventually to where
+most of what we need to operate in the physical world would could be simulated to a degree that's directly transferable
+to the physical world are we still very far away from that so I think we could
+Simulation
+even rephrase that question in some sense please so the power of simulation
+right simulators get better and better of course become stronger and we can
+learn more in simulation but there's also another version which is where you said the simulator doesn't even have to
+be that precise as long as is somewhat representative and instead of trying to get one simulator that is sufficiently
+precise to learn in and transfer really well to the real world I'm gonna build many simulators ensemble
+of simulators ensemble of simulators not any single one of them is sufficiently
+representative of the real world such that it would work if you train in there but if you train in all of them then
+there is something that's good in all of them the real world will just be you know another one that's you know cannot
+identical to any one of them but just another one of them another sample from the distribution of simulators exact we
+do live in a simulation so this is just like oh one other one I'm not sure about that video it's definitely a very
+advanced simulator if it is yeah it's pretty good one I've talked to this to Russell is something you think about a
+little bit too of course you're like really trying to build these systems but do you think about the future of AI a
+lot of people have concerned about safety how do you think about AI safety as you build robots that are operating
+in the physical world what what is uh yeah how do you approach this problem in
+an engineering kind of way in a systematic way so what a robot is doing
+Safety
+things you kind of have a few notions of safety to worry about one is that Throwbot is
+physically strong and of course could do a lot of damage same for cars which we
+can think of as robots do in some way and this could be completely unintentional so it could be not the
+kind of long-term AI safety concerns that okay a is smarter than us and now what do we do but it could be just very
+practical okay this robot if it makes a mistake whether the results going to be of
+course simulation comes in a lot there too to test in simulation it's a
+difficult question and I'm always wondering like I was wondering at let's go back to drivings a lot of people know
+driving well of course what do we do to test somebody for driving right to get a
+driver's license what do they really do I mean you fill out some test and then
+you drive and I mean perfume in suburban California the driving test is just you
+drive around the block pull over you do a stop sign successfully and then you
+know you pull over again and you pretty much done and you're like okay if a self-driving car did dad would you trust
+it that it can drive and be like no that's not enough for me to trust but somehow for humans we've figured out
+that somebody being able to do that it's representative of them being able to do
+a lot of other things and so I think somehow for you must we figured out representative tests of what it means if
+you can do this what you can really do of course testing you must you must all want to be tested at all times
+self-driving cars the robots can be tested more often probably you can have replicas that get testament are known to
+be identical because they use the same neural net and so forth but still I feel like we don't have this kind of unit
+tests or proper tests for for robots and I think there's something very interesting to be thought about there
+especially as you update things your software improves you have a better self driving car suite you updated how do you
+know it's indeed more capable on everything than what you had before that you didn't have any bad things creep
+into it so I think that's a very interesting direction of research that there is no real solution yet
+except that's somehow for you must we do because we say okay you have a driving test you passed you can go on the road
+now and you must have accents every like a million or ten million miles something something pretty phenomenal compared to
+that short test yeah that is being done so let me ask you've mentioned
+you mentioned that Andrew Aang by example showed you the value of kindness and to do you think the space of
+policies good policies for humans and for AI is populated by policies that
+with kindness or ones that are the opposite exploitation even evil so if
+you just look at the sea of policies we operate under as human beings or if AI system had to operate in this real world
+do you think it's really easy to find policies that are full of kindness like we naturally fall into them or is it
+like a very hard optimization problem I
+Human evolution
+mean there is kind of two optimizations happening for humans right so for you
+most was kinda the very long-term optimization which evolution has done for us and we're kind of predisposed to
+like certain things and that's in sometimes what makes our learning easier because I mean we know things like pain
+and hunger and thirst and the fact that we know about those is not something
+that we were taught that's kind of innate when we're hungry were unhappy when we're thirsty were unhappy when we
+have pain we're unhappy and ultimately evolution built that into us to think
+about this thing so so I think there is a notion that it seems somehow humans evolved in general to prefer to get
+along in some ways but at the same time also to be very territorial and kind of
+centric to their own tribe is it like it seems like that's the kind of space we
+converge down to it I mean I'm not an expert in anthropology but it seems like we're very kind of good within our own
+tribe but need to be taught but to be nice to other tribes well if you look at
+Steven Pinker he highlights is pretty nicely in better better angels of our nature where
+he talks about violence decreasing over time consistently so whatever attention whatever teams we pick it seems that the
+long arc of history goes towards us getting along more and more so I hope so
+so do you think that do you think it's possible to cheat teach RL bass robots
+the this kind of kindness this kind of ability to interact with humans this kind of policy even - let me ask let me
+ask a fun one do you think it's possible to teach RL based robot to love a human being and to inspire that human to love
+the robot back so - like RL based algorithm that leads to a happy marriage
+that's interesting question maybe I'll oh I'll answer it with with another
+question right I mean it's it but I'll come back to it so another question you
+can have is okay I mean how close does some people's happiness get from interacting with just
+a really nice dog like I mean dogs you come home that's what dogs did they
+greet you they're excited it makes you happy when you're coming home to your dog just like okay this is exciting
+they're always happy when I'm here and if they don't greet you because maybe whatever your partner took them on a
+trip or something you might not be nearly as happy when you get home right and so the kind of it seems like the
+level of reasoning a dog houses is pretty sophisticated but then it's still not yet at the level of human reasoning
+and so it seems like we don't even need to achieve human love reason to get like very strong affection with humans and so
+my thinking is why not right why couldn't with an AI couldn't we achieve the kind of level of affection that
+humans feel among each other or with friendly animals and so forth it's a
+question is it a good thing for us or not that misses another going right because I mean
+but I don't see why not why not yeah so he almost says love was the answer maybe
+he should say love is the objective function and then RL is the answer maybe
+I'll Peter thank you so much I don't want to take up more of your time thank you so much for talking today well
+thanks for coming by great to have you visit
+you
 
 ----------
 
 -----
+
 --50--
 
 -----
-Date:
-Link:
+Date: 2018.12.09
+Link: [# Stuart Russell: Long-Term Future of Artificial Intelligence | Lex Fridman Podcast #9](https://www.youtube.com/watch?v=KsZI5oXBC0k)
 Transcription:
 
-paste here
+the following is a conversation with Stuart Russell he's a professor of computer science at UC Berkeley and a
+co-author of a book that introduced me and millions of other people to the amazing world of AI called artificial
+intelligence a modern approach so it was an honor for me to have this conversation as part of MIT course and
+artificial general intelligence and the artificial intelligence podcast if you enjoy it please subscribe on youtube
+itunes or your podcast provider of choice or simply connect with me on twitter at Lex Friedman spelled Fri D
+and now here's my conversation with Stuart Russell so you've mentioned in
+1975 in high school you've created one year first AI programs that play chess
+were you ever able to build a program that beat you a chess or another board
+game so my program never beat me at chess I actually wrote the program at
+Imperial College so I used to take the bus every Wednesday with a box of cards
+this big and shove them into the card reader and they gave us eight seconds of
+CPU time it took about five seconds to read the cards in and compile the code so we had
+three seconds of CPU time which was enough to make one move you know with a not very deep search and then we would
+print that move out and then we'd have to go to the back of the queue and wait to feed the cards in again how do you
+post a search well I would talk to no I think we got we got an eight move eight
+you know depth eight with alpha beta and we had some tricks of our own about move
+ordering and some pruning of the tree and we were still able to beat that program yeah yeah I I was a reasonable
+chess player in my youth I did Anna fellow program and a backgammon program
+so when I go to Berkley I worked a lot on what we call meta reasoning which
+really means reasoning about reasoning and in the case of a game playing program you need to reason about what
+parts of the search tree you're actually going to explore because the search tree is enormous or you know bigger than the
+number of atoms in the universe and the way programs succeed and the way humans
+succeed is by only looking at a small fraction of the search tree and if you look at the right fraction you play
+really well if you look at the wrong fraction if you waste your time thinking about things that are never gonna happen
+the moves that no one's ever gonna make then you're gonna lose because you you won't be able to figure out the right
+decision so that question of how machines can manage their own computation either how
+they decide what to think about is the meta-reasoning question we developed some methods for doing that
+and very simply a machine should think about whatever thoughts are going to
+improve its decision quality we were able to show that both for a fellow
+which is a standard to play game and for backgammon which includes dice for also
+it's a two-player game with uncertainty for both of those cases we could come up with algorithms that were actually much
+more efficient than the standard alpha beta search which chess programs at the
+time we're using and that those programs could beat me and I think you can see
+same basic ideas in alphago and alpha zero today the way they explored the
+tree is using a former meta reasoning to select what to think about based on how
+useful it is to think about it is there any insights you can describe without
+Greek symbols of how do we select which paths to go down there's really two
+kinds of learning going on so as you say alphago learns to evaluate board
+position so it can it can look at a go board and it actually has probably a
+superhuman ability to instantly tell how promising that situation is to me the
+amazing thing about alphago is not that it can be the world champion with its
+hands tied behind his back but the fact that if you stop it from searching
+altogether so you say okay you're not allowed to do any thinking ahead right you can just consider each of your
+legal moves and then look at the resulting situation and evaluate it so what we call a depth one search so just
+the immediate outcome of your moves and decide if that's good or bad that version of alphago can still play
+at a professional level right and human professionals are sitting there for five ten minutes deciding what to do and
+alphago in less than a second instantly into it what is the right move
+to make based on its ability to evaluate positions and that is remarkable because
+you know we don't have that level of intuition about go we actually have to think about the situation so anyway that
+capability that alphago has is one big part of why it beats humans the other
+big part is that it's able to look ahead 40 50 60 moves into the future mm-hmm
+and you know if it was considering all possibilities 40 or 50 or 60 moves into
+the future that would be you know 10 to the 200
+possibility so wait way more than you know atoms in the universe and and so on
+so it's very very selective about what it looks at
+so let me try to give you an intuition about how you decide what to think about
+it's a combination of two things one is how promising it is right so if you're
+already convinced that a move is terrible there's no point spending a lot more time convincing yourself that it's
+terrible because it's probably not gonna change your mind so the the real reason
+you think is because there's some possibility of changing your mind about what to do mm-hmm right and is that changing your mind
+that would result then in a better final action in the real world so that's the
+purpose of thinking is to improve the final action in the real world and so if
+you think about a move that is guaranteed to be terrible you can convince yourself is terrible and you're
+still not gonna change your mind all right but on the other hand you I suppose you had a choice between two moves one of
+them you've already figured out is guaranteed to be a draw let's say and then the other one looks a little bit
+worse like it looks fairly likely that if you make that move you're gonna lose but there's still some uncertainty about
+the value of that move there's still some possibility that it will turn out to be a win all right then it's worth
+thinking about that so even though it's less promising on average than the other
+move which is guaranteed to be a draw there's still some purpose in thinking about it because there's a chance that you will change your mind and discover
+that in fact it's a better move so it's a combination of how good the move appears to be and how much I'm certainty
+there is about its value the more uncertainty the more it's worth thinking about because there's a higher upside if
+you want to think of it that way and of course in the beginning especially in the alphago 0 formulation it's
+everything is shrouded in uncertainty so you're really swimming in a sea of uncertainty so it benefits you too I
+mean actually following the same process as you described but because you're so uncertain about everything you you
+basically have to try a lot of different directions yeah so so the early parts of the search tree a fairly bushy
+that it will when looking a lot of different possibilities but fairly quickly the degree of certainty about
+some of the moves I mean if a movies are really terrible you'll pretty quickly find out right you lose half your pieces
+or half your territory and and then you'll say okay this this is not worth thinking about any more and then so a
+further down the tree becomes very long and narrow and you're following various
+lines of play you know 10 20 30 40 50 moves into the future and you know
+that's again it's something that human beings have a very hard time doing mainly because they just lacked the
+short-term memory you just can't remember a sequence of moves that's 50 movies long and you can't you can't
+imagine the board correctly for that money moves into the future of course
+the top players I'm much more familiar with chess but the top players probably
+have they have echoes of the same kind of intuition instinct that in a moment's
+time alphago applies when they see a board I mean they've seen those patterns human
+beings have seen those patterns before at the top at the Grandmaster level it seems that there is some similarities or
+maybe it's it's our imagination creates a vision of those similarities but it feels like this kind of pattern
+recognition that the alphago approaches are using is similar to what human
+beings at the top level or using I think there's there's some truth to that but
+not entirely yeah I mean I think the the extent to which a human Grandmaster can
+reliably wreak instantly recognize the right move instantly recognize the value of a position I think that's a little
+bit overrated but if you sacrifice a queen for exam I mean there's these there's these beautiful games of chess
+with Bobby Fischer somebody where it's seeming to make a bad move and I'm not
+sure there's a a perfect degree of calculation involved were they've calculated all the possible
+things that happen but there's an instinct there right that somehow adds up to the yeah so I think what happens
+is you you you get a sense that there's some possibility in the position even if
+you make a weird-looking move that it opens up some some lines of of
+calculation that otherwise would be definitely bad and and is that intuition
+that there's something here in this position that might might yield a win
+down the side and then you follow that right and and in some sense when when a
+chess player is following a line and in his or her mind they're they mentally
+simulating what the other person is gonna do while the opponent is gonna do and they can do that as long as the
+moves are kind of forced right as long as there's a you know there's a fourth
+we call a forcing variation where the opponent doesn't really have much choice how to respond and then you see if you
+can force them into a situation where you win you know we see plenty of mistakes even even in Grandmaster games
+where they just miss some simple three four five move combination that you know
+wasn't particularly apparent in in the position but we're still there that's the thing that makes us human
+yeah so when you mentioned that in a fellow those games were after some meta
+reasoning improvements and research I was able to beat you how did that make you feel part of the meta reasoning
+capability that it had was based on learning and and you could sit down the
+next day and you could just feel that it had got a lot smarter boom you know and
+all the sudden you really felt like you sort of pressed against the wall because it was it was much more
+aggressive and was totally unforgiving of any minor mistake that you might make
+and and actually it seemed understood the game better than I did and you know
+Gary Kasparov has this quote weary during his match against deep blue he
+said he suddenly felt that there was a new kind of intelligence across the board do you think that's a scary or an
+exciting possibility that's prevent for yourself in in the context of chess
+purely sort of in this like that feeling whatever that is I think it's definitely
+an exciting feeling you know this is what made me work on AI in the first
+place was as soon as I really understood what a computer was I wanted to make it smart you know I started out with the
+first program I wrote was for the sinclair programmable calculator and i think you could write a 21 step
+algorithm that was the biggest program you could write something like that and
+do little arithmetic calculations so I say think I implemented Newton's method for square roots and a few other things
+like that um but then you know I thought okay if I just had more space I could make this
+thing intelligent and so I started thinking about AI and
+and I think the the the thing that's scary is not is not the chess program
+because you know chess programs they're not in they're taking over the world business but if you extrapolate
+you know there are things about chess that don't resemble the real world right we know we know the rules of chess
+chess board is completely visible to the programmer of course the real world is not most you most the real world is not
+visible from wherever you're sitting so to speak and to overcome those kinds of problems
+you need qualitatively different algorithms another thing about the real
+world is that you know we we regularly plan ahead on the timescales involving
+billions or trillions of steps now we don't plan that was in detail but you
+know when you choose to do a PhD at Berkeley that's a five-year commitment and that
+amounts to about a trillion motor control steps that you will eventually be committed to including going up the
+stairs opening doors drinking water type yeah I mean every every finger movement
+while you're typing every character of every paper and the thesis and everything else so you're not commuting in advance to the specific motor control
+steps but you're still reasoning on a timescale that will eventually reduce to
+trillions of motor control actions and so for all these reasons
+you know alphago and and deep blue and so on don't represent any kind of threat
+to humanity but they are a step towards it right near that and progress in AI
+occurs by essentially removing one by one these assumptions that make problems
+easy like the assumption of complete observability of the situation right we
+remove that assumption you need a much more complicated kind of a computing
+design and you need something that actually keeps track of all the things you can't see and tries to estimate
+what's going on and there's inevitable uncertainty in that so it becomes a much
+more complicated problem but you know we are removing those assumptions we are
+starting to have algorithms that can cope with much longer timescales they can cope with uncertainty they can
+cope with partial observability and so each of those steps sort of
+magnifies by a thousand the range of things that we can do with AI systems so
+the way I started me I wanted to be a psychiatrist for long time to understand the mind in high school and of course
+program and so on and then I showed up University of Illinois to an AI lab and
+they said okay I don't have time for you but here's a book AI a modern approach I
+think was the first edition at the time mmm here go go learn this and I remember
+the lay of the land was well it's incredible that we solve chess but we'll never solve go I mean it was pretty
+certain that go in the way we thought about systems that reason was impossible
+to solve and now we've solved this as a very I think I would have said that it's
+unlikely we could take the kind of algorithm that was used for chess and
+just get it to scale up and work well for go
+and at the time what we thought was that
+in order to solve go we would have to do something similar to the way humans
+manage the complexity of go which is to break it down into kind of sub games so when a human thinks about a go board
+they think about different parts of the board as sort of weakly connected to each other and they think about okay
+within this part of the board here's how things could go and that part about his how things could go and now you try to
+sort of couple those two analyses together and deal with the interactions and maybe revise your views of how
+things are going to go in each part and then you've got maybe five six seven ten parts of the board and that actually
+resembles the real world much more than chess does because in the real world you
+know we have work we have home life we have sport you know whatever different
+kinds of activities you know shopping these all are connected to each other
+but they're weakly connected so when I'm typing a paper you know I don't simul
+taneous Li have to decide which order I'm gonna get the you know the milk and the butter you know that doesn't affect
+the typing but I do need to realize okay better finish this before the shops
+closed because I don't have anything you don't have any food at home all right right so there's some weak connection but not in the way that chess works
+where everything is tied into a single stream of thought so the thought was
+that go just sort of go we'd have to make progress on stuff that would be useful for the real world and in a way
+alphago is a little bit disappointing right because the the program designed
+for alphago was actually not that different from from deep blue or even
+from Arthur Samuels checker playing program from the 1950s
+and in fact the so the two things that make alphago work is one one is is amazing ability ability to evaluate the
+positions and the other is the meta-reasoning capability which which allows it to to explore some paths in
+the tree very deeply and to abandon other paths very quickly so this word
+meta-reasoning while technically correct inspires perhaps the the wrong degree of
+power that alphago has for example the word reasonings as a powerful word let me ask you sort of so you were part of
+the symbolic AI world for a while like whatever the AI was there's a lot of
+excellent interesting ideas there that unfortunately met a winter and so it do
+you think it really emerges well I would say yeah it's not quite as simple as
+that so the the AI winter so for the
+first window that was actually named as such was the one in the late 80s
+and that came about because in the mid 80s there was a really a concerted
+attempt to push AI out into the real world using what was called expert
+system technology and for the most part that technology was just not ready for
+primetime they were trying in many cases to do a form of uncertain reasoning judge you
+know judgment combinations of evidence diagnosis those kinds of things which
+was simply invalid and when you try to apply invalid reasoning methods to real
+problems you can fudge it for small versions of the problem but when it starts to get larger the thing just
+falls apart so many companies found that the stuff just didn't work and they were
+spending tons of money on consultants to try to make it work and there were you know other practical
+reasons like you know they they were asking the companies to buy incredibly expensive lisp machine workstations
+which were literally between fifty and a hundred thousand dollars in you know in
+1980s money which was would be like between a hundred and fifty and three hundred thousand dollars per workstation
+in current prices so then the bottom line they weren't seeing a profit from it yeah
+they in many cases I think there were some successes there's no doubt about that but people I would say over
+invested every major company was starting an AI department just like now
+and I worry a bit that we might see similar disappointments not because the
+technology is invalid but it's limited in its scope and it's almost the the
+dual of the you know the scope problems that expert systems had so what have you
+learned from that hype cycle and what can we do to prevent another winter for example yeah so when I'm giving talks
+these days that's one of the warnings that I give to to pot warning slide one
+is that you know rather than data being the new oil data is the new snake oil
+that's a good line and then and then the other is that we might see a kind of
+very visible failure in some of the major application areas and I think self-driving cars would be the flagship
+and I think when you look at the history
+so the first self-driving car was on the freeway driving itself changing lanes
+overtaking in 1987 and so it's more than
+30 years and that kind of looks like where we are today right you know
+prototypes on the freeway changing lanes and overtaking now I think significant
+progress has been made particularly on the perception side so we worked a lot on autonomous vehicles in the early mid
+90s at Berkley you know and we had our own big demonstrations you know we we
+put congressmen into yourself driving cars and and had them zooming along the freeway
+and the problem was clearly perception at the time the problem that perception
+yeah so in simulation with perfect perception you could actually show that
+you can drive safely for a long time even if the other cars are misbehaving and and so on but simultaneously we
+worked on machine vision for detecting cars and tracking pedestrians and so on
+and we couldn't get the reliability of detection and tracking up to a high
+enough particular level particularly in bad weather conditions nighttime
+rainfall good enough for demos but perhaps not good enough to cover the general the general yeah the thing about
+driving is you know suppose you're a taxi driver you know and you drive every day eight hours a day for ten years
+right that's a hundred million seconds of driving you know and any one of those
+seconds you can make a fatal mistake so you're talking about eight nines of
+reliability right now if your vision system only detects ninety eight point
+three percent of the vehicles right and that's sort of you know one on a bit
+nines and reliability so you have another seven orders of magnitude to go and and this is what people don't
+understand they think oh because I had a successful demo I'm pretty much done but
+you know you're not even within seven orders of magnitude of being done and
+that's the difficulty and it's it's not there can I follow a white line that's
+not the problem right we follow a white line all the way across the country but it's the it's the weird stuff that
+happens it's some of the edge cases yeah the edge case other drivers doing weird things you know so if you talk to Google
+right so they had actually very classical architecture where you know
+you had machine vision which would detect all the other cars and pedestrians and the white lines and the
+road signs and then basically that was fed into a logical database and then you
+had a classical 1970s rule-based expert system telling you okay if you're in the
+middle lane and there's a bicyclist in the right lane who is signaling this then then then don't need to do that yeah right and what they found was that
+every day they go out and there'd be another situation that the rules didn't cover you know so they they come to a
+traffic circle and there's a little girl riding a bicycle the wrong way around a traffic circle okay what do you do we
+don't have a rule oh my god okay stop and then you know they come back and had
+more rules and they just found that this was not really converging and and if you think about it right how
+how do you deal with an unexpected situation meaning one that you've never
+previously encountered and the sort of the the reasoning required to figure out
+the solution for that situation has never been done it doesn't match any previous situation in terms of the kind
+of reasoning you have to do well you know in chess programs this happens all the time
+you're constantly coming up with situations you haven't seen before and
+you have to reason about them you have to think about okay here are the possible things I could do here the
+outcomes here's how desirable the outcomes are and then pick the right one you know in the 90s we were saying okay
+this is how you're gonna have to do automated vehicles they're gonna have to have a look ahead capability but the
+look ahead for driving is more difficult than it is for chess because Huysmans the other right there's humans and
+they're less predictable than just a standard well then will you have an opponent in chess who's also somewhat
+unpredictable but for example in chess you always know the opponent's intention
+they're trying to beat you right whereas in driving you don't know is this guy trying to turn left or has he just
+forgotten to turn off his tone signal or is he drunk or is he you know changing
+the channel on his radio or whatever it might be you got to try and figure out the mental state the intent of the other
+drivers to forecast the possible evolutions of their trajectories and
+then you've got to figure out okay which is the directory for me that's going to be safest and those all interact with
+each other because the other drivers going to react to your trajectory and so
+on so you know they've got the classic merging onto the freeway a problem where you're kind of racing a vehicle that's
+already on the freeway and you are you gonna pull ahead of them or you're gonna let them go first and pull in behind and you get this sort of uncertainty about
+who's going first so all those kinds of things
+mean that you need decision-making architecture that's very different from
+either a rule-based system or it seems to me a kind of an end-to-end neural network system you know so just as
+alphago is pretty good when it doesn't do any look ahead but it's way way way way better when it does I think the same
+is going to be true for driving you can have a driving system that's pretty good when it doesn't do any look ahead but
+that's not good enough you know and we've already seen multiple deaths caused by poorly designed machine
+learning algorithms that don't really understand what they're doing yeah and on several levels I think it's on the
+perception side there's mistakes being made by those algorithms were the perception is very shallow on the
+planning side to look ahead like you said and the thing that we come come up
+against that's really interesting when you try to deploy systems in the real
+world is you can't think of an artificial intelligence system as a thing that responds to the world always
+you have to realize that it's an agent that others will respond to as well so in order to drive successfully you can't
+just try to do obstacle avoidance you can't pretend that you're invisible thank you right you're the invisible car
+right just look that way I mean but you have to assert yet others have to be scared of you just we're all there's
+this tension there's this game so if we studied a lot of work with pedestrians
+if you approach pedestrians as purely an obstacle avoidance so you either doing
+look ahead isn't modeling the intent that you're you they're not going to they're going to take advantage of you
+they're not going to respect you at all there has to be a tension a fear some amount of uncertainty that's how we have
+create we or at least just a kind of a resoluteness right so you have you have
+to display a certain amount of resoluteness you can't you can't be too tentative and yeah so the right the the solutions
+then become pretty complicated right you get into game theoretic yes analyses and
+so we're you know Berkeley now we're working a lot on this kind of
+interaction between machines and humans and that's exciting yeah and so my
+colleague and could drag an actually you
+know if you if you formulate the problem game theoretically and you just let the system figure out the solution you know
+it does interesting unexpected things like sometimes at a stop sign if no one is going first right the car
+will actually back up a little all right and just to indicate to the other cars that they should go and that's something
+it invented entirely by itself that's interesting you know we didn't say this is the language of communication at stop
+signs it figured it out that's really interesting so let me one just step back for a
+second just this beautiful philosophical notion so Pamela I'm a quartic in 1979
+wrote AI began with the ancient wish to forge the gods so when you think about
+the history of our civilization do you think that there is an inherent desire
+to create let's not say gods but to create super intelligence is it inherent
+to us is it in our genes that the natural arc of human civilization is to
+create things that are of greater and greater power and perhaps no echoes of
+ourselves so to create the gods as Pamela said
+if the maybe I mean you know we're all we're all individuals
+certainly we see over and over again in history individuals who thought about
+this possibility hopefully when I'm not being too philosophical here but if you
+look at the arc of this you know where this is going and we'll talk about AI
+safety we'll talk about greater and greater intelligence do you see that
+there in when you created the earth Allah program and you felt this excitement what was that excitement was it
+excitement of a tinkerer who created something cool like a clock or was there
+a magic or was it more like a child being born that yeah you know yeah so I
+mean I certainly understand that viewpoint and if you look at the light
+he'll report which was commit so in the 70s there was a lot of controversy in
+the UK about AI and you know whether it was for real and how much the money
+money the government should invest and there was a lot long story but the
+government commissioned a report by by light Hill who was a physicist and he
+wrote a very damning report about AI which I think was the point and he said
+that that these are you know frustrated men who unable to have children would
+like to create and you know create life you know as a kind of replacement you
+know which I which I think is really pretty unfair
+but there is I mean there there is a kind of magic I would say you when you
+you build something and what you're building in is really
+just you're building in some understanding of the principles of learning and decision-making and to see
+those principles actually then turn into intelligent behavior in in specific
+situations it's an incredible thing and
+you know that is naturally going to make
+you think okay where does this end and so there's a there's magical optimistic
+views of word and whatever your view of optimism is whatever your view of utopia
+is it's probably different for everybody yeah but you've often talked about
+concerns you have of how things might go wrong so I've talked to max tegmark
+there's a lot of interesting ways to think about AI safety you're one of the
+seminal people thinking about this problem among sort of being in the weeds of actually solving specific AI problems
+you also think about the big picture of where we're going so can you talk about several elements of it let's just talk
+about maybe the control problem so this idea of losing ability to control the
+behavior and of a AI system so how do you see that how do you see that coming
+about what do you think we can do to manage it well so it doesn't take a
+genius to realize that if you make something that's smarter than you you might have a problem you know in Turing
+Alan Turing you know wrote about the gave lectures about this you know 19
+1951 painted a lecture on the radio and
+he basically says you know once the machine thinking method stops you know
+very quickly they'll outstrip humanity and you know if we're lucky we might be
+able to I think he says if we may be able to turn off the power at strategic
+moments but even so a species would be humbled yeah you can actually I think
+was wrong about that right here is you you know if it's a sufficiently intelligent machine is not gonna let you switch it off so it's actually in
+competition with you so what do you think is meant just for a quick tangent if we shut off this super intelligent
+machine that our species will be humbled I think he means that we would realize
+that we are inferior right that we we only survive by the skin of our teeth
+because we happen to get to the off switch just in time
+you know and if we hadn't then we would have lost control over the earth so do you are you more worried when you
+think about this stuff about super intelligent AI or are you more worried about super powerful AI that's not
+aligned with our values so the paperclip scenario is kind of I think so the main
+problem I'm working on is is the control problem the the problem of machines
+pursuing objectives that are as you say not aligned with human objectives and
+and this has been it has been the way we've thought about I eyes since the
+beginning you you build a machine for
+optimizing and then you put in some objective and it optimizes right and and
+you know we we can think of this as the the King Midas problem right because if
+you know so King Midas put in this objective right everything I touch you turned to gold and the gods you know
+that's like the machine they said okay done you know you now have this power and of course his food and his drink and
+his family all turned to gold and then he's sighs misery and starvation and
+this is you know it's it's a warning it's it's a failure mode that pretty
+much every culture in history has had some story along the same lines you know
+there's the the genie that gives you three wishes and you know third wish is always you know please undo the first
+two wishes because I messed up and you know and when author Samuel
+wrote his chest his checkup laying program which learned to play checkers considerably better than Martha Samuel
+could play and actually reached a pretty decent standard
+Norbert Wiener who was a one of the major mathematicians of the 20th century
+sort of a father of modern automation control systems you know he saw this and he basically
+extrapolated you know as Turing did and said okay this is how we could lose
+control and specifically that we have to
+be certain that the purpose we put into the machine as the purpose which we really desire and the problem is we
+can't do that right you mean we're not it's a very difficult to encode so to
+put our values on paper is really difficult or you're just saying it's impossible your line is writing this so
+it's it theoretically it's possible but in practice it's extremely unlikely that
+we could specify correctly in advance the full range of concerns of humanity
+that you talked about cultural transmission of values I think is how humans to human transmission of values
+happens right what we learned yeah I mean as we grow up we learn about the
+values that matter how things how things should go what is reasonable to pursue
+and what isn't reasonable to pursue machines can learn in the same kind of way yeah so I think that what we need to
+do is to get away from this idea that you build an optimizing machine and you put the objective into it
+because if it's possible that you might put in a wrong objective and we already
+know this is possible because it's happened lots of times alright that means that the machine should never take
+an objective that's given as gospel truth because once it takes them the the
+objective is gospel truth alright then it's the leaves that whatever actions
+it's taking in pursuit of that objective are the correct things to do so you could be jumping up and down and saying
+no you know no no no you're gonna destroy the world but the machine knows what the true objective is and it's
+pursuing it and tough luck to you you know and this is not restricted to AI
+right this is you know I think many of the 20th century technologies right so in statistics you you minimize a loss
+function the loss function is exogenously specified in control theory you minimize a cost function in
+operations research you maximize a reward function and so on so in all these disciplines this is how we
+conceive of the problem and it's the wrong problem because we cannot specify
+with certainty the correct objective right we need uncertainty we the machine
+to be uncertain about a subjective what it is that it's post it's my favorite idea of yours I've heard you say
+somewhere well I shouldn't pick favorites but it just sounds beautiful we need to teach machines humility yeah
+I mean it's a beautiful way to put it I love it that they humble oh yeah they know that
+they don't know what it is they're supposed to be doing and that those those objectives I mean they exist they
+are within us but we may not be able to explicate them we may not even know you
+know how we want our future to go so exactly and the Machine you know a
+machine that's uncertain he's going to be deferential to us so if we say don't
+do that well now the machines learn something a bit more about our true objectives because something that it
+thought was reasonable in pursuit of our objectives turns out not to be so now it's learn something so it's going to
+defer because it wants to be doing what we really want and you know that that point I think is
+absolutely central to solving the control problem and it's a different kind of AI when you when you take away
+this idea that the objective is known then in fact a lot of the theoretical
+frameworks that we're so familiar with you know Markov decision processes goal
+based planning you know standard games research all of these techniques
+actually become inapplicable and you get a more complicated problem because
+because now the interaction with the
+human becomes part of the problem because the human by making choices is
+giving you more information about the 'true objective and that information helps you achieve the objective better
+and so that really means that you're mostly dealing with game theoretic
+problems where you've got the machine and the human and they're coupled together rather than a machine going off
+by itself with a fixed objective which is fascinating on the machine and the
+human level that we when you don't have an objective means you're together
+coming up with an objective I mean there's a lot of philosophy that you know you could argue that life doesn't
+really have meaning we we together agree on what gives it meaning and we kind of culturally create things that give why
+the heck we are in this earth anyway we together as a society create that meaning and you have to learn that
+objective and one of the biggest I thought that's what you were gonna go for a second
+one of the biggest troubles we've run into outside of statistics and machine learning and AI and just human
+civilization is when you look at I came from the south was born in the Soviet
+Union and the history of the 20th century we ran into the most trouble us
+humans when there was a certainty about the objective and you do whatever it
+takes to achieve that objective whether you talking about in Germany or communist Russia oh yeah I get the
+trouble I would say with you know corporations in fact some people argue that you know we don't have to look
+forward to a time when AI systems take over the world they already have and they call corporations right that
+corporations happen to be using people as components right now but they are
+effectively algorithmic machines and they're optimizing an objective which is quarterly profit that isn't aligned with
+overall well-being of the human race and they are destroying the world they are primarily responsible for our inability
+to tackle climate change right so I think that's one way of thinking about what's going on with
+with cooperations but I think the point you're making you is valid that there
+are there are many systems in the real world where we've sort of prematurely
+fixed on the objective and then decoupled the the machine from those
+that's supposed to be serving and I think you see this with government right
+government is supposed to be a machine that serves people but instead it tends
+to be taken over by people who have their own objective and use government
+to optimize that objective regardless of what people want do you have do you find
+appealing the idea of almost arguing machines where you have multiple I systems with a clear fixed objective we
+have in government the red team and the blue team that are very fixed on their objectives and they argue and it kind of
+maybe it would disagree but it kind of seems to make it work somewhat that the
+the duality of it okay let's go a hundred years back when there was still
+was going on or at the founding of this country there was disagreement and that disagreement is where so there's a
+balance between certainty and forced humility because the power was distributed yeah I think that the the
+the nature of debate and disagreement argument takes as a premise the idea
+that you could be wrong right which means that you're not necessarily
+absolutely convinced that your objective is the correct one right if you were
+absolutely Guiness there'll be no point in having any discussion or argument because you would never change your mind and there wouldn't be any any sort of
+synthesis or or anything like that so so I think you can think of argumentation as a as an implementation of a form of
+uncertain reasoning and you know I I've been reading
+recently about utilitarianism in the history of efforts to define in a sort
+of clear mathematical way a I feel like a formula for moral or
+political decision-making and it's really interesting that the parallels between the philosophical discussions
+going back 200 years and what you see now in discussions about existential
+risk because you it's almost exactly the same so someone would say okay well
+here's a formula for how we should make decisions right so utilitarianism you know each person has a utility
+function and then we make decisions to maximize the sum of everybody's utility
+mm-hmm right and then people point out well you know in that case the best
+policy is one that leads to the enormous lis vast population all of whom are
+living a life that's barely worth living right and this is called the repugnant conclusion and you know another version
+is you know that we we should maximize pleasure and that's what we mean by utility and then you'll get people
+effectively saying well in that case you know we might as well just have everyone hooked up to a heroin drip yeah you know
+and they didn't use those words but that debate you know what's happening in the 19th century as it is now about AI that
+if we get the formula wrong you know we're going to have AI systems working
+towards an outcome that in retrospect would be exactly wrong do you think
+there's it has beautifully put so the the echoes are there but do you think I mean if you look at sam Harris is our
+imagination worries about the AI version of that because of the speed at which
+the things going wrong in the utilitarian context could happen yeah is
+that is that a worry for you yeah I I think that you know it in most cases not in all but
+you know if we if we have a wrong political idea you know we see it starting to go wrong and we're you know
+we're not completely stupid and so we said okay that was maybe that was a mistake
+let's try something different and and also we're very slow and inefficient
+about implementing these things and so on so you have to worry when you have corporations or political systems that
+are extremely efficient but when we look at AI systems or even
+just computers in general right they have this different characteristic from
+ordinary human activity in the past so let's say you were a surgeon you had
+some idea about how to do some operation right well and let's say you were wrong all right that that way of doing the
+operation would mostly kill the patient well you'd find out pretty quickly like
+after three maybe three or four tries right but
+that isn't true for pharmaceutical companies because they don't do three or
+four operations they they manufacture three or four billion pills and they sell them and then they find out maybe
+six months or a year later that oh people are dying of heart attacks or getting cancer from this drug and so
+that's why we have the FDA right because of the scalability of pharmaceutical
+production and you know and there have been some unbelievably bad episodes in
+the history of pharmaceuticals and and adulteration of of products and so on
+that that have killed tens of thousands or paralysed hundreds of thousands of people now with computers we have that
+same scalability problem that you can sit there and type for I equals 1 to 5
+billion do right and all of a sudden you're having an impact on a global scale and yet we have no FDA right
+there's absolutely no controls at all it's over what a bunch of undergraduates
+with too much caffeine can do to the world and you know we look at what
+happened with Facebook well social media in general and click-through optimization so you have a simple
+feedback algorithm that's trying to just optimize click-through that sounds
+reasonable right because you don't want to be feeding people ads that they don't care about I'm not interested in
+and you might even think of that process as simply adjusting the the feeding of
+ads or news articles or whatever it might be to match people's preferences
+right which sounds like a good idea but in fact that isn't how the algorithm
+works right you make more money the algorithm makes more money if it could
+better predict what people are going to click on because then it can feed them exactly that right so the way to
+maximize click-through is actually to modify the people to make them more
+predictable and one way to do that is to feed them information which will change
+their behavior and preferences towards extremes that make them predictable now
+whatever is the nearest extreme or the nearest predictable point that's where you're going to end up
+the machines will force you there now and then I think there's a reasonable argument to say that this among other
+things is contributing to the destruction of democracy in the world
+and where was the oversight of this process where were the people saying
+okay you would like to apply this algorithm to five billion people on the
+face of the earth can you show me that it's safe can you show me that it won't have various kinds of negative effects
+no there was no one asking that question there was no one placed between you know
+the undergrads were too much caffeine and the human race well it's just they
+just did it and but some way outside the scope of my knowledge so economists
+would argue that the what is it the invisible hand so the the capitalist system
+it was the oversight so if you're going to corrupt society with whatever decision you make is a company then
+that's going to be reflected in people not using your product sort of one that's one model of oversight so we
+shall see but you know in the meantime you know that but you you might even have broken the political system that
+enables capitalism to function well you've changed it and so we should see
+yeah change changes often painful so my question is uh absolutely it's
+fascinating you're absolutely right that there is ZERO oversight on algorithms that can
+have a profound civilization changing effect so do you think it's possible I
+mean I haven't have you seen government so do you think it's possible to create
+regulatory bodies oversight over AI algorithms which are inherently such
+cutting edge set of ideas and technologies yeah but I think it takes
+time to figure out what kind of oversight what kinds of controls I mean took time
+to design the FDA regime you know and some people still don't like it and they want to fix it
+and I think there are clear ways that it could be improved but the whole notion
+that you have stage 1 stage 2 stage 3 and here are the criteria for what you
+have to do to pass a stage 1 trial right we haven't even thought about what those would be
+for algorithms so I mean I think there are there are things we could do right
+now with regard to bias for example we we have a pretty good technical handle
+on how to detect algorithms that are propagating bias that exists in data
+sets how to D by us those algorithms and and even what it's going to cost you to
+do that so I think we could start having some standards on that I think there are
+there are things to do with impersonation of falsification that we
+could we could work on so I thanks ya or you know in a very simple point so
+impersonation ISM is a machine acting as if it was a person I can't see a real
+justification for why we shouldn't insist that machines self-identify as
+machines you know where is the social benefit in in fooling people into
+thinking that this is really a person when it isn't you know I I don't mind if
+it uses a human-like voice that's easy to understand that's fine but it should just say I'm a machine in
+some some form people are speaking to that I would
+think relatively obvious factors I think mostly yeah I mean there is actually a law in California that bans
+impersonation but only in certain restricted circumstances so for the
+purpose of engaging in a for Geling transaction and for the purpose of
+modifying someone's voting behavior so those are those are the circumstances
+where machines have to self-identify but I think this is you know arguably it
+should be in all circumstances and then when you talk about deep fakes you know
+we're just beginning but already it's possible to make a movie of anybody
+saying anything in ways that are pretty hard to detect including yourself
+because you're on camera now and your voice is coming through with high resolution so you could take what I'm
+saying and replaces it with it pretty much anything else you wanted me to be saying yeah and even it will change my lips and expression expressions to fit
+and there's actually not much in the way of real legal protection against that I
+think in the commercial area you could say yeah that's you're using my brand
+and so on that there there are rules about that but in the political sphere I think it's at the moment it's you know
+anything goes so like that could be really really damaging and let me just
+try to make not an argument but try to look back at history and say something
+dark in essence is while regulation seems to be oversight seems to be
+exactly the right thing to do here it seems that human beings what they naturally do is they wait for something
+to go wrong if you're talking about nuclear weapons you can't talk about nuclear weapons
+being dangerous until somebody actually like the United States drops the bomb or
+Chernobyl melting do you think we will have to wait for things going wrong in a
+way that's obviously damaging to society not an existential risk but obviously
+damaging or do you have faith that I I hope not but I mean I think we do have
+to look at history and when you know so the two examples you gave nuclear
+weapons and nuclear power are very very interesting because you know in nuclear
+weapons we knew in the early years of the 20th century that atoms contained a
+huge amount of energy right we had e equals mc-squared we knew the the mass differences between the different atoms
+and their components and we knew that you might be able to make an incredibly
+powerful explosive so HG Wells wrote science fiction book I think in 1912
+Frederick Soddy who was the guy who discovered isotopes so Nobel Prize
+winner he gave a speech in 1915 saying that
+this new explosive would be the equivalent of 150 tons of dynamite which turns out to be about right and you know
+Kenton this was in World War one right so he was imagining how much worse the world would be if we were using that
+kind of explosive but the physics establishment simply refused to believe that these things could be made
+including the people who are making it well so they were doing the nuclear physics I mean eventually were the ones
+who made it and Rockwell for me or whoever well so up to the the
+development was was mostly theoretical so it was people using sort of primitive
+kinds of particle acceleration and doing experiments at the at the level of
+single particles or collections of particles they they they want
+yet thinking about how to actually make a bomb or anything like that they but they knew the energy was there and they
+figured if they understood it better it might be possible but the physics establishment their view and I think
+because they did not want it to be true their view was that it could not be true
+that this could not provide a way to make a super weapon and you know there
+was this famous speech given by Rutherford who was the sort of leader of
+nuclear physics and I was on September 11th 1933 and he he said you know anyone
+who talks about the possibility of obtaining energy from transformation of
+atoms is talking complete moonshine and the next the next morning Leo Szilard
+read about that speech and then invented the nuclear chain reaction and so as
+soon as he invented he soon as he had that idea that you could make a chain
+reaction with neutrons because neutrons were not repelled by the nucleus so they could enter the nucleus and then
+continue the reaction as soon as he has that idea he instantly realized that the
+world was in deep doo-doo because this is 1933 right you know Hitler had
+recently come to power in Germany Zil odd was in London and eventually
+became a refugee and and came to the US and the in the process of having the
+idea about the chain reaction he figured out basically how to make a bomb and also how to make a reactor and he
+patented the reactor 2:34 but because of the situation the
+great power conflict situation that he could see happening he kept that a secret and so between then and the
+beginning of World War two people were working including the Germans on how to
+actually create Neutron sources right what specific fission reactions would
+produce neutrons of the right energy to continue the reaction and and that was
+demonstrated in Germany I think in 1938 if I remember correctly the first
+nuclear weapon patent was 1939 by the French so this was actually you know
+this was actually going on you know well before World War two really got going and then you know
+the British probably had the most advanced capability in this area but for safety reasons among others and blush
+which is sort of just resources they moved the program from Britain to the US
+and then that became Manhattan Project so the the the reason why we couldn't
+have any kind of oversight of nuclear weapons and nuclear technology was
+because we were basically already in an arms race in a war and but you you've
+mentioned then in the 20s and 30s so what are the echoes yeah the way you've
+described this story I mean there's clearly echoes why do you think most a I researchers
+folks who are really close to the metal they really are not concerned about it and they don't think about it
+whether they don't want to think about it it's but what are the yeah why do you think that is what are the echoes of the
+nuclear situation to the current situation and what can we do about it I
+think there is a you know a kinda modak motivated cognition which is a term in
+psychology means that you believe what you would like to be true rather than
+what is true and you know it's it's
+unsettling to think that what you're working on might be the end of the human
+race obviously so you would rather instantly deny it
+and come up with some reason why it couldn't be true and the you know I have
+I collected a long list of reasons that extremely intelligent competent AI
+scientists have come up with for why we shouldn't worry about this you know for
+example calculators are super human at arithmetic and they haven't taken over the world so there's nothing to worry
+about well okay my five-year-old you know could have figured out why that was
+an unreasonable and and really quite weak argument you know another one was
+you know you while it's theoretically possible that you could have superhuman
+AI destroy the world you know it's also theoretically possible that a black hole could materialize right next to the
+earth and destroy humanity I mean yes it's theoretically possible quantum theoretically extremely unlikely that it
+would just materialize right there but that's a completely bogus analogy
+because you know if the whole physics community on earth was working to materialize a black hole in near Earth
+orbit right wouldn't you ask them is that a good idea is that gonna be safe
+you know what if you succeed all right right and that's the thing right the AI
+is sort of refused to ask itself what if you succeed and initially I think that
+was because it was too hard but you know Alan Turing asked himself that and he
+said we'd be toast right if we were lucky we might be able to switch off the
+power but probably we'd be toast but there's also an aspect that because
+we're not exactly sure what the future holds it's not clear exactly so
+technically what to worry about sort of how things go wrong and so there is
+something it feels like maybe you can correct me if I'm wrong but there's something paralyzing about worrying
+about something that logically is inevitable but you don't really know
+what that will look like yeah I think that's that's it's a reasonable point
+and you know the you know it's certainly in terms of existential risks it's
+different from you know asteroid collides with the earth right right which again is quite possible you know
+it's happened in the past it'll probably happen again we don't right we don't know right now but if we did detect an
+asteroid that was going to hit the earth in 75 years time we'd certainly be doing
+something about it well it's clear there's got big rocks we'll probably have a meeting you see what do we do
+about the big rock will they I write with a I I mean the very few people who think it's not gonna
+happen within the next 75 years I know rod Brooks doesn't think it's gonna happen maybe and ruing doesn't
+think it's happened but you know a lot of the people who work day-to-day you
+know as you say at the rock face they think it's gonna happen I think the median estimate from AI researchers is
+somewhere in forty to fifty years from from now or maybe a little you know I think in Asia they think it's gonna be
+even faster than that I am I'm a little bit more conservative I think probably
+take longer than that but I think it's you know as happened with nuclear weapons
+well I went overnight it can happen overnight that you have these breakthroughs and we need more than one breakthrough but you know the it's on
+the order of half a dozen this is a very rough scale but so half a dozen breakthroughs of that nature it would
+have to happen for us to reach the superhuman AI but the you know the AI
+research community is vast now the massive investments from governments
+from corporations tons of really really smart people you know you just have to
+look at the rate of progress in different areas of AI to see that things are moving pretty fast so to say oh it's
+just gonna be thousands of years I don't see any basis for that you know I see
+you know for example the the Stanford
+hundred year AI project right which is supposed to be sort of you know the
+serious establishment view their most recent report actually said it's
+probably not even possible Wow right which if you want a perfect
+example of people in denial that's it because you know for the whole
+history of AI we've been saying to philosophers who said it wasn't possible
+well you have no idea what you're talking about of course it's possible right give me an give me an argument for why it couldn't happen and there isn't
+one all right and now because people are worried that maybe a oh it might get a
+bad name or or I just don't want to think about this they're saying okay well of course it's not really possible
+you know and we imagine right imagine if you know the the leaders of the cancer
+biology community got up and said well you know of course curing cancer it's not really possible complete outrage and
+dismay and you know I I find this really
+a strange phenomenon so okay so if you
+accept it as possible and if you accept that it's probably going to happen
+the point that you're making that you know how does it go wrong a valid
+question without that without an answer to that question then you stuck with what I call the gorilla problem which is
+you know the problem that the gorillas face right they made something more intelligent than them namely us a few
+million years ago and now now they're in deep doo-doo yeah so there's really
+nothing they can do they've lost the control theater they failed to solve the control problem of controlling humans
+and so they've lost so we don't want to be in that situation and if the gorillas
+problem is is the only formulation you have there's not a lot you can do right other than to say okay we should try to
+stop you know we should just not make the humans or right in this case not
+make the AI and I think that's really hard to do - I'm not actually proposing that that's
+a feasible course of action I also think that you know if properly control a I
+could be incredibly beneficial so the but it seems to me that there's a
+there's a consensus that one of the major failure modes is this loss of control that we create AI systems that
+are pursuing incorrect objectives and because the AI system believes it knows
+what the objective is it has no incentive to listen to us anymore so to speak right it it's just carrying
+out the the strategy that it it has computed as being the optimal solution
+and you know it may be that in the process it needs to acquire more
+resources to increase the possibility of success or prevent various failure modes
+by defending itself against interference and so that collection of problems I
+think is something we can address yes that the other problems are roughly
+speaking you know misuse right so even if we solve the control problem we make
+perfectly safe controllable AI systems well why you know why does dr. evil going to use those right he wants to
+just take over the world and he'll make unsafe AI system said but then get out of control so that's one problem which
+is sort of a you know a partly a policing problem partly a-- a sort of a cultural problem
+for the profession of how we teach people what kinds of AI systems are safe you talk about autonomous weapon system
+and how pretty much everybody agrees there's too many ways that that can go horribly wrong if this great slaughter
+BOTS movie that kind of illustrates that beautifully I want to talk that's another there's another topic I I'm
+happy talking about the I just want to mention that what I see is the third major failure mode which is overuse not
+so much misuse but overuse of AI that we become overly dependent so I
+call this the wooly problems if you seen wall-e the movie all right all the humans are on the spaceship and the
+machines look after everything for them and they just watch TV and drink big gulps and they're all sort of obese and
+stupid and they sort of totally lost any notion of human autonomy and
+you know so a in effect right this would happen like the slow boiling frog right
+we would gradually turn over more and more of the management of our civilization to machines as we are
+already doing in this you know this if this process continues you know we sort
+of gradually switch from sort of being the Masters of Technology to just being
+the guests right so so we become guests on a cruise ship you know which is fine
+for a week but not not further the rest of eternity right you know and it's
+almost irreversible right once you once you lose the incentive to for example
+you know learn to be an engineer or a doctor or a sanitation operative or or
+any other of the the infinitely many ways that we maintain and propagate our
+civilization you know if you if you don't have the incentive to do any of that you won't
+and then it's really hard to recover and of course there's just one of the
+technologies that could that third failure mode result in that there's probably other technology in general
+detaches us from it does a bit but the the the difference is that in terms of
+the knowledge to to run our civilization you know up to now we've had no
+alternative but to put it into people's heads right and if you oh it's not we're with Google I mean so software in
+general so I probably if computers in general but but the you know the knowledge of how you know how a
+sanitation system works you know that's an the AI has to understand that it's no good putting it into Google so I mean we
+we've always put knowledge in on paper but paper doesn't run our civilization it only runs when it goes from the paper
+into people's heads again right so we've always propagated civilization through
+human minds and we've spent about a trillion person years doing that
+literature right you you can work it out yeah but right is about just over a hundred billion people who've ever lived
+and each of them has spent about ten years learning stuff and to keep their
+civilization going and so that's a trillion person years we put into this effort beautiful way to describe all of
+civilization and now we're you know we're danger of throwing that away so this is a problem that AI console it's
+not a technical problem it's a you know if we do our job right the AI systems
+will say you know the human race doesn't in the long run want to be passengers in
+a cruise ship the human race wants autonomy this is part of human preferences so we the AI systems are not
+going to do this stuff for you you've got to do it for yourself right I'm not going to carry you to the top of Everest
+in an autonomous helicopter you have to climb it if you want to get the benefit and so on so
+but I'm afraid that because we are short-sighted and lazy we're gonna override the AI systems and and there's
+an amazing short story that I recommend to everyone that I talk to about this
+called the machine stops written in 1909 by Ian Foster who you
+know wrote novels about the British Empire and sort of things that became costume dramas on the BBC but he wrote
+this one science fiction story which is an amazing vision of the future it has
+it has basically iPads it has video conferencing it has MOOCs
+it has computer and computer induced obesity I mean literally the whole thing
+it's what people spend their time doing is giving online courses or listening to online courses and talking about ideas
+but they never get out there in the real world that they don't really have a lot of face-to-face contact everything is
+done online you know so all the things we're worrying about now were described in
+this story and and then the human race becomes more and more dependent on the Machine loses knowledge of how things
+really run and then becomes vulnerable to collapse and so it's a it's a pretty
+unbelievably amazing story for someone writing in 1909 to imagine all this loss
+yeah so there's very few people that represent artificial intelligence more
+than you Russell so it's all my fault
+right you're often brought up as the person well Stuart Russell like the AI
+person is worried about this that's why you should be worried about it do you feel the burden of that I don't know if
+you feel that at all but when I talk to people like from you talk about set
+people outside of computer science when they think about this still Russell is
+worried about AI safety you should be worried too do you feel the burden of that I mean in a practical sense yeah
+because I'd yet you know a dozen sometimes 25 invitations a day
+to talk about it to give interviews to write press articles and so on so in
+that very practical sense I'm seeing that people are concerned and really
+interested about this are you worried that you could be wrong as all good scientists are of course I worry about
+that all the time I mean that's that's always been the way that I I've worked you know is like I have an argument in
+my head with myself right so I have some idea and then I think okay how could
+that be wrong or did someone else already have that idea so I'll go and you know search and as much literature
+as I can't to see whether someone else already thought of that or or even refuted it so you know I right now I'm
+I'm reading a lot of philosophy because you know in in the form of the debate so
+V over utilitarianism and other kinds of moral moral formulas shall we say people
+have already thought through some of these issues but you know what one of the things I'm I'm not seeing in a lot
+of these debates is this specific idea about the importance of uncertainty in
+the objective that this is the way we should think about machines that are
+beneficial to humans so this idea of provably beneficial machines based on
+explicit uncertainty in the objective you know it seems to be you know my gut
+feeling is this is the core of it it's gonna have to be elaborated in a lot of different directions and there are a lot
+of lis beneficial yeah but they're I mean it has to be right we can't afford
+you know hand-wavy beneficial yeah because there are you know whenever we do hand wavy stuff there are loopholes
+and the thing about super intelligent machines is they find the loopholes you know just like you know tax evaders if
+you don't write your tax law properly that people will find loopholes and end up paying no taxes and
+and so you should think of it this way and in getting those definitions right
+you know it is really a long process you
+know so you can you can define mathematical frameworks and within that framework you can prove mathematical theorems that yes this will you know
+this this theoretical entity will be proven beneficial to that theoretical entity but that framework may not match
+the real world in some crucial way so long process thinking through it of iterating and so on the last question
+yep you have ten seconds to answer it what is your favorite sci-fi movie about
+AI I would say interstellar has my favorite robots or beat it Space Odyssey
+yeah yeah yeah so so tars the robots one of the robots in interstellar is the way
+a robot should behave and I would say ex machina is in some
+ways the one like the one that makes you think in a nervous kind of way about a
+lot where we're going well Stuart thank you so much for talking today pleasure
+you
 
 ----------
 
 -----
+
 --49--
 
 -----
-Date:
-Link:
-Transcription:
+Date: 2018.12.04
+Link: [# Eric Schmidt: Google | Lex Fridman Podcast #8](https://www.youtube.com/watch?v=hIC9FQpxVwQ)
+Transcription: 
 
-paste here
+- The following is a conversation with Eric Schmidt. He was the CEO of Google for 10 years and a chairman for six more,
+guiding the company through an incredible period of growth and a series of world-changing innovations.
+He is one of the most impactful leaders in the era of the internet and the powerful voice for the promise of technology
+in our society. It was truly an honor to speak with him as part of the MIT course on artificial general intelligence
+and the Artificial Intelligence podcast. And now, here's my conversation with Eric Schmidt.
+First moment when you fell in love with technology
+What was the first moment when you fell in love with technology? - I grew up in 1960's as a boy
+where every boy wanted to be an astronaut and part of the space program. So like everyone else of my age,
+we would go out to the cow pasture behind my house, which was literally a cow pasture, and we would shoot model rockets off,
+and that I think is the beginning. And of course generationally today, it would be video games and all of the amazing things
+that you can do online with computers. - [Lex] There's a transformative inspiring aspect
+Discovering the beauty of math
+of science and math that maybe rockets would instill in individuals.
+You mentioned yesterday that eighth grade math is where the journey through mathematical universe diverges for many people.
+It's this fork in the roadway. There's a professor of math at Berkeley, Edward Franco.
+I'm not sure if you're familiar with him. - I am. - [Lex] He has written this amazing book I recommend to everybody called Love and Math.
+Two of my favorite words. (laughs) He says that if painting was taught like math,
+then students would be asked to paint a fence. It's just his analogy of essentially how math is taught.
+So you never get a chance to discover the beauty of the art of painting or the beauty of the art of math.
+So how, when, and where did you discover that beauty?
+- I think what happens with people like myself is that you're math-enabled pretty early,
+and all of the sudden you discover that you can use that to discover new insights.
+The great scientists will all tell a story. The men and women who are fantastic today,
+it's somewhere when they were in high school or in college they discovered that they could discover something themselves.
+And that sense of building something, of having an impact that you own drives knowledge acquisition and learning.
+In my case, it was programming and the notion that I could build things that had not existed,
+that I had built that had my name of it. And this was before open-source,
+but you could think of it as open-source contributions. So today if I were a 16 or a 17-year-old boy,
+I'm sure that I would aspire as a computer scientist to make a contribution like the open-source heroes
+of the world today. That would be what would be driving me, and I would be trying and learning, and making mistakes and so forth in the ways that it works.
+The repository that GitHub represents and that open-source libraries represent
+is an enormous bank of knowledge of all of the people who are doing that. And one of the lessons that I learned at Google
+was that the world is a very big place, and there's an awful lot of smart people. And an awful lot of them are underutilized.
+So here's an opportunity, for example, building parts or programs, building new ideas,
+to contribute to the greater of society. - [Lex] So in that moment in the 70's,
+Creating Lex
+the inspiring moment where there was nothing and then you cerated something through programming, that magical moment.
+So in 1975, I think, you created a program called Lex, which I especially like because my name is Lex.
+So thank you, thank you for creating a brand that established a reputation that's long-lasting, reliable,
+and has a big impact on the world and is still used today. So thank you for that. But more seriously, in that time,
+in the 70's as an engineer personal computers were being born.
+Did you think you would be able to predict the 80's, 90's and the noughts of where computers would go?
+- I'm sure I could not and would not have gotten it right. I was the beneficiary of the great work
+of many many people who saw it clearer than I did. With Lex, I worked with a fellow named Michael Lesk
+who was my supervisor, and he essentially helped me architect and deliver a system that's still in use today.
+After that, I worked at Xerox Palo Alto Research Center where the Alto was invented, and the Alto is the predecessor
+of the modern personal computer, or Macintosh and so forth. And the Altos were very rare,
+and I had to drive an hour from Berkeley to go use them, but I made a point of skipping classes
+and doing whatever it took to have access to this extraordinary achievement.
+I knew that they were consequential. What I did not understand was scaling.
+I did not understand what would happen when you had 100 million as opposed to 100. And so since then, and I have learned the benefit of scale,
+I always look for things which are going to scale to platforms, so mobile phones, Android, all of those things.
+The world is a numerous, there are many many people in the world. People really have needs.
+They really will use these platforms, and you can build big businesses on top of them. - [Lex] So it's interesting, so when you see a piece of technology,
+Path to generality
+now you think what will this technology look like when it's in the hands of a billion people. - That's right.
+So an example would be that the market is so competitive now that if you can't figure out a way
+for something to have a million users or a billion users, it probably is not going to be successful
+because something else will become the general platform and your idea will become a lost idea
+or a specialized service with relatively few users. So it's a path to generality. It's a path to general platform use.
+It's a path to broad applicability. Now there are plenty of good businesses that are tiny, so luxury goods for example,
+but if you want to have an impact at scale, you have to look for things which are of common value,
+common pricing, common distribution, and solve common problems. They're problems that everyone has. And by the way, people have lots of problems.
+Information, medicine, health, education, and so forth, work on those problems. - [Lex] Like you said,
+Middle class
+you're a big fan of the middle class-- - 'Cause there's so many of them. - [Lex] There's so many of them. - By definition.
+- [Lex] So any product, any thing that has a huge impact and improves their lives is a great business decision,
+and it's just good for society. - And there's nothing wrong with starting off in the high-end as long as you have a plan
+to get to the middle class. There's nothing wrong with starting with a specialized market in order to learn and to build and to fund things.
+So you start luxury market to build a general purpose market. But if you define yourself as only a narrow market,
+someone else can come along with a general purpose market that can push you to the corner, can restrict the scale of operation,
+can force you to be a lesser impact than you might be. So it's very important to think in terms
+of broad businesses and broad impact, even if you start in a little corner somewhere.
+Computers as tools
+- [Lex] So as you look to the 70's but also in the decades to come and you saw computers,
+did you see them as tools, or was there a little element of another entity?
+I remember a quote saying AI began with our dream to create the gods.
+Is there a feeling when you wrote that program that you were creating another entity,
+giving life to something? - I wish I could say otherwise, but I simply found the technology platforms so exciting.
+That's what I was focused on. I think the majority of the people that I've worked with, and there are a few exceptions, Steve Jobs being an example,
+really saw this a great technological play. I think relatively few of the technical people understood
+the scale of its impact. So I used MCP which is a predecessor to TCP/IP.
+It just made sense to connect things. We didn't think of it in terms of the internet and then companies and then Facebook
+and then Twitter and then politics and so forth. We never did that build. We didn't have that vision.
+And I think most people, it's a rare person who can see compounding at scale.
+Most people can see, if you ask people to predict the future, they'll give you an answer of six to nine months or 12 months
+because that's about as far as people can imagine. But there's an old saying, which actually was attributed
+to a professor at MIT a long time ago, that we overestimate what can be done in one year.
+We underestimate was can be done in a decade. And there's a great deal of evidence
+that these core platforms of hardware and software take a decade.
+So think about self-driving cars. Self-driving cars were thought about in the 90's. There were projects around them.
+The first DARPA Grand Challenge was roughly 2004. So that's roughly 15 years ago.
+And today we have self-driving cars operating at a city in Arizona, so 15 years.
+And we still have a ways to go before they're more generally available.
+Predicting the future
+- [Lex] So you've spoken about the importance, you just talked about predicting into the future.
+You've spoken about the importance of thinking five years ahead and having a plan for those five years.
+- The way to say it is that almost everybody has a one-year plan. Almost no one has a proper five-year plan.
+And the key thing to have on the five-year plan is having a model for what's going to happen under the underlying platforms.
+So here's an example. Moore's law as we know it, the thing that powered improvement
+in CPUs has largely halted in its traditional shrinking mechanisms because the costs have just gotten so high
+and it's getting harder and harder. But there's plenty of algorithmic improvements and specialized hardware improvements.
+So you need to understand the nature of those improvements and where they'll go in order to understand
+how it will change the platform. In the area of network conductivity, what are the gains that are to be possible in wireless?
+It looks like there's an enormous expansion of wireless conductivity at many different bands
+and that we will primarily, historical I've always thought that we were primarily going to be using fiber,
+but now it looks like we're going to be using fiber plus very powerful high bandwidth
+sort of short distance conductivity to bridge the last mile. That's an amazing achievement.
+If you know that, then you're going to build your systems differently. By the way, those networks have different latency properties
+because they're more symmetric. The algorithms feel faster for that reason.
+The champions of the impossible
+- [Lex] And so when you think about, whether it's fiber or just technologies in general, so there's this Barbara Wootton poem or quote
+that I really like. It's from the champions of the impossible, rather than the slaves of the possible,
+that evolution draws its creative force. So in predicting the next five years,
+I'd like to talk about the impossible and the possible. - Well, and again, one of the great things about humanity
+is that we produce dreamers. We literally have people who have a vision and a dream.
+They are, if you will, disagreeable in the sense that they disagree with the, they disagree with what the sort of zeitgeist is.
+They say there is another way. They have a belief. They have a vision. If you look at science,
+science is always marked by such people who went against some conventional wisdom,
+collected the knowledge at the time, and assembled it in a way that produced a powerful platform.
+Planning for the impossible
+- [Lex] And you've been amazingly honest about, in an inspiring way,
+about things you've been wrong about predicting, and you've obviously been right about a lot of things. But in this kind of tension,
+how do you balance as a company predicting the next five years planning for the impossible,
+listening to those crazy dreamers, letting them run away and make the impossible real,
+make it happen, and you know that's how programmers often think, and slowing things down and saying
+well this is the rational, this is the possible, the pragmatic, the dreamer versus the pragmatist that is.
+- So it's helpful to have a model which encourages a predictable revenue stream
+as well as the ability to do new things. So in Google's case, we're big enough and well enough managed and so forth
+that we have a pretty good sense of what our revenue will be for the next year or two, at least for a while.
+And so we have enough cash generation that we can make bets.
+And indeed, Google has become Alphabet, so the corporation is organized around these bets.
+And these bets are in areas of fundamental importance to the world, whether it's artificial intelligence,
+medical technology, self-driving cars, conductivity through balloons, on and on and on.
+And there's more coming and more coming. So one way you could express this is that the current business is successful enough
+that we have the luxury of making bets. And another one that you could say is that we have the wisdom of being able to see
+that a corporate structure needs to be created to enhance the likelihood of the success of those bets.
+So we essentially turned ourselves into a conglomerate of bets and then this underlying corporation, Google,
+which is itself innovative. So in order to pull this off, you have to have a bunch of belief systems,
+and one of them is that you have to have bottoms up and tops down. The bottoms up we call 20% time,
+and the idea is that people can spend 20% of the time on whatever they want. And the top down is that our founders in particular
+have a keen eye on technology, and they're reviewing things constantly. So an example would be they'll hear about an idea
+or I'll hear about something and it sounds interesting. Let's go visit them, and then let's begin to assemble the pieces
+to see if that's possible. And if you do this long enough, you get pretty good at predicting what's likely to work.
+- [Lex] So that's a beautiful balance that's struck. Is this something that applies at all scale?
+- Seems to be. Sergey, again 15 years ago,
+came up with a concept called 10% of the budget should be on things that are unrelated.
+It was called 70/20/10. 70% of our time on core business, 20% on adjacent business, and 10% on other.
+And he proved mathematically, of course he's a brilliant mathematician, that you needed that 10% to make the sum of the growth work.
+And it turns out that he was right. - [Lex] So getting into the world
+Artificial Intelligence
+of artificial intelligence, you've talked quite extensively and effectively
+to the impact in the near term, the positive impact of artificial intelligence,
+especially machine learning in medical applications and education
+and just making information more accessible. In the AI community, there is a kind of debate.
+There's this shroud of uncertainty as we face this new world of artificial intelligence. And there is some people like Elon Musk you've disagreed on,
+at least in the degree of emphasis he places on the existential threat of AI. So I've spoken with Stuart Russell, Max Tegmark,
+who share Elon Musk's view, and Yoshua Bengio, Steven Pinker who do not.
+And so there's a lot of very smart people who are thinking about this stuff, disagreeing, which is really healthy, of course.
+So what do you think is the healthiest way for the AI community to, and really for the general public to think about AI
+and the concern of the technology being mismanaged in some kind of way.
+- So the source of education for the general public has been robot killer movies and Terminator, etcetera.
+And the one thing I can assure you we're not building are those kinds of solutions.
+Furthermore, if they were to show up, someone would notice and unplug them. So as exciting as those movies are,
+and they're great movies, were the killer robots to start, we would find a way to stop them,
+so I'm not concerned about that. And much of this has to do
+with the timeframe of conversation. So you can imagine a situation 100 years from now
+when the human brain is fully understood in the next generation and next generation of brilliant MIT scientists
+have figured all this out, we're gonna have a large number of ethics questions
+around science and thinking and robots and computers and so forth and so on. So it depends on the question of the timeframe.
+In the next five to 10 years, we're not facing those questions. What we're facing in the next five to 10 years
+is how do we spread this disruptive technology as broadly as possible to gain the maximum benefit of it?
+The primary benefit should be in healthcare and in education. Healthcare because it's obvious.
+We're all the same even though we somehow believe we're not. As a medical matter,
+the fact that we have big data about our health will save lives, allow us to deal with skin cancer and other cancers,
+ophthalmological problems. There's people working on psychological diseases and so forth using these techniques.
+I can go on and on. The promise of AI in medicine is extraordinary.
+There are many many companies and start-ups and funds and solutions and we will all live much better for that.
+The same argument in education. Can you imagine that for each generation
+of child and even adult you have a tutor educator. It's AI based that's not a human
+but is properly trained that helps you get smarter, helps you address your language difficulties
+or your math difficulties or what have you. Why don't we focus on those two? The gain societally of making humans smarter
+and healthier are enormous. And those translate for decades and decades, and we'll all benefit from them.
+There are people who are working on AI safety, which is the issue that you're describing, and there are conversations in the community
+that should there be such problems what should the rules be like? Google, for example, has announced its policies
+with respect to AI safety, which I certainly support, and I think most everybody would support. And they make sense.
+So it helps guide the research. But the killer robots are not arriving this year,
+and they're not even being built. - [Lex] And on that line of thinking,
+Thinking beyond 50 years
+you said the timescale. In this topic or other topics have you found a useful,
+on the business side or the intellectual side, to think beyond five to 10 years, to think 50 years out?
+Has it ever been useful or productive-- - In our industry there are essentially no examples
+of 50 year predictions that have been correct. Let's review AI.
+AI, which was partially invented here at MIT and a couple of other universities in 1956, 1957, 1958,
+the original claims were a decade or two. And when I was a PhD student, I studied AI,
+and it entered during my looking at it a period which is known as AI winter
+which went on for about 30 years, which is a whole generation of science, scientists, and a whole group of people
+who didn't make a lot of progress because the algorithms had not improved and the computers had not improved.
+It took some brilliant mathematicians starting with a fellow names Geoff Hinton at Toronto and Montreal
+who basically invented this deep learning model which empowers us today. The seminal work there was 20 years ago,
+and in the last 10 years it's become popularized. So think about the timeframes for that level of discovery.
+It's very hard to predict. Many people think that we'll be flying around in the equivalent of flying cars.
+Who knows? My own view, if I want to go out on a limb, is to say we know a couple of things
+about 50 years from now. We know that they'll be more people alive. We know that we'll have to have platforms
+that are more sustainable because the earth is limited in the ways we all know,
+and that the kind of platforms that are gonna get built will be consistent with the principles that I've described.
+They will be much more empowering of individuals. They'll be much more sensitive to the ecology 'cause they have to be.
+They just have to be. I also think that humans are going to be a great deal smarter, and I think they're gonna be a lot smarter
+because of the tools that I've discussed with you, and of course people will live longer. Life extension is continuing at a pace,
+a baby born today has a reasonable chance of living to 100, which is pretty exciting. It's well past the 21st century,
+so we better take care of them. - [Lex] And you've mentioned an interesting statistic on some very large percentage,
+60%, 70% of people may live in cities. - Today more than half the world lives in cities,
+and one of the great stories of humanity in the last 20 years has been the rural to urban migration.
+This has occurred in the United States. It's occurred in Europe. It's occurring in Asia, and it's occurring in Africa.
+When people move to cities, the cities get more crowded, but believe it or not their health gets better.
+Their productivity gets better. Their IQ and educational capabilities improve.
+So it's good news that people are moving to cities, but we have to make them livable and safe.
+Leadership styles
+- [Lex] So first of all, you are but you've also worked with some of the greatest leaders in the history of tech.
+What insights do you draw from the difference in leadership styles of yourself,
+Steve Jobs, Elon Musk, Larry Page, now the new CEO, Sundar Pichai and others,
+from the I would say calm sages to the mad geniuses.
+- One of the things that I learned as a young executive is that there's no single formula for leadership.
+They try to teach one, but that's not how it really works. There are people who just understand what they need to do
+and they need to do it quickly. Those people are often entrepreneurs. They just know, and they move fast.
+There are other people who are systems thinkers and planners. That's more who I am, somewhat more conservative,
+more thorough in execution, a little bit more risk-adverse. There's also people who are sort of slightly insane
+in the sense that they are emphatic and charismatic and they feel it and they drive it and so forth.
+There's no single formula to success. There is one thing that unifies all of the people that you named,
+which is very high intelligence. At the end of the day, the thing that characterizes
+all of them is that they saw the world quicker, faster. They processed information faster.
+They didn't necessarily make the right decisions all the time, but they were on top of it. And the other thing that's interesting
+about all of those people is that they all started young. So think about Steve Jobs starting Apple
+roughly at 18 or 19. Think about Bill Gates staring at roughly 20, 21. Think about by the time they were 30,
+Mark Zuckerburg a good example at 19 or 20, by the time they were 30, they had 10 years,
+at 30 years old they had 10 years of experience of dealing with people and products
+and shipments and the press and business and so forth. It's incredible how much experience they had
+compared to the rest of us who are busy getting our PhDs. - [Lex] Yes, exactly. - So we should celebrate these people
+because they've just had more life experience and that helps them form the judgment.
+At the end of the day, when you're at the top of these organizations,
+all of the easy questions have been dealt with. How should we design the buildings?
+Where should we put the colors on our products? What should the box look like?
+That's why it's so interesting to be in these rooms. The problems that they face in terms of the way they operate,
+the way they deal with their employees, their customers, their innovation are profoundly challenging.
+Each of the companies is demonstrably different culturally.
+They are not, in fact, cut of the same. They behave differently based on input. Their internal cultures are different.
+Their compensation schemes are different. Their values are different. So there's proof that diversity works.
+Personal AI assistant
+- [Lex] So when faced with a tough decision
+in need of advice, it's been said that the best thing one can do is to find the best person in the world
+who can give that advice and find a way to be in a room with them one-on-one and ask.
+So here we are. And let me ask in a long-winded way. I wrote this down.
+In 1998, there were many good search engines: Lycos, Excite, AltaVista, InfoSeek,
+Ask Jeeves maybe, Yahoo even.
+So Google stepped in and disrupted everything. They disrupted the nature of search, the nature of our access to information,
+the way we discover new knowledge. So now it's 2018, actually 20 years later.
+There are many good personal AI assistants, including, of course, the best from Google.
+So you've spoken in medical and education the impact of such an AI assistant could bring.
+So we arrive at this question. So it's a personal one for me, but I hope my situation represents that of many other
+as we said dreamers and the crazy engineers. So my whole live I've dreamed
+of creating such an AI assistant. Every step I've taken has been towards that goal. Now I'm a research scientist
+in human-centered AI here at MIT. So the next step for me as I sit here facing my passion
+is to do what Larry and Sergey did in '98, the simple start-up.
+And so here's my simple question. Given the low odds of success, the timing and luck required,
+the countless other factors that can't be controlled or predicted, which is all the things that Larry and Sergey faced,
+is there some calculation, some strategy to follow in the step?
+Or do you simply follow the passion just because there's no other choice? - I think the people who are in universities
+are always trying to study the extraordinarily chaotic nature of innovation and entrepreneurship.
+My answer is that they didn't have that conversation. They just did it.
+They sensed a moment when in the case of Google, there was all of this data that needed to be organized,
+and they had a better algorithm. They had invented a better way. So today, with human-centered AI,
+which is your area of research, there must be new approaches. It's such a big field.
+There must be new approaches different from what we and others are doing. There must be start-ups to fund.
+There must be research projects to try. There must be graduate students to work on new approaches.
+Here at MIT, there are people who are looking at learning from the standpoint of looking at child learning.
+How do children learn starting at age one and two-- - Josh Tenenbaum and others. - And the work is fantastic. Those approached are different
+from the approach that most people are taking. Perhaps that's a bet that you should make, or perhaps there's another one.
+But at the end of the day, the successful entrepreneurs are not as crazy as they sound.
+They see an opportunity based on what's happened. Let's use Uber as an example.
+As Travis tells the story, he and his co-founder were sitting in Paris, and they had this idea 'cause they couldn't get a cab.
+And they said we have smartphones, and the rest is history. So what's the equivalent
+of that Travis Eiffel Tower where is a cab moment that you could as an entrepreneur take advantage of,
+whether it's in human-centered AI or something else? That's the next great start-up.
+- [Lex] And the psychology of that moment. So when Sergey and Larry talk about,
+in listening to a few interviews, it's very nonchalant. Well here's a very fascinating web data,
+and here's an algorithm we have. We just kind of want to play around with that data, and it seems like that's a really nice way
+to organize this data. - Well I should say what happened, remember, is that they were graduate students at Stanford,
+and they thought this was interesting. So they build a search engine and they kept it in their room.
+And they had to get power from the room next door 'cause they were using too much power in their room, so they ran an extension cord over
+and then they went and they found a house and they had Google world headquarters of five people to start the company.
+And they raised $100,000 from Andy Bechtolsheim, who is the Sun founder to do this and Dave Cheriton and a few others.
+The point is their beginnings were very simple, but they were based on a powerful insight.
+That is a replicable model for any start-up. It has to be a powerful insight, the beginnings are simple,
+and there has to be an innovation. In Larry and Sergey's case, it was PageRank,
+which was a brilliant idea, one of the most sited papers in the world today. What's the next one?
+- [Lex] So you're one of, if I may say, richest people in the world,
+and yet it seems that money is simply a side effect of your passions and not an inherent goal.
+But you're a fascinating person to ask.
+So much of our society at the individual level and at the company level and as nations
+is driven by the desire for wealth. What do you think about this drive,
+and what have you learned about, if I may romanticize the notion, the meaning of life having achieved success
+on so many dimensions? - There have been many studies of human happiness,
+and above some threshold, which is typically relatively low for this conversation,
+there's no difference in happiness about money. The happiness is correlated with meaning and purpose,
+a sense of family, a sense of impact. So if you organize your life, assuming you have enough to get around
+and have a nice home and so forth, you'll be far happier if you figure out what you care about and work on that.
+It's often being in service to others. There's a great deal of evidence that people are happiest
+when they're serving others and not themselves. This goes directly against the sort of press-induced excitement
+about powerful and wealthy leaders of the world, and indeed these are consequential people.
+But if you are in a situation where you've been very fortunate as I have, you also have to take that as a responsibility
+and you have to basically work both to educate others and give them that opportunity but also use that wealth to advance human society.
+In my case, I'm particularly interested in using the tools of artificial intelligence and machine learning to make society better.
+I've mentioned education. I've mentioned inequality in middle class and things like this, all of which are a passion of mine.
+It doesn't matter what you do. It matters that you believe in it, that it's important to you,
+and your life can be far more satisfying if you spend your life doing that.
+- [Lex] I think there's no better place to end than a discussion of the meaning of life. - Eric, thank you so much. - Thank you very much, Lex.
 
 ----------
 
 -----
+
 --48--
 
 -----
-Date:
-Link:
+Date: 2018.11.29
+Link: [# Jeff Atwood: Stack Overflow and Coding Horror | Lex Fridman Podcast #7](https://www.youtube.com/watch?v=KZkYSSE8HHI)
 Transcription:
 
-paste here
+the following is a conversation with Jeff Atwood he is the co-founder of Stack Overflow Stack Exchange websites that are visited
+by millions of people every single day much like with Wikipedia it is difficult
+to understate the impact on global knowledge and productivity that these networks of sites have created Jeff is
+also the author of the famed blog coding horror and the founder of discourse an
+open-source software project that seeks to improve the quality of our online
+community discussions this conversation is part of the MIT course on artificial
+general intelligence and the artificial intelligence podcast if you enjoy it subscribe on youtube itunes or your
+podcast provider of choice or simply connect with me on twitter at Lex Friedman spelled Fri D and now here's my
+conversation with Jeff Atwood having co-created and managed for a few years
+What motivates most programmers
+the world's largest community of programmers in Stack Overflow ten years ago what do you think motivates most
+programmers is it fame fortune glory process of programming itself or is it
+the sense of belonging to a community it's puzzles really I think it's this
+idea of working on puzzles independently of other people and just solving a
+problem sort of like on your own almost although you know nobody really works alone and programming anymore but I will
+say there's that there's an aspect of sort of hiding yourself away and just sort of beating on a problem until you
+solve it like brute force basically to me it's what a lot of programming is is like the computer so fast right you can
+do things that would take forever for a human but you just do them like so many times and so often that you get the
+answer right you're saying just the pure act of tinkering with the code yes is is
+Data is fun too
+the thing that drives most probably the joy the struggle balance within the joy
+of overcoming the the brute-force process of pain and suffering that
+eventually leads to something that actually works well data is fun too like there's this thing called the the
+shuffling problem like the naive shuffle that most programmers right has a huge flaw and there's a lot of articles
+online about this because it can be really bad if you're like a casino and you have an unsophisticated programmer
+writing your shuffle algorithm there's surprising ways to get this wrong but the neat thing is the way to figure that out is just to run your shuffle a bunch
+of times and see like how many orientations of cards you get you should get an equal distribution of all the
+cards and with the naive method of shuffling if you just look at the data if you just brute force and say okay I
+don't know what's gonna happen you just write a program that does it a billion times and then see what the
+buckets look like of the data and the Monty Hall problem is another example of that where you have three doors and
+somebody gives you information about another door so the correct answer is you should always switch and the Monty
+Hall problem which is not intuitive and people it freaks people out all the time right but you can solve it with data if you write a program that does the Monty
+Hall you know game and then never switches and always switches just compare you would immediately see that
+you don't have to be smart right you know to figure out the answer algorithmically you can just brute force it out with data and say well I know the
+answer is this because I ran the program a billion times and these are the data buckets that I got from it right so
+What motivates you
+empirically find it but what's the joy of that what so for you for you personally outside of family what
+motivates you in this process yes well to be honest I don't really write a lot of code anymore like what I
+do at discourse is like manager II stuff which I always kind of despised right like as a programmer you think of
+managers as people who don't really do anything themselves but the weird thing about code is like you realize that like
+language is code like the ability to direct other people lets you get more stuff than you've done then you could by
+yourself anyway you should write languages code languages community communication yeah those are humans yes
+you can think of it as a systemic so what what is it like to be what makes
+before we get into program it what makes a good manager what makes a good leader well I think a leader it's all about
+leading by example first of all like sort of doing and being the things that you want to be now this can be kind of
+exhausting particular you have kids because you realize that your kids are watching you like all the time like even in ways that you've stopped seeing
+yourself like the hardest person to see on the planet is really yourself right it's funnier to see other people and and and make judgments about them but
+yourself like your for biased you don't actually see yourself the way other people see you often you're very very hard on yourself
+in a way that other people really aren't going to be so you know that's one of the insights is you know you've got to
+be really diligent about thinking like am i behaving in a way that represents how I want other people to behave right
+like leading through example there's a lot of examples of leaders that really mess this up right like they make
+decisions that are like wow that's why would you know it's just it's it's it's a bad example for other people so I
+think leading by example is one the other one I believe it is working really hard now I don't mean like working
+exhaustively but like showing a real passion for the problem like you know
+not necessarily your solution the problem but the problem itself is just one that you really believe in like with discourse for example the problem that
+we're looking at which is my current project is how do you get people in groups to communicate in a way that
+doesn't like break down into the howling of wolves right like how do you deal with trolling not like technical
+problems of how do I get people to post paragraphs how do I get people to use bold how to get people to use complete sentences although those are problems as
+well but like how do I get people to get along with each other right like and then solve whatever problem it is they set up to solver you
+know reach some consensus on discussion or just like not hurt each other even right like maybe it's a discussion doesn't really matter but are people
+like yelling at each other right and why right like that's not the purpose of this kind of communication so I would
+say you know leadership is about you know setting an example you know doing
+the things that represent what you want to be and making sure that you're actually doing those things and there's a trick to that too because the things
+you don't do also say a lot about what you are yeah so let's pause on that one
+How do you have selfawareness
+so those two things are fascinating so how do you have as a leader as that self-awareness so you just said it's really hard to be self-aware so for you
+personally or maybe for other leaders you've seen or look up to how do you know the both that the things you're
+doing are the wrong things to be doing the way you speak to others the way you behave and the things you're not doing
+how do you how do you get that service there's two aspects that one is like processing feedback that you're getting so how you get feedback well right sorry
+are you getting feedback right like so one way we do it for example a discourse we have three co-founders and we periodically talk about decisions before
+we make them so it's not like one person can make a mistake or like that's you know there can be misunderstanding things like this so
+it's part of like group consensus of leadership is like it's good to have I think systems where there's one leader and
+that leader has the rule of absolute law are just really dangerous and my experience for communities for example like a few of communities run by one
+person that one person makes all the decisions that person's gonna have a bad day something could happen to that person you know something you know
+there's a lot of variables so like at first when you think about leadership haven't have multiple people doing leadership and have them talk amongst
+each other so giving each other feedback about the decisions that they're making and then when you do get feedback I
+think there's that little voice in your head right like or your gut or wherever you want to put it in your putti I think
+that voice is really important like I think most people who have any kind of
+moral compass or like want to do most people want to do the right thing I do believe that I mean there might be a handful of sociopaths out there that
+don't but most people they want other people to think of them as a good person and why wouldn't you right like do you want people to despise you I mean that's
+just weird right so you have that little voice that sort of the angel and devil on your shoulder sort of talking to you about like what you're doing how you're
+doing how does it make you feel to make these decisions right and I think having some attunement to that voice is
+important but you said that voice also for I think this is a programmer situation to what sometimes the devil on
+Selfcriticism
+the shoulder is a little a little too loud so you a little too self-critical for a lot of developers and especially
+when you have introverted personality how do you struggle with the self-criticism other criticism others so
+one of the things of leadership is to do something that's not potentially unpopular or what people doubt you and
+you still go through with the decision so what's that balance like I think you
+have to walk people through your decision-making right like if if this is where blogging is really important communication is so important again code
+language is just another kind of code is like here is the program by which I arrived at the conclusion that I'm gonna
+reach right it's one thing to say like this is decisions final deal with it right that's not usually
+satisfying people but if you say look you know we've been thinking this problem for a while here's some stuff that's happened here's what we think is
+right here's our goals here's one achieve and we've looked at these options and we think this of available
+options is the best option people be like oh okay alright maybe I don't totally agree with you but I can kind of see where you're coming from and like
+see it's not just arbitrary decision delivered from a cloud of flames in the sky right it's like a human trying to
+reach some kind of consensus about you know goals and their goals might be different than yours that's completely legit right but if you're making that
+clear it's like oh well the reason we don't agree is because we have totally different goals right like how could we agree it's not that you're a bad person
+it's that we have radically different goals in mind when we started looking this problem and the other one you said
+Passion
+is passion so or hard work sorry well those are tied together to me out in my mind say Hardware compassionate like for
+me like I just really love the problem discourse is sending out to solve because in a way it's like there's a
+there's a vision of the world where it all devolves into Facebook basically owning everything and every aspect of
+human communication right and this has always been kind of a scary world for me um first cuz I don't I think Facebook is
+really good at execution I gotta compliment them they're very competent in terms of what they're doing but Facebook has not much of a moral compass
+in terms of Facebook cares about Facebook really they don't really care about you and your problems what they
+care about is how big they can make Facebook right is that you're talking about the company or just a mechanism how Facebook works kind of both really
+right like and the idea with discourse the reason I'm so passionate about it is because I believe every community should have the right to own themselves right
+like they should have their own software that they can run that belongs to them that's their space where they can set
+the rules and if they don't like it they can move to different hosting or you know whatever they need they need to have it can happen but like this this
+idea of a company town we're all human communication is implicitly owned by whatsapp Instagram and Facebook and its
+really disturbing too because Facebook is really smart like I said they're great at execution buying and what's happened buying Instagram were
+incredibly smart decisions and they also do this thing on if you know but they have this VPN software that they give
+away for free on smartphones and it indirectly feeds all the the data about the traffic back to Facebook so they can
+see what's actually getting popular through the VPNs right they have low level access to the network data because
+users have let them have that so ok let's let's take a small pause here
+Discourse
+first of all discourse can you talk about can you lay out the land of all
+the different ways you can have community so there's Stack Overflow that you've built there's discourse yeah so Stack Overflow
+is kind of like a wiki Wikipedia you talk and it's a very specific scalpel very
+focused so what is the purpose of discourse and maybe contrast that with Facebook first of all say what is this
+course yeah start from the beginning well let me start with the very being so Stack Overflow is very structured wiki
+style QA for programmers right and that was the problem we first worked on it when we started we thought it was
+discussions because we looked at like programming forums and other things but we quickly realized we were doing QA
+which is a very narrow subset of human communication sizes so when you start
+Stack Overflow you thought you didn't even know the QA you know it would be well we didn't know we did we had an
+idea of like ok these are things that we see working online we had a goal right our goal was there was this site experts
+exchange with a very unfortunate thank you for killing that site yeah I know right like a lot of people don't
+remember it anymore which is great like that's the measure of success when people don't remember the thing that you were trying to replace then you've totally won so it was a place to get
+answers to programming questions but it wasn't clear if it was like focused Q&A if it was a discussion there were plenty
+of programming forums so we weren't really sure we were like ok we'll take aspects of Digg and reddit like voting
+we're very important reordering answers based on votes wiki style stuff of like being able to edit post not just your
+posts but other people's post to make them better and keep them more up-to-date ownership of blogging of like
+ok this is me I'm saying this is my voice you know this is the stuff that I know and you know you give your
+reputation accrues to you and it's pure recognition so you asked earlier like
+what motivates programmers I think peer recognition motivates them a lot that was one of the key insights of Stack
+Overflow was like recognition from your peers is why things get done initially moneyness well your boss but like your
+peers saying wow this person really knows their stuff has a lot of value so the reputation system came from that so
+we were sort of frankensteining a bunch of stuff together in Stack Overflow of like stuff we had seen working and we
+knew worked and that became Stack Overflow and over time we realized it
+wasn't really discussion it was very focused questions and answers there wasn't a lot of room on the page for let
+me talk about this tangential thing it was more like ok he's an answering question is it clarifying the question or could it be an alternative answer to
+the same question because there's usually more than one way to do it in program there's say five to ten ways and one of the
+patterns we got into early on stackoverflow was there are questions where there would be like hundreds of answers more like Wow
+how can there be a programming question with 500 200 500 answers and we looked
+at those we realized those were not really questions in the traditional sense they were discussions it was stuff
+that we allowed early on that we eventually decided wasn't allowed such as what's your favorite programming food
+you know what's the funniest programming cartoon you've seen and we had to sort of backfill oh into rules about like why
+isn't this allowed such as is this a real problem you're facing like nobody goes to work and says wow I can't work
+because I don't know what the funniest programming cartoon is so sorry can't compile this code now right it's not a
+real problem you're facing in your job that was run rule and ii like what can you really learn from that it's like
+what i call accidental learning or reddit style learning where you just acknowledge browse some things oh wow you know did you know tree frogs
+only live three years I mean I just made that up I don't know that's true but uh I didn't really set out to learn that I don't need to know that right it's an
+accidental learning it was more intentional learning we were like okay I have a problem and I want to learn about stuff around this problem having right
+and it could be theory could be compiler theory it could be other stuff but I'm having a compiler problem hence I need
+to know the compiler theory that aspect of it that gives me the the gets me to my answer right so kind of a directed
+learning so we had to backfill all these rules as we sort of figured out what the heck it was we were doing and the system
+came very strict over time and a lot of people still complain about that and I wrote my latest blog entry what the
+Stack Overflow want to be I wanted to be when it grows out celebrating the 10-year anniversary yeah yeah so ten
+years and it that system is trended towards strictness there's a variety of reasons for this one is people don't
+like to see other people get reputation for stuff as they view they view as frivolous which I can actually understand because if you saw a program
+or got like five hundred up votes for funniest programming cartoon or funniest comment they had seen in code it's like
+well why do they have that reputation is because they wrote the joke probably not I mean if they did maybe or the cartoon
+right they're getting a bunch of reputation based on someone else's work that's not even like programming it's
+just a joke right it's a related to birth so you begin to resent that like well that's not fair and it isn't at
+some level they're correct I mean I empathize because like it's not correct you get reputation for that versus here's a really gnarly
+regular expression problem and here's a really you know clever insightful you know detailed answer laying out oh
+here's why you're seeing the behavior that you're seeing here let me teach you some things about how to avoid that in the future that's that's great like that's gold right you want people to
+grab a petition for that not so much for wow look at this funny thing I saw alright great so there's this very
+What is Stack Overflow
+specific Q&A format and then take me through the journey towards this course in Facebook and Twitter so you start at
+the beginning that Stack Overflow evolved to have a purpose so where does this course this passion you have for
+creating community for discussion what is that when was that born and well part
+of it is based on the realization the Stack Overflow is only good for very specific subjects where they're sort of it's it's based on data facts and
+science where answers can be kind of verified to be true another form of that is there's the book of knowledge like
+the tome of knowledge that defines like whatever it is you can refer to that book and I'll give you the answer there
+has to be it only works on subjects where there's like semi clear answers to things that can be verified in some form
+now again there's always more than one way to do it there's complete flexibility and system around that but
+where it falls down is stuff like poker and Lego like we had if you go to Stack Exchange calm we have an engine that
+tries to launch different Q&A topics right and people can propose Q&A topics
+sample questions and and if he gets enough support within the network we launch that Q&A site so someone's we
+launched where poker and Lego and they did horribly right because I mean there might still be there lingering on in
+some form but it was an experiment this is like a test right and some subjects work super well in the stack engine and
+some don't but the reason Lego and Poker don't work is because they're so social really it's not about you know what's the rule here
+in poker it's like well you know what kind of cigars do we like to smoke while playing poker or you know what's what's
+a cool set of cards to use when playing poker or you know what some strategies like say I have this hand come up with
+some strategies I could use it's more of a discussion around like what's happening like with Lego you know same thing like here's this cool Lego set I found look how awesome
+this isn't like yeah that's freaking awesome right it's not question right there's all these social components discussions that don't fit at all like
+we literally have to just allow those in Stack Overflow kids it's not about being social it's about problems that you're facing in your work
+that you need concrete answers for right like you have a real demonstrated problem that's sort of blocking you in something nobody's blocked by you know
+what should I do when I have a straight flush right like blocking problem in the world it's just an opportunity to hang
+out and discuss so this course was a way to address that and say look you know
+discussion forum software ahead was very very bad and when I came out of Stack Overflow until late or early 20 2013
+2012 it was still very very bad I've expected it improved and in the four
+years since I last looked but it had not improved at all and I was like well that's kind of terrible because I love
+these communities of people talking about things that they love you know that there's just communities of
+interest right and there's no good software for them like startups would come to me and say hey Jeff I wanna you
+know I have this startup here's my idea and the first thing I would say them is like well first why are you asking me
+like I don't really know your field right let it's necessarily like why aren't you asking like the community
+like the people that are interested in this problem the people that are using your product why aren't you talking to them and then they say Oh a great idea
+like how do I do that and then that's when I started playing sad trombone because I realized all the software involving talking to your users
+customers audience patrons whatever it is it was all really bad you know I was like stuff that I would be embarrassed
+to recommend to other people and yet that's where I felt they could get the biggest and strongest most effective
+input for what they should be doing with their product right it's from their users from their community right that's
+what we did on Stack Overflow so what we're talking about with forms the what is it the dark matter of the
+What is Forum
+Internet it's still I don't know if it's still but for a longest time it has some of the most passionate and fascinating
+discussions and what's the usual structure there's usually what it's a it's linear so it's sequential it's
+you're posting one after the other and there's pagination so it's every there's a 10th post and you go to the next page
+and that format still is used by like I'm we're doing a lot of research with
+Tesla of vehicles and there's Tesla Motors Club forum which is extremely really wanted to run that actually they
+pinged us about I don't think we got but I really would like to gotten that one but they've started before even 2012
+I believe I mean they've been running for a long time it's still an extremely rich source of information so what what's broken about that system and how
+are you trying to fix it I think there's a lot of power in in connecting people
+that love the same stuff around that specific topic meaning Facebook's idea of connection is just any human that's
+related to another human right like like through friendship or you know any other reason Facebook's idea of the world is sort of
+the status update right like a friend of yours did something ate at a restaurant right
+whereas discussion forums were additionally around the interest graph like I love electric cars specifically I
+love Tesla right like I love the way they approach the the problem I love the style of the founder I just love the the
+design ethic there's a lot to like about Tesla if you saw the oatmeal he did a whole love comic to Tesla and it was
+actually kind of cool because I learned some stuff he was some how great Tesla cars were specifically like how they were built differently and he went into
+a lot of great detail that was really interesting to me that oatmeal post if you read it is the genesis of pretty much all interest communities I just
+really love this stuff's like for me devilish yo-yos right like I'm into the yo-yo communities and there's these interest communities are just really
+fascinating to me and I feel more connected to the yo-yo communities than I do to you know friends that I don't
+see that often right like to me that the powerful thing is the interest graph and Facebook kind of dabbles in the interest
+graph I mean they have groups you can sign up for groups and stuff but it's really about the relationship graph like
+I'm this is my coworker this is my relative this is my friend but not so much about the interest so I think
+that's the the linchpin of which forums and communities are built on that I personally love like I I like I said
+leadership is about passion right and being passionate about stuff is is a really valid way to look at the world and I think it's a way a lot of stuff in
+the world gets done like I once said someone described me as he's like Jeff you're a guy who you just get super passionate about a few things at a time
+and you just go super team from those things and I was like oh that's kind of right that's kind of what I do I'll get into something and just be super into
+that for a couple years or whatever I just learn all I can about it and go super deep in it and that's how I enjoy
+experiencing the world right like not being shallow on a bunch of things but being really deep on a few things that I'm interested in so forums
+kind of unlocked that right and you know you don't want a world where everything belongs to Facebook at least I don't I
+want a world where communities can kind of own themselves set their own norms set their own rules control the experience because commit community is
+also about ownership right like if if you're meeting at the Barnes & Noble every Thursday at Barnes & Noble says
+get out of here you guys don't buy enough books well you know you're kind of hose right Barnes and Noble owns you right like you can't but if you have
+your own meeting space you know your own Clubhouse you can set your own rules decide what you want to talk about there
+and just really generate a lot better information than you could like hanging out at Barnes & Noble every Thursday at
+3:00 p.m. right so that's kind of the vision of discourse is a place where it's it's fully open source you can take
+the software you can saw it anywhere and you know you and a group of people can go deep on whatever it is that you're
+into and it this works for startups right startups are a group of people who go super deep on a specific problem right and they want to talk to the
+comedian's like well install this course right that's what we do at this course that's what I did a stack overflow I spent a lot of time on meta stack
+overflow which is our internal well public community feedback site and just
+experiencing what the users were experiencing right because they're the ones doing all the work in the system and they had a lot of interesting
+feedback and there's that 90/10 rule of like 90% of the feedback you get is not really actionable for a variety reasons
+it might be bad feedback it might be crazy feedback it might be feedback you just can't act on right now but there's 10% of it that's like gold it's like
+literally gold and diamonds where it's like feedback of really good improvements to your core product that
+are not super hard to get to and actually make a lot of sense and my favorite is about 5% of those stuff I didn't even see coming it's like oh my
+god I never even thought of that but that's a brilliant idea right and I can point to so many features of Stack Overflow that we drive
+from metastatic overflow feedback and meta discourse right same exact principle at discourse you know we're
+getting ideas from the comedian's like oh my god I never thought of that but that's fantastic right like I love that relationship with the community from
+having built these communities what have you what have you learn about what's the process of getting a critical mass of
+members in a community is it luck skill timing persistence what is is it the
+tools like discourse that empower that community what what's the key aspect of starting
+one guy a gal and then building it to 210 and 100 and a thousand so on I think
+we're starting with an end of one I mean I think it's persistence and and also you have to be interesting like somebody
+I really admire once that's something that I always liked about blogging he's like here's how you blog you have to have something interesting to say and
+have an interesting way of saying it right yeah and then do that for like 10 years so that's the genesis is like you
+have to have sort of something interesting to say that's not exactly what everyone else is saying and an interesting way of saying which is
+another one same kind of entertaining way of saying it and then as far as growing it it's like ritual you know
+like you have to like say you're starting a blog you have to say look I'm gonna blog every week three times a week
+and you have to stick to that schedule right because until you do that for like several years you're never gonna get
+anywhere like it just takes years to get to where you need to get to and part of that is having the discipline to stick
+with the schedule and it helps you get if it's something you're passionate about this won't feel like work like I love this I could talk about this all
+day every day right you just have to do in a way that's interesting to other people and then as you're growing the
+community that pattern of participation within the community of like generating these artifacts and inviting other
+people to help you like collaborate on these artifacts like even in case of blogging like I felt in the early days
+of my blog which I started 2004 which is really the genesis of Stack Overflow if you look at all my blog it leads up to
+Stack Overflow which was I have all this energy in my blog but I don't like 40,000 people were subscribing to me and
+I was like I want to do something and then then I met Joel and said hey Joel I want to do something take this ball of energy for my blog and do something and
+all the people reading my blog saw that's oh cool you're involving us you're saying look you're part of this
+community let's build this thing together like they pick the name like we voted on the name for Stack Overflow on my blog like we came and naming is super
+hard first why the hardest problem computer science is coming with a good name for stuff right yeah but there you
+can go back to my log there's the poll where we voted and Stack Overflow became the name of the site and all the early beta users are stuck over we're audience
+of my blog plus Joel's blog right so we started from like if you look at the Genesis okay I was just a programmer who
+said hey I love programming but I have no outlet to talk about it so I'm just gonna blog about it because I don't have enough people to work to talk to about
+it because at the time I worked a place where you know programming wasn't the core output of the company was a pharmaceutical company and I just love
+this stuff you know to an absurd degree so I was like I'll just blog about it and then I'll find an audience and eventually found an audience eventually
+I found Joel and eventually built Stack Overflow from that one core of activity right but it was that repetition of
+feeding back in feedback from my blog comments feedback from Joel feedback from them the early Stack Overflow
+community when people see that you're doing that they will follow along with you right they say look cool you're here
+in good faith you're actually you know not listening to everything because I'm impossible that's impossible but you're actually you know waiting our
+feedback and what you're doing because I'm and why wouldn't I because who does all the work on Stack Overflow me Joel no it's the other programmers that are
+doing all the work so you gotta have some respect for that and then you know discipline around look you know we're
+trying to do a very specific thing here on Stack Overflow we're not trying to solve all the world's problems we're trying to solve this very specific QA
+problem in a very specific way not because we're jerks about it but because these strict set of rules help us get
+really good results right and programmers that's an easy sell for the most part because programmers are used
+to dealing with ridiculous systems of rules like constantly that's basically their job so they're they're very oh
+yeah super strict system of rules that lets me get on what that's programming right that's what Stack Overflow is so
+Coding Horror
+so you're making it sound easy but in 2004 let's go back there in 2004 you
+started the blog I'm quoting horror was it called that at the beginning at the very beginning was one of the smart
+things I did it's from a book by Steve McConnell code complete which is where my favorite programming but still probably my number one programming book
+for anyone to read one of the smart things I did back then I don't always do smart things when I start stuff
+I contacted Stephen said hey I really like this it was a sidebar illustration indicating danger in code right coding
+horror was like watch out and I love that illustration cuz it spoke to me because I saw that illustration go oh my
+god that's me like I'm always my own worst enemy like that and a key insight and programming is every time you write
+something think how am I gonna screw myself because you will constantly right
+so that that icon was like oh yeah I need to constantly hold that mirror up and look and say look you're very
+fallible you're gonna screw this up like how can you build this in such a way that you're not gonna screw it up later
+like how can you get that discipline around making sure at every step I'm thinking through all the things that I could do wrong or that
+other people could do wrong because that is actually how you get to be a better programmer a lot of times right so that
+sidebar illustration I loved it so much and I wrote Steve before I started my belonging say hey can I have permission to use this cuz I just really likes
+illustration and Steve was kind enough to give me a portion to do that and just continues to give me permission so yeah
+Writing Advice
+really that's awesome but in 2004 you started this blog you know you look at
+it Stephen King this book on writing or Steven Pressfield the war of art book I
+mean it seems like writers suffer I mean it's a hard process of writing write is
+there's gonna be suffering I mean I won't kid you like well the work is suffering right like doing the work like
+even when you're every week you're like okay that blog post wasn't very good or you know people didn't like it or people write said disparaging things about it
+you have to like have the attitudes like you know no matter what happens I want to do this for me right it's not about
+you it's about me I mean in the end it is about everyone because this is how good work gets out into the world but
+you have to be pretty strict about saying like you know I'm selfish in the
+sense that I have to do this for me you know you mentioned Stephen King like his book on writing but like one of things I do for example when writing is like I
+read it out loud one of the best pieces of advice for writing anything is read it out loud like multiple times and make
+it sound like you're talking because that is the goal of good writing it should sound like you said it with with
+slightly better phrasing because you have two more time to think about your saying but like it should sound natural when you say it and I think that's
+probably the single best writing advice and give anyone it's just just read it over and over outloud make sure it
+sounds like something you would normally say and it sounds good and what's your process of writing so there's usually a
+Writing Process
+pretty good idea behind the blog post so ideas right so I think you gotta have
+the concept that there's so many interesting things in the world like I mean my god the world is amazing right
+like it's you could never write about everything that's going on because it's so incredible but if you can't come up
+with like let's say one interesting thing per day to talk about then you're not trying hard enough because the world
+is full of just super interesting stuff and one great way to like mine stuff is go back to old books because they bring
+old stuff that's still super relevant and I did that a lot because I was like reading classic program books and a lot
+of the early blockbuster like oh I was reading this program but can they brought this really cool concept and I want talk about some more and you get
+the I mean you're not claiming credit for the idea but it gives you something interesting to talk about that's kind of evergreen right like you don't have to go what should I talk about so just go
+dig up some old classic programming books and find something that oh wow that's interesting or how does that apply today or what about X&Y or compare
+these two concepts so pull a couple of sentences from that book and then sort of play off of it almost reader disagree
+NonLinear Decisions
+that so in 2007 you wrote that you were
+offered a significant amount of money to sell the blog you chose not to what were
+all the elements you were thinking about because I'd like to take you back it seems like there's a lot of non-linear decisions you made through life that's
+so what was that decision like right so i one of the things I love is the choose your own adventure books which I loved
+as a kid and I feel like the early programmer books cuz they're they're all about if-then statements right if this then this and they're also very very
+unforgiving like there's all these sites that map the the classic teacher and venture books and how many how comes are
+bad there's a lot of bad outcomes so part of the game is like oh I got a bow come go back one step go back on further
+steps like how did I get here right like it's a sequence of decisions and this is true of life right like every decision
+is a sequence right individually any individual decision is not really right
+or wrong but they lead you down a path right so I do think there's some truth to that so this particular decision the
+blog II got fairly popular there's a lot of RSS readers that I discovered and this guy contacted me out of the blue
+from this like bug tracking companies like I really want to buy your blog for like I think it was around it was a
+hundred thousand dollars when I'm in like eighty thousand but it was it was a lot right like and that's you know at the time like I would have a year's
+worth of salary all at once so I'd really think about like well you know and I remember talking to people the
+times like wow that's a lot of money but then I'm like I really like my blog right like do I want to sell my blog because it wouldn't really belong to me
+anymore at that point and one of the guidelines that I like to I don't like to give advice to people a lot but one
+of the piece of advice I do give because I do think it's really true and it's generally helpful is whenever you're looking at a set of decisions like
+shut you a B or C you got to pick the thing that's a little scarier in that list because not you know not like jump
+off a cliff scary but the thing that makes you nervous because if you pick the safe choice it's usually you're not really pushing you're not pushing
+yourself you're not choosing the thing that's gonna help you grow so for me the scarier choice was to say no I was like
+well no let's just see where this is going right because then I own it I mean it belongs to me it's my thing and I can
+just take it and to some other logical conclusion right because imagine how different the world would've been had I said yes and sold the blog it's like
+they're probably gonna be stackoverflow yeah you know a lot of other stuff would have changed so for that particular
+decision I think it was that same rule like what scares me a little bit more do the thing that scares you yeah so speaking of which startups I think
+The Birth of Stack Overflow
+there's a specific some more general questions that a lot of people would be interested in you've started
+Stack Overflow you started this course so what's the here's one two three guys
+whatever it is in the beginning what was that process like do you start talking
+about it do you start programming do you start like where is the birth and the catalyst that actually I can talk about
+in the context of Oh Stack Overflow and discourse so I think the key thing initially is there is a problem something the some state of the world
+that's unsatisfactory to the point that like you're upset about it right like in that case it was experts exchange I mean
+Joel's original idea because I approached I was like look joy I have all this energy by my blog I want to do something I want to build something but
+I don't know what it is because I'm not I'm honestly not a good idea person I'm really not I'm like the execution guy I'm really good at execution but I'm not
+good at like blue skying ideas not my forte which is another reason why I like the community feedback because they blue
+sky all day long for you right so when I can just go in and cherry-pick a blue sky idea from community even if I have
+to spend three hours reading to get one good idea it's worth it man but anyway so the idea from Joel was hey experts
+exchange it's got great data but the spirits is hideous right it's it's trying to trick you it feels like used-car salesmen it's
+just bad so I was like oh that's awesome it feeds in a community it feeds into like you know we can make a Creative Commons so I think the core is to have a
+really good idea that you feel very strongly about in the beginning that like there's a wrong in the world that we will an injustice that we will right
+through the process of building this thing for discourse it was like look there's no good software for communities
+to just hang out and like do stuff right like whether it's problem-solving start up whatever
+forums are such a great building block or online community and they're hideous they were so bad right it was embarrassing like I literally was
+embarrassed to be associated with this software right I was we have to have software they could be proud of it's like this is competitive with
+Reddit this is competitive Twitter this is competitor with Facebook right I would be proud to have the software on
+my site so that was the genesis of discourse was feeling very strongly about there needs to be a good solution
+for communities so that's step one Genesis why do you feel super strongly about right and then people galvanize around the idea like Joel was already
+super excited with the idea I was excited about the idea so with the forum software I was posting on Twitter I had
+research as part of my research I start researching the problem right and I found a game called forum Wars which was
+a parody of forum it's still very very funny of like foreign behavior circle like I would say 2003 and it's aged some
+right like the behavior is a little different in there of Twitter but it was awesome it was very funny and it was like a game as like an RPG and it had a
+forum attached to it so it was like a game about forums with a forum attached I was like this is awesome right this is so cool and the founder of that company
+or that project it wasn't really a company contacted me this guy Robin Ward from Toronto's hey you know I saw you
+been talking about forums and like I really love that problem space he's like I'd still love to build really good forum software cuz I don't think
+anything out there is any good and I was like awesome at that point I was like we're starting a company because like I couldn't have wished for a better person
+to walk through the door and say I'm excited about this - same thing with Joe right I mean Joel is a legend in the
+industry right so when he walks through so I'm excited about as problems like me - man we can do this right so that to me
+is the most important step it's like having ID you're super excited about and another person a co-founder right because again you get that dual
+leadership right of like am I making a bad decision sometimes it's nice to have checks of like is this a good idea I
+don't know right so those are the the crucial seeds but then starting to build stuff whether it's you programmer
+there's video types so there's tons of research there's tons of research like what what's out there that failed because a lot of people looked at
+successes I look at how successful X's everybody looks at the successes those are boring show me the failures because
+that is what's interesting that's where people were experimenting that's where people were pushing but and they failed but they probably failed
+for reasons that weren't directly about the quality of their idea right yeah so look at all the failures don't just look
+what everybody looks at which is a go gosh look at all these successful people look at the failures look at the things that didn't work research the entire
+field and so that's the research that I was doing that led me to Robin Wright was that and then when we for example we
+did Stack Overflow we're like okay well I really like elements of voting and Digg and reddit I
+like the the Wikipedia everything is up to date nothing is like an old tombstone that like has horrible out-of-date
+information we know that works Wikipedia is an amazing resource blogging the idea of ownership is so powerful right like
+oh I i jo wrote this and look how good Joe's answer is right like all these concepts were rolling out researching
+all the things are out there that we're working and why they were working and trying to like fold them into that again that Frankenstein's monster of what
+Stack Overflow is and by the way that wasn't a free decision because there's still a ton of tension in the Stack Overflow system there's reasons people
+complain about Stack Overflow because it's so strict right why is it so strict why you guys always closing my questions
+it's because there's so much tension that we built into the system around like trying to get good good results out
+of the system and you know it it's not a free that stuff doesn't come for free
+right it's not like we we're all have perfect answers and nobody will have to get their feelings hurt or nobody will
+have to get down voted like that it doesn't work that way right like so this is an interesting point a small tangent
+Anxiety on Stack Overflow
+yeah you're right about anxiety so I've posted a lot of questions and answers on
+Stack Overflow and the questions I usually go to something very specific to something I am working on this is
+something you talk about that really the goal of Stack Overflow isn't about is to write a question not that's not about
+you it's about the question that will help the community in the future right
+but that's a tough sell right because people are like well you know I don't really care about the committee what I care about is my problem my problem and
+then that's fair right is it sort of that again that tension that balancing active we want to help you but we also hope that everybody comes behind you
+right the long line of people are gonna come up say oh I kind of have that problem too right and if nobody's ever going to come up and say I have this
+problem too then that question shouldn't exist on Stack Overflow because the question is too specific and that even
+that's tension right how do you judge the how do you know that nobody's ever gonna have this particular question again so there's a lot of tension in the
+Stack Overflow QA
+system do you think that anxiety of asking the question the anxiety of answering that tension is inherent to
+programmers is inherent to this kind of process or can it be improved can be happy land
+where the that tension is not quite so harsh uh I don't think Stack Overflow
+can totally change though it works one thing they are working on finally is the ask page had not changed since 2011 I'm
+still kind of bitter about this because I feel like you have a QA system and what are the core pages in a KA system
+well first of all the question all the answers and all the also the ask page particularly when you're a new user or someone trying to ask question that's
+the point on what you need the most help and we just didn't adapt with the times but the good news is they're working on
+this from what I understand and it's gonna be a more wizard based format and you could envision a world where as part
+of this wizard based program when you're asking questions okay come up with a good title what are good words up in the title one word that's not good to put in
+the title is problem for example I have a problem oh you have a problem okay a problem that's great right like you need
+specifics right like so it's trying to help you make a good question title for example that step will be broken out all
+that stuff but one of those steps in that wizard of asking could say hey I'm a little nervous you know I've never done this before can you put me in a
+queue for like special mentoring right you could opt into a special mentor I think that would be fantastic like I
+don't have any objection to that at all in terms of be an opt-in system because there are people there like no I just
+want to help them I want to help a person no matter what I want to go above and beyond I want to spend like hours with this person uh Ben's what their
+goals are right a great idea Who am I to judge right so that's fine it's not precluded from happening but there's a
+certain big-city ethos that we started with like look we're of New York City you don't come to New York City and expect them to be Oh welcome to the city
+Joe how's it going come on in let me show you around that's not how New York City works right I mean and you know again New York City
+is a reputation for being rude which I actually don't think it is having been there fairly recently it's not rude people are just like going about their business right now look look I have
+things to do I'm busy I'm a busy professional as are you and since you're a busy professional certainly when you ask a question you're
+gonna ask the best possible question right because you're a busy professional and you would not accept anything less than a very well waiting question with a
+lot of detail about why you're doing it what you're doing what you researched what you found right because you're a professional like me right and this rubs
+people sometimes the wrong way and I don't think it's wrong to say look I don't want that experience I want just a
+more chill place for beginners and I still think sacrifice is not was never designed for beginners right there's
+this misconception that you know even Joel says some - oh yes deck overflow for beginners and I think if you're a prodigy it can be all right but that's
+not not really representative right like I think as a beginner you want a totally different set of tools you want like
+live screen sharing live chat you want access to resources you want a playground like a playground you can
+experiment in and like test and all this stuff that we just don't give people because that was never really the the
+audience that we were designing the second true flow for that doesn't mean it's wrong and I think it would be awesome if there was a site like that on
+the internet or if stack overlies and hey you know we're gonna start doing this that's fine too you know I'm not there I'm not making those decisions but
+I do think the pressure the tension that you describe is there for people to be look I'm a little nervous cuz I know I
+gotta do my best work right the other one is something you talk about which is also really interesting to me is
+Duplicate Questions
+duplicate questions or do it's a it's a really difficult problem that you
+highlight super far is super hard like you could take one little topic and you could probably write 10 20 30 ways of
+asking about that topic and there will be all different I don't know if there should be one page that answers all of
+it is there a way that Stack Overflow can help disambiguate like separate
+these duplicate questions or connect them together or is it a totally hopeless difficult impossible task I
+think it's a very very hard computer science problem and partly because people are very good at using completely
+different words it always amazed me on Stack Overflow you'd have two questions that were functionally identical and one question had like zero words in common
+with the other question like oh my god from a computer science perspective how do you even begin to solve that and it
+happens all the time people are super-good at this right accidentally at asking the same thing in in like in 10
+20 different ways and the other complexity is we want some of those duplicates to exist because if there's five versions with different words have
+those five versions point to the one centralized answer right it's like okay this is duplicate nope no worries this
+here's here's the answer that you wanted over here on this this this you know the prime example that we want to have
+rather having ten copies of the question and the answer because if you have 10 copies of the question the answer this
+also devalues the reputation system which programmers hate as I previously mentioned you're getting reputation for
+an answer that somebody else or engaged it's like well it's an answer but somebody are sorry gave that answer so why are you getting reputation for the
+same answer as the other guy who gave it 4 years ago people get offended by that right so the reputation system itself
+adds tension to the system in that the people who have a lot of reputation become very incentivized to enforce the
+reputation system and for the most part that's good I know it sounds weird but for most parts like look strict systems
+I think to use Tec powerful you have to have the idea that ok strict systems ultimately work better and I do think in
+programming you're familiar with loose typing versus strict typing right the idea that you can declare a variable not
+declare a variable rather you start using a variable and ok I see it's implicitly an integer BAM awesome duck equals 5 well duck is now an in
+under 5 right and you're like cool awesome simpler right why would I want to worry about typing and for a long
+time like in the Ruby community they're like yeah this is awesome like you just do a bunch of unit testing which is testing your programs validity after the
+fact to catch any bugs that that strict typing of variables would have caught and now you have this thing called
+typescript from Microsoft from the guy who built c-sharp Manders who's one of the greatest minds in software
+development right like in terms of language design and says no no no we want to bolt on a strict type system to JavaScript because it makes things
+better and now everybody's like oh my god we we deployed typescript and found 50 latent bugs that we didn't know about
+right like this is super common so I think there is a truth in programming
+that strictness it's not the goal we're not saying be super strict cuz strictness is correct no it's no no
+strictness produces better results that's what I'm saying right so strict typing of variables I would say you
+almost universally have consensus now is basically correct should be that way in every language right duck equals 5
+should during an error because you know you didn't clear you didn't tell me the duck was an integer right that's a bug right
+or maybe you missed time you typed deck right instead of duck right you never know this happens all the time right so with that in mind I will say that the
+strictness the system is correct now that doesn't mean cruel that doesn't mean mean that doesn't mean angry it just means tricked okay so I
+think where there's misunderstanding is and people get cranky right like another question you asked is like why are programmers kind of mean sometimes well
+who'da programmers work with all day long so I have a theory that if you're at a job and you work with all
+day long what do you eventually become an an and what is the computer
+except the world's biggest because the computer has no time for your the computer the minute
+you make a mistake everything else crashing down right one semicolon has crashed space missions right so that's
+normal so you begin to internalize that you begin to think oh my coworker the
+computer is super strict and kind of a jerk about everything so that's kind of how I'm gonna be because I work with
+this computer and I have to accede to its terms on everything so therefore you start to absorb that and you start to
+think oh well being really strict arbitrarily is really good an error of error code five six two four nine is a
+completely good error message because that's what the computer gave me right so you kind of forget to be a person at
+some level and you know they say great detectives internalized criminals and kind of are criminals themselves like
+this trope of the master detective is good because you can think like the criminal well I do think that's true of
+programmers really good programmers think like the computer because that's their job but if you internalize it too
+much you become the computer you become a kind of become a jerk to everybody because that's what you've internalized
+you're almost not a jerk but you have no patience for a lack of strictness as you said it's not out of a sense of meanness
+it's accidental but I do believe it's an occupational hazard of being a programmer is you start to behave like the computer you're very unforgiving
+you're very terse you're very Oh wrong and correct move on it's like well can you help me like what could I do to fix
+now wrong say next question right like that's normal for the computer right
+just fail next right like out of you remember in Saturday Night Live like in
+the nine they had this character was an IT guy yeah the move guy move was that Jimmy
+Fallon no no can't play dumb okay yeah I remember move right he had no patience
+for he might have been MADtv actually might have been might a bit but anyway that was the that's always been the
+perception right you start to behave like the computer it's like oh you're wrong out of the way you know you've written so many blog posts about
+Solo Programming
+programming about programs programming programmers what do you think makes a
+good let's start with what makes a good solo programmer well I don't think you
+should be a solo programmer I think to be a good solo programmer it's kind of like what I talked about well not on mic but one of the things john carmack one
+of the best points he makes in the book masters of doom which is a fantastic book anybody listening this who hasn't
+read it please read it's such a great book is that at the time they were working on stuff like Wolfenstein and
+doom like they didn't have the resources that we have today they didn't have Stack Overflow they didn't have
+Wikipedia they didn't have like discourse forums they didn't have places to go to get people to help them write
+they had to work on their own and that's why it took a genius like Carmack to do this stuff because you had to be a
+genius to invent from first principles a lot of the stuff he was he was like the hacks he was coming up with were genius
+right genius level stuff but you don't need to be a genius anymore and that means not working by yourself you have to be good at researching stuff online
+you have to be good at asking questions really good questions that are really well researched which implies oh I went out and researched for three hours
+before I wrote those questions like that's what you should be doing because that's what's gonna make you good write to me this is the big difference between
+programming in like the 80s versus programming today is like you you kind of had to be by yourself back then like
+where would you go for answers I remember in the early days when I was a learning Visual Basic for Windows like I
+would call the Microsoft helpline on the phone when I had like program because I was like I don't know what to do so I
+would like go and call and they have these huge phone banks and like can you imagine how alien that is now like who would do that right like that's crazy
+so there was just nowhere else to go when you got stuck right like I had the books that came with it I read those
+study those religiously I I just saw a post from Steve Sinofsky that said this C++ version seven
+came with like 10,000 pages of written material because where else were you
+gonna figure that stuff out go to the library I mean you don't have what capito you didn't have you know read it
+you know were to go to answer these questions so you you've talked about through the years basically not having
+Being Effective at Programming
+an ego and not thinking that you're the best programmer in the world it's always
+kind of just looking to improve to become a better programmer than you were
+yesterday so how have you changed as a programmer and as a as a thinker
+designer around programming over it'll past what is it 15 years really of being
+a public figure I would say the big insight that I had is eventually as a programmer you have to kind of stop
+writing code to be effective which is kind of disturbing because you really love it and but you realize like being
+effective at program at programming in the general sense doesn't mean writing
+code and a lot times you can be much more successful by not writing code and writing code in terms of just solving the problems you have essentially hiring
+people that are really good and like setting them free and like giving them basic direction right like on strategy
+and stuff because a lot of the problems you encounter aren't necessarily solved through like really gnarly code they're
+solved by conceptual solutions which can then be turned into code but are you even solving the right problem I mean so
+I would say for me the main insight I have is to succeed as a programmer you
+eventually kind of stop writing code that's gonna sound discouraging probably to people hearing but I don't mean it
+that way what I mean is that you're coding at a higher level language eventually like okay so we're coding an assembly language right that's the
+beginning right you're hard coded to the architecture then you have stuff like see we're cool we can abstract across
+the architecture you can write code I can then compile that code for arm or you know you know whatever you know x86
+or whatever else is out there and then even higher level net right like you're looking like Python Ruby interpreted
+languages and then to me as a programmer like okay I want to go even higher I want to go higher than that how do I
+abstract higher than the language it's like well you abstract in spoken language and written language right like you're sort of inspiring people to get
+things done giving them guidance like what if we did this what if we did this you're writing in the highest level language that there is
+which is for me English right whatever your spoken language is so it's all about being effective right and I think
+a patrick mckenzie Patio 11 on Hacker News and works at stripe has a great
+post about this of how calling yourself a programmer is a career limiting move at some level once you get far enough
+from your crin I really believe that and again I apologize this is sound discouraging I don't mean it to be but he's so right because all the stuff that
+goes on around the code like the people mm-hmm like that's another thing if you look at my early blogging piece is about Wow
+programming is about people more than it's about code which doesn't really make sense right but it's about can
+these people even get along together can they understand each other can you even explain to me what it is you're working
+on are you solving the right problem people weren't right another classic programming book which again up there with code complete please read people
+where it's that software is people right people are the software first and foremost so a lot of the skills that I
+was working on early on the blog were about figuring out the people parts of programming which were the harder parts
+the hard part of programming once you get to a certain skill of in programming you can pretty much solve any reasonable problem that's put in front of you
+you're not writing algorithms from scratch right that just doesn't happen so any sort of reasonable problem for in
+front of you're gonna be able to solve but what you can't solve is our manager is a total jerk you cannot solve that
+with code that is not a codes problem and yet that will you way more
+than oh we had to use this stupid framework I don't like or or you know Sam keeps writing bad code that I hate
+or you know you know Dave is off there in the wilderness writing god knows what right these are not your problems your
+problems your manager or a co-worker is so toxic to everybody else in your team that like nobody can get anything done
+because everybody's so stressed out and freaked out right these are the problems that you have to attack absolutely and
+so as you go to these higher level abstractions as you developed as a programmer to higher higher level abstractions go into natural language
+you're also the guy who kind of preached you know building it you know diving in
+and doing it and and and like learn by doing yes do you do you worry that as
+you get to higher higher level abstractions you lose track of the lower level of just building is
+like do you worry about that you know even not maybe now but 10 years from now 20 years from now well no I mean there
+is always that paranoia and oh gosh I don't feel as valuable since I'm not writing code but for me like when we started the discourse project it was
+Ruby which I didn't really know Ruby I mean as you pointed out and this is another valuable have straight from Stack Overflow you can be super
+proficient for example C sharp which I was working in that's what we built Stack Overflow and and still is written in and then switch to Ruby and you're a
+newbie again right like I'm but but you have the framework I know what a for loop is I know what recursion is I know
+you know what would attract a stack traces right like I have all the fundamental concepts to be a programmer
+I just don't know Ruby so I'm still on a higher level I'm not like a beginner beginner like you're saying I'm just like I need to apply my programming
+concepts I already know to Ruby what so there's a question that's really interesting so looking at Ruby how do
+you go about learning enough that your intuition can be applied well that carryover that's all trying to get to is
+like what I realized written when I started was just me and Robin I realized if I bother Robin I am now costing us
+productivity right every time I go to Robin rather than building the the are
+our first alpha version of this course he's now answering my stupid questions about Ruby is that a good use of his
+time is that a good use of my time the answer to both of those was resoundingly no right like we were
+getting to an alpha and it was a pretty much disk ok we'll hire more programmers right like we eventually hired Neil and
+then eventually Sam who came in as a co-founder actually was Sam first then Neil later but the answer of the problem
+is just hire other competent programmers it's not like teach now I shalt pull myself up by my bootstraps and Ruby but
+at some point writing code becomes a liability to you in terms of getting things done there's so many other things
+that go on in the project like building the prototype like you mentioned like well how do you if you're not writing code has every keep focus on like what
+what are we building well first basic mock-ups and research right like what what do we even want to build there's a
+little bit of that that goes on then very quickly get to the prototype stage like build a prototype let's iterate on the prototype really really rapidly that's what we do at this
+course and that's what we we demoed to get our seed funding for this course was the the alpha version of discourse that
+we had running and ready to go and it was very it was bad I mean it was I'll just tell you it was bad I have we have screenshots and I'm
+just like embarrassed to look at it now but it was the prototype we were figuring out like what's working what's not working because there's such a broad
+gap Bateen between the way you think things will work in your mind or even on
+paper and the way they work once you sit and live in the software like actually spend time living and breathing us out
+we're so different so my philosophy is get to a prototype
+and then what you're really optimizing for speed of iteration like how you can turn the crank how quickly can we
+iterate that's the absolutely critical metric of any software project and I had a tweet recently that people liked and I
+totally this is so fundamental to what I do is like if you want to measure the core competency of any software tech
+company it's the speed at which somebody can say hey we really need this word in the product change this word right
+because it will be more clear to the users like what like instead of respond it's a reply or something but there's some from the conception of that idea to
+how quickly that single word can be changing your software rolled out to users that is your lifecycle that's your
+health your your heartbeat if your heartbeat is like super slow you're basically dead no seriously like if it
+takes two weeks or even a month to get that single word change that was oh my god this great idea that word is so much
+clearer I'm talking like a super like everybody's on board for this change it's not like let's just change at work cuz we're bored it's like this is an
+awesome change and then it takes a you know months to roll out it's like what you're dead like you can't iterate you
+can't do anything right like so anyway about the heartbeat it's like get the
+the prototype and then iterate on it that's that's what I view is like the central tenets of some modern software
+development that's fascinating you put it that way it's actually so I work in I build a Thomas vehicles and when you
+look at what maybe compare Tesla to most other automakers the the psych the
+whatever the heartbeat for Tesla is literally days now in terms of they can
+over-the-air deploy software updates to all their vehicles which is markedly
+different than every other automaker which takes years to update a piece of
+software and so and that's reflected in everything that's the the final product
+that's reflected and really how slowly they adapt to the times clear I'm not saying being a hummingbird
+is the goal either it's like you don't a heartbeat it's like so fast it's like you're your wing you know you're just freaking out but like it is a measure of
+health you should have a healthy heartbeat it's up to four people listening this decide what that means but it has to be healthy has to be
+reasonable because otherwise you just get me frustrated because like that's how you build software you make mistakes you roll it out you live with it
+you see what it feels like and say oh god that was a terrible idea oh my gosh this could be even better if we did why right you turn the crank and then the
+more you do that the faster you get ahead of your competitors ultimately because you're it's rate of change right
+delta-v right how fast are you moving well within a year you're gonna be miles away
+by the time they catch up with you right like that's the way it works and plus users like I as a software developer I
+love software that's constantly changing because I don't understand people get super pissed off when like oh they
+changed the software on me how dare they I'm like yes change the software change it all the time man that is that's what
+makes this stuff great is that it can be changed so rapidly and become something
+that that is greater than it is now now credit there's some changes that suck I admit I've seen it many times but in
+general it's like that's what makes software cool right is that it is so malleable like fighting that is like
+weird to me because it's like well you're fighting the essence of the thing that you're building like that doesn't make sense you want to really embrace
+that not not to be a hummingbird but like embrace it to a healthy cycle of your heartbeat right so you talk about
+that people really don't change it's true that's why probably a lot of the stuff
+you write about in your blog probably will remain true there's a flip side of the coin people don't change so
+investing and understanding people is is like learning Unix in 1970 because and
+nothing has changed right like yeah all those things you've learned about people will still be valid 30 40 years from now whereas if you learn the latest
+JavaScript framework that's gonna be good for like two years right yeah exactly so but if you look at
+the future of programming so there's a people component but there's also the
+technology itself do you what do you see as the future of programming will it change significantly or as as far as you
+can tell people are ultimately programming and so it will not it's not
+something that you foresee changing and you fund the month away well you gotta go look
+on sort of the basics of programming and one things that always shocked me is like source control like I didn't learn
+anything about source control I graduate from college in 1992 but I remember
+hearing from people like in ladies like 1998-99 like even maybe today they're not learning source control and to me
+it's like well how can you not learn source control that is so fundamental to working with other programmers working
+in a way they don't lose your work like just just basics off the bed literal bedrock software development is source
+control now you compare today like github right like Microsoft brought github which I think was incredibly smart acquisition move on their part now
+they have anybody who wants like reasonable source control to go sign them and github it's all set up for you right there's tons of walkthroughs tons
+of tutorials so from the concept of like has programming advanced from say 1999 it's like well hell we have github I
+mean my god yes right like it's it's massively advanced over over what it was now as to whether program is is
+significantly different I'm gonna say no but I think the baseline of like what we view is like fundamentals will continue
+to go up and actually get better like source control that's one of them in fundamentals that has gotten I mean hundreds of orders of magnitude better
+than it was 10 20 years ago so those are the fundamentals let me introduce two things that maybe you can comment on so
+one is mobile phones so that could fundamentally transform what what
+programming is or maybe not maybe you can comment on that and the other one is artificial intelligence which promises
+to in some ways to do some of the programming for you is one way to think
+about it so it's really what a programmer is is using the intelligence
+that's inside your skull to do something useful the hope with artificial intelligence is that it does some of the
+useful parts for you you don't have to think about it so do you see smart phones the fact that everybody has one
+and they're getting more and more powerful as potentially changing programming and do you see AI is
+potentially changing problem okay so that's good so smart phones have definitely changed I mean since you know
+I guess 2010 that's when they really started getting super popular I mean in the last eight years the world has
+literally changed like everybody carries a computer around and that's normal I mean that is such a huge change in society I think we're
+still dealing with a lot of the positive negative ramifications of that right like everybody's connected all the time everybody's on the computer all the time
+that was my dream world as a geek right but it's like be careful what you ask for right like wow no everybody's a
+computer it's not quite the utopia that we thought it would be right computers can be used for a lot of stuff that's not necessarily great so to me that's
+the central focus of the smartphone is just that it puts a computer in front of everyone granted a small touchscreen smallish
+touchscreen computer but as for programming like I don't know I don't think that I've kind of over time come
+to subscribe to the UNIX view of the world when it comes to programming it's like you want to teach these basic command line things and that is just
+what programmers gonna be for I think a long long time I don't think there's any magical like visual programming that's
+gonna happen I just I don't know I've over time I've become a believer in that
+UNIX philosophy it was just you know they kind of had it right with UNIX that's gonna be the way it hits for a
+long long time and well we'll continue to like I said raise the baseline the tools will get better it'll get simpler but it's still fun mental gonna be
+command-line tools you know makes fancy IDs that's kind of it for the foreseeable future I'm not seeing any
+visual programming stuff on the horizon because you can I think like what do you do on a smartphone that will be directly
+analogous to programming like I'm trying to think right like and there's really not much so not necessarily analogous to
+programming but the kind of things that
+the kind of programs you would need to write might need to be very different
+yeah and the kind of language is I mean but I probably also subscribed to the
+same just because everything in this world might be written in JavaScript oh yeah that's different that's already
+happening I mean this course is a bit on discourses itself javascript is another bet on that side of the table and I still strongly believe in that so I
+would say smartphones have mostly a cultural shift more than a programming shift now your other question was about
+artificial intelligence and like sort of devices predicting what you're gonna do and I do think there's some strengths to
+that I think artificial intelligence kind of overselling it in terms of what it's doing it's more like people are predictable right people do the same things like let me
+give you an example one one cheque we put in a discourse that's in a lot of big commercial websites is say you log
+in from New York City now and then an hour later you log in from San Francisco like well hmm that's interesting how did
+you get from New York to San Francisco in one hour so at that point you're like okay this is a suspicious login at that
+point so we would alert you it's like okay but that's an AI right that's just a heuristic of like how did you in one
+hour get 2,000 miles right that doesn't when you grab maybe you're on a VPN there's other races happen but that's
+just a basic prediction based on the idea that people pretty much don't move around that much like they may travel
+occasionally but like nobody I mean unless you're a traveling salesman that's literally we're traveling the world every day like there's so much
+repetition and predictability in terms of things you're going to do and I think good software anticipate your needs like
+for example Google I think it's called Google now or whatever that Google thing is that predicts your commute and predicts them based on your phone
+location like where are you every day well that's probably where you work that kind of stuff I do think computers can
+get a lot better at that but I hesitate to call it like full-blown AI it's just computers getting better at like first
+of all they have a ton of because every has a smartphone now I'm suddenly how all this data that we didn't have before about location about like you know
+communication and feeding that into some some basic heuristics and maybe some fancy algorithms that turn it into
+predictions of anticipating your needs like like a friend would write like oh hey I I see your home would you like
+some dinner right like let's go get some food because that's usually what we do this time of day right and the context of actually the act of programming DCI
+des improving and making the life of programming is better I do think that is possible cuz things a lot of repetition
+in programming right oh you know Clippy would be the bad example of oh I see it looks like you're writing a for loop
+um but there are patterns in code right like in and actually libraries are kind of like that right like rather than go
+you know code up your own HTTP request library it's like what you'd use one of the existing ones that we have that's
+already troubleshot right it's not a I per se it's just you know building
+better Lego bricks bigger Lego bricks that have more functionality in them so people don't have to worry about the
+low-level stuff as much anymore like WordPress for example to me is like a tool for someone who is in a programmer to do something I mean you
+can turn WordPress into anything it's kind of crazy actually through perla plugins right and that's not programming per se it's just Lego bricks stacking
+WordPress elements right a little bit of configuration glue so I would say maybe in a broader sense what I'm seeing like
+they'll be more gluing and less like actual programming and that's a good
+thing right because most of the stuff you need is kind of out there already you said 1970 is Unix do you see PHP and
+these kind of old remnants of the early
+birth of programming remaining with us for a long time like you said Unix in itself
+do you see ultimately you know this stuff just being there out of momentum I
+kind of do I mean I was a big believer in Windows early on and I was a big you know I was like a UNIX what a waste of
+time but over time I've completely flipped on that where I was like okay the UNIX guys were right and pretty much Microsoft and windows were kind of wrong
+at least on the server side not on the desktop right you need a GUI you know what stuff and yeah the two philosophies
+like Apple built on UNIX effectively Darwin and on the desktop is a slightly
+restore even on the server side where you're going to be programming now it's question where the program is gonna be there's gonna be a lot more like
+client-side programming because technically discourse is client-side programming the way you get discourse we
+deliver a big ball of JavaScript which is then execute locally so we're really using a lot more local computing power
+will still retrieve the data obviously we have to display the posts on the screen and so forth but in terms of like sorting and a lot of the basic stuff
+we're using the host processor but to the extent that a lot of programming is still gonna be server-side I would say
+yeah the UNIX philosophy definitely one and they'll be different veneers over the UNIX but it's still if you if you
+peel away one or two layers it's gonna be UNIX safe for a long I think UNIX one I mean so definitively it's interesting
+to hear you say that because you've done so much excellent work on the Microsoft and aside in terms of back-end
+development cool so what's the future hold for Jeff Atwood amid the discourse
+continuing the discourse in trying to improve conversation on the web
+this force is whatever be it is a and originally I call it a five-year project then really quickly revised that to a ten-year project so where we started in
+early to that 2013 that's we launched the first version so we're still you know five years in this is the part
+where it starts getting good like we have a good product out this course there's any any project building software it takes three years to build
+what you wanted to build anyway like v1 is gonna be terrible which it was but you ship it anyway cuz that's how you
+get better at stuff it's about turning the crank it's not about v1 being perfect because that's ridiculous it's about v1 then let's get really good at V
+1.1 1.2 1.3 like how fast can we iterate and I think we're iterating like crazy on discourse the point that like it's a
+really good product now we have serious momentum and my original vision was I
+want to be the wordpress of discussion meaning someone came to you and said I want to start a blog although the very
+question is kind of archaic now it's like who actually blogs anymore but I wanted the answer to that to be it would
+be what did WordPress normally because that's the obvious choice for blogging most the time but if someone said hey I
+want to I need a group of people to get together and do something the answer should be discourse right that should be
+the default answer for people cuz it's open source it's free doesn't cost you anything you control you can run it your
+minimum server across four discourses five bucks a month at this point they actually got the VPS prices down it used
+to be ten dollars a month for one gigabyte of RAM which we where our dependent we have a kind of heavy stack
+like there's a lot of stuff in discourse you need post grass you need Redis you need Ruby on Rails you need a sidekick
+for scheduling it's not a trivial amount of stuff because we were architected for like look we're building for the next ten years I don't care about shared PHP
+hosting that's that's not my model my idea is like hey you know eventually this is gonna be very cheap for
+everybody and I want to build it right using again you know hire bigger
+building block levels right that have more requires and there's a wordpress model of wordpress.org juarez calm is
+their central hosting for this course or no there is we're not strictly segmenting into the open source versus
+the commercial side we have a hosting business that's how this course makes money is we host discourse instances and we have really close relationship with
+our customers of the symbiosis of them giving us feedback on the product we definitely wait feedback from customers
+a lot heavier than feedback from somebody who just wanders by and gives feedback but that's where we make
+all our money but we don't have a strict division we encourage people to use this course like the whole point is that it's
+free right you're anybody can set it up I don't want to be the only person that hosts discourse that's absolutely not
+the goal but it is a primary way for us to build a business and it's actually kind of a great business I mean the business is going really really well in
+terms of hosting so I I used to work at Google research is a company that's basically funded on advertisement so
+it's Facebook let me ask if you can comment on it I think advertisement is best so you'd
+be extremely critical on what ads are but at its best it's actually serving
+you in a sense as giving you it's connecting you to what you would want to explore so it's like related posts or
+related content is the same that's the best of advertisement so this course is
+connecting people based on their interests it seems like a place where advertisement at its best could actually
+serve the users is that something that you're considering thinking about as a way to bring to financially support the
+platform that's interesting because I actually have a contrarian view of advertising which I kind of agree with you I recently installed that blocker
+like reluctantly because I don't like to do that but like the performance of the ads man like they're so heavy now and
+like it's just crazy so like it's almost like a performance argument more than like I actually am Pro ads and I
+contrary I have a contrarian viewpoint I agree with you if you do ads right it's showing you stuff you'll be interested
+in anyway like I don't mind that that actually is kind of a good thing so plus I think it's it's rational to
+want to support the people that are doing this work through seeing their ads and but that said I run adblock now which I I didn't want to do but I was
+convinced by all these artists like 30 40 megabytes of stuff just to serve you ads yeah it feels like as now or like
+the experts exchange of whenever you started Stack Overflow it's a little bit it's all there's so many companies and
+Antec though it's embarrassing like you can do that if you see those logo charts of like just a whole page just like you can't even see them they're so small
+there's so many companies in the space but since you brought it up I do want to point out that very very few discourse
+sites run using an ad-supported model it's not effective like it's too diluted it's too
+weird it doesn't pay well and like users hate it so it's a combination of like users hate it it doesn't actually work
+that well in practice like in theory yes I agree with you but if you clean fast ads that were exactly the stuff you
+would be interested awesome we're so far from that though right like Google does an okay job retargeting and stuff like that but in
+the in in the real world discourse sites rarely can make ads work it just doesn't work for so many reasons
+but you know it does work is subscriptions patreon affiliate codes
+for like Amazon of like just oh here here's a cool yo-yo click and then you click and go to Amazon they get a small
+percentage of that which is fair I think because you saw the yo-yo on that site and you click through and you bought it
+right that's fair for them to get 5% of that or 2% of that or whatever it is those things definitely work in fact a
+site that I used to participate on a lot I helped the owner one things I I got
+them switched to discourse obviously paid them to switch to discourse because I was like look you guys got a switch I can't come here anymore all this terrible in software but I was like a
+look and on top of that like you're serving people ads that they hate like you should just go full on patreon because he had a little bit of patreon
+go full on patreon do the Amazon affiliates thing for any Amazon links to
+get posted and just do that and just triple down on that stuff and that's worked really well for them and this
+creator in particular so that stuff works but traditional ads I mean definitely not working at least on this
+course so last question you've created the code keyboard I've programmed most
+of my adult life and a Kinesis keyboard I have one upstairs now can you describe
+what a mechanical keyboard is and why is it something that makes you happy well you know this is another fetish item
+really like it's not required you can do programming on any kind of keyboard right even like an on-screen keyboard oh
+god that's terrifying right like well you could but if you look back to the early days computing there were chiclet keyboards which are I
+think those are awful right but what's a chick like you were oh god okay well it's just like thin rubber membranes all
+the rubber ones oh no super bad right yeah so it's a fetish item all it really says is look I care really about
+keyboards because the keyboard is the primary method of communication with computer right so it's just like having a nice mic for this this podcast you want a
+nice keyboard right because it has tat very tactile feel I can tell exactly when I press the key I get that little click so oh and it feels good and it's
+also kind of a fetish shot it was like wow I care enough about programming that I care about the tool the primary tool
+that I use committing to computer make sure it's as good as it feels good to use for me and like I can be very
+productive with it so to be honest it's a little bit of a fetish item but a good one it indicates that you're serious and
+in case you're interested it indicates that you care about the fundamentals because you know what makes you a good programmer being able to type really
+fast right like this is true right so a core skill is just being able to type fast enough to get your ideas out of
+your head into the codebase so just practicing your typing can make you a better programmer it is also something
+that makes you well makes you enjoy typing correct the actual act something
+about the process I got played piano it's time so there's a tactile feel that
+ultimately feeds the passion makes you happy right no totally that's it I mean and it's funny because artisanal
+keyboards have exploded like mass drop has gone ballistic with this stuff there's probably like 500 keyboard
+projects on mass drop alone and there's some other guy I follow on Twitter I used to write for this the site the tech report way back in the day and he's like
+every week he's just posting like what I call keyboard porn of like just cool keyboards like how my god they look really cool right like that's like how
+many keyboards this guy yeah it's got me with yo-yos how many rows do you have how many do you need well technically one but I like a lot I don't
+know why so same thing with keyboards so yeah they're awesome like I highly recommend anybody who
+doesn't have a mechanical to research it look into it and see what you like and you know it's ultimately a fetish item
+but I think these sort of items these religious artifacts that we have are part of what make us human like that
+that part you important right it's kind of makes life worth living and yes it's not necessary in the strictest sense but
+ain't nothing necessary if you think of yet right like and so yeah why not so
+sure Jeff thank you so much for talking today yeah you're welcome thanks for having
+you
 
 ----------
 
 -----
+
 --47--
 
 -----
-Date:
-Link:
+Date: 2018.11.22
+Link: [# Guido van Rossum: Python | Lex Fridman Podcast #6](https://www.youtube.com/watch?v=ghwaIiE3Nd8)
 Transcription:
 
-paste here
+the following is a conversation with guido van rossum creator of Python one of the most popular programming
+languages in the world used in almost any application that involves computers from web back-end development to
+psychology neuroscience computer vision and robotics deep learning natural language processing in almost any
+subfield of AI this conversation is part of MIT course on artificial general
+intelligence and the artificial intelligence podcast if you enjoy it subscribe on YouTube iTunes or your
+podcast provider of choice or simply connect with me on Twitter at lex friedman spelled FR ID and now here's my
+conversation with guido van rossum you were born in the Netherlands in 1956
+your parents and the world around you was deeply impacted by world war ii as
+was my family from the soviet union so with that context well what is your view
+of human nature are some humans inherently good and some inherently evil
+or do we all have both good and evil within us ouch I did not expect such a
+deep one I I guess we all have good and evil potential in us in a lot of it
+depends on circumstances in context out
+of that world at least on the Soviet Union side in Europe sort of out of
+suffering out of challenge out of that kind of set of traumatic events often
+emerges beautiful art music literature in an interview I read or heard you said
+you enjoy Dutch literature when when you were a child can you tell me about the
+books that had an influence on you in your childhood well as a teenager my favorite writer
+was my favorite Dutch author was a guy named villain Phaedra chemins whose
+writing certainly his early novels were all about sort of ambiguous things that
+happened during World War two I think he was a young adult during that time and
+he wrote about it a lot and and very
+interesting very good books I thought I think in a nonfiction way no it was all
+fiction but it was very much set in in the ambiguous world of resistance
+against the Germans where often you couldn't tell whether someone was truly
+in the resistance or really a spy for the Germans and and some of the
+characters in his novels sort of crossed that line and you never really find out
+what exactly happened and in his novels there's always a good guy and a bad guy
+the nature of good and evil is it clear there's a hero it's no his heroes are
+often more his main characters are often anti-heroes and and and so there they're
+not not very heroic they're they're often they they fail at some level to
+accomplish their lofty goals and looking at the trajectory through the rest of
+your life has literature Dutch or English or translation and an impact
+outside the technical world that you existed in
+I still read novels I don't think that it impacts me that much directly doesn't
+impact your work it's just it's uh it's a separate world my work is is highly
+technical and sort of the the world of art and literature doesn't really
+directly have any bearing on it you don't think there's a creative element to the design you know some would say
+our design of a language is art I'm not
+disagreeing with that I'm just saying that sort of I don't feel direct
+influences from more traditional art on my own creativity right of course you
+don't feel doesn't mean it's not somehow deeply there and your subconscious knows
+who knows so let's go back to your early teens your hobbies were building
+electronic circuits building mechanical models what if you could just put
+yourself back in the mind of that young Guido 12 13 14 was that grounded in a
+desire to create a system so to create something or was it more just tinkering
+just the joy of puzzle solving uh I think it was more the leather actually I
+maybe towards the end of my high school
+period I felt confident enough that that I designed my own circuits that were
+sort of interesting somewhat
+but a lot of that time I literally just took a model kit and follow the
+instructions putting the things together I mean that I think the first few years that I build electronics kits I really
+did not have enough understanding of sort of electronics to really understand
+what I was doing I mean I could debug it and I could sort of follow the instructions very carefully which has
+had which has always stayed with me but I had a very naive model of like how a
+transistor works and I don't think that that in those days I had any
+understanding of coils and capacitors which which actually sort of was a major
+problem when I started to build more complex digital circuits because I was
+unaware of the sort of the analog part of the how they actually work and I
+would have things that the scheme the
+schematic looked every everything looked fine and it didn't work and what I
+didn't realize was that there was some megahertz level oscillation that was
+throwing the circuit off because I had a sort of two wires were too close or the
+switches were were kind of poorly built but through that time I think it's
+really interesting and instructive to think about because as echoes of it are in this time now so in the 1970s the
+personal computer was being born so did you sense in tinkering with these
+circuits did you sense the encroaching revolution and personal computing so if
+at that point you're sick we will see you down and ask you to predict the 80s and the 90s do you think you would be
+able to do so successfully to unroll this the process that's no I had no clue
+I I remember I think in the summer after my
+senior year or maybe it was the summer after my junior year well at some point
+I think when I was 18 I went on a trip to the Math Olympiad in Eastern Europe
+and there was like I was part of the Dutch team and there were other nerdy kids that sort of had different
+experiences and one of them told me about this amazing thing called a computer and I had never heard that word
+my own explorations in electronics were sort of about very simple digital
+circuits and I I had sort of I had the
+idea that I somewhat understood how a digital calculator worked hmm and so
+there is maybe some echoes of computers there but I didn't didn't I never made
+that connection I didn't know that when my parents were paying for magazine
+subscriptions using punched cards that there was something called a computer
+that was involved that read those cards and transferred the money between accounts that was also not really
+interested in those things it was only when I went to university to study math
+that I found out that they had a computer and students were allowed to
+use it and there were some you're supposed to talk to that computer by programming it what did that feel like
+yeah that was the only thing you could do with it I think the computer wasn't really
+connected to the real world the only thing you could do was sort of you typed
+your program on a bunch of punched cards you gave the punched cards to the
+operator and an hour later the operator gave you back your printout and so all
+you could do was write a program that did something very abstract and I don't
+even remember what my first forays into programming were but they were sort of doing simple math
+exercises and just to learn how a programming language worked did you
+sense ok first year of college you see this computer you're able to have a
+program and it generates some output did you start seeing the possibility of this
+or was it a continuation of the tinkering with circuits the did you
+start to imagine that one the personal computer but did you see it as something
+that is a tool so got a tool like a word processing tool maybe maybe for gaming
+or something or did you start to imagine that it could be you know going to the world of robotics
+like you you know the Franklin is that picture that you could create an artificial being there's like another
+entity in front of you you did not say I don't think I really saw it that way I
+was really more interested in the tinkering it's maybe not a sort of a
+complete coincidence that I ended up sort of creating a programming language
+which is a tool for other programmers I've always been very focused on the
+sort of activity of programming itself and not so much what happens with with
+the program you write right I do remember and I don't dream it maybe in
+my second or third year probably my second actually someone pointed out to
+me that there was this thing called Conway's Game of Life you're probably
+familiar with it I think the seventies I think yeah he came up with it so there
+was a scientific American column by someone who did a monthly column about
+mathematical diversions I'm also blanking out on the guy's name it was it was very famous at the time
+and I think up to the 90s or so and one of his columns was about Conway's Game
+of Life and he had some illustrations and he wrote down all the rules and sort of there was the suggestion
+that this was philosophically interesting that that was why Conway had called it that and all I had was like
+the two pages photocopy of that article I didn't even remember where I got it
+but it spoke to me and I remember implementing a version of that game for
+the batch computer we were using where I had a whole Pascal program that sort of
+read an initial situation from input and read some numbers that that said do so
+many generations and print every so many generations and then out would come
+pages and pages of sort of things kinds
+of different kinds and yeah and I remember much later I've done a similar
+thing using Python but I'd sort of that original version I wrote at the time I
+found interesting because I combined it with some trick I had learned during my
+electronics hobbyists times I essentially first on paper I designed a
+simple circuit built out of logic gates that took nine bits of input which is
+the sort of the cell and its neighbors and produced a new value for that cell
+and it's like a combination of a half adder and some other clipping you know
+it's actually a full adder and so I had worked that out and then I translated
+that into a series of boolean operations
+on Pascal integers where you could use the integers as bitwise values and so I
+could basically generate 60 bits of a generation in in like eight instructions
+or so nice I was proud of that it's it's funny that you mentioned so for people who
+don't know Conway's Game of Life is a there's it's a cellular automata whether it's single compute units that kind of
+look at their neighbors and figure out what they look like in the next
+generation based on the state of their neighbors and this is deeply distributed system that it in in concept at least
+and then there's simple rules that all of them follow and somehow out of this
+simple rule when you step back and look at what occurs it's it's beautiful
+there's a emergent complexity even though the underlying rules are simple there's an emergent complexity now the
+funny thing is you've implemented this and the thing you're commenting on is you're proud of a hack you did to make
+it run efficiently when you're not commenting on what like this is a
+beautiful implementation you're not commenting on the fact that there's an emergent complexity that you've you've
+you've coded a simple program and when you step back and you print out those following generation after generation
+that's stuff that you may have not predicted what happen is happening right
+and there was that is that magic I mean that's the magic that all of us feel when we program when you when you create
+a program and then you run it and whether it's hello world or show
+something on screen if there's a graphical component for you seeing the magic in the mechanism of creating that
+I think I went back and forth as a student we had an incredibly small
+budget of computer time that we could use it was actually measured I once got
+in trouble with one of my professors because I had overspent the department's budget it's a different story but so I I
+actually wanted the efficient implementation because I also wanted to
+explore what would happen with a larger number of generations and a larger sort
+of size of the of the board and so once the implementation was flawless I would feed
+at different patterns and then I think maybe there was a follow-up article where there were patterns that that were
+like gliders parents that repeated themselves after a number of generations
+but translated one or two positions to
+the right or up or something like that and there were I remember things like
+glider guns well you can you can google Conway's Game of Life is still of people
+still go on and over it for a reason because it's not really well understood why I mean this is what
+Stephen Wolfram is obsessed about yeah okay so he's just the the we don't have
+the mathematical tools to describe the kind of complexity of the emerges in these kinds of systems and the only way
+to do is to run it I'm not convinced that that it's sort of a problem that
+lends itself to two classic mathematical analysis no and so one one theory of how
+you create an artificial intelligence or artificial being is you kind of have to send with a game of life you kind of
+have to create a universe and let it run that creating it from scratch in a
+design way in the you know coding up a Python program that creates a full
+intelligence system may be quite challenging that you might need to create a universe just like the game of life is
+well you might have to experiment with a lot of different universes before there
+there is a set of rules that doesn't essentially always just end up repeating
+itself in in a trivial way yeah and analyst Steve wolf from Stephen Wolfram
+works with these simple rules says that it's kind of surprising how quickly find rules that create interesting things you
+shouldn't be able to but somehow you do and so maybe our universe is laden with
+with rules that will create interesting things that might not look like humans but yeah you know emergent phenomena
+that's interesting may not be as difficult to create as we think sure but let me sort of ask at that time
+you know some of the world's least in popular press was kind of captivated
+perhaps at least in America by the idea of artificial intelligence that that
+these computers would be able to think pretty soon and yeah that touch you at
+all did that in science fiction or in reality in uh in anyway I didn't really
+start reading science fiction until much much later
+I think as a teenager I I read maybe one bundle of science fiction stories was in
+my background somewhere like in your thoughts that sort of the using
+computers to build something intelligent always fell to me because I had I felt I
+had so much understanding of what actually goes on inside a computer I I
+knew how many bits of memory it had and how difficult it was to program and sort
+of I didn't believe at all that that you
+could just build something intelligent out of that that that would really sort
+of satisfy my definition of intelligence
+I think the most the most influential thing that I read in my early 20s was
+girlish ABBA that was about consciousness and that was a big
+eye-opener in in some sense in what
+sense oh so console yeah so on your own brain did you do use did you at the time
+or do you now see your own brain as a computer or is there a total separation of the way so yeah you're very
+pragmatically practically know the limits of memory the limits of this
+sequential computing or weakly paralyzed computing and you just know what we have
+now and it's hard to see how it creates but it's also easy to see it was in the
+40s 50s 60s and now at least similarities between the brain and our
+computers oh yeah I mean I I totally believe that brains are computers in
+some sense I mean the rules they they used to play by are pretty different
+from the rules we we can sort of implement in in our current hardware but
+I don't believe in like
+a separate thing that infuses us with intelligence or consciousness or any of
+that there's no soul I've been an atheist probably from when I was 10
+years old just by thinking a bit about math and the universe and then well my
+parents were atheists now I know that you you you could be an atheist and
+still believe that there is something sort of about intelligence or
+consciousness that cannot possibly emerge from a fixed set of rules I am
+NOT in that camp I I totally see that sort of given how
+many millions of years evolution took its time DNA is is a particular machine
+that that sort of encodes information
+and an unlimited amount of information in in chemical form and has figured out
+a way to replicate itself I thought that death was maybe it's 300 million years
+ago but I thought it was closer to half a billion years ago that that's sort of
+originated and it hasn't really changed that the sort of the structure of DNA hasn't changed ever since that is like
+our binary code that you're having hardware I mean the basic programming
+language hasn't changed but maybe the programming itself of has lead it did it
+sort of it it happened to be a set of rules that was good enough to to sort of
+develop endless variability and and sort of the the idea of self-replicating
+molecules competing with each other for resources and and one type eventually
+sort of always taking over that happened before there were any fossils so we
+don't know how that exactly happened but I believe it it's it's clear that
+that did happen and can you comment on consciousness and how you see it because
+I think we'll talk about programming quite a bit we'll talk about you know intelligence connecting to programming
+fundamentally but consciousness consciousness is this whole lot of other thing do you think about it often as a
+developer of a programming language and and as a human those those are pretty
+sort of separate topics my sort of my line of work working with programming
+does not involve anything that that goes in the direction of developing
+intelligence or consciousness but sort of privately as an avid reader of
+popular science writing I I have some
+thoughts which which is mostly that I don't actually believe that
+consciousness is an all-or-nothing thing I have a feeling that and and I forget
+what I read that influenced this but I
+feel that if you look at a cat or a dog or a mouse they have some form of
+intelligence if you look at a fish it has some form of intelligence and that
+evolution just took a long time but I feel that the the sort of the evolution of more and more intelligence that led
+to to sort of the human form of intelligence follow the evolution of the
+senses especially the visual sense I mean there is an enormous amount of
+processing that's needed to interpret a scene and humans are still better at
+that than then computers yeah and so and and and I have a feeling
+that there is a sort of the reason that
+that like mammals is in particular developed the levels of consciousness
+that they have and that eventually read sort of informative going from
+intelligence to to self-awareness in consciousness has to do with sort of
+being a robot that has very highly developed senses as a lot of rich
+sensory information coming in so the it's a really interesting thought that
+the that whatever that basic mechanism of DNA whatever that basic building blocks are
+programming is you if you just add more abilities more more high resolution
+sensors more sensors you just keep stacking those things on top that there's basic programming in trying to
+survive develops very interesting things that start to us humans to appear like
+intelligence and consciousness yeah so in in as far as robots go I think that
+the self-driving cars have the sort of the greatest opportunity of developing
+something like that because when I Drive myself I don't just pay attention to the rules
+of the road I also look around and I get clues from that oh this is a shopping
+district oh here's an old lady crossing the street oh here is someone carrying a
+pile of mail there's a mailbox thatthat should they're gonna cross the street to
+reach that mailbox and I slowed down and I don't even think about that yeah and and so there is there's so much where
+you turn your observations into an understanding of what utter
+consciousnesses are going to do or what what utter systems in the world are
+going to be oh that tree is gone at fault yeah I see sort of I see much more of
+expect somehow that if anything is going to become conscious it's going to be the
+self-driving car and not the network of a bazillion computers at in a Google or
+Amazon data center that are all networked together to to do whatever
+they do so in that sense so you actually have like is that's what I work in
+autonomous vehicles you highlight a big gap between what we currently can't do
+and what we truly need to be able to do to solve the problem under that formulation and consciousness and
+intelligence is something that basically a system should have in order to
+interact with us humans as opposed to some kind of abstract notion of a
+consciousness consciousness is something that you need to have to be able to empathize to be able to fear the
+understand what the fear of death is all these aspects that are important for interaction with pedestrians you need to
+be able to do basic computation based on our human desires and flaws sort of yeah
+if you if you look at the dog the dog clearly knows I mean I'm not the dog out on my brother I have friends who have
+dogs the dogs clearly know what the humans around them are going to do or the least they have a model of what
+those humans are going to do and they learn the dot some dogs know when you're going out and they want to go out with
+you they're sad when you leave them alone they cry they're afraid because
+they were mistreated when they were younger we we don't assign sort of
+consciousness to dogs or at least not not all that much but I also don't think
+they have none of that so I think it's it's consciousness and intelligence are
+not all or nothing the spectrum it's really interesting but
+in returning to programming languages and the way we think about building
+these kinds of things about building intelligence building consciousness building artificial beings I think one
+of the exciting ideas came in the 17th century and with liveness Hobbes decart
+where there's this feeling that you can convert all thought all reasoning all
+the thing that we find very special in our brains you can convert all that into
+logic you can formalize it form a reasoning and then once you formalize
+everything all of knowledge and you can just calculate and that's what we're doing with our brains is we're
+calculating so there's this whole idea that we that this is possible that this
+we're aware of the concept of pattern matching in the sense that we are aware
+of it now add a sort of thought you they they had discovered incredible bits of
+mathematics like Newton's calculus and
+they're sort of idealism they're they're sort of extension of what they could do
+with logic and math sort of went along those lines and they thought there
+there's like yeah logic there's there's like a bunch of rules and a bunch of
+input they didn't realize that how you recognize a face is not just a bunch of
+rules but it's a ton of data plus a circuit that that sort of interprets the
+visual clues and the context and everything else and somehow can
+massively parallel pattern match against stored rules I mean but if I see you
+tomorrow here in front of the drop box office I might recognize you even if I'm
+wearing a different shirt yeah but if I if I see you tomorrow in a coffee shop in Belmont
+I might have no idea that was you or on the beach or whatever hey I make those mistakes myself all the
+time I see someone that I only know s like oh this person is a colleague of my
+wife's yeah and then I see them at the movies and I didn't recognize them but
+do you see those you call it pattern matching do you see that rules is unable
+to encode that to you you everything you see all the pieces of information you
+look around this room I'm wearing a black shirt I have a certain height I'm a human all these you can there's
+probably tens of thousands of facts you pick up moment by moment about this scene you take them for granted and you
+accumulate aggregate them together to understand the scene you don't think all that could be encoded to where at the end of the day
+you can just put it all on the table and calculate oh I don't know what that
+means I mean yes in the sense that there is no there there is no actual magic
+there but there are enough layers of abstraction from sort of from the facts
+as they enter my eyes in my ears to the understanding of the scene that that's I
+don't think that that AI has really covered enough of of that distance it's
+like if you take a human body and you realize it's built out of atoms well
+that that is a uselessly reductionist view right right the body is built out
+of organs the organs are built out of cells the cells are built out of proteins the proteins are built out of
+amino acids the amino acids are built out of atoms and then you get to quantum
+mechanics so that's a very pragmatic view I mean obviously is an engineer I
+agree with that kind of view but I also you also have to consider the the with
+the same harris view of well well intelligence is just information processing these just like you said you
+take in sensory information you do some stuff with it and you come up with actions that are intelligent that McGee makes it sound so
+easy I don't know who Sam Harris is oh let's philosopher so like this how philosophers often think right and
+essentially that's what the car was is wait a minute if there is like you said no magic
+so you basically says it doesn't appear like there is any magic but we know so little about it that it might as well be
+magic so just because we know that we're made of atoms just because we know we're made of organs the fact that we know
+very little hot to get from the atoms to organs in a way that's recreate able means it that you shouldn't get too
+excited just yet about the fact that you figured out that we're made of atoms right and and and the same about taking
+facts as are our sensory organs take them in and turning that into reasons
+and actions that sort of there are a lot of abstractions that we haven't quite
+figured out how to how to deal with those I mean I so sometimes I don't know
+if I can go on a tangent or not I dragged you back in sure so if I take a
+simple program that parses say say have a compiler it parses a program in a
+sense the input routine of that compiler of that parser is a sense a sensing
+Oregon and it builds up a mighty complicated internal representation of
+the program it just saw it doesn't just have a linear sequence of bytes
+representing the text of the program anymore it has an abstract syntax tree
+and I don't know how many of your viewers or listeners are familiar with
+compiler technology but there's fewer and fewer these days right that's also
+true probably people want to take a shortcut but they're sort of this
+abstraction is a data structure that the compiler then uses to produce outputs
+that is relevant like a translation of the program to machine code that can be executed by by hardware and then the
+data structure gets thrown away when a fish or a fly sees sort of gets visual
+impulses I'm sure it also builds up some
+data structure and for the fly that may be very minimal a fly may may have only
+a few I mean in the case of a fly's brain I could imagine that there are few
+enough layers of abstraction that it's not much more than when it's darker here
+than it is here well I can sense motion because a fly sort of responds when you
+move your arm towards it so clearly it's visual processing is intelligent well
+not intelligent but it has an abstraction for motion and we still have
+similar things in in but much more complicated in our brains I mean otherwise you couldn't drive a car if
+you if you couldn't sort if you didn't have an incredibly good abstraction for motion yeah in some sense the same
+abstraction for motion is probably one of the primary sources of our of
+information for us we just know what to do I think we know what to do with that we've built up other abstractions on top
+we've much more complicated data structures based on that and we build
+more persistent data structures sort of after some processing some information
+sort of gets stored in our memory pretty much permanently and is available on
+recall I mean there are some things that you sort of you're conscious that you're
+remembering it like you give me your phone number I well at my age I have to write it down
+but I could imagine I could remember those seven numbers or 10 10 digits
+and reproduce them in a while if I sort of repeat them to myself a few times so
+that's a fairly conscious form of memorization on the other hand how do I
+recognize your face I have no idea my brain has a whole bunch of specialized
+hardware that knows how to recognize faces I don't know how much of that is sort of coded in our DNA and how much of
+that is trained over and over between the ages of 0 and 3 but but but somehow
+our brains know how to do lots of things like that that are useful in our
+interactions with with other humans with without really being conscious of how
+it's done anymore right so where are actual d-day lives we're operating at the very highest level of abstraction
+we're just not even conscious of all the little details underlying it there's compilers on top of sec Turtles
+on top of turtles or Turtles all the way down it's compilers all the way down but that's essentially you see that there's
+no magic that's what I what I was trying to get at I think is with decart started
+this whole train of saying that there's no magic I mean there's always before well then the cart also have the notion
+though that the soul and the body were were fundamentally separate yeah I think
+you had to write in God in there for political reasons so I don't actually not historian but there's notions in
+there that all of reasoning all of human thought can be formalized I think that
+continued in the 20th century with with Russell and with with Gaydos
+incompleteness theorem this debate of what what what are the limits of the things that could be formalized that's
+where the touring machine came along and this exciting idea I mean underlying a lot of computing that you can do quite a
+lot with a computer you can you can encode a lot of the stuff we're talking
+about in terms of recognizing faces and so on theoretically in an algorithm they
+can then run on a computer and in that context I'd like to ask programming in a
+philosophical way so what so what it what does it mean to program a computer
+so you said you write a Python program or a compiled a C++ program that
+compiles to somebody code it's forming layers your your programming a layer of
+abstraction is higher how do you see programming in that context can it keep
+getting higher and higher levels of abstraction I think and at some point
+the higher level of levels of abstraction will not be called programming and they will not resemble
+what we we call programming at the moment there will not be source code I
+mean there will still be source code sort of at a lower level of the machine
+just like they're still molecules and electrons and and sort of proteins in
+our brains but and and so they're still
+programming and and and system administration and who knows what's keeping to keep the machine running but
+what the machine does is is a different level of abstraction in a sense and as
+far as I understand the way that for last decade or more people have made
+progress with things like facial recognition or the self-driving cars is all by endless endless amounts of
+training data where at least as a
+layperson and I feel myself totally as a layperson in that field
+it looks like the researchers who
+publish the results don't necessarily know exactly how how their algorithms
+work and that I often get upset when I sort of read a sort of a fluff piece
+about Facebook in the newspaper or social networks and they say well Albert
+and that that's like a totally different interpretation of the word algorithm
+yeah because for me the way I was trained or what I learned when I was
+eight or ten years old an algorithm is a set of rules that you completely
+understand that can be mathematically analyzed and and and you can prove things you can like prove that Aires
+Dawson E's sieve produces all prime numbers and only prime numbers yes so I
+don't know if you know how Andre Carpathia's I'm afraid not so he's a ahead of hey aya Tesla now but
+his Stanford before and he has this cheeky way of calling this concept
+software 2.0 so let me disentangle that for a second so the so kind of what
+you're referring to is the traditional traditional the the algorithm the concept of an algo something that's
+there is clear you can read it you understand it you can prove its functioning it's kind of software 1.0
+and what software 2.0 is is exactly what you described which is you have neural
+networks which is a type of machine learning that you feed a bunch of data and that neural network learns to do a
+function all you specifies the inputs and the outputs you want and you can't
+look inside you can't analyze it all you can do is train this function to map the
+inputs the outputs by giving a lot of data in that sense programming becomes getting a lot of cleaning getting a lot
+of data that's what programming is in this well that would be programming 2.0 2.0 to programming 2.0 I I wouldn't call
+that programming it's just a different activity just like building organs out
+of cells is not called chemistry well so let's just set that back and think sort
+of more generally of course but you know it's like as a parent teaching teaching
+your kids things can be called programming in that same sense that
+that's how program has been used you're providing them data examples use cases
+so imagine writing a function not by not
+with for loops and clearly readable text but more saying well here's a lot of
+examples of what this function should take and here's a lot of examples when
+it takes those functions it should do this and then figure out the rest so
+that's the 2.0 concept and the this is the question I have for you is like it's
+a very fuzzy way this is a reality of a lot of these pattern recognition systems and so on
+it's a fuzzy way of quote-unquote programming what do you think about this kind of world it should be called
+something totally different than programming it's like if you're a software engineer does that mean you're
+you're designing systems that are very can be systematically tested evaluated
+they have a very specific specification and then this other fuzzy software 2.0
+world machine learning world that's that's something else totally or is there some intermixing that it's
+possible well the question is probably
+only being asked because we we don't quite know what that software 2.0
+actually is and it sort of I think there
+is a truism that every task that AI has
+has tackled in the past at some point we realized how it was done and then it was
+no longer considered part of artificial intelligence because it was no longer
+necessary to to use that term it was just oh now he we know how to do this
+and a new field of science or
+engineering has been developed and I don't know if sort of every form of
+learning or sort of controlling computer systems should always be called programming I
+said I that I don't know maybe I'm focused too much on the terminology i but i expect that that there just will
+be different concepts where people with
+sort of different education and a different model of what they're trying
+to do will will develop those concepts
+yeah and i guess if you could comment and another way to put this concept is i
+think i think the kind of functions that neural networks provide is things as
+opposed to being able to upfront prove that this should work for all cases you
+throw at it all you're able it's the worst case analysis versus average case analysis all you're able to say is it's
+it seems on everything we've tested to work 99.9 percent of the time but we
+can't guarantee it and it it fails in unexpected ways but can't even give you examples of how it fails in unexpected
+ways but it's like really good most of the time yeah but there's no room for
+that in current ways we think about programming programming 1.0 is actually
+sort of getting to that point to where
+the sort of the ideal of a bug-free program has been abandoned long ago by
+most software developers we only care about bugs that manifest themselves
+often enough to be annoying and we're willing to take the occasional crash or
+outage or incorrect result for granted
+because we can't possibly we don't have enough programmers to make all the code
+bug free and it would be an credibly tedious business and if you try to throw formal methods at it it gets it
+becomes even more tedious so every once in a while the user clicks on a link in
+and somehow they get an error and the average user doesn't panic they just
+click again and see if it works better the second time which often magically it
+does or they go up and they try some other way of performing their tasks so
+that's sort of an end-to-end recovery mechanism and inside systems there is
+all sorts of retries and timeouts and fall backs and I imagine that that sort
+of biological systems are even more full of that because otherwise they wouldn't survive do you think programming should
+be taught and thought of as exactly what you just said before I come from is kind
+of you're almost denying that fact always in the insert of basic
+programming education the sort of the
+program's you're you're having students right are so small and simple that if
+there is a bug you can always find it and fix it because the sort of
+programming as it's being taught in some even elementary middle schools in high
+school introduction to programming classes in college typically it's
+programming in the small very few classes sort of actually teach software
+engineering building large systems I mean every summer here at Dropbox we
+have a large number of interns every tech company on the west coast has the
+same thing these interns are always amazed because this is the first time in
+their life that they see what goes on in a really large software development environment
+and everything they've learned in
+college was almost always about a much smaller scale and somehow the difference
+in scale makes a qualitative difference in how you how you do things and how you think
+about it if you then take a few steps back in two decades seventies and
+eighties when you're first thinking about Python or just that world of programming languages did you ever think
+that there would be systems as large as underlying Google Facebook and Dropbox did you when you were thinking about
+Python I was actually always caught by surprise by yeah pretty much every stage of
+computing so maybe just because uh you
+spoken in other interviews but I think the evolution of programming languages are fascinating it's especially because
+it leads from my perspective towards greater and greater degrees of intelligence I learned the first programming language
+I played with in in Russia was with the turtle logo logo yeah and if you look I
+just have a list of programming languages all of which I've known played with a little bit and they're all beautiful in different ways from Fortran
+COBOL Lisp Algol 60 basic logo and C as
+a few the object-oriented came along in the 60s Simula Pascal small talk all of
+that lean all the classics the classics yeah the classic hits write scheme built
+that's built on top of Lisp on the database side SQL C++ and all that leads
+up to Python Pascal - and that's before Python MATLAB these kind of different
+communities different languages so he talked about that world I know that
+Python came out of ABC which actually never knew that language I just having
+researched this conversation went back to ABC and it looks remarkably it it has a lot of annoying qualities but
+underneath those like all caps and so on but underneath that there's elements of
+Python that are quite if they're already there that's where I got all the good stuff all the good stuff so but in that world
+you're swimming these programming languages were you focused on just the good stuff in your specific circle but
+did you have a sense of what what is everyone chasing you said that every programming language is built to scratch
+an itch mm-hmm were you aware of all the itches in the
+community and if not or if yes I mean what H we trying to scratch with Python
+well I'm glad I wasn't aware of all the itches because I would probably not have
+been able to do anything I mean if you're trying to solve every problem at
+once you saw nothing well yeah that it's it's too overwhelming and so I had a
+very very focused problem I wanted a programming language that set somewhere
+in between shell scripting and C and now
+arguably there is like one is higher level one is lower level and Python is
+sort of a language of an intermediate level although it's still pretty much at
+the high level and no I was I was thinking about much more about I want a
+tool that I can use to be more productive as a programmer in a very
+specific environment and I also had given myself a time budget for the
+development of the tool and that was sort of about three months for both the
+design like thinking through what are all the features of the language syntactically and semantically
+and how do i implement the whole pipeline from parsing the source code to
+executing it so I think both were the timeline and the goals it seems like
+productivity was at the core of it as a goal so like for me in the 90s and the
+first decade of the 21st century I was always doing machine learning AI programming for my research was always
+in C++ and then and then the other people who are a little more mechanical
+engineering Electrical Engineering our MATLAB II they're a little bit more
+MATLAB focus those are the world and maybe a little bit Java too but people
+who are more interested in and emphasizing the object oriented nature of things so but then in last 10 years
+or so especially with a calming of neural networks and these packages are built on Python to interface with with
+neural networks I switch to Python and it's just I've noticed a significant
+boost that I can't exactly because I don't think about it but I can't exactly put into words why I'm just except much
+much more productive just being able to get the job done much much faster so how
+do you think whatever that qualitative difference is I don't know if it's quantitative it could be just a feeling
+I don't know if I'm actually more productive but how do you think about Layar yeah well that that's right I
+think there's elements let me just speak to one aspect that I think those affect that productivity is C++ was I really
+enjoyed creating performant code and creating a beautiful structure where
+everything that you know this kind of going into this especially with the newer newer standards of templated
+programming of just really creating this beautiful formal structure that I found
+myself spending most of my time doing that as opposed to get you parsing a file and extracting a few
+key words or whatever the task was trying to do so what is it about Python how do you think of productivity in
+general as you were designing it now sort of through the decades last three decades what do you think it means to be
+a productive programmer and how did you try to design it into the language there
+are different tasks and as a programmer it's it's useful to have different tools
+available that sort of are suitable for different tasks so I still write C code
+I still write shellcode but I write most
+of my things in Python why do I still
+use those other languages because sometimes the task just demands it and
+well I would say most of the time the task actually demands a certain language
+because the task is not write a program that solves problem x from scratch but
+it's more like fix bug in existing program X or add a small feature to an
+existing large program but even if if
+you sort of if you're not constrained in your choice of language by context like
+that there is still the fact that if you
+write it in a certain language then you sort of you you have this balance
+between how long does it time does it take you to write the code and how long
+does the code run and when you're in
+sort of in the face of exploring solutions you often spend much more time
+writing the code than running it because every time you've sort of you've run it
+you see that the output is not quite what you wanted and you spend some more
+time Cody and a language like Python just makes
+death iteration much faster because there are fewer details there is a large
+library sort of there are fewer details that that you have to get right before
+your program compiles and runs there are libraries that do all sorts of stuff for
+you so you can sort of very quickly take a bunch of existing components put them
+together and get your prototype application running just like when I was
+building electronics I was using a breadboard most of the time so I had
+this like sprawl out circuit that if you
+shook it it would stop working because it was not put together very well but it
+functioned and all I wanted was to see that it worked and then move on to the next next schematic or design or add
+something to it once you've sort of figured out oh this is the perfect design for my radio or light sensor or
+whatever then you can say okay how do we design a PCB for this how do we solder
+the components in a small space how do we make it so that it is robust against
+say voltage fluctuations or mechanical
+disruption I mean I know nothing about that when it comes to designing
+electronics but I know a lot about that when it comes to to writing code so the
+initial initial steps are efficient fast and there's not much stuff that gets in
+the way but you're kind of describing from a like Darwin described the
+evolution of species right you're you're observing of what is about true about
+Python now if you take step back if the art of if the act of creating languages
+is art and you had three months to do it and initial steps and ha so you just
+specified a bunch of goals sort of things that you observe about Python perhaps you had those goals but how do
+you create the rules the syntactic structure the the features that result
+in those so I have in the beginning and I have follow-up questions about through the evolution of Python 2 but in the
+very beginning when you're sitting there creating the lexical analyzers or whatever evolution was still a big part
+of it because I I sort of I said to
+myself I don't want to have to design everything from scratch I'm going to
+borrow features from other languages that I like Oh interesting so you basically exactly you first observe what
+you like yeah and so that's why if you're 17 years old and you want to sort
+of create a programming language you're not going to be very successful at it because you have no experience with
+other languages whereas I was in my
+let's say mid-30s I had written parsers
+before so I had worked on the implementation of ABC I had spent years
+debating the design of ABC with its authors its with its designers I had
+nothing to do with the design it was designed fully as it was ended up being
+implemented when I joined the team but so you borrow ideas and concepts and
+very concrete sort of local rules from different languages like the indentation and certain other syntactic features
+from ABC but I chose to borrow string literals and how numbers work from C and
+various other things so in then if you take that further so yet you've had this
+funny sounding but I think surprisingly accurate and or at least practical title
+of a benevolent dictator for life for quite you know for last three decades whatever or no not the actual title but
+functionally speaking so you had to make decisions design decisions can you maybe
+let's take Python - there's a Python releasing Python 3 as an example mm-hmm
+it's not backward-compatible - Python - in ways that a lot of people know so
+what was that deliberation discussion decision like we have what was the psychology of that experience
+do you regret any aspects of how that experiments undergone that else yeah so
+it was a group process really it at that point even though I was be DFL in nine a
+name and and certainly everybody sort of respected my my position as the creator
+and and the current sort of owner of the language design I was looking at
+everyone else for feedback sort of Python 300 in some sense was sparked by
+other people in the community pointing out oh well there are a few issues that
+sort of bite users over and over can we do something about that and for Python
+three we took a number of those Python wards as they were called at the time
+and we said can we try to sort of make small changes to the language that
+address those warts and we had sort of in the past we had always taken
+backwards compatibility very seriously and so many Python warts in earlier
+versions had already been resolved because they could be resolved while maintaining backwards compatibility or
+sort of using a very gradual path of evolution of the language in a certain
+area and so we were stuck with a number of warts that were widely recognized as problems not like
+road blocks but nevertheless sort of things that some people trip over and
+you know that that's always the same thing that that people trip over when
+they trip and we could not think of a backwards compatible way of resolving
+those issues but it's still an option to not resolve the issues and so yes for
+for a long time we had sort of resigned ourselves to well okay the language is not going to be perfect in this way and
+that way that way and we sort of certain
+of these I mean there are still plenty of things where you can say well that's that particular detail is better in Java
+or in R or in Visual Basic or whatever
+and we're okay with that because well we can't easily change it it's not too bad
+we can do a little bit with user education or we can have a static analyzer or warnings in in the parser or
+something but there were things where we thought well these are really problems that are
+not going away they are getting worse in the future we should do something about
+do something but ultimately there is a decision to be made right yes so was
+that the toughest decision in the history of Python yet to make as the benevolent dictator for life or if not
+what are there maybe even on a smaller scale what was a decision where you were really torn up about well the toughest
+decision was probably to resign all right let's go there hold on a second
+then let me just because in the interest of time too because I have a few cool questions for you I let's touch a really
+important one because it was quite dramatic and beautiful in certain kinds of ways then in July this year three
+months ago you wrote now that pepp 572 is done I don't ever want to have to
+fight so hard for a and find that so many people despise my decisions I would like to remove myself
+entirely from the decision process I'll still be there for a while as an ordinary core developer and I'll still
+be available to mentor people possibly more available but I'm basically giving
+myself a permanent vacation for being be DFL yeah but not well in dictator for
+life and you all will be on your own it's just this it's a it's almost
+Shakespearean I'm not going to appoint a successor so water you're all going to
+do create a democracy anarchy a dictatorship a federation so that was a
+very dramatic and beautiful set of statements it's almost it's open-ended
+nature called the community to create a future for Python this is kind of a beautiful aspect to it well so what end
+and dramatic you know what was making that decision like what was on your heart on your mind stepping back now a
+few months later we could take you to your Maya thing I'm glad you liked of
+writing because it was actually written pretty quickly it was literally something like after
+months and months of going around in circles I had finally approved Pet 572
+which I had a big hand in its design although it I didn't initiate it
+originally I gave it a bunch of nudges
+in a direction that would be better for the language so I just asked it's a sink
+I oh no the one or no no kept 572 was actually a small feature which is
+assignment expressions assignment expressions dad had been taught there was just a lot
+of debate where a lot of people claimed that they knew what was pythonic and
+what was not pythonic and they knew that this was going to destroy the language this was like a violation
+of pythons most fundamental design philosophy and I thought that was all because I was in favor of it
+and that I would think I know something about pythons design philosophy so I was really tired and also stressed of that
+thing and literally after sort of announcing I was going to accept it a
+certain Wednesday evening I had finally send the email it's accepted now let's
+just go implement it so I went to bed feeling really relieved that's behind me
+and I wake up Thursday morning 7:00 a.m. and I think well that was the last one
+that's going to be such such a terrible debate and that's it going to be said
+that's the last time that I let myself be so stressed out about a peb decision
+I should just resign I've been sort of thinking about retirement for half a
+decade I've been joking and sort of mentioning retirement sort of telling
+the community some point in the future I'm going to retire don't take that FL
+part of my title too literally and I thought okay this is it I'm done I had
+the day off I wanted to have a good time with my wife we were going to a little beach town nearby and in he think maybe
+15-20 minutes I wrote that thing that you just called Shakespearean yeah the funny thing is I
+get so much crap for calling you Shakespearean I didn't even I didn't even realize what
+a monumental decision it was because five minutes later I read that's a link
+to my message back on Twitter where people were already discussing on
+Twitter guido resigned as the BD FL and I had I had posted it on an internal
+forum that I thought was only read by core developers so I thought I would at
+least have one day before the news would sort of get out the on your own aspect I
+had also an element of quite it was quite a powerful element of the
+uncertainty that lies ahead but can you also just briefly talk about you know
+like for example I play guitar as a hobby for fun and whenever I play people
+are super positive so super friendly they're like this is awesome this is great but sometimes I enter as an
+outside observer I enter the programming community and there seems to some sometimes be camps on whatever the topic
+and and the two camps the two or plus camps are often pretty harsh are
+criticizing the opposing camps as an onlooker I may be totally wrong on this
+yeah well because like wars are sort of a favorite activity in the programming
+community and what is the psychology behind that is is that okay for a healthy community to have is that is
+that a productive force ultimately for the evolution of the language well if everybody is betting each other on the
+back and never telling the truth yes it
+would not be a good thing I think there is a middle ground where sort of being
+nasty to each other is not okay but there there is is a middle ground where
+there is healthy ongoing criticism and feedback that is very productive and you
+you mean at every level you see that I mean someone proposes to fix a very
+small issue in a codebase chances are
+that some reviewer will sort of respond by saying well actually you can do it
+better the other way right when it comes to
+deciding on the future of the Python core developer community we now have I
+think five or six competing proposals for a constitution so that future do you
+have a fear of that future do you have a hope for that future I'm not very confident about that future it by and
+large I think that the debate has been very healthy and productive and I
+actually when when I wrote that resignation email I knew that that
+Python was in a very good spot and that the Python core development community that the group of fifty or a hundred
+people who sort of write or review most
+of the code that goes into Python those people get along very well most of the
+time a large number of different areas of expertise are represented different
+levels of experience in the Python core deaf community different levels of
+experience completely outside in software development in general large
+systems small systems embedded systems so I I felt okay resigning because I
+knew that that the community can really take care of itself and out of a grab
+bag of future future developments let me ask if you can comment maybe on all very
+quickly concurrent programming parallel computing async IL these are things that
+people have expressed hope complained about whatever have discussed on reddit
+async i also the parallelization in general packaging i was totally clueless
+on this I just used piston install stuff but apparently this paper and in poetry there's these dependency packaging
+systems that manage dependencies and so on there urging and there's a lot of confusion about what's what's the right thing to
+use then also functional programming the the ever you know the the are we're
+going to get more functional programming or not this kind of this kind of idea and of course the the gill is a
+connected to the parallelization I suppose the global interpreter lock problem can you just comment on
+whichever you want to comment on well let's take the gill and paralyzation and
+async io as one one topic I'm not that
+hopeful that Python will develop into a
+sort of high concurrency high parallelism language that's sort of the
+the way the language is designed the way most users use the language the way the
+language is implemented all make that a pretty unlikely future so you think it
+might not even need to really the way people use it it might not be a something that should be a of Greek I
+think I think async IO is a special case because it sort of allows overlapping IO
+and only IO and that is is a sort of best practice
+of supporting very high throughput IO many collections per second I'm not
+worried about that I think async IO will evolve there are a couple of competing packages we have some very smart people
+who are sort of pushing us in sort of to make async IL better parallel computing
+I think that Python is not the language for that there are there are ways to
+work around it but you sort of you can't expect to write an algorithm in Python
+and have a compiler or paralyzed that what you can do is use a
+package like numpy and they're a bunch of other very powerful packages that
+sort of use all the CPUs available because you tell the package here's the
+data here's the abstract operation to apply over it go at it and then then
+we're back in the c++ world but those packages are themselves implemented
+usually in c++ that's right that's so that's where Tenzin phoned all these acts just come in where they paralyze across GPUs for example they take care
+of that fit so in terms of packaging can you comment on this yeah my it packaging
+has always been my least favorite topic it's it's it's a really tough problem
+because the OS and the platform want to
+own packaging but their packaging
+solution is not specific to a language like if you take Linux there are two
+competing packaging solutions for Linux or for UNIX in in general and but they
+all work across all languages and several languages like node JavaScript
+and Ruby and Python all have their own packaging solutions that only work
+within the ecosystem of that language well what should you use that is a tough
+problem my own own approach is I use the system packaging system to install
+Python and I use the Python packaging system then to install third party
+Python packages that's what most people do ten years ago Python packaging was
+really a terrible situation nowadays pip is the future there is there is a
+separate ecosystem for numerical and scientific Python Python based on
+anaconda those two can live together I don't think there is a need for more
+than that great so that's that's packaging that's well at least for me that's that's where I've been extremely
+happy I didn't I didn't even know this was an issue until it's brought up well in interest of time I mean sort of
+skipped through a million other questions I have so I watched the five hour five five and a half hour oral
+history they've done with the Computer History Museum and the nice thing about it it gave this because of the linear
+progression of the interview he gave this feeling of a life you know a life well-lived with interesting things in it
+sort of a pretty I would say a good spend of of this little existence we
+have on earth so outside of your family looking back what about this journey are
+you really proud of their moments that
+stand out accomplishments ideas is it the creation of Python itself that
+stands out as a thing that you look back and say damn I did pretty good there
+well I would say that Python is definitely the best thing I've ever done and I
+I wouldn't sort of say just the creation of Python but the way I sort of raised
+by farm like a baby I didn't just conceive a child but I
+raised the child and now I'm setting the child free in the world and I've set up
+the child to to sort of be able to take care of himself and I'm very proud of
+that and as the announcer of Monty Python's Flying Circus used to say and
+now for something completely different do you have a favorite Monty Python moment or a moment Hitchhiker's Guide or
+any other literature show a movie that cracks you up when you think about it oh you can always play me the parrots the
+dead parrot sketch oh that's brilliant yeah that's my favorite as well pushing up the daisies
+okay greeted thank you so much for talking with me today lecture there's
+been a great conversation
+you
 
 ----------
 
 -----
+
 --46--
 
 -----
-Date:
-Link:
+Date: 2018.11.16
+Link: [# Vladimir Vapnik: Statistical Learning | Lex Fridman Podcast #5](https://www.youtube.com/watch?v=STFcvzoxVw4)
 Transcription:
 
-paste here
+
+Introduction
+The following is a conversation with Vladimir Vapnik. He is the co-inventor of support vector machines, support vector clustering, VC theory, and
+many foundational ideas in statistical learning. He was born in the Soviet Union and worked at the Institute of Control Sciences in Moscow.
+Then in the United States, he worked at AT&T, NEC Labs, Facebook Research, and now
+is a professor at Columbia University. His work has been cited over 170,000 times.
+He has some very interesting ideas about artificial intelligence and the nature of learning, especially especially, on the limits of our current approaches and the open problems in the field.
+This conversation is part of the MIT course on Artificial General Intelligence and the Artificial Intelligence Podcast.
+If you enjoy it, please subscribe on YouTube or rate it on iTunes or your podcast provider of choice
+or simply connect with me on Twitter or other social networks at Lex Fridman,
+spelled F-R-I-D. And now, here's my conversation with Vladimir Vapnik.
+God doesnt play dice
+Lex: Einstein famously said that God doesn't play dice. Vladimir: Yeah.
+Lex: You have studied the world through the eyes of statistics, so let me ask you in terms of the nature of reality--fundamental nature of reality.
+Does God play dice? Vladimir: We don't know some factors.
+And because we don't know some factors, which could be important, it looks like God plays dice,
+but you should describe. In philosophy, they distinguish between two positions: positions of instrumentalism,
+where you're creating theories of prediction and position of realism, where you're trying to
+understand what God did. Lex: Can you describe instrumentalism and realism a little bit?
+For example, if you have some mechanical laws,
+what is that? Is it law which is true always and everywhere
+or is it a law which allows you to predict a position of moving elements?
+What do you believe? Do you believe that it is God's law, that God created the world which is this
+physical law, or is it just law for predictions? Lex: And which one is instrumentalism?
+For predictions. If you believe that this is the law of God and it is always true everywhere,
+that means that you're a realist. You're trying to understand God's thought.
+Lex: So the way you see the world is as an instrumentalist? Vladimir: You know I'm working from some models--
+Models of Machine Learning. So in this model, you can see settings
+and you try to resolve the problem.
+And you can do it in two different ways from the point of view of the instrumentalist,
+and that's what everybody does now because the goal of machine learning
+is to find the rule for classification.
+That is true, but it is an instrument for prediction. But I can say, the goal of machine learning is to learn about conditional probability,
+so how God play and use. Does he play what is the probability for one and what is the probability for another
+in a given situation? But for prediction, I don't need this. I need the rule.
+But for understanding, I need conditional probability. Lex: So let me just step back a little bit first to talk about, you mentioned which I read
+Is math a poetry
+last night the parts of the 1960 paper by Eugene Wigner,
+Unreasonable Effectiveness of Mathematics in the Natural Sciences. It's such a beautiful paper, by the way.
+To be honest, to confess my own work in the past two years on deep learning heavily applied,
+it made me feel that I was missing out on some of the beauty of nature in the way that
+math can uncover. So let me just step away from the poetry of that for a second.
+How do you see the role of math in your life? Is it a tool? Is it poetry?
+Where does it sit? And does math, for you, have limits?
+Vladimir: Some people are saying that Math is language which use god.
+Lex: Speak to god or use god? - Use God. Lex: Use God
+Vladimir: I believe that this article
+about Unreasonable Effectiveness of Math is that if you look
+at mathematical structures, they know something about reality.
+And most scientists from Natural Science, they look at an equation
+in trying to understand reality, so the same with machine learning.
+If you try to very carefully look on all the equations which define conditional probability,
+you can understand something about reality more than from your fantasy.
+Lex: So math can reveal the simple underlying principles of reality, perhaps.
+Vladimir: You know, what may seem simple, it is very hard to discover them.
+But then, when you discover them and look at them, you see how beautiful they are.
+And it is surprising why people did not see that before when you look at an equation and
+derive it from the equations. For example, I talked yesterday about the Least Squares Method and people had a lot
+of fantasies about improving least squares method. But if you look, going step by step by solving some equations, you suddenly will get some terms
+which after thinking; you understand it, the described position of an observation point.
+Least squares method, they throw out a lot of information. You don't look at the composition of point of observations.
+We're looking only on the details. But, when you understood that very simple idea, which is not too simple to understand
+and you can derive this just from equations. Lex: So some simple Algebra, so a few steps will take you to something surprising that when
+Human intuition
+you think about-- Vladimir: Absolutely, yes. And that is proof that human intuition is not too rich
+and very primitive, and it does not see very simple situations.
+Lex: So let me take a step back, in general, yes.
+What about human ingenuity as opposed to intuition, the moments of brilliance?
+Do you have to be so hard on human intuition? Are there moments of brilliance on human intuition that can leap ahead of math,
+and then the math will catch up? Vladimir: I don't think so. I think the best human intuition, it is putting in axioms, then it is technical
+where you have to arrive. Lex: See where the axioms take you. Vladimir: Yeah. But if they correctly take axioms.
+Axioms are polished during generations of scientists and this is integral wisdom.
+The role of imagination
+Lex: That's beautifully put.
+When you think of Einstein and especially, relativity, what is the role of imagination
+coming first there in the moment of discovery of an idea?
+So, that's obviously a mix of math and out of the box imagination there.
+Vladimir: That, I don't know. Whatever I did, I exclude any imagination because whatever I saw in machine learning
+that come from imagination, like features, like deep learning, they're not really one
+to the problem. When you're looking very clearly from a mathematical equation, you'd arrive in very simple story
+which goes far beyond, theoretically, than whatever people can imagine because it is
+not good fantasies. It is just interpretation. It is just fantasy, but it is not what you need.
+You don't need any imagination to derive mind principle of machine learning.
+The role of interpretation
+Lex: When you think about learning and intelligence, maybe thinking about the human brain in trying
+to describe mathematically the process of learning that is something like what happens
+in the human brain, do you think we have the tools, currently?
+Do you think we will ever have the tools to try to describe that process of learning?
+Vladimir: It is not description what's going on. It is interpretation. It is your interpretation.
+Your vision can be wrong. You know, when the guy who invented the microscope, Leeuwenhoek, for the first time,
+only he got this instrument and he kept it secret.
+But he wrote a report in the London Academy of Science. In his report, when he's looking on the blood, he looked everywhere--on the water, on the
+blood on those film, but he described blood like a fight between queens and kings.
+So he saw blood cells, red cells and he imagines it is like an army fighting each other.
+And it was his interpretation of the situation. And he sent it as a report in the Academy of Science.
+They very carefully looked because they believe that he is right. He saw something, but he gave a wrong interpretation.
+And I believe the same can happen with the brain.
+The most important part, you know, I believe in human language.
+In some proverbs, there's so much wisdom. For example, people say that it is better than a thousand days of diligent study
+is one day with a great teacher. But if you'll ask what the teacher does, nobody knows.
+And that is intelligence. But we know from history, and now from machine learning
+is that a teacher can do a lot. Lex: So what from a mathematical point of view is a great teacher?
+Vladimir: I don't know, but we can say what a teacher can do.
+He can introduce some invariants, some predicate for creating invariants.
+How is he doing it, I don't know, because a teacher knows reality and can describe from
+his reality a predicate and invariants. But we know when you're using invariant, you can decrease the number of observations
+a hundred times. Lex: Maybe try to pull that apart a little bit, but I think you mentioned that like a piano
+The nature of information
+teacher saying to the student, "Play like a butterfly." I played piano.
+I played the guitar for a long time
+and maybe it's romantic and poetic, but it feels like there's a lot of truth in that statement, like there's a lot of instruction to that statement.
+Can you pull that apart? What is that? The language itself may not contain this information.
+Vladimir: It's not blah, blah, blah because it affects you. It's what? Affects you, affects your playing.
+Lex: Yes it does,
+but what is the information being exchanged there? What is the nature of information? What is the representation in that information?
+Vladimir: I believe that it is a sort of predicate, but I don't know. That is exactly what intelligence in machine learning should be
+because the rest is just mathematical technique. I think that what was discovered recently is that there are two mechanisms of learning.
+One is called strong convergence mechanism and big convergence mechanism.
+Before, people used only one convergence. In big convergence, you can use predicate.
+That's what "fly like butterfly" is and if you immediately effect your plan.
+You know there is an English proverb which is "If it looks like a duck, sleeps like a duck,
+and quack like a duck, then it is probably a duck." But this is exact about predicate.
+It looks like a duck, what does it mean? So, you saw many ducks--that's your training data.
+You have a description that looks like ducks.
+Lex: Yeah, the visual characteristics of a duck, yeah. Vladimir: Yeah, and you have a model for recognizing ducks.
+So you would like that theoretical description from the model to coincide.
+There's empirical description which you saw. So, about "it looks like a duck," it is general.
+But, what about swims like a duck? You should know that ducks swim.
+You can't say it plays chess like a duck. Okay, ducks doesn't play chess.
+It's a completely legal predicate but it is useless.
+So, how can a teacher recognize a non-useless predicate?
+So, up to now, we don't use this predicate in existing machine learning,
+so why do we need zillions of data? But this English proverb say use only three predicates--looks like a duck,
+swims like a duck and quack like a duck. Lex: So you can't deny the fact that swims like a duck and quacks like a duck has humor
+The English proverb
+in it, has ambiguity? Vladimir: Let's talk about "swims like a duck."
+It does not say jumps like a duck, why? Lex: It's not relevant.
+Vladimir: It means that you know ducks and you know different birds.
+You know animals and you derived from this that it is relevant to say "swim like a duck."
+Lex: So in order for us to understand "swims like a duck," it feels like we need to know millions of other little pieces of information we pick up along the way.
+You don't think so? That doesn't need to be this knowledge-based, in those statements, carry some rich information
+that helps us understand the essence of duck? Vladimir: Yeah. Lex: How far are we from integrating predicates?
+Vladimir: You know that when you can see the complete story of machine learning, so what it does,
+you have a lot of functions, and then you're talking it looks like a duck.
+You see your training data. From the training data, you recognize what the expected duck should look like.
+Then, you remove all functions which do not look like what you think it should look from
+the training data. So, you decrease the amount of function from which you pick up one.
+Then, you give a second predicate and again, they create a set of functions.
+And after that, you pick up the best function you can. It is standard machine learning.
+So, why do you need not too many examples?
+Lex: Because your predicates are very good. Vladimir: Yeah, that's exactly basic predicate because every predicate is invented to decrease the
+admissible set of functions. Lex: So you talk about admissible set of functions and you talk about good functions.
+A admissible set of functions
+So what makes a good function? Vladimir: So admissible set of function is a set of function which has a small capacity or small
+diversity, a small dimension, which contains good functions inside.
+Lex: By the way, for people who don't know VC, you're the V in the VC.
+So how would you describe to a lay person what VC theories are?
+How would you describe VC? Vladimir: When you have a machine, a machine capable to pick up one function
+from the admissible set of function. But the set of admissible functions can be big.
+They contain all continuous functions and theories. You don't have so many examples to pick up functions.
+But it can be small--
+what we call capacity, but maybe diversity-- so not very different functions in the settings,
+an infinite set of functions but not very diverse. So, if it's a small VC dimension and when the VC dimension is small,
+you need a small amount of training data.
+So the goal is to create admissible set of functions which have small VC dimension
+and contains good functions. Then, you'll be able to pick up the function using a small amount of observations.
+The task of learning
+Lex: So that is the task of learning is creating a set of admissible functions
+that has a small VC dimension and then you figure out a clever way of picking up the good.
+Vladimir: That is the goal of learning which I formulated yesterday. Statistical learning theory does not involve creating admissible set of functions.
+In classical learning theory everywhere, in 100% of textbooks, the admissible set of functions
+is given, but this is telling us about nothing because the most difficult problem is to create
+admissible set of functions given, say,
+a lot of functions, a continuous set of functions. Create admissible set of functions, that means that the finite VC dimension, small VC dimension
+and contains good functions. So, this was out of consideration. Lex: So what's the process of doing that, I mean, that's fascinating?
+The process of learning
+What is the process of creating this admissible set of functions?
+Vladimir: That is invariance. Lex: That's invariance. Can you describe invariance? Vladimir: Yeah. You have to think of properties of the training data and properties means they have some function
+and you just count what is the average value of function of training data.
+You have a model and what is the expectation of this function on the model
+and they should coincide. So, the problem is about how to pick up functions.
+It can be any function. In fact, it is true for all functions,
+but when I say a duck doesn't jump, so you don't
+ask a question on "jumps like a duck" because it is trivial. It does not jump, so it does not help you at all.
+But you know something on which questions to ask like when you ask "swims like a duck."
+But "looks like a duck," it is a general situation. But, looks like, say, a guy who has this illness, this disease, it is legal.
+So, there is a general type of predicate, "It looks like," and a special type of predicate
+which is related to this specific problem. And that is the intelligence part of this business and that is where a teacher is involved.
+Deep learning as neural networks
+Lex: Incorporating the specialized predicates. Vladimir: Yes. Lex: Okay.
+What do you think about deep learning as neural networks, these architectures,
+as helping accomplish some of the tasks you're thinking about? Their effectiveness or lack thereof,
+what are the weaknesses and what are the possible strengths? Vladimir: You know, I think that this is fantasy, everything like deep learning, like features.
+Let me give you this example. One of the greatest books is Churchill's book about the history of the Second World War.
+He starts in his book describing that in the old times when a war is over,
+the great kings, they gather together--and most of them are relatives--and they discuss what should be
+done to create peace and they come to an agreement. And what happens in the First World War?
+The general public came in power. They were so greedy that robbed Germany.
+It was clear for everybody that it is not peace, that peace will only last for 20 years
+because they were not professionals. I see the same in machine logic.
+There are mathematicians looking for the problem from a very deep mathematical point of view
+and there are computer scientists that mostly do not know mathematics.
+They just have interpretations of that and they invented a lot of blah, blah interpretations
+like deep learning. Why did you do deep learning? Mathematics does not know deep learning.
+Mathematics does not know neurons; it is just functions. If you like to say piecewise linear function, say that
+and do it in a class of piecewise linear function. But they invented something and then they tried to prove the advantage of that
+through interpretations, which was mostly wrong. And when it is not enough, they appeal to the brain and they say they know nothing about that.
+Nobody knows what's going in the brain. So, I think it is more reliable to work on math.
+This is a mathematical problem, do your best to solve this problem. Try to understand that there is not only one way of convergence,
+which is the strong way of convergence. There is a big way of convergence which requires predicates.
+And if you will go through all this stuff, you will see that you don't need deep learning.
+Even more, I would say one of the theorems, which is called Representer theorem,
+it says that optimal solution of mathematical problems,
+which describe learning, is on a shallow network,
+not on deep learning. Lex: On a shallow network. Yeah, the problem is there. Absolutely. So, in the end, what you're saying is exactly right.
+The question is, you have no value for throwing something on the table, playing with it--not math.
+It's like a neural network where you said throwing something in the bucket or the biological
+example in looking at kings and queens or the cells on the microscope, you don't see value in imagining the cells or the kings and queens and using that as inspiration,
+an imagination for where the math will eventually lead you? Do you think that interpretation basically deceives you in a way that's not productive?
+Vladimir: I think that if you're trying to analyze this business of learning
+and especially, the discussion about deep learning, it is a discussion about interpretations and not about things,
+about what you can say about things. Lex: That's right. But, aren't you surprised by the beauty of it, not mathematical beauty but the fact
+The beauty of deep learning
+that it works at all? Or, are you criticizing that very beauty, our human desire to interpret,
+to find our silly interpretations in these constructs?
+Like, let me ask you this, are you surprised or does it inspire you, how do you feel about
+the success of a system like AlphaGo at beating the game of Go
+using neural networks to estimate the quality of a board?
+Vladimir: That is your interpretation--quality of the board. Lex: Yes.
+It is not our interpretation. The fact is a neural network system--it doesn't matter--a learning system
+that we don't, I think, mathematically, understand that well, beats the best human player, that's something that was thought impossible.
+Vladimir: That means it's not a very difficult problem. That's it. Lex: So we've empirically have discovered that this is not a very difficult problem.
+That's true. I can't argue.
+Vladimir: Even more, I would say, if they used deep learning, it is not the most effective way
+of learning theory. And usually, when people use deep learning, they're using zillions of training data,
+but you don't need this. So when I describe a challenge, can we do some problems that you did well
+with deep learning method, with deepnet, using a hundred times less training data?
+Even more, there are some problems that deep learning cannot solve because it's not necessarily
+that they created admissible set of functions. To create deep architecture means to create admissible set of functions.
+You cannot say that you're creating good admissible set of functions. It's your fantasy.
+It does not come from us. But, it is possible to create admissible set of functions because you have your training data
+Actually, for mathematicians, when you consider a variant,
+you need to use the law of large numbers. When you make a training in existing algorithms, you need a uniform law of large numbers,
+which is much more difficult. It requires VC dimension and all that stuff. But nevertheless, if you use both big and strong way of convergence, you can decrease
+a lot of training data. Lex: Yeah, you could do the three--that swims like a duck and quacks like a duck.
+Can machines think
+So let's step back and think about human intelligence in general.
+And clearly, that has evolved in a non-mathematical way.
+Lex: As far as we know, God or whoever didn't come up with a model and placed in our brain
+of admissible functions; it kind of evolved. I don't know your view on this but Alan Turing in the 50's in his paper asked and interjected
+the question: Can machines think? It's not a very useful question, but can you briefly entertain this useless question
+"Can machines think?" So, talk about intelligence and your view of it. Vladimir: I don't know that.
+I know that Turing described imitation--if a computer can imitate a human being.
+Let's call it intelligence and he understands that it is not a thinking computer.
+He completely understands what he was doing, but he set up a problem of imitation.
+So now we understand it as a problem of not an imitation. I'm not sure that intelligence is just inside of us.
+It may also be outside of us. I have several observations,
+so when I prove some theorems, it's very difficult theorems.
+In a couple of years, in several places, people will prove the same theorem, say,
+saw a dilemma after ours was done, then another guy proves the same theorem.
+In the history of science, it has happened all the time. For example, geometry, it happens simultaneously.
+First is Lobachevsky and then Gauss and Bolyai and then other guys, and approximately,
+in a ten-year period of time, and I saw a lot of examples like that.
+And when a mathematician thinks it, when they develop something, they develop something
+in general which affects everybody. So, maybe our model of intelligence is only inside of us is incorrect.
+Complexity
+Lex: It's our interpretation. Yeah. Vladimir: It may be that they exist with some connection with world intelligence.
+I don't know that. Lex: You're almost like plugging in into... Vladimir: Yeah, exactly. Lex: ...and contributing to this.
+Vladimir: ...into a big network. Lex: Into a big, maybe a neural network.
+On the flip side of that, maybe you can comment on the big O complexity and how you see classifying
+algorithms by worst-case running time in relation to their input. So, that way of thinking about functions, do you think P equals un-P?
+Do you think that's an interesting question? Vladimir: Yeah, it is an interesting question. But let me talk about complexity and about worst-case scenario.
+There is a mathematical setting. When I came to the United States in 1991, people did not know this.
+They did not know statistical learning theorem. In Russia, it was published in our monographs, but in America, they did not know,
+and then, they learned it. Somebody told me that it was worst-case theory and they will create real-case theory,
+but until now, they haven't. Because it is a mathematical tool, you can do only what you can do using mathematics,
+which is clear understanding and clear description.
+For this reason, we introduced complexity.
+In VC dimension you can prove some theorems. But we also create theory for cases when you know probability measure
+and that is the best case it can happen.
+So from a mathematical point of view, you know the best possible case is the worst possible case.
+You can derive different models in the middle, but it's not so interesting.
+Lex: Do you think the edges are interesting? Vladimir: The edges are interesting because it is not so easy to get the exact bounds.
+It's not, in many cases where you have the bounds are not exact, but interesting principles
+are discovered the most. Lex: Do you think it's interesting because it's challenging and reveals interesting principles
+Edges
+that allow you to get those bounds or do you think it's interesting because it's actually very useful for understanding the essence of a function of an algorithm?
+So, it's like me judging your life as a human being by the worst thing you did and the best
+thing you did versus all the stuff in the middle. It seems not productive.
+Vladimir: I don't think so because you cannot describe situations in the middle or it will not be general.
+So you can describe edge cases and it is clear it has some models, but you cannot describe
+a model for every new case. So, you'll never be accurate when you're using models.
+Learning in the world
+Lex: But, from a statistical point of view, the way you studied functions and the nature of learning and the world,
+don't you think that the real world has a very long tail
+that the edge cases are very far away from the mean,
+the stuff in the middle, or no?
+Vladimir: I don't know that. I think that from my point of view,
+if youwill use formal statistics, you need uniform law of large numbers,
+if you will use this invariance business,
+you don't need just law of large numbers. And there's a huge difference between uniform law of large numbers and large numbers.
+Lex: Is it useful to describe that a little more or shall we just take it at... Vladimir: No. For example, when I'm talking about ducks, I get three predicates and that was enough.
+But, if you will try to do formally distinguish, you will need a lot of observations.
+So that means that information about "looks like a duck" contained a lot of bit of information
+formal bits of information. So we don't know how much bit of information is contained from intelligence
+and that is a subject of analysis. Until now,
+on business, I don't have people consider artificial intelligence.
+They consider it as some codes which imitate activities of human beings.
+It is not science. It is applications. You would like to imitate Go. Okay, it's very useful and a good problem,
+but you need to learn something more
+on how people came to develop, say,
+predicates "sleeps like a duck" or "fly like a butterfly"
+or something like that. It's not that the teacher tells you how it came to his mind, how he chooses the image.
+That is a problem of intelligence. Lex: That is the problem of intelligence. And you see that connected to the problem of learning?
+Learning absolute
+Are they? Vladimir: Absolutely, because you immediately give this predicate like specific predicates
+"swims like a duck" or "quacks like a duck." It was chosen somehow.
+Line of work
+Lex: So what is the line of work, would you say, if you were to formulate as a set of open problems
+that will take us there, to fly like a butterfly, we'll get a system to be able to?
+Vladimir: Let's separate two stories--one mathematical story that if you have predicates
+you can do something, and another story on how to get predicates.
+It is an intelligence problem and people even did not start understanding intelligence.
+Because to understand intelligence, first of all, try to understand what they will teach us,
+how a teacher teach, why one teacher is better than another one. Lex: Yeah. And so, do you think we really even haven't started on the journey of generating the predicates?
+Open problem
+Vladimir: No. We don't understand. We even don't understand that this problem exists.
+Lex: You do. Vladimir: No. I just know a name. I won't understand why one teacher is better than another
+and how the teacher affects the student.
+It is not because he is repeating the problem which is in the textbooks.
+He makes some remarks. He makes some philosophy of reasoning.
+Lex: Yeah, that's beautiful. It is a formulation of a question that is the open problem:
+Why is one teacher better than another? Vladimir: Right. What he does about it.
+Lex: "Why" at every level. How did they get better?
+What does it mean to be better? Vladimir: Yeah. From whatever model I have,
+one teacher can give a very good predicate. One teacher can say "swims like a duck" and another can say "jumps like a duck."
+And jumps like a duck carries zero information.
+Lex: So what is the most exciting problem in statistical learning you ever worked on or are working on now?
+Vladimir: I just finished this invariance story
+and I'm happy that I believe that it is an ultimate learning story.
+At least, I can show that there are no other mechanisms. There are only two mechanisms but they separate statistical parts from intelligence parts
+and I know nothing about the intelligence part. And if you will know there's the intelligence part, it will help us a lot in teaching
+and in learning. Lex: And we'll know it when we see it?
+So for example, in my talk, in the last slide was a challenge. So you have a NIST digit recognition problem
+and deep learning claims that they did it very well say 99.5% correct answers,
+but they used 60,000 observations. Can you do the same using a hundred times less but incorporating invariants,
+what it means, you know, digit 1, 2, 3? Just looking on that, explain the vision variant I should keep, to use a hundred times less
+examples, to do the same job. Lex: Yeah, that last slide, unfortunately, your talk ended quickly, but that last slide was
+Invariance
+a powerful open challenge and a formulation of the essence there.
+Vladimir: That is the exact problem of intelligence because everybody, when machine learning started
+and it was developed by mathematicians, they immediately recognized that they use much
+more training data than humans needed. But now, again, we came to the same story of how to decrease.
+That is a problem of learning. It is not like in deep learning, they use zillions of training data
+because maybe zillions are not enough if you have a good invariance.
+Maybe, you'll never collect some number of observations. But now, it is a question of intelligence on how to do that
+because the statistical part is ready. As soon as you supply us this predicate, we can do a good job
+with the small amount of observations and the very first challenges of a long digital cognition and you know digits
+and 12 invariants. I'm thinking about that and I can say for digit 3, I would introduce the concept
+of horizontal symmetry, so digit 3 has horizontal symmetry more than digit 2 or something like that.
+But as soon as I get the horizontal symmetry, I can mathematically invent a lot of measure
+of horizontal symmetry or the vertical symmetry or the diagonal symmetry, whatever,
+if I have the ideal symmetry. What would it tell us?
+Looking on digits, I see that it is a meta-predicate which is not shaped into something like symmetry,
+like how dark is the whole picture, something like that,
+which can certify as a predicate. Lex: Do you think such a predicate could rise out of something that's not general,
+The problem of intelligence
+meaning, it feels like for me to be able to understand the difference between the two and the three,
+I would need to have had a childhood of 10 to 15 years playing with kids, going to school,
+being yelled at by parents, all of that, walking, jumping, looking at ducks.
+And now, then, I would be able to generate the right predicate for telling the difference
+between a two and a three, or do you think there's a more efficient way? Vladimir:I don't know.
+I know for sure that you must know something more than digits.
+Lex: Yes, and that's a powerful statement. Vladimir: Yeah, but maybe there are several languages of description around these elements of digits.
+So, I'm talking about symmetry, about some properties of geometry.
+I'm talking about something abstract. I don't know about that, but it is a problem of intelligence.
+So in one of our articles, it is trivial to show that every example can carry not more
+than one bit of information because when you show an example and you say, this is a one,
+you can remove functions which doesn't tell you one.
+The best strategy if you can do it perfectly is to remove half of that.
+But when you use one predicate which is "looks like a duck," you can remove
+much more functions in half, and that means it contains a lot of bit of information from a formal point of view.
+But, when you have a general picture,
+on whatyou want to recognize and a general picture of the world, can you invent this predicate?
+And, that predicate carries a lot of information.
+Lex: Beautifully put. Maybe it's just me, but in all the math you show in your work, which is some of the most
+Poetry and music
+profound mathematical work in the field of learning AI and just math, in general,
+I hear a lot of poetry and philosophy. You really kind of talk about philosophy of science.
+There's a poetry in music to a lot of the work you're doing and the way you're thinking about it, so where does that come from?
+Do you escape to poetry? Do you escape to music? Vladimir: I think that there exists ground truths
+and that can be seen everywhere. The smart guy philosopher, sometimes I'm surprised how they see deeply.
+Sometimes I see that some of them are completely out of subject.
+But the ground truths, I see in music.
+Lex: Music are the ground truth? Vladimir: Yeah. And in poetry, many poetry, they believe that they take dictation.
+Lex: So what piece of music as a piece of empirical evidence gave you a sense that they are touching
+something in the ground truth? Vladimir: It is structure. Lex: The structure, the math of music.
+Vladimir: Because when you're listening to Bach, you see the structure--very clear, very classic,
+very simple. And the same it was when you have axioms in geometry, you have the same feeling.
+And in poetry, sometimes, this is the same. Lex: Yeah. And if you look back to your childhood, you grew up in Russia.
+Happiest moments
+You maybe were born as a researcher in Russia, you developed as a researcher in Russia.
+You came to the United States and a few places. If you look back, what were some of your happiest moments as a research?
+Some of the most profound moments, not in terms of their impact on society,
+but in terms of their impact on how damn good
+you feel that day and you remember that moment? Vladimir: You know, every time when you found something,
+it is the greatest moments in life, every simple thing.
+But, my general feelings most of the time was wrong.
+You should go again and again and again and try to be honest in front of yourself,
+not to my interpretation, but try to understand that it is related to ground rules
+and it is not my blah, blah, blah interpretation or something like that.
+The possibility of discovery
+Lex: But, you're allowed to get excited at the possibility of discovery. Vladimir: Oh, yeah.
+Lex: You have to double check it. Vladimir: No, but how it's relates to the ground rules.
+Is it just temporary or is it forever?
+You know, you always have a feeling when you found something.
+How big is that? So 20 years ago, when we discovered statistical learning theory, nobody believed
+except for one guy, Dudley from MIT.
+And then, in 20 years, it became in fashion, and the same with Support Vector Machines.
+Lex: So, with support vector machines and learning theory, when you were working on it,
+you had a sense, a sense of the profundity of it, how this seems to be right, this seems to be powerful?
+Vladimir: Right. Absolutely. Immediately. I recognized that it will last forever.
+And now, when I found this invariant story,
+I have a feeling that this is complete learning because I have proved that there are no different mechanisms.
+You can have some cosmetic improvements that you can do, but in terms of invariants,
+you need more invariants in statistical learning organization work together.
+But, also, I'm happy that you can formulate what is intelligence from that
+and to separate from the technical point. That is completely different.
+Lex: Absolutely. Well, Vladimir, thank you so much for talking today. Vladimir: Thank you. Lex: It's an honor.
 
 ----------
 
@@ -654,11 +6475,402 @@ paste here
 --45--
 
 -----
-Date:
-Link:
+Date: 2018.10.20
+Link: [# Yoshua Bengio: Deep Learning | Lex Fridman Podcast #4](https://www.youtube.com/watch?v=azOmzumh0vQ)
 Transcription:
 
-paste here
+what difference between biological neural networks and artificial neural networks is most mysterious captivating
+and profound for you first of all there's so much we don't know about
+biological neural networks and that's very mysterious and captivating because maybe it holds the key to improving our
+differential neural networks one of the things I studied recently something that
+we don't know how biological neural networks do but would be really useful for artificial ones is the ability to do
+credit assignment through very long time spans there are things that we can in
+principle do with artificial neural nets but it's not very convenient and it's not biologically plausible and this
+mismatch I think this kind of mismatch may be an interesting thing to study to
+a understand better how brains might do these things because we don't have good corresponding theories with artificial
+neural Nets and B maybe provide new ideas that we could explore about things
+that brain do differently and that we could incorporate in artificial neural Nets so let's break created assignment
+up a little bit yeah what it's a beautifully technical term but it could incorporate so many things so is it more
+on the RNN memory side that thinking like that or is it something about
+knowledge building up common sense knowledge over time or is it more in the
+reinforcement learning sense that you're picking up rewards over time for a particular to achieve certain kind of
+goals so I was thinking more about the first two meanings whereby we store all
+kinds of memories episodic memories in our brain which we can access later in
+order to help us both infer causes of
+things that we are observing now and assign credit to decisions or
+interpretations we came up with a while ago when you know those memories were stored and then we can change the way we
+would have reacted or interpreted things in the past and now that's credit
+assignment used for learning so in which way do you think artificial neural
+networks the current LS TM the current architectures are not able to capture
+the presumably you're thinking of very long term yes so current recurrent Nets
+are doing a fairly good jobs for sequences with dozens or say hundreds of
+time stamps and then it gets harder and harder and depending on what you have to
+remember and so on as you consider longer durations whereas humans seem to
+be able to do credit assignment through essentially arbitrary times like I could remember something I did last year and
+then now because I see some new evidence I'm gonna change my mind about the way I
+was thinking last year and hopefully not do the same mistake again I think a big
+part of that is probably forgetting you're only remembering the really important things it's very efficient
+forgetting yes so there's a selection of what we remember and I think there are
+Current state of deep learning
+really cool connection to higher-level cognition here regarding consciousness
+deciding and and emotions like sort of deciding what comes to consciousness and what gets stored in memory which which
+are not trivial either so you've been at the forefront there all along showing
+some of the amazing things that neural networks deep neural networks can do in the field of artificial intelligence is
+just broadly in all kinds of applications but we can talk about that forever but what in your view because
+we're thinking towards the future is the weakest aspect of the way deep neural networks represent the world what is
+that what is in your view is missing so currently current state-of-the-art
+neural nets trained on large quantities of images or texts have some level of
+understanding of you know what explains those datasets but it's very basic it's
+it's very low-level and it's not nearly as robust and abstract in general as our
+understanding okay so that doesn't tell us how to fix things but I think it
+encourages us to think about how we can
+maybe train our neural nets differently so that they would focus for example on
+causal explanations something that we don't do currently with neural net
+training also one thing I'll talk about in my talk this afternoon is instead of
+learning separately from images and videos on one hand and from text on the
+other hand we need to do a better job of jointly learning about language and
+about the world to which it refers so that you know both sides can help each
+other we need to have good world models in our neural nets for them to really
+understand sentences which talk about what's going on in the world and I think we need language input to help provide
+clues about what high-level concepts like semantic concepts should be
+represented at the top levels of these neural nets in fact there is evidence
+that the purely unsupervised learning of representations doesn't give rise to
+high level representations that are as powerful as the ones we are getting from
+supervised learning and so the the clues we're getting just with the labels not even sentences is
+already very powerful do you think that's an architecture challenge or is
+Architecture vs dataset
+it a data set challenge neither I'm
+tempted to just end it there in your library of course data sets and
+architectures are something you want to always play with but but I think the crucial thing is more the training
+objectives the training frameworks for example going from passive observation
+of data to more active agents which
+learn by intervening in the world the relationships between causes and effects
+the sort of objective functions which could be important to allow the the
+highest level explanations to to to rise from from the learning which I don't
+think we have now the kinds of objective functions which could be used to reward
+exploration the right kind of exploration so these kinds of questions are neither in the dataset nor in the
+architecture but more in how we learn under what objectives and so on yeah
+Learning through interaction
+that's a afraid you mentioned in several contexts the idea is sort of the way children learn they interact with
+objects of the world and it seems fascinating because it's some sense
+except with some cases in reinforcement learning that idea is not part of the
+learning process in artificial neural network so it's almost like do you
+envision something like an objective function saying you know what if you
+poke this object in this kind of way would be really helpful for me to further
+yes further learn right right sort of almost guiding some aspect of learning
+right right so I was talking to Rebecca Saxe just an hour ago and she was
+talking about lots and lots of evidence for infants seem to clearly take what
+interest them in a directed way and so they're not passive learners they they
+focus their attention on aspects of the world which are most interesting
+surprising in in a non-trivial way that makes them change their theories of the
+world so that's a fascinating view of
+the future progress but Anna the more maybe boring a question do you think
+going deeper and large so do you think just increasing the size of the things
+that have been increasing a lot in the past few years will will also make significant progress so some of the
+representational issues that you mentioned that is they're kind of shallow in some sense Oh higher in a
+sense of abstraction up straight in a sense of abstraction they're not getting some I don't think that having more more
+depth in the network in the sense of instead of a hundred layers we have ten thousand is going to solve our problem
+you don't think so is that obvious to you yes what is clear to me is that
+engineers and companies and labs grad students will continue to tune
+architectures and explore all kinds of tweaks to make the current state of the Arts that he ever slightly better but I
+don't think that's gonna be nearly enough I think we need some fairly drastic changes in the way that we're
+considering learning to achieve the goal
+that these learners actually understand in a deep way the environment in which they are you know observing and acting
+but I guess I was trying to ask a question is more interesting than just
+Our brain is big
+more layers is basically once you figure out a way to learn through interacting
+how many parameters does it take to store that information so
+I think our brain is quite bigger than most neural networks right right oh I see what you mean oh I I'm with you
+there so I agree that in order to build neural nets with the kind of broad
+knowledge of the world that typical adult humans have probably the kind of
+computing power we have now is going to be insufficient so well the good news is there are hardware companies building
+neural net chips and so it's gonna get better however the good news in a way
+which is also a bad news is that even our state-of-the-art deep learning
+methods fail to learn models that understand even very simple environments
+like some Grid worlds that we have built even these fairly simple environments I
+mean of course if you train them with enough examples eventually they get it but it's just like instead of what
+instead of what humans might need just dozens of examples these things will
+need millions right for very very very simple tasks and so I think there's an
+opportunity for academics who don't have the kind of computing power that say
+Google has to do really important and exciting research to advance the
+state-of-the-art in training frameworks learning models agent learning in even
+simple environments that are synthetic that seem trivial but yet current
+machine learning fails on we've talked about priors and common-sense knowledge
+Knowledge
+it seems like we humans take a lot of
+knowledge for granted so what what's your view of these priors of forming
+this broad view of the world this accumulation of information and how we
+can teach a neural networks or learning systems to pick that knowledge up so knowledge you know for a while the
+artificial intelligence what's maybe in the 80 there's a time or knowledge
+representation knowledge acquisition expert systems I mean though the symbolic AI was was a view was an
+interesting problem set to solve and it was kind of put on hold a little bit it
+seems like because it doesn't work it doesn't work that's right but that's right but the goals of that remain
+important yes remain important kind of how do you think those goals can be addressed right so first of all I
+believe that one reason why the classical expert systems approach failed
+is because a lot of the knowledge we have so you talked about common sense
+intuition there's a lot of knowledge like this which is not consciously
+accessible the lots of decisions we're taking that we can't really explain even if sometimes we make up a story and that
+knowledge is also necessary for machines to take good decisions and that
+knowledge is hard to codify in expert systems rule-based systems and you know
+Costco EAJA formalism and there are other issues of course with the old AI like not really good ways of handling
+uncertainty I would say something more subtle which we understand better now
+but I think still isn't enough in the minds of people there is something
+really powerful that comes from distributed representations the thing
+that really makes neural Nets work so well and it's hard to replicate that
+kind of power in a symbolic world the knowledge in in expert systems and so on
+is nicely decomposed into like a bunch of rules whereas if you think about a
+neural net it's the opposite you have this big blob of parameters which work
+intensely together to represent everything the network knows and it's not sufficiently factorized and so I
+think this is one of the weaknesses of current neural nets that we have to take lessons from classically I
+in order to bring in another kind of compositionality which is common in
+language for example and in these rules but that isn't so native to New Ulm Ed's
+and on that line of thinking disentangled representations yes so so
+let me connect with disentangled representations if you might if don't mind yes exactly so for many years I've
+thought and I still believe that it's really important that we come up with learning algorithms either unsupervised
+or supervised but or enforcement whatever that build representations in which the important factors hopefully
+causal factors are nicely separated and easy to pick up from the representation so that's the idea of disentangle
+representations it says transform the data into a space where everything becomes easy we can maybe just learn
+with linear models about the things we care about and and I still think this is
+important but I think this is missing out on a very important ingredient which
+classically AI systems can remind us of so let's say we have these design
+technologies invation you still need to learn about the the relationships between the variables
+those high-level semantic variables they're not going to be independent I mean this is like too much of an assumption they're gonna have some
+interesting relationships that allow to predict things in the future to explain what happened in the past the kind of
+knowledge about those relationships in a classically AI system is encoded in the rules like a rule is just like a little
+piece of knowledge that says oh I have these two three four variables that are linked in this interesting way then I
+can say something about one or two of them given a couple of others right in addition to disentangling the the
+elements of the representation which are like the variables in rule-based system you also need to disentangle the the
+mechanisms that relate those variables to each other so like the rules so the
+rules are neatly separated like each rule is you know living on its own and when I change a rule because I'm
+learning it doesn't need to break other rules whereas current your Mets for example
+are very sensitive to what's called catastrophic forgetting where after I've learned some things and then I learn new
+things they can destroy the old things that I had learned right if the knowledge was better factorized and and
+separated disentangled then you would avoid a lot of that now you can't do
+this in the sensory domain but a decent
+okay like an pixel space but but my idea is that when you project the data in the
+right semantic space it becomes possible to now represent this extra knowledge
+beyond the transformation from input to representations which is how representations act on each other and
+predict the future and so on in a way that can be neatly disentangled so now
+it's the rules or disentangle from each other and not just the variables that are disentangled from each other and you draw a distinction between semantic
+space and pixel like yes there need to be an architectural difference or well yeah so there's the sensory space like
+pixels which where everything is untangled the the information like the
+variables are completely interdependent in very complicated ways and also computation like the it's not just
+variables it's also how they are related to each other is is all intertwined but but I I'm hypothesizing that in the
+right high-level representation space both the variables and how they relate
+to each other can be disentangled and that will provide a lot of generalization power generalization
+power yes distribution of the test set he assumed to be the same as a
+distribution of the training set right this is where current machine learning is too weak it doesn't tell us anything
+is not able to tell us anything about how are you let's say our gonna generalize to a new distribution and and
+you know people may think well but there's nothing we can say if we don't know what the new distribution will be the truth is humans are able to
+generalize to new distributions how are we able to do that so yeah because something these new distributions even
+though they could look very different from the training solutions they have things in common so let me give you a concrete example you read a science
+fiction novel the science fiction novel maybe you know brings you in some other
+planet where things look very different on the surface but it's still the same
+laws of physics all right and so you can read the book and you understand what's going on
+so the distribution is very different but because you can transport a lot of
+the knowledge you had from Earth about the underlying cause and effect relationships and physical mechanisms
+and all that and maybe even social interactions you can now make sense of what is going on on this planet where
+like visually for example things are totally different taking that analogy further and
+distorting it let's enter a sign science fiction world to say Space Odyssey 2001
+with hell yeah or or maybe which is probably one of my favourite AI movies
+and then then - and then there's another one that a lot of people love that it may be a little bit outside of the AI
+community is ex machina right I don't know if you've seen it yes yes but what
+are your views on that movie alright does it does are you able to wear things I like and things I hate so maybe you
+could talk about that in the context of a question I want to ask which is uh there's quite a large community of
+people from different backgrounds often outside of AI who are concerned about existential threat of artificial
+intelligence right you've seen now this community develop over time you've seen you have a perspective so what do you
+think is the best way to talk about a a safety to think about it to have this course about it within AI community and
+outside and grounded in the fact that ex machina is one of the main sources of
+information for the general public about AI so I think I think you're putting it right there's a big difference between
+the sort of discussion we oughta have within the AG community and the sort of
+discussion that really matter in the general public so I think the the picture of terminator
+and you know AI lose and killing people and super intelligence that's gonna
+destroy us whatever we try isn't really so useful for the public discussion
+because for the public discussion that things I believe really matter are the
+short-term and mini term very likely negative impacts of AI on society whether it's from security like you know
+Big Brother scenarios with face recognition or killer robots or the impact on the job market or
+concentration of power and discrimination all kinds of social issues which could actually some of them
+could really threaten democracy for example just to clarify when you said
+killer robots you mean autonomous weapons yes weapon systems yes I do not terminator that's right
+so I think these these short and medium-term concerns should be important
+parts of the public debate now existential risk for me is a very unlikely consideration but still worth
+academic investigation in the same way that you could say should we study what
+could happen if meteorite you know came to earth and destroyed it so I think it's very unlikely that this is gonna
+happen and or happen it in a reasonable future it's it's very the the sort of
+scenario of an AI getting loose goes against my understanding of at least current machine learning and current
+neural nets and so on it's not plausible to me but of course I don't have a crystal ball and who knows what a I will
+be in fifty years from now so I think it is worth at scientists study those problems it's just not a pressing
+question as far as I'm concerned so before continuing down the line a few
+Ex Machina
+questions there but what what do you like and not like about ex machina as a
+movie because I I actually watch it for the second time and enjoyed it I hated it the first time and I enjoyed it quite
+a bit more the second time when I sort of learned to accept certain pieces of it CC is the concept
+movie hi what was your experience wouldn't Laura your thoughts so the negative is the picture it paints of
+science is totally wrong science in general and AI in particular science is
+not happening in some hidden place by some you know really smart guy one
+person one person this is totally unrealistic this is not how it happens even a team of people in some isolated
+place will not make it science moved by small steps thanks to
+the collaboration and community of a large number of people interacting and
+[Music] all the scientists who are expert in their field Canon Oh what is going on
+even in the industrial labs its information flows and leaks and so on
+and and and the spirit of it is very different from the way science is
+painted in this movie yeah let me let me ask on that on that point it's been the case to this point yeah that kind of
+Bottle Ideas
+even if the research happens inside Google or Facebook inside companies it still kind of comes out like yes come on
+absolutely think that will always be the case so there I is is it possible to bottle ideas to the point where there's
+a set of breakthrough the go completely undiscovered by the general research community do you think that's even possible it's possible but it's unlikely
+unlikely it's not how it is done now it's not how I can foresee it in in the
+foreseeable future but of course I don't have a crystal ball and so who knows
+this is science fiction after all but but usually the ominous that the lights went off during during that discussion
+so the problem again there's a you know one thing is the movie and you could imagine all kinds of science fiction the
+problem wouldn't for me may be similar to the question about existential risk is that this kind of movie pain
+such a wrong picture of what is actual you know the actual science and how it's
+going on that that it can have unfortunate effects on people's understanding of current science and and
+so that's kind of sad is it an important principle in research which is diversity
+so in other words research is exploration resources explosion in the space of ideas and different people will
+focus on different directions and this is not just good it's essential so I'm
+totally fine with people exploring directions that are contrary to mine or
+look orthogonal to mine it's I I am more than fine I think it's important I and
+my friends don't claim we have universal truth about what well especially about what will happen in the future now that
+being said we have our intuitions and then we act accordingly according to
+where we think we can be most useful and where society has the most gain or to lose we should have those debates and
+and and and not end up in a society where there's only one voice and one way
+of thinking in research money is spread out so disagreement is a sign of good
+Bias in Machine Learning
+research good science so yes the idea of bias in in the human sense of bias yeah
+how do you think about instilling in machine learning something that's
+aligned with human values in terms of bias we and intuitively human beings
+have a concept of what bias means of what fundamental respect for other human
+beings means but how do we instill that into machine learning systems do you think so I think there are short-term
+things that are already happening and then there are long-term things that we need to do and the short term there are
+techniques that have been proposed and I think will continue to be improved and maybe alternatives will come up to take
+datasets in which we know there is bias we can measure it pretty much any data
+set where humans are you know being observed taking decisions will have some sort of bias discrimination against
+particular groups and so on and we can use machine learning techniques to try
+to build predictors classifiers that are going to be less biased we can do it for
+example using adversarial methods to make our systems less sensitive to these
+variables we should not be sensitive to so these are clear well-defined ways of
+trying to address the problem maybe they have weaknesses and you know more research is needed and so on but I think
+in fact they are sufficiently mature that governments should start regulating companies where it matters say like
+insurance companies so that they use those techniques because those techniques will produce the bias but at
+a costs for example maybe their predictions will be less accurate and so companies will not do it until you force
+them all right so this is short term long term I'm really interested in
+thinking of how we can instill moral values into computers obviously this is
+not something we'll achieve in the next five or ten years how can we you know
+there's already work in detecting emotions for example in images and
+sounds and texts and also studying how
+different agents interacting in different ways may correspond to
+patterns of say injustice which could trigger anger so these are things we can
+do in in the medium term and eventually train computers to model for example how
+humans react emotionally I would say the simplest thing is unfair situations
+which trigger anger this is one of the most basic emotions that we share with other animals I think it's quite
+feasible within the next few years so we can build systems that can take these kind of things to the extent
+unfortunately that they understand enough about the world around us which is a long time away but maybe we can
+initially do this in virtual environments so you can imagine like a video game we're agents interact in in
+some ways and then some situations trigger an emotion I think we could
+train machines to detect those situations and predict that the particular emotion you know will likely
+be felt if a human was playing one of the characters you have shown excitement
+Teaching Machines
+and done a lot of excellent work with supervised learning but on a superbug
+you know there's been a lot of success on the supervised learning yes yes and one of the things I'm really passionate
+about is how humans and robots work together and in the context of
+supervised learning that means the process of annotation do you think about the problem of annotation of put in a
+more interesting way is humans teaching machines yes is there yes I think it's
+an important subject reducing it to annotation may be useful for somebody
+building a system tomorrow but longer-term the process of teaching I
+think is something that deserves a lot more attention from the machine learning community so there are people have
+coined the term machine teaching so what are good strategies for teaching a learning agent and can we design train a
+system that gonna be is gonna be a good teacher so so in my group we have a project called the baby I or baby I game
+where there is a game or scenario where there's a learning agent and a teaching
+agent presumably the teaching agent would eventually be a human but we're
+not there yet and the the role of the
+teacher is to use its knowledge of the environment which it can acquire using whatever way brute force to help the
+learner learn as quickly as possible so the learner is going to try to learn by it of maybe be using some exploration and
+whatever but the teacher can choose can
+can can have an influence on the interaction with the learner so as to guide the learner maybe teach it the
+things that the learner has most trouble with or just at the boundary between what it knows and doesn't know and so on
+so this is there's a tradition of these kind of ideas from other fields and like
+tutorial systems for example and they I and and of course people in the
+humanities have been thinking about these questions but I think it's time that machine learning people look at
+this because in the future we'll have more and more human machine interaction with a human in the loop and I think
+The Turing Test
+understanding how to make this work better all the problems around that are very interesting and not sufficiently
+addressed you've done a lot of work with language to what aspect of the
+traditionally formulated Turing test a test of natural language understanding a generation in your eyes is the most
+difficult of conversation but in your eyes is the hardest part of conversation to solve for machines so I would say
+it's everything having to do with the non linguistic knowledge which
+implicitly you need in order to make sense of sentences things like the Winograd schemas so these sentences that
+are semantically ambiguous in other words you need to understand enough about the world in order to really
+interpret probably those sentences I think these are interesting challenges for our machine learning because they
+point in the direction of building systems that both understand how the
+world works and it's causal relationships in the world and associate that knowledge with how to express it in
+language either for reading or writing you speak French yes it's my mother
+tongue it's one of the Romance languages do you think passing the Turing test and
+all the underlying challenges we just mentioned depend on language do you think it might be easier in front
+that is in English now is independent of language mmm I think it's independent of language I I
+would like to build systems that can use
+the same principles the same learning mechanisms to learn from human agents
+whatever their language well certainly us humans can talk more beautifully and
+smoothly in poetry some Russian originally I know poetry and Russian is
+maybe easier to convey complex ideas than it is in English but maybe I'm
+showing my bias and some people could say that about front half French but of
+course the goal ultimately is our human brain is able to utilize any kind of
+those languages to use them as tools to convey meaning you know of course there
+are differences between languages and maybe some are slightly better at some things but in the grand scheme of things where we're trying to understand how the
+brain works and language and so on I think these differences are a minut so
+you've lived perhaps through an AI winter of sorts yes how did you stay
+warm and continue and you're resurfacing stay warm with friends and with friends
+okay so it's important to have friends and what have you learned from the experience listen to your inner voice
+don't you know be trying to just please
+the crowds and the fashion and if you have a strong intuition about something
+that is not contradicted by actual evidence go for it I mean it could be
+contradicted by people but not your own instinct of based on everything you know
+of course of course you have to adapt your beliefs when your experiments
+contradict those beliefs but but you have to stick to your beliefs otherwise
+it's it's it's what allowed me to go through those years it's what allowed me to
+persist in directions that you know took time whatever all the people think took
+time to mature and you bring fruits so
+Whats next
+history of AI is marked with these of course it's mark with technical
+breakthroughs but it's also marked with these seminal events that capture the imagination of the community most recent
+I would say alphago beating the world champion human go player was one of
+those moments what do you think the next such moment might be okay surface first
+of all I think that these so-called seminal events are overrated as I said
+science really moves by small steps now what happens is you make one more small
+step and it's like the the drop that you know allows to that fills the bucket and
+and and then you have drastic consequences because now you're able to do something you were not able to do
+before or now say the cost of building some device or solving a problem becomes
+cheaper than what existed and you have a new market that opens up right so so especially in the world of Commerce and
+applications the impact of a small scientific progress could be huge but in
+the science itself I think it's very very gradual and where these steps being
+taken now so there's supervised right so if I look at one trend that I like in in
+in my community so for example in at me lie in my Institute what are the two
+hottest topics Gans and rain for spurning even though in the montreal in
+particular like reinforcement learning was something pretty much absent just two or three years ago so it is really a
+big interest from students and there's a big interest from people like me
+so I would say this is something where are we gonna see more progress even though it hasn't yet provided much in
+terms of actual industrial fallout like even though there's alphago there's no
+like Google is not making money on this right now but I think over the long term this is really really important for many
+reasons so in other words agent I would say reinforcement learning baby more
+generally agent learning because it doesn't have to be with rewards it could be in all kinds of ways that an agent is
+learning about its environment now reinforced learning you're excited about do you think do you think Gans could
+Gans
+provide something yes some moment in in a well Gans or other generative models I
+believe will be crucial ingredients in building agents that can understand the
+world a lot of the successes in reinforcement learning in the past has
+been with policy gradient where you you'll just learn a policy you don't actually learn a model of the world but
+there are lots of issues with that and we don't know how to do model-based our rel right now but I think this is where
+we have to go in order to build models that can generalize faster and better
+like to new distributions that capture to some extent at least the underlying
+causal mechanisms in in the world last question what made you fall in love with
+artificial intelligence if you look back what was the first moment in your life
+when he's when you were fascinated by either the human mind or the artificial mind you know when I wasn't at the
+lesson I was reading a lot and then I I started reading science fiction there
+you go but I got that's that's it that that's that's where I got hooked and then and then you know I had one of the
+first personal computers and I got hooked in programming and so it just you
+know start with fiction and then make it a reality that's right Yoshio thank you so much for talking to
+my pleasure
+you
 
 ----------
 
@@ -666,35 +6878,691 @@ paste here
 --44--
 
 -----
-Date:
-Link:
-Transcription:
+Date: 2018.10.17
+Link:  [# Steven Pinker: AI in the Age of Reason | Lex Fridman Podcast #3](https://www.youtube.com/watch?v=epQxfSp-rdU)
+Transcription: 
 
-paste here
+you've studied the human mind cognition language vision evolution psychology
+from child to adult from the level of individual to the level of our entire
+civilization so I feel like I can start with a simple multiple-choice question
+what is the meaning of life is it a to attain knowledge as Plato said B to
+attain power as Nietzsche said C to escape death as Ernest Becker said d to
+propagate our genes as Darwin and others have said e there is no meaning as the
+nihilists have said F knowing the meaning of life is beyond our cognitive
+capabilities as Steven Pinker said based on my interpretation twenty years ago and G none of the above
+I'd say aid comes closest but I would amend that to attaining not only
+knowledge but fulfillment more generally that is life health stimulation access
+to the living cultural and social world now this is our meaning of life it's not
+the meaning of life if you were to ask our genes their meaning is to propagate
+copies of themselves but that is distinct from the meaning that the brain that they lead to sets for itself so to
+you knowledge is a small subset or a large subset it's a large subset but
+it's not the entirety of human striding because we also want to interact with
+people we want to experience beauty we want to experience the the richness of the natural world but understanding the
+what makes the universe tick is his way up there for some of us more than others
+certainly for me that's that's one of the top five so is that a fundamental
+aspect are you just describing your own preference or is this a fundamental aspect of human nature is to seek
+knowledge just in your latest book you talk about the the the power the
+usefulness of rationality and reason so on is that a fundamental nature human beings or is it something we
+should just strive for it's both it is we're capable of striving for it because
+it is one of the things that make us what we are Homo sapiens wise men we are
+unusual among animals in the degree to which we acquire knowledge and use it to
+survive we we make tools we strike agreements via language we extract
+poisons we predict the behavior of animals we try to get at the workings of
+plants and when I say we I don't just mean we in the modern West but we as a species everywhere which is how we've
+managed to occupy every niche on the planet and how we've managed to drive other animals to extinction and the
+refinement of Reason in pursuit of human well-being of health happiness social
+richness cultural richness is our our main challenge in the present that is
+using our intellect using our knowledge to figure out how the world works how we work in order to make discoveries and
+strike agreements that make us all better off in the long run right and you do that almost undeniably and in a
+data-driven way in a recent book but I'd like to focus on the artificial intelligence aspect of things and not
+just artificial intelligence but natural intelligence too so twenty years ago in the book you've written on how the mind
+works you conjecture again my right to interpret things you could you can
+correct me if I'm wrong but you conjecture that human thought in the brain may be a result of and now we're a
+massive network of highly interconnected neurons so from this interconnectivity emerges thought compared to artificial
+neural networks we use for machine learning today is there something fundamentally more complex mysterious
+even magical about the biological neural networks versus the ones we've been
+starting to use over the past 60 years and it becomes a success in the past 10
+there is something a little bit mysterious about the human
+neural networks which is that each one of us who is a neural network knows that
+we ourselves are conscious conscious not of a sense of registering our surroundings or even registering our
+internal state but in having subjective first-person present-tense experience that is when I see red it's not just
+different from green but it just there's there's a redness to it I feel whether
+an artificial system would experience that or not I don't know and I don't think I can know that's why it's
+mysterious if we had a perfectly lifelike robot that was behaviorally indistinguishable from a human would we
+attribute consciousness to it or ought we to attribute consciousness to it and that's something that it's very hard to
+know but putting that aside put inside that that largely philosophical question the question is is there some difference
+between the human neural network and the ones that we were building in artificial intelligence will mean that we're on the
+current trajectory not going to reach the point where we've got a lifelike
+robot indistinguishable from a human because the way their neural so-called neural networks were organized are
+different from the way ours are organized having there's overlap but I think there are some some big
+differences that they're the current neural networks current so called deep
+learning systems are in reality not all that deep that is they are very good at
+extracting high order statistical regularities but most of the systems don't have a semantic level a level of
+actual understanding of who did what to who why where how things work what
+causes what else do you think that kind of thing can emerge as it does so artificial you know so much smaller the
+number of connections and so on in the current human biological networks but do you think sort of go to go to
+consciousness or to go to this higher level semantic reasoning about things do you think that can emerge with just a
+larger network with a more richly weirdly interconnected network
+separating consciousness because consciousness is even a matter of complex a really good one yeah you could have you could sensibly
+ask the question of whether shrimp are conscious for example they're not terribly complex but maybe they feel
+pain so let's just put that one that part of it aside yet but I think sheer
+size of a neural network is not enough to give it structure and knowledge but
+if it's suitably engineered then then why not that is where neural networks natural
+selection did a kind of equivalent of engineering of our brains so I don't know there's anything mysterious in the
+sense that no no system made out of silicon could ever do what a human brain
+can do I think it's possible in principle whether it'll ever happen depends not only on how clever we are in
+engineering these systems but whether even we even want to whether that's even a sensible goal that is you can ask the
+question is there any locomotion system that is as as good as a human well we
+kind of want to do better than a human ultimately in terms of legged locomotion there's no reason that humans should be
+our benchmark they're their tools that might be better in some ways it may just be not as maybe that we can't duplicate
+a natural system because at some point it's so much cheaper to use a natural system that we're not going to invest
+more brainpower and resources so for example we don't really have a subsidy
+and exact substitute for wood we still build houses out of would we still go furniture out of wood we like the look
+we like the feel it's wood has certain properties that synthetics don't there's not that there's any magical or
+mysterious about wood it's just that the extra steps of duplicating everything
+about wood is something we just haven't bothered because we have wood likewise a cotton I mean I'm wearing cotton clothing now feels much better than the
+polyester it's not that cotton has something magic in it and it's not that
+if there was that we couldn't ever synthesize something exactly like cotton but at some point it just it's just not
+worth it we've got cotton and likewise in the case of human intelligence the goal of making an artificial system that
+is exactly like the human brain is a goal that we no one's gonna pursue to the bitter end
+I suspect because if you want tools that do things better than humans you're not going to care whether it does something
+like humans so for example you're diagnosing cancer or particularly whether why set humans as your benchmark
+but in in general I suspect you also believe that even if the human should
+not be a benchmark on women's don't want to imitate humans in their system there's a lot to be learned about how to
+create an artificial intelligence system by studying the human yeah III think that's right there in in the same way that to build
+flying machines we want understand the laws of aerodynamics and including birds but not mimic the birds right but the
+same laws you have a view on AI artificial intelligence and safety that
+from my perspective is refreshingly rational or perhaps more importantly has
+elements of positivity to it which I think can be inspiring and empowering as
+opposed to paralyzing for many people including AI researchers the eventual
+existential threat of AI is obvious not only possible but obvious and for many
+others including a researchers the threat is not obvious so Elon Musk is is
+famously in the highly concerned about AI camp saying things like AI is far
+more dangerous and nuclear weapons and that AI will likely destroy human
+civilization so in February you said that if Elon was really serious about AI
+they the threat of AI he would stop building self-driving cars that he's
+doing very successfully as part of Tesla then he said Wow if even Pinker doesn't
+understand the difference between arrow AI like a car in general AI when the latter literally has a million times
+more compute power and an open-ended utility function humanity is in deep
+trouble so first what did you mean by the statement about Elon Musk should
+stop Bill ourselves driving cars if he's deeply concerned not last time that Elon Musk has fired
+off an intemperate tweet well we live in a world where Twitter has power yes yeah
+I think the the that there are two kinds
+of existential threat that have been discussed in connection with artificial intelligence and I think that they're both incoherent one of them is vague
+fear of AI takeover that it just as we subjugated animals and less
+technologically advanced people's so if we build something that's more advanced than us it will inevitably turn us into
+pets or slaves or or domesticated animal equivalents I think this confuses intelligence with
+a will to power that it so happens that in the intelligence system we are most
+familiar with namely Homo sapiens we are products of natural selection which is a competitive process and so bundled
+together with our problem-solving capacity are a number of nasty traits like dominance and exploitation and
+maximization of power and glory and resources and influence there's no
+reason to think that sheer problem-solving capability will set that as one of its goals its goals will be
+whatever we set it its goals as and as long as someone isn't building a megalomaniacal artificial intelligence
+and there's no reason to think that it would naturally evolve in that direction now you might say well what if we gave it the goal of maximizing its own power
+source well that's a pretty stupid goal to give a an autonomous system you don't give it that goal I mean that's just
+self-evident we idiotic so if you look at the history of the world there's been
+a lot of opportunities where engineers could instill in a system destructive power and they choose not to because
+that's the natural process of Engineering well weapons I mean if you're building a weapon its goal is to
+destroy people and so I think they're good reasons to not not build certain kinds of weapons I think the building
+nuclear weapons was a massive mistake but probably do you think so
+maybe pause on that because that is one of the serious threats do you think that it was a mistake in a sense that it was
+should have been stopped early on or do you think it's just an unfortunate event of invention that this
+was invented we think it's possible to stop I guess is the question it's hard to rewind the clock because of course it
+was invented in the context of World War two and the fear that the Nazis might develop one first then once was
+initiated for that reason it was it it was hard to turn off especially since winning the war against the Japanese and
+the Nazis was such an overwhelming goal of every responsible person that there's
+just nothing that people wouldn't have done then to ensure victory it's quite possible if World War two hadn't
+happened that nuclear weapons wouldn't have been invented we can't know but I don't think it was by any means a
+necessity any more than some of the other weapon systems that were envisioned but never implemented like
+planes that would disperse poison gas over cities like crop dusters or systems
+to try to do to create earthquakes and tsunamis in enemy countries to weaponize
+the weather weaponize solar flares all kinds of crazy schemes that that we
+thought the better off I think analogies between nuclear weapons and artificial intelligence are fundamentally misguided
+because the whole point of nuclear weapons is to destroy things the point of artificial intelligence is not to
+destroy things so the analogy is is misleading so there's two artificial
+intelligence you mentioned the first one was the intelligence all know hungry yeah the system that we design ourselves
+where we give it the goals goals are external to the means to attain the
+goals I if we don't design an artificial intelligence system to maximize
+dominance then it won't maximize dominance it just that we're so familiar with Homo sapiens when these two traits
+come bundled together particularly in men that we are apt to confuse high
+intelligence with a will to power but that's just an error the other fear is
+that we'll be collateral damage that will give artificial intelligence a goal like make paperclips and it will pursue
+that goal so brilliantly that before we can stop it it turns us into paperclips we'll give it the goal of
+curing cancer and it will turn us into guinea pigs for lethal experiments or give it the goal of world peace and its
+conception of world pieces no people therefore no fighting and so it'll kill us all now I think these are utterly
+fanciful in fact I think they're actually self-defeating they first of all assume that we're going to be so
+brilliant that we can design an artificial intelligence that can cure cancer but so stupid that we don't
+specify what we mean by curing cancer in enough detail that it won't kill us in the process and it assumes that the
+system will be so smart that it can cure cancer but so idiotic that it doesn't
+can't figure out that what we mean by curing cancer is not killing everyone so I think that the the collateral damage
+scenario the value alignment problem is is also based on a misconception so one of the challenges of course we don't
+know how to build either system currently or are we even close to knowing of course those things can
+change overnight but at this time theorizing about it is very challenging in either direction so that that's
+probably at the core the problem is without that ability to reason about the real engineering things here at hand is
+your imagination runs away with things exactly but let me sort of ask what do
+you think was the motivation the thought process of elam Wasco i build autonomous vehicles I study autonomous vehicles I
+studied Tesla autopilot I think it is one of the greatest currently application large scale application of
+artificial intelligence in the world it has a potentially a very positive impact on society so how does a person who's
+creating this very good quote/unquote narrow AI system also seem to be so
+concerned about this other general AI what do you think is the motivation
+there what do you think is the thing really you probably have to ask him but there and and he is notoriously
+flamboyant impulsive to the as we have just seen to the detriment of his own
+goals of the health of a company so I don't know what's going on
+on his mind you probably have to ask him but I don't think the and I don't think the distinction between special-purpose
+a and so-called general is relevant that in the same way that special-purpose AI
+is not going to do anything conceivable in order to attain a goal all engineering systems have to are designed
+to trade off across multiple goals well we build cars in the first place we didn't forget to install brakes because
+the goal of a car is to go fast it occurred to people yes you want to go fast but not always so you build an
+brakes too likewise if a car is going to be autonomous that doesn't and program
+it to take the shortest route to the airport it's not going to take the diagonal and mow down people and trees and fences because that's the shortest
+route that's not what we mean by the shortest route when we program it and that's just what and an intelligent
+system is by definition it takes into account multiple constraints the same is
+true in fact even more true of so-called general intelligence that is if it's
+genuinely intelligent it's not going to pursue some goal single-mindedly omitting every other consideration and
+collateral effect that's not artificial in general intelligence that's that's artificial stupidity I agree with you by
+the way on the promise of autonomous vehicles for improving human welfare I think it's spectacular and I'm
+surprised at how little press coverage notes that in the United States alone something like 40,000 people die every
+year on the highways vastly more than are killed by terrorists and we spend we
+spent a trillion dollars on a war to combat deaths by terrorism but half a dozen a year whereas if you're an year
+out 40,000 people are massacred on the highways which could be brought down to very close to zero so I'm with you on
+the humanitarian benefit let me just mention that it's as a person who's building these cars it is it a little
+bit offensive to me to say that engineers would be clueless enough not to engineer safety into systems I often
+stay up at night thinking about those 40,000 people that are dying and everything I tried to engineer is to
+save those people's lives so every new invention that I'm super excited about every new and the in all
+the deep learning literature and cvpr conferences and nips everything I'm super excited about is all grounded in
+making it safe and help people so I just don't see how that trajectory can all a
+sudden slip into a situation where intelligence will be highly negative you
+know you and I certainly agree on that and I think that's only the beginning of the potential humanitarian benefits of
+artificial intelligence there's been enormous attention to what are we going to do with the people whose jobs are
+made obsolete by artificial intelligence but very little attention given to the fact that the jobs that hooni made
+obsolete are horrible jobs the fact that people aren't going to be picking crops and making beds and driving trucks and
+mining coal these are you know soul deadening jobs and we have a whole literature sympathizing with the people
+stuck in these menial mind deadening dangerous jobs if we can eliminate them
+this is a fantastic boon to humanity now granted we you solve one problem and there's another one namely how do we get
+these people a a decent income but if we're smart enough to invent machines that can make beds and put away dishes
+and and handle hospital patients well I think we're smart enough to figure out how to redistribute income to apportion
+some of the vast economic savings to the human beings who will no longer be
+needed to to make beds okay Sam Harris says that it's obvious that eventually
+AI will be in existential risk he's one of the people says it's obvious we don't
+know when the claim goes but eventually it's obvious and because we don't know
+when we should worry about it now this is a very interesting argument in my eyes so how do you how do we think about
+time scale how do we think about existential threats when we don't really know so little about the threat unlike
+nuclear weapons perhaps about this particular threat that it could happen
+tomorrow right so but very likely won't yeah they're likely to be a hundred years
+away so how do do we ignore it do how do we talk about it do we worry about it what how do we
+think about those what is it a threat that we can imagine it's within the
+limits of our imagination but not within our limits of understanding - sufficient
+to accurately predict it but but what what is what is the ether asre AI xai
+being the existential threat AI can always know like enslaving us or turning us into paperclips I think the most
+compelling from the Sam Harris was fact it would be the paperclip situation yeah I mean I just think it's totally
+fanciful I just don't build a system don't give it a don't first of all the
+code of engineering is you don't implement a system with massive control before testing it now perhaps the
+culture of engineering will radically change then I would worry I don't see any signs that engineers will suddenly
+do idiotic things like put a electrical power plant in control of a system that
+they haven't tested first or all of these scenarios not only imagine a
+almost a magically powered intelligence you know including things like cure
+cancer which is probably an incoherent goal because there's so many different kinds of cancer or bring about world
+peace I mean how do you even specify that as a goal but the scenarios also imagine some degree of control of every
+molecule in the universe which not only is itself unlikely but we would not
+start to connect these systems to infrastructure without without testing
+as we would any kind of engineering system now maybe some engineers will be irresponsible and we need legal and
+regulatory and legal responsibilities implemented so that engineers don't do
+things that are stupid by their own standards but the ii-i've never seen
+enough of a plausible scenario of existential threat to devote large
+amounts of brain power to to forestall it so you believe in the sort of the
+power and mass of the engineering of reason as the argue this book of Reason science and sort of
+be the very thing that puts the development of new technology so it's
+safe and also keeps us safe it's the same and you know granted the same culture of safety that currently is part
+of the engineering mindset for airplanes for example so yeah I don't think that
+that that should be thrown out the window and that untested all-powerful system should be suddenly implemented
+but there's no reason to think they are and in fact if you look at the progress of artificial intelligence it's been you
+know it's been impressive especially in the last ten years or so but the idea that suddenly there'll be a step function that all of a sudden before we
+know it it will be all powerful that there'll be some kind of recursive self-improvement some kind of Foom is
+also fanciful we certainly by the technology that we that were now
+impresses us such as deep learning when you train something on hundreds of thousands or millions of examples
+they're not hundreds of thousands of problems of which curing cancer is a
+typical example and so the kind of techniques that have allowed AI to
+increase in the last five years are not the claim that are going to lead to this fantasy of of exponential sudden
+self-improvement so it's may I think it's it's kind of a magical thinking it's not based on our understanding of
+how AI actually works now give me a chance here so you said fanciful magical thinking in his TED talk Sam Harris says
+that thinking about AI killing all human civilization is somehow fun intellectually now I have to say as a
+scientist engineer I don't find it fun but when I'm having beer with my non-ai
+friends there is indeed something fun and appealing about it like talking
+about an episode of black mirror considering if a large meteor is headed
+towards Earth we were just told a large meteors headed towards Earth something like this and can you relate to this sense of fun
+and do you understand the psychology of it yeah that's a good question III personally don't find it fun
+I find it kind of actually a waste of time because there are genuine threats
+that we ought to be thinking about like like pandemics like like a cyber security vulnerabilities like the
+possibility of nuclear war and certainly climate change this is enough to film it
+many conversations without and I think there I think Sam did put his finger on
+something namely that there is a community us sometimes called the rationality community that delights in
+using its brain power to come up with scenarios that would not occur to mere
+mortals to less cerebral people so there is a kind of intellectual thrill in
+finding new things to worry about that no one has worried about yet I actually think though that it's not
+only is it is a kind of fun that doesn't give me particular pleasure but I think there is there can be a pernicious side
+to it namely that you overcome people with such dread such fatalism that
+there's so many ways to die to annihilate our civilization that we may
+as well enjoy life while we can there's nothing we can do about it if climate change doesn't do us in then runaway robots will so let's enjoy ourselves now
+we've got to prioritize we have to look
+at threats that are close to certainty such as climate change and distinguish
+those from ones that are merely imaginable but with infinitesimal probabilities and we have to take into
+account people's worry budget you can't worry about everything and if you so dread and fear and terror and numb and
+fatalism it can lead to a kind of numbness well they're just these problems are overwhelming and the engineers are just gonna kill us all so
+let's either destroy the entire infrastructure of science technology or
+let's just enjoy life while we can so there's a certain line of worry which I'm worried about a lot of things
+engineering there's a certain line of worry when you cross a lot across that it becomes paralyzing fear as
+opposed to productive fear and that's kind of what they're highlighting there
+exactly right and we've seen some we know that human effort is not well calibrated against risk in that because
+a basic tenet of cognitive psychology is that perception of risk and hence
+perception of fear is driven by imagined ability not by data and so we miss
+allocate vast amounts of resources to avoiding terrorism which kills on average about six Americans a year with
+a one exception of 9/11 we invade countries we invent entire new
+departments of government with massive massive expenditure of resources and
+lives to defend ourselves against a trivial risk whereas guaranteed risks
+and you mentioned as one of them you mentioned traffic fatalities and even
+risks that are not here but are
+plausible enough to worry about like pandemics like nuclear war receive
+far too little attention the in presidential debates there's no discussion of how to minimize the risk
+of nuclear war lots of discussion of terrorism for example and and so we I
+think it's essential to calibrate our budget of fear worry concern planning to
+the actual probability of harm yep so let me ask this then this question
+so speaking of imagined ability you said it's important to think about reason and
+one of my favorite people who who likes to dip into the outskirts of reason
+through fascinating exploration of his imagination is Joe Rogan oh yes you so
+who has through reason used to believe a lot of conspiracies and through a reason has stripped away a lot of his beliefs
+in that way so it's fascinating actually to watch him through rationality kind of
+throw away that ideas of Bigfoot and 9/11 I'm not sure exactly trails I don't
+know what the leaves in yet but you no longer know believed in that's right no either he's become a real force for for good yeah so you were
+on the Joe Rogan podcast in February and had a fascinating conversation but as far as I remember didn't talk much about
+artificial intelligence I will be on his podcast in a couple weeks Joe is very much concerned about
+existential threat away I am not sure if you're this is why I was I was hoping that you would get into that topic and
+in this way he represents quite a lot of people who look at the topic of AI from 10,000 foot level so as an exercise of
+communication he said it's important to be rational and reason about these things let me ask if you were to coach
+me as AI researcher about how to speak to Joe and the general public about AI
+what would you advise well I'd the short answer would be to read the sections that I wrote an Enlightenment I know
+about AI but a longer reason would be I think to emphasize and I think you're very well positioned as an engineer to
+remind people about the culture of engineering that it really is safety oriented that another discussion in
+enlightenment now I plot rates an accidental death from various causes
+plane crashes car crashes Occupational accidents even death by lightning
+strikes and they all plummet because the culture of engineering is how do you
+squeeze out the the lethal risks death by fire death by drowning death by
+asphyxiation all of them drastically declined because of advances in engineering then I gotta say I did not
+appreciate until I saw those graphs and it is because exactly people like you
+who stamp at night thing oh my god it is what a mime is what I mean what I'm inventing likely to hurt people and to
+deploy ingenuity to prevent that from happening now I'm not an engineer although I spent 22 years at MIT so I
+know something about the culture of engineering my understanding is that this is the way this is what you think if you're an engineer
+and it's essential that that culture not be suddenly switched off when come start
+official intelligence so I mean fact that could be a problem but is there any reason to think it would be switched off I don't think so and one there's not
+enough engineers speaking up for this way for this the excitement for the
+positive view of human nature what you're trying to create is the positivity like everything we try to
+invent is trying to do good for the world but let me ask you about the psychology of negativity it seems just
+objectively not considering the topic it seems that being negative about the future makes you sound smarter than me
+positive about the future irregardless of topic am I correct in the observation and if you if so why do you think that
+is yeah I think that I think there is that that phenomenon that as Tom Lehrer
+the satirist said always predict the worst and you'll be hailed as a prophet it may be part of our overall negativity
+bias we are as a species more attuned to their negative than the positive we dread losses more than we enjoy gains
+and that mate might open up a space for
+prophets to remind us of harms and risks and losses that we may have overlooked so I think there there there is that
+asymmetry so you've written some of my favorite books all over the place so
+starting from enlightenment now to the better angels of our nature blank slate how the mind works the the
+one about language language instinct bill gates big fan to set of your most
+recent book that it's my new favorite book of all time so for you as an author
+what was the book early on in your life that had a profound impact on the way
+you saw the world certainly this book enlightenment now is influenced by David
+Deutsch as the beginning of infinity a rather deep reflection on knowledge and
+the power of knowledge to improve the human condition the and with bits of
+wisdom such as that problems are inevitable but problems are solvable given the knowledge and that solutions create new
+problems have to be solved in their turn that's I think a kind of wisdom about the human condition that influenced the
+writing of this book there's some books that are excellent but obscure some of which I have on my page of my website I
+read a book called the history of force self-published by a political scientist named James Payne on the historical
+decline of violence and that was one of the inspirations for the better angels of our nature the what about early on if we look back
+when you're maybe a teenager loved a book called one two three infinity when
+I was a young adult I read that book by George gamma the physicist very
+accessible in humorous explanations of relativity of number theory of
+dimensionality high multiple dimensional spaces in a way that I think is still
+delightful seventy years after it was published I like that the time life science series these were books that
+would arrive every month my mother subscribed to each one on a different topic one would be on electricity what
+would be on forests want to be learned may evolution and then one was on the mind and I was just intrigued that there
+could be a science of mind and that that book I would cite as an influence as well then later on you fell in love with
+the idea of studying the mind that's one thing that grabbed you it was one of the things I would say the I read as a
+college student the book reflections on language by Noam Chomsky spent most of
+his career here at MIT Richard Dawkins two books the blind watchmaker and The
+Selfish Gene or enormous Li influential partly for mainly for the content but
+also for the writing style the ability to explain abstract concepts in lively
+prose Stephen Jay Gould first collection ever since Darwin also excellent example
+of lively writing George Miller psychologist that most psychologists are
+familiar with came up with the idea that human memory has a capacity of seven
+plus or minus two chunks and then Sophia's biggest claim to fame but he wrote a couple of books on language and
+communication that I've read it's an undergraduate again beautifully written and intellectually deep wonderful Steven
+thank you so much for taking the time today my pleasure thanks a lot Lex
+you
 
 ----------
 
 -----
+
 --43--
 
 -----
-Date:
-Link:
-Transcription:
+Date: 2018.09.29
+Link: [# MIT Human-Centered Autonomous Vehicle](https://www.youtube.com/watch?v=OoC8oH0CLGc)
+Transcription: 
 
-paste here
+this is the human center autonomous
+vehicle one of the main ideas underlying
+our work is that solving the task of
+autonomous driving is more complicated
+and more fascinating than the strictly
+robotics challenges of localization
+mapping perception control and planning
+you also have to enable the vehicle to
+perceive predict communicate and
+collaborate with human beings
+the humans inside the car like the
+driver and the passengers and the humans
+outside the car like the pedestrians
+cyclists the drivers of other vehicles
+and even tell the operators the studies
+the code the data and the demos we
+release all consider autonomous driving
+in this kind of human centered way where
+the control is transferred from human to
+machine back to human based on the state
+of the external driving environment and
+the state of the driver what we'd like
+to demonstrate today is the basics
+voice-based transfer of control from
+human to machine based on whether the
+driver is paying attention to the road
+or not inside we have two cameras on the
+Description of components
+driver one on the driver's face one on
+the driver's body with two cameras
+looking at the external roadway and we
+have a few other cameras for filming
+purposes there's a center stack display
+showing who's in control of the vehicle
+human or machine so currently the human
+is in control of the vehicle let's drive
+let's split the car and drive on the
+center stack display it shows the gear
+as drive
+the perception control and driver states
+sensing algorithms you see today I'm
+running in real-time but the
+visualizations you're seeing in video
+are done in offline post-processing our
+perception system today is vision based
+using two neural networks one is doing
+road segmentation the other is doing
+object detection of vehicles cyclists
+pedestrians traffic science traffic
+lights the acceleration braking and
+steering of the car is performed by PID
+controllers the driver states sensing
+that we're showing today is glance
+region classification and that's
+performed using 3d convolutional neural
+networks high-level planning decisions
+to transfer control or to stop the
+vehicle are performed by a decision
+fusion algorithm that combines risk
+factors in the external environment and
+driver state whether the drivers paying
+attention to the road or not safety for
+us is the number one priority always we
+are on a test track the vehicles and
+pedestrians here today are all part of
+our team all part of the demonstration
+there's another safety driver in the car
+that can stop the vehicle at any moment
+by pressing a single button ok
+Tweeting
+let's engage any distracting activity
+Twitter and let's send a tweet
+I'm typing
+this tweet
+while driving in the MIT semi autonomous
+vehicle
+on
+a test track
+Lex you appear distracted would you like
+me to take over yes please
+great I am taking control of steering
+and braking the car is now in control as
+the center stack display shows so I will
+continue with the tweet the car knows
+that I am NOT
+paying attention
+and has taken control after asking me
+nicely for it
+video out tomorrow okay here goes
+nothing it's posted very well might be
+the first tweet ever sent from an
+autonomous vehicle while it's driving
+itself
+Pedestrian
+elevated driving risk detected I am
+stopping for a pedestrian Lex pedestrian
+is blocking our lane of travel should i
+honk
+no please shift gear to park great we
+are now in park
+Outro
+that was a demo of the basics perception
+motion planning driver state sensing
+transfer control and tweeting and we
+have a lot more to explore together our
+team is working on various aspects of
+human and artificial intelligence toward
+our mission to save lives through
+effective human robot collaboration
+you
+you
 
 ----------
 
 -----
+
 --42--
 
 -----
-Date:
-Link:
+Date: 2018.09.25
+Link: [# Arguing Machines: Tesla Autopilot vs Neural Network](https://www.youtube.com/watch?v=YBvcKtLKNAw)
 Transcription:
 
-paste here
+our group at MIT is studying semi
+autonomous vehicles now that includes
+both inward-facing census for driver
+state sensing and outward-facing sensors
+for scene perception and the control
+planning motion planning tasks now today
+we'll look at the second part of that at
+the perception and the control of the
+vehicle on the dashboard of the Tesla
+there's a Jetson tx2 with a camera
+sitting on top of it
+we have a neural network and two end
+running on the Jetson
+that's detecting the forward roadway
+taking it a sequence of images and
+producing steering commands we also have
+here a Tesla that has a perception
+control system on it in the form of
+autopilot it's using a monocular camera
+this is the hardware version one it's
+making decisions based on this single
+video stream producing steering commands
+and we'll look at two systems arguing
+today auto pilot arguing against a
+neural network and we'll see what comes
+out in this concept Tesla autopilot is
+Concept overview
+the primary AI system and the entire
+neural network is the secondary AI
+system and the disagreement between the
+two is used to detect challenging
+situations and seek human drivers
+supervision it is important to clarify
+that this is not a criticism of auto
+pilot of the two it is by far the
+superior perception control system the
+question is whether the argument between
+the two systems can create transparency
+that leverage the human driver as a
+supervisor of challenging driving
+scenarios scenarios that may have not
+otherwise been caught by auto pilot
+alone this is a general framework for
+supervision of blackbox AI systems that
+we hope can help save human lives in the
+paper accompanying this video we show
+that we can predict driver initiate
+disengagement of autopilot with a simple
+threshold on the disagreement of
+steering decisions we believe this is a
+very surprising and powerful result that
+hopefully may be useful for human
+supervision of any kind of AI system
+that operates in the real world and
+makes decisions where errors may result
+in loss of human life
+a quick note that we use the intensity
+of red color on the disagreement
+detected text as the visualization of
+disagreement magnitude in retrospect
+this is not an effective visualization
+because visually it looks like the two
+systems are constantly disagreeing they
+are not the intent of the on-road demo
+is to show successful real-time
+operation of the arguments framework the
+paper that goes along with this approach
+on the other hand is where we show the
+predictive power of this approach on
+large-scale naturalistic data
+In-car description of components
+inside the car we have a screen over the
+center stack and a Jetson tx2 with a
+camera on top of it the camera is
+feeding a video stream into the Jetson
+Island Jetson is a neural network that's
+predicting the steering command taking
+an end to end the video stream from the
+forward roadway and as an output for the
+neural network giving a steering command
+that's being shown as pink on this
+display the pink line is the steering
+suggested by the neural network cyan
+line is the steering of the car of the
+Tesla that we're getting from the can
+bus so when I moved the steering wheel
+around we see that live in real-time
+mapped on this graphic here showing in
+cyan the steering position of the car
+and up top is whenever the to disagree
+significantly the disagreement detected
+red sign appears showing that there's a
+disagreement and I'll demonstrate that
+on-road we're now driving on the highway
+On-road demonstration
+with the Tesla being controlled by
+autopilot and the Jetson tx2 on the
+dashboard with a camera plugged in has a
+neural network running on it and to end
+and the inputs of the neural network is
+a sequence of images and the output of
+steering commands now there's 2
+perception control systems working here
+one is autopilot the other one is an
+end-to-end neural network both the
+steering commands from both are being
+visualized on the center stack here in
+pink is the output from the neural
+network and cyan is the output from
+autopilot and whenever there is some
+disagreement or a lot of disagreement up
+on top there's a disagreement detected
+text that becomes more intensely red the
+greater the disagreement at the bottom
+of the screen is the input to the neural
+network that is a sequence of images
+that are subtracted from each other
+capturing the temporal dynamics of the
+scene
+all right so why is this interesting
+there is two perception control systems
+- AI systems taking in the external
+world using a monocular camera and
+making a prediction making steering
+commands to control the vehicle now
+whenever those two systems disagree
+that's interesting for many reasons one
+the disagreement is an indicator that
+from a visual perspective from a
+perception perspective the situation is
+challenging for those systems therefore
+you might want to bring the drivers
+attention to the situation so they take
+control back from the vehicle it's also
+interesting for validating systems so if
+you propose a new perception control
+system you can imagine putting it into a
+car to go along with autopilot or with
+other similar systems to see how well
+that new system works with autopilot 1in
+disagrees when it doesn't and the
+disagreement from the computer vision
+aspect is also really interesting for
+detecting edge cases so the challenge
+you think about driving or for building
+autonomous vehicles is that most of
+driving is really boring the interesting
+bits happen rarely so one of the ways to
+detect those interesting bits the edge
+cases is to look at the disagreement
+between these perception systems to look
+at cases when the two perception systems
+diverge and therefore they struggle with
+that situation finally when the driver
+is controlling and takes control of the
+vehicle which I am doing now and when my
+steering decisions my turning of the
+steering wheel is such that the neural
+network disagrees it perhaps means that
+I am either distracted or the situation
+is visually challenging therefore I
+should pay extra attention so it makes
+sense for the system to warn you about
+that situation
+now the interesting thing about Tesla
+and the autopilot system is that if we
+instrument a lot of these vehicles as we
+have we've instrumented 20 Tesla's as
+part of the MIT autonomous vehicle study
+and are collecting month
+month after month year after year now
+data video in and video out we can use
+that data to train better systems to
+Train perception systems control motion
+planning and the end-to-end network that
+we're showing today we have the
+large-scale data to train the the
+learning based perception and control
+algorithms now an important thing to
+mention is that these systems were
+designed to work on the highway at
+highway speeds
+so the kind of disagreement is trained
+to detect is disagreement between
+autopilot and the neural network in
+highway situations so the visual
+characteristics of lane markings
+deteriorating or construction zones and
+so on now the details and if you're
+interested in more can be found in a
+paper titled arguing machines
+you
 
 ----------
 
@@ -702,23 +7570,1133 @@ paste here
 --41--
 
 -----
-Date:
-Link:
+Date: 2018.05.29
+Link: [# Christof Koch: Consciousness | Lex Fridman Podcast #2](https://www.youtube.com/watch?v=piHkfmeU7Wo)
 Transcription:
 
-paste here
+as part of MIT course success zero nine nine on artificial general intelligence I got a chance to sit down with
+Christophe Coe who's one of the seminal figures in neurobiology in neuroscience and
+generally in the study of consciousness he is the president the chief scientific
+officer of the Allen Institute for brain science in Seattle from 1986 to 2013 he
+was the professor at Caltech before that he was at MIT he is extremely well sited
+over a hundred thousand citations his research his writing his ideas have had
+big impact on the scientific community and the general public in the way we think about consciousness in the way we
+see ourselves as human beings he's the author of several books the quest for consciousness and your biological
+approach and a more recent book consciousness confessions of a romantic reductionist if you enjoy this
+conversation this course subscribe click the little bell I got to make sure you never miss a video and in the comments
+leave suggestions for any people you'd like to see be part of the course or any
+ideas that you would like us to explore thanks very much I hope you enjoy okay before we delve into the beautiful
+mysteries of consciousness let's zoom out a little bit and let me ask do you
+think there's intelligent life out there in the universe yes I do believe so we
+have no evidence of it but I think the probabilities are overwhelming in favor of it give me a universe where we have 10 to
+the 11 galaxies and each galaxy is between 10 to the 11 10 to the 12 stars
+and we know more stars have one or more planets so how does that make you feel it still makes me feel special because I
+have experiences I feel the world I experience the world and independent of
+whether there are other creatures out there I still feel the world and I have access to this world in this very
+strange compelling way and that's the core of human existence now he said
+human do you think if those intelligent creatures are out there do you think they experience
+their world yes they evolved if they are product of natural evolution if it would
+have to be they will also experience their own world so consciousness isn't just a human your ID it's it's much
+wider it's probably it may be spread across all of biology we have the only thing that we have special is we can
+talk about it of course not all people can talk about the babies and little children can talk about the patients who
+have have a Stoke and let's see the left inferior frontal gyrus can talk about it but most normal adult people can talk
+about it and so we think that makes us special compared to little monkeys a dogs or cats or mice or all the other
+creatures that we share the planet with but all the evidence seems to suggest that they to experience the world and so
+it's overwhelmingly likely that other alien that aliens would also experience their world of course differently
+because they have a difference in serum they've different sense of they had a very different environment but the fact
+that I would strongly suppose that they also have experiences if your pain and
+pleasure and see in some sort of spectrum and here and have all the other
+sensors of course their language if they have one would be different so we might not be able to understand their poetry
+about the experiences that they have that's correct right so in a talk in a
+video I've heard you mention support so a DAC sound that you came up with
+there you go up with as part of your family when you were young first of all you're a technically a Midwestern boy
+you just secondly yes after that you
+traveled around a bit and it's a little bit of the accent you talked about support so the DAC solid having these
+elements of humaneness of consciousness that he discovered so I just wanted to
+ask can you look back and you childhood and remember one was the first time you realized you yourself sort of from a
+third-person perspective or our conscious being this idea of you know
+stepping outside yourself and seeing well there's something special going on here in my brain I can't really actually
+it's a good question I'm not sure I recall a discrete moment I mean you take it for granted because that's the only
+world you know at the only world I know you know it's a world of seeing and hearing voices and
+touching and all the other things so it's only much later at early in my
+undergrad days when I became when I enrolled in physics and in philosophy that I really thought about it and
+thought well this is really fundamentally very very mysterious and there's nothing really in physics right
+now that explains his transition from the physics of the brain to feelings where do the feelings come in all right
+so you can look at the foundational equation of quantum mechanics general relativity you can look at the period table of the elements you can look at
+the endless 80g seat chat and our genes and no way is consciousness yet I wake
+up every morning to a world where I have experiences and so that's the hub of the
+ancient mind-body problem how do experiences get into the world so what
+is consciousness experience consciousness is any any conte any
+experience some people call it subjective feeling some people call it phenomenon phenomenology some people
+call it quality of their philosophy all denote the same thing it feels like something in the famous word of as if a
+loss at Thomas Nagel it feels like something to be a bad or to be a you know an American out to be angry or to
+be sad or to be in love or to have pain and that is what experience is any
+possible experience could be as mundane as just sitting in a chair could be as exalted as you know having a mystical
+moment you know in in deep meditation those are just different forms of experiences experience so if you were to
+sit down with maybe the next skip a couple generations of IBM Watson something that one jeopardy
+what is the gap I guess the question is between Watson that might be much more
+smarter than you then ask then all any human alive but may not have experience
+what is the gap well so that's a big big question that's occupied people for the
+last certainly last 50 years since we you know since he happened the birth of
+of computers that's a question on chilling try to answer and of course he did it in this indirect way by proposing
+its test and operational test so but that's not really that's you know he
+tried to get it what does it mean for person to think and then he had this test like you lock him away and then you
+have a communication with him and then you try to to guess after while whether that is a person or whether it's a
+computer system there's no question that now or very soon you know Alexa or Siri or you know
+Google now will pass this test right and you can game it but you know ultimately certainly in your generation
+there will be machines that will speak with complete poise that will remember everything you ever said they'll
+remember every email you ever had like like Samantha remember in the movie her yeah it's no question it's gonna happen
+but of course the key questions is does it feel like anything to be Samantha in a movie home too does it feel like
+anything to be Watson and there one has to be very very strongly think they're
+two different concepts here that we call mingle there is the concept of intelligence natural or artificial and
+there is a concept of consciousness of experience natural or artificial those are very very different things now
+historically we associate consciousness with intelligence why because we live in
+a world leaving aside computers of natural selection where we are surrounded by creatures either our own kin that are
+less or more intelligent or we go across species some some are more adapted to
+particular environment others are less a tablet whether it's a whale or dog or you go talk about a Paramecium or a
+little worm alright and and we see the complexity of the nervous system goes from one cell to two specialized cells
+to a worm that has three net that has 30% of its cells and nerve cells to creature like also like a blue whale
+that ever has had a billion even more nerve cells and so they based on behavioral evidence and based on the
+underlying neuroscience we believe that as these creatures become more complex they are better adapted to it to their
+particular ecological niche and they become more conscious probably because
+their brain calls and we believe consciousness unlike the ancient ancient people thought most almost every cult
+thought that consciousness with intelligence has to do with your heart mm-hmm and you still to see that today
+you see honey I love you is on my house yes but what you should actually say no honey I love you was all my lateral
+hypothalamus and for Valentine's Day you should give you a sweetheart you know hypothalamic same piece of
+chocolate another heart shaped chocolate right and you know so we still have this language but now we believe it's a brain and so we see brains of different
+complexity and we think well they have different levels of consciousness they're capable of different experiences
+[Music] but now we confront a world where we
+know where we're beginning to engineer intelligence and it's radical unclear
+whether the intelligence we're engineering has anything to do with consciousness and whether it can experience anything because
+fundamentally what's the difference intelligence is about function intelligence no matter exactly how you
+define it sort of an adaptation to new environments being able to learn and quickly understand you know you know the
+setup of this and what's going on and who the actors and what's gonna happen next gets all about function consciousness is
+not about function consciousness is about being it's in some sense much
+fundamental you can see folks that you can see this in two in several cases you
+can see it for instance in the case of the clinic when you're dealing with patients who are let's say had a stroke
+or had were in traffic accident etc they're pretty much in mobile Terri
+Schiavo you may have heard historically she was a person here in the in the 90s
+in flora - heart Stood Still she was reanimated and for the next fourteen years she was what's called in a
+vegetative state so there are thousands of people in a vegetative state so they're you know they're you know they're like this occasionally they open
+their eyes for two three four five six eight hours and then close their eyes they have sleep-wake cycle occasionally
+they have behavior they do you know there but there's no way that you can
+establish a lawful relationship between what you see or the doctor says or the mom says and what the patient does
+correctly so so the so the there isn't any behavior yet in some of these people
+there is still experience you can you can design and build brain machine
+interfaces where you can see there's they still explain something and of course at these cases of locked-in state
+there's a famous book called that the diving bell and the butterfly well yet an editor French editor here the stroke
+in the in the brainstem unable to move except his vertical eyes eye movement he
+could just move his the eyes up and down and he dictated an entire book and some
+people even lose this at the end it all the evidence seems to suggest that they're still in there in this case you
+have no behavior your consciousness second cases tonight like all of us
+you're gonna go to sleep close your eyes you go to sleep you will wake up inside your sleeping body and you will have
+conscious experiences they are different from everyday experience you might fly you might not be surprised that you're
+flying you might meet a long-dead pet childhood dog and you're not surprised that you're meeting them you know but
+you have conscious experience of love of hate you know they can be very emotional your body during this stage typically to
+them state sends an active signal to your motor neurons to paralyze you it's called atonia right because if you don't
+have that like some patience what do you do you act out your dreams you get proximal and behavioral disorder which
+is a bad which is bad juju to get okay third case is pure experience so I
+recently had this what some people call a mystical experience I went to
+Singapore and went into a flotation tank yeah alright so this is a big tub filled
+was ever with water that's a body temperature and Epsom salt you still completely naked you lie inside of it
+you close the layer Ignace complete darkness soundproof so very quickly you
+become body less because you're floating and you're naked you have no rings no watch no nothing you don't feel your
+body anymore it's no sound soundless there's no surf if a photon a sightless
+timeless because after while early on you actually hear your heart but then that you you sort of adapt to that and
+then sort of the passage of time ceases yeah and if you train yourself like in a
+meditation not to swing early on you think aloud you it's a little bit spooky you feel somewhat uncomfortable or you
+think well I'm gonna get bored but which I do not to think actively you become mindless so there you are body
+less timeless you know sound less sightless mindless but you're in a
+conscious experience you're not asleep you're not asleep you're you you are being of pure your pure being there
+isn't any function you aren't doing any computation you're not remembering you're not projecting you're not planning yet you're fully conscious
+you're fully conscious there's something going out there it could be just a side effect so what is the the you mean
+epiphenomenon so what is the salaat effect meaning why what what what what
+is the function of you being able to lay in this sense sensory free deprivation
+tank and still have a conscious experience additionally myself obviously we didn't evolve with flotation tanks in our in
+our environment I mean so biology is not totally bad at asking why question to
+the nominal question why do we have two eyes why don't we have four eyes or three eyes or something well no there's
+probably a there is a function to that but it's we're not very good at answering those questions we can
+speculate endlessly where biology is very or science is very good about mechanistic question why is that charged in the universe right we find a certain
+universe where there positive negative charges why why does quantum mechanics Hall you know what
+why doesn't some other theory hold quantum mechanics hold in our universe is very unclear why so Tillie nominal
+question why questions are difficult to answer clearly there's some relationship between complexity brain processing
+power and consciousness but however in these cases in these three examples RK I
+gave one is an everyday experience at night the other one is a young Tom on third one it's in principle you can
+everybody can have these sort of mystical experiences you have a dissociation of function form of
+intelligence from from conscious no consciousness you caught me asking a
+white question let me ask a question that's not a white question you're giving a talk later today on the Turing
+test for intelligence and consciousness drawing lines between the two so is there a scientific way to say there's
+consciousness present in this entity or not and to anticipate your answer
+because you also there's a neurobiological answer so we can test a human brain but if you take a machine brain that you
+don't know tests for yet how would you even begin to approach a test if there's
+consciousness present in this thing okay that's a really good question so let me take in two steps so as you point out
+for for for for humans let's just stick with humans there's now a test called
+the zap and zip it's a procedure where you ping the brain using transcranial magnetic stimulation you look at the
+electrical reverberations essentially using EEG and then you can measure the complexity of this plain response and
+you can do this in a way people in asleep normal people you can do it in a wake people and then anesthetize them
+you can do it in patients and it's it it has hundred percent accuracy that in all
+those cases when you're clear the patient or the person is either conscious or unconscious the complexity is either high or low and then you can
+adopt these techniques to similar creatures like monkeys and dogs and and and mice that have very similar brains
+now of course you you point out that may not help you because we don't have a cortex you know and if I send a magnetic
+pulse into my iPhone or my computer it's probably gonna break something so we don't have that so what we need
+ultimately we need a theory of consciousness we can't just rely on our
+intuition our intuition is well yeah if somebody talks they're conscious however then they're all these page children
+babies don't talk right but we believe that that the babies also have conscious experiences right and then there are
+these patients I mentioned did and they don't talk when you dream you can't talk because you're paralyzed so so what
+would we ultimately need we can't just rely on our intuition we need a theory of constants that tells us what is it
+about a piece of matter what is it about a piece of highly excitable matter like the brain or like a computer that give
+rise to conscious experience we all believe none of us believe anymore in the old story it's a soul but that used
+to be the most common explanation that most people accept that in still a lot of people today believe well there's there's God and doubt only us was a
+special thing that animals don't have Rene Descartes famously said a dog if he hit it with your carriage may Yelp me
+cry but it doesn't have this special thing it doesn't have the magic the magic salt oh yeah
+it doesn't have restaurants the soul now we believe that isn't the case anymore so what is the difference between brains
+and and these guys silicon and in particular once a behavior matches so if
+you have cereal of tea or Alexan 20 years from now that she can talk just as good as any possible human what counts
+do you have to say she's not conscious in particular if she says it's of course he well cuz I'm conscious you are sir
+are you doing and she'll say well you know they will generate some way to yeah she'll behave like a like a person now
+there are several differences one is so this relates to the problem they're very
+hard why is consciousness a hard problem it's because it's subjective right only I
+have it for only I know I've direct experience of my own consciousness I
+don't have experience your consciousness now I assume as a sort of Bayesian person who believes in probability
+theory and all of that you know I can do I can do an abduction to the to the best available facts I deduce your brain is
+very similar to mine if I put you in a scanner your brain is graphic on a behavior same with I do if if you know
+if I give you this muesli and ask you how does it taste you tell me things that you know that that I would also say
+more or less I yes so I infer based on all of that that you're conscious now we're silly I can't do that so there I really need a theory that tells me what
+is it about above any system this or this it makes it conscious and we have
+such a theory yes so the the integrator information theory is but let me first
+maybe his introduction for people are not familiar the car can you you talked
+a lot about pants psychism can you describe what physicalism versus dualism
+this you mentioned the soul what what is the history of that idea what the idea
+psychism although the debate really out of which pan site-- chasm can emerge of
+dualism versus physicalism or do you not see pants psychism is fitting into that
+and no you can argue there's some well ok so let's step back so kemp psychism is a very ancient belief that's been
+around I mean Plato and us talks about it modern philosophers talk
+about it of course in Buddhism the idea is very prevalent that I mean the
+different versions of it one version says everything is in sold everything arcs and stones and dogs and people and
+forests and iPhones all of us all right all matter is in soil that's sort of one version another version is that all
+biology all creatures small a large from a single cell to a giant sequoia tree
+feel like something that's one I think is somewhat more realistic so the different were willing me invite
+feel like something I have have feeling have some kind of like some it may well
+be possible that it feels like something to be a Paramecium I think it's pretty likely it feels like something to be a
+bee or a mouse or dog sure so okay so so
+that you can see that's also so pants item is very bored and you can to some
+people for example Bertrand Russell try to advocate this for this idea it's
+called gazelian monism that that pant psychism is really physics viewed from
+the inside so the idea is that physics is very good at describing relationship
+among objects like charges or like gravity all right you know this card the
+relationship between curvature and mass distribution okay that's the relationship among thing physics doesn't really describe the ultimate reality
+itself it's just relationship among you know quarks or all these other stuffs from like a third-person observer yeah
+yes and consciousness is what physics feels from the inside so my conscious
+experience it's a way the physics of my brain particular my cortex feel from the inside and so if you are Paramecium you
+gotta remember you see Paramecium well that's a pretty dumb creature this but it has already a billion different
+molecules probably you know five thousand different proteins assembled in
+a highly highly complex system that no single person no computer system so far on this planet has ever managed to
+accurately simulate its complexity vastly escapes us yes and it may well be that that little thing feels like a tiny
+bit now it doesn't have a voice in the head like me it doesn't have expectations you know it doesn't have all that complex things but it may well
+if you like something yep so this is really interesting can we draw some lines and maybe try to understand the
+difference between life intelligence and consciousness how do you see all of
+those if you have to define what is a living thing what is a conscious thing
+and what is an intelligent thing do those intermix for you or they totally separate okay so a that's a question
+that we don't have a full answer right after a lot of this stuff we're talking about today is full of mysteries and
+fascinating ones right it was approximately can go to Aristotle who's probably the most important scientists
+and philosophers ever lived in certainly in Western culture he had this idea it's called halo morphism it's quite popular
+these days that there are different forms of soul the soul is really the form of something he saw he says all
+biological creature have a vegetative soul that's life principle today we think we understand something molded
+it's biochemistry nonlinear thermodynamics all right then he says they have a sensitive so only animals
+and humans have also a sensitive soul or an appetitive soul they they can see they can smell and they have drives they
+want to repeat use they want to eat etc and then only humans have what he called a rational soul okay right and that idea
+that made it into christen dome and then the rational soul is the one that lives forever he was very young he wasn't
+really I mean different readings of Aristotle give different was that did he believe that rational soul was immortal
+or not I probably think he didn't but then of course that made it into its who Plato in the Christianity and then this
+world became immortal and then became the connection where after to God now you so you ask me essentially you what
+does our modern conception of these free Aristotle would have called them different forms life we think we know
+something about it at least life on this planet right although we don't understand how to originate it but it's it's been difficult to rigorously pin
+down you see this in modern definition of death it's in de facto right now
+there's a conference ongoing again that tries to defined legally and medically what is death it
+used to be very simple des is you stop breathing your heart stops beating you're dead right yeah totally unconverted
+if you're unsure you wait another 10 minutes if the patient doesn't breathe you know he's well now we have ventilators we have
+half a pacemaker so it's much more difficult to define what death is typically des is defined at the end of
+life and life is defined before yes so before that okay so we don't have really
+very good definitions intelligence we don't have a rigorous data definition we know something how to measure it's
+called IG IQ or G factors right and and we're beginning to build it in in a
+narrow sense right like go alphago and and and and Watson and you know Google
+cars and uber cars and all of that that still narrow AI and some people are thinking about the artificial general
+intelligence but roughly as we said before it's something lose ability to learn and to adapt to new environments
+but that is as I said also it's radical difference from experience and it's very
+unclear if you build a machine that has AGI it's not at all a priori it's not at
+all clear that this machine will have consciousness it may or may not so let's ask it the other way do you think if you
+were to try to build an artificial general intelligence system do you think figuring out how to build artificial
+consciousness would help you get to an AGI so or put another way do you think
+intelligent requires consciousness in human it goes hand in hand
+in human or I think Ambala G consciousness intelligence goes hand in hand quite a solution because the the
+brain evolved to be highly complex complexity via the theory integrated information theory is sort of ultimately
+is what is closely tied to consciousness ultimately it's causal power upon itself and so in evolution evolved systems they
+go together in artificial system particular in digital machines they do not go together and if you asked me
+point-blank is Alexa 20 point O in the year 2041 she
+can easily pass every Turing test is she conscious no even if she claims she's concerts in fact you could even do a
+more radical version of this thought experiment we can build a computer simulation of the human brain you know
+what Henry Markram in the Blue Brain Project or the human brain project in Switzerland is trying to do let's grant him all the success so
+in ten years we have this perfect simulation of the human brain every new one is simulated in hasil Amex and it has motor neurons it
+has a Ibaka's area and of course it'll talk and it'll say hi I just woken up I
+feel great okay even that computer simulation that can imprint some map on to your brain will not be conscious why
+because it simulates it's a difference between the simulated and the real so it simulates the behavior salted with
+consciousness it might be it will if it's done properly will have all the intelligence that that particular person
+they're simulating has but simulating intelligence is not the same as having conscious experiences and I'll give you
+a really nice metaphor that engineers and physicists stupidly get I can write down in Stein's field equation nine or
+ten equations that describe the link in general relativity between curvature and and mass I can do that I can run this on
+my laptop to to predict that the sample the black hole at the center of our galaxy will be so massive that it will
+twist space-time around it so no light can escape I it's a black hole right but funny have you ever won that why doesn't
+this computer simulation suck me in alright it simulates gravity but it
+doesn't have the causal power of gravity it's a huge difference so it's a difference between the real and and the
+simulator just like it doesn't get wet inside the computer when the computer runs code that simulates a weather storm and so in order to have to have
+artificial continents you have to give it the same causal power as a human brain yes you have to build so-called a
+neuromorphic machine that has hardware that is very similar to the human brain not a digital clock for normal computer
+so that's just to clarify though you think that consciousness is not required
+to create human level intelligence it seems to accompany in the human brain
+but for a machine not of court so maybe
+just because this is AGI let's dig in a little bit about what we mean by intelligence so one thing is the G
+factor these kind of IQ tests of intelligence but I think if you maybe
+another way to say so in 2040 2050 people will have Siri that is
+just really impressive do you think people will say serious intelligent yes
+intelligence is this amorphous thing so it to be intelligent it seems like you
+have to have some kind of connections with other human beings in a sense that you have to impress them with your
+intelligence and their feels you have to somehow operate in this world full of
+humans and for that there feels like there has to be something like consciousness so you think you can have
+just the world's best natural NLP system natural language understanding a generation and that will be that will
+get us happy and say you know what we've created an AGI I don't know happy no
+well yes I do believe we can get what we call high-level functional intelligence
+particular sort of the G you know this this fluid like intelligence that we
+cherish particularly the place like MIT right in in in machines I see a boy I
+know reasons and I see a lot of reason to believe it's gonna happen very you know over the next 50 years of 30 years
+so for beneficial AI for creating an AI system that's so you mentioned ethics
+that is exceptionally intelligent but also does not do does you know aligns
+its values with our values as humanity do you think then in his consciousness yes I think that that is a very good
+argument that if we're concerned about AI and the threat of a aisle and Nick Bostrom accidentally said I think having
+an intelligent that has empathy right why do we find abusing a dog why do most
+of us find that apartment abusing any animal right why do we find that apartment because we have this thing
+called empathy which if you look at the Greek really means feeling with I feel a compass of empathy I have feeling with
+you I see somebody else suffer that isn't even my conspecific it's not a person it's not a lot but it's not my wife or
+my kids it's it's a dog but I feel naturally most of us not all of us most of us will feel emphatic and so it may
+well be in the long-term interest of survival of Homo sapiens sapiens that if we do build AGI and it really becomes
+very powerful that it has an emphatic response and doesn't just exterminate humanity so as
+part of the full conscious experience to create a consciousness artificial or in
+our human consciousness do you think fear maybe we're gonna get into the
+earlier days with Mitch and so on but do you think fear and suffering are essential to have consciousness do you
+have to have the full range of experience of it to have a system that has experience or can you have a system
+that only has a very particular kinds of very positive experiences look you can have in principle you can people have
+done this in the rat where you implanted electrode in the hypothalamus the pleasure center of the head and the rat
+stimulated some above and beyond anything else it doesn't care about food or natural sex or drink anymore to
+stimulate itself because it's it's such a pleasurable feeling I guess it's like an orgasm just you have you know all day
+long and so a priori I see no reason why you need different forever I need a
+great variety now clearly to survive that wouldn't work but if I'd engineered
+artificially I don't think I don't think you need a great variety of conscious
+expense you could have just pleasure or just fear it might be a terrible existence but I think that's possible at
+least on conceptual logical count cause any real creature whether artificially engineered you want to give it fear the
+fear of extinction that we all have and you also want to give it a positive appetitive states states that it wants
+to that you want the Machine encouraged to do because if they give the Machine positive feedback so you mentioned
+pants.i chasm to jump back a little bit you know everything having some kind of
+mental property how do you go from there to something like human consciousness so
+everything having some elements of consciousness - well is there something special about human consciousness what
+so so just it's not everything like a spoon there's no I the the form of Pam
+Jochum I think about doesn't ask I consciousness - anything like this the spoon my liver however it is the theory the
+integrated information theory does say that system even ones that look from the outside relatively simple Atlee if they
+have this internal causal power they are they it does feel like something the
+theory a poet doesn't see anything what's special about human biologically we know what the one thing that special
+about human is we speak and we have a overblown sense of our own importance
+right we believe we exceptional and where does God's give - - into the universe but the
+but behaviorally the main thing that we have we can plant we can plan over the long term and we have language and that
+gives us enormous amount of power and that's why we are there the current dominant species on the planet
+so you mentioned God you grow up a devout Roman Catholic you know Roman
+Catholic family so you know with consciousness you're sort of exploring
+some really deeply fundamental human things that religion also touches on so
+where does where does religion fit into your thinking about consciousness and you've you've grown throughout your life
+and changed your views and religion as far as I understand yeah I mean I'm now much closer to so I'm not a Roman
+Catholic anymore I don't believe there's sort of this God the God I was I was educated to believe in you know sits
+somewhere in the fullness of time I'll be united in some sort of everlasting bliss I just don't see any evidence for
+that look the world the night is large and full of Wonders right there are many
+things that I don't understand I think many things that we as a cult I look we don't even understand more than four
+percent of all the universe right dark matter dark energy we have no idea what it is maybe it's lost socks what do I
+know so so all I can tell you is it's a
+sort of mom my current religious or spiritual sentiments much closer to some form of Buddhism can you - without the
+reincarnation unfortunately there's no evidence for in reincarnation so can you describe the
+way Buddhism sees the world a little bit well so the you know they talk about so when when I spent several meetings with
+with the Dalai Lama and what always impressed me about him he really unlike for example at either the Pope was some Cardinal he
+always emphasized minimizing the suffering of all creatures so they have this from the early beginning they look
+at suffering in all creatures not just in people but in in everybody this universal and of course by degrees right
+in an animal Jerell will have less is less capable of suffering than a then a well developed
+normally developed human and they think consciousness pervades in this universe
+and they have these techniques you know you can think of them like mindfulness etc and meditation that tries to access
+sort of what they claim of this more fundamental aspect of reality I'm not sure it's more fundamentalist I think
+about it there's a physical and then this is inside view consciousness and those are the two aspects that's the
+only thing I've I have access to in my life and you gotta remember my conscious experience and your conscious experience
+comes prior to anything you know about physics comes PI to knowledge about the universe and atoms and super strings and
+molecules and all of that the only thing you directly are acquainted with is this world that's populated with with things
+in images and and sounds in your head and touches on all of that I actually have a question so and it sounds like
+you kind of have a rich life you talk about rock climbing and it seems like
+you really love literature and consciousness is all about experiencing things so do you think that has helped
+your research on this topic yes particular if you think about it the
+the various states so for example you do our climbing or now I do oink-cool going and a bike every day you
+can get into this thing called the zone and I've always I want to I want to Bob about a particular with respect to
+consciousness because it's a strangely addictive state you want to you want to appear I mean once people have it once
+you want to keep on going back to it and you wonder what is it so addicting about it and I think it's the experience of
+almost close to pure experience because in this in the zone you're not conscious
+over in a voice anymore but there's always this inner voice nagging you right you have to do this you have to do that you have to pay your taxes yet this
+fight was your ex and all of those things are always there but when you're in the zone all of that is gone and your justice in this wonderful state
+while you're fully out in the world a job you're climbing or you're hauling or biking or doing soccer what or whatever
+you're doing and sort of consciousness sort of is is your all action or in this
+case of pure experience you're not action at all but in both cases you experience some aspect of of can't you
+touch some basic part of off of conscious existence that is so basic and
+so deeply satisfying you I think you touch the root of being that's really
+what you're touching there you're getting close to the root of being and that's very different from intelligence
+so what do you think about the simulation hypothesis simulation theory the idea that we all live in a computer
+simulation have you knowit's justice for her I think it's as likely as the
+hypothesis had engaged hundreds of scholars for many centuries are we all just existing in the mind of God right
+right and this is just a modern version of it it's it's it's it's equally plausible people love talking about
+these sorts of things I know their book written is about the simulation hypothesis if that's what people want to do that's fine it seems rather esoteric
+it's never testable but it's not useful for you to think of in those terms so maybe connecting to the questions of
+free will which you've talked about I think vaguely wherever you saying that the idea that there's no free will it
+makes you very uncomfortable so what do you think about free will and from that
+you from a physics perspective or a consciousness perspective what is it all okay so from the physics perspective
+leaving inside quantum mechanics we believe we live in a fully deterministic world right but then comes of course
+quantum mechanics so now we know that certain things on principle not predictable which as you said I prefer
+because the idea that at the initial condition of the universe and then everything else we're just acting out
+the initial condition of the universe that doesn't that doesn't mean it's not a romantic notion no certainly not right
+now when it comes to consciousness I think we do have certain freedom we are much more constrained by a physics of
+course and by our past and by our own conscious desires and what our parents told us and what our environment tells us we we all
+know that our there's hundreds of experiments that show how we can be influenced but finally in the in the
+final analysis when you make a lifetime talk not really about critical decision what you really think should I marriage
+should I go to this school that could should I take this job is that job should I cheat on my taxes or not these
+sort of these are things what you really deliberate and I think under those conditions you are as free as you can be
+when you when you bring your entire being anti conscious being to that
+question and try to analyze it on all the the various condition and then you take you make a decision you are as free
+as you can ever be that is I think what what free will is it's not a will that's totally free to do anything it wants
+that's not possible right so as Jack mentioned yet you actually read a blog
+about books you've read amazing books from I'm Russian from Bulgakov cha oh
+yeah Neil Gaiman Carl Sagan Murakami so what is a book that early in your life
+transformed the way you saw the world something that changed your life Nietzsche against did that spokes are
+twister because he talks about some of these problems you know he was one of the first discoverer of the unconscious this is you know a little bit before for
+it when it was in the air and you know he makes all these claims that people
+sort of under the guise or under the mask of charity actually are very non charitable so he sort of really the
+first discoverer of the great land of the of the unconscious and that that
+really struck me and what do you think what do you think about the unconscious what do you think about Freud we think
+about these ideas what's what's just like dark matter in the universe what's over there in that unconscious a lot I
+mean much more than we think this is what a lot of last hundred years of research has shown so I think he was a
+genius misguided towards the end but he was all he started out as a neuroscientist but he contributed he did
+the studies on the on the lamprey he contributed himself to the neon
+hypothesis the idea that there discreet units that we call nerve cells now and then he started then he he vote
+you know about the unconscious and I think it's to there's lots of stuff happening you feel this particular when
+you're in a relationship and it breaks a son alright and then you have this terrible you can have love and hate and
+lust and anger and all of its mixed in and when you try to analyze yourself why am I so upset it's very very difficult
+to penetrate to those basements those caverns in your mind because the prying
+eyes of conscience doesn't have access to those but they're they are made in the amygdala or you know lots of other
+places they make you upset or angry or sad or depressed and it's very difficult to try to actually uncover the reason
+you can go to a shrink you can talk with your friend endlessly you couldn't start finally a story why this happened why you love you or don't
+love or whatever but you don't really know whether that's actually the with that that actually happened because you
+simply don't have access to those parts of the brain and they're very powerful you think that's a feature or a bug of
+our brain the fact that we have this deep difficult to dive into subconscious I think it's a feature because otherwise
+look we are we are see is like any other brain or nervous system or computer we
+are severely band-limited if we if everything I do every emotion I feel
+every my movements I make if all of that had to be another control of consciousness I couldn't I I couldn't I
+wouldn't be here all right so so what you do early on your brain you have to
+be conscious when you learn things like typing or like riding on a bike but then you what you do you train up or out I
+think that involve basal ganglia and stratum you bear you train up different parts of your brain and then once you do
+it automatically like typing you can show you do it much faster without even thinking about it because you've got this highly specialized what Francis
+Crick and I called zombie agents that are sort of that taking care of that while your consciousness can sort of
+worry about the abstract sense of the text you want to write and I think that's true for many many things but for
+the things like all the fights you have with the ex-girlfriend things that you
+would think are not useful to still linger somewhere in the sub conscious so that seems like a bug that
+it would stay there you think it would be better if you can analyze it and then get it out of there or just forget it
+ever happened you know that that seems a very buggy kind of well yeah but in
+general we don't have and that's probably functional we don't have an ability unless it's extremely of cases
+clinical dissociations right when people are heavily abused when they completely repress them they the memory but that
+doesn't happen in in in you know in normal people if we don't have an ability to remove traumatic memories and
+of course we suffer from that on the other hand probably if you had the ability to constantly wipe your memory
+you probably do it to an extent that isn't useful to you so yeah it's a good question with the
+balance so on the books is Jack mentioned correct me if I'm wrong but
+broadly speaking in academia and the different scientific disciplines certainly an engineering reading
+literature seems to be a rare pursuit perhaps I'm wrong in this but that's in
+my experience most people are read much more technical text and do not sort of escape or seek truth in literature it
+seems like you do so what do you think is the value what do you think literature asks the pursuit of
+scientific truth do you think it's good it's useful for given access to much
+wider array of human experiences how valuable do you think it is well if you
+want to understand human nature and nature in general then I think you have to better understand wide variety of
+experiences not just sitting in a lab staring at a screen and having a face flashed onto you've won a million
+pushing a button that's what that's what I used to do that for most psychologists do there's nothing wrong with that but
+you need to consider lots of other strange states you know and literature
+is a shortcut for this well yeah as literature that's that's what literature is all about all sorts of interesting
+experiences that people have the you know the contingency of it the fact that you know women experience what different
+black people experience the world different and you know the one way to explain that is reading all these
+different literature and try to find out you you see everything so relative read eBooks million years ago they
+thought about certain problems very very differently than us today we today like any culture think we know it all that's
+common to every culture every culture believes that at a day they know it all and then you realize well there's other
+ways of viewing the universe and some of them may have lots of things in their favor so I this is a question I wanted
+to ask about time scale or scale in general when you with IIT or in general
+try to think about consciousness try to think about these ideas we kind of
+naturally think in human timescales do you or and also entities that are
+sized close to humans do you think of things that are much larger much smaller its containing consciousness and do you
+think of things that take you know well is this you know it ages eons to uh to
+operate in their conscious cause effect cause effect it's a very good question so I think a lot about small creatures
+because experimentally you know a lot of people work on fly then and bees alright so and most people just think they are
+tormented a this box for heaven's sake right but if you look at their behavior like bees they can recognize individual
+humans they have this very complicated way to communicate if you've ever been involved or you know your parents when
+they bought a house what sort of agonizing decision that is and bees have to do that once a year right when they
+swarm in this spring and then they have this very lab that way they have three nut Scouts it did they go to the individual sites they come back there
+this power this dance literally where they danced for several days they try to recruit other needs is that a complicated decision wait when they
+finally want to make a decision the entire swarm the scouts warm up the entire swarm then go to one location
+they don't go to fifty location they go to one location that the scouts have agreed upon by themselves that's awesome
+if you look at the circuit complexity it's 10 times more denser than anything we have in our brain or the only of a
+million neurons but then you know it's amazing complex complex behavior very complicated circuitry so there's no question they experience something their
+life is very different they're tiny they only live you know for four workers live maybe for two months so I think IIT
+tells you this in principle the substrate of consciousness is the substrate that maximizes the
+cause-effect power over all possible space temple grains so when I think about for example do you know the science fiction
+story the black cloud okay it's a classic by Fred Hoyle the astronomer he has this cloud intervening between the
+earth and the sand the Sun and leading to some sort of to global cooling this
+is written in the 50s it turns out you can using the the radio dish they communicate was actually an entity it's
+actually an intelligent entity and they they sort of they convinced it to move away so here you have a radical
+different entity and in principle IT says well you can measure the the integrated information in principle at
+least and yes if that if the maximum of that occurs at a time scale of month rather than enough it sort of fraction
+of a second yes and they would experience life where each moment is a month rather than or microsecond right
+rather than a fraction of a second in in the human case and so there may be forms
+of constants that we simply don't recognize for what they are because they are so radically different from anything
+you and I are used to again that's why it's good to read or to watch science fiction what we want to think about this
+like this is friend you know Stanislav LEM this polish science fiction writer he wrote Solaris I was turned into a
+Hollywood movie yes his best novel it was in the 60s if there is a very ingenious and engineering background his most
+interesting novel is called the victorious where human civilization they they they they they have this mission to
+this planet and everything is destroyed and they discover machines humans got killed and then these machines took or
+when there was a machine evolution a Darwinian evolution he talks about this very vividly and finally the dominant
+they're the dominant machine intelligence organism that survive they're gigantic clouds of little
+hexagonal Universal salata mater this is what in the Cygnus so typically they are
+all lying on the ground individual by themselves but in times of crisis they can't communicate the assembly into
+gigantic Nets into clouds trillions of these particles and then they become hyper intelligent and they can beat
+anything that Youmans can can control at it it's a very beautiful and compelling where you have an intelligence where
+finally the humans leave the planet they simply unable to understand and comprehend this creature
+and they can say well either we can nuke the entire plan and destroy it or we just have to leave because fundamentally
+it's an it's an alien it's so alien from us and our ideas that we cannot communicate with them
+yeah actually in conversation so your talent US Steel or from brought up is
+that there could be his ideas you know you already have these artificial
+general intelligence like super smart or maybe conscious beings in the cellular Tom so we just don't know how to talk to
+them so it's the language the communication because you don't know what to do with it so that's one sort of
+view is consciousness there's only something you can measure so it's not
+conscious if you can't measure it but so you're making an ontological and an epistemic statement one is there they
+are it's it's just like seeing their multiverses that might be true but I can't communicate with them I don't have
+I can't have any also that's an epistemic argument right so those are two different things so may well be possible look at not in other case
+that's happening right now people are building these mini organoids do you know about this so you know you can take stem cells from under your arm
+put in one dish add four transcription factors and then you can induce them to code to go into large or large they're a
+few millimeters they're like a half a million neurons that look like matter of cells in a dish called mini organoids
+at Howard at Stanford everywhere they're building them it may be well be possible that they're beginning to feel like
+something but we we can't really communicate with them right now so people are beginning to think about the
+ethics of this right so yes he may be perfectly right but they made its one
+question are they conscious or not it's totally separate question how would I know those are two different things right if you could give advice to a
+young researcher sort of dreaming of understanding or creating human level
+intelligence or consciousness what would you say
+follow your dreams read widely no I mean
+I suppose what discipline what what is the pursuit that they should take on is it neuroscience this is a competition
+cognitive science is it philosophy is a computer science or products
+no in in a sense that okay so the only known system that have high level of
+intelligence is Homo sapiens so if you wanted to build it it's probably good to continue to study closely what humans do
+so cognitive neuroscience you know somewhere between cognitive neuroscience on the one hand and some philosophy of
+mind and then ai ai computer science you can look at all the original ideas in
+your network they all came from neuroscience right reinforcement whether it's snarky Minsky building is snarky or
+whether it's you know the early supalen visa experiment that how about that then gave rise to networks and then multi-layer networks so it may well be
+possible in fact some people argue that to make the next big step in AI once we'll realize the limits of deep
+convolutional net works but they can do certain things but they can't really understand but they don't they don't
+really can't really I can't really show them one image I can show you a single image of some knee a pickpocket who
+steals a wallet from a purse you immediately know that's a big pocket right now computer system will just say
+well it's a man it's a woman it's a purse right unless you train this machine on showing it a hundred thousand
+pickpockets right so it doesn't it doesn't have this easy understanding that you have right so so some people
+make yeah I mean in order to go to the next step or you really want to build machines that understand in a way you and I we have to go to psychology we
+need to understand how we do it and our brains enable us to do it and so therefore being on the cusp it's also so
+exciting I'd to try to understand better our nature and then to build to take some of those inside and build them so I
+think the most exciting thing is somewhere in the interface between cognitive science neuroscience AI computer science and philosophy of mind
+beautiful yeah I'd say if there is from the machine learning for from the computer science computer vision perspective many of the researchers kind
+of ignore the way the human brain works nor even psychology or literature or studying the brain I would hope Josh
+Tenenbaum talks about bringing that in more and more and that's yeah so you've
+worked on some amazing stuff throughout your life what's the thing that you're really excited about what's the mystery
+that you would love to uncover in the near term beyond beyond all the mysteries already
+surrounded by well so there's a structure called the Klaus poem this is structures underneath our cortex
+it's yay big you have one on the left am i right underneath this pie underneath a insula it's very sane it's like one
+millimeter it's embedded in in wiring in white matters it's very difficult to image and it has it has connection to
+every cortical region and Francis Crick the last paper you have of all he dictated Corrections the day he died in
+hospital on this paper he now we hyper hypothesize well because it has this unique Anatomy it gets input
+from every cortical area and projects back to every call every cortical area that the function of this structure is
+similar that it's just a metaphor to work the role of a conducting and symphony orchestra
+you've all the different cortical players you have some that do motion some they do theory of mind some that infer social interaction and color I'm
+hearing and all the different modules and cortex but of course what consciousness is consciousness puts it
+all together into one package like the binding problem all of that and this is really the function because it has a
+relatively few nuance compared to cortex but it it talks it is all receive the input from all of them and it projects
+back to all of them and so we are testing that right now we've got this beautiful neuronal reconstruction in the
+mouse called crown of song and town of Thal nuan said there in the closed room that if the most widespread connection
+of any nerve Neon I've ever seen they're very deep yeah you have individually on to sit in the clouds from tiny but then
+they have this very single you have this huge axonal tree that cover both FC and contralateral cortex and and trying to
+turn using you know fancy tools like optogenetics trying to turn those neurons on or off and study it what
+happens in them in the mouse so this thing is perhaps where the parts become
+the whole it very interface it's one of the structures it's a very good way of
+putting it where the the individual parts turn into the whole of the whole of the conscious experience well with
+that thank you very much for being here today thank you jack thank you much
+you
 
 ----------
 
 -----
+
 --40--
 
 -----
-Date:
-Link:
-Transcription:
+Date: 2018.05.25
+Link: [# Ilya Sutskever: OpenAI Meta-Learning and Self-Play | MIT Artificial General Intelligence (AGI)](https://www.youtube.com/watch?v=9EN_HoEk3KY)
+Transcription: 
 
-paste here
+
+Introduction
+welcome back to 6 SZ row 99 artificial general intelligence today we have Ilya
+sutskever co-founder and research
+director of open AI he started in the amel group in Toronto Geoffrey Hinton then at Stanford with an jiaying
+co-founded DNN research for three years as a research scientist at Google brain and finally co-founded open AI citations
+aren't everything but they do indicate impact and his work recent work in the past five years has
+been cited over forty six thousand times he has been the key creative intellect
+and driver behind some of the biggest breakthrough ideas in deep learning and artificial intelligence ever
+so please welcome Ilya alright thanks
+Talk
+for the introduction Lex alright thanks for coming to my talk I will tell you about some work we've done
+over the past year on on meta learning and software open AI and before I dive
+into some of the more technical details of the work I want to spend a little bit
+of time talking about deep learning and why it works at all in the first place
+which I think it's actually not a self-evident saying that they should work one fact it's actually a fact it's
+a mathematical theory that you can prove is that if you could find the shortest
+program the does very very well on your data then you will achieve the best
+generalization possible with a little bit of modification you can turn it into a precise theorem
+and on a very intuitive level it's easy to see what it should be the case if you
+have some data and you're able to find a shorter program which generates this
+data then you've essentially extracted all the all conceivable regularity from
+this data into your program and then you can use these objects to make the best predictions possible like if if you have
+data which is so complex but there is no way to express it as a shorter program
+then it means that your data is totally random there is no way to extract any regularity from it whatsoever now there
+is little known mathematical theory behind this and the proofs of these statements actually not even that hard
+but the one minor slight disappointment is that it's actually not possible at
+least given today's tools and understanding to find the best short program that explains or generates or
+solves your problem given your data this problem is computationally intractable
+the space of all programs is a very nasty space small changes to your
+program result in massive changes in the behavior of the program as it should be it makes sense you have a loop you
+change the inside of the loop of course you get something totally different so the space of programs is so hard at
+least given what we know today search there seems to be completely off the table well if we give up on shorts on
+short programs what about small circuits well it turns out that we are lucky it
+turns out that when it comes to small circuits you can just find the best small circuits circuits that solves the
+problem using back propagation and this is the miraculous fact on which the rest
+of AI stands it is the fact but then you have a circuit and you impose
+constraints on your circuits on your circuit using data you can find the way
+to satisfy these constraints these constraints using that problem by iteratively making small changes
+to the base of your neural network until its predictions satisfy the data what
+this means is that the computational problem that so the back propagation is extremely profound it is circuit search
+now we know that you can solve it solve it always but you can solve it sometimes
+and you can solve it at those times where we have a practical data set it is
+easy to design artificial data sets for which you cannot find the best neural network but in practice that seems to be
+not a problem you can think of training a neural network as solving a neural
+equation in many cases where you have a large number of equation terms like this
+f of X I theta equals y I so you got your parameters and they represent all your degrees of freedom and you use
+gradient descent to push the information from these equations into the parameters satisfy them all and you can see that
+the neural network let's say one with 50 layers is basically a parallel computer
+that is given 50 time steps to run and you can do quite a lot with a 15 with 50
+time steps of a very very powerful massively parallel computer so for example I do I think it is not widely
+known that you can learn to sort sort n
+n bit numbers using a modestly sized neural network with just two hidden
+layers which is not bad it's not self-evident especially since we've been
+taught that sorting requires log n parallel steps with the neural network you can sort successful using only two
+parallel steps so there's some things like an arm is going on now these are
+parallel steps of threshold threshold neurons so they're doing a little bit more work let's answer to the mystery
+but if you've got 50 such layers you can do quite a bit of logic quite a bit of reasoning all inside the neural network
+and that's why it works given the data we are able to find the
+best neural network and because the neural network is deep because it can run computation inside of its act inside
+of its layers the best neural network is worth finding because that's really what
+you need you need something you need the model class which is worth optimizing
+but it also needs to be optimizable and deep neural networks satisfy both of these constraints and this is why
+everything works this is the basis on which everything else resides now I want
+to talk a little bit about reinforcement learning so reinforcement learning is a framework it's a framework of evaluating
+agents in their ability to achieve goals and complicated stochastic environments
+you've got an agent which is plugged into an environment as shown in the figure right here and for any given
+agent you can simply run it many times and compute its average reward now the
+thing that's interesting about the reinforcement learning framework is that there exist interesting useful
+reinforcement learning algorithms the framework existed for a long time it
+became interesting once we realized that good algorithms exist now these are there are perfect algorithms but they
+are good enough to do interesting things and all you want the mathematical
+problem is one where you need to maximize the expected reward now one
+important way in which the reinforcement learning framework is not quite complete is that it assumes that the reward is
+given by the environment you see this picture the agent sends an action while
+the reward sends it an observation in a both the observation and the reward backwards that's what the environment
+communicates back the way in which this is not the case in the real world is that we figure out
+what the reward is from the observation we reward ourselves we are not told
+environment doesn't say hey here's some negative reward it's our interpretation over census that lets us determine what
+the reward is and there is only one real true reward in life and this is
+existence or nonexistence and everything else is a corollary of that so well what
+should our agent be you already know the answer should be a neural network because whenever you want to do
+something dense it's going to be a neural network and you want the agent to map observations to actions so you let
+it be parametrized with a neural net and you apply learning algorithm so I want to explain to you how reinforcement
+learning works this is model free reinforcement learning the reinforcement learning has actually been used in practice everywhere but it's also deeply
+it's very robust it's very simple it's also not very efficient so the way it
+works is the following this is literally the one sentence description of what happens in short try something new add
+randomness directions and compare the result to your expectation if the result
+surprises you if you find that the results exceeded your expectation then
+change your parameters to take those actions in the future that's it this is
+the fool idea of reinforcement learning try it out see if you like it and if you do do more of that in the future and
+that's it that's literally it this is the core idea now it turns out it's not
+difficult to formalize mathematically but this is really what's going on if in a neural network in a regular neural network like this you might say
+okay what's the goal you run the neural network you get an answer you compare it to the desired
+answer and whatever difference you have between those two you send it back to change the neural network that's
+supervised line in reinforcement learning you run in your own network you add a bit of randomness to your action
+and then if you like the result your randomness turns into the desired target
+in effect so that's it trivial now math
+exists without explaining what these equations mean the point is not really
+to derive them but just to show that they exist there are two classes of reinforcement learning algorithms one of
+them is the policy gradient where basically what you do is that you take this expression right there the sum of
+expected we work the sum of rewards and it just crunched through the derivatives you expand the terms iran you do some
+algebra and you get a derivative and miraculously the derivative has exactly
+the form that i told you which is try some actions and if you like them
+increase the log probability of the actions that we truly follows from the math it's very nice when the intuitive
+explanation has a one-to-one correspondence to what you get in the equation even though you have to take my
+word for it if you are not familiar with it that's that equation at the top now there is a different class of
+reinforcement learning algorithms which is a little bit more difficult to explain it's called the Q learning based algorithms they are a bit less stable a
+bit more sample efficient and it has the property that it can learn not only from
+the data generated by the actor but from any other data as well so it has it has
+some rope but it has different robustness profile which would be a little bit important but it's only going
+to be a technicality so yeah this is the own policy of policy distinction but
+it's a little bit technical so if you find this hard to understand don't worry about it if you already know this then
+you already know it so now what's the potential for enforcement learning wasn't it promised what is it actually
+why should we be excited about it now there are two reasons the reinforcement learning algorithms of
+today already useful and interesting and especially if you have a really good
+simulation of your world you could train agents to do lots of interesting things
+but what's really exciting is if you can build a super amazing sample efficient
+out of reinforcement learning algorithm we just give it a tiny amount of data and the algorithm just crunches through
+it and extracts every bit of entropy out of it in order to learn in the fastest way possible now today our algorithms
+are not particularly efficient they are data inefficient but as our field keeps
+making progress this will change next I want to dive into the topic of meta
+learning the goal of meta learning so meta learning is a beautiful idea that
+doesn't really work but it kind of works and it's really promising too it's another promising idea so what's the
+dream we have some learning algorithms perhaps you could use those learning
+algorithms in order to learn to learn I'd be nice if we could learn to learn
+so how would you do that you will take a system which you train it not on one
+task but on many tasks and you ask you that it learns to solve these tasks quickly and that may actually be enough
+so here's how it looks like here's how most traditional metal earning look works like it looks like you have a
+model which is a big neural network what what you do is that you treat every
+instead of training cases you have training tasks and instead of test cases you have test tasks so your input may be
+instead of just your current test case it would be all the information about the new T above the test tasks plus the
+test case and you'll try to output the prediction reaction for that test case so basically you say yeah I'm going to
+give you your ten examples as part of your input to your model figure out how to make the best use of them it's a
+really straightforward idea u-turn the neural network into the learning algorithm by
+turning a training task into a training case so training to ask a constraining
+case this is meta learning just one sentence and so they've been several
+success stories which I I think are very interesting one of the success stories
+of meta learning is learning to recognize characters quickly so they've been a dataset
+produced by MIT by lake corral and this
+is a data set we have a large number of different handwritten characters and people have been able to train extremely
+strong meta learning system for this desk another successful another very successful example of meta learning is
+in that of neural architecture search by is openly from google where they found
+neural architecture that solved one problem well small problem and then you could generalize and then if you
+successfully solve large problems as well so this is the kind of the the small number of bits meta learning is
+that when you learn the architecture or maybe even learn a program small program or learning algorithm which you apply to new tasks so this is the other way of
+doing meta learning so anyway but the point is what's happening what's really happening in meta learning in most cases
+is that you turn a training task into a training case and pretend this is
+totally normal normal deep learning that's it this is the entirety of meta learning everything
+else suggests minor details next I wanna dive in so now that I've finished the
+introduction section I want to start discussing different work by different
+people from opening I and I want to start by talking about hindsight experience replay it's been a large
+effort by and recurvature all to develop a learning algorithm for reinforcement
+learning that doesn't solve just one task but it
+solves many tasks and it learns to make use of its experience in a much more efficient way and I want to discuss one
+problem in reinforcement learning it's actually I guess a set of problems which all related to each other at one really
+important thing you need to learn to do is to explore you're in that you start out in an environment you don't know
+what to do what do you do so one very important thing that has to happen is that you must get rewards from time to
+time if you try something and you don't get rewards then how can you learn so
+said that's the kind of the crux of the problem how do you learn and relatedly is there any way to meaningfully benefit
+from your ex from the experience from your attempts to from from your failures if you try to achieve a goal and you
+fail can you still learn from it you tell you instead of asking your algorithm to achieve a single goal you
+want to learn a policy that can achieve a very large family of goals for example instead of reaching one state you want
+to learn a policy that reaches every state of your system and what's the implication anytime you do something you
+achieve some state so let's suppose you say I want to achieve state a I try my
+best and I end up achieving state B I can either conclude well that was
+disappointing I haven't learned almost anything I'm still have no idea how to cheat how to achieve state aid but
+alternatively I can say well wait a second I've just reached a perfectly good state which is B can I learn how to
+achieve state B from my attempt to achieve state a an answer is yes you can and it just works and I just want to
+point out this is the one case there is a small subtlety here which may be
+interesting to those of you who are very familiar with on Part B the distinction between on policy and off policy when
+you try to achieve a you are on you're doing on policy learning for reaching the state a but you're doing
+off policy learning for it in the state be because you would take different actions if you would actually try to
+reach they'd be so that's why it's very important that the algorithm you use here can support of policy learning but
+that's a minor technicality at the crux the crux of the idea is you make the
+problem easier by ostensibly making it harder by training a system which can
+which aspires to reach to learn to reach every state to learn to achieve every goal to learn to master its environment
+in general you build a system which always learn something it learns from
+success as well as from failure because if it tries to do one thing one thing and it does something else
+it now has training data for how to achieve that something else I want to show you a video of how this thing works
+in practice so one challenge in reinforcement learning systems is the
+need to shape the reward so what does it mean it means that at the beginning of the
+system at the start of learning then the system doesn't know much it will probably not achieve your goal and so
+it's important that you design your reward function to give it gradual increments to make it smooth and continuous so that even when the system
+is not very good it achieves the goal now if you give your state your system a very sparse reward where the reward is
+achieved only when you reach a final state then it becomes very hard for
+normal reinforcement learning algorithms to solve a problem because naturally you never get the reward so you never learn
+no reward means no learning but here because you learn from failure as well
+as from success this is this problem simply doesn't occur and so this is this is nice I
+think you know let's let's look at the videos a little bit more like it's nice how this is it confidently and
+energetically moves the little green buck to its target and here's another one
+you
+okay so we can skip the it works on spawn on the face if you do it on physical robot as well but we can skip it so I think the point is that the
+hindsight experience replay algorithm is directionally correct because you want
+to make use of all your data and not only a small fraction of it now one huge
+question is where do you get the high level states where do the high level
+states come from because in the work of showing you so far
+the system is asked to achieve low level States so I think one thing it will become very important for this kind
+approaches is representation learning and unsupervised learning figure out what are the rights what are the right
+states what's the state space of goals that's worth achieving now I want to go
+through some real meta learning results and I'll show you a very simple way of
+doing seem to reel from simulation to the physical robot with meta learning
+and this is where my pain growl was an a and encouraged a really nice intern project in 2017 so I think we can agree
+that in the domain of robotics it would be nice if you could train your policy
+in simulation and then somehow this knowledge would carry over to the
+physical robot now we can build we can
+build simulators that are okay but they can never perfectly match the real world
+unless you want to have an insanely slow simulator and the reason for that is that it turns out that simulating freaky
+simulating contacts is super hard and I heard somewhere correct me if I'm wrong
+that simulating friction is np-complete I'm not sure but it's like stuff like
+that so your simulation is just not going to match reality there will be
+some resemblance but that's it how can we address this problem and I want to show
+you one simple idea so let's say one
+thing once one thing that would be nice is that if you could learn a policy learn a policy that would quickly adapt
+itself to the real world well if you want to learn a policy that can quickly
+adapt we need to make sure it has opportunities to adapt during training time so what do we do instead of solving
+a problem in just one simulator we add a huge amount of variability to the
+simulator we say we will randomize the friction so we will randomize the masses
+the length of the different objects and their I guess M dimensions so you try to
+randomize physics they simulate in lots of different ways and then importantly
+you don't tell the policy how you randomized it so what is it going to do
+then you take your policy and you put it in an environment then says well this is really really tough I don't know what
+the masses are and I don't know what the frictions are I need to try things out and figure out what the friction is as I
+get it responses from the environment so you're building you you learn a certain
+degree of adaptability into the policy and it actually works let's want to show you this is what
+happens when you just strain a policy in simulation and deploy it on the physical robot and here the goal is to bring the
+hockey puck towards the red dot and you will see that it will struggle and the
+reason it struggles is because of the systematic differences between the simulator and the real physical robot so
+I can even the basic movement is difficult for the policy because the assumptions are violated so much so if
+you do the training as I discussed we train a recurrent neural network policy which learns to quickly infer properties
+of the simulator in order to accomplish the task you can then give it the real
+thing the real physics and it will do much better so now this is not a perfect
+technique but it's definitely very promising it's promising whenever you are able to sufficiently randomize the
+simulator so it's definitely very nice to see the closed-loop nature of the
+policy you consider it would push the hockey puck and would correct it very very gently to bring it to the goal
+yeah so that that was cool so that was
+very that was a cool application of meta learning I want to discuss one more
+application of meta learning which is learning a hierarchy of actions and this
+was work done by France at all actually kept in France the ancient who did it
+was in high school I mean he wrote this paper so one thing that would be nice is
+if reinforcement learning was hierarchical if instead of simply taking
+micro actions you've had some kind of little subroutines that you could deploy
+maybe the term subroutine is a little bit too crude but if you had some idea of which action primitives are worth
+starting with now no one has been able to to get actually like real value add
+from curricula reinforcement learning yet so far all the really cool results all the really convincing is also
+reinforcement learning do not use it that's because we haven't quite figured
+out what's the right way for reinforcement learning for her ocular reinforcement learning I just want to show you one very simple
+approach where you use meta-learning to
+learn to learn a hierarchy of actions so here's what you do you have in this
+specific work you have a certain yeah let's say you have a certain number of
+low-level primitives let's say you have two ten of them and you have a distribution of tasks and your goal is
+to learn low level primitives such that when they are used inside a very brief
+run of some reinforcement learning algorithm you will make as much progress as possible so the idea is you want to
+get the greatest amount of progress you want to learn policies that result in the great story you want to learn
+primitives that result in the greatest amount of progress is possible when used inside learning so this is a meta
+learning setter because any distribution of tasks and here we've had if we've had a little maze here the distribution of a
+mazes and in this case the little bug learned three policies which move it in its fixed direction and as a result of
+having this hierarchy you're able to solve problems really fast but only when the hierarchy is correct so horican reinforcement learning is
+still working progress and this was an and this work is an interesting proof
+point of how Haruko reinforcement could
+be like how heretical reinforcement learning could be like if it worked now
+I want to just spend one slide addressing the limitations of high
+capacity method learning the specific limitation is that the training test
+distribution has to be equal to the test test distribution and I think this is a
+real limitation because in reality you the new test that you want to learn do
+in some ways being fundamentally different from anything you've seen so
+far so for example if you go to school you learn lots of useful things but then
+they go to work only a fraction of this of the things that you've learned carries over you need to learn if you
+need quite a few more things from scratch so metal owning would struggle
+with that because it really assumes that the Train the training data is that the distribution over the training task has
+to be equal to the distribution of the test tasks that's the limitation I think that as we develop better algorithms for
+being robust when the test tasks outside
+of the distribution of the training tasks the metal on would work much better now I want to talk about self
+play the links of play is a very cool topic that's starting to get attention
+only now and I want to start by reviewing very old work called TD gammon
+it's back from all the way from 1992 so it's 26 years old now it was done by
+Jerry to cero so this work is really incredible because it has so much
+relevance today what they did basically they said okay let's take two neural
+networks and let them let them play against each other let them play
+backgammon against each other and let them in tray let them be trained particularly so it's a super-modern
+approach and you would think this was a paper from 2017 except that then you
+look at this plot it shows that you only have ten hidden units twenty hidden units forty and eighty for the different
+M colors where you notice that the largest neural network works best so in
+some ways not much has changed and this is the evidence and in fact they were able to beat the
+world champion in backgammon and they were able to discover new strategies that the best human a backgammon players
+weren't ever not noticed and they've determined that the strategy discovered
+by TD gammon actually better so that's pure self play with cue learning which is which remained dormant
+until the DQ and work with Atari mid mind so now other examples of self play
+include alphago zero which was able to learn to beat the world champion and go
+without using any external data whatsoever another result of this vein
+is by open AI which is our dota 2 BOTS which was able to build the world champion on the 1v1 version of the game
+and so I want to spend a little bit of time talking about the allure of self
+play and why I think it's exciting so
+one important problem that's a that that's that we must face as we try to
+build truly intelligent systems is what is the task what are we actually
+teaching the systems to do and one very attractive attribute of self play is
+that the agents create the environment
+by virtue of the agent acting in the environment the environment becomes
+difficult for the other agents and you can see here an example of an iguana interacting with snakes that try to eat
+it unsuccessfully this time so we can see what will happen in a moment the iguana
+strains best and so the fact you have this arms race between the snakes and
+the iguana motivates their development potentially without bound and this is what happens
+in effect in but in biological evolution now interesting work in this direction
+was done in 1994 but Carl says there is a really cool video on YouTube by Carl
+seems you should check it out which really kind of shows all the work that he's done and here you have a little
+competition between agents where you evolved both the behavior and their morphology when you when the agents is
+trying to gain possession of a green cube and so you can see that the agents
+create the challenge for each other and that's why they need to develop so one
+thing that we did and this is work by advance a little from open ai is we said
+okay well can we demonstrate some unusual results in self play that would
+really convince us that there is something there so what we did here is that we created a small a small ring and
+you have these two humanoid figures and their goal is just to push each other outside the ring and they don't know
+anything about wrestling they don't know anything about standing your balance in each other they don't know anything about centers of gravity all they know
+is that if you don't do a good job then your competition is going to do a better job now one of the really attractive
+things about self play is that you always have an opponent that's roughly
+as good as you are in order to learn you need to sometimes win and sometimes lose
+but you can't always win sometimes you must fail sometimes you must succeed so
+let's see what will happen here yeah so it was able to do so the green humanoid
+was able to block the ball in a Cell in a well balanced self play environment
+petition is always level no matter how good you are or how bad you are you have
+a competition that makes it exact exactly of exactly the right challenge for you on one thing here so this video
+shows transfer learning it takes a little wrestling humanoid and you take its friend away and you start applying a
+big large random forces on it and you see if it can maintain its balance and the answer turns out to be but yes it
+can because it's been trained against an opponent it pushes it and so that's why
+even if it doesn't understand where the fresh force is being applied on it it's still able to balance itself so this is
+one potentially attractive feature of subway environments that you could learn a certain broad set of skills although
+it's real hard to control the square the skills will be and so the biggest open question with this research is how do
+you learn agents in a software environment such that they do whatever
+they do but then they are able to solve a battery of tasks that is useful for us that is explicitly specified externally
+yeah I also want to want to highlight
+one attribute of self play environments that we've observed in our dota BOTS and
+that is that we've seen a very rapid increase in the competence of the bots so over the period over the course of
+maybe five months we've seen the bots go from playing totally randomly all the
+way to the world champion and the reason for that is that once you have a self
+play environment if we put compute into it you turn it into data self play
+allows you to turn compute into data and I think you will see a lot more of that as being an extremely important thing to
+be able to turn compute into essentially data generalization simply because the
+speed of neural net processors will increase very dramatically over the next few years so neural net cycles will be
+cheap and it will be important to make use of this new of newly-found overabundance of cycles
+I also want to talk a little bit about the endgame of the self approach so one
+thing that we know about the human brain is that it has increased in sized fairly
+rapidly over the past two million years my theory the reason I think it happened
+is because our ancestors got to a point where the thing that's most important
+for your survival is your standing in the tribe and less the tiger and the
+lion once the most important thing is how you deal with those other things
+which have a large brain then it really helps to have a slightly larger brain and I think that's what happened and
+there exists at least one paper from science which supports this point of view so apparently there has been
+convergent evolution between social apps and social Birds even though in terms of
+various behaviors even though the divergence in evolutionary timescale
+between humans and birds has occurred a very long time ago and humans and humans
+apes and humans apes and birds have very different brain structure so I think
+what should happen if we succeed if we successfully follow the path of this approach is that you should create a
+society of agents which will have language and theory of mind negotiation
+social skills trade economy politics justice system all these things should
+happen inside the multi-agent environment and it will also be some alignment issue of how do you make sure
+that the agents we learn behave in a way that we want now I want to make a
+speculative digression here which is I want to make the following observation
+if you believe that this kind of society of agents is a plausible place where
+truly where the fuller fully general intelligence will emerge and if you
+accept that our experience with the dota BOTS we've seen a very rapid increase in
+competence will carry over once all the details are right if you assume both of these conditions then it should follow
+that we should see a very rapid increase in the competence of our agents as they live in the Society of agents so now
+that we've talked about a potentially interesting way of increasing the
+competence and teachings of an agent's social skills and language and a lot of things that actually exist in humans as
+well we want to talk a little bit about how you convey goals to agents and the
+question of the main goal to eight calls to agents is just a technical problem but it will be important because it is a
+lot more likely than not that the agents of evil train will eventually be
+dramatically smarter than us and this is work by the opening eye safety team by
+Paul Christiana at all and others so I'm just going to show you this video which
+basically explains how the whole thing works you there is some behavior looking
+for and you the human gets to see pairs of behaviors and you simply click on the
+one that looks better and after a very
+modest number of clicks you can get this little simulated leg to do back flips
+and there
+go picking out the back flips and in this to get this specific behavior it took about 500 clicks by human
+annotators the way it works is that you take all the so this is a very data
+efficient reinforcement learning algorithm but it is efficient in terms of rewards and not in terms of the
+environment interactions so what you do here is that you take all the clicks so you've got your here is one B here which
+is better than other you fit a reward function a numerical reward function to
+those clicks so you want to fit a reward function which satisfies those clicks clicks and you optimize this reward function with reinforcement learning and
+it actually works so this requires 500 bits of information you've also been
+able to train lots of Atari games using several thousand bits of information so in all these cases you had human and
+human annotators or human judges just like in the previous slide looking at
+the pairs of trajectories and clicking on the one that they thought was better and here's an example of an unusual goal
+where this is a car racing game but the goal was to ask the the agent to train
+the white car drive right behind the orange car so it's a different goal and
+it was very straightforward to communicate this goal using this approach so then to finish off alignment
+is a technical problem it has to be solved but of course the determination of the correct goals we want array
+assistance the systems to have will be a very challenging political problem and on this note I want to thank you so much
+for your attention and I just want to say that will be a happy hour at Cambridge Brewing Company at 8:45 if you
+want to chat more about AI and other topics please come by I think that deserves an applause
+so back propagation is a or neural networks of bio-inspired but back
+Q&A
+propagation doesn't look as though it's what's going on in the brain because signals in the brain go one direction
+down the axons whereas back propagation requires the errors to be propagated back up the the wires so can you just
+talk a little bit about that whole situation where it looks as the brain is doing something a bit different than our
+highly successful algorithms our algorithm is going to be improved once we figure out what the brain is doing or
+is the brain really sending signals back even though it's got no obvious way of doing that what's what's happening in
+that area so that's a great question so first of all I'll say that the true answer is that the honest answer is that
+I don't know but I have opinions and so I'll say two things
+but first of all given that look if you agree if we agree like so rather it is a
+true fact the back propagation solves the problem of circuit search this
+problem feels like an extremely fundamental problem and for this reason I think that it's unlikely to go away
+now you also write that the brain doesn't obviously do back propagation although they've been multiple proposals
+of how it could be how it could be doing them for example there's been a work by
+Tim little crap and others where they've shown that if you use that it's possible to learn a different set of connections
+but can be used for the backward pass and that can result in successful learning now the reason this hasn't been
+like really pushed to the limit by practitioners is because they say well I got TF to the gradients I'm just not
+going to worry about it but you are right this is an important issue and you know one of two things is going to
+happen so my personal opinion is that back propagation is just going to stay with us till the very end and will
+actually build fully human level and beyond systems before we understand how the brain does what it does so that's
+what I believe but of course it is a difference that has to be acknowledged
+okay thank you do you think it was a fair matchup for the dota bot and that
+person given the constraints of the system so I'd say that like the biggest advantage computers have in games like
+this like one of the big advantages is that they obviously have a better reaction time although in DotA in
+particular the number of clicks per second over the top players is fairly
+small which is different from Starcraft so in Starcraft stuff up is a very compact mechanically heavy game because
+of a large number of units and so the top players that is click all the time in DotA every player controls just one
+hero and so that greatly reduces the total number of actions they need to make now still precision matters I think
+that will discover that but what I think it'll really happen is if you'll
+discover that computers have the advantage in any domain or rather every
+domain not yet so do you think that the emergent behaviors from the agent were
+actually kind of directed because the constraints already kinda in place like so it was kind of forced discover those
+or do you think that like that was actually something quite novel that like wow it actually discovered these on its
+own like you didn't actually am biased towards constraining it so it's definitely discover new strategies and I
+can share an anecdote where our tester we have a probe which would test the bots and he played against for a long
+time and the bots would do all kinds of things against the player the human player which were effective then at some
+point that Pro decided to play against the better plot Pro and he decided to
+imitate one of the things that the bot was doing and this image but by imitating if he was able to defeat a
+better pro so I think I think the strategy discovers are real and so like it means that like this very real
+transformative Tran you know I would say I think what that means is that he
+because the strategies discovered by the bot of the humans it means that we like a fundamental game plays deeply related
+for a long time now I've heard that the objective of reinforcement learning is
+to determine a policy that chooses an action to maximize the expected reward
+which is what you said earlier would you ever want to look at the standard deviation of possible rewards does that
+even make sense yeah I mean I think for sure I think it's a really application dependent one of the reasons to maximize
+the expected reward it's because it's easier to design algorithms for it so you write down this equation the
+formula you do a little bit of derivation you get something which amounts to a nice-looking algorithm now
+I think there exist like really there exist applications where you'd never
+want to make mistakes and you want to work on the standard deviation as well but in practice it seems that the just
+looking at the expected reward covers a large fraction of the B the situation as
+you'd like to apply this door Thanks
+we talked last week about motivations and that has a lot to do with the
+reinforcement and some of the ideas is that the our motivations are actually
+connection with others and cooperation and I'm wondering if they're thrown off
+and I understand it's very popular to have the computers play these competitive games but is there any use
+in like having an agent self play collaboratively collaborative games Yeah
+right that's an extremely good question I don't think one place from which we
+can get some inspiration is from the evolution of cooperation like I think cooperation like we
+cooperate ultimately because it's much better for you the person to be cooperative than not and so I think what
+should happen if you have a sufficiently open-ended game then cooperation will be the
+winning strategy and so I think we will get cooperation whether we like it or not Hey
+you mentioned the complexity of this simulation of friction I was wondering
+if you feel that there exists open complexity theoretic problems relevant to relevant to AI or whether it's just a
+matter of finding good approximations that humans of the types of problems that humans tend to solve yeah so
+complexity theory well like at a very basic level we know that whatever
+algorithm we gonna run is going to run fairly efficiently on some hardware so
+that puts a pretty strict upper bound and the true complexity of the problems
+we're solving but by definition we are solving problems which aren't too hard in a complexity theoretic sense now it
+is also the case that many of the problems so while the overall thing that
+we do is not hard from a complexity theory makes sense and indeed humans cannot solve np-complete problems in
+general it is true that many of the like optimization problems that we pose to
+our algorithms are intractable in the general case starting from a neural net optimization itself it is easy to create
+a family of data sets for a neural network with a very small number of neurons such that find a global optimum
+is np-complete and so how do we avoid it well we just try gradient descent anyway
+and somehow it works but without question like we cannot we do not solve
+problems which are truly intractable so I mean I hope this answer the question
+hello it seems like an important sub-problem on the path towards AGI will be
+understanding language and the state of generative language modeling right now is pretty abysmal what do you think are
+the most productive research trajectories towards generative language models so
+I'll first say that you are completely correct that the situation with language is still far from great although
+progress has been made even without any particular innovations beyond models
+that exist today simply scaling up models that exist today on larger datasets is going to go surprisingly far
+not even large datasets but larger and deeper models for example if you trained a language model be the thousand layers
+and it's the same layer I think it's gonna be a pretty amazing language model
+like we don't have the cycles for it yet but to think it will change very soon now I also agree with you that there are
+some fundamental things missing in a current understanding of deep learning
+which prevent us from really solving the problem that we want so I think one of
+these problems one of the things that's missing is that or that seems like patently wrong is the fact that we train
+a model then you stop training the model and you freeze it even though it's the
+training process where the magic really happens but the magic is that if you
+think about it like the training process is the true general part of the whole of
+the whole of the whole story because you tends to flow code doesn't care which data set to optimize it just says
+whatever just give me the data set I don't care which one solve I'll sew them all so like the ability to do that feels
+really special and I think we are not using it at test time like it's hard to
+speculate about like things which you don't know the answer but all I'll say is that simply train bigger deeper
+language models you'll go surprisingly far scaling up but also doing things
+like training a test them and inference the test time I think would be another important boosts the performance hi
+thank you for the talk so it seems like right now another interesting approach to solving reinforcement learning
+problems could be to go for the evolutionary roots using evolutionary strategies and although they have they
+their cave Hut's I wanted to know if I'd open a I particularly you're working on something related and what are what is
+your general opinion on them so like at present I believe that
+something evolutionary strategies is not great for reinforcement learning I think that normal reinforcement learning
+algorithms especially with big policies are better but I think if you want to evolve a small compact object like like
+a piece of code for example I think that would be a place where this would be seriously was considering but this all
+you know evolving a beautiful piece of code is a cool idea hasn't been done yet
+so still a lot of work to be done before we get there hi thank you so much for coming my question is you mentioned what
+is the right go is a political problem so I'm wondering if you can elaborate a bit on that and also what do you think
+would be their approach for us to maybe get there well I can't I can't really
+comment too much because all the thoughts that you know we have we now have a few people who are thinking about
+this full-time at opening I I don't have enough of a super strong opinion to say
+anything too definitive all I can say at the very high level is given the size
+like if you go into the future whenever soon or late you know whenever it's going to happen when you build a
+computer which can do anything better than a human it will happen because the
+brain is physical the impact on society is going to be completely massive and
+overwhelming it's it's very difficult to imagine even if you try really hard and
+I think what it means is that people who care a lot and that's what I was
+alluding to the fact that this will be something that many people who care about strongly and like as the impact
+increases gradually with self-driving cars more automation I think we will see a lot more people care do we need to
+have a very accurate model of the physical world and then simulate that in
+order to have these agents that can eventually come out into the real world and do something approaching you know
+human level intelligence tasks that's a very good question so I think if that
+were the case be in trouble and I am very certain that
+it could be avoided so specifically the real answer has to be that look you
+learn the problem so we learn to negotiate you learn to persist you not a lots of different useful life lessons in
+the simulation and yes you learn some physics too but then you go outside to the real world and you have to start over to some
+extent because many of you are deeply held assumptions will be false in one of the goals so what was that's one reasons
+I care so much about never stopping training you've accumulated your knowledge now we go into an environment
+for some of your assumptions of valid you continue training you try to connect the new data to your old data and this is an important requirement from our
+algorithms which is already met to some extent but it will have to be met a lot more so that you can take the partial
+knowledge if you've acquired then go in a new situation learn some more literally the example of you go to
+school ballon useful things then you go to work it's not a perfect it's not you know you pour your four years of CS and
+undergrad is not going to fully prepare you for whatever it is you need to know it work it will help somewhat you'll be able to
+get off the ground but it will be lots of new things you need to learn so that's that's the spirit of it I think of a toes of the school one of the
+things you mentioned pretty early on in your talk is that one of the limitations of this sort of style of reinforcement
+learning is there's no self-organization so you have to tell it when it did a good thing or did a bad thing and that's
+actually a problem in neuroscience is when you're trying to teach a rat to you know navigate maze you have to artificially tell it what to do so where
+do you see moving forward when we already have this problem with teaching you know not necessarily learning but also teaching so where do you see the
+research moving forward in that respect how do you sort of introduce this notion of self-organization so I think without
+question one really important thing you need to do is to be able to infer the
+goals and strategies of other agents by observing them that's a fundamental skill we need to be able to learn to to
+embed into the agent so if for example you have two agents one of them is doing something and the other agent says well
+that's really cool I want to be able to do that too and you go and do that and so I'd say that this is a very important component in
+terms of second every word oh you see what they do you infer the reward and
+now we have a knob which says you see what they're doing now go and try to do the same thing let's say this this is as far as I know
+as far as I know this is was one of the important ways in which humans are quite
+different from other animals in way which in the like scale and scope in
+which we copy the behavior of other humans might ask a quick follow-up work go for it so that's kind of obvious how
+that works in the scope of competition but what about just sort of arbitrary tasks like I'm in a math class for
+someone and I see someone doing a problem a particular way and I go that's a good strategy maybe I should try that out how does that work in a sort of non
+competitive environment so I think that this will be I think that's going to be a little bit separate from the
+competitive environment but it will have to be somehow either way you know
+probably baked in maybe volved into the system where like if you have other
+agents doing things they're generating data which you observe and the only way
+to truly make sense of the data that you see is to infer the goal of the agent the strategy their belief state that's
+important also for communicating them if you want to successfully communicate with someone you have to keep track both
+of their goal and of their belief state instead of knowledge so I think you will find that there are many I guess
+connections between understanding what other agents are doing inferring their goals imitating them and community
+successfully communicating them all right let's give in the happy hour a big hand [Applause]
+you [Applause]
+you
 
 ----------
 

@@ -1,6 +1,10 @@
 
 
 Mojo video collection
+1. r
+2.  r
+3.  [# Choosing Your Language: Python or Mojo?](https://www.youtube.com/watch?v=OJUorka-XLU)
+4. e
 
 -----
 --99--
@@ -1146,11 +1150,447 @@ paste here
 --04--
 
 -----
-Date:
-Link:
+Date: 2024.02.02
+Link: [# Choosing Your Language: Python or Mojo?](https://www.youtube.com/watch?v=OJUorka-XLU)
+
+Notes:
+### Summary of the Content
+
+The video introduces Mojo, a new programming language that combines Python's syntax with Rust-like features, aimed at improving performance while maintaining Python's ease of use. Mojo is a compiled language with static typing, memory safety, and garbage collection, making it an attractive option for Python developers seeking better performance without switching to a completely different language like C or Rust. However, the presenter shares mixed feelings about Mojo, noting its early development stage, compatibility issues, and the current lack of a clear advantage over using Python or Rust directly.
+
+### Advantages
+
+- Mojo offers a syntax similar to Python, making it accessible to Python developers.
+- It provides higher performance through compilation and static typing.
+- The language incorporates Rust-like memory safety and ownership models, enhancing code reliability.
+
+### Drawbacks
+
+- Mojo is still in early development, lacking stability and full feature support.
+- Setting up and installing Mojo can be challenging, especially on systems using pyenv.
+- The video suggests that Mojo does not yet solve a significant problem for the presenter, given the effectiveness of Python for most of his needs and Rust as an alternative for high-performance requirements.
+
+### Tips and Advice
+
+- For developers interested in exploring Mojo, start with experimentation and non-critical projects due to its early development stage.
+- Consider the transition from Python to Mojo as a way to gradually adopt Rust-like safety and performance features without a steep learning curve.
+- Keep an eye on Mojo's development progress to assess when it might become a viable option for production use.
+
+### Main Challenges
+
+- Navigating the early development stage of Mojo and dealing with potential syntax and feature changes over time.
+- Deciding whether the performance benefits of Mojo justify the effort of adopting a new language amidst established alternatives like Python and Rust.
+
+### The Importance and Usefulness of the Topic
+
+Exploring Mojo is valuable for Python developers seeking performance improvements and those curious about combining Python's simplicity with Rust's safety and efficiency. The video provides insights into the potential of Mojo and considerations for adopting it as the language matures.
+
+### Accomplishments
+
+- The video effectively introduces Mojo, highlighting its key features and differences from Python.
+- It provides practical examples and code comparisons to illustrate Mojo's syntax and capabilities.
+- The presenter offers a balanced perspective, acknowledging Mojo's potential while recognizing its current limitations and development status.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Mojo is sort of a marriage of Python and Rust."
+- "Mojo doesn't really solve a problem for me...but that might change in the future."
+
+### Lecture Content: Technical Insights
+
+- Detailed overview of Mojo's syntax, type safety, and memory management features.
+- Comparison of Mojo with Python and Rust, highlighting the unique aspects of each language.
+- Discussion on the practical use of Mojo for Python developers and considerations for its adoption.
+
+### Conclusion
+
+While Mojo presents an intriguing option for Python developers seeking improved performance, its early development status and current challenges limit its immediate applicability. The video encourages keeping an eye on Mojo's progress and considering it for future projects as the language evolves and matures.
+
 Transcription:
 
-paste here
+If you love using Python, but you need more performance,
+there are a few options.
+You can buy a really fast, really expensive computer,
+which is not ideal.
+You can also use C or Rust bindings
+and code the part that needs more performance in C or Rust.
+But that does mean you need to learn a new language,
+switch context, et cetera.
+Today, I want to talk about another option,
+which is using another programming language altogether,
+but one that looks a lot like Python.
+I'm talking about Mojo.
+I'm going to show you how to use Mojo
+and how different from using plain old Python.
+And I'm also going to share some of my thoughts about using it
+and, well, some mixed feelings I have about it.
+Before we start, if you want to learn more
+about how to design a piece of software from scratch,
+I have a free guide for you.
+You can get it at arjan.codes/designguide.
+This contains seven steps that I take
+whenever I design a new piece of software.
+And hopefully it helps you avoid
+some of the mistakes that I made in the past.
+arjan.codes/designguide.
+The link is also in the description of this video.
+Now, let's dive into Mojo.
+Mojo is a relatively new programming language
+that builds on the syntax of Python
+and adds quite a few different features.
+On top of that, it works internally
+in a different way than Python.
+There are quite a few differences there, actually,
+and that actually helps it achieve
+that much higher performance.
+The main difference is that Mojo
+is actually a compiled language versus Python,
+which is interpreted.
+In a sense, you can look at Mojo
+as sort of a marriage of Python and Rust.
+Instead of being interpreted like Python is,
+Mojo is compiled.
+It has much stronger type safety.
+It supports static typing,
+which makes a lot of sense in a compiled language.
+There is memory safety.
+There's garbage collection.
+It uses a sort of Rust-style ownership model,
+and I'm going to show you some examples
+of that later in the video.
+A caveat is that Mojo is still in early development,
+so it's not ready for production.
+It's still missing some essential features.
+In fact, at the moment,
+it mostly works well on Unix and Mac machines
+and on Windows.
+You can still use it,
+but you have to use the Windows subsystem for Linux.
+Also, that means that probably features that we have now
+are going to be removed, replaced, improved over time.
+So if you're looking for a really stable language,
+Mojo is not what you should use.
+But still, it can be fun to take a closer look at Mojo
+as a form of experimentation and exploration.
+Here's an example of a basic Hello World Mojo script.
+And to run this, you can simply type Mojo
+and then the name of the script.
+Assuming, of course, that you have installed the tool.
+Now, I did run into a few issues
+with installing the tool, by the way.
+That was related with using pyenv
+and picking the right Python version,
+and there were some issues with it
+not being able to find some libraries.
+Again, it's not production-ready,
+so that's kind of how it is.
+But anyway, I got it working,
+and this is the result.
+Let's take a closer look at some of the differences
+with Python and some of the features
+that Mojo has on top of what Python offers.
+If you look at the Hello World file,
+you see that there's a couple of minor differences,
+like instead of having a def,
+we write fn in front of the function name,
+similar to what we have in Rust.
+Also, main is the actual entry point of the script.
+So that's the function that's going to be run
+when you execute the script with Python.
+That's not the case.
+You simply write your commands
+at the root indentation level,
+and then that's gonna run.
+Of course, my best practice that I recommend
+is that you actually always define a main function
+in your script and then call it explicitly
+so it's clear what the entry point of the script is.
+But in Mojo, this is by default the main function,
+just like in Rust.
+Just like Python, there are types.
+In this case, we have strings, ambs strings,
+and this also returns a string.
+So that's the same syntax as with Python's type annotation,
+but these are actually static types.
+So that's an important difference.
+These are checked at compile time.
+Another couple of differences.
+In Python, we can simply define a variable like this.
+In Mojo, that doesn't work.
+You see, we get some sort of error.
+It doesn't know what x is.
+So we need to actually declare it.
+You can do that by writing the var keyword
+in front of the variable name.
+That makes it a mutable variable.
+So you can change the value later.
+For example, I can write x equals six after that.
+But alternatively, you can also use the let keyword.
+And then it's constant value.
+And you also see that when we try to assign a value to x,
+then this actually gives us an error
+that this is not allowed.
+Also, if you declare functions like this
+and you have parameters like a or b in this case,
+you need to supply a type.
+So if I remove this,
+you see that we actually also get an error here
+because we need to indicate to Mojo
+what the type is of a.
+Otherwise, it can't compile the code.
+So let's put that back.
+In the function body itself,
+you don't have to supply a type annotation.
+So if I write, let's say,
+let my name equals Arjan.
+I don't need to indicate that my name
+is actually of type string.
+But of course, if you want to,
+you can add a type annotation here.
+It's just not necessary.
+And typically, when I define variables like this,
+I don't include the type annotation
+unless it's completely unclear what the type is.
+Normally, you can easily infer it from the right-hand side.
+So there's no need to do it.
+By the way, if you like talking about
+different programming languages,
+their pros and their cons,
+how they affect software design,
+you should definitely check out my free Discord server.
+You can get access by going to discord.arjan.codes.
+The link is also below.
+A few other things that I want to show you.
+So this is another version of that same
+hello world example.
+So we still have our main function.
+And I've added a couple of other functions here as well.
+There's a hello function,
+but there's also a Python-style world function.
+Mojo is, in principle, compatible with Python.
+But of course, it's a compiled language.
+So there needs to be some kind of boundary
+between the unsafe, messy Python world
+and the memory-safe, very strict Mojo world.
+And the way Mojo does that is with the exception mechanism.
+Here you see an example of that.
+So I have a Python-style function here
+called world that's simply going to print world.
+And then when I want to call it,
+I need to put that in a try-except block.
+So if I turn this into a comment, like so,
+then you see that now we actually get an error
+that we cannot call a function that may raise
+in a context that cannot raise.
+So Mojo does these types of checks.
+And that means that if you want to call a Python function
+from a Mojo function,
+you need to put it in a try-except block, like so.
+If you write a Python-style function like this,
+well, that comes at the cost of type safety
+because Python doesn't enforce types.
+And because of that, Mojo also uses
+a different just-in-time compilation mechanism
+in order to compile Python code.
+And that's a bit slower than running Mojo code directly.
+So that's something to be aware of.
+Here's another example that shows a couple
+of different things that Mojo offers.
+So again, there's a main function at the bottom.
+That's the entry point of the program.
+And then there's a couple of other things here.
+There's a struct and there's a trait.
+So these things look very similar
+to what we have seen in Rust before.
+So let's go over how this actually works.
+So we have a struct called user,
+similar to what a struct is in Rust.
+There's one difference, though.
+You can define these sorts of functions
+to be part of the struct.
+In Rust, you need to use an input for that.
+A struct can have variables.
+So a user, in this case, has a username and an email.
+You need to declare these
+with the var keywords inside the struct.
+And then we have an initializer with a couple of arguments,
+and we can set the values inside the struct
+in the initializer.
+And there's a couple of other functions
+that are added here as well, such as this type,
+which means that we can have a string representation
+of that struct.
+So the struct user implements this stringable trait,
+which simply says that the type
+can be converted to a string.
+Another thing that you can see here is a value decorator.
+And this simply means that the user struct
+can be copied and moved around,
+similar to the copy trait in Rust.
+So you may think, okay, so a struct is basically a class.
+Well, it is slightly different
+in that there is no inheritance mechanisms.
+For example, classes are not yet supported in Mojo,
+but that is a planned feature.
+Another thing that I'm using here
+is something called a dynamic vector.
+And this is similar to Python's list.
+You also see we supply a type of dynamic vector.
+So this is a vector, a list of users.
+And then we can append users to that dynamic vector.
+Now, in order to be able to do that,
+we need to implement the collection element trait.
+That means this user struct
+is allowed to be part of collections.
+If I remove this, then you see we're going to get an error here
+that this is not allowed
+because it needs to have the collection element type.
+And finally, similar to Python,
+we can use a for loop to go through the list of users.
+Now, unfortunately, if you try this,
+then that doesn't work
+because dynamic vectors currently
+doesn't implement the iter method.
+I don't know if they want to add that in the future,
+but that would actually be helpful
+to have something like that.
+So things like stringable collection elements,
+they're traits just like in Rust.
+And you can also define your own traits.
+I have here another trait called emailable
+that I've defined here at the top.
+So this trait defines two functions,
+getEmail and sendEmail.
+And then of course, if you add a trait,
+then you also need to implement the methods here.
+So if I change these two comments,
+then again, we're going to get an error
+because it doesn't implement
+all the requirements for the trait.
+So let me put that back.
+So traits are also in the Rust programming language.
+It's sort of comparable to what we have in Python with protocols.
+But of course, protocol classes in Python are not enforced at all.
+They're simply hints.
+And with languages like Rust and Mojo,
+these are actually enforced and checked when you compile the code.
+The final thing that I want to mention about Python compatibility
+and how you would transition from Python to Mojo
+is that typically, like I've shown you here in this Hello World example,
+you would have your Python code in a def function,
+similar to how we would do it in Python.
+And then you put it in a try-except block
+when you call it from a Mojo-style function.
+So if you want to transition from Python to Mojo
+to benefit from the higher performance,
+then one way that you can do it in steps
+is simply call that Python code using a try-except block
+and then slowly migrate the functions to Mojo functions
+at type safety where necessary.
+The final thing that I want to talk about is ownership.
+So this is similar to how Rust also manages memory.
+And we have a couple of different keywords in Mojo to handle ownership.
+So there's in-out, there is owned, and there is borrowed.
+And this indicates who owns the value at any given time.
+And that in turn determines whether the value is actually still needed
+or can be cleaned up by looking at who owns the value.
+The first option is in-out.
+This borrows ownership during the function call.
+And it's also mutable.
+But after that, it returns the ownership.
+So that means that when we run this function,
+we get a self object, and we can actually set values in it.
+We can change it. That's what in-out does.
+If we remove that, we get an error
+because we're trying to set values in it.
+So this needs to be mutable.
+Next to the in-out keyword, we have the borrowed keyword,
+which is exactly the same as in-out, except that it's immutable.
+So you can't change the object.
+And before there was a tiny mistake here, this actually returns ownership.
+The final keyword that you can use to manage ownership is owned.
+So this actually transfers the ownership of the value
+from the caller of the function to the function itself.
+So now username, if it's no longer being used afterwards,
+then the value will be destroyed by the runtime after that.
+By default, the parameter of mojo function is borrowed.
+So if you look at the hello world example that I've shown you before,
+so we have the add function.
+So actually A and B, they're both borrowed.
+So you don't need to write the borrowed keyword in front of it,
+even though you can.
+If you have a Python-style function, like the function here,
+and you add a parameter to that,
+then by default that parameter is going to be owned.
+So ownership is transferred.
+And that choice, that design choice,
+also has to do with the more dynamic nature of Python.
+So it makes more sense that because Python is more dynamic
+and we have less control over what happens,
+that we actually transfer the ownership of values
+when we call Python code.
+So I hope these examples gave you an idea of what Mojo is
+and how it's different from Python.
+Now, currently, like I said, mojo is not ready for production,
+so don't use it for mission-critical applications,
+even though it's a nice tool to experiment with
+and see what is possible.
+It can also help you if you are thinking about moving to Rust,
+for example, to get a bit of an idea of how things work
+in an ownership model of memory.
+And then, you know, maybe later on transition to Rust
+if you find that interesting.
+So there's still several features that need to be implemented
+that still need to be done.
+And it also means that the syntax may change over time
+and that if you write a program in Mojo now,
+that in six months or a year,
+it may no longer work correctly
+because things have changed in the meantime.
+Also, it was kind of finicky to set up, at least on my Mac.
+I needed to set paths explicitly, run some commands explicitly,
+so it wasn't as easy as just installing Python
+and then off you go.
+Granted, I think most of those issues were related to me using pyenv,
+but still, that's a pretty standard setup for people using Python.
+So I think if you introduce a new language like Mojo,
+you should take that into account
+and make sure that it actually also works in those cases.
+But I did get it working as it should in the end,
+so I'm sure the Mojo team is working on improving those things as well.
+So final thoughts about this.
+I think Mojo is an intriguing language.
+It's an interesting marriage between Python and Rust.
+And I find that intriguing because it gives us an idea of what it could look like
+if we have a language that sort of marries the best things of both worlds,
+both Python with its flexibility and simplicity
+and Rust with its type safety and performance.
+So am I going to use it personally?
+No, it's not yet ready for production yet.
+And when I look at how I use Python,
+actually in most cases, by far most cases,
+Python is actually perfectly suitable to me.
+And if I really need high performance,
+which is actually kind of rare for me,
+then I think I would first investigate whether I could start using Rust more
+and integrate that into Python.
+Rust is a completely open programming language.
+You don't need to sign up for anything,
+and it's also quickly gaining popularity.
+So I would put my chips on Rust at the moment.
+So the bottom line for me is that Mojo doesn't really solve a problem for me.
+It's a bit too early, but that might change in the future.
+Who knows?
+Now I'd like to hear from you.
+Are you using Mojo?
+Why are you using it instead of Python or Rust or something else?
+What are your thoughts about mojo?
+Let me know in the comments.
+Talking about Rust, if you want to learn more about that,
+I did an introduction video a while back
+helping Pythonistas get started with Rust more quickly.
+And you can watch that right here.
+Thanks for watching and see you next time.
 
 ----------
 

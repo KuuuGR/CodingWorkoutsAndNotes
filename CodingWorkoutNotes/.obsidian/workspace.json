@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typing/TrainingData/EN/Lex Friedman.md",
+                "file": "Typing/TrainingData/PL/różności.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typing/TrainingData/EN/Lex Friedman.md",
+                "file": "Typing/TrainingData/PL/różności.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typing/TrainingData/EN/Lex Friedman.md",
+                "file": "Typing/TrainingData/PL/różności.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typing/TrainingData/EN/Lex Friedman.md"
+                "file": "Typing/TrainingData/PL/różności.md"
               }
             }
           }
@@ -146,34 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f025f9a30d801e7",
+  "active": "6715f082df2e099d",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Typing/TrainingData/PL/Igor Janke.md",
+    "Typing/TrainingData/PL/Zbiór.md",
+    "Typing/TrainingData/PL/różności.md",
     "Typing/TrainingData/EN/Lex Friedman.md",
+    "Typing/emptySheet 600.md",
+    "Typing/emptySheet 99.md",
+    "Untitled.md",
+    "Typing/TrainingData/EN/Sam Charrington.md",
+    "Typing/TrainingData/EN/Steven Bartlett.md",
+    "().md",
+    "Typing/TrainingData/EN/zRandom Stuff.md",
+    "Swift/various.md",
+    "Mojo/Mojo set.md",
+    "Mojo/Links.md",
+    "General Developer/Fields of interests.md",
+    "Swift/CodeWithChris/Links.md",
     "Untitled 7.md",
     "Untitled 8.md",
     "Untitled 4.md",
     "Untitled 3.md",
     "Untitled 2.md",
     "Untitled 1.md",
-    "Typing/TrainingData/EN/zRandom Stuff.md",
     "Typing/MyLayout/Ideas.md",
-    "Typing/TrainingData/EN/Steven Bartlett.md",
-    "Typing/TrainingData/EN/Sam Charrington.md",
-    "Typing/TrainingData/Zbiór.md",
-    "Typing/TrainingData/PL/różności.md",
     "Typing/MyLayout/layout tester.md",
     "Swift/Essential developer/Essential Developer.md",
-    "Swift/various.md",
-    "Swift/Random Swift/Links.md",
-    "Zx Organize Helper/ask noteGPT.md",
-    "Zx Organize Helper/make Notes.md",
-    "Zx Organize Helper/Organise Knowledge.md",
-    "General Developer/Improve/Healthy Software Developer.md",
-    "Swift/CodeWithChris/Links.md",
-    "Swift/Swift 4 Android/links.md",
-    "Swift/Paul Hudson/Links.md",
-    "Swift/News/Swift 5.9.md",
     "Zx scratchBook",
     "General Developer/Improve",
     "General Developer",
