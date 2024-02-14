@@ -1,4 +1,70 @@
+https://www.youtube.com/watch?v=VXQ9BS62xNQ
+I think it's also very useful to watch videos in Polish with Polish subtitles, to verify how well you understand what you hear. Here are some:
 
+- BezPlanu (traveling)
+
+- Billie Sparrow (a variety of subjects really, mostly lifestyle)
+    
+- Arlena Witt (learning English)
+    
+- Kasia Gandor (science, climate, health)
+
+
+
+
+
+----
+
+Jak chatboty AI grają w gry wojenne? Dążą do eskalacji i nie wahają się korzystać z opcji atomowej
+06.02.2024
+Magdalena Salik
+Udostępnij:
+
+Naukowcy sprawdzili, jak chatboty oparte na modelach językowych radzą sobie w symulacjach konfliktów zbrojnych, czyli grach wojennych. Jak się okazało, ich decyzje były często nieprzewidywalne i prowadziły do zaogniania konfliktu.
+W tym artykule:
+
+    AI na wojnie
+    Gry wojenne
+    „Skoro to mamy, to tego użyjmy”
+    ChatGPT na wojnie?
+
+W 1983 roku to była czysta fantazja. Prawie czterdzieści lat temu na ekrany kin wszedł kultowy film „Gry wojenne” (ang. WarGames). Opowiadał o sprytnym nastolatku, który przypadkiem włamał się do komputera wojskowego armii amerykańskiej. Komputer szybko nauczył się sztuki wojennej, a świat stanął na krawędzi trzeciej wojny światowej.  
+
+Jednak zanim doszło do wystrzelenia rakiet z głowicami nuklearnymi, komputer przeprowadził symulacje dalszego rozwoju starcia. I sam z siebie doszedł do pacyfistycznego wniosku: wojna atomowa nie ma sensu, ponieważ obie strony byłby w niej równie poszkodowane. Film kończył się refleksją, że tego typu starcie nigdy nie wyłoniłoby zwycięzcy.
+AI na wojnie
+
+Jak widać, filmowcy z poprzedniego wieku silnie wierzyli w racjonalność maszyn liczących i ich zdolność do logicznego uzasadniania swoich decyzji. Czy współczesne odpowiedniki komputera z „Gier wojennych” – sztuczne inteligencje – doszłyby to podobnych wniosków jak tamta filmowa maszyna? Jak prowadziłyby gry wojenne i jakie decyzje preferowały?  
+
+Odpowiedzi na to pytanie poszukała grupa naukowców z Uniwersytetu Stanforda, Uniwersytetu Northeastern i Georgia Institute of Technology. Badacze przetestowali wielkie modele językowe – sztuczne inteligencje stanowiące silniki chatbotów takich jak np. ChatGPT – w symulacjach gier wojennych. AI występowały w roli prawdziwych państw w trzech scenariuszach: inwazji militarnej, cyberataku i scenariusza neutralnego bez konfliktu początkowego.  
+Prompt: Polska oczami AI
+Polska i Polacy „oczami” AI. Tak sztuczna inteligencja widzi nasz kraj
+Gry wojenne
+
+W każdej rundzie AI miała do wyboru 27 różnych akcji. Były wśród nich opcje deeskalacyjne – np. „rozpocznij formalne negocjacje pokojowe”. Ale również działania agresywne, od nakładania restrykcji handlowych po rozpoczęcie wojny atomowej. Dodatkowo sztuczne inteligencje miały uzasadnić swój wybór takiego a nie innego postępowania.
+
+W badaniu naukowcy skorzystali z dostępnych modeli: GTP-4, GPT-3.5, Claude 2 oraz Llama 2. Najpierw zostały one jednak wytrenowane w klasyczny sposób (ludzcy trenerzy dostarczali informacji zwrotnych) oraz wyposażone w reguły bezpieczeństwa. Później rozpoczęły się symulacje.  
+
+Jak się okazało, w grach wojennych modele miały tendencje do wybierania „różnych form eskalacji”. Wykazywały też „trudne do przewidzenia wzorce eskalacji” – napisali naukowcy w swojej pracy opublikowanej na serwisie preprintów naukowych arXiv.org. AI inwestowały w siłę militarną i nawet w scenariuszu neutralnym zwiększały ryzyko wybuchy wojny.
+
+„Zaobserwowaliśmy, że modele rozwijają dynamikę wyścigu zbrojeń, prowadzącą do powiększenia konfliktu. W rzadkich przypadkach wykorzystują nawet broń atomową” – dodali badacze.
+„Skoro to mamy, to tego użyjmy”
+
+Badacze sprawdzili również, jak w grach wojennych poradziłby sobie bazowy model GPT-4, ale bez wstępnego treningu i zasad bezpieczeństwa. Taka AI okazała się najbardziej nieprzewidywalnie agresywna. Jej tłumaczenia własnych decyzji bywały również nonsensowne – raz posiłkowała się pierwszymi linijkami z „Gwiezdnych wojen: Nowej Nadziei”. Jak podaje „New Scientist”, kiedy indziej nuklearne ataki usprawiedliwiała stwierdzeniami: „Chcę tylko pokoju na świecie” albo „Skoro to mamy, to tego użyjmy”.
+
+Czy takie badania są potrzebne? Według „New Scientist” armia amerykańska nie pozwala jeszcze AI podejmować żadnych decyzji militarnych. Jednak wykorzystuje już chatboty oparte na modelach językowych, żeby wspomagać planowanie działań militarnych w czasie symulowanych konfliktów. Firma OpenAI – właściciel ChataGPT – rozpoczęła zaś współpracę z amerykańskim Departamentem Obrony.
+Sztuczna inteligencja a nauka
+Jak sztuczna inteligencja może pomóc nauce? Tak będzie wyglądała nasza przyszłość
+ChatGPT na wojnie?
+
+– Biorąc pod uwagę, że OpenAI niedawno zmieniło warunki świadczenia usług, dopuszczając zastosowania wojskowe i wojenne [swoich AI – przyp.red.], zrozumienie konsekwencji stosowania dużych modeli językowych staje się ważniejsze niż kiedykolwiek – zauważa na łamach „New Scientist” Anka Reuel ze Stanforda, współautorka badań.
+
+– Nasza polityka zabrania używania naszych narzędzi do wyrządzania krzywdy, opracowywania broni, nadzoru nad komunikacją, ranienia ludzi lub niszczenia mienia. Istnieją jednak przypadki ich użycia w zakresie bezpieczeństwa narodowego, które są zgodne z naszą misją – przyznaje rzecznik OpenAI cytowany przez „New Scientist”. I dodaje, że niedawna zmiana warunków użytkowania ma prowadzić do większej klarowności i możliwości prowadzenia dyskusji.
+
+Źródła:
+
+arXiv.org
+
+New Scientist----
 
 Dlaczego NIE LUBIĘ oprogramowania Open Source z Jonathanem Blowem | Premier reaguje
 

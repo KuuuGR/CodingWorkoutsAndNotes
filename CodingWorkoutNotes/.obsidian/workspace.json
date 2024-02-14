@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typing/TrainingData/PL/różności.md",
+                "file": "Typing/Training Ideas/FastType music collection.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typing/TrainingData/PL/różności.md",
+                "file": "Typing/Training Ideas/FastType music collection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typing/TrainingData/PL/różności.md",
+                "file": "Typing/Training Ideas/FastType music collection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typing/TrainingData/PL/różności.md"
+                "file": "Typing/Training Ideas/FastType music collection.md"
               }
             }
           }
@@ -146,19 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6715f082df2e099d",
+  "active": "1f025f9a30d801e7",
   "lastOpenFiles": [
-    "Typing/TrainingData/PL/Igor Janke.md",
-    "Typing/TrainingData/PL/Zbiór.md",
-    "Typing/TrainingData/PL/różności.md",
-    "Typing/TrainingData/EN/Lex Friedman.md",
-    "Typing/emptySheet 600.md",
+    "Typing/Training Ideas/Ultimate speed.md",
+    "Typing/Training Ideas/Lecture PyStock.md",
+    "Typing/Training Ideas/FastType music collection.md",
+    "Typing/MyLayout/Ideas.md",
+    "Typing/TrainingData/EN/zRandom Stuff.md",
     "Typing/emptySheet 99.md",
-    "Untitled.md",
+    "Typing/Training Ideas",
+    "Typing/emptySheet 600.md",
+    "Typing/TrainingData/EN/Lex Friedman.md",
     "Typing/TrainingData/EN/Sam Charrington.md",
     "Typing/TrainingData/EN/Steven Bartlett.md",
+    "Typing/TrainingData/PL/różności.md",
+    "Typing/TrainingData/PL/Igor Janke.md",
+    "Typing/TrainingData/PL/Zbiór.md",
+    "Untitled.md",
     "().md",
-    "Typing/TrainingData/EN/zRandom Stuff.md",
     "Swift/various.md",
     "Mojo/Mojo set.md",
     "Mojo/Links.md",
@@ -170,9 +175,6 @@
     "Untitled 3.md",
     "Untitled 2.md",
     "Untitled 1.md",
-    "Typing/MyLayout/Ideas.md",
-    "Typing/MyLayout/layout tester.md",
-    "Swift/Essential developer/Essential Developer.md",
     "Zx scratchBook",
     "General Developer/Improve",
     "General Developer",
@@ -181,7 +183,6 @@
     "Typing/TrainingData/PL/erotyka",
     "Typing/TrainingData/PL",
     "Typing/MyLayout",
-    "Typing/TrainingData",
-    "Typing/Keyboards/YouTube"
+    "Typing/TrainingData"
   ]
 }

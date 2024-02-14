@@ -351,7 +351,7 @@ paste here
 ----------
 
 -----
---70--
+--70-- https://www.youtube.com/@lexfridman/videos
 
 -----
 Date:
@@ -435,26 +435,1186 @@ paste here
 ----------
 
 -----
---63--
+
+--63--  
 
 -----
-Date:
-Link:
+Date: 2019.03.12
+Link: [# Leslie Kaelbling: Reinforcement Learning, Planning, and Robotics | Lex Fridman Podcast #15](https://www.youtube.com/watch?v=Er7Dy8rvqOc)
 Transcription:
 
-paste here
+Intro
+the following is a conversation with Leslie Kayla bling she's a roboticist and professor at MIT
+she's recognized for her work and reinforcement learning planning robot navigation and several other topics in
+AI she won the edge KY computers and thought award and was the editor-in-chief of the prestigious
+journal machine learning research this conversation is part of the artificial
+intelligence podcast at MIT and beyond if you enjoy it subscribe on youtube
+itunes or simply connect with me on twitter at Lex Friedman spelled Fri D
+and now here's my conversation with Leslie Kael Blaine what made me get
+What made you get excited about AI
+excited about AI I can say that as I read girdle Ashur back when I was in high school that was pretty formative
+for me because it exposed the
+interestingness of primitives and combination and how you can make complex
+things out of simple parts and ideas of AI and what kinds of programs might
+generate intelligent behavior so so you first fell in love with AI reasoning
+logic versus robots yeah the robots came because my first job so I finished an undergraduate
+degree in philosophy at Stanford and was about to finish master's in computer science and I got hired at SR I in their
+AI lab and they were building a robot it was a kind of a follow-on to shaky but
+all the shaky people were not there anymore and so my job was to try to get this robot to do stuff and that's really kind
+of what got me interested in robots so maybe taking a small step back your bachelor's in Stanford and philosophy
+Philosophy and computer science
+did masters and PhD in computer science but the bachelors in philosophy so what was that journey like what elements of
+philosophy do you think you bring to your work in computer science so the
+part of the reason that I didn't do a computer science undergraduate degree was that there wasn't one at Stanford at
+the time but that there's part of philosophy and in fact Stanford has a special sub major in something called
+now symbolic systems which is logic model theory formal semantics of natural
+language and so that's actually a perfect preparation for work in AI and
+computer science that that's kind of interesting so if you were interested in artificial intelligence what what kind
+Majors in AI
+of majors were people even thinking about taking what is it in your science was so besides philosophies what were
+you supposed to do if you were fascinated by the idea of creating intelligence there weren't enough people who did that for that even to be at
+conversation okay I mean I think probably probably philosophy I mean it's
+interesting in my class my graduating class of undergraduate philosophers
+probably maybe slightly less than half went on in computer science
+slightly less than half went on in law and like one or two went on in philosophy so it was a common kind of
+connection do you think AI researchers have a role be part time philosophers or should they stick to the solid science
+AI philosophers
+and engineering without sort of taking the philosophizing tangents I mean you
+work with robots you think about what it takes to create intelligent beings aren't you the perfect person to think
+about the big picture philosophy of it all the parts of philosophy that are closest to AI I think or at least the
+closest to AI that I think about are stuff like belief and knowledge and
+denotation and that kind of stuff and that's you know it's quite formal and it's like just one step away from the
+kinds of computer science work that we do kind of routinely I think that there
+are important questions still about what you can do with a machine and what you
+can't and so on although at least my personal view is that I'm completely a materialist and I don't think that
+there's any reason why we can't make a robot be behaviorally indistinguishable
+from a human and the question of whether it's in the distinguishable internally
+whether it's a zombie or not in philosophy terms I actually don't I don't know and I
+don't know if I care too much about that right there there's a philosophical notions they're mathematical and
+The philosophical gap
+philosophical because we don't know so much of how difficult it is how difficult is a perception problem how
+difficult is the planning problem how difficult is it to operate in this world successfully because our robots are not
+currently as successful human beings and many tasks the the question about the
+gap between current robots and human beings borders a little bit on philosophy you know the expanse of
+knowledge that's required to operate in this world and the ability to form common-sense knowledge the ability to
+reason about uncertainty much of the work you've been doing there's those
+open questions there that I don't know require to activate a certain
+big-picture view to me that doesn't seem like a philosophical gap to me it's a there is a big technical
+gap yes technical gap but I don't see any reason why it's more than a
+technical gap perfect so when you mention AI you know sorry
+The first robot
+and maybe can you describe to me when you first fell in love with robotics
+with robots or inspired which so you should mention flaky or shaky shaky
+flaky and what was the robot that first captured your imagination what's possible right well this so the first
+robot I worked was like shakey was a robot that the SR I people had built but
+by the time I think when I arrived it was sitting in a corner of somebody's office dripping hydraulic fluid into a
+pan but its iconic and really everybody should read the shaky tech report
+because it has so many good ideas in it I mean they invented a star search and
+symbolic planning and learning macro operators they had the level kind of
+configuration space planning for the robot they had vision they had all this the basic ideas of a ton of things okay
+take a step by the shaky have arms that was a job could push objects and so it
+would move things around with which actuator itself with its base okay so it
+could but it and they had painted the baseboards black so it used it used
+vision to localize itself in a map it detected objects it could detect objects that were surprising to it it would plan
+and re plan based on what it saw it reasoned about whether to look and take pictures I mean it really had the basics
+of of so many of the things that we think about now how do you represent the
+space around it so it had representations that are bunch of different levels of abstraction so it
+had I think a kind of an occupancy grid of some sort at the lowest level at the
+high level it was abstract symbolic kind of rooms and connectivity it's a word as
+flaky coming yeah okay so at us RI and we were building a
+brand-new robot as I said none of the people from the previous project were kind of there or involved anymore so we
+were kind of starting from scratch and my advisor was Stan resin shine he ended
+up being my thesis advisor and he was motivated by this idea of situated
+computation or situated automata and the idea was that the tools of logical
+reasoning were important but possibly only for the engineers or designers to
+use in the analysis of a system but not necessarily to be manipulated in the head of the system itself right so I
+might use logic to prove a theorem about the behavior of my robot even if the robots not using logic and it's headed
+to prove theorems right so that was kind of the distinction and so the idea was
+to kind of use those principles to make a robot do stuff but a lot of the basic
+things we had to kind of learn for ourselves because I had zero background in robotics I didn't know anything about
+control I don't know anything about sensors so we reinvented a lot of wheels on the way to getting that robot to do
+stuff do you think that was an advantage or hindrance oh no it's I mean I I'm big in favor of
+wheel reinvention actually I mean I think you learn a lot by doing it it's
+important though to eventually have the pointers to so that you can see what's really going on but I think you can
+appreciate much better the good solutions once you've messed around a little bit
+on your own and found a bad one yeah I think you mentioned reinventing reinforcement learning yeah and referring to rewards as pleasures by a
+Reinventing reinforcement learning
+pleasure yeah I think yeah I think it's a nice name for it it's more it's more
+fun almost do you think you could tell the history of AI and machine learning
+reinforcement learning and how you think about it from the 50s to now one thing
+is that its oscillates right so things become fashionable and then they go out
+and then something else becomes cool and that it goes out and so on and I think there's so there's some interesting sociological process that actually
+drives a lot of what's going on early days was kind of cybernetics and control right
+and the idea that of homeostasis people have made these robots that could I
+don't know try to plug into the wall when they needed power and then come loose and roll around and do stuff and
+then I think over time the thought well that was inspiring but people said no no
+we want to get maybe closer to what feels like real intelligence or human intelligence and then maybe the expert
+systems people tried to do that but maybe a little too superficially right
+so oh we get the surface understanding of what intelligence is like because I
+understand how a steel mill works and I can try to explain it to you and you can write it down in logic and then we can make a computer infer that and then that
+didn't work out but what's interesting I think is when a thing starts to not be
+working very well it's not only do we change methods we change problems right
+so it's not like we have better ways of doing the problem of the experts those people are trying to do we have no ways
+of trying to do that problem oh yeah I know I think maybe a few but we kind of
+give up on that problem and we switch to a different problem and we we work that
+for a while and we I guess there's a broad community as a community and there's a lot of people who would argue you don't give up on the problem it's
+just you decrease the number of people working on it you almost kind of like put it on the shelf so we'll come back to this 20 years
+later yeah I think that's right or you might decide that it's malformed like
+you might say it's wrong to just try to make something that does superficial
+symbolic reasoning behave like a doctor you can't do that until you've had the
+sensorimotor experience of being a doctor or something right so there's arguments that say that that's problem
+was not well formed or it could be that it is well for it but but we just weren't approaching it well you mention
+Roadblocks in symbolic reasoning
+that your favorite part of logic and symbolic systems is that they give short names for large sets
+so there is some use to this they use just as a symbolic reasoning though the
+looking at expert systems and symbolic computing what do you think are the roadblocks that were hit in the eighties
+and nineties ah okay so right so the fact that I'm not a fan of expert
+systems doesn't mean that I'm not a fan of some kinds of symbolic reasoning right so let's see road blocks but the
+main road block I think was that the idea that humans could articulate their
+knowledge effectively into into you know some kind of logical statements so it's
+not just the cost the effort but really just the capability of doing it right because we're all experts in vision
+right but not totally don't have introspective access into how we do that right and it's true that I mean I think
+the idea was well of course even people then would know of course I wouldn't ask you to please write down the rules that you use for recognizing water bottle
+that's crazy and everyone understood that but we might ask you to please write down the rules you use for
+deciding I don't know what tie to put on or how to set up a microphone or
+something like that but even those things I think people maybe I think what
+they found I'm not sure about this but I think what they found was that that so-called experts could give
+explanations that sort of post hoc explanations for how and why they did things but they weren't necessarily very
+good and then they different they depended on maybe some kinds of
+perceptual things which again they couldn't really define very well so I think I think fundamentally I think that
+the underlying problem with that was the assumption that people could articulate how and why they make their decisions
+all right so it's almost in call encoding the knowledge from converting
+from expert to something that a machine could understand and reason with no no not even just encoding but getting it
+out of you just not not writing it I mean yes hard also to write it down for
+the computer yeah but I don't think that but can produce it you can tell me a
+story about why you do stuff but I'm not so sure that's the way great so there
+Where symbolic reasoning is useful
+are still on the hierarchical planning side places where symbolic reasoning is
+very useful so as you've talked about so
+where so don't where's the gap yeah okay good so saying that humans can't provide
+a description of their reasoning processes that's ok fine but that
+doesn't mean that it's not good to do reasoning of various styles inside a computer those are just two orthogonal points so then the question is what kind
+of reasoning should you do inside a computer right and the answer is I think you need to do all different kinds of
+reasoning inside a computer depending on what kinds of problems you face I guess
+Why abstractions are critical
+the question is what kind of things can you encode symbolically so you can
+reason about I think the idea about an even symbolic I don't even like that
+terminology because I don't know what it means technically informally I do believe in abstractions so abstractions are
+critical right you cannot reason a completely fine grain about everything
+in your life right you can't make a plan at the level of images and torques for getting a PhD right so you have to
+reduce the size of the state space and you have to reduce the horizon if you're gonna reason about getting a PhD or even
+buying the ingredients to make dinner and so so how can you reduce the spaces
+and the horizon of the reasoning you have to do and the answer is abstraction spatial abstraction temporal abstraction
+I think abstraction along the lines of goals is also interesting like you might or well abstraction and decomposition
+goals this may be more of a decomposition thing so I think that's where these kinds of if you want to call
+it symbolic or discrete models come in you you talk about a room of your house
+instead of your pose you talk about you know doing something during the
+afternoon instead of at 2:54 and you do that because it makes your reasoning
+problem easier and also because you have you don't have enough information to
+reason in high fidelity about your pose of your elbow at 2:35 this afternoon
+anyway right when you're trying to get a PhD okay except for at that moment at
+that moment you do have to use it about the pose of your elbow maybe but then you maybe you do that in some continuous joint space kind of modeling so I again
+I my biggest point about all of this is that there should be the dogma is not
+the thing right we shouldn't it shouldn't be that I'm in favor against symbolic reasoning and you're in favor
+against neural networks it should be that just just computer science tells us
+what the right answer to all these questions is smart enough to figure it out oh yeah when you try to actually solve the problem with computers the right
+Automated construction of abstractions
+answer comes out you mentioned abstractions mm-hmm I mean you all networks form abstractions or rather
+there's there's automated ways to form strategies and there's expert driven ways to form abstractions and export
+human driven ways and humans just seems to be way better at forming abstractions currently and certain problems so when
+you're referring to 2:45 and PM versus afternoon how do we construct that
+taxonomy is there any room for automated construction of such abstractions oh I
+think eventually yeah I mean I think when we get to be better and machine learning engineers will build algorithms
+that build awesome abstractions that are useful in this kind of way that you describe yeah yeah so let's then step
+from the the abstraction discussion and let's talk about BOM mdps partially
+observable Markov decision processes so uncertainty so first water Markov decision processes and maybe how much of
+our world could be models and mdps how much when you wake up in them morning me making breakfast how do you
+think of yourself as an MDP so how do you think about MVPs and how they relate
+to our world well so there's a stance question right so a stance is a position
+that I take with respect to a problem so I as a researcher or person who design
+systems can decide to make a model of the world around me in some terms right so I take this messy
+world and I say I'm gonna treat it as if it were a problem of this formal kind
+and then I can apply solution concepts around rhythms or whatever to solve that formal thang right so of course the
+world is not anything it's not an MDP or a pom DP I don't know what it is but I can model aspects of it in some way or
+some other way and when I model some aspect of it in a certain way that gives me some set of algorithms I can use you
+Markov decision process
+can model the world in all kinds of ways some have some are more accepting of
+uncertainty more easily modeling uncertainty of the world some really force the world to be deterministic
+and so the certainly NDP's model the uncertainty of the world yes model some
+uncertainty the model not present state uncertainty but they model uncertainty in the way the future will unfold right
+so what are Markov decision process so marketers process is a model it's a kind
+of model that you could make that says I I know completely the current state of my system and what it means to be a
+state is that I that all they have all the information right now that will let me make predictions about the future as
+well as I can so that remembering anything about my history wouldn't make my predictions any better and but it but
+then it also says that that then I can take some actions that might change the state of the world and that I don't have
+a deterministic model of those changes I have a probabilistic model of how the world might change it's a it's a useful
+model for some kinds of systems I think it's a I mean it's certainly not a good
+model for most problems I think because for most problems you don't actually
+know State for most problems you it's partially observed so that's now a
+different problem class so okay that's where the poverty P is the partially
+Partial observable Markov decision process
+observable Markov decision process step n so how do they address the fact that
+you can't observe most your incomplete information about most of the world around you right so now the idea is we
+still kind of postulate that there exists a state we think that there is some information about the world out
+there such that if we knew that we could make good predictions but we don't know the state and so then we have to think
+about how but we do get observations maybe I get images right here things are I feel things and those might be local
+or noisy and so therefore they don't tell me everything about what's going on and then I have to reason about given
+the history of actions I've taken in observations I've gotten what do I think is going on in the world and then given
+my own kind of uncertainty about what's going on in the world I can decide what actions to take and so difficult is this
+Planning under uncertainty
+problem of planning under uncertainty in your view and you know long experience
+of modeling the world trying to deal with this uncertainty in special and
+real of all systems optimal planning for even discrete hamdi peas can be
+undecidable depending on how you set it up and free so lots of people say I
+don't use pom D peas because they are intractable and I think that that's are kind of a very funny thing to say
+because the problem you have to solve is the problem you have to solve so if the
+problem you have to solve is intractable that's what makes us AI people right so we saw we understand that the problem
+we're solving is is compute wildly intractable that we can't we will never be able to solve it optimally at least I
+don't yeah right so later we can come back to an idea about bounded optimality
+and something but anyway I don't we can't come up with optimal solutions to these problems so we have to make
+approximations approximations in modeling approximations in the solution algorithms and so on and so I don't have
+a problem with saying yeah my problem actually it is pom DP in continuous space with continuous
+observations and it's so computationally complex I can't even think about it's you know Big O whatever but that doesn't
+prevent me from it helps me gives me some clarity to think about it that way and to then take steps to make
+approximation after approximation to get down to something that's like computable in some reasonable time when you think
+Optimality
+about optimality you know the community broadly is shifted on that I think a
+little bit in how much they value the idea of optimality of chasing an optimal
+solution positive views of chasing an optimal solution changed over the years
+and when you work with robots that's interesting I think we have a little bit
+of a methodological crisis actually from the theoretical side I mean I do think
+that theory is important in that right now we're not doing much of it so
+there's lots of empirical hacking around and training this and doing that and reporting numbers but is it good is it
+bad we don't know we very hard to say things and if you look at like computer science
+theory so people talked for a while everyone was about solving problems optimally or
+completely and and then there were interesting relaxation so people look at
+oh can I are their regret bounds or can I do some kind of you know approximation
+can I prove something that I can approximately solve this problem or that I get closer to the solution as I spend
+more time and so on what's interesting I think is that we don't have good
+approximate solution concepts for very difficult problems right I like to you
+know I like to say that I I'm interested in doing a very bad job of very big problems but I would I wish I could say
+something I wish I had a I don't know some kind of a formal solution concept
+that I could use to say oh this this algorithm actually it gives me something
+like I know what I'm gonna get I can do something other than just run it and get out so that having that notion is still
+Science vs Engineering
+somewhere deeply compelling to you the notion that you can say you can drop
+thing on the table says this you can expect this this out gonna give me some good results
+I hope science will I mean there's engineering in there science I think
+that they're not exactly the same and I think right now we're making huge engineering like leaps and bounds so
+that engineering is running away ahead of the science which is cool and often how it goes right so we're making things
+and nobody knows how and why they work roughly but we need to turn that into
+science there's some form it's yeah there's some room for formalizing we
+need to know what the principles are why does this work why does that not work I mean for awhile people built bridges by
+trying but now we can often predict whether it's going to work or not without building it can we do that for
+learning systems or for robots so your hope is from a materialistic perspective that
+intelligence artificial intelligence systems robots okay I were just more fancier bridges believe space what's the
+difference between belief space and state space I mentioned MDPs fond appease you reasoning about you sense
+the world there's a state what's this belief space idea I believe
+space that is instead of thinking about what's the state of the world and trying
+to control that as a robot I think about what is the space of beliefs that I
+could have about the world what's if I think of a belief as a probability distribution over ways the world could
+be a belief state is a distribution and then my control problem if I'm reasoning
+about how to move through a world I'm uncertain about my control problem is
+actually the problem of controlling my beliefs so I think about taking actions not just what effect they'll have on the
+world outside but what effect I'll have on my own understanding of the world outside and so that might compel me to
+ask a question or look somewhere to gather information which may not really
+change the world state but it changes my own belief about the world that's a powerful way to to empower the agent to
+Belief vs State Space
+reason about the world to explore the world what kind of problems does it allow you to solve to to consider belief
+space versus just state space well any problem that requires deliberate information gathering right so if in
+some problems like chess there's no uncertainty or maybe there's uncertainty
+about the opponent there's no uncertainty about the state and some
+problems there's uncertainty but you gather information as you go right you might say oh I'm driving my autonomous
+car down the road and it doesn't know perfectly where it is but the Llyod ours are all going all the time so I don't
+have to think about whether to gather information but if you're a human driving down the road you sometimes look
+over your shoulder to see what's going on behind you in the lane and you have to
+side whether you should do that now and you have to trade off the fact that you're not seeing in front of you and
+you're looking behind you and how valuable is that information and so on and so to make choices about information
+gathering you have to reasonably spaced also also I mean also to just take into
+account your own uncertainty before trying to do things so you might say if I understand where I'm standing relative
+to the door jamb pretty accurately then it's okay for me to go through the door but if I'm really not sure where the
+door is then it might be better to not do that right now the degree of your uncertainty ball
+about the world is actually part of the thing you're trying to optimize in forming the plan right so this idea of a
+long horizon of planning for a PhD or just even how to get out of the house or
+how to make breakfast you show this presentation of the the WTF was the fork
+of robot looking at a sink and can you
+describe how we plan in this world of this idea of hierarchical planning we've mentioned this is a yeah how can a robot
+hope to plan about something this was such a long hallway people since
+probably reasoning began have thought about hierarchical reasoning the temporal hierarchy and particular
+spatial hierarchy but let's talk about temporal hierarchy so you might say oh I have this long execution I have to do
+but I can divide it into some segments abstractly right so maybe you have to
+get out of house I have to get in the car I have to drive so on and so you can
+plan if you can build abstractions so this we started out by talking about abstractions and we're back to that now
+if you can build abstractions in your state space and abstractions sort of
+temporal abstractions then you can make plans at a high level and you can say I'm gonna go to town and then I'll have
+to get gas and then I can go here and I can do this other thing and you can reason about the dependencies and constraints among these
+actions again without thinking about the complete details what we do in our
+hierarchical planning work is then say alright I make a plan at a high level of abstraction I have to have some reason
+to think that it's feasible without working it out in complete detail and that's actually the interesting step I
+always like to talk about walking through an airport like you can plan to go to New York and arrive at the airport
+and then find yourself in an office building later you can't even tell me in advance what your plan is for walking
+through the airport partly because you're too lazy to think about it maybe but partly also because
+you just don't have the information you don't know what gate you're landing in or what people are gonna be in front of
+you or anything so there's no point in planning in detail but you have to have
+you have to make a leap of faith that you can figure it out once you get there and it's really interesting to me how
+you arrive at that how do you they say
+you have learned over your lifetime to be able to make some kinds of predictions about how hard it is to achieve some kinds of sub goals and
+that's critical like you would never plan to fly somewhere if you couldn't didn't have a model of how hard it was
+to do some of the intermediate steps so one of the things we're thinking about now is how do you do this kind of very aggressive generalization to situations
+that you haven't been in and so on to predict how long will it take to walk through the Kuala Lumpur Airport like
+you give me an estimate and it wouldn't be crazy and you have to have an estimate of that in order to make plans
+that involve walking through the Kuala Lumpur Airport even if you don't need to know it in detail so I'm really
+interested in these kinds of abstract models and how do we acquire them but once we have them we can use them to do
+hierarchical reasoning which is I think it's very important yeah there's this notion of gold' regression and preimage
+Starting at the goal
+back chaining this idea of starting at the goal and it's just for these big clouds of states you get I mean it's
+almost like saying to the airport you know you you know once you show up
+to the airport that that's you you're like a few steps away from the goal so
+like thinking of it this way it's kind of interesting I don't know if you have sort of further comments on them of
+starting at the goal why that yeah I mean it's interesting that Simon herb
+Simon back in the early days of AI did talked a lot about means-ends reasoning and reasoning back from the goal there's
+a kind of an intuition that people have that the number of that state space is
+big the number of actions you could take is really big so if you say here I sit and I want to search forward from where
+I am what are all the things I could do that's just overwhelming if you say if you can reason at this other level and
+say here's what I'm hoping to achieve what can I do to make that true that somehow the branching is smaller now
+what's interesting is that like in the AI planning community that hasn't worked out in the class of problems that they
+look at and the methods that they tend to use it hasn't turned out that it's better to go backward it's still kind of
+my intuition that it is but I can't prove that to you right now all right I'd share your intuition at least for us
+Planning human life
+mere humans speaking of which when you
+maybe never take it and take a look take a little step into that philosophy circle how hard would it when you think
+about human life you should give those examples often how hard do you think it is to formulate human life is a planning
+problem or aspects of human life so when you look at robots you're often trying to think about object manipulation tasks
+about moving a thing when you when you take a slight step outside the room let
+the robot leave and go get lunch or maybe try to pursue more fuzzy goals how
+hard do you think is that problem if you were to try to maybe put another way try to formulate human life as a planning
+problem well that would be a mistake I mean it's not all the planning problem right every think it's really really
+important that we understand that you have to put together pieces and parts
+that have different styles of reasoning representation and learning I think I think it's it's seems probably clear to
+anybody that that you you can't all be this or all be that brains aren't all
+like this are all like that right they have different pieces and parts and substructure and so on so I don't think
+that there's any good reason to think that there's going to be like one true algorithmic thing that's gonna do the
+whole job just a bunch of pieces together designed to solve a bunch of
+Modelbased vs modelfree
+specific problem one the specific styles of problems I mean there's probably some
+reasoning that needs to go on in image space I think again there's this model
+based vs. model free idea it's I only enforce spent learning people talk about it oh should I learn I could learn a
+policy just straight up a way of behaving I could learn it's popularly a
+value function that's some kind of weird intermediate ground or I could learn a
+transition model or it tells me something about the dynamics of the world if I take a trip if imagine that I
+learned in a transition model and I couple it with a planner and I draw a box around that I have a policy again
+it's just stored a different way right right it's in but it's just as much of a
+policy as the other policy it's just I've made I think the way I see it is it's a time-space trade-off in
+computation right a more overt policy representation maybe it takes more space
+but maybe I can compute quickly what action I should take on the other hand maybe a very compact model of the world
+dynamics plus a planner let's make compute what action to take to just more slowly there's no I mean I don't think there's
+no argument to be had it's just like a question of what form of computation is
+best for us for the various subproblems right so and and so like learning to do
+algebra manipulations for some reason is good I mean that's probably gonna want naturally is sort of a different
+representation than riding a unicycle at the time constraints on the unicycle or serious this thing space is maybe
+smaller I don't know but so I could be the more human-sized of falling in love
+Perception vs planning
+having a relationship that might be another yeah another style of no idea
+how to model that yeah that's let's first solve the algebra an object may patient what do you think is harder
+perception or planning perception that's understanding that's so what do you
+think is so hard about perception by understanding the world around you well I think the big question is
+representational a hugely the question is representation so perception has made
+great strides lately right and we can classify images and we can play certain
+kinds of games of predict I to steer in the car and all this sort of stuff I don't think we have a very good idea of
+what perception should deliver right so if you if you believe in modularity ok
+there's there's a very strong view which says we shouldn't build in any
+modularity we should make a giant gigantic neural network trained it end-to-end to do the thing and that's
+the best way forward and it's hard to argue with that except on a sample
+complexity basis right so you might say oh well if I want to do end-to-end Rio first of all anything on this giant
+giant neural network it's going to take a lot of data and a lot of like broken robot system so then the only answer is
+to say ok we have to build something in build in some structure or some bias we
+know from theory of machine learning the only way to cut down the sample complexity is to kind of cut down somehow cut down the hypothesis space
+you can do that by building in bias there's all kinds of reason to think that nature built bias into humans
+[Music] convolution is a bias right it's a very strong bias and it's a very critical
+bias so my own view is that we should look for more things that are like
+convolution but that other aspects of reasoning right so convolution helps us a lot with a
+certain kind of spatial reasoning that's quite close to the imaging I think
+there's other ideas like that maybe some amount of forward search maybe some
+notions of abstraction maybe the notion that objects exist actually I think that's pretty important and a lot of
+people won't give you that to start with right so almost like a convolution in the in the object semantic object space
+Convolution
+of some kind sometimes some kind of ideas in there that's right people who started like the graph graph convolutions are an idea that are
+related to racial relational representations and so so I think there
+are so you I've come far afield from perception but I think I think the thing
+that's going to make perception that kind of the next step is actually understanding better what it should
+produce right so what are we going to do with the output of it right it's fine when what we're gonna do with the output
+is Sudhir it's less clear when we're just trying to make a one integrated
+intelligent agent what should the output of perception be we have no idea and how
+should that hook up to the other stuff we don't know so I think the pressing question is what kinds of structure can
+we build in that are like the moral equivalent of convolution that will make a really awesome super structure that
+then learning can kind of progress on efficiently I agree very compelling description of actually where we stand
+Selfawareness
+with the perceptual mom you're teaching a course on embodying intelligence what
+do you think it takes to build a robot with human level intelligence I don't
+know if we knew we would do it if you were to I mean okay so do you think a
+robot needs to have a self-awareness consciousness fear of mortality or is it
+is it simpler than that or is consciousness a simple thing like do you think about these notions I don't think
+much about consciousness even most philosophers who care about it will give
+you that you could have that are zombies right that behave like humans but are not conscious and I at
+this moment we'd be happy enough for that so I'm not really worried one way or the other to the technical side you're not thinking of the use of
+self-awareness no but okay but then what is self-awareness mean I mean that you
+need to have some part of the system that can observe other parts of the system and tell whether they're working
+well or not that seems critical so does that count this I mean does that kind of
+self-awareness or not well it depends on whether you think that there's somebody
+at home who can articulate whether they're self-aware but clearly if I have like you know some piece of code that's
+counting how many times this procedure gets executed that's a kind of self-awareness right so there's a big
+spectrum it's clear you have to have some of it right you know quite far away at many dimensions but there's a direction of
+Humanlevel intelligence
+research that's most compelling to you for you know try to achieve human-level
+intelligence in our robots well to me I guess the thing that seems most compelling to me at the moment is this
+question of what to build in and what to learn I think we're we don't we're
+missing a bunch of ideas and and we you know people you know don't you dare ask
+me how many years it's gonna be until that happens because I won't even participate in the conversation because
+I think we're missing ideas and I don't know how long it's gonna take to find them so I won't ask you how many years but maybe I'll ask you what it when
+Test of intelligence
+you'll be sufficiently impressed that we've achieved it so what's what's a good test of intelligence do you like
+the Turing test the natural language in the robotic space is there something wait you would sit back and think us
+that's pretty impressive as a test as a benchmark do you think about these kinds
+of problems no I resist I mean I think all the time that we spend arguing about
+those kinds of things could be better spent just making the robots work better so you
+competition so I mean there's a nature of benchmark benchmarks and data sets or
+touring test challenges or everybody kind of gets together and tries to build a better robot because they want to
+compete each other like the DARPA challenge with the autonomous vehicles do you see the value of that I can get
+in the way I think in the way I mean some people many people find it motivating and so that's good I find it anti motivating but I think I
+mean I think you get an interesting cycle where for a contest a bunch of
+smart people get super motivated and they hack the brains out and much of what gets done is just hacks but
+sometimes really cool ideas emerge and then that gives us something to chew on after that so I'm it's not a thing for
+me but I don't I don't regret that other people do it yeah it's like he says with
+Journal of Machine Learning Research
+everything else that makes is good so jumping topics a little bit he started the journal of machine
+learning research and served as its editor-in-chief how did the publication
+come about and what do you think about the current publishing model space and
+machine learning artificial intelligence ok good so it came about because there
+was a journal called machine learning which still exists which was owned by Kluwer and there was I was on the
+editorial board and we used to have these meetings and really where we would complain to Kluwer that it was too expensive for the libraries and that
+people couldn't publish and we would really like to have some kind of relief on those friends and they would always
+sympathize but not do anything so we just decided to make a new journal and
+there was the Journal of AI research which has was on the same model which had been and exists us for maybe five
+years or so and it was going on pretty well so uh we just made a new journal it
+wasn't I mean they don't know I guess it was work but it wasn't that hard so basically the editorial board probably
+75% of the editorial board of machine learning resigned and we founded the
+Neuse new journal but it was sort of it was more open yeah right so it's completely open its open
+Open Access
+access actually I I had a postdoc George Kennedy artists who wanted to call these
+journals free for all because there were I mean it both has no page charges and
+has no access restrictions and the
+reason and so lots of people I mean there were there were people who are mad about the existence of this journal who
+thought it was a fraud or something it would be impossible they said to run a journal like this with basically I mean
+for a long time I didn't even have a bank account I paid for the lawyer to incorporate and the IP address and it
+cost a couple hundred dollars a year to run it's a little bit more now but not that much more but that's because I
+think computer scientists are competent and autonomous in a way that many
+scientists and other fields aren't I mean at doing these kinds of things we already typeset around papers we all
+have students and people who can hack a website together in an afternoon so the infrastructure for us was like not a
+problem but for other people in other fields it's a harder thing to do yeah and this kind of open access journal and
+Review Process
+there's nevertheless one of the most prestigious journals so it's not like a
+prestige and it can be achieved without any other paper it's not required yeah
+for prestige it turns out yeah so on the review process side of actually a long
+time ago I don't remember when I reviewed a paper where you were also a reviewer and I remember reading your if
+you were being influenced by it and it was really well-written it influenced how I write future reviews you disagreed with me actually and you
+made it my review but much better so I but nevertheless the review process you
+know has its flaws and how do you think what do you think works well how can it
+be improved so actually when I started Djamel our I wanted to do something completely different
+and I didn't because it felt like we needed a traditional Journal of record
+and so we just made jam art be almost like a normal Journal except for the open-access parts of it basically
+increasingly of course publication is not even a sensible word you can publish something about putting it in archives
+that I can publish everything tomorrow so making stuff public is there's no
+barrier we still need curation and
+evaluation I don't have time to read all of our kyv and you could argue that kind
+of social thumbs up being of articles
+suffice is right you might say oh heck with this we don't need journals at all
+we'll put everything on archive and people will upload and down about the articles and then your CV will say oh
+man they he got a lot of buzz so that's good but I think there's still value in
+careful reading and commentary of things and it's hard to tell when people are voting and down voting or arguing about
+your paper on Twitter and reddit whether they know what they're talking about
+right so then I have the second order problem of trying to decide whose opinions I should value and such so I
+don't know I what I if I had infinite time which I don't and I'm not gonna do this because I really want to make
+robots work but if I felt inclined to do something more in a publication direction I would do this other thing
+which I thought about doing the first time which is to get together some set of people whose opinions I value and who
+were pretty articulate and I guess we would be public although we could be private I'm not sure and we would review
+papers we wouldn't publish them and you wouldn't submit them we were just fine papers and we would write reviews and we
+would make those reviews public and maybe if you you know so we're Leslie's
+friends who review papers and maybe eventually if if we are opinion was officially valued like the
+opinion of Jay mor is valued then you'd say in your CV that Leslie's friends gave my paper a five-star reading and
+that would be just as good as saying I got it so you know accepted into this journal so I think I think we should
+have good public commentary and organize it in some way but I don't really know
+how to do it it's interesting at times the way the way you describe text is really interesting and you would do it for movies IMDB done know there's
+experts critics come in they write reviews but there's also regular yeah
+non critics humans write reviews and they're separated I like open review the
+the eye I cleared process I think is interesting it's a
+Paper Reviews
+step in the right direction but it's still not as compelling as reviewing movies or video games I mean it
+sometimes almost it might be silly it's my perspective to say but it boils down to the user interface how fun and easy
+it is to actually perform the reviews how efficient how much you as a reviewer
+get street cred for being a good reviewer those element those human
+elements come into play now it's a big investment to do a good review of a paper and the flood of papers is that
+control right so you know there aren't 3,000 new I don't know how many new movies are there any year I don't know
+but that's probably gonna be less than how many machine learning papers are in a year now and I'm worried I you know I
+I and right so I'm like an old person so of course I'm gonna say rawrrr things
+are moving too fast I'm a stick in the mud so I can say that but my particular
+flavor of that is I think the horizon for researchers has gotten very short
+that students want to publish a lot of papers and there's a huge there's value
+it's exciting and there's value in that and you get patted on the head for it and so on but and some of that is fine
+but I'm worried that we're driving out
+people who would spend two years thinking about something back in my day
+when we worked on our theses we did not publish papers you did your thesis for years
+you picked a hard problem and then you worked and chewed on it and did stuff and wasted time and a long time and when
+it was roughly when it was done you would write papers and so I I don't know
+how to inside and I don't think that everybody has to work in that mode but I think there's some problems that are hard enough that it's important to have
+a longer her research horizon and I'm worried though we don't incentivize that at all at this point in this current
+Hopes and Fears
+structure right so what do you see as what are your hopes and fears about the
+future of AI and continuing this theme so AI has gone through a few winters ups
+and downs do you see another winter of AI coming are you more hopeful about making robots
+work as he said I think the cycles are inevitable but I think each time we we
+get higher right I mean so you know it's like climbing some kind of landscape with a noisy optimizer yeah so it's
+clear that the the you know the deep learning stuff has made deep and
+important improvements and so the high-water mark is now higher I there's no question but of course I think people
+are over sawing and eventually investors I guess and other people look around and
+say well you're not quite delivering on this grand claim and that wild
+hypothesis it's so probably it's going to crash them out and then it's okay I
+mean but I don't I can't imagine that there's like some awesome monotonic
+improvement from here to human level III so in you know I have to ask this
+Existential Threats
+question I probably anticipate answers the answers but do you have a worry
+short term and long term about the existential threats of AI and maybe short-term less
+existential but more robots taking away jobs actually let me talk a little bit
+about utility actually I had an interesting conversation with some
+military ethicists who wanted to talk to me about autonomous weapons and there
+they were interesting smart well-educated guys who didn't know too much about AI are machine learning and
+the first question they asked me was has your robot ever done something you didn't expect and I like burst out
+laughing because anybody who's ever done something other robot right knows that they don't do it and what I realized was
+that their model of how we program a robot was completely wrong their model of how we can put program robot was like
+Lego Mindstorms like oh go for it a meter turn left take a picture do this
+do that and so if you have that model of programming then it's true it's kind of weird that your robot would do something
+that you didn't anticipate but the fact is and and actually so now this is my new educational mission if I have to
+talk to non experts I try to teach them the idea that we don't operate we
+operate at least one or maybe many levels of abstraction about that and we say oh here's a hypothesis class maybe
+it's a space of plans or maybe it's a space of classifiers or whatever but there's some set of answers and an
+objective function and then we work on some optimization method that tries to optimize a solution a solution in that
+class and we don't know what solution that's going to come out right so I
+think it's important to communicate that so I read of course probably people who listen to this they they know that
+lesson but I think it's really critical to communicate that lesson and then lots of people are now talking about you know
+the value alignment problem so you want to be sure as robots or software systems
+get more competent that their objectives are aligned with your objectives or that our objectives are compatible in some
+way or we have a good way of mediating when they have different objectives and so I think it is important to start
+thinking in terms like you don't have to be freaked out by the robot apocalypse - except that it's
+important to think about objective functions of value alignment yes and that you have to really everyone who's
+done optimization knows that you have to be careful what you wish for that ah you know sometimes you get the optimal
+solution and you realize man that was that objective was wrong so
+pragmatically in the shortest term it seems to me that that those are really
+interesting and critical questions and the idea that we're gonna go from being people who engineer algorithms to being
+people who engineer objective functions I think that's that's definitely going to happen and that's gonna change our
+thinking and methodology and we're gonna you started at Stanford philosophy that's where she comes I will go back to
+because as we also know as machine learning people right when you're design
+in fact this is the lecture I gave in class today when you design an objective function you have to worry about with
+hats there's the Hat that says what do I want and there's the hat that says but I know
+what my optimizer can do to some degree and I have to take that into account okay so it's it's always a trade-off and
+we have to kind of be mindful of that the part about taking people's jobs I
+understand that that's important I don't understand sociology or economics or
+people very well so I don't know how to think about that so that's yeah so there might be a sociological aspect there the
+Most Exciting Research
+economical aspect that's very difficult to say well okay I mean I think other people should be thinking about it but I'm just that's not my strength so what
+do you think is the most exciting area of research in the short term for the community and for your for yourself well
+so I mean there's the story I've been telling about how to engineer intelligent robots so that's what we
+want to do we all kind of want to do well I mean some set of us want to do this and the question is what's the most
+effective strategy and we've tried and there's a bunch of different things you could do at the extremes right one super
+extreme is we do introspection then we write a program okay that has not worked
+out very well another extreme is we take a giant bunch of neural and we trying to train it up to do
+something I don't think that's gonna work either so the question is what's
+the middle ground and and again this isn't a theological question or anything
+like that it's just like going how do just how do we what's the best way to make this work out and I think it's
+clear it's a combination of learning to me it's clear it's a combination of learning and not learning and what
+should that combination be and what's the stuff we built in so to me that's the most compelling question and when you say engineer robots you mean
+engineering systems that work in the real world is that that's the emphasis
+last question which robots or robot is your favorite from science
+fiction so you can go with Star Wars Arthur r2d2 or you can go with more
+modern maybe Hal this is this is back to
+you like to make robots work in the real world here not Madden I mean I love the
+process and I care more about the process engineering process yeah I mean
+I do research because it's fun not because I care about what we produce well that's a that's a beautiful note
+actually to end on Leslie thank you so much for talking today sure it's been fun
+you
 
 ----------
 
 -----
+
 --62--
 
 -----
-Date:
-Link:
+Date: 2019.02.26
+Link: [# Karl Iagnemma & Oscar Beijbom (Aptiv Autonomous Mobility) - MIT Self-Driving Cars](https://www.youtube.com/watch?v=p5AtrKqQ3Fw)
 Transcription:
 
-paste here
+Introduction to Karl Iagnemma and Oscar Beijbom
+all right welcome back to 6 s 0 9 for deep learning for self-driving cars today we have Carling yama and oscar
+baby boom from active karl is the president of apt of autonomous mobility
+where Oscar is the machine learning lead karl founded in autonomy as many of you
+know in 2013 it's a boston-based autonomous vehicle company and new tommy
+was acquired by active in 2017 and now it's part of active karl and team are
+one of the leaders in autonomous vehicle development and deployment with cars on roads all over the United States several
+sites but most importantly Karl is MIT through-and-through is also some of you
+may know getting his PhD here he led a robotics group here as a research scientist for many years so it's really
+a pleasure to have both karl and oscar with us today please give them a warm welcome
+Karl - Aptiv Background
+all right thanks Lex yeah very glad to be back at MIT very impressed that you guys are here during
+IEP my course load during IEP was usually ice skating and sometimes like there was
+a wine tasting course this is now almost twenty years ago and that was pretty much it that's where the academic work
+stopped so you guys are here to learn something so I'm gonna do my best and try something radical actually sometime
+president now of apps of autonomous driving I'm not allowed to talk about anything technical or interesting I'm gonna flout that a little bit and and
+raise some topics that we think about that I think are interesting you know questions too to keep in the back of
+your mind as you're thinking about deep learning an autonomous driving so I'll raise some of those questions and then Oscar will actually present some
+real-life technology and some of the work that he has been doing Oscar's our machine learning lead some of the work
+that he and his outstanding team have been doing around machine learning based
+detectors for the deception problem so let me first introduce apt of a little bit because
+people usually ask me like what's an active when I say I work for active apt
+has actually been around for a long time but in a different form after it was previously Delphi
+technologies which was previously part of General Motors so everybody's heard of General Motors some of you may have heard of Delphi
+active spun from Delphi about 14 months ago and so after the tier 1 supplier
+they're an automotive company that industrialize --is technology essentially they take software and
+hardware they industrialize it and put it on car so it can run for many many hundreds of thousands of miles without
+failing which is a useful thing when we think about autonomous driving so the themes for active they develop what they
+say is safer greener and more connected solutions safer means safety systems
+active safety autonomous driving systems of the type that we're building greener
+systems to enable electrification and green vehicles and then more connected
+connectivity solutions both within the vehicle transmitting data around the vehicle and then externally wireless
+communication all of these things as you can imagine feed very very nicely into the future transportation systems that
+the software will actually only be a part of so active is in a really interesting spot when you think about
+the future of autonomous driving and give you sense of scale
+still kind of amazes me the biggest my research group ever was at MIT was like 18 18 people active is a hundred and
+fifty six thousand employees so significant sized organization about a thirteen billion dollar company by
+revenue in about 50 countries around the world my groups about seven hundred
+people so of which Oscar is is one very important person we're about seven hundred working on autonomous driving we've got about a hundred twenty cars on
+the road in in different different countries and I'll show you some examples of that but first let me take a
+trip down memory lane and show you a couple of snapshots about where we were
+not too long ago kind of as a community but but also you know me personally and
+this will either inspire or horrify you I'm not sure which but the fact is 2007
+you know there were groups driving around with cars like running blade servers in the trunk that we're
+generating so much heat you had to install another air conditioner which then was drawing so much power you have
+to add another alternator and then kind of rinse and repeat so it wasn't a great situation but people did enough
+algorithmically computationally to to enable these cars and this is the DARPA
+urban challenge for those who that may be familiar to enable these cars to do something useful and interesting on a
+closed course and it kind of convinced enough people that given enough devotion
+of you know thought and resources that this might actually become a real thing someday so I was one of those people
+that got convinced 2010 this is now I'm gonna crib from my co-founder Emilio who
+was a former MIT faculty member and aero-astro Emilio started up an operation in Singapore through smart who
+somebody had probably worked with so this is some some folks from smart that's James who looks really young in
+that picture he was one of emilio students who was basically taking a golf cart and and turning it into an
+autonomous shuttle it turned out to work pretty well and it got people in Singapore excited which in turn got us
+further excited 2014 they did a demo where they led people of Singapore coming right around these carts in in a
+garden and that worked great over the course a weekend course of a weekend around this time we'd started new autonomy we'd actually
+started a commercial enterprise it kind of stepped least partly away from MIT at that point 2015 we had cars on the road
+this is a Mitsubishi i-miev electric vehicle when we had all our equipment in
+it the front seat was pushed forward so far that me I'm about six foot three actually couldn't sit in the front seat
+so I couldn't actually accompany people on rides it wasn't very practical we ended up switching cars to a Renault
+Zoe platform which is the one you see here which had a little more legroom we were giving at that point open to the
+public rides in our cars in Singapore in the part of the city that we were allowed to operate in
+it was a quick transition as you can see just even you know visually the evolution of these systems has come a
+long way in a short time and we're just a point example of this phenomena which is kind of broadly speaking of you know
+similar across the industry but 2017 we joined active and we were excited by
+that because we as primarily scientists and technologists didn't have a great idea how we're gonna industrialize this
+technology and actually bring it to market and make it reliable and robust and make it safe which is what I'm going
+to talk about a little bit here today so we joined active with its global footprint today we're primarily in
+Pittsburgh Boston Singapore and Vegas and we've got connectivity to actives other sites in
+Shanghai and Wolfsburg let me tell you a little bit about what's happening in Vegas I think people were here when was
+Luke talking a couple days ago yesterday so Luke from lift Luke Vincent probably talked a little bit about Vegas Vegas is
+really an interesting place for us we've got a big operation there 130,000 square foot garage we've got about 75 cars
+we've got thirty of those cars on the lift Network so apt of technology but connecting to the customer through lift
+so if you go to Vegas and you open your lyft app it'll ask you do you want to take a ride in autonomous car you can
+opt in you can opt out it's up to you if you opt in there's a reasonable chance one of our cars will pick you up if you call for a ride so anybody can do this
+competitor's innocent bystanders totally up to you we have nothing to hide our cars are on the road 20 hours a day
+seven days a week if you take a ride when you get out of the car just like any lifts ride you got to give us a star
+rating one through five and that to us is actually really interesting because you know it's a scaler it's it's not too
+rich but that star rating to me says something about the ride quality meaning
+the comfort of the trip the safety that you felt and the efficiency of getting to where you want it to go and our star
+rating today is four point nine five which is pretty good key numbers we've given this point
+over 30,000 rides to more than 50,000 passengers we've driven over a million miles in Vegas and a little bit
+additional but primarily there and as I mentioned the 4.95 so what's it look
+like on the road I'll show just one video today I think Oscar has a few more this one's actually in Singapore but
+it's all kind of morally equivalent you'll see a sped up slightly sped up
+view of a run from this is now probably six seven months old on the road in
+Singapore but it's got some interesting stuff in a fairly typical run some of
+you may recognize these these these roads we're on the wrong side of the road remember because we're in Singapore but to give you an example of the some
+of the types of problems we have to solve on a daily basis so let me run this thing and you'll see is this car is
+cruising down the road you have obstacles that we have to avoid
+sometimes in the face of oncoming traffic we've got to deal with sometimes
+situations where other road users are maybe not perfectly behaving by the rules we got to manage that in a natural
+way Construction is Singapore like everywhere else is pretty ubiquitous and so you have to navigate through these
+less structured environments people who are sometimes doing things or indicating
+some future action which you have to make inferences about that can be tricky to navigate so typical day a route that
+any one of us as humans would you know drive through without batting an eye no problem is actually presents some really
+really complex problems for autonomous vehicles but it's the table stakes these days these are the things you have to do
+if you want to be on the road and certainly if you want to drive millions of miles you know with very few
+accidents which is what we're doing so that's an introduction to active and a little bit of background so let me talk
+Dimensions of Safety for AVs
+about we're going to talk about learning and how we think about learning in the
+context of autonomous driving so there was a period a few years ago where I think as a community people thought that
+we would be able to go from pixels to actuator commands with a single learned architecture a single black box
+I'll say generally speaking we no longer believe that's true and I should include we in that I didn't believe that was
+ever true but some of us maybe thought that was true and I'll tell you part of the reason why and in part of this talk
+a big part of it comes down to safety a big part of it comes down to safety and
+the question of safety convincing ourselves that that system that black box even if we could train it to
+accurately approximate this massively complex underlying function that we're trying to approximate can we convince
+ourselves that it's safe and it's very very hard to answer that question affirmatively and I'll raise some of the issues around
+why that is this is not to say that learning methods are not incredibly useful for autonomous driving because
+they absolutely are and Oscar will show you examples of why that is and how active is using some learning methods
+today but this safety dimension is tricky because there's actually there's actually two axes here one is the actual
+technical safety of the system which is to say can we build a system that's safe that's provably in some sets safe that's
+we can validate which we can convince ourselves achieves the intended functionality in our operational design
+domain that adheres to whatever regulatory requirements might be imposed
+on our jurisdictions that we're operating and there's a whole longer list related to technical safety but
+these are technical problems primarily but there's another dimension which appear is you know called perceived
+safety which is to say when you ride in a car even if it's safe do you believe
+that it's safe and therefore will you want to take another trip which sounds kind of squishy and as engineers we're
+typically uncomfortable with that kind of stuff but it turns out to be really important and probably harder to solve because it's a little bit squishy and
+you know quite obviously we got to sit up here right we got to be in this upper right-hand corner where we have not only a very safe car from a technical
+perspective but one that feels safe that inspires confidence in riders in regulators and and everybody else so how
+do we get there in the context of elements of this system that maybe black boxes for lack of a better word what's
+required is trust you know how do we get to this point where we can trust neural networks in the context of safety critical systems
+Trusting neural networks behind the wheel
+which is what an autonomous vehicle is it really comes down to this question of how do we convince ourselves that we can
+validate these systems again validating the system ensuring that it can it can meet the requirements the operation
+requirements in the domain of interests that are imposed by the user alright there's three dimensions to to this this
+this this key question of understanding how to validate and I'm gonna just briefly introduce some questions some some topics of interest around each of
+these but the first one trusting the data trusting the data so do we actually
+have confidence about what goes into this algorithm I mean everybody knows garbage in garbage out there's various
+ways that we can make this garbage we can have data which is insufficiently covering our domain not representative
+of the domain we can have data that's poorly annotated by our third party trusted partners so we've trusted to to
+label certain things of interests so do we trust the data that's going in to the algorithm itself do we trust the
+implementation you've got a beautiful algorithm super descriptive super robust not brittle at all well-trained and
+we're running it on poor hardware we've coded it poorly we've got buffer overruns right and left do we trust the implementation to
+actually execute in a safe manner and do we trust the algorithm again
+generally speaking we're trying to approximate really complicated functions I don't think we typically use neural
+networks for to approximate linear systems so this is a gnarly nasty function which has topics of which has
+problems of critical interest which are really rare in fact they're the only ones of interests so there's these
+events that happen very very infrequently that we absolutely have to get right it's a hard problem to
+convince ourselves that the algorithm is going to perform properly in these unexpected and rare situations so these
+are the sorts of things that we think about and that we have to answer in an intelligent way to convince ourselves
+that we have a validated neural network based system
+okay let me just step through these each of these topics really quickly so the
+Validation of black-box systems
+topic of validation you know what do we mean by that or why it is hard there's a number of different dimensions here the
+first is that we don't have insight into the nature of the function that we're trying to approximate you know the underlying phenomena is really
+complicated again if it weren't we'd probably be possibly be modeling it using different techniques we'd write a
+closed-form equation to describe it so that's a problem second again you know
+the accidents the actual crashes on the road what's going crashes and not accidents these are rare luckily they're
+very rare but it makes the statistical argument around these accidents and
+being able to avoid these accidents really really difficult if you believe rant and they're pretty
+smart folks they say you got to drive 275 million miles without accident
+without a crashed you can claim a lower fatality rate than a human with 95% confidence but how we gonna do that can
+we think about using some correlated incident maybe some kind of close call as a proxy for accidents which may be
+more frequent and maybe back in that way there's a lot of questions here which I won't say we don't have any answers to
+because I wouldn't go that far but there there's heart they're hard questions they're not questions with obvious answers so this is one of them these
+this this issue of rare events the regulatory dimension is one of these
+known unknowns how do we evaluate a system if the requirements that may be imposed upon us from outside regulatory
+bodies are still to be written other that's difficult so there's a lack of
+consensus on what the safety target should be for these systems this is obviously evolving smart people are
+thinking about this but today it's not at all clear if you're driving in Las Vegas if you're driving in Singapore if
+you're driving in San Francisco or in or in between what this target needs to be and then lastly and this is a really
+interesting one we can get through a validation process for a build of code let's assume we can do that well what
+happens when we're gonna update the code because obviously we will does that mean we have to start that validation process
+again from scratch which will unavoidably be expensive and lengthy well what if we only change a little bit
+of the code would have I only changed one line but what if that one line is like the most important line of code in
+the whole code base this is one that I can tell you keeps a lot of people up at
+night this question of revalidation and then not even you know again now we'll keep that code base fixed what if we
+move from one city to the next and let's say that city is quite similar to your previous city but not exactly the same
+how do we think about validation in the context of new environments so this continuous development issue is a
+challenge all right let me move on to talking about the data there's probably people in this room who are doing active
+Trusting the data
+research in this area because it's a really interesting one but there's a couple of questions I would say that we think
+about when we think about data we can have a great algorithm and if we're training it on poor data for one reason
+or another we won't have a great output so one thing we think about is this
+efficiency the completeness of the data and the bias that may be inherent in the data for our operational domain if we
+want to operate 24 hours a day and we only train on data collected during day time we're probably going to have an
+issue annotating the data is another dimension of the problem we can collect raw data
+that's sufficient that covers our space but when we annotate it when we hand it off to a third party because it's
+typically a third party to mark up the interesting aspects of it we provide
+them some specifications but we put a lot of trust in that third party and-and-and and trust that they're gonna
+do a good job annotating the interesting parts and not the uninteresting parts that they're going to catch all the
+interesting parts that we've asked them to catch etc so this annotation part which seems very mundane very easy to
+manage and kind of like low-hanging fruit is in fact another key aspect of
+ensuring that we can trust the data ok and this just kind of point to the fact that
+there are again smart people thinking about this problem which rears its head in many domains beyond autonomous
+driving now what about the algorithms themselves so moving on you know from
+Trusting the algorithms
+the data to the actual algorithm you know how do we convince ourselves that
+that algorithm that you know like any kind of learning based auger we've trained on a training set is going to do
+well on some unknown test set well there's a couple kind of properties of
+the algorithm that we can look at that we can kind of interrogate and kind of poke at to convince ourselves that that
+algorithm will perform well you know one is in variance and the other one we can
+say is stability if we make small perturbations to this function does it
+behave well given kind of let's say a bounded input do we see a bounded output or do we see some wild response you know
+I'm sure you've all heard of examples of adversarial images that can confuse
+learning based classifiers so it's a it's a it's a turtle you show it a
+turtle that says well that's a turtle and then you show it a turtle that's maybe fuzz with a little bit of noise that the human eye can't perceive so it
+still looks like a turtle and it tells you as a machine gun obviously for us in
+the driving domain we want to stop sign to be correctly identified as a stop sign a hundred types of a hundred we
+don't want that stop sign if somebody goes up and puts a piece of duct tape in the lower right hand corner to be
+interpreted as a yield sign for example so this question of the properties of
+the algorithm its invariance its stability is something of high interests and then lastly
+and one more point to this this notion of interpretability so interpretability understanding why an
+algorithm made a decision that it made this is the sort of thing that may not be a nice-to-have may actually be a
+requirement and would likely to be a requirement from the regulatory groups that I was referring to a minute ago so
+let's say imagine the case of a crash where the system that was governing your trajectory generator was a was a was a
+data-driven system was a deep learning based trajectory generator well you may
+need to explain to someone exactly why that particular generate trajectory was generated at that particular moment and
+this may be a hard thing to do if the generator was a was a data driven model
+now obviously there are people working and doing active research into this specific question of interpretive all
+learning methods but it's it's it's a thorny one it's a very very difficult topic and it's not at all clear to me
+when and if we'll get to the stage where we can - even a technical audience but
+beyond that to a lay jury be able to explain why algorithm X made decision
+why okay so with all that in mind let me
+Safety architecture for neural networks
+talk a little bit about safety that all
+maybe sounds pretty bleak you think well man well I've been taking this course with Lex because we're never really use this stuff but in fact we we can we can
+and will as a community there's a lot of tools we can bring to bear to think
+about neural networks and they're generally speaking within the context of
+a broader safety argument I think that's the key we tend not to think about using a neural network as an holistic system
+to drive a car but we'll think about it as a sub-module that we can build other
+systems around generally speaking that which we can say maybe make more rigorous claims about their performance
+their underlying properties and then therefore make a convincing holistic safety argument that this end-to-end
+system is safe we have tools functional safety is maybe familiar to some of you
+it's something we think about a lot in the automotive domain and so diff which stands for safety of
+the intended functionality we're basically asking ourselves the question is this overall function doing what it's
+intended to do is it operating safely and is it meeting its specifications there's kind of an analogy here to
+validation and verification if you will and we have to answer these questions
+around functional safety and soda if affirmative lis even in the even when we
+have neural network based elements in order to eventually put this car on the road all right so I mentioned that we
+need to do some embedding this is an example of what it might look like we refer to this as sometimes we call this
+caging the learning so we put the learning in a box it's this powerful animal we want to control and in this
+case it's up there at the top in red that might be you know that trajectory proposer I was talking about so let's
+say we've got a powerful trajectory proposer we want to use this thing we've got it on what we call our performance compute our high-powered compute it's
+maybe not automotive grade it's got some potential failure modes but it's generally speaking you know good performance let's go there and we've got
+our neural network based generator on it which we can say some things about but maybe not everything we'd like to well
+we make the argument that if we can surround that says we can cage it kind of underpin it with a safety system that
+we can say very rigorous things about its performance then generally speaking
+we may be okay there may be a path to using neural networks on autonomous vehicles if we can wrap them in a safety
+architecture that we can say a lot of good things about and this is exactly what this represents so I'm going to
+conclude my part of the talk here handed over to Oscar with kind of a quote and
+assertion one of my engineers insisted I show today the argument is the following
+engineering is inching closer to the Natural Sciences I won't say how much closer but closer we're creating things
+Engineering is inching closer to the natural sciences
+that we don't fully understand and then we're investigating the properties or creation we're not ready down close for
+closed form functions that would be too easy we're generating these immensely
+complex function approximator x' and then we're just poking at ways of saying boy well what does this
+thing do under these situations and I'll leave leave you with one image which I'll present without comment and then
+hand it over to Oscar all right Thank You Karl
+Oscar - DL for 3D Detection
+thanks Lex for the invite yes my name is Oscar run the the machine learning team
+at active autonomy so every weekend with this slide
+specification was you know quite literally a joke so this is an actual comic I won't have seen this before
+okay well I was doing my PhD in this era where you know building a bird
+classifier was like a PhD project right and it was it was you know it's funny
+because it's true and then of course as you well know the deep learning revolution happened and unless you know
+previous introductory slides gives a great overview I don't want to redo that I just want to say sort of a straight
+line from what I consider the breakthrough paper by Chris Jeff's key at all to the to the work I'll be
+talking about today I was sort of these three so you had the you know deep learning and to end learning for you is
+genetic classification by Christian Hinton that papers been cited 35,000 times I checked yesterday then 2014 Ross
+Kirsch ago at Berkeley basically showed how to you know repurpose the deep
+learning architecture to do a detection in images and that was the first time when the visual community really started
+seeing okay so classification is more general I can classify anything an image an audio signal whatever right but detection
+images was very intimate to the computer vision community we thought we were best in the world right so in this paper came
+out that was sort of the the final the final argument from I okay we all need to do deep learning now right and then
+2016 this this paper came out the single shot multi box detector which i think is a great paper finally at all
+so if you haven't looked at you haven't looked at this paper by all means read them carefully
+you know that's the result you know performance is no longer a joke
+right so this is this is a network that we developed in our in my group so it's
+a it's an image joint image classification segmentation network this thing we can run this at 200 Hertz on a
+single GPU and in this video in this rendering there is no tracking apply
+there is no temporal smoothing every single frame is analyzed independently from the other one and you can see that
+we can model several different classes you know both both boxes and and and the
+surfaces at the same time there's my cartoon drawing of a perception system an autonomous vehicle so you have the
+three different main sense of analyses typically have some module that does
+detection and tracking you know this tons of variations of the dis of course we you have some sort of sense of
+pipelines and then in the end you have a tracking infusion step right so what I
+showed you in the previous video is basically at this part so I did like I said it was a tracking but it's like going from the camera to detection and
+if you look you know when I started so I come strict from the computer science
+learning community so when I start looking at this pipeline I'm like why are there so many steps why aren't we
+optimizing things you know end to end so obviously like there is a there's a real temptation to just wrap everything in a
+kernel it's very well defined input output function and like like Karl alluded to it's it's one that can be
+verified quite quite well assuming you have the right data I'm not going to be
+talking about this I am going to talk about this namely the building a a deep
+learning kernel for the liteup pipeline and a lot of pipeline is arguably the backbone of the reception system for for
+for most autonomous driving systems so what we're going to do is so this is basically going to be the goal here so
+we're going to have a point cloud simple and we're gonna have a have a neural network that takes that in simple and
+then generates 3d bounding boxes that are in the world coordinate system so it's like 20 meters that way it's two
+meters wide so long this this rotation and this orientation and so on so yeah
+PointPillars
+so that's what this talk is about so I'm going to talk about point pillars which is a new method we developed for this and new scenes which is a benchmark data
+that we released okay so the supporters point bill as well it's a novel point cloud encoder that's what we do is we
+learn a representation that is suitable for downstream detection it's almost like the main innovation is the
+translation from a point cloud to a to a canvas that can then be processed by by
+a similar architecture that you would use in an image and we are sure it outperforms the you
+know all publish measures on kitty by a large margin especially with respect to
+inference speed and there's a pre printout and some code available if you
+guys want to play around with it so the architecture that we're going to use
+looks like something like this and I should say most papers in this space use
+this architecture so it's it's kind of a natural design right so you have the point cloud and at the top you have this
+encoder and that's where we introduced the point pillars but you can have I'll show you guys you can have various types
+of encoders and then after that that fits into backbone which is now a standard convolutional 2d backbone you
+have a detection head and you have you might have you may or may not have a segmentation at all that right the point
+is that after the encoder everything looks just like dark - is very similar to the SSD architecture of the our CNN
+architecture so so let's go into a little bit more
+detail right so so the range so what you're given here is it's a range of the meter say you wanted a model you know 40
+meters afforded me to circle around example you have certain resolution of
+your bins and then a number of output channels right so input is a set of pillars or and the pillar here is a
+vertical column right so you have n m of those that are non-empty in this space
+and you say a pillar P contains all the points which are a lot of point XYZ and intensity and there's n sub M indexed by
+M points in each pillar right so just to say that it varies right so it could be
+one single point at a particular location it could be 200 points and then it's centered around the spin and the
+goal here is to produce a tensor as a fixed size so it's height which is you
+know range of a resolution with inter resolution and then this parameter C C
+is the number of channels so in an image C will be three we don't necessarily care about that we call it a pseudo
+image but it's the same thing it's a fixed number of channels that the back broken and operate on
+yes here's a same thing without math right so you have a lot of points and
+you have this space with you just grid it up in these pillars right some are
+empty some one of them so in this sort of with this notation let me give a little bit of a literature review people
+tend to do is you take each pillar and you divide it into voxels right so now I have a 3d box or grid right and then you
+say I'm gonna extract some sort of features for each box so for example how many points are in this voxel or what is
+the maximum intensity of all the points in this voxel then you extract feature for the whole pillar right what is the
+max intensity across all the points in the whole pillar right all of these are ten engineer functions
+that generates the fixed length output so what you can do is you can now concatenate them and their output is a
+this tensor X Y see
+so then Vox on that came came around I'd say year or so ago maybe a little
+bit more by now so they do the first this first step is similar right so you divide each pillar into voxels and then
+you take you map the point in each voxels and the normal thing here is that they they got rid of the future
+engineering so they said we'll we'll map it from a voxel to two features using a
+point net and I'm not going into the details of a point net but but it's
+basically a network architecture that that allows you to take a point cloud and map it to again a fixed length
+representation it's a series of 1d convolutions and max pooling layers this
+is a very neat paper right so what they did is they okay we say we apply that to each voxel but now I end up with this
+awkward four dimensional tensor because I still have X Y Z from the voxels and then I have this C dimensional output
+from the appointment so then they have to consolidate this Z dimension through a 3d convolution right and now you
+achieve your X Y C tensor so now you're ready to go so it's very nice in the
+sense that it's an turn method they show good performance but in the day was very slow as I got like five Hertz run time
+and then the the culprit here is is this last step so the 3d convolution it's
+it's much much slower than a standard 2d convolution alright so here's what we
+did we basically said let's just forget about voxels we'll take all the points in the pillar and we'll put it straight
+through a point in it that's it so just that single change gave a 10200 fold you
+know speed up from walks on that and then we simplify the point net so now instead of having so a point that can
+have several layers and several modules inside it so it we simplified it to a single one deconvolution and max falling
+layer and then we showed you can get a really fast implementation by taking all
+your pillars that are not empty stack them together into nice dense tensor with a little bit of padding here and
+there and you can run that you know run the forward pass with a single you can post it as a 2d
+convolution with a one by one kernel so in the final encoder runtime it's not
+1.3 milliseconds which is which is really really fast so the full method
+looks like this right so you have the point cloud you have this pillar feature net which which is the encoder so the
+different steps there that feeds straight into the backbone and your detection heads and and there you go so
+it's still a multi-stage architecture but of course the key is that none of the steps are all the steps are you know
+fully parameterized and we learnt we can back propagate through the whole thing and learn it so putting these things
+together these were the sort results we got on the Qt benchmark so if you look
+at the core class right we actually got the highest performance so this is I
+think the bird's eye view metric and we even outperformed the the methods that relied on lidar ambition and we did that
+running at you know over a little bit over 60 Hertz and we you know and this
+is like I said this is a bird's eye view we can also measure the 3d the 3d benchmark and we get the same very
+similar performance yeah so you know
+recorded well cyclist did well pedestrian there was there was one or two map methods fusion methods that did
+a little bit better but then in aggregate on the top left we ended up on top and I put a little asterisk here
+this is compared to publish methods at the time of submission it's so many
+things happening so quickly so there's tons of you know submissions not a kiddie leaderboard that are a completely
+anonymous oh we don't even know you know what was it what was the input what they did they use so we only compared to
+publish methods so here's a some quantitative results
+you have the we you know just for visualization you can project them into the image so you see the gray boxes are the ground truth and the the corridor
+ones are the predictions and yeah some
+some challenging challenging us is so smaller but them so we have for example the person right there that's a you know
+a person with a little stand get interpreted as a bicycle we have this
+man on the ladder which is an actual annotation error so we discovered it as a person but it wasn't annotated in the
+data here's a young child on a bicycle
+that didn't get detected so that's a you know that's that's a bummer
+okay so stubs Kitty and then I just wanted to show you guys of course we can
+run this on our vehicle so this is a rendering we just deploy the network by
+two Hertz on on the full 360 sensor sweet input is still alive you know if
+you lidar sweeps but just projected into the images for visualization and again
+no tracking or smoothing applied here so it's every single frame is is analyzed
+independently see those arrows sticking out that's the velocity estimate so we
+actually show how you can yeah you can actually cumulate multiple point clouds
+into this method and now you can start reasoning about velocity as well
+you so the second part I want to talk about is new scenes which is a
+nuScenes - a dataset for multimodal 3d object detection
+data said that we have published alright so what is new scene so it's one
+thousand twenty second scenes and that we collected with our development
+platforms it's a full it's the same platform that called show I sort of previous generation platform the so a
+vehicle so it's full you know the full automotive sends to sweep data is
+registered and synced in 360-degree view and it's also fully annotated with 3d
+bounding boxes I think there is over 1 million 3d bounding boxes and we
+actually make this freely available for research so you can go to new scene store right now and download a teaser a
+teaser release which is 100 scenes the full release will be in about a month
+and a person motivation is straightforward right so you know the whole field is driven by benchmark and
+you know without image and I don't think none of it might be the case that none of us are here we're here right because
+they may never have been able to write that first paper and sort of start this whole thing going
+looking at 3d I looked at the kiddie benchmark which is which is truly groundbreaking I don't want to take anything away but it was becoming
+outdated that they don't have full 3d view they don't have any radar so I
+think this this offers the opportunity to sort of push push the field forward a little bit right and just as a
+comparison this is sort of the the most similar benchmark and really the only one that is the that you can really
+compare to is kitty but so there's other data sets that have maybe lidar only tons of data sets I
+have image only of course but it's it's a it's quite a big step up from from
+kidney yeah some some details so you see the layouts with the the Raiders along
+the edge all the cameras on the roof and the top top lidar and some of the
+receptive fields and this data is all on the website the taxonomy so we model
+several different sub sub categories of pedestrians several types of vehicles some static objects barrier cones and
+then in addition all the bunch of attributes on the vehicles and on the pedestrians all right so with without
+further ado let's just look at some data so this is one of the thousand scenes right so all I'm showing here is
+just just playing the frames one by one of all the images and again the
+annotations are living the in the world coordinate system right so there are full three full 3d boxes I've just
+projected them into the image and that's what's so neat so we're not really annotating the lidar or the or the
+camera or the radar we're annotating the actual objects and put them in a wall coordinate system and give all the
+transformation so you guys can play around with it how you like so just to
+show that so I can because everything is ready so I can now take the light or sweep and I can just project them into
+the image images at the same time so here I'm showing just colored by distance so now you have some sort of
+sparse density measurement on the images a distance measurement sorry so so
+that's all I want there let's talk about thank you hi I was really really
+Q&A
+interested in your discussion around validation and particularly continuous development that sort of thing and so my
+question was basically is is this new scenes data set is this enough to to guarantee that your model is going to
+generalize to unseen data and you know not hit pedestrians in that stuff or do you have other validation that you need
+to do no no I mean so the new sensor for this is it's purely an academic efforts so we want to share our data with
+academic community to drive the car to feel forward we're not making any claims that this is somehow a sufficient data
+set for trying to save the case it's a small subset of our our data yeah I
+would say you know obviously my background is in the academic world one
+of the hardest things was always collecting data because it's difficult and expensive and so having access to a
+data set like that which was expensive to to collect and annotate but which we thought we would make available because
+well we hoped that it would spark academic interests and smart people like
+the people in this room coming up with new and better algorithms which could benefit the whole community and then maybe something
+even want to come work with us adaptive so not totally a little bit of self interest there wasn't intended to be for
+validation was more for research to give you a sense than the scale of validation there was one quote there and you know
+saying you got to drive 275 million miles or more depending on your certainty you want to impose but to date
+is an industry we've driven about like twelve million miles to twelve to fourteen million miles in some all
+participants in autonomous mode under hundreds of over hundreds of different Bills of code and many different
+environments so this would now be saying you're supposed to drive hundreds of millions of miles in a particular
+environment on a single build of code a single platform now obviously we're probably not going to do that what we'll
+end up doing is supplementing the driving with quite a lot of simulation and then other methodologies to convince
+ourselves that we have we can make a statistical ultimately a statistical argument for safety so there'll be use
+of data sets like this you know we'll be doing lots of regression testing on supersize version of data set
+either kind of morally equivalent versions to test different parts of the systems now I'm not just classification but different aspects of the system are
+motion planning decision-making localization all aspects of the system
+and then augment that with on-road driving and augment that with simulation
+so the safety case is really quite a bit broader unfortunately then any single data set would allow you to to kind of
+speak to from an industrial perspective what do you think can 5g offer for
+autonomous vehicles 5g yeah it's an interesting one well these vehicles are
+connected you know that's that's a that's a requirement certainly when you think about operating
+them as a fleet when the day comes when you have an autonomous vehicle that is personally owned and that they will come
+in some point in the future it may or may not be connected it will almost certainly then be too but when you have
+a fleet of vehicles and you want to coordinate the activity that fleet and a way to you know maximize the efficiency
+of that network that transportation network they're certainly connected the requirements of that kind of tivity is
+fairly relaxed if you're talking about just passing back and forth the position of the car and maybe some status indicators you know are you know
+autonomous mode manual mode are all systems go where you have a fault code and what is it now there's some
+interesting requirements that become a little bit more stringent if you think about what we call teleoperation and remote operation of the car the case
+where if the car encounters a situation it doesn't recognize can't figure out gets stuck or confused you may kind of
+phone a human operator who's sitting remotely to intervene and in that case you know that human operator will want
+to have some situational awareness there may be a demand of high-bandwidth low-latency
+high reliability the sort that maybe 5g is better suited to than 4G or LTE or
+whatever you've got broadly speaking we see it as very nice to have but like any
+infrastructure we understand that it's gonna arrive on a time line of its own and be maintained by someone who's not
+us so it's very much outside our control and so for that reason we design a system such that we don't rely on kind
+of the coming 5g way but we'll certainly welcome it when it arrives so you said you have presence in 45
+countries so did you observe any interesting patterns from that like your car your same your same
+self-driving car model that is deployed in Vegas as well as Singapore was able to perform equally well in both Vegas
+and Singapore the model was able to perform very well in Singapore compared to Vegas to speak to your question about
+like country to country variation you know we touched on that for a moment in the validation discussion but obviously
+driving in Singapore and driving in Vegas is pretty different I mean you're on the other side of the road for starters but different traffic rules and
+it's sort of underappreciated people drive differently there's slightly different traffic norms so one of the things that well if anyone
+was in this class last year my co-founder Emilio gave a talk about something we call rule books which is a
+structure that we've designed around that what we call the driving policy or the decision-making engine which tries to admit in a general and fairly
+flexible way the ability to reprioritize rules reassign rules change weights on
+rules to enable us to drive in one community and then another in a fairly seamless manner so they give you an
+example when we when you want to get on the road in Singapore if you can imagine you've got a so you're let's say you're
+a autonomy engineer who was tasked with writing the decision-making engine you decided I'm gonna do a finite-state architecture I'm gonna write down some
+transition rules I'm gonna do them by hand it's gonna be great and then you did that for the right-hand driving and
+your boss came in and said oh yeah next Monday we're gonna be the left-hand driving so you flip all that and get it
+ready to go that could be a huge pain pain to do because it's generally speaking you're doing it manually and
+then a very difficult to validate to ensure that that the outputs are correct across the entire spectrum possibilities
+so we wanted to avoid that and so the long story short we actually quite
+carefully designed the system such that we can scale to different cities and
+countries and one of the ways you do that is by thinking carefully around the architectural design of the
+decision-making engine but it's it's it's you know quite different this for cities I mentioned which are primary
+sites Boston Pittsburgh Vegas and Singapore spans a wide spectrum of driving conditions I mean everybody
+knows Boston which is pretty bad Vegas is warm weather mid density urban
+but it's Vegas so I mean all kinds of stuff and then Singapore is interesting
+perfect infrastructure of good weather flat people generally speaking obey the rules so it's kind of close to the ideal
+case so you that exposure to this different spectrum of data I think I'll
+speak for Oscar maybe it's pretty valuable I know for other parts of the development team quite valuable Singapore is ideal except they're the
+constant construction zones so every time you drive out there's a new construction zone so we focus to have a lot of work in construction zone
+detection Singapore and the torrential rain yeah in the jaywalkers right they
+do a walk people don't break the radio AJ so other than that is perfect so
+which country is fully equipped it's a really good question yeah well it's interesting because
+there's other dimensions so when we look at which countries are interesting to us to be in as a market there's there's the
+infrastructure conditions there's the driving patterns and properties the density you know is it Times Square at rush hour or is it
+Dubuque Iowa there is the regulatory environment which is incredibly important you may have a perfectly
+well-suited city from a technical perspective and they may not allow you to drive there so it's really all of
+these things put together and so we you know we kind of have a matrix we analyze which cities check these boxes and and
+assign them scores and then try to understand then also the economics of that market is that city check all these
+boxes but there's no one taking using mobility services there there's no opportunity to actually generate revenue
+from the service so we can you know you factor in all of those things yeah and I
+think I mean one thing to keep in mind that is always the first first thing I thought candidates when I interview them
+there's a huge difference in the advantage to the business more we're proposing right that's right right having service so we can choose even if
+we commit to some city we can solve something you know select the routes that we feel comfortable and we can roll
+it out sort of piece by piece when you say okay we we don't feel comfortable when drive at night in the city yet so
+we just won't accept any rights right so that there's like that that decision space as well
+hi thank you very much for coming and giving us this talk today was very very interesting I have a question which
+might reveal more about how naive I am than anything else I was comparing your your point pillar approach to the
+earlier approach where you were which is this the voxel based approach to
+interpreting the lidar results and in the voxels you had a four dimensional
+tensor that you were starting with and you your point Miller you only have three dimensions you're throwing away the Z as
+I understood it so when you do that are you concerned that you're losing information about potential occlusions
+or transparencies or semi occlusions is this a concern I think so so I may have
+you know I've been a little bit sloppy there so we're certainly not throwing away the see what we're saying is that
+we're learning the embedding of in the C dimension jointly with with everything else so Volk sonnet if you want sort of
+felt that when I first signed that paper that I felt the need to like spoon-feeding Network a little bit and
+say let's learn everything you know stratified in this in this high
+dimension and then we'll have a second step where we learn to consolidate that
+into a single vector we just said why don't just learn those things together so yeah thanks for a talk I have a
+question for Carl you mentioned that like if people make change to the code do we need another validation or not so
+I work in the industry of nuclear power so we do nuclear power simulations so
+when we like make any change to our simulation code and to make it
+commercialize we need to submit a request for NRC which is the nuclear
+Regulation Committee so in your opinion do you think for self-driving we need
+another third-party validation community or not or like should that be a third
+party or it's just self check yeah that's a really good question
+so I don't know the answer I would be surprised let me put it this way I would not be surprised either way if the automotive
+industry ended up with with third party regulatory or oversight or it didn't and
+I'll tell you why there's there's great precedents for what you just described nuclear aerospace there's external
+bodies who have deep technical competence who can come in they can do investigations they can impose strict
+regulation or or advise regulation and they can they can partner or
+our define requirements for certification of various types the
+automotive industry has largely been self-certifying there's an argument which is which is
+certainly not unreasonable that you have a you know a real alignment of incentive within the industry and with the public
+to be as safe as possible simply put the cost of a crashes is enormous
+you know economically socially everything else but whether it continues along that path I couldn't tell you it's
+an interesting space because it's one where the federal government is actually
+moving very very quickly I mean I would say carefully to not overstepping and not trying to impose too much regulation
+around an industry that has never generated a dollar of revenue is still quite NASA but if you would have told me
+a few years ago that there would have been very thoughtfully defined draft regulatory guidelines or advice I mean
+let's say it's not firm regulation around this industry I probably wouldn't believe you but in fact that exists
+there's a third version that was released this summer by the Department of Transportation so there's intense
+interest on the regulatory side in terms of how far you know the process goes in
+terms of formation of an external body I think really remains to be seen I don't know the answer thanks for your
+insightful talk looking at this slide I'm wondering how easy and effective your train models are to transfer across
+different letters and whether you need for example if it is snowing do we need specific trainings for specifically for
+your light hours to work effectively or you don't see any issues in that regard
+no I mean I think the same rules apply to this method us as any other machine learning based method you want to have
+support in your training data for the situation want to deploy in so if we have no snow you know train that I
+wouldn't go and deploy this in snow I do like one thing I like after having
+worked so much with mission though is that light the lighter point cloud is really easy to augment and play around
+with so for example it's you know if you wanna say you want to be robust some
+really rare events right so let's say there's a piano on the road I really want to detect that but it's hard
+because I have very few examples of pianos on the road right now if you think about augmenting your visual data
+set with that data it's actually quite tricky so that easy to have a photorealistic piano in your training
+data but it is quite easy to do that in your lighter alright so you have a 3d model of your obvious piano you have
+your your the model for your lidar and you can get a pretty accurate fairly realistic point cloud return from that
+right so I like that part about working with lighter you can you can augment you can play around with it in fact one of
+the things we do when we train this model is that we we copy and paste samples from from or like objects from
+different samples you can take a car that I saw yesterday take that point the points the point difference on that car
+you can just paste it into your current light or sweep you have to be a little bit careful right and I'm and this was
+actually proposed by another very previous paper and we found that that was really useful they don't it sounds
+absurd but it actually works and it speaks to the ability to do that with
+leather punk rock okay great please give Carl and Oscar up again thank you so much
+you
 
 ----------
 
@@ -462,76 +1622,3702 @@ paste here
 --61--
 
 -----
-Date:
-Link:
+Date: 2019.02.18
+Link: [# Oliver Cameron (CEO, Voyage) - MIT Self-Driving Cars](https://www.youtube.com/watch?v=-j0tc0Y1CIE)
 Transcription:
 
-paste here
+Lex introducing Oliver
+all right welcome back to 6 s0 9 for deep learning for self-driving cars today we have Oliver Cameron is the
+co-founder and the CEO of voyage before that he was the lead of the Udacity
+self-driving car program that made ideas an autonomous vehicle research and development accessible to the entire
+world he has a passion for the topic and a genuine open nature that makes him one
+of my favorite people in general and one of my favorite people working in this space and I think thousands of people
+agree with that so please give Oliver warm welcome thank you very much Lex and
+Oliver background
+thank you all for having me here today super excited to speak all about voyage
+but in reality the the kind of thing I want to share today is kind of like this
+title says how to start a self-driving car startup rarely do you kind of get an
+inside scoop of how a startup is formed you kind of hear all the the PR all the
+kind of very lovey-dovey press releases out there I want to share kind of the
+inside of how at least voyage came to be which was a little unconventional compared to your average self-driving
+car startup they always tell you that the path to a startup getting to the goal you want is kind of a zigzag oz was
+kind of a insane zigzag as well we'll go through all of that stuff let's talk
+about my background also a little unconventional I'm not very good at
+learning in a classroom for me I found learning by doing by building has always
+been the thing that's that's worked best for me so going all the way back to when I was a teenager software just in
+general was my passion this idea that you can make something out of absolutely nothing and then all of a sudden
+millions and in Facebook's case billions of people can be using that thing and
+after building lots of crazy stuff and perhaps not being too popular in high school because that's all I did I
+started a company offer I won't bore you with all the details but learned a lot during the experience and joined
+went through Y Combinator J believe started right here in Cambridge she's very cool and then this very pivotal
+moment happened to me I heard about this online class which was generating a
+whole bunch of scandal and and lots of controversy and it was from this guy
+called Sebastian Thrun he'd taken this Stamper class he taught in artificial
+intelligence and just said screw it we're gonna put the whole thing online and back then and this was a around 2011
+this was a very controversial thing to do today MIT and many others do this all
+the time but back then there was a hell of a lot of controversy around and doing something like this but this learning
+format really just appealed to me being able to sit in my in front of my laptop learn at my own pace build build build
+was something that really resonated with me and I took this class in 2013
+artificial intelligence for robotics and this again was just this pivotal moment my head exploded all the enthusiasm I'd
+had the software kind of transferred to artificial intelligence and and robotics
+and just became addicted to the format of what are now called MOOCs massively open online courses and I love them so
+much I decided hey I want to go do this and help others learn this stuff so hey
+let's go join Udacity and and build more classes like this so I did that for four
+years let our machine learning robotics and eventually our self driving car curriculum which was a lot of fun and I
+got to learn directly from two great company builders like truly great company builders one was Vishal Mackey
+Jonny he was the operator extraordinary Udacity understood how to build a
+company how to build a culture how to incentivize and how to do all those those things that we don't often talk
+about and Sebastian Thrun he of course founded the Google self-driving car
+project and it's early days and right now I believe he's building flying cars
+just in general I learned so much from him but this idea that you are literally
+in control of your destiny you can build absolutely anything if you if you put your mind - it was was always pretty inspirational
+today of course I Drive in cars at voyage and we'll talk more about what
+makes us special compared to the other self-driving car companies you may have heard of in this class and beyond let's
+Udacity self-driving car engineer nanodegree program
+talk about Udacity you raise your hand if you've heard of Udacity very curious there you go that's most of the room
+Udacity like I said was founded by Sebastian Thrun he took this class online and all just exploded and he
+built a company around it you'd ask these real focuses on increasing the world's GDP this idea that talent is
+everywhere that it isn't now just constrained to the best schools in the
+world that because of this proliferation of content there are talented students all over the world and all they need is
+the content in which to be able to build crazy cool world-changing things and
+what I see is my job today is to go out into the world and find these
+ridiculously talented people and then put them to work on the hardest problems that exist and Udacity to me felt like
+the perfect place to do this as a kind of prelude to this about three years
+into Udacity we had had this real focus like I said on machine learning and
+robotics but we really want to take it to the next step and we came up with this kind of concept internally that we
+called only at Udacity what if we taught the things that other places weren't teaching what if people all around the
+world could come lay learn from what may appear to be niche topics but were just
+being taught at the right time because that industry is about to blow up and
+the first one we did of this and we've done some after including flying cars a
+much more in-depth curriculum on artificial intelligence with self-driving cars so this is a quick
+video that introduces it and this is of course Sebastian's run robotics legend see this place
+if you can build the same apartment will save you always but on top of its
+transformations just imagine instead of owning a car you have a default in stock apartment and B
+Hawkins link is phenomenal and it's eco Samara how many don't mean in work it
+disappears there is an enormous market for surviving managed genius lots and lots of companies that you
+wouldn't suspect have entered that feeling a nasty - I challenge everybody
+did we pass the Largey university in the middle of South Africa so that everyone in the world can become
+a self-taught engineer and why did we
+want to do this was our goal it was to accelerate the deployment of
+self-driving cars like Sebastian says in that video there's a number of reasons why self-driving cars a transformational
+and at the time this was around 2016 it felt like self-driving cars were just
+taking a little bit too long we rewind to that particular spot in time Google
+was the really the only main effort going on and what we believed is that it
+needed to happen faster and that one of the reasons it wasn't happening fast enough is because there wasn't enough talent in the space so what we decided
+to do is like I said build something quite special in want to pair up a world-class curriculum an actual
+self-driving car which we'll talk about more and what we called our open-source challenges and all of that would come
+together to build this this quite special curriculum so let's start with
+the curriculum one of our beliefs was that partnering with industry was the
+right way to go that was because it felt and I believe this that the knowledge of
+how to build a self-driving car was not necessary trapped in academia it was trapped in industry so we had to
+go straight to industry work with engineers that were already you know challenging themselves with these
+problems and get them on camera have them teach the concepts that they know and build day in day out
+and have that be transplanted to thousands of mines around the world so these are just some of those partners there was many many more but we had a
+real focus on finding these engineers wherever they may be and getting those folks on on-camera we also built an
+incredibly talented team this is just a small snippet of the curriculum team but of course Sebastian Thrun was was a big
+part of this curriculum when I told folks that I'd gotten the chance to work
+with him on specifically self-driving cars he likened it to getting basketball lessons from Michael Jordan which I
+thought was pretty fun and they were probably just as entertaining but some really truly great folks working on this curriculum and
+still doing that to this day who deserve all of the credit frankly here's a quick photo of first lecture recordings with
+eventual voyage co-founders Eric and Mac Eric who's on the left he hates this
+picture and here's why there you go he still isn't at max height but we had to
+he still has that box on his desk and we built a whole 12-month curriculum to
+take an intermediate software engineer who may be in consumer software or just some other part of the software world
+and take them into self-driving cars we wanted to cover perception prediction
+planning localization controls even just the whole breadth of of the industry and
+the reason we want to do that is because we saw the best fit for Udacity student not necessarily being a specialist in a
+niche for example you know just perception although there's been a whole
+bunch of folks doing that as well but that the skills of a Udacity student tend to pair themselves well with being
+a generalist someone that can contribute all across the stack so we tried to give these folks that breadth of knowledge
+the curriculum that we built with some
+you're also welcome project to detective just like real economist people's have
+to do in term two you'll learn about sensor fusion localization in control
+this is harmful robotics that every self-driving car interior needs to know in order to actually move the vehicle to
+space if the localization module you'll build a kidnapped vehicle project which takes
+a vehicle that's lost and figures out where it is in the world with the help of sensor readings in a minute
+this is exactly what real self-driving cars have to do every time they turn on in order to be on where they are in the
+world in the control module you'll build a model predictive controller which is a
+really advanced type of controller that's actually combos no credit cards move through the world and use the
+steering wheel throttle and brake to follow the set of waypoints or trajectory to get from one point X in
+turn three you'll learn about pathway and electives month and you'll learn
+about system integration path blending is really the brains of a self-driving car it's how the perfect here's how kind of
+it from one point to another as well as obstacles intimacy I'm gonna give you a
+sneak preview how it works and this is something that nobody's ever seen before so get ready patenting involves three
+parts there's prediction which is figuring out what the other vehicles are going to do
+around us this goes up for a while so
+it'll posit that the impact of this curriculum was was bigger than we
+thought it would be when we pitched as a small team this idea to Sebastian to
+viche at Udacity there was a lot of skepticism that something like this was
+was going to be successful and the reason that you know there was that skepticism is that one of the kind of
+formulas that Udacity looked at to determine the impact of building a certain type of content was the number of open jobs available if there was you
+know for example in web development mobile development told that good stuff there was millions of jobs open so it
+felt like there was a massive opportunity to impact the area but if you were to in 2016 search for you know
+self-driving car engineers or the different disciplines that exist within it was it was kind of just Google so it
+was very interesting just to see the instantaneous reaction that we had to launching this curriculum today over
+14,000 successful students from all around the world as you can see where the most exciting thing is to see what
+students have done with this so a curriculum for example I learned recently that a set of our students here
+are building a self-driving truck stopped in India another set of students
+in South Korea are building a perception engine for self-driving cars just a
+whole bunch of folks are building truly amazing things and only that they've gotten jobs at cruise zukes way mo agro
+all the big names and actively impacting those companies today now for the fun
+Autonomous trip from Mountain View to San Francisco
+stuff so we also decided to make a curriculum extra special and we decided
+to do that by building an actual self-driving car and whenever I talked about this internally Udacity people asked me why
+why do we need to do this right isn't the curriculum just enough why go to the
+you know the length of building an actual self-driving car and selfishly some of it was just a personal want to
+you know build a self-driving car but the the reasoning that I use is that what better way to prove to these
+students that putting their faith in us that we know what we're doing than to build our own self-driving car and also
+what better way to collaborate with these students on an area that is really infantile then again by having this
+platform that students could actually run code on a car so we decide to buy a
+car and we'll talk more about that in a second but we set ourselves a milestone for our self-driving car it was to drive
+from Mountain View to San Francisco 32 miles of driving with zero dis engagements it should be repeatable it
+won't be zero disengagement so every single time because otherwise we've got an actual self-driving car but in a
+short period of time how much progress can we make towards this this stated goal raise your hand if you've been on
+El Camino Rail in in that sort of region okay so you pray understand it's got a
+lot of traffic lights in fact on our route about 130 traffic lights it's
+multi Lane three lanes speed limit of about 4045 something like that so it's
+you know fairly complex but it's also got some constraining factors which is what we're looking for - so focused our
+tech efforts this is the car we bought you're probably very familiar if you follow self-driving cars with the
+Lincoln MKZ of the world they're everywhere and there's a reason for that in terms of the drive-by-wire nature of
+the vehicle and other stuff and we outfitted a whole bunch of sensors some cameras some lighters all that good
+stuff we also try to build our own mount we affectionately call this the periscope I don't know why it's in slow
+motion but this was not our final design build all this from parts at Home Depot
+Trulia MVP and then we got to work the
+goal was to accomplish that milestone within six months so we've course had to work fast assembled a dream team of
+folks that I worked with on different projects at Udacity they also wanted to - come dabble in this folks that worked
+on the machine learning curriculum robotics curriculum etc so this was one of our first days testing and we did
+this at the shoreline amphitheater parking lot Jessie now is a very popular place to test self-driving cars in the
+Bay Area because Google used to do it in the past we saw a lot of weird stuff for example you'll see here we saw what I
+believe to be a motorcycle gang and we
+made progress we kept iterating kept building and it started to come together in fact some stuff that we thought
+wouldn't work surprisingly just start to work this is on El Camino Real
+I'm in the backseat here so Mack
+discovered that we shouldn't have stopped at that traffic light but we did we resolve the mystery later let's go to
+the next video and of course we learned a lot by going in this route the different behaviors of drivers one of
+the things that we were worried about is vehicles cutting us off and when we say cutting us off it means a vehicle
+pulling out in front of us even a few hundred feet in front you'll see here
+we drove a little slow 25 [Music]
+[Music] said that was fine and pretty soon it
+got quite boring car was doing very well driving itself we built some cool
+algorithms to change lanes when necessary similar to you see with Tesla
+autopilot these days
+we collaborate with some students on a traffic light classifier which was integrated into Ross there and yep
+pretty boring stuff so you can tell Eric was surprised that it was just fine and
+we also had a penchant for building of recording themed videos like you saw
+maybe from Elon Musk and the Tesla team with painted black we've got our own version of that eventually we became
+pretty confident but we always you know wanted to test most of the day just to get the most learnings out of everything
+this video was made at 2:30 a.m. driving from Mountain View to San Francisco all
+32 miles cost as a backing track
+[Music]
+[Music]
+[Music] maybe want to tow it down so it's easier
+because there's less traffic right this is kind of cheating and didn't count as the milestone just to be clear you'll
+see that we eventually hit the 32 miles and machers in the driver seat is pretty excited about that
+[Music]
+[Music]
+and they hit it but of course that
+didn't count because it's in the middle of the night and that's not gonna be a very useful route but it was awesome
+accomplishment just to even make it 32 miles with no dis engagements when this traffic lights lane changes all that
+good stuff but after four months this is in the daytime this began I believe it like six sorry 7
+a.m. we accomplished it that small team had come together and build something
+pretty cool they could handle again multi Lane roadways varying speed limits
+traffic lights objects all that good stuff and the thing that really brought
+this home to me is that the industry was now ready right it felt like this feeling I had in
+software where someone in their bedroom can go and build something and launch it you know almost feeling overnight could
+now not quite the same but close to the same happen in self-driving cars but
+well we'll talk more about what this led to in a little bit let's talk about open source challenges we also got the same
+Open source challenges
+question why do this and it was clear to me that for something like self-driving
+cars which was so you know formative we had to collaborate with students to
+figure out the best stuff because you know even the folks that were Udacity were not necessarily the world's leading experts in these topics who want to use
+this hivemind of activity from around the world to teach the best stuff so
+just through a period of a year these are all the different challenges we launched there was prizes and leaders
+leaderboards and all this sort of fun stuff the one that I'll focus most on today is using deep learning to predict
+steering angles and the challenge was
+clear it was that given a single camera frame you have to predict the
+appropriate steering angle of the vehicle if anyone had read in videos and and papers in 2016 this stuff was all
+the rage and it felt like one of those areas that was just begging for more exploration
+again let's use this all these students from around the world to do it and we
+did have students from all around the world there was over a hundred teams people self organized into these little groups to go and build this and over the
+course of about four months we had a whole bunch of submissions all taking
+incredibly different approaches to the problem we released a two sets validation sets all that good stuff here
+you'll see are the winning model and I later found out that the author of this
+model actually went on to lead the self-driving car team at Yandex which if
+you've been following CSS is doing some pretty cool stuff and self-driving cars today but you'll see this is on a route
+from the Bay Area to Half Moon Bay a very windy road and you'll see that the
+prediction matches pretty closely to the actual which is nice and if you read his
+description of his solution it's a pretty cool solution and it was I think the most exciting thing was just the
+number of different approaches to the problem all resulting in some some
+awesome stuff and again in true voyage fashion we recorded a video of what this model perform like on our car
+it wasn't perfect as any first model and just that the general approach of camera
+only you know driving had it's had its faults one of the main ones that you
+know we realized after trying all this stuff out is that of course a car when
+steered by such an input performs differently in a car than it does you
+know on your desk in a you know simulator through pre-recorded camera frames so adjusting for those
+Corrections that might need to be made is something that students after the fact added which was pretty cool so
+after all of these things building that curriculum building a self-driving car launching these challenges it felt like
+it was time for something new it was awesome to go and collaborate with all these students and it felt like
+you know I had to go build something so gathered that same team that had built this curriculum and we said we're gonna
+go build a self-driving car this is from my pitch at Khosla Ventures you can kind
+Birth of Voyage
+of see the pitch deck they're a little bit voyage is a new kind of taxi service our pitch has changed somewhat through
+time but that's still pretty accurate and we started what is now called voyage
+and our goal really was that we wanted to again build a self-driving car but we
+wanted to do it differently we didn't want to follow the same formula that we felt we'd seen from some of the other
+folks in the field and the reason is that those folks have real advantages right when you think of it about Google's project of which I'm a big fan
+they have this massive engineering pipeline of folks that want to go build a self-driving car at today way mo but
+they also have a cash bank balance of billions of dollars that is hard to
+match they also have the brand recognition of getting to work with Google and all that good stuff so we just knew we had to think about this
+problem quite differently and what motivated me is that today as we all
+know we have this incredibly broken transportation system you step outside onto the roads today and I don't know
+about you guys but I don't feel particularly safe when I jump into my car over we all know the stats over 1
+million people have sefa fatalities on the roads today doesn't include folks that break necks
+that inja break bones all that horrific stuff it's also incredibly inefficient
+we've again all observe this as we go about our day just the number of lanes that exist on a road today to account
+for peak traffic the number of vehicles which have enough room for eight people
+have usually one person in that front seat I read a stat recently that only 7%
+of the average vehicles energy usage is going towards moving the things that are actually in the car
+the rest is waste so an incredibly inefficient system it's also expensive
+the reason you know we see a lot of old cars on the road today is because that's at least today the most optimal and
+affordable way to lots of folks to get around and inaccessible and you'll see
+why this matters to us in particular our goal is to introduce a new way to explore our communities this is a video
+of one of our cars at a particularly cool place which we'll talk more about and this is kind of our mission and why
+now why is it possible to build a self-driving car now a number of factors
+that we learned during that you'd ask the experience but some new as well it feels from everything we see that
+sensors are now in this position which these sensors are now capable of level
+for self-driving cars the resolution the range the reliability all those things that were necessary for an elf or sub
+revving car are today ready that didn't used to be the case if you rewind you know to 2007 and look at the cars that
+were participating in the DARPA challenges you'll see a lot of single channel lasers you'll see the relic of
+the valid Iron Age TL 64 the the spinning bucket as it's called today and
+no one would have claimed those sensors already but today you've got this enormous breadth of sensors that can
+take you that way compute is there when we you know think about the recent rise in in GPUs and
+whatnot finally you know being able to have enough performance in the back of a
+car with the power constraints that you have it's it's there and talent
+you know again this is not just Google today you've got all of these great minds from all around the world building
+this technology so you're able to recruit those folks put them to work on on the problems they've solved in many
+cases beforehand the reason I have yellow for computer vision which is not a knock against computer vision is
+because it's not quite there yet for self a fully driverless self-driving car
+if you again rewound you know three four five years this would have been a red
+but today with all the community and whatnot around computer vision this is
+steadily getting to a green state so pretty soon there'll be green and of course then you'll have that perfect
+formula for level for driving what we run after is ride-sharing we believe
+that the optimal way for people to move around is to be able to summon a car but
+the thing that's suboptimal today is that you have to have a human driving you whenever you want to move around
+prevents the cost from being lower prevents some safety issues prevent some quality issues we think solving that
+will will mean these next-generation way of moving around will will come to
+fruition but what we also see is that if you let's say we never remove the driver from the car that a ride hailing network
+always had a human driver you are inherently limited by the number of miles you can drive which means that it
+will never replace personal car ownership will never fix that fatality
+number I talked about all of those those things we must solve so we think by having a self-driving car that these
+next-generation transportation networks will come to fruition a lead VC is a guy
+Retirement communities
+called Vinod Khosla a the founder of Khosla Ventures an awesome guy who's done some truly world-changing things he
+has this quote which I'm a big fan of your market entry strategy is often different from your market disruption
+start where you find a gap in the market and push your way through and this better communicated what I mentioned at
+the very beginning which is that we should build a self-driving car but do it in a different way because if we
+don't do that we're gonna fall into the same traps as many of the others that have died along the way we have to find a way to do something
+different that we own and that we are really really good at and for us that
+was retirement communities hands up if you've ever visited a retirement community and see way less there you go
+surprise Lex you've got to get you out to one but these are just amazing places
+and the reasons we choose retirement communities first to deploy our
+self-driving technology and is for these four reasons they are slower the speed
+limits in these communities tend to be far slower than you'd see on public road much calmer roadway when you visit these
+locations I liken it to listening to a podcast at 0.75 X just very constrained
+very slow and a little boring from time to time but you've also got these HUD
+felt transportation challenges we hear from these residents all the time about
+how transportation is a pain point and that their only option is a personally owned vehicle these folks know in many
+cases they shouldn't be driving but because they don't have an alternative they still drive we hear from folks that
+put off much-needed surgeries hip replacements things like that because they don't have a friend in town who's
+gonna be able to move them around we hear from folks with vision degeneration
+that they just don't see a way that they'll be able to move around and keep that quality of life that they've been
+able to have folks gripping steering wheels for extended period of times all these challenges that felt like the best
+first place for a self-driving car to begin and a clear path to customers we see that on you know the roads today
+ride-sharing on you know Public Citizen mantra is a particularly brutal battle a race to the bottom in terms of cost if
+we owned every retirement community in the country meaning the transportation networks there that would in and itself
+be a very valuable very valuable business one of my favorite passengers
+is on ahed she came to visit as recently and gave this quick speech about why
+self-driving cars matter to her in her community
+let's talk about our first community this is the villages whenever I show
+this slide people are astounded by the number of residents in a community like this over 125,000 and growing over 750
+miles of road and what we have in this location is an exclusive license to operate an autonomous vehicle service
+this is one of our other beliefs which is that by partnering very deeply with
+the community it means that we're able to deliver a better service and that we're able to grow a more reliable
+business we won't have you know entrance and competitors from all of the other self-driving car companies in our
+communities what we actually do in exchange for that exclusive license is grant these communities equity because
+if we win it's probably in fact highly likely as a result of those communities and the addressable market
+transportation in these regions is massive these residents tend to be as a
+lot of seniors tend to be quite affluent which means that they have some disposable income when it comes to being
+able to pay for ride-sharing services and other things like that so we find
+that that recipies is absolutely perfect here and we're launching and have
+launched passenger services to these these residents I've got a love awesome feedback learned a lot about the needs
+of providing ride-sharing for senior citizens just some quick stats this is
+from my series x fundraising dec just
+about the size of the senior market again this is the first place we go but you can get a feel for just how large
+this transportation market is today there are 4 to 7 million seniors that's growing by 2060 to over a hundred
+million seniors in the US the total addressable market for just seniors is
+incredibly large 2,500 plus communities all that good stuff and this is how we
+see the world the landscape of potential deployments you've kind of got a lot of the big guys
+focusing on that bottom left quadrant they're focusing on large cities and it makes sense because it's playing to
+their unique strengths it's playing to their ability to deploy thousands of cars tens of thousands of cars it plays
+the strengths that they have at least some patience or ability to have more extended time lines when it comes to
+building this technology but first up like us that you know fights for survival every single day it means that
+we have to do things differently so we focus on that top right quadrant there what we've kind of coined is
+self-contained communities these places are simplest slower but they also have
+this ability for us to have that exclusivity that I talked about and
+there's some others of course that we play in whether it's a senior market or maybe even small citizen and things like
+that let's talk about autonomous technology so just to reiterate why do
+we deploy in retirement communities slower speeds simpler roadway there is a central authority these places tend to
+be run by private companies which makes for a quite unique relationship in a
+very positive way means we can deploy faster it means we have the potential to have more impact in these regions I also
+turns out that retirement communities tend to be located by this ideal weather for self-driving cars think about
+Arizona Florida etc we have a world-class team building this a voyage
+from all the major programs out there and that makes our lives infinitely
+easier one thing that also makes our lives easier is the sensor configuration of our car we've intentionally made this
+Sensor and technology stack
+decision that we're not going to focus on optimizing for costs today but to optimize for performance we want to get
+to truly drive us sooner than most and one of the easiest ways you can again make your life easier is by optimizing
+for high resolution sensors at the very top of the vehicle we have the VLS 128
+which is a 128 channel lidar that's capable of seeing in three hundred three hundred meters in 360 degrees many other
+different light hours on the vehicle to cover different certain blind spots all together we says twelve point six million points per
+second and then just looks incredibly high-resolution you'll see our car at
+the bottom there and that's the the raw point cloud output that we see in the
+world we run towards level four and for us what that means is that if you're
+building a demo self-driving car kind of like we did at the Udacity project you may focus on just the top four items
+that top row you may focus on perception prediction planning and controls and it turns out you can build a very
+impressive demo quite quickly by just focusing on those things but of course those things fall apart whenever edge
+cases are introduced which happen all the time so we've spent a ton of time on
+all the items here because again our goal is to build not a demo but a truly driverless vehicle we also have a
+emphasis on partnerships because what we've noticed in the self-driving
+ecosystem is that there's not just more self-driving car companies building the full stack there's now folks going into
+simulation to mapping to middlewares to tell the operations to routing to senses of course and and ton more so we make
+our lives again easier by partnering with companies like this so that we don't have to spin up a simulation team
+or we don't have to spin up an Operations team to go map the world we can just work with these these very cool companies let's talk about one unsolved
+problem which fascinates me it's to do with perception and you probably won't be able to notice this unsolved problem
+Example challenge for perception (foliage)
+from just this picture but maybe if I add some annotations you might foliage
+trees bushes whatever you want to call them you may have seen some quotes in
+the media about some popular AV programs struggling with such such foliage for
+example cruise cars sometimes slow down or stop if they see a bush on the side of a street or a lane dividing pole that
+was in the information wrong way this one boobers self-driving car software
+has routinely been fooled by the shadows of tree brain which it would sometimes mistake for real objects insiders say that's
+Business Insider and even voyage there's only one hard stuff on the way the
+culprit is a bush two feet high that protrudes into a lane from a street median which voyage considers possible
+threat voyage mate remit and we did but we don't think that's scalable and well
+maybe it is I don't know but we at the beginning of 2018 decide to solve this
+problem so of course all of this resides in the world of perception area of
+Survey of recent perception research
+particular fascination for me we're sharing these slides but these are just
+some of the the papers and research that we see going on that intends to solve
+those sorts of issues one of the reasons you've seen those programs including ours be particularly sensitive to
+foliage is because from a perception perspective one of the most well known
+way to detect objects is to utilize the map if you have this map and you
+effectively simplifying to a certain extent but subtract objects that aren't
+in the map and then use that as a way to you know understand what's in and around
+you that's dynamic then of course you'll end up with you know decent representations of cars and pedestrians and whatnot but if you know foliage
+grows which it does trees then that's gonna you know extend out from the map and mean that that particular bush is
+now an object in your path these networks here which these all neural
+networks don't use that same technique they don't use the map as a prior instead what they do is take of course
+this 3d scan of the world and then take em all learned approach to the problem you'll have you know tens of thousands
+hundreds of thousands of labels of cars humans etc and then these next networks
+will be able to pick these ones out were particularly fascinated by pixel which came from some great researchers at
+Wilbur ATG voxel net came from Apple SPG I've heard our engineers talking a lot
+about fast and furious recently which merges together perception and prediction and tracking into a
+single network which is pretty cool and point pellets which I think came from the new tana me team recently I think
+Kyle is speaking soon right so just in general we see a whole bunch of work
+going out there to solve these issues the other one that this these sorts of networks solve which I also find
+particularly fascinating is that if you use traditional clustering algorithms what you might see is that if two people
+have stood next to each other traditional algorithm will clusters as one object which when you're trying to
+you know move away from those edge cases and build a truly self-driving car that's a non-starter
+right because pedestrians are the most important thing you can probably detect and detecting two things as one thing is
+it's not going to cut it and of course it does that because it's it's a dumb algorithm it's not trained on any sort
+of information but these networks again are very very good at understanding the
+features and perspectives of humans even if they are in crowds and and whatnot and that then helps all your stack
+downstream because if you have accurate perception information about objects in and around you your predictions are much
+better your tracking is much better and ultimately how you navigate the world is much safer I'm also particularly
+fascinated by reinforcement learning which I know Alexis as well if you've read our way most recent work on
+imitation learning I think that's particularly cool another company we track quite closely just because they do
+amazing stuff is wave trying to build an entirely self-driving a self-driving car powered by reinforcement learning
+I think about disengagement saz rewards and things like that tool to to to net
+to better performance also just errors of learned behavior planning ultimately
+fusing rules of the road with more learned behaviors the ecosystem I think it's this area that is thriving today
+seeing just how many folks are diving into not just the full stack but building tools and building other really
+important parts of the the stack the maturation of sensors not just higher
+resolution lidar but things like 3d radar we get pitched all the time from from these companies and it's clear to
+see there's been a rise in volume from from all these these great great efforts lessons learned now that
+Lessons learned
+I've been building voyage for two years and prior to that four years that you asked me what things have I personally learned they're not technical in nature
+so many things so these all may look like cliches but I promise you they'll
+came from lessons which were really really painful in the moment don't be intimidated so the thing that I feel you
+know happens a lot in self-driving cars is that because it started in this very
+academic sense meaning you know Stanford Carnegie Mellon and and whatnot that it
+felt like to break into the industry you had to also go through that same path you had to get a PhD in something and
+and really go that the path that was you know well trodden but I think that you
+know only takes the industry so far I think it's really important that we get folks from all different backgrounds all
+different industries to come contribute to this field because if we don't that there is no driverless it can't happen
+in that isolated bubble it needs to be extended out so don't be intimidated by those things understand your limitations
+this is perhaps more of a kind of CEO lesson for myself but I think when
+you're building out a company from you know one person or five people to today with forty four folks you cannot do
+everything and it's really important you build a team around you that is able to do what you used to do but do it 10
+times better I pray didn't spend enough time building out that team until we had some challenges our way when it comes to that
+stuff be proactive versus reactive I think it's really crucial again when you're
+building a company to try and predict what's gonna happen next because if your reactive you're constantly you know two
+steps behind what other folks are doing gay love the way I think a lot of folks
+again perhaps overstay their welcome in certain areas of the company when they should just say okay I've got experts
+now I can just step aside and let those folks do what they do best and speaking
+of which hire the best it's really easy when all this pressures on when you're building a company to kind of sacrifice
+when it comes to your culture when it comes to high it's really crucial that you find folks that are not just the best in their
+field but are the best match for your company and always be curious I think it's always one of the the things we
+believe in a voyage is that it's important that knowledge is not isolated
+just one person that that knowledge should be spread throughout the company because even though it may feel like
+over sharing or over communicating what that knowledge may mean for someone that
+has a particularly unique background is they may do something incredibly cool with it they may build something that totally transforms our company that's
+about it can jump to questions if that's helpful that was great please give a big hand
+[Applause] how did you identify retired communities as the target market to prioritize yes
+Q&A
+so retirement communities for us was actually there's a really long story about I'll turn me down a little bit so
+when we were starting voyage sebastien theorem was very helpful in starting helping us start this company
+and of course as kind of naive you know founders of a company we're like well
+let's just take this El Camino thing and like put it on everywhere else it looks like El Camino and just do that over and over again but he cautioned against that
+and very wisely so because again you're nothing special compared to the other self-driving car companies out there by
+doing so and in 2009 he had really
+advocated to Google you know leadership etc Larry Page that retirement
+communities for self-driving cars might just be the best way for Google to go about deploying their self-driving cars
+but and I can understand why I think the Google folks were you know what Google right well we're not just about
+retirement communities were about the world like level-5 or nothing right so he got some pushback but he did some
+research in that process met some folks so when you know we were starting he's like you got to check out these retirement communities so we did we went
+to visit and eventually we got there so we want to got to that point without sebastian pushing for that follow-up on
+the quest from the retirement communities the question is do you ever think about the other collateral issues
+especially the retirement community would have to get into a car yep and how
+exactly would they interface like somebody wants make a call to have a car
+come to their wherever they are and they have to move from a point A to point B so how did you ever think about all
+these issues that are very germane it's
+not just a vehicle moving on its own yep but these are all collateral issues how
+do you plan to address this it's good question so the way we think about this is that today we've intentionally
+focused it on a segment of the market which is called ad the active adult communities these folks tend to be able
+to you know go into their own cars or into a taxi open the door sit down
+without the need for any you know assistance when it comes to that but they may have vision issues they may
+have other issues that prevent them from driving perhaps for example we hear a lot that folks feel really uncomfortable
+driving in the evenings they feel comfortable driving in the daytime because their vision supports it but when it comes to evening time they have
+this mad rush to get home but there is that other market which you're talking about right which is folks that just need that helping hand towards getting
+to the car and one of our beliefs as a company is that the senior market like I
+had in that slide is surprisingly large and what that means to us is that we think we can own it we think we can be
+that company that any senior citizen in that situation thinks oh I should call voyage because I need to get you know
+from point A to point B instead of thinking I should call way mo or cruise
+or any of the folks that gonna go after the general big market they'll think about voyage and the reason they'll think about is is because we'll deliver a product to them that is meant for
+those folks that's designed for their use cases it may be that actually you know if they're going on a long trip let's say they're traveling 50 miles the
+first mile of that trip and the last mile of that trip may involve a human like you know helping them into the car and then dropping that human off
+somewhere else to go do that all over again it may involve crazy robots that help people from their cars we've heard
+from you know folk folks at Toyota they're building these back carrying robots and other things that may assist
+seniors from getting to the and whatnot so I think that's why that
+market fries is particularly exciting because it feels like you can deliver these tailored products that would enable us to be the the market leader
+but today we focus on active adult but who knows where you go next can you talk
+a little bit about how you determined your final sensor sweet hmm yeah so that
+the truth is is never final so we think about generations of vehicles so we have a first generation vehicle which was a
+Ford Fusion had a single valid eye naitch TL 64 and a bunch of cameras
+radar and we you know set some milestones based on that vehicle and we
+accomplished those milestones and then once we reached kind of that the max in
+which were able to take that vehicle we then say oh we need you know to bring on a g2 vehicle a second-generation vehicle
+so we did that and we said okay we have these certain goals in mind which are pretty lofty and pretty ambitious
+we need incredible range incredible resolution for these things and actually what we've discovered is that in our
+particular communities going at the speeds that we're going at radar isn't particularly useful so we don't have
+radar on our second generation vehicle for example but I'm sure that when we go to that third generation vehicle there'll be other driving factors that
+you know we work backwards from the milestone to say what do we need on this vehicle maybe cost in the third
+generation vehicle right we may say that hey we need a more affordable sensor suite than what exists in our second
+generation vehicle but they're driven by technical requirements and that means that you know we are able to really
+marry the two with the vehicle I was curious when you showed the student LED content or when you showed
+one of the students in your first practice car had developed a traffic
+light sensor and then you showed later on that you know you were getting student input for deep learning models
+for steering wheel turns I was wondering how what your system
+architecture kind of looks like in terms of the kinds of perception that you take in I have modular it is and to what
+extent deep learning algorithms have played a part in those different parts of that system yeah it's a good question
+so I really encourage folks to get familiar with Ross so Ross has always been this kind of
+playground for robot assists of all different types of robots to be able to try things out on robots and Ross one is
+particularly notorious for kind of hockey and hobbyist types of projects but it's not meant for production Ross -
+though which is in kind of an alpha release state is definitely meant for more production oriented things and the
+reason I mentioned Ross is because it has this awesome architecture which lets you plug and play what they call nodes
+and be able to experiment with different approaches to the problem so for example
+what you know is running that deep learning model predicting steering angles effectively replaced are more
+rules based planner and perception engine and we just plug the output of
+that to of the steering angle straight to our controller to just actuate the
+vehicle and Ross is particularly good at those sorts of architectures and it's
+all open source so you can do some cool stuff with it can you tell like how you handle the liability insurance rear for
+passengers for your vehicles also how we handle insurance that question so we
+have a pretty cool deal with a company called intact insurance and the idea is
+that insurance in the autonomous age is gonna be very different than insurance
+you know today right for human drivers because there's different risk assessments and whatnot and one of the
+ways that we're able to prove to these insurers that you know we're good at
+what we do is actually sending them data right we send them data from our cars as we drive showing that as we move through
+the world we accurately detected things and planned around things and all that good stuff and then they use that data to inform our rates of insurance I think
+that the future achieve insurance will be on a similar lines but perhaps more extreme where for example the rates will
+change depending on the complexity of the environment if we're just driving down a straight road completely straight
+and a zero vehicles around us our insurance rate should be super low right but if we enter a city center and as
+thousands of people and cars and all that crazy stuff our insurance rates should just rise almost instantaneously
+so what pond would someone today that insures the passenger the car senses all
+that stuff but I think there's a lot of room for innovation there too did you have any problems like onboarding the people initially
+when they were like you know skeptical scared and then the other question is what are the like major missing pieces
+you computer vision to achieve out for what was that last maze it missing
+pieces between command in computer vision to achieve my level four self-driving gotcha so one of the more
+interesting insights I think we had about retirees is that again in my kind of naive state back in 2016 my general
+feeling was retirement communities might not be the first to adopt this technology right because they may be slower to adopt new technology might be
+scared of the technology all those sorts of things and to kind of validate that I
+went to talk to some senior citizens because I talked to my own grandma she hates self-driving cars sounds like that's not a good sign but when to talk
+to these folks in these sorts of locations and the really interesting thing we learned is that traditional consumer software or devices yes there
+is definitely a lag in adoption with senior citizens and that's proven in many studies many stats that senior citizens are slower to adopt the
+Facebook's of the world or the instagrams or the whatsapp's all those sorts of things cryptocurrency had Anna
+but that's because they have these very well-defined processes that they've had for most of
+their lives right instead of using facebook they call someone up and they have a chat you know a conversation with
+someone about their day or all the stuff that's going on or they you know don't
+share a picture on Instagram they physically mail a picture or something like that so to change that behavior is
+tough right because that's a behavior that is fundamentally different than what they used to they have to log on to
+a computer go to this weird Facebook thing and like share pictures with thousands of people that's weird but the
+difference between that and a self-driving car is that our experience is no different than the car they used
+to it just turns out it's being driven differently right like they see a car it's the same you know similar form factor to what
+they used to they open it all they sit in the back seat okay there's a button I have to press to say go but it's pretty
+similar to what I'm used to in my past I want to learn a new behavior I have to change something that I'm used to so
+that was our first learning and then also they actually really don't care too much that it's autonomous they have very
+when I'm in the car quite curious and enthusiastic about the technology and want to tell them about I don't know
+lidar and deep learning and perception and that they you know don't want to hear any of that stuff and it kind of
+dawned on me that the reason that is is because what they senior citizens have witness over their lifetimes it's far
+more dramatic than I have right like we've oldest passenger was 93 and she told me a story about how when she was
+very young she remembers literally moving on an almost daily basis in a horse and cart so when you talk about
+like self-driving cars to those folks like they just you know that they couldn't care less because between that
+period and today they've seen the birth of like flight planes everywhere they've seen car proliferation they've seen
+scooters now they've seen like all of this crazy subway systems so a
+self-driving car to them is like oh that's cool what I just wanted to move me that's our biggest learning bet the
+question was computer vision what needs to happen between now and level-4 yeah so I think the the Holy Grail right so
+if you had perfect perception self-driving cars are solved if we knew every object that was on the road in and
+around is within a reasonable distance self-driving cars are solved false positives are accepted today which i
+think is good but you really want to minimize false negatives right you want to zero false negatives in the world and
+I think that's why we still have a tiny bit of work to do because when you think about the reason for a test driver being
+in the vehicle well perception feeds everything downstream right so if you miss an
+object miss identifying object any of that sort of stuff then that effect causes the whole stack downstream to to
+become quite chaotic that's why I'm excited about all those networks I talked about one of the other things we
+believe that helps us minimize false negatives to non-existent kind of state
+as for us is that we band together multiple networks so we don't just rely on a single layer of perception we say
+different networks have different strengths for example voxel net is particularly good at pedestrians but
+Pixar is not so great as pedestrians because it's from a bird's eye view where pedestrians are quite thin and
+whatnot so let's ban those two networks together and let's also band together some more traditional computer vision
+algorithms that may not be processed on the entire you know 360 scan but may be processed on a small sample maybe at the
+front of the vehicle for example so there's just lots of little bits and pieces like that to go through to
+minimize the worst case scenario which is a false negative but it's clear when you see you know way mo and whatnot that
+they feel very very very close to that so state you mentioned that weather was
+one of the main reasons this was a great place to start can you talk about hurricanes yes it was funny I got a
+question recently from Alex Roy I mean Lex is just talking about about okay in
+the event of a hurricane right let's not talk about the technology second but in the event of a hurricane like we've all seen those pictures of people you know
+getting on the freeways and trying to get out of the path of the hurricane right how is that going to work in a world where self-driving cars are
+everywhere and personally driven vehicles there may be more of the the smaller set the smaller size I don't
+quite have an answer to that yet but I think it's an interesting kind of thought problem from a technology perspective the really important part
+the really important part of whether fuzz is remote operation so inside
+everyone about sorry all of our vehicles have a cellular connection right and
+each of those vehicles is connected to a remote operator that sat in somewhat
+close proximity to that vehicle and that remote operator has a few jobs one is to just ensure the safe operation of the
+vehicle make sure that vehicle is doing as it's intended to do all those good things but another is to make sure that
+the operational domain that we are currently operating in is the one that's designed for so all these different
+camera feeds are being you know live stream to this remote operator and if there is sudden downpour of rain that
+remote operator has the ability to bring that vehicle to safe stop until that you know rain
+shower disappears or whatever or hurric el hurricane whatever it may be but
+there are companies I was pitch rescind by companies building weather forecasting on a scale that is not
+really used today but really microclimates so thinking about just like this small subsection of the
+villages predicting and understanding exact weather within those regions and then having web hooks to tell you or as
+voyage that that's about to happen so there's a lot of cool stuff happening there but remote operates is currently kind of the eyes and ears of all cows to
+prevent that sort of issue so please give all or a big hand thank you guys
+you
 
 ----------
 
 -----
+
 --60--
 
 -----
-Date:
-Link:
+Date: 2019.02.12
+Link: [# Drago Anguelov (Waymo) - MIT Self-Driving Cars](https://www.youtube.com/watch?v=Q0nGo2-y0xY)
 Transcription:
 
-paste here
+all right welcome back to 6sz ro9 for deep learning for self-driving cars today we have Drago and glial of
+principal scientists at way mo aside from having the coolest name in
+autonomous driving Drago has done a lot of excellent work in developing applying machine learning methods to autonomous
+vehicle perception and more generally in computer vision and robotics he's not helping way mo lead the world in
+autonomous driving 10 plus million miles achieved autonomously to date which is
+an incredible accomplishment so it's exciting to have Drago here with us to speak please give him a big hand
+[Applause] hi thanks for having me I will tell you
+Background
+a bit about our work and the the exciting nature of self-driving and the problem and our solutions so my talk is
+called taming the long tail of autonomous driving challenges my background is in perception in robotics
+so I did PhD at Stanford with Daphne Koller and worked closely with one of
+the pioneers in the space professor Sebastian Thrun I spent eight years at Google doing research on perception also
+work on Street View developing deep models for detection neural net architectures I was briefly zooks I was
+heading the 3d perception gaming jokes were built another perception system for
+autonomous driving and I've been leading the research team at way more in most
+recently so I want to tell you a little bit about Weimar when we start way more actually
+Waymo story (2009 to today)
+this month has its 10-year anniversary it started with Sebastian throng
+convinced the Google leadership to try an exciting new moonshot
+and the goal that they set for themselves was to drive 10 different segments that were 100 miles long and
+later that year they succeeded and drove an order of magnitude more than anyone has ever driven
+in 2015 we brought this car to the road it was built ground up as a study in
+what fully driverless mobility would be like in 2015 we put this vehicle in
+Austin and it completed the world's first fully autonomous ride on public
+roads and the person inside this car is a fan of the project that he is blind so
+we did not want this to be just a demo fully driverless experience we worked hard and in 2017 we launched a fleet of
+fully self-driving vehicles on the streets of in Phoenix metro area
+and we have been doing driverless fully driverless operations ever since
+so I wanted to give you a feel for what fully driverless experience is like
+[Music]
+[Music]
+[Music]
+[Music]
+and so we continued last year we launched our first commercial service in
+the metro area of Phoenix there people can call a web on their phone it can
+come pick them up and help them with errands or go to school and we've been already learning a lot from these
+customers and we're looking to grow and expand the service and bring it to more people so in the process of drawing the
+service we have driven 10 million miles on public road is like said and
+driverless lis in Enmore also with with
+human drivers to collect data and we've driven all kinds of scenarios cities
+capturing a diverse set of conditions and a diverse set of situations in which we develop our systems
+I want to tell you I mean about the long tail of events this is all the things we need to handle to enable truly sub
+Long tail of events
+driver this future and I guess all the problems that come with this and offer some solutions and show you how has been
+thinking about these issues so as we drove 10 million miles of course we
+still find scenarios new ones that we have not seen before we still keep collecting them right and so when you
+think about self-driving vehicles they need to have the following properties first a vehicle needs to be capable it
+needs to be able to handle the entire task of driving so you cannot just a subset and remove the human operator
+from the vehicle and also all of these tasks obviously need to do well and safely and that is the requirement to
+achieving so driving at scale and when you think about this now the question is
+well how many of these capabilities and how many scenarios do you really need to handle well it turns out well the world
+is quite diverse and complicated and
+there is a lot of rare situations and all of them need to be handled well right and they call this the long tail
+the long tail of situations you it's it's it's one type of effort to get
+yourself driving for the common cases and then it's another effort to tame this the rest and they really really
+matter and so I'll show you some for example
+this is us driving in the street and let's see if you can tell what is unusual in this video you see so this I
+can play it one more time so there's a
+bicyclist and he is carrying a stop sign and I don't know where he picked it up
+but it's certainly not a stop sign we need to stop for unlike others right and
+so you need to understand that let me show you another scenario this is another case where we are happily
+staying there and then the vehicle stops and a big pile of poles comes our way
+right and you need to potentially understand that and learn to avoid it generally well different types of
+objects can fall on the road it's not just pose here's another interesting scenario this is happens a lot it's
+called construction and there's various aspects of it one of them is someone changed clothes Delaine put a bunch of
+cones and we learn and this is our vehicle correctly identifying where it's
+supposed to be driving between all of these cones and and successfully executing it so yeah we drive for a
+while and this is this is something that is happens fairly often if you drive a lot another case is this
+one I think you can you can understand what happened here and you can notice
+actually so we hear the siren so we we have the ability to understand sirens to
+special vehicles and you can see we hear it and stop and some guys are much later than us breaking at the last moment
+letting the emergency vehicle pass and
+here's another scenario potentially I want to show you let's see if you can understand what happened
+so let me play one more time did you
+guys see so we stopped at there's a green light we're about to go and someone goes at
+high speed running a red light without any remorse right and we successfully stop and prevent issues right and so
+sometimes you have the rules of the way and you have your road and people don't always abide by them and that's
+something that you know I don't want to just directly go in front of that person even if they're breaking the law so
+hopefully with this I convince you that the situations that can occur a diverse and challenging and there's quite a few
+of them and I want to take a little bit on a tour of what makes this challenging and then tell you some ways in which we
+think about it and how we're handling it and so to do this we're going to delve a
+little bit more into the main tasks for sub driving which is perception prediction and planning so I'll tell you
+Perception, prediction, and planning
+a little bit about those right and perception these are the core AI aspects
+of the car usually this task there's others we can talk about others as well in a little bit but that let's focus on this person so perception is mapping
+from sensory inputs in potentially prior knowledge of the environment to seen representation and that same
+presentation can contain objects it contains in semantics potentially you can construct the map you can learn
+about objects or relationships and so on and perception the space of things you
+need to handle in perception is fairly hard it's a complex mapping right so you have sensors the pixels come later
+points come or radar scans come and you have multiple axis of variability in the
+environment so obviously there's a lot of objects they have different types appearance pose is I don't know if you
+see this well they're a bunch of people dressed as dinosaurs in this case people generally are fairly creative in how
+they dress vehicles can also be different types people come in different
+poses and we have seen it all right so that's one of prospects
+there's different environments that these objects appear in so there are times of day seasons day night different
+for example highway environment suburban street and so on and then there's a
+different variability axis and this is a little more slightly more abstract that different objects can come in these
+environments in different configurations and can have different relationships and so things like occlusion there's a guy
+carrying a big board there is reflections there is smell people riding
+on horses and so on and so what am i showing this because I just want to show
+you the space right so in most cases you care about most objects in most
+environments in most reasonable configurations and that's a space that you need to map from from the sensor
+inputs to a representation that makes sense and you need if you need to learn this mapping function or represent it
+somehow right and so let's go to the next step which is prediction so apart from just understanding what's happening
+in the world you need to be able to anticipate and predict what some of the actors in the world are going to do the
+actors being mostly people and people is honestly what makes driving quite
+challenging this is one of the aspects that do so it's you know vehicle needs to be out there and be a full-fledged
+traffic scene participant and this anticipation of agent behavior sometime
+needs to be fairly long-term so sometimes when you want to make a decision you want to validate or convince yourself it does not interfere
+what what anyone else is going to do and it can go from one second to maybe ten seconds or more you need to anticipate
+the future so what goes into anticipating the future well you can
+watch it past behavior some ones I'm going this way maybe I will continue I'm going there maybe I'm very aggressively
+walking and maybe I'm more likely to do aggressive motions in the future high
+levels in semantics well I'm in a presentation room I'm sitting here at the front giving a talk I'll probably
+stay here and continue even though stranger things have happened
+and of course there's subtle appearance skills so for example if a person's
+watching our vehicle and moving towards them we can be fairly confident they're paying attention and not going to do
+anything particularly dangerous if someone's not paying attention or being
+distracted or you know there is a person in the car waving at us various gesture
+skills the blinkers from the vehicles these are all signals and and subtle signals that we need to understand in it
+in order to be able to behave well and last but not least even when you predict how other agents behave agents also
+affected by the other agents in the environment as well so everyone can affect everyone else and you need to be
+mindful of this so I'll give you an example of this I think this is one of the issues that really needs to be
+thought about we are all interacting with each other so here's the case our way move vehicle is driving and there is
+two bicyclists in red going around a parked car and what happens is we
+correctly anticipate that as day bike they will go around the car and we slow down and let them pass right so we
+reasoning that they will interact with the parked car this is the this is the prediction our most likely prediction
+for the rear bicyclists we anticipate that they will do this and we correctly handle this okay so this illustrates
+prediction and here planning this is our decision-making machine it produces
+vehicle behavior typically ends up in control commands to the vehicle accelerate slow down steer the wheel any
+to generate behavior that ultimately has several properties to and it's important to think of them which is safe safety
+comes first comfortable for the passengers and also sends the right
+signals to the other traffic participants you because they can interact with you and they will react to
+your actions you need to be mindful and you need to of course make progress you
+need to deliver your passengers so you need to trade all of these in a reasonable way right and it and it can
+be fairly sophisticated reasoning and complex environments I'll show you just one scene this is this is the complex I
+think school gathering there's bicyclist trailing us vehicles really close the hand within as a bunch of pedestrians
+and we need to make progress and here is us we're driving and reasonably well in
+crowded scenes and that is part of the prerequisite of bringing this technology
+to in all the deaths urban environments being able to do so how are we going to do it well I gave it up I'm a machine
+Machine learning at scale
+learning person I think when you have this complicated models and systems machine learning is a really great tool
+to model complex actions complex mapping functions features right and so we're
+going to learn our system and we've been doing this I mean we're not the only one so obviously this this is now a machine
+learning revolution and machine learning is permeating all parts of the way imma
+stack all of these systems that I'm talking about it helps us perceive the world it helps us making decisions about
+what others are going to do it helps us make our own decisions and machine
+learning is a tool to handle the long tail right and now tell you a little more on this how so I have this allegory
+about machine learning that I like to think about so there is a classical system and there is a machine learning system and to me a classical system and
+I've been there I've done well early machine learning also systems also can be a bit classical you're the artisan
+you're the expert you have your tools and you need to build this product and you have your craft and you go and take
+your tools and build it right and it can fairly quickly get something reasonable but then it's harder to change it's
+harder to evolve if if you learn new things now I need to go back and maybe the tools don't quite fit and you need
+to essentially keep keep tweaking it and starts becoming the more complicated the product becomes the harder it is to do
+and machine learning modern machine learning is like a factory right so
+machine learning you build the factory which is the machine learning infrastructure and then you feed data in
+this Factory and get nice models to solve your problems right and so kind of
+infrastructure is at the heart of this new paradigm you need to build the factory all right once you do it now you
+can iterate it's scalable right just keep the right data keep feeding the machine keeps giving you good models so
+what is the ml factory for self-driving models well roughly it goes
+this we have a software release we put it on the vehicle we're able to drive we
+drive we collect data we collect it and we store it and then we select some some
+parts of this data and we send it to labelers and the label is labeled parts of the data that we find interesting and
+that's the knowledge that we want to extract from the data these are the labels they are notations the results we
+want for our models right there is and
+then what we're going to do is we're gonna train machine learning models on this data after we have the models we
+will do testing and validation validate that they're good to put on our vehicles once they're good to put on our vehicles
+we go and collect more data and then the process starts going again and again right so you collect more data now you
+select new data that you have not selected before right you add it to your data set you keep training the model and
+iterate iterate iterate it's a nice scalable set up of course this needs to be automated it needs to
+be scalable itself it's a game of infrastructure right and at Weimer we
+have the beautiful advantage to be really well set up with regards to the machine learning infrastructure and I'll
+tell you a bit about its ingredients and how we how we go about it so ingredient
+one is computing software infrastructure and we're part of alphabet Google and we are able to first of all leverage
+tensorflow the deep learning framework we have access to the experts the throat pans the flow and know it in-depth we
+have data centers to run large-scale parallel compute and also train models we have specialized hardware for
+training models which you know make it cheaper and more affordable and faster so you can iterate better ingredient to
+high quality label data we have the scale to collect and store hundreds and
+thousands and more miles to millions of miles and just collecting a store and
+convenience miles is not necessarily the best thing you can do right because
+there is a decreasing utility to the data so most of the data comes from common scenarios you may be already good
+at them and that's where the long tail comes right so so it's really important how you select the data and so this is
+important part of this pipeline so while you're running release on the vehicle we have a bunch of models we have a bunch
+of understanding about the world and you can we annotate the data as we go and you can use this knowledge to decide
+what data is interesting how to store it which data we can potentially even ignore so then once we do that again we
+need to be very careful how to select data we want to select data for examples that are interesting in some way and complement capture these long tail cases
+that we potentially may not be doing so well on and so you know for this there
+is we have active learning and data mining pipelines given exemplars find
+the rare examples look for parts of your system which are uncertain or you know
+inconsistent over time and and go and label those cases last but not least we
+also produce auto labels so how can you do that well when you collect data you also see the future for many of the
+objects what they did and so because of that now knowing the past and the future you can annotate your data better and
+then go back to your model that does not know the future and try to replicate that with that model right and so you
+need to do all of this is part of the system ingredient number three high quality models we're part of larger
+alphabet and Google and deepmind and generally alphabet is the leader in AI
+when I was at Google we were very early on the deep learning revolution I happen
+to have the chance to be there at the time it was 20 2013 when I got on to do
+deep learning and a lot of things were not understood and we were there working on it earlier than most people and so
+through that we had the opportunity and the chance to develop some of the in my time the team I managed to invented
+neural net architecture like Inception which became popular later we invented
+at the time the state of the art object detection fast object detector called SSD and we want imagenet 2014 and now if you
+go to the conference is Google and deep mine the leaders in perception and reinforcement learning and smart agents and you know there is like state of the
+art say semantic segmentation networks pose estimation and so on the object detection of course goes without saying
+and so we collaborate with Google in deep mountain projects improving our models and so this is my factory for
+self-driving models and I want to tell you something that kind of captures all
+of these ideas infrastructure data and models in one this is a project we did
+recently and today we put online in our blog about automatic machine learning
+for tuning and adjusting architectures of neural networks so so what what did
+we do so there is a team at Google working on auto ml automatic machine
+learning and usually networks themselves a complex architecture they're crafted by practitioners - artisans of networks
+in some way and sometimes you know we have very high latency constraints in the models we have some compute
+constraints the network's is specialized it takes often people months to find the right
+architecture that's most performant low latency and so on and so there's a way to offload this work to the machines you
+can have machines themselves once you suppose the problem go and find your
+good network architecture that's both low latency and high performance right and so that's what we do and we drive in
+a lot of scenarios and we as we keep collecting data and finding your cities or new examples the architectures may
+change and we want to recently find that and keep evolving that without too much effort right so so we worked with the
+Google researchers and they had a strong work where they invented well they
+developed a system that searched the space of architectures and found a set
+of components of neural networks it's a small sub Network called mast cell and
+this is a diagram of a nerve cell it's a such set of layers put together that you can then replicate in the network to
+build a larger Network and they discovered in a small vision dataset it was called C 410 it has its it's from
+the early days of deep learning it was a very popular date set and you can quickly trade models and and explore
+the large search space so the first thing we did is it took some problems in
+that we have for our stack one of them being lighter segmentation so you have a map representation and some lighter
+points and you essentially Sigma and the lighter points you say this is this
+point is part of a vehicle that point is part of vegetation and so on this is a standard problem so what we first did it
+way mo is we explored several hundred
+mast cell combinations to see what performs better on this task and we
+thought one of two things happened for the various versions that we found one of them is we can find models with
+similar quality but much lower latency and less compute and then there is
+models of a bit higher quality at the same latency it's essentially we found better models than the human engineers
+did and similar results were obtained for added problems Lane detection as
+well with this transfer learning approach of course you can also do entrant architecture search so there's
+no reason why what was found on C 410 is best suited for our more specialized
+problems and so we went about this more from the ground up so let's find exactly
+deeper search much much larger space not limited to the nest cells themselves
+and so the way to do this is because our networks are trained on quite a lot of data and take quite a while to converge
+and it takes some compute we went to define the proxy task this is a smaller task simplified but correlates with the
+larger task and we do this by some experimentation of what would be a proxy task and once we establish a proxy task
+now we execute the search algorithms developed by the Google researchers and so we train up to 10,000 architectures
+with different topology and capacity and once we find the top hundred models now
+we train the large networks on those models all the way and pick the best ones right and so this way we can
+explore much larger space of network architectures so what happened so on the
+Left this is 4,000 different models spanning the scale and latency and quality and in red was the transfer
+model so act after the first round of search we actually did not produce the better model than the transfer which
+already leveraged their insight so then we took the learnings and the best models from this search and did the
+second round the search which was in yellow which allowed us to beat it in third is we also executed reinforcement
+learning algorithm developed by their researchers on 6,000 different architectures and that one was able to
+significantly improve on the red dot which also significantly improves on the
+in-house algorithm so that's one example where infrastructure data and models combine
+and shows how you can keep automating the factory that is all good but we keep
+Addressing the limits of machine learning
+finding new examples in the world and for some situations we have fairly few examples as well right and so there are
+cases where the models are uncertain or potentially can make mistakes and you
+need to be robust to those I mean you cannot put the product and say well our network just don't handle some case and
+it's so so we have designed a system to be robust even when ml is not
+particularly confident and how do you do this so one part is of course you want redundant in complementary sensors so we
+have given 360-degree field of view on our vehicles both in camera lighter and radar and they're complementary
+modalities first of all you know an object is seen in all of them second of all they all have different strengths
+and different modes of failure and so whenever one of them tends to fail the others usually work fine and so that
+that helps a lot make sure we do not miss anything also we design our system to be a hybrid
+system and this is the point I want to make right so I mean some of these mapping problems or you know problems
+with nutria player models are very complicated they're high dimensional the image has a lot of pixels lighter has a
+lot of lighter points right the networks can end up pretty big and it may not be
+so easy to train with very few examples with the current state of the art and so the state of the art keeps improving of
+course so this is their zero short and one-shot learning but we can also well
+the state of the art is improving in the models we can also leverage expert domain knowledge and so what does that
+do so humans can help develop the right input representations they can put an
+expert bias that constrains the representation to fewer parameters that already describe the task and then with
+that bias it is easier to learn models with fewer examples and there is also of
+course experts can put in their knowledge in terms of designing the algorithm which incorporates it as well
+right and so our system is this hybrid it's an example of what that looks for
+perception is well with no matter if the there's cases where the machine learning
+system may be not confident we still have tracks and obstacles from leather and radar scans and we make sure that we
+we drive relative to those safely and in prediction and planning if we're not confident in our predictions we can
+drive more conservatively and over time as the factory is running and our models become more powerful of course improve
+and we get more data of all the cases the scope of ml grows right and the
+sister the the set of cases that you can handle with it increases and so there's
+two ways to attract attack the tail you both protect against it but you also keep growing ml and making a system more
+performant I'm going to tell you now how we deal with large-scale testing which
+Large-scale testing
+is another key problem it's very important in in the pipeline and also in getting the vehicles on the road so how
+do you normally develop a self-driving algorithm well the ideal thing you're gonna do is you make your algorithm
+change and you would put it on the vehicle and drive a bunch and say now it looks in great alright let's make the
+next one the problem is I mean we have a big fleet we have a lot of data but some
+of the conditions and situations occur very very rarely and so if you do this you're gonna wait a long time
+furthermore you don't just want to take your code and put it on a vehicle you need to test it even before that you
+don't want to like you want very strongly tested code in public streets so you can do structured testing we have
+a 90 acres air force base place where we can test very important situations and
+situations that occur rarely it's an example of such a situation and so you
+can do this as well so you can select and deliberately staged safely conditions occur but now again you
+cannot do spore all situations so what do you do a simulator right and so how
+much we need to simulate well we simulate a lot so we simulate the equivalent of 25,000 cars virtual cars
+driving ten million miles a day and
+seven over seven billion miles simulated it's a key part of our release process
+so why do you need to simulate this much right well I hopefully I convinced you
+there is a variety of cases to worry about and that you need to test right
+through so far and furthermore it goes
+all the way bottom-up so as a change perception for example slightly different segmentation or detection the
+changes can go through the system and you know the results can change
+significantly and you need to be robust to this you need to test all the way so
+what to simulate one thing you can do is
+Teaneck scenarios from scratch working with safety experts Nitsa and analyzing water conditions in which typically lead
+to accidents so you can do that of course you can do it manually you can create them what else could you do well
+you want to leverage your driving data you have all your logs you have a bunch
+of situations there right so you can pick interesting situations from your logs and furthermore what you can do is
+to take all these situations and you any create variations of this situation so you get even more scenarios so here's an
+example of a log simulation I'll play Twice first time look at the image this
+is what happened in the real world the first time so in the real world we mostly stayed in the middle lane and
+stopped if you see what's happened in simulation simulation our algorithm
+decided this time to merge to the left lane and stopped and everything was fine
+things were safe things were happy what can go wrong in simulation from logs
+well let's say this is another scenario slightly different visualization our
+vehicle when it drove the real world was where the green vehicle is now in
+simulation we drop differently and we have the blue vehicle right and so we're
+driving BAM what happened well there is
+a purple they're pasty purple agent who in the real world saw that we passed them safely and so it was safe for them to go
+but it's no longer safe because we changed what we did so the insight is in simulation our actions affect the
+environment and it need to be accounted for so what does that mean if you want
+to have effective simulations on a large scale you need to simulate realistic driver and pedestrian behavior so you
+know you could think of a simple model well how do you do oxy or what's a good
+approximation of a realistic behavior well you can do a break and swerve model so you just say well there is some
+normal way reactions happen you know I have a reaction time and braking profile
+it may be swerving profile so if an agency someone in front of them maybe they just apply it is an algorithm all
+right hopefully I convinced you that behavior can be fairly complicated in this will not always produce a
+believable reaction especially is complex interactive cases such as merges
+lane changes intersections and so on right so what could you do
+you could learn an agent from real demonstrations well you went and
+collected all this data in the world you have a bunch of it information of how vehicles pedestrians behave you can
+learn the model and use that okay so what is an agent let's look a little bit
+an agent receives sends the information maybe context about the environment and
+it develops a policy it develops a reaction that's the driver agent in
+applies acceleration is steering then gets new sensor information new map
+information place in the map and it continues and if it's our own vehicle then you also have a router that's in
+explicit intent generator which says well the passenger wants you to go over there why don't we try to make a right
+turn now so you also get an intent and this is an agent you know it could be in
+simulation it could be in the real world roughly this is the picture and this is an end-to-end agent end to end learning is popular right to its best
+approximation if you learn a good policy this way you can apply it and have very believable agent reactions
+right and so I'm going to tell you a little bit about work we did in this direction so we put a paper on archive
+about a month ago I believe on we took 60 hours of footage of driving and we
+try to see how well we can imitate it using a deep neural network all right
+and so one option is to do exactly the same to antigen policy but we wanted to make a task easier how well we have a
+good perception system at Weymouth so why don't we use its products for that agent also can simplify the input
+representation a bit that is good if bigdhaas becomes easier controllers are well understood we can use an existing
+controller so no need to worry about acceleration and arcs we can generate trajectories now if you want to see in a
+little more detail to understand the representation is so we have this is our our agent vehicle which is sub driving
+vehicle in this case but could be a simulation agent and we render an image with it at the center and potentially we
+augment it with some we can we can generate a little bit of rotation to the image just so we don't over bias
+the orientation a specific way all right and it's an 80 by 80 box so we roughly
+see about 60 meters in front of us and 40 meters to the side in the center and
+now we render a road map in this box which is the map like which lanes you're
+allowed to drive on these traffic lights and generally at intersections we render what lanes are allowed to go and what
+lanes and how the traffic lights permitted or do not permit it then you can render speed limits the objects
+result of your perception system you render your current vehicle where it
+believes it is and you render the post history so you you give an image of
+where the agents been in the last for a few steps and so you want and last but
+not least you render the intent so the intent is where you want to go so the conditions on this intent and this input
+you want to predict the future waypoints for this vehicle right so that's the task and you can praise it as a supervised
+learning problem man just learn to learn a policy with this network that
+approximates what you've seen in the world with 60 hours of date course
+learning agents there is a well-known problem it's identified it's called
+paper dagger by Stephane Ross who is actually way more now and Andrew Pannell
+so it's easy to make small errors over time so even though in each step if you do if you could do a relatively good
+estimate if it strings 10 steps together you can end up very different from where agents have been before right and there
+is techniques to handle this right one thing we did is synthesize perturbations so you have a trajectory and we
+synthesize the form the trajectory and force the vehicle to learn to come back to the middle of the way so that's
+something you can do that's reasonable now you know if you just have direct
+imitation based in supervision we are trying to pass the vehicle in the street and it's stopping and never continuing
+so now we did perturbations and well it
+kind of ran through the vehicle right so that's not enough so we need more right
+it's not actually an easy problem so in addition to having this agent RNN which essentially takes the
+past and keeps creates memory of its past decisions and keeps iterating
+predicting multiple points in the future so it predicts the trajectory piecemeal in the future
+how about we also learn about collisions and staying on the road and so on so
+we've meant the network and now the network starts also produce predicting a mask for the road and now we have a loss
+here I don't know if I can point so here you have a road mask loss you say hey if
+you driver generate motions that take outside the road that's probably not good hey if you ever cause collisions
+where your perception network which takes takes the other objects and predicts their motions to predict here
+our motion where the road is in the other agents motion in the future and
+they're trying to make sure there's no collisions in that we stay on the road so you add this structural that adds a lot more constraints to the
+to the system as it trains so it's not just limited but what's it with what it's explicitly seeing it allows it to
+reason about things it has not explicitly seen as well and so now here's an example of us driving with
+this network and it can now it can you can see that we're predicting the future it with the yellow boxes and we're
+driving safely to intersections and complex scenarios actually handles a lot of scenarios very well I if you
+interested I welcome you to go read the paper it handles most of the simple situations fine so now we have our past
+two approaches the passing a parked car one of them stops in every starts the other one hits the car now it actually
+handles it fine and beyond that afterwards we can stop
+at a stop sign happily which is the red line over there and it does all of these operations and what we did beyond this
+is we took the system has learned to an imitation data and we actually draw our real bueno car with it so we took it to
+castle their force base staging grounds and this is it driving a road it's never seen before and stopping at stop signs
+and so so that's all great we could use it as an agent simulation world and we could drive a car with it but it has
+some issues so let's look on the left so here it is driving and then it was
+driving too fast so because our range is limited it didn't know it had to make a turn in it over and the third so it just
+drove off the road that's one thing that can happen so you know when one area of
+improvement more range hears it is another time so yellow is by the way
+what we did in the real world and green is what we do in the simulation in that example and here we're trying to execute
+a complex maneuver a u-turn we're sitting there and we don't try to do it and we almost do it but not quite and at
+least we end up in the driveway and there is that the interactive situations
+when they get really complex this network also does not do too well right and so what does that tell us well long
+tale came again in testing right there's again you can learn the policy for a lot of the common
+situations but actually in testing some of the things you really care about is the long tail you want to test to the
+corner cases you want to test in the scenarios where someone is obnoxious and adversarial and there's something not
+too kosher right so one way to think of
+it is this right this is the distribution of human behavior and of course it goes in multiple axis it could
+be you know aggressive and conservative right and then somewhere in between you
+could be super expert driver is super inexperienced and somewhere in between and so on so like our end-to-end model
+it's fairly it's an ambassador's Entei
+ssin meaning it could in theory learn any policy right I mean if you see everything you want to know about the environment by and large but it's
+complex and this is similar a bit to the models as well some of the models we talked about before you can end up with
+complex model if you have complex input this is images that are 80 by 80 with multiple channels it's a large input
+space the model can have tens of millions of parameters now if you have an example if you have a case where you
+have two or three examples in your whole 60 hours of driving there's no guarantee that your 10 million parameter model
+will learn it well right and so it's really good when you have a lot of examples it's really trying to do well
+in those and then you have the long tail so what do you do well we can improve
+the representation you know we can improve our model this is you know there is a lot of room to to keep evolving
+this and then this area will keep expanding right and that's one good direction there is a lot of interesting
+questions how to do that and we're working on a lot of them is actually some exciting work hopefully I get to share with you another time something
+else you can do if you remember from my slide about the hybrid system when you go to the longtail you can you can do
+essentially a similar thing which is simpler biased expert design input distribution that is much easier to
+learn with few examples you can also of course use expert design models
+and so in this case you still will produce something reasonable by inputting this human knowledge and you
+could have many models I mean there's not one you could just tune to various aspects of this distribution you can
+have little models for all the aspects you care about you can mix and match it so that's another way to do it so let me
+tell you about one such a model so the trajectory optimization agent so we take
+inspiration from a motion control theory and we want to plan a good trajectory
+for the vehicle the agent vehicle and that satisfies a bunch of constraints
+and preferences and so one insight to
+this is that we already know what the agent did in the environment last time so you have fairly strong idea about the
+intent and that helps you when you specify the preferences because you can say okay well I have give me a
+trajectory that minimizes some set of costs which are preferences on the trajectory typically called potentials
+what is the potential well at different parts of the trajectory you can add this attractor potential saying well try to
+go where you used to be before for example and that's the benefit of in simulation you have observed what was
+done so this is a bit simpler and of course you can have repeller potential
+don't hit things don't run into be a cause right so to first approximation that's what the roughly looks like and
+so now where is the learning right well it's still machine learning model there is a presentation these potentials have
+parameters it's the steepness of this of this curve there is sometimes they are
+multi-dimensional right there's there's a few parameters typically we're talking a few dozen parameters or less all right
+and you can learn them too so there is a technique called inverse reinforcement learning
+want to learn these parameters that produce trajectories that come close to the trajectories you've observed in the real world so it see if you pick a bunch
+of trajectories that represent certain type of behavior you want to model the tunia parameters to behave like it then
+you want to generate reasonable trajectories continuous in all feasible that satisfy this right and this is part
+of this optimization you can solve this actually and so then you can tune this agents so here's some agents I want to
+show you so this is a complex interactive scenario to be a course but you can see on the left is on the right
+is the aggressive guy blue is the agent red is our vehicle we're testing in simulation and so let me play one more
+time once the sense essentially on the on the left is the conservative driver on the right is the aggressive driver
+and they pass us and then use very
+different reactions in our vehicle so the aggressive guy went in pastas and pushed us further into that Lane and we
+much much later in the other case when you have a conservative driver we are in front of them and they're not bugging us
+and we execute with much cheerier can switch into the right lane where we want to go all right so this is agents that
+can test your system well now you have different scenarios in this case
+depending what agent you put in and I'll show you a little more scenarios so it's
+not just a - agent game I mean we can do things like merging from one side of the
+highway to the next and this type of agent can generate fairly reasonable
+behaviors it slow slowed down for knowing slow vehicle in front let the vehicles on this side pass you and still completes the mission and you can
+generate multiple futures with this agent so here's an example again on the
+right will be an aggressive guy right and on the left was the more
+conservative person the aggressive guy I found a gap between the two vehicles and just went for it right and you can test
+your stock this way and one more I wanted to show you is is an aggressive motorcycle driving so you can have an
+agent that tests you can test the reaction to motorcycle that they're weaving in the lane right
+so I guess what's my takeaway from this story about testing in the longtail you
+need the Ministry of agents at the moment right so if you think of it right
+and learning from demonstration is key you can encode some simple models by hand but ultimately it's much better the
+task of modeling agent behavior is complex and it's much better learned and so here's the space the models so you
+can have not learned you can just replay the log like a show then you can you can have design trajectories for agents -
+for this reaction do this for that reaction do that then you can have the break and swirl model that mostly
+there's someone in front of an agent just does it deterministic break trajectory optimization which I just
+showed now our mid to mid model and potentially and to end top-down model top-down meaning you have like a top
+view of the environment there's many other representations possible this is a very interesting space ultimately I
+wanted to show you there's many possible agents and they have different utility and they have different number of
+examples you need to train them with and so one other takeaway I wanted to tell you is smart agents are critical photon
+and it's scale this is something I truly believe working in the space and this
+line of direction is exciting and ultimately one of the exciting problems that there's still a lot of interesting
+progress to be made and why well you have accurate models of human behavior
+of drivers and pedestrians and they help achieve several things first you will do better decisions when you drive yourself
+you'll be able to anticipate what others will do better and that will be helpful second you can develop a robust
+simulation environment with those insights also very important third well our vehicle is also one more
+agent in the environment it's an agent we have more control than the others but a lot of this inside supply and so this
+is very exciting and interesting so I wanted to finish the talk just maybe as
+Scaling to dozens and hundreds of cities
+a mental exercise right when you think of a system that is tackling a complex
+AI challenge like self-driving what is the good properties of the system to have and how do you think
+a scalable system and to me there's this mental test right we want to grow and
+handle and you know bring our service to more and more environments more and more cities how do you scale to dozens or
+hundreds of cities so as we talked about the longtail each new environment can
+bring new challenges and they can be complex intersections and cities like Paris
+there's our Lombard Street in San Francisco and from there there's narrow streets in European towns there's all
+kinds as the long tails keep keeps coming as you keep driving your environments in Pittsburgh people drive
+the famous Pittsburgh left they take different precedence than usual the
+local customs of driving of behaving all of this needs to be accounted for as you expand and this makes the system
+potentially more complex or easier harder to turn to all environments right but it's important because ultimately
+that's the only way you can scale so how do you what should the scalable process do so in my mind you let's say have a
+very good sobriety system I mean this very much parallels the factory analogy
+I'm just going to repeat it one more time you take your vehicles we put a bunch of women cars and we drive a long
+time in that environment with drivers maybe 30 days maybe more at least that long
+and you collect all the data right and then your system should be able to
+improve a lot on the data have collected right so drive a bunch obviously don't
+wanna don't want to chain the system too much in the real world while it's driving but you want train it active
+you've collected in data about the environment so it needs to be trainable and collected data it's very important
+for a system to be able to quantify or have a notion to elicit from it whether
+it's incorrect or not confident right because then you can take action and
+this is the important property that I think people should think of when they design systems how they listed this then
+you can take an action you can ask questions to raters that's fairly legit typical active learning is a bit like
+this right so and it's usually based in some amount of low confidence or surprise
+that's the examples you want to to send and even better
+the system could potentially directly update itself and this is an interesting question how those systems update
+themselves in light of new knowledge and we have a system that clearly does this right and typically do it with reasoning
+and what is reasoning right so I have an
+answer it is one answer there's possibly others right but one way is you can
+check and enforce consistency of view beliefs and you can look for explanations of the world that are consistent and see if you have a
+mechanism in the system that can do this this allows the system to improve itself without necessarily being fed purely
+labeled data it can improve yourself from just collected data and I think it's interesting to think of systems
+where you can do reasoning and representations that these models need to have right and last but not least we
+need scalable training and testing infrastructure right this is part of the factory I was talking about I'm very
+lucky to a mode to have wonderful infrastructure and you know it allows this virtuous
+cycle to happen thank you appearance trouble thank you
+Q&A
+so much for the talk really appreciate it so if you were to train off of image and lidar data a synthetic imaging lidar
+data is there would you wait the synthetic data differently than real
+word real-world data when training your models so there's actually a lot of interesting research in the field there
+are people trained on simulator but also trained adaptation models that make
+simulator data look like real data right so you're essentially you're trying to
+build consistency or it leads to training on simulator scenarios but if you learn a mapping from simulator
+scenes to real scenes right you could potentially train on the transformed simulator data already that's
+transforming with other models there's many ways to do this ultimately right so achieving realism in simulator is an
+open research problem right I assume no there is a lot of rules that you have to
+put into a system to mate to be able to trust it you know and so how you find
+the balance between this automatic models that you don't get work when you're not quite sure what does I would
+do and rules were your shows it was but it's not scalable I mean through lots
+and lots of testing and analysis right so you keep you keep keeping track of
+the performance of your models and you see where they come short right and then those are the areas you most need expert
+computing to compliment right but the balance can change over time right and it's a natural process of evolution
+right so evolving your system as you go I mean generally you know the MLP growls
+is the capabilities in the data sets girl right so you stressed at the end of
+both the first half and the second half of your talk the importance of quantifying uncertainty and the
+predictions that your models are making so have you developed techniques for doing
+that with neural nets or are you using some probabilistic graphical models or something so a lot of the models and
+neural nets there's many ways to capture this actually I'm just going to give a
+general answer and not commenting on specifically what way I'll be doing I think first of all there's techniques in
+neural nets that can predict whether they can predict their own uncertainty fairly well right either directly
+regress its uncertainty for certain products or using samples of networks or dropout or techniques like this that
+also provide the measure of uncertainty another way of doing uncertainty is to
+leverage constraints in the environment so if you have temporal sequences right
+you don't want for example objects to appear or disappear or generally
+unreasonable changes and in the environment or inconsistent prediction in your models a good areas to look I'm
+just wondering do you guys train and deploy different models depending on where the car is driving like what city
+or do you train and deploy a single model that adapts to most scenarios well
+ideally you would have a lot of the adapts to most scenarios then you know a complement is needed yeah so first off
+thanks for your talk I find the simulator work really really exciting and I was wondering if you could either
+talk about talk more about or maybe provide some insights into simulating
+pedestrians because as a pedestrian myself I feel like my behaviors a lot less constrained than a vehicle right
+and I imagine you I mean there's an advantage in that you're sensing from a vehicle and you kind of know your
+sensors are like the first person from a vehicle but not from a pedestrian and that's correct I mean so if you want to
+simulate pedestrians far away in an environment right and you want to simulate them as very high-resolution
+writing you've collected log data you may not have the detailed data on that pedestrian right at the same time the
+subtle cues for that pedestrian matter less at that distance as well because it's not like you observed them or
+reacted to them in the first place so there is an interesting question at what fidelity need to simulate things right and there
+is levels of realism in simulation that at some level need to parallel what your
+models are paying attention thank you for the talk it was very interesting since you you know titled and talked
+about it long tail it makes me wonder is the bulk of the problem solved
+do you think well we're gonna have this figured out and within the next couple
+of years there can be self-driving cars everywhere or do you think it's closer to you know actually there could be
+decades before we've really worked out everything necessary what are your
+thoughts about the future it's a bit hard to that's a good question it's a bit hard to give this prognosis I think
+I mean I'm not completely sure I think one thing I would say is it will take a
+while for self-driving cars to roll out at scale right so this is not a
+technology that just determine a crank and appears everywhere right there's logistics and algorithms and all this
+tuning and testing needed to make sure it's really safe in the various environments so it will take some time
+when you were talking about prediction you mentioned looking at a context and saying if a person or if someone is
+looking at us we can assume that they will behave differently than if they're not paying attention to what we're doing potentially is that's something you're
+actively doing do you take into consideration as pedestrians or other participants in traffic are paying
+attention to your vehicles so I can't comment on our model designs too much
+but I think this is generally cues one needs to pay attention to they're very significant I mean you know even when
+people drive for example there's someone sitting in the vehicle next to you waving keep going right in these natural
+interactions in the environment that you know is something you need to think
+about in one of you first of all thank you it's really cool talk in one of your
+last slides you talked about resolving certain uncertainties by the means of
+establishing a set of beliefs and checking to see if they were consist ready that's my own theory by the way
+right but I feel that the concept of reasoning is under explored in deep
+learning and what it means right so if you read for sky Kahneman type 1 type 2
+reasoning we're really good at the instinctive mapping type of tasks right
+so likely some law to meet to maybe high
+level perception of the point but the reasoning part with neural networks right and generally with models that's a
+bit less explored I think it's long term it's fruitful that's my personal opinion
+right I guess the question is going to ask is if you could elaborate on that
+concept in connection with the models you guys are working with I guess that's so they'll to give an example from
+current work right and there's a lot of work on weekly supervised learning sure
+and that's kind of been a big topic in 2018 and there were a lot of really strong papers including by Google brain
+and nearly angular and crew team and so on and essentially if you used to read
+the books about 3d reconstruction in geometry and so on alright there's a
+bunch of rules you can encode geometric expectations about the world so when you have video and when you have 3d outputs
+in your models there is certain amount of consistency one example is ego motion versus depth estimation there is a very
+strong constraint that if you predict the depth and you predict the gue motion correctly then you can reproject certain
+things and they will look good right and that's a very strong constraint that's a consistency and notice about the
+environment the expected this can help train your model right and so more of this type of reasoning may be
+interesting you mentioned expert design algorithms and I was wondering from your
+perspective almost from Wayne was perspective how important are those say
+non machine learning type algorithms or non machine learning type approaches to tackling the challenges of autonomous
+driving could you could you say how important is which aspect of them of expert design algorithms every now and
+then you just you sprinkle it in like here we can try expert design algorithms because we actually understand some
+parts of the problem and I was wondering like what is really important like for the challenges in autonomous driving
+outside of the field of machine learning I mean generally you want the problem is
+you want to be safe in the environment that makes that makes it such that you don't want to make errors in perception
+prediction and planning right and the state of machine learning is not at the
+point where it never makes errors provided the scope that we're currently
+addressing and so throughout your start with the current state of machine learning it needs to be complemented
+right and so we've carefully done it and I think machine learning as it improves
+I think they'll be less and less need to do it it's somewhat effort intensive
+bringing especially in an evolving system to do that to have a hybrid system but right now I think this is the
+main thing that keeps you able to do complex behaviors in some cases for
+which is very hard to collect data and you still need to handle then it's then it's the right thing to do
+right so the way I view a time machine learning personal like I like to doing better and better that's it we're not
+religious it should not be we just need to solve the problem and right now the right mix is a hybrid system is my
+belief we're really excited to see what Wei MO has in store for us in 19 so
+please give drugged-up again [Applause] you
+[Applause]
+you
 
 ----------
 
 -----
+
 --59--
 
 -----
-Date:
-Link:
+Date: 2019.02.07
+Link: [# Kyle Vogt: Cruise Automation | Lex Fridman Podcast #14](https://www.youtube.com/watch?v=YUYagvESisE)
 Transcription:
 
-paste here
+the following is a conversation with convoked he is the president and the CTO of Cruz Automation leading an effort to
+solve one of the biggest robotics challenges of our time vehicle automation he's a co-founder of two
+successful companies twitch and crews that have each sold for a billion dollars and he's a great example of the
+innovative spirit that flourishes in Silicon Valley and now is facing an
+interesting and exciting challenge of matching that spirit with the mass
+production and the safety centric culture of a major automaker like General Motors this conversation is part
+of the MIT artificial general intelligence series and the artificial intelligence podcast if you enjoy it
+please subscribe on youtube itunes or simply connect with me on twitter at Lex
+Friedman spelled Fri D and now here's my conversation with Kyle vote
+grew up in Kansas right yeah and I just saw that picture you had you know there's them a little bit a little bit worried about that yeah so in high
+High School Robotics
+school in Kansas City you joined Shawnee Mission North High School Robotics team
+yeah now that wasn't your high school that's right that was that was the only high school in the area that had a like
+a teacher who was willing to sponsor a FIRST Robotics team I was gonna troll you a little bit jog your mess
+trying to look super cool and intense because you know this was BattleBots it's a serious business so we're standing there with a welded
+steel frame and looking tough so go back there what is that jury to robotics well
+I think I've been trying to figure this out for a while but I've always liked building things with Legos and when I was really really young I wanted the
+Legos I had motors and other things and then you know Lego Mindstorms came out and for the first time you could program
+Lego contraptions and I think things just sort of snowballed from that but I
+remember seeing you know the battle bots TV show on Comedy Central and thinking
+that is the coolest thing in the world I want to be a part of that and not knowing a whole lot about how to build
+these 200-pound fighting robots so I sort of obsessively pored over the
+internet forums where all the creator's for battle bots would sort of hang out and talk about you know document their
+build progress and everything and I think I read I must have read like you
+know tens of thousands of forum posts from from basically everything that was out there on what these people were
+doing and eventually like sort of triangulated how to how to put some of these things together and and ended up
+doing battle bots which was you know I was like 13 or 14 which is pretty awesome I'm not sure if the show is still running but the battle bots is
+Battle Bots
+there's not an artificial intelligence component it's remotely controlled and yeah it's an almost like a mechanical
+generic challenge yeah I think things that can be broken they're radio-controlled so and I think that
+they allowed some limited form of autonomy but you know in a two-minute match you're in and the way these things
+ran you're really doing yourself a disservice by trying to automate it versus just you know do the practical thing which is drive it yourself
+the entertainment aspect just going on YouTube there's like and some of them wield an axe some of them I mean there's
+that fun so what drew you to that aspect it wasn't the mechanical engineering was it the dream to create like Frankenstein
+and sentient being I was just like the Lego you like tinkering with stuff I mean that that was just building
+something I think the the idea of you know this this radio-controlled machine that that can do various things if it
+has like a weapon or something was pretty interesting I agree it doesn't have the same appeal as you know
+autonomous robots which I which I you know sort of gravitated towards later on but it was definitely an engineering challenge because everything you did in
+in that competition was pushing components to their limits so we would
+buy like these $40 DC motors that came out of a winch like on the front of a
+pickup truck or something and we'd power the car with those and we'd run them at like double or triple their rated
+voltage so they immediately start overheating but for that 2-minute match you can get you know a significant
+increase in the power output of those motors before they burn out and so you're doing the same thing for your battery packs all the materials in the
+system and I think there was something something intrinsically interesting about just seeing like where things
+break and did you all fly and see where they break did you take it to the
+Wedges
+testing point like how did you know two minutes or was there a reckless let's just go with it and see we weren't very
+good at BattleBots we lost all of our matches that woody first round like the one I built first both of them were
+these wedge-shaped robots because a wedge even though it's sort of boring to look at is extremely effective you drive towards another robot and the front edge
+of it gets under him and then they sort of flip over kind of like a door stopper and the first one had a pneumatic
+polished stainless steel spike on the front that would shoot out about eight inches the purpose of which is what
+pretty pretty ineffective actually but it looks cool and was it helpful to lift no it was it was just to try to poke
+holes in the other robot and then the second time I did it which is the following I think maybe 18 months later
+we had well a titanium axe with a with a hardened steel tip on it that was
+powered by a hydraulic cylinder which we were activating with liquid co2 which was had
+Software
+its own set of problems so great so that's kind of on the hardware side I mean at a certain point there must have
+been born a fascination on the software side so what was the first piece of coal
+you've written go back there see what language was it what what was that was a
+Emacs vim was it a more respectable modern ID do you remember any of this
+yeah well I remember I think maybe when I was in third or fourth grade school I
+was at elementary school had a bunch of Apple 2 computers and we'd play games on those and I remember every once in a
+while something mood would would crash it wouldn't start up correctly and it would dump you out to what I later
+learned was like sort of a command prompt and my teacher would come over and type actually remember this to this
+day for some reason like PR number six or PR pound six which is peripheral 6 which is the disk drive which would fire
+up the disk and load the program and I just remember thinking wow she's like a hacker like teach me these these codes
+these error codes what I called him at the time but she had no interest in that so it wasn't until I think about fifth
+grade that I had a school where you could actually go on these Apple twos and learn to program and so it's all in
+basic you know where every line you know the line numbers are all number that every line is numbered and you have to
+like leave enough space between the numbers so that if you want to tweak your code you go back and the first line
+was 10 and the second line is 20 now you have to go back and insert and 15 and if you need to add code in front of that
+you know 11 or 12 and you hope you don't run out of line numbers and have to redo the whole thing there's go-to statements yeah go to and
+it's very basic maybe it's a name but a lot of fun and that was like that was
+you know it's fun that's when you know when your first program you see the magic of it it's like it just just like this world opens up with you know
+endless possibilities for the things you could build or or accomplish with that computer so you got the bug then so even
+Programming
+starting with basic and then what C++ throughout what did you it was a computer program in computer science
+classes in high school not not where I went so it was a self-taught but I did a lot of programming the thing that
+you know sort of pushed me in the path of eventually working on self-driving cars is actually one of these really
+long trips driving from my house in Kansas to I think Las Vegas where we did
+the Battle Watts competition and I had just gotten my I think my learner's permit or early driver's permit and so I
+was driving this you know 10 hour stretch across western Kansas where it's just you're going straight on a highway
+and it is mind-numbing ly boring and I remember thinking even then with my sort of mediocre programming background that
+this is something that a computer can do right let's take a picture of the road let's find the yellow lane markers and you know steer the wheel and you know
+later I've come to realize this had been done you know since since the 80s or the 70s or even earlier but I still wanted to do
+it and sort of immediately after that trip switched from sort of BattleBots which is more radio-controlled machines to thinking about building you
+know autonomous vehicles of some scale start off with really small electric ones and then you know progress to what
+Artificial Intelligence
+we're doing now so what was your view of artificial intelligence at that point what did you think so this is uh before
+there's been ways in artificial intelligence right the the current wave with deep learning makes people believe
+that you can solve in a really rich deep way the computer vision perception problem but like in before the deep
+learning craze you know how do you think about how would you even go about building a thing that perceives itself
+in the world local as itself in the world moves around the world like when you were younger and yeah as what was your thinking about it well prior to
+deep neural networks our convolutional neural as these modern techniques we have or at least ones that are in use
+today it was all heuristic space and so like old-school image processing and I think extracting you know yellow lane
+markers out of an image of a road is one of the problems that lends itself
+reasonably well to those heuristic based methods you know like just do a threshold on the color yellow and then
+try to fit some lines to that using a Hough transform or something and then go from there
+traffic like detection and then stop signs detection red yellow green and I think you can you could I mean if you
+wanted to do a full I was just trying to make thing that would stay in between the lanes on a highway but if you wanted to
+do the full the full you know set of capabilities needed for a driverless car
+I think you could and we done this at cruise you know in the very first days you can start off with a really simple
+you know human written heuristic just to get the scaffolding in place for your system traffic light detection probably
+a really simple you know color threshold injustice system up and running before you migrate to you know a deep learning
+based technique or something else and you know back in when I was doing this my first one it was on Pentium 203 233
+megahertz computer in it and I I think I wrote the first version in basic which is like an interpreted language it's
+extremely slow because that's the thing I knew at the time and so there was no no chance at all of using there was no
+computational power to do any sort of reasonable deep nets like you have today
+so I don't know what kids these days are doing our kids these days you know at age 13 using neural networks in their
+garage I mean I also I get emails all the time from you know like 11 12 year
+Deep Learning
+old saying I'm having you know I'm trying to follow this tensorflow tutorial and I'm having this problem
+and their general approach in the deep learning community is of extreme
+optimism of as opposed to you mentioned like heuristics you can you can separate
+the autonomous driving problem into modules and try to solve it sort of rigorously or you just do it end to end and most people just kind of love the
+idea that you know us humans do a tenth and we just perceive and act we should be able to use that do the same kind of
+thing when you're on that's and that that kind of thinking you don't want to criticize that kind of thinking because
+eventually they will be right yeah and so it's exciting and especially when they're younger to explore that is a
+really exciting approach but yeah it's it's changed the the language the kind
+of stuff you turned green with it it's kind of exciting to see when they seniors grow up yeah I can only imagine
+if you if your starting point is you know Python and tensorflow at age 13 where you end up you know after 10 or 15
+years of that that's that's pretty cool because of github because this they're tools for solving most of the
+Entrepreneurship
+major problems and artificial intelligence are within a few lines of code for most kids and that's incredible
+to think about also on the entrepreneurial side and and and at that point was there any thought about
+entrepreneurship before you came to college is sort of doing your building
+this into a thing that impacts the world on the large scale yeah I've always wanted to start a company I think that's
+you know just a cool concept of creating something and exchanging it for value or
+creating value I guess so in high school I was I was so trying to build like you
+know a servo motor drivers little circuit boards and sell them online or other other things like that and
+certainly knew at some point I wanted to do a startup but it wasn't really I'd say until college until I felt like I
+had the I guess the right combination of the environment the smart people around you
+and some free time and a lot of free time at MIT so you came to MIT as an
+DARPA Grand Challenge
+undergrad 2004 that's right and that's when the first DARPA Grand Challenge was
+happening yeah the the timing of that is beautifully poetic so how did you get yourself involved in that one originally
+there wasn't a official entry yeah faculty sponsored thing and so a bunch of undergrads myself included I started
+meeting and got together and tried to haggle together some sponsorships we got a vehicle donated a bunch of sensors and
+tried to put something together and so we had our team was probably mostly freshmen and sophomores you know which
+was not really a fair fair fight against maybe the you know postdoc and
+faculty-led teams from other schools but we we got something up and running we had our vehicle drive by a wire and you
+know very very basic control and things but on the day of the qualifying for pre
+qualifying round the one and only steering motor that we had purchased the
+thing that we had you know retrofitted to turn the steering wheel on the truck died and so our vehicle was just dead in
+the water couldn't steer so we didn't make it very far on the hardware side so was there a software component was there
+AI in Autonomous Vehicles
+like how did your view of autonomous vehicles in terms of artificial intelligence evolve in this moment I
+mean you know like you said from the 80s has been autonomous vehicles but really that was the birth of the modern wave
+the the thing that captivated everyone's imagination that we can actually do this so what how were you captivated in that
+way so how did your view of autonomous vehicles change at that point I'd say at that point in time it was it was a
+the curiosity as in like is this really possible and I think that was generally
+the spirit and the the purpose of that original DARPA Grand Challenge which was
+to just get a whole bunch of really brilliant people exploring the space and
+pushing the limits and and I think like to this day that DARPA challenge with its you know million dollar prize pool
+was probably one of the most effective you know uses of taxpayer money dollar
+for dollar that I've seen you know because that that small sort of
+initiative that DARPA put put out sort of in my view was the catalyst or the
+tipping point for this this whole next wave of autonomous vehicle development so that was pretty cool so let me jump
+DARPA Challenges
+around a little bit on that point they also did the urban challenge where I was in the city but it was very artificial
+and there's no pedestrians and there's very little human involvement except a few professional drivers yeah do you
+think there's room and then there was the Robotics Challenge with humanoid robots right so in your now role is
+looking at this you're trying to solve one of the you know autonomous driving one of the harder more difficult places
+of San Francisco is there a role for DARPA to step in to also kind of help out they challenge with new ideas
+specifically a pedestrians and so on all these kinds of interesting things well I haven't I haven't thought about it from
+that perspective is there anything DARPA could do today to further accelerate things and I would say my instinct is
+that that's maybe not the highest and best use of their resources in time because like kick starting and spinning
+up the flywheel is I think what what they did in this case for a very very little money but today this has become
+this has become like commercially interesting to very large companies and the amount of money going into it and
+the amount of people like going through your class and learning about these things and developing these skills is
+just you know orders of magnitude more than it was back then and so there's enough momentum and inertia and energy
+and investment dollars into this space right now that I don't I don't I think they're I think they're they can just
+say mission accomplished and move on to the next area of technology that that needs help so then stepping back to MIT you left on
+Leaving MIT
+my teaching a junior year what was that decision like as I said I always wanted to do a company in or start a company
+and this opportunity landed in my lap which was a couple guys from Yale we're
+starting a new company and I googled them and found that they had started a company previously and sold it actually
+on eBay for about a quarter million bucks which was a pretty interesting story but so I thought to myself these
+guys are you know rock star entrepreneurs they've done this before they must be driving around in Ferraris
+because they sold their company and you know I thought I could learn a lot from
+them so I teamed up with those guys and you know went out during went out to
+California during IIP which is my tease month off on one on one way ticket and
+basically never went back we were having so much fun we felt like we were building something and creating something and it was going to be
+interesting that you know I was just all in and got completely hooked and that that business was justin.tv which is
+originally a reality show about a guy named Justin which morphed into a live video
+streaming platform which then morphed into what is twitch today so that was
+that was quite a an unexpected journey so no regrets no looking back it was
+No regrets
+just an obvious I mean one-way ticket I mean if we just pause on that for a second there was no how did you know these were
+the right guys this is the right decision you didn't think it was just follow the heart kind of thing well I
+didn't know but you know just trying something for a month during IEP he seems pretty little risk right right and
+then you know well maybe I'll take a semester off and my teas pretty flexible about that you can always go back right
+and then after two or three cycles of that I eventually threw in the towel but you know I think it's
+I guess in that case I felt like I could always hit the undo button if I had to right but it never lasts from from when
+Brave decision
+you look in retrospect I mean it seems like a brave decision that you know it's difficult it would be difficult for a
+lot of people to make it wasn't as popular I'd say that the general you know flux of people out of MIT at the
+time was mostly into you know financier consulting jobs in Boston or New York and very few people were going to
+California to start companies but today I'd say that's it's probably inverted which is just a sign of a sign of the
+times I guess yeah so there's a story about midnight of March 18 2007 where whether we're
+Failure
+TechCrunch I guess and I was just in TV earlier than was supposed to a few hours
+the site didn't work I don't know if any of this is true you can tell me and I you and one of the folks adjusted to e
+I'm a shear coated through the night can you take me through that experience so
+let me let me say a few nice things that the article I read quoted Justin Kahn
+said that you were known for mural coding through problems and being a creative quote creative genius so on
+that night what was going through your head or maybe I put another way how do
+you solve these problems what's your approach to solving these kinds of problems were the line between success
+and failure seems to be pretty thin that's a good question well first of all that's that's a nice of Justin to say
+that I think you know I would have been maybe twenty-one years old then and not very experienced at programming but as
+with with everything in a start-up you're sort of racing against the clock
+and so our plan was the second we had this live streaming camera backpack up
+and running where Justin could wear it and no matter where he went in a city it would be streaming live video and this is even before the iPhones this is like
+hard to do back then we would launch and so we thought we were there and and the
+backpack was working and then we sent out all the emails to launch the launch the company and do the press thing and
+then you know we weren't quite actually there and then we thought oh well you
+know they're not going to announce it until maybe 10 a.m. the next morning and it's I don't know it's 5 p.m. now so how
+many hours do we have left what is that like you have 17 hours to go and and and
+that was that was gonna be fine was the problem obvious did you understand what could possibly like how complicated was
+the system at that point it was it was pretty messy so to get a live video feed
+that looked decent working from anywhere in San Francisco I put together the
+system where we had like three or four cell phone data modems and they were like we take the video stream and you
+know sort of spray it across these three or four modems and then try to catch all the packets on the other side you know
+with unreliable cell phone networks pretty low level networking yeah and and putting his like you know sort of
+protocols on top of all that to reassemble and reorder the packets and have time buffers and error correction
+and all that kind of stuff and the night before it was just staticky every once
+in while the image would would go staticky and there would be this horrible like screeching audio noise
+because the audio was also corrupted and this would happen like every five to ten minutes or so and it was a really you
+know off-putting to the viewers how do you tackle that problem what was the just freaking out behind a computer
+there's the word are there other other folks working on this problem like we behind a whiteboard were you doing uh
+yes a little hair coding it has a little only because there's four of us working
+on the company and only two people really wrote code and Emmett wrote the website in the chat system and I wrote
+the software for this video streaming device and video server and so I you
+know it's my sole responsibility to figure that out yeah and I think I think it's those you know setting setting
+deadlines trying to move quickly and everything where you're in that moment of intense pressure that sometimes people do their best and most
+interesting work and so even though that was a terrible moment I look back on it fondly because that's like you know that's one of those character defining
+moments I think so in 2013 October you founded cruise
+Cruise Automation
+automation yeah so progressing forward another exception successful company was
+acquired by GM in 16 for 1 billion dollars but in October 2013 what was on
+your mind what was the plan how does one seriously start to tackle one of the
+hardest robotics most important impact for robotics problems of our age after going through
+twitch twitch was was and it is today pretty successful but the the work was
+the result was entertainment mostly like the the better the product was the more we would entertain people and then you
+know make money on them ad revenues and other things and that was that was a good thing it felt felt good to entertain people but I figured like you
+know what is really the point of becoming a really good engineer and developing these skills other than you
+know my own enjoyment and I realized I wanted something that scratched more of an existential itch like something that that truly matters and so I basically
+made this list of requirements for a new if I was going to do another company and
+the one thing I knew in the back of my head that twitch took like eight years to become successful and so whatever I
+do I better be willing to commit you know at least ten years to something and when you think about things from that
+perspective you certainly I think raised the bar on weight you choose to work on so for me
+the three things where it had to be something where the technology itself determines the success of the product
+like hard really juicy technology problems because that's what motivates me and then it had to have a direct and
+positive impact on society in some way so an example would be like you know healthcare self-driving cars because
+they save lives other things where there's a clear connection to somehow improving other people's lives and the last one is it had to be a big business
+because for the positive impact to matter it's got to be a large scale scale yeah and I was thinking about that
+for a while and I made like I tried writing a gmail clone and looked at some other ideas and then it just sort of
+light bulb went off like self-driving cars like that was the most fun I had ever had in college working on that and
+like well what's the state of the technology has been ten years maybe maybe times have changed and maybe now
+is the time to make this work and I poked around and looked at the only other thing out there really at the time
+was the Google self-driving car project and I thought surely there's a way to you know have an entrepreneur mindset
+and sort of solve the Minimum Viable Product here and so I just took the plunge right then in there and said this this is something I know I can commit
+ten years to it's the probably the greatest applied AI problem of our generation it's right and if it works
+it's going to be both a huge business and therefore like probably the most positive impact I can possibly have on
+the world so after that light bulb went off I went all in on crews immediately
+and got to work did you have an idea how to solve this problem which aspect of the problem to solve you know slow like
+How to solve the problem
+what we just had Oliver for voyage here slow-moving retirement communities urban driving highway driving did you have
+like did you have a vision of the city of the future or you know the
+transportation is largely automated that kind of thing or was it sort of more
+fuzzy and gray area than that my analysis of the situation is that Google
+is putting a lot it had been putting a lot of money into that project that a lot more resources and so
+and they still hadn't cracked the fully driverless car you know this is 20 2013
+I guess so I thought what what can I do to sort of go from zero to you know
+significant scale so I can actually solve the real problem which is the driverless cars and I thought here's the
+strategy we'll start by doing a really simple problem or solving a really simple problem that creates value for
+people so eventually ended up deciding on automating highway driving which is relatively more straightforward as long
+as there's a backup driver there and I'll you know the go-to-market will be able retrofit people's cars and just
+sell these products directly and the idea was we'll take all the revenue and profits from that and use it to do the
+social reinvest that in research for doing fully fabulous cars and that was
+the plan the only thing that really changed along the way between then and now is we never really launched the first product we had
+enough interest from investors in enough of a signal that this was something that we should be working on that after about
+a year of working on the highway autopilot we had it working you know on a prototype stage but we just completely
+abandoned that and said we're gonna go all in on driverless cars now is the time can't think of anything that's more
+exciting and if it works more impactful so we're just gonna go for it the idea of retrofit is kind of interesting yeah
+Retrofit
+being able to it's how you achieve scale it's a really interesting idea is it's something that's still in the in the
+back of your mind as a possibility not at all I've come full circle on that one
+trying to build a retrofit product and I'll touch on some of the complexities of that and then also having been inside
+in OEM and seeing how things work and how a vehicle is developed and validated when it comes to something that has
+safety critical implications like controlling the steering and the other control inputs on your car it's pretty
+hard to get there with with a retrofit or if you did even if you did it it
+creates a whole bunch of new complications around liability or how did you truly validate that or you know
+something in the base vehicle fails and causes your system to fail whose fault is it
+or if the cars anti-lock brake systems or other things kick in or the software has been it's different in one version
+of the car you retrofit versus another and you don't know because the manufacturer has updated it behind the scenes there's basically an infinite
+list of longtail issues that can get you and if you're dealing with a safety critical product that's not really acceptable that's a really convincing
+summary of why it's really challenging but I didn't at the time so we tried it anyway but it's a pitch also at the time
+it's a really strong one yes that's how you achieve scale and that's how you beat the current the the leader at the
+time of Google or the only one in the market the other big problem we ran into which is perhaps the biggest problem
+from a business model perspective is we had kind of assumed that we'd we started
+with an Audi s4 as the vehicle we retrofitted with his highway driving capability and we had kind of assumed
+that if we just knock out like three make and models of vehicle that'll cover like eighty percent of a San Francisco
+market doesn't everyone there drive I don't know a BMW or a Honda Civic or one of these three cars and then we surveyed
+our users we found out that it's all over the place we would to get even a decent number of units sold we'd have to
+support like you know 20 or 50 different models and each one is a little butterfly that takes time and effort to
+maintain you know that retrofit integration and custom hardware and all this so is it there's a tough business
+so GM manufactures and sells over nine million cars a year and what you with
+Detroit vs Silicon Valley
+crews are trying to do some of the most cutting-edge innovation in terms of
+applying AI and so hot out of those you've talked about a little bit before but it's also just fascinating to me
+we'll work a lot of automakers you know the difference between the gap between Detroit and Silicon Valley
+let's say just to be sort of poetic about it I guess what how do you close that gap how do you take GM into the
+future where a large part of the fleet would be autonomous perhaps I want to start by acknowledging that that GM is
+made up of you know tens of thousands of really brilliant motivated people who want to be a part of the future and so
+it's pretty fun to work within the attitude inside a car company like that is you know embracing this this
+transformation and change rather than fearing it and I think that's a testament to the leadership at GM and that's flown all
+the way through to to everyone you talk to even the people in this in blue plants working on these cars so that's
+really great so that starting from that position makes a lot easier so then when
+the the people in San Francisco at Cruz interact with the people at GM at least we have this common set of values which
+is that we really want this stuff to work because we think it's important and we think it's the future
+not to say you know those two cultures don't clash they absolutely do there's different different sort of value
+systems like in a car company the thing that gets you promoted and so the reward system is following the processes
+delivering the the program on-time and on-budget so any sort of risk-taking is
+discouraged in many ways because if a program is late or if you shut down the
+plant for a day it's you know you can count the millions of dollars that burn by pretty quickly whereas I think you
+know most Silicon Valley companies and crews in the methodology we were
+employing especially around the time of the acquisition the reward structure is about trying to solve these complex
+problems in any way shape or form or coming up with crazy ideas that you know 90% of them won't work and and so so
+meshing that culture of sort of continuous improvement and experimentation with one where everything needs to be you know
+rigorously defined upfront so that you never slip a deadline or miss a budget was a pretty big challenge and that
+we're over three years in now after the acquisition and I'd say like you know
+the investment we made in figuring out how to work together successfully and who should do what and how we bridge the
+gaps between these very different systems and way of doing engineering work is now one of our greatest assets because I think we have this really
+powerful thing but for a while it was both both GM and crews were very steep on the learning curve yes I'm sure it
+The culture gap
+was very stressful it's really important work because that's that's how to revolutionize the transportation it
+really to revolutionize any system you know you look at the healthcare system or you look at the legal system I have
+people like lawyers come up to me all the time like everything they're working on can easily be automated but then
+that's not a good feeling yeah that was it's not a good feeling but also there's no way to automate because the the the
+entire infrastructure is really you know based is older and it moves very slowly
+and so how do you close the gap between I haven't how can I replace of course
+lawyers don't wanna be replaced with an app but you could replace a lot of aspect when most of the data is still on
+paper and so the same thing was with automotive I mean it's fundamentally
+software so it's is basically hiring software engineers it's thinking a software world I mean I'm pretty sure
+nobody in Silicon Valley's ever hit a deadline so and then it's probably true
+yeah and GSI is probably the opposite yeah so that's that culture gap is really fascinating so you're optimistic
+about the future of that yeah I mean from what I've seen it's impressive and I think like especially in Silicon
+Valley it's easy to write off building cars because you know people have been doing that for over a hundred years now
+in this country and so it seems like that's a solved problem but that doesn't mean it's an easy problem and I think it
+would be easy to sort of overlook that and think that you know we're Silicon
+Valley engineers we can solve any problem you know building a car it's been done therefore it's you know it's
+it's it's not it's not a real engineering challenge but after having seen just the sheer scale and magnitude
+and industrialization that occurs inside of an automotive assembly plant that is
+a lot of work that I am very glad that we don't have to reinvent to make self-driving cars work and so to have
+you know partners who have done that for a hundred years now these great processes and this huge infrastructure and supply base that we can tap into is
+just remarkable because the scope in surface area of the problem of deploying
+fleets of self-driving cars is so large that we're constantly looking for ways to do less so we can focus on the things
+that really matter more and if we had to figure out how to build an assemble in
+you know test and build the cars themselves I mean we work closely with Jim on that but if we had to develop all
+that capability in-house as well you know that that would just make make the
+problem really intractable I think mmm so yeah just like your first entry mit
+The biggest opportunity to make money
+DARPA challenge when there was what the motor that failed and somebody that knows what they're doing with the motor did it that would have been nice if you
+focus on the software and not the hardware platform yeah right so from your perspective now you know there's so
+many ways that autonomous vehicles can impact Society in the next year five years ten years what do you think is the
+biggest opportunity to make money in autonomous driving sort of make it a
+financially viable thing in the near-term what do you think would be the biggest impact there well the things
+that that drive the economics for fleets of self-driving cars or they're sort of a handful of variables one is you know
+the cost to build the vehicle itself so the material cost how many you know what's the cost of all your sensors plus
+the cost of the vehicle and every all the other components on it another one is the lifetime of the vehicle it's very
+different if your vehicle drives one hundred thousand miles and then it falls apart versus you know two million
+and then you know if you have a fleet it's kind of like an airplane where or
+airline where once you produce the vehicle you want it to be in operation
+as many hours a day as possible producing revenue and then a you know the other piece of that is how are you
+generating revenue I think that's kind what you're asking and I think the obvious things today are you know the ride-sharing business because that's
+pretty clear that there's demand for that there's existing markets you can tap into and larger urban areas that
+kind of thing yeah yeah and and and I think that there are some real benefits to having cars without drivers compared
+to through the status quo for people who use ride share services today you know you get privacy consistency
+hopefully significant improve safety all these benefits versus the current product but it's it's a crowded market
+and then other opportunities which you've seen a lot of activity in the last really in last six to twelve months is you know delivery whether that's
+parcels and packages food or or groceries those are all sort of I think
+opportunities that are that are pretty ripe for these you know once you have this core technology which is the fleet
+of autonomous vehicles there's all sorts of different business opportunities you can build on top of that but I think the
+important thing of course is that there's zero monetization opportunity until you actually have that fleet of
+very capable driverless cars that are that are as good or better than humans and that's sort of where the entire
+industry is sort of in this holding pattern right now yeah the trend achieved that baseline so but you said sort of rely not reliability consistency
+Personality of the car
+it's kind of interesting I think I heard you say somewhere I'm not sure if that's what you meant but you know I can
+imagine a situation where you would get an autonomous vehicle and you know when
+you get into an uber or lyft you don't get to choose the driver in a sense that you don't get to choose the personality of the driving do you think
+there's a there's room to define the personality of the car the way drives
+you in terms of aggressiveness for example in terms of sort of pushing the
+bomb the one of the biggest challenges in Toms driving is the is a trade-off between sort of safety and
+and do you think there's any room for the human to take a role in that
+decision to accept the liability I guess we III wouldn't it no I'd say within
+reasonable bounds as in we're not gonna I think it'd be highly unlikely we did expose any nob that would let you you
+know significantly increase safety risk I think that's that's just not something
+we'd be willing to do but I think driving style or like you know are you
+gonna relax the comfort constraints slightly or things like that all of those things make sense and are plausible I see all those is you know
+nice optimizations once again we get the core problem solved and these fleets out there but the other thing we've sort of
+observed is that you have this intuition that if you sort of slam your foot on
+the gas right after the light turns green and aggressively accelerate you're gonna get there faster but the actual
+impact of doing that is pretty small you feel like you're getting there faster but so that so the same would be true
+for ABS even if they don't slam there you know the pedal to the floor when the light turns green they're gonna get you
+they're within you know if it's a 15-minute trip within 30 seconds of what you would have done otherwise if you were going really aggressively so I
+think there's this sort of self-deception that that my aggressive driving style is getting me there faster
+well so that's you know some of the things I study some things I'm fascinated by the psychology of that I don't think it matters that it doesn't
+Emotional release
+get you there faster it's it's the emotional release driving is is a place
+being inside or a car somebody said it's like the real world version of being a troll so you have this protection this
+mental protection you're able to sort of yell at the world like release your anger whatever is but so there's an element of that that I think autonomous
+vehicles would also have to you know have giving an outlet to people but it doesn't have to be through through
+through driving or honking or so on there might be other outlets but I think to just sort of even just put that aside
+the baseline is really you know that's the focus that's the thing you need to solve and then the fun human things can
+be solved after but so from the baseline of just solving autonomous driving and
+you're working in San Francisco one of the more difficult cities to operate in what what is what is the any of you currently
+the hardest aspect of autonomous driving and negotiated with pedestrians is that
+edge cases of perception is it planning is there a mechanical engineering is it
+data fleet stuff like what are your thoughts on the challenge the more challenging
+aspects there that's a good that's a good question I think before before we go to that though I just wanted I like what you said about the psychology
+aspect of this because I think one observation I made is I think I read somewhere that I think it's maybe
+Americans on average spend you know over an hour a day on social media like staring at Facebook and so that's just
+you know 60 minutes of your life you're not getting back and it's probably not super productive and so that's 3,600
+seconds right and that's that's time you know it's a lot of time you're giving up
+and if you compare that to people being on the road if another vehicle whether
+it's a human driver or autonomous vehicle delays them by even three seconds they're laying in on the horn
+you know even though that's that's you know one one thousandth of the time they waste looking at Facebook every day so
+there's there's definitely some you know psychology aspects of this I think that are pre interesting road rage in general
+and then the question of course is if everyone is in self-driving cars do they even notice these three-second delays
+anymore because they're doing other things or reading or working or just talking to each other so it'll be
+interesting to see where that goes in a certain aspect people people need to be distracted by something entertaining something useful inside the
+car so they don't pay attention to the external world and then and then and it can take whatever psychology and bring
+it back to Twitter and then focus on that as opposed to sort of interacting
+sort of putting the emotion out there into the world so it's a it's an interesting problem but baseline
+autonomy I guess you could say self-driving cars you know at scale will lower the collective blood pressure of
+society probably by a couple points yeah without all that road rage and stress so that's a good good externality so back
+to your question about the technology in the the I guess the biggest problems and
+I have a hard time answering that question because you know we've been at this like specifically focusing on driverless
+cars and all the technology needed to enable that for a little over four and a half years now and even a year or two in
+I felt like we had completed the functionality needed to
+get someone from point A to point B as in if we need to do a left turn maneuver or if we need to drive around a you know
+a double parked vehicle into oncoming traffic or navigate through construction zones the the scaffolding and the building
+blocks where it was there pretty early on and so the challenge is not any one scenario or situation for which you know
+we fail at 100% of those it's more you know we're benchmarking against a pretty
+good or pretty high standard which is human driving all things considered humans are excellent at handling the
+edge cases and unexpected scenarios whereas computers the opposite and so beating that that baseline set by humans
+is the challenge and so what we've been doing for quite some time now is basically
+it's this continuous improvement process where we find sort of the the most you know uncomfortable or the things that
+that could lead to a safety issue other things all these events and then we sort
+of categorize them and rework parts of our system to make incremental improvements and do that over and over
+and over again and we just see sort of the overall performance of the system you know actually increasing in a pretty
+steady clip but there's no one thing there's actually like thousands of little things and just like polishing
+functionality and making sure that it handles you know every version impossible permutation of a situation by
+either applying more deep learning systems or just by you know adding more
+tests coverage or new scenarios that that we develop against and just grinding on that it's we're sort of in
+the the unsexy phase of development right now which is doing the real engineering work that it takes to go
+from prototype to production you're basically scaling the the grinding so has sort of taking seriously
+that the process of all those edge cases both with human experts and machine
+learning methods to cover to cover all those situations yeah and the exciting
+thing for me is I don't think that grinding ever stops right because there's a moment in time where you you
+cross that threshold of human performance and become superhuman but
+there's no reason there's no first principles reason that AV capability will tap out anywhere near humans like
+there's no reason it couldn't be 20 times better whether that's you know just better driving or safer driving a
+more comfortable driving or even a thousand times better given enough time and we intend to basically chase that
+you know forever to build the best possible product better and better and better and always new educators come up
+Autonomous Vehicles
+and you experiences so and you want to automate that process as much as possible mhm so what do you think in
+general in society when do you think we may have hundreds of thousands of fully autonomous vehicles driving around so
+first of all predictions nobody knows the future you're a part of the leading people trying to define that future but
+even then you still don't know but if you think about a hundreds of thousands of heat
+so a significant fraction of vehicles in major cities are autonomous do you think
+I would Rodney Brooks who is 2050 and beyond are you more with Elon Musk who
+is we should have had that two years ago well I mean I don't want me to have it
+two years ago but we're not there yet so I guess the the way I would think about that is let's let's flip that question
+around so what would prevent you to reach hundreds of thousands of vehicles and that's a goodness a good rephrasing
+yeah so the I'd say the it seems the consensus
+among the people developing self-driving cars today is to sort of start with some form
+of an easier environment whether it means you know lacking inclement weather or you know mostly sunny or whatever it
+is and then add add capability for more complex situations over time and so if
+you're only able to deploy in areas that that meet sort of your criteria or that
+the current domain you know operating domain of the software you developed that may put a cap on how many cities you could deploy in
+but then as those restrictions start to fall away like maybe you add you know capability to drive really well and and
+safely in heavy rain or snow you know that that probably opens up the market by - two or three fold in terms of the
+cities you can expand into and so on and so the real question is you know I I know today if we wanted to we could
+produce that that many autonomous vehicles but we wouldn't be able to make use of all of them yet because we would
+sort of saturate the demand in the cities in which we would want to operate initially so if I were to guess like
+what the timeline is for those things falling away and reaching hundreds of thousands of vehicles maybe a range is
+but I would I would say less than five years that's in five years yeah and of course you're working hard to make that
+Building a Successful Startup
+happen so you started two companies that were eventually acquired for each for a
+billion dollars so you're pretty good person to ask what does it take to build a successful startup mmm-hmm I think
+there's there sort of survivor bias here a little bit but I can try to find some common threads for the the things that
+worked for me which is you know in in both of these companies
+it was really passionate about the core technology I actually like you know lay awake at night thinking about these problems and how to solve them and I
+think that's helpful because when you start a business there are like to this day they're they're these crazy ups and
+downs like one day you think the business is just on you're just on top of the world and unstoppable and the next day you think okay this is all
+gonna and you know it's it's just it's just going south and it's gonna be over tomorrow and and so I think like having
+a true passion that you can fall back on and knowing that you would be doing it even if you weren't getting paid for it helps you whether those those tough
+times so that's one thing I think the other one is really good people so I've always been
+surrounded by really good co-founders that are logical thinkers are always pushing their limits and have very high
+levels of integrity so that's Dan Khan in my current company and actually his brother and a couple other guys for
+Justin TV and twitch and then I think the last thing is just uh I guess persistence or
+perseverance like and and that that can apply to sticking to sort of a or having
+conviction around the original premise of your idea and and sticking around to do all the you know the unsexy work to
+actually make it come to fruition including dealing with you know whatever
+it is that that you're not passionate about whether that's finance or or HR or or operations or those things as long as
+you are grinding away in working towards you know that North Star for your business whatever it is and you don't
+give up and you're making progress every day it seems like eventually you'll end up in a good place and the only things
+that can slow you down are you know running out of money or I suppose your competitors destroying you but I think most of the time it's people giving up
+or or somehow destroying things themselves rather than being beaten by their competition or running out of money yeah if you never quit eventually
+Y Combinator vs VC Route
+you'll arrive so working size version of what I was trying to say yeah so you want the Y
+Combinator out twice yeah what do you think in a quick question do you think is the best way to raise funds in the
+early days or not just funds but just community develop your idea and so on
+can you do it solo or maybe with a co-founder with like self-funded do you
+think Y Combinator is good it's good to do VC route is there no right answer was there for the Y Combinator experience
+something that you could take away that that was the right path to take there's no one-size-fits-all answer but if your
+ambition I think is to you know see how big you can make something or or or
+rapidly expand and capture market or solve a problem or whatever it is then
+then you know going to venture back route is probably a good approach so that so that capital doesn't become your
+primary constraint Y Combinator I love because it puts you in this sort of
+competitive environment while you're where you're surrounded by you know the top maybe one percent of other really
+highly motivated you know peers who are in the same same place and that that
+environment I think just breeds breed success right if you're surrounded by really brilliant hard-working people
+you're gonna feel you know sort of compelled or inspired to try to emulate them and/or beat them and so even though
+I had done it once before and I felt like yeah I'm pretty self-motivated I thought like I look this is gonna be a
+hard problem I can use all the help I can get so surrounding myself with other entrepreneurs is gonna make me work a
+little bit harder or push a little harder than it's worth it when Saba white why I did it you know for example
+a second time let's let's go philosophical existential if you'd go back and do something differently in
+Philosophical existential
+your life starting in high school than MIT leaving MIT you could have gone the
+PG route doing startup I'm gonna see about a start-up in California and youth
+or maybe some aspects of fundraising is there something you'll regret something you need not necessarily grab
+but if you go back it could do differently I think I've made a lot of mistakes like you know pretty much
+everything you can screw up I think I've screwed up at least once but I you know I don't regret those things I think it's
+hard to hard to look back on things even if they didn't go well and call it a regret because hopefully took away some
+new knowledge or learning from that so
+I would say there was a period yeah the closest I can I can come to us is there's a period in in justin.tv I think
+after seven years where that the company was going one direction
+which is sorts twitch in video gaming and I'm not a video gamer I don't really even use twitch at all and I was still
+working on the core technology there but my heart was no longer in it because the business that we were creating was not
+something that I was personally passionate about it didn't meet your bar of existential impact yeah and I'd say
+III probably spent an extra year or two working on that and and I'd say like I
+would have just tried to do something different sooner because those are those were two years where I felt like
+you know from this philosophical or existential thing I I just I just felt something was missing and so I would
+have I would have if I could look back now and tell myself it's like I would have said exactly that like you're not getting any meaning out of your work
+personally right now you should you should find a way to change that and that's part of the pitch I use to
+basically everyone who joins crews today it's like hey you've got that now by coming here well maybe you needed the two years of
+What does 2019 hold for Crew
+that existential dread to develop the feeling that ultimately was the fire that created crews so you never know you
+can be good theory yeah so last question what does 2019 hold for crews after this
+I guess we're gonna go and I'll talk to your class but one of the big things is going from prototype to production for
+autonomous cars and what does that mean once that look like in 2019 for us is the year that we try to cross over that
+threshold and reach you know superhuman level of performance to some degree with the software and have all the other of the thousands of
+little building blocks in place to launch you know our first commercial
+product so that's that's what's in score for us are in store for us and we've got a lot of work to do we've got a lot of
+brilliant people working on it so it's it's all up to us now yeah from Charlie
+Miller and Chris fells like the people I have crossed paths with if you know it sounds like you have an amazing team so
+I'm like I said it's one of the most I think one of the most important problems in artificial intelligence of the
+century you'll be one of the most defining the super exciting that you work on it and the best of luck in 2019
+I'm really excited to see what Cruz comes up with thank you thanks for having me today nice call
+you
 
 ----------
 
 -----
+
 --58--
 
 -----
-Date:
-Link:
+Date: 2019.02.01
+Link: [# Self-Driving Cars: State of the Art (2019)](https://www.youtube.com/watch?v=sRxaMDDMWQQ)
 Transcription:
 
-paste here
+
+Introduction
+- Today I'd like to talk about the state of the art of autonomous vehicles, how I see the landscape, how others see the landscape,
+what we're all excited about, ways to solve the problem and what to look forward to in 2019
+as we also get to hear from the different perspectives and the various leaders in industry and autonomous vehicles
+in the next few, next couple of weeks and next few days. So the problem, the mission, the dream,
+the thing that we're trying to solve for many it may be about entrepreneurial possibilities
+of making money and so on. But really it's about improving access to mobility,
+moving people around in the world that don't have that ability, whether it has to do with age
+or purely access of where you live. We want to increase the efficiency of how people move about.
+The ability to be productive in the time we spend in traffic and transportation.
+One of the most hated things in terms of stress, emotion, the thing in our lives that if we could just
+with a snap of a finger remove is traffic. So the ability to convert that into efficiency,
+into a productive aspect, into a positive aspect of life and really the most important thing at least for me
+and for many of us working in the space, is to save lives, prevent crashes that lead to injuries,
+prevent crash that will lead to fatalities. Here's a counter. Every 23 seconds somebody in the world dies
+in a car, auto crash. It should be a sobering, it is for me,
+thing that I think about every single day. You go to bed, you wake up, you work on all the deep learning levels,
+all the different papers are publishing, everything we're trying to push forward is really to save lives at the beginning and at the end
+that is the main goal. So with that groundwork, with that idea, with that base,
+2018 in review
+the mission that we're all working towards from the different ideas and different perspectives,
+I would like to review what happened in 2018. So first, Waymo has done incredible work
+in deploying and testing their vehicles in various domains and having October reached the mark
+of 10 million miles, German autonomously which is an incredible accomplishment. It's truly a big step for fully autonomous vehicles
+in terms of deployment and obviously is growing and growing by day.
+And we'll have Drago here from Waymo to talk about their work there. Then on the L2 on the semi-autonomous side,
+that's the pair, that's the mirror side of this equation. The other incredible number,
+that's perhaps less talked about, is the one billion mile mark reached by Tesla
+in the semi autonomous driving of autopilot. Now autopilot is a system that's able to control
+its position in the lane, center itself in the lane, it's able to control the longitudinal movement so not follow a vehicle
+when there's a vehicle in front and so on. But the degree of its ability to do so is the critical thing here,
+is the ability to do so for many minutes at a time even hours at a time especially on highway driving.
+That's the critical thing. And the fact that they've reached one billion with a B miles is an incredible accomplishment.
+All of that from the machine learning perspective is data. That's data. And all of the autopilot models are driven
+with the primary sensor being a camera, that's computer vision.
+Now how does computer vision work in modern day, especially with the second iteration of auto pilot hardware
+there's a neural network. There's a set of neural networks behind it. That's super exciting. That is probably the largest deployment
+of neural networks in the world that has a direct impact
+on a human life, that's able to decide, that's able to make life critical decisions
+many times a second over and over. That's incredible. You go from the step of image classification on ImageNet
+and you sit there with a tensor flow and you're very happy there. You were able to achieve a 99.3 accuracy
+with a state of the art algorithm. You take from that a step towards there's a human life,
+your parents driving, your grandparents driving this,
+your children driving the system and there's a neural network making the decision of whether they'll live.
+So that one billion mark is an incredible accomplishment. And on the sobering side and from various perspectives,
+Fatalities
+the fatalities, there's been two fatalities that happened in March of 2018. One in the fully autonomous side of things
+with Uber in Tempe, Arizona, hitting a pedestrian
+and leading to a pedestrian fatality. And on the semi-autonomous side with Tesla Autopilot,
+the third fatality that Tesla Autopilot led to and the one in 2018 is in Mountain View, California
+when Tesla slammed into a divider killing his driver.
+Now the two aspects here that are sobering and really important to think about as we talk about the progression of autonomous vehicles,
+proliferation in our world is our response as a public, is from the general public to the engineers
+to the media and so on, how we think about these fatalities. And obviously there's a disproportionate amount
+of attention given to these fatalities. And that's something as engineers you have to also think about,
+that the bar is much higher on every level in terms of performance. So in order to success, as I'll argue,
+in order to design successful autonomous vehicles those vehicles will have to take risks.
+And when the risks don't pan out, the public, if the public doesn't understand,
+the general problem that we're tackling, the goal of the mission, that those risks when they don't,
+the risks that are taken can have significant detrimental effect
+to the progress in this autonomous vehicle space. So that's something we really have to think about. That's our role as engineers and so on.
+Question, yeah. So the question was, do we know the the rate of fatalities per mile of vehicle driven
+which is at the crudest level how people think about safety. So there's about 80, 90, 100 million miles driven
+in manually controlled cars at every fatality. So one fatality per, depending on which numbers you look at,
+it's 80 to 100 million miles. In the Tesla vehicle, for example,
+the fatality is well we could just take the one billion and divided it by three.
+Now this, it's apples and oranges in comparison and that's something actually that we're working on to make sure
+that we compare it correctly. Compare the aspects of manual miles
+that directly are comparable to the autopilot miles. So Autopilot is a modern vehicle that's much safer.
+Tesla is a modern vehicle that's much safer than the general population of manually driven vehicles.
+Autopilot is driven on only a particular kinds of roads on the highway primarily, most of the miles.
+The kinds of people that drive Autopilot, all these kinds of factors need to be considered when you compare the two.
+But when you just look at the numbers, Tesla Autopilot's three times safer than manually driven vehicles.
+But that's not the right way to look at it. And for anyone that's ever taken a statistics class,
+three fatalities is not, does not, it's not a large number
+by which to make any significant conclusions.
+Nevertheless, that doesn't stop the media, the New York Times and everybody from responding to a single fatality,
+which PR and marketing aspects of these different companies are very sensitive to,
+which is of course troubling and concerning for an engineer that wants to save lives. But it's something that we have to think about.
+Okay, 2018 in review continued. There's been a lot of announcements
+Taxi services
+or rather actual launches of public testing of autonomous taxi services.
+So companies that on public roads have been delivering
+real people from one location to another. Now there's a lot of caveats. In many of these cases it's very small scale,
+just a few vehicles, in most cases it's very low speed, in a constrained environment,
+in a constrained community and almost always, really always, with a safety driver.
+There's a few exceptions for demonstration purposes but there's always an actual driver in the seat.
+Some of the brilliant folks representing these companies will speak in this course is Voyage doing it in an isolated community,
+awesome work they're doing in villages in Florida, Optimus Ride here in Boston doing
+and the community in Union Point, Drive.ai in Texas, May Mobility expanding beyond Detroit
+but really most operation's in Detroit, Waymo has launched its service. Waymo one that's gotten some publicity in Phoenix, Arizona.
+That Nuro doing zero occupancy deliveries of groceries autonomously.
+So we didn't say has to be delivering humans, it's delivering groceries autonomously. Uber is quietly, or not so quietly,
+resumed its autonomous vehicle taxi service testing in Pittsburgh in a very careful constrained way.
+Aptiv, after acquiring Carl Iagnemma and nuTonomy,
+has been doing extensive large-scaled taxi service testing
+everywhere from Vegas to Boston here to Pittsburgh and in Singapore of course.
+Aurora that spoke here last time,
+the head of Tesla Autopilot launched Aurora and the Chris Urmson behind this young upstart company
+is doing testing in San Francisco and Pittsburgh and then Cruise, Kyle will be here to talk from GM,
+is doing testing in San Francisco, Arizona and Michigan. So when we talk about predictions,
+Predictions
+I'll talk about a few people predicting when we're going to have autonomous vehicles
+and when you yourself think about what it means when will they be here?
+When will autonomous vehicles arise such that that Uber that you call will be autonomous and not with a populated by a driver.
+So the thing we have to think about is what we think about what, how we define autonomous,
+what that experience looks like. And most importantly in these discussions, we have to think about scale.
+So we here at MIT our group MIT Human Centered Autonomous Vehicle, we have a fully autonomous vehicle that people can get in
+if you would like and it will give you a ride in a particular location. But that's one vehicle, it's not a service
+and it only works on particular roads. It's extremely constrained. In some ways it's not much different
+than most of the companies that we were talking about today. Now scale here, there's a magic number,
+I'm not sure what it is but for this, the purpose of this conversation let's say it's 10,000, where there's a meaningful deployment,
+when it's truly going beyond that prototype demo mode to where everything is under control,
+to where it's really touching the general population in a fundamental way. Scale is everything here and it starts,
+let's say at 10,000. Just to give you for reference, there's 46,000 active Uber drivers in New York City.
+So that's what 10,000 feels like some, you know 25, 30 % of the Uber drivers in New York City
+all of a sudden are become passengers.
+So the predictions, I'm not a marketing PR person, so I don't understand what everybody has
+to have make a prediction but they all seem to. Although major automakers have made a prediction
+of when they'll have a deploy, when they will be able to deploy autonomous vehicles.
+Tesla has made in early 2017,
+a prediction that it will have autonomous vehicles 2018. In 2018 they've now adjusted the prediction to 2019.
+Nissan, Honda, Toyota have made prediction for 2020
+under certain constraints in highway urban. Hyundai and Volvo has in 2021.
+BMW and Ford, Ford saying at scale, so a large scale deployment 2021.
+And Chrysler in '21 and Daimler saying in the early '20s. So there is the the predictions
+that are extremely optimistic that are perhaps driven
+by the instinct that the company has to declare that they're at the cutting edge of innovation.
+And then there is many of the leading engineers behind the leading these teams including Carl Iagnemma
+and Gill Pratt from MIT who in injects a little bit
+of caution and grounded
+ideas about how difficult it is to remove the human from the loop of automation. So Carl says that basically teleoperation,
+kind of gives this analogy of an elevator and the elevators fully autonomous but there is still a button to call for help
+if something happens. And that's how he thinks about autonomous vehicles. Even with greater and greater degree of automation,
+they're still going to have to be a human in the loop, they're still going to be a way to contact a human to get help.
+And Gill Pratt and Toyota and they're making some announcements at CES,
+basically saying that the human in the loop is the fundamental aspect that we need to approach this problem and removing the human
+from consideration is really, really far away.
+And Gill, who's historically and currently is one of the sort of the great roboticists in the world
+that defined a lot of the DARPA challenges and a lot of our progress historically speaking
+up to this point. So they're really the full spectrum, we can think of it as the Elon Rodney spectrum
+of optimism versus pessimism. Elon Musk, who's extremely bold and optimistic
+about his predictions. I often connect with this kind of thinking
+because sometimes you have to believe the impossible is possible in order to make it happen. And then there is Rodney,
+also one of the great roboticists, the former head of the of CSAIL, the AI laboratory here,
+is a little bit on the pessimistic side. So for Elon, now fully autonomous vehicle will be here in 2019
+for Rodney the vehicles are really, fully autonomous are beyond 2050.
+But there, he believes in the '30s there will be a significant, a major city will be able
+to allocate a significant region of that city where manual driving is fully banned.
+Which is the way he believes those vehicles could, autonomous vehicle really proliferate when you ban manually driven vehicles in certain parts.
+And then in the '40s, 2045 or beyond, majority of U.S cities will ban manually driven vehicles.
+Of course the quote from Elon Musk in 2017 is that,
+my guess is that in probably 10 years it will be very unusual for cars to be built
+that are not fully autonomous. So we also have to think about the long tail of the fact
+that many people drive cars that are 10 years old, 20 years old. So even when you have every car's built as fully autonomous,
+it's still gonna take time for that dissipation of vehicles to happen. And so my own view beyond predictions,
+to take a little pause into the ridiculous and the fun to explain the view.
+Human-centered autonomy
+Yes that is me playing guitar in our autonomous vehicle. Now the point of this ridiculous video and embarrassing,
+I should've never played it. Yeah, okay, I think it's gonna be over soon.
+Now for those of you born in the '90s that's classic rock. (audience laughing)
+So the point I'm trying to make beyond predictions is that autonomous vehicles will not be adopted by human beings
+in the near term, in the next 10-15 years, because they're safer. Safety is not going to, they may be safer but that is,
+they're not going to be so much safer that that's going to be the reason you adopt.
+It's not gonna be because they get you to the location faster. Everything we see with autonomy is they're going to be slower
+until majority of the fleet is autonomous. They're cautious and therefore slower
+and therefore more annoying in the way we think about actually how we navigate this world. We take risk, we drive assertively with speed
+over the speed limit all the time. That is not how autonomous vehicles today operate. So they're not gonna get us there faster
+and for every promise, every hope that they're going to be cheaper really there's still significant investment going into them
+and there is not good economics in the near term of how to make them obviously significantly cheaper.
+What I think Uber and Lyft has taken over the taxi service
+because of the human experience. In the same way autonomy will only take over if,
+not take over but be adopted by human beings if it creates a better human experience. If there's something about the experience
+that you enjoy the heck out of. This video and many others that we're putting out,
+shows that in the natural language communication, the interaction with the car, the ability of the car to sense everything you're doing
+from the activity of the driver to the driver's attention and being able to transfer control back and forth
+in a playful way but really in a serious way also that's personalized to you.
+That's really the human experience, the efficiency of the human experience, the richness of the human experience,
+that is what we need to also solve. That's something you have to think about because many of the people,
+that'll be speaking at this class and many of the people that are working on this problem are not focused on the human experience.
+It's a kind of afterthought that once we solve the autonomous vehicle problem it'll be fun as hell to be in that car.
+I believe you first have to make it fun as hell to be in the car and then solve the autonomous vehicle problem jointly.
+So in the language that we're talking about here there are several levels of autonomy that are defined
+Levels of autonomy and proliferation strategies
+from level zero to level four. Level zero no automation, four and five, level three, four and five increasing automation.
+So level two is when the driver is still responsible, level three, four, five is when there's less and less responsibility.
+But really in three, four, five, there's parts of the driving where the liability's on the car.
+So there's only really two, as far as I'm concerned, levels, human center autonomy and full autonomy.
+Human centered means the human is responsible. Full autonomy means the car is responsible
+both on the legal side, the experience side and the algorithm side.
+That means full autonomy does not allow for teleoperation.
+So it doesn't allow for the human to step in and remotely control the vehicle because that means the human is still in the loop.
+It doesn't allow for the 10 second rule that it's gonna be fully autonomous
+but once it starts warning you, you have 10 seconds to take over. No, it's not fully autonomous if it cannot guarantee safety in any situation.
+It has to be able to, if the driver doesn't respond in 10 seconds it has to be able to find safe harbor. It has to be able to pull off to the side of the road
+without hurting anybody else to find safety. So that's the fully autonomous challenge.
+And so how do we envision these two levels of automation proliferating society,
+getting deployed at a mass scale? The 10,000, 10 million beyond.
+On the fully autonomous side, the way to think about it with the predictions
+that we're talking about here, is there's several different possibilities of how to deploy these vehicles.
+One is last mile delivery of goods and services
+like the groceries. These are zero occupancy vehicles delivering groceries or delivering human beings at the last mile.
+What the last mile means is it's slow-moving transport to the destination where most of the tricky driving
+along the way is done manually and then the last mile delivery in the city in the urban environment is done
+by zero occupancy autonomous vehicles. Trucking on the highway, possibly with platooning,
+where a sequence of trucks follow each other. So in this what people think about it as a pretty well-defined problem of highway driving
+with lanes well marked, well mapped routes throughout the United States and globally
+on the highway driving is automatable. The specific urban routes kind of like what a lot of the these companies are working on,
+defining this taxi service and personalized public transport.
+There's certain pickup locations you're allowed to go to, there are certain drop-off locations and that's it.
+It's kind of like taking the train here but as opposed to getting on the train with 100 other people you're getting or bus,
+you're getting on the car with, when you're alone or with one other person.
+The closed communities, something Oliver Cameron with Voyage is working on defining and Optimus Ride,
+defining a particular community that you now have a monopoly over
+that you define the constraints, you define the customer base and then you just deliver the vehicles. You map the entire road, you have slow-moving transport
+that gets people from A to B anywhere in that community.
+And then there's the world of zero occupancy ride-sharing delivery.
+So the Uber that comes to you as opposed to having you drive it yourself and it comes to you autonomously with nobody in there
+and then you get in and drive it. So imagine a world where we have empty vehicles driving around,
+delivering themselves to you. Semi-autonomous side is thinking about a world
+where teleoperation plays a really crucial role where it's fully autonomous under certain constraints on the highway but a human can always step in.
+High autonomy on the highway kind of like what Tesla is working towards most recently,
+it's on-ramp to off-ramp. Now the driver is still responsible, liability wise
+and in terms of just observing the vehicle and algorithmically speaking but the autonomy is pretty high level
+to a point where much of the highway driving could be done fully autonomously. And low autonomy unrestricted travel
+as an advanced driver assistance system, meaning that the car kind of like the Tesla,
+the Volvo S90s or the Super Cruise and the Cadillacs all these kinds of L2 systems that are able
+to keep you in the lane, you know 10 to 30% of the miles that you drive and some fraction of the time take some
+of the stress of driving off. And then there is some out there ideas, right.
+Out-of-the-box ideas
+The idea of connected vehicles, vehicle to vehicle communication and vehicle to infrastructure communication enabling us
+to navigate, for example, intersection efficiently without stopping, removing all traffic lights.
+So here shown on the bottom is our conventional approach of there's a queuing system that forms
+because of traffic lights that turn red, green, yellow and without traffic lights and with communication
+to the infrastructure in between the vehicles you can actually optimize that to significantly increase the traffic load through a city.
+Of course there's the boring solution
+of tunnels under cities, layers of tunnels under cities.
+Tunnels all the way down. Autonomous vehicles basically
+by the design of the tunnel, constraining the problem to such a degree that an, I mean the idea of autonomy
+just is completely transformed. That you're basically, a car is able to transform itself
+into a mini train, into a mini public transit entity, for a particular period of time.
+So you get into that tunnel, you drive at 200 miles an hour and or not necessarily drive, be driven 200 miles an hour
+and then you get out of the tunnel. Of course there's the flying cars, personalized flying car vehicles.
+I will not, I mean,
+Rodney as I mentioned before, does believe that we'll have them in 2050. There's a lot of people that are seriously actually thinking
+about this problem is there's a level of autonomy obviously that's required here for a regular person.
+I don't know somebody without a pilot's license, for example, to be able to take off and land.
+Making that experience accessible to regular people means that there's going to be a significant amount
+of autonomy involved. One of the people really, one of the companies really seriously working on this,
+is Uber with the Uber Elevate, Uber Air I think it's called
+and the idea is that you would meet your vehicle not on the street but at a roof,
+you take it elevator, you meet them at the roof of a building. This video's from Uber.
+They're seriously addressing this problem. Many of the great solutions
+to the world's problems have been laughed at at some point. So let's not laugh too loud at these possibilities.
+Who will be first?
+Back in my day we used to drive in the street. Okay so aha, 10,000 vehicles,
+if that's the bar. I sort of out of curiosity asked, did a little public poll.
+3,000 people responded. Asked who will be first to deploy 10,000 fully autonomous cars operating
+on public roads without a safety driver. And several options percolated with Tesla getting 57%
+of the vote and Waymo gaining 21% of the vote and 14% someone else and 8% the curmudgeons
+and the engineers saying no one in the next 50 years will do it.
+And again in 1998 when Google came along, the leaders of the space were Ask Jeeves
+and Infoseek and Excite, all services I've used and probably some people in this room have used,
+Lycos, Yahoo, obviously they were the leaders in the space and Google disrupted that space completely.
+So this poll shows the current leaders but it's wide open to ideas and that's why there's a lot
+of autonomous vehicle companies. Some companies are taking advantage of the hype
+and the fact that there's a lot of investment in the space but some companies, like some of the speakers visiting
+in this course are really trying to solve this problem. They want to be the next Google, the next billion, multi-billion,
+next trillion dollar company by solving the problem. So it's wide open. But currently Tesla with a human,
+with the semi-autonomous vehicle approach working towards trying to become fully autonomous.
+And Waymo starting with the fully autonomous working towards achieving scale at the fully autonomous are the leaders in the space.
+Given that, ranking in 2019,
+Historical context
+let's take a quick step back to 2005 with the DARPA challenge when the story began.
+The race to the desert when Stanley from Stanford won a race through the desert
+that really captivated people's imagination about what's possible. And a lot of people have said that the autonomous vehicle problem is solved in 2005.
+They really said you know the idea was especially because in 2004 nobody finished that race,
+2005 four cars finished the race, it was like well we cracked it. This is it.
+And then you know some critics said that urban driving is really nothing comparable
+to desert driving, desert is very simple there's no obstacles and so on. It's really a mechanical engineering problem
+it's not a software problem. It's not a fundamentally, it's not really an autonomous driving problem as it would be delivered to consumers
+and of course in 2007, DARPA put together Urban Grand Challenge and several people finished that with CMU's boss winning.
+And so the thought was at that point, that's it, we're done. As Ernest Rutherford, a physicist, said,
+that physics is the only real science, the rest is just stamp collecting, all the biology, chemistry. Certainly, oh boy, I wouldn't want to know
+what he thinks about computer science. It's just all this stupid silly details Physics is the fundamentals.
+And that was the idea with the DARPA Grand Challenge and solving that that we solved the fundamental problem of autonomy.
+And the rest is just for industry to figure out some of the details of how to make an app
+and make a business out of it. So that could be true. And the underlying beliefs there is
+Underlying beliefs of the industry and public
+that driving is an easy task, that it's solvable. The thing that we do as human beings
+that it's pretty formalizable it's pretty easy to solve with autonomy
+that the other idea is that humans are bad at driving. This is a common belief. Not me, not you but everybody else,
+nobody in this room but everybody else is a terrible driver. The kind of intuition that we have about our experience of traffic leads us to believe
+that humans are just really bad at driving. And from the human factors, psychology side,
+there's been over 70 years
+of research showing that humans are not able
+to monitor, maintain vigilance, monitoring a system. So when you put a human in a room with a robot
+and say watch that robot, they start texting like 15 seconds in.
+So that's the fundamental psychology. There's thousands of papers on this. People are, they tune out, they over trust the system,
+they misinterpret the system and they lose vigilance. Those are the three underlying beliefs.
+It very well could be true but what if it is not? So we have to consider that it is not.
+The driving task is easy because if you think the driving task is easy and formalizable and solvable by autonomous vehicles,
+Driving is hard
+you have to solve this problem. The subtle vehicle-to-vehicle, vehicles-to-pedestrian nonverbal communication
+that happens here in a dramatic sense but really happens in the subtle sense
+millions of times every single day in Boston. Subtle nonverbal communication between vehicles,
+you go, no, you go. You have to solve all the crazy road conditions
+where in a split seconds you have to make a decision about, so in snowy, icy weather, rain,
+limited visibility conditions, you have 100, 200 milliseconds to make a decision.
+Your algorithm based on the perception has to make a control decision.
+And then you have to deal with a nonverbal communication with pedestrians, these unreasonable irrational creatures, us human beings.
+You have to not only understand what the intent of the movement that's anticipated.
+So anticipating the trajectory of the pedestrian you also have to assert yourself in a game theoretic way
+as crazy as it might sound, you have to threaten yourself, you have to take a risk. You have to take a risk that
+if I don't slow down like that ambulance didn't slow down that the pedestrian will slow down.
+Algorithmically we're afraid to do that. The idea that a pedestrian that's moving,
+we anticipate their trajectory based on the simple physics of the current velocity of the momentum, they're gonna keep going with some probability.
+The fact that by us accelerating we might make that pedestrian stop,
+it's something that we have to incorporate into algorithms and we don't today. And we don't know how to really.
+So if driving is easy we have to solve that too. And of course the thing I showed yesterday with the coast runners and the boat going around
+and all the ethical dilemmas from the moral machine
+to the more serious engineering aspects that from the unintended consequences
+that arise from having to formalize the objective function
+under which a planning algorithm operates. If there's any learning that, as I showed yesterday,
+a boat on the left run by a human wants to finish the race, the boat on the right figures out that it doesn't have to finish the race,
+it can pick up turbos along the way and gets much more reward. So if the objective function is to maximize the reward,
+you can slam into the wall over and over and over again and that's actually the way to optimize the reward.
+And those are the unintended consequences of an algorithm that has to be formalizable to the objective function
+without a human in the loop. Humans are bad at driving. As I showed yesterday,
+humans if they're bad at anything it's about having a good intuition about what's hard and what's easy.
+Humans are amazing
+The fact that we have 540 million years worth of data on our visual perception system means we don't understand how damn impressive it is
+to be able to perceive and understand the scene in a split second, maintain context,
+maintain an understanding of performing all the visual localization tasks
+about anticipating the physics of the scene and so on. And then there's a control side.
+The humans don't give enough credit to ourselves. We're incredible, state-of-the-art soccer player on the left
+(audience laughing) and the state-of-the-art robot on the right.
+I think there's like four or five times he scores, (audience laughing) all right.
+And this is all the movement and so on involved with that, of course here that's the human robot,
+that's a really incredible work that's done for the DARPA Robotics Challenge with the humanoid robots on the right and incredible work
+by the human people doing the same kind of tasks
+much more impressive task I would say. So that's where we stand. And the ones on the right are actually not fully autonomous,
+there's still some human in the loop. There's just noisy broken communication. So that, humans are incredible
+in terms of our ability to understand the world and in terms of our ability to act in that world.
+Humans and automation don't mix well?
+And the fact that humans, the idea, the view, the popular view grounded in the psychology that humans
+and automations don't mix well, over trust, misunderstanding, loss of vigilance, the command and so on,
+that's not an obvious fact. It happens a lot in the lab. Most of the experiments are actually in the lab.
+This is the difference. You put, many of you, you put a undergrad, grad student
+in a lab and say here watch this screen and wait for the dot to appear.
+They'll tune out immediately but when it's your life and you're on the road, it's just you in the car,
+it's a different experience. It's not completely obvious that vigilance will be lost and it's not a complete, when it's just you and the robot,
+it's not completely obvious what the psychology, what the attentional mechanism, with the vigilance that it looks like.
+So one of the things we did, is we instrumented here 22 Tesla's and observed people now over a period of two years of what they actually do
+when they're driving autopilot, driving these systems. In red shown manually controlled vehicles and cyan showed vehicle control autopilot.
+Now there's a lot of details here and we have a lot of presentations on this but really, the fundamentals are, is that they drive 34%,
+large percentage of the miles in autopilot and in 26,000 moments of transfer of control
+they are always vigilant. There's not a moment once in this data set
+where they respond too late to a critical situation,
+to a challenging role situation. Now the data set, 22 vehicles, that's a 0.1% or less than the full Tesla fleet
+that has autopilot. But it's still an inkling. It's not obvious that it's not possible to build a system
+that works together with a human being and that system essentially looks like this.
+Some percentage, 90%, maybe less, maybe more, when it can solve the problem of autonomous driving
+it solves it and when he needs human help it asks for help. That's the trade-off, that's the balance.
+On the fully autonomous side, on the right it has to solve here with citations
+and there's references always on the bottom. All the problems have to be solved exceptionally, perfectly,
+from mapping localization to the scene perception to control to planning to being able to find safe harbor
+at any moment to also being able to do external HMI communication with the other pedestrians, the vehicles in the scene
+and then there's teleoperation, vehicle-to-vehicle, vehicle-to-AI. You have to solve those perfectly if you want to solve the fully autonomous problem,
+as I said including all the crazy things that happen in driving. And if you approach the shared autonomy side,
+the semi-autonomous where you're only responsible for a large percentage but not 100% of the driving
+then you have to solve the human side, the human interaction, the sensing what the driver is doing,
+the collaborating communicating with the driver and the personalization aspect that learns with the driver.
+As I said you can go online, we have a lot of demonstrations of these kinds of ideas. But the natural language, the communication,
+I think is critical for all of us as we're tweeting as all of us do.
+(people chattering) So it's as simple as, so this is just demonstration of Eco taking control
+when the attention over time, that the driver is being,
+okay, we got it thank you.
+Okay so basically a smartphone use which has gone up year by year and we're doing a lot of analysis on that,
+it's really what people do in the car is they use their phone, whether it's manual or autonomous driving
+or semi-autonomous driving. So being able to manage that, to communicate with the driver
+about when they should be paying attention which may not be always. You're sort of balancing the time when it's a critical time
+to pay attention when it's not and communicating effectively, learning with the driver, that problem is a fundamental machine learning problem.
+There's a lot of data visible light, everything about the driver and it's a psychology problem.
+So we have data, we have complicated human beings and it's a human robot interaction problem
+that deserves solving. But as you'll hear on the beyond the human side looking out
+Two approaches: Lidar vs Vision
+into the world, people that are trying to solve the fully autonomous vehicle it's really a two approach consideration.
+One approach is vision, cameras and deep learning, right.
+Collect a huge amount of data. So cameras have this aspect
+that they're the highest resolution of information available. It's rich texture information
+and there's a lot of it which is exactly what you know networks love right. So to be able to cover all the crazy edge cases,
+the vision data, camera data, visible light data, is exactly the kind of data you need
+to collect a huge amount of, to be able to generalize over all the crazy countless edge cases that happen.
+It's also feasible, all the major data sets, all the, in terms of cost, interest, scale,
+all the major data sets of visible light cameras. That's another pro and they're cheap
+and the world as it happens, whoever designed the simulation that we're all living in,
+made it such that our world, our roads and our world,
+is designed for human eyes. Eyes is the way we perceive the world
+and so the lane mark is also on is visual, most of the road textures that you use
+to navigate, to drive are visible, are made for human eyes.
+The cons are that without a ton of data and we don't know how much, they're not accurate.
+You make errors because driving is ultimately about 99.99999% accuracy and so that's what I mean
+by not accurate. It's really difficult to reach that level.
+And then the second approach is LIDAR, taking a very particular constrained set of roads,
+mapping the heck out of them, understanding them fully under different weather conditions and so on
+and then using the most accurate sensors available. A suite one sensors but really LIDAR at the forefront.
+Being able to localize yourself effectively. The pros there that it's consistent, especially when machine learning is not involved,
+it's consistent and reliable and it's explainable. If it fails, you can understand why,
+you can account for those situations. It's not so much true for machine learning methods. It's not so much explainable why it failed
+in a particular situation. The accuracy is higher as we'll talk about. The cons of LIDAR is that it's expensive
+and most of the approaches in perceiving the world using LIDAR primarily
+are not deep learning based and therefore they're not learning over time. And if they were deep learning based,
+there's a reason they're not, it's 'cause you need a lot of car, you gonna need a lot of LIDAR data.
+And there's only a tiny percentage of cars in the world quite obviously are equipped with LIDAR
+in order to collect that data. So quickly running through the sensors.
+Radar is, it's kind of like the offensive line of football.
+They're actually the ones that do all the work and they never get the credit. So radar is that.
+It's always behind to catch, to actually do the detection in terms of obstacle,
+the most critical safety critical obstacle avoidance. It's cheap, it does extremely well
+and it does well in extreme weather but it's low resolution so it cannot stand on its own
+to achieve any kind of degree of high autonomy. Now on the LIDAR side it's expensive,
+it's extremely accurate depth information, 3D cloud, point cloud information. Its resolution is much higher than radar
+but still lower than visible light and there is depending on the sensor, a 360 degree visibility that's built in.
+So there's a difference in resolution here, visualized LIDAR on the right, radar on the left.
+The resolution is just much higher and is improving and the cost is going down and so on. Now on the camera side, it's cheap, everybody got one,
+the resolution is extremely high in terms of the amount of information transferred per frame
+and everybody you know really the scale of the number of vehicles
+that have this equipped is humongous. So it's ripe for application of deep learning.
+And the challenge is it's noisy, it's bad at depth estimation
+and it's not good in extreme weather.
+So if we kind use this plot to look, to compare these sensors, to compare these different approaches.
+So LIDAR works in the dark, variable lighting conditions, has pretty good resolution,
+has pretty good range but it's expensive,
+it's huge, and it doesn't provide rich textural contrast information
+and it's also sensitive to fog and rain conditions. Now ultrasonic sensors catch a lot of those problems.
+They're better at detecting proximity, they're high resolution in objects that are close
+which is why they're often used for parking but they can still also be integrated in the sensor fusion package
+for an autonomous vehicle. They really catch a lot of the problems that radar has.
+They complement each other well and radar, cheap, tiny, detect speed
+and has pretty good range but has terrible resolution.
+There's very little information being provided. And then cameras a lot of rich information,
+they're are cheap, their small range is great, the best range actually of all the sensors
+and works in bright conditions but doesn't work in the dark, in extreme conditions
+and it's just susceptible to all these kinds of problems and doesn't detect speed unless you do some tricky structure
+from motion kind of things. So here's where sense of fusion steps in and you, everybody works together
+to build an entire picture. That's how this plot works. You can stack it on top of each other.
+So if you look at a suite that for example Tesla is using which is ultrasonic radar and camera and you compare it to just LIDAR
+and see how these paths compare that actually the suite of camera, radar
+and ultrasonic are comparable to LIDAR. So that those are the two comparisons that we have.
+You have the costly non machine-learning way of LIDAR and you have the cheap
+but needs a lot of data and is not explainable and reliable in the near-term vision based approach.
+And those are the two competing approaches. Now of course huevos will talk about they're trying to use both but ultimately the question is
+who catches, who is the fail safe?
+In the semi-autonomous way when there's a camera based method, the human is the fail safe.
+When you say, oh crap I don't know what to do, the human catches. In the fully autonomous mode,
+so what Waymo's working on and others, the fail safe is LIDAR,
+the fail safe is maps that you can't rely on the human. But you know this road so well
+that if the camera is freaked out if there's any of the sensors freaked out that you're able to, you have such good maps,
+you have such good accurate sensors, that the fundamental problem of obstacle avoidance which is what safety is about, can be solved.
+The question is what kind of experience that creates. In the meantime as the people debate, try to make money, start companies,
+In the meantime… data
+there's just lots of data. Ford F-150 still the most popular car in America.
+Manually driven cars are still happening. So there's a lot of data happening. Semi-autonomous cars, every company is now releasing
+more and more semi-autonomous technology. So that's all data.
+And what that boils down to is the two paths they're walking towards is vision versus LIDAR,
+L2 versus L4, semi-autonomous versus fully autonomous. Tesla on the semi-autonomous front has reached
+one billion miles. Waymo the leader on the autonomous front has reached 10 million miles.
+The pros and cons as I've outlined them. One, division one, the one I'm obviously very excited about
+and machine learning researchers excited are about which fundamentally relies on huge data and deep learning.
+The neural networks that are running inside the Tesla and with their new as they,
+it's kind of the same kind of path as Google was taking from the GPU to the TPU, Tesla's taking from Nvidia Drive PX2 system,
+sort of more general GPU based system to creating their own ASIC and having a ton of awesome neural networks running
+on their car. That kind of path, that others are beginning to embrace, is really interesting to think about
+for machine learning engineers. And then people that are maybe more grounded
+and actually wanna, are really, value, safety, reliability
+and sort of from the automotive world, are thinking well we need machine learning is not explainable
+it's difficult to work with, it's not reliable and so in that sense we have to have a sensor suite
+that are extremely reliable. Those are the two paths. Yep, question.
+The question is there's all kinds of things you need to perceive, stop signs and traffic lights,
+pedestrians and so on. Some of them, if you hit them it's a problem, some of them are a bag flying through the air
+and all have different visual characteristics all have different characteristics for all the different sensors.
+So LIDAR can detect of solid-body objects,
+camera is better at detecting, as last year Sasha Arnu talked about,
+I think fog or smoke. These are interesting things. They might look like an object
+to certain sensors and not to others, But the traffic light detection problem luckily is
+with cameras is, it's pretty solved at this point. So that's luckily the easy part.
+The hard part is when you have a green light and there's a drunk, drugged, drowsy or distracted,
+the four Ds that hits an online pedestrian trying to cross what to do.
+That's the hard part. So the road ahead for us as engineers, the science is the thing I'm super excited
+The road ahead
+about the possibility of artificial intelligence having a huge impact, is taking the step from having these
+even if they're large, toy datasets, toy problems, toy benchmarks of ImageNet classification
+in cocoa, all the exciting deep RL stuff that we'll talk about in the future weeks,
+really are toy examples, the game of go and chess and so on. But taking those algorithms and putting them in cars
+where they can save people's lives and they actually directly touch and impact our entire civilization
+that's actually the defining problem for artificial intelligence in the 21st century is AI
+that touches people in a real way and I think cars, autonomous vehicles, is one of the big ways that that happens.
+We get to deal with the psychology, the philosophy, the sociology aspects of it, how we associate,
+think about it, to the robotics problem, to the perception problem. It's a fascinating space to explore
+and we have many guest speakers exploring that different ways and that's really exciting to see
+how these people are trying to change the world. So with that I'd like to thank you very much,
+go to deeplearning.mit.edu and the code is always available online.
+(people clapping)
 
 ----------
 
 -----
+
 --57--
 
 -----
-Date:
-Link:
+Date: 2019.01.24
+Link: [# MIT 6.S091: Introduction to Deep Reinforcement Learning (Deep RL)](https://www.youtube.com/watch?v=zR11FLZ-O9M)
 Transcription:
 
-paste here
+Introduction
+today I'd like to overview the exciting field of deep reinforcement learning introduced overview and provide you some
+of the basics I think it's one of the most exciting fields in artificial
+intelligence it's marrying the power and the ability of deep neural networks to
+represent and comprehend the world with the ability to act on that understanding
+on that representation taking as a whole that's really what the creation of
+intelligent beings is understand the world and act and the exciting
+breakthroughs that recently have happened captivate our imagination about what's possible and that's why this is
+my favorite area of deep learning and artificial intelligence in general and I hope you feel the same so what is deep
+reinforcement learning we've talked about deep learning which is taking
+samples of data being able to in a supervised way compress encode the
+representation that data in the way that you can reason about it I would take that power and apply it to the world
+where sequential decisions are to be made so it's looking at problems and
+formulations of tasks where an agent an intelligent system has to make a
+sequence of decisions and the decisions that are made have an effect on the
+world around the agent how how do all of us any intelligent being that it's
+tasked with operating in the world how did he learn anything especially when you know very little in the beginning
+it's trial and error is the fundamental process by which reinforcement learning
+agents learn and the deep part of deep
+reinforcement learning is neural networks as using the frameworks and reinforcement learning where the neural
+network is doing the representation of the world based on which the actions are
+made and we have to take a step back when we look at the types of learning sometimes
+Types of learning
+the terminology itself can confuse us to the fundamentals there are supervised
+learning there semi-supervised learning there's unsupervised learning there's reinforcement learning and there's this
+feeling that supervised learning is really the only one where you have to perform the manual annotation where you
+have to do the large-scale supervision that's not the case every type of
+machine learning is supervised learning it's supervised by a loss function or a
+function that tells you what's good and what's bad you know even looking at our
+own existence is how we humans figure out what's good and bad there's all
+kinds of sources direct and indirect by which our morals and ethics we figure out what's good and bad the difference
+we supervised and unsupervised and reinforcement learning is the source of that supervision what's implied when you
+say unsupervised is that the cost of human labor required to attain the
+supervision is low but it's never Turtles all the way down it's Turtles
+and then there's a human at the bottom there at some point there needs to be
+human intervention human input to provide what's good and what's bad and
+this will arise in reinforcement learning as well I have to remember that because the challenges and the exciting
+opportunities of reinforcement learning lie in the fact of how do we get that
+supervision in the most efficient way possible but supervision nevertheless is required for any system that has an
+input and an output that's trying to learn like a neural network does to
+provide an output that's good he needs somebody to say what's good and what's bad for you curious about that there's
+been a few books a couple written throughout the last few centuries from Socrates to Nietzsche I recommend the
+latter especially so let's look at supervised learning and reinforcement learning let like to propose a way to
+think about the difference that is illustrative and useful when we
+start talking about the techniques so supervised learning is taking a bunch of examples of data and learning from those
+examples where a ground truth provides you the compressed semantic meaning of
+what's in that data and from those examples one by one whether it's sequences or single samples we learn
+what how to then few take future such samples and interpret them reinforcement
+learning is teaching what we teach an agent through experience not by showing
+a singular sample of a data set but by putting them out into the world the
+distinction there the essential element of reinforcement learning then for us now we'll talk about a bunch of
+algorithms but the essential design step
+is to provide the world in which to experience the agent learns from the
+world the from the world it gets the dynamics of that world the physics of
+the world from that world that gets the rewards what's good and bad and us as designers of that agent do not just have
+to do the algorithm we have to do design the the world in which that agent is
+trying to solve a task the design of the world is the process of reinforcement
+learning the design of examples the annotation of examples is the world of supervised learning and the essential
+perhaps the most difficult element of reinforcement learning is the reward the good versus bad here a baby starts
+walking across the room we want to define success as a baby walking across
+the room and reaching the destination that's success and failure is the
+inability to reach that destination simple and reinforcement learning in humans
+Reinforcement learning in humans
+the way we learn from these very few examples appear to learn from very few
+examples of trial and error is a mystery a beautiful mystery full of open questions it could be from the huge
+amount of data 230 million years worth of bipedal data there who've been walking what mammals walking ability to
+walk or 500 million years the ability to see having eyes so that's the the
+hardware side somehow genetically encoded in us is the ability to comprehend this world extremely
+efficiently it could be through not the hardware not the five hundred million
+years but the the few minutes hours days months maybe even years in the very
+beginning were born the ability to learn really quickly through observation to
+aggregate that information filter all the junk that you don't need and be able to learn really quickly through
+imitation learning through observation the way for walking that might mean observing others talk the idea there is
+if there was no other around we would never be able to learn this the
+fundamentals of this walking or as efficiently it's through observation and
+then it could be the algorithm totally not understood is the algorithm that our
+brain uses to learn the backpropagation that's an artificial neural networks the
+same kind of processes not understood in the brain that could be the key so I
+want you to think about that as we talk about the very trivial by comparison
+accomplishments and reinforcement learning and how do we take the next steps but it nevertheless is exciting to
+What can be learned from data?
+have machines that learn how to act in the world the process of learning for
+those who have fallen in love with artificial intelligence the process of
+learning is thought of as intelligence it's the ability to know very little and through experience examples interaction
+with the world in whatever medium whether it's data or simulation so on be able to form much richer and
+interesting representations of that world be able to act in that world that's that's the dream so let's look at this stack of what an
+age what it means to be an agent in this world from top the input to the bottom
+the output is the there's an environment we have to sense that environment we
+have just a few tools as humans have several sensory systems on cars you can
+have lidar camera stereo vision audio microphone networking GPS IMU sensor so on whatever
+robot you can think about there's a way to sense that world and you have this raw sensory data and then once you have
+the raw sensory data you're tasked with representing that data in such a way that you can make sense of it as opposed
+to all the the raw sensors and the I the cones and so on that taking just giant
+stream of high bandwidth information we have to be able to form higher
+abstractions of features based on which we can reason from edges to corners to faces and so on that's exactly what deep
+learning neural networks have stepped in to be able to in an automated fashion with as little human input as possible
+be able to form higher-order representations of that information then
+there is the the learning aspect building on top of the greater abstractions form through the
+representations be able to accomplish something useful well--there's discriminative tasks a generative task
+and so on based on the representation be able to make sense of the data be able to generate new data and so on from
+sequence the sequence to sequence the sample from Sam of the sequence and so on and so forth to actions as we'll talk
+about and then there is the ability to
+aggregate all the information has been received in the past to the useful
+information that's pertinent to the task at hand it's the thing the old it looks
+like a duck quacks like a duck swims like a duck three different data sets I'm sure there's state-of-the-art
+algorithms for the three image class education audio recognition video
+classification - activity recognition so on aggregating those three together is
+still an open problem and that could be the last piece again I want you to think about as we think about reinforcement
+learning agents how do we play how do we transfer from the game of Atari to the game of go to the game of dota to the
+game of a robot navigating an uncertain environment in the real world and once
+you have that once you sense the raw world once you have a representation of that world then we need to act which is
+provide actions within the constraints of the world in such a way that we believe can get us towards success the
+promise excitement of deep learning is is the part of the stack that converts
+raw data into meaningful representations the promise the dream of deeper enforcement learning is going beyond and
+building an agent that uses that representation and acts achieve success
+in the world that's super exciting the framework and the formulation
+Reinforcement learning framework
+reinforcement learning at its simplest is that there's an environment and
+there's an agent that acts in that environment the agent senses the environment by a by some observation
+well there's partial or complete observation of the environment and it
+gives the environment and action it acts in that environment and through the action the environment changes in some
+way and then a new observation occurs and then also as you provide they
+actually make the observations you receive a reward in most formulations of this of this framework this entire
+system has no memory that the the only
+thing you two could be concerned about as a state you came from the state you arrived in and the reward received the
+open question here is what can't be modeled in this kind of way can we model all of it
+from from human life to the game of go can all this be model in this way and
+what are is this a good way to formulate the learning problem of robotic systems
+in the real world in simulated world those are the open questions the
+environment could be fully observable or partially observable like in poker
+it could be single agent or multi agent Atari versus driving like deep traffic
+deterministic or stochastic static versus dynamic static is in chess
+dynamic again and driving in most real-world applications the screen versus continuous like games chess or
+continuous and carpal balancing a polo on a cart the challenge for RL in real world
+Challenge for RL in real-world applications
+applications is that as a reminder
+supervised learning is teaching by example learning by example teaching
+from our perspective reinforcement learning is teaching by experience and the way we provide experience the
+reinforcement learning agents currently for the most part is through simulation or through highly constrained real-world
+scenarios so the challenge is in the fact that most of the successes is with
+systems environments that are simulated so there's two ways to then close this
+gap to directions of research and work one is to improve the algorithms improve
+the ability of the algorithm student to form policies that are transferable across all kinds of domains including
+the real world including especially in the real world so train and simulation transfer to the real world
+or is we improve the simulation in such a way that the fidelity of the
+simulation increased increases to the point where the gap between reality and simulation is is minimal to a degree
+that things learn the simulation are directly trivially transferable to the
+to the real world okay the major components of an RL agent
+Component of an RL agent
+an agent operates based on a strategy
+called the policy it sees the world it makes a decision that's a policy makes a
+decision how to act sees the reward sees a new state acts sees a reward
+she's new States and acts and this repeats forever until a terminal state
+the value function is the estimate of
+how good a state is or how good a state action pair is meaning taking an action
+in a particular state how good is that ability to evaluate that and then the
+model different from the environment from the perspective the agent so the environment has a model based on which
+it operates and then the agent has a representation best understanding of that model so the purpose for an RL
+agent in this simply formulated framework is to maximize reward the way
+that the reward mathematically and practically is talked about is with a
+discounted framework so we discount further and further future award so the
+reward that's farther into the future is means less to us in terms of maximization than reward that's in the
+near term and so why do we discount it so first a lot of it is a math trick to
+be able to prove certain aspects analyze certain aspects of convergence and in general on a more philosophical sense
+because environments either are or can be thought of a stochastic random it's
+very difficult to there's a degree of uncertainty which makes it difficult to really
+estimate the the the reward they'll be in the future because of the ripple
+effect of the uncertainty let's look at an example a simple one helps us
+Example: robot in a room
+understand policy's rewards actions there's a robot in the room there's 12
+cells in which you can step it starts in the bottom left it tries to get rewards
+on the on the top right there's a plus one it's a really good thing at the top right wants to get there by walking
+around there's a negative 1 which is really bad you wants to avoid that Square and the choice of action is this
+up-down left-right for actions so you could think of there being a negative
+reward of point 0 4 for each step so there's a cost to each step and there's a stochastic nature to this world
+potentially we'll talk about both deterministic stochastic so in the in the stochastic case when you choose the
+action up with an 80% probability with an 80% chance you move up but with 10%
+chance to move left another 10 move right so that's the Catholic nature even though you try to go up you might end up
+in a blocks to the left into the right so for a deterministic world the optimal
+policy here given that we always start in the bottom left is really shortest path is you know you can't ever because
+there's no stochasticity you're never gonna screw up and just fall into the hole negative 1 hole that you just
+compute the shortest path and walk along that shortest path why shortest path
+because every single step hurts there's a negative a reward to it point 0 4
+so shortest path is the thing that minimizes the reward shortest path to the to the plus 1 block ok let's look at
+it stochastic world like I mentioned the 80% up and then split to 20 10 % to left
+and right how does the policy change well first of all we need to have we
+need to have a plan for every single block in the area because you might end up there due to this the castus 'ti of
+the world ok the the basic addition there is that we're trying to
+go avoid up the closer you get to the negative one hole so just try to avoid
+up because up the stochastic nature of up means that you might fall into the
+hole with a 10% chance and given the point zero for step reward you're
+willing to take the long way home in some cases in order to avoid that possibility the negative one possibility
+now let's look at a reward for each step if it decreases to negative two it really hurts to take every step then
+again we go to the shortest path despite the fact that there's a stochastic
+nature in fact you don't really care that you step into the negative one hole because every step really hurts you just
+want to get home and then you can play with this reward structure right yes
+instead of negative 2 or negative point 0 4 you can look at negative 0.1 and you
+can see immediately that the structure of the policy it changes so with a
+higher value the higher negative reward free step immediately the urgency of the
+agent increases versus the less urgency the lower the negative reward and when
+the reward flips so it's positive the
+every step is a positive so the entire system which is actually quite common in
+reinforcement learning the entire system is full of positive rewards and so that then the optimal policy becomes the
+longest path is grad school taking as
+long as possible never reaching the destination so what lessons do we draw
+from robot in the room two things the environment model the dynamics is just
+there in the trivial example the stochastic nature the difference between 80 percent 100 percent and 50 percent
+the model of the world the environment has a big impact on what the optimal policy is
+and the reward structure most importantly the thing we can often
+control more in our constructs of the
+task we try to solve them enforcement is the what is good and what is bad and how
+bad is it and how good is it the reward structure is a big impact and that has a complete change like like
+Robert Frost say the complete change on the policy the choices the agent makes
+so at when you formulate a reinforcement learning framework as researchers as
+students what you often do is you design the environment you design the world in
+which the system learns even when your ultimate goal is the physical robot it
+does still there's a lot of work still done simulation so you design the world the parameters of that world and you
+also design the reward structure and it can have a transformative results slight
+variations in those parameters going to huge results on huge differences on the policy that's arrived and of course the
+AI safety and unintended consequences
+example I've shown before I really love is the impact of the the changing reward
+structure might have unintended consequences and those consequences for
+real-world system can have obviously highly detrimental costs that are more
+than just a failed game of Atari so here is a human performing the task gate
+playing the game of coast runners racing around the track and so it's when you
+finish first and you finish fast you get a lot of points and so it's natural to
+then okay let's do an RL agent and then optimize this for those points and will you find out in the game is that you
+also get points by picking up the little green turbo things and with agent
+figures out is that you can actually get a lot more points even by simply focusing on the green turbos
+focusing on the green turbos just rotating over and over slamming into the wall fire and everything just picking it
+up especially because ability to pick up those turbos can avoid the terminal
+state at the end of finishing the race in fact finishing the race means you stop collecting positive reward so you
+never want to finish collected turbos and though that's a trivial example it's
+not actually easy to find such examples but they're out there of unintended consequences that can have highly
+negative detrimental effects when put in the real world we'll talk about a little bit of robotics when you put robots for
+wheeled ones like autonomous vehicles into the real world and you have objective functions that have to
+navigate difficult intersections full of pedestrians you have to form intent models those pedestrians here you see
+cars asserting themselves through dense intersections taking risks and within
+those risks that are taking by us humans will drive vehicles we have to then encode that ability to take subtle risk
+into into AI based control algorithms
+perception then you have to think about at the end of the day there's an
+objective function and if that objective function does not anticipate the green
+turbos that are to be collected and then result in some understand the consequences could have very negative
+effects especially in situations that involve human life that's the field of
+AI safety and some of the folks will talk about deep mind and open AI that are doing incredible work in RL also
+have groups that are working on a AI safety for a very good reason this is a
+problem that I believe that artificial intelligent will define some of the most
+impactful positive things in the 21st century but I also believe we are nowhere close
+to solving some of the fundamental problems of AI safety that we also need
+to address as we those algorithms okay examples and reinforcement learning systems all of it
+Examples of RL systems
+has to do with formulation or rewards formulation of states and actions you have the traditional the often used
+benchmark of a cart balancing a poll continuous so the action is the
+horizontal force to the cart the goal is to balance the poll so stays top and the moving cart and the reward is one in
+each time step if the poll is upright in the state measured by the cart by the
+agent is the pole angle angular speed and of course self sensing of the cart
+position and the horizontal velocity another example here didn't want to
+include the video because it's really disturbing but I do want to include the slide because it's really important to
+think about is by sensing the the raw pixels learning and teaching an agent to
+play a game of doom so the goal there is to eliminate all opponents the state is
+the raw game pixels the action is up/down shoot reload and so on and the
+positive reward is when an opponent is eliminated and negative one the agent is
+eliminated simple I added it here because again on the topic of AI safety
+we have to think about objective functions and how that translate into
+the world of not just autonomous vehicles but things that even more
+directly have harm like autonomous weapon systems and we have a lecture on this in the AGI series and on the
+robotics platform the manipulate object manipulation and grasping objects there's a few benchmarks there's a few
+interesting applications learning the problem of grabbing objects moving
+objects manipulating objects rotating and so on especially when those objects
+don't have have complicated shapes and so the goal is to pick up an object in
+the purely in the grasping objects allenge the state is the visual racial slurs visual visual base the raw
+pixels of the objects the actions is to move the arm grasp the object pick it up
+and obviously it's positive when the pickup is successful the reason I'm
+personally excited by this is because it'll finally allow us to solve the
+problem of the claw which has been torturing me for many years
+I don't know that's not at all why I'm excited by it okay and then we have to
+think about as we get greater and greater degree of application in the real world with robotics
+like cars the the main focus of my passion in terms of robotics is how do
+we encode some of the things that us humans encode how do we you know we have to think about our own objective
+function our own reward structure our own model of the environment about which we perceive and reasonable in order to
+then encode machines that are doing the same and I believe autonomous driving is in that category but to ask questions of
+ethics we have to ask questions of of risk value of human life value of
+efficiency money and so on all these in front of ethical questions that an autonomous vehicle unfortunately has to
+solve before it becomes fully autonomous so here are the key takeaways of the
+Takeaways for real-world impact
+real-world impact of reinforcement learning agents on the deep learning
+side okay these neural networks that form high representation the fun part is the algorithms all the different
+architectures the different encoder/decoder structures all the attentions self attention recurrent
+Sallust Engr use all the fun architectures and the data so that and
+the ability to leverage different data sets in order to discriminate better
+than perform this Crematory tasks better than you know MIT does better than stand
+for that kind of thing that's the fun part the hard part is asking good questions and collecting huge amounts of
+data that's representative over the task that's for real world impact not cvpr publication real-world impact
+a huge amount of data on a deeper enforcement learning side the key challenge the fun part again is the
+algorithms how do we learn from data some of the stuff I'll talk about today the hard part is defining the
+environment defining the acts of space and the reward structure as I mentioned this is the big challenge and the
+hardest part is how to crack the gap between simulation in the real world the leaping lizard that's the hardest part
+we don't even know how to solve that transfer learning problem yet for the real world in fact the three types of
+reinforcement learning there's countless
+3 types of RL: model-based, value-based, policy-based
+algorithms and there's a lot of ways to economize them but at the highest level there's model-based and there's model
+free model based algorithms learn the model of the world so as you interact
+with the world you construct your estimate of how you believe the dynamics
+of that world operates the nice thing about doing that is once you have a
+model or an estimate of a model you're able to anticipate you're able to plan
+into the future you're able to use the model to in a branching way predict how
+your actions will change the world so you can plan far into the future this is the mechanism by which you can you
+can do chess in the simplest form because in chess you don't even need to
+learn the model the models learnt is given to you chess go and so on the most important way in which they're
+different I think is the sample efficiency is how many examples of data
+are needed to be able to successfully operate in the world and so model based methods because they're constructing a
+model if they can are extremely simple efficient because once you have a model
+you can do all kinds of reasoning that doesn't require experiencing every possibility of that model you can unroll
+the model to see how the world changes based on your actions value based
+methods are ones that look to estimate the quality of states the quality of
+taking a certain action in the certain state so they're called off policy
+versus the last category that's on policy what does it mean to be off policy it means that they constantly
+value based agents constantly update how good is taken action in a state and they
+have this model of that goodness of taking action in a state and they use
+that to pick them optimal action they don't directly learn a policy a strategy
+of how to act they learn how good it is to be in a state and use that goodness
+information to then pick the best one and then every once in a while flip a
+coin in order to explore and then policy based methods our ones that directly
+learn a policy function so they take as input the the world representation of
+that world neural networks and this output a action where the action is
+stochastic so okay that's the range of model-based value based and policy based
+here's an image from open AI that I really like I encourage you to as we
+further explore here to look up spinning up in deeper enforcement learning from open AI here's an image that texana
+mises in the way that I described some of the recent developments in RL so at
+the very top the distinction between model free RL and model-based RL in
+model free RL which is what we'll focus on today there is a distinction between
+policy optimization so on policy methods and q-learning
+which is all policy methods pause optimizations methods that directly optimize the policy they'll directly
+learn the policy in some way and then q-learning off policy methods learn like
+I mentioned the value of taking a certain action in the state and from that learned that learned Q value be
+able to choose how to act in the world so let's look at a few sample representative
+approaches in this space let's start with the with the one that really was
+Q-learning
+one of the first great breakthroughs from google deepmind on the deep IRL side and solving atari games dqn deep
+queue learning networks deep queue networks and let's take a step back and
+think about what cue learning is q-learning looks at the state action value function queue that estimates
+based on a particular policy or based on an optimal policy how good is it to take an action in this state the estimated
+reward if I take an action in this state and continue operating under an optimal
+optimal policy it gives you directly a way to say amongst all the actions I
+have which action should that take to maximize the reward now in the beginning you know nothing you know you don't have
+this value estimation you don't have this cue function so you have to learn it and you learn it with a bellman
+equation of updating it you take your current estimate and update it with the reward you seed received after you take
+an action here it's off policy and model
+free you don't have to have any estimate or knowledge of the world you don't have to have any policy whatsoever all you're
+doing is roaming about the world collecting data when you took a certain action here award you received and
+you're updating gradually this table where the table has state states on the
+y-axis and actions on the x-axis and the
+key part there is because you always have an estimate of what of to take an
+action of the value of taking that action so you can always take the optimal one but because you know very
+little in the beginning that optimal is going to you have no way of knowing
+that's good or not so there's some degree of expiration the fundamental aspect of value based methods or ami are
+all methods like I said it's trial and error is exploration so for value based
+methods that q-learning the way that's done is with the flip of a coin epsilon greedy with a flip of a
+coin you can choose to just take a random action and you slowly decrease epsilon
+to zero as your agent learns more and more and more so in the beginning you explore a lot with epsilon 1 and epsilon
+of zero in the end when you're just acting greedy based on the your
+understanding of the world as represented by the q-value function for non neural network approaches this is
+simply a table the Q this Q function is a table like I said on the Y State X
+actions and in each cell you have a reward that's at this counter reward
+that you estimated to be received there and as you walk around with this bellami equation you can update that table but
+it's a table nevertheless number of states times number of actions now if
+you look at any practical real-world problem and an arcade game with raw
+Deep Q-Networks (DQN)
+sensory input is a very crude first step towards the real world so raw sensor
+information this kind of value iteration and updating a table is impractical
+because here's for a game of break out if we look at four consecutive frames of a game of breakout size of the of the
+raw sensory input is 84 by 84 pixels grayscale every pixel has 256 values
+that's 256 to the power of whatever 84
+times 84 times 4 is whatever it is it's significantly larger the number of atoms
+in the universe so the size of this cue table if we use the traditional approach
+is intractable
+you'll know it's to the rescue deep RL is rl+ neural networks where the neural
+networks is tasked with taking this in Valley based methods taking this cue
+table and learning a compress representation of it learning an approximator for the function from state
+action to the value that's what previously talked about the ability the
+powerful ability of neural networks to form representations from extremely high
+dimensional complex raw sensory information so it's simple the framework
+remains for the most part the same in reinforcement learning it's just that this cue function for
+value based methods becomes a neural network and becomes an approximator where the hope is as you navigate the
+world and you pick up new knowledge through the back propagating the gradient and the loss function that
+you're able to form a good representation of the optimal q function so using your networks with you'll know
+it's a good at which is function approximator x' and that's DQ 1 deep Q Network was used to have the initial
+incredible nice results on our K games where the input is the raw sensory
+pixels with a few convolutional layers for the connected layers and the output is a set of actions you know probability
+of taking that action and then you sample that and you choose the best action and so this simple agent whether
+the neural network that estimates that Q function very simple network is able to
+achieve superhuman performance on many of these arcade games that excited the
+world because it's taking raw sensory information with a pretty simple network
+that doesn't in the beginning understand any of the physics of the world any of the dynamics of the environment and
+through that intractable space the intractable state space is able to learn
+how to actually do pretty well the loss function for DQ n has to Q functions one
+is the expected the predicted Q value of
+a taking an action in a particular state and the other is the target against
+which the loss function is calculated which is what is the value that you got
+once you actually take in that action and once you've taken that action the
+way you calculate the value is by looking at the next step and choosing the max to Singh if you take the best
+action in the next state what is going to be the Q function so there's two estimators going on with in terms of
+neural networks those two forward passes here there's two Q's in this equation so in traditional DQ n that's just that's
+done by a single neural network with a few tricks and double DQ n that's done
+by two neural networks and I mentioned tricks because with this and with most
+of RL tricks tell a lot of the story a lot of what makes
+systems work is the details in in games and robotic systems in these cases the
+two biggest tricks for DQ n that will reappear and a lot of value based methods is experience replay so think of
+an agent that plays through these games as also collecting memories you collect
+this bank of memories that can then be replayed the power of that one of the
+central elements of what makes value based methods attractive is that because
+you're not directly estimating the policy but are learning the quality of taking an action in a particular state
+the you're able to then jump around through your memory and and play
+different aspects of that memory so learn train the network through the
+historical data and then the other trick simple is like I said that there is so
+the loss function has two queues so you're it's it's a dragon chasing its
+own tail it's easy for the loss function to become unstable so the training does
+not converge so the trick of fixing a target Network is taking one of the queues and only updating in every X
+steps every thousand steps and so on and taking the same kind of network it's just fixing it so for the target
+network that defines the loss function just keeping it fixed and only updating any regulator so you're chasing a fixed
+target with a loss function as opposed to a dynamic one so you can solve a lot
+of the Atari games with minimal effort come up with some creative solutions here break out here after 10 minutes of
+training on the left after a to have 2 hours of training on the right is coming up with some creative solutions again
+it's pretty cool because this is raw pixels right we're now like there's been
+a few years since this breakthrough so kind of take it for granted but I still
+for the most part captivated by just how beautiful it is that from the raw
+sensory information neural networks are able to learn to act
+in a way that actually supersedes humans in terms of creativity in terms of in terms of actual raw performance it's
+really exciting and games of simple form is the cleanest way to demonstrate that and you the the same kind of DQ and
+network is able to achieve superhuman performance and a bunch of different games there's improvements to this like dual
+DQ one again the q function can be decomposed which is useful in to the
+value estimate of being in that state and what's called and in future slides
+that we called advantage so the advantage of taking action in that state the nice thing of the
+advantage as a measure is that it's a measure of the action quality relative
+to the average action that could be taken there so if it's very useful
+advantage versus sort of raw reward is that if all the actions you have to take are pretty good you want to know well
+how much better it is in terms of optimism that's a better measure for choosing
+actions in a value-based sense so when you have these two estimates you have
+these two streams for neural networking the dueling DQ n DG QM where one
+estimates the value the other the advantage and that's again that dueling
+nature is useful for also on the there are many states in which the action is
+decoupled the quality of the actions is decouple from the state so many states
+it doesn't matter which action you take so you don't need to learn all the
+different complexities all the topology of different actions when you in a particular state and another one is
+prioritize experience for play like I said experience replay is really key to these algorithms and the thing that
+sinks some of the policy optimization methods and experiments replay is collecting different memories but if you
+just sample randomly in those memories you're now affected the sampled
+experiences are really affected by the frequency of those experience occurred not their importance so prioritize
+experience replay assigns a priority a value based on the magnitude of the
+temporal difference learned error so the the stuff you have learned the most from
+is given a higher priority and therefore you get to see through the experience
+replay process that that particular experience more often okay moving on to
+Policy Gradient (PG)
+policy gradients this is on policy versus q-learning off policy policy
+gradient is directly optimizing the policy where
+the input is the raw pixels and the policy network represents the forms of
+representations of that environment space and as output produces a stochastic estimate a probability of the
+different actions here in the pong the pixels a single output that produces the
+probability of moving the paddle up so how do pause gradients vanilla policy grading the very basic works is you
+unroll the environment you play through the environment here pong moving the
+paddle up and down and so on collecting no rewards and only collecting reward at
+the very end based on whether you win or lose every single action you're taking
+along the way gets either punished or rewarded based on whether it led to victory or defeat this also is
+remarkable that this works at all because the credit assignment there's a is I mean every single thing you did
+along the way is averaged out it's like muddied it's the reason that policy
+gradient methods are more inefficient but it's still very surprising that it works at all so the pros versus DQ one
+the value based methods is that if the world is so messy that you can't learn a q function the nice thing about policy
+gradient because it's learning the policy directly that it will at least learn a pretty good policy usually in
+many cases faster convergence it's able to deal with stochastic policies so value based methods can out learners the
+gassing policies and it's much more naturally able to deal with continuous actions the cons is it's inefficient
+versus dqn it's it can become highly
+unstable as we'll talk about some solutions to this during the training process and the credit assignment so if
+we look at the chain of actions that lead to a positive reward some might be
+awesome action some may be good action some might be terrible actions but that doesn't matter as long as the death
+the nation was good and that's then every single action along the way gets a positive reinforcement that's the
+downside and there's now improvements to that advantage actor critic methods a to see combining the best of value based
+Advantage Actor-Critic (A2C & A3C)
+methods and policy base methods so
+having an actor two networks an actor which is policy based and that's the one
+that's takes the actions samples the actions from the policy Network and the critic that measures how good those
+actions are and the critic is value based all right so as opposed to in the
+policy update the first equation there the reward coming from the destination the that our war being from whether you
+won the game or not every single step along the way you now learn a Q value
+function Q s a state and action using the critic Network so you're able to now
+learn about the environment about evaluating your own actions at every step so you're much more sample
+efficient there's a synchronous from deep mind and synchronous from open AI
+variants of this but of the actor advantage actor critic framework but
+both are highly parallelizable the difference with a three C the
+asynchronous one is that every single agency just throw these agents operating
+in the environment and they're learning they're rolling out the games and getting the reward they're updating the
+original Network asynchronously the global network parameters asynchronously
+and as a result they're also operating constantly an outdated versions of that
+network the open AI approach that fixes this is that there's a coordinator that
+there's these rounds where everybody all the agents in parallel are rolling out
+the episode but then the coordinator waits for everybody to finish in order to make the update to the global network
+and then distributes all the same parameter to all the agents and so that means that
+every iteration starts with the same global parameters and that has really nice properties in terms of conversions
+and stability of the training process okay from google deepmind the deep
+Deep Deterministic Policy Gradient (DDPG)
+deterministic policy gradient is combining the ideas of dqn but dealing
+with continuous action spaces so taking a policy network but instead of the
+actor actor critic framework but instead of picking a stochastic policy having
+the actor operator on the since the casting nature is picking the best picking a deterministic policy so it's
+always choosing the best action but ok with that the problem quite naturally is
+that when the policy is now deterministic it's able to do continuous action space but because it's termina
+stick it's never exploring so the way we inject exploration into the system is by adding noise either adding noise into
+the action space on the output or adding noise into the parameters of the network that have then that create perturbations
+and the actions such that the final result is that you try different kinds of things and the the scale of the noise
+just like well the epsilon greedy in the exploration for DQ on the scale of the noise decreases as you learn more and
+more so on the policy optimization side from open ai and others
+Policy Optimization (TRPO and PPO)
+we'll do a lecture just on this there's been a lot of exciting work here the
+basic idea of optimization on policy optimization with PPO and TRP au is
+first of all we want to formulate reinforcement learning as purely an
+optimization problem and second of all if policy optimization the actions you
+take influences the rest of your the optimization process you have to be very
+careful about the actions you take in particular you have to avoid taking
+really bad actions when you're convergence the the training performance in general collapses so how do we do
+that there's the line search methods which is where gradient descent or gradient descent falls under which which is the
+how we train deep neural networks is you first pick a direction of the gradient
+and then pick the step size the problem with that is that can get you into
+trouble here there's a nice visualization walking along a ridge is
+it can it can result in you stepping off that Ridge again the collapsing of the
+training process the performance the trust region is is the underlying idea
+here for the for the policy optimization methods that first pick the step size so
+that constrain in various kinds of ways the the magnitude of the difference to
+the weights that's applied and then the direction so it placing a much higher
+priority not choosing bad actions that can throw you off the optimization path should actually we should take to that
+path and finally the on the model-based methods and we'll also talk about them
+AlphaZero
+in the robotics side there's a lot of interesting approaches now where deep
+learning is starting to be used for a model-based methods when the model has to be learned but of course when the
+model doesn't have to be learned it's given inherent to the game you know the model like Ingo and chess and so on out
+zero has really done incredible stuff so what's wise what is the model here so
+the way that a lot of these games are approached you know game of Go it's turn-based one person goes and then
+another person goes and there's this game tree at every point as a set of actions that could be taken and quickly
+if you look at that game tree it's it becomes you know a girl's exponentially so it becomes huge a game of go is the
+hugest of all in terms of because the number of choices you have is the largest and there's chess and then you
+know it gets the checkers and then tic-tac-toe and it's just the the degree at every step increases decreased based
+on the game structure and so the task for a neural network there is to learn the quality of the board it's that it's
+to learn which boards which game positions are most likely to result in a
+are most useful to explore and a result in a highly successful state so that
+choice of what's good to explore what's what branch is good to go down is where
+we can have neural network step in and without phago it was pre trained the
+first success that beat the world champion was pre trained on expert games then with alphago zero
+it was no pre training on expert systems
+so no imitation learning is just purely through self play through suggesting
+through playing itself new board positions many of these systems use Monte Carlo tree search and during the
+search balancing exploitation exploration so going deep on promising positions based on the estimation then
+you'll network or with a flip of a coin playing under play positions and so this
+kind of here you can think of as an intuition of looking at a board and estimating how good that board is and
+also estimating how good that board is likely to lead to victory down the end
+so as to mean just general quality and probability of leading to victory then
+the next step forward is alpha zero using the same similar architecture with
+MCTS what do you call it research but applying it to different games and
+applying it and competing against other engines state-of-the-art engines and go
+and shogi in chess and outperforming them with very few very few steps so
+here's this model-based approaches which are really extremely simple efficient if
+you can construct us such a model and in in the robotics if you can learn such a model I can be exceptionally powerful
+here beating the the engines which are
+far superior to humans already stockfish can destroy most humans on earth at the
+game of chess the ability through learning through through estimating the quality of a board to be able to defeat
+these engines is incredible and the the exciting aspect here versus engines that
+don't use neural networks is that the number its it really has to do with
+based on the neural network you explore certain positions you explore certain
+parts of the tree and if you look at grandmasters human players in chess they
+seem to explore very few moves they have a really good neural network at estimating which are the likely branches
+which would provide value to explore and on the other side stock fish and so on
+are much more brute force in their estimation for the MCTS and then alpha
+zero is a step towards the Grandmaster is the number of branches need to be explored as much much fewer a lot of the
+work is done in the representation form by the neural network it's just super exciting and then it's able to uh
+perform stockfish in chess it's able to outperform Elmo and shogi and it's
+itself in go or the previous iterations of alphago zero and so on now the
+Deep RL in real-world applications
+challenge here the sobering truth is that majority of real world application
+of agents that have to act in this world perceive the world and act in this world are for the most part not based have no
+RL involved so the action is not learned use neural networks to perceive certain
+aspects of the world but ultimately the action is not is not learned from data
+that's true for all most of the autonomous vehicle companies are all of the autonomous vehicle companies
+operating today and it's true for robotic manipulation in the industrial
+robotics and any of the humanoid robots have to navigate in this world under uncertain conditions all the work from
+Boston Dynamics doesn't involve any machine learning as far as we know now
+that's beginning to change here with animal the the recent development where
+the certain aspects of the control a robotic could be learned
+you're trying to learn more efficient movement you're trying to learn more robust movement on top of the other
+controllers so it's quite exciting through RL to be able to learn some of
+the control dynamics here that's able to teach this particular robot to be able
+to get up from arbitrary positions so it's less hard coding in order to be able to deal with unexpected nishal
+conditions and unexpected perturbations so that's exciting there in terms of
+learning the control dynamics and some of the driving policy so maybe behavioral driving behavior
+decisions changing lanes turning and so on that if you if you were here last week heard
+from way moe they they're starting to use some RL in terms of the driving policy in order to especially predict the future they're
+trying to anticipate intent modeling predict what the pedestrians the cars are going to be based on environment that are trying to
+unroll what's happened recently into the future and beginning to move beyond sort
+of pure end to end on NVIDIA and to end learning approach of the control decisions are actually moving to
+RL and making long-term planning decisions but again the challenge is the
+Closing the RL simulation gap
+the gap the leap needed to go from simulation to real-world all most the
+work is done from the design of the environment and the design and the reward structure and because most of
+that work now is in simulation we need to either develop better algorithms for transfer learning or close the distance
+between simulation in the real world and also we could think outside the box a
+little bit at the conversation with Peter bill recently one of the leading researchers in deep RL it kind of on the
+side quickly mentioned the the idea is that we don't need to make simulation
+more realistic what we could do is just create an infinite number of simulations
+or very large number of simulations and the naturally the regularization aspect
+of having all those simulations will make it so that our our reality is just another sample from those simulations
+and so maybe the solution isn't to create higher fidelity simulation or to create transfer learning algorithms
+maybe it's to build a arbitrary number
+of simulations so then that step towards creating a agent that work that works in
+the real world is a trivial one and maybe that's exactly whoever created the
+simulation we're living in and the multiverse that we're living in did next
+Next step in Deep RL
+steps the lecture videos will have several in RL will be made all available
+on deep learning that MIT ID you will have several tutorials in RL on github
+the link is there and I really like the essay from open AI on spinning up as a
+deep our researcher you know if you're interested in getting into research in RL what are the steps need to take from
+the background of developing the mathematical background prop stat and multivariate calculus to some of the
+basics like it's covered last week on deep learning some the basics ideas in RL just terminology
+and so on some basic concepts then picking a framework tends to flow our PI torch and learn by doing i implemented
+guram as i mentioned today those are the core RL algorithms so implement all isms
+from scratch it should only take about two hundred three hundred lines of code there actually when you put it down on
+paper quite simple intuitive algorithms and then read papers about those
+algorithms that follow after looking not for the big waving performance the hand
+waving performance but for the tricks that were used to change these algorithms the tricks tell a lot of the
+story and that's the useful parts that they need to learn and iterate fast on
+simple benchmark environments so open the I Jim has provided a lot of easy to use environments that you can play with
+that you can train an agent in minutes hours as opposed to days and weeks and
+so iterating fast is the best way to learn these algorithms and then on the research side there's three ways to get
+a best paper award right two to publish and to contribute and have an impact in
+the research community in in RL one is improving existing approach given us a
+particular benchmarks there's a few benchmark datasets environments that are emerging so you want to improve on the
+existing approach some aspect of the convergence in the performance you can focus on an unsolved task there's
+certain games that just haven't been solved through their RL formulation or
+you can come up with a totally new problem that hasn't been addressed by RL before so with that I'd like to thank
+you very much tomorrow I'll hope to see you here for deep traffic Thanks
 
 ----------
 
 -----
+
 --56--
 
 -----
-Date:
-Link:
+Date: 2019.01.19
+Link: [# Tomaso Poggio: Brains, Minds, and Machines | Lex Fridman Podcast #13](https://www.youtube.com/watch?v=aSyZvBrPAyk)
 Transcription:
 
-paste here
+the following is a conversation with Tommaso poggio he's the professor at MIT and as a director of the Center for
+brains minds and machines sited over 100,000 times his work has had a
+profound impact on our understanding of the nature of intelligence in both biological and artificial neural
+networks he has been an advisor to many highly impactful researchers and entrepreneurs
+in AI including demis hassabis of deep mind I'm nacho of mobile eye and
+Christof Koch of the Allen Institute for brain science this conversation is part
+of the MIT course on artificial general intelligence and the artificial intelligence podcast if you enjoy it
+subscribe on youtube itunes or simply connect with me on twitter at Lex Friedman spelled Fri D and now here's my
+conversation with Tommaso poggio you've mentioned that in your childhood you've
+developed a fascination with physics especially the theory of relativity and that Einstein was also a childhood hero
+to you what aspect of Einstein's genius the nature was genius do you think was
+essential for discovering the theory of relativity you know Einstein was a hero
+to me and I'm sure to many people because he was able to make of course a
+major major contribution to physics with
+simplifying a bit just a Gedanken experiment a fourth experiment you know
+imagining communication with Lights between a stationary observer and
+somebody on a train and I thought you know the the fact that just with the
+force of his fault of his thinking of his mind he could guide to some
+something so deep in terms of physical reality how time depend on space and
+speed it was something absolutely fascinating was the power of
+intelligence the power of the mind do you think the ability to imagine to
+visualize as he did as a lot of great forces sister do you think that's in all of us
+human beings or is there something special to that one particular human being I think you know all of us can
+learn and have in principle similar
+breakthroughs there are lesson to be learned from Einstein he was one of five PhD students
+at ETA and the ID Canarsie technician actua in Zurich in physics and he was
+the worse of the five but the only one who did not get an academic position
+when he graduated well finished his PhD and he went to work as everybody knows
+for the Patent Office and so it's not so much the work for the Patent Office but
+the fact that obviously it was marked but he was not the top student obviously
+was the anti conformist I was not thinking in the traditional way that
+probably stitches and the other students were doing so there is a lot to be said
+about you know trying to be to do the opposite or something quite different
+from what other people are doing that's actually true for the stock market never never buy for very bodies by and
+also true for science yes so you've also mentioned staying on a theme of physics
+that you were excited and a young age by the mysteries of the universe that
+physics could uncover such as I saw mentioned the possibility of time travel
+so the most out-of-the-box question I think I'll get to ask today do you think time travel is possible well it would be
+nice if it were possible right now you know you in science you never say no
+but your understanding of the nature of time yeah it's very likely that it's not
+possible to travel in time you may be able to travel forward in time
+if we can for instance freeze ourselves or you know go on some spacecraft
+traveling close to the speed of light but in terms of activity traveling for
+instance back in time I find probably very unlikely so do you still hold the
+underlying dream of the engineering intelligence that will build systems
+that are able to do such huge leaps like discovering the kind of mechanism that
+would be required to travel through time do you still hold that dream or are echoes of it from your childhood yeah I
+you know I don't think whether there are certain problems that probably cannot be
+solved depending what what you believe about the physical reality like you know
+maybe totally impossible to create energy from nothing or to travel back in
+time but about making machines that can
+think as well as we do or better or more likely especially in the short and
+midterm helped us think better which is in a sense is happening already with the
+computers we have and it will happen more and more but that I certainly believe and I don't see in principle why
+computers at some point could not become more intelligent than we are although
+the word intelligence it's a tricky one and one who should discuss which I mean
+with that in intelligence consciousness yeah words like love is all these are
+very you know you need to be disentangled so you've mentioned also that you believe the problem of
+intelligence is the greatest problem in science greater than the origin of life and the origin the universe you've also
+in the talk I've listened to said that you're open to arguments against against
+you so what do you think is the most captivating aspect of this problem of
+understanding the nature of intelligence why does it captivate you as it does
+well originally I think one of the motivation that I had as I guess a
+teenager when I was infatuated with theory of relativity was really that I I
+found that there was the problem of time and space and general relativity but
+there were so many other problems of the same level of difficulty and importance
+that I could even if I were I stein it was difficult to hope to solve all of
+them so what about solving a problem whose solution allowed me to solve all
+the problems and this was what if we could find the key to an intelligence
+you know ten times better or faster than Einstein so that's sort of seeing
+artificial intelligence as a tool to expand our capabilities but is there
+just an inherent curiosity in you and just understanding what is in our in
+here that makes it all all work yes absolutely all right so I was starting I
+started saying this was the motivation when I was a teenager but you know soon
+after I think the problem of human intelligence became a real focus of you
+know of my sent my science and my research because I think he's for me the
+most interesting problem is really asking oh we we are right is asking not
+only a question about science but even about the very tool we are using to do
+science which is our brain how does our brain work from where does it come from
+after its limitation can we make it better and that in many ways is the ultimate
+question that underlies this whole effort of science so you've made
+significant contributions in both the science of intelligence and the engineering event
+in a hypothetical way let me ask how far do you think we can get in creating
+intelligent systems without understanding the biological the
+understanding how the human brain creates intelligence put another way do you think we can build a strong-ass system without really
+getting at the core the functionally understanding the functional nature of the brain well this is a real difficult
+question you know we did solve problems
+like flying without really using too
+much our knowledge about how birds fly it was important I guess to know that
+you could have things heavier than than air being able to fly like like birds
+but beyond that probably we did not learn very much you know some you know
+the brothers right did learn a lot of observation about birds and designing
+their their aircraft but you know you can argue we did not use much of biology
+in that particular case now in the case of intelligence I think that it's it's a
+bit of a bet right now if you are if you ask okay we we all
+agree we'll get at some point maybe soon maybe later to a machine that is
+indistinguishable from my secretary say in terms of what I can ask the machine
+to do I think we get there and now the question is and you can ask people do
+you think we'll get there without any knowledge about you know the human brain or that is the best way to get there is
+to understand better the human brain yeah okay this is I think an educated
+bet that different people with different background will decide in different ways
+the recent history of the progress in AI in the last out say five years or ten
+years is has been that the main breakthroughs
+the main recent breakthroughs I really start from neuroscience
+mention reinforcement learning as one is one of the algorithms at the core of
+alphago which is the system that beat the kind of an official world champion
+of go lee sedol and two three years ago in seoul that's one and that started
+related with the work of Pavlov and I'll or hundred Marvin Minsky in the sixties
+many other neuroscientists later on and deep learning started which is the core
+again of alphago and systems like autonomous driving systems for cars like
+the systems that mobile I which is a company started by one of my exposed or
+Colonel Joshua did so that is a core of those things and deep learning really
+the initial ideas in terms of the architecture of this layered ARCIC on networks started with work of Torsten
+Wiesel and David Hubel at Harvard up the river in the 60s so recent history
+suggests the neuroscience played a big role in these breakthroughs my personal
+bet is that there is a good chance they continue to play a big role maybe not in
+all the future breakthroughs but in some of them at least in inspiration so at least in a new spirit absolutely yes so
+you see you studied both artificial and biological neural networks you said these mechanisms that underlie deep
+learning deeper and reinforcement learning but there is nevertheless
+significant differences between biological and artificial neural networks as they stand now so between
+the two what he finds the most interesting mysterious maybe even
+beautiful difference as it currently stands in our understanding I must
+confess that until recently I found that the artificial networks
+too simplistic relative to real neural networks but you know recently I've been
+started to think that yes there are a very big simplification of what you find
+in the brain but on the other hand there are much closer in terms of the
+architecture to the brain than other models that we had that computer science
+used as model of thinking which were mathematical logics you know Lisp Prolog
+and those kind of things yeah so in comparison to those they're much closer
+to the brain you have networks of neurons which is what the brain is about
+and the artificial neurons in the models are as I said caricature of the
+biological neurons but they're still neurons single units communicating with other units something that is absent in
+you know the traditional computer type models of mathematics reasoning and so
+on so what aspect is would you like to see in artificial neural networks added
+over time as we try to figure out ways to improve them so one of the main
+differences and you know problems in
+terms of deep learning today and it's not only deep learning and the brain is
+the need for deep learning techniques to have a lot of labeled examples you know
+for Easter for imagenet you have like a training site which is 1 million images each one labeled by some human in terms
+of which object is there and it's it's clear that in biology a baby may be able
+to see million of images in the first years of life but will not have million
+of labels given to him or her by parents or take
+take care takers so how do you solve that you know I think there is this
+interesting challenge that today deep learning and related techniques are all
+about big data big data meaning a lot of examples labeled by humans
+whereas in nature you have so that this
+big data is n going to infinity that's the best you know and meaning labeled
+data but I think the biological world is more n going to one Hey a child can
+learn the beautiful wrote a very small number of you know labeled examples like
+you tell a child this is a car you don't need to say like imagenet you know this
+is a car this is a car this is not a car this is not a cat 1 million times so and
+of course with alphago and or at least alpha 0 variants there's because of the
+because the world of go is so simplistic that you can actually learn by yourself
+through self play you could play against each other and the real world i meet the visual system that you've studied
+extensively is a lot more complicated than the game of go so under comment
+about children which are fascinatingly good at learning new stuff how much of
+it do you think is hardware how much of it is software you know that's a good deep question is in a sense is the old
+question of nurture and nature how much isn't in the gene and how much is in the
+experience of an individual obviously it's both that play a role and i believe
+that the way evolution gives put prior information so
+to speak hard while it's not really hard while but that's essentially an
+hypothesis I think what's going on is that evolution as you know almost
+necessarily if you believe in Darwin is very opportunistic and and think about
+our DNA and the DNA of Drosophila our
+DNA does not have many more genes than resolve around the fly the fly the fruit
+fly now we know that the fruit fly does not learn very much during its
+individual existence it looks like one of this machinery that it's really
+mostly not hundred percent but you know 95 percent hard coded by the genes
+but since we don't have many more genes than Drosophila as evolution could
+encoding as a kind of general learning machinery and then had to give very weak
+priors like for instance let me take
+give a specific example which is recent to work by a member of our Center for
+brains minds and machines we know because of work of other people in our
+group and other groups that there are cells in a part of our brain neurons that are tuned to phases they seems to
+be involved in face recognition now this face area exists seems to be present in
+young children and adults and one
+question is is there from the beginning is hardwired by evolution or you know
+somehow is learned very quickly so what's your by the way a lot of the questions I'm asking with the answer is
+we don't really know but as a person who has contributed some profound ideas in
+these fields you're a good person to guess at some of these so of course there's a caveat before a lot of the
+stuff we talk about but what is your hunch is the face the part of the brain
+that that seems to be concentrated on face recognition are you born with that or you just is designed to learn that
+quickly like the face of the mother and I my hand shimmer by bias was the second
+one learned very quickly and it turns out that Marge Livingstone at Harvard
+has done some amazing experiments in which she raised baby monkeys depriving
+them of faces during the first weeks of life so they see technicians but the
+technician have a mask yes and and so
+when they looked at the area in the brain of this monkeys
+that were usually find faces they found no face preference so my guess is that
+what evolution does in this case is there is a plastic Canaria which is
+plastic which is kind of predetermined to be imprinted very easily but the
+command from the gene is not detailed circuitry for a face template could be
+but this will require probably a lot of bits you had to specify a lot of connection of a lot of neurons instead
+that the command that commands from the gene is something like imprint memorized
+what you see most often in the first two weeks of life especially in connection
+with food and maybe nipples I don't write well source of food and so in then
+that area is very plastic at first and in the otherwise I'd be interesting if a variant of that experiment would show a
+different kind of pattern associated with food than a face pattern well whether that quite stick there are
+indications that during that experiment what the monkey saw quite often where
+the blue gloves of the technicians that were giving to the baby monkeys the milk
+and some of the cells see instead of being face sensitive in that area or a
+hand sensitive that's fascinating can you talk about what are the
+different parts of the brain and in your view sort of loosely and how do they
+contribute to intelligence do you see the brain as a bunch of different modules and they together come in the
+human brain to create intelligence or is it all one mush of the same kind of
+fundamental architecture yeah that's you
+know that's an important question and there was a phase in neuroscience by
+in the 1950 or so in which it was believed for a while that the brain was
+equipotential this was the term you could cut out a piece and nothing
+special happened apart a little bit less performance there was a a surgeon
+Lashley did a lot of experiments of this type with mice and rats and concluded
+that every part of the brain was essentially equivalent to any other one
+it turns out that that's that's really not true it's there are very specific
+modules in the brain as you said and you know people may lose the ability to
+speak if you have a stroke in a certain region or may lose control of their legs
+in another region or so they're very specific the brain is also quite
+flexible and redundant so often it can correct things and you know the kind of
+takeover functions from one part of the brain to the other but but but really
+there are specific modules of the answer that we know from this old work which
+was basically on based on lesions either on animals or very often there were a
+mine of well it there was a mine a very interesting data coming from from the
+war from different types of injuries injuries that soldiers had in the brain
+and more recently functional MRI which
+allow you to to check which part of the brain are active when you are doing
+different tasks as you know can replace
+some of this you can see that certain parts of the brain are involved or
+active in this language yeah yeah that's right but sort of taking a step back to that
+part of the brain that discovers that specializes in the face and how that might be learned what's your intuition
+behind you you know is it possible that the sort of from a physicists
+perspective when you get lower and lower that it's all the same stuff and it just when you're born it's plastic and it
+quickly figures out this part is going to be about vision this is gonna be about language this is about common
+sense reasoning do you have an intuition that that kind of learning is going on really quickly or is it really kind of
+solidified in hardware that's a great question so there are parts of the brain
+like the cerebellum or they put campus that are quite different from each other
+they clearly have different Anatomy different connectivity that then there
+is the cortex which is the most
+developed part of the brain in humans and in the cortex you have different
+regions of the cortex that are responsible for vision for audition for
+motor control for language now one of the big puzzles of of this is that in
+the cortex is the cortex is the cortex it looks like it is the same in terms of
+hardware in terms of type of neurons and connectivity across these different
+modalities so for the cortex letting
+aside these other parts of the brain like spinal cord upon campus or bedroom and so on for the cortex I think your
+question about hardware and software and learning and so on it's it I think is
+rather open and you know it I find very
+interesting for easy to think about an architecture computer architecture that
+is good for vision and the symptom is good for language seems to be you know
+so different problem areas that you have
+to solve but the underlying mechanism might be the same that's really instructive for it maybe artificial
+neural networks so you've done a lot of great work in vision and human vision
+computer vision and you mentioned the problem of human vision is really as
+difficult as the problem of general intelligence and maybe that connects to the cortex discussion can you describe
+the human visual cortex and how the humans begin to understand
+the world through the raw sensory information the woods for folks enough
+familiar especially in on the computer vision side we don't often actually take
+a step back except saying what the sentence or two that one is inspired by the other well what is it that we know
+about the human visual cortex that's interest so we know quite a bit at the same time we don't know a lot but the
+the bit we know you know in a sense we know a lot of the details and Men we
+don't know and we know a lot of the top level the answer the top level question
+but we don't know some basic ones even in terms of general neuroscience forgetting vision you know why do we
+sleep it's such a basic question and we
+really don't have an answer to that do you think so taking a step back on that so sleep for examples fascinating do you
+think that's a neuroscience question or if we talk about abstractions what do
+you think is an interesting way to study intelligence or are most effective on the levels of abstractions the chemicals
+the biological is electro physical mathematical as you've done a lot of excellent work on that side which
+psychology is sort of like at which level of abstraction do you think well in terms of levels of abstraction I
+think we need all of them all hits when you know it's like if you ask me what
+does it mean to understand the computer right that's much simpler but in a computer I could say well I understand
+how to use PowerPoint that's my level of understanding a computer it's it has
+reasonable you know give me some power to produce lights and beautiful slides and now the class on body exercise well
+I I know how the transistor work that are inside the computer I can write the equation for you know transistor and
+diodes and circuits logical circuits and I can ask this guy do you know how
+to operate PowerPoint no idea so do you think if we discovered computers walking
+amongst us full of these transistors that are also operating under windows
+and have PowerPoint do you think it's digging in a little bit more how useful
+is it to understand the transistor in order to be able to understand
+PowerPoint and these higher-level very good intelligence I see so I think in the case of computers because they were
+made by engineers by us this different level of understanding are rather
+separate on purpose you know you there are separate modules so that the
+engineer that designed the circuit for the chips does not need to know what power is inside PowerPoint and somebody
+you can write the software translating from one to the end to the other and so
+in that case I don't think understanding the transistor help you understand
+PowerPoint or very little if you want to understand the computer this question
+you know I would say you have to understanding a different levels if you really want to build one right but but
+for the brain I think these levels of understanding so the algorithms which
+kind of computation you know the equivalent of PowerPoint and the circuits you know the transistors I
+think they are more much more intertwined with each other there is not you know in Italy level of the software
+separate from the hardware and so that's why I think in the case of the brain a
+problem is more difficult or more than four computers requires the interaction
+the collaboration between different types of expertise that's a big the brain is a big mess
+you can't just on disentangle a level I think you can but is is much more
+difficult and it's not you know it's not completely obvious and and I said I think he's one of the
+person everything is the greatest problem in science so yeah you know I think he's it's fair that it's difficult
+one that said you do talk about compositionality and why I might be
+useful and when you discuss what why these neural networks in artificial or biological sense learn anything you talk
+about compositionality see there's a sense that nature can be disentangled
+our purpura well all aspects of our cognition could
+be disentangled a little to some degree so why do you think what first of all
+how do you see compositionality and why do you think it exists at all in nature
+it spoke about I use the the term
+compositionality when we looked at deep neural networks
+multi-layers and trying to understand when and why they are more powerful than
+more classical one layer network like linear classifier kernel machines
+so-called and what we found is that in
+terms of approximating or learning or representing a function a mapping from
+an input to an output like from an image to the label in the image if this
+function as a particular structure then deep networks are much more powerful
+than shallow networks to approximate the underlying function and the particular
+structure is a structure of compositionality if the function is made
+up of functions of function so that you need to look on when you are
+interpreting an image classifying an image you don't need to look at all
+pixels at once but you can compute something from small groups of pixels
+and then you can compute something on the output of this local computation and
+so on that is similar to what you do when you read the sentence you don't need to read the first and the last
+letter but you can read syllables combine them in words combine the words
+in sentences so this is this kind of structure so that's as part of the
+discussion of why deep neural networks may be more effective than the shallow methods and is your sense for most
+things we can use neural networks for those problems are going to be
+compositional in nature like like language like vision how far can we get
+in this kind of right so here is almost philosophy well you
+know there yeah let's go there so a friend of mine max tegmark who is a
+physicist at MIT I've talked to him on this thing yeah and he disagrees with you right yeah but we you know we agree
+most but the conclusion is a bit differently he is conclusion is that for images for
+instance the compositional structure of this function that we have to learn or
+to solve these problems comes from physics comes from the fact that you
+have local interactions in physics between atoms and other atoms between
+particle of matter and other particles between planets and other planets
+between stars that it's all local and
+that's true but you could push this argument a bit further not this argument
+actually you could argue that you know maybe that's part of the true but maybe
+what happens is kind of the opposite is that our brain is wired up as a deep
+network so it can learn understand solve
+problems that I have this compositional structure and I cannot do they cannot
+solve problems that don't have this compositional stretch so the problem is we are accustomed to we think about we
+test our algorithms on our this compositional structure because our
+brain is made up in that's in a sense an evolutionary perspective as we've so the
+ones that didn't have the they weren't dealing with a compositional nature of reality died off yes it also could be
+may be the reason why we have this local connectivity in
+the brain like simple cells in cortex looking only the small part of the B
+image each one of them and another says looking at it small number of these simple cells and so on the reason for
+this may be purely that was difficult to grow longer range connectivity so
+suppose it's you know for biology it's possible to grow short range
+connectivity but not longer and also because there is a limited number of long range the Duke and so you have at
+this this limitation from the biology and this means you build a deep
+convolutional neck this would be something like deep convolutional network and this is great for solving
+certain class of problem these are the ones we are we find easy and important
+for our life and yes they were enough for us to survive and and you can start
+a successful business on solving those problems right mobile a driving is a
+compositional problem right so on the unlearning task i mean we don't know
+much about how the brain learns in terms of optimization but so the thing that's
+stochastic gradient descent is what artificial neural networks used for the
+most part to adjust the parameters in such a way that it's able to deal based
+on the label data it's able to solve the problem yeah so what's your intuition
+about why it works at all a heart of a
+problem it is to optimize in your own network artificial neural network is
+there other alternatives you're just in general your intuition is
+behind this very simplistic algorithm that seems to do pretty good surprising yes yes so I find near of science the
+the architecture of cortex it's a really similar to the architecture of deep networks so that
+there is a nice correspondence there between the biology and this kind of
+local connectivity hierarchical architecture the stochastic gradient
+descent as you said is is a very simple technique
+it seems pretty unlikely that biology
+could do that from from what we know right now about you know cortex and neurons and synapses
+so it's a big question open whether there are other optimization learning
+algorithms that can replace stochastic gradient descent and my my guess is yes
+but nobody has found yet a real answer I
+mean people are trying still trying and there are some interesting ideas the
+fact that stochastic gradient descent is so successful this has become clear is
+not so mysterious and the reason is that it's an interesting fact you know it's a
+change in a sense in how people think about statistics and and this is the
+following is that typically when you had
+data and you had say a model with parameters you are trying to fit the
+model to the data you know to fit the parameter typically the kind of kind of
+crowd wisdom type idea was you should
+have at least you know twice the number of data than the number of parameters
+you maybe 10 times is better now the way
+you train neural net or this disease that I have they have 10 or 100 times
+more parameters than did exactly the opposite and which you know it is it has
+been one of the puzzles about neural networks how can you get something that really works when you have so much
+freedom in its in from that Laura Derek in general right somehow right exactly
+do you think this the stochastic nature is essential to randomness so I think we have some initial understanding why this
+happens but one nice side effect of
+having this over parameterization more parameters than data is that when you
+look for the minima of a loss function like stochastic gradient descent is doing in find I I made some calculations
+based on some old basic theorem of algebra called
+bazoo theorem and that gives you an estimate of the number of solution of a
+system of polynomial equation anyway the bottom line is that there are probably
+more minima for a typical deep networks
+than atoms in the universe just to say there are lost because of the over
+parametrization a more global minimum zero meaning good
+meaning so it's not just local minima yeah a lot of them so you have a lot of
+solutions so it's not so surprising that you can find them relatively easily and
+this is why this is because of the overall parameterization the organization sprinkles an entire space
+for solutions pretty good and so not so surprising right is like you know if you
+have a system of linear equation and you have more unknowns than equations then
+you have we know you have an infinite number of solutions and the question is
+to pick one that's another story but you have an infinite number of solutions so there are a lot of value of your
+unknowns that satisfy the equations but it's possible that there's a lot of
+those solutions that aren't very good what's surprising so that's a good question why can you pick one the
+generalizes one yeah that's a separate question with separate answers one one
+theorem that people like to talk about that kind of inspires imagination of the
+power in your networks is the universality a universal approximation theorem you can approximate any
+computable function with just a finite number of neurons and a single hidden layer see you find this theorem one
+surprising you find it useful interesting inspiring now this one you
+know I never found it very surprising it's was known since the 80s
+since I entered the field because it's basically the same as biased as the
+which says that I can approximate any continuous function with a polynomial of
+sufficiently with a sufficient number of terms monomials so basically the same
+and the proves very similar so your intuition was there's never any doubt in
+your networks in theory could the right be very strong approximate nicely the the question the interesting question is
+that if this theorem
+it says you can approximate fine but when you ask how many neurons for
+instance or in the case of polynomial how many monomials I need to get a good
+approximation then it turns out that
+that depends on the dimensionality of your function how many variables you
+have but it depends on the dimensionality of your function in a bad way it's for instance suppose you want
+an error which is no worse than 10% in
+your approximation you come up with a net of the approximate your function
+within 10% then turns out that the
+number of units you need are in the order of 10 to the dimensionality D how
+many variables so if you have you know two variables is these 2 would you have
+hundred units and okay but if you have say 200 by 200 pixel images now this is
+you know 240 thousand whatever and we can go to the sizing universe pretty
+quickly there are exactly 10 to the 40,000 and so this is called the curse
+of dimensionality not you know quite appropriate and the hope is with the
+extra layers you can remove the curse what we proved is that if you have deep
+layers or a rocky core architecture that with the local connectivity of the type
+of convolutional deep learning and if you are dealing with a function that has
+this kind of hierarchical architecture then you avoid completely the curves
+you've spoken a lot about supervised deep learning yeah what are your
+thoughts hopes views on the challenges of unsupervised learning with the
+with Ganz with the generator valor surround networks do you see those is
+distinct that the power of Ganz does is distinct from supervised methods in your
+networks are they really all in the same representation ballpark gains is one way
+to get estimation of probability
+densities which is somewhat new way but people have not done before I I don't
+know whether this will really play an important role in you know in
+intelligence or it's it's interesting I'm I'm less enthusiastic about it too
+many people in the field I have the feeling that many people in the field are really impressed by the ability to
+of producing realistic looking images in
+this generative way which describes the popularity of the methods but you're saying that while that's exciting and
+cool to look at it may not be the tool that's useful for yeah for so you
+describe it kind of beautifully current supervised methods go and to infinity in terms of number of labelled points and
+we really have to figure out how to go to and to one yeah and you're thinking ganz might help but they might not be
+the right I don't think you for that problem which I really think is important I think they may help they
+certainly have applications for instance in computer graphics and you know we I
+did work long ago which was a little bit similar in terms of saying okay 11 network and I present
+images and I can so input its images and
+output is for instead the pose of the image you know a face how much is miling is rotated 45 degrees or not what about
+having a network that I trained with the same dataset but now I invert input and
+output now the input is the pose or the expression number certain numbers and
+the output is the image and I train it and we did pretty good interesting results in terms of producing very
+realistic looking images was you know less sophisticated mechanism but the
+output was pretty less than gains but the output was pretty much of the same
+quality so I think for computer graphics type application yeah definitely gains
+can be quite useful and not only for that--for but for you know helping for
+instance on this problem of unsupervised example of reducing the number of
+labeled examples I think people it's
+like they think they can get out more than they put in you know it there's no
+free lunches Yeah right that's what do you think what's your intuition how can we slow the growth of
+n to infinity in supervised and to infinity in supervised learning so for
+example mobile I has very successfully I mean essentially annotated large amounts
+of data to be able to drive a car now one thought is so we're trying to teach machines of AI and we're trying to so
+how can we become better teachers maybe that's one one way now I got your you know what I like that because one
+again one caricature of the history of computer sites you could say is with the
+gains with programmers expensive yeah continuously labelers cheap yeah and the
+future would be schools like we have for kids yeah currently the labeling methods were
+not selective about which examples we we
+teach networks with so I think the focus of making one-shot networks that learn
+much faster is often on the architecture side but how can we pick better examples
+with wish to learn do you have intuitions about that well that's part of the quarter program but the other one
+is you know if we look at biology
+reasonable assumption I think is in the
+same spirit II that I said evolution is opportunistic and has weak priors you
+know the way I think the intelligence of child the baby may develop is by
+bootstrapping weak priors from evolution for instance in you can assume that you
+are having most organisms including human babies built in some basic
+machinery to detect motion and relative motion and in fact there is you know we
+know all insects from fruit flies other animals they have this
+even in the readiness of in the very peripheral part it's very conserved across species something that evolution
+discovered early it may be the reason why babies tend to look in the first few
+days to moving objects and not to not moving out now moving objects means okay
+they are attracted by motion but motion also means that motion gives automatic
+segmentation from the background so because of motion boundaries you know
+either the object is moving or the eye of the baby is tracking the moving
+object and the background is moving right yeah so just purely on the visual characteristics of the scene as seems to
+be the most useful right so it's like looking at an object without background
+it's ideal for learning the object otherwise it's really difficult because
+you have so much stuff so suppose you do this at the beginning first weeks then
+after that you can recognize the object now they're imprinted a number of even
+in the background even without motion so that's at the by the way I just want to
+ask an object recognition problem so there is this being responsive to movement and edge detection essentially
+what's the gap between being effectively effective at visually recognizing stuff
+detecting word that is and understanding the scene there is this a huge gap in
+many layers or is it as a close no I think that's a huge gap
+I think present algorithm with all the success that we have and the fact that
+are a lot of very useful it's I think we are we are in a golden age for applications of low level vision and low
+level speech recognition and so on you know Alexa and so there are many more things of similar
+level to be done including medical diagnosis and so on but we are far from what we call understanding of a scene of
+language of actions of people that is
+despite the claims that's I think very far or a little bit off so in popular
+culture and among many researchers some of which I've spoken with the sue Russell and you know a mask in and out
+of the AAI field there's a concern about the existential threat of AI yeah and
+how do you think about this concern in and is it valuable to think about
+large-scale long-term unintended consequences of intelligent systems we
+try to build I always think is better to worry first you know early rather than
+late so some worry is good yeah I'm not against worry at all
+personally I think that you know it will
+take a long time before there is real reason to be worried but as I said I
+think it is good to put in place and think about possible safety against what
+I find a bit misleading are things like that I've been said by people I know
+like Elon Musk and what is boström important notice first name a neck panic
+poster right you know and a couple of other people that for instance a eyes
+more dangerous the nuclear weapons right yeah I think that's really project that
+can be it's misleading because in terms of priority which should still be more
+worried about nuclear weapons and you know what people are doing about it and
+some then a and he's spoken about them as obvious
+and yourself saying that you think you'll be about a hundred years out
+before we have a general intelligence system that's on par with the human being you have any updates for those
+predictions what I think he said he's at 28 he said it went all right this was a couple of years ago I have not asked him
+again so I should have your own prediction what's your prediction about
+when you'll be truly surprised and what's the confidence interval or not you know it's so difficult to
+predict the future and even the presence of it's nothing it's pretty hard to predict a bit I'll be but as I said this
+is completely it would be more like rod Brooks I think he's about 200 years when
+we have this kind of a GI system artificial general intelligence system you're sitting in a room with her him it
+do you think it will be the underlying design of such a system is something
+we'll be able to understand it will be simple do you think you'll be explainable understandable by us your
+intuition again we're in the realm of philosophy a little bit but probably no
+but it again it depends would you really mean for understanding
+so I think you know we don't understand what how
+deep networks work I think we're beginning to have a theory now but in
+the case of deep networks or even in the case of the simple simpler kernel
+machines or linear classifier we really don't understand the individual units
+also we but we understand you know what the computation and the limitations and
+the properties of it are it's similar to many things you know we what does it
+mean to understand how a fusion bomb works how many of us you know many of us
+understand the basic principle and some of us may understand deeper details in
+that sense understanding is as a community as a civilization can we build another copy of it okay and in that
+sense you think there'll be there will need to be some evolutionary component
+where it runs away from our understanding or do you think it could be engineered from the ground up the
+same way you go from the transistor to our point all right so many years ago this was
+actually 40 41 years ago I wrote a paper with David Marr who was one of the
+founding father of computer vision of computational dish I wrote a paper about
+levels of understanding which is related to the question I discussed earlier about understanding power point
+understanding transistors and so on and you know in that kind of framework we
+had the level of the hardware and the top level of the algorithms we did not
+have learning recently I updated adding levels and one level I added to those
+free was learning so and you can imagine
+you could have a good understanding of how you construct learning machine
+like we do but being unable to describe
+in detail what the learning machines will discover right now that would be
+still a powerful understanding if I can build the learning machine even if I
+don't understand in detail every time made it learn something just like our
+children if they're if they start listening to a certain type of music I don't know Miley Cyrus or something you
+don't understand why they came after that particular preference but you understand the learning process that I'm
+very interesting yeah yeah so unlearning
+for systems to be part of our world it has a certain one of the challenging
+things that you've spoken about is learning ethics learning yeah morals and
+what how hard do you think is the problem of first of all humans
+understanding our ethics what is the origin and the neural a low level of ethics what is it at a higher level is
+it something that's learner before machines in your intuition I think yeah
+ethics is learnable very likely I I think I is one of these problems were
+think understanding the neuroscience of
+ethics you know people discuss there is an ethics of neuroscience yes you know
+how a neuroscientist should or should not behave can you think of a neurosurgeon and the ethics are you Rory
+has to behavior he she has to be but I'm more interested on the neuroscience of
+you blow my mind right now the neuroscience of ethics is very matter yeah and you know I think that would be
+important to understand also for being able to to design machines that have
+that are ethical machines in our sense of ethics and you think there
+is something in your science there's patterns tools in your science that can
+help us shed some light on ethics or yeah mostly on the psychology sociology
+much higher level no there is a culture but there is also in the meantime there are there is evidence fMRI of specific
+areas of the brain that are involved in certain ethical judgment and not only
+this you can stimulate those area with magnetic fields and change the ethical
+decisions yeah Wow so that's work by a
+colleague of mine Rebecca Saxe and there is a other researchers doing similar
+work and I think you know this is the beginning but ideally at some point
+we'll have an understanding of how this works and white of all right the big y
+question yeah it must have some some purpose yeah obviously test you know
+some social purpose is is probably if
+neuroscience holds the key to at least eliminate some aspect of ethics that means it could be a learn about problem
+yeah exactly and as we're getting into harder and harder questions let's go to the hard
+problem of consciousness yeah is this an important problem for us to think about
+and solve on the engineering of intelligence side of your work of our dream you know it's unclear so you know
+again this is a deep problem part because it's very difficult to define
+consciousness and and there is the debate among
+neuroscientist and about whether
+consciousness and philosophers of course whether consciousness is something that
+requires flesh and blood so to speak yes
+or could be you know that we could have
+silicon devices that are conscious or up
+to statement like everything has some degree of consciousness and some more
+than others this is like Giulio Tononi and she would just recently talk to
+Christophe Koch okay so he a crystal force my first graduate student yeah do
+you think it's important to illuminate aspects of consciousness in order to
+engineer intelligence systems do you think an intelligent system would ultimately have consciousness are they
+to the interlinked you know most of the
+people working in artificial intelligence I think who'd answer we don't strictly need the consciousness
+to have an intelligent system that's sort of the easier question because yeah
+because it's it's a very engineering answer to the question yes that's the Turing test will run in consciousness
+but if you were to go do you think it's possible that we need to have so that
+kind of self-awareness we may yes so for instance I I personally think that when
+test a machine or a person in a Turing test in an extended to interesting I
+think consciousness is part of what we
+require in that test you know in priestly to say that this is intelligent
+Christophe disagrees so as he does yeah it despite many other romantic notions
+he who he disagrees with that one yes that's right so you know we would see do you think as
+a quick question Ernest Becker fear of death
+do you think mortality and those kinds of things are important for well for
+consciousness and for intelligence the finiteness of life finiteness of
+existence or is that just the side effect of evolutionary side effect is
+useful to a for natural selection do you think this kind of thing that we're
+gonna this interview is gonna run out of time soon our life will run out of time soon do you think that's needed to make
+this conversation good and in life good you know I never thought about it is it a very interesting question I think
+Steve Jobs in his commencement speech at Stanford argued that you know having a
+finite life was important for for stimulating achievement so I was a different yeah I live every day like
+it's your last right yeah yeah so I rationally I don't think strictly you
+need mortality for consciousness but oh no they seem to go together in our
+biological system yeah you've mentioned before and students are associated with
+alpha go immobilize the big recent success stories in the eye and I think it's captivated the entire world of what
+I can do so what do you think will be the next breakthrough and what's your
+intuition about the next breakthrough of course I don't know where the next breakthroughs is I think that there is a
+good chance as I said before that the next breakthrough would also be inspired by you know neuroscience
+but which one I don't know and there's so MIT has this quest for
+intelligence you know and there's a few moon shots which in that spirit which ones are you excited about what which
+projects kind of well of course I'm excited about one of the moon shots with
+it which is our Center for brains minds and machines history the one which is
+filip fully funded by NSF and it's a it
+is about visual intelligence it's an area that one has a particularly about
+understanding visual intelligence or visual cortex and and visual
+intelligence in the sense of how we look around ourselves and understand the word
+around ourselves you know meaning what what is going on how we could go from
+here to there without hitting obstacles you know whether there are other agents
+people in the market these are all things that we perceive very quickly and
+and it's something actually quite close to being conscious not quite but now
+there is this interesting experiment that was run at Google X which is in a
+sense is just a virtual reality experiment but in which they had subject
+sitting in a chair with goggles like oculus and so on
+earphones and they were seeing through the eyes of a robot nearby two cameras
+microphones for a/c mossad their sensory system was there and the impression of
+all the subject very strong they could not shake it off was that they were
+where the robot was they could look at themselves from the robot and still feel
+they were they were where the robot is they were looking their body their self
+were had moved so some aspect of scene understanding has to have ability to
+place yourself have a self-awareness about your position in the world and
+what the world is right so yeah so we may have to solve the hard problem of
+consciousness on their way yes but it's quite quite quite a moonshot eyes so if you've been an adviser to some
+incredible minds including demis hassabis Christophe Co I'm not sure like
+you said all went on to become seminal figures in their respective fields from
+your own success as a researcher and from perspective as a mentor of these
+researchers having guided them Madhvi so
+what does it take to be successful in science and engineering careers whether
+you're talking to somebody in their teens 20s and 30s what does that path
+look like it's curiosity and having fun
+and I think is important also having fun
+with other curious minds it's the the
+people you surround with - so yeah fun and curiosity is there mentioned Steve
+Jobs is there also an underlying ambition that's unique that you saw or
+is it really does boil down to insatiable curiosity and fun well of course you know it's been cured
+using active and ambitious way yes
+definitely but I think sometime in in science there are friends of mine who
+are like this you know there are some of the scientists like to work by
+themselves and kind of communicate only
+when they complete their work or discover something I think I always
+found the the actual process of you know
+discovering something is more fun if it's together with other intelligent and
+curious and fun people so if you see the fun in that process of the side effect of that process will be the election of
+discovering something yes so as you've led many incredible efforts here what's
+the secret to being a good advisor mentor leader in a research setting is that similar spirit or yeah what what
+advice could you give to people young faculty and so on it's partly repeating
+what I said about an environment that should be friendly and fun and ambitious
+and you know I think I learned a lot from some of my advisers and friends and
+some of our physicists and there was reason this behavior that was encouraged
+of when somebody comes with a new idea in the group you're unless is really
+stupid but you are always enthusiastic and then and the other two just for a
+few minutes for a few hours then you start you know asking critically a few
+questions testing but you know this is a process that is I think it's very very
+good this you have to be enthusiasm time people are very critical from
+beginning that's that's that's not yes you have to give it a chance yes let's
+see to grow that said with some of your ideas which are quite revolutionary so there's a witness especially in the
+human vision side and neuroscience side there could be some pretty heated arguments do you enjoy these dessert a
+part of science and I could academic pursue see you enjoy yeah is it is that
+something that happens in your group as well yeah absolutely I also spent some
+time in Germany again that is this tradition in which people are more
+forthright less kind than here so you
+know in the u.s. you when you write a bad letter you still say this guy's nice
+yes so yet here in America its degrees
+of nice yes it's all just degrees of Nicaea right right so as long as this
+does not become personal and it's really like you know a football game with these
+rules that's great so if you somehow
+found yourself in a position to ask one question of an Oracle like a genie maybe
+a god whoa and you're guaranteed to get a clear answer what kind of question
+would you ask what what would be the question you would ask in the spirit of
+our discussion it could be how could be how could I become ten times more intelligent and so but see you only get
+a clear short answer so do you think there's a clear short answer to that no
+and that's the answer you'll get yeah okay so you've mentioned flowers of
+Algren odd oh yeah this is a story that inspires you in your childhood as this
+story of a mouse and human achieving genius-level intelligence and then
+understanding what was happening while slowly becoming not intelligent again in this tragedy of
+intelligence and losing intelligence do you think in that spirit and that story
+do you think intelligence is a gift or curse from the perspective of happiness
+and meaning of life you try to create intelligence system that understands the
+universe but at an individual level the meaning of life do you think intelligence is a gift it's a good
+question I don't know as one of this as one
+people consider the smartest people in the world in some in some dimension at
+the very least what do you think no no it may be invariant to intelligence
+likely of happiness would be nice if it were that's the hope
+yeah you could be smart and happy and clueless unhappy yeah as always on the
+discussion of the meaning of life it's probably a good place to end Tommaso thank you so much for talking today
+thank you this was great
+you
 
 ----------
 
 -----
---55--  https://www.youtube.com/@lexfridman/videos
+--55-- 
 
 -----
 Date: 2019.01.17
