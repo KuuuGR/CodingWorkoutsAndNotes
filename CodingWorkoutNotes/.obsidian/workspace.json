@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typing/Training Ideas/FastType music collection.md",
+                "file": "Typing/TrainingData/EN/Steven Bartlett.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81dd4d71bfff099a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Write documentation/Link and notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typing/Training Ideas/FastType music collection.md",
+                "file": "Write documentation/Link and notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typing/Training Ideas/FastType music collection.md",
+                "file": "Write documentation/Link and notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typing/Training Ideas/FastType music collection.md"
+                "file": "Write documentation/Link and notes.md"
               }
             }
           }
@@ -146,43 +159,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f025f9a30d801e7",
+  "active": "81dd4d71bfff099a",
   "lastOpenFiles": [
-    "Typing/Training Ideas/Ultimate speed.md",
-    "Typing/Training Ideas/Lecture PyStock.md",
-    "Typing/Training Ideas/FastType music collection.md",
-    "Typing/MyLayout/Ideas.md",
-    "Typing/TrainingData/EN/zRandom Stuff.md",
-    "Typing/emptySheet 99.md",
-    "Typing/Training Ideas",
-    "Typing/emptySheet 600.md",
+    "Write documentation/project documentation.md",
+    "Write documentation/Link and notes.md",
+    "Zx Organize Helper/ask noteGPT.md",
+    "Zx Organize Helper/Expanded_Raw_99.md",
+    "Zx Organize Helper/Organise Knowledge.md",
+    "Zx Organize Helper/make Notes.md",
+    "Zx Organize Helper/Gain Knowledge.md",
+    "Swift/Sean Allen/Links.md",
+    "Untitled.md",
+    "Swift/Sean Allen/Untitled.md",
+    "Swift/various.md",
+    "Swift/Sean Allen",
     "Typing/TrainingData/EN/Lex Friedman.md",
     "Typing/TrainingData/EN/Sam Charrington.md",
     "Typing/TrainingData/EN/Steven Bartlett.md",
-    "Typing/TrainingData/PL/różności.md",
-    "Typing/TrainingData/PL/Igor Janke.md",
-    "Typing/TrainingData/PL/Zbiór.md",
-    "Untitled.md",
-    "().md",
-    "Swift/various.md",
+    "Typing/TrainingData/EN/zRandom Stuff.md",
+    "Typing/Training Ideas/Ultimate speed.md",
     "Mojo/Mojo set.md",
+    "Mojo/Transcriptions/Raw.md",
+    "Mojo/Transcriptions/Notes.md",
     "Mojo/Links.md",
-    "General Developer/Fields of interests.md",
-    "Swift/CodeWithChris/Links.md",
-    "Untitled 7.md",
-    "Untitled 8.md",
-    "Untitled 4.md",
-    "Untitled 3.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
+    "Typing/Training Ideas/Lecture PyStock.md",
+    "Typing/Training Ideas/FastType music collection.md",
+    "Typing/MyLayout/Ideas.md",
+    "Typing/emptySheet 99.md",
+    "Typing/Training Ideas",
+    "Typing/emptySheet 600.md",
+    "Typing/TrainingData/PL/różności.md",
     "Zx scratchBook",
     "General Developer/Improve",
     "General Developer",
-    "Swift/Write documentation",
+    "Write documentation",
     "Typing/TrainingData/EN",
     "Typing/TrainingData/PL/erotyka",
     "Typing/TrainingData/PL",
-    "Typing/MyLayout",
-    "Typing/TrainingData"
+    "Typing/MyLayout"
   ]
 }

@@ -831,7 +831,7 @@ paste here
 ----------
 
 -----
---30--
+--30-- [The Diary Of A CEO](https://www.youtube.com/@TheDiaryOfACEO/videos)
 
 -----
 Date:
@@ -975,7 +975,7 @@ paste here
 ----------
 
 -----
---18--
+--18-- 
 
 -----
 Date:
@@ -1002,11 +1002,602 @@ paste here
 --16--
 
 -----
-Date:
-Link:
+Date: 2021.03.01
+Link: [# Extremely Honest Q&A | The Diary Of A CEO | E70](https://www.youtube.com/watch?v=_wSO42jYP6Y)
+
+### Notes from Steven Bartlett's Podcast Episode
+
+**Advantages:**
+
+- Shares honest, valuable advice based on personal experience.
+- Provides insight into overcoming personal and professional challenges.
+- Offers motivational stories and principles for self-improvement and growth.
+
+**Drawbacks:**
+
+- Can be intense and deeply introspective, requiring listeners to confront their own challenges and insecurities.
+
+**Tips and Advice:**
+
+- Embrace challenges as opportunities for growth.
+- Prioritize meaningful activities and relationships for long-term happiness.
+- Learn to sell, as it is a crucial skill in almost every aspect of life.
+- Do not let fear of judgment or failure prevent you from pursuing your goals.
+
+**Lecture Content:**
+
+- Importance of preparing for uncertainty.
+- The significance of prioritizing meaningful activities.
+- Maximizing earning potential by finding where your skills are most valued.
+- The psychological aspects of imposter syndrome and overcoming it.
+- Insights into creating a meaningful life amidst challenges.
+- Reflections on the changes success brings and the importance of maintaining personal values.
+
+**Main Challenges:**
+
+- Dealing with imposter syndrome and societal expectations.
+- Balancing personal growth with maintaining meaningful relationships.
+- Overcoming the fear of judgment when sharing personal or business endeavors online.
+
+**The Importance and Usefulness of the Topic:**
+
+- Encourages personal development and resilience.
+- Offers practical advice for career and personal life.
+- Highlights the importance of mental health and finding purpose.
+
+**Accomplishments:**
+
+- Building a successful business and personal brand.
+- Overcoming personal and professional challenges through resilience and strategic thinking.
+
+**Summary of the Content:** Steven Bartlett shares his experiences and lessons learned from both his personal life and career journey. He emphasizes the importance of facing challenges head-on, prioritizing meaningful activities, and the power of selling as a skill. Bartlett also discusses overcoming imposter syndrome, the significance of creating a meaningful life, and the impact of success on personal relationships and self-perception.
+
+**Interesting Quotes or Insightful Sentences:**
+
+- "Uncertainty is not predictable, but it's preparable."
+- "Comfortable and easy are short-term friends but long-term enemies."
+- "If you're good at selling, then you might just be great at everything."
+- "The meaning of life is to create and live a meaningful life."
+- "Getting what you aim for is the best way to find out if it's actually what you wanted."
+
+This podcast episode offers a deep dive into the complexities of personal growth, success, and the pursuit of happiness, providing listeners with valuable insights and actionable advice.
+
 Transcription:
 
-paste here
+Intro
+and one of the thoughts that continually gets me to the gym and continually makes me show up and work hard
+is and if you're good at it if you're great at it then you might just be great at everything but for me that really is the
+meaning of life
+on this week's podcast we're going to do something very different something i've never done before but something that
+you've requested time and time again this week i posted online asking you to ask me any question
+about me my life my business whatever you want to ask me and i promised that in return i would
+give very brutally honest answers my team went through all of the questions that were submitted and they went through and picked ones that they
+thought were most interesting they've written them in my diary here so i'm going to start from the top and answer these questions with the
+objective of giving you the most valuable honest advice that i possibly can so
+without further ado i'm stephen bartlett and this is the diver ceo i hope nobody's listening
+but if you are then please keep this to yourself
+okay so the first question is what is the most important lesson that this pandemic has taught you
+What is the most important lesson this pandemic has tough or re confirmed for you?
+or reconfirmed for you and for me that is um it relates back to a podcast
+i did at the start of the year and it's that uncertainty is not predictable but it's preparable and i don't actually think
+that's a word but here's what i mean what i know for sure and this relates to everybody is that your life
+is of course going to be full of a lot of joy and amazing things and breathtaking moments and rapturous moments of
+of ecstasy right but it's also going to be riddled with moments of unexpected uncertainty and
+chaos joy is much easier to handle you just kind of let go and go with it right the good times
+not a lot of action or thought required but uncertainty and chaos require a real rigid set of principles and
+for me those principles over the last 12 months have become acceptance optimism and action and these
+three principles have a real linear connection to the outcome you're seeking without acceptance when bad things happen
+there's no optimism without optimism there's no action and without action
+there's often no victory or at least victory is delayed and hard times are elongated so when bad news visits
+whether that's being unexpectedly fired from your job or jumped by your partner or evicted by your landlord or losing a loved one in the case of a
+pandemic you have to do everything you can to stick to these principles despite the intense cloud of natural emotions that
+will try to convince you and me otherwise and you know like i do a lot of sort of introspective thinking
+for a living and even i am not immune from letting emotion
+get the best of me in times of intense chaos i like no matter how much i've read or written in my diary or how many podcasts
+i've done even i fall victim especially in the short term to all of those emotions and sometimes
+to the the instructions those emotions give you which will lead you to um
+to pretty dire outcomes so you know you get dumped by your partner you immediately think revenge right you get fired by your boss you think
+um you know i'm gonna sue them right i fall for those traps too and i don't think i don't necessarily think it's the aim of all humans should
+be to try and avoid those emotions and that thinking because i think it's quite impossible but it's to be better at the response right to
+shorten the time that those emotions sit with you and to be better in your reaction and i want to clarify that acceptance when i
+talk about acceptance it doesn't mean being emotionless it can often mean the exact opposite you have to accept how you're feeling except
+what's happened and importantly retire from trying to change the unchangeable or from wallowing in regret and you have
+to do everything you can to get yourself to a place of optimism i see that as your responsibility people won't like me saying that right
+people typically especially in hard times don't like to delegate responsibility to themselves so as hard as it can be you have to find
+and create hope for yourself and have faith just like everything else has in your life that this too shall pass and then you have to use
+that optimism to drive you into action which is for me the third principle that i've learned over the last 12 months if your
+partner's dumped you it's time to dust yourself off and get yourself into the gym to fight back and i don't mean fight
+backers in bomb their house i mean fight back in a mental capacity to stop stalking
+their instagram to triple down on your friendships and your meaningful relationships to stand
+tall and weather the unavoidable emotional storm and have faith and acceptance sit by your side the
+opposite of these principles of course is like denial is pessimism and is in action
+and these are the principles of a baby gazelle that's decided to fall asleep
+with its toes dipped into a crocodile-infested waters this is a decision to lose twice and when i say
+l right i mean loss and when unexpected chaos happens like this pandemic which smashes our businesses and destroys our
+social lives and apparently steals a year from from our youth the first l we take is involuntary
+[ __ ] happened and you didn't choose it totally out of your control i get that but the fateful decision to choose
+denial pessimism and inaction as our response is a voluntary second l what you're
+choosing to increase the chances that bad times will become even worse times you can make the choice
+not to lose twice the first l wasn't your choice the second l well that's the byproduct of of how you
+choose to respond acceptance optimism and action
+and i guess the second lesson i've learned this year is a lesson in the importance of prioritization you know this advice
+of which people often given i've often given of protecting your time and saving your time really feels somewhat
+incomplete to me now because it's like the first half of the sentence you've got to then ask yourself saving time to do what saving time just
+to spend more of it doing the wrong things saving time to spend more of it being more productive just so you can get more
+work done i guess better advice is to prioritize better if you told 19 year old stephen bartlett
+just to save more time he probably would have said no to a couple of things and then just spent that saved time
+working alone in his office all week and all weekend and that advice would therefore lead him to a less joyful more depressive
+existence and if you told 19 year old stephen bartlett to prioritize better the first question
+that comes to mind is what are my priorities and my long-term priorities as i think is the case for
+all of us are ultimately linked to the things that make our life meaningful which are friends the joy of work our
+relationships the satisfaction of pursuing our goals the challenge you know achieving greater
+freedom knowledge the pursuit of knowledge health and fitness and i guess i would have reviewed the allocation of my time
+through that lens i would have saved time only on the things that aren't connected to my macro priorities and reinvested it in
+better places and this year because we've you know been forced to realize what matters
+in many cases um i guess now i'm not trying to save time just for
+the sake of spending it more on optimizing my productivity
+i realize that that's an incomplete sentence and really the most important thing is just to prioritize all of my time better
+and allocate it to those things that ultimately will matter the most okay so the next question in my diary is
+How do i maximise my earning potential
+how do i maximize my earning potential let me tell you a little bit of a story based on a friend of mine and his
+company my friend has a business which is listed on the stock
+exchange in germany one of the very small stock exchanges in germany and having spoken to banks and from my
+own knowledge of how the stock market and the public markets work him and me both know that right now his
+business is worth 1 billion dollars because of the stock exchange he's on if he moves his business
+to the new york stock exchange the banks and everybody knows that the valuation will be four billion dollars it's the
+exact same company the exact same team the exact same products the exact same mission
+everything's exactly the same but because he's on the wrong stock market because he's on the wrong stock exchange
+the value is 25 of what it would be if he just took that same business the same people in the same products the
+same skills the same experiences and just moved it to a different stock market and i i reflect on this analogy
+as a wider broader sort of life analogy because if i look at my career decisions over the last i'd
+say 10 years i remember working in one call center in plymouth in devon where i was getting paid about four pounds per hour
+and for whatever reason i decided to move to a different call center with the exact same skills
+the exact same experience and i got paid 10 times while i was getting paid at that call center and this is what i've
+started to notice in my own life is i've had this particular set of skills whether it's social media storytelling marketing brands whatever you want to
+call it for the last i don't know maybe six seven years and as i've moved into different rooms
+and different markets and different companies and different industries i've noticed that that exact same set of
+skills is valued completely differently and this made me reflect with that story of my friend's
+business in mind that one of the questions you have to to ask yourself sometimes in life isn't just
+you know how do i improve my skills but it's like how do i maximize the earning potential for my skills and where are my skills
+going to give me the greatest reward let me give you another analogy just to just to
+cement the point my ex-girlfriend my ex-ex-girlfriend is a flight attendant and she currently
+flies for emirates right and emirates pay they pay okay right a lot of lifestyle perks there but they
+pay okay she's told me that she'll get paid up to ten times more if she manages to
+get a job flying on private jets because of tips and things like that the same set of skills
+ten times the return for the same set of skills if she can move her skills to a different theoretical stock exchange if
+you get what i'm saying and this is just like one of the the principles i've learned about life over the really over the last year um because
+skills i was paid you know x amount for a couple of years ago i'm getting paid
+10 20 30 40 50 times for the same set of skills just because i found a
+market where those skills are more in demand they're higher valued and they're probably more rare
+and so that's something i think we can all ponder which is asking yourself where your skills will reap the greatest return okay the
+Do you have imposter syndrome?
+next question is do you have imposter syndrome have you ever had it and can you relate and then there's a little question underneath which is and how do i shake
+this off here's the thing whenever somebody does something that's outside of their zone of comfort and
+that they don't have a ton of experience in doing we all feel the same thing right we all feel that sort of
+low-key inadequacy or that slight fear but the reaction that everybody feels and the way that we label that feeling
+is completely different i actually think it's how you label that feeling that determines how you perform in that
+scenario so some people will say okay this is an exciting challenge i'm going to learn i'm going to throw myself
+at it i'm going to use that energy of that i'm feeling those nerves or whatever it might be to focus some people will say oh my god
+and they'll implode and they'll try and retreat back into their zone of comfort right and so the response to that the feeling
+is human the response to it is optional if you go through your life avoiding situations that give you that
+feeling of imposter syndrome then i would bet everything that i have that you aren't going to reach your full
+potential i genuinely believe the feeling of imposter syndrome is both healthy natural and a sign that you're putting
+yourself in a position where you're there's pressure which will make you grow and i've literally i can't think of a
+moment in my life if you look at any sort of two-year period in my life where i didn't feel out of my depth
+however that feeling of being out of my depth never meant that i retracted from the challenge it meant the exact opposite it meant that i attacked the
+challenge i put more hours in i focused on it that reaction is ultimately the reason why you can hear my voice now it's the
+reason i have this podcast i very very unfondly remember the first day ever where i tried to make a video down
+the lens of a camera in the microphone and oh my [ __ ] god was that [ __ ] show
+my friend tells me we should make a youtube video it's about something political so i sit in his house he turns the cameras on puts a microphone on me
+and i sit there and try and get just two minutes of spoken word out down this camera of the lens and i sit there for seven
+hours so much so that at the start of this two minute video it's light outside and it's sunny it's like the morning by the end of this two-minute video if
+you were to watch on youtube it's dark outside and you can see stars it took me that long right that long because i was sat there feeling like an
+imposter people aren't gonna give a [ __ ] what i think i'm an idiot i'm not sat there sweating and ultimately it was my decision not to
+let that sort of knock me back and to swerve that being in that uncomfortable situation ever again
+that's taken me to this place today where i'm doing this podcast and there's all these people that listen to it we've got this youtube channel and all of
+these wonderful things and that is the defining thing it's not about avoiding imposter syndrome that's a very human thing
+it's learning the art of embracing it quick one starting from the minute the lockdown is lifted we're gonna start
+bringing in some of our subscribers to watch how this podcast is produced behind the scenes means you get to meet the guests meet
+myself and see how we put all of this together if you want that to be you all you've got to do hit the subscribe button
+okay so next question is how do you do things you don't want to do i've had i've had this crosstalk in my
+How do you do things you don't want to do?
+mind a lot lately and i'll tell you why because i've committed myself to working out in the gym downstairs
+every single day and i have been going every single day for many many months now i think the
+first time i started going gym consistently was actually march last year when all of this craziness was uh thrusted upon us
+but some days as i've talked about this podcast i know people get tired of me talking about the gym but it's just a place where you learn so much about
+yourself and discipline and and your body and your brain and all of that so i always refer back to it but some
+days i just can't be bothered i can't be bothered to go i can't be bothered to train hard when
+i'm there and um in many ways that's kind of like synonymous of life there's so many things in life that i just don't
+want to do and one of the thoughts that continually gets me to the gym and continually makes
+me show up and work hard is this principle i live by which is comfortable
+and easy are like really short-term friends but they're long-term enemies and here's what i mean by that
+comfort in the short term makes me feel warm and fuzzy but then it might lead me to being obese and having arthritis and
+having high blood pressure and having a heart attack in the long term so like comfort and easy i just view so anything that's comfortable and easy
+like super comfortable and is you know inherently avoiding hard work or discomfort i kind of view
+that that decision or that thing with skepticism i think you're trying to [ __ ] me in the long term aren't you and i genuinely cognitively have that
+thought process sometimes when my brain flutters and flirts with the idea of oh just skip it steve you know
+you don't really want to do that just you know get an early night and swerve that thing um i think that's going to stab me in the
+back one day in 12 months time or 10 years time that decision to choose
+comfortable and easy as my friends well they're going to become enemies and they're actually not on my side
+if you're looking for growth my general principle is to choose the challenge i'm not
+saying choose the thing that you [ __ ] hate i'm not saying choose the toxic thing that's going to destroy your mental health i'm saying if you're looking for growth
+and you're looking to achieve the future that you you know you envisage in your mind your ambitions then you should choose the challenge and
+and that's the thing that i continually come back to every time steve you know it hits 6 30 and i know i've got to go to go to the
+gym in half an hour and i'm manically busy and everything in my head is saying make an excuse
+no one will know go tomorrow just tell yourself you'll go tomorrow you'll do it another time procrastinate or when i get to the gym
+and i don't really want to show up and i don't want to work hard the same little thoughts whisper in my brain but then i think maybe that's the enemy
+is that has have those thoughts really got my long-term ambitions and my values in mind
+they nearly always haven't and that goes back to the podcast i did with neil where he says that you know when we try
+and procrastinate or we convince ourselves to do the things we don't want to do it's because of some kind of psychological discomfort because i know
+that these weights are heavy and i know that it's uncomfortable and i know that i'm tired and those are if you are able to overcome
+those moments where it's easier to quit those are your growth moments those are in fact the most valuable moments and this again comes to
+another point which i always think which is the moments where i want to quit right the days that are the hardest to get
+myself up and going are probably by definition the most valuable moments to overcome
+because that's probably again thinking logically where most people decide to stop
+so you know that's where the greatest returns are and i it sounds like fluffy [ __ ] in hindsight no i think
+this i think i think that in the moment i think it before i go to the gym i think yeah this is this is the day when most
+people wouldn't go you know after the week you've had right so hopefully that helps and
+the conclusive point here is like you're connecting yourself to who you want to be in those moments you're reminding
+yourself of the person you want to become and this you know i read this on twitter i think nine months ago but it stayed with me
+ever since which is how would the person you want to become behave right now and if you ask yourself in those moments
+how would the person i want to become behave right now what are the decisions the person i want to be
+would be making um that's usually a good way to decide what the best answer is
+right hope that helps okay so the next question is a very deep question it's what is the meaning
+What is the meaning of life?
+of life very good question something i've actually pondered a little bit over the last over the last year or so as i've i've
+got more into elon musk's work and space and his motivations for wanting to
+to understand meaning he actually says that when he was really really young he started pondering the meaning of life
+and actually made him depressed and it wasn't until he read hitchhiker's guide to the galaxy that he found some meaning um and optimism but
+to to answer that question myself i would say the meaning of life is to
+create and live a meaningful life i know that sounds like a bit of a cop-out right but
+in what you consider meaningful is totally subjective and nobody can tell you what that is or what it isn't
+but i think you can spot it when you get that feeling inside yourself that your efforts are resulting
+in progress or outcomes that feel deeply worthwhile and fulfilling to you
+in any facet of your life whether it's raising your dog or whether it's your relationships or your work or whatever
+it might be and some people find that sort of connection and meaning in building their businesses
+in writing in hobbies or you know training their body through exercise or raising kids or practicing their
+religion one of the most important things i've learned on this podcast from interviewing guests and asking them
+about the toughest moments in their lives specifically guests that suffered with depression i remember we had dan murray
+on the podcast who had lost his father and talked about how it wasn't until he did ayahuasca and saw
+that the world was interconnected that he refound his meaning and we also had ben williams on the podcast who said he was suicidal and
+considering taking his own life until he saw an advert to be a military commando and
+went off on that journey to pursue his his intrinsic career ambition of becoming a commando
+that he found meaning in his life and stability and also from writing my book there are some just crazy
+mind-bending studies that i read about in the preparation for my book that totally changed my my thought
+process on this one of them right is studying johanna hari's work and the work he's done to understand the
+true causes of depression and anxiety and his work continually points to the fact that depression and these
+depressive feelings and this sort of lack of orientation in life comes from people who have had something happen to
+them often who have lost a sense of meaning through trauma in their life not what's wrong with them
+not because of some sort of chemical imbalance in their brain the other really sort of example that i just can't shake that's in my book as
+well is this study they call rat park very very simple they took a group of rats they put them
+in cages and they took all meaning from their life literally just a white cage on their own and they gave them a choice do you want
+to drink heroin water or do you want to drink normal water the rats that are stuck in a white cage
+alone become drug addicts right then they have rat park which is this
+rat utopia where there's you know female and male rats there's a little running machine where you can
+exercise there's food there's a space to to roam around and to explore there's toys for stimulation and those
+rats don't become drug addicts when they're offered either heroin or normal water they avoid the heroin
+if you zoom out a little bit and apply the same thinking to humans the science says that over the last two
+years the life expectancy had dropped between i think it's 2018 and 2019 because of opioid related deaths because
+people are getting addicted to opioids and that's resulting in their death and and again that is because we have an
+epidemic of meaninglessness of purposelessness um that's what my podcast has
+taught me and that's what um that's what my research in my book has taught me as well commonly prescribed antidepressants do
+work for some people i think it's important to to sort of caveat my points with that but adding additional meaning
+and connection to your life does seem to be one of the most powerful antidotes for those feeling lost
+depressed and unhappy and lacking that orientation and just to relate it to what we're going through now with this pandemic
+you know a lot of my friends have been calling me and telling me that they're feeling down right they can't particularly describe
+what exactly is causing them to feel down but over the last three months in particular as the uk has gone into this
+i think third lockdown i've really grown concerned about some of my friends and the advice that i
+continually give them centers around the point i've just made which is to find things that will give them meaning life before
+pre-lockdown gave you meaning you you wake up in the morning you go to the office you've got colleagues and friends and then you
+you know you go to the the club you go to what's your favorite football team player you go and see your mum and your dad your grandparents
+life was full of meaning before now it's been pulled from you so now it becomes your responsibility if
+you want to you know maintain those good feelings to go and get that meaning right to go and create that meaning in
+your life you can't assume that it's just going to show up like it used to so we and this goes back to one of my points which is
+when you really have to fight back you have to go and get it and you know i'll give you an example that relates to me personally
+the weekends right so my team and me we work you know in this building through the week the weekends come around i have [ __ ]
+nothing to do i'm a single guy i have nothing to do it's me and my dog right and he's not
+a barrel of laughs to be honest he's very simple guy so he doesn't do an awful lot and so what
+i've started to do on the weekends is to really take time to pursue some of my hobbies which i would never normally do i've
+started to dj all the time i'm now learning to dj i do a dj lesson every single weekend via zoom
+i'm reading books that i used to love reading philosophy books and i'm doing this actually not because i want to but
+because i know i have to keep my life full of like intrinsic passions and meaning especially at a
+time when so much of that has been robbed by this pandemic so that's the long way around the houses but for me that really is the meaning of life
+to create a meaningful life and um as i say in these times it's more important than ever that you fight for that meaning
+What do you miss about being poor that you'll never get back?
+okay so the next question is a really really great question which is what is something you miss about being
+poor that you think you'll never get back the stoic people used to talk about this
+concept of hedonistic adaptation and the hedonistic treadmill and i'll give you an example that's really easy to
+understand i remember at 23 years old when i took my first flight to thai i think it was 20 21 years old
+to thailand with my business partner dom and i remember getting on that plane and just like because because i'd never really been on a plane before other than
+when i was a baby coming over from africa i remember like being so in awe of the
+fact that we were on this like metal ship that was flying across the ocean and they were like giving me snacks and free water and do i want to
+coke and i'm sat there in the economy section just like oh my god right
+totally like full of like joy and appreciation for everything and the principles of like hedonistic
+adaptations say that once you've been exposed to a certain level of joy or a certain level of like i don't know gluttony or like you know
+um material possessions your satisfaction starts to decay over time
+and obviously as i got you know more and more money and i got on flights every week and then eventually i upgraded to business class and then like first class
+and you know even got myself on a private jet a couple of times your appreciation for the small things
+wanes the stoic people would take the good things out of their life as a practice just so that they would
+appreciate them again and i think that's one of the things that i definitely miss i've got nice things all the time and
+that is a blessing and a curse imagine some rich guy talking about he's sick of nice things but there's
+there's truth to that like you you lose appreciation for for things that used to mean so much to you and when you look at
+hedonistic adaptation in the hedonistic treadmill you now require even more to give you that same level of
+thrill and joy and satisfaction that's a really sad thing it's kind of an unavoidable thing to some degree
+but with all things in life you can really make a conscious effort to be grateful and to take moments not to let life pass
+you by all these wonderful things pass you by so the other point is you know there's that phrase ignorance is bliss and it
+totally applies to this question as well when i was 18 years old and i thought the meaning and
+point of life was to buy fast cars and to have a million quid in the bank account and to pursue those kinds of things there
+was some bliss to that i thought i had it figured out i thought i understood that the pursuit of greater
+happiness was just more stuff more money and that was quite blissful i didn't have it now
+at 18 i didn't have it so i thought okay that creates real meaning in my life all i have to do is get more money and
+then my life will be more meaningful and you know full of joy and then upon getting the money i realize that that's
+not the case and i i remember watching an interview by the founder of
+spotify danielec where he says the exact same thing he's an insecure kid growing
+up bit of a geek and then he gets all this money not from spotify but from the business before and he has this deep existential crisis
+where he's like oh my god this wasn't it and he had to then go on the journey of
+finding out exactly what mattered to him and i i'm still on that journey like i still this is why i talk so much about
+meaning and purpose in this podcast because i'm still figuring out like where i should be prioritizing my time in order
+to reap the greatest returns as it relates to fulfillment and i i think i didn't think about those things when i was 18 and i was broke
+but getting what you aim for is the best way to find out if it's actually what you wanted
+and i was this young kid chasing material things and and probably passion mistaking it for
+happiness as i got closer to it it moved off into the distance like a like a mirage or something or a rainbow
+we all know that guy who like you know has a two bedroom house um in a small area he's married to his
+wife one kid two kids um looks forward to you know going to the pub of the weekends and supporting
+his favorite team those individuals who live the most simple lives and who are happier with less
+to me from my experience generally seem to be much more fulfilled than my friends that are successful
+billionaires and my friends that are billionaires but also intellectuals and sort of like
+low-key philosophers are the most [ __ ] right because they really have got pretty existential and ask
+themselves what is the purpose of life that's what i mean by ignorance is bliss and my third point in answer to this
+question relates to challenge when i was 18 years old starting out in business living in moss side in manchester
+i had absolutely nothing i just dropped out of university and i'm basically stood at the bottom of this big
+ambitious mountain that i've told myself i'm gonna climb and i've told myself i'm gonna accomplish
+and i'm looking up at it excited terrified um but hopeful and yeah excited that's
+that's the key feeling and then you climb the mountain right the mountain for me was like financial freedom it was
+accomplishment maybe for my ego it was like recognition to some degree i have all of those things now
+and so when you get to this point where you've accomplished many of your goals you have
+to make a very conscious active effort to create new even bigger goals goals
+that will match the same level of excitement and challenge that you had when you're 18 and it's not
+easy because you don't become financially free twice unless you lose it all right so my goals have to be way bigger
+to give me that same level of like hunger and uh grit and you know
+determination that i need um to to to to stay stabilized and to be to be
+happy and i guess it's a crazy thing to say but to some degree i miss like not being at the bottom i
+miss not having those massive this just mount everest in front of me and this is what i've seen in you know
+many of my friends who are entrepreneurs and even some of my idols is when they get to that point when when elon sold paypal or when
+you know bill gates sold microsoft they then go and take on some of these tremendous you know philanthropic
+challenges it's no surprise that every billionaire becomes this crazy massive philanthropist and tries to take on
+some of the world's most existential problems right it's no surprise that elon is doing you know trying to save the planet and take us to a new one
+because he will not be able to find a sense of fulfillment and happiness in doing another paypal he just won't
+find it and in many respects this is why i think people who are tremendously ambitious have a bit of a curse i've spoken to a
+lot of my friends that run businesses you are obsessive about progress and challenge and ambition and reaching the next milestone and i think
+a lot of them would actually if they could just press a button and trade their life for a much simpler
+life someone who doesn't wake up every single day and check their whatsapp for 30 different messages about their business on fire in
+five different countries if they could press a button and live a simple life and be content in that life i think most
+of them probably would many of them would if they wouldn't maybe they're twisted enough not to not to realize that the meaning of life is
+to be happy so if i gave them a happiness button maybe some of the psychopaths would still opt for their current life
+i've got one particular friend in mind who i won't name who sat me down about two years ago and
+he's very very successful he's probably a billionaire by now and he confided in me that he wished his life
+could be simpler he wished he didn't have the level of ambition he had he he told me this one story about going
+around to someone's house and they're a very very normal family with not very much at all and they just sat there drinking tea and he said
+i was sat there thinking i wish this was my life this is a billionaire with more sports cars than i've ever
+seen in my entire life in one driveway wishing he had a simpler life but realizing that he is
+infected with this virus which many of us have the ambitious the most ambitious amongst
+us which stops you from being happy with out pursuit
+and without climbing that mountain breaking news i have a new favorite
+flavor of huel about a month and a half ago they sent me in the post
+this white bottle with this sort of sharpie red pen on it that said top secret and i took it out i sipped it
+probably shouldn't have because if people send you things in the post like that you probably shouldn't drink it as your first reaction you should confirm that they sent it but
+i took it out i drank it and it tasted amazing and now i'm i'm
+very happy to announce that my new favorite flavor of the hule ready to drink
+slow release carbs 20 grams of protein vitamins minerals 27 essential vitamins 7 grams of fiber per bottle is banana
+which has just gone live on cure and my friends know that i'm a massive hulu again so they've been messaging me
+all this week saying steve how good is it is it good and i've been telling them this is my new favorite flavor which i think says a lot so barry is now number two
+and the new banana flavor ready to drink huel is my number one so yeah give it a taste
+it kind of tastes like banana milkshake but um banana milkshake isn't usually as nutritionally complete so that's win
+win win try it fiverr fiverr.com i've talked about this a lot in this podcast and um i just wanted to give you
+a bit of an update i've really really got into using fiverr over the last couple of weeks and i think
+if i was to estimate i've now had six different tasks completed on fiverr in the last
+four weeks i've had two website builds i've had two decks made from designers that are
+What is the most valuable skill you've learnt and how does that serve you now?
+all around the world one is in venezuela the other one is in iceland i've had one logo made and one
+video made and to be honest i just wish i knew about fiverr sooner in my career because i think i would have been able to
+accomplish more in a much more cost-effective way okay the next question i have here is what is
+the most valuable skill you've learned and how does that serve you now um my mind bounced around to a few different things when i read that
+question but it came back to this this this one answer which kind of summarizes all the other little points which is
+sales and i genuinely believe sales however you kind of want to define that
+is the single most important skill in the world i don't mean like selling rolexes out your coat or selling double glazing to a grandmother
+on the phone i mean the art of being able to persuade other people to take an action right and this is a skill that you will deploy in
+a nightclub when you meet someone you fancy with your teams when you're trying to build businesses with investors
+every time you communicate in some respect if you're trying to achieve a certain outcome you are a salesman or
+woman and the art of being a good salesperson is broken down into a bunch of different factors there's an understanding of you know having the
+self-awareness to understand how you're coming across having the awareness to understand what the person
+you're speaking to is after it's how you carry yourself it's your body language it's the way you speak
+it's the energy you bring when you're talking it's all of these small things which are very hard to to train into somebody but
+for without shadow of a doubt sales is the most important thing because it's the skill that i use every day the
+most right and i want to answer the question like how did i learn how to sell things i've raised investment maybe 20 times maybe
+more probably more if you consider some of the road shows i did when we took our company public one of the most important experiences i
+had in my whole life was i started working in a call center in plymouth when i was 16 years old selling double glazing at
+everest call center and then i did that job until i was about 18 and then moved to manchester dropped out of university and then my
+next 10 to 12 jobs were all in call centers whether it's because of my voice
+or because um because of my skills with selling i was just so good at that job and i genuinely believe that that tele
+sales experience i've had and i genuinely would work in a telesales call center for three months make so much on the
+bonuses that i'd quit this is why i've had 12 teddy sales jobs i'd quit i'd spend the next two months trying to build my
+business i'd then go back to another call center make huge bonuses then i'd quit and i'd keep doing that
+but i genuinely believe that that experience working in call centers where you're honing this particular
+skill which is calling someone usually completely cold out of the blue and having to persuade them in less than a
+minute to give you a chance or to buy immediately but to give you a chance to sell them something that they didn't need
+we all [ __ ] hate tele sales people including me i just hang up immediately these days because i'm so time poor but if you got a chance to do one job in
+order to improve your sales skills i would highly highly recommend you do either that or even better which i did again when i
+was in plymouth door-to-door sales because that introduces sort of body language and other sort of more
+physical communication skills which uh which are even more relevant to the world we live in today so
+yeah sales is definitely the most important thing and i often say to people when they're when they tell me that they've got an
+offer to take one of two jobs i'll often always prefer the sales role
+especially if they're young and they need to develop in that area because i think it will yield the greatest returns over the long
+term i think getting good at selling stuff when you're young will yield tremendous returns as a skill as you get older and
+as i said at the start sales applies to everything everything
+and if you're good at it if you're great at it then you might just be great at everything
+or at least be able to convince people you are okay so the next question is what is my greatest weakness and when i
+What is your greatest weakness?
+first read this question um a bunch of different things came to mind in different sort of parts and areas of my life so
+i'm just gonna share as many of them with you as i possibly can the first thing that comes to mind is i'm really bad at prioritizing
+against the things that really matter to me and i know that will matter long term i've talked about this a lot in this
+podcast i don't call my parents enough i don't see my family enough i probably don't give enough time in
+person to like meaningful friendships and connections and those kinds of things and i know i'm completely totally convinced that those
+things are really really important it's not that i don't understand the importance of them it's that like my work priorities always seem to be
+just one you know one step higher on the to-do list my work has urgency to it there's no
+urgency with calling my mom right and that's kind of one of the things i know is a weakness in myself that i that i continue to strive to
+to be better at is trying to prioritize things that aren't urgent
+but in the long term are really really important the next thing is in relationships i'm like really
+self-centered i i just want to do what i want to do and i like i am generally like really unwilling to
+compromise and that's an awful thing because relationships are all about compromise apparently so i've been told many times
+um but i know it's a weakness of mine i am kind of like i kind of live the world in my own head and if i want to just get up
+and go and dj or walk down the street or go in my room and just look at my laptop and watch youtube videos doing that is
+quite hard when you're in a relationship and you've got someone else to consider you have to consider what they want and you know the things that they want to do
+that day and and also in relationships generally i don't want to do much because nine to five like
+throughout the week my brain is [ __ ] chaos so on the weekend i'm not really all up for doing much you know that's my down time
+and that's become a real weakness of mine and it's made forming romantic relationships harder because on the weekend i don't want to get out of
+bed and if i do i just want to do some i just want to do nothing or something very very simple but the
+problem i have there is through monday to friday i've spent all my time on my work so saturday and sunday by definition like
+logically have to be the time that i commit to you as my partner so this is why i i continually struggle in
+relationships because monday to friday it's not about you and on the weekend it's about me it's
+about me and my down time watching manchester united play and i have to i have to learn to compromise i'm sure a lot of people can
+relate to that the last thing would be because i'm so mentally bombarded with a billion things
+i have to do at all times over the years the one thing that i've definitely noticed in myself is i get
+more and more arguably rude
+and to the point which is like when at the start of my career i was very i had more time and there were less things like less tabs open in my brain
+so i could take more time about how i respond to things and i could be a little bit more fluffy and soft and whatever but when
+you have tons of urgent priorities your brain is so funny i was i was talking to a friend
+about this this morning in fact and i was just giving some feedback to one of the teams i'm working with
+at another company because the ceo had basically got in touch and requested that all comms become much
+more streamlined because when we when the team were using extra words he basically to some degree gets you
+know gets a little bit frustrated with that because we're trying to move fast as an organization and i totally related to that i noticed
+myself getting annoyed when anything takes longer than it should and this is something that's really changed like totally changed in the last couple
+of years so i guess the thing that i have to be aware of is that even in the situations where i'm just desperately trying to save time
+is that i don't compromise on being a decent human being and i can't explain to you how hard this
+is because we tend to have a philosophy for how we act and how we behave and that philosophy sits deep within us and
+it whether it's a landlord showing me around a new apartment or a new office or whether it's an email or whether it's a phone call
+the philosophy tends to be the same right and you it's hard to switch between different philosophies so i tend to treat very personal things
+sometimes in my personal life whether it's a landlord showing me around an office with the same rapid urgency
+or my mum having a conversation with me with the same rapid urgency that i might treat business things and i need to get
+better at like switching between the context and behaving differently in each scenario and realizing that in some scenarios
+the saving of the time is not more beneficial than just remaining a decent person and like engaging in the situation
+it's hard and i say it's hard not just because of my own experiences but i've seen pretty much pretty much
+i'd say over 70 of the highly successful people i know become so incredibly impatient that it
+almost verges on looking like rudeness like they don't care about you um and like they are
+not present when you're with them now this is a really hard point to explain but i think people who are incredibly busy will understand this
+over the last couple of years i've noticed that i've got incredibly impatient with um any request i get and it's something
+i've noticed not just in myself but in some of my friends who run very very big really really sort of ambitious global
+businesses who are constantly bombarded with stuff they are some of the most like anti-social slightly rude people i've
+met you just can't get 10 seconds of their attention and like just to give you context of what's going on in my head now
+right now as i'm making this podcast i know that i'm missing this phone call with this pr firm i know that i've got this major ipo
+coming up with this one company i know i've got this board meeting coming up with this company i know i've got this ipo coming up got this other
+conversation about joining this board and this other ip coming up and i've got all these other personal things going on in my life and this you know i've got to record this podcast my
+brain has just got all these tabs open so when my pa walks up to me and she goes hi steve how's your day going
+you know shall i buy pablo some dog food it just it's just it's almost the only way i can describe it is the question is like an
+irritant um and what you what i've got what learnt over the years is like
+i have to understand that people don't understand and i have to try and respond on that
+basis which sometimes especially when i'm like really tired can be a challenge um something i've
+really tried hard to work on but i'm still like really not that great at is remembering to be like gracious and just
+a decent person irrespective of what's going on in my head and treating people and being super polite and trying to be my best self
+every single day in every interaction you know i i talked on this podcast once upon a time about the day i got on
+a plane i sat in business class and i look up and it's that guy from man versus food and we were running at the time one of
+the biggest food publishers in the world love food and so i messaged the love food team there was about 150 people that got this
+message in the social chain chat at the time they said oh my god that guy from um man vs food is on the plane
+and they all said okay go up to him and ask him this like famous social chain question we have which is what's your favorite sandwich long story short when you join social
+channel you get asked the question what's your favorite sandwich so i jump up and i walk over to his seat in business class and i say
+hey uh um i got quite boom shuts me down not right now like shouts in my face so i like slowly
+tiptoe back to my seat in business class i'm like slouched down and then i have to message 150 people
+saying oh by the way that guy we all really like is an [ __ ] um and he would have had no idea that he
+was speaking to somebody who ran at the time the biggest food publisher in the world and had
+hundreds of employees and at some you know some point in the future might have wanted to do some business with him or work with him but now thinks he's a
+total [ __ ] and this for me that moment i'll always remember of as teaching me how important every
+interaction is even the ones that don't seem that important um and i try and bear that in mind if
+you've ever come and watched me speak anywhere in the world which i'm sure a lot of you have because i was a bit of a speaking hoe over the last couple of
+years then you would have known that i never ever would leave a venue before everybody's got a chance to like
+take a photo or meet me or ask me a question i would be the last one to leave my own talks um because i that's the way that i would
+want someone to treat me someone that i followed and admired that's how i would want them to treat me and i'm scared of being an [ __ ]
+um yeah and it's much easier to be an [ __ ] when you're
+when you've achieved some level of success right powerful people find it the easiest to be an [ __ ]
+they can therefore also probably do the most damage by being an [ __ ] but also get away with it a lot of the time
+i believe in being a good person as much as i possibly can be and i'm like clearly imperfect in many many ways and i still
+struggle with this but i'm doing my very best to be a good person um and to be kind and to you know
+to never forget who i am and where i come from okay so the next question is i'm scared to post my business
+I'm scared to post my business or myself online at risk of humiliation or failure
+online at the risk of failure or humiliation do you have any advice this is a very
+interesting thing that i don't think people talk about enough especially when they're starting out in business which is how do you overcome
+the sort of public transition from just being steve to now being this entrepreneur who's running this business and raising money
+and giving people advice and has has a podcast how do you like square that with especially in your friendships and your
+personal circles with the person that they they knew first right and when we
+started the business when we started social chain my business partner dom who's come on this podcast to talk about it was ridiculed by his friends privately
+like you know those kind of jokes that people do where it's like a joke but it's also not a joke so he would post on his facebook page
+saying we've just started social chain just about this business it's going really well or whatever he'd say and like five or ten of his best friends
+in the world from his hometown would jump on there with these kind of snide jokey like patronizing
+bantery comments uh but they were like inherently mean comments and i remember back in the day
+continually jumping into his comment section and trying to defend him and i'd get some of my other friends to jump in there and just be a bit nicer
+he was posting his achievements and being like ridiculed with like not funny kind of funny banter and for
+me as i reflect on what that actually was and the psychology behind his friends and knowing his friendship group back
+home i'll be completely honest i think his friends saw him changing and somewhat didn't like who he was
+becoming because his success kind of alienated them and nobody this is just a principle of
+psychology that i've actually written a little bit about in my book people are most envious of people
+who they can relate to so if you're you know colleague at work or your friend or someone your age is achieving
+huge amounts of success and they look like you and went to the same school and came from where you come from that
+inadvertently shines a mirror on you it means you've got no excuse and that your you know
+success or lack thereof is probably a consequence of your own actions and as humans we just don't like that thought
+and so dom's my business partner dom's social circle back home many of them not all of them there was one or two key
+exceptions we're trying to rein him in and saying you know you're one of us stay here don't become something that we
+can't resonate with and if you find yourself in the scenario that dom did you basically have a really
+simple choice to make it feels complicated and it feels like a bit of a minefield but it's not
+the central question and the most important question you have to ask yourself is who do i want to be and what makes me
+happy whether and this is a point you can extrapolate to any sort of area of your life even those outside of your career
+who do i want to be and what makes me happy and decide what that is and pursue that thing anybody that you
+lose in the pursuit of your happiness is probably not someone you needed or wanted in your life anyway they're
+probably not someone that had your best interests which by definition are you being happy at heart
+they're probably someone who was riddled with a little bit of jealousy who didn't want you to become everything you could become so that's the framework
+in which you make your decision which is who do i want to be and what makes me happy pursue that and be open to losing people
+who no longer resonate with you pursuing your happiness along the way and i distinctly remember
+going through this myself which is facing ridicule and banter and little snide comments behind the scenes i remember a
+day where i posted something on facebook like one of my quotes whatever it was or some of my content on my daily vlog and
+a friend of a friend had made some snide little comment about like who the [ __ ] does steve think he is the friend had told me and it's those
+moments where you can make that decision to like fall back in light line and conform and to avoid criticism
+had i can you imagine my life if i'd done that if i'd let a couple of comments stop me from pursuing my my career and
+producing all this content which gives me so much intrinsic joy and fulfillment can you imagine if i let the fear of a
+few comments hold me back from my potential and the things that make me happy i'm so glad i didn't and in that
+particular case where that guy was ridiculing me behind my back that same person four years
+later um when he went through some troubles in his life and some mental health issues reached out to me
+because he was in love with my podcast now and uh met me in a sushi bar in london and
+just sat there and asked me advice because of something i'd said on the podcast that he initially ridiculed
+and that kind of shows that that teaches me a lesson that you know even some of the people that ridicule you at the start you've kind of got to forgive whatever
+it is in their nature that's making them try and hold you back but you've also got to understand that
+it's not a you problem it's not your responsibility to control what people think of you in their head or the image that they've created of you in
+their mind that's not your responsibility your central responsibility as a human being is to pursue
+your happiness your truth and the things that give you the most intrinsic joy that's your responsibility and one of
+the things i've come to learn about success generally in life is that it's the small seemingly invisible seemingly
+insignificant decisions piling up over time that have the greatest impact on you it's not our big life choices it's the
+small ones the ones that are easiest to do or not to do and it's the same with bending under
+public pressure or criticism it's easy if you see a friend of a friend slagging you off just to stop doing that thing
+if you allow these small seemingly insignificant comments just nudge you just one day at a time away
+from the person you want to be and the person you want to become can you imagine how far you're going to be from that person in 10 years time
+it doesn't bear to think about people ask me for book recommendations all the time
+and i finally got one for you it's a book called happy sexy millionaire which is authored by me
+there's this crazy thing when you write a book because you spend so much time pouring your heart and soul into it and
+everything you know and all of the revelations you've had in your life and then there's this barrier which is
+that people have to buy the thing in order for them to get that thing that means so much to you i wish that wasn't the case
+it's just the way the industry is and in order to get that distribution and to get it on shelves you need a publisher so
+please please please if you can if you've ever liked anything i've ever produced this podcast my instagrams anything i've ever said
+read this book there was no ghostwriter i wrote every single word myself there's some real surprises in there it's an
+honest sometimes hilarious incredibly vulnerable hopefully valuable recount of my life my
+journey everything i've learned across across the way and really the answer to being fulfilled to being happy and to
+achieving success it is the most important important thing i've ever created so i implore you to go
+to amazon now or wherever you get your books and get that pre-order if you get that pre-order i'm going to put you into a
+group with everybody that's pre-ordered it and i'm going to send you some exclusive stuff so the first things i'm going to do is a series of voice notes which i
+think are um are going to be pretty powerful i'm going to give you access to some tickets which nobody else will have
+and i'm going to do everything i can to thank you for for giving me that sort of nine quid of your money or whatever it
+is happy sexy millionaire you can pre-order it everywhere now and if you do get that pre-order please do dm me because i'd
+love to thank you myself thank you so much for listening i feel like i didn't i i don't say that enough to all of you guys it means a ton
+to me and honestly there'll be little moments where i'm in the street or in the gym or someone will say something about the podcast
+and it just puts this tremendous fire under my belly to continue to do it it requires a huge commitment and the
+driving force behind that commitment is all of your feedback if you're listening on youtube hit the subscribe button if you're listening on
+the the spotify or the podcast or hit the subscribe button it means a ton to me and it's more fuel for this movement um
+and yeah it's the reason why we can keep bringing you these episodes and i'll see you again next week for another installment of
 
 ----------
 
@@ -1014,11 +1605,1224 @@ paste here
 --15--
 
 -----
-Date:
-Link:
+Date: 2021.02.22
+Link: [# Grace Beverley: How To Build A Multi-Million Pound Empire At 24 | E69](https://www.youtube.com/watch?v=AehL3u-H7FI)
+### Notes from the Video Transcription
+
+#### Advantages:
+
+- Grace Beverly demonstrates the power of leveraging one's platform to monetize content and create successful businesses while maintaining personal values and sustainability goals.
+- The ability to manage and grow multiple ventures simultaneously showcases exceptional organizational and strategic skills.
+
+#### Drawbacks:
+
+- Grace highlights the personal cost of her accomplishments, such as burnout and the impact of workload on her life.
+- The constant scrutiny and pressure from being in the public eye, coupled with the challenges of being a young woman in business.
+
+#### Tips and Advice:
+
+- Grace advises on the importance of self-care and setting boundaries to manage workload and stress.
+- She emphasizes the need for hiring individuals who are better in certain areas, allowing for a focus on strengths like marketing and branding.
+
+#### Lecture Content:
+
+- The conversation delves into topics like the effects of social media on mental health, the balance between work and personal life, and the journey of building a brand and business.
+
+#### Main Challenges:
+
+- Managing mental health while navigating the pressures of running businesses and being in the public eye.
+- Balancing the desire for business growth with personal well-being and relationships.
+
+#### The Importance and Usefulness of the Topic:
+
+- Discusses critical issues like mental health, gender dynamics in business, and the sustainability of fashion and fitness industries.
+- Offers insights into the entrepreneurial journey, highlighting both successes and the often overlooked challenges.
+
+#### Accomplishments:
+
+- Founding and growing two multi-million dollar companies focused on sustainability and fitness while completing her education at Oxford University.
+- Building a significant online following and authoring a book.
+
+#### Summary of the Content:
+
+- The conversation provides an in-depth look into Grace Beverly's entrepreneurial journey, the challenges she faced, and the lessons learned. It touches on themes of mental health, sustainability, gender in business, and the personal cost of success.
+
+#### Interesting Quotes or Insightful Sentences:
+
+- "More is not always more."
+- "I'm very much at the beginning of this...I'd be doing myself a disservice to kind of be it's exactly what I would do jump to the next when can I sell it when can I get all of this but especially because when you have a business you kind of programmed to assume that by the time you've done this you're officially like you're no longer an entrepreneur you know you like sold a business for x or whatever and it is a success point it's a huge you know it's a huge accolade and I think that for me it's just about constantly keeping in touch with myself and what I want what I want for the businesses as well."
+
 Transcription:
 
-paste here
+Intro
+one of the reasons i step back from social media was because i if something can manifest so physically that you're having a [ __ ]
+seizure then you probably need to take this more seriously and that was you know like that was that was tough
+and that for me is my happiness
+grace beverly ceo founder of two multi-million dollar companies one's a fashion empire that's focused on
+sustainability and one's a fitness empire comprising a mobile app a supplements business and gym equipment
+she did all of that while studying and graduating from oxford university while growing her online channels to millions and millions
+of followers while writing a book and while dealing with all of the things that every other gen z person has to deal with at the age
+of 23 23 and on the surface it's easy to understand while looking in someone might love to have
+grace's life but as you start to peel back the layers as we do in this conversation you begin to understand her obsessive attention to detail the
+weight of her workload and the personal cost of her accomplishments and you see the impact that those things have had on
+all parts of her life and it makes you reconsider despite all of this
+she's persisted she stayed true to her values she's doubled down on the things she loves the most and she's cut out some of the things
+that no longer serve her she's learned she's learned lessons that most of us would take a lifetime to learn
+and she's 23. it blows my mind without further ado i'm stephen bartlett
+and this is the driver ceo i hope nobody's listening but if you are then please keep this yourself
+grace i started my business at 18 years old as well you um you faced a different set of
+challenges not only have you started your business at an incredibly young age or at least you got into business at an incredibly young age you face a set of
+challenges that are even alien to me in the sense that you are a woman in business um you are taking on various industries
+that don't want to be taken on and that really are sort of incumbent monopolies in the space of fast fashion and fitness and those
+things i guess my first question is why did you choose business and what gave you the
+How did you have the confidence to pursue such an uncertain career
+what gave you the confidence to pursue a career that's filled with so much uncertainty at such a
+young age i think i think people often assume that the first part of it always
+has to be a kind of i'm going to start this i'm going to do this and i think that mine absolutely wasn't that at all and i
+think that that's what often makes me kind of question you know the amount of things that have had to fall into place for this to
+happen and of course you know there's hard work in that but there's also so many other things that have had to go right um so for me you know as i kind of said
+when i was 18 and working doing an internship at ibm that's kind of when i started and
+i just started doing some i essentially started monetizing something that should be monetized so it's content i was giving away
+for free and then i was going to do lots more of that and so i decided to monetize it via an ebook um and then you know the
+next year i did more of that and then that's you know then it started picking up momentum i started doing different products and i think that
+that's i guess often not seen in the way that business is represented it's kind of seen as like a
+eureka moment then you go and do it then you put it into action then you fail once or twice and then you get it
+and that it was far more gradual than that and i think that probably over the past you know so it's
+probably been so it's been five years since that moment i'd say four years since the business it's ready that it is
+now has um i guess was founded um and in that time probably the first two
+years were incredibly gradual very much a kind of residual extra
+income um rather than kind of this big like these are my goals
+this is gonna happen within this time um so i guess in that it's been a
+gradual process i think the confidence has gathered through that and a lot of the time i
+haven't been confident enough to do that but have i guess just done it anyway so
+you know when i was when i did kind of my second set of ebooks which was in my first year at university
+that was literally because my student loan didn't come through like that was that was the only reason so as in i don't think it was necessarily a
+confidence thing i think it was more okay like what are we gonna do in that situation um and then putting that together and
+then being able to you know leverage a platform to be able to monetize that so and then from then
+onwards obviously it's been very mindful it's been very kind of strategic
+and that's how it's happened but i guess i guess the answer is that the confidence hasn't always been there and it hasn't always been a kind of i'm
+going to take on this industry sure starting tala that that was um but but the rest of it
+a lot of it has been gradual a lot of it has been this kind of more just a cumulative
+making one decision at a time um which is i guess what i kind of try and
+show as well so that people can know that it doesn't always need to be this one big decision and this one big business that's going
+to be the biggest business in the world it can just be you know something you're just doing in that moment
+the world has changed recently over the last 12 months because of the pandemic a lot of people have lost their jobs and so freelance websites and entrepreneurship
+has now become more in focus as people are trying to find ways to give themselves a little bit more stability in their income
+and when i speak to my friends that are you know your age 23 years old right 24 next week a week after sorry um or
+who are younger 18 19 or even older um everybody seems to have a business idea yeah and i'm sure you're
+bombarded with dms like this right everyone has a business idea um there seems to be this
+barrier between the idea and taking the first step like making uh the
+instagram page and is the the barrier between that is it confidence in your view what is it i think
+it's probably specific to the situation the person the circumstance so
+you know i was when i was at university if you know i think that there was
+something that came together to make me do that but i was also at university in a place and in a time that i could
+take i guess a a risky decision in terms of how i spend my time in terms of what i'm putting together i wasn't
+i guess i wasn't doing a part-time job at the time that i could have put into that and so you know part of it is
+circumstance in the way that people a lot of people don't necessarily have the
+the backing to put behind it or it might be the the time they can put into it you know lots of people are
+working three jobs just to make ends meet and therefore you know you might have an idea but actually being able to sacrifice the
+time spent doing that isn't an option and i think but then i think a lot of the time as well i think it can be
+confidence out of that circumstance it can be um or outside of that circumstance it can be you know
+should i be doing this why should i be doing this and i think that a lot of the ideas that i've had you
+know i'm sure you'll have the same like there'll be ideas that you have kind of the whole time and it's choosing the right ones and it's
+choosing and it's being able to test it i think i'm sure if i tested out my first i guess what has turned into shreddy now
+if i tested that out um you know even more gradually or if it hadn't worked or whatever
+i don't know how tenacious i would have been in terms of actually making that happen and as i say it's been like an accumulation of that confidence and
+actually testing things realizing their work and then replicating that so i think
+i mean i think we can't necessarily blanket apply it to everyone and be like it's because of this it's because of this but i think that you know probably
+the biggest the biggest factors will be circumstance confidence um and yeah i guess there are so many
+things that can stop you but there are also so many things that can enable you to say okay well this is this is this i'm gonna i'm
+gonna make it happen or i'm gonna take that leap or i'm gonna at least do the background work we'll do a survey to see if my product would be liked or
+whatever it might be i think as well if people looking at you or myself that have achieved things in
+business will see this very polished product right and they'll think well i'm so far from that so i'm i'm so far from being
+capable of what that person has achieved but as you've described that which i think is so powerful and important for you it was
+taking one step up a very very thousand stair staircase at a time and and as you say when we look at you
+now on step 934 we think oh my god like you know you must you probably get this comment a lot right she's like you must be so proud of
+yourself yeah which is like well it's been one step at a time so yeah you know and i think you can be proud of the steps along the way
+but i also think that i look back at some not necessarily some products but you know some branding some
+content some all of that and i look at it and i'm like it was crap like that is awful like as in i would
+just scroll right past that or i wouldn't you know and of course things have changed people's like tastes have changed and
+all of that that kind of goes into branding and product and all of that but there was something you know i've sold everything from
+you know like t-shirts to notebooks to like whatever it would be it's not what the everything that's
+accumulated now is the good things that have then been replicated it's not everything gets kind of replicated and
+then you know you see all of the end products there have been some things that never ended up as an end product
+because they were so [ __ ] in the first place that they were never you know they didn't deserve that extra time on them so i think you're completely right there
+is this kind of and i i think it's also perpetuated by you know unknowingly often by people
+like ourselves so you know like i i think i look at the stuff i share and i look at it and my god i'm so much more likely to share if
+it's this or you know if this product worked out well and and subconsciously because there was an
+end of that journey we don't necessarily say like oh this was the thing that actually went really wrong because you know it's embarrassing like
+you don't want to share that you don't or you don't kind of think too because you don't think of the kind of like pride in the journey that's got to that
+point um and so it i guess it all does you know you will just see the the good
+things or you might see the bad things that are positioned in an inspirational way but it's still curated
+but it's still what i guess is want to be seen and to
+to my other point about being uh a woman in business that comes with a whole unique set of challenges you know i've heard you talk
+about being underestimated not taken seriously before speak to me about some of those challenges that i wouldn't even
+you know know about so i think first i always also think it is important to
+preface this with the fact that yes i'm a woman in business i'm also white able-bodied i was privately educated i went dogs but
+a kind of huge list of things that need to be
+i guess contextualized which i've always thought is important and i think that i think that
+it's you know i won't face half the challenges that a black woman would face in the same
+position i think the challenges i do face are you know they are
+kind of often and they have to be they have to be worked um through i guess and and that's been you
+know a journey there have been you know people who have wanted to work for the businesses
+who clearly won't accept the fact that you know this i'm not the face of it like i am
+acting ceo and you know i do do x y and z and there have also been you know it's
+been the same with partnerships it's been the same with you know i think people people have a certain perception that's definitely
+warped and increased and perpetuated by online presence and the fact that i don't just
+share my work and um and i think that you know it does come down to it does
+come down to these preconceptions and i know as well since i've started realizing this i have preconceptions as well you know we'll
+say like it's about a woman who's high up who you hear about and you're like oh god
+they're doing really well like why don't i have that and i think you know i often think like oh well you know apparently they're really hard to
+work with or like they're like whatever and we all have these own kind of like our own like internalized
+sexist whatever it might be preconceptions in terms of these things as well and
+i think that it often comes for women who are successful you look at them you either think you probably think one of two things you
+either think or maybe one of three things you think wow amazing must be superwoman or you think wow
+amazing but like oh i've never seen a partner or like children like do you think they're happy in their
+personal lives or you think wow but they're kind of like either they
+haven't actually done it they've just been put at the front of it or they're like a [ __ ] or really you
+know really [ __ ] or like a tyrant or whatever it is and like that is and i think that when i look at that i'm
+like actually that's probably the way i see some people you know that's probably the way that is in some ways for you know for
+for me and my conceptions and i think that it's it's just it's it's what it's it's what it's become and it's actually
+obviously got better in some ways you know it's got hugely better since probably like the 1950s and whatever
+but there's still a long way to go in that respect when i knew that we were going to be having this conversation i i looked into
+How does it feel being discredited for what you've done?
+the general sentiment around your brand and you've got a huge hugely engaged wonderful community of
+people um you've got this you know this true like i'd call it a fan base or supporters that understand you and they
+get you probably because they followed you for a long time and they followed your vlogs and they like know who you are right and then
+as is the case with pretty much every um successful person i've seen there's
+also the antithesis of that there's the opposite there's people who as you said we will try and highlight reasons why
+you maybe don't deserve to be where you are you don't deserve credit this is something that pretty most of the guests i face um i've sat
+with have faced to some degree it's it's not easy to take right because
+um i know right i come from a slightly different background but i know that irrespective of background
+you have to work hard really really [ __ ] hard be honest with me
+how does that feel i think that i think it's an important discussion to have first and foremost i
+think that and i think i'll be the first to say that and i think a lot of you know i spend a lot of time in the book for example
+contextualizing success because i think it's very important especially when you know
+you're presented three people on your instagram feed with in the same square and one of them you
+make from school one of them's you like your mum and one of them's beyonce and it's kind of like this
+democratization of the news feed that makes everything look the same and you don't see the teams you don't see the privilege
+you don't see all of the above and i think that it's a very important conversation to have so to be perfectly honest i'd be rather
+people have that conversation and maybe write off my success based on that
+i think that i think also aside from that i do think that you know a lot of the people who the people who do follow me and have
+followed me for a long time know my work ethic and they know that i work hard and they know that you know often that's been an unhealthy amount you know
+i use work as a coping mechanism so it's been through the worst times of my life that's what i know i can do
+and that's what i throw myself into and i think that i'd rather that conversation be had and
+me be able to know in myself why i've been successful and how i've worked and i think that i think that that's
+you know i guess first and foremost that's important and that's how i'm able to i guess push through and be able to do
+what i do is because i know why it is i also know that there have been things that have helped me
+and then you know i guess that doesn't matter i guess the important thing is that we're able to
+have the conversations and able to like i'm able to know as well in myself i know that's a very mature
+position to take i've got to be honest it's a very mature position to take but i i'm skeptical as to whether it's always
+been as easy to take as that and you've you know so talk to me about the process yeah i mean i think that any justified
+criticism or you know might be justified it might be unjustified criticism is hard to take
+i don't i think you can have a mature standpoint towards something and equally you're still going to feel
+like a punch in the stomach of course and that's and that's fine and i think that one of the things that i wouldn't wish
+you know when i think for my children that i wouldn't necessarily want them to be in is i wouldn't want them to be
+in a higher profile position when they're younger um and because i you know i talk about i have this whole chapter in
+the book which is essentially a i guess probably like the most honest i've been in a long time because
+it's you know as i've said it's a there's no instant feedback loop there's i can write this and not hear about back from it for you know like a
+year and it's me talking about how actually essentially i feel like a lot of i became known at a time where
+my self-confidence was at its worst and therefore i was able to i guess rather than feeling that lack of
+confidence with confidence and self-worth i filled it with validation and therefore when i decided to take a step
+back from social media because i decided that wasn't what i wanted to do kind of first and foremost as my job
+that kind of bandage was ripped off because it didn't exist and that's when i realized that you know
+these things are the things that we need to be able to deal with and we need to be able to i guess cobble together to be able to
+you know no matter whether this person thinks x y and z about yourself how much does that matter if it does
+matter and if you do think it's wrong are you going to do something about it and can you still get on with
+your day essentially and i think that there are people who are amazing who i see on social media
+who i wouldn't give a single criticism to that i can think of that i'm sure get the exact
+same thing and there are people who have been to hell and back and get the exact same thing and there are people who actually have
+done you know have lucked out and get the exact same thing and in the grand scheme of things i don't think it
+necessarily matters i think what matters is that you know in yourself and you also know that if there's
+something you need to change then you can change that like if you want to if i guess sometimes when
+something like other things you know like hit a nerve or whatever like do you need to change that do you need to address that do you need to do better um so i
+think that that's that's kind of how i tackle it but of course no there's not like a something in me where i you know get a
+message that says you look ugly and i'm like thank you
+that's not an initial reaction but i think that you have to be you have to be rational when we're not
+designed to be taking this much feedback and criticism or even if it's not criticism if someone
+like i say the whole time oh i don't like that color i don't like like clothing or like
+whatever it might be to the designer that might like rip them to shreds or whatever it's not mean
+it's an opinion and we're not designed to be able to take that in so i think that there has to be a sort of rationalization on a human
+part or on your like if you are in that position you have a duty to yourself to learn how to deal with that or to remove
+yourself from the situation otherwise it's just untenable i guess um you've got you know two businesses
+Sacrifice of business
+two key businesses and um when you run a business when you're young irrespective of age you undergo a couple of things real like
+unexpected chaos at any given moment then also a tremendous amount of sacrifice i actually want to start on the sacrifice piece because i don't think
+people as you said earlier get to fully see the full picture of sacrifice and cost um both personal
+and professional whatever so talk to me about some of the sacrifice that even you didn't expect
+before you got into business and before your business grew um i think that at the same time as i
+kind of benefited hugely from the you know having money at university
+for example i also went to university expecting one thing and then actually spent it essentially
+getting up at x hour working on university stuff because i never ever ever wanted to give them an excuse to
+think that i wasn't concentrating fully on my university and then working all the way essentially
+way into the night to get the other stuff done and i also you know that comes with being high profile that comes with all
+of these things so i guess one of those things was very much like there was the time and the life experience and all of that
+that because things took off quickly at one stage even if it wasn't like
+it wasn't that the businesses took off you know the businesses have done much more over the past year and a half or whatever when i haven't been at uni
+but at that point you know the the high profileness all of that that came with i guess
+different to what i was expecting um and um or not what i was expecting i wasn't expecting it at all and therefore there
+was kind of i guess you know something that i really did want for myself i didn't get but i also
+got um you know a lot more in another way for yourself well i just wanted the
+university experience really and i think that i was so once this took off i'm a very determined person and i
+i get i get a vision and i'll work for it day and night and i think that i
+actually got to i think in that instance you it's kind of like a fork in the road and
+you decide okay well i'm taking this one and i'm going to concentrate on this i'm going to grow the businesses and all of
+that and then i think as well i saw the deadline for that as my end of university because if i had to
+if it wasn't as big as i wanted it to be by that time or if it wasn't you know whatever it might be i was
+gonna choose i was gonna go into a normal career um and i think that um so
+i was so dedicated to making that happen rather than you know i wanted to grow up too quickly essentially i'm
+23 like i you know i'm and i think that a lot of that has been i guess in terms of people's whether
+when it's people who meet you their kind of perception of you or whatever it might be and so i think that was
+something where it was a choice i'd make again and again but it was i guess a sacrifice that i wasn't
+expecting to make and i guess that comes with everything that comes with you know relationships with friends
+with time in general with you know time to yourself time to whatever i think
+having a business in a way and i'm sure some people will disagree but i'm having a business in a way is like
+having a baby and you can't just you can't just like up and do whatever
+you can't you can't say no when a crisis comes in at 1am you can't like that is what it is you get all the other
+benefits with those conditions and so i think that you know that's kind of a constant one like you can't
+you can't say oh i'm gonna quit this and go and do this for two years because especially when you've got x amount of
+people working for you you've got all of their salaries you've got all of their pensions you've got you know like it's it's a huge responsibility stops
+with you right yeah and and and that's you know it's it's it's an important one do you sometimes i
+reflect on uh the business journey and just how like obsessive it is and all consuming it is
+and i think it's a bit of a disease i'm like why did i choose this to like it's almost like masochistic
+yeah like obviously it's got the most amazing benefits but it is also like i remember what i remember my friend i can't remember
+i think i really we'd agreed to just just lock down things we'd agreed to
+watch a movie on a sunday night and then the sink came up and i was just like you know what i'm gonna like i'm gonna
+do this i'm just gonna work harder so it's just gonna be easier for this week and it was like tiny sacrifice and my housemate turned
+around to me and she was like what is the point of were you working this hard for this many years if you can't watch a movie on a sunday night
+and i was like yeah like as in like you're not wrong like i'm still gonna do
+it but like you know you're not wrong like it's what is the answer to that question though so say
+because i've muddled over this as well if i'm working obsessively every day at what point does is enough yeah i think that it all comes
+with what you want and i think that you know i've i've listened to you before and i've listened to you kind of saying that you know there came a point that you
+realized that it wasn't about money so like what was it about and i think for me there's the kind of
+aspect of it's it's for the businesses and i have these really clear dreams for the
+businesses that result in dreams for me as well sure but i think that that is
+i think i'll come to a you know if i decide to sell a business or whatever i'll come to that road there where i'm
+like okay what is it for now and i think that knowing myself anyway
+i know pre-business post-business i'm sure i am like that so
+whether it's this or whether it's something else or you know and i hope i can channel that into something else at some point that
+doesn't require every inch of your being and i know i'm like that so it's kind of
+like yeah sure it might be for nothing but it's i'm gonna do it anyway like there doesn't need to
+be reasoning behind the fact that this is how i am i have always been
+i've always yeah i've always been like this i've always been kind of like i'm gonna make this happen like whether
+that's kind of through like coordinating all the babysitting jobs that you got in one night and allocating them out to your friends
+and stuff or you know like taking essentially like any job ever that like that i could
+then you know that's all that's what i'm like so i kind of know that where did that come from though i
+i think probably a few things i know that everyone in my family is a very
+hard worker and that is very it's kind of almost like an like an
+anxiety to do well even though like my parents were
+not pushy at all i think people assume you know especially if you go to oxford or like whatever but the least
+pushy people ever i think that actually it all i kind of was discussing this with my
+sister the other day was like where does it come from it doesn't come from our parents like it comes from them clearly because they had
+it in themselves but you know like they both my parents had careers when i was growing up i
+lived with my mum just me my mum and we had a tenant who lived in um my mom's house
+and my mum was working pretty much all the time incredibly like i respect her so much for it
+because i also never grew up thinking like oh it's weird for a woman to have a career and have four
+children and like whatever she just you know she worked all the time and um and she loved it she
+loved it and she gave her like everything to it and so i i think i spent a lot of i spent a lot
+of time kind of in that situation knowing that i also wanted to love what i do and i
+think there is this mislead like perception that you know like if you love what you do you'll never work a day in your life blah blah blah
+but i also think that there is this like it's a flow state isn't it like you have something that matches your
+challenge and your skill level and you get more fulfillment than you'll get from anything
+and i think i was so i used to say i remember saying like i i think it was like when i was like 15
+16 and i would take like work experience from anyone every single holiday
+and every single school holiday and i remember my teachers saying that you should probably choose one of the avenues and
+then you can do like more within that or something and i remember just saying to them like i'm so terrified that i'll be stuck in
+something that i hate and it was like a constant like and i don't think it's necessarily good i
+don't think it was necessarily healthy i was constantly so terrified that you know the same was for university the same was for whatever
+like i didn't get into oxford the first time i applied i i i and i went again like i literally that
+same day i went online and i found out what i could do for a year that would earn myself some money to be able to not be
+i guess studying that year and went to um and applied for the ibm future scheme
+which is the one they do for gap year students that that literal same day
+and then applied again the next year and like as in i was i'm very like that it's
+very set on kind of one thing and if that thing then doesn't work i either want to do it again like it's
+really clear to me i either want to do it again or i'm like that wasn't right and then i move on but i know that i'm
+very straight out and very like i will not stop until like yeah you
+get it right what's the uh actual the business and the chaos in the segment can is there one day in your business
+career over the last couple of years which was your worst day um i mean or your toughest challenge
+i think my toughest challenge in general was there was this stupid stupid time that
+i'm constantly praised for that was the worst decision i've ever made in my life which was that i was
+coming up to my university finals i was launching a business to i think it
+was a month before my university finals yeah i was launching a business beginning of may the 7th may if i'm right um
+and i started i finished my finals on the 6th of june now that meant that 40 000 words were
+due and five three-hour exams within the space of two weeks and i also wanted to launch my business
+and i also wanted to do well at university i'd been working with that for three years um but i'd persuaded people as well i'd
+be persuaded people to spend money on this launch i'd persuaded people to you know so i was going to do it right people were like you're amazing like
+this is so great like how can you do this and i'm like you are like it's not wise
+it's not smart like it's not like this isn't a competition for how many boxes you can take within a small space of
+time that is like a fast track towards burnout and either something going incredibly wrong
+or whatever and i think that that you know like as i've said work was always a coping mechanism for me so it's always kind of like well if when if we
+have to do it now or we like run out of money before launch and we're doing it now and i don't care like i can work x y and z and i actually have like
+a whole like chapter in a book where i'm essentially talking about like that was the time that i felt most validated in being a
+hard worker and i felt like because i was i was in the library at 3am and i was also
+on the phone with the suppliers at you know 7 a.m the next morning and all of x y and z and people could
+see it and i was living it i was like hustling the hustle and that was when i was like wow
+like this is it like i am the hard worker like with capital h w and like this is
+me and i think that that is like that kind of like sums it all up in
+the way that that was a huge challenge also an incredibly unwise challenge at the time
+and yet why did that feel like the time i was doing it right so that's actually that's a lot of what spurred on essentially why i was writing
+the book because it was kind of like how can that be the epitome of hard work when that is
+also the epitome of not being productive like that's like completely unproductive um and
+not useful for anyone you're not gonna be nice with the people you deal with at the time you have a higher chance of actually
+like messing things up and all of that and yet why was that the one time that i felt like truly validated for what i was doing and
+you were broadcasting that and i was broadcasting that and there'll be people i'm sure who see me now who are like
+she you know did this and that and like yeah sure i work really hard i really do but there are some things that
+it's kind of like i addressed that and like as i said to you while i was writing the book there were so many things that i noticed i was like i'm the
+problem here as well i perpetuate this how can i criticize a culture of the hustle culture that i
+benefit from at the same time how can i do that and i think that i think that that's
+what made me you know that's why i say that this book was such like a soul-searching process for me because i was like
+you know what is that why is that like is that because i need the validation is that because we all need the validation now because hard work has
+become so unobtainable because it has to be doing this job that job like everything in between also being
+amazing at self-care also doing like x y and z and i think that that's when i was kind of like okay this is a challenge
+but it's not only a challenge it was a silly thing to do so it's not even like a you know there are things you have to do
+there are crises you have to deal with and all of that that will be a challenge and will also be incredibly rewarding and all of that and
+most of them are but i think there are other things that you look at and you're like yep this was a challenge and it also didn't have to happen let's not do that
+again as you guys know i'm a massive fan of hill i've been consuming the products for about four years now and you know
+that i attribute much of my health and fitness goals that i've achieved over the last 12 months to
+heal more recently i've started having the hot and savory bags of fuel and as someone that really
+loves to have the ready to drink cure it's actually been really nice to find a product that is a meal but still gives me all of the protein
+and the nutrients and the minerals and the fibers that i need for my diet so i'm now on the hot and savory journey
+join me if you want to my favorite flavor is the thai green curry flavor i like to add loads and loads and loads
+loads of cake and pepper to it because i really i'm from africa and i really like spice so give it a shot you mentioned burnout
+Your mental health
+yeah um and i remember reading a quote in a in a piece that you know an interview that you did where you talked about
+mental health generally and how you know you'd reflected that maybe you weren't representing mental health in the right
+way i think you said um you were giving advice but it didn't apply to yourself in terms of like talking and being open about it
+i want to know long way back i've just been digging through every two and a half years yeah i just wanted to get a flavor for
+everything oh yeah no i appreciate home it everything but talk to me about your mental health and the journey
+you've been on with your mental health since you were you know 18. um well as i've said i think probably
+a one of the reasons that i think i you know in that in that pose to give
+context i guess i said that i am one of the biggest advocates for people talking about their mental health
+we have mental health days like within our the company like you know you can take days off and you
+can literally just take a duba day and it could be you know because of your mental health whatever it might be and i'm the biggest
+advocate for that and talking about it and everything and then as soon as it came to me no
+like that was not it's not the same case like i'm not going to talk about it i'm not going to
+deal with it and it actually got to a point that i was having seizures essentially um from
+something really horrible that i went to that was through that was essentially ended up giving me ptsd
+that presented in seizures and obviously i was having symptoms up to the point of the seizures but i only took it
+seriously when it was a physical symptom like when it came to the point that i was like okay
+like i'm being hospitalized now like this is not ideal at all and that was the thing that made me slow down and that was the thing that
+maybe or not even slowed down i didn't even think i necessarily hugely so down after that but it was kind of like okay this is real and this is just as
+like if something can manifest so physically that you're having a [ __ ] seizure
+then you probably need to take this more seriously and that was you know like that was that was tough that was right before my third year at university
+that that started and um everything up until then like i've been a i think i have this like really
+toxic mental health attitude within myself that doesn't prioritize it that isn't
+kind of that kind of sees it as weakness even though that's the last thing that i'd
+see you know in any of my friends who suffer from depression or anxiety or like whatever it might be
+and it's completely different it's like we don't get the same treatment like
+i'll give you no i'll understand that and i'll see that and i won't do that and i'm sure there are lots of people who are the exact same
+you're not being compassionate to yourself exactly and i think that that's another reason why i really needed to like look inside myself and be able to
+evaluate that and be able to look at like why like why is that the case like why do you feel so
+undeserving of the justification for like you know having bad mental health at one
+time and i've been lucky that you know apart from this which was a result of specific trauma
+i've generally been you know i've had generally good mental health and i've you know been
+able to deal with like i guess you know like i think a lot of the way that mental
+health is presented is really damaging in that you know people do i've had friends who have kind of said like
+oh yeah but you know i don't want to take meds from my depression or whatever and
+everyone has different views on it but it's kind of being like well any other chemical imbalance in your brain you would because you'd say
+like hey i need this to offset this or i need insulin to offset this or whatever and yet it's like a it's a thing it's
+like a you know what's what's she called like mrs trunchbull you know from matilda that you like have in your
+brain that's like you do not like get this or like you do not like deserve to have that compassion or whatever it
+might be so i think like i've had a and i think i'm what's so strange is that i don't know about you but i'm able to talk
+about mental health really openly and i literally had so i thought it was really important for me to
+um i think as a business owner i think it's probably important for all i mean i think it's important for everyone but for business owners i think
+it's important for everyone to get therapy because you're not meant to go through that much chaos
+all the time like you're not meant to have three messages a day that could kill your business and yet you do and you're like and then
+you're like the next like 15 minutes later you're like so what's that like your fight you get you get like programmed to
+get up again like second nature and then you never deal with things so i kind of
+i kind of decided i was like i'm gonna get like i'm just gonna have it once a week and it's just gonna be literally like an offload
+and i sat in it for kind of like two months and i was like i'm like i haven't cried yet and i'm a
+crier so i'm clearly talking about my mental health as if i'm doing an interview and if i'm like
+you know just able to talk about it like yeah like i think it's important and like this is and it's like this is everything that's
+okay to talk about this is everything that's not and i won't address that and i think that that's something for me
+to i guess to deal with and i think that the important thing is as an owner of a business that
+has people within it and then you know and as someone with a platform and all of that all of those things make it really
+important for me to treat mental health properly both for myself and for other people
+but i don't think i do but you are setting a really remark you know what you said there about being a business owner and it's important for
+you to get therapy one of the other points that i think of good that you'll be doing by doing that is you're setting a precedence for all of your employees
+that even me as the boss you know and that creates a safe space for other people in my business it was the same so we met
+we made mental health therapy opt out yeah i saw that yeah so like and it meant that the men who were hiding in
+the back that didn't wanted to be tough guys whatever you know i was going and i told the doctors the business my fat co-founder to go as well and that
+week my co-founder dom said he got um something like 11 messages from men in the business that had been suffering
+from mental health but just had never spoken about it and he became like the de facto male therapist in our company for that reason
+what i wanted to go back to on is the point you know you talked about this build up that you had which
+culminated in you being hospitalized with your mental health um i had i had a guest on the podcast a
+couple a couple of weeks ago and she was uh she's a kayaker and she something something changed in her life and it
+meant and she wasn't listening to her body and ultimately she ended up getting
+chronic fatigue syndrome where she went from being a kayaker that could kayak for two hours to not being able to lift up her hands
+and she said there were these warning signs in my life that i just ignored until my body went listen if you're not gonna
+listen to me then we're shutting down and it sounded very similar to what you were saying so my question is what are those what were those warning signs that
+you were in some respects by the sounds of it ignoring yeah i won't talk about specifically from from that perspective i do think
+it's important to talk about in terms of burnout as a whole so when we i think the same thing
+applies to kind of like the way that this kind of productivity
+like rat race comes across now is that you essentially need to be working as
+fast as you possibly can it's not productivity at all it's working i guess if you look at productivity like the definition
+is that you get the most amount done in the least amount of time but that has fine like that taken as one
+and then that's multiplied so you're getting the most amount done in the least amount of time so that you can do the most amount in the least amount of time
+again rather than being able to just you know do that and move on and find that's good like we should be you know we should be efficient we should be
+effective all of these things are important but i think that you know it's also the equivalent of
+expecting someone like that or a marathon runner ultra marathon runner to sprint for the whole marathon like
+it's ineffective they're not gonna win they're also probably gonna get injured
+you know there's nothing beneficial about it and we see it from a physical perspective and we completely ignore it from
+a mental perspective or from a work perspective and i think that that's why it's so
+important to talk about especially you and me people who are essentially will be seen in some way
+as like what hard work looks like that results in success or whatever it might be the
+acknowledgement that working hard does not mean working all the time and like having it all does not mean
+like doing it all and all of these various different things that actually are important to
+look at from ourselves as well because like as i said like i realized that actually probably i was perpetuating a lot more
+than i meant to and that was why i then ended up needing to perpetuate things because you know i constantly wanted to show people
+that i was actually working hard which actually all it gave off was this is how what hard work looks like and
+therefore there's you know it's probably stopping a whole generation of people who actually want to do something but
+see something you know i'm not that type of person i actually don't get up in the morning and want to read like some disgustingly
+boring like non-fiction book and like but actually being able to acknowledge that and find
+some middle ground and find some realization that it doesn't all like it's not going to be the same for
+you as it is for someone else and the same goes for hard work um and i think for for me you know
+i now and i think largely because of having written this book i now see when i'm lagging i now see
+when i need a rest i now see you know i'm able to construct a working
+week that essentially you know is able i'm able to be ceo at both companies and i'm able to
+do all my work and i'm able to do my own work too that isn't just responsive to other people's work
+and then i think you know and i'm able to culminate that in a way that is i guess
+a livable way of me working and there have been times where it's not that there's been times where it's you know like hell to leather and doing
+everything possible but that's a needs must amount of time that is not representative of what hard work looks like and then being able to recognize that
+within myself and say like that's okay like you're not weak because you have to sleep like you're not weak because you
+have to you know like sit back sometimes or your creativity just isn't coming out
+you're just like a human or not even like even machines can't do that like if you had a machine like working like it
+would go into override or if it was set on the wrong thing or if it was you know like doing too many things at once it would go into override so like we
+don't it's not even that we don't realize we're humans we don't realize like limits at all we just have no boundaries yeah and i think that's
+that's what's important there's been a there's been a big shift i think over the last i'd say two years
+there's been a huge conversation around burnout right and it's gotten to the point i did a post about the day but it's gotten to a point where
+it i actually feel bad talking about working hard and i played around with
+that idea because um on one hand you can be deceitful in the sense that you say like i i work 24 hours a day and i never sleep
+and on the other hand you can be really deceitful and saying listen uh hard work doesn't matter self-care and like yeah yeah yeah
+sit back and put on a face mask yeah like i don't want to lie to you i still work really hard but obviously there's
+nuance and balance and sometimes i don't have good days yeah yeah but i don't know anyone that's
+really successful that doesn't work hard i don't know any athlete 100 percent i think what i even realized
+that was after i kind of went through all of this like self-discovery and writing the think pieces and all of that
+and then i sat down to write the productivity method and i was like i feel like gordon ramsay telling someone he's like
+an idiot sandwich like i literally feel like i'm being that harsh just because i'm telling you
+that actually if you want to get that done you've got to get it done and like i think that's why the whole reason i repositioned it rather than
+you know it's not just because as soon as you're that then you're equally as harmful in the perpetuation
+of like self-care culture that now has these knee-jerk reactions that's either like
+it's like a cult and it's like this wellness thing or it's like a waste of time there's like a middle
+ground like that is important for everyone but it doesn't just need to be kind of like you know like face masks
+and everything it can be it it has to be like part of all of it so yeah
+you might work till 3am from 6am every night for a month
+i would argue that that's not that possible beyond that point like it might be and you might be an incredibly hard worker and you know like
+and i perceive myself to be but you still at the end of it all you still
+need rest and yes you're completely right there's no glory and no kind of benefit in also
+perpetuating the completely the other side you know sometimes self-care is the most
+productive thing you can do but also sometimes productivity is an act of self-care like
+you need to it's self-care to look at that project that you've been putting off for three weeks for the 50th time and
+actually get it done that's self-care like that isn't it doesn't have to be you know this that or the other it
+doesn't need to be compartmentalized into like you know some forms of work or self-care some forms of self-care are
+like what you know like it goes both ways and i think that that's what's important i think it's rather than choosing one or the other
+it's just real it's like being realistic and being you know you don't always need to be like disarmingly like i've had a bad day
+today because i also feel in the same way like i can't be asked to do that the whole time like i don't like when i've had a bad day i
+don't instantly think like ah i will get the reward from being vulnerable by sharing this on social media like that's not my instant reaction
+but at the same time there is an importance and i do think that people like us also have a duty to be
+able to share both sides even if it's that being like you know like i was up till 11 last night writing a crisis plan for
+something like you know like you you constantly have these things and it's like and then like so there's just so many
+different types of i guess there are so many different angles to it and as long as there's kind of a more
+realistic thing as long as you don't feel weak to say that you sleep or whatever and you also don't feel
+like you're being like really mean to say like you have to work hard to do well
+both of those things are wrong so like there must be a middle ground and that the the left side you speak you
+speak so i'm just calling it the left just because it was the left i raised my left hand when i described it i'm not saying it's the left
+but it is it's like um i've always considered myself to be
+more left than i am anything else but um i felt somewhat alienated by this kind
+of lack of personal responsibility blame someone else um pessimism culture that's
+emerging from that side and i in some respects it's someone that's been a social media for about almost 10 years i understand the
+algorithms will create echo chambers and they'll reinforce things and you'll and they're actually polarizing us to be the right and more
+on the right and the left on the left and my point here is that um i like to be a bit more nuanced so i
+don't think binary solutions to complex um problems ever make sense left you know rich poor black white
+um left right whatever it is and i post posted something about um personal
+responsibility and being grateful and things you can do if you're feeling bad and there was a lot of people that said
+i was and i actually take this to compliment they said i was toxic positive and there's this whole new this whole phrase not being too positive
+being so positive that it makes people feel bad and i don't give a [ __ ] right like if we
+also think we have toxic things within ourselves and that's like it's toxic but also like you can tell me i'm
+toxically positive and i like if so for example like i might be the same in that i know that you know
+i'm not i would consider myself probably like a realist like i wouldn't consider myself like a constant optimist but i also know that
+like my coping mechanism for anything going wrong is to make something else go right so if that needs me to work hard if that
+needs me to push completely into work for 40 days and 40 nights but like i'll do it
+but i think that you know i think cor you know being able to label
+something as something doesn't necessarily mean that it's bad i think sure if
+someone thinks that toxic positivity then fine a i don't think that necessarily needs to
+be kind of you know like nothing is going to be nuanced enough on social media for you to understand unless it's like a 2000 word
+think piece but i also think that like these things exist like we all know some of these like i know that i have
+bad coping mechanisms in some way i know that i don't need anyone else to tell me or if they do like it's fine but it doesn't
+like there's no benefit here like you're still gonna think that way and therefore if you're sharing more of your thoughts
+it's still gonna be like that you might be toxically positive but it's that's you know that's you and that's what you're also gonna
+say and like that would also be you would also be lying to then say okay well i'm gonna make this more realist
+and so i'm gonna do x y and z and i'm gonna put that out there and then there are going to be more people who say the other side so it's
+like you can either spend your life like swinging back and forth between like what people perceive to be right and
+you're never going to get everyone because obviously as you say it's completely polarized but or you can
+it kind of be like yeah you might not like this i just my whole stance is like i've read a lot of stuff about
+psychology studied psychology for a little while i i've had my life experience and if you follow me you're here to get that stuff
+and you don't have to agree you don't even have to like it and there's loads of other and i think i just really destroyer today there's loads of places you can get like fluffy you know face masks so the answer
+to everything stuff it's just not here because of my lived experience and i understand i have a you know a bias
+because i'm an individual that's had an individual experience when i was stalking you online grace i found it really hard to find a boyfriend
+Relationships as a young successful woman
+i was i was looking a lot like i was like i was i found like i was like [ __ ] we'll try google images google images
+like these are just friends and then i was like yeah i mean i don't think anyone will find a boyfriend probably until i'm maybe
+married with kids but i mean as in there's not good there won't be one yeah yeah i'm not looking for it's not
+there's a boyfriend there because i read some stuff about you meeting this guy when you're like 15 and then you oh no no there's not a boyfriend there oh there's
+not a boyfriend there's not a boyfriend but there's never going to be a boy from
+yeah being young being successful being a woman i know where
+this is going yeah so maybe i don't have to ask the question i'm just saying like i asked this question a lot of guests because
+probably because i've struggled myself right so being young you're a successful woman in business
+a lot of guys quite just going to be honest would be quite intimidated right you don't have to answer that but
+they would i'm one of them i'll tell you i'm not speaking for myself i'm speaking from some insecure friends that i have
+that would feel intimidated by their their their partner who is a woman being successful that's just
+some men are insecure enough to find that emasculating yeah talk to me about the difficulties of
+having romantic relationships when you are young you are successful you are a woman um
+i'd say it's not necessarily what i'm concentrated on first and foremost and
+just just from like you know i want to do lots of things before i concentrate on
+that um i also think that one of the things that i i guess i found because like what you're saying is
+true um but i think what i find comforting in that is also the fact that like i don't
+want to be with someone who finds that masculinity so i think it's quite a good um it's quite a good kind of whittle
+down yeah because yeah if you find it emasculated like that you don't
+any other thing that people might not like about someone you don't want to be with someone who doesn't you know like my work is the biggest
+part of me and that's really sad it's not but like it's a huge part of my life and
+it will be and i would never want to be with someone who thought that was any sort of like great um and so
+it doesn't necessarily i mean maybe it will trouble me down the line but currently it's kind of like yes i
+completely agree i think people do find it intimidating and emasculating
+i also think that that's kind of you know as i say that doesn't necessarily change anything
+because it's actually not you know i would have no interest in being with someone who
+can be emasculated by that so and at this point in your life do you foresee in the future at some point you wanting
+to be with a partner yes yeah yeah i mean i think i think naturally i think a lot a lot of people
+talk i'd say probably the large yeah yeah and i think that it's important especially with women not to presume
+because i've made that mistake you know yeah no i mean i've i you know i couldn't have like one friend who i think of her
+i know she she knows that she doesn't want to like ever have like a life partner like she doesn't it doesn't make sense to her
+which i think is completely i i think makes sense you know like but i think that absolutely at some point
+and um but i'm in no rush i mean i'm very young when that day comes yes um what are the
+the difficulties you see in the current way that you live your life and forming a relationship with whoever
+this person this lucky person might be um i say the first problem is probably going to be closet space
+i think no i think in general why is grace difficult today and why
+probably yes you should probably ask a few people um no i mean i think that i'm an incredibly
+loving person and i'm incredibly dedicated to the people i love and
+that currently is filled by amazing friends and family and people i'm lucky to have
+in my life and i think that that will you know at some point as i say like that will
+absolutely hopefully be filled by you know that type of position but i i think that the difficulties would
+probably just you know be about around understanding
+that work is as important as it is to me and i think that you know like i've had relationships in the past and that is
+you know like that does it does become a problem and i also think that
+you know then you can't necessarily combat that by having someone who's the same otherwise you're never gonna see each other like i think
+i probably you know would want someone who has the same values in that way but there has to be like a kind of middle ground or there has to be then
+you know some sort of way in which you will see each other once every 15 years or something um but no i think i think the troubles
+will be around work and they won't be around emasculation because as i say that wouldn't be
+you know then there's no space for that um but i think you know in the same way as i'm able to be
+a great friend and family member and you know all of that now it's
+to me it's an extension of that to me it won't be you know any different i know in my qualities you know i probably
+probably the part of the reason why that's not what i want now is because i also know that i care a lot about that so you know if i
+am in that situation i will give a lot to that and currently i don't have a lot to give to that so you know i think it's a
+prioritization for me and currently that's not a priority yeah how has running business
+How has being a successful person changed you?
+and the way that people have treated you in business especially being a young entrepreneur i reflect on this in my own life
+changed you as a friend as a person you know your
+patience your snappiness your tolerance i think i'm a lot more
+i think there's a part of it that's actually quite interesting that i've been thinking more about recently where if you're in business and you call the
+shots how does that develop in friendship so i i've actually talked about that
+recently i don't think i've you know i've had to grow in confidence to say especially to
+for example men who have far more experience than me and are technically you know working for me like there's
+been a point where it's kind of like can i say like that this is not right or like whatever and i've developed that but i think you
+know i think i've now developed that well and i don't think i have a problem with that now and therefore i think that you know
+there's going to be part of that where you then like how does that switch off automatically the second you step
+through your door and you're with your family or your friends or your housemates or whatever and i think that that's probably
+something that i'll you know i'm very grateful that i think someone once asked me like how do you stay like
+grounded and down to earth and i think that that i don't go for the types of friends
+that obviously my friends like bring me up and they're my biggest fans but there is no smoke being blown anywhere
+they will be the first person to also say you know and that's what i value like i don't want to be
+in a superior position in friendship in family relations in whatever it is i
+will never be with the friends and family that i have and i think that that's so important and i think that that can absolutely
+affect people and i think that you know i've seen people then surround themselves only with people in their position or only
+with whatever and i think that you know one of the most valuable things i have is that a lot of my friends are
+in entry-level jobs and i'm able to see from their point of view what's the most frustrating thing about their workplace
+and not feeling valued or whatever and i'm allowed i can make sure that i try like my best to make sure that never
+happens for people within mine and i think that so you can get those you know you get so many benefits from having
+different people around you primarily like no one is kind of there yeah as we say what about when the
+bill comes oh well first of all i'll be pleased to hear that my friends like to go to a
+very cheap place okay which i also like i'm i i love a you know nice dinner and a nice like whatever but
+you will not i mean you you'll find me buying a bottle in the club if it's one of my friend's birthdays or like whatever you know like
+i love treating my friends i love taking them on holiday like i love you know but it's you can tell when that's
+someone who's there for that i also have the large majority of my friends have been around me for a long time and um i think
+i i generally trust myself to be a good judge of character i've got it wrong before um you know i've had things where i've
+kind of like taken people on trips left right and center and then you can tell that like that was the aim
+um but like in general actually you know i have amazing people around me and like i think we i'm
+i like to consider myself a generous person and i want to you know do things like like yeah sometimes i will just be like
+i'll just get this or like whatever it might be and and i'm in a position to do that and i think especially if
+you know there'll be a friend who's been asking for a workplace for a raise for three years and it hasn't
+even gone up with inflation and that's kind of like oh and it's not the it's not compensating
+for that but it's being like you need to be able to be grounded enough and like
+whatever to be able to still be a friend to people who are in you know either a very different situation or like whatever it might be
+and i think that i never want to lose that so yeah i'll buy nice things for people and i'll do that just
+as i would for any like anyone like my sisters or whatever if they need something but it's
+not i think i'll tell instantly and maybe not maybe i'm being walked all over by everyone but i'm happy so
+no i mean we find ourselves in the same position largely right and i think the interesting point is you've been successful and the people
+that you love you want to share that you know you want to have good times and good experiences with but being realistic mathematically they won't be able to
+have those experiences unless you create them right and so that creates a bit of an issue for you
+because you want to you know have good times with your friends but you know that you know that you're you're gonna you're
+gonna have to create that situation whether it's a holiday and it's not a problem for you because you love these people and
+they're good people but it can sometimes create yeah of course and there's a i think also like the important thing from
+because i know people who talk about that problem but also they love the flex so it's like okay if
+you're complaining that you're always the one paying for the bill and you're also the same person saying for three weekends in a row let's go to nobu or
+even one weekend like it's [ __ ] expensive like you know like you're gonna like that generates a certain type of thing
+and i think that you know that's not necessarily their fault then but i also think that there's
+a you know if you want to be doing that all the time and you're the only person person in that position in your friend
+group then you're you know there's a certain thing that's demanded of you but i think like at the same time that you can be a good friend and be like
+very generous and like like i understand that i'm incredibly fortunate to be in my position and i want to get
+them nice christmas presents like whatever it might be and take people on holiday like if you know i want to go or whatever it
+might be but um i think yeah largely yeah it's a
+difficult it's not a difficult position to be in like an incredibly fortunate position to be in but there are there are things that come with it and i think
+that you know thankfully i haven't been i guess like harmed by that too much and i you know
+intend to i don't want that to make me a bad person and i don't know it sounds like you're keeping the right people around you that's probably the
+most important thing right people that will tell you when you're stepping out of line oh trust me yeah exactly tell me the first person to be like this comes
+across awfully crazy thank you so much
+you guys will hear me mention a service called fiverr quite a lot especially if you follow me on linkedin and instagram and this has been another week where
+i've really relied on fiverr to help me and to help our business extend our capacity this week we're having a newsletter
+website launching called mentalwealth.com which is being developed on fiverr we're also using a freelancer we found on fiverr to
+cut the edits for this podcast promo that will go on my social channels and this is really the beauty of fiverr
+even when i was a ceo of a company with 700 employees or even now when i don't have a company and we have a much
+smaller team there are still moments where we need to extend our capacity usually because of you know we've got a
+sprint or a project to do in a cost-effective way thank you to them for sponsoring my podcast and if you want to check out
+fiverr there's a link in the description below that's fiverrwith2rs.com
+ceo we've talked a little bit before we go on on we started recording about working culture and how working culture has
+Your take on working culture
+changed and how the pandemic has shifted things to being you know um working from home what do you what's your take on working culture
+and how teams should operate and how your teams operate and stuff so i've been reading a lot about this recently actually um general things you
+know like rework work rules like all of those types of books talking about working culture and
+i think that the main point of interest for me that i've kind of been exploring obviously
+has been the idea of working culture but how we internalize it and how our lack of boundaries within this generation has
+meant that we're have no boundaries between work or not work so it's kind of you can be working anywhere and everywhere so when you're
+not you've kind of internalized this idea that when you're not working everywhere and anywhere it's the equivalent of like being in an office and taking a nap like
+just because you're living your life and i think that that to me is the most that stands out as the most problematic
+kind of side of working culture within our generation i also think that that is that is coupled with you know like
+companies like google for example who are seen to have really good working culture because they
+support their employees they you know unlimited holiday all of that some of that is also a thinly veiled way of making people work more because they
+don't have to do their laundry they don't have to cook their lunch they don't have to um you know they're not going to take any of that holiday if they're given
+unlimited but they do feel valued so they work harder you know and i think that it's really complex and i think that it's not
+necessarily like i definitely couldn't deconstruct it as a whole and i probably perpetuate it in some ways but i think that
+it's important that we look at it more and more now these boundaries are absolutely gone especially you know i started
+having some of these thoughts and feelings when i started working from home before we progressed to having an office
+um and i kind of was thinking like why am i working more than i ever have and producing
+less than i ever have and also my mental health is on the floor yeah yeah and i think that then when kind of there was the office exodus
+going at the kind of pandemic um and then people kind of saying the same thing and all of that and i was like oh good
+and i'm like why am i feeling happy you know the fact that everyone else is struggling too and it was you know it's a lack of
+boundaries we have awful boundaries surrounding work surrounding success surrounding all of this
+and it's part of a generation that i guess bulldozes boundaries in a kind of progressive sense but it
+ends up meaning that we actually don't know where we stand we don't know what is good for us and i guess we
+are constantly on the hustle train being told to like do more think more achieve
+more like xyz without ever questioning whether it serves us because that's what
+we've been put on like if you're a hard worker you have to go in that like kind of way and i talk a lot in the book
+as well about like the i guess the kind of contradiction between the
+progressing values of like a four-day work week and you know amazing you know places
+like um nordic countries that have amazing work rules and all of that and at the same time like at literally
+the exact same time and often by the same you know people the same kind of um examination of it
+we also have this idea that you kind of need to work all the time it's like how are we progressing in these two completely
+different directions and we don't necessarily know which one is right and then if we're going down to the full day work week is that because
+it makes us more productive so technically it's actually to make us like work more or produce more or whatever it might be and so
+i guess it's it's all just very complex and i think that there's not enough examination around it
+in the mainstream i guess like you should be able to if you're in the financial position too and you want to and everything like you
+should technically be able to take your work down to four days a week or whatever and that
+seems like the most ludicrous suggestion ever because you know you could always be producing more you could always be doing
+this you could always well then you should side hustle and that three day weekend you get and like x y and z and so i think it is i think
+it's damaging and i think that yeah as i said and there's something funny here well you know because we're talking about
+ideas that we would probably never live ourselves yeah like you're not gonna oh no three days off for a [ __ ] weekend and
+i'd love to yeah would you because you're gonna go insane
+but yeah um but i but yeah no i think it's completely true and i think that part of this has been
+me being like okay this is really unhealthy this is actually problematic this is xyz and yet and you are the embodiment
+of all of this trying to figure out but that's important and i think social media discourages that type of thought because you have to be on the defensive
+you have to say like yeah this is a bad idea and this is a bad idea and yet i do both of them you you have to either acknowledge it's
+a bad idea or not acknowledge it's a bad idea and just do it you can't have this like cognitive
+dissonance of thinking one thing and like doing another because yeah like sure that's a bad thing in some ways but also like
+you have to accept the fact that you don't always think what you're doing is a good idea or you don't you know you know something's good in
+theory but don't do it or whatever and i think social media completely bulldozes that opportunity because you have to like stand firm you
+have to stand your ground you have to and i found myself actually getting quite one of the reasons i stepped back
+from social media was because i felt like i was justifying myself constantly not to not outwardly
+to myself because i was like i need to you know but like if i agree with this why do i do this and like all of that
+and i think that i had to be like this is causing so much like i'm going into overdrive because i don't know how to
+deal with the fact that i have multiple thoughts at once because social media makes you linear it makes you yeah it makes that like
+lack of nuance like your thing like it's the mo and so i think that the
+i think that's kind of okay where i realized that like we just can't discuss anything like you have to choose your
+camp you have to choose your like whatever you um when i first came across you it was a couple years ago it was actually on twitter and i think
+well i don't know i followed you you followed me let's just go with you followed me because it makes me look better um and i went on your profile and i
+remember going down and thinking here we have an influencer who actually like stands for something and that was my only like real sort of
+uh that was my first sort of take on you another couple years passed by whatever and i i wondered as i was you know going
+through some of the tweets more recently that you know people just talking nonsense whatever i i wondered you know there's a cost to that there's
+a real cost to standing for something because then it's much easier just to stand for nothing because then
+i can't attack you for anything right because you don't you know but when you decide that you want to stand for something whether it's sustainability
+or whether it's certain values you then are interrogated for perfection yeah and one human step out of line we've got
+you yeah no absolutely i think the same's in everyday life but it's magnified to a point you know in the same way i remember when i i went
+vegan like three years ago now and i um my friend said that my friend
+the reason i went vegan was because my friend was ill at the time and she couldn't eat any dairy products and she was upset about it and we were um we
+were actually going traveling together and so i said i would do it with her and we were like let's just try it like it'll be fun and i was like
+[ __ ] i really do not want to give this up um but we did it and then we actually stuck to it and i was kind of like i
+actually like this it works really well for me um and um i and she was saying how hard her
+friends were taking it and how like they were just like you know be like ha you just ate that that actually
+apparently has like this and it's like it's the same it's just magnified and i think that i think that part of its projection
+we don't like to acknowledge that we think one thing and sometimes do another in ourselves but we love to pick it up
+on other people and i think part of it's just as we say it's the binary of social media it's the lack of
+kind of you know it's the fact that that is going to happen and i do you know you
+find yourself doing things the whole time where you're like oh yeah we shouldn't have done that or like whatever
+and i think social media amplifies that to the point that it's so much more of a big deal than it needs
+to be sometimes it doesn't need to be a big thing like i'll stand by the fact that you know cancer culture fine like in a lot of
+ways not great in some ways like there are some areas yeah really shouldn't be said or whatever um
+but i think that there's also like an aspect of that that's kind of you know we live our lives constantly
+thinking one thing and doing another like cognitive dissonance like we you know like you know you should be better for
+the planet and yet you still buy fast fashion or you still like eat meat every day or like whatever it might be
+it's how we operate and i think that that isn't allowed on social media i don't think that's like a then like a
+complaint i think it's more like a that's how social media is and therefore if you're using it in that way there
+kind of needs to be an acknowledgement of the fact that that's just like i know that and i know where i go
+wrong and i know you know like where i'd like to do better and that's for me to deal with so you know and so i think
+that that's something that we see across our lives and it's just hugely magnified when you made this decision to step back
+from social media i know you hadn't posted on youtube either for about 11 months i have all my dates was there
+By stepping back from social media did you let the negativity win?
+a part of you that thought you would let this
+negativity of social media win i don't i think any time i've thought
+that i've realized that it's completely untrue because i've realized it later so when i step back from youtube that was
+about that was a you know a bit after all the things i've talked about that like i was
+going through and it wasn't right for me and i just decided not to do it and i think
+that also part of that was a business decision it's a like lost to income in the kind
+of short term but everything i've done for the past three years has been towards longevity it hasn't been about the short term
+because i've been able you know at the beginning i accumulated enough to be able to make that change and to be able to say okay well i want to
+i want in two years time if i want to to be able to disappear so you know that's i think
+rather than i don't think anything has to be a defeat like sure it could be some people
+couldn't consider it that for themselves like great that's fine then we both win because i realized
+and once again i talk about it like i talk about kind of like the thought process behind it
+in my book and i realized that kind of that was actually not you know i had this choice to
+be full time influence so i guess with my businesses in the background and i also had the choice to lean in and
+really make these businesses something and make them you know like much bigger and have the potential of
+you know growing them huge maybe selling one one day like whatever it might be and i think that i decided as well but
+actually what made me happy in the actual work itself was the head down get it done even like the crisis
+management the working with the team until three am the building of brands all of that that like i was so young and
+still am that i hadn't even started my career like sure i had but i like everyone i guess anyone at
+any time can do three years of something then decide to go to business school then decide to stop and do writing or like whatever it
+might be that was my change that was me being like actually what do i like in the day-to-day
+it's not you know whatever like there was a lot of stuff that i was doing that i did love
+but i a i saw what was happening down the line i saw that it was really hard to maintain that after a certain
+amount of time and as i said i've always had this kind of constant anxiety that i'm going to end up doing and something i don't want to do
+which has made me be probably quite proactive and actually being like actually no i'm gonna do x y and z to make this
+not happen and i think that you know sure like there was part of
+you know there will be parts of it where it's like oh and also even better than that it means i won't get the negativity but i also
+loved the sense of community i loved you know at that time actually i didn't get much negativity at all like
+and i don't think you do necessarily when it's kind of like just a sharing of your life like people loved especially the fact that i was at uni for three years so i was
+showing a really realistic like i'm still just gonna be in my one room home um like you know doing another
+essay like it's not that exciting and people loved that it was i think because you know once the channel grows it often gets unrelatable
+which you know people have different arguments about that but like for three years mine had to stay relatable because i was
+still within that same room writing more essays and i think that i absolutely loved that
+like i loved that and i will cherish that as part of my career that i really did love
+i think i know that what i'm doing now is what i'm meant to be doing i also think i'm really good at it
+and i think that i feel fulfilled like i i genuinely feel fulfilled um most if not every day what are you so
+what are you what are you doing now in terms of your your focus and your um
+i guess the question that i wanted to ask to that point is what are you as it relates to your
+businesses like i think about the same question for myself what is the bit that you're really good at and that you think you know what
+What area of business are you best at?
+that's the piece that where i consider myself to be irreplaceable so i guess the more i you know as a ceo
+or a founder who's moving into another or whatever it might be like you you step back to work on the business
+rather than in the business right so the more i step back i think the more you then realize what you're really good at because those are the things that you
+keep having to jump back into and you keep realizing that like yeah i could get this person to do it and i could delegate it entirely which you
+know you try and do and then it keeps coming back and it's not quite right and for me that's marketing and branding
+that's like the you know the thing and that is i also think that a lot of
+successful businesses are you know founder-led businesses
+are the ones where i was talking to a friend about it the other day actually are the ones where the um founder is
+product and brand and they still have that involvement whether it's just at vision and their briefing at the beginning of a process
+or whatever it might be that is where the concentration is because that is what the brand is and we are in a generation where
+brand is everything and so the you know the house of cbs the like what
+you know the yeah they're all they're all their brand and and beyond brand their
+brand bleeding through to product and so you know it's good that that's my concentration as well because you know
+that's definitely paid off but i also think that that's the things again and again that when i was having
+the discipline to step back and to actually you know do what i should be doing which is not being in
+the execution all the time being in the lead and being in the vision those were the ones where i realized i
+was like okay i have to be in this in some way sure even if that's you know as i say writing a brief at the beginning of the
+process or mentoring that person through the first few times or being at the end of the approval process
+whatever it might be those are the things that i nothing will go live without that going through
+me not at every stage at all but there are stages whether that's the beginning the end both
+whatever it might be it sounds remarkably similar to many of the founders especially young
+founders that i've spoken to who have that realization like ben who's been on this podcast as well from jim shark um even like huell julian who runs hum
+where at some point i'm speaking more about ben here you have and to be fair myself as well because at social change i wasn't doing
+process finance yeah legal all that nonsense i was doing brand marketing
+um we have that realization that um that is your strong point it's also the bit that you love and all the other things
+the process the business stuff those were systems that were created long ago and that there are tons of very you know
+better people than you to handle those things and it becomes a case of where will my investment of my time um return the most
+for the business and i don't think people have that conversation enough because i think young founders sometimes feel like they have to be able to do
+everything right i think that is the materialization of this hustle culture i think a lot of that
+led it's the kind of like idea of so i talk about this thing called like announcement culture which i thought was
+a thing but then i actually looked it up and isn't anywhere so i kind of like defined it within the book about the essentially the idea that
+you know success is valued as more within this generation once it's announceable so it's not the
+underlying stuff even if that was doing more it is everything that is announceable labelable all of the above so
+it also comes on a micro level within our everyday like we like to tick thing we like to see the things ticked off
+like we like to you know we'd probably rather see 10 things ticked off our to-do list than have actually made some real
+thinking progress in a concept that like whatever because that's the way it's you know you feel more
+productive you feel like you've done more and i think that that's also an area where where
+founders people on social media who within businesses whatever they need to be seen to be doing everything to be validated and i don't
+think that's a personal problem i think i've had it 100 i think i still have it at certain points but you know
+it's a validation through being told you're legitimate because you do things and like i'm not
+gonna lie i don't know half of the [ __ ] that goes on in our finance meetings and i will sit there and i will look at
+it and i look at you know and it's like that's great and i need to be over it and i need to have that understanding and i'll ask the questions
+but i also think that the second i let that fear of illegitimacy by not doing
+everything leave that was the second that i was able to actually be a leader because i was able to realize that
+actually what if if i'm better than everyone at their specific things then we've got a
+business that is as big as one person like as it goes like you should hire people that are better than you
+at their specific disciplines so like even if you're like if you're micromanaging if you're being like a bottleneck if you're like
+whatever it might be you are automatically causing
+a problem or not even necessarily causing a problem it might work that you know like it might go to plan but
+you are restricting that growth that potential that magnitude of the business
+because you are and it's for your ego it is not for anything other than your ego even if that's an innocent thing even
+you know as i say i still do it i'm sure at points even if that's you know like you want to be said to be on this project that did
+really well and i think that as a founder you have to get to a point where
+that ego of course it's like a validation thing and it's coping mechanism and you'd like to think that you always do the best for your business
+but especially when we're looked at online and when you know we need to be seen that we're involved in this that and the other
+because otherwise people think you know like especially someone who i'm sure lots of people think i'm just the face of the business whatever so like maybe i
+need to prove that i do x y instead but the second i stopped doing that was the second i
+as i say was actually able to do my job remarkable when i was 18 19 20 starting the business because i
+was young i'm gonna be honest i definitely feared hiring really experienced people because i thought well how am i gonna manage them
+and are they gonna and they're gonna figure out that i'm not that experienced and it's gonna be difficult and so i look at
+the first 10 highs i did and they're all like kids yeah i'm like why did i hire 10 kids and then i get to a point where i'm like 21
+22 and i start social chain and i hire some really experienced people then they go on to higher loads
+of because the person the people because they know yeah they know what their teams need to look like i always say in our companies i'm like the most important people are
+the people you have hiring all the other people right absolutely and that my life became 99.9 easier when we got better people in
+and i i fell back and stopped letting my ego or my insecurities run the show and the other thing which i wasn't
+expecting is it actually makes you look so much better when your business works
+like i i think the thing is that like you've got to ask yourself yeah would you like the business to have
+the glory or would you like you to have the glory and like then realize that if the business has the glory you still have
+the glory but you just have to wait a bit like you just have to not need to be validated every day by
+the fact that you were involved on that project that did well or the fact that you signed that off i don't need to sign something off if
+the team is made of people who are better than me and like fine actually i'm sure there are people who are far better than me within branding but it's my brand
+so like you know like still that's going to be that's going to be like put in a certain direction but i think you're completely right i
+mean i actually hired you know in my final year of uni i actually had three students
+working for me or one student and two fresh grads and they were great like they were fantastic and to like and
+i think they're you know amazing one of them still working within tala now and i think that i think that that
+actually was my only option at the time like oh i couldn't afford to hire you know like any more than that and it was people who i put them through like so many tasks
+and i was like i need you to be the right person because i'm about to launch business and do my finals at the same time so i'm going to
+be outsourcing and i always say actually a lot of the reason for my success was also the fact that i was forced to
+outsource so early based on the fact that i was at university and oxford had always been my dream as i say i
+applied twice like i was not going to let it go i thought i deserved to be there and i proved when i was there that i did
+and i think that that i was so committed to getting to the end of that getting what i deserved and you know and
+being proud of myself even though that wasn't necessarily my dream anymore that was my like childhood dream i was so convinced
+that that was gonna happen that i had to outsource immediately essentially like and who was that first key senior hire
+that came into your business and how did it feel when you you know you saw the salary and you thought [ __ ] yeah so
+so salary wise those those are more recent those are much more recent those are within the part actually probably right
+before i finished uni there was someone who we hired and i was like but i actually
+managed to get someone else to hire them so so to work on essentially what would be my
+account um so the but even then i was kind of looking at that and i was like you know like that
+regardless of who's hiring affects the p l so like you know what and but then more recently there have been
+you know we've been hiring ahead of product from sweaty betty you know like all of these like the people
+it's but also like those are the ones where i have to like hype myself up during the interview because i'm like you graduated from my university 20
+years ago yeah
+it all ties in as well because as soon as you realize that you don't need to be that person you also realize that they're not
+wanting you to be that person they want to come in and do their expertise they don't want you to be like oh i just
+want to check over this because i'm the founder or i'm the ceo they yeah they just want to do their job
+and the better they do their job the better you do their job the better you do the job the better they do their job it like it's all cyclical but it's like
+ego and validation and legitimacy that ties together to make this kind of big old like cauldron
+of like this is probably ineffective but i have to be not even validated i don't think it's
+vapid like i don't think it's like you know i don't think it's necessarily ego in a bad way i think it comes from
+like the fact that all of us have some insecurity that needs to be you know especially if you start a business young and especially if you
+feel like oh like wow i'm in this position like you have to be you either you're like incredibly
+confident somehow and like completely full of yourself but i genuinely believe that most of us have some insecurities about
+yeah and so like it's all tied in i don't necessarily don't think it's bad thing i don't think it makes you a bad person as i said i have a lot
+but i think you have to recognize it and i think that's the first thing i'd say to i actually had a fellow founder messaged me like two days
+ago and she was like i just wanted to tell you what you told me about a year ago saying um like everything you know she
+was at the stage where i was like you need to be hiring people and she's like but it's expensive and i was like i know but they will pay for
+themselves because like if you you know like even not even necessarily the right people like even if it's admin even if it's
+like whatever you should be doing the things that only you should you can do whether you're self-employed whether you're like
+whatever it might be and you know like my my like i grew up like my dad was self-employed like all
+of these things and i think you see you're like there are so many different ways of working and i
+was thinking because i've seen people do things one way like i need to prove myself and i need to do that
+proving myself is more effective if i have a team of amazing people and that's been like one of my biggest
+biggest lessons i asked you then what your you know what you were really good at within the business you talked about branding and
+marketing so i'm going to ask you the opposite question as the boss as um grace beverly the ceo
+What area of business are you bad at?
+um what are you really bad at big silence
+kevin i think i think there's probably like we're going to bring in her pa now
+i think there are probably a lot of things i think i think there's definitely i think one of my things is
+the thing we've been talking about getting involved where i don't need to be involved i think that's probably you know and i think i have an anxiety
+around that that actually you know there have been times where i haven't got involved where i probably should have because i was getting too confident with
+my moving away and then it just wasn't right and the product didn't shift enough or whatever it might have been
+and so i think probably what that's one of my main things and also only recently have i realized how much
+confidence i have to have in people and i think it was actually based on talking about how shitty some of
+google's rules are actually in work rules um the book about google working culture um he says that
+like one of the most important things at google is that they encourage and empower everyone to be like their own
+founder so like if they're on a project like they should be founder of that project and they should feel empowered to also like look at me and be like no like
+this is not how it and like and i think that that stood with me so much because i was like you know what like the next day i emailed someone who
+was you know hiring someone within their team and they were like should we get them on this or this and i was like you decide
+like you you know you decide we know the end goal any way we get there i'm happy with you
+decide instantly so that you know like because people also want to be empowered with that and
+also people often you know do much better when they're given their responsibility and so i think that some of that what
+we've just been talking about is probably one of my biggest weaknesses because i'm so terrified that
+something will go wrong and obviously as the you know success as many fathers and like all of
+the you know all of that like you have to take responsibility when it goes wrong it doesn't matter whether it wasn't you whatever it might be
+i mean something goes wrong right yeah with your brand mm-hmm grace beverly mm-hmm is the one that
+they 100 hold responsible so in turn over but also something goes right for true but in turn over here says
+something responds to a dm yeah whatever you've got to almost justify that even if not even
+justify it but it apologized and it's happened it's happened multiple times and i think that how do you not then go to
+the intern and say because i i i think if it was enough for
+me to do that i think it'd be much more gracious for me to just probably get rid of them as in essentially to say like
+this is not the right place because it also you know there's a par there's an element of that that's not understanding the brand that's not understanding who
+we are or ethos or whatever and if it's that far out of line and it's like okay well this is a mismatch here then
+but i think that so my two options then e both of them involve like you know
+being gracious in some way and one of that is fixing it if i genuinely believe that it was an honest mistake
+and it came across wrong or like whatever it might be then fine and i will work with them to deal with it and i don't believe
+you know maybe someone will disagree but i don't believe i have ever ever ever gone to someone and be like how dare you you've sacrificed this good
+like like you know you've done all of that because also they do the work every single day to make the company great and yeah it's
+frustrating like trust me like i don't see that and think like it's fine because last week they did a nice post or like whatever
+but like there is still an element of it that's like frustrated and that's like feels like you've taken 10 secs back and
+is terrified that you're about to be cancelled or like whatever it might be but there's either a decision then to
+decide it's a mismatch or to decide it's still a match and it was an honest mistake neither of those involve like ripping
+someone to shreds so how do you do sometimes though when you do get like emotion and business
+it's your baby it's it's sometimes you know anger or i don't know frustrations they
+do manifest themselves in business in some ways like i'd be lying if i said that i didn't have days where i was frustrated and people knew
+i try not to be as much as i can i try and remain a little bit calm especially when it's most chaotic yeah especially in offices i think that's
+particularly like we have the luxury now i'm like no you can't see me like as in you know i think
+i i often like i think probably the near our
+office the like cafes they know me well because i will go in there i will take myself i will exit
+because i don't i think in life and in business i don't believe in i don't think i necessarily
+react in that way naturally um and i think to my detriment sometimes because you know sometimes you do need to just
+say you know this is absolutely not right or whatever but i think it's the same thing as i kind of talked about before like you
+know i'd rather work out the best way to deal with it there have been times where i've picked up the phone and i've been like what the [ __ ] has gone wrong
+like why would you do that like this makes absolutely no sense like this is you know you should know better like all of that and
+they are first of all they are very few and far between i'm not saying that i don't say that to my housemates i'm like how [ __ ] damn
+i don't understand why he would do that like he knows that's not the case but i would i don't i don't i mean you
+might disagree i don't think i i don't think i really like i'm not looking at her she also is paid to say no um
+but i genuinely i genuinely i'm not a she's the same way as a text
+i think i'm the same in relationships friendships like everything i am a walk out of the rumor and come
+back in half an hour and at that point i'll leave the shout or i'll you know but i'm not instantly kind of in that moment
+which is why i sometimes also find social media hard because i don't want to react in the moment and social media warrants an
+instant reaction because that's the only way that you're being true to yourself or like whatever it might be like i often will think something you
+know when you're angry and you think something you're so angry about it and then half an hour later i won't be or i'll think it's different or i'll
+think someone didn't mean that or whatever it might be and so i try and even though social media doesn't necessarily
+allow for that amount of kind of like discussion i do try and like you know just yeah and that's kind of in
+general how i deal with things i go and spend some time by myself and if anyone talks to me
+if you are to become the person you want to become what does that person look like in terms
+of values the way they conduct themselves react to things um i think for me it's a lot of
+repositioning i as i said like i think that i grew up on social media at a time where i was
+particularly low and therefore like a lot of that was made up with validation therefore like i think one of my main aims
+and one of my main like work what i've been working towards for the past you know year or so has been that kind of
+self-validation and that self-worth and i think that that through and through you know unfaltering
+self-worth is i don't know whether it's even like a reality like i think
+people have faltering views of themselves just like they do every other person you can love someone absolutely unconditionally
+you can think in one moment like yeah like you know why did they do that or like i think that's a terrible trait
+about them or whatever and i think the important thing is being able to bounce back from that into the original
+position or being able to consider that and still have that worth or love or whatever and
+i think so i think to become the person who i want to be i think it's you know i'm
+quite you know happy with where i am now and i think there are like i know what i need to improve in
+terms of like and i think a lot of it comes down to my own confidence and my own um like assurance
+in myself in order not to project that elsewhere so yeah like in general i think that's
+probably one of my main main things being completely honest i don't think it involves like money or like growth in any other
+way i think the first thing that i know that i need to improve on is that how how does one go about improving
+their self-validation i would love to know
+but i think in general it's just like an it's an understanding of yourself it's an understanding that you're going to [ __ ] up it's an understanding that you're going to
+think one thing and do another and i think that part of that as i say put that was part
+of the reason you know i did move away from social media because it was like i can't have all these people telling me one thing even if it's
+a great thing because it doesn't allow you to be like completely in touch with yourself and know those differences
+yeah exactly like even if it's the people blowing smoke up your ass like you then can't get that from yourself
+because you're constantly like clouded by that if it's people hating it's the same thing so i think that like i'm don't i don't
+necessarily know i think all it can be is being in touch with yourself and understanding that you are
+going to do things wrong i think i'm very harsh on myself in the way that i don't like doing things wrong and
+i work very hard not to do things wrong and so when i do it you know it hits me
+hard and i think that part of that is learning that does it hit you hard yeah i think i think in general it
+really does and i think that i yeah yeah i think that that's kind of one of the things that
+you have to then develop that kind of self-love and all of that to be able to say um okay
+great well like you know but i'm i'm as i've said got this like miss trunchbull living in my head who
+just wants one thing and one thing only and it constantly changes and it's constantly more and
+i think that's an important thing to address two things the first one is instagram you kept instagram
+Instagram
+yes why i like instagram in general i think that you
+know i think one of the one of the sad things that i found about kind of
+pivoting was that i loved what i got from things like youtube in
+terms of like the community as i say that like i loved being able to share that and i
+was at this really weird point where i loved sharing my life but i also didn't like sharing my life because i like you know
+and it was you know there were bad things and good things about everything but it was like the highs were really high and the lows were really low
+and so it's kind of like toxic in that way and i think that instagram
+instagram and twitter probably both can be used in a way where you i try and use it more as like
+a you know i post way more than like a regular non instagram non public eye whatever person
+would post but i don't use it as a platform for anything other than just
+social media like if that if that makes any sense at all it's kind of you know it's pretty much
+my only platform and i just you know i post as on when i want i don't need to post i don't need to come across a certain
+way because i don't need to do stories at all one day you know like whereas yeah and probably the most widely there was a
+report out that said instagram is probably the worst platform for mental health well you can see why visuals filtered visuals
+unrealistic compounds i think i think i think i also thought that no matter what i didn't like or what i wanted to pivot
+to i also owed it to myself to be able to celebrate my success in some ways and i think that you know that however many messages i get from
+people saying you know i know you've moved off other platforms but please don't agree delete
+instagram because you know xyz like whatever it might be like everyone has their people who really
+don't necessarily really need them but really really benefit from them and i think that i also
+saw a lack of representation for women in the business space who also shout
+about it and i think there's a reason for it like i wouldn't encourage a woman to shout about it not from a moral perspective but because you will
+be ripped to shreds and because people will have preconceptions that are different from successful men and you know whether
+that's showing material things or like whatever it might be it's perceived as differently and therefore like but i did think in
+that way that not only do i want to be able to do that i also think that you know i think i'd
+like to do it also to make sure you know to be able to be in that landscape and i think that i kind of
+owed it to myself also to be able to celebrate that even if i was moving away from that being my job i didn't post in
+any way the same as i posted when that was my job um i post very differently but
+you know it's i love it you've got any sort of big regrets in your life that you've uh that might help others
+Any big regrets?
+avoid making those same mistakes um i think i mean i mean i think
+my it's it's the kind of same timing thing again it's once again it's just anything to do with allowing other
+people's perception allowing focus on other people's perception of you over your focus on
+your perception of yourself um but i don't think i'm not really like a
+as i've said much to my detriment and to my success i've you know i don't necessarily
+concentrate on don't maybe it's that toxic positivity thing you said or whatever i don't necessarily concentrate on
+those downfalls like i feel like everything that's gone wrong like we're not not getting into oxford
+the first time or whatever that led to me having a really great corporate job and i was able to make some money and i was able to you know like work in econ for a
+bit you know like all of those things and i think that i'm very like
+my pick yourself back up attitude is bad in some ways but the way it's good is also allowing
+you to not have many regrets because you always make something out of a bad thing and therefore it's really hard to look back and say that was [ __ ] because
+fine even if it didn't lead to what you thought it would like i had for example i had my absolute dream job lined up for
+april and it got cancelled because of the pandemic and you know i
+like was very lucky to be in an industry that was largely unaffected in fact in some ways did really well
+and i was so devastated about that um and like maybe it will happen maybe
+it won't but like you know i think that that was something that couldn't be a regret couldn't be whatever
+but i also know that at this point i've moved so much away from social media in that time that that
+probably would have put me on a like blasted me in a way that actually maybe i wouldn't have been able to deal
+with and i think that you know kind of the world works in like mysterious ways and like maybe that wasn't right and maybe i
+wouldn't say yes if i got that opportunity again and i think that that actually just
+yeah i i guess maybe it is a toxic positivity maybe it is like maybe i should be you know i don't allow myself
+to be sad about those things when i maybe should be or i should address them but i think part of that means that when i i'm asked about my
+regrets i have kind of very little that's good i mean regrets that come with their their upsides right and the value in the
+lessons that they teach you so it's hard and i don't think it's bad to have regrets i think acknowledging your regrets is
+really important to be able to move forward um maybe i'd block them out i bet you can't wait for people to to
+Worries about your book
+get your book right yes it's a real labor of love right yeah i mean i'm terrified at the same time
+um and i'm sure there will be some people i think i think well i think you it's the same as a business if you pull that much love and your soul into
+something if people hate it they essentially hate you like that's never nice it doesn't matter whether you're a bad nurse or whatever like it's not something you want
+and i think that i think also as i say there's a lot that i've put in there that i probably wouldn't have talked
+about online because it's there's delayed feedback there's you know i don't need to hear what someone said
+thinks about that in that moment and so i you know i'm excited i'm terrified um
+but you know and it's also very different like it's different from what i've been doing it's not entirely about business it's
+not entirely about you know xyz it's it's different like it's essentially another pivot in one way
+and i think that you know i'm excited and equally like you know i think about
+it some like some for some reason last night was one of the nights that i had kind of like constantly waking up i was like what if people don't like this bit
+and like what are people you know and i think that that's not something you control control and like
+i think the only way to guarantee not having that would be to write a blank book which i don't have much interest in and is that those worries because i'm
+because i'll be honest i don't have those worries yeah and i've spoken to other authors that you know when i talked about them being
+excited about the book coming out they also didn't express those worries so i'm wondering where those have come maybe it's because i'm conditioned to
+having a constant feedback loop of you know whether on the businesses whether on my socials whatever it might be
+um or maybe it's because i'm more insecure about those feedback things like maybe it is
+but i think that it's also i care a lot
+so you know i care a lot about it i care a lot about my well-being i care a lot about you know i
+and i feel like some of that you know is acknowledged that it's not necessarily even the right thing like i want to be able
+to write my truth and to write what i genuinely believe in and for someone to say i don't believe in that and it's kind of cool
+back to the battle we were just talking about there so yeah you said you wanted to be less sort of connected to people's feedback well i
+write in the book i write you know at the same time like there's
+i don't i don't obviously it's completely irrational to want to be liked by everyone and i don't
+want to be liked by everyone but i think in the same way everyone who is in the public eye and sees something [ __ ] or
+whatever it might be you know as in it's just you know it's a natural reaction like
+you know yeah so i think but i'm very very excited and i think that the reaction so far to you know the
+concept to the excerpts to everything has been amazing and so i think that i should
+probably just be more excited about it and um yeah you're a you're a
+How do you battle with all your ideas
+very um inspired entrepreneur i noticed this when i was going through your sort of your history over the last
+four years you've started several businesses you've had several ideas within those businesses and you seem like a constant stream of
+ideas right i imagine that's also a problem yes my early investors told me they said they
+kept hitting me with this whip and saying steve stop [ __ ] emailing us with a new idea all the time how have you made how have you been able
+to distinguish between what's an idea worth pursuing and what's that because you could you know when you get a little bit of resource and you have
+teams of people you could at any time be the ceo that's walking in every day and saying we're gonna do we're gonna do this a new thing
+that can be unhelpful i'm still guilty of it yeah no and i'm sure i am um i'm sure i am how do you decide what
+to what yeah i think i i think i use our audience a lot i think that one of the
+real benefits of having a you know i'm gen z so having a gen z led brand for
+your gym yeah i'm the first year of gen z um and i think one of the benefits
+is like everyone's constantly like how do we market to gen z how do we do all of this and i'm definitely not like
+gen z like don't ask me to do a tick tock dance but like i um i think that in that way i feed off
+our audience a lot like i know i'm not the most experienced at branding that doesn't mean i'm not the best at branding for our brand
+that means i'm not the most experienced so how can i use that in experience how can i leverage off people you know how can i can i can just
+ask people sometimes like i can just say like would you be interested in this and i like used to be like no because they can only see it the final thing
+and then sometimes people have said like yes yeah and then i've been like actually no but i think it's instinct i think some of it's instinct i think the more you
+know your brand the more you really like know your brand and i think that lots of the time you
+know it's an equal problem when other people have ideas and you're like
+no but i want you to have more ideas like and i think that you know it's just a constant learning process and i'm sure
+i've had i have had ideas that have gone you know that just haven't gone as well as they should have and i think that that's
+constant thing i think in in fashion especially like you're going to have like a certain amount of things that
+don't sell as well as they should like whatever it might be and that's just a constant reality so i don't think it's necessarily about
+always picking out the best ideas i think it's about picking out the right number of ideas usually fewer
+and executing them well and as we look forward to your future i'm sure there's plenty more ideas to
+come is there anything in the pipeline that one might be able to know about well actually because because i've
+started two businesses the one question kind of press everything always asks is like what's
+next what's the next business and there just really isn't gonna be one
+for but i think currently i am so maxed out
+i think because i have two businesses here but i also have my personal brand sure so you know the book is a business
+you know and that's a lot if you think of the amount of days in the week yeah so you're thinking like
+five days i'm really strict on weekends so i hate to tell the hustle culture crew but i take weekends and i'm
+strict on them um and so five days a week split between technically three
+businesses that's already a lot of time blocking to establish what you spend your time on
+and where and bearing in mind that about you know fifty percent of this or not 50
+40 of the stuff i do will also be unexpected so i think that as i've said the
+kind of ethos i have about constantly constantly pushing on and doing more more more
+is actually detrimental when it comes to doing things well and so i think that you know yeah i
+i've had ideas and nearly started multiple businesses and that this time at one point i even wanted to do like a
+mini essentially influencer vc of some form and like but actually i
+want to prove to myself and i think i have and i think i can continue to do so i want to prove that i
+can do these well and i can have patience and it's not about more more more
+because i think some of that comes from the fact that you know when things settle it's really easy to push for more when it's just at a settling
+state and i constantly you know why can't i push for more within those businesses like each yeah exactly and growth and wider more
+breadth and everything and i think that that's part of my plan so it might not be new businesses but
+huge projects sometimes within a business sometimes take just as much as a new business and i think that yeah sure probably if
+my businesses were taken away from me tomorrow i'd probably have an excellent you know like another one the next day and that's
+how i'm programmed and i'm thankful for that because you know that's definitely part of the reason why i've got to where i am but i also think that
+it's been a big lesson for me to learn that more is not always more yes that's the lesson that i also
+learned and i then started becoming a bit of a preacher to my friends who would brag about having five businesses
+and me saying one good one is much more that's the thing i would almost people as i've said people would say
+about the end of uni when i was doing you know like all of these things and i think i recognized
+probably too late but at some point i recognized that it wasn't about that and therefore i kind of was almost
+embarrassed when people were like she's got 72 businesses yeah because i'd be like yeah you know i'd rather have one that was doing
+really well i'm currently concentrating on two doing really well and a third one which is my personal brand which is you just yeah yeah
+and then you know and that one will be the key to longevity for the rest of my career but so will
+these two if they're done right because you don't need longevity you know if that happens and so i think i'm lucky to be in a position
+where i have many different potential paths and the most productive
+thing i can do in that moment is decide on the path and stick to it and i think it's fickle and i think that i can be fickle
+in like a hard work you know like diligent way because i just want to do more and quicker and like all of that but
+actually the toughest thing i can do is just stand still and do it right and where where does this end then for
+your businesses in your view where do you how because when we're entrepreneurs we kind of forecast you know five years time i'll sell this or i'll do this or whatever
+i'll step away what's your thinking with your businesses i think it depends i think that like for example i often
+i'll have a view i'll say like okay well i'll maybe aim to sell this one in two years and then this one i'll keep
+on like and i'll you know do that forever um and i think that then it changes then
+like the other one starts to get really exciting and really profitable and you're like well maybe i'll keep this
+one for longer so i think that like i've got used to the fact that that's not you know
+there's probably not i've probably got used to the fact that actually there'll be a point where rather than
+saying okay in two years i'm going to do this it'll be like [ __ ] i'm done like i'm done and
+therefore and that's too late but i know it will be like that because i know i will push it to you know like the end or whatever it might be
+but i'm i'm open i'm very open to it i think also i'm very much at the beginning of this
+like shreddy four years old tyler not even two years old yet and i think that i'd be doing myself a
+disservice to kind of be it's exactly what i would do jump to the next when can i sell it when can i get
+all of this but especially because when you have a business you kind of programmed to assume that by the time you've done this
+you're officially like you're no longer an entrepreneur you know you like sold a business for x
+or whatever and it is a success point it's a huge you know it's a huge accolade and i think that
+for me i it's just about constantly keeping in touch with myself and what i want what i want for the businesses as well
+because i'm sure there'll be a point where i'm like i can't do that yeah like you know this needs x amount of funding or this actually needs to be
+acquired or whatever it will be don't think it'll be soon but there might be a point you know and there probably will be a point that that happens or
+where you know we've grown hugely recently i have a terrifying thought of like what if it gets too corporate at
+one stage and then you know it's not a joy for me anymore and at that point yeah like i can like very much consider that
+um so i think it's very much like an open consideration constantly for me and i think that the best thing i can do again is just
+not yeah exactly have you managed to achieve balance in your life
+well this is the sort of whole point of the book i guess but um
+um i think i think i'm doing well at the moment i think i wasn't doing well this time a year ago
+i think that i um i'm probably doing well you know because
+for example like as i've talked about like i'm not in a relationship so maybe like that would throw it all off or whatever it might be i think at the moment i'm doing it well
+and probably too much of a focus on work but that's what balance looks like to me at
+the moment it's not 50 50 it's not like a tipping set of scales it's like sure this is what's added up oh yeah i'm
+definitely happy i think i'm i think i'm particularly happy at the moment because i feel like i'm somehow simultaneously living my
+early 20s life whilst also being you know being in this amazing position and that for me that was the main thing
+i wanted because i just was you know this more more more thing was like you don't need to be acting like you're
+40. like you you know and so i've really tried to maintain that even though it's strange for me to be in my position
+and living with three of my friends in my house or whatever it might be like i feel like i'm having that and i feel like that's
+that was a real you know that was a big thing for me and i'm you know happy that it doesn't
+necessarily have to be that i'm in like some sick high rise apartment by myself with like exposed or whatever
+um and that for me is my happiness thank you uh it's been wonderful
+speaking to you i find you so inspiring and you know people have said to me as i've like gone through my journey that i'm like a wise head on shoulders
+whatever but you like really really are oh thank you well you are no but you like really are like you're 20 23 i remember when i was 23 i was still
+largely uh an idiot and you you you seem to have figured out no i know but it's like the
+level of i'd say self-awareness right and i can see as you're speaking in the way that you answer questions
+you're also really you're really trying to appreciate nuance that's something it took me a long time to do right so i thought the world was
+the way i saw it if you don't work hard then you are inferior yeah right and then but i can see you're being very considered in how you speak
+and appreciating nuance and i think that's the trait of someone that's that's a bit had their life accelerated in the public eye or through you know
+pressure of running businesses but just someone that has very wise um head on their shoulders and you're inspiring as hell
+thank you and you're a lovely human being so i want to thank you for coming here today and giving me your time and um when when can we buy your
+book april i know we can pre-order now 14th
+15th thank you lexi yeah i know mine is march so yeah but
+you can pre-order now 20 something oh yeah well pre-order pre-orders dom when is my book now
+25th of march we'll cut it so it looks like we've got it right first time i'll pull up you can pre-order both now
+maybe so many people will pre-order the same ones that you know when amazon assigns like a specific bundle people who yeah yeah exactly they're
+like you can get these two together for this i think that's the aim from this do go and check it out because i've
+i know how much you put into it personally and sometimes i sit down with people and i know they had some ghosts right i create the whole thing but speaking to
+you on and off camera i know how much you've poured into it and when when people do that i think they create really remarkable pieces of work and unique thoughts so
+thanks again for coming on you're a really really special person and i'm honored to have you here thanks thank
+you
 
 ----------
 
@@ -1026,11 +2830,1254 @@ paste here
 --14--
 
 -----
-Date:
-Link:
+Date: 2021.02.15
+Link: [# Suicidal Drug Addict To Elite Military Commando with Ben Williams | E68](https://www.youtube.com/watch?v=GX51Wwv2GM0)
+
+### Notes from the Video Transcription
+
+**Advantages:**
+
+- Developing a commando mindset can lead to overcoming significant personal challenges and achieving ambitious goals.
+- Adopting values such as courage, determination, and excellence can drive personal growth and success.
+- Sharing personal stories of struggle and resilience can inspire and motivate others.
+
+**Drawbacks:**
+
+- Experiencing trauma, such as in military service, can lead to PTSD and other mental health issues.
+- The path to overcoming addiction and finding purpose can be fraught with relapses and challenges.
+- The process of adapting to civilian life and finding new purpose after military service can be difficult.
+
+**Tips and Advice:**
+
+- Embrace the commando mindset by focusing on values like courage, determination, and excellence.
+- Seek to understand and process trauma rather than bottling it up.
+- Recognize the importance of adapting to new situations and removing unwanted emotions to think clearly and make progress.
+
+**Lecture Content/Main Challenges:**
+
+- The challenge of overcoming a troubled childhood, addiction, and lack of direction.
+- The difficulty of transitioning from military to civilian life, including dealing with PTSD and finding a new purpose.
+- The challenge of starting and running a business, especially during a pandemic.
+
+**Importance and Usefulness of the Topic:**
+
+- Understanding the impact of childhood experiences on adult life and behavior is crucial for personal development.
+- The story highlights the importance of resilience, adaptability, and a strong value system in overcoming life's challenges.
+- Insights into the transition from military to civilian life can help others in similar situations.
+
+**Accomplishments:**
+
+- Overcoming drug addiction and personal despair to become an elite commando.
+- Developing the commando mindset and applying it to various aspects of life, including business.
+- Inspiring others through personal stories of resilience and success.
+
+**Summary of the Content:**
+
+- The journey from a troubled childhood through addiction and despair to becoming an elite commando and later a successful entrepreneur.
+- The development and application of the commando mindset in overcoming personal and professional challenges.
+- The importance of values, adaptability, and resilience in achieving success and fulfillment.
+
+**Interesting Quotes/Insightful Sentences:**
+
+- "Courage was the ability to go downstairs after sitting there for hours thinking 'shall I, shall I not,' and finally saying, 'I'm going, Mom.'"
+- "ARA (Accept, Remove, Adapt) is a simple yet powerful framework for dealing with adversity."
+- "The biggest critics never stand on the start line with you; they're always the ones in the stand at the beginning."
+- "If you don't laugh at it (adversity), it's going to laugh at you."
+
+These notes encapsulate the key points, challenges, and insights from the transcription, providing a comprehensive overview of the content and its significance.
+
 Transcription:
 
-paste here
+intro
+why am i at this point and how the hell has someone died under my watch you can't even go and
+kill yourself you can't even go hurt yourself you're [ __ ] useless and i'm beneath the surface and you can hear the thumps
+overhead like and i turned around and looked at vice and he went [ __ ] run
+now [Music]
+wow this is the most gripping inspiring twisting conversation i've
+ever had on this podcast ever if you're squeamish i'm gonna have to ask you to prepare
+but even if you are i'm begging you to follow this story my guest grew up in a broken home one
+plagued with domestic violence with abuse with heartbreak and he moved to five six seven different schools as he
+stumbled through his childhood trying to find his way trying to find out who he was and then stumbled through
+his adolescence looking for purpose in life and he was met with rejection with pain with confusion with barriers
+and as he spiraled into daily drug abuse into addiction and into purposelessness a job that he
+hoped would give him that sense of purpose ended in a manslaughter case and this tragedy only caused him to spiral
+further and as he reached the depths of his despair he made that decision one day
+that he was going to leave his house go for a drive and end his life for whatever reason
+and thankfully he didn't go through with it and by fate or luck or faith or whatever you want to call it whatever
+you believe a short youtube advert that popped up one day out of the blue would be the catalyst for him to pull himself out of
+his darkest most desperate moment to give up drugs to overcome his mental challenges to brush himself off
+and to pursue his childhood dreams he went from suicidal drug addict to elite commando
+developing what he calls the commando mindset a mindset and a set of values that you can learn
+but his story doesn't stop there his time as a commando is riddled with graphic violence with
+heartbreak with being injured by the taliban while at war he'll describe the moments after he was
+blown up and turning around and seeing his friends laying there behind him in pieces and losing some of those friends being
+discharged from the military because of his injury grappling with ptsd finding comfort in alcohol and addiction again
+getting himself in trouble with the law finding himself in court facing four years in prison and then
+rebuilding himself once again launching an incredible coaching company and working with elite performers
+harry kane gareth southgate and the whole england team before they went off to the world cup and then the pandemic comes and his
+coaching business collapses but in typical ben williams fashion adversity doesn't dictate his outcome
+thanks to the values ingrained in his commando mindset he bounces back to launch an incredible
+tech company what a wild emotional gripping ride you're about to go on honestly congratulations for
+choosing to listen to this episode without further ado i'm stephen bartlett and this is the dire of a ceo
+i hope nobody is listening but if you are then please keep this to yourself
+[Music]
+ben from doing this podcast over the last couple of years one of the things that i've been reminded of and an idea that's been
+Your Childhood
+reinforced in my mind is how important all of our childhoods are
+in influencing what we then become and i studied childhood psychology between the age of like 16 and 18
+and it blew my mind to understand especially in those early years how that sort of fundamentally shapes
+who we then become as adults and it's and it's in some respects often quite
+hard to shake right um you know that old adage of not being able to teach a new dog new tricks because we're so we learn
+most of our behaviors when we're young so my first question for you is tell me about your childhood
+tell me about that experience how did that shape you yeah my um my parents had quite a rough
+divorce when i was around i think six seven years old um
+and i never speak about that divorce i never go into detail never talk about what it was but it wasn't nice
+and we sort of didn't see dad for a while and then the mortgage wasn't paid and
+mom had to take everything on and we had to move and we went from this lovely house
+to a very small house on a sort of council estate and i think at that age i didn't
+really see it too much i just it was part of the journey it was part of the process i didn't
+recognize her problems i didn't recognize what was happening it was just our dad's gone we're probably young
+enough to just get on with this and it's funny because my kids are the age now
+and i think about what are they processing now what they're going through how they seeing this what do they see every angle like
+um and then i think as i got a little bit older and i began to understand their separation a bit more
+and how it was not a clean break it i felt like i was a young child who
+almost wanted to protect his mum i had my younger brother that i thought i wanted to
+or knew i wanted to look after and protect and then she found a boyfriend who
+wasn't a father figure and i hope you wouldn't mind me saying that as well he was just there in the background so when you said
+it wasn't a clean break [Music] you mean there was domestic violence issues or there was
+it was uh it was an aggravated separation that's pretty much as far as
+i'll go on it um but we witness things we witness things and i think that stays
+with you quite clearly in your mind as you move through and when we go
+and move and transition into this kind of new phase of our life in a new house with a new man in the house who wasn't really
+acting up as dad it was probably the most problematic area to be
+mum's dad and mum um and you can actually fall out with mum
+because she's trying to be dad and vice versa as well and i have
+probably the closest relationship in my entire family is with my mum because i recognise everything she's been through
+and she's an extremely resilient lady who's got herself to where she is
+today but it is true and i'm listening to your podcast and
+looking back on my own journey you see every single little thing begins to affect you i think later down the line rather than what
+you're going through at that moment it's all about that process and i don't think that processing happens very well when you're a child
+as i just said it's kind of next phase next phase next phase you know then all of a sudden six seven schools later
+um and you don't fit in and you know i'm not the broken wing story if you don't if you come to school and
+you don't know anyone you're the kid they're gonna pick on so that was part of the experience and
+then then you find your feet a little bit in the system like my sort of final school
+that was kind of my make or break moment and i think i went more towards break
+you said that when you're young you don't really know what things mean so you're kind of experiencing them but you're not like consciously processing
+them yeah but they are still sitting with you and having an impact on your world view then they're telling you what a
+relationship looks like and what a relationship with you know your siblings or someone else or authority looks like for example but you
+don't have that time to process it and i think as is the case in my life i like didn't process a lot of this stuff until i was
+like 29 or like 28 or whatever yeah um and i guess that's the same for you right it just feels normal
+i think if you've not experienced anything before what you then go through feels normal um well this must be reality this must
+be how we do things and then you just kind of crack on and i think actually it was during my
+military career and then been sort of immersed in what that throws at you that i kind of
+describe it as like almost the eddie stabard lorry that you're just putting things in along the way every now and then you just stop and put
+things in and then you're just traveling at high speed and then something will happen and you bang the brakes on and then everything comes
+flying forward and that's what i kind of found over the sort of my mid-20s
+was why am i thinking of this again why is this coming back what's this all about and trying to work out a way of beginning to
+process what i should have processed years ago talks about six or seven schools um so
+you you were expelled or you were moving no we moved a lot all right yeah we moved a lot so we moved
+from guildford and then up to beds area and went to some schools in bucks and it was just house to house
+so we moved from school to school which is difficult for a kid and i found
+i found myself leaning more towards listening to certain music types such as heavy metal
+very heavy metal actually and dressing with it and i think back then you know early
+naughties is oh there's there's a kid in the corner with the black nail varnish on the spiky hair and the dog color and he's new
+let's throw exit him oh wow um so i suppose maybe i didn't help myself
+as well but that was just it was a real strange one because that's what i was into that's
+i still like that stuff now um yeah i felt like i wasn't accepted for
+liking what i liked you know that's how i kind of didn't fit in for a while at school
+and is that is that a coping mechanism was was the music a coping mechanism was was being different in school or
+whatever it's some form of a coping mechanism because heavy heavy metal is pretty emotional
+sometimes i think it is uh i think it does become a coping mechanism
+[Music] i but i found it was the start of things it was the start of escape
+and it started with metal and then it moved to more sinister things such as drugs and at one
+age so i started smoking weed around 12. um um
+you know i tried weed before i tried cigarette weed got me with people i always wanted
+to be with or thought i always wanted to be with and all of a sudden i was smoking with the cool kids and oh this
+is all right you know i'm finally fitting in but it's only because you're all using weed and you're all focusing on
+this one thing that your togetherness is your little unit um
+but then yeah i think drugs took a little bit more of a hold of me than i expected it to
+and it was weed for several years and it just got more and more weed until i started to progress into my late
+teens where i start to pick up on other things which is when it all gets a bit cloudier
+going into the clouds what age did you did you start experimenting or using other drugs so
+i think just to give you even more of an insight of what i was thinking is i think because
+what happened between my parents and then not really having a father figure when we moved
+i actually began this sort of hatred towards males um i just didn't like him i just
+it seemed like it was the guys at school who would pick and then i didn't have father figure and it was am i the male who where is the male here
+and i just began this almost sort of disliking to to males when i started at
+school i started to have anger management around 16 and then i i was going to ditch
+everything at school i wanted to join the marines and leave and my mum
+god bless her was no you've got to stay on the path you're on do you relate do your a-levels and then move on and
+then if you fancy doing it do it then and that then left me quite bitter because i was like i want to go and do this this is my destiny i'm going to go
+and join the military and that sort of no from her was that moment where i was like
+well [ __ ] you i want to do what i want but i still stayed in school and it was like what's the next best
+option i don't know why becoming a bouncer suddenly becomes the next best option
+but i wanted to fit in and i wanted to live a more macho alpha male lifestyle and i
+thought that was going to throw myself in the deep end and become a bouncer and so i managed to get my sia license
+so prepped for my sie license which is the badge you got to have as a bouncer when i was about 17 and a half the
+moment i turned 18 i was on the door and very quickly learned what the real world was all
+about and it didn't go very smoothly for me in the first instance whatsoever
+so to try and skip my almost youthful growth i started
+injecting steroids i started on started taking steroids
+orally and then moved on to injecting and then bulked up and got angrier and a bit more difficult
+to be around you talked about wanting to be a bouncer because it would make you feel like an alpha male or
+The desire to be an alpha male
+whatever um and it would make you feel and why why did i'm really like intrigued by that
+i thought where did the desire come from to be considered an alpha male
+whether in your own mind or to external to other people so i think part of it is the fitting in is
+why can't you fit in around that time you know lock stock was
+quite old but snatch and certain other films were out which they were quite they're almost in the
+limelight it seemed like that way a life seemed to be normal uh not normal but what you should aspire
+to be like uh aspirational the aspirational like gangster um and i watched a bit too much of that
+you know i read lenny mclean's book and roy shaw's book and thought oh you've got to be hard to fit in in this world
+but i take to take you that moment where as basically mum said no you're not joining in the marines until you're 18
+or at least do your a-levels when we did sort of begin to have every fortnight weekend
+with dad again the marines museum is somewhere where he used to take us
+we also went to the parachute regiment and uh to the imperial war museum here used to just take us around these
+military museums for some reason i remember being a young sort of nine-year-old in inata or as well
+looking at these pictures of these really incredible people i thought
+because this is what inspired me i thought i want to be a marine and you know as back as sort of nine years old
+10 years old and then when it's kind of many years later when you suddenly almost pluck up the courage to be like let's do this
+it's a no it turns you quite bitter and quite angry and why not this is what
+i've always wanted to do and it and it does feel like that someone suddenly puts a blocker in the way of what you've always wanted to do
+your sense of purpose yeah that can that can make you um think in rather negative ways and i
+that for me was when it was what else can i do this is it this out is it this alpha male
+thing you know that's is that what a marine is is what's the closest to that then and where can i fit in and that's kind
+of what led me to the path of i'll go where everyone seems to respect
+you know i'm not going to sneak into the nightclubs like we used to do by putting our socks over our trainers at 17 to get in
+i'm going to work on it and those kids that have always taken the mick those kids that have always thrown the
+odd thing at me are going to respect me and there i was 18 years old on the door
+two questions the first is what did your dad do professionally and
+was your desire to be macho in any way influenced by
+um wanting to also be accepted by him at all
+i would want to say yes but i think i'll say no i
+i don't know where it came from um i don't know where it came from and
+my second point was there is a stigma in society that bounces have power complexes and what you've
+described there sounds like a power complex yeah and it's this thinking that
+mum was dad and there was no other male in the house apart from her boyfriend who didn't really
+really be dad to us so do i need to be dad do i need to be the alpha here and the the older i got and the more i
+was on the on the door and the bigger i was getting um
+and i was working five nights a week you know this was my full-time job and you were getting feedback and validation from
+yeah women yeah and you know you get into the you get into the fights you
+you get better at it you get more switched onto it you get more aggressive with it and all of a sudden that validation
+comes in you think yeah well maybe this is my purpose maybe i am supposed to be here um
+and you don't see the animal you're becoming even at that age you can be 20 years on
+a door or you can you can do it within a couple of years if you start doing it every night and becoming
+almost laser focused on being there for the violence you're you're an animal it's like the
+frog in the frying pan gradually being yeah cooked it doesn't really it's a good way of putting it yeah i i it's
+particularly intriguing to me i've actually never talked about this but one of the people closest to me in the world followed almost an identical path and they went
+through school i i think in my view lacking validation probably in the top four people closest to me in
+my life lacking this validation they then started using steroids at 18 17 18 years
+old i found the steroids in their drawer and then they went and became a bouncer and they were doing it for
+they told me for the attention from girls on one hand but then also because i think it did something for their self-esteem and this person is
+the single smartest person i know in the world but being getting that validation from being a tough guy on a door
+and injecting steroids and going to the gym and eventually he even started doing some fighting like ufc fighting stuff i think was um filling a hole in your
+story though the i read about an incident when you were a bouncer that kind of changed everything for you
+yeah i remember um we had a neighbor a little irish lady she's lovely she's
+still with us she's still with us and uh i think she knew the underworld better than i did from where she was from
+and i remember saying she said to me she literally sat me down she not when she found out i was joining
+i was gonna work on the door um she came and knocked on the house and sat me down no one was in as well and
+she was like you don't know what you're getting yourself into i was like i do know and strangely as a young male
+and you may have experienced this yourself when someone says you can't do something or you don't know what you're doing you're very quickly like i know exactly
+what i'm doing i've watched all the films i've read all the books i know how to do a some sort of kick i'll be fine and she's
+An incident that changed my life forever
+like you don't know what you're getting yourself into okay so she was right
+um there was an incident which happened uh at one of the nightclubs in milton
+keynes where it was around 3 am and i was leaving
+the venue as literally i was signing off at 3 and the rest of the team of signing off at 3 30.
+and i was literally about to hand my radio in and there was just like this massive
+screen down the range and we had a door team i think of around 15. it was a big night club and it was
+still pretty packed for this time and yeah there was just this sort of scream down the radio
+and then you heard black black and that was like so you had code red which was like it's
+kicked off code black is like we've lost control and you just kept hearing black black down the down the mic
+and i was with a friend of mine uh another one of the doormen and we were literally like what should
+we do and just chuck the radios and run to where it was and we ran down the fire exit
+it's in the escape builder i don't know if you know the escape building in milton keynes it's like it's just like a maze you go through one exit and you're
+just in a maze of concrete tunnels and we were running down the stairs and then sort of round
+the corner and as we were running towards coming in the back of this part of the nightclub the doors just
+bomb burst open and everyone just fell through it was like a dam of bouncers and people scrapping
+and it was just carnage there was just people fighting all over the place who couldn't even work out what was going on
+um and then i recognized this massive guy who early that evening had just been a
+pain and he gave me a massive kiss on the lips and everything and like ruffled my hair when i had some um and was really
+patronizing towards me and and just he put me in my place that's what he was doing
+and they were fighting and it was inevitable they were going to kick off on this evening and they did and i just remember seeing
+like his arm dangling as they were trying to force him to the ground there was about three of the other lads on them big guys
+and then there was brother and then two of the people fighting in this this area of the team i just grabbed his
+arm and he was just like flailing me around and we i was just slapping into the wall and then back on
+and then we all hit the floor and there was this almost like crunch sound but no one
+thought anything of it because he just he went almost even stronger and i just had this arm
+i was lying there thinking this is he's really trying to get up here this is going to get out of control and you
+could hear his brother screaming down the corridor who's a big lad himself um and we're probably
+on the floor probably about a minute trying to subdue him you know calm down calm down
+um and his face was facing back across me and it was just staring at the wall and
+then i noticed some sort of pulling underneath his head and uh it just didn't look right the blood
+itself was not a nosebleed it was purpley and i just said said to one of the lads
+was like i don't [ __ ] think he's well and everyone literally just
+massive breath came off him and he was still lying there didn't get up and then one of the bouncers was a
+fireman and i was like roll him over and then began trying to resuscitate him but to no veil
+and he'd passed away there and there on spot remember standing there watching it all unfold
+suddenly going from this big alpha male we're here to fight to
+what the [ __ ] has just happened and then they closed the club and they nicked everyone and then we
+were on man or charged for about a year as they tried to determine what happened
+um he'd lost his life you know as a man had come into a nightclub
+whether he was a pain or not had lost his life and worse than that uh five kids had lost her dad
+through an act of violence through actually no one's fault he fell and the way everyone landed on
+him unfortunately broke a bone in his neck which caused him to go away and it was um it
+was put down as an accidental death there was no malice in it there's guys trying to defend themselves and and
+the court recognized that and i'm glad of that as well because things like that don't always get
+recognized and people all do get in trouble for defending themselves
+um but for me it was a serious point in my life where i thought wow we're not in deep here
+we're [ __ ] way past deep um which became quite a hard thing to
+deal with and then you lose your job and by that point i was already using cocaine and
+steroids and you're trying to keep up this addiction and all of a sudden becomes an escape
+and then you can't afford the steroids you see yourself get skinnier and it's what do i need to do i just i'll just do
+more i just need more coke but cokes are expensive and smoking more and more weed and i just became extremely lost you
+know i was uh i was cleaning school toilets at one point because
+that was the only job i could get was to be a cleaner and for me i felt like i was very much
+lying on rock bottom you lose your sense of purpose at that
+point right like you lose your sense of orientation and this i've you know in writing my book and doing tons of studying over the last
+two years i've really grown to understand the importance of especially men having a sense of purpose
+and orientation and as i did some reading about why the life expectancy has dropped over the
+last two years in the uk and the us i think i've mentioned this before the data suggests that it's because of
+opioid addiction and then you say why are people getting more addicted to opioids and the data suggests because men
+specifically are losing their sense of purpose and i think jordan peterson's the one that says there's a purposelessness epidemic
+sweeping the world which is why the life expectancy has started to decline and it sounds exactly like that when i
+when i read that in your story and as you've said it then sounds like one of the the worst things that can happen to someone
+a man or a woman is they lose their sense of as i say in my book their sense of like
+chaos because that chaos and that having stuff to strive for and aim for seems to be our act our stability
+um how bad did it get for you at that time in terms of drug use and and um your mindset
+so i've written about it quite openly in my book um i was using it on tuesday mornings
+you know in my mom's spare bedroom using coke right um and it got really bad
+it got really bad to sort daily use always that was it that was all that the
+focus of the day did like get cleaning work done or or if i wasn't doing that just like oh soon my
+mate i literally had two mates which i did it with and i'd just wait for him to finish work and then we'd go and pick up and
+then we go and see my course until midnight just sat there just looking at the stars
+thinking it's a chill sesh really just [ __ ] wasting my time um and it was on one of those very
+lonely days where i just sort of thought i don't even know who i am and actually
+i have a girlfriend at the time who's now my wife you want to meet a resilient woman my
+wife has put up with me for so many years i've got a lovely family
+and yet here i am sat with like half pulled blinds [ __ ] everywhere in my room no purpose
+don't know where i'm going in life taking drugs why like i'm from a nice
+background why am i at this point and how the hell has someone died under my watch how's this even happened
+and for me that kind of was a moment of obviously give up
+so i took the i took the courser which i shared with my brother and i just went for a drive and i had it
+in my head this sort of ambition that i was just going to go and drive off something or drive into something or
+go and do something stupid and uh try and escape what i thought was
+this internal pain it never happened it never prevailed i never
+did it i actually ended up back at home after losing track of time sat there
+feeling sorry for myself oh you can't even do that you can't even go and kill yourself you can't even go hurt yourself
+you're all [ __ ] useless um which lo and behold is when i
+sort of flicked on youtube the old clunky version
+and that advert appeared and i thought i don't know if it's fate i don't know if this is some sort of
+sign from above as the advert for the royal marines
+yeah and it just came up it was an old advert and it was just there just appeared as
+part one of the videos that i should watch and it was a young lad and i reckon he
+must have been about the age i was at the time i sort of 1920 i think it was at a time
+My turning point - joining the Royal Marines
+still quite loose on my time into that one and he goes he's going through the endurance course which is one of the commando
+tests and one of the four commando tests and the endurance course is a two mile bogs tunnels
+um just just just a muddy hell that's the kind of way of crazy muddy
+hell yeah and then a four mile run back to camp and to get to that point you have to have done the 32 weeks of training
+and that's the first test and i remember watching it and and he's running through wood wood
+breeze on where it is would be common he's running the stops and said would you stop here
+and then it goes again and it goes through the tunnel would you stop here and then they have this obstacle in there called the sheep dip and the sheep
+dip's about three meters long and it's fully submerged and you have no control what happens is
+um someone will put you under they'll force you through and then someone else is the other side and they have to pull you out you can't swim you just go
+through like a torpedo and it's a bit dramatic but this kid goes under the water and gets his trousers stuck
+on some jagged bit of metal and he's like hanging out for breath and then it's going it freezes would you
+stop here and then it freezes again and it does it again does it like two or three times and then it says if yes don't even
+bother filling out the form and then the next cut scene is him with his green beret
+at night on uh a speedboat offshore raiding craft just going along
+no music just this weird sort of tone it was like and then it goes 99.99
+need not apply and that for me took me back to that young child in the royal marines
+museum in portsmouth who was looking at the pictures of old guys of moustaches in the falklands and
+the early iraq's people who had become something and i thought what else have i got to
+lose what else have i got to lose here than to just go and do it
+and that week was a turning point so you applied yeah i can tell how much
+that particular video influenced you because you can describe it i mean it must have been decades
+right since you said yeah and you can describe it in such graphic detail i still watch it now oh really i still watch it now only because it just
+it reminds me of that sort of transition in my life that courage you know i always thought that i
+had a lot of courage i think a lot of men do they what is courage to us what what is courage and it
+was something that i thought i could establish or find on the door or
+in like a violent world and be that alpha male where actually courage now i look back
+over my years i look back and think courage was the ability to go downstairs you know after sitting there for hours
+shall i shine shall i not i'm going mom you know you said no thinking of doing
+it and she went thank [ __ ] for that because i've done my a levels and i think she'd
+grown tired of me yeah yeah and i was like what and it was like this just acknowledgement like yes
+please go and do that because we can see what's happening here and you're ruining your life and you're only just about
+realizing it and i was like last to the party and realizing i was the one ruining my life
+and the other hard part was you know my girlfriend had been with some for some time [Music]
+who had been through all of this up to this point i'm now leaving her to go on this journey
+and become a royal marine and i think that was for me the hardest part to build that courage up and say
+can i go and do this and she was like yeah i support you with whatever you want to go and do
+and that was it it was literally i described in my book like a couple of days later i literally just threw i had a pack of
+coke in the house and just threw it in the um in the toilet and flushed it and didn't flush
+i was like that was dramatic because i thought
+admittedly i kept smoking weed for a little bit because it was my progression off everything
+but uh you know the steroids were done partly because i couldn't afford it but
+you immediately begin to learn about what being fit means i remember this moment i am i didn't i
+didn't really have too much physical training kit i just had the odd sort of football shirt and horrible jogging bottoms lying around
+and it was uh i don't know if you've seen it i think it's sean penn run run fat boy run
+at the moment when he he steps out the doorway for his first training run for his marathon and he's all overweight
+and he's like stretching off in his really crap yeah and i uh
+i felt like that guy and i stood at the doorway of my house i was like i'm gonna go for a run over the rest of your life
+yeah but it was this it was like the weather we have now it was just this hit of fresh air and running and the
+endorphins and the exercise feeling like it was purifying me i thought
+this is what it feels like this is is this what success feels like is this what progression feels like is this what
+it feels like and that was that week alone of just feeling myself getting slightly fitter
+and healthier you know simple things like tidying up my room i was making myself homemade meals like
+lasagnas and pastas because it was carby and it felt like that was the right thing to do um and then i began to to start the
+application process and yeah it's about a year's process of fitness tests
+medicals well psychometric tests and stuff like that
+and then you go down and you do this three-day course before you start training you have to go and do a potential royal marines course
+which is what i can only describe as a three-day bee sting where they just make you cry for three days and see who
+survives it and um i got food poisoning the night before oh [ __ ]
+yeah i literally threw the eye of a needle and out the mouth and i was like i'm in a [ __ ] state a real [ __ ] state like a corpse in my
+bedroom and uh i remember my mum's saying again she's like why don't you get and see if
+they'll move it like in that mumsy way yeah let's ask the marines if they'll move it mum i just thought
+i've just got to go and i went down and i was last on every test but i managed to scrape the times but i
+couldn't put my hand up and be like feel poorly like two three days into becoming a royal marine it wouldn't have
+gone down well um but i passed and that for me was just
+this incredible moment of i've just managed to kick my
+bad drug addict habits i think i've overcome some sort of suicidal tendencies here
+to now be passing a course that's going to give me the ticket to begin training with one of the
+world's most elite and respected regiments and that i didn't need anyone else
+around me for that one to say well done or that validation that was a look in the mirror and go nice one how did it feel when you got
+that like was it a letter or an email or it's uh it was literally there on the spot you know you do the last day of the
+three-day course and then they go hey you passed or they go you [ __ ] you failed off you go
+and i had this letter which said uh which said uh you passed you you'll hear from your careers officers soon
+you also get given this t-shirt i cringe when i think about it now but this t-shirt says potential royal
+marines commander on the back yeah and when i see people wearing them now i'm like
+and uh i put this t-shirt on and i was on the train just like hold it and it was freezing and i'm traveling through
+i actually came back through london because i was living in milton keynes at the time and so i was on the tube just like that
+no coat on just a t-shirt yeah but i was so proud of it and i trained in that t-shirt every day
+and uh and then yeah i got my letter in the post saying you'll be starting on this date uh get yourself ready this is
+your kit list this is what you're gonna need and that date came round but your mum was proud right yeah
+yeah she was really proud i think my girlfriend was a bit confused and a bit oh there he goes off
+on a journey what happens to me now um which is why i work so hard now so which i'll come on to later but you
+know being stood i've been sat on that train um for day one of training
+and going from milton keynes and i went up to birmingham and then i caught the birmingham all the way down to exeter
+i remember looking at people on the train behind sort of newspapers and that those glum sort of mp3 playing faces
+with the listening to their music looking out the window and sort of cheap suits and
+you know tapping away on laptops and i thought i wonder if these people are happy i wonder if these people are
+on the journey i'm about to go on and that train ride in itself was extremely
+fulfilling and then the royal marines training center's got its own train line which is super scary to turn
+up to and then uh yeah i pulled up sort of five hours later and there's the first instructor awaiting
+you and you you walk through the gates you're carrying all your kit quite bewildered but i remember thinking
+i've arrived it's crazy that you went from being i almost have this vision in my head of this young man who was
+looking around for for something and finding nothing in terms of his purpose and then obviously going within himself
+and using you know cocaine and other substances to try and take to try and escape and then suddenly
+it's like this north star just becomes illuminated in the distance and it's this sense of orientation and direction and purpose
+for your life and um and that seems to be what you know changed changed everything
+obviously it takes a ton of resolve because you know the way you've described it sounded i've got to be honest even
+though you had these challenges along the way between like the moment when you decided you saw that youtube video to when you
+actually showed up at the training camp but it's tough for a lot of people to um
+to even see the north star and then pursue it and especially when they're holding the baggage of like addiction and i
+find that pretty miraculous i'm like a lot of people wouldn't be able to do even that part going from addiction and suicidal ideation to
+putting on those shorts and going for that run i feel like that's that's the biggest mountain to climb right like yeah
+that was uh i think that was part of the rush for me was actually just arriving at the camp
+and i'd watched a documentary by chris terrell um commando on the front line and it
+followed a troop through commando training which was quite it wasn't an old grainy one it was you
+know a year or so before i was going to go there and i just obsessively watched this
+and at the time afghan had just kicked off as well and so they were getting combat footage of
+what is happening out there right now mix of this training and and i remember watching this thinking i'm going to be there soon i'm going to
+be there i'm going to be there and it took you know that's a year's worth of sort of preparation and then i remember
+standing in the foundation block which is where you spend your first two weeks with 60 guys i've never met before all
+of us have shaved heads or just look bewildered and a little bit worried about what's next and i remember looking around thinking
+this is the room they filmed that first episode in i'm in it wow and you do think like what
+legends have walked through here what heroes have come through everyone comes through that door over there
+and i think even that itself was a real moment of pride like i really enjoyed the first few weeks of training
+and then it got quite hard to realize that all right yeah it's quite a long course and this is going to
+take a lot of resolve as you say but um you know those even those initial first
+few days of just excitement and looking around and just being surrounded by excellence you know
+the values have written on the wall your corporals your troop sergeant your captain they wear the green barrier of
+pride and they're stood there immaculately dressed i'm gonna become you one day i'm
+How to find that purpose
+and we're having this conversation today but something happened uh in my life yesterday in fact so this is
+i think why i'm really dwelling on this point of like how you go from the youtube video to putting on that
+pretty ugly gear that you found and then going for the runners i've got a very good friend of mine who
+i know what miami saying this because we talk about it openly um who is going through tough times at
+the moment he sounds very very similar to the guy that you described who was having those negative thoughts and was
+looking for purpose in life and i'm almost searching for the advice to give him i think that's why i'm asking you the question
+because he is that guy that sat in his car looking up at the sky wondering what's the point in living
+what is it that takes you from that place to putting the shorts on and saying do you know what i'm going to do something for me for
+once i'm going to help myself no one else is going to get me out of this situation but me that bit there feels like the hardest
+mountain to climb i guess for you it was that sense of purpose and prestige and that was
+you know this had been your childhood dream or like there's also this quote i sometimes ponder on which is change happens when
+the pain of staying the same becomes greater than the pain of making a change like when life becomes sucks so much
+that would ease it would be it would suck less to go and be beasted yeah yeah
+you've got to want something that's what i looking back out having learned
+everything along the way it was the desire to want something
+what is it i want um and it wasn't the validation of being a tough guy at
+all it was to be part of my dream you know and you think back to that nine-year-old he'd almost made his mind
+up on the spot there that he's going to join the marines and that kind of got taken away and then i took it away from myself anyway
+and i think almost further away it gets it becomes less tangible so when the
+incident of the nightclub happens and you find yourself becoming wrapped around the wrong axle completely
+you think it's getting further away i'm losing control i haven't got it i'm losing that thing i want to that that finally that day of
+something that reminds you to go remember what you want to go
+[ __ ] it i'm going to go and do it and you know what i found i know a lot of people like this i still have a few of them my close
+friendship group um and i've worked with a lot of people like this as well
+where it's actually the courage to go and do it somewhere in your friend's head he'll be
+thinking something that i wanna he may look at you yeah but you're successful it's easy for
+you to say it look how well you're living the dream [ __ ] you you can't give me advice and you're like oh dude come on switch
+on in there somewhere is something he wants in there somewhere it's a desire
+in there is a child who had an ambition for doing something
+and the older we get what i found with my experience it it feels like it gets slightly further away and that gap gets bigger
+and all of a sudden you've got to take a bigger step or a bigger leap but if you have that ability to go no i
+do have the courage with it that that gap closes and it takes steps it takes baby steps and people think it's overnight you know
+you may have found this oh you're an overnight success that's like 10 years worth of hard work you know messi says it took 15 years to
+become an overnight success that's because deep down in the shadows those people which
+are fighting every day the addiction the difficulty the desire to go out in the piss with our friends in the normal
+world to do the drugs to eat unhealthy food whatever it is is is that fight right there to go yes
+or no should i follow the easy option or should i follow the hard option and sometimes the hard option isn't the
+challenge sometimes the hard options the courage you have to build within yourself to take the steps you know that
+um is there anything that i could have said to you when you were in that point in your life when you were doing the drugs and having
+suicidal ideation if i was your friend is there anything that i could have said to you that would have helped you get out of it
+because as friends and family members we're always trying to change you know help right and i sometimes doubt the power of
+a mate turn into you and being like pull your [ __ ] together you know
+it it strangely happened to me so uh i won't mention his name because he's
+doing sneaky beaky things these days but there's a close friend of mine what's sneaky beaky you know appearing
+from curtains working for special forces okay fine and things like that right not perfect no no no no no no
+yeah can't do that one again no he's not perfect that's why i won't mention his name
+a friend of mine was within this lifestyle i was with him and um he decided to join the marines
+and he got out of what we were embroiled in and i i remember ringing him like what's
+it like what's like you know sort of inquisitive about it and he just said
+come and do it and for me that was like this guiding light it was
+someone within my life who actually had come away from what we'd all been doing and plucked up the courage to go and do
+it and it wasn't some millionaire entrepreneur it wasn't my mum it wasn't my dad
+it wasn't a really senior marine it was a friend who was probably about 15 weeks ahead of
+me on the process who's not even made it himself and is still going through the hardest parts of training to say
+come and do it come and give it a go you've got this and that was almost that not validation but that
+boost to be like yeah all right because that's a relatable role model yeah he's just like
+you yeah it's someone i know it but it's so real it's so hang on he was with us 15 weeks ago i
+know him i bring him and i'm like wow okay i'm gonna i'm gonna follow in your way
+which in turn becomes quite uh intimidating because you're sort of social groups looking at it going well
+the marines is really hard to get in now two of them are there one of them's guaranteed to fail aren't they shortly
+and i'm looking at him going wow he's stronger and tougher than i am is it me and that sort of creeps in every now and
+then but it was that role model to have seen i was as you were saying that i was thinking that people will now look at
+you after being in the marines for you know almost 10 years 10 years 10 years they'll see that that marine a
+decade in they'll see ben and they'll think oh god i can't i can't do that he's you know like he's a big
+strong man he's disciplined he's got this mindset like there'll be a kid sat in his bedroom glancing at that youtube video
+of the you know the marines advert i think and then looking over at ben and thinking oh no i'm not i'm not ben he's all polished
+and it's funny that it sometimes takes a relatable role model to be the bridge where you go do you know what there's a
+guy that's halfway through the journey who i know and i'm like him and he's not special or smart or whatever or rich
+and that can that's the the bridge that i'm gonna use to get in there myself it's one of the things when i do the podcast and when i talk about my story i
+always want to let people know that the guy you see now that can talk and that can do this business stuff and no social media
+was like an idiot who like got kicked out of school can't spell still can't do maths well
+it's just like you but as you say maybe the defining thing was courage and that
+courage came from just a delusional belief that i could this is what i talk this is why i wanted to write my book
+commando mindset because i wanted to um get people thinking
+that a commando mindset is a particular way of thinking within our world you know to have a hundred percent of the
+command of mind say you have to become a commander you have to go through the process and join up um but everyone has to get themselves to
+the gate and i become quite interested in to get into the gate part to start and who doesn't get to the gate
+you know the biggest critics never stand on the start line with you they're always the ones in the stand given at the beginning aren't they it's
+those on the start line who get to the gate now i got to the gate and i was really proud of getting to the
+gate you know how cringe-worthy but potential royal marines commando yes at least i'm a potential royal
+marines commander instead of a potential civilian which i don't want to be for now i want to go and live and
+enjoy the world in different parts of it um some you wouldn't go to holiday on but um i
+wanted to go and see it and that that for me was a really interesting point and you know
+fast forward many years later i managed to get the prestigious job of going back to the commander training center as an
+instructor and get to see those people get to the start line and see them go on their journey and
+listen to their stories you know you're a bit of a tough guy over them at times but listen to their stories and hear them say that they had drug
+problems and this happened within their family and or this person lived on the street for this long
+but now you're in my world and i'm going to try and take you from what you were and turn you into
+something that we need you to be but you have the ability to be as well
+and that process seeing them go from civilian to commando and that's really empowering
+because i get to stand there on the last day of training when they finally do it and you can finally call them mate
+when uh you know it's a bit hard up to that point it's like good effort mate and you have a beer of
+them and you tell them a little bit about your story they go whoa i thought you were like
+this sort of thing yeah untouchable [ __ ] just yeah yeah yeah that's it yeah yeah pretty much
+but instead they realize you're a human what is the commander mindset are there principles to it what's the philosophy you know you talk about it
+What the commando mindset?
+being something that we can all sort of reflect on in our own lives we can all have that command in mindset i
+guess in the home or in work what other what is the commanding mindset and well we have an ethos that was the sort
+of thing that first jumped out at me when i got there and we have values and the values is
+pretty much what makes us courage courage determination excellence self-discipline integrity
+cheerfulness and humility and um these words they're very human words
+aren't they they're very you could put that in almost any walk of life and i think people can acknowledge it and go
+courage yeah excellence i have a bit of that integrity is the biggest one we say integrity in the marines is your
+virginity you can only lose it once and so when you have that way of thinking and you have that ethos amongst
+your peer group and your leadership group um you know most of the time what's coming
+out of people's mouths is true and that whether that's moral courage to say we're the same rank
+and you've got stop swearing nests and you've got to take your hands out your pocket and you know let's set an example for
+people who are below us um to even you know being able to say that to a senior commander
+like oh should we have rounds in our pockets right now sir but it's this ethos within us that enables a
+particular way of thinking and it's when you're in the most extreme circumstances when
+bullets are coming at you i remember my first ever combat engagement
+i was we're in a quite a large patrol of 12 and we've been on the we'd flown into an
+area in the green zone and told the taliban are here you're just gonna have to go and find them which is like finding a needle in the
+haystack sometimes and we were on the ground for about four hours and we always take an interpreter with
+us and they have a radio that intercepts taliban frequencies so they can actually hear what the taliban are saying
+and it was the first time i think i heard the taliban as well you hear these voices and it's quite squiggly over the net you
+can't really hear it properly but you just think that's our foes that's
+oh [ __ ] they can see us as well where are they and they said uh we can see and we can see them
+they're heading towards the melon now they're heading towards the melons was their code word for um ied improvised explosive device a
+homemade bomb so the taliban is saying across the radio that they can see you they're talking to one another saying
+they can see us and that we're heading towards the bomb they've planted and you start thinking well maybe
+they're trying to egg us on maybe it's not real we went into this farmer's compound and we stayed in there for about half an
+hour to gain our breath and have some water and then they came back on so they've gone in person they said his name as well
+they've gone in his compound we'll pay him a visit later we'll get him on the way out so you're
+looking at the poor farmer thinking you're getting a knock on the door like you don't need but also
+we're in the safety of this small compound that we're gonna step out back into the open soon and they're gonna they're gonna see
+us and we stepped out the open [Music] and straight away we can see him again
+we can see him again and you again you kind of are they trying to pull our bluff because they
+know we can hear them they know they know we listen to them um you kind of take it sometimes with a pinch of
+salt but you have to take it seriously but then we had assets in the sky which was a drone
+saying that it can see fighting males coming towards us all carrying weapons and then moving down this street and
+that was like okay this is actually real and we hadn't been hit by this point in the tour
+and this was about to get very very real and your whole everything changes you know the
+adrenaline's quite the adrenaline's high but it's controlled you've got control and you think i know
+how to deal with this stay focused and we came up to a ditch which
+there was it's almost like a t-junction ditch where one met another and then to cross it it was probably
+about four foot deep and then you had to pull one another out of it and you get onto a track and then there
+was a wall and the track sort of went left and right from us and about three of us got out the ditch
+got onto the track and then just a hail of bullets came flying down the track and they all spat off the wall and off
+the floor and off the trees around us and what you're taught to do when you're shot at
+you're taught to do something called rtr which is return fire whether that's from the hip shoulder whatever just spray in
+a direction take cover return accurate fire rtr
+i nose dived into the ditch don't blame you yeah like quickly as
+well and just completely flopped into the water my kit's probably wearing about 100
+pounds so i've just gone straight to the bottom of the ditch and i'm beneath the surface and you can hear the thumps overhead like
+a split second you're underwater split second but it's long enough to go ah that
+wasn't the right thing to do that i've just done everything against what i do in training and what i've been
+taught to do you panicked right yeah massively like oh [ __ ] someone's shooting us what do we do jump in the ditch that seems
+like the cleverest thing to do and jumped in ditch and i remember this thought coming through my head
+going oh you [ __ ] up big time there get out the ditch and i in that second came up out of the
+water and noticed everyone had done the same thing so i was like right mark dodged that one
+um and the way we were looking was down the track so everyone sort of looking across each other down down the ditch and down the track and
+there was one person still on on the track returning fire on his own stood up
+literally you couldn't make it up it was it looked like that sort of call of duty image where he's just firing away on the
+track and it was our commander vicey um
+and he just looked over all of us in the ditch and went check your [ __ ] flashes
+and that is this internal system which just goes like that because your flashes are
+what you wear on your shoulder and it says the words raw marines commando and everything those three
+words mean is related to the ethos related to our values related to those 32 weeks
+training related to every person that's died for those flashes and we're all hiding and he doesn't need
+to say get out the ditch come on on the track or anything like that he just screams check your [ __ ]
+flashes and that's your reminder to go oh i need to switch on and be a marine here
+as opposed to hide cowardly in the ditch and then we go out and you get into the fight
+and that's what the mindset the mindset isn't necessarily just down to skill and ability it's that ability to tap into what
+you're programmed to do what your dna is what your value system is have courage have excellence have determination all
+these things that were just words up to that point have true meaning for you to get into the
+fight whether you lose your life in the moment or not you're there to do a job and that's what it looks like
+and those values as you describe them go back through that list again courage one of them was joyful not just
+cheerfulness in the face of adversity why is that so important that's the one that struck me the most i was like that sounds like smiling
+if you uh if you don't laugh at it or laugh at you and i i can't i've lost count the amount
+of times where i've been soaked in mud i'm absolutely hanging out and you know
+a domino's pizza and being at home and going miss and you look over to the right and all you can see through this
+this muddy face is his teeth someone else looking back at you and you just go
+and you giggle and you know this is [ __ ] isn't it yeah let's get on with it because if you don't laugh at situations
+that get tough it is going to laugh at you and the moment it starts to laugh at you you're going to begin to suffer now it's
+not in the case of when people lose lives you're stood over there going ah having a giggle but it is those moments
+of extreme warfare where rounds are pinging off the wall in front of you and you look at one another and go [ __ ] you know that was close wasn't it
+and you have the ability to laugh at situations maybe other people wouldn't laugh at cheerfulness in the face of adversity is
+is what we all need i've been saying it to people all last year and this year you know this is [ __ ] what we're going through
+but if you don't smile in some way or another and find that sort of courage to have a bit of morale within yourself it's going to laugh at
+you that's where your mental health starts to take a knock that's where you start to have that
+sort of negative downward spiral and that was something i never had before the marines the ability to laugh at difficulty
+and the marines encourages it out of you what the other words again so cheerfulness
+courage determination determination excellence talk to me about excellence why that's
+so important because i know from the i've got to be honest i i feel like i've watched every
+documentary ever on like the sas and the marines and um the other special forces across
+different countries i i got so obsessed you know when i was younger and one of the things that you see in
+training is this obsession with the the soup you know your uniform being clean and your gun being clean and
+things being in order and it seems like from my outside perspective they're like training excellence and organization into you is
+that is that why they use the word excellence in your flashes um you can never achieve perfection
+everyone looks at the military as in they're perfect everything's shiny everything's ironed everything's clean
+but it's not perfect if you if you think you've got perfection you've hit arrogance or you've let your standards
+down because excellence is that ability to continuously keep striving
+towards something um my corporate training said if you do not put 0.1 better every day at least you're
+heading in the right direction and his way of looking at that was you could have the worst day ever you could fail every test
+but if you do something extra that day that just boosts that 0.1 at least you're making a little bit of a
+more positive impact on that day than maybe yesterday you can always strive and that word excellence
+is is embellished in that it's a it's the ability to say i can never achieve perfection
+but as long as i strive to do my best effort that's what excellence really means that the the ability to strive to put in your
+maximum effort on everything you do you could be the slowest guy in the troop and not be able to keep up with everyone
+but if you are hanging out i always just said to my recruits i don't want to see you just giving me
+the face for the sake of it i want to see your face that you are fully inserted in the locker then i know you're giving me the best
+effort because they're striving for excellence they're striving to just be the best they can be
+do we do enough of that we do in the military and that perfection doesn't exist you
+can't aim for perfection you have to aim for something a little bit more tangible you have to aim for something that
+does exist and what does exist is the ability to keep doing it at a high standard how do you
+Why “its taking part that counts” doesn’t work
+in our culture at the moment there's a narrative emerging which is like at least you did your bet you know there's a kind of a fluffy soft
+so you hate it i can see it in your face yes it's kind of like fluffy soft it's okay that you're not that good at least you know take rest well you
+know good is a good good is fine which is kind of infiltrating our culture in a very pc almost in my opinion toxic way if i post
+this on instagram as i've said before i'll get like cancelled because people that sense of like doing less
+than your best and being negative seems to be comforting for people in a way that keeps their
+self-esteem and ego smothered with cotton wool so that they don't have to take personal
+responsibility i can see you're very pissed off good go ahead
+yeah this podcast is over um my lad took part in so i have a boy
+zach he's seven and i have layla who's three going on 18. and uh he won a race
+in sports day and i was like the marine dad on the edge and they're like godzilla you got this and he's flying
+down and he's miles ahead of everyone else it's like yes and he crosses the line i'm like
+yeah and he comes running over and he's got this massive grin on his face and he's got a big sticker
+winner and there's another sticker next to it participator and uh i looked it and
+instantly in my head i tweaked and i thought rip it off okay good are they handing out them ones are they
+and um he went i won hold on when he's over over the moon and my wife and i were like well mate
+it's amazing and uh he went why did everyone else get sticker
+and he was pissed off and i was like and i could i can almost hear the parents around me
+i could hear their ears turn towards me like oh how's this parent gonna approach this one
+and i did think in my head i was like shall i go down there well it's good that everyone had to go and everyone took part
+and then this kind of the stoic commander went [ __ ] that i went listen here no one else should
+have got another badge right you're the one who earned that that's the reason you've got that winner's badge don't worry about that
+participation meter what i want you to always strive just do your best every time and you can win the race like you
+did today don't worry about everyone else and he was like yeah but why do and it kind of the conversation went off in child
+language sure um but why do they get a sticker though dad and like kind of looking around again at the
+parents i don't know i've not worked this one
+out yeah but i did i wanted to let him know that that there was that parent in me there's almost those two voices to go
+go along with it because other people are listening and this is now the new cultural thing to do of just praise
+effort and sorry praise taking part over anything else or let my son you know one of the
+marines values his integrity i'll let him know what i truly think of it i don't agree that they're handing
+out those stickers mate you won you won the race and you deserve that one make sure you do that every time
+and he likes that people will listen to that and they'll think some people might think oh you're toxic that's yeah those yeah pushy parents and
+you're training your kid to you know he'll end up like michael jackson changing the color risk or whatever like but if we look at the importance of
+purpose and forward motion and orientation i think that removing accomplishment
+removing north stars and just saying nothing's an all-star and everything's a north star is actually really really dangerous
+because then if we don't have things to strive for if there's no winner if there's no accomplishment if there's no
+mountaintops then again we lose our orientation and that for me is where people get depressed and have opioid addictions and then they end up
+killing themselves or you know whatever else it's also it's also maintaining a
+standard for not what i expect of my child i want him to put the effort in if if he
+doesn't want to put the effort in he won't put the effort in um and he will either go through a
+process in life like i did or he won't and he may look at my life lessons and others around him and go we're not going
+to do that i'm going to do this i run a business you've run a business if your staff
+or employees sorry turned up i'm like i'm just here to you know get paid and nine to five
+hit five and i'll go home you know that turning up attitude what what does that do for the culture of
+that business you know you have too many of those people within your environment your business is a car crash waiting to happen
+you know it is the people within it or your friendship group your friendship group oh just you know see what happened i'll just turn up
+you know the just turning up attitude is what we're encouraging when we say well done everyone for taking part in this
+race today you know i i personally think you you reward the top two
+and and the one who's putting in maximum effort who came in last give him or her something as well you know well done that's a good effort
+we had um another cake yeah yeah i didn't want to say you said it before
+um i don't care about being canceled at this point yeah you're not cancelled my episode
+but it's it is that it's if if we almost reward this participation
+now that's all you get rewarded as the winner gets as much as the loser gets and everyone in between gets rewarded
+this participation we are encouraging this just turn up just all you have to do is just turn up
+and you get praise you win you know it's what simon sinek talks about this kind of entitlement where does it come from
+well you just turn up you know you get everything everyone else gets anyway no like
+you and i people who've had to work hard fight hard the reason the green beret is
+so well respected is because it's so [ __ ] hard to achieve the moment they drop the standard
+you know it's not going to be the value that it is at the moment maybe that will happen maybe society
+will push it through i know training was very different to when i actually took recruits through training you know i
+have seen that difference in culture society is having an impact on that we
+are rewarding people for just turning up simply just turning up and that to me is
+it's not we're not breeding this michael jordan attitude we just want you
+to come and give your best effort the excellence turn up and strive don't just turn up and tick boxes that's
+a big thing that i took away from the military is do not tick boxes you know you can get your report we were always
+encouraged with our reports to be way better on it you know don't just you know well done you've done everything
+you need to do in these couple of months it's good after you've done all this and this that's what we look for it's funny
+because people just her state of mind and the kind of soft fluffy cultural
+narrative that's kind of breaking through especially on like social media i think is designed to try and protect
+your mental health but i think that the argument we're saying is it it actually has the adverse effect because it takes away that sense of like
+striving and accomplishment which is so clearly important for people to live fulfilled lives and uh it goes back to
+the point i made about you know chaos being stability and stability being chaos if if even in my industry there was no
+competition there was no podium there was no nothing to aim for my life would descend
+into some form of like probably some form of depression because i would have no there would be a purpose
+and although you know the mountaintop or the podium actually isn't the moment of purpose the journey is like the
+striving the training the whatever it's important to have it there um and i i'm glad we had that conversation
+because i think a lot of people don't melons you mentioned the word melons earlier on
+the taliban talking about they planted their melons so i heard that it was in fact one of those melons one of those ieds
+that took you out of the military yeah it was the catalyst for sort of end of my career
+um i've got something really exciting to share with you last week as many of you might have seen
+in the press it was announced that i would be joining the board of huel and for you guys that
+know me well and know how much i drink you all and how much it's been a key part of my life and running my business and staying healthy
+will know why this is exciting to me because it's a product that i absolutely love and the reason why they sponsored the podcast in the first place was because
+when i knew that i was going to be bringing it back and investing in the you know the the production of the podcast and the team i wanted a partner
+who i could talk about authentically without having to [ __ ] you and heal is that partner so i reached
+out to huell and said listen i'm starting my podcast um up again and i'd love you to be the sponsor of it and so as i've got closer
+and closer to julian some of you all know he actually came onto this podcast and he will be coming back on in the future um we realized that there was a lot
+professionally we could do together and upon leaving social chain i got a ton of offers to join boards to
+join companies to be an advisor a consultant you can imagine what my inbox looked like immediately after the announcement and i said no to
+everything i'm a firm believer in rejecting good and the whole doubt for grey and when julian had the
+conversation with me i said yes to joining hughes board in less than a
+second i knew what he was gonna end the sentence with so i said yes before he ended it and um i've started working with the
+team now on products on their comms on the wider business on the brand everything and it's amazing i absolutely love it so
+what started as a little podcast sponsorship what started as a conversation with a remarkable entrepreneur and julian has now become a
+more formalized relationship and i'm a board member of huel and i think it's important to be honest with you about that because
+when you hear me talking about it now you know that i'm actually in the building so yeah just wanted to share that with all of you back to the podcast
+you mentioned the word melons earlier on the taliban talking about they planted their melons i heard that it was in fact
+The thing that ended my time in the Military
+one of those melons one of those ieds that took you out of the military yeah i was the catalyst for sort of end
+of my career um yeah we we were deployed on an operation around
+three or four weeks before the end of this particular tour in 2011 um
+and yeah it was called the hornets nest it was just an area i've heard that before yeah it's not
+it's not nice when your commanders say you're heading into the hornet's nest and when they follow that up with we're
+going to go and hit the nest okay all right good luck i'll see you okay postcards
+now um but it it the idea was to go in and disrupt the taliban an area they
+thought they were untouchable within and we knew it was going to be heavily contested and they had the civilians
+on hand there they they had it all and it was really deep in the green zone as well which i think this is sort of
+end of august beginning of september so the crops are at seven eight foot um the tree lines are sort of every
+hundred meters and the trees are very high it's just a really difficult place to operate in it's like a jungle in the desert and
+then we landed on the americans gave us a lift in the morning dropped onto target
+and within about four or five hours we'd had um five guys taken out the game already
+by a grenade which came into the compound and just detonated at their feet taken out of the game yeah so injured
+and put back on stretchers and put straight back on the helicopters um we then took
+attack well we started to receive an attack from three different angles um so they were firing us from the
+bearings right north west and south um and there were firings from two different angles from a distance to
+distract us from an attack which was coming in from this third angle which was to sneak up to the gate
+and try and get into the compound so we were sort of really trying to fend off and and this
+came sort of every half an hour it would just pick up and then it'd drop off and move scrapping all day it got to the point
+that if you weren't on the roof fighting you were trying to get your head down to get some sleep and then ready yourself
+to go up and things would explode and you'd wait wait for a scream or wait for something
+and then the firearm has started going oh everyone's alright just carry on it was just the most surreal situation
+um and we ended up fighting with the enemy pretty much all day that day and then we needed to push patrol out in
+the morning and that morning that morning just had this weird feeling about it you know the day before
+five guys had been blown up by a grenade you know covered in frag um we'd had some injured civilians come
+in it was just just quite a chaotic day the taliban had got right up close to the gates and we've managed to push them
+back and kill a few and it just kind of leaves you the feeling the next day thinking oh we've
+got another six days of this seven day operation another six days of this um you know
+that first day we were there it got that bad that mortifier was getting called in over us landing literally 50 meters in front of
+the compound to stop them advancing on our position and that's frightening that's you know you're close to that sort of hand-hand
+combat and um the next day i remember waking up thinking i didn't have a great night's
+sleep you don't really get good night's sleep out there and this really weird thing happened i i was sort
+of messing around with the some ornaments which were on a shelf you know just like being a nosy sort of
+brit having a look around this compound and i ended up flicking this sort of like weird dish thing it had a
+car battery like just a half a car battery in it and i poured it and it had all the acid in it and it
+leaked onto my head and then onto my face and then onto my body i was like oh my god i've got battery acid on me and i even
+said to myself i was a bad omen for the day isn't it um and there was just these like weird
+tiny little events that happened and i think they only seem weird now because i look back and like because there was
+an incident and um one of uh one of the marines uh darlow luke
+he um we usually rotate on patrol so on one patrol he would go at the
+front or second from the front because of the weapons we carried um i carried a light machine gun which
+is um you know it's between the we have two machine guns we have the gpmg and then
+we have the lmg and the lmg's slightly smaller and i had the lmg and so you go that second person to
+cover the first person who's a rifleman who is literally with a metal detector looking for the bombs so
+you're there on their shoulder and you work as a pair and it was actually my turn to go in the
+middle of the patrol and it was luke's turn to go up to the front and
+neither position really is any skin off your nose i was like doing a swap today and he's like now stay where i am i'll
+go jordan up the front and we came out the compound and literally straight away
+into a ditch and then into a cornfield and we kind of navigated our way through the cornfield and the idea was to get up
+to this village was which is probably about 200 meters from our sort of um base i suppose you could call
+it an occupied compound um and we just wanted to get in there and talk to some of the locals and
+see what the problem is with the taliban and where they are and see what intelligence we can get out of them and i i was a jordan at the front and with
+us was a dog handler and we had the dog handler because they sniffed the bombs and we came to the edge of the cornfield
+and there was just no one around call it atmospherics so positive atmospheric
+women and children out in the streets farmers in the fields you know normal life pattern of life happening
+there was no one nothing like literally you had the tumbleweed going down the street
+um and i looked over my shoulder and you could feel it we call it spidey senses it's when you know your skin and your hair so it starts to
+stand up on your neck and you could just sense it after yesterday's fighting
+no villagers around they're here the taliban are here it's just where are they um i looked over my shoulder and vicey
+was behind me my commander it was just like yeah push up the track let's go and we came out onto the track and began
+walking up towards where we needed to be very slow pace you know you're checking for these bombs in the ground
+and a tractor appeared in front of us probably about 20 minutes 20 meters to our front
+and this this farmer just looked at us and he must have just seen load of marines suddenly stood there in
+the street and just we were like thresh you know stop and he just like
+floored the tractor as much as he could it kind of just chugged off and he disappeared and it just it just all felt a bit weird
+and we got nearer to this um we literally come up to this crossroads and myself jordan the dog handle were on
+top of the crossroads now or just just slightly just before jordan was on it and i was just slightly back from it
+and these two guys walked around the corner dressed in full black trainers on which is a massive indicator
+for taliban they used to wear trainers where most of the people just wore flip-flops and these trainers for obvious reasons getting around quicker
+and they would just stood there as you are to me in front of us and it was like [ __ ] out and
+you couldn't do anything like they're not armed they just stood there looking at you and they're as wide-eyed as you are and
+you think this is taliban and then they just bolted literally just ran straight from us as we're like stop
+stop and they ran to our right behind us a short wall but into the
+field and you could hear him like traveling through the field like the snapping of the corn and everything and why the [ __ ] are
+they just running to the field why didn't they run down the track or just stop and all this is starting to go in your head and i turned around and looked at
+vice and he went [ __ ] run now and we'd start to run and we'd we must have taken two three steps and
+the wall next to us just obliterated and this this plume just
+covered us all like i've never heard anything that loud i've been around a few loud things
+but it was so close and i remember this something hit me in the back of the head
+um which my helmet must have deflected and then something went through my leg and i just felt like this almighty pain
+in my leg and but i was still stood there and i don't mean that heroically like shrugged off a bomb it was just a shock
+of it everything just went through you all the rubble um all the um frag
+fragmentations to the shards of metal just just went through your bags helmet everything and the pain in my leg was enough for me
+to like scream out in agony and then drop to the floor and the way i dropped
+i actually ended up sitting on my foot so my injured leg had come back under me and i had this right leg
+out to the front i smile because it was mildly amusing when i look back on it
+but all this you know your ears are ringing you can't hear it you just hear that sort of muffled sudden sound um
+you can smell the core diet you can smell horrible things you know when you come
+to terms with what happens next i remember looking down thinking oh it's [ __ ] me and i was screaming i've lost
+my leg i've lost my leg because i just i was concussed i had the pain here i
+couldn't see it there's lots of smoke and dust everywhere and [ __ ] i've lost my leg i had this moment sat literally must be 30 seconds
+long sat there on the floor thinking [ __ ] i've lost my [ __ ] leg where is it for a start um and then it was like this weird
+sensation of like my foot trying to come back round underneath me and it and then i was like oh [ __ ] sat on it i'm sat on my foot
+i sat on my foot and i did look down and there was blood all down my legs but my foot was there my leg was there it
+was all intact and you check other bits which are quite required for a man and i was like all
+right it's all there and you do have those really surreal moments it's a real thing where people check themselves
+and i was like [ __ ] but then it real then you realize you're on patrol and there's other people on that patrol
+and there's 12 of us out on the ground right now and that thing which just happened was very very close
+and it was almost at the moment i turned around that the the orange dusty smoke was clear in that
+everyone was lying on the floor uh three of which were just out cold completely
+and it was just this stark realization like [ __ ] we've been hit hard there and the
+wall had this little small wall which obviously the device was hid behind you know you quite quick quickly know
+what's happened as they've planted a device behind the wall which is facing the path
+and they've run into the field at the end of a wire and just connected the battery and it's detonated on our patrol and
+what it is is called directional fragmentation so it sprays across the patrol instead of coming up from under the ground
+and everyone had been hit everyone and behind me was my corporal vicey out
+blood coming from his neck blood everywhere kit weapons clothes just ripped to pieces
+and you just think [ __ ] and there's no one else around like it's just you guys on the track and most of them are lying
+unconscious on the floor and i started thinking i thought to myself i've got to get to vicey
+so i started crawling i was in utter agony as well i just knew i had to get to him and as i
+was getting nearer i could see that he'd been struck in the neck and it was doing as you would see on casualty
+coming out at an angle and you'd i've been in these moments before i've been around people
+which lost legs have been there for people which have been injured but there was people left and right
+you know there was your team were there on this occasion everyone's just [ __ ] out cold and as i was just getting to visey a
+marine came sprinting up the track from right at the bottom and just jumped onto his neck like with
+his knee literally jumped onto his neck and just lent into him and he started shouting at me going get your [ __ ]
+kit out now get your kit out and so i started fiddling around for my medical care and what we were trying to
+get out was this thing called hemclot which is like um it's like a bandage
+but it's uh it basically you stuff it into a wound and it expands um and i needed to get my henclot out
+but you have to throw it's like this technique that you take out throw it over your shoulder so it doesn't get caught in the dust
+and you have to keep it over your back so you can then put it in but you're not packing all the [ __ ] in around them
+and uh he's like get your [ __ ] head glow out now and he's now obviously removed his knee from his
+neck and he's got his fingers in the wound and he's trying to hold on and so i remember looking at her thinking he's
+trying to hold on to his artery there and he's trying to pinch his artery going stop [ __ ] looking start putting it in there i was trying to do it and he grabbed it
+off me went i'll do it hold that and then you're there like [ __ ] now i'm holding it literally
+pinching it together going don't go don't go don't go and then the medic came up from the back and barged me out of the way and
+start started treating him on the spot um and all i could do was just hold his hand and was just like pray for your
+kids stay few kids stay with us stay with us and i just sort of 45 minutes flashed by
+and we were on the helicopters and we're back at kambastian and they were going through triage and
+i don't know miraculously they're still with us today um vice lost his leg in that moment as
+well which is unfortunate darlow who i was meant to swap with took fragmentation through the temple
+and is now disabled because of it but he's still with us and uh it's still great fun to be around
+still marine at heart definitely and a few other lads taking it in the throat
+all over their bodies and you kind of we meet up every now and then you know not so much now but we meet up we call it
+the bangiversary and you look at these kind of reprobates which are still just got scars all over
+them and you share the stories and you take the piss out of one another and vice always says to me he's like you
+were crying when i was dying when you know i was like yeah [ __ ] was but it's
+it's a part of that journey you know and it was a real intense moment but um
+we signed the dotted lines we put ourselves in that position and um that's what happens in war at some
+point you decide that you can leave or you would discharge medically or yeah it was um
+i was discharged because of my hearing and it was something i'd hid from that day i knew my hearing had been affected but
+the way the sort of hearing tests work in the military you can kind of blag it you press it every three seconds and it'll
+it'll look roughly like you can hear it and i could never hear properly in my left ear and they changed the test uh several
+years later and i got caught out trying to blag it and the doctor was like what are you doing
+hearing test yeah stop doing the three second rule all right do it properly and did it
+properly and then it was like you can't hear any left ear can you i was like i can hear something then let's have a chat and yeah we
+sort of that was the ball rolling between being elite military to leaving the forces
+not easy to leave as they say life change is very different yeah have something to aim for that's
+what i decided this moment they told me i think i'd been up threw enough stuff up to that point to go okay this is what happens now
+adversity strikes you've got to work out how to get through it um i i had a
+i had this ability to coach people like that's what i did with my young marines and then when i worked with the
+rehabilitation troops as well i thought i could do something outside here and
+fortunately as i was sort of in my year of discharged gareth southgate brought his motley crew
+down to meet us at the commando training center and i got to meet some pretty cool characters within the england football team before they went to the
+Falling back into my old ways
+world cup and that's where i realized that no this commander mindset thing can actually be transitioned and help people way away
+from the military how do i do this but between that gap of leaving and you know starting your next sort of
+chapter i was reading that you had you suffered with ptsd and you were you know because it would be
+conceivable that someone would then fall back into the old patterns right like losing your purpose again and
+then like losing your sense of orientation and was that a i think i had that
+relapse or i know i had that relapse actually not long after afghanistan and i think
+this sort of trauma you go through the way you may handle it
+and what you've seen and all these things it's it's hard to get your head around is
+really hard especially when you come home so quickly it's like bang explosion you're back in the uk i remember being at um
+the queen elizabeth hospital up in birmingham and it had been 36 hours since we
+triggered well since the taliban triggered the device on us you know literally two days ago we're fighting them
+coming up to our doorway and then i was sending this sort of crisp white sheet bed white sheet bed looking
+out over birmingham and my mum came in you know this woman who i admire so much and i didn't want to
+speak to her i was like i don't want to speak to you i want to speak to you i want to speak to you i don't speak to anyone leave me alone because
+i was still an afghan and i genuinely think even to this day
+a part of me still stayed there and i could never get my head around it so when i when i
+you know rehabbed and i was fit and i could go back to the unit i would drink a fight
+i ended up getting court-martialed and i was suddenly spiraling back towards
+that bend before the royal marines you know using that violent way of being and taking a
+substance to sort of numb the pain which in this case was drink and again it was this ah back at square
+one done this career all right just i've just fought for my country and now i've got to go and stand in
+front of the judge which ironically was over an incident now i was defending someone else for when someone pulled a
+knife out you know it was just it kind of felt like really i'm actually trying to do something good here and i'm
+getting punished for it but that's uh maybe the naive way of looking at it but it it was
+a difficult moment i had to begin to process what happened in afghan and it's it was just another moment of processing
+as we keep almost coming back to is how we process stuff and afghan was tough you know we lost people
+we we lost lives we lost people lost limbs a lot of people lost limbs there was this constant
+battle in your head because of the ied threat you can never see him so you would walk out on the ground and think i wonder
+where i'm gonna put my foot today and that that's like seven hours long every day that that has its toll on you like
+constantly looking like that everywhere you go i remember when my then fiance we moved
+into the flat together i was really mad at her for the way she stacked the bean cupboards i was like
+what the [ __ ] aren't they facing the same way for and she was like why are you being like this they need to because then when you go to
+say because you've got nothing for that because they just [ __ ] do it and now that's me
+still like packing my kit regimently at the end of my bed what if we get attacked we need to be good to go
+um and it's it's so hard to they call it decompression it's so hard
+to decompress from that and you feel so pent and i remember coming back thinking
+no one respects us like it seemed like the civilian world didn't care the london riots were happening
+you know i can't even get it right on our own shores let alone trying to help other people out and you just felt forgotten and it wasn't you who felt forgotten you
+felt the lives had been forgotten and everything which isn't the case you you know i meet so many people now it's like
+wow that's amazing to me thank you so much for what you've done for the country and you get to this humble point now we're like yeah
+thanks i signed the dotted line i'm so pleased you appreciate it um but back then it was this kind of
+bitterness of why don't you care i've just done this why don't you care
+and it took me about a year to get through that and i i look back now and think i think that's actually quite natural
+for a lot of the marines that they went through and soldiers and then i got that turning point of
+picking up my leadership courses to then go and work with recruits and that was it for me i was like even though i was dodging and
+weaving the hearing tests i get to invest something back now and i get to
+make the next breed of marines come through and that became your new sense of purpose right that was yeah and it's such a
+valuable thing for me to do um we ended up moving the fam well my wife moved down pregnant we had zach
+down there we made a life and i really felt like it was just it was
+just brilliant to be part of their journey and see them progress and that's what the purpose became it was seeing people go from a to b
+and being part of their journey to say i believe in you you need to believe in yourself and you
+see them progress and even that comes to the england football teams like you can do this if you put your mind to
+it and they got that close very close let's talk about that then so where is gareth southgate and you ending
+up sort of working with the england football team just before they went off to uh russia yeah russia yeah yeah um
+Working with the England football team
+[Music] they came they came down to get a taste of our world that's how i was literally put
+and the idea that they would come down and be immersed in some activities that we do they do some
+of our assault courses but they'd also be introduced to the mindset that's what gareth wanted to do
+most and he wanted to introduce them to our values again that was a really important part of their whole trip was
+to know what courage looks like what does excellence looks like self-discipline humility integrity all
+those words and um it was it was very surreal
+you know i felt like a giddy kid most the time you know knowing that they're in the buses they're almost at the
+training era we were we were up in one of the woods that we trained in and there was
+me and four other corporals five other corporals and our sergeant and you could see the bus turning up and
+we were like oh they're coming literally like we were like that like then you had a tough guy yeah that was it yeah troop sergeant was like when
+they come over that wall don't forget like you gotta put it all on though boys all right yeah roger no worries taff laughing and
+then harry kane appeared first and we were like like staring him down and then i just
+remember tafar sergeant just went why are you staring at kane and just started bellowing at
+him and get on your kit then and then we all jumped in oh god then south gate start moving
+and um it was brilliant you've thrown that for a little while but actually they're there to understand
+you and that's not actually who we are um i was you know surreal moment one o'clock in the morning drinking
+or sharing a cup of tea with harry over a little fire talking about uh what it's like to score
+in front of 80 000 people what's it like to wheel away and you turned into a fanboy yeah
+massively and even when i was asking i was like ah don't ask the question but you know what he answered it in a way
+that it wasn't to the fans it wasn't to the press he genuinely answered it which i've you
+could hear it was like there's nothing like it you know the way you just the way you just expressed it
+and so you can see him staring at the floor a bit as he's saying it as he's thinking about those moments yeah he's visualizing and so yeah that
+was amazing and but then he asks you is like you know what's warfare like um
+and again that sort of stumps you a little bit like wow the england captain's just asked me what it's like in afghan
+you have this conversation it was just so normal it got that normal that i started moaning to him about
+holiday prices because i just paid for the family to go to lanzarote on an all-inclusive and i was like and
+then and in holiday prices through the roof at the moment i just paid three grand today
+and then i'm thinking he's just got that from dubai he's probably just done all these things but he was so humble with it and it was
+a really genuine organic conversation and we found that with a lot of the guys and girls which came you know they
+bought the whole set up with them kit man to gary southgate and everyone in between
+and they just wanted to see our world and see what values mean when you're going through different things you know when you're in
+the mud and water it's very easy to be in that position and feel like oh this is [ __ ] but when someone's going
+this is what courage looks like this is what this looks like this was what this looks like you know
+it helps frame it in a different way and it helps show you what your ability is what you can do what what that meaning
+of that word is and that was something that we kind of encouraged them to take to the world cup
+and i think they did i think they did and there's been a lot of press around it as
+well so yeah they did well would have been awesome i i've read one of your uh
+your podcast all your interviews whatever where you said um had they beaten i think it was croatia
+wasn't it you were set to go on pierce morgan's show the next day and explain yeah exactly how you how you helped them get
+there but then they lost we had a focus literally yeah so i'm cheering going come on england
+we're made after this come on yeah yeah yeah it's a hard time um but it didn't happen
+but hey you know later i think it was january 19 i went and did the keynote for gareth at
+the football writers awards at the savoy and i did mention and and i know a lot of people phrased it
+but there was an element of pride to be part of that journey and say you know they didn't bring the
+trophy home but they definitely bought football home and i think it's really unfortunate that we didn't have it this year you know
+that oh gosh they were last year so much whatever it's meant to be last year wasn't it
+2020 it was yeah some wasn't yeah yeah it's almost 20 20 euros yeah so but it i thought i thought it brought
+the nation a little bit closer personally you the other thing i was intrigued by was i read this i think it's a
+r a um sort of strategy per se which um you've adopted to help you deal with
+Your ARA strategy
+difficult situations could you could you explain that a little bit yeah so
+ara was almost kind of made up on the spot when i was trying to think of some things to deliver to people
+and and i've written ara's quite a focus within my book because we all encounter adversity we all
+encounter challenge and one of the biggest things i've noticed with myself and then when you look at it objectively
+with other people when people encounter adversity there's almost that fight flight or freeze mode people go
+into there's oh i'm going to take this on or i'm going to bail out and hide in the ditch or i'm just going to stand there
+and there's a lot of research around most of us actually freeze we just don't know what to do um
+and for me going through a lot of experiences you know where i really go back to is
+when we lost our first person in battle d we lost eno and we lost dina within five minutes of the 24 hour operation we
+literally ran off the back of the helicopters at sort of 4 30 in the morning we were going to take a village
+and helicopters went trooper crossing the ditch to get into the village stepped on an ied
+blew him up and he was gone um and he died there and then on the spot
+and two of the other guys were injured severely with him as well and you just i've used it a lot within football i call it three nil down within one minute
+and it's that moment of wow we're on the ropes already we've
+only just started this thing we're on the ropes how do we deal with it what do we do and i remember you know these
+incredible emotions go through you when someone gets killed you know you feel anger you feel rage you feel you want to cry
+you do you want to just take a knee and look at the floor and go i can't believe he's dead let's mourn it right now
+but you've got 16 17 quite hungry taliban on the other side of the wall who want to kill you as well
+and the worst thing you can ever do is is go into a village or an area such as that
+emotionally charged if you go in emotionally charged you're going to make cataclysmic errors
+that could be that you're so sad or overwhelmed that you're not concentrating you miss that person in
+the corner they then take you or someone else out or you go in there angry and when you go and they're angry
+you make serious mistakes and you don't have to look far and oppressed to see that happened and that happened on our
+tour um and that emotion gets in the way of dealing with the situation and what i
+like to more frame as thinking with clarity it's so hard to think with clarity during adversity and that's
+why i spent quite a bit of time thinking well what is a quick framework we can just jump to what have i used
+an ara simply stands for accept remove adapt the moment something happens then
+on the spot it's happened and then it's instantly gone so someone dying on the spot
+in combat is there's nothing you can do about it there's nothing you can do about it the most
+effective thing you can do is be it your highest standard strive for excellence get up on that roof and do what you need
+to do to the people which have hurt your comrade that's that's that's how you should be posting it what is still
+the strategic operational part of what we're doing here and
+the the accept part is very difficult for a lot of people to do it's very and i still struggle with it
+now myself but actually having that little framework to go alright okay this isn't good how do i
+accept the situation has happened or happening how can i process it and without dwelling on blame or exactly
+or you know or bitterness is there another one like say your business is shut down because of
+kovid you're angry at boris johnson you're angry at everybody and you dwell on that so that's the first hurdle is as you say
+accepting which is tough tough but it's a mindset you know
+this isn't for me this is not something we should shy away from you know the moment say it's tough does that then allow people
+to go well i'm not doing it then just i'll just turn up sympathy can sometimes show up as well too much sympathy maybe
+a victimhood the except is it's happened what is the next move what is the next thing i need to do
+um we lost almost all of our work with our business last year we we were working in talks and coaching
+and doing workshops overnight gone like i could have sat there which i did for about half a day going
+oh what the [ __ ] where's that all gone but you can't how long do you sit there
+doing that for before you just start to take a spiral down or where do you actually go right what can i actually do with this where
+can i make a decision we could become so emotionally wrapped
+up in covert as well the pandemic alone like i've i've expressed a hell of a lot of empathy and
+sympathy to everyone i work with saying this is probably one of the toughest things we've all been through collectively in a long time we're
+literally playing stuck in the mud for real you know we're grounded and it
+does become quite an emotional place doesn't it people losing jobs things going wrong but part of ara is this remove emotion
+is not becoming emotionless like not asking you to be motionless it's for me in combat it happens you've got
+to deal with it then and then remove the emotion get the anger and the sadness out the way do you know what we'll do we'll deal with that later no we've got to deal
+with that correctly as well this is where some people make the mistake of bottling up i'm going to come back to that later but
+i need to get on with my job and that part is that adapt part okay how do we adapt to this situation how do
+we adapt to loss of life there what was his role not who is he as a human what was his role
+what do we need to do to fill that role for now while we're here um i was telling you about that time
+when we were having to use mortar fire as almost a curtain as the taliban metroid commerce on that
+final operation the person calling in that mortifier was vice my commander
+and he's not a mortiman he is not trained on the radio to do that the day before when we lost those five
+guys who were by a grenade one of them was the mortiment and he was the one who needs to call that stuff in we didn't have him
+you have to learn to adapt and we could sit around and say oh we've lost our morton and we're [ __ ] now
+or we can go right he's gone let's not cloud our judgment let's think with some clarity and get
+the emotion out the way okay how do we adapt to this situation and i've had so many people which is really
+genuinely humbling because i kind of didn't make it up i just wanted to put a little bit of an acronym on what i
+use and give it to other people and i have so many people get in touch saying ara because it's a simple process
+maybe in the morning you know when you stub your toe stub your toes like the quickest like ah you just want to go band's eye on the
+table don't you but you just go stop i've stubbed my toe yeah yeah it does hurt yeah i need to be a little bit
+less emotional with this table and now i need to adapt to the fact that my toes facing in different directions
+so we all look at the table now but it is it is something you know something just happens and you
+have to be able to go all right that's happened how do i remove the unwanted emotion i call it
+unwanted emotion what's the bit that's going to get in your way if you're making the right decision the anger the um
+the sadness whatever's there and then you have to adapt i always think that the first l you take and when i say l i
+mean loss the first l you take is often involuntary nothing you could do whatever the second
+l you take is often voluntary so like the pandemic happens wasn't your fault we get that
+but then you dwell on it so much and you refuse to adapt and you you become a victim of circumstance you
+become bitter and blaming and you don't adapt as you say which was your choice
+and that leads to another l which is your business goes bankrupt and so i always think like the first i always say that's like you don't have to
+take the l twice the first l is you know involuntary the second one is your choice and that's i think the similar sentiment to the
+importance of like getting rid of that unwanted emotion focusing on the task at hand finding that calm
+within your within the chaos and being proactive and as you said as the sort of military values
+being cheerful because that is uh optimism is a very important uh emotion to experience in times of
+real chaos you have to believe that there is a way out um and that's super interesting i i i
+was reading through your story as well more recently i read about i think you touched on this earlier
+this joy that you've now found in running during the pandemic yeah yeah tell me about that i don't like it
+The joy of running
+as well do i just say well i started training in march as well and i've been training all year so i thought that was really interesting
+you mentioned earlier that getting out and feeling the air and the endorphins and yeah i um i was never a great runner in
+the marines not really no i was more the one who'd put the big backpack on and just be able to plod on um
+your son could give you some tips yeah that's who i train with now um i just i i really
+i like the idea of just it sounds so forrest gump but just running there's i have no
+reason to run i i think during the pandemic i found it a nice bit of an escape you know we're locked inside all the
+time uh you're on zoom call after zoom called the kids are downstairs and
+um you just need that moment to yourself and and i just love being out there running i just it's interesting my business
+partner and um his wife asked me the other week she's like why why do you run
+i don't know you know it got me pondering so i think maybe i'm a little bit better prepped to answer your
+question um but it was i use this word escape loosely because i
+think i've used the word i i've escaped before in the past through
+drink and drugs and the more sinister things escape now is actually just to be of
+myself for a while and i find that and and you would have found this on your own business journey
+is it's so full on all the time it's just someone wants you for something your phone pings or
+you know i'm i use social media i don't have the biggest following but i use social media because it's part of
+what i have to do you know promoting a book and things like that i don't really want to be on it i actually kind of like my reserve
+lifestyle but i have to give you something to show you what i do um which i was listening to i think as
+jake talked about on your podcast this morning it was really interesting it put my ears about thinking about it
+but running is i don't have my social media on when i run i'll if i need to i'll record a video to
+be like oh i'm not running um and post maybe sometimes but i just like being out i like feeling a bit of
+the pain in the shins and in the feet and i like running further than other people do not for time
+but that idea of what my corporal said to me in training 0.1 better every day i i really enjoy
+just striving for that excellence and i have found since leaving the military it's really difficult to feel like
+you're constantly striving for excellence it seems like there's more challenges there than there is
+success to be honest it's like one thing after the other i've done this within the business are we oh that's good oh
+something else come along which is difficult to deal with now isn't it brilliant um but for me being out running is that
+ability to escape i live in a wonderful part in the southwest you you know that area very well up onto
+dartmoor up onto the southwest coast um you just just incredible places to be
+and take the dog out running and i actually found in probably the last year or so
+it's an incredible space to think and i run back and i actually pick my post pace up at the
+end because i cannot forget that yeah you're not running back home through the door and you're like what about this with this yeah that might
+work but it's um it's just a place to be free you know and i'm not real
+a gym bunny i don't really i go to the gym i kind of walk around it look at a few things do the odd pull up and then
+go home i love being out on the road and i love being out on the muddy trails as well
+slipping around getting wet getting muddy it's just fulfilling isn't it i think
+when i was in the military that was all the time and now it's not when i left when i when i got binned from the military
+my last final day i came home i laid on the floor and it sounds i say that about social
+media i don't really like using it but there's this this is almost like tradition in the modern military now that when you leave you post like your
+favorite pictures of your career and then a post um and you acknowledge the lads and then
+and then you post it out and i was writing my post and i was picking the photos and i was blubbing i was just like
+crying on the floor but to myself and i'd kept it in for so long i didn't think i was going to do this and then i
+was just in utter tears because it was this just this excitement that i was going onto this new phase of
+my life but also that's it now i'm never going to do that again and that made me who i am today
+i lied on the floor and i think part of the tears was i'm never going to go mountain training again i'm never going to go
+out to the states and go in the mojave desert again i'm never i'm never going to go to afghan again i know it's difficult as it was it's an
+adventure and then crying crying crying and my wife kicked my foot which she's actually literally hoovering next to me
+she's like you're going to get up but i was like oh we had this little moment together and i kind of like gave it all on the
+plate and then i went and booked marathon to sarbs yeah of course you did
+because i thought i've got to have something i've got to have a challenge which will uh fulfill that
+so now you're running this business looping what is lupin doing you i'm guessing you've really felt the
+Your business
+pain of running a business and starting a business because it's a startup right during the pandemic what
+is lupine doing and how's that process been so what will help me explain lupin even
+more is probably stepping back into the marines for the first time when i put my hand up and said i don't think i'm that well at the
+moment i think there's something that might be wrong i'm bottling it up for so long you know come back from operations
+keeping it all inside guilt you know two ieds which went off behind me injured people and you carry that with
+you and so you feel like you can't talk out and there's a stigma of don't talk just keep walking forward and i remember
+that moment of thinking everyone around me looks really strong and tough and they just seem to be shrugging it off they're like yeah we
+did after i'm crack on come on then that's and i'm inside i'm like ah i don't feel too good at the moment
+and it things happen and as i said i got in trouble and things didn't go to plan and then
+finally i put my hand up to one of the lads and said i think i've got issues here
+and he went yeah same here i have as well what you've been seeing and what you've been hearing and it was like
+whoa just instantly like you're not you're not alone and you feel this as well and like having this big conversation
+a couple of beers doesn't always help but a couple of beers for us at that moment was like are you do you feel weak and all these
+things and um that forever has stuck with me you know marines
+one of our values is integrity and integrity means to be able to go i don't feel too good today it doesn't
+mean you don't go into your job but if you have an awareness of how i'm feeling you know maybe you can back me a bit more
+or you can help me a bit more and that's going to come back i'll help you out which was where it began with how can we
+show it better and that's all it was was let's make lupin something that just asks someone in the
+morning how they are they respond on the platform they already use so slack teams integration
+it records that data pushes it through to the dashboard you then log into your dashboard you see
+your graph of how you've been recently compared to last week as well and then
+you get to see the close people within your team as well not the organization you can see every team in the organization if you want to but you only
+get to see the people within your team and even within our own workforce and also
+with our alpha and beta testing people are reaching out to other people because they see their amber
+and it's i did one this morning one of our teams amber straight on the phone you're right yeah
+i just had a long night with the kids last night i'm okay i just need a coffee but all she wanted was that question of
+all good yeah and it's yeah i'm okay and then on the odd occasion we get no i'm not feeling too good today
+take today off them and that person is going to be more productive next week we can't bend over for it we know that
+in the business world people have to be in stress states we have to be under high pressure other times we don't but it's how more transparent can we be
+and i think what the pandemic's actually showing us is we can embrace this sounds amazing and
+i even know someone ran an organization with many hundreds of people um being able to see sort of an early
+warning sign yeah for situations developing call it the pulse is that what you call it yeah it would have been super
+super valuable you think about it from a business perspective you stand a chance of losing good people because you weren't aware that they were
+potentially on a bit of a downward spiral in terms of morale yeah and uh losing good people cost you a ton
+of money sounds amazing and it sounds like a very long way from afghanistan
+do you know what i mean going into tech because tech is a beast in itself it's a whole nother i've worked in tech in san francisco and
+stuff and it's a whole nother language and culture and philosophy and stuff so to go from
+you know your early years to to bouncer to afghanistan to you know helping the
+england team to now working in tech is one hell of a journey in a short amount of time so incredibly impressive
+you've lived many lives in your in the one that you've experienced and i actually was thinking
+as you're telling the stories today how honored i am that someone like you listens to my podcast i was like i think
+i need to listen to your [ __ ] podcast you're i hit a low moment last year when we dropped investment
+and we took these overheads like we went from like what was it three so about six grand a
+month overhead to suddenly thousands and thousands of pounds because we've got a team in an office
+and we're looking at our reserves going outside two months worth then we got four months and we were getting no after no
+afternoon because everyone just shut up didn't they no one wanted to invest because protecting your money and i listened to
+yours and dan murray certains to just take inspiration
+i don't know this world well enough and you guys do and i was listening to it going done it they've done it they can do it i
+can do it right okay and low [ __ ] moments crying into my wife's arms going why have i done this i've put the house
+at risk kids at risk this is [ __ ] it's better to be worth it but i want to make it happen i want to see
+a change out there i want to see a change in business i want to see your businesses be more open
+it's not about raising the money it's about fighting to raise that money so i can make that happen and we raised the money seven days
+before missing payroll we raised half a million just over half a million and it's listening to your
+stories it's listening to others was the moment for me where i'm like just keep going just i listened to the ones this
+morning i was thinking about this struggle that you guys were talking about and i was like sometimes struggle's good yeah it gets
+you to dig deep and sits in the trenches and i've been in the trenches and we've now been through the trenches
+and yeah it's inspiring you know when i got the nod last week i was like huh
+that's a massive compliment i i think i you know i've learned a ton from speaking to you today um i know you produce content yourself
+you've got your book which is awesome um so i just wanted to say thank you because it's been one hell of a
+conversation and i think this when i reflect on it this is really the reason why i started this podcast was to hear these
+stories and and the just the diversity in struggle and overcoming and persisting
+and purpose and reinventing yourself is the reason this podcast exists and you exemplify all of
+that so thank you so much for your time today ben and you you know you said it was a
+um a high moment for you to come on this podcast but i feel that um going the opposite way and i really
+really mean that i really mean that because you're an incredibly impressive guy thank you
+people ask me for book recommendations all the time and i finally got one for you it's a book called happy sexy
+millionaire which is authored by me um i spent the last almost two years in jungles around the
+world in costa rica and indonesia in solitude writing this book it's the most
+important thing i've ever created and there's this crazy thing when you write a book because
+you spend so much time pouring your heart and soul into it and everything you know and all of the revelations you've had in your life
+and then there's this barrier which is that people have to buy the thing in order for them to get that thing that
+means so much to you i wish that wasn't the case it's just the way the industry is and in order to get that distribution and to
+get it on shelves you need a publisher so please please please if you can if you've ever liked anything i've
+ever produced this podcast my instagrams anything i've ever said read this book there was no ghost writer
+i wrote every single word myself there's some real surprises in there it's an honest sometimes hilarious
+incredibly vulnerable hopefully valuable recount of my life my journey everything i've learned across across
+the way and really the answer to being fulfilled to being happy and to achieving success
+it is the most important important thing i've ever created so i implore you to go to amazon now or wherever you get your
+books and get that pre-order and everybody that pre-orders the book because pre-orders in this crazy publishing
+industry count as way more than just a normal sale if you get that pre-order i'm gonna put you into a group with
+everybody that's pre-ordered it and i'm gonna send you some exclusive stuff so the first things i'm gonna do is a series of voice notes which i think are
+um are gonna be pretty powerful i'm gonna give you access to some tickets which nobody else will have and i'm gonna do everything i can to
+thank you for for giving me that sort of nine quid of your money or whatever it is happy sexy millionaire you can pre-order
+it everywhere now and if you do get that pre-order please do dm me because i'd love to thank you myself
 
 ----------
 
@@ -1038,11 +4085,914 @@ paste here
 --13--
 
 -----
-Date:
-Link:
+Date: 2021.02.08
+Link: [# How To Chase Your Dreams Without Fear Holding You Back with Fran Millar | E67](https://www.youtube.com/watch?v=Kj6ZssVhzW4)
+
+### Notes from the Video Transcription
+
+#### Advantages:
+
+- Emphasizing personal fulfillment and success over societal expectations.
+- Demonstrating the importance of following one's passion and interests, even when it diverges from the conventional path.
+- Highlighting the power of resilience, adaptability, and the willingness to take risks in career transitions.
+
+#### Drawbacks:
+
+- Potential societal and familial pressures when choosing unconventional career paths or personal decisions (e.g., not pursuing traditional family life).
+- The emotional toll and challenges of facing public scrutiny and judgment, especially in the context of sports ethics and personal decisions.
+
+#### Tips and Advice:
+
+- Embrace change and be willing to take risks for growth and fulfillment.
+- Prioritize personal happiness and fulfillment over societal expectations.
+- Be authentic and true to oneself, regardless of external pressures.
+- Importance of resilience and adaptability in both personal and professional life.
+
+#### Lecture Content/Main Challenges:
+
+- The journey through various career paths, from starting a personal business to leading major sports teams and transitioning to different industries during challenging times.
+- The personal challenge of dealing with a family member's public scandal and its impact on personal and professional life.
+
+#### Importance and Usefulness of the Topic:
+
+- Provides insights into navigating career changes and personal decisions against societal norms.
+- Highlights the significance of personal fulfillment and the courage to pursue one's passions.
+
+#### Accomplishments:
+
+- Successfully leading and transforming sports teams to achieve unprecedented success.
+- Making a significant career change during a global pandemic and taking on leadership roles in struggling businesses.
+
+#### Summary of the Content:
+
+- The narrative explores the professional journey of Fran, her challenges in dealing with her brother's doping scandal, her success in sports management, and her bold career transitions. It also delves into her personal choices against societal expectations, showcasing her resilience, adaptability, and focus on personal fulfillment.
+
+#### Interesting Quotes/Insightful Sentences:
+
+- "I want a yacht and a chateau... I wanted the universe."
+- "The only thing I can ask you to do is your best."
+- "You can't follow in someone's footsteps, but you can have your own footsteps and go on your own thing."
+- "Work really hard with purpose."
+- "As long as my friends and family are happy and healthy, then I'm pretty cool with whatever the world throws at me."
+
+These notes encapsulate the essence of the video transcription, providing a comprehensive overview of the advantages, drawbacks, and insightful advice shared by the speaker.
+
 Transcription:
 
-paste here
+why am i doing this i'm doing this because society wants me to do this i'm doing this because my mates want me to do this it's a [ __ ]
+that's not going to happen and i think it you showed that little boy inside was just like ruined by it sorry it's still quite
+emotional [Music]
+what an amazing story what a cruel amazing twisting career
+my next guest has one of the most fascinating journeys through business and through life that i think i've ever heard she spent
+her life surrounded by a couple of people that that i actually consider to be inspirations of mine one of them is
+sir david brailsford who's been the sort of elite performance coach and cycling coach for team sky which went on to win more than
+they were ever expected to win he's the i guess the author of this this marginal gains thinking which
+changed how business and sports teams function the other person she was surrounded by throughout her career is
+steve peters who a lot of you will know from the book he authored the paradox which redefines
+from a psychiatrist's point of view how our mind works and where our behavior comes from and the other male figure in her life
+that's important for the story you're about to hear is her brother david miller who was this incredibly
+sort of highly regarded cyclist british cyclist who had this cruel twist to his career
+where he got involved in the doping scandal which really left a stain on british cycling as we know it
+Your Brother
+and david miller recounts the story of him being sat in this this cafe shop with david brailsford and
+being tapped on the shoulder by three men wearing suits who would then raid his house and find syringes and that was
+one of the key moments in british sporting history where i think in many respects things have never been the same and we always view
+our elite performers with an element of skepticism but this is fran's story and fran's story is one of tenacity it's
+one of success it's one of jumping off cliffs and figuring out how to build your skydiver
+as you fall her story is inspiring it's peculiar she went from starting her own business
+to spending i think 12 years that team sky worked her way up to the very very top and when it became team ineos she became
+the ceo leading a predominantly male dominated industry and then out the blue
+in the middle of a pandemic when retail was on its ass she decided that she was going to change lanes and
+become the ceo of bell staff which is a brand that has been struggling that's been making losses and then was then
+kicked up the rear end by covid she's brave she is unusual she's inspiring
+she's tough she describes herself or at least she respects the idea of being a difficult
+woman something we'll talk about so without further ado i'm stephen butler and this is the dire of a ceo
+i hope nobody is listening but if you are then please keep this to yourself
+[Music]
+fran i i've done a lot of stalking of your your history your past your professional career and uh i was stalking your
+twitter feed the other day and i saw a quote that you'd um you'd written i guess in in honor of your brother um david
+who is a a world renowned professional incredibly accomplished cyclist and the quote said following a boy who loved it
+so much he got absorbed into the fabric of it and has spent a lifetime carrying the weight of the cruelty wonder brilliance and
+tragedy it would bring him um is ultimately what got you into the world of cycling
+i was slightly taken aback by some of those words cruelty wonder brilliance and tragedy
+can you explain why you chose those words oh it's a big opening question um
+yeah i mean listen my brother was was unease a very talented guy he was we were so when we
+were about 10 and 12 my parents got divorced my dad went to live in hong kong and my mom stayed in the uk i stayed with my mum my
+brother went with my dad and so when we were like kids we'd cross in the air so he'd come home from hong
+kong i'd go out to he'd come home i'd go out and he had nothing to do when he was here because we'd moved so we had no
+he had no friends around so my mom entered him into a cycling club um and he'd go and he'd do the time
+trials he was super good at it by the literally from like 15 to 19 he'd gone from never really riding a road
+bike to being like courted by nine of the biggest teams in the sport and he got signed very young by a big
+french team and they kind of made all these promises to my mum about it and he was obviously you know he was a kid he was
+desperate to win the tour de france and to go and fulfill his dreams and he totally fell in love with the sport and he was completely enamored by it and in
+the space of five years he'd gone from this excited talented you know
+brilliant kid to this damaged incredibly sad deep deeply deeply shamed
+young man and it was like how has a sport done that like how is this is
+it it's a game right like sports a game it's entertainment how is that something that's fundamentally to entertain people
+basically ruined him like taking him down to the core of who he was and it just and then he built himself back up and
+he's you know he's gone on to do incredible things but it was just a the sport has had this unbelievable
+impact on my life on my brother's life on my life on everything the decisions i've made and
+everything else i guess that's why i chose those words give me some detail on you talked about
+the sport bringing him down to his core and ruining him what caused that
+ah so he went into the sport in 1998 he turned pro which for any of your
+listeners who know anything about cycling was the festina year so it was the year of the big fastina scandal where they raided all the hotel
+rooms and the guys all kind of protested and sat down on the road and only a few of the sort of teams were
+able to finish because so many guys got pulled out of the race and it was it was the dawning of the epo
+era so it was the era where they discovered effectively athletes and coaches had discovered
+that you could use epo in the same way they used build to use altitude training to perform to increase physical performance um and it
+was just a transformative drug it was they couldn't detect it they couldn't test for it and they brought in
+some interventions like a hematocrit test so if your hematocrit went over 450 you'd be pulled out of racing but it was
+a it was a health check it wasn't a doping check and it was rife basically so when he this young sort of
+dreaming kid went into the sport he he genuinely thought you could do it clean you wouldn't ever have to cheat i don't
+even think he really knew that much about doping at that point in his life and pretty quickly he realized that
+actually most the guys at the very top were doping that the doping was endemic
+that the expectation was you were dope that that was what you would need to do if you wanted to be a
+professional and you wanted to be any good and he resisted it for a really long time like he he was a time trialer which
+is you know race against the clock basically only racing yourself and so he really stuck to his time trialling
+because he was like i can do that like with the technology with aerodynamics with focus on my training it's a shorter
+period of time there's less requirement to kind of be as cardiovascularly supreme as the
+guys who are trying to win the tour are um and so he did very very well time trialling went to his first tour de france and won yellow
+like day one um and but but what was happening was behind the scenes
+this sort of erosion of his belief that he would be able to do it clean his his recognition that actually if he if
+he really wanted to take it seriously and try and win the tour he was going to have to cheat the people around him that the kind of
+network and the framework around him was people who weren't looking out for him
+weren't thinking what's best for him weren't trying to work out how to make help him fulfill his potential they were trying to work out
+how to get him good enough to make enough money to win you know for them as a business he was a commodity in their business um
+and i'd like i haven't actually ever told this story but francois mcgrane who owned coffee's which is like a
+company that basically does telephone loans i don't know what they do now probably you know online loans but um he had he
+met my mum so when we had all these teams that were sort of courting david he met with my mum and he promised her
+that he would look after him like promise looked looked her in the eyes and said i'll look after him and and yet
+he did nothing like he he built a team that was allowed to just get on with it he sort of closed
+his eyes to it and actually when the big investigation into cofferdie started it was francois mcgrane who effectively
+called out my brother he was like i think moncuti is probably clean but david miller i wouldn't put my hand on my heart for
+him and it was like you [ __ ] do you know i mean like yeah and you and he he's 24 years old
+like what he's the only exposure he's had the professional support is your team
+so if that's what's happened it's your team and p don't get me wrong david absolutely has to take responsibility
+for his decisions in that but i for one know that when i was like 19 to 25 i wasn't making the best
+decisions i've made in my life and i had some influential people around me who had they told me to do things or
+if and it's that insidious thing isn't it it's a bit like kind of i was listening to a book the other day
+about um decision making and you know how if you look at like nazi germany and people say oh they were just following orders
+and there was this big study done apparently where they put people in a room and they told them like there's going to be some there's
+going to be a student in there it's a study i can't really anything with my gran or someone who did the study and you're going to press this button
+don't worry because to shock them and the shock's going to get bigger and bigger and bigger and it's like and
+65 of the people would have pressed the button that would have effectively killed the person in the other room and it's like what and that's the human
+condition right so this idea that we that we would make a better decision or we'd make a better choice or that we'd do it differently
+people seem to impose that on guys who decide to cheat in sport or decide to make these like well how dare you make that decision it's
+like if you were in an environment in a culture where that becomes the norm where that becomes what people do
+this idea that you're going to be the one person who and don't get me wrong i know there are other people who do that and fair play to them that isn't that's
+impressive you know that you've been brought up in a certain way to enable you to make those decisions but david was he was fragile he was
+impressionable he was a dreamer he was doing something he'd always wanted to do he was passionate and desperate
+desperate desperate to to be a success and i think he just got taken down the wrong path
+you know and you do you feel like you went through that with him as a close family
+um i'm trying to understand the impact i had on you being the sister and i know you you guys are very close yeah i mean the
+impact it had on me was i was he never he never came to he went to my mum and told her that he was dating and
+and they they they sort of she just said well just stop just come home like don't
+worry about actually you know sort of at the very beginning he said there's a lot of drugs and my mom was like well just come home go to art
+school don't worry about it it's just cycling um and yet he stayed and he persisted and then i think when he
+was in 2001 when he eventually made the decision to kind of cross the line as it were he he had he
+spoke to my mom i think in that period and she was just like you you know you have you have to stop you have to come home
+and he was like no i want to do you know i want i want to be successful i want to go on this journey he never had that conversation with me
+all i ever saw was the kind of it was like an erosion of him do you know me it's like i could tell something was going on i wasn't an idih i mean
+it's like he's probably he's probably cheating but he we had all been indoctrinated into it
+as well it was like well that's kind of you turn a blind eye you kind of think well you know he's
+he's doing really well he's you know on the cover of all the magazines he seems happy-ish and it was only when he he'd
+come home in the off-season and he'd come come and stay with me and my mates living in london
+and he would he would drink so heavily that you'd be like okay this isn't normal you're a professional athlete and he would the
+the depressions he'd sink into and the self-loathing that he that would come out and it's like in vino veritas you
+know that kind of this and i'd be like what on earth is going on here and then eventually it kind of you i
+realized what was happening and i kind of felt responsible for never stepping in and saying something and never being
+like you don't need to do this i was just like well you know if you're happy and you're enjoying it and you're doing well
+who am i to judge kind of thing um so i think as a family it kind of bonded and pulled us apart
+like we kind of we all turn a blind eye to it i think we've all got our demons to deal with from that perspective um my dad
+i think was had a very different view of it all my brother and my dad sort of you know have have an ongoing difficult
+relationship my mum and my brother are very close i'm very close to my dad and my mum but you know so as a family we've kind of it it's
+definitely created divisions because everyone had a different view of it and then in terms of the impact on me
+i went into cycling i ran my own cycling agency i was working in the cycling industry i totally rode the coattails of
+my brother's success and i was like [ __ ] okay now it's all gonna come crashing like he got arrested and
+put in prison and you know i was like oh god this is not ideal and i literally remember speaking to him
+afterwards and he'd just come out of you know 48 hours in custody and he was
+like and i remember it being like a week and a half before the tour and he said to me don't worry france um they're still
+gonna let me ride the tour you know you're like oh it still makes me want to cry because it's like david they're not gonna let you ride at all
+that's not gonna happen and i think it you show that little boy inside it was just like ruined by it
+sorry it's still quite emotional but yeah so it just it just impacted everything it impacted all my decisions because at that point i was
+then like [ __ ] now i've got to go into the office the next day and i've got to stand in the velodrome events and
+i'm david i'm not david miller's sister the kind of glory front cover of the magazine i'm that i'm
+the sister of this shamed cheating lying horrible human
+being who no one likes anymore and who has disgraced british cycling and is is a
+you know he he's like a complete social pariah and i'm like oh [ __ ] okay now i've still got to go and do my job and did you feel
+that you felt your judgment and yeah massively people would re and it was in the days of forums you know like
+my forums were a really big deal and i'd be like okay i'm just going to have a little bit of a look on a forum and see
+what people are saying and i'd see people i work with commenting you know people who were at the velodrome who were like
+doing the timing at my events or and they all you know literally like people wishing him dead
+but you know it was just like it wasn't cool and yeah i really felt i felt it for him i didn't i wasn't embarrassed because i
+was like you know it is what it is he's made a set of decisions he's paying the price for it
+um but it was at that point sort of about six months after that i was like okay i probably can't represent him anymore
+because if i have to have another conversation with a journalist an ignorant journalist about
+this kind of binary right or wrong conversation where you're like this is not how life works i'm gonna end up punching someone
+in the face so i should probably stop doing that speaking of punching people in the face
+no um i had it just that felt like a good turn towards one of the things that i
+“Being a difficult woman”
+saw you share online which was this article about being a difficult woman
+and the importance of um dispelling this sort of like niceness
+aura that women typically um are associated with in business that i think the article was suggesting holds
+them back how important has that been especially you know
+when you were dealing in an industry which is pretty much full of men and you got to the very very top as the ceo of
+ineos how important was it to be willing to punch people in the face being a little bit difficult at times
+as is such an interesting question because that whole being a difficult woman i think is the older i've gotten the
+more i've kind of explored feminism and explored kind of the sort of female condition the human
+condition it's like women are judged very differently for for behaviors that in men would be seen
+as completely normal so you know there's a sort of famous kind of meme that's the sort of you know
+men are assertive women are chippy you know men are confident women are arrogant you know it's like
+the same behavior gets viewed very differently to a very different lens i've never filtered myself it's not been
+anyone who's ever met me knows that i don't really come with a filter and i think it's really really important
+that young women recognize that they don't have to apply a filter you don't have to be the quiet one in the room you don't have to
+i remember reading um cheryl sandberg's book about lean in and it was like um you know when young women will come
+into a meet room and they won't sit at the table like they physically won't sit at the table they'll sit back at the sides and i was like [ __ ] off who does that
+and then i'd go to meetings and i'd be like i've noticed that like the 19 20 21 year old younger women in the
+room they'd wait for the guys to sit down they'd be like what the [ __ ] are people why are people doing that
+and it you just until you realize it's happening you don't realize it's happening and so yeah i've always felt quite
+strongly that you just need to be yourself be confident be willing to get get told you're a [ __ ] get told you're and don't
+get wrong when i was younger i was actually a bit of a [ __ ] i probably i probably didn't um measure that
+behavior i was a bit like well it's just who i am and everyone needs to suck that up and actually you still have to be polite and have
+manners and you still have to recognize that being aggressive is actually just sometimes being aggressive it's not being assertive
+and that balance i think i've learned as i've got older but i think it's yeah i think women are judged totally
+differently for behaviors that men would be absolutely it would it would almost be uh sort of
+respected in a man for certain behaviors and in women it's it's reviled there'll be there'll be young women listening to
+this and they'll be thinking you know i'd love to be like that fran and i'd love to be a bit more you know assertive and
+etc etc but i just you know it's just not who i am and so kind of the question that popped into my mind was where did that you know some
+might see it as confidence but it's like a confidence in being your true self right where did that do you know where that came from in you was it
+you know is there experience is it something happening in the household is that your mother was taught you that behavior your father
+yeah i think it's probably half nature half nurture like i think i i you know my mum tells a story about
+when i was little and i said you know i'd just literally go off and speak to people like she she'd be sat at
+you know the bar you know on a holiday and she'd want to know what's going on with a couple over there she'd be like francis go and ask them what they're
+doing you might be like okay and off i'd go and chat to them so i think i've always been very innately confident and that doesn't
+that's never gone away um but equally i think i've been very lucky i've been very
+blessed i've worked with people and in and around people where i've been allowed to be myself i've been allowed
+to kind of grow up and make mistakes and fail and be a bit of an idiot and get told you're being a bit of an idiot and
+not not have that be a judgement upon me and limit me um and i think it's really interesting
+that kind of you know being assertive or being being your true self has become a bigger and bigger thing that people talk about
+and actually being your true self doesn't mean you have to be assertive and confident it means you have to be your true self and for a lot of people that is a bit
+more insecure or a bit more and that's fine but you can bring that to the table you can be an emotional person you can be
+lack a bit of self-esteem and just be honest about that so for me i think it's just partially how i was brought up but more
+the people i have been surrounded by on the journey of my life and career i've been incredibly blessed that they
+have allowed me to make a lot of mistakes and correct and
+course correct me as i've gone on that that point about being assertive and being direct and
+being open and honest you know what um i was actually chatting yesterday about one of the how i've changed over the last 10 years
+from like the kid at 18 to the kid at 28. and the the key thing i said to my team is like the big change that i've seen on
+myself is i'm way more direct yeah and i'm not sure why i'm doing that i'm like i don't know whether it's because i've got so many things to
+do that i'm trying to save time at all times um i'm way more honest with my feedback
+and there's this sort of fine line between being an [ __ ] and being honest and direct and trying to be time efficient and like realizing
+that sometimes your feedback or the way you say things might hurt people's feelings but that's secondary to what
+we're doing here um how have you toed that line i imagine from what you've said it's more
+difficult as a woman to to because people will you know they'll they'll determine the same behavior to be a really negative thing
+but how do you toe the line between being like direct and firm which is so important in my opinion
+when you're dealing with teams and especially if you're dealing with teams of uh you know high testosterone testosterone
+men how do you toe that line and and also i guess the more important question for me is do you agree
+that it's an important trait to have okay so have you read a book called radical camber
+it's up there on my bookshelf somewhere but i've not read it yet okay so yes i do think being honest is important
+i think being a [ __ ] to people is not acceptable and so i think i i think honestly can get veiled
+sorry being a [ __ ] can get failed by i'm being honest right like well i'm just being honest and it's
+feedback and you should take it it's like one of the sort of best lessons i've ever been taught
+and one of the most influential people in my life by a mile is steve peters um he's a forensic psychiatrist yeah and
+he always says like you have to be compassionate like even if you're telling someone they're
+losing their job or you know if you're having to give someone really honest be compassionate be be sensitive to the
+fact that you're going to get a better response from someone if you're just nice to them you know you can say some really really shitty
+things to people and it get a horrible response or you can say shitty things but get a really positive response back
+because you do it in a different way so i think it's really crucial to be honest it's really crucial to be authentic
+but that doesn't mean you get a license to be a [ __ ] and have you is there a place
+for aggression and anger and being annoyed in business in your view
+no not not ever uh well you can you can feel those things but i don't
+think you can inflict those things on other people no i don't think that's acceptable it's um it's remarkable how many of the world's
+most sort of admired leaders when you read their biographies and stuff you find out how much of a [ __ ] they are like steve
+jobs was a good example where i was told you know from a friend that they basically had to put him in his own
+building and warn people that worked in that building that you know the way steve was and elon musk in his biography is
+is very very similar but uh the reason i asked you about radical canada is when i read it it made a lot of sense to
+me about about people like that so that she basically describes this quadrant where effectively you've got
+how much you care about people and how sort of willing and honest you're able to be and so if you're very
+very honest but you don't care about them at all then you you're basically an arrogant [ __ ] and if you really really care
+about them but you're really really honest then you're radically candid but if you really really care about them and you're
+not honest then you're kind of it's almost like a malignant empathy do you know me it's like i'm going to be really nice to you
+but because i'm not going to be honest with you you're not going to develop and so that for the first time and she said in a business
+it's better it's way better as much as it's counterintuitive to be the arrogant [ __ ] because
+actually the feedback is what's important so if people are getting the feedback and they're being told the truth they are like
+some people might be able to handle it but the people who can handle it will develop and get better it's worse to be empathetic and not be
+honest than it is to be an arrogant [ __ ] and i was like oh that's why there's so many arrogant [ __ ] in the world
+because actually it does work like on the and genius you know it forgives a lot right when
+people are geniuses they can behave very differently and they get away with it because they're geniuses and
+there is merit in that and i think if people are very very very honest with you and give you brutal feedback
+as long as you're like able to take it on board you'll get better but if someone's lying to you and saying
+you're doing a great job stephen don't worry about it it's absolutely fine because they don't want to hurt your feelings you're never going to develop
+that's true you you switched from working over to bell staff um quite relatively
+This idea of labels
+recently um and i was reading i think i was listening to one of the the podcasts you've done and you talked about how
+you'd worked in cycling pretty much your whole life it was your pretty much your everything in terms of your professional experience um i've
+also recently quit my job and uh how does it feel uh everything you feel everything right you feel
+you know it's bittersweet you feel excited on one hand you're unsure about the future but i trust myself enough to know that i'll figure it out because i
+always have um but yeah all feelings um i guess my question for you is and the bit that i found particularly
+interesting is people will do a thing for ten years for five years whatever and then they'll tell
+themselves that they are that thing they'll like give themselves the label i work in cycling i'm a cycling person
+yeah it seems to be incredibly difficult especially if they've been in that industry for a long time to then
+take on a different label you're now working in fashion and it comes with a whole new set of challenges completely outside of your
+comfort zone to some extent in some ways how did you make that switch how did it feel tell tell me all about
+it um it's again i'm going to reference steve peters but i remember because i was
+so wedded to my job in cycling like i lived and breathed it i loved it i cared deeply about the people
+it like had this it was so wrapped up in my identity but i hadn't necessarily got a huge amount of
+satisfaction out of the job over the last two or three years for a whole host of reasons nothing to do with the team just personal
+development wise and every time i spoke to steve you'd be like well then why don't you just leave i'd be like because i don't know who i am if i leave
+the cycling team do i mean and that was a much longer conversation than that but what effectively i was saying
+was i don't know who i am if i'm not that and he he said over and over again
+you will be whoever you go on to be that's not going to change you are still there
+you're letting this thing influence all these views about yourself you're letting it influence what you
+your value your worth your you know your sort of substance your contribution to life like
+you're letting it's a job it's like it's a job and i was like you don't get it you don't understand it's more important
+than that and you know what when i got asked to go and do bell stuff and i left and it broke my heart like i
+cried my eyes out and i started a bell staff and i i sat feel awful saying this but within
+48 hours i was like oh my god i love it here and i love the people here and this is brilliant i'm so excited and actually
+it is just the job that was just the job and yes i miss it and yes it was incredible and yes i
+loved the people and i still love the people but it's just the job it's not my family it's not who i am
+it's not my identity it's just a part of my life and i'll be eternally grateful for having done it but now i've
+got a new challenge and i was like i'm really pleased i did it when i did because everyone i think
+had been saying to me for a long time you know once you leave you'll be like oh i should have done this five years ago and i don't feel like that at all i feel
+you know i did that for the right amount of time i loved it i've banked it moving on to something else
+and it's that point there about thinking that that job was your identity that i think really like holds people down yeah um because you're right jobs are
+they're fat friends they're community they are purpose yeah as you say they're your identity um
+and that's dangerous like that's dangerous you know because actually they're not they're not they're not your
+identity and no matter how much you love it no matter how passionate you are about it if you
+it then this would be the lesson i would sort of give to myself the sort of it doesn't matter it's a job you're
+being paid to do it it's a job and and i would have railed against that even a year ago
+like no it isn't it's more important than that and you know as soon as you as soon as i left i was like yesterday
+and my brother always you say to me your team aren't your family your team aren't your family and i never really understood what you meant because i thought well they are my family
+like you know what i mean i love them they are my family and they leave you like oh no what he means is your family are there forever your family are
+wedded and you can't un-pick your family they they're something that's whereas when you leave a job
+you take away the memories you take away the happy times to take away the good stuff but you're the fabric of who you are doesn't change
+and that's what i try and do i just finished writing my book on there's a chapter on this idea of labels and me trying to resist these labels
+to make sure that i continue on my journey of challenge and keep myself you know stimulated and i don't get to
+you know a certain age and feel like i'm having a midlife crisis because i don't know who i am and i can't leave and i don't have any skills
+um and to really sort of realize that the label i have is me it's like steven i'm a guy with a
+bunch of skills and experiences and i can apply these skills and experiences to a bunch of different challenges i'm not social media ceo you know what i
+mean yeah and that i find really liberating so i quit i started djing we're doing this pokemon this theatrical play i'm
+just trying to do all of the things that i think i shouldn't be able to do right but speak to me about the challenge so
+The move away from cycling
+you you decide to take this job at bell staff and it is a big challenge it's it's widely reported that bell's
+staff has been it's had you know struggled across the years it was recent it was acquired and i think 2017.
+it was making losses then and the losses of i think narrowed over the last couple of years to some extent but it's a big challenge right
+a big challenge it would have been much easier to take a different job so first and foremost i didn't take it i
+was i literally had a conversation with my chairman ineos um about you know maybe maybe over the next
+couple of years i want to think about moving on and doing something different and when we when dave b comes back from the tour this was in september so when he
+comes back from the tour at the end of the season i think i'd like to sit down and have a chat with my chairman and my boss dave
+about my future that was the sum total of my conversation and literally a week later i got a call saying jim would like you to be the ceo
+of old stuff and you know with the best one in the world when jim ratcliffe asks you to do something you don't kind of go
+let me have a think about that and i just thought okay well what an opportunity and and i went for it
+but i didn't i wasn't looking to change i wasn't i hadn't like planned to move on so that was in some ways whilst it was
+quite traumatic sort of three or four weeks of because i literally i got phoned like on the 16th of september and i was enrolled
+on the first of october wow so it was like yeah like two weeks of just why did you want to have the conversation though when they've
+got back because i wanted to so i wanted to i'd sort of been thinking like i said about the conversation with steve about kind of
+i'm not sure if i'm happy doing this job anymore and i'm not sure if i'm fulfilled i've kind of reached the point sort of
+middle of last year where i was thinking you know what i do need to start thinking about my future
+in my life and my career and i don't know whether that's always going to be in cycling and i don't know whether the ceo of the cycling team
+is 100 y1 so i wanted to speak to my chairman first to kind of sound him out
+and then when dave gets back from racing i don't want to interfere with the racing have a conversation about my future so i
+just literally put it on the rate the radar of the german i'd probably be a little bit out of frustration for myself as well but like
+i want to feel like i'm moving this on because otherwise i'm going to sit and not do anything with it do you know what i mean i'm going to
+did you feel stagnant yeah in the role is that the main the crux of what you're getting at what was the person if i can relate uh i think
+i felt so i had done what was effectively 20 years in pro
+cycling it would like you say it was all i knew it's all i'd done i know everybody in it pretty much you
+know i've been in and around it my whole life i'm david miller's little sister it's like you know part of my dna we got
+we and i loved being part of team sky like we did that for 10 years and it was i sort of always say cup in the middle
+like blue blue and i absolutely loved it and then when skye said they were out at the end of 2018 i was like right i'm
+done i'm out of here i'm not going to do this anymore so i went straight to baby i was like it's been amazing i've loved it but i'm
+gonna once the team stops being sky i'm gonna go and he was like okay cool
+i don't think he believed me he was like okay cool and then we he said to me look would you help at
+least find a new sponsor let's see if we can find a new sponsor he's a bugger like that so i was like okay i'll try
+and help you find a new sponsor and then i'll move on and then you know february comes 2019
+you know he's he meets jim jim decides that he wants to acquire the team you know
+he jim's arguably one of the most successful businessman in the world we went and met with him and talked
+about you know the design of the kit and everything else and i was like i'm gonna get sucked into it um and then and then one of the other
+senior managers in the team decided to leave and go and work for another team and debbie was like would you stay you can be ceo
+which was what i really wanted to be it's a massive opportunity and i was like okay i'll stay
+and i think that was the point of the decision there that i was like you know this is a big career decision
+to me that i'm staying again i told on my mates i was going to leave i was like you know this is it this time this time i'm going they're like
+okay um and so i stayed at ineos and then we worked on
+the one five nine project so elliott kip togues up to our marathon and dave obviously was the project lead
+on it all he was the ceo my boss um but he very sadly got prostate cancer in that period so he was off doing the
+tour de france then he had to go and have surgery and so i took on like a deputy ceo role kind of delivering the sort of vision
+that he'd come up with and he structured all the performance team but then i was doing the delivery of the event everything from kind of working with the
+london marathon team to supporting the performance guys to doing all the engagement piece and everything else
+and i loved it as i felt like i was working 18 hours a day for like
+what was about five six weeks in the build up to the first of all the test event and then through into the actual
+event and i just loved it totally different totally new challenge new people different approach fresh it
+was i was like i was on literally cloud nine i couldn't have loved it more and i was working so hard like i was
+literally crippled by it but i loved it and i came out the other side of it not so much just because
+we've done it obviously i mean that was incredible but it just really made me realize that i was just going through the motions in
+in the cycling job i was just i was ticking over i was really comfortable i was good at it i loved it i was happy
+i liked the people but i wasn't growing i wasn't developing i wasn't learning new stuff and i wasn't kind of and i'd
+been going at a million miles an hour you know sort of in the team like on all these stuff where i was
+helping other people develop and helping other people achieve their potential and helping other people kind of
+you know rescue their reputations or enhance their and i was a bit like what do i want to
+be doing like why am i i'm not none of this has been about me and even actually cycling is a little bit about david you know what i mean i
+was on kind of this journey to sort of save young british talent from going through what david went through and it's
+like actually what do i want to do maybe i want to do something different
+and that just planted a seed really and i think i probably went this way to the gym and you know if i'm honest i went because i
+thought i want to go and do something different i'm ready i'm ready to move on i'm ready to do something that's not this anymore
+and it was all it was almost like a kind of involuntary i think everything else about me was like just stay because it's
+comfortable and it's easy and you get good money and it's you know nothing's gonna nothing but that's gonna happen
+but my like soul was like you've got to you've got to go and do something else now and it was literally like in the space
+of two weeks it was like boom i'm i'm out of here so it was that see it almost identical to me in the sense of something niggling
+at you and then for me there was like a trigger moment where i was like i was like sent an email
+yeah yeah yeah and then you just send it and then but that idea of being able to throw yourself into uncertainty it's
+like throwing yourself off a cliff when you were like cushy in the house on the side of the cliff and you was like oh my god i'm gonna jump
+and you're throwing yourself off into the unknown in in the hope that so you'll build your glider as you
+fall and then land somewhere better and a lot of people can't do that like most people can't do that
+how do you how did you feel though about because because i found it really traumatic like i kind of i felt like oh first of
+all i felt quite out it was like i'm out of control of this now i literally said goodbye to my team who i'd worked with for 10 years and
+got on a train woke up the next day and went into bell stuff and like hi i'm your new ceo and i and that the trauma of kind of all
+of it it felt i had to move out my house i had to go and do say goodbye to people do have a different email had the same email my
+whole life like all that kind of stuff it just doesn't shouldn't be that important but felt really significant
+how did you feel did you find it traumatic or not so i i'd already i'd quit business when i that i was my baby as
+well when i was i started business 18 quit that one when i was 21 so i'd been through it once before so when i earlier when i said the key thing
+for me was trusting myself i've done this before i know the feelings i know that i don't know what my future holds
+but when i did that when i was 21 it led to this even bigger business that was 200 times bigger and 200 times more
+successful so that was that's been this guiding thing in my life like i dropped out of university after one lecture and it worked out
+so when you have those case studies you think you know what i have no idea what the future holds but i'll back myself to figure it out
+now and um that's because i've done it like three times before so i imagine the next time in the future if
+ever that you decide to jump ship and build stuff or whatever you'll have that case study or that evidence in yourself that you've
+been yeah and that that i think will calm you a little bit the first time i quit i was all kinds of emotions and worrying
+and not sure what i was now and all those things but slightly easier the third time i'm a bit
+of a prolific quitter i think it's a really underrated skill yeah people talk a lot about starting as if it's the be all and then and end all
+of success but quitting is the thing you do right before right you start something new so yeah yeah i've been a heel fan for a long time as
+you obviously know by now but in the last six months i've got a real opportunity to get to know the people to get to know the ceo of huel
+which is james to get to know the founder which is julian the teams that agonize over the ingredients that go into these amazing
+recipes and i can honestly say with my hand on my heart my appreciation and admiration for huel and its people
+has multiplied by a factor of 10 because and this is these singularities not only are they nice people
+but because i've seen firsthand how much they are non-negotiable about the values of fuel they will not
+compromise they will not compromise on the the goodness of the ingredients that goes into the products the amount of
+proteins and minerals and these things regardless if they can't get to where they want to get to with the products
+they will cancel the product i've tasted products and they said we've not managed to make it this we've not delivered on our promise of
+veganism we've not added enough fiber so we're canceling it and that sort of non-negotiable set of values
+has made me realize that they have my back when i choose you i was reading about this winning
+Winning behaviours
+behaviors role you took on which is a very curious title yes it is what was your remit as the
+head of winning behaviors that team ineos so it was it was when it was team sky okay um same time um
+so basically 2010 we first started racing we started the team and he was begun the journey of starting the team
+in 2008 off the back of the beijing games started racing in 2010 we were [ __ ] like
+embarrassingly [ __ ] and we've been like smoking mirrors and like you know we're kind of we had the big bus and we had all the money and we
+were sponsored by sky and it's like oh we're going to be amazing and we were rubbish
+so we totally reset everything and dave beats be fair to him he's like a master of okay we're going this way it's
+not working we're going somewhere else but he's he's incredible assay and so he totally shifted the way that we're going to run
+the team we took a totally different approach we started to be very successful in 2011 we'd obviously set the objective when we
+announced the team that we were going to try and win the tour de france with a clean british rider in five years and that was in start
+2010. bradley won the tour in 2012. so within the space of two years three years effectively we've done it
+the following year chris froome won it and we had gone from being this team that was like
+on a mission like heads down arses up and we were going like there was nothing was going to stop us we were full-on
+and so when people sign up to that you know people are signing contracts in 2010 with a team that doesn't exist that has never raced on the road before
+that comes from a track background that's full of brits who aren't historically that famous for road cycling they were
+they were signing a kind of you know they were they were adventurers right they were like these bold ambitious this is a bit batshit crazy but we'll do it
+when people were signing contracts at the end of 2013 they were signing with a team that had won the tour de france twice that was
+arguably the most dominant team in the sport that had gone on you know sort of achieved this inc these incredible feats and they had a
+different expectation of what they were joining to what we were and we suddenly realized that actually
+if we were serious about continuing and continuing to be successful codifying what
+got us where we were was going to be crucial and we'd also seen for those of you listeners who are
+cycling fans we'd had the bradley wiggins and chris rooms kind of divide so brad had obviously come first in 2012 but freemiu had come second
+bradley didn't even bradley never rode the tour again so bradley didn't ride in 2013 from he did and he went on to win and he
+started to see this divide in a team where it's like well i'm team bradley or i'm team freeman is like no check your paycheck your team sky and
+that that kind of actually who are we what do we stand for what do we expect from people what do we need to be able to do to be
+the best in the world of this needed codifying and it needed it needed a way of a sort of charter almost to tell people this is
+how you're going to have to do this and really it was about eradicating losing behavior it was about saying to people
+bitching backstabbing saying you're team through me or your team brad or you know criticizing people behind their back or
+whatever that's not acceptable but you being head of losing behavior would have been [ __ ] so we called it [Music]
+so it was all about creating a set of behaviors for the organization
+that enabled us to say to people this is what it means to put this jersey on this is what it means to be a part of
+this team it's not just about you know the glory and the winning this is hard graft this is
+you know it it was arguably the hardest thing i've ever done you know working in that environment it's it is unrelenting it is i mean it's
+brilliant and it's amazing and incredibly good fun but it's hard hard work
+and you've got to go all in you know this isn't this isn't for the faint-hearted and so the whole winning behavior thing
+was about creating an environment where we could give people the parameters that we expected them to live by but also ensure that they felt
+supported safe able to deliver their very best in an environment that is actually very
+high pressure so that was my job effectively helping dave create the behaviors in the first instance with the whole team
+and then helping keep them alive within the business what were some of those you mentioned a couple of them there about not being a backstabber and
+understanding the importance of hard work what were some of the other um let's just focus on losing behaviors
+some of the some of the traits or some of the threats to success that you'd see in the team
+i'm thinking this from an organizational standpoint as like yeah that's worked in business so we separated them into five different
+areas we had self team um communication continuous improvement
+and uh what was the other one oh it's gone anyway so quickly how
+quickly you move on right um but the the so they were t itself was all about identifying your own
+managing your own emotions being in control of your own emotions so a losing behavior of that would be losing your [ __ ] you know being
+aggressive and arrogant with people not being able to recognize when you were too emotional to be in a high performance environment we have this
+the whole chimp model you know steve's philosophy around that is there's nothing wrong with being emotional there's nothing wrong with having a
+chimp but you have to know when to get out the room if that's what's going on don't bring your emotion into an environment
+where you're expecting people to perform at their very best so that kind of management itself absolutely critical
+and then team was all about the impact that you have as a team member you know i think people kind
+of think teams this kind of static thing that you create a great team and that's it it's like as you all know having won six
+very successful businesses teams like these organic ever-changing you know you could bring one person in and have a
+massive impact on the team you take one person out it can ruin a team do you know me so they're sort of
+the dynamics of a team and your role within that are crucial so you know not wearing a team kit you know
+wearing a slightly different trainer you know um criticizing the team not buying into the sort of collective
+opinion not sort of dave b has this really big thing about he'll listen he'll seek counsel from everyone he'll listen to everyone's
+opinion he wants to get to collective opinion he wants to get to a collective view of what the right direction is but
+ultimately if we can't get there he'll make the call and then you've all got to be on the bus non-negotiable if you sit in a meeting
+room and you agree with something and you say yeah okay whilst i don't agree with it i buy in you know what i mean i've given you my
+point of view you've said it's not the way we're going to go but i buy in and then you walk out the room and
+you're like i don't know if i can buy that that is that is the one of the worst losing behaviors you can have
+because it's insidious and it it goes around you know a whole organization can be destroyed by a is like a virus
+so things like that fascinating i am you don't do a lot of public speaking right you used to haven't done
+it for a while now actually yeah but like white collar crime i think sometimes but yeah so i i sort of i used to love doing it like i
+really did used to love doing it but i've also i feel like the bit that i talked about which is some of the stuff i've just
+said i feel like that's a bit of my past now and i want to build a new build a new
+path for myself before i figure out telling people about it if that makes sense yeah so i don't want to take talks on social
+media anymore if i can help it to be honest for the same reasons yeah i mean you talked a lot about dave as well so david brailsford um
+Key qualities to success
+and very fondly i think a lot of your tweets from my stalking were were centered around him and things that
+he was doing yeah what are some of the the key qualities of of him that have made him so successful
+and his mindset or you know oh big question i mean him and steve peters
+are the two most influential men in my life without a shadow of a doubt um you know they they are symbiotic
+because they are i think if dave hadn't had steve he maybe wouldn't be who he is and i think his steve hadn't met dave he
+maybe would be a slightly different version of himself so they they complement each other brilliantly dave is
+is a brilliant man manager he's he's incredibly visionary he's very brave you know you said the
+thing about jumping off a cliff and hoping you get your gliders you put dave's like the king of that dave's like we're gonna go we're gonna
+go and achieve that and everyone's like [ __ ] off and he's like come on let's go and he and people are like okay because
+he's so he's so bold with it he's so confident with it that he and he's an incredible leader that people would
+literally i mean i would have followed that man off the edge of a cliff and i think that he has that quality in him you know he's unrelenting
+you know anyone who's working he's difficult you know like all geniuses are he's a he's a tricky guy
+he's why um how maybe is a better question in all kinds of ways you know he's very
+i think i've spoken about it on other interviews i've done he can be very um he can be very particular he's very
+detail-oriented he's he wants to know all the facts before he makes a decision he'll he'll go out he'll like go after
+something for age ages and you're like oh my god makes a decision i'll get on with it and then he'll make a decision that's
+totally off to the other side and you're like oh so doesn't make sense yeah or it's or
+it's brilliantly genius because you think oh all that work that you were doing and the decision i would have made and just got on with it and made the decision
+would have taken us that way and that would have been the wrong way and it's and it's that kind of you all the way through my career with him
+he would do that and i'd be like it's just he's just clever like that you know he's he's
+ferocious appetite for learning he unrelenting work ethic you know expects incredible sets
+incredibly high standards and expects people to meet them and all people can right no absolutely
+and he'd and you know we openly say that it's not all people can there's nothing wrong with not being able to meet them
+you've got to be compassionately ruthless you know that's what he always says which is basically if you're not if you're not you set a standard and if
+people can't meet them then they're not in the right organization and it's best there it's a bit like the arrogant [ __ ] it's
+better to be honest with them and say you know what this isn't for you than to kind of allow them to keep
+failing i think that can be very cruel to people you know if they're in an environment they're constantly trying to be better but they just can't do it that's yeah you talked a lot
+about when we were talking about winning behaviors about this important about high work ethic and you've expressed that dave has a
+relentless work ethic as well um you you've probably observed how this narrative around hard work has become
+somewhat toxic over the last couple of years and now i i you know almost feel bad sometimes when i'm
+what i'm saying that i don't know how i would have been successful in what i've done if i hadn't have worked hard in fact i
+don't really know anybody that's really successful in their discipline or their sport or whatever that doesn't work
+hard so i know we're not trying to give anyone depression and anxiety by saying that
+you know they have to be a hustle porn star they won't be happy but i still can't get to the point where i
+will tell anybody that hard work doesn't matter yeah it really really matters to me and it's
+i can't imagine and you know what i was in the gym last night and i was thinking sometimes words
+really mess people up right so this i like when people say work they think of me on like a in a factory like
+or in like like i don't know in a mine hammering some rock all day but i was thinking because i enjoy my work so much imagine if i just changed
+the words of my hard pleasure yeah you know what i mean yeah yeah can you have too much of hard pleasure
+um it's interesting as you were asking me the question i think that my respect because i actually i similarly read something that you'd
+written about you you feel a bit of you feel a bit bad that you sort of
+hear heroes the kind of i'm working yeah they're kind of 18 hours a day and i'm going out
+about it yeah bragged about it yeah and and i sort of think i get it i get why people feel like that
+and i think there's a difference between being exceptionally busy and working all the hours god gives and
+thrashing yourself and all those sorts of things and working really hard with purpose
+they're very different you know what i mean and when you're working really hard with purpose and you're passionate about what you're
+doing and you love the people you're working with and you're enjoying the the sort of striving for the achievement
+there's no shame in that that that's for me that's absolutely part of motivated ambitious people that's what
+you want them to feel and people used to know what's something in the work life balance there isn't a
+work-life balance my work is my life and i make no i make no sort of excuse for that
+i love it i'm passionate about it i enjoy it i have it's hard pleasure you know it's
+brilliant and i like the challenge of it and like you know i chose not to have kids i don't have a partner it's it's
+the passion point of my life is my work and that's right but that doesn't mean i need to be you know not going out and seeing my
+mates it doesn't mean i need to be up until midnight tapping out emails you know i mean i can still i take days off
+i you know i live a normal life but i work really really hard i've i've also struggled in the
+Relationships & Work
+relationship department yeah and surprisingly never you know been that good at relationships i've never been able to
+hold a relationship down um i can't really see how it happens necessarily i hear you talk to me about that part of
+i was gonna call it sacrifice but when it's somewhat intentional yeah when you're aware of it it's hard to call it sacrifice just doesn't
+motivate me i know that sounds awful i'm not motivated to have somebody in my life i'm not motivated to be like
+i want a partner i want that companionship you know we when i arrived we were chatting about how this
+environment that we're all living in actually i i love being on my own i i'm very happy in my own company i'm very passionate
+about what i do and i think that fulfills the space that maybe other people
+have other that have other passions for right and so yeah it's never been a it's never been a goal of mine i've never dreamt of the
+white wedding i've never wanted to and there's never a bit of me that sits at home and thinks i wish i had someone to sit and watch television ever
+that doesn't doesn't even cross my mind and my mates are always like do you not get lonely or do you not worry and i'm like
+no i feel like i should because it would make you all feel better but and you know about five or six years
+ago because everyone was on at me all the time i'd like did a bit of dating did some internet you know use some apps everything else i
+was like this why am i doing this i'm doing this because society wants me to do this i'm doing this because my mates want me to do this this is [ __ ] uh
+if it's right if it's right it'll come if it's not it won't did you did you date at all throughout the last
+i guess decade did you here and there but it's like kill me you know kill me now you know
+that kind of small talk oh god it's like my idea of hell on earth going and meeting a stranger
+having small talk slightly awkward with kind of one end game do you know what i mean and it's like
+and i'll know within two minutes of that end game's happening and then i'm like i don't really need this bulldog for an hour and a half yeah we don't
+need to dress this up so yeah no i just yeah it just never yeah i did a little
+bit but it's not it's i'm not looking for that and i think if i'm looking if i if i wanted if i wanted to get married if i wanted to get into a
+relationship i could and i'm not i'm not adverse to it but i'm just not out seeking it and i i think you get what you look for
+right yeah so other sacrifice um i don't think it's a sacrifice by the way yeah generally i need it no i i
+do you know what the reason why when i was younger i wouldn't have thought it was a sacrifice and then i started reading all this stuff about
+the importance of like you know 18 19 and 20 even 24 year old steve would have thought you know i don't need to [ __ ]
+anybody and i can just i'll be fine i'm a lone wolf yeah and then i fully went for the whole recluse
+thing like wholeheartedly and i was broke so i had no choice anyway
+so i was broke and i was just not this renegade that was determined to build build businesses and then i started reading some stuff
+and it talked about the importance of like meaningful connections and relationships and i realized that i didn't really have those and if i was going to become wildly
+successful then it would just be me and my louis vuitton bag set up inside of my house and i and then and then i
+started to change my perspective and thought steve you know what you need to create a little bit more openness or balance towards that stuff
+so i tried a little bit more but that doesn't i see i see i have incredibly meaningful
+relationships and incredible connections i have my friend i have like five or six friends who are
+my world i mean i'm incredibly close to them they are they're kids they're you know my god children i feel very very connected i
+don't feel isolated in any way i don't feel like i'm missing out or sort of not having to and i actively
+participate in the lives of my friends kids and in my friends lives and i think that that's my connection that's my tribe you
+know i mean they and you know i would go to war for them and it's it i just don't think that that added bit
+of a companion for me right now you know i'm not saying not forever but i'm not sure that bit for me is
+something that i need and i think that it's that there's a difference there because i do agree with you i think you should absolutely have to have
+connection the human condition is to feel connected to feel part of something to to feel you know sort of the that you'll
+have a purpose within your community and i think having your own community and having your own tribe is crucial
+i don't think that needs to be through companionship with one other human being there's a pressure that you talked about
+the societal pressure you know and i've got to be honest right i'm going to be completely honest because i would be really dishonest if i didn't
+say this i have been guilty of when i have a friend who is struggling
+in that department feeling like i need to help them because again that's my own world if you
+pressed upon them i'm thinking well in order but in order for me to be happy i would need that so i need to make sure you have that thing right
+that pressure especially for women is intense post 30 and it causes a ton of anxiety i see
+it in my direct messages from strangers um not easy well it's interesting though so
+when i'm 42 now and the pressure drops away because i think you get to the point where people think it's rude to ask if you're going
+to have kids because they're like can you still have kids okay right fine you get to that age right but but certainly all through my
+30s when you're going to settle down do you not want to have children and i and i feel very very lucky
+that i feel the way i do i've never really had a biological clock that's ticked ever and i've never felt the need for
+companionship of one other person like i said my tribe is very important to me but
+and i think that's potentially biological so i think i'm lucky i don't because i do i have friends who
+you know they would they're desperate to meet someone they're desperate to have children they're desperate to move on to that bit of their life and
+i've just never felt like that so it and i feel very lucky because of that because i think if i'd have felt like that my whole life would be very
+different does nurture play a role in that because i know it did for me yeah my my parents were toxic for each other
+like watching my mom scream at my dad for seven hours a day every my mom's like this african nigerian woman and that the this
+decibel she's able to achieve is like gold medal worthy she is unbelievable at shouting right and she can do this
+amazingly high energetic scream for seven hours a day without flinching and i watched that as a kid growing up
+my dad sat there this passive english man who didn't say a word ever and this african woman just
+just torturing him with this loud sound and me thinking like the lesson i
+learned was relationships are prison and for this is the lesson i like for a man
+you are trapped and it's torture so any time when i was young like 16 a girl would like me and i'd
+chase her and i'd try and get her on the playground whatever minute she said she liked me deep feeling inside of me of like escape
+quick so i would like come up with all these reasons why girls that i just spent the last year pursuing
+why we were not right and we couldn't be together and she needed to leave me alone and i i didn't notice that until i was
+like 25 and then i started to work on that part okay but nurture does that play a role do you think in your
+views on relationships or men or whatever or women or whatever i think it probably plays a role in my view of
+having kids because my mum was adopted so my mum literally didn't know who her mom and dad was she
+was kind of picked out of an orphanage by my grandparents um and never hadn't until she had david
+and i had never met anyone who looked like her you know like we all you know connect to our families because we've got families
+similar features whatever she'd never had that and so my mum loves my brother and i with a kind of
+wonderfully oppressive kind of dominate and it's you know she she just loves us
+with everything that she's got because we're we're for a whole host of reasons but also i think because we're the only physical
+you know sort of biological connection she's ever had and that love always used to scare me a little bit
+you know not from her but i used to think like i've got dogs and i worry about my dogs and i've got
+like nine god children i've got two nephews and a niece and the minute they get on a plane or they go i'm panicking like what if the plane
+crashes what if they die what if it's like i can't handle it and i'm like jesus if i'd have had my own kids
+that would i wouldn't have been able to handle the that amount of love i know that sounds ridiculous but i
+think that always played quite a big part for me that i was like the responsibility of it the constantly
+having to worry about it the constant all of my female friends who have kids
+they live in a state of almost permanent anxiety because they worry about their kids all the time in a in a love way you know it's like
+that wrong love you have for a puppy um but and i don't think i ever i've
+never felt that i wanted that in my life i never thought that i needed it and i never felt that i wanted it i always felt quite like
+no i'm good i've got the right amount of love going on in my life i don't want that additional
+responsibility and burden in many ways of having something that is always ever present and and would
+cause me i think quite a lot of anxiety is that in part because you have so much
+responsibility and naturally honestly worry that comes from your other love in life which is
+your career yeah for sure yeah because that's the way i feel it's like a kid as well i really have yeah yeah and it's why i don't think i need a
+companion because i already have i get so fulfilled from my job i get so
+i get so much from that and so much from kind of working in and around people and having that kind of
+i've got the community of my friends and the community of my work and i think those those two things i find very fulfilling
+so the idea of having a companion or children or anything else in the mix of that didn't really ever appeal to me in
+interest i mean i was i was engaged to be married when my brother got uh served his band say 2004. and i've
+been with the guy for like i don't know seven years and i remember like moving into our how we bought a house
+together in shepherd's bush and we moved into the house and i remember like vividly putting the key in the door
+turning the lock and thinking i don't want this like i don't want this i loved him to bits he was an amazing guy but i was
+like i don't want this kind of i don't want to be in a normal life with a normal husband and a
+house and kids and i just didn't want it i wanted something different i've got a tattoo that says a lifeless ordinary i just wanted to just do it
+differently and i don't know where that came from but i've had it my whole life that kind of i just don't
+i just didn't feel the need to conform to society's kind of pillars overcame you go to university
+and then you're going to get a job and then you're going to meet a guy and then you're going to get married then you're going to have kids i was always like not interested
+any idea why no and i'm fascinated by it because i feel very blessed because of it because it's like i say i think it's it
+given me a freedom that a lot of people don't have had you wanted it had you wanted that
+you know you know the typical life that society says people have to live and followed all the timelines and
+milestones do you think you would have been able to achieve as much as you have i was in my head my ego was going i
+would have been amazing at it i'd have been like a boss um no because
+i don't think you can i don't i you know i'm i'm a feminist i'm a you know i'm absolutely passionate about equality i'm
+passionate about women's ability you know women can do anything that men can do and should have the opportunity to do that but i equally don't think it's possible
+to have it all i really don't i don't think you can have and i know there are women who do and perhaps off to them i think it's
+incredible you read about these women in the city who've got like five kids and they're ceos and it's like
+fair play to you but i couldn't do that because i would feel constantly compromising and i don't like compromise
+and you're obsessive a little bit in terms of your focus i don't like compromising i yeah i
+probably am obsessive makes it sound a bit like it's it's i'm not in control of it i'm in control i'm aware of what i'm doing
+but it's a bit like i so i'm we were talking about having a peloton and you know i kind of feel if i'm going to go all in
+on my fitness and my health and get lean and everything from my 40th i got like down to 65 kilos i was like a boss
+and i was like all over it but then i was a bit like crap i've got to do my job as well and i sort of feel like i'm i'm not great at doing
+having two or three focuses i can i can go at one thing and be brilliant at it but if i start
+adding in layers of complexity like i can stay on top of my health i can stay on top of my fitness
+but i can't if once i start going down there right i'm gonna get super lean i find it hard to manage my work do you
+know what i mean so i don't know there's obsession or whether it's just my opinion i'm myopic sure yeah if people were to you know people they
+How to be successful like you
+read about you online and they say you've been the ceo of this amazing sports team you ran your own agency before that
+you're now the ceo of bell's staff a lot of people especially young women are going to think that's exactly what i
+want to do they're going to think that's amazing there's always a disclaimer that comes with all of these things what is the
+disclaimer in terms of the cost of the success you've achieved what are the things that you know if i'm
+you you would turn to me as a as a young aspiring ambitious person and say by the way before you follow in my
+footsteps here's what you need to know you know i wouldn't have fun because i think yeah i really wouldn't
+i i feel exceptionally blessed i feel really i love what i do i've loved the journey
+i've been on like all the mistakes i've made and like i said at the beginning you know i've been very very lucky to be allowed
+to make all kinds of mistakes and then not follow me around it's like i've been kind of
+carried and supported and encouraged to to fail and to try and to do stuff that other
+people just wouldn't have got the chance to do so i'd be like no go for it like don't don't
+worry about it like don't worry about [ __ ] up don't worry about making mistakes let's get on with it what would you tell me though that i had
+to have in terms of my qualities would you say okay well if you're going to follow my footsteps then you're going to need a little bit of this and a little
+bit of that it's so hard isn't it stephen because you can't follow in someone's footsteps
+that's true it's impossible and that's the thing i think that people you know i would say you can't you can
+have your own footsteps and you can go into your own thing and jesus if someone says to me at 25 this is the career path you're going to
+follow i've been like there's just no way there's no way i could tell someone how they're going to do that because it's bonkers i explain to people some you
+know people like oh you know tell me a bit about your background and i i hear myself saying it i'm like that's
+bonkers so i don't you can follow in someone else's footsteps but i do think it's like a bit like the beginning i was like you
+know just be yourself you know be nice to people be approachable
+take the opportunities when they're given to you recognize that sometimes things are scary and you're going to have to do it scared
+and actually change is sometimes the best thing that can happen to you and you know all those things that you read
+in cliche memes on instagram they're pretty much true you know what i mean it is it's and you've just got to
+take that approach in life because you're not going to get another one but it's not easy fran it's the stress
+of your job it must be pretty intense you're running now um a big company that's you know in the
+process of like sort of turning themselves around and kind of reinventing themselves to some degree and i know the stuff that you have to
+deal with because i've dealt with it yeah but i'm not curing cancer but it's i feel like a lot of it's relative
+right still big problems are big problems for relative to the challenge you're facing so like that's i guess tell me about
+that perspective though because a lot of people would be like oh my god that's a tough you know you're in a tough job and there's problems everything i'm so
+lucky steven that's the thing i think you're like i'm so someone you know an incredibly successful
+man bought a business three years ago and has said to me it's not working very well i i really like what i've seen you do in
+the two years i've been exposed to you could you go and run it for me it's like yes yeah i'll go and do that
+what a great opportunity and i'm and i'm just it's i just feel very lucky and yeah they're big challenges and you
+know brexit at the moment's bonkers and all our shops are shut because i've covered and i'm having to meet and work with new people but
+you know i wouldn't change it for the world i think it's i think i'm i think if you can and this is where steve peters has been so powerful
+because he's like it it's a bit about it not defining you you just just try your best dude and that was you
+know what uh jim ratcliff actually text me i text and say thank you very much for the opportunity we're not friends we don't like hang out
+thank you so much for the opportunity this is incredible because i hadn't spoken to him about it at all it was all via sort of you know determined in the business and he just
+he just replied and said fran the only thing i can ask you to do is your best and you know when you're like
+the freedom of that the the op and that's what dave b has always been like he's like you can just do your best friend you can't there's nothing more
+you can do in life and i think if you release yourself of expectations and what's the standard you've got this
+don't get me wrong i did not feel like this for the last 10 15 years this has been in the last probably two years
+that i started to realize you know what what is the worst that's gonna happen like what's the worst case scenario here
+bellstar folds let's say or when i was in the cycling team we didn't win the biggest bite race
+or you know whatever as long as no one's dying as long as nothing's you know that as long as people are okay
+the people are okay i'm kind of i'm kind of all right with it you know it's
+just there's life and one of the things i mean i completely i completely understand i tend to believe that anything caring
+about anything beyond your best is like anxiety and worry and useless yeah it's like that mark twain quote isn't it it's like there's a men they'll
+spend their whole lives worrying about stuff that's never actually going to happen and isn't it that's what worry is because you're worrying about something it hasn't even happened yet or that sort
+of um there's a brilliant renee brown podcast where she talks about foreboding joy
+and it's this idea that you something really exciting is happening but all you're thinking about is [ __ ]
+what if it goes wrong so rather than enjoying the joy of it the kind of you know she
+uses the example that she's on the plane to go to her first oprah appearance and she's like i spent the entire plane journey
+there worrying the plane was going to crash then i spent the whole car journey there wearing that i was going to make a mistake on the show or say something
+stupid then i spent the whole time in the green room worrying i was wearing the wrong outfit and at no point did i stop and think i'm
+going on oprah this is amazing and it's that isn't it it's like i think you can burden yourself with all this
+responsibility and all these kind of negatives and actually it's like we just
+want an opportunity why don't you try and flip it try and see the world in a bit more of a positive light and i feel like that
+that's something i'm really working on for myself because i just think like i say we only get one of them you get this one opportunity i've been very
+lucky there's nothing in my life touchwood that has caused real trauma or you know that i feel that
+i would go back and change and i think when you're halfway through that's not a bad place to be
+Belstaff
+you took the job uh in the middle of the midst of covered yeah it was october the 1st first started october
+the 1st that's brave in retail i know i'm crazy that's well
+yeah yeah brave no but being positive being optimistic about it you're coming into this business and it's um i mean it's been smashed in all
+directions by all things um what's your what's your what's your what's your approach what's your strategy what are you thinking
+i mean at the moment well the first three months in the business i just wanted to get to know everyone there so i did one to one to everyone
+i think it's really easy to kind of go into business with preconceptions of what's gone wrong and what what you'd fix and i tried i spoke to all the kind
+of mentors i've worked with over the years and said like what would you and they all gave me the same advice which was
+speak to people listen don't make any rash decisions you know wait get up get a proper plan but give
+it you know the kind of 100 days piece and initially i was like i don't need to do that and actually you
+just really do you know so i've just spent just trying to understand how it went and the other thing is understand the industry you know like i
+literally knew nothing about the other than i buy clothes i didn't know anything about fashion so so yeah so and now my plan is i you
+know as is always my ambition i want to do the best possible job of it i believe in bell staff as a brand um i
+think it's an incredible brand with an incredible history i think the product is amazing i think the design team have been doing a
+brilliant job over the last three years getting the product to a place that's really true to who we are as a company
+um and i and i would really love to take it to profitability and beyond you know i really i really believe that it's
+possible to do that and i think you know we're lucky to have the backing of jim and ineos to support us through what is going to
+be quite a significant period of transition and change but then i think we build the foundations for growth and go from there and retail's changed a lot
+yeah totally you know thinking about the high street and how you know in e-commerce and the
+internet now like there's anyways we saw debenhams being bought by boohoo and it's also just
+bought topman and some of the other arcadia brands it's a moment of transition that's been
+accelerated by this pandemic what's your thinking about the changes with in retail i mean god
+i'm so early to it you know but i mean i think like anything it's just i think it's
+accelerated what was happening anyway right like the high streets were were dying people were moving online
+i think the rapidity of that change has just been you know it accelerated massively so
+people's behavior around how they're shopping was was on the cusp of quite significant change i think
+that change has flipped massively so you know people are much much happier shopping online even like an older
+generation who historically wouldn't have been i do fundamentally believe when we all start opening up again people are really
+going to want to go shopping you know and i think people are going to this idea that people aren't going to go to the shops i'm not sure i buy it because i think it's
+like yeah you want to get out let's go and do stuff even you might want to stephen
+there's always hope isn't that you know i see shopping is not actually for the purpose of shopping i see it as an
+experience and i see the internet as a place where if i almost the utility and shopping is like a
+thing to do right yeah so i do i do wonder if retail will will seize hold of that part and have the
+experience experience yeah exactly i think that it's going to have to because i don't think it's ever going to be there to be making money
+so i think it's going to be about adding on the experience of the brand for people particularly for our brand you know we we can create an experience and a story
+and a narrative that other brands maybe can't you have a 96 years old so yeah we've got all of that heritage
+that i think we can speak to so i think i definitely think that experiential piece will be quite a big play over the next few years this
+Are you scared of dying?
+is a morbid question but i like to ask it sometimes i think sometimes are you scared of dying
+no no are you no i was when i was religious up
+until about 18 years old and then once i realized that i was going to the same place that i came from which was nothingness and peace
+it was quite a liberating feeling and i thought death was actually i would dare i say not a good thing but
+um not something to be scared of interestingly i had to uh when would it have been so
+three three years ago i crashed my bike and landed on my head and i got like i mean for some reason
+whenever i crashed my back i landed either my face or my head and i landed on my head towards your brains it's just
+i wish and um our team doctor at the time was like because i'd got a bit of concussion he was like i think you
+should go and get a brain scan he's very over cautious so i went and got an mri and mike they've made my mum come up because
+i don't have her husband so after that that's the one downside actually to being single is that whenever you have
+to have like somebody come and look after you it's like mum i'm 42 years old but please could you come and stay at my house um so my mum
+had to come up because of the concussion i wasn't allowed to go home on my own and i got this phone call from a brain
+surgeon who had been given my mr they looked at my mri and they'd found all these patches in my
+brain and he was like there's these we've found is are you he rang me and he's like are you with someone and i was like
+yeah and he's like oh we've got yeah and he's like we've got a [ __ ] just tell me bedside manner he's
+improving um and he said um we've got your brain scans we've gone through them and they're
+we're seeing changes in your brain and you know when you're like but i've never had an mri so how can you
+how can you have how are there changes anyway long story short i've got all of these unusual patterns
+in my brain like patches that could be they were like they could be potentially the starts of tumors they could be
+just your i know right they could until you went through excuse me rude i had to go and like so i went with
+my best mate actually and go meet the brain surgeon he talked us through it and i mean she it was one of those hilarious and
+horrible situations all at the same time because he was sort of going through because she she works the nhs and she's
+like what could what else could it be if it's not team as well could it be and he's like well you know have you ever been like a very heavy
+drug user and we're both like no and she was like yeah she was like this week lizzy we don't need to go into
+this he means heroin she's like oh yeah no no we've never done heroin um and so and she was asking all these questions
+and so basically i had about a year period where they weren't sure what it was they still aren't i still have them
+and it's symptom-based so they're like we could do biopsies and see what it is and i'm like nah you're all right um or or if i ever
+develop symptoms which would be you know sort of electric pulsing or anything like that and i think that period is
+quite good for me because it and it's probably where a lot of the positivity in there actually doing what you only get one chance thing came from
+because i i was a bit like [ __ ] if i have tumors kept growing in my brain
+that's quite intense and what does that mean for my life like what would i change like what would i do
+differently and i genuinely i remember being sat in my living room having everyone had gone home by this
+point and i sort of had had my first proper other ski it's like a two-hour mri which is quite intense
+and i was like you know i wouldn't change anything i would carry on living my life the way i live it now i wouldn't change anything i would i
+would probably go deeper and harder in some of the things that i really enjoy because i like my job and seeing my mates i
+would keep spending the money the way i spend it i literally wouldn't change anything and i was like and it felt it literally felt quite freeing it was like
+great this is this is good because i think a lot of people would get that kind of diagnosis and be like right [ __ ] what do
+i need to do differently and i didn't have anything that i thought no i wanted i don't want to change but interestingly my
+my job has now changed and i think deep down the reason i had the chairman conversation the reason i was willing to
+say yes to this opportunity at bellstaff is had i maybe not had that incident and had all of that
+associated thinking and sort of bit of deep deep sort of soul-searching i maybe wouldn't i maybe
+would have said no it's right i'll stay at cycling but i just thought you know what [ __ ] it let's go and give it a try
+what an absolute blessing that is to know to know that you wouldn't change anything i think i am i have this sand timer
+is it behind me somewhere is it there it's usually sat behind me but the reason i have a sand timer in my
+house is because it's that sort of visual it's the only way you can really see time at some point i realized that um i was
+getting older and that you don't notice and that you can fall into the trap of thinking and as i think most people do that will just
+like live forever yeah and it's not until you realize that life is finite you have those those moments that you realize that you
+know like at some point i'm gonna die and seeing my time pouring away is that reminder of like is this
+important and am i making the right decisions am i living true to myself um and i wrote a little article about
+that called deathbed thinking which pretty much says the same thing which is that giving you that perspective of from your deathbed potentially you know
+what what really matters remarkable um i mean i'm so i'm so
+inspired by your story and every time i sit down with someone um who's become a success in their
+career or their you know step issue i i it feels like there's similar themes but so so different in so many ways
+What does the future hold for you
+what what does the future hold for you do you think do you know any ideas you're going to end up world
+domination right no exactly no i would believe you if you said that that's the funny thing i took that
+seriously i don't know what the future holds and i don't really mind like i don't mind i sort of as long as
+as long as my family and friends are healthy and happy and as long as you know actually that's all that
+matters as long as my friends and family are happy and healthy and then i'm pretty cool with whatever the world throws at
+me i'm i'm sure it will be a laugh it'll be fun everyone else seems to need a plan no that's that's five year plan three
+year plan don't get me wrong i used to have five year plans but they're all hilarious when i go back and look at my five year plans i'm like oh i love how
+ambitious i was like where's that yacht
+i think when i was a kid i was very i remember actually when i set my agency up my best mate and i set it up together and we got a coach
+and we were about 22 23 and the coach was like right go off into separate rooms and write out where
+you want to be in 10 years time and then come back in and read them to each other and we were best mates like we lived together for like three or four
+years set a business up together he was dating my best friend we came back in and he and we had them base right like written
+on a piece of paper like holding from each other and he was like right i want to be running a successful business earning a
+good salary i want to be living in a nice house with a wife and three children um and i want to be healthy and happy
+and i was like oh [ __ ] you've done it you're listening i want a yacht and a chair i want to have loads of
+money yeah i was literally i had this like really materialistic list about wanting to be like successful
+in a global sensation and have all this money and all this cold 23 22 23
+did you have stuff growing up material stuff yeah we were quite not i mean when mike was my dad my dad was in the
+raf so to begin with you know middle class but then when he left to go to hong kong he went into civil aviation
+in kind of the glory of the expats so definitely very very lucky and i got you know business class travel everywhere yeah so
+it was pretty next level yeah it's incredible that you've wanted it for you it's so bad but now i wouldn't i
+wouldn't want that list now but it was just it was that really interesting like oh okay we want totally different things
+and i i didn't have partner i didn't have kids i didn't have a nice house anywhere i was like i wanted the i wanted the universe you
+know i mean i want to go over there and do something massive well you've smashed it fran and i'm sure you've you've been paid well along the
+way for that um money the money becomes irrelevant though right the money is not the money is just a great tool for
+helping my friends and family for doing cool stuff with people so having experiences
+i spend all the money i earn doing stuff with the people i love
+give me an example uh took my sister-in-law to dubai for her 40th birthday with my best mate we stayed on
+the palm with an amazing time i've sort of took my brothers back to hong
+kong for his 40th i take my friends on holidays i yeah i just
+go and do stuff with the people i love experiences i spend my money on experiences going and doing stuff seeing stuff but always with the people i love
+and none of my mates can afford to go to the hotels i go to so i was like well i'll just pay because i don't want to stay in a rugby
+showtime so i can relate well listen thank you so
+much for all of your time today it's been truly fascinating and even you know researching your background and your mindset has been um really really inspiring and
+energizing for me and i can relate to so many elements and the other other elements i'm just amazed and impressed by so thank you for
+your time i know you're incredibly busy person so it feels like an additional honor for you to have said yes to come and chat to me today
+um and where can people find you i guess just you know these days it's pretty easy you just google someone's name but yeah i don't do i i have a private
+instagram and i do i'm on twitter but i don't really use it very often so and i'm rubbish with linkedin well if they want to speak
+to enough i'm sure they'll find me they'll find me yeah and thank you so much for inviting me it's been fascinating i've really enjoyed talking
+to you thank you thanks people ask me for book recommendations
+all the time and i finally got one for you it's a book called happy sexy millionaire
+which is authored by me i spent the last almost two years in jungles around the
+world in costa rica and indonesia in solitude writing this book it's the most important thing i've ever
+created and there's this crazy thing when you write a book because you spend so much time pouring your
+heart and soul into it and everything you know and all of the revelations you've had in your life and then there's this barrier which is
+that people have to buy the thing in order for them to get that thing that means so much to you i wish that wasn't the case
+it's just the way the industry is and in order to get that distribution and to get it on shelves you need a publisher so
+please please please if you can if you've ever liked anything i've ever produced this podcast my instagrams
+anything i've ever said read this book there was no ghostwriter i wrote every single word myself there's
+some real surprises in there it's an honest sometimes hilarious incredibly vulnerable hopefully valuable recount of my life my
+journey everything i've learned across across the way and really the answer to being fulfilled to being happy and to
+achieving success it is the most important important thing i've ever created so i implore you to go
+to amazon now or wherever you get your books and get that pre-order and everybody that pre-orders the book because pre-orders
+in this crazy publishing industry count as way more than just a normal sale if you get that pre-order i'm going to
+put you into a group with everybody that's pre-ordered it and i'm going to send you some exclusive stuff so the first things i'm going to
+do is a series of voice notes which i think are um are going to be pretty powerful i'm going to give you access to some tickets
+which nobody else will have and i'm going to do everything i can to thank you for for giving me that sort of nine quid of your money whatever it is
+happy sexy millionaire you can pre-order it everywhere now and if you do get that pre-order please do dm me because i'd
+love to thank you myself
+
+you
 
 ----------
 
@@ -1050,11 +5000,800 @@ paste here
 --12--
 
 -----
-Date:
-Link:
+Date: 2021.01.25
+Link: [# The Secret To Loving Your Work with Bruce Daisley | E66](https://www.youtube.com/watch?v=3lkcGdU7BlY)
+
+Note:
+### Summary of the Content:
+
+The interview with Bruce Daisley, former VP of Twitter and author of "The Joy of Work," explores a range of topics from the impact of remote working culture, the secrets to happiness and longevity in work, to the complexities surrounding the moderation of content on social media platforms. Daisley shares insights on what makes work enjoyable, the phenomena of burnout, creativity in the workplace, and his perspective on the future of social media regulation.
+
+### Advantages of Enjoyable Work:
+
+- Increased productivity and motivation.
+- Better resilience and mental health.
+- Enhanced sense of community and belonging.
+
+### Drawbacks of Current Work Cultures:
+
+- Remote work can lead to feelings of isolation and disconnection.
+- Traditional work environments may stifle creativity.
+- Overwork and lack of control contribute to burnout.
+
+### Tips and Advice:
+
+- Incorporate breaks and activities that disengage the brain to boost creativity.
+- Foster a work environment that emphasizes control, community, and meaningful progress.
+- Regulate work hours to prevent burnout.
+
+### Main Challenges:
+
+- Adapting to remote work while maintaining a sense of community.
+- Ensuring creativity and productivity in less traditional work settings.
+- Dealing with the psychological impacts of prolonged isolation and work stress.
+
+### Importance and Usefulness of the Topic:
+
+- Understanding work dynamics is crucial for improving job satisfaction and overall well-being.
+- Insights into creating a fulfilling work environment can lead to more successful and resilient organizations.
+
+### Accomplishments:
+
+- Daisley's book, "The Joy of Work," became the bestselling business hardback in 2019, reflecting the significant interest in improving work culture.
+- His efforts in spreading awareness about work happiness and resilience have influenced many organizations and individuals.
+
+### Interesting Quotes or Insightful Sentences:
+
+- "The secret of longevity and happiness is love and friendship, and I think work is far closer to that than we might imagine."
+- "A great day at work was when I laughed 12 times."
+- On regulating social media: "I suspect these firms will be broken up, and the question then becomes, do you serve your employees better by just going with that and saying let's do it joyfully?"
+
+This conversation underscores the evolving nature of work and its impact on our lives, highlighting the need for a balanced approach that nurtures creativity, connection, and well-being.
+
 Transcription:
 
-paste here
+Intro
+you were the vp of twitter obviously donald trump has just been booted off twitter permanently what do
+you think about that there's a 70 year long study out of yale university looking at what
+the the secret of longevity and happiness is and the secret of longevity and happiness is
+work the thing we spend the majority of our lives doing today's guest is an expert on exactly
+that how can you be an expert on work bruce daisley spent the last
+five to ten years studying what makes work joyous what makes it miserable how we
+get burnt out and what matters the most when it comes to work he's been named one of the most influential londoners in the uk has been
+named as one of the most influential britons in the united kingdom bruce daisley's book the joy of work became the best
+selling business hardback book in 2019 he has his own podcast so he's one hell of a talker as well
+and as the world has transitioned over the last 10 months to this zoom-centric remote working lifestyle i think now is a great time to ask
+ourselves the question what makes work enjoyable how can we get the most out of work how do we avoid
+burnout and how do we maximize our motivation bruce has the answers so without further ado my name is
+stephen butler and this is the director ceo i hope nobody's listening but if you are
+then please keep this to yourself
+bruce you were you wrote a i feel like that's an understatement you wrote a smash hit book about
+work called the joy of work and i've seen this book absolutely everywhere it's been an absolute phenomenon
+so you know considering the fact that the world has fundamentally shifted over the last nine ten months because of this pandemic
+and the way we work has changed so much i wanted to get your view of this remote
+Your take on this new remote working culture?
+working zoom um sort of working culture that has now been forced upon us just before i let
+you answer i'm gonna give a little sentence around around my take on it i hate it um and
+when when in march when we were forced out as a ceo for business to tell my employees that we're gonna be working from home
+and we have this amazing office which gives us all this community um i know that about 50 of my workforce
+liked the idea but i 100 hate it for a number of reasons what's your take
+so i think at the outset i shared some of your reservations brony brown talks about this thing which
+is collective effervescence and it's a it's a good way she's she's coined to turn for something you see
+quite a lot in social science that even the introverts amongst us actually quite like being around people
+in in some scenarios and we get far more of our energy from the tribe
+were in and the people were surrounded with then would probably admit and so when it first happened
+look the defining thing about work for me is laughing every day i if i laugh every day and i you know in
+the organizations i've been in they've been at times incredibly stressful we've had
+you know at times when i was at twitter there was just for good reason there was like big headlines
+demanding stressful scenarios but either the sort of the dark humor
+that you find in those moments or the moments of levity that you can just get if you're around people that
+you trust soldiers talk about this or firefighters talk about this you know you can find human and i used to love that so the idea of
+shifting to a world where somehow we're plugging into the matrix and we were losing
+that camaraderie that kinship that we get from being around other people i wasn't
+necessarily the the biggest advocate of it i think what's clear though
+is that we've fundamentally moved into a different world and some of those preconceptions that we might have had
+might have been partly ill-judged so so so working through those things that the number one thing we know uh 91 of
+people say they want to continue working in some capacity when you look at the numbers of that
+people say broadly say they want to work at home three or four days a week so there's
+some firms saying we're going to let people work one day a week or two days a week at home people workers want to work more than
+that so there's going to be some degree of of balance and we're going to achieve an equilibrium
+so that's the demand side of it and in fact when you look at all age groups young or old there is a slight
+difference so younger workers have said that they were they're happy at home but they they it's
+close to how happy they were in the office and we can partly understand that a lot of young workers don't have
+home offices they don't have nice desks they're sitting on their bed or they're sitting on the table that
+sits at the end of their bed so they're working in slightly different scenarios but even they report they're more
+productive and happier than than that they were in a big open plan office so that's the first thing older workers are
+significantly happier if you've got a bit of space it seems to correlate with you feeling really happy
+so broadly all of the evidence suggests actually the experience of it has been at least
+unbalanced positive so then you look at the the other side and i guess it's firms
+and it's really growing evidence that firms are recognizing that something has fundamentally changed
+bloomberg did something interesting the business people they did an analysis of all the earnings calls so all these transcripts of like
+big bosses reporting to shareholders what they think is going to happen and
+bloomberg say that already about one in eight firms are talking about making their offices smaller the ft did something
+where they said about half of british firms are already talking about their offices being smaller so
+whether it's that demand side or whether it's that supply side almost certainly we're going into something that's going
+to look and feel a bit different to what we were used to before if you had to guess um i i completely
+resonate with that i think even for our organization we realized how much money i'll be honest how much
+money we could save by not having an office because it's not just the rent it's the the cleaning the electricity it's the
+food in the cupboards you know the maintenance of a what was a 20 000 square foot office in manchester
+uh and you you stripped back those costs and you know it was that you were forced to realize that it is possible for there to be another
+way and i think at first we were we were skeptical that our business could run in
+completely remotely then we realized it could and then we moved into phase three which was like okay but what have we lost now and it
+was it was it was definitely a phase three thing because in phase two we're like oh everything's fine in phase three we're like now we've got
+a problem because we've lost the uh the sense of community that our
+company was giving to our employees and for a company like ours community was a huge part of our our
+value-add you know we are the sterile stereotypical like millennial office with like the slides and the ballpark
+and the freedom and um and a real sense of strong community where pretty much everyone lives together
+and so in phase three of this sort of this sort of mental journey what we saw and i actually resigned just
+after in about september time what we saw was a bit of an exodus of our employees because now
+they're sad at home they're looking at their to-do lists and that they're now thinking the
+remuneration or the value i'm getting from this job is this amount of money and i'm doing
+these set of tasks so now i think i can get more money down the street at that place that
+has no working culture whilst i'm still going to be sad at home and it will be a similar set of tasks
+and it was it was astonishing it was astonishing how many people um are being completely honest because i
+have no reason not to be honest we almost never lost good people the month just before and after i left
+we we lost our the largest number of employees we've ever lost by a fault factor of 10.
+yeah and it's fascinating so let's look into that because you're exactly you spot on these the big themes that
+are emerging now firstly how can you make people feel like the part of something when the old way they felt part of something
+was the energy they had when they're around people right you know there is some buzz and and it's not an
+exaggeration i've chatted to some of the world's leading experts and they say good workplaces do have a buzz
+to them they have almost like this tangible energy um and i think that's one of the challenges we've got
+now if you've got a situation where people on video calls back to back and you know it might be not with the
+big boss it might be with clients they're dealing with or it might be with customers they've got to keep happy
+but if there aren't back-to-back meetings with those people then they can just feel well look that's
+going to be exactly the same wherever i go we're not going to have the same energy and there's far more evidence that
+when people feel part of something bigger than themselves it's transformational so i've been i'm
+writing something about resilience at the moment a book about resilience and what you discover is that actually
+what you hear about resilience is that people tell you all these myths about resilience that it's this individual
+strength or it's this it's this trait that we can do develop and what you discover about resilience
+is it's normally a collective thing it's because you feel part of a resilient community you
+feel like you've got the strength of others to draw upon you feel like you can tap into something one person in some of
+the research i was reading said you can't be a resilient on your own and there's so much truth in that
+now what does that mean for the way we're working right now well if you've got someone in a bed seat or a studio flat or a flat
+chair and they're sitting on their own all day and they feel lonely it's almost certain that those reserves
+of resilience are being tapped and you know there's one thing that psychologists talk about all the time it's this notion
+of of affect it's sort of it's a fancy way of saying mood it's a psychologist a way of saying
+mood and what you discover about affect is that the the mood we're in is really
+influential on a lot of the things on our experience of life and the uh creativity and our sense of
+collaboration so scientists talk about positive affect and negative affect and positive affect best way i can sort
+of frame uh positive affect it it suggests that like the mood we're in transforms some of the decisions we make
+and the best way i can frame that is that when you're a kid growing up whether your main carer is a grandparent or a
+parent or a a guardian but you knew from the age of four or five you knew that it was a good time to ask
+for something and a bad time to ask for something you knew based on the mood that your carer was in that there was a good time
+to ask for something a bad time but affect the mood we're in affects uh decisions well the situation we're all going
+through right now is not positive affect it's a negative affect loads of people are feeling burnt out
+average person during lockdown has been working about an extra 45 minutes a day that's on the back of the average
+working day has gone up by two hours in the last 10 years so people are finding themselves in this
+lonely unaffiliated disconnected sense of exhaustive burnout so it's no
+wonder people are quitting their jobs because they just don't feel like the good version of them that they used to feel like you know the contrast as well
+so this idea of contrast where you can remember how your job used to be and if your job used to be a 10 and now
+because it's because a central part of what made it a 10 say the community or the culture in the office or you know that sense of camaraderie
+or that sense that you know you were a group of people working together towards a goal now you're kind of sat in your bedside on your own on the
+end of your bed doing a to-do list um if your company was a 10 because of that culture and it's now dropped down to a
+six something in my mind makes me think that those companies will actually hurt more
+versus the companies that were like an eight before and an hour a six um and that's part of what i think with
+with our company social chain because culture was such a big thing that people must be thinking oh my god what the hell is this
+um being sat alone and we try i think you know i can't speak to the company now because i'm no longer there but i know there was ample efforts with all
+as with all companies to do these like zoom bingo things and that lasted a month before everyone got sick to death of that but you mentioned
+What causes burn out?
+the word burn out there uh a very popular phrase a topic of much mystique as well i think um i saw
+your ted talk about the topic of burnout and i saw your your thoughts there i guess my my question is what causes burnout
+in your view yeah there was a really interesting there was a a really interesting book that just came
+out last year and it was based on a a successful article that had sort of blown up on
+buzzfeed by a woman called an helen peterson and she talked about she the premise of her article really
+good article worth searching for is the the millennials of the burnout generation you remember that one i think
+maybe you showed it right there's all these matchy matches and what she said is she said and she'd encountered it as a journalist
+she's thinking i'm feeling something i wonder if i could capture it and she was thinking is there such thing as errand paralysis
+so what she means by that is that she was getting to the end of like these productive working days
+and then she would get back to her flat and she would she would open a bill or she had she had something she needed
+to do and she just didn't have the energy this high performing really successful person didn't have the
+energy to get those things done and so she was thinking in her head is this some sort of weird
+um this sort of duality that you can be really accomplished at one set of things but you can't
+others she started looking into it and she realized it's not that you're avoiding one thing
+you're just exhausted and her lesson was that any time we teach we treat our energy as infinite that's
+when burn out comes and it we so often do it we we treat the idea that we can work
+all the time and the best examples i can give you are the ones where we actually check in on ourselves so i i
+used to find myself day job working at twitter worked on twitter for eight years i used to
+uh when i was especially guilty of this i used to have back-to-back meetings on monday what's the consequence of back-to-back
+meetings your inbox is is exploding it's it's absolutely overloaded and so i used to get home on a monday
+night get myself a cup of tea deal with all my domestic responsibilities and i would sit there
+and work and do emails for about four hours and just try and catch up with what i was doing
+and i quite often i would check myself and about nine o'clock i'd be spending as much time changing
+the music as i would doing emails or one long email that's like a two-pager who sends these emails these
+criminals sending long emails but i'd find myself reading this you know that feeling where you read it
+i'll just read that again and then read it again and what you discovered there's this science for this it's called ego depletion
+and the people who look into this say that our brains are sort of far more finite far more limited than we
+might imagine our brains are far closer if you want a metaphor for it our brains are far closer to the batteries on our
+phone than the infinite broadband that we we normally deal with so your brain's sort of got a certain
+amount of charge in it and when you use it and so the way you'll you'll witness this is maybe you walk into
+a situation and someone asks you a question at the end of a long day or whatever and you're like hang on can you just
+just give me a minute just give me a minute or someone asks you something really complicated just as you're about
+to oh okay hang on can we just give and effectively our brains are sort of far more finite
+once you recognize that you start thinking okay i wonder if that should influence the way i think about
+doing my job and and of course burnout is one of the things where we don't treat our energy as finite it is
+it is uh finite but we don't treat it like that and the end result is then we just feel like we're running on empty
+we're running on vapors and so when you look into it the world health organization uh recognize burnout as a real
+phenomenon and they say that burnout is is all about when our energy feels spent when we feel
+emotionally exhausted they talk about this other thing called depersonalization where when you're really burnt out you don't
+necessarily construe other people as full and
+empathetic individuals but sometimes you're a bit sort of dismissive of other people or you're a
+bit reductive of their motives or you start seeing people around you as an annoyance so in the old days if you ever
+found that the person you sat next to their chewing or their tapping was driving you crazy that can be a little
+bit of an exam example of deep personalization so it's a real phenomenon it's uh i think to my mind it makes you
+rethink the way you work so if you knew okay the most i can do every day
+is eight productive hours of work and you can you know there are evidence to suggest you can do more than that but if you
+started treating it like that and said maybe actually if i'm honest it's not a really high intensity productive hours
+but maybe it's five or six really good hours and then you know other stuff is dealing with email or dealing with
+with phone calls it i suspect it would change the way you made decisions and you see evidence of this barack
+obama used to have someone who followed him round who uh barack obama never chose his
+lunch in eight years because this person just made all his decisions for him and you see albert einstein said something
+similar einstein used to wear that same outfit every day and uh it was because he knew when he
+got to his lab when he got to the the place he was making uh decisions he knew that if he went there and he
+hadn't cluttered his brain with all these little micro decisions he was he just felt a bit more
+imaginative inventive creative so we see evidence of it in other people's behavior but normally when it
+comes to us we don't treat our brains like that we don't treat it like something we need to protect
+our energy to protect we we tend to treat our energy as infinite but that's why burnout comes just
+does the type of work you know you talk there about eight hours or five hours or whatever it might be does the type of work you're doing and
+the amount of intrinsic motivation you have or joy you get from it impact your
+likelihood of being burnt out yeah because like because that's what i that's what i suspected in my life
+because the people that i've seen that get burnt out and this is all anecdotal and there's no scientific evidence really to
+support these these assertions but people that i've seen get burnt out the most typically typically especially during
+the lockdown working alone often often freelance um often doing a repetitive task
+usually doing things that aren't that enjoyable and i had a friend actually come here and sit on the sofa which i've talked about i think in the last few podcasts
+and he basically told me that he was feeling a bit burnt out um and uh he was struggling to get out of bed
+and go and do the go and do his work in the morning he's a he's a freelance freelancer working on his own in his house he used
+to work within teams during pre pandemic and i i was saying to him like think about the things that make your
+work enjoyable and what other you know what are the things about work that are intrinsically and
+motivating to you all those things have gone right now so now you're just left with waking up alone sitting in front of a
+computer and maybe because your intrinsic motivations or the intrinsic joy of your work has been stripped maybe
+you're now um encountering burnout i think that resonates with me as well to some degree like if i've ever got close to feeling
+unmotivated or quote unquote burnt out it was when i was doing things alone pre-social chain
+on my own just for money well there's a couple of things there so two things so like this i think is
+all related to resilience so there's two things there the first thing is that the evidence we have is that when we feel an absence of
+control we do we generally feel more burnt out so let's think of examples and the research on this some of the best research on
+this is about nurses so very timely for the moment we're in right now when nurses choose to work extra hours or you might
+have known friends when you were doing jobs before your career where you know i used to work in fast food and some of
+those dudes used to work 14 hour shifts and you're like wow where did they get the energy but they were electing to do
+it and the evidence we have is that when people choose to do those things it often impacts them less they they
+feel like they've got control over it so you know i these guys who used to work with burger king king at me with me and they were doing 100
+hour weeks but because they were choosing to do it because it was really important for them to afford a car to do things
+they were what you discover is that when you're electing to do it does seem to give you some degree of
+protection so control is a really important part the more control we feel over our lives so why might you
+now be feeling burnt out because imagine if your company has you on 40 hours of zoom calls a week or your
+inbox is always full or you've got a difficult person you have to deal with a client relationship who's phoning you
+all the time you might be feeling the absence of control or your your friend who's the the freelancer might be feeling like i'm
+just i'm not in control of things but there's a couple of other really important parts and they're about our identity and about
+the the sense of community and you get really good evidence of how
+when we feel part of something bigger than us and feeling that connection being around people is a really important part of
+that it tends to enrich us it tends to to protect us and you see really good
+evidence of this you see when people go to hospital if they have like a heart operation or
+they have something serious when they come out of hospital the people who reported that they were
+part of groups before their chance of survival their chance of avoiding depression
+is massively higher than those who live in isolation and look that's the
+experiment we're going through right now that you might have wonderful friends that are at the end of a zoom line or a
+messenger link or a whatsapp but if you're not around them and to some extent some of the energy we get
+from them is dissipating and i think that's the challenge that a lot of us are in right now it's just a very lonely existence we've
+got now all of the things that we found nourishing enriching life-affirming a
+lot of them have been taken away from us now the challenge go on i was just gonna say i was gonna say um
+actually there's a lady that sat in your in your chair yesterday anna hemmings and she's an 11 time or
+11 time world gold medal world champion amazing olympian etc etc and she was
+speaking to the fact that at one point in her career when she's when she she was training in london to be a kayaker so she's like an
+eleven-time world champion kayaker right and then at one point in her career they decided that they wanted her to go to the olympics so she had to
+learn sprint kayaking right the coach was in florida so they took her away from her team in london and she had to basically train
+on her own via using an email that her her coach in florida was selling her
+and after doing that for a couple of months she got chronic fatigue syndrome wow so she was out for two years she said
+she couldn't lift her hands and shampoo her and the thing that brought her back was the realization
+that taking away her from her team as someone who was a bit of an extrovert and got her energy
+from people had um set off a bunch of alarm bells in her body so the the reason that she managed to
+recover and come back and win more world titles after two years of literally having this chronic fatigue
+syndrome was by realizing that and putting her back with her teams and changing her training which is wow
+what a metaphor for what we're going through right and it shows how the mind is so intrinsically connected to the body yeah
+people don't think that loneliness or removing you from your tribe
+can disable your body yeah or your energy but although there's remarkable amounts of evidence on that so there's a
+woman in the u.s called julianne holt lunchtime who's done like a colossal survey
+and she appropriates she says loneliness is the equivalent of smoking 15 cigarettes a day
+and so you know it has this big impact on us and loneliness is as bigger than obesity in terms of the
+health impact it has on you and that's what we're going through right now and for all of these things that we've tried to sort of create these
+artificial intel alternatives zoom quizzes and all manner and things like that they just don't
+have the same connection of feeling surrounded with someone there's
+some evidence as soon as you start looking into these things it's extraordinary what an impact people have on each other
+so these one piece of evidence i went up to to oxford to meet the woman who did this research and she took groups of rowers
+similar to to the kayaker took groups of roads first and there are oxford university roads you've seen them the colossal
+the monsters and she she put the first group individually on rowing machines second group she said okay i want you to
+be on a a made-up boat you know you're going to sit on your rowing machines but you've got to be in stroke with each other
+and she wanted to see firstly what was the different experience what she noticed was that the firstly
+they did about the same exercise it wasn't like someone worked harder than others but she measured the
+endorphin levels you do that by uh you put these arm cuffs on people you sort of you subject them to pain and then you
+see how much pain they can take and the endorphin levels of the people who'd rode together was twice as high
+as the people who'd rode alone and you know you see this with choirs people who sing inquired you know you
+can grab strangers off the street get them to sing some abba songs together and you say to them at the end
+of it how do you feel they say i feel utterly elated now that's not because singing our songs on its own does it it's
+because when you feel some connection with other people even strangers it seems to be
+transformational it seems to sort of elevate our mood and all of that has been stripped from us
+so you know if you've got i guess you can try to do some approximations of it but all of that has been stripped from
+us and i think that's why it's it's inevitable that we are feeling
+flat energy-less we it doesn't feel the same right now how do we fix that though and this is i think it's going back to
+the start of the conversation why i hate it i hate the lack of connection i hate the lack of community i think are you an extrovert would you
+say oh god i really don't know i think on one hand i'm a massive introvert yeah i i i'm people know me i don't like to
+do i don't like small talk i like to sit alone for weeks on end i like i went off to the jungle for four weeks in september alone
+went off to the costa rican jungle alone so i like that although i have this kind of like you know public speaking and social media brand
+so i actually don't know although a lot of introverts like that ability to switch on the public speaking side and
+but i think actually the more you look into the introvert extrovert thing it's sort of a compartmentalization that doesn't
+necess the vast majority of people sit somewhere and sure exactly i'm the same as you um no but
+these uh i i think look the point you raise is there's no easy substitute but there is some evidence i saw an
+amazing piece of research and it looked at couples who lived distance relationships
+so you know in the uk distance relationship means you're half an hour an hour's drive from someone in the us it means you're like a three
+hour flight so they did a piece of research 40 000 couples living distant relationships
+and they wanted to know so these were unmarried so they wanted to know the ones who made it through a year what what was the thing that made it through
+a year and this was research was done three or four years ago so it's not from a different era of technology but the ones who stayed with each other
+for the long term phoned each other every day and you know when they they were asked what you talked about
+they said oh we just talked about trivial things so i think so many of us have got into
+this frame of mind of thinking well i liked her a photo and i sent a
+quick whatsapp saying what i sent a voice note horrific use of technology but they said
+but you know we think somehow we've serviced the relationship by doing these things
+and actually when you come down to it and maybe future generations will be different but it's it's often quite analog it's
+that sense of feeling seen and appreciated so i suspect face time might work the same way
+but so many of us are sort of are overwhelmed with these performative zoom calls right now where he's sitting there
+with like a celebrity squares a blanky blank uh array of faces in front of you i know
+and i wonder if it's that sense of being seen and being heard that probably connects and cuts through a bit more
+yeah i think so yeah i just think work is just so much more than the work right i think
+especially in the world in the world we live in at the moment where we're getting lonelier as a society i was looking at the stats when i was
+writing my book about you know the the when they ask americans for example how many people they can turn to at a time of crisis it
+used to be three people a couple of decades ago now they're like medium answer is zero yeah and um i think it was theresa may
+that appointed a head of loneliness where loneliness are for the uk and i've seen the stats so i think work is one of the few sort of
+i don't know institutions where it still binds us together um and we're not between four white walls tapping glass to order food and
+alone speaking to our nan through a piece of glass so it's a shame that that that community that part of community's
+gone but anyway moving on creativity something you've talked about at length and
+What kills and causes creativity
+um for me i've i've always believed that i'm least creative in the office i've always thought
+i'm more creative in the gym and in the shower than i am when i'm when i'm sat in a boardroom with a bunch of people
+and i know this is something you've spoken about so i wanted to get your take on where we're most creative what kills and causes creativity
+yeah i mean look firstly i would all i ever feel in all of these situations is that i feel like i'm a
+a vessel that's passing on other people's knowledge so i've found myself being consumed with all these things and
+interested in their learning so look let me tell you um what i've i've discovered that
+neuroscience is really intriguing the most compelling thing about neuroscience is when you look into it uh neuroscientists used to work on
+experimenting on animals you know i'm not i'm not keen on that i was like i was
+you know in a protest group about animal experimentation when i was younger um and they used to look at brain
+injuries so that used to be the main way that neuroscience worked and it's only the last 20 years that brain scans have had any degree of
+sophistication but what they've discovered in like the time that they've had brain scanners is some of the things that they presumed
+about the way our brain works aren't necessarily right so let me give you one example but they used to put
+people in these brand new brain scanners and they would watch what their their brains did they give them a puzzle they
+give them a rubik's cube their brains would light up in these sort of different places and then they'd notice what happened
+when people stopped playing on the puzzle and their brains would light up in sort of
+loads of places as well and so it was it was baffling what's going on right now they'd say to these people they say oh right sorry i
+was a million miles away i was daydreaming so okay right that's interesting your brain's lightened up when you're when you're not
+thinking about something when you sort of switched off and so the way that neuroscientists categorize this broadly they say
+these three systems of cognition first one is like when you're doing that rubik's cube or
+when you're typing an email it's called the executive attention network so it's the main thing you're focusing on
+and then you'll know while your executive attention network is watching netflix or while you're writing an email you can
+also be aware of like the room you're in that's called the salience network and the third one the third
+so there's three of these systems the third one is that one when you're daydreaming the one where you're a
+million miles away the one when you're in the shower which is called the default network
+but what we discover is that people generally report having their best creative ideas not
+when they're frowning into their laptop screen but when they're in these default mode uh situations so you might have it in
+the old days if you're on a train somewhere or on a plane somewhere loads of people i've got a friend who says she has all
+her best ideas staring out the windows of planes yeah and so you know if that was you then this year has been
+an uncreative year but um my favorite example of it is a really famous screenwriter
+called aaron sawkin he's written the west wing he wrote there was a um there was a film he had
+on netflix just before christmas called the chicago seven he's written all these big things very famous for zingy dialogue so he
+wrote the social network film things like that sort of you know um really sort of really what's
+better than a million a billion like he's written all these zingy lines and he's realized that uh he has all his best
+ideas exactly like you in the shower he said he had he told hollywood reporter magazine he had a shower
+installed in the corner of his office and he has eight showers a day and he was asked by them
+he was asked by them hang on is this like some weird ocd thing he said not at all i find that
+when i you know so i'll be sitting there thinking of something trying to come up with an idea but it's
+only when i disengage my brain to something comes to me an idea comes to me and so
+what you described is exactly what a lot of these people whose job is to be creative
+have recognized and as soon as you know that you start thinking wow okay i need to think differently
+about being creative because creativity can then be when i'm sitting at my desk i'm
+sort of taking all this inspiration in stimulation ideas but then it's about disengaging
+going for a walk going for a cycle ride going to to do a workout might be the moment where the idea hits
+you and i don't think necessarily we think about that enough you know if you go back to this idea
+that your brain is a bit like your phone battery then some of those moments that effectively can recharge your battery
+can be the moments where creativity hits you and inspiration hits you so i think sort of rethinking the way
+that we treat a productive week of work of you know these blocks of work
+but then moments where you know it might be your personal is you go for a walk every lunch time
+that can be far more creative and productive than you might imagine well how do we make our work environments more conducive with
+creativity then is there a way or do we just resign to the fact that that's not going to be the best place for our creativity and if we're going to
+reach our creative potential it's probably going to be away from the office i think it's about recognizing there's a
+yin yang there's a balance of work and and imagination
+so i i always loved the example of um charles dickens charles dickens obviously um like
+incredibly productive i think he wrote 15 novels 200 short stories he edited a weekly
+magazine about a mile from here you know sort of incredibly productive we didn't work afternoons
+and so charles dickens would sit down at his desk at eight in the morning he'd write for about four or five hours and then he'd go and walk and he'd walk
+10 10 miles every afternoon and that was like him lost in his thoughts you know
+striding through east london probably sort of imagination popping when he sat down the next day he had
+loads of ideas and i think some of us have eliminated that
+sort of the brain fermenting ideas we've eliminated that a bit so
+you know it might be that your way to do this yourself is just to make sure you just got some down time
+or you've just got some time where you know you put music on but you turn podcasts off or you just
+you try and get a bit more balance in how you're uh using your energy so let's conclude
+this point about work and creativity say that i today made you the ceo of a company that had
+100 employees um and you could design from scratch the the working environment how often people
+worked and some of the sort of key sort of principles and foundations of that working environment what kind of
+things would be important to you based on all you know so let's look into what happened in lockdown the first part of lockdown most
+people reported that their engagement went up and why did their engagement went up their engagement went up because they
+were solving problems like we'd never worked like this before everyone was you know the first moment
+you're getting on a zoom call or a google hangout or you're getting on these things there's like you know even though you're in this
+crazy situation there's a degree of excitement fight or flight almost right and and so what do we know about that we
+know that people felt that they were involved in firstly a bit of team collaboration but secondly they were
+helping solve problems and so you know the whole organizations computer sales
+have gone through the roof whole organizations that had no laptop computers so they had to arm their teams with kit
+and so people felt really engaged by the fact that they back to what we talked about earlier had some control they had a a bit of
+influence so number one thing that we discover is the more that people feel that they can have an
+impact in their job and it might be something similar simple they're they're just responsible for a
+couple of things themselves the more that they feel that they've got some agency some control themselves
+they feel motivated in their jobs when do we feel unmotivated in our jobs when our boss tells us what to do but we
+don't get any input into it we don't necessarily think it's the best thing to do we're doing
+repetitive things that don't feel very rewarding so the best thing that any of us can do think well how can i make
+teams feel small and teams feel like they've got a shared sense of accomplishment and pride in what they're
+doing so that's what i would be saying what you discover is 100 is a really nice size actually any time a
+company goes over 100 what your discovery is you lose a bit of some of that
+camaraderie you better almost there's a few organizations that do this when you go over 100 split it into two
+teams because your that sort of cohesion you get works really well when we
+we've got a familiarity with each other and what happens is when you go over that you start losing it
+and you think we want we want it to feel like it used to feel it's never going to feel like that humans don't work like that so
+far better to say you know we've got two teams that love each other but we're we're working on separate goals so
+keeping things small is really critical and there's lots of evidence of the smaller you can keep things you
+almost get the economies of engagement compared to the economies of scale that when people feel they're part of
+something that they're having an input into their engagement is higher they they they work more effectively
+so i would say that would be the defining part making people feel like they've got things that they're responsible for
+and generally all of those things encourage active engagement what you find when you
+look into some of the stats they're terrifying so and when you globally there's an organization gallop to this workforce
+survey opinion poll company and they they do this workforce survey and they say that globally
+13 of people are engaged in their jobs when they look into it what i mean by
+that is that these there's almost as many people there's about 22 of people who
+would actively disengage their jobs so by actively disengaged they kind of hate their organization and
+they want to bring the downfall of their organization so anytime you meet some someone on the tuber in the street they're almost twice
+as likely to want to destroy their company as make it succeed but then the vast
+majority of everyone else over 50 percent of people are just disengaged they're not actively
+disengaged they're just passively disengaged so work for most of us is something is something that sort of
+feels arduous we don't necessarily enjoy we don't necessarily value the decisions and you'll know as
+someone who's run a company where culture was the defining thing you'll know that when you get it right
+it can be this superpower where you know you're on high octane fuel compared to you know
+the energy can feel low otherwise and so just getting those things right generally is far more about
+people feeling a personal connection with the people that are around feeling like they're contributing something these things play a really big
+part we talked a lot about the joy of work obviously the i guess the antithesis of the joy of work is the misery of work
+and at some point when work feels miserable um people are faced with this quite um this quite confounding question which
+is how do i know when to quit and we talk that we know i think there's so much written about how to start and when to start and
+starting being the thing but obviously the thing that comes before starting usually is knowing the right moment to
+quit people don't quit sometimes and they spend many decades in a miserable job and
+you know then their fear of quitting almost becomes stronger because they're getting more comfortable and more entrenched so i wanted i've not seen you talk about
+anything about quitting before but i just wondered if you had a take on when the right moment to quit a job was or i know it's an incredibly personal
+nuanced thing but people i can i was thinking then i was thinking what are some of the things people
+really want to know right now one of them i'm sure is like i hate my job i don't have control my boss is an
+do i quit i'm gonna tell you a secret for the past five years while building
+social chain into a 700 person global social media powerhouse i've been using a service that i've never really
+mentioned some of you might know that service it's called fiverr f-i-v-e-r-r
+it's my little secret if i've ever had a project where i've needed affordable skilled freelancers to help me whether
+it's building a social media application that made my company three million pounds or just a video i needed editing or
+help making a logo or making a website i've used fiverr now that my secret's out the bag here's
+what i'm gonna do for you if there's a freelance service you need or a project you need help with a logo a website a voice over a video you need
+made anything at all go to fiverr.com ceo i'll put the link in the description
+that's fiverr.com ceo message me the service you want from the
+website and every single week i'll personally send you the credit to your fiverr account so that you can get that project
+done thank you to fiverr for the sponsorship and for supporting entrepreneurs and freelancers around the world i'm looking forward to all of your
+messages i've been working my way through these huel nutrition bars this week um as you
+know i love the ready to drink cure flavors but you will have also got these salted caramel bars
+and i'm a big salted caramel nut which i've been having and if you're if you're someone that does like to chew
+not just drink your food then i really highly recommend the salted caramel flavor there's also another flavor called the raspberry white chocolate
+flavor which i've been very addicted to over the last couple of weeks but again just like huel it's nutritionally complete
+you get all of your your proteins you get essential fats you get it's gluten-free as well
+and you get 26 vitamins and minerals from these bars
+tastes amazing and i'm a big salted caramel fan give it a go if you do send me a screenshot on instagram or
+twitter or linkedin and let me know what you think again as someone that skips meals this is an absolute lifesaver
+How do I know when to quit?
+i was thinking what are some of the things people really want to know right now one of them i'm sure is like i hate my job i don't have control my
+boss is an do i quit yeah look you know big
+questions you probably could tell us more than that um yeah i think you know the uh the
+critical thing about that is is probably checking in with yourself and asking you know do i feel any sense
+of reward by my from my job obviously it's not a great time for anyone right now to
+be debating doing something that makes them economically precarious
+that so you don't necessarily want to risk something that is going to put you in a difficult situation but i
+think you know evaluating our jobs generally when you look into the research when you say to people have you had a good days
+a good day at work it generally comes down to whether people feel pride in their organization
+and whether they feel like they've made meaningful progress in something they've been working on so meaningful progress actually can be
+difficult right now if your job feels like you're the expert in emailing and
+video calls you sometimes feel like you've made no progress for weeks you haven't done anything for weeks and also if your
+organization is struggling this is a really interesting phenomenon because some organizations pre-covered were in
+uh were growing so naturally when you're an employee in those organizations you're dragged up with it you're giving
+promotions and pay rises and there's the cash to fund that now organizations are in decline or a lot of
+them are hanging on and so you're not getting a promotion your pay's been frozen you might have be on a pay cut
+you might be furloughed and it feels like suddenly you've gone into decline in your career because the organization
+you're in is in decline um and i think that also causes a lot of people to start to think
+well you know i might my whole life up until this point has been about progress and climbing the ladder why am
+i going down the ladder yeah i didn't do anything different or wrong you know it's a really interesting philosophical thing about that because
+the whole idea of the career at korea is the invention of the last 40 years you know
+uh ancestors uh grandparents our great-grandparents never had the idea of a career where i
+was going to be accomplishing something and developing and changing you know the job you were going to be
+doing next year was the job you were doing last year well done and the job that your kids were going to do was going to be the job that you did
+and the the this idea and it brings with it a degree of insecurity this idea that we will be on this
+developmental path is a construct look and it's a construct that suits the economic system we live in because it
+makes us all we strive to be accomplishing more than we did last year and to be earning
+more than we did last year but it's a construct for the last few years whether it's the origin of
+happiness i'm not 100 sure if i was going to put two things alongside some of the things that you've talked about
+that sense of feeling part of something feeling connected to other people i think is a more robust route to
+happiness than feeling like i'm on a career trajectory even though that can the the illusion of
+that can be incredibly powerful it's interesting because you know with there's this thing called like gold medal depression where like michael
+Childhood trauma in the elite
+phelps he set these set these tarts one thing i kind of investigated in my book is the idea that
+we think stability we think chaos we think we live in chaos and and in search of stability but the
+moment we find stability i.e completed goals and um you know roof over our heads and
+everything's normal we actually descend into chaos so in fact we're meant to keep this is a
+philosophical idea i guess but we're meant to keep our lives in forward motion in that chaos because when you look at people that have
+achieved all their goals and they have nothing left to accomplish they so often fall into some kind of depression and lack of purpose and
+meaning i think jordan peterson talks about it i know benjamin said a lot about it that you know much of um i was looking at the
+stats around life expectancy in the uk and the us and over the last two years it's declined for the first time ever
+but and they say when they say why is that they say because the opioid crisis and say why is there an opioid crisis and they say well because
+there's a lack of meaning and so i i began to realize that in my own life i think i'm meant to keep myself
+my goals way out in front of me almost unattainable um and keep myself striving and i've even
+seen it in my person which i've talked about a little bit on this podcast the days where someone came along and said here's 50 million will buy a company or we're
+going to go to the stock market you're going to be a millionaire were the most confusing days of my life because i immediately didn't know what
+my point was anymore i wonder what there's something really fascinating so there's a there's a study of
+olympic medalist a british study really fascinating piece of work it's called the great british medalist study and um it was commissioned by the
+british olympic association so they wanted to know what was the what was the creation of a
+champion and they did this fascinating thing they did they gathered 20 what they called super elite athletes so
+these are athletes you'll know them all of them are household names they don't name them in the study but it's people like kelly holmes it's people
+like the big iconic names and uh these were people that every time they went to
+a championship they would win gold or they would win they would be right in contention then
+they took a second group and they called these elite athletes super elite elite and these were people who went to championships
+but kinda didn't meddle or if they meddled they meddled third biggest difference between them these
+ones had all received significant childhood trauma the elite ones the super early best ones had achieved
+significant childhood trauma let's start counting the cases so kelly holmes she was bullied at
+school she was the only child of mixed race ethnicity in her village she said she
+experienced continual racism tom daley his father died when he was
+training yeah um you know you look at countless examples of these things the andy murray was you know greatest
+british tennis player maybe greatest british sports person he was at the dumb lane shooting the only mass
+shooting in british history so all of these people have experienced significant childhood trauma and what happens is they tend to direct
+their energy based on what we know they direct like they're fortunate there was a coincidence that they were
+gifted supreme talent and what you discover is childhood trauma normally correlates with addiction
+so if you know if it correlates with anything it correlates with obsessive behavior but both of them have
+something in common you're trying to fill that void and so these people are fortunate that they've been gifted with this
+super elite talent that they can fill the void with striving for something and the people who ends up at addicts
+with the same challenge don't but they're still striving to fill that void and so there is something in you know
+it's it's almost inevitable that these people who are striving for the elite uh accomplishment hoping to fill this
+this hole that sits inside them of course when they get there they realize it was all an illusion it's like a mirage in the desert but you know there
+is something in what you say i mean i've got i just i mean completely like i think when i i sit here and speak to people
+that are tremendously successful and the one thing that i've seen in common with all of them actually think i said it to joe wicks when he was sat
+here two weeks ago was they all seemed to have some real severe childhood trauma that no one else has experienced
+and even in my i said to joe i said you know my i've got a friend who's a billionaire he's not happy but he has had this deep
+obsession since he was a kid because of some things that happened with his father and his father making him feel
+that he just wasn't enough or he wasn't adequate enough which has made him obsessive about success to the point where it's
+unhealthy um and he's got there now he's a billionaire but he's not happy at all he's he's you know he's tremendously
+unfulfilled the same with eddie han i went and eddie holmes on this podcast a couple of weeks ago as well
+and he he is the most relentlessly obsessed person i've met um just non-stop eat to the point where
+he'll say to his kids like he'll he'll tell his wife and kids that they are second priority to his box to being a boxing promoter
+you ask him where that's come from he said you know my dad my dad always made me feel like i wasn't enough it's really interesting though because
+it depends i'm intrigued then how these people pay it forward because andre agassi
+supreme tennis player great tennis player married to the greatest the up there equal greatest tennis players
+for all time uh he's married steffi graf and um and he says that his dad bullied him constantly
+like his dad was never happy he's the only place his dad who was a persian iranian cab driver could
+afford to own a tennis court was in las vegas so they moved to las vegas and his dad bullied him into becoming a tennis
+player and andre agassi fantastic autobiography wrote about how much he hates tennis
+hates it with every single bit every fiber in his body and he says i will never do to my kids
+what my dad did to me and so it's like this really interesting origin of success is the thing that propels you
+this driving force that propels these people who just keep going relentlessly is it
+something missing rather than something extra and i think that's the interesting conundrum
+i don't think it's predictable and this is the thing because i think you think okay well if someone has trauma they're going to become successful or
+they're going to become an addict or if someone has a upbringing that lacked empathy from
+their parents then they'll become an or a serial killer but in the case of joe wicks he was he talked about how he had you know he
+looked at the doors in his house and they all had fist holes in them his dad was an addict his mom had these problems and
+and he is the single most empathetic person i've ever met you know when they announce the third lockdown he does a livestream crying his
+eyes up because not because of him he's fine he's saying i can i'm feeling the pain of people losing their jobs right now
+and you think well if your dad was you know you grew up in a home full of domestic abuse right and violence
+how can you become the most empathetic person that i've ever encountered genuinely genuinely empathetic this guy
+like i've never seen you know um i you know because everyone says about you know pee with joe
+and they all like send him the memes every time there's a lock down of him like putting his shoes back on or whatever but the guy gets really down really really really
+down because he knows that other people are hurting never seen anything like it however here's my question so we talked
+The Trump Twitter ban
+about childhoods um making people very interesting there's one guy in particular who is
+notoriously had a very um interesting childhood which made him a certain way
+donald trump and his father um you know the story of donald trump and his father being you know um
+you were the vp of e-m-e-a of twitter um obviously donald trump has
+just been booted off twitter permanently what do you think about that but also i wanted to ask you where if you were jack
+dorsey in that at that time would you have made the same decision
+number one it's so incredibly hard and i think the i mean i always felt lucky i worked
+four years at youtube before twitter and the time that i worked at youtube
+there was a lot of um mass shootings and there's always mass shootings in the u.s
+but there's a lot of mass shootings and the phenomenon at the time was that a lot of the mass shootings
+it was being discovered that the people had youtube channels and so i remember sitting in a meeting with lawyers in the
+san bruno headquarters of youtube watching them debate what the the right moral thing
+to do was in these fascinating to watch things that were being invented challenges that no one had conceived of
+five years before now you've got these things and so you're watching all these things going on
+and um and so you know when twitter was invented when twitter was invented it was a way
+15 years ago it was a way to text all of your mates at once and so there was a short code and it was
+a way it was it took like your msn messenger status and it sent it to text messages that was
+the idea before everyone had internet connection on their phone so that it feels like a different lifetime now
+but just an illustration to be 15 years on from that debating whether you d platform the most
+powerful most well-known is he the most famous person in the world maybe the most famous person in the world to
+de-platform that person is such a journey to be on and i know the people
+i mean i know jack i know uh the the other person who made the decision and i know that they don't make any of
+those decisions lightly you know it's like it's really uh weighs on them but to my mind
+it was a singular situation where firstly i saw some people on social media saying um saying that this was an illustration
+that the employees of tech firms were woke and it's just really interesting equivalents because six people died
+in that event and if you watch back all the footage of what led to it then it
+it doesn't take a huge leap of logic to say i can see why that created that so six
+people died and i think it was at the end of a long period where increasing numbers
+of the tweets by the president and the people associated were being labeled with this isn't true
+and you you do reach a point where a lot of critics were saying where does your responsibility kick in
+here do you have no responsibility for what your platform is being used for i
+think knowing the people concerned that that was the last thing they wanted to be to be in the position where
+they were making a decision angela merkel has come out saying she's she feels uncomfortable with it
+and i can definitely imagine that everyone in twitter felt uncomfortable with it it was one of
+those difficult things everywhere you went for the whole trump presidency people would say um
+what are you doing why are you not taking this down and of course you know the first thing you've got to say is irrespective of anyone's opinion and
+that's the only way you can look at this that this is an elected leader of a country and so you know irrespective of anything
+else for a private company to be saying that we we take an opinion which transcends
+uh the election result is a really uncomfortable one so i know that it would have been a
+really careful decision i think a really deliberate decision jack's been on podcasts and any places
+uh i'm joe rogan talking about he believes that bands shouldn't be forever so who's to say that you know there
+wouldn't be a root back on these things but i do know that the decision was probably made
+carefully reluctantly i think i think it's the right decision i think is the right decision and i think the
+timing of it was probably right i i would be you know it felt
+it felt at the moment it took place it felt like the intensity of dialogue
+and the toxicity of dialogue was reaching such a stage that you know six people already dead
+it's just like this could get this can escalate even further and i have to say since it's happened it does feel to me
+like a bit of the stress in the room has gone someone said something uh about i think
+president-elect biden said um the you know a natural order of things you don't think about your leaders
+every day you kind of know they're there you've got context that they have an awareness but you know this
+sense of peril where you're thinking about your leader and what might happen every day just contributes to bad mental health
+it's not a healthy place for us to live in so you know i would guess that there would always be a route back
+for people even if they've had a permanent ban jack said that but i i do think it was
+the right decision i i am i'm really not sure i think
+i consider myself as someone that's on the left i guess to some degree or maybe left to center left but
+um i it does make me feel a little bit uncomfortable because you're right it sets a bit of a presence for the future
+in terms of how we deal with um opinions we don't like things that might
+be considered to be inciting violence would you have done in this case i think i think i would have um
+suspended his account um temporarily like the facebook approach
+yes i think that was i think that was probably a better approach all things considered um i think because trump is a very
+unique very powerful individual i would have also had someone i'm not sure if this happened but someone from
+twitter contact his team and really have a dialogue about it and lay out that we can't allow our platform
+to be a place where we're like denying the election results and therefore inciting you know these kinds
+of things and basically do and i would have used this suspension period i think to have that conversation
+uh um but yeah but i think with the removal is it sets a bit of a strange presence and i did wonder before this moment you
+know social media is very left it's a very it's a very like a liberal place
+i think if you were to just look at social media you would think that the labor party you're always going to win typically as well because
+you think i think so because i think that's more a reflection of who you follow because
+you know i definitely think there's plenty of pockets of people who are huge brexit supporters who clearly i
+mean the numbers say that there's more of them yeah but it's just i think the brexit and the conservative
+narrative is less akin to like the virtue signaling that you're rewarded for on social media
+so if i say uh child a lunch boxes for all right everyone's eager but if i was to i
+i would prob i might even lose my job or be canceled or be criticized if i said oh no we don't need to fun give as much
+money to the nhs or something so just seems like the liberal the sort of left talking points are a little bit more
+acceptable on social media and the right ones might make you lose your job or get you cancelled or you know what i mean i
+think it's about tonality rather than uh perspective i mean look you know absolutely it's not going to play well
+if you're in the market for likes to say that i think we need a tighter fiscal policy
+and you know and less benefits for people he's going to play differently i wouldn't necessarily agree
+that the platforms have a specific bias though i think you know
+of course it's my echo chamber yeah generally you know i've witnessed plenty of strong
+opinion on both sides likely as it was my job to try and
+ensure there was a a degree of good conversation in those things and i i've probably not seen that
+because i've only seen my own little echo chamber and i'm young i'm you know i'm surrounded by very left
+uh people in my organization and stuff so i probably surrounded myself with that narrative a bit more but i just i've always felt that um
+Where does social media go from here?
+where does social media go from here i mean it's it feels like it's a really pivotal moment we've got this big case with
+facebook at the moment in the us where they're trying to you know considering breaking up facebook and we've got trump being banned from
+twitter we've got parlor being pulled from the app store and amazon web services um it feels like we're in a bit of a i
+don't know maybe we've always been in this constant debate of what social media is and where the lines are but
+what what are some of the big changes you see coming to look i think it's pretty clear that regulations
+coming in some in some capacity uh i think to be honest i think
+most of the big organizations would welcome it when it comes to choosing to de-platform people whether they're the
+president or whether they're troublemakers having some rules that are agreed by an independent
+authority would be welcome for most of those platforms i think you know it's really uncomfortable when
+organizations are losing sleep being on the inside is really uncomfortable when you're losing sleep about
+should we be doing this can we be doing this how do we account for doing this uh jack daughter did a series of tweets
+a couple of nights ago trying to he's formidable i think trying to demystify how decisions are
+made so no win almost everyone who reads it will be critical of it but you know he's trying to say look
+this is how we reach that decision um i think there'll be degree of regulation i think that's probably a
+good thing i suspect some of the big groups will be broken up and you know facebook and google i think
+will probably be broken up and the question will be whether they are willing to embrace that and do it
+and all of the shareholders and all of the users and all the people who work there benefit or if they resist it and you know the
+lessons of microsoft bill gates and steve balmer will say we lost 10 years of our company
+because we spent 10 years resisting uh regulation resisting control had they
+just given up to that they'd probably microsoft's in a good place again i think biggest company in the world again
+but you know they uh they would have been in a better place to to avoid those things so um i think regulations probably coming i
+think it's probably a good thing do you think they're gonna break up facebook yeah you think they will yeah in the next five years
+really so you think they'll force facebook to sell whatsapp or instagram or something yeah
+or both yeah or both yeah really almost certainly i would guess youtube will be sold from google as well
+really yeah blimey that's crazy better go somewhere is it better for a
+consumer so number one if you own any of those shares every time that these breakups
+uh the all of the value of the firms is worth more than the constituent parts so from shareholder point of view it's a
+really good idea to pick the right moment but break yourself up and um and it's good from a consumer point
+of view i often sit there big youtube consumer if you're a youtube consumer you said go
+going hang on this used to be like the big daddy of video they've missed tick tock they've missed
+twitch they've missed like all of these big opportunities that youtube was
+right in the box seat for they've missed all of them why because big firms generally are slow and don't innovate
+and so it's better for everyone if you've got people experimenting doing new things and you
+know if you've got a layer of regulation over the top of that saying these degrees of norms of
+behavior that you expect it's it's much better for everyone and it's really exciting i think
+in the case of facebook mark mark would respond to that and say we've got 10 years or 15 years whatever it is now of
+experience moderating terrorist content and you know really you know horrific types of content we've
+built ai systems which are the best in the world and we're removing you know we're spotting 90 of posts before they're reported and
+this has taken us you know decades and billions of dollars of investment to get to this point if you take instagram and put it in the hands
+of an i don't know an adobe they don't have that experience they don't have that um data that they don't have the ai systems and
+so it's not going to help for um missing misinformation and it's a misdirection though isn't it i mean
+that specifically if someone is saying we have learned we've developed machine learning that can do these
+things that sounds like a marketable product that sounds like something that shouldn't be the point of difference
+that shouldn't be your differentiator that you've got better capacity to deal with those things but rather that should
+be something that some entrepreneur avails to other firms and i think you know sometimes we can
+get locked into an idea of thinking oh the narrative that we're being given is the right one here
+but rather more than thinking actually if someone could put a layer of safety over the internet
+that used that machine learning to spot things that were really heinous that that used that learning to make sure
+that no one had a bad experience wow pinterest could use that linkedin could use that
+tic toc could use that it should be something that everyone could plug into their products and then you
+immediately start saying wow there could be gaps in the market for new products here maybe there's a version of twitter that's mega safe
+maybe there's a version of instagram that just has a different aspect to it
+so you know my view would be absolutely we've learned these things but the notion that somehow
+that safety of experience should be a proprietary benefit rather than something that is afforded
+to everyone is just i think a a a bit of deception and a bit of
+misdirection the other talking point mark zuckerberg would rebuttal you basically because i've looked at his arguments for
+not breaking up facebook he says well what have we got a monopoly in we're not as big as imessage in
+messaging we're not as big as this platform for uh he and he rattles through the platforms and says what what are we
+bigger what are we the monopoly on and um he says there's tons of competition we've got tick tock
+our heels pinterest twitter you know uh google you know these platforms so he says you know
+where is the monopoly here um and i have found that kind of compelling i know again it's a bit of a
+misdirection but i i can't tell you what he's the what what facebook have the monopoly on
+yeah well firstly monopolies don't have to be more than 70 i think you know i think by the rules
+for monopoly in the uk it's like more than 20 30 percent of a market so you know so so to be monopolistic you
+don't have to be dominant but you know when you've got three of the top five apps you start questioning whether there is a
+degree of undue influence look i've got no dog in the fight um my view personally is that
+i i suspect these firms will be broken up and the question then becomes do you serve your employees better
+do you serve the people who use your apps better do you serve the the state of society better
+by just going with that and saying let's do it but let's do it joyfully get on with it and i suspect
+personally i think you know some of these organizations are going to be presented with the the challenge some of them will go
+okay i'll break we'll break ourselves up and others will say actually we're going to uh we're going to position with this and
+just the less than microsoft is you lose 10 years of your life by resisting talk a lot about the joy of
+Whats next for you to keep joy in your work?
+work we've talked a lot about you know your past experiences at youtube and twitter what is next for you when you're
+thinking about what's going to give you joy from work in the future what are you thinking about um i'm writing a book
+about resilience uh are you able to tell us the title yeah i mean it's the title is a big ongoing discussion okay i'm not at
+that stage um which is just about all about the things we've talked about how resilience is actually a collective thing rather than
+an individual thing um i've really enjoyed sort of doing things like that i i i'm doing a couple of things on
+climate change so i worked with an organization last year yeah yeah so i'm working with alcohol's
+climate reality now but um i did something with an organization last year that's trying to reduce our plastic
+footprint and you know so so there's a few things like that and i really enjoy those things because they
+i think they're non-linear i think you know what success looks like is really hard to judge
+and it's all about trying to achieve things so i did something through october where i presented into
+about 100 70 different companies i presented climate change into 70 different
+organizations and you know connections have started from that so the al gore's climate reality is al gore did
+that film an inconvenient truth about 15 years ago probably short in school my dad made me watch it right sat me
+down and said to my brothers and sisters you got to watch this and he's turned he's work on that into an organization
+and it used to be he had to pay 7 000 to go and be trained in las vegas now he's in the era of zoom he said
+anyone could be trained on it for free really so i trained the only commitment you have to do is you have to commit to
+spread the word so hence i did about you know all these presentations getting out and and spreading the word um and that's
+really energizing sort of because i think a lot of us feel a certain way towards climate but
+feel powerless about what can we do so uh i've done a bit of that hopefully i'll i'm i've got a few more
+things coming along on that so will you ever get back into the world of social networking i i really want to
+avoid doing that so that's why i'm working hard on podcast and writing because if i can pay
+the bills doing that you know full-time jobs are really demanding
+and you know my my social media consumptions remains i'm a huge user of twitter i'm a huge
+user of tick tock and uh so my social media consumption is still there i just don't want to
+i just don't want to work in those organizations again why just you know they're really exhausting
+you know like you work really hard i had so much fun working at twitter and youtube before
+but you know you do long days especially working with california up in the morning and you you're working
+late at night so i don't want to really go and work in a big company again i'm going to conclude this podcast by
+Whats the one thing you'd do to make work enjoyable for everyone?
+just asking you you know for you and from everything you know about the joy of work and what makes work joyful and fulfilling
+if you had to just focus on one thing that was the most important factor for
+you um in work what would that be um there's a 70 year long study out of uh
+yale university looking at what the the secret of longevity and happiness is and the secret of it
+studied these guys for like the whole of their lives and the secret of longevity and happiness is love and friendship and i think
+work is far closer to that than we might imagine when we feel a connection with the people we work with
+it makes everything worthwhile and i think hidden in all the chat about productivity and strategy
+and and you know market fear and usps we lose the fact that when we feel most
+motivated by work it's when we feel like we're doing it with other people and so that's it for me i used to a
+great day at work was when i laughed 12 times and you know and it was almost it felt trivial to mention that it felt
+like oh why do you love your job to mention that i just love these people i love being around these people i'm energized
+by these people feels really embarrassing to admit but i think that's the secret of it when we
+feel part of something our jobs can feel defining that can feel part of our
+identity bruce thank you um that loops perfectly round to the start of the podcast in my expression
+that i think remote work as hell so but also it's uh it's something that yeah i've come to learn over the last
+nine months i'm sure a lot of other people have um thank you so much for all the work you've done on work generally because i
+think it's a conversation not a lot of people are having or breaking through with and some of the ideas you deliver in
+your book and just generally in your content across youtube and your social channels linkedin your articles on there
+i think really are helping to dismantle a conventional and sometimes toxic
+framework for how work has to be so on behalf of someone that works and has teams i want to thank you for that because it's been um it's a value that
+the world needs but also thank you for the conversation today thank you it's an absolute pleasure thank you
 
 ----------
 
@@ -1062,23 +5801,1614 @@ paste here
 --11--
 
 -----
-Date:
-Link:
+Date: 2021.01.19
+Link: [# I Won 11 World Titles Because They Said I Couldn't: Anna Hemmings MBE | E65](https://www.youtube.com/watch?v=GGTtZpswgfg)
+
+### Summary:
+
+Anna Hemmings, an 11-time European World Champion kayaker, shares her inspiring journey of overcoming adversity, including a battle with Chronic Fatigue Syndrome, which threatened her career. Her story is not only one of elite sports achievement but also of personal growth, resilience, and the power of mental strength and self-belief. Hemmings discusses the importance of connection, the impact of one's environment on performance, and the lessons learned from working with a sports psychologist. Today, she focuses on coaching and helping others achieve their potential, applying lessons from her sporting career to business and personal development.
+
+### Advantages:
+
+- Demonstrates the power of resilience and overcoming adversity.
+- Highlights the importance of mental strength and a positive mindset.
+- Emphasizes the value of human connection and supportive environments.
+
+### Drawbacks:
+
+- The journey included significant personal challenges and physical setbacks.
+- Misunderstandings and lack of visible symptoms made the battle with Chronic Fatigue Syndrome even harder.
+
+### Tips and Advice:
+
+- Focus on one step at a time to manage overwhelming challenges.
+- Express emotions and vulnerabilities to build trust and connections.
+- Visualization can help in achieving goals and overcoming mental barriers.
+
+### Main Challenges:
+
+- Overcoming Chronic Fatigue Syndrome.
+- Navigating the mental and emotional struggles of being an elite athlete.
+
+### Importance and Usefulness of the Topic:
+
+- Hemmings' story is a testament to the human spirit's ability to overcome seemingly insurmountable obstacles.
+- Offers valuable insights into the role of psychology in achieving peak performance.
+
+### Accomplishments:
+
+- Winning 11 European World Championships.
+- Competing in the Olympics despite her health challenges.
+- Successfully transitioning to a career in coaching and business.
+
+### Interesting Quotes:
+
+- "We can only be truly great at what we do if we believe without doubt."
+- "The mind and the body are connected."
+- "I always believed that I would find a way."
+
+Anna Hemmings' journey from elite athlete to overcoming Chronic Fatigue Syndrome and becoming a successful coach and entrepreneur is a powerful example of how resilience, mental strength, and a supportive environment can lead to remarkable achievements both in sports and in life. Her story is not only inspiring but also offers practical advice for overcoming personal challenges and achieving greatness.
+
 Transcription:
 
-paste here
+Intro
+all of that stuff prevents us from being at our best we can only be truly great at what we do
+if we believe without doubt that
+my guest today is an 11 time european world champion in her field anna hemmings she has a remarkable story
+not only is she this incredible elite athlete not only did she get to the olympics twice
+but she's undergone some of the most incredible mind-bending adversity to get there
+she's now a coach she's now an entrepreneur she's now an incredible businesswoman and she has a remarkable story to tell
+you she's also a mother and a wife and all of these things and she's she's really incredibly self-analystical and
+self-aware and as her journey unfolded and as she rose to the top of her career she got news which all athletes must
+consider to be the worst news in the world i'm so excited for you to listen to this conversation you're going to get a tremendous amount
+of value and i'll be honest as a host you ask the questions but in this conversation i had more
+realizations than pretty much any conversation i've had with a guest before without further ado you can see i'm excited my name is
+stephen bartlett and this is the diver ceo i hope nobody is listening but if you are
+then please keep this to yourself [Music]
+Why Kayaking?
+kayaking it's um it's not this the type of sport that
+a child would typically dream of getting into so i guess my first question to you is you became
+a world champion in kayaking you reached the very sort of peak of your your your career in that sport how did
+you get into kayaking yeah you're absolutely right it wasn't something i was going mom mom please don't be kayaking
+um i did lots of different sports as a child and i loved sport my mum was always
+trying to get my brother and i partly because we enjoyed sport but sometimes just you know summer holidays
+going to a week of tennis camp do a week of basketball week of this and it was just something that we tried
+i loved being on the river you know the thames in the summer is gorgeous right you know it's pretty miserable right now
+um but in the summer it's lovely but also the club was competitive it was it was elm bridge canoe club and
+it was probably one of the best clubs in the country at the time so this is late 80s and
+and they were all about racing they were all about competing they were all about you know working your way up to the
+national championships getting on the great britain team going to the world championships making the olympics that was their mission it was to produce
+racing athletes and that played into my competitive nature really well
+so i think it was one i love the you know the nature of the sport but also i'd
+stumbled on a place where i could be competitive i could race i could
+um i had access to these brilliant coaches i mean as time went on i was there with at my club there were
+people who were going off to the olympic games who were going off to seoul um olympic games then four years later they
+going off to barcelona and so i was surrounded by people who were going to world championships achieving
+great things and making me realize that actually
+this is this is possible so i've got two questions there the first is what age were you at this
+point so well when i first stepped into the kayak that first summer i was just under nine years old and and i
+can't say that at that age i was going by first day in the kayak i'm going to go to olympics it wasn't that and it
+probably wasn't until the following summer that i actually really started to train and
+go regularly and really get into it so you you said there as well about you were surrounded by people that had
+these big ambitions that i'm guessing you probably never even considered and i think for i think
+that's such a valuable but also interesting lesson about like the company people keep
+generally because i can imagine that if you were in a different kayak school surrounded by different people that
+didn't have that level of aspiration you may be and this is a presumption you maybe wouldn't have
+believed that it was possible for you is that right um so i yes i agree
+um i also had discovered the olympics probably around that time and
+was inspired by the olympics and i do recall from that young age thinking just the olympics is just this
+amazing event so i think really early on i had a dream about the olympics um and i
+didn't know what sport that would be i you said you had a dream did you see
+yourself actually getting there in a sport someday yes really yeah i did
+i i did watch the olympics on television um i recall los angeles i definitely recall
+watching um seoul and really being into that so well you know by seoul i'm like 12 years
+old i guess um watching thinking i want to be an olympian i want to be in that event
+one day and then and then kayaking came along and
+and you're right it because of those people it didn't feel like because i guess
+probably when you're watching it on tv it's like oh this is this thing that other people do and it's far away and how do you ever
+yes we'd all love to be in the olympics moment not everyone but you know but how realistic is that and
+then i stumble upon this sport and this club and these young
+athletes are going turning up training they're just like normal people to me
+but if they can do it and these normal people who just work really hard
+can get there then why can't i i'm so fascinated by it and you probably saw me being very inquisitive because
+i'm in my head i'm trying to understand how um what the factors were that came together that took you to the olympics
+and like i think in all of our journeys we can um we can attribute some level of like
+coincidence and luck to various stages and i think one of the moments of like luck from what you've
+said is like being around the right people to some degree because um yeah i've just i think especially
+lately in my life i've really been able to look back and say you know what if i if i hung around with a different group of people if i didn't have you know mum
+that was like this or i didn't have those five friends um i probably wouldn't have uh believed that like that as you i find
+it really interesting you say the word normal people because i think we all view ourselves especially when we're younger it's like normal people
+and we think that norm when you look at the tv as you say like you don't think normal people can do that stuff on there and at some point someone like bridged
+the gap and was like oh by the way normal people do that and i think that's a moment that i had in my life which i found really
+interesting from what you've described there there's like the thing where the like the third wall shatters and you realize
+that all of your icons and like you know the people you love are also just like we're just like you yeah i think that's
+super um inspiring so we've talked a little bit about circumstance and like the the luck fortune part of it and
+being in the right place at the right time but also within everybody's journey there is a lot of
+intention there's a lot of like often discipline i imagine what what are the things about you that
+Why you?
+maybe the few defining things that maybe other people don't don't have i always have to be
+careful with this question because no one wants to blow their own trumpet but i'm like why you like why are you not someone else we've talked about
+circumstance but what are the things that you within your character got you there versus everyone else who
+might have quit or not tried as hard it wasn't as competitive or whatever that's difficult um i definitely worked
+hard um and lots of people work hard right and i worked really really hard and i think
+i think one thing that made me even more determined was that so as i mentioned already when
+people see a think of a kayaker they often think of someone quite tall yeah they often think of aurora right and and they're different sports
+but most people think roar and they think super tall big and and i am a little bit small
+um not typically the typical size for a kayaker so generally a little bit taller um broader
+shoulder i'm five six six um and i was i was told regularly too small um
+one of my coach actually um the club coach he was also the great britain team coach came up to me at a certain point
+um when i was really into the sport and said i just don't think you're ever going to be big enough or strong enough to ever
+be a great kayaker knowing that i was really wanting to be a great kayaker
+and but also knowing that i did some other sports and was kind of going maybe you should go and do those because
+i know you i just don't want you to um put all your heart into this and not succeed how did that feel
+devastating right this is the sport that i'm falling and fallen in love with um that i'm this is
+probably i'm about 12 years old so at this stage i am training quite regularly i've already
+been to the national championships i've got my sights set on being in the great britain junior team
+devastating but i think because of that i i just went well i'm just going to keep
+going i'm going to keep trying i don't care what you've said i don't care you know this is what i want to do um
+i'm going to give it a go and i love it and i think i'm doing okay at it right now and i'm just gonna keep trying what that
+did for me was made me made me work harder to prove that
+actually because i was told specifically you're not big enough you're not strong enough
+and yeah i can't change my height but i can become stronger and when i was at the peak of my career
+i was the strongest girl in the gym in the great britain team i've got to admit i saw the photos i was
+bench pressing 100 kilos yeah you were strong and so and i i was determined
+that no one's going to tell me i'm not strong enough because i i can't change how tall
+i am but i can change how strong i am why did it matter though why did it matter to be successful to you at this
+good question because a lot of i think about that moment where someone tells you you're going to fail whatever we've all
+had that moment i think every successful person's had that moment and people typically google one of two ways they'll either go forget this then
+you know chuck it in or whatever um or they'll have the adverse effect i almost
+don't know anybody that sits in the middle you either get really in you get some kind of insecurity which takes you either one way which either
+means that i'm going to triple down and become obsessive or i'm gonna avoid um avoid this at all costs
+and i tend i tend to think that people who this really really really intrinsically matters to
+for whatever reason are the ones that go the positive way and use it as motivation yeah definitely i'm i loved winning um
+why i love the i love the joy of i loved i i loved winning but i also
+loved improvement and i loved it getting better quite often i was told
+so they're in kayaking there's singles doubles fours k1 k2 k4 and i was always told
+you know not big enough not strong enough but also definitely not big enough or strong enough to be in a k4
+definitely not big enough to be in any of the crew boats k2 k4 you need to be big and strong for those boats
+and i probably shouldn't say this but they they used to it felt to me defined big and strong
+as fat and if you were so i was skin and bones i
+was really skinny and so i didn't look strong but they thought someone who looked
+chunky had a big backside was strong okay and i'm like no that
+that just because they're big doesn't mean they're going to be faster than they're going to be more valuable in that boat than me
+so do you think you're like underestimated unfairly yeah i do and and that so winning world
+championships in a k2 getting to olympic games in a doubles was very satisfying for me um
+whenever i was able to prove that actually you don't have to be what you're describing as this kind of
+shape um that's not what makes someone fast and useful in a kayak in a double kayak
+or in a four so that used to annoy me i saw you talk about uh
+Healthy conflict within teams
+one of the things mentioned when i was doing a little bit of research on you is this idea of like healthy conflict
+in teams could you explain because i've never heard of the term i could imagine i could guess what it means but i'd love you to explain what
+healthy con conflict is in terms of teams and so in a
+team um it starts with trust if we don't have trust in a team then we
+can't have healthy conflict and healthy conflict is when we healthy debate so this is about being
+able to know that all of the people in the team have the same objective the same
+um we're all gonna got the same goal we're trying to achieve the same thing and you put forward an idea and you and
+and i i disagree with that idea but if we don't have trust in the team and you're the boss then i'm not going
+to put my hand up and say i disagree i don't think we should do it like that i think we should do it like this
+i think that this is the way we should go i think we need to go down this route we won't have that argument and an
+argument debate conflict whatever you want to call it if there's not enough trust in the team
+if you think that you're going to be shot down if you think you're not going to be listened to um and then the problem with that is
+that we then walk out of the room and you've probably been in meetings right where people all
+sit in the room and they all nod and go yeah brilliant yeah we're all going to do that and then they walk out of the room and they go
+you got another thing coming you think i'm going to do that and they do that because they haven't had their say
+they haven't been able to disagree and and back and forth with their ideas and have that debate even if your idea
+isn't gone with they at least want to feel like i've had my say
+and i've had my opportunity to put forward my thoughts and my opinion and my suggestion
+but actually at the end of the day this is the best idea for the team
+then fine let's go with that but at least i've had my opportunity to speak up and you talk about you know that sounds
+very sort of analogous to like relationships as well because i think you know like romantic relationships right people get a little
+bit peeved if they don't feel like they're being heard and had a chance to express themselves and also when they have that
+when they do express themselves quite often it's perceived as in the name of being right or winning
+versus in the name of like progress or solving the problem it's like me and you versus each other versus mean universe is the
+problem right yeah how do you build the trust foundation they're like what's the how do you get a
+team to trust each other and whatever because if that's the foundation of healthy conflict i'm like how do i you
+know what can i do to so one of the things that that you can do and this is why you know i work with
+teams and leaders and it's about vulnerability it's about being um able to be vulnerable with your
+people with your team um being able to admit weaknesses admit mistakes
+um it's about being able to say i i don't know the answer i don't know where we're going well i
+don't know what i don't you know i don't know how to deal with this or i you know just
+being able to be vulnerable and and that isn't always easy to do
+but when you start to do it it gives permission to people you know if you we do
+workshops where we're trying to build trust and people always say you know at the end we might ask them something like um
+share something about challenge from your childhood and when we when people go around and
+they share and we say what what made it difficult or hard to do and they say well it made it easier
+when someone else went first because once you've opened up and you've bared yourself a little bit
+then i feel oh well he's done it then it's okay and no one judged him and and no one knocked him and and it's
+like okay well i can do it too and knowing that no one's and when there is that trust then we know
+that actually i'm not going to be that's not going to be held against me whatever it is that i share
+it's not going to be hard against me in the future it's not going to be um used and i'm not going to be shot
+down for it you a lot of this is like about the psychology of how people think and operate and i know that you spent some
+Key lessons from your psychologist
+time working with a psychologist or a sports psychologist when you were rising in your career um i find that
+super fascinating but i'd love to know what some of the key sort of lessons you learned about high performance or about
+i guess like self-regulation um from that that psychologist as it relates to becoming a world champion and
+you know yeah yeah um yeah so i did i worked with a sports psychologist for from the age of 16. oh really yeah so
+really young and and i think that um was part of and you talk about um you
+know you asked me earlier what is it that made me a little bit different or why did i succeed when others didn't and i think
+part of that was um have you heard of growth mindset yes
+yeah yeah so i think that my i didn't know about that then and neither did you know a lot of people but my mom um was pretty
+quite growth mindset and and i and instilled that quite a lot in me for example she you know this idea of
+just constant learning constantly wanting to learn and be better and recognizing that we can be better all the time we can
+improve um and looking outside for other areas of expertise learning from other
+sectors and all of that and she was the one that you know it wasn't like i was struggling with my mental strength and confidence or
+anything it was just what else do we need to do what who else can help us who else can what you know we don't have all the answers
+we want to learn we've got to learn from everyone and i always encourage clients in the business world you know who who can we constantly
+be learning from all the time what was the what are they like some of the key things yeah and also what i think
+what are they trying to do i i guess they're trying to make you the best athlete you can be but what are the things stopping you
+from being the best athlete you can be ourselves yeah exactly most of the time we are the ones that get in our own way
+how how do we get in our own way the doubts the the thing the thoughts that we think um
+the doubt that that seeds um the nerves overcoming us so so becoming so nervous
+that you become paralyzed almost um choking under pressure focusing on the wrong
+things not being confident in yourself um yeah so many things that we do
+fear doubt is a really interesting one there's fears doubt anxiety nerves lack of confidence all of
+that stuff prevents us from being at our best and that essentially is what was one of the one of the big parts
+of what a sports psychologist is helping you to do when an athlete when you line up and there's nine of you on the start line at
+the olympic games all of them all of those athletes were trained hard they're all in amazing
+shape they're all super fit they're all you know strong they're you know physically there's
+not a huge amount of difference between those nine you know i think about 100 meter sprint
+at the olympic games there's not a lot of difference between them
+what is it that makes one of them win on the day and not often it's often not the strongest fastest fittest who wins
+on the day it's the one who's the strongest up here and i really believe that
+that this is often what stops people from fulfilling their potential
+and that's why i love helping people with noun yeah yeah absolutely their mental game is what stops people
+from being the best they can be of all the things that we do in our minds you talked about fear doubt
+anxieties all these kinds of things fear and doubt like lack of self belief not believing that you can or
+How do people overcome their limiting beliefs?
+all those things that's probably one of the most common sort of mental games that um holds us back or um limits us from our
+full potential um how does how does one go about overcoming their own limiting beliefs about themselves like they think okay
+well no i can't do that everybody thinks they can't do everything it seems these days like i don't know why maybe it's just because of what i do for a living but
+um i'm just surrounded by an audience of people that have real limiting beliefs
+and i wonder why but i also wonder how you help them overcome their limiting beliefs big question
+it's a huge question how do we overcome our limiting beliefs it's actually something that i work on a lot with
+when i'm coaching clients um identifying beliefs that uh so you know
+we would start probably with what are some of those limiting beliefs and start to unpick how are those
+beliefs where how are they serving i wouldn't be interested in necessarily where they've come from
+i would be interested in how are they serving us right now and how are they not serving us because
+sometimes there's we're believing them because they're serving us for a purpose they're helping us in some way but often
+more often than not those beliefs won't be serving us um so starting to unpick that um
+you know almost like what are the pros and cons of having this belief here um right now that i can't achieve this
+or that one of my limiting beliefs was that i'm not very good at sales um you know i was
+i had to i have to you know i run a training consultancy i have to you know find clients and um how you
+know so what's a more helpful belief um and starting to one pick what would be a better way of seeing
+this what are my strengths and what would be a new belief that would be serve me better
+i think at some point in your journey you probably not at one particular moment but gradually i imagine you
+started to build evidence within yourself that you could be a great kayaker
+and i imagine that was over a long period of time probably there wasn't one day where you woke up and thought [ __ ] i'm good right yeah exactly and i think
+um that is a big part of where we get our confidence from is like our past experiences yeah so whenever we do
+something we we start to build a bank of memories and when we're at the next situation
+that is similar we can choose to draw on the bank of negative experiences where
+we cocked it up or we can choose to draw on the bank of positive experiences where we succeeded and we did it really well
+and the trick is and you know if we if we and if we're not conscious about it chances are we might pick the experience
+of when we failed and then that's when we start to regurgitate all those thoughts and feelings of embarrassment and anxiety
+and nerves and and that doesn't help us and that's like that probably would then
+hinder performance absolutely it perpetuates the you know the doubt and the because
+you're reminding yourself of all remember last time when you did it you cocked it up and you messed up and you did it then you then [ __ ] it up because
+you're thinking and then you [ __ ] it up because and we think in images yeah and so when you think of something that you messed up
+you're seeing yourself doing it right you're imagining it in your mind right here and now and so the trick is to consciously
+recall the positive experience the past successes and if there's nothing in the bank
+exactly of that experience there's chances are there's something similar there's always something similar and you
+know so i would work with clients to identify what are all of the successes that you've had not just
+in that specific scenario but let's let's look at lots of different successes and
+then let's pick out what are the what are the attributes
+that allowed you to achieve those things because quite often someone will go oh well i
+achieved that but it was because the weather was good on that day or i achieved that because my team
+my team did it really it wasn't me so it's about starting to unpick actually what role did you play in that
+success and what are the attributes that allowed you your strengths your attributes that allowed you to achieve that
+and then we start to build up the bank of successes and the strengths and the attributes
+which we can transfer into any scenario how much do you think people
+and this is i don't know why i'm asking this question because it's not quantifiable but like to what extent do you p do you think people underestimate their
+potential generally oh massively like would you say like over 95
+because i think i'd say over i think i'd say people realize what like typically the average person
+realizes about five percent of their potential and i only real only say this because
+again like you said i'm was very normal kid from very my parents bankrupt like we i dropped out i got kicked out of
+school poor grades everything but this one thing i had and i always say like the one thing i had was i genuinely
+believed that i was gonna be where i am today just for no without a ton of evidence just generally
+believed and in fact the one of the reasons why i believed it was but not because i had any bank of successes yet
+but i had a little bit but it was actually contrasting me to my peers when i was 14 and
+thinking i think that i have skills they don't and i think that if these are the people
+that become adults then i will have i will always have that advantage um so that was my way of like
+and so when i like cocked up my grades and gcse and when school starts with that narrative
+that okay well you got an e so you're gonna be in have an e life you're gonna be broke and unhappy like no you're wrong like um so i get my
+mother you were you were gathering evident you were looking at your strengths which is part of the puzzle right you
+may not have had the experiences and the evidence of the achievements and the certificates and
+all of that but you what's more valuable is what you had is the non-tangible stuff yeah because
+if we go through life only assessing our success on the
+tangible stuff yeah then our confidence our self-belief actually in their two different things
+will be quite fragile oh yeah i can i can see that because you're always assessing yourself against
+a trophy a trophy or society because you're compared to oh i got this
+award against all of these other people and and and i won this trophy and i went past this grade and i
+and it's always against somebody else and a society rather than looking at the intangible attributes
+that allowed you to achieve those successes because that's what isn't measurable against society and is
+transferable to other domains and this is the and you're completely right and i've never actually thought about it that way
+before because i've always tried to figure out why at 14 i was convinced that i would be successful
+and 18 i wrote my diary i'm going to have a range of sport before that i'm 25 i'm gonna be a millionaire from 25 achieved all of those things
+just knew i would but it was pure as you said it was purely based on and it's almost a strength audit or skills order
+versus other people that i knew and i thought oh those skills are really good skills and they'll take you far but
+school is about tangibles like and i'd say a grade is a tangible yeah so school says okay you got a an e so
+unfortunately like it creates the impression from all angles you're gonna be poor like and you're not going to be that
+successful but timmy over there who's got an a he's really going to kill it as a surgeon you know and and i think so how
+you make it out alive out of that system and still with your you know self-esteem and self-belief intact is
+remarkable what i and i think that what you had is is better than the certificate yeah yeah because yeah
+but but what it does is it allows you to go this is intrinsic in me no one can take
+it no one can take that away and my self-worth isn't based on a certificate
+and a trophy and an award how do you give people that well so you work on identifying those
+strengths what are those strengths we do this all the time we work with clients on what are those strengths and where's the
+evidence of those strengths and when they start to see the evidence of those strengths well you know so i'm i i'm working with a
+client and you know so one of your strengths is being an authentic leader um one of your
+strengths is building relationships where's the evidence of that look at all these people what do you do about weaknesses though
+so would you highlight their weaknesses i think it's important to highlight both i think it's more important to
+work on exploiting your strengths and i would um so we do a lot of diagnostics
+we use behavioral profiling and all of that kind of stuff and all of that will bring up both and i think it's important
+to really be aware of your areas of development but ultimately if i'm sat on the start line of the
+world championships and i'm focused on my weaknesses and all the things i need to avoid my
+confidence is fragile yeah chances of performing on best slim and so in that moment
+i absolutely need to have on the tips of my fingers what my strengths are and i need to know them and i need to be
+able to exploit them and i think the more you work on those the better
+what do you think about this idea of like labeling yourself in your line of work and the the broader labels we give ourselves even if it's just like bad salesmen you
+What do you think about this idea of labels?
+talked about that being one of your like previous little limiting beliefs or labels um i think they're not helpful and i
+think it's really important that we're aware of those labels that we're giving ourselves and the awareness is the first step right we
+can't change it if we don't notice it so we need to notice the the label in the first place and then
+it's a bit you know it's like it's a limiting belief really isn't it um and so is that label serving me is it
+helping me achieve my end goal it feels like it sometimes because it's making me fit in and it's giving me comfort so
+i see this a lot with people that will say i am a in my case i'm just gonna use my case i'm a social media ceo
+and i so i've been a social media ceo for 10 years it gives me some kind of like community
+to be part of it gives me a sense of identity but at the same time it stops me from being all that i can be
+and this is one thing i was going over in my book is like now i've left my company it's so tempting to just start another
+social media business but like there's so much more i can do and so what i'm asking this question cause i'm in
+the midst of really thinking about it is like how do i just resist my labels and be
+a [ __ ] dj i'm doing i'm doing this big theatrical show and working in biotech and um i don't know i just this
+idea of like liberating yourself from your own labels has been super relevant to me um i think that
+um it becomes your identity is a bigger part of the problem you know it's like when an athlete
+retires from sport it took me and it still takes me i catch myself saying
+you know i'm an athlete i'm not a business person and i go oh i um you know i don't have a
+background in business yeah i've been running a business for 11 years and i was a professional athlete for 15 years so it's almost this
+you know i have almost the same amount of experience in business as i do in in sport yeah i labeled myself for so
+long and i be that became my identity and your identity is ceo of a social
+media company and so that's who i am and it's hard to let go of that because it's part of
+who i am yeah and it's comfortable right and you know you know who that person is what the
+behavior of that person's like and and you're stepping into a new role that
+what does this new person look like how rewarding has that been for you to kind of i guess reinvent
+yourself from being an athlete to now being an entrepreneur and a business person was it worth it that's what i'm saying was it worth it to step out of that label
+yeah totally and and we should all have multiple careers um and i think as time you know as we're
+living longer and longer we all will have multiple careers and i think we need to find the courage to step into new careers all the time
+and reinvent and and just recognize that there's so many skills that we can transfer
+from that other career label identity and bring into the next one and that's
+what will allow us to succeed into the next one and recognizing that we're never going to grow
+unless we step out of that comfort zone and yeah get a little bit scared of who this
+new person could be or would be or should be and we'll find out and that's the exciting thing is we're
+going to find out how do you for some people that's terrifying yeah the thought of like throwing
+themselves into that place of uncertainty that they have to travel through before they get to their new self how do you get someone to
+come willingly into uncertainty to leave that job or to you know take on that promotion or to
+pivot in their career when they're scared of the unknown or you know it's like well
+then i would think about what i would think about rather than what i'm afraid of i'm thinking about what i'm excited about
+and so rather than i'm afraid of what i'm going to leave behind or i'm afraid of what might happen i'm more about what
+could happen and when we focus on what we want and what we could have and you know it's a it's optimism isn't it it's about what's
+possible and what could i achieve you know and you asked me earlier about you know some of the things about
+sports psychology and visualization was one was a massive technique really that i learned from my
+sports psychologist and employed and still use all the time and i think when you can start to
+visualize what that new role person identity could
+be and when you bring it to life with all of your senses and see it really vividly then that's
+exciting and what what could i achieve and what could this look like
+and and the power of visualization is that your mind does when it's when you see it really
+vividly your mind doesn't know the difference between a vividly imagined experience and a real life experience
+Your process of visualisation
+what's your process for visualization and now is it something that you do actively you set time aside and do it or
+is it just something that you naturally now do when you're pursuing a goal
+so a little bit of both as an athlete it was definitely something that i would sit down usually i'd be lying on my bed
+i would have done some relaxation because the more we clear our mind and relax the easier it is to visualize and to see really clearly
+and so i would it would be a conscious right i'm gonna spend the next 15 minutes or even two minutes or five
+minutes or whatever time i had visualizing my next race and seeing myself execute that race plan
+as perfectly as i can and in exactly the right way and i would visualize
+everything from um if it was the olympic discipline and we've got nine boats on a start line i'm
+seeing my i don't know which lane i'm gonna be in when it comes to race day so i'm seeing myself racing every lane i'm seeing myself with with the headwind
+with a tailwind with it raining i'm seeing myself [ __ ] up the start because that might happen
+but then i just going to recover from it and i'm going to see myself recover and i'm going to see myself win from behind i'm going to see myself win from the
+front i'm going to see imagine you know they'll start being delayed or it's a
+full start you know all these eventualities so that when it comes to the event i'm
+prepared and it can just all unfold and i'm not phased by anything that happens but but
+most importantly i've seen it happen the way i want it to happen and then i believe that it can happen
+and what visualization also does is when we when we're visualizing a goal for example
+it starts to activate the subconscious to generate creative ideas about how we
+can achieve our goal it's it's it's my i don't know how it works and why it works but it's
+mind-blowing and it does work and and it starts to um get your brain to
+perceive and recognize the different um resources that you need
+to achieve your goal it's like the law of attraction and it starts to activate that in your
+life and bring in the people the resources the environment the circumstances that you need
+to achieve your goal and so now what do i do i probably i do spend some
+time consciously going like i'm just going to spend two or three minutes visualizing my goal i'm seeing it happen
+i'm seeing it realize um but then other times i'm probably just
+you know driving in my car and subconsciously you know like daydreaming almost but i think the
+the conscious right i'm gonna visualize now is really powerful because then you
+start to really it starts to ingrain in the subconscious
+so the law of attraction stuff i think sometimes it can take people one of two ways because i do believe in
+Your discipline and how to apply it
+visualization my visualizations over the years have been very like the daydreaming stuff but then also when i was like
+really really really broke and living in moscow in like a boarded up house i would frequently look at stuff that in
+the future i wanted so i'd look at these like mansion houses and whatever and that was me kind of just
+um setting my i don't know trying to peer into my future life the bit that i think sometimes gets lost
+when we talk about like the law of attraction it's almost akin to like when you set
+off in the morning you put your satin have him and you say this is where i want to go i want to go test go but then if you don't like put the key
+in and put your foot down you're just going to be sat in your garage and but there's something about knowing
+where you want to go and as you say like almost programming your brain to trick your brain to think
+to completely be convinced that you will get there that i then that from my experience then makes you take actions
+in that direction so like i'm sure you then you visualize yourself as a world champion but then you're like you go in
+the gym and you you train like a world champion because you that's where you that's your destination
+and the the the the opposite is also true like if you visualize yourself not being world champion what's the point you know you know um so
+my my real question here is about all of the actions and the discipline it takes
+especially as an athlete to get you from where you are to that visualized destination
+i'm really keen to hear about like the discipline the consistency because you're in a physical very very physical
+endurance race and you know it's like i think muhammad ali said like it's one in the gym it's one in training
+a lot of it and we all struggle with that we all struggle with like showing up on monday when it's raining so like what's
+the what's the key there so i think i think you're absolutely right you know when we visualize
+it it gives us the motivation to believe that it can happen yeah yeah and that's
+that's at the core of it because if we don't believe it can happen then what's the point and so yes we absolutely have to take
+action but we need the motivation to take action i can't say that you know 100 of the
+days that i was training i was oh yeah i can't wait to get out there go training it's pretty freezing outside it's like
+the middle of winter on the water and the river thames and it's like ice
+um yeah that wasn't appealing every day luckily the funding came in and we got to go travel and train in
+warmer climates in florida and wherever else um but yes there's this
+you know goal that's the world championships it's the olympic games it's you know those big dream goals
+that are highly motivating but on those day every single day
+i'd be lying if you you know if you could say that goal in four years time is what got me out of bed
+on that rainy freezing cold you know january morning but isn't that the answer then like it
+was just take like do today well yeah so it's but but also um i do a lot of work
+around intrinsic motivation and understanding what drives us and and we're all we all have different
+drivers and unsurprisingly one of my drivers is a sense of achievement and so my driver wasn't necessarily
+on that particular day oh i've got a train really hard because i want to win the world championships in two years
+time my driver was probably more that my coach has set targets every month
+that throughout the winter for you know for five months of the winter we would have targets every month in the gym there would be certain
+exercises in the gym that we've got to hit um we would do tests on we would do time
+trials on running in swimming and on the water um so as part of our cardiovascular training so and for me
+that was really um i loved hitting those targets basically that monthly
+right so if i do and i know that if i do this training today then i'm going to get better and i've
+got a test on the weekend and i want to hit that target i want to want to smash the target actually because yeah then there's a good chance
+i'm going to win the world championship it's not just hitting the targets i need to smash the targets and so that sense of achievement for me
+was a big driver for other people in my team it might have been and on actually on other
+days it might have been actually i want to get out and go train because i want to see my teammates because we have a laugh and there's banter and it's fun
+and i enjoy the connection and the sense of that being part of a team and the community and and all of that and so it's this the
+affiliation that's driving me on some days and but for others
+you know i can think of some of the girls in my team actually a sense of recognition was a big driver so needing that you
+know ah today you know you worked really hard you've you know you really put everything into that session you know hearing that from
+the coach or you know look how far you've come or look what you've you know the progress you've made or
+so everyone and so when a coach can tap into that knowing what is it that's going to get
+you out of bed today that's when we start to get the best out of people or the best out of ourselves
+and so you know when i work with with leaders it's about what motivates and drives me intrinsically not just the carrot and
+the paste pay slip and the promotion and you know and and all of that that's the external stuff which isn't very
+sustainable we need to know what drives us in as
+individuals but also what drives our team and tap into both of those and start to ask what what is it that
+am i getting that every day and if i'm not how can i get that from work
+what is it that i need to get and also really interesting you know if you're a leader of a business and you're working
+with a team are my drivers influencing how i operate with others in my team you know
+so if my driver is a sense of achievement but your driver is to make a meaningful contribution
+and i'm pushing you guys no we need to we need to we need to win this and we need to get the next pitch and and you're like no i just want to really
+help these people i'm pushing my driver onto you and that's not working for you
+so it's really important to be aware of what my driver is and know that it's not the same as yours chances are yeah that's a good that's a
+really good point and i think i've probably as someone that probably values a sense of achievement and
+forward motion and progress above all else at times when i'm trying to motivate people especially like friends
+i'm trying to sell them on the value of achievement when they're probably just not asked about a particular thing i don't need to
+win yeah i just want to doesn't matter to me i i want to fill ownership of this piece of work
+yeah actually that's what's really important to me and how do you find out what someone's driver driver drivers or motivations or
+How do you find what drives other people
+intrinsic motivations are is there is there a system or like a test or yeah so i the work um there's some brilliant
+work from um a chat called dean spitzer and he talks about super motivation and this idea that there isn't you know we there's
+intrinsic and there's extra extrinsic motivation so what we use a diagnostic actually when i work with clients
+and it will identify it forces you to to pick because you know we all want you know
+maybe some recognition or some achievement or to feel like we're making a contribution or to be with people all of this but it
+really forces you to identify what really is your big driver um
+so yeah so i use that but i mean i think when you talk to people you can start to you know the more you get to know
+someone and you ask them questions and you see the way they operate and and you see them light up when they get certain feedback or when they're
+doing certain pieces of work so we can start to get a feel for that just when we get to know people i
+you when you know i asked you there about the that like discipline and consistency and what gets you up every day on like a
+rainy tuesday or whatever and it was interesting that um you kind of like shortened your horizon
+or your skirt like people i think people typically think they they want to get to the top of the mountain so they think okay
+um let's make a plan to get to the top of the mountain but you were so focused on these like short-term shorter goals which meant
+that i guess your progress sort of almost like invisibly compounds um to get you to the top of the mountain
+so instead of like we want to get to staircase number a thousand we're like let's get 10 let's do 10 stairs today
+and then 10 stairs tomorrow and 10 starts and 10 sets and by the time you know it you're at the top of the mountain right
+yeah well literally i i am four years ago i climbed um mount tubcall of course you did as you
+do and um i we went with there was probably 10 of us
+in the group one of them one of the girls that was on the group was a friend of mine and she had i don't know why she joined the group
+but she had a fear of heights oh god um and we're climbing a mountain and it was fine for the first day and a half
+because it's just like a windy road the morning of the summit it's literally
+we're going up we feel like we're going up a steep mountain and you're and there's boulders and and she literally
+cannot she's so scared of heights and i can't do i can't do it and eventually
+i was like julia you just need to focus she what her biggest fear actually was also
+getting down okay um looking down and thinking how i might get but how the heck am i
+going to get back down because that looks really scary and it's slippery and
+there's there's screen so the ground is loose and i'm like don't even think about that
+right now all you need to do is take one step at a time one meter at a time that's all i want you to
+focus on and one meter and one meter and one and we'll figure out the rest and you might not even get to the top who knows you
+might you might not we might start but just do one meter at a time and then
+we'll figure out the down bit and we'll take it one step at a time on the way down because that's all we can do right in
+that moment is take one step at a time and it's the same whether it's a goal to achieve
+you know x turnover in a business or this many sales or whatever the business is or whatever walk of life yes we need to
+know the end goal but actually we just need to focus on the process
+because the summit looks scary but one meter doesn't look scary exactly and if you just do one meter at
+a time and also you know or whether it's the fear or oh my god it's so far away we've got another four hours
+to go it might be you know whatever it is well actually let's just do the next five minutes
+and let's see if that is feasible because it probably is right can i do one yeah can you take this next step yeah i
+can definitely take that next step okay can you take the next one can i take the next one and that feels really feasible you
+mentioned earlier getting at the very beginning of this conversation getting news i think when you were about 24 25
+that you had an illness called chronic fatigue syndrome i'm now going to be incredibly naive and
+narrow-minded when i when you read chronic fatigue syndrome you think tiredness that's what you think right but um but i
+know it's a lot more crippling than that and i know that it's a lot more devastating that especially for an athlete
+um talk me through finding out you had this this this disorder but also what it meant for
+your career and how it changed things heal this week
+tons of you hundreds of you have tagged me on instagram and on linkedin and on facebook as well with
+your heel pictures some of you are trying heal for the first time and it's so wonderful to see because as you know i'm a very big
+advocate for not only because they sponsor this podcast but because i've used fuel for the last three and a half years to to make myself
+nutritionally complete at times when my career put a lot of pressure on me to to speak
+on stage or to travel to do business so i'm a huge advocate of fuel um for you guys watching
+this podcast on youtube you'll remember last week that i said i was gonna take off my top um and show
+you the results that i've seen for you what i'm gonna do is i'm gonna do two things the first thing is i'm gonna show you my before
+and after from march until about september time right so here's my before and after
+and also i mentioned in a previous episode that i've got a friend who's been a hueligan for the last i think about the last two years as well
+um he was a friend that really struggled with food um and had a what one would class as an eating disorder and he went from
+being a little bit chunky to having six pack abs i'm also going to take his top off so you guys can see that
+if you're looking at your diet and seeing that you're a little bit nutritionally deficient in any way and you do want to give it a try let me
+know how you get on dm me on instagram tag me on instagram so i can share the photo but let me know how you get on
+i'm gonna tell you a secret for the past five years while building social change into a 700 person global social media powerhouse i've been
+using a service that i've never really mentioned some of you might know that service it's called fiverr f-i-v-e-r-r
+it's my little secret if i've ever had a project where i've needed affordable skilled freelancers to help me whether
+it's building a social media application that made my company three million pounds or just a video i needed editing or
+help making a logo or making a website i've used fiverr now that my secret's out the bag here's
+what i'm gonna do for you if there's a freelance service you need or a project you need help with a logo a website a voiceover a video you need
+made anything at all go to fiverr.com ceo i'll put the link in the description
+that's fiverr.com ceo message me the service you want from the
+website and every single week i'll personally send you the credit to your fiverr account so that you can get that project
+done thank you to fiverr for the sponsorship and for supporting entrepreneurs and freelancers around the world i'm looking forward to all of your
+messages talk me through finding out you had this this this disorder but also
+Chronic Fatigue Syndrome
+what it meant for your career and how it changed things so yeah i
+like you say was 25 26 when i was uh diagnosed with chronic fatigue
+syndrome and yes it's more than just fatigue um it's not just i'm tired today it's being
+devoid of energy exhausted almost on a permanent basis it also for
+me included muscle pain to the point where the my muscles were sorry muscle ache to the
+point where it was painful to the point where i couldn't stand in the shower and hold my hands up here to
+wash my hair for more than 10 seconds because it was too painful
+um some people have symptoms i didn't get this so much but sort of
+you know like can't concentrate can't focus brain fog um some people
+are actually bedridden um some people are actually in a wheelchair um luckily i wasn't as bad as that but i
+was bad to the point where yeah i couldn't i i couldn't be in my kayak
+paddling for more than 10 minutes at a very light gentle walk type pace having gone from winning world
+championships for two and a half hours at a very high pace to can't get my hands to hold my hands
+up here i i was literally two months earlier able to rattle off 100 press-ups in one go
+and then can't hold my hands up here for more than 10 seconds so that's the that's the physical
+element and that's only the physical element but the mental and emotional battle was
+just as challenging because you can't you can't see it so it's not
+you know i i was got frustrated to the point where i actually wished that my skin was covered in spots so
+that people could see that there was something wrong with me and could understand that i was going through something that i was in pain
+that i was you know unwell but i looked fine so i got diagnosed with the honest in
+2003 beginning of the season it was like april and then
+so following year is coming up to the olympics 2004 some training for the olympics or wanting to be training so six months
+later it was only six months later that they actually diagnosed it because it takes six months for them to eliminate
+everything else and go oh this is fatigue that's been going on for more than six months therefore you have chronic fatigue syndrome
+and i re i went off to florida um and the sports team doctor was saying
+right you need to do this graded return to exercise they think they originally and they still thought it was overtraining
+that's the immediate assumption right athletes tired muscle ache must be over trained um so they diagnose
+you they um offered me this program of right gently build up your return to
+sport um so you start with 10 minutes at a heart rate of 115 i can't remember
+and then 15 minutes at 115 and then 20 minutes and 30 minutes and when you can get to 40 minutes then we can go up to
+120 heart rate and so on and so on and so i went out like my training group and my coach were all in
+florida so i went out to florida to train and and i just couldn't get past 20 minutes um
+and so i went out to i went to see a doctor in florida and the doctor he ran some blood tests
+and basically like i still looked like an athlete i'm still pretty muscly i'm fair i'm
+lean i'm in florida i've got a tan and he basically looked at me and said
+well we've run all the blood tests there's nothing coming up nothing there doesn't appear to be anything wrong with you you look really fit and well
+i think you're fine and so that just this frustration of i can't see it and
+therefore there must be nothing wrong you know it's just mental health right you know people who are suffering with depression or anxiety or
+whatever it is we can't see it and so we don't know it and we don't understand it and so the mental
+and emotional battle was really challenging and um even people in my sport not
+understanding what's wrong with anna oh she she can't cope with it anymore or she's too lazy to train or whatever
+they're saying all these things and and that's hard um how did it make you feel
+so in the beginning um frustrated devastated confused
+um sad lonely so many different things and
+frustrated because also we didn't really know what it was and the doctors are saying it's overtraining and actually when i reflect on the
+previous two years i'd had episodes of fatigue which i now know were episodes of that
+same illness but that only lasted for two weeks or three weeks or six weeks and i would stop training or i'd really
+cut back on training and then i'd be able to come back and i'd be fine again and and so i
+only know that it was i knew in my heart when i went to see the team doctor that one day and i
+remember it that it wasn't over training because for six months i had been doing less
+training than everyone else in my group i can't be overtrained i'm doing less
+than everyone else because we were so conscious of this uh ana's over training that i wasn't i wasn't it was just was
+not over training and the doctor is like oh you've over trained jesus and that i just and then that was it i
+didn't train again for 18 months um and i did i did i after working with
+the sport the team doctor i went to other doctors i tried conventional medicine i tried alternative therapies
+and and nothing was working and that was the the hardest part as well was that
+one you can't really tell me what's wrong with me and two you can't tell me how to deal with this and and then you know i went to see
+one doctor and he said basically there's no cure there's no treatment and you're don't
+don't don't think you're ever going to get back in a kayak you never you might get back in a kite but you're never going to race at that highest level you won't race again
+so that was that was a pretty big moment um he said that to you yeah and how is that to him yeah just
+like this is this is my you know this is my identity this is who i am this is my life this is this is my career i still have
+ambitions left to fulfill and i don't i don't want something like this to end
+my career i want to end it on my terms when i choose that i'm done and so
+yeah that summer watching the olympic games on the telly and athens um it was devastating and
+but i guess i always believed that i would find a way i was like there has
+to be a solution to this there has to be a way out um and i i guess that
+i'm a very optimistic person and a very much a possibility possibilitarian
+i call it that i don't know if that's a word but believing that it's it's possible yeah that there is a way
+out there has to be a way out and and i guess i didn't know
+whether there was but i just had to i had to believe that there was i had to believe that i would get out of
+this and then i would find a way back and that i would get back to training and racing one day otherwise what what what did i have and not that
+my life would be over if i couldn't paddle but just that's what that belief i think
+is what kept me going um in that in that time and and eventually to cut a long story short
+i did find a treatment for the illness and i did recover and i didn't get back um
+but it wasn't an easy journey do they before we got into what the treatment was in your recovery do they know what's happening to you
+like physiologically when you have um that disorder have they do they know what what's
+causing you um [Music] the problem is is that there are many different schools of thought okay
+and it depends who you talk to and it depends which doctor um and what clinical or study or what
+study you read or which one do you believe i believe
+based on the treatment that i did um which was a treatment called reverse therapy and
+this was founded by a chap called dr john eaton and back quite it was it was only just
+um it was quite a new therapy when i did it back in 2005 for um and
+essentially the symptoms are like alarm bells going off in your body so
+these symptoms the pain the fatigue the exhaustion that can't focus any of the symptoms that you're experiencing
+are alarm bells and your body's way of telling you that there are things
+going on in your life that your body doesn't like whether that be pressures
+stresses relationships environment emotions all sorts of things that are
+triggering these symptoms and these alarm bells and basically if you don't listen
+to the alarm bells they'll get louder and louder and louder to the point where eventually they just
+go right done you're just not going to move now you're not going to until you listen
+up how how how loud do i need to get before you're going to listen and for me it was to the point where i
+couldn't train when i can't train i'm going to listen up because now it's really bad and now i
+need to pay attention and so um i i'm i'm not particularly
+articulate explaining what the physiologic what's going on physiologically but that's that's
+my interpretation of what how the symptoms arrive and how you deal and and then
+what i did so that the the treatment that i did is about identifying what are those triggers what are those things that um that your
+body and mind are saying i don't like what were they and so for me um non-expression of
+emotion is one of the most common triggers and that certainly was the case for me to the point where
+i didn't open up to anyone really i have really close
+friends i have family i have a sister i'm really close to and of course i you know shared it with them but i cried
+on my own for sure but i never cried in front of anyone else i didn't really express how bad it was
+in fact to the point where people would ask and you know how are you doing yeah i'm fine i'm fine and i would just block it out to them
+all the time and that was just making it worse and actually when i started to
+one of the biggest and most powerful steps that i took was opening up to people to the people closest to me sharing what
+i was experiencing with them allowing them to see my struggle and my
+vulnerability and let them help me that's that was a big turning point for me
+um was being able to just express that emotion and share and open up
+because par what i was doing was i was isolating myself by not sharing it and that was
+perpetuating it um and these emotions are worry or pressure that you're
+experiencing because of the sport or what were these emotions that you were suppressing or well so when
+not when i was competing or you know before with the in the beginning the emotions were different but in the middle of the
+illness like not just not sharing it with people not expressing how
+hard i'm finding this how um tough this is that how sad i am how frustrated i am
+how just i can't cope anymore kind of emotions those emotions i wasn't even expressing in the middle of the illness
+you're being tough yeah i'm being poker face anna who has learnt to do this because that's what you do in sport
+right isn't that isn't that almost like there's a bit of a paradox there that the thing that made you successful was also the thing that kind of
+undid you to some degree it sounds like well so that composure and resilience yeah so
+when you're on the competitive arena of sport and you turn up on race day poker face on game face i'm tough
+whether i've missed the last two weeks because of an injury or for whatever reason you're never going to know that
+because i'm i'm here today and i'm i'm on fire and you know i'm ready to race um and
+that's brilliant on the race arena but outside of that
+not helpful not helpful in so many ways in terms of building relationships in
+terms of building trust you know we talk about trust earlier um
+Benefits of being vulnerable
+you can't build trust and relationships unless you open up unless you express vulnerability so true i think
+that's one of the reasons i struggle with my relationships my romantic relationships is because i bring the tough guy thing into my into
+like my personal life sometimes and um it doesn't ever help
+and i think the the progress i've made actually in my personal relationships as you've said has been by like admitting more that i'm
+wrong and like saying how i feel and being like i you know what i mean and that's but that's not conducive with
+the whole like resilient tough guy business thing that i have to do i don't i don't think they're mutually
+exclusive it doesn't feel like they are but you're right like they're definitely not mutually
+exclusive but um they're two different people trying to achieve two different objectives
+in business there's a sense of like you know you've got to really like stand up for yourself you've got to be ruthless to some degree in some
+situations especially when you're dealing with teams and there's [ __ ] landing on your desk every day and you're getting horrible horrible news
+and you have to put on a brave face for your team because you just found out that your whole server's been hacked and they've basically
+half of them have lost their jobs or the pandemic has just struck and then going like
+i know what you're saying do you think of certain moments i think i'm thinking one particular moment which i always talk about in this
+podcast where on the way to work i got this news that we've been hacked and i've got i got 100 or 200 people sat
+in the office in front of me that are now looking through the window and thinking what's going on and my my need to be composed and optimistic at
+a time when i probably was panicking a little bit inside i think got us through i think if i'd walked out there and been
+like listen guys i am [ __ ] it here it might have but in my personal life it's very important to have that
+intimacy and vulnerability i think there's um a balance actually and i think in business
+you are if you are able to be a little bit vulnerable and i'm not saying vulnerable to the point where you look
+really weak but vulnerable to the point where you're honest and you
+might go do you know what shit's happened and actually i'm a little bit scared
+but we're going to find a way and i don't know how we're going to figure this out right now and and it's
+not great and but you know it's about having confidence in who i am
+and what we do and confident in the people around us and my team and you lot and all of us
+that we're going to figure this out yeah so there's a balance there between i'm human
+and yes i'm scared like you because this is [ __ ] and this is a bad situation that we didn't
+want to happen and let's admit that let's put that on the table and be honest about it because people we build trust with
+people when we're honest then we show a little bit of vulnerability and humanity and
+that's how we build relationships because otherwise we're just putting up this tough guy front all the time who
+doesn't have any feelings right and you can't relate to that can resonate can't connect yeah how do we connect with people
+whereas actually oh you're just a human being who's scared too and i'm scared and therefore
+it's okay to be scared but actually i'm scared but we're going to find a way so it's confidence
+and we're going to figure this out because we we are good at what we do
+you know our definition when we do our resilient leader workshops is a resilient leader's confidence and has
+confidence in who they are and what they do and understands their areas of strength and their areas of
+development and finds a way to bounce back and create opportunities and so if i'm confident in who i am and
+what i do yeah i can admit that i don't know what to do right now
+but i know that i have the skills and the resources within me and my people that we're going to figure
+this out i don't know what that way forward is yet but i know that we're going to find a way
+what if okay so what if you um and this is me playing devil's advocate what if you don't
+know that you're gonna find a way so say you're scared you don't think you're gonna find a way and you think it's all over
+say you've got i don't know 500 employees out there the wait waiting for you in the middle of the pandemic to make us make a statement to the team
+do you walk out and lie if you within yourself genuinely as the ceo of a company don't you think it's over um
+because of i don't know the pandemic has just happened and the business has evaporated when you walk out in front of your team
+surely you've got to just lie to their faces to some degree like you've got i think that you have to believe we always
+no matter what the situation is we can only be truly great at what we do if we
+believe without doubt that the future is bright yeah some leaders don't
+naturally you think of you know just some people don't so by like probably probabilistically there's
+going to be some leaders that when the pandemic struck thought we are finished and that as we said earlier about like
+the self-fulfilling mindset will actually probably take them out of business and i just i don't know just because i
+don't think i've ever been comfortable in my career to tell my team that i'm scared i've i don't think i've ever actually
+been scared because i am i kind of resist in moments where
+i probably should be scared i'm so focused on solutions that fear or joy all these other
+feelings don't really seem to be relevant or useful to me but i don't think i could bring myself to tell the team i was ever scared when
+i was at social media maybe you don't need to say i'm scared but it might be that you know what yeah this is [ __ ] yeah
+yeah yeah i could do that and and actually right now i don't i don't know how we're gonna get out of
+this but i do have confidence in my ability and all of us together as a team that
+we're gonna find a way the leaders have to lie sometimes i don't i don't i think we need to be
+honest i think that we need to be transparent and the more
+we can be transparent and we can be honest in what we do the better relationships we build the better connections the more trust we
+have in a team and we figure it out together i agree
+Overcoming your disorder
+yeah so going back to your i want to know so what exactly did you do in terms of you know um daily
+to overcome your disorder was it was there you addressed you know you started expressing yourself more was there
+anything you you had to take or was there you know so there was no medicine there was no pill there was no
+massage treatment there was nothing like that it purely is a recognition that the mind and the
+body are connected and therefore i needed to figure out what these triggers are one of so to give you a bit of context
+so um i leading up to the sydney 2000 olympic games i left the coach that i was working with
+that had got me to become a world champion but i now wanted to go and race at the olympic games and he was very much a marathon coach
+and and encouraged me to go find someone who really specializes in sprint racing
+so i ended up for three years having a coach who was based in another country and i would go and train with them
+sometimes and then i would come back to the uk and i would train on my own and he would
+send me the training program we'd speak on the phone he'd email it to me i'd do the training and i would basically train
+a lot of most days i would turn up to the training do the training and i was motivated enough to be able to
+push myself really hard to i had no problem with training on my own in the sense that i
+you know some people can't push themselves hard and i haven't got the motivation to turn up and do that but the problem
+with that was that i and i didn't realize this at the time
+i was isolating myself and i think i um so i i wasn't engaged there
+was my club i was at my club but i would turn up to my club and they'd all go off and train separately and i train on my own and
+then i'd often turn up at times when they weren't there i wouldn't engage with the british team really much and i was just ice more
+and more isolating myself and then getting frustrated because i didn't have a coach she was by my side
+and i thought that all i needed to do was train hard i thought and the reason i stuck with
+this coach was because he was a great coach and i thought the training program was brilliant and i thought all i need to do is follow
+a great training program and work really hard and i thought that was enough
+and actually i didn't i'm not a robot and i needed i needed human connection and i needed
+emotional support and i needed a place to vent and i needed to be able to show frustration and when the
+training was hard or when i was exhausted and i had no one to even talk to on the riverside bank you know i'm talking to the ducks
+you know it's like i had no outlet for my emotions i had no and i didn't even speak up and tell my
+coach that i was frustrated that he sent me the program only two minutes before i needed to be at the training you know i was going to train and
+because there's this five hour time difference and and i just was probably quite unhappy
+but didn't realize because i was so focused on the goal and the end goal and
+got to train hard and this is what it takes that i was so not in tune with
+what was going on emotionally and i was at my best when i was training in
+a group environment with a coach by my side every day supporting me other i'm an extrovert i get my energy
+from other people and there i was spending my days alone doing this really intense training
+program on my own that is not conducive to a really good
+mental and emotional health and so it was really clear that that was
+not yeah that wasn't sustainable and that was why i had these periods of oh yeah three weeks falling apart and
+i'd have to stop and um and then when i'd get back to an environment that was i was happy and it was all good and i
+would train hard and i'd be amazing and i have full of energy and and i and i had my best year and then i would change and the environment
+change and so my environment and the people around me and my emotional happiness was some of the things that i needed to get a grip
+on um it's so fascinating that people really underestimate the value of human connection but also the
+The importance of connection
+environment we're operating in like hugely i've had a conversation with a friend and he'll be listening to this podcast because he's never ever missed
+one um he's he was working at my old company's um social chain for many years and he's
+he's gone freelance and he was talking a little bit about feeling a bit burnt out he came to my house he's saying feel a bit burnt out i'm lacking
+motivation in the mornings and things like that and when i was a freelancer before i started the company and had 700 people
+around me all day i just couldn't find the motivation to like go to my laptop and send the emails
+but the minute i was in that environment where we had this kind of like shared goal and i had feedback and
+community my motivation was higher than anyone's in the world but i don't think people appreciate enough
+the the importance of the environment and the community that you're operating in and i think there's a certain thing which people don't talk about which i've
+talked about this podcast couple of weeks ago which was this idea of like freelance depression and even like you're seeing it with the world now from working remotely
+having to get up and like now you're realizing what your job actually is because before
+it could have been like seeing susanna and hearing about her weekend and engaging with the office dogs and this and the sense of community
+you've kind of conflated them with your tasks at work and now it's just your tasks now you're
+waking up and on a computer looking at your to-do list and so i think freelance depression and
+it's almost what you've described there is this like inner lack of fulfillment because you've lost
+what was a huge part of what made this pleasurable enjoyable but also your so i guess your support network
+yeah um and that's why you know we talked earlier about motivation and what gets you off in the morning and
+actually going in to hear about susan's weekend or you know to see your friends and the
+connection and the buzz from the atmosphere and and that might be what gets you to work not the tasks that i've got to do but
+actually the people i'm going to hang out with and that environment and we need to understand what is that environment that
+we thrive in and i think people are realizing that over the last 12 months you know
+and especially the extroverts have found this really hard and if you live on your own and you're still and you're not able to go into
+work you're a speaker you speak around the world and stuff and you you love speaking but the minute it
+becomes just speaking to a laptop over zoom to 100 people you realize that
+maybe it wasn't just the speaking that i enjoyed right yeah yeah yeah exactly i don't just enjoy hearing my own voice
+yeah i enjoy telling my story over and over again i i love the connection that i get and
+the feedback and the you know i can't even hear people laugh at my jokes that i think they're supposed to be funny
+i don't even know if they landed or not um and you know when you meet the people
+afterwards and you go and engage with them and how are you going to apply this and what are you going to put into action and and all of that stuff that's that's
+that's the energy that i get when i go and do my work and
+that's that's missing right now um and you're getting it a bit but not in the same way and so
+and i remember actually one of the very first things i did with my sports psychologist he got me to do
+i think it was like a myers-briggs type assessment identifying what kind of personality
+type i was and i was a stable extrovert and and i don't know what he ever really
+did with that information but looking back now that's such useful information so for someone
+if someone had known that and they could see that i was training every day on my own without support without people to
+feed off that's where i get my energy of course i was losing energy and tired i wasn't getting your body was sending
+you a message i'm like i need people to get energy and i'm not surrounded by people that's just one
+example of one of the triggers but you know so it was about finding out what do i need to thrive
+it's fascinating uh we had johanna hari who wrote the book called lost connections on this podcast his book is
+behind me one of my favorite books of all time he's coming back his whole his whole um book is about the real the nine real
+reasons for anxiety and depression and to kind of conclude it in in a very sort of narrow way he talks
+about these feelings we get of loneliness and lack of motivation and anxiety and depression when you look
+at all the studies and he was someone that was depressed and given the pills and you know they said oh you're broken chemical imbalance when you look
+at the studies it's it's almost indisputable that much of it these days is because of social factors and our
+lack of human connection they've got examples where they've given a guy in uruguay goat who was depressed and because he's
+got now that connection with an animal he's his depression his symptoms of depression almost evaporated
+but the lives we live in 2021 between four white walls if we want food
+we press an app if we want you know to see our parents it's through a piece of glass and living alone in these industrialized
+cities it's actually completely against our innate human programming and he says one of the
+things he says which i've written in my book as well is about how these feelings are our calling to get back to being more human it's
+like your body calling like loneliness is this calling like get back to your tribe you know what i mean and then
+and i and it sounds like [ __ ] because it's like well my loneliness isn't the thing but what you've just described there is
+quite literally something that's happened in your mind having a real substantial almost
+devastating and crippling impact on your body and health the thought that your mind
+can disable your body is um terrifying on one hand but also kind of
+like a really powerful important you know but if you think about many
+illnesses ailments from [Music] getting a you know crafting people will
+get a headache when they're stressed people will get a migraine when at the end of a stressful period people will
+get sick sick you know so there are so many illnesses that can be considered
+as emotional but manifest physically yeah it's crazy so it's not
+the first example yeah and and you know like your loneliness is my calling to get back it's an alarm
+bell right you're feeling really lonely and it's a warning sign to you it's a message
+to say you need to do something differently in this example get back to your tribe and in the same way that my body the
+alarm bells were i'm going to make you so tired that you can't train so then you're going to listen
+and you're going to figure out what it is that you need to do differently to get back to training
+in a really healthy way and when i returned back to training i was able to change
+lots of things about my environment about the people i was with about the pressures i put myself under
+you know all of these things that i'd figured out and then i trained harder than i had before
+because i was in a really healthy environment and place and i was listening to my body and my
+mind they call it mind body and i was able to tune into that and go
+every time i was anywhere near just not feeling quite right i'd go what
+what's my my body telling me right now what is it that's going on that it doesn't like what do i need to be aware of and then i
+could thrive after that it's a big shift in conventional thinking because whenever someone exhibits
+physical illness people say oh what tablet does this person need you know what's the chemical and and
+that's why you'll get lots of different if you research cfs there's so many different schools of
+thought oh it's a post-viral fatigue it's you know there's lots of um
+yeah i guess um physiological explanations for it
+and maybe and there's probably lots of you know clinical research behind that suggests that it is i don't know but my
+experience was that something else and that's all i can go by really and you came back
+to the sport competing again i'm guessing yeah so i returned two years later and won the world championships
+and european championships in 2005 and then went on to win two more times after that and compete in beijing three years later
+it's incredible so now all of that's you know that part of your career has um ended
+What’s next for you?
+very very successfully and you've you know you reached the real i mean you were the world champion multiple times looking forward at your
+your your the career since then and into the future what matters to you and what's getting you out of bed now and what's
+making you um excited for yeah life um i love
+helping others now helping others sharing learning from my experiences in sport and taking those
+lessons and bringing them to other people mostly in the business world and developing people you know
+i had you know spent a lifetime with coaches who were developing me um
+or the athletes and the team and it's the same thing it's about
+developing people you know in bus in sport it was about getting results through people
+developing those people to get results in sport and now i'm using that to get results
+for people in business by developing people and and i get a real
+kick out of you know if i'm coaching someone and coaching a director or a leader whoever it is i was coaching
+this morning and seeing them have that aha moment about a limiting belief um
+you know getting the new dream job um engaging with the team being a more
+confident leader whatever it is i love it when i see that change and that transformation in other people
+helping them to change habits to change behaviors to excel to get the best out of themselves that's what really
+that's what motivates me now is is helping others to fulfill their potential
+well listen it's been um an incredibly interesting diverse conversation one that's made me um have a couple of
+my own personal epiphanies so i thank you so much for coming today and sharing your story um where do people find you if they want to get in
+touch with you where's the best way to reach out so annahemings.com my training consultancy call is called
+beyond the barriers so be on the barrels.uk i'm on linkedin um we'll find you they'll finally turn on we can find a
+remote yeah but i thank you so much your story is i mean it's it's incredibly like multi-faceted with twists and turns and
+um you exhibit you know so many of the qualities that i think
+are typical with the most successful people i've ever seen these topics of like resilience dealing with pressure and like the
+understanding of oneself and your mental state and i mean you've got these incredible twists and turns with with your illness
+um so i mean it's just just so incredibly inspiring and when they when they suggested that you would join me in
+this podcast i thought it was you were just like the perfect guest for these reasons um and you've you know you've you've
+blown me away in many occasions and it made me feel quite emotional as well so i just wanted to say um thank you for
+coming and um i i hope that we can stay in touch and um yeah just to thank you more than
+anything thank you for inviting me on the podcast it's been a pleasure thank you
+i've just got one small favor to ask you if you're listening to this podcast on youtube or apple or on spotify
+do me a huge favor hit the subscribe or follow button it helps this podcast tremendously and in order to reciprocate what i'm
+going to do every single podcast episode is i'm going to pick one subscriber and i'm going to send you a message on
+instagram or facebook or on youtube wherever you are and i'm going to say how can i return the favor and you can tell me what favor
+i can do for you so this is a favor for a favor hit subscribe follow or subscribe if you're on apple podcast
+thank you
 
 ----------
 
 -----
---10-- [The Diary Of A CEO](https://www.youtube.com/@TheDiaryOfACEO/videos)
+--10-- 
 
 -----
-Date:
-Link:
+Date: 2021.01.12
+Link: [# The Secret To A Good Nights Sleep with Stephanie Romiszewski | E64](https://www.youtube.com/watch?v=18iBvgUbSMk)
+
+Notes:
+### Notes from the Video Transcription
+
+#### Advantages:
+
+- Proper sleep enhances cognitive abilities, improves mood, and boosts overall health.
+- Consistency in sleep schedule aligns with the body's natural rhythms, enhancing sleep quality.
+
+#### Drawbacks:
+
+- Misinformation and fear about sleep can lead to stress, anxiety, and worsen sleep issues.
+- Over-reliance on sleep tracking technology and sleep aids can lead to dependency and disrupt natural sleep patterns.
+
+#### Tips and Advice:
+
+- Focus on sleep quality over quantity. A consistent wake-up time is more beneficial than a fixed bedtime.
+- If waking up in the middle of the night, engage in a relaxing activity until feeling sleepy again instead of forcing sleep.
+- Avoid using sleep aids or caffeine as long-term solutions for sleep problems.
+
+#### Lecture Content:
+
+- The difference between sleep deprivation and insomnia, and the importance of treating sleep issues as a primary condition.
+- Cognitive Behavioral Therapy for Insomnia (CBT-I) as an effective method for treating insomnia by retraining sleep patterns.
+
+#### Main Challenges:
+
+- Overcoming the misconception that a fixed amount of sleep (e.g., 8 hours) is necessary for everyone.
+- Managing the fear and anxiety associated with not getting "enough" sleep, which can exacerbate sleep issues.
+
+#### The Importance and Usefulness of the Topic:
+
+- Sleep is a critical component of overall health, and understanding how to manage sleep effectively can significantly improve quality of life.
+- Dispelling myths and providing accurate information about sleep can help alleviate unnecessary stress and improve sleep quality.
+
+#### Accomplishments:
+
+- Many individuals have overcome long-term insomnia and improved their sleep quality through proper education and behavioral changes related to sleep.
+
+#### Summary of the Content:
+
+- The discussion emphasizes the importance of understanding individual sleep needs, addressing sleep issues with appropriate interventions, and the detrimental effects of misinformation about sleep.
+
+#### Interesting Quotes or Insightful Sentences:
+
+- "Perfection is the enemy of the good when it comes to sleep."
+- "You can't force yourself to sleep, but you can force yourself not to sleep."
+- "Good sleepers are those who don't worry much about their sleep."
+
+These notes highlight the key points discussed in the video, focusing on the critical aspects of understanding, managing, and improving sleep for better health and well-being.
+
 Transcription:
 
-paste here
+Intro
+they just don't have the education so our own doctors do not have enough education in something that we do a third of our lives
+if you are waking up in the middle of the night and it's been happening to you over and over again to resolve the habit you're going to
+have to
+sleep it's a thing that we all do every day but for some reason in our society it's still a little bit of a mystery
+how many hours should we be sleeping what is sleep debt is there a perfect sleep routine should
+i wake up at a certain time why do i get sleep paralysis insomnia why do i have these dreams
+my next guest stephanie romichevsky worked with nasa and harvard medical school to understand
+these questions stephanie currently works as a sleep physiologist helping people cure and understand their insomnia and
+sleep disorders so without further ado my name is stephen bartlett and this is the diver ceo i hope nobody is listening
+but if you are then please keep this to yourself [Music]
+What the result of not sleeping properly?
+stephanie the first question i wanted to ask you and i've got millions and millions of questions to
+ask you because this is a topic which i as i said before we started chatting on air
+um has really peaked an interest over the last three years i've never had so many of my friends in my
+sort of close circle ask me questions about sleep send me articles about sleep and i don't know what's happened but as
+a nation and as a as a species i think we've got really really curious about this idea of sleep and also its
+importance the first question i wanted to ask you was a was how important sleep is but
+i think a better way to understand that and the answer is to actually look at
+the consequences you've seen in your line of work um for people that have
+bad sleep or that have insomnia um so could you speak to that a little bit i can that's a big big question yeah um
+what i have seen over the last 16 years of my career is not people coming in dying because
+they aren't sleeping or with really really significant illnesses i've seen people
+very anxious very stressed very low because their sleep is poor and they are
+extremely worried about it and i've seen people who are you know at the top of their game and doing
+really well in life but are completely crippled by these sleep problems but it is the fear
+of bad things worse things happening to them that is keeping them as stressed and upset as they are so
+it's quite interesting because i think the the things that bring people to me to get their sleep treated
+are exactly that that fear is actually what i'm trying to alleviate rather than
+um fixing their sleep because i think they're going to get so sick that something terrible is going to happen to them
+and so it's a really interesting question to ask how does sleep affect us the reality is we actually we or why do
+we sleep we don't know actually why we sleep we know what happens when we don't sleep
+but i think we're getting very very confused between those of us that struggle with sleep and
+those that are actively depriving themselves of sleep like the ceo who says
+i'll sleep when i'm dead for example sure um but you know those of us who are
+actively trying to sleep when we can't and we will do anything and we we make
+our sleep opportunities larger and we still can't get sleep we're not depriving ourselves of sleep we're doing
+anything we can to get sleep so i i worry about the amounts
+out there about sleep at the moment and the way that it's the information is being disseminated because i think
+that's where we're going a bit wrong and all the tracking of sleep and all the tech that comes out i'm not saying it's
+it's a bad thing i'm just saying that it's almost like we haven't quite caught up with all the information that we have
+and we can't cope with it quite the way we need to so you speak about the tech that we have
+Where is the bullshit?
+now apple watches all these little you know smart devices that are telling us how many hours a day we're sleeping
+and also there's you know books there's probably a couple books on the shelf behind me about the perfect night's sleep or the perfect morning routine or
+the perfect time to wake up where is the [ __ ] oh my god again another massive question um
+there is so much of it it's it's all it's so nuanced you're going to have to ask me some specifics because
+there is so much there that actually is i mean well the first thing the biggest thing i
+would say is you know going to bed at exactly the same time every night dictating your bedtime is
+probably the worst piece of advice i've ever heard and sends people off on all sorts of different tangents which does not help
+if anything it makes their insomnias worse because they go to bed in the dark not able to sleep getting
+more anxious heart rate going up what should they do instead stay up until they're sleepy
+don't worry about it enjoy yourself relax do the things that you probably don't get time to do because you're busy doing
+all the other things during the day is the problem i have with that approach which is the approach that i think i've
+adopted maybe a little bit too much or incorrectly is if i stayed up doing the things that
+i want to do what happens is i'll stay up till 7 am just looking at youtube videos and learning about rockets and looking at like stocks to invest in and
+stuff that's that's me to a t i at some point i have to put my laptop down and be like steve just you're going to feel awful tomorrow if
+you can looking at this investment fund that you think is interesting yeah absolutely so to a degree you can i
+mean we can manipulate our bodies to do anything in a lab i could manipulate your body to sleep when i wanted it to
+sleep um but that's taking away all the environmental factors all the behavioral factors of your life
+um and what you're doing now you know what it's not the end of the world you know you're obviously coping with it and you're healthy and the problem is you
+probably won't be able to sustain that and unfortunately we are built in such a way that kind of goes with the
+the light dark cycles on this planet um and so to a degree you are sort of going against that and unfortunately we've got
+lots of other we've got lots of research showing that after a while you just can't do that forever without implication
+um so it's not i mean if you think about it insomnia is just a different pattern
+of sleep you've just trained your brain to sleep differently and you're still surviving with it it's
+just that most of us don't like that because it's not the rest of society in the way that they're sleeping
+and our friends are sleeping and it feels like we're the only ones awake in the night i bet if you didn't have all those
+things to do and you weren't the way you were and you were up at night and everybody else around you was asleep
+it would start to feel like a very lonely um anxious place we're not very rational at night we're not really
+made to think in the middle of the night so not incredibly rational so i don't think it's the end of the
+world what you're doing but at the same time put it this way i treat a lot of entrepreneurs
+when they've retired and they're still fairly young but not in a good place because they have not followed anything that
+was fairly going along with what our physiological processes want to do our bodies are all about regulation we have
+clocks in every cell in every part of our body and they like regulation they like
+time they like the timing of things to be ready and and regular and when we keep changing
+those goal posts it might seem like we're being uber flexible but actually the reality the reality is
+is that later on down the line you'll probably find that you won't be able to cope with it as much
+and how does that manifest itself for me so so for you if you just carried on the way you were then unfortunately yeah we
+probably would see that um maybe you were getting less sleep than you needed um it probably would be
+harder for you maybe when you settled into a routine where you were working around the same hours every day
+say you got a certain kind of role that you had to do which made you know you had to have a certain schedule
+you might find it quite difficult after a while to stick to that schedule and you might find that you aren't able
+to sleep as much as you want the duration and the quality will be impaired and so you might start
+all the research around sleep and how important it is for you you might start noticing things like
+your cognitive abilities are less so your memory things like that um your ability to
+produce cytokines so the proteins that help us with keeping ourselves healthy and keeping
+inflammation at bay and things like that all those kind of things will be reduced your healing so when you go and weight
+training or something like that or you go to the gym and you want your muscles to repair they're not going to be able to do that so well and of course that over time
+short term it's not a problem over time long term that's when we start worrying about
+more significant illnesses and um disorders that are happening as we get
+older and so that's why we see lots of research showing that as we get older maybe some of these
+things like alzheimer's might be related to how we treated our sleep when we were younger however
+i hate it i hate mentioning things like that because i think it frightens people and the problem is
+with frightening people is that they go into what they think is most logical things to do so they might go
+away after this podcast and think oh my god i've just got to go away and get my eight hours because the rest of the
+information is telling them out there that they've got to get this eight hours of sleep every night um and of course they can't just get
+that you can't dictate to your body how it sleeps there is a process it follows it and so
+unfortunately you can never force yourself to sleep you can force yourself not to sleep and that is partly how you fix a
+sleep problem but you can never force yourself to sleep but you can induce anxiety and stress and depression
+through that and lack of sleep so yeah in um
+if you're an expert in this field so you must as you kind of spoke to there you must get pretty i can feel it when you're speaking get
+pretty pissed off when you see unhelpful information um being pushed on i don't know social media or online or
+through books these sort of simplified narratives what are some of the most um common misconceptions that you speak to your
+What are the common misconceptions
+patients about you've mentioned one there about this like eight hours of sleep being the optimal yeah and even when i put out
+on my instagram earlier what are the key questions you want to ask um i'm speaking to a sleep therapist expert today um
+i'd say the vast majority or at least the medium question was uh do i need to get exactly seven or
+eight hours sleep every single night yeah um yeah so that is definitely the biggest one we get um
+you do not that perfection is the enemy of the good have you ever heard that term because at the end of the day it's true
+yes your body loves consistency and regulation but that does not mean you have to get eight hours of sleep every night think
+about it differently think about it over a month for example we love this idea of the way the way we look at time is slightly different to
+the way your body looks at time and over a month you might actually be all right so maybe one night you get
+six and a half hours the next night you get seven and a half and then the next night you might get slightly different as long as it's fairly consistent and
+maybe eighty percent of the time you're doing fairly well and you're you're giving yourself the right opportunity to sleep
+that's okay your body's gonna do it you know it will do what it needs to do and and with that a caveat to that is
+this understanding of sleep debt so we don't understand sleep debt properly people think it's an eye for an eye
+i lose four hours i must gain four hours well what happens when your body being as efficient as it is doesn't
+actually need you to gain an extra four hours of sleep to recover you your expectation is that it should and
+when your expectation doesn't get met you get upset about it and you change your behavior and that's when you start getting sleep
+problems when the reality is your brain is so smart that even in the certain amount of hours
+that you get normally at night it can recover you from that sleep deprivation by just improving or
+increasing the sleep stage that it thinks you miss the most for example but because we have a lack of education
+we believe we don't get some sleep we need to regain that sleep and when we don't regain that sleep
+that's when the anxieties and the stress is over not sleeping start so that's a big one the sleep debt one the other one is this idea that fatigue
+and sleepiness are the same things so yes when we don't sleep well we get a lot of fatigue
+so fatigue is anything from feeling like your body needs to rest to needing to shut
+your eyes to pain to your brain buzzing because you've been working so hard for like 48
+hours straight and you don't know what to do with yourself but the only definition of sleepiness is the ability to shut your eyes and within
+a few minutes you're falling asleep so if you were saying to me right now steph i am so so sleepy i'd probably say to you well you
+don't look it because right now you don't look tired in the way that i would expect you to be falling asleep i mean you wouldn't be
+able to sit still you you would be sort of probably your eyes would be shutting all the time dozing off having little micro sleeps
+that sleepiness and that's what we should really be understanding as a cue to sleep so in the evenings if you're
+not feeling that then don't be don't be worried give yourself permission to stay up later
+because you can't dictate what happens to you during the day and there are so many variables that affect your sleep you are never going to be able to
+control them having good sleep hygiene how many good sleepers do you know have it so good sleep hygiene is all these
+things that we get told we should do so the 10 top things that you should do have a warm bath never drink coffee ever
+again um never have alcohol you know all these things that you're supposed to do but if you look at good sleepers are
+they following all those things no they're not and they're still sleeping really well and that's to show that most of the time
+sleeping poorly comes down to brain training and the patterns we get ourselves into
+you start going to bed early you might be able to get to sleep earlier but you're probably not going to be able to
+have that sleep all the way through the night because at some point or another your body's going to be like well you've had enough now but your expectation is
+you should be able to sleep till seven and why didn't i sleep till seven or if you lie in you keep changing the goal post of
+your wake-up time which is the most important thing that you should be looking at not your bedtime um if you keep changing that
+goal post your body doesn't know when to feed you it doesn't know when to make you feel alert because you've changed everything and so of
+course you're not going to be sleepy at the right time the time you wake up is the
+much more important time to be focused on yes the things your morning routine is going to be way
+more important than your evening routine when it comes to your sleep at night but be because people see that as a far away
+time compared to when you go to sleep they don't really focus on it in fact haven't we been taught in this society
+that lying in as a luxury i can't believe that we have made it okay at the weekend
+to lie in so much but during the week one of the only things that gets us up is work it makes
+absolutely no sense to me i'm not saying it's the worst thing in the world i'm not saying i never lie
+in but i don't use it as a compensatory method for a bad night's sleep because that's when you're going to get into
+trouble because that's kind of throwing your your your schedule up is that what you're saying yeah
+yeah so if you line on the weekends and you're going to pay for it at some point yeah why are we not looking you know if you
+have to lie in so significantly every single weekend why are we not looking at during the week and thinking why am i doing this to
+myself at the time when i need it the most i would choose to get less sleep and then
+at the weekend i'll just compensate and people and you much of the conversation around sleep and society
+talks about the amount of hours and it's almost like the amount of hours that i was in the bed
+um what's your sort of rebuttal to that because quality over quantity every
+single time every single time and if you have good quality and you need
+longer your body will tell you and you will get more sleep but people are so obsessed with duration
+and i i think people don't understand what i mean by sleep opportunity i mean every single night most of the time so
+about eighty percent of the time i will give myself a seven to eight hour sleep
+opportunity sleep window but i do not mean that if i'm not sleepy i take myself into a dark room and shut
+myself down i just know that it's there i've got a bedroom a place i really want to be to
+sleep that is available to me during those hours and i will not sleep outside those hours and that's the
+that is the big thing is you can dictate to your body when you don't sleep but you cannot dictate when you do and
+by doing that you will force your body to be in a nice regular cycle it's actually really really simple once
+you know how to do it and every time i fix someone of their insomnia there and honestly 50 60 years of insomnia
+they often turn around to me they're like i don't know why i wasn't taught this when i was younger and i do believe if
+we taught everyone how to sleep properly give them a proper sleep education when they're little i wouldn't exist
+How should I be designing my environment
+insomnia wouldn't exist you talked there when you referenced your own bedroom i think you
+spoke about it quite lovingly it's about this place i like to sleep how important is that how important is it to sleep in the same place and for that
+space to be is there a certain way i should be designing my bedroom is there like a bed that's good or like a pillow
+because there's lots of fads around yeah yeah there's a lot of fans around i think your environment is important
+but i can't dictate to you what that is because we're all so different um yes it's true
+you don't need loads of technology in your bedroom to sleep i'm not saying technology can't aid our sleep because i
+think in the future we're going to come up with some crazy cool things that are going to really help us i just think right now we're not quite
+there i think the least you have in your bedroom that reminds you of the day is really important so obviously screens
+and light is very important when it comes to sleep but i think people mis are missing a trick when when we say
+don't look at your phones we're not just saying don't look at your phones because of the light exposure we're saying it because it's reminding
+your brain of something that you did during the day and so your brain being the smart thing that it is is thinking
+okay well i'll um i'll i'll increase your cortisol and i'll reduce your melatonin which is
+your stress and your sleepy hormone uh hormones um and i'm gonna help you be
+more alert because you clearly want to be alert right now and so your brain thinks it's helping you
+and then you're thinking hang on a minute i just looked at my phone for like three seconds and now i'm buzzing why and it's just because your
+brain is your your behavior is so much more influential on your physio physiology than you realize what do you
+What do you thunk about the snooze button?
+think about the snooze button um i think if you have to use it on a regular basis you need to start
+questioning why you always need to snooze unfortunately the research shows that snoozing does not benefit us
+at all and actually if you think about it if if you are a snoozer you know how many times does that
+actually make us feel better exactly delays sorry no i think it's
+nonsense as well i did i one of my modules when i was doing psychology in school was about sleep and
+um understanding the different phases of sleep made me realize that the snooze button is i think totally pointless because you
+have to be in a certain phase of sleep for you to get real benefits and within 15 minutes you're not going to
+How to sort your sleep tonight
+get into that phase right absolutely um a lot of people when they you know when they
+knew that i'm speaking to you today um they want to know how they can sleep better in the short term tonight they're
+looking for some kind of quick fix to the to a problem they've had for a long time what would you say to those people
+okay so the first thing i'd say is that you're never going to find that reactive very quick method it's never going to
+happen and even if you find it i promise you it won't work in the long term it might control your condition in the short term
+but not in the long term i can teach you how to re to sleep but it's going to take you
+a a a few weeks not a night um but in the meantime don't worry it's okay like part part of
+this is i just there is a solution so what i do is called cognitive behavioral therapy for insomnia it is not the same as cbt for
+depression or anxiety or anything else um and it is just about retraining yourself to sleep and building up that
+strong sleep drive you have to do that over time but in the short term i usually tell
+people that they do not need to worry nothing bad is going to happen to you and the reality is
+that it's more your mood that will affect your day when you wake up in the morning than the bad night's sleep you just had
+so i know we've got evidence to show that when you have a bad night's sleep your cognitive abilities etc are going
+to be um reduced however if you think about how you generalize that
+you're not you're not going to lose your job you're not going to perform horrifically in that meeting because you didn't get a good night's sleep
+it would be far better for you to go to bed later and make sure you're lovely and sleepy and only get four
+hours than to go to bed eight hours before that meeting and toss and turn and be fidgety and
+stressed and anxious all night that's what i do i still get nervous when i have to do like a lecture in front of 500 people of course i get
+nervous but instead of you know focusing on my notes just before i go to bed i'll put everything aside
+i'll go and enjoy myself do something i really love to do i'll get ready for bed a bit earlier
+than usual just so that i do not have to think about anything when i get sleepy and when i am sleepy even if it's two
+three four hours later than usual i know that i'll go and have a really lovely
+three or four hours sleep and then i'll wake up and i'll be like great i know i'm gonna be a bit sleepy today but that's only gonna help me sleep tonight
+and i'm gonna have an epic day i don't care that i'm a bit sleepy sleepiness is amazing sleepiness is such a good thing
+for you why are we teaching people that sleepiness is a bad thing you need sleepiness to sleep
+i've got two questions though the first i'm sure is it feels like a very um related sort of question to what
+Do you sleep well?
+you've just been talking about there which is do you sleep well i'm sure you get asked this all the time at every party every
+time you it's like asking a comedian to tell a joke right yeah yeah it's like how was your sleep okay so most of the
+time my sleep is fairly good because i've been lucky enough to be educating myself through this for
+the last 16 years but it's not good all the time because it's totally normal
+after some kind of life stressor new illness some dramatic change in our society
+like we're seeing right now for your sleep to change and for it to be poor okay it is totally normal to have sleep
+problems we will all get them you will never find someone who does not have a sleep problem at some point in their
+lives but there is a difference between somebody who has a short-term sleep problem and when the initial issue resolves
+itself the sleep problem goes away and the person who has now unfortunately got
+a long-term sleep problem the difference is the behavior it is not the person it is
+not some trait that you have over someone is not something genetic there are there are all of those things
+that do feed into for example insomnia but the reality is the thing that seems to perpetuate sleep
+problems is not usually the original trigger so we cannot blame the divorce for example 20 years ago i'm not
+divorced but i'm just making an example so 20 years ago we get divorced and it's a really stressful situation and it
+stops you sleeping for a month okay but now you're remarried and you're perfectly happy but you've got a 20-year
+insomnia problem we cannot blame the divorce for that anymore and also somebody else who's gone through the
+same situation same illness or divorce or new medication would not have had that sleep problem 20
+years later so what is it and i believe and we know that most of it is your
+behavior after a few weeks of a sleep problem most people will freak out and they'll start changing their behavior
+so they might start lying in they might start going to bed early they're trying desperately to improve
+their sleep opportunity because they believe the mere act of lying in a bed for longer is going to
+miraculously give them a stronger sleep drive and make them get through whatever it is they need to get through when the reality is and this is usually
+how we treat insomnia or one of the ways we actually deprive you of your sleep opportunity so we don't deprive you of
+sleep but we do deprive you of your sleep opportunity so we only allow you to be in bed for a certain amount of time and that fixes it
+but that's frightening because with teaching people that sleep is so bad or not sorry not sleep is so bad but
+sleepiness is so bad that they don't feel that they can build up that strong sleep drive without something terrible
+happening to them so the way we are disseminating knowledge right now is not working and we have got to find a
+The Therapy you offer
+way to change that you talked about the type of therapy you offer cognitive behavioral therapy for
+insomnia one of the elements you've described is this sleep deprivation which is in essence you're
+stopping people sleeping i'm guessing throughout the day to focus them on
+their sleep opportunity um yes so it's less about restricting their sleep and more about restricting
+their bedtime so often when you come across somebody who's had a sleep problem for a fair while enough to come to see me
+they're usually spending more time in bed than they are sleeping so for example they might be in bed for around 10 hours but they're
+only sleeping for say six hours and so what i would do is i would restrict them in the first
+instance only so it's only mildly to six hours in bed because or five hours in bed whatever they're sleeping
+for i would we would we would never really go lower than five hours because at the end of the day we're only
+um sort of guess it's all a bit of guesswork here um and that's important that it's like
+that and we're not over tracking sleep because that's has its own issues um and then for a week or so i'll keep
+them on that schedule and try and get them to strictly stick to it which is quite scary for somebody who thinks the total
+opposite way is going to fix them even though they've got no evidence that it works it doesn't matter they've been doing it for a long
+time so it's quite hard to get someone to do this and then once we can get them to sleep for around 90
+of that five or six hours whatever they spend in bed then we can start increasing their sleep
+time out very very slowly but people sort of get very over eager about this it's called sleep restriction
+therapy um or there's lots of different ways of calling it and people get over excited
+about it and they're obsessed with reaching that 90 percent efficiency so they can move on and add time but i try to always explain to
+people and indeed i do online courses in sleep that they can do themselves and i'm always trying to explain to them
+it's not about adding more time imagine if you are getting to five or six hours sleep efficient every
+every night for seven days as an average that's really good that's so much better than the broken sleep you were getting
+before think about the new quality that you have built how amazing is that when's the last time you went for a week
+and you had that consistent sleep and when they start thinking about it that way they're like oh my god yes this is so much better
+and i'm even able to add more time now and we slowly incrementally start adding sleep out and that's how
+you fix it i mean it's not everything because you've got to work on the mindset you've got to work on the re-educating people what are those other
+pieces of the therapy yeah you gotta so first of all one is the
+sort of sleep restriction as you called it yeah one area is you we need to you've got to be
+re-educated on sleep much like we've been chit-chatting away today that's how i will talk to someone
+and i will try to help them understand um i'll try and pick out a lot of the things that they talk to me about
+um but it's trying to help them understand where the myths are where the facts are with sleep because a lot of their ideologies around sleep
+will be directly influencing their behavior and so as soon as you can change that and it's not as simple as just saying
+that's right and that's wrong you've got to keep doing it and they need to trust you and and you've got to find a way in the right language to
+speak to that person once you've done that you can start with the sleep restriction and then of course whilst there is no
+evidence that relaxation or anxiety reduction is going to directly and reactively fix a long-term sleep
+disorder after you've started improving your sleep drive and using the sleep restriction therapy to do that
+then yes we do need to start looking at how do you bring yourself back to balance during the day
+is it stress and anxiety that got you here in the first place because you're working too much and you got yourself into the wrong patterns
+how are you going to process more during the day how are you going to balance more during the day we need to look at those things but we
+need to look at them with the right expectations which is that they are not going to make you sleep because once that expectation is not met
+you feel really inadequate and then you feel like nothing can help you and then you get hopeless and out of control and lonely about your
+problem so all this lots of different sort of elements like a pyramid to try and help someone
+Caffeine and sleeping pills
+with their sleep and you know people um cat caffeine has become a huge part of our you know we live in a society where
+people take caffeine to wake them up and then quite often they'll take certain supplements to shut them down again like sleep
+new supplements or um various knighthold i think is one of them right i don't know yeah yeah um what's your take on all of
+all of these chemicals we're using to kind of regulate our alertness and then our tiredness
+they just they can't work overtime so all the research shows that eventually you either get used to them they stop
+working they make you feel really uncomfortable i don't think there's anything wrong with for example sleeping pills or using
+caffeine in the short term things like that um but starting to use them long term they have their own
+all of them have their own side effects and over a long time of use aren't very good for the
+body and but in general they're just not going to they're not going to suddenly miraculously reset your sleep button or
+anything that's people seem to think they're going to do so i don't think relying on these things in the short term is a bad thing every
+now and again but if you're relying on them every single time you have a sleep problem you're effectively making it worse
+because your brain isn't learning anything it is literally just being giving a cheap method
+like a fake sleep almost and that is what you get from a lot of sedatives is sedative sleep which is not the same as
+the cycles that you go through usually to sleep well so you're not getting but psychologically
+we believe that sleep is better than no sleep and actually i don't necessarily agree with that in a
+way i'd rather get no sleep than a really rubbish sleep knowing that my body will like build up
+a really strong sleep drive and help me later but people are so terrified of that that they that psychologically they just need
+to feel like they've slept but if they had a bit of better education around sleep and they understood how it worked more
+then i don't think people would be trying to grab all these things all the time but we live in a reactive society
+we're not very proactive as creatures we want we want it now and we want it done yesterday what about caffeine that's
+such a huge part of everybody's well pretty much everybody's daily routine people they you know they'll say i have to have
+this coffee to wake myself up yeah i have three or four of them a day and then what impact does that end up
+having on sleep so caffeine is very interesting because genetically we are all
+either sensitive or not sensitive or somewhere in between with caffeine so it's very hard to say nobody should be drinking caffeine after
+this time yes it does have a very sort of it has a big afterlife so it definitely
+or half-life so what we mean by that is that um you know it's going to have an effect on you hours and hours after you've had it
+but depending on how sensitive you're to to it you are you know but at the same time there's so much more you
+can do if you started waking up at the same time every day you would start to feel refreshed you would be one of those people who wakes
+up and is like yeah i'm ready to start the day imagine if you just used your body the way it was designed to be used
+i'm not saying caffeine is bad i definitely wouldn't say you can't drink caffeine but if you're
+starting to use it anything in life in anything chemical in a compensatory method because something
+is wrong that's when you need to start questioning it but in general having caffeine in the morning i don't think
+there's anything wrong with that if you enjoy it great but then there's lots of research that shows that even your performance
+isn't significantly improved by having caffeine you might feel like you're able to buzz around everything more but your
+actual efficiency isn't necessarily improved i i wonder you know because i think i was looking at some stats
+Whats causing all these sleeping problems?
+around insomnia and sleep so sleep disorders and the stats are pretty staggering and
+i don't know how to say this but i just don't tend to believe that humans after all these thousands of
+years of evolution have been born with quite an apparent or seemingly apparent um
+problem with sleep so it makes me think okay so what is it in our social um environment and society
+that's making us struggle with sleep is it our over obsession with the
+perfect sleep that might be one element and this you know and all the fear and anxiety around not sleeping perfectly as
+you've described and we're actually doing pretty good yeah right and labeling ourselves as insomnia you know because that word
+i'm an insomniac or insomnia it's thrown around pretty yeah absolutely or is it the you know the
+tech in our lives is it the the over stimulation of the you know the technology we have is it overworking
+what's your take on that because i feel the same about depression and anxiety as well i look at the stats growing over
+time um in ver with various sort of mental um illnesses and i think surely we weren't
+born um with chemical imbalances as is um said in um yeah i love them
+yeah i so it's a hard question to answer i think that there is element there's
+lots of different elements i don't believe that the stats are as accurate as they probably seem
+for example i believe that before you know the industrial revolution for example we had um sleep problems i i mean i
+no i do i believe we did it's just that i believe we're recording things now more so there's that aspect of it
+there is this aspect of we over worry about things and you know at the end of the day while someone keep you know lots of people out there
+keep telling us that actually um you know if you sleep less than six hours you will die early
+but actually we're not actually seeing that today um yeah how much am i reducing my life
+expectancy with my poor sleep the thing is okay so if you know you've got poor sleep you need to improve it but
+hopefully it's not going to be long term you can actually get some support for that and get it sorted if you're
+actively keeping yourself at five hours when you know you're a seven hour sleeper then yeah you're going to reduce your
+life expectancy but if you're naturally a five hour sleeper and they do exist then that does not mean the same thing
+that you're going to be reducing your life expectancy when genetically you can't you know that's for you
+um it's really difficult to understand i think um you know electricity has a big
+part to play so again i talked a little bit briefly at the beginning about the light dark cycles of this planet
+and the way that we are designed or not designed but you know we're built on this planet we we seem to have
+evolved that way um and so we we we definitely do need to be
+in general not uh working and resting more at night and we we work better our metabolisms our
+brains function we're more rational during the day um and so with electricity has become
+many problems i definitely think the scaremongering and the fear and the tracking of sleep
+has definitely caused in the last few years a boom in sleep problems or at least how many people are coming to us for help
+and with the the pandemic what impact has that had on people's sleep heel let's talk about heal for a second
+i've spent a lot of time on this podcast talking about the ready to drink your bottles which are my favorite for convenience reasons it means i don't
+have to mix anything but this week as my goals in gym and in my health in my physique have started to
+evolve i've started using a new product that i wanted to tell you about and the reason why i've started using this
+product which is called huel the black edition is because there's 50 less carbs
+33 more protein um zero artificial sweeteners and it's of
+course gluten free i wish i had something like this to be honest when i was a student
+because it's literally one pound 47 per meal i think you get about 17 or 18 meals out
+of one bag and if you're someone like me that in this phase of my life that's trying to build a bit of muscle get a little bit more lean whilst
+also you know reducing the carbs a little bit then give black edition huel a try and try the vanilla flavor if you
+do get a chance because that's um for me is the the tastiest flavor of them all and do you know what i'm gonna do next week
+in the podcast i'm gonna take my top off okay so i'm gonna um show you the impact that uh
+all of this being a huel again has had for me you're gonna have to tune in next week and you're gonna have to watch it on youtube to see
+that but um i'm gonna show you the the before and after of using huel and uh uh and before i
+used to okay so that's something to look forward to or maybe not with the the pandemic what impact has
+What impact has the pandemic had on peoples sleep
+that had on people's sleep it's had a huge impact so um in various different ways so the first way is that
+everybody's routine changed and because we couldn't go outside and move as much as we once did we couldn't get
+as much light exposure as we once did we didn't get as much stimulation social stimulation
+so our brains weren't being used in the same way plus we all had this sort of uh thing to look at on the news all the
+time so we're actively sort of looking at something that is stressing us out and making us anxious so various different components
+no wonder sleep changed but it would have been totally normal for that to happen your sleep is
+adapting to your new environment and so when people start worrying about this i try to get them to
+calm down about it because actually if your sleep wasn't working properly you just wouldn't be here okay so to a
+degree our sleep is doing a bloody good job for us um and we need to be better about it we
+blame sleep for everything um and actually there's so many other variables that we can control in our
+lives that will have an effect on us but yes during the pandemic we saw um or we still see
+there's plenty more problems with people struggling to get to sleep maybe they're feeling really buzzy and they can't get to sleep maintaining
+that sleep so people waking up in the middle of the night and they're just like what why am i waking up sometimes they
+they've got million thoughts a minute or um sometimes they're just thinking of nothing and they don't know why that's happening
+we've seen more dream recall very graphic dreams and we believe that's because obviously
+when your routine changes and you don't have to work and ironically i always say to insomniacs that actually when they're
+working and when they've got busy lives it's a lot easier to treat them than when they don't have a routine
+because routine is everything to our bodies i wish we understood more how much our bodies love to be
+regulated and going to work and doing exercise and going to see our friends and going to the gym
+and eating at regular intervals is telling your brain so many signals the light exposure you
+get is telling your brain about how much melatonin to release for you it's fascinating but we
+do need regulation and the biggest thing that changed during this pandemic was our routines
+What control do we have on our dreams?
+people people have a real desire as well you mentioned the the the fact that the pandemic had caused very like vivid
+dreams people have asked me so many times if they can control their dreams how do they stop themselves
+streaming so vividly or um and some people having you know recurring nightmares and things like that
+what what is your answer to that what control do we have on our dreams so you can you can learn to that's what we call lucid dreaming so
+you can learn to lucid dream the problem is it's probably not very good for your sleep in general um so effectively when we remember our
+dreams it's because we have been woken out of rem sleep so rem is actually a very active stage of sleep
+it's not your deep sleep it's actually quite a light stage of sleep some might argue that's even a different state of consciousness and not sleep at
+all so rem is a really strange time it's when we believe that more of our memory
+and our psychological restoration is happening in consolidation and things like that and part of rem we tend to
+have more graphic dreams but it's it's you being interrupted from that state which you
+may not remember in the night it could just be a van driving past in your rem sleep and it wakes you into
+a lighter stage of sleep like stage one or two sleep and so in the morning you think oh my god i really remember my dreams or maybe
+your alarm woke you up in the middle of rem sleep and you're like oh my god i can really remember my dreams as opposed to the times when you're like
+i didn't dream at all last night well of course you did dream it's just that your rem wasn't interrupted so that's why you're
+remembering your dreams when we try to control our dreams usually you have to kind of control that
+interruption a bit and so i haven't looked into it properly in terms of lucid dreaming because it doesn't really help me do my job i don't
+really want people to learn to lucid dream because then one they're going to be remembering their dreams more and if they're
+remembering their dreams more than their sleep is more interrupted and that's not good for your sleep we want you to go through the cycles of sleepers
+as uh you know as comfortably as we can and so that you get all the right percentages and all the right restoration
+and and healing and everything that you need from your sleep and so yeah it's an interesting concept
+i don't think it's very helpful to healthy sleep but every now and again especially kids
+i find when i'm talking to children they seem to be able to control their dreams a little bit better like flying
+for example they concentrate more on it that's why so they have more time and they concentrate on
+it which is quite a fun thing maybe we should all be doing more of that daydreaming and stuff
+it's actually really good for problem solving um so yeah it's fascinating and and there's a lot of
+famous people i think einstein though don't i mean i don't know if i'm right about this but einstein and various other
+geniuses would do things like hold a um egg or or a spoon or something um
+so that if and when they fell asleep that spoon would drop and then they would wake up because they felt they had all their best ideas
+i can see you looking at me and thinking about doing this to get better tonight but it's not very good for sleep
+to keep interrupting it like that um so you can yes you've got the power to manipulate sleep however you want but
+at the end of the day if the goal here is to keep you alive for longer and to feel refreshed in the day
+and to have your best ideas consistently and to be healthy consistently then you
+probably want to do sleep right the way it was designed and what about what i eat before i go to bed a lot of people talk about that
+How does what I eat effect my sleep?
+that's another uh thing you know if i order food really late someone will turn to me in the room and go oh you should be in at this time
+you know what i mean what do i say tomorrow okay i've said it before a good sleeper does all the wrong things
+and they seem to be okay but they're probably not doing all the wrong things all the time so yes
+the the later you eat you're basically asking your body to metabolize and asking it to sleep and it does
+not like doing both and so one of them will be um compromised um in terms of um
+anything that you can eat that will have a significant effect on your sleep there's no real research there is
+research to show things like you know if you if you eat enough cherries or you have enough milk or enough turkey
+it's going to give you some kind of sedatory effect but at the end of the day
+it's you'd have to have a stupid amount of those kind of foods to have any kind of effect it's not going to help you sleep
+healthily from day to day that's not going to suddenly boost the quality of your sleep um
+significantly and so i would argue that unless you have some kind of deficiency in a vitamin or mineral
+that is affecting your sleep then you probably don't need to be looking at the food you eat in general as i'm sure
+a lot of people will say but in general eating a healthy balanced diet where you have what you would call naughty foods
+and good foods and in balance all that stuff is really good for you and probably the only piece of
+advice i'd give around eating is again regulating how you eat so if it's breakfast lunch and dinner you like to
+do trying to do that at consistent times every single day is going to help your body understand when you want to be
+awake and metabolizing and when you want to be sleeping and then not sleeping too late at night just so that you can
+make sure that your body metabolizes well and sleeps well and can i sleep too much is that such a
+people people there's this myth again in society where people think that they overslept and now they're knackered
+Can I sleep too much?
+right so yeah so you can it usually when people say they've overslept if we actually looked at them in a sleep study and
+they've overslept for the amount that they usually sleep and they didn't need it probably the quality of their entire
+sleep wouldn't be amazing um and that's why they were able to have this dribble drabbily longer
+sleep and and it's not it's not going to be very helpful but usually when we're talking about that research that shows that
+longer sleepers actually can get sicker um is because the quality of their sleep is impaired by something
+like sleep apnea or another sleep disorder which is impairing the quality of their sleep so
+yeah so poor quality sleep you're gonna sleep longer it's kind of the same as having insomnia because you're not
+really sleeping and so therefore you feel you need to sleep longer and you wake up and you still
+don't feel like you've slept as much as you needed to if you're sleeping really well from night to night you don't need to sleep
+more so your body won't really let you so if the quality is good and you've reached that optimal time
+you'll notice that if you do try to sleep longer it's quite if i looked at that sleep for
+you in a polysomnography study so i looked at your brain activity the quality of it is just like a snooze
+is probably not going to be the same it's not going to be but it's very rare you find someone like usually they're deprived of something or
+rather or they have been sleeping properly and then they sleep a bit longer you hear a lot of them a lot of
+These top tips about sleep
+successful people i think it's it's part of bragging you know bragging about how little they sleep that's how i only sleep three four
+hours a day and i think it's pushed this idea into a society that in order to be successful you've gotta
+sleep for you know just two or three hours or four hours whatever but then on the other side you have this total contradiction which is
+in order to be successful you need to wake up at 6am and drink green juice and do yoga and like sleep for exactly seven hours um and it
+and it i guess this kind of speaks to the original point which was um that there's so much over-generalization
+and uh through an attempt to sell you something whether it's the book or um
+my authority or to get you to follow me yeah i kind of preach this secret yeah quite easily replicated for all of
+you right yeah that's causing us to to be like uh be smart
+like smacked with these contradicting narratives around sleep um which is making everyone a little bit confused um what's your sort of take on
+all of that because you know as when i was growing up i thought you know if i want to be successful i've got to just sleep less
+and i i think if i'm being completely honest with myself i think i used to be proud of how little
+i sleeped yeah i thought it was like a war like a badge of honor you know yeah yeah yeah yeah but now i think i'm getting a
+little bit older and i'm i don't really give a [ __ ] for what people think yeah good good um uh so yeah i i definitely have seen a
+change around in this recently but yeah there has been this thing about like clean sleeping it's a bit like the whole clean eating
+thing it's a consent it's a it's everything that you've effectively just said um but people trying to say you need to do this that
+and that to have the perfect night's sleep actually that doesn't really exist once you know how much sleep you need
+around make sure you have that opportunity most nights that you're how do i know though um so i guess you
+referenced genetics you said there are five hours yeah yeah yeah yeah yeah so i guess um a more relaxed way of looking at it
+is when you go on holiday after the three four days of recovery from you know work life um what happens
+you know left your own devices what happens and that's a pretty good way of looking at it if you're looking at a really
+scientific way then sleep restriction therapy so what we would put a insomniac
+through also will show you how much of a duration that you need right now because there'll be a point where you can't keep
+adding time your body won't get you to 90 efficient and that's where you know okay maybe this is around the right time
+for me and sleeping mental health i feel like it's i don't know my guess would be that it's
+The correlation between poor mental health and poor sleep
+somewhat kind of a a cycle right i think poor sleep might lead to poor mental health and then poor men's health might lead to
+poor sleep is that accurate you're absolutely right but it doesn't matter what came first the chicken or the egg the main
+issue is especially in medicine and i've just done a piece of research and that shows that undergraduate
+medical degrees only teach a median of an hour and a half of sleep so this is why this next
+thing happens a lot because they just don't have the education so our own doctors do not have enough education in something that we do
+a third of our lives so historically or traditionally when you go to your gp and you say i've got a sleep problem
+they'll tell you you've got depression and insomniacs will be able to relate to this and it is because
+in general we look at sleep or poor sleep as a symptom of another condition now even if it is
+even if you do have a significant mental health problem and it is causing you to have sleep issues if it's been longer than three months
+you now have a entrained sleep disorder and you need to be treating the sleep problem as a
+primary condition in itself and the one that i would treat first is whichever one is most prevalent
+so whichever symptoms seem to be more distressing for you at the time is where i would start but i would be fixing
+for example the depression and the insomnia separately and the results show that
+when you treat insomnia you have less relapse of depression because you have actually
+resolved one of these things that unfortunately was perpetuating everything so it doesn't really matter where sleep
+comes into it but you've got to give it its own podium it needs to be it is a pillar of health
+and you need to treat it that way you reference a good sleeper and bad sleeper what's the uh what are the
+characteristics of a good sleeper and bad sleeper
+characteristics of each so everyone always thinks i'm going to say well a good sleeper does this and a
+good sleeper does that but actually the only difference i have seen over however long doing this is
+that a good sleeper is somebody who just doesn't worry that much about their sleep they are very grateful for their
+sleep and they're very you know you know they they give themselves a fair opportunity they don't always
+sleep well they don't you know sometimes they have sleep problems but they don't get overly bothered by it and they notice that
+their sleep when left to its own devices will go back to whatever it needs to be about 10 of
+insomniacs we never see because they don't perceive themselves to be having a problem and they're not sick and dying isn't
+this somewhat uh i guess a metaphor for the for the rest of our lives as well where
+typically much of the problem is people thinking that they have a problem or their own perception of their reality because i'll be honest
+um everyone around me doesn't think i sleep very well but i've always thought that i slept really really well and i've just
+i think refused to buy into the idea that i'm a bad sleeper they think that because i'm up at strange times sometimes i'm traveling extreme but i
+i've never worried about my sleep when i go into my room eventually i'll fall asleep and at some point i'll wake up
+but i guess the point i'm trying to make there is as well if you look at what's happening in the world with the pandemic and you know people
+feeling certain um feeling like they should be a certain way is actually making them
+that way people feeling like they should feel self-pity is making them feel self-pity and um as someone that's been to
+rio de janeiro and seen the um the favelas there and spent time in the favelas but also i've been to india and
+spent some time in the harvey i think they call it which is you know known as the slums which i think is a derogatory term
+um i've seen people in this in the slums in india who were significantly happier um
+than people that i know that are very you know relatively cushy and i know it's all
+subjective living in the uk and it just but people hate when we talk about these these
+these things because it gets the mirror of blame and responsibility and it just turns it
+back on themselves and says maybe you're the problem yeah maybe the way you're thinking is
+the problem and maybe you can do something about it yeah absolutely you've hit the nail on the head um
+i like i said about 10 of insomniacs we we never see and actually if you think about it
+insomnia is just another pattern of sleep and you have a certain pattern of sleep right now and
+if it's not broken do not fix it i firmly believe that and if you ever have a problem well you know where i am
+um but hopefully you never will because you'll follow your gut follow what you feel is right
+um if that turns you awry then fair enough um get some support but actually
+you you really have hit the nail on the head and i really do believe with a bit more understanding and education around sleep and that it's not
+night to night your sleep doesn't work like that i get yes we do need to most of the time
+sleep night to night but it can survive without doing that um it is it's incredible if we spent
+more time understanding how amazing sleep was rather than fearing when it doesn't happen and then blaming it for
+absolutely everything we would be in a much better position we would cherish it more and we would um you know love it more
+but not overly put pressure on it which is ridiculous sleep cannot force you to lose your job sleep can't
+do though or lack of it it just can't um but our belief that it does is making this problem worse so yes it
+is a hundred percent a mindset i spend most of my time not training people to sleep again
+but actually trying to help resolve that mindset one of the last things i do when i finish with a client is i have to
+go through and help them understand that sleep is not the be-all and end-all because actually even to treat their
+sleep i have to get them to focus on it and actually i need to take the focus away now and one of the exercises i do
+is i tell them look i now want you to think that we're in a world where sleep doesn't exist and when
+i do that people are like oh my god that would be awful because it would just be one long perpetual day we'd never finish our day
+just philosophically and psychologically how would we deal with that and actually i'm like yes that's how you should be thinking about it because that
+time even when you're not sleeping is beautiful and we should cherish it um and also if you didn't sleep what
+would be all the other variables that would affect you and i start getting them to think about the rest of their lives and all these other things like
+exercise and eating right and they're just the basics who you interact with when you watch the
+news the bills you paid that day whether you walk to the dog um all sorts of things pain um noisy
+neighbors uh your commute to work how many of those things actually have a properly significant impact on you but
+you'll still blame it on your sleep and then it's a perpetual cycle because then you start compensating well i'm not
+going to do this anymore i'm not going to go to the gym i'm not going to see my friends i'm terrified it's going to do something that affects my sleep
+and then your sleep is worse because your body's now thinking oh so she doesn't need to get good sleep at night because she's not doing anything
+in the day anymore and so you make it worse and worse and worse and that is one of the biggest things i see
+in a long-term insomniac is somebody who's literally stopped living in order to fix the problem why do we
+think that's going to fix the problem it doesn't what about a bad sleeper then so we talked a little bit about the pro like the profile of the characteristics
+of a good sleeper what's a bad sleeper so a bad sleeper is somebody who really does um they get bad sleep and suddenly they
+start worrying about the lack of sleep and then what they'll do is they'll look up how do i fix my sleep they'll come up
+with 10 regimented rules and they'll start becoming obsessive and ritualistic about those rules
+they'll stop going out in the evening and they'll start having the hot one bath the herbal tea and every single thing
+that they have um they think and they know it doesn't work but they're so terrified of not doing them because
+that's all they've got to hold on to now that they are um you know they they they
+can't go away from it and actually trying to take teach those people to sleep better is is harder than somebody who's a bit
+more relaxed around their routine because they've built these things up so hard you know what's really funny is um
+what you've described there is a person who is so keen to solve a problem that probably
+isn't that much of a problem that they've they're in search of these techniques and tips and secrets and
+shortcuts and whatever probably a lot of the people that felt compelled to click on this podcast today to listen to it and
+you see the same within uh success and ambition you see this
+like this certain group of people that i'm gonna be honest okay are almost never really successful
+but spend the most time trying to be and when i when i think about my success so when i read these books about oh the
+the perfect way to be successful here's 13 tips that all successful people share i think
+this is total [ __ ] nonsense because my sleep is i sleep whenever i feel tired as you say
+i eat blah blah blah you know i don't do yoga i don't like meditate every day i don't i don't
+follow any script or blueprint i just kind of go with the flow and do my best every single day and show up and try and
+be better tomorrow like if that that's as far as it goes for me there's no looking in the mirror and saying steve you're going to be a
+millionaire steve you're going to be you know what i mean all of that feels like nonsense to me but the people that seem to
+um do those things the visualizations in the mirror the mood boarding my future like they're not
+they are never the successful ones all of my successful friends don't do that yeah yeah and um and i i maybe i think what i'm saying
+is i sounds like the same applies to sleep yeah where like the the people that get addicted on techniques and tips and
+tricks end up having the worst sleep overall yeah what have we missed i'm asking you this question because
+What do you want people to get from this podcast?
+there's so many unknown unknowns i don't i don't know a ton about sleep again because i've never really cared that much about it right so
+is there anything that you think we've missed any specific topics or i think i would love it if people came
+away from this podcast and gave their sleep a little bit of a break and in the same sort of with the same idea i'm sure
+there'll be people out there thinking yes but when i wake up tonight in the middle of the night what do i do about it so i guess this is
+one thing we haven't covered to understand that if you are waking up in the middle of the night and it's been happening to you
+over and over again this has become a habit and therefore to resolve the habit you're going to have to do something
+consistently you're not going to be able to solve it in one night it's just not going to happen however if you're waking up and you're getting
+stressed and anxious do not lie in bed it's not going to help you you've got a different problem now
+you've made yourself anxious and stressed and you need to alleviate it leave the bedroom go and enjoy yourself
+it is not going to wake you up you are already awake your sleep drive clearly isn't there to take you back to sleep so
+go do something else make sure you get up in the morning do not lie in go and have the epic day enjoy yourself go and see
+your friends or talk to them over zoom or go and do some exercise get outside get some light exposure be happy and
+content in your life focus on other things and go to bed when you're really really sleepy and when it happens again the
+next night do the same thing and i promise you eventually you will be able to get out of it but if you lie
+there and you get anxious and stressed and you try and force yourself to sleep you already know
+this doesn't work you're trying it over and over again so don't do it so that's the thing i would say i hope that when people listen
+to this they come away and they're like you know what i'm not as worried as i was about my sleep i'm actually going to
+chill out and i'm going to be all right about it but if i do want to improve the quality i've listened to what she said there's
+some key things there i'm going to i'm going to try do those few things but it's about the little things so it's
+not about doing 20 different things it is just about literally get up at the same time every morning stop overcompensating stop diluting your
+sleep opportunity when you don't get good sleep make it smaller build that sleepiness it's actually good for you don't freak
+out nothing bad is going to happen and you you talked to one particular point i wanted to come back on there because
+i when i asked my audience about the questions they had for you again about i say 15 20 of them were all
+about i keep waking up in the middle of the night yeah yeah what to do so you're saying get out of bed get out of bed and
+go and do something that you love do not yeah do not go and do something
+like clean the bathroom or do something boring go and do something that is going to be distracting
+for god's sake we're always going on about how little time we have you've got more time now so go and use it go and do something fun
+i'm not saying get up and go to work i'm not saying that because i still think this is your sleep opportunity and
+if you want to retrain your brain to sleep during this time then you've got to sort of do things that are i'm not saying you need to
+relax relax relax because i think people get stressed at that term and they're like i can't relax i don't know how to relax don't make me do this
+so i think what makes you happy do some things that just make you happy whether that's looking at old photos or
+just doing something that you love it is okay okay it's not gonna be forever like i said
+you cannot force yourself to sleep but you can dictate when you don't sleep so as long as you're not
+overcompensating by lying in or going to bed early because you're so worried about the sleep that you've lost
+forget it it's gone there's nothing you can do about it so just move on and do the right things and i promise
+you you will start sleeping better but the more you freak out and you're worried about what is going to happen to
+you if you don't sleep another night in a row the more you won't be able to fix the problem great
+where can people find you uh so i'm at sleepyheadclinic.co.uk it's gone pretty
+international now because of the covid is literally i'm online now um and sleepyheadprogram.com if you have no
+time to speak to me or you just want to do it yourself um i have set up this online course that you
+can do which i'm very excited about with two awesome business partners who are just as crazy and passionate about
+sleep as i am and hopefully we can start seeing more people um and and build on it and make it an
+even better experience so yeah listen thank you so much for your time today um sleep is a thing that i think is as i
+said at the start the podcast has been increased in relevance um in our society
+in my personal conversations online through instagram through books that aren't as you say necessarily very
+helpful so it's been um very refreshing to to hear
+a almost a counter narrative to the kind of very binary specific um quick
+um secret orientated like hacks that people push online and that's uh i think will do a ton of people a lot
+of good so thank you so much for coming thank you so much for having me thank you thanks
 
 ----------
 
@@ -1086,11 +7416,712 @@ paste here
 --09--
 
 -----
-Date:
-Link:
+Date: 2020.12.21
+Link: [# World Leading Psychologist: How To Succeed In Life & World: Jamil Qureshi](https://www.youtube.com/watch?v=prw1xtkdfhs)
+
+Summary:
+### Notes from the Video Transcription
+
+#### Advantages:
+
+- Embracing challenges and discomfort can lead to significant personal and professional growth.
+- Taking responsibility for one's actions and situation is a key factor in achieving success.
+- Continuous learning and self-improvement are critical for maintaining a competitive edge.
+
+#### Drawbacks:
+
+- Avoiding discomfort and responsibility can lead to stagnation and missed opportunities.
+- Distractions, particularly from social media, can hinder focus and productivity.
+
+#### Tips and Advice:
+
+- Practice focus and concentration to manage distractions effectively.
+- Embrace failure as a part of the journey towards success.
+- Break free from mental tramlines and habitual thinking to foster creativity.
+- Invest in personal introspection and self-awareness to optimize potential.
+
+#### Lecture Content:
+
+- The importance of mindset in achieving high performance.
+- The role of responsibility and accountability in personal and professional development.
+- Strategies for overcoming distractions and maintaining focus.
+
+#### Main Challenges:
+
+- Overcoming the fear of failure and embracing discomfort as a growth opportunity.
+- Managing distractions in a digital age.
+
+#### The Importance and Usefulness of the Topic:
+
+- Understanding these concepts is crucial for anyone aiming to achieve high performance in any aspect of life.
+
+#### Accomplishments:
+
+- Notable examples include successful individuals who have overcome adversity or challenges through resilience and a strong mindset.
+
+#### Summary of the Content:
+
+- The discussion emphasizes the importance of mindset, responsibility, continuous learning, and the ability to manage distractions as key components of achieving high performance and success.
+
+#### Interesting Quotes or Insightful Sentences:
+
+- "The price of success is always paid in full and in advance."
+- "We need to practice consistency of mind for consistency of play."
+- "Our only sustainable competitive advantage is to learn faster and better than our competitors."
+- "If it ain't broke, you should break it." - Encourages innovation and breaking free from comfort zones to achieve growth.
+
+These notes capture the essence of the discussion, highlighting the importance of mindset, responsibility, and continuous improvement in achieving high performance.
+
 Transcription:
 
-paste here
+and this is why tiger woods keeps working this is why warren buffett keeps working it's why richard branson keeps working
+the only way in which businesses or people will become successful and truly perform to their optimum this
+amazing question is probably the best question i've ever been asked
+[Music]
+camille thank you for joining me today it's a pleasure to have you here so early in the morning i i typically on this podcast will won't
+introduce people because um i i'll do a little bit of a pre-introduction but your
+your background and the work you've done specifically with high performance people and successful people is so compelling and fascinating that i
+feel like i want you to introduce yourself and i've read through your bio multiple
+times it was deeply inspiring and i think without an introduction everything we
+talk about from here without the perfect introduction which i feel like only you'll give everything we talk about from here on um
+might not have the the context it needs to have so who is jamil creation
+i'm a performance coach and psychologist so i've spent my time working with some very
+good sports teams some very good business teams some successful people and i guess what
+i do is i help people cultivate a mindset for success so i always say that for us to act differently we need to think differently
+i'm going to create different behaviors different actions this is about creating different thoughts first so i guess what i do more
+than anything else is help people change their mind so i said there's new new opportunities new possibilities that will come from
+new perspectives so a lot of my time is spent working with people not to give them new skills
+but more to allow them to understand the skills that they've already got and then create a perspective for them
+to use it differently so um as a performance coach i think everyone can be better
+everyone can perform better at terms as a matter of i guess trying to create the mindset the attitude um i guess some of
+the precursors to those to the performance which are which are beneficiary which have benefit to them
+and so you said that everybody has the skills and i i you know i i see that in a lot of my friends i
+see that they have a lot more sort of um natural capabilities than they've managed to sort of give the world
+through their actions if someone has an ambition to be something if they have the ambition to be you know
+a sports uh star and you've worked with a lot of athletes and you've worked with business people or they want to start a business
+what you tend to see it and what i tend to see in my inbox is a lot of people with intention but there
+seems to be something preventing that intention from turning into action or like behavior into an
+achievement yeah yeah and i think you know turning ambition into achievement is the key because most people will have
+good intentions most people will be wishing and hoping to be better there's a big difference between wishing
+and hoping and believing and executing upon it so i think that the people who genuinely execute on it
+probably want it more for a start at a monastic key no one's ever wandered around the bottom of a mountain
+and then simply found themselves at the top and it does take that determination the resilience it does take the ability
+to execute upon ideas to drive success so i think the key is the desire which
+is fueled by having a purpose a mission a vision towards what that end goal should look like
+a lot of people um can't quite they say one thing they say that their
+their purpose is to go to the gym yeah for example we all say one thing and do the other
+yeah and why is that like because it's sometimes hard to distinguish with someone whether that's their real sort of desire
+or whether they're kind of like virtue signaling to themselves if they want to be something or you know they want to start that
+business or become an entrepreneur be you know get a six-pack but then their actions show that
+quite a different story so i always wondered that with my some of my friends always think are they do they actually want that or they just
+it's very easy to say that this is what i'm after and much harder to do it and i think one of the reasons why is
+because um we have to invest we self-invest so we probably all know these um kids at
+school who are great footballers at 14 15. you think you know what they're gonna make it they're just brilliant they're gonna make it
+um or great track athletes at 12 and you know and you just think they're special but they don't make it
+and the reason why they don't make it is they don't self-invest so the people who make it are the ones
+who um will get up on a rainy friday morning and rainy saturday morning to go and practice whilst their mates are
+in bed the ones who will practice on a friday night when their mates are out drinking
+and so talent is not enough you need talent plus teachability so talent plus the ability to be
+open-minded agile in our thinking to commit to practice and turn that practice into something which develops
+our talent even further so there's lots of people with talent and business lots of people with talent
+and sport um but i guess that we need to be open-minded enough to invest in how we practice our talent to become
+successful so you know there's no there's no substitute for practice i get lots of golfers who say to me that yeah can you
+make me better yeah and yeah the number one golfer in the world will practice more than any any amateur you know and
+you know their lies the truth but you know we need to we need to apply ourselves in a particular manner and so
+we need to be practical about how we exercise our talent you create good feedback loops to
+understand what we're doing gain better personal introspection and self-awareness
+to allow us to use our talents differently how do you give someone that purpose though like i'm trying to think like
+so we know we know practice is like so incredibly important to master something but my i guess my question is um how would you
+give someone that motivation because i i i guess you can't give someone purpose a lot of
+us spend so much of our lives trying to to motivate people right to motivate friends families you know
+siblings whatever it might be i'm wondering if there's a thing we can do as like loving
+friends or whatever to to give someone that kick yeah so i mean a couple of points i guess on that in regard to
+discovering purpose um it can't be done for someone so
+i always said purpose is never achieved it's attained on a daily basis so the mistake that people make with
+purpose is they confuse it with an end goal so here's my purpose and have this vision statement of what they're seeking
+to you know achieve or create whatever it might be and get practical and tangible about it
+but purpose isn't that purpose is achieved on a daily basis that um sorry purpose is never achieved it's
+attained on a daily basis and this is why tiger woods keeps working this is why warren buffett keeps
+working it's why richard branson keeps working it's because it's never achieved it's attained on a daily basis so i think that you know
+we need to find something which is purposeful to us um and then we need to lose ourselves to
+it on a regular basis so once we start to become more purpose driven and express ourselves in a
+particular way obviously being a good colleague being a good business leader been a good sports person is not seeking to impress
+it's about seeking to express and be ourselves in the context of our work so once people can find that um
+within themselves um then i think they can direct their energy and their focus in a particular way
+and become much more purpose driven in how they go about their daily activities but you can't give someone that purpose
+it has to be theirs and i think life is about timing i think some people find that very late some
+people find that very early and um and it makes no difference we're all individuals in regard to
+helping other people make change we're almost too quick to go towards behaviors so we tell
+people to be different all the time tell our team members you should be more collaborative guys i don't guys need to be more innovative
+and tell our children to keep their rooms tidy so we're constantly talking to people about
+behaviors say to our friends that you should give up smoking or eat healthier whatever it might be
+the only way in which you change actions is by changing thoughts so we think and then we feel and then we
+act that's how we work so if you're constantly working on actions we're telling people to be different and this is why new year's
+resolutions fail from tomorrow i'll be different start doing this i'm going to stop doing that and we start talking about actions and
+behaviors um we need to go back to the um granted a precursor of all our
+actions which is our thoughts so the only way in which you genuinely drive commitment rather than compliance when
+it comes to change in your team in your friends you know and yourself is by changing the words and pictures in
+your head or their head to drive different feelings and then different actions there's um a little tip which i sometimes give
+leaders and so i said leaders never say to your team you're gonna make a change you say to your team you're gonna make a change they won't like it um say to your
+team i'd like to try and experiment they'll they'll be on board with it and um we'll give that a go that's okay
+so even just a difference in language to allow someone to think differently or make them feel differently and hopefully
+therefore choose to act in a different manner and how how would i get someone to change their thoughts
+you know i think um i think the best way is gamification um what holds people in place is what
+they believe to be true and then so um so people will sit around a boardroom table
+and i'll discuss strategy and i'll say you know look you know we can do this but we can't do that and they'll have a viewpoint on budgets
+on consumer buying behaviors on on compliance and governance and that's what holds this in place
+so what we need to do is break free of some of the parameters that we think are in the way so if we got people
+around the boardroom table and said look guys let's just this strategy piece that we're going to talk about let's imagine we got an unlimited
+marketing budget for it if we had an unlimited marketing budget for it i know we haven't but if we had
+what would we be doing how would we be doing it um you know if we had no marketing budget what would we be doing now what we're
+doing here is that we are helping people to move outside of the mental tram lines that we all operate under
+and under habitual thinking so let's ask some what if questions can you imagine that you know a life if
+you weren't smoking i told what it looked like i don't know what you'd be doing today if you weren't smoking what'd you spend your money on
+that you saved on cigarettes just played the game of what if so let's break free of some of the things which
+are holding people in place by um not by conflict not by arguing and and debate in a
+confrontational manner but finding some common ground and working from there and the common ground
+is let's play a game and you you said that you know about people finding that purpose um in their
+lives you we hear this uh phrase um a lot which is
+find your passion yeah and i almost feel that it's it's in many respects quite harmful because
+it that question is kind of loaded it it assumes a singular passion for a star it
+sounds that you can discover it like an easter egg and then and also um the the context in which that
+question usually sits in it implies that once you find it then it's you know then it's the the the
+it's a can of unlimited like happiness and orientation forever and then that's
+yours and it i just feel like sometimes language can be harmful because it it simplifies very complex things and
+sometimes multifaceted plural things you know so i wondered if that you know that phrase uh find your per find your passion was
+something you um you felt similar about or yeah i do i mean yeah it's true that passion can be
+a significant multiplier of human potential so you know if people are passionate and
+engaged in a business they can direct their energy in a in a worthwhile meaningful manner
+so so so it's it's worthwhile but you're right and um that you know there's a big difference between
+passion big difference between happiness and joy um some are in the moment at home i
+think joy is in the moment and i think happiness is something um that we continually continually
+adjust towards um your passion can be a significant multiplier of human potential
+particularly in the workplace so it does have a place it is something which is useful to
+understand and then ultimately it always comes down to personal introspection and self-awareness for me
+and i think that um we need to work harder at understanding ourselves and when we are constructing a mindset
+which is conducive to performance so we optimize our potential when we're in a particular state of mind
+and that state of mind might be passion it might be relaxation it might be enthusiasm might be
+enjoyment but we need to almost get to know ourselves and know that um there are certain
+things which enable us to do others and once we work backwards and understand what that looks like maybe we
+can gain some more consistency i say to a lot of sports people and to a lot of business people that
+consistency of mind gives you consistency of play and i'm convinced of it and the more
+consistent we can be in our thinking we understand um the building blocks the component parts to success
+yeah the more success we can have and how does one establish consistency of thought because i completely agree with that i
+completely agree i've seen that in my own life when i've been consistent with my thinking i've managed to you know
+perform the same habits every day um but then sometimes i'll lose consistency in my thoughts
+because i lose um [Music] i lose i guess i lose attachment or sort
+of my anchor with my my why yeah and i talk a lot i've talked a lot in this podcast over the last couple of weeks about
+this realization i've had this year with the gym which was every year february march i was incredibly
+motivated to go fired up trying to look good for summer yeah and then obviously once you look good
+and summer has ended it's almost like you've lost your anchor right so you get into
+september and the why which made you go and to think consistently every day has been is evaporated and i'm tr i
+can't get myself to go to the gym in october right you look in great shape for it this was the other
+video i realized so this was the year i realized that this is the year i booked the trend for the first time in my life
+because i realized that i thought to myself every single year i i do it for this period and then i
+stop and they're two different people august steve and october steve don't know each other they're like you know what i mean
+they're like twins that were separated at birth and so this was the year where i realized what i was doing and why
+i was losing my motivation so i thought [ __ ] it you know i'm gonna anchor my why to something a bit more uh long term
+and without a timeline so i said to myself listen i persuaded myself of all the reasons why i want to be healthy and view my
+life as one season and that's what's allowed me to persevere and also i got a bit pissed
+off with myself i thought you're really like that like like you're that vain and you're like you
+know but so yeah do you know i mean i always think that consistency of mind comes from
+understanding the intrinsic quality of our decision-making processes and i say that a lot to people in sport
+and in business so yeah you can make a good decision and have a really bad outcome you can make a bad decision have a good
+outcome and this is why i've worked with leadership teams who have confused luck for genius and really bad decisions with a great
+outcome you know markets have changed competition's done something something's just worked in their favor um so um so it's really important for us
+to not judge our decision making by our outcomes and we often do so we'll say this is a
+good decision because it resulted in this or this is a bad decision it resulted in that and we can only understand the outcome
+retrospectively so it's wrong to measure our decisions by the outcomes and we need to go back to how we made a
+decision in the first place and once we start to understand the intrinsic quality of our decision making process
+we can become more consistent in how we make decisions and therefore have more control over those outcomes so i think that you know
+two things i don't i think that and then we'll use you as the example here steve um that consistency of mind will come
+from knowing how we make decisions okay i understand that we put our weight into evidence how much we use
+prejudice and bias and opinion whatever it might be but let's understand how we make decisions and in that way we can be
+consistent in um how we apply our logic and thinking and feeling try and determine some best outcomes and
+then the other thing and um as you've just positioned is reframing let's stand back and create some time
+and space to understand and um you know why we do things and why we don't do things
+now i always say that um the people are most successful and i've had a pleasure working with six sports people who got
+to number one in the world i can guarantee you one thing i had in common was that um um they um they never made big
+changes and um it was small changes so i'm a big big believer in the one degree of change
+if you take two parallel lines and you move one by one degree it may not seem much at first but it's a really big difference between
+where you start and where you end up so um everyone's trying to you know make a dramatic change and see change from
+tomorrow i'm going to be different i think it's about doing something a little bit more than what we've been doing it matan a bit more consistently
+and then the other thing with these people who obtained you know what i call um super achievements at home so they
+did really really well um is that they actually worked on their strengths they started to understand what was good about them
+and do that some more so we think to be better as human beings i'm gonna be better as a
+business or a team of people we need to fix our weaknesses um i'm not sure that's true i actually
+think it's more about understanding our strengths and playing to them so um i've actually worked with teams
+before in business and in sport who have actually weakened the strength by trying to strengthen a weakness
+if you think about it it's ridiculous and actually weaken the strength by trying to strengthen the weakness we need to be careful
+so i think understanding what's good about us understanding you know where our behaviors come from in regard
+to the thinking before it and then reframing some of those words and pictures and i guess that's what you've done with your gym
+example because i guess change some of the words and pictures in your head to therefore feel differently which has
+resulted you and acting differently yeah and i really you know i was i was valuing intensity over consistency and
+intensity wasn't sustainable right so i was going through the summer like to the gym two times a day i was starving myself like eating things that
+i i didn't want to necessarily eat yeah and the the consistency came from being a bit more um
+realistic with myself being yeah you know if you missed the day of gym it doesn't matter you don't have to perspective yes perspective isn't it yeah and i
+think do you know it's funny because again something so many sports people have worked with and business people who
+will lose perspective they'll lose the tournament and it's dreadful you know win a tournament i've made it you know
+this is it this is turning point for me now they win a big contract you know in business and you know this is us now we're set up
+you know or they lose a contract and um and life has never been so dreadful um but i think that we need a
+better perspective on things so their ability to think more long term term to be more forgiving you know to
+understand with more um reality at uh what's good and what's not so good
+is probably the way forwards and in terms of responsibility it's a it's a topic that's fast
+consistency is a topic i've been so fascinated about over the last year as i've reflected and done has been sort
+of introspective about the things i've been able to achieve whether it's getting millions of followers on social media whether it's
+growing my business or going to the gym it seems that the the very ironically consistent theme across all
+of them was consistency it was being able to do perform x habit for a long period of
+time and then you have that the eighth wonder of the world shows up and things start compounding in your favor very quickly usually um but the other
+term that i've been fascinated with is responsibility and as i've i started out as an 18 year old kid
+dropped out of university disowned by my parents no money at all and
+the one of the things that i noticed as i look back on 18 year old steve versus a lot of other people that i see
+that that are living in the same [ __ ] area i was living in and stealing pizzas like i was stealing them
+um was they don't take responsibility for their situation they kind of see themselves as a a
+victim of the situation they're in whereas when i was in that situation not only did i not view it as my destination
+i was literally taking photos of the the nothingness in my fridge and the how dire my life was because in
+my mind and i started keeping this diary on facebook which i really randomly wrote in my diary that a tv company had
+asked me to keep this because i didn't actually know how to tell my own diary right that i thought i was gonna
+show the world this someday um i i didn't see it as my destination and i
+took full responsibility of my circumstance it wasn't anyone's fault but my own and i was gonna change it but then one of the things that makes me
+concerned um about our generation and about certain political narratives and certain
+themes i see on the internet is like a an avoidance of responsibility
+for your life and the the default to blame someone else and i'll be honest it's something i see
+more in the western world than i do in the african village i was born in yeah you know so
+i wanted to know if really from you like what role responsibility plays in people's outcomes
+okay that's a big one yeah um you promised me some easy questions um
+no so um responsibility is huge it's just massive it's um it's it's one of the pre it's one of the
+predetermined of successful outcomes is our ability to take ownership and accountability so
+circumstance and situation push and pull us in different directions on a daily basis the world is complex it's
+uncertain it's unpredictable all of those things the people who perform best have huge levels of
+responsibility and ability to respond to those circumstances and situation no matter
+what they are to drive the best outcomes or opportunities so i always said there's a circle of concern
+water cooler conversations the stuff that's going on you know around us circumstance situation incidents and
+accidents then there's a circle of influence and the circle of influence is where we make choice that's what it's about
+so responsibility is all about choice for me i absolutely guarantee you now that the
+circumstance the situation is not a predictor of success and um because we know of people who
+were born into privilege their great role models had good access to opportunity to wealth
+they had good guidance and good support and they ended up dying heroin addicts in prison we know some
+people born with a physical disadvantage now a lack of good role models now the lack of guidance lack of support lack of
+opportunity they grew up to be some of the most successful people who have ever walked this earth so it proves beyond doubt that attitude
+is more important than intelligence or facts and i genuinely believe that to be true in all areas of high performance that
+attitude is more important than intelligence or facts i always say give me i will over iq any
+one of my teams i'd rather if i will over iq because high technical expertise and talk about the western world at the
+moment high technical expertise is no longer as valuable as it used to be and the reason why high technical
+expertise is no longer as valuable as it used to be it's because we can google things that's why so knowing a lot
+isn't where your success is going to come from yeah it's not what you know which is important it's how you think about what you know
+and how you bring it to life with your character and personality to determine the best outcomes or
+opportunities so you know i genuinely believe that the only way in which
+businesses or people will become successful and truly perform to their optimum is taking full accountability and
+ownership we need to almost move away from circumstance and situation which is a distraction
+so um the more that we realize that our success is dependent upon us and not on situation the better and
+because the world is so unpredictable i need to simply learn to dance on a shifting carpet
+not see the rug being pulled from under our feet you know life is a game of continual adjustment
+and it doesn't matter what happens it's how we react and respond to it to determine those best opportunities or
+outcomes and i think that you know it's funny because initially i'm working a lot of businesses and um on culture on team
+um people strategies and the focus on responsibility has never been higher
+mainly because we've been asked to stay apart people are having to determine their own work schedules people have to
+determine their own working week and um they're going to have to take responsibility for driving the best
+outcomes and whilst they're not surrounded by team or working with directly with a leader
+so it's been a greater call for responsibility i wonder whether in answer to your question i don't know
+the answer to this um i wonder whether we'll see a better shift or greater shift towards more
+responsibility in the western world because i agree with you i think that many of us will see ourselves as a
+victim of circumstance and situation and not necessarily see the beauty in the chaos because of it
+you talk there about the the internet as well in the power of the internet and how that's been a bit of a leveler which is yeah which is a really
+wonderful thing i think um what how important is it do you do you think when you think about the
+successful people you've worked with to be a sort of self-driven
+learner beyond school um did you see in the specifically in the sort of upper echelons of like business
+the ones that are the people that are most successful are proactive sort of self-driven yeah i
+think i think it's true i think that um i've said that our only sustainable competitive advantage is to
+learn faster and better than your competitors so you know and you think about that for a business you think about that for a
+leader you know you think about as a sportsman it's probably true isn't it you know our only sort of sustainable competitive advantage is
+just learn faster and better than anyone else two powerline lines yeah yeah and i think that you know and i think that
+i think that how can we learn faster and better yeah if we're not proactive lifelong
+learners and so you know and i think that you know learning isn't necessarily about being taught um we don't necessarily need
+teachers um it's a strive for greater curiosity you know i think curiosity is worth more than creativity at the moment but
+it's a strive for greater curiosity it's a matter of being massive being open-minded it's a matter of being um
+agile in our thinking so we can deploy resourced of opportunity as it becomes visible
+um it's about um it's about self-discovery so it's about a variety of things which
+are based not necessarily upon traditional learning but more in a way in which we can open
+our mind up to experimentation and feedback you know and understanding ourselves differently and
+i think the best leaders um you know have this ability to you know reimagine repurpose reinvent
+i don't think they're beholden to a particular or wedded to a particular mindset but that's for a lot of people that's
+terrifying the thought of experimentation and being agile and reinvention i've seen that in my own business i've
+seen over the years i was um i was known as being the guy that would walk in i think a lot of
+business leaders are walking in the morning and be like we're going in a different direction everyone come in this room we're going to launch this part of our business and we're going to
+take it we're going to experiment and i i would often say to our team that experimentation is like at the heart of
+all of our strategy it's like why especially as a social media company where our platforms social media changes every day there's
+new updates pushed by facebook and instagram every day um so our company slogan was keeping
+keeping brands at the forefront of what's possible which meant that we had to be agile but i'd often see people in my organization
+that were really against change fearful of it they would take you know they would
+resist it yeah you know uh and i i i am i wonder how you if it's i always
+wondered why it was i think some of them had levels of imposter syndrome so they were
+you know they were just uh just trying to get a hang of the role they were in and not do more that
+you know they were already you know but i wonder what your thoughts were on that i think i think people don't like change because they don't know what it results
+in and that's one of the things so let's take um let's take uh moving your desk yeah
+someone sat at our desk for ten years in a particular office he said you know what you need to you need to move down the corridor
+i'm going to make a move but uh people weren't like the slightest um if you said to them that you know you
+need to move down the corridor you know we really appreciate the move we're going to give you a million pounds at the end of the year because of it
+they'll be trotting off with their potted plant in hand i guarantee it so i think that because people don't
+necessarily know what it results in why should we invest in doing something different which is uncomfortable because
+it goes against our mental tram lines our habitual thinking so now you're asking me to compromise my
+patterns and i don't know what for and i know what's going to result in um it could be good it could be bad so
+therefore i'm not sure i want to go to the trouble without investing in this change when i
+haven't determined you know the result of it as human beings we like patterns um that's good and it's bad
+and um it works in our favor sometimes sometimes it doesn't so we like patterns and so we like
+consistency and we compartmentalize and how am i getting a viewpoint on the world and in fact if you look at um
+the office is a good example the office is a great example of keeping people in patterns you've got your phone on your desk here
+your computer there come in at a certain time working a certain way take your lunch at a certain time
+so we're conditioned to work in a way which is reflective of the consistency which takes out variance in business so
+you think that management has been around for about 100 years and the reason why management's been around for about 100 years
+is to reduce variance at time because then you can guess then you can scale so businesses got bigger a lot bigger
+100 years ago and um because of the ability to keep people habitual so um so because we've become
+conditioned to do this and everything around us keeps us in in in a pattern that we quite like being in
+as soon as we start to move outside of that there's a level of discomfort so i guess leaders can allow people to
+make change atta and embrace change um i guess there's a few points one it's always best if it's co-authored and
+co-created right um so let's involve people in what that change looks like um it's always best if um
+we look at our organizations or teams as a community instead of as a team or an organization
+at the moment communities are outperforming bureaucracies and hierarchies when it comes to maximizing human talent
+so let's try and form a community and um let's co-author and co-create and and then um let's have a look at um
+peer recognition peer coaching peer challenge it doesn't need to be a top down thing done to people it can be something which
+can happen from the inside out you know it's meaningful when when something is endorsed by others
+that that you know you are that you feel an affinity with sure what when you read about the steve jobs of
+the world and the elon musk's of the world they seem to buck all of the a lot of the trends that you hear in like management coaching they
+seem to be very authoritarian you know i was reading about from i was reading steve
+elon musk's biography and there's stories of him just like calling someone into the office and saying how much does it cost to do this
+they'll say 10 million he'll say do it for 5 and do it within 30 days and they'll go away feeling puzzled but they'll get
+it done yeah he has this culture of like intensity and when you start he says to
+the teams that this will be the hardest you've ever worked in your life but it'll be the most worthwhile but it'd be the hardest you've ever worked
+and and i you know and then steve jobs as well i've heard the stories of how he was you know how he built the company at
+medlo park and um he seemed like the antithesis of what you would read about in a business book
+but obviously these are two of the most successful entrepreneurs the world has ever you know seen so i
+wondered if there's a i'm trying to appreciate the like
+how they've achieved their success by being so different from what all the business books say from all accounts they're you know what
+i mean yeah i mean i think a couple of things i guess that you know you find what works
+for you um i think what they have on their side is they have a really big
+purpose statement it's a really big mission so there are lots of companies with mission statements but very few on a
+mission and i guess that when it comes back to um the point i made earlier that passion
+been a significant multiplier of human potential i guess that these people have the ability to engage people
+so to tell a story attempt to inspire and motivate so i guess that you know there is a
+there's no doubt lots of logic and time there is no doubt lots of rationality which is used in their
+management leadership style you know but what you're describing to me in the people that you're describing
+i think you can really get behind something that someone passionately believes in and is something which is worthwhile and
+purposeful yeah on such a grand scale so i think when they're talking about um and things which will change humanity
+um i think it's possible for you know us to be swept along at him on that particular vision and
+so maybe it does mobilize people in a different manner because of who they are what they believe in and what they're
+trying to achieve yeah no that's probably true i mean yeah you think about i mean the example i'll give you is jfk
+well yeah i mean i mean jfk do you think that jfk's speech about putting man on the moon you should read it actually rather than
+look at it um it's a rubbish speech when you read it the term and the reason
+and the reason why is that there's no logic to it until there's no rationality so he says we put a man on the moon and
+the reason why he gives that we should put a man on the moon is because it's it's hard and not easy
+which is a rubbish reason to do anything it's hard that's why we're gonna do it yeah so um
+but not only did they end up doing this it mobilized the whole nation behind the space race and the whole
+nation behind science in fact um the reason why was that because logic was low
+inspiration was high it was such a um it was such a literally a moonshot it
+was literally such a big goal and so ambitious so expansive you know
+that people bought into the dream and i wonder whether and i don't know you know
+the examples you gave at steve jobs and elon musk whether whether people just buy into that dream and they buy into
+what they not necessarily what they're seeking to do but what they're seeking to create and maybe there's a lesson for all of us
+who manage and manage teams that maybe it's not about trying to you know get people to do stuff it's about people
+to you know to create stuff is that you know my time to be part of something which is worthwhile
+and meaningful and sell a big vision and tell the right story
+and you know engage people emotionally you know all of this stuff about psychology i know a lot of stuff
+i read a few books yeah you've read a few books about a few books a week last tuesday yeah you know don't tell my clients
+um you know when people come across people like you they think that you've got all the answers and
+because you've got all the answers or at least an answer to most things um they think that you must live
+a life of sort of perfect decision-making couples children have the worst worn
+shoes yeah exactly um so yeah what what do you like at living these things that you're aware of
+speaking of performance one of the things that's integral to performing at the highest level is nutrition it's something that i
+i guess i took a a long time to finally believe but that is why having hewlett's
+response for this podcast is such a privilege because there was a time in my life especially when i was early in my business career
+where i wasn't getting the vitamins the minerals and i wasn't having a sort of nutritionally complete diet i was
+if you look at some of my old photos i was definitely lacking protein as well and a lot of that maybe it was an excuse
+was because i was um i was busy and when i discovered huel when a guy called
+mike walked past me in the office wearing a heel t-shirt and shaking a little bottle and you know upon my curiosity of asking
+what was in that and why he was drinking it it really really did change my life and so here's what i want to do
+you know this particular podcast today has been about high performance and mindset and how we how we become our best selves and how we
+teach our teams to become our best selves i'm going to give away this week five
+boxes of your big boxes right all you've got to do if you want one of those boxes is hit the subscribe button
+on this podcast wherever you're listening whether you're on youtube or whether you're on the the podcast or wherever you might be and leave
+a review if you leave a review on the podcast or just keep your instagram handle or your twitter handle in there so i can find you
+but if you're listening on youtube then please um just leave a comment down below and any comment you leave enters you
+into the competition and i want to know what you think of huel so um it's as i say i say it with
+full honesty it's changed my life and i really believe that those of you who aren't getting your sort of um all your minerals and proteins and
+all the good stuff i think it can change yours too what do you like at living these things
+that you're aware of yeah i'm rubbish next question
+and the reason why is that two things that one um we're all human because we're all human
+you know we're all prone to make mistakes in our doing and our thinking um and i think that being you know
+better never stops so therefore we've got to continually adjust you know we don't find hints tips gimmicks that make us
+better and then we just apply them regularly and it works so i guess there's a level of
+inconsistency which is reflective of the fact that you know that
+i'm a human being who tries to do better you know give me an exam on a regular basis on an example well you're aware of the
+truth but you're just not oh you might you know on the amount of time so as you know i've been a guest speaker for 10 years now so when
+the world is normal and sane you know i would um go off four days a week
+anywhere in the world so twice a week i was abroad and i'd speak to a few hundred people i'd stand on stage i'd do an hour's talk
+about performance psychology and i'd come off um so i did that for ten years four times a
+week and um but um but i'd often come off and think
+cause any good i say to the stake at stake i would come up to me and say that you know that was really brilliant this is
+exactly what we're after it's perfect are you happy oh yeah it's exactly what we're after but you sort of covered the brief yeah
+yes yeah absolutely it's exactly what it was send me an email let me know the feedback and then
+you get you know maybe even get some feedback which is like you know you get sort of scored out of five it's almost like 97 percent five and um
+i'd be scouring for the threes and twos and think that you know there's like you know 500 people there's that sort of five people who put two
+and so it was all right i just think [ __ ] but um but uh but i'd be wondering why
+what did i do wrong what was real and it's unbelievable it's unbelievable the amount of times i've sat in front of an audience
+and um and you know maybe 300 people there there's someone with their arms folded like that and they're just like i think he doesn't
+look engaged you know and so out of friend of people there's something there's most people writing down things or nodding or
+smiling or whatever it is it's amazing how many times i can pick out the one person who doesn't seem to be enjoying
+it so i think i think look i think it's a couple of things that i'm i'm always prone to you know we
+actually we wait quite highly stuff which we think we're not doing well you know we're trying to fix what's not
+right about us what's not good you know you know what we should have done and um what we could be doing um i think i'm
+still prone to that rather than sort of enjoying the you know the success that i've had really what about things in your personal life
+in terms of like like you know health and like being a parent
+and like yeah pursuing goals and ambitions you have in your personal life what about those things
+yeah i think that you know um health-wise i need to take some advice from you we should i'll lie down and tell you all
+about it i keep i keep meaning to i keep meaning to run more and get to the gym more there's always an excuse
+um so you know i'm the most demotivated motivational spooky
+life's pretty [ __ ] and um so um so yeah so i think i need to work out
+more um i'll tell you the one thing that gets me and um i've got three children i got sort of um four four-year-old twin girls
+and a nine-year-old boy um is that you know as a psychologist and um yeah i'm pretty good at i've sat
+in front of some sort of pretty difficult clients some really difficult clients you know some people at the absolute top of their
+profession and um and they're they're [ __ ] screwed in their thinking and um and you know and you know i've
+dealt with it four-year-olds and nine-year-olds just do me i can't you know i just you try and apply psychology to it it
+doesn't work so the level of frustration that comes about in regard to being a parent again this is my point that you
+know all human beings and um so um so you know you try you try all the influence persuasion and
+negotiation and all the psychology and all the techniques that you know that um it doesn't work on four-year-olds
+it doesn't work it's so funny the guest that was here yesterday joe wicks are the exact same thing he said i'm like a you know calm guy but he just said you
+know when i my daughter i'll tell her that i want to just put her down so i can clean the counter and she just won't be
+the irrationality of it is what it does yeah and um so you know you know it's funny because um
+i've had some really good sports people sit in front of me and say you know give me you know you've got something that makes me better then
+and then you give them something and they go away they come back a week later and they say i tried that it doesn't
+work have you got anything else it's a bit like going to the gym working out for half an hour going home looking in the mirror and says yo let's
+crap that i don't like the gym film refrigerator um and so and this is my point that that you know
+it's not about tools gimmicks and hints it's about striving every day to be better than what you were yesterday
+um i worked with a golfer it was very very good really good um and you know literally
+top 10 in the world it's about a whole year and uh with just a piece of paper in his pocket
+and he used to play with his piece of paper in his pocket um and it used to just say um what did i enjoy today and what did i
+learn today 2 questions on it and then in the evening he just answered those questions so that whole year forget the numbers
+i'm not going to look at numbers i'm just going to answer this question so i've had a good day i've had a bad day doesn't make any difference i'll
+just answer that question these questions what did i enjoy today and what did i learn today had the best year we ever had and i'm just answering
+those questions yeah and in a way there almost needs to be more simplicity to not using tools
+and techniques not to try and apply psychology to a four-year-old you know but to just try and consistently enjoy
+and learn on a daily basis so i guess in regard to like you know yeah i'm still prone to say
+god i need to get running okay i've been drinking all week i need to do some exercise at the weekend
+um and you know again it's falling into the trap of the i've been at the mercy of the shoulds
+and musks rather than thinking about at um you know what am i enjoying what am i learning
+what surprised me this week um you know where am i experimenting and
+what have i discovered you know this week about myself and then once we start to talk like that maybe we can so i guess apply more
+consistent thinking and therefore change our doing so you want to run let's use that as an example
+yeah i need to run more definitely i need to run more why do you need to run more and um do you know because i want to
+improve my heart and lung health i think i think i've got tonight it's all right for you because you're young and fit and
+um but um but i think i've got to an age now where i realized there's more of an importance on exercise so you know before i could just
+i'll just do it anyway you know pick up running every now and then i'll be able to run i go to the gym every now and then i'll have a great time at the gym for a
+couple of weeks and then i'll skip it um yeah but now you know but now it's it's different a term you know now i
+sort of feel at them as though you know i could be fitter it should be i think this year has also sort of illuminated that for everybody
+at the importance of health i think it's made us all well it has for me made me think about my health a lot more
+no not for the vain reasons that you know young guy would think about their health because they're trying to trying to get laid or something but
+because you know i i want to live longer and i want to have more memories than those kind of things did you know near ielts he wrote a book
+called indistractible i know yeah i'm not familiar with i've read it you're probably familiar with the book yeah i know the name but i am yeah he
+said this quote to me which really changed my life and i think about it all the time okay when i find myself procrastinating from doing something or
+whatever he said that typically we think we're humans that are seeking pleasure but we're actually living in
+the avoidance of discomfort and when i think about the things that i procrastinate against or whether you know we're at six
+seven o'clock in the evening you think i can't be bothered to go whatever it does ring true to me that i'm actually
+avoiding some kind of psychological discomfort yes and so i now whenever i feel myself like this weekend i had
+had this big project to do i also had this talk that i had to do um for my manager dom and i found myself
+like and then i've got the book my book which i had to do go through the whole book from start to finish in a day
+and i'm like low-key finding myself oh just clean the countertop because that's important
+and i said i stopped myself i thought you're avoiding the discomfort associated with sitting down for nine hours until six am
+in the morning and doing the book and it wasn't until i realized why you know what i started that term has
+been like this flashlight that i shine in like the corner of the room we're after hiding the you know the thing that
+i don't want to do now so i wondered if it was you know for some in in regards to your running if it's in some respects similar like
+you're avoiding some kind of discomfort where you think i'd rather play i'm convinced of it because running such an unpleasant
+experience for me it's a really good example i can't stand it so but you're absolutely right that uh
+that you know i totally agree with you that you know we we do sort of go about our lives trying to seek
+moving out of that space of you know of of being uncomfortable this is why we don't have conflict
+conversations in the workplace this is why we don't challenge our own thinking this is why we don't like change and uh
+you know we like we like to operate from a comfort zone that's what we do um so yeah no i agree with you i think i
+think because running is such an unpleasant experience for me that's absolutely awful um i'm probably
+avoiding it because i just don't want the experience whereas riding a bike isn't so bad for me um so so yeah so
+maybe therefore but um instead of sat there at four five o'clock thinking god i need to go running in an hour
+and i really don't want to i'll go tomorrow maybe maybe what i should be saying is i
+need to go running no you don't um why don't you ride the bike why didn't you yeah why don't you just have stairs
+um okay well i'll have a go on it after this but um we should have done a whole
+interview on that i'm gonna kill two birds with one stone i hate running as well it's like i hate
+the impact on my knees yeah just i don't want to be outside yeah that'll be swerving past people so i got the peloton um it's low resistance
+it's fun super engaging and gamified because you see the data you see everyone in the world and where they're placing you see
+jenny 55 in north carolina's beating you yeah make me feel bad
+i hate jenny forever that just makes me realize how unfit i am and how much i hate other people who are fitter than me
+but i mean interestingly it proves how fit you are because you said you don't like running because of your knees and swerving past people
+i don't like running because i can't breathe so you're already winning chicken egg that'll be cured if you
+start running um but but on that point of um of psychological discomfort um
+how does somebody in your opinion
+face a challenge that they know is uncomfortable like you know to be honest i don't i don't
+want to go to the gym or do all these zoom calls all the time it's not like
+you know i'm not getting comfort or in pleasure out of doing two hours zoom calls at the moment about
+like you know biotech or whatever it is the thing that i'm involved in but i'm doing it and i wanted to know in
+your case what what does it take someone who like doesn't want to do something because they know it's uncomfortable to
+say do you know what [ __ ] it i'm gonna do it today yeah and is it does that go back to that
+point of of having that like long anchor purpose yeah i think it does i mean
+mohammed ali said i've i've hated every moment in the gym but i did it so i could live the rest of my life like a champion yeah and it's in in a
+way it's true isn't it that that you know there are there are component parts to success um and i think the
+two of the interesting one is and the one that most people probably relate to is failure
+so people don't like to experience failure but you know for example failure is part payment towards success
+so the price of success is always paid in full and in advance the price of success is always paid in
+full and in advance you can't be successful and you start making mistakes you can't be successful and start having your two hours zoom calls but uh you
+know in a way you need to fail we need to have these awful conversations we need to kiss lots of frogs we need to
+you know do deals which don't work but i mean you do all these things to enable you to be super successful so um there's lots of things that um
+again it comes back to reframing if we see it as part and parcel a stepping stone towards a greater advancement
+they're probably more likely to do it you know if you see failure as something which is we're trying to avoid and it's just
+awful and you know and it screams to me that i'm useless um then we're probably going to stay
+within a comfort zone you know if we embrace failure then we see it as part payment towards success
+until we see it as something which is um an active contribution a stepping stone towards
+you know being better maybe we're more likely to indulge in it and not have the discomfort that we associate with it so now i feel
+that um it is always good to think about you know what you think about that end goal have that purpose that
+vision the mission you know what you're seeking to achieve and create um and then think about what those
+building blocks look like because you know all great achievements are the result of many small achievements
+um you know you had joe wicks here yesterday he wasn't super successful overnight
+and he probably kissed a lot of frogs i'm sure you talked about it you know um know his business and korean personal
+life went in all sorts of different directions like ours at um and you know it's not necessarily
+as we said earlier it's not necessarily what what happens it's it's our interpretation of what's
+happening which will then enable us to use that as feedback towards something better and do you find with a lot of the high
+performance people you've worked with that their childhood is a definitive
+reason as to why they are the way they are today i'm going to try and articulate this if i can
+but i've i from speaking to guests on this podcast and also from a bit of introspection to be honest
+i tend to think a lot of people that have extraordinary outcomes have often had
+some kind of extraordinary early experience and i'll give you a couple of examples
+the a lot of the billionaires that i know are really really successful people that i know um cite their father's disapproval
+as the reason why they've always had a chip on their shoulder and they've always strived obsessively to be enough right because
+their father told them they weren't enough yeah um have you seen that in successful people that there's the
+the thing that makes them just a bit [ __ ] weird is often a you know i think one
+particular instance with a friend of mine a comment their mother made when they were four that they just can't shake
+yeah yeah yeah yeah i mean i i'm not a psychiatrist so i don't delve into
+backgrounds in the way that maybe someone involved in psychiatry would yes as a performance coach i tend to
+work with how people are now basically and um tell me about what you're thinking and doing what you're trying to achieve
+and more so than to try and deconstruct you know or analyze some of the you know the earlier experiences um so that's not my thing
+having said that though you're absolutely right there seems to be some sort of correlation between
+extreme experiences and then how people interpret or translate them and in fact you know as you're talking i
+was trying to think of the book i can't think of a book i wish i could now and they talk about in this book the fact that so many super
+successful people politicians actors um business people lost parents when they were young and
+there's a direct correlation believe it or not it's a direct correlation between people losing parents when they were
+young and then becoming super performers be incredibly successful um and the psychology behind it was that
+you learn independence and um it's almost easy if you've got these loving fabulous parents who
+you know hopefully you know many people have got um you're not as independent you know
+whereas you know if you lose a parent young you end up sort of doing things for yourself a little bit earlier
+and so maybe that going back to that responsibility the ownership piece and i'm having to sort yourself out
+and um you know means that people learn some of the skills which enable their talent to then be used differently in the
+future but there is a direct correlation believe it or not i wish i could tell it's like the real psychology in the actual
+article in the actual piece in the book um but you just reminded me when you're talking about it so i do think that some
+people do have these extreme experiences and i think that um it's almost easier
+to get to know ourselves and get to think about life and contextualize things um you know if
+we're experiencing things which are outside of our i guess our normal field of vision i i
+resonate a lot with that i um you said you know lose a parent but the reason i resonated with that is because
+i've said multiple times on this podcast again um that when people have asked me why why i was successful i i cite that when
+i was younger my parents weren't ever in the house and that made meant that i had to find a way to make money to feed myself or
+you know my mum was never in the house when i went to bed and she was never there when i woke up because she was just she slept at her shop sometimes my dad
+worked in london for six days a week which was four hours away and i and it was only
+of the four of us in our my family the four siblings that wasn't the case for my older siblings when they were
+younger or when they were my age my mom and dad were in the house every day doing date nights together and then when i grew up by the
+age of 10 i could leave the house for three days or two days and they wouldn't actually know that i'd gone and so that meant that i became
+like this sort of self-autonomous kid at like 12 13 14 50. and then started businesses at 14 and then you know
+went off but you could have gone the other way as well couldn't you oh you know with 100 you know with that
+level of freedom and autonomy but not the maturity and you know to deal with that freedom
+um my friend my best friend said to you and i'll never forget where i stood when he said it in this takeaway shop he said stephen
+you're either going to be a criminal or a millionaire and it was because i had that my
+independence created this connection where i knew that my outcomes were going to be a direct result
+of my behavior i always think of like school dinners as the perfect example
+for a lot of my childhood maybe up until the age of about nine my there was always like two quid on the counter which is like okay you take that to
+school and then by ten the two quid wasn't there anymore yeah so it was like waking up in the morning and being like how am i gonna
+eat today i'd have to find a way so i'd go and sell cigarettes or you know i'd like i knew that there were cigarettes in this this room
+upstairs which my mum had got from nigeria one one year so i just went to school and i was just shopping cigarettes or chewing gum and
+it was that that connection i made super early that my outcomes are a direct and only correlation of sort of
+connected to my behavior um so i resonate with that a lot and it kind of explains the difference between
+four kids that grew up in the same household and one the three of them went to university llc cambridge whatever and one of them dropped out of everything
+got kicked out of school and became an entrepreneur it's true isn't it so it's not necessarily the um
+yeah the experience is how we translate that experience and exactly how we channel our feeling into something which
+could be productive or destructive you could have become a criminal and a millionaire and got a job at this tory government
+you could be
+yeah but the last thing i really wanted to ask you about was um you know this idea of distractions
+social media is uh made it incredibly easy to distract ourselves and you see you know teams becoming
+much more distracted at work because of all these screens and you know the digitalization of the world and individuals and
+what are what's your thoughts on on why we're so distracted and how to overcome it yeah um it's true that we are distracted
+i think focus and concentration have to be practiced so many things can be improved
+so um whether it's resilience whether it's concentration whether it's courage all these things
+can be practiced so many think courage for example i say courage is like a muscle the more you exercise it the
+stronger it gets so it's possible to exercise all these things and be better at them and i think that um it's fine to be
+distracted because it's actually quite nice to have different stimuli and different um provocation
+and so we just need to choose when it's good to have that provocation and change and when we need to
+concentrate we need to practice both now um uh here's the thing for you adam
+is that as human beings we don't multitask so multitasking is a lie so for all the um all the girls and all
+the women watching this and um oh listening to this um i'm sorry to tell you it's not true you
+don't multitask better than men it's true amen it doesn't happen we're both equally as bad now we're both
+useless at it so what we do is we do rapid switching so we don't multitask we just want to talk about exactly um this is why
+actually um i can't remember it was a couple of years ago that the um the blackberry network went down in abu
+dhabi for a weekend from friday to monday had a 48 decrease in car accidents that
+we get really because as human beings we don't multitask you don't like check your text and drive well it
+doesn't work so um so i think that we are living in an age where it's easy to be distracted
+and some of these distractions are incredibly useful um we need to come back to greater responsibility and choice
+and um let's choose at home you know when it's fine to do that and it's fine not to be and um and practice
+you know these levels of concentration of focus that we may need for certain tasks but we may not for another so i quite
+like times when i can sit down and read a book or absorb something or think about something
+and narrow my focus sometimes i quite like sort of tv being on music being on at um
+phone next to me on the computer because actually um i'm sometimes picking up on certain things
+which um for a level of creativity can be quite useful and a bit of provocation a bit of a bit of
+changeability in my thinking because i get distracted by something and come back to it i find that as well i find them for some
+bizarre reason if i if i go for a walk or if i go to the gym uh inspiration floods into me but when
+i'm stood sat in my office trying to think of stuff it's yeah almost impossible the shower is another
+weird place where my ideas seem to show up all at once and it's like i'm not like this isn't hyperbole i'm not
+exaggerating at all like if i if i'm sat here and i'm trying to think of something to write or whatever yeah i go for a walk and sometimes i put my
+my music in it's like non-stop and i find that quite you know
+interesting yeah teams are often trying to think of ideas and creativity and if you say to people where do you have
+your best ideas and have asked people that question whatever your best ideas do you know what they'll say well i'm walking the dog
+and when i'm in the shower just about to fall off the sleep um on the commute over breakfast uh you
+know um they'll they'll they'll come up with all some recreational drugs they'll come up with all sorts of stuff
+but no one will ever say in a boardroom with some mints on the table and a jug of water
+no one will ever say that but but where do we where do we um you know try and create ideas in the
+business at all we get them around this boardroom table no one ever said don't get me wrong you can't get your team in the shower with
+you maybe you've tried i don't know what it's like around here maybe you've tried i don't know yourself better but um but yeah maybe
+yeah maybe we can't do that but we've got to find a way of trying to you know uh create a more natural
+environment for people to flourish and i do say to you many organizations i say to them that you know you're
+too quick to train the people rather than fix the environment you know people say oh i need more innovative people they don't um you know
+we need to train them on innovation no you don't let's try and create a culture an environment where people
+are free to express themselves the problem we've got is that you know we're so we're so convergent in our thinking and
+uh you know we start off as divergent thinkers we start off making really weird connections
+um i had a six-year-old once um asked me what does the number nine smell like
+amazing question i think that's probably the best question i've ever been asked well do you respect the interviewer
+today i was going to say that but um but you know what's the number nine smell like it's a great question um yeah was the last time you heard a
+ceo ask that question they don't um you know children ask these divergent questions because they make the
+connection between two things usually unconnected um and then you go to school and the school says
+why are you asking that we're doing numbers today just concentrate on the numbers um and then we go from divergent
+thinkers to convergent thinkers and our careers get better because of it our businesses get better because of it
+and making simple connections you know margins down okay we need to do this you know revenue's down okay we need to do
+that um but what do we need in today's society in today's world
+and um i think we need convergent thinking i think we need to move back and and get into that divergent space
+again and yeah who are the most successful people you know at the moment and people are making really weird connections
+people who this is where uber and airbnb and all these things come from it's from people who are making a
+connection between two things previously unconnected because they're still divergent so let's try and create some
+environments where people are free to explore experiment free to break some of the rules and to talk
+about things which are um which are not easily put together and i think that that's the best way in
+which we can see the opportunity and possibilities in in this changing world in which we live in
+how do people find you what's the best uh yeah i think i mean uh twitter or linkedin really i don't use anything i don't use facebook or
+anything like that so um for your website so you're on my website into me people contact me through my website but i used
+uh i started using twitter again and but linkedin is great for me i can imagine there are about 30 000
+people on linkedin and that's really where where i sort of communicate have you um
+how do you find social media just out of interest in terms of life i'm a bit like an alcoholic who can't get the top of the bottle
+yeah i mean i mean i love the idea of it but um you know i am you know i i think
+oh god i should be doing more um but um but i but i just don't
+people say that you should if it's not you should you should do yeah well but you know what it's funny one of the advices that i give people at the moment
+if it ain't broke you should break it because um you know we almost need to give up what's allowing us to be
+successful to allow us to be successful and um you know i know it's a counterintuitive argument it makes perfect sense to be
+honest i mean that's the definition what innovation is right yeah it's breaking the blueprint so so i think that you know and again look
+it's probably my running isn't it it's one of those things which are uncomfortable so i probably don't do it so um so what i should do is is
+try and find out more about you know social media and then i'll have a look at your social channels after and obviously we've got a lot of
+content from this so we can send it to you in a way that will do perform well if you post it so listen thank you for your time
+today thank you very very generous and it's a really inspiring conversation that's uh i actually want to read it's one of the few conversations where i'm like i
+really need to re-listen to this again and maybe with my notepad out and really take notes because there's so many
+ideas that are really really profound at times that i'm like i'm trying to hold on to and then because you're because you're full of
+them i'm i'm going back i'm thinking you know what i mean because there's so much intelligence condensed in such a
+short period of time very kind no i really mean that as well yeah
+sometimes i have experts on that have really well studied in their field and the things you say as someone who's
+ran a multinational business with 700 employees for the last 10 years of my life i'm like perfect sense and i i really
+want to i could unpack all of those individual topics more but yeah thank you such a pleasure to have you thank you thank you for inviting me
 
 ----------
 
@@ -1098,11 +8129,911 @@ paste here
 --08--
 
 -----
-Date:
-Link:
+Date: 2020.12.14
+Link: [# Addiction, Childhood Trauma And Depression With Joe Wicks (The Body Coach) | E60](https://www.youtube.com/watch?v=OZN7xRCAz58)
+
+Note:
+**Summary of the Podcast with Joe Wicks**
+
+**Advantages:**
+
+- Joe Wicks, through his fitness programs and initiatives, has significantly impacted national health and exercise awareness, similar to Jamie Oliver's influence on school dinners.
+- His approach to fitness and mental health, especially during the pandemic, provided an essential outlet for millions, highlighting the importance of staying active for both physical and mental well-being.
+
+**Drawbacks:**
+
+- The intense public and media attention, while beneficial for spreading his message, has also led to personal challenges, including dealing with the emotional aftermath of rapid success and navigating privacy concerns.
+
+**Tips and Advice:**
+
+- Emphasizing the importance of visualization and setting ambitious, seemingly unattainable goals ("moonshot goals") for profound impact.
+- The significance of staying connected to one's purpose and community, especially when faced with personal challenges or success-induced disorientation.
+
+**Main Challenges:**
+
+- Managing the emotional toll of rapid success and maintaining motivation after achieving major goals.
+- Balancing public life with personal well-being and family time, especially considering the impact of social media.
+
+**Importance and Usefulness of the Topic:**
+
+- The conversation underscores the critical role of physical fitness in overall health and its potential to transform societal norms regarding exercise.
+- It also touches on the broader implications of fame, success, and social media on mental health and personal relationships.
+
+**Accomplishments:**
+
+- Achieving a massive goal of influencing national exercise habits within a short period.
+- Receiving an MBE for his contributions to fitness and charity, further cementing his legacy in promoting health and exercise.
+
+**Interesting Quotes/Insightful Sentences:**
+
+- "Nothing in nature blooms all year round," reflecting on the natural cycles of growth and rest, both personally and professionally.
+- The analogy of money as a tool for freedom rather than a primary motivator, offering a nuanced perspective on success and personal fulfillment.
+
+**Lecture Content:**
+
+- The conversation is rich with insights into Joe's personal journey, from his childhood experiences to his approach to fitness, fame, and family life.
+- It delves into the psychological aspects of motivation, success, and the impact of social media, offering valuable lessons for listeners on navigating their paths.
+
+**Main Challenges:**
+
+- The personal and emotional challenges of sustaining motivation and purpose after achieving significant goals.
+- The impact of rapid success on personal relationships and mental health.
+
+**The Importance and Usefulness of the Topic:**
+
+- Demonstrates the transformative power of fitness on a national scale and its role in improving mental health.
+- Highlights the complexities of managing personal well-being amidst public success.
+
+**Accomplishments:**
+
+- Joe's successful pivot from personal training to national fitness inspiration, culminating in the "PE with Joe" initiative during the pandemic.
+- His recognition with an MBE for his contributions to fitness and charity work.
+
+**A Summary of the Content:** The podcast provides an in-depth look at Joe Wicks' journey from a fitness trainer to a national health figure, emphasizing the importance of setting ambitious goals, staying true to one's mission, and the impact of social media and success on personal well-being. Through personal stories and reflections, Joe and the host explore the challenges and rewards of making a significant impact on public health and personal growth.
+
 Transcription:
 
-paste here
+intro
+this is the first podcast i've done this year where we had tears um and not just once and uh i don't
+really know how to introduce this conversation i guess i guess the thing i want you to
+know is that things aren't always what they seem and um
+really that humans will feel the same we all feel the same emotions the same peaks the same troughs
+and no matter what it looks like on the the outside things aren't always what they seem i'm
+stephen bartlett and this is the diver ceo i hope nobody's listening but if you are then
+please keep this to yourself
+Achieving my ultimate goal in 18 weeks
+visualization that's a very relevant word i think to start this conversation because in our last conversation last
+year when i asked you what you wanted to be remembered for what you wanted to do next in your career you told me that you wanted to have a
+legacy for getting kids all across this country up exercising and really into exercise sort
+of similar to how jamie oliver completely changed the way we view like school dinners and things and i remember jamie oliver was the reason i was eating
+apples instead of mars bars when i was younger and then just like a couple of months
+later the pandemic happens and you're getting
+millions and millions of kids in this country up dancing and into exercise
+only a couple months later it like boggles my mind i've never seen someone say something so big such a big ambition
+and then only like a couple of months later do it on a scale which nobody has ever done it before
+that's what happened i remember when we met and we talked about that moonshot thing the idea of like having a goal so big and so outreach
+that you feel you can never you know almost never attain it and that was my vision it was to have that legacy of making an impact you know and
+i do think about james he's had amazing success as a chef as a you know an author but i think about the jamie's school dinners the man who went
+into the schools all over the uk and said look this isn't this isn't enough our kids can eat healthier and i
+feel the same about school fitness and exercise and pe not just about obesity and the diabetes
+thing but i think about our children's mental health and i said to you that i want to have a legacy where i can create
+absolute you know national change and national um create awareness around fitness and you
+know lockdown happened and within you know 18 weeks that happened so it was almost like a 10-year dream
+happened in 18 weeks and i'm so proud of that i've reached that many people take me to the start so lockdown happens
+where does this idea come from like what what happens how does and then i want to hear like when you saw the numbers the amount of people tuning in
+every day and the impact it was having how did all of that feel it was an intense moment in time but it was also something
+i did visualize and i did i had been working on so i'd been visiting schools i'd on the uk tour
+i went to ireland northern ireland i'd visited schools i'd worked out with hundreds of kids in these schools and that monday i was
+supposed to go on another tour me and nikki were going to take the camera you know it's my brother nikki um and like i've always said there was
+no tv show there was no money there was no budget it was just me and nikki going and doing what we love which is connecting and i suppose reconnecting
+with the mission and purpose that i have because when it's all digital i do sometimes feel like it's just numbers and is it
+is it real people so i have to go and visit the schools and actually meet the kids and do it so on the monday i was supposed to go
+out on the road we had about 15 schools chosen and boris announced you know there's going to be this lockdown so
+it was 12 15 a.m i was laying in bed on the thursday night and i text nikki because i looked at my whatsapp the next day and i text nikki
+saying i've got this idea and honestly i saw everything i saw a hashtag i saw a logo i saw the name
+i said it's going to be called pee with joe every day next week do it let's just try it for a week nine a.m
+um monday to friday i announced it and loads of pr you know loads of school newsletters you know school news letters or twitter
+tweeting it and i was doing espn cnn like global pr and i thought this is going to be really big
+but still had no idea how many people would tune in on a monday and on the monday we went live i stepped in front of that camera and i was really
+nervous and 850 000 i think it was live streams and i thought wow if you think about how
+many kids that could possibly be and then day two was the biggest one so day two was 954 000 live streams which is a
+world record it turns out yeah concurrently it was almost a million people watching at the same time
+yeah it blew my mind then i i realized there and then that that was like families that was kids it was schools it
+wasn't like individual people so really it was probably tens of millions of people a day and i felt this amazing sense of purpose
+like i was there for people that when they needed me the most because everyone was locked in you know whether you had children or not you were like
+confined you felt restricted your mental health was going to suffer that day and i was there like to to be there and just have fun and i never once one thing
+i was really cautious of never mentioned lockdown never mentioned covid or the or you know anything to do that was like it was a
+safe 30 minutes where we could forget about things i put the music on we were dancing around being really silly and
+that was a gift that was my gift to the world it was just a bit of laughter some feel good energy and a real boost
+in their mood when that finished i know that they were happier and you must have got a lot of calls from the big sort of production
+companies and tv companies wanting to like buy it or or to bring it to tv right within a few
+days so you remember i told you the story about the channel 4 thing i was trying my hardest to make the uk tour thing and a documentary
+around schools fitness but they never had the budget that no one could do it well within a few days the head of channel 4 like the top guy i can't think
+of his name called me up personally said joe what you're doing is amazing we'd love you to stream the workouts on channel four and
+i i was like dude like i'm doing this on youtube i've got kids in sri lanka and south america and india
+and like even like madagascar and the maldives taking part in these workouts i can't do this on channel 4 i need to
+be global and i'm so glad i stuck with that because that really allowed it to go globally it allowed everyone
+all over the world to take part and don't forget i was getting a million live streams but by the end of the 24 hours there was seven
+eight million views crazy so total 80 million views on the 18 weeks so 80 million
+individual views but how many families or schools are doing that so it's tens of millions of kids and
+that was my dream so i just can't believe it happened but i'd built up that trust over eight years
+you know as the body coaches joe wicks as this mission driven person anyone could have the same idea
+but maybe they wouldn't have had the same reaction because like i said i put out so much love and energy and positivity and visiting these schools
+that those teachers knew i was going to live deliver a really fun and safe session for their kids 18 million people is you know when you
+sat down with me last year we had this conversation you said you wanted to to do this nationally right you said you want to get kids exercising
+nationally there's only about 60 million people in the uk you managed to do 80 million people all around the world
+on a global level but also at a time when people really needed that kind of
+energy the most at a time when the country was you know fearful and people were trapped indoors and not
+exercising as much as they they could have been so i you know we can talk about the the p with joe
+Feeling lost
+thing for a long time but the thing that actually fascinates me more is what happens afterwards
+so you've just that goal you set out to achieve you achieved it quick how does it feel after
+well you talk about that gold medal syndrome you know of people having this like coming off tour or coming to back
+from the olympics and they have this kind of feeling of like feeling flat or not depressed maybe but confused and
+lost and that's what happened i moved into this new house and i thought i've got this lovely house why am i feeling flat and for the first
+two weeks i was there i was missing my old house in richmond because my children were born there p which i was in that living room that
+you interviewed me in and it was like this i left this energy behind and moved into this new life and i was like why am i
+feeling like this and i realized it was because i'd lost my purpose i'd been disconnected from that audience every day
+um so when i felt that the first thing i do i jump on my instagram like i said to you i used to do dms and voice notes
+and i reconnect with the messages i read the youtube comments so that i know two million people a month for
+doing youtube workouts before the lockdown i'm now getting six to seven million views a month so that's real people that
+have changed their habits they're still doing it um and it reminded me why i did it and also
+i had wonderful letters i had two two or two or three i'm gonna say it's probably nearly like two or three thousand like letters and
+cards and things that seems mad but i had this stack of things to go through so i sat in my office for two days
+you know laughing crying like feeling this love it was like this wave of love when i realized what i'd actually done during that time
+it wasn't just about me getting kids exercising it was like widows it was single parents it was people with anxiety and depression
+living on their own and in all the all the different places in the world it was really emotional so i did feel lost
+but i've reconnected with that because now i'm still doing my youtube workouts i'm still delivering free content and although there's this new product in
+this app coming out i'm so passionate and committed to doing that one workout a week that i will never neglect that free
+content and that audience that are there that still may never buy my app on my books you talked about buying a new house
+probably a bit of a dream come true in many senses um but again you speak about it being kind of anti-climactical like in like
+not feeling like that expectation that when you've got that big house because i've seen the house it's a nice house you should have felt
+like confetti should have come down and you should have felt amazing and but you kind of described it like you didn't feel that like that yeah i kind
+of thought you know i was i was gonna move anyway but it was like the the the lock down accelerated because we had paparazzi outside and i
+wasn't used to that you know i wasn't used to being having like folks taking a meaning when we walked to the park and we lived on a main road so it's quite public and
+people would knock and and sort of say hello and it was fine but sometimes you just want a little bit of privacy like when you switch off
+so we found this lovely house and it's you know it's got a nice driveway it's got a beautiful back garden and when i was in there i just kind of
+thought why aren't i double as happy i've got more space i've got more garden but i genuinely
+felt like i left that part of me behind in that house that was so purpose-driven it was all about pee with joe it's where my kids
+were born so i suppose it's a lesson and i really talked about that when boris announced the lockdown number two and i'm sitting
+there in my kitchen i've got all this space i'm thinking it doesn't matter if you've got a massive house we live in a one bedroom
+flat we all feel the same right now we all feel very disconnected very lonely you know we miss our friends and
+family we need to socialize we need events we need live music we need dinners so so it's just a really important
+message that it doesn't matter what situation you're in we're all feeling the same and i really wanted to share that message and it definitely helped
+people open up the conversation because we're all struggling you know mentally with this with what's going on and yeah you know
+you've talked about it before you know ordering the car and the house and i think we're driven by these things and consumerism like we we're always
+wanting the next thing but what i've realized you're in this lockdown is i'm happy exactly where i am with just what i've got
+and that's a nice feeling it's really nice when you realize that another rolex another car even another motorbike or another
+holiday it doesn't it doesn't give you what you really think and i think people listening that are desperate for that life i think we
+all come to the same conclusion eventually whether you're 30 or 60 we will all level out and realize that what's important is our friends and our
+connection and our love to the people around us it's it as you say it took me a long time to learn that lesson and
+i the the phrase that i was having 27 aren't you something like that yeah you ain't taking that long
+you've got i think you're very when i listen to your podcast i think you've got a lot of wisdom i think you've spoken to a lot of people and you've
+you've absorbed a lot and i think you've really taken into your own um your own life and philosophies i
+think i think you know what i think it is i i've also been really like self-analytical as in i will
+have a thought and i'll have a feeling and i'll try and grab onto it and hold that out in front of me and go why are you feeling like that so the day
+as you kind of alluded to there where i realized i was going to be very wealthy and i start looking at cars and houses
+i get this feeling of like the feeling you described with your old house which is i think if i get this i'll actually feel
+poorer in some way i'll lose something like if i and then i thought to myself well if i get this one
+what's next if you get a lamborghini aventador the the best [ __ ] sports what's next and then i was like i'm
+gonna just keep go and then me realizing that if i if i always start believe that my happiness was somewhere else in a
+promotion in a new car in a big house it will never be here if i believe that i can't possibly be
+happy because i don't have x i will never be happy because once i get x it's like a mirage or a rainbow it
+just moves out further in front of you yeah and you see that with a lot of celebrities a lot of musicians like talented people that get everything so
+young you know they get to that point where they start you know they go into depression and anxiety and it can you know manifest in drug addiction or
+you know all kinds of things but yes if you're constantly looking for the next thing or almost living in the past with old
+memories and what you used to have like you talk about down contrasting and up contrasting like that thing you said
+changed my life just thinking stop thinking about what you did last year how you went to america and you went to coachella think about what you're doing today and
+not worrying about that and it really just brings you to a it's like a medita it's like a meditation it's a thought a simple thought where you can
+actually start to bring yourself back to the moment and like like i said i it could be a quote it could be a podcast it could be an
+interview little things just sometimes it opens up a whole new thought process isn't it and you start to think actually you know
+what that's amazing and also i interviewed fern cotton and she said one of these lovely quotes is
+nothing in nature blooms all year round you know where we're constantly i need number one podcast i need the number one app i need to have
+um you know the best book i need everything's got me number one i need to be doing everything every month for the year but i've realized that
+in nature like nothing blooms all year round and that again made me realize it's okay to have quiet months and not be in the media
+chill out relax because something good will come late on a year you'll bloom again and during summer and i think so little things like that
+really open up my mind and i'm evolving quickly i think since i become a parent as well um you start to
+be much more empathetic and you start to understand and you feel a lot more when you've got kids i don't know where it comes from but
+i'm i think a lot more about other people's feelings now more than i ever used to i actually wrote down um when i was
+watching your video that you did during the lockdown where you start discussing your own mental health and you saying i've just watched boris's announcement
+and i'm feeling really [ __ ] but in that video you also say i'm feeling [ __ ] at the thought that
+there's loads of families out here that are going to lose their jobs and stuff and i wrote in my notes right like incredibly empathetic like
+you are incredibly empathetic and it kind of it made me question like where did he get that from because that is a trait i noticed in you last time as
+well most people in the middle of a lockdown when they just found out that we're going into our second lockdown don't think oh my
+god all these other people that are going to lose their jobs and you i could see it in your face and i know you're a genuine guy because i've
+been with you we've gone for dinner you know outside of the podcast i know who you are i'm like he genuinely genuinely cares i
+think it's grown him i think that feeling has grown in me but where i used to be like you know when you're a teenager you're a young adult it's all about you it's like me me
+me and then you you know you find a partner and you start to realize it's about your partner and it's about your kids but i think yeah like the more i realize
+that we're all connected it's that thing of connection you know it comes from sometimes a meditation or a feeling of like
+we're all we're all in the same experience and you know i've had i've been very lucky like the
+body coach brand has grown you know my youtube audience has grown like the sign ups of the planet it's all gone insane and so i think
+about other people in small business i genuinely care about fact i think about families that have run like restaurants
+for 30 years or had you know properties or had like amazing nightclubs or you know amazing restaurants that are
+suddenly going under like that it affects me and that really when i stop and think about all the pain and suffering in the world it
+really brings me down it really kind of brings my energy down and then i have to kind of exercise or do something positive because i start to
+feel a bit sad because that is the world right now you know there's billions of people that are going for a really difficult time
+and so my reaction to that is trying to inspire them to move to eat well to exercise because i know that it
+can counteract any kind of you know financial pressures or stress that's going on if you exercise and you lift your energy
+and you and you put good food in your body you know even temporarily you're going to feel better and it's going to change your mind so
+that's my gift you know i try and inspire people to exercise and feel good for you know even if it's once a day or once
+a week it's enough to change the way you feel about yourself and your life we went from a little dinner a couple a
+couple of months back i don't know i think just after the first lockdown before the second one um and
+i was i came home really inspired on one end but just i couldn't shake this thought and i i
+hate to go back to it but i couldn't shake this idea that you just had the biggest achievement of your life
+with this p i mean outside of your kids in my opinion um out with this p with joe format that
+just shook just spread across the world right and the joe i met at that dinner was
+somewhat despondent as you say like confused and um as you say like really unsure
+about why you weren't feeling on top of the world and also really unsure about what you do next to
+to kind of like top that i guess and it really stayed with me it stayed with me for like a couple of
+weeks what did you think do you think i'd be more like energetic and and and proud and like ambitious or what
+every every person on planet earth would have thought okay so joe set out to achieve something and he smashed it out
+the park he is on all of the tv stations congratulations on the mbe by the way that's a whole nother conversation we'll
+get to that mad he smashed everything at the park
+um he's got to be just absolutely buzzing we were sat at the dinner and there's people coming up to us
+asking you for pictures halfway through the dinner as well but you weren't like that and even though i've written about this in my
+book at great length about gold medal syndrome and gold medal depression and my own experiences i still when i saw that in you i was
+like [ __ ] people need to hear about this because you were i'll be honest right
+that was the lowest i've ever seen you really oh yeah i suppose i i was concerned no i mean
+look i was i was really looking forward to seeing you and i was it was i was you know we hadn't been out for a while but i think coming off the back of that pee with joe
+i was emotionally drained i think you know physically i can do workouts all day i've done it dude i've done a 24-hour workout like i
+can move my body but i think the energy of performing like going on stage stepping in front of the camera
+when i wasn't in the mood for it when i had to like pick up every i was literally carrying everyone's emotion and energy and trying to and i
+do believe in energy that we carry and we push it and we sometimes hold negative energy we sometimes hold things locked up from years ago and
+i was just i suppose fatigued emotionally fatigued at that point but i've bounced back you know i'm back in the zone i'm filming workouts
+again and i'm um i'm refocused like i said on the on the purpose and the mission which is like
+fitness rule and i've got the app is one option i've got the books there's one option but then also instagram youtube you know there's so
+much free content because i don't want anyone to feel like the body coaches premium brand and i can only get him through that paid
+subscription no i'm still gonna give you one workout a week on youtube and i'm still gonna do my instagram recipes i'm still gonna
+share my daily stories and motivate you um and every now and again i might mention the app but it really is
+just like for people that want to give it that extra push you know and try something a bit different so as we park pee with joe you know last
+Goals going forwards
+time you sat down here you put out into the world your your goal your ambition and it came true
+so i think you know let's tempt again uh what is your what is your goal and ambition now going forward in
+terms of your purpose well i think what i what what happened i achieved was a short-term thing you know
+it changed behaviors but they had to they had to do it because they were locked in parents had to keep their kids moving um
+you know schools weren't providing pee everything was closed so it was a temporary thing it was the start of a movement but it's
+the legacy is still continuing that movement you know continuing to visit schools continuing to speak to
+heads and i don't see it as a government thing because i've realized that you can actually just speak to local schools and they have the ability to change their
+curriculum well they have to follow the curriculum but they can change their timetable so if they want to fit a 15-minute workout
+in once a day with their children or do it um you know at the end of the day they have the ability so again it's about continuing to grow that
+mission to create content maybe it's a separate platform which schools can use but it isn't over because like anything
+motivation drops it might it drops for me it drops for you um different times of the year and with young people
+they're very engaged at the early ages in primary school but when they start hitting their teens they're in the devices they become more
+resistant to exercise so the challenge becomes tougher as they get older so my mission now is to continue the
+school's work when i can go on the road start visiting schools again creating content you know
+i'm hopefully creating a tv show around that you know like jamie over school dinners was only six episodes in my head
+it felt like it was weeks and months and months of content so you know i want to do the same thing i want to create a really amazing series
+whether it's um you know netflix or bbc or channel 4 where i can continue that conversation to get one teacher or one dinner lady or
+one um head of a school to believe in the power of exercise for their children so i really feel like i've just started
+there's so much more to go i think you have as well and you know so like we what one thing i've learned from doing this podcast and
+speaking to guests like you is that and even eddie hearn who we had on last week is how pivotal and how defining
+our early years are and you are like a really fascinating guy in so many ways we talked about your empathy
+Your childhood
+your achievements um all of these things suggest that you're because they're such
+extraordinary things or out of the ordinary things suggest that you probably had quite an
+out of ordinary childhood whenever whenever i meet someone uh who is achieved out of ordinary things i
+always think okay tell me about your childhood so how was your childhood joe oh so you think you don't think it was a stable
+child do you think they were saying a bit more that motivated me to yeah i think i think um and it
+doesn't necessarily mean it was like a really bad childhood or a good childhood i always you know and i actually did childhood psychology for two years which
+people don't know about this is why i'm so fascinated by like all the freudians um psychology and and how one thing that happened
+i've got a friend who told me that one thing that happened when he was a kid he still remembers to the day to this
+day and he holds that one comment that someone in his family made to him as the reason for his
+probably his single biggest flaw in his personality and it was just one comment on one day from a parent yeah
+that's that's that's amazing and that's the power of um yeah the power of a negative thought like if someone says
+your teeth are a bit crooked or you've got skinny legs like someone could say you've got lovely teeth your whole life but you still think your teeth are
+crooked yeah and that's happened to me in the past i got invisalign because one a girlfriend said to me you know your teeth are a bit wonky really you
+know and and someone said about you know this is a true story when i was 16 i had glasses but i was really embarrassed i
+was really shy about it and the girl i was going out and said i said something like i wonder if i'd look good in glasses and she
+she said oh no you'd look silly in glasses so i never wore them for two or three years i just hide them in my car
+drive to our house take them out and you know it's that thing of we really take on these these thoughts and
+it can really affect our confidence and that definitely definitely happened to me as a kid but i suppose
+my childhood was very chaotic you know it was very unstable my dad was a drug addict from a very
+young age so you know that was it was a bit like you know he was there one minute next minute he was in rehab next minute he was he was back
+on the gear you know and he my mum would take him back and it was all good and then they'd be arguing and you know i lived in a council flat with
+um really thin doors so it was like um it's like plywood and so
+there used to be holes in the wall there's be holes in the door because i remember um i need to think why are there holes in
+the door like and i look back now i know it's because mum and dad used to fight and argue and you know it'd be like it was a symbol of aggression and
+impatience and intolerance and then it'd be gone and so i always i didn't have a positive role model in
+terms of in terms of a male and also when it comes to marriage you know my mum and dad never got married if they were married they would have been divorced a
+hundred times so i had similar beliefs around marriage and commitment to you like to hear you
+talking about it like i i suppose i had the same feelings when i was 25 i didn't believe that people stay together people are
+committed that marriage is going to work that you know people get through tough time because it was always like when it got
+[ __ ] and tough my dad would piss off and we'd be back on our own again so you know again it was a tough childhood
+but also i had a happy childhood i didn't i don't feel like resentment i don't look back and be like i wish it was different i wish my dad was there
+because we got a great relationship today but it definitely affected me you know the destruction of drugs in my household
+and what came with that all the chaos really put me off ever wanting to smoke weed or drink
+alcohol you know i was so scared that i was going to enjoy it and i was going to become an addict i thought it was a genetic thing i thought i don't want to be a drug addict so i wouldn't go near
+it so it definitely um it definitely shaped me you know and when i look at where my love and generosity and empathy
+comes from it's my mom like my mom is she's so kind and loving and she's so always putting other people first and i
+think that definitely shaped me as an adult i didn't actually know this stuff about you before i didn't know
+that you'd been through such a um traumatic early childhood and as you were saying that i was thinking
+[ __ ] hell it's remarkable that you are who you are and that you have such feelings of empathy and you're just
+such a kind human being having gone through such a you know violent and traumatic
+childhood and i guess that is credit to your mum um i suppose yeah i look back when i get
+asked in interviews now like where where did your generosity and your kindness come from and your kind of desire to want to help others it's about
+help you know i'm happiest when i'm helping others so if i know i'm helping someone or i'm helping millions
+i'm really happy and so when it when it stops i felt i'm not i'm not i'm not i haven't got my purpose i'm not
+valuable but i've realized i am still valuable i'm still helping people um but yeah my mum you know she left
+school at 15 no qualifications she met my dad in a squat she had my brother when she was 17. then she had
+nikki she had me when she was 19. she's like a kid and when we used to go play she's like people she says that your sister
+she looks so young you can't imagine like um but somewhere along the line she taught me value she taught me respect
+you know if i had to be home at 10 o'clock on a friday night i was home at ten o'clock my mates were down apart till one two
+for him because their parents let him run loose and they were the ones graffiti and they were the ones smoking weed they were the ones that got in you know in trouble for
+you know crimes and whatnot so my mum was really considering she wasn't parented her dad
+left her when she was a kid she was she was a banner when she was a baby so i don't know where her love comes from but she's got this
+ability to just love and and be so generous and when she went to university she went back she said i want to study
+she she went to become a social worker so the first thing she'd done with her life was going to help people that you know young offenders people that had
+been through abuse and and all this stuff so it has to come from her it's a motive it's my mum so when i took my mom for
+dinner um the night before it was going to be announced and i said to her like we're celebrating my birthday tonight
+aren't we because it's we we were having a late birthday there but it's something else yeah miami and i said mom um i've got an
+mba and she we're in the middle of lucky cat restaurant in london and she burst into tears and i'm like
+in the middle of the restaurant crying with her and she's like when she was younger like all her friends used to say you're a [ __ ] [ __ ] parent imagine the
+pride and it is it's she raised me like i have to put it down to her you talked about your dad then said you
+said that you've um after all that you'd been through and all you'd observed and his addiction and his battles with addiction you've got a
+good relationship with him now yeah we we do because you know addiction never goes away like
+he's you know he does his na meetings it's a part of his life but he he needs that he needs to have a
+fellowship and a network of people to talk to like i don't understand addiction i've never been addicted to anything so for me it's like
+it he needs that that network of people he can talk to and that's obviously the moment mostly through zoom but usually it's like n a meetings
+you know you go and have a talk and you you feel better and he's had you know he had therapy but you know he's learned he's he's became he's evolved like again like
+his dad left him and i understand my mom and dad because they went through so much trauma my mom was
+abandoned when she was two years old was living in a she was in a um you know an orphanage
+and then my dad the same thing he's that left him like he didn't have you know he didn't ever say i think i
+don't think my dad's dad told him he loved him until he was like on his deathbed when he had cancer so like i understand where that addiction why my
+dad chose to like do that with his life and i understand why my mum had ocd like because i know what she
+went through as a kid i know what she went through as a young teenager and so you start to understand it and then you start to really love your parents even
+more because they protect you when you're a kid they're just protection they can't tell you what they went through they can't tell you this stuff so it really like
+makes you realize how much trauma they've had and where that's manifested
+and so now like my relationship my dad is i understand him i understand that he he has seasonal depression during the winter he's really low and he'll have a
+holiday and he feels great and he comes back and he's up and down and that's him and i just have to kind of love him and although i'm quite
+consistent with my emotions and you want everyone around you to be happy all the time don't you think i'll buy him a motorbike i
+send them to the maldives or you can go and stay at my house in america it's all temporary it's all it doesn't do a lot you know so real
+connection comes from like communicating reaching out spending spending time with him like he's happy when he comes around and we
+go for a walk or we got on our skateboards together you know we've got electric skateboards so it's about reconnecting and being with
+him and he he needs that my dad needs to see the grandkids he needs to see my brothers he needs to see me and um
+yeah i've just learned that like i said that really nice quote that the the antidote to addiction is
+connection not push him away i hate you i can't stand it why are you relapsing again why are you going into depression
+you know the mind's really complex and you have to understand that people aren't going to always be how you want to be and you
+have to love them unconditionally but if you ask me as a teenager i would be too angry i'd be like [ __ ] that no like i can't deal with it i
+don't have a dad but that's a drug i don't speak to him i wouldn't have had the emotional um ability to deal with that but now as an
+ad i'm 35 and i can understand it a bit more a little crazy because um i love that
+quote by the way and it i think johanna hari is a real uh sort of yeah i think i've got his book on the
+shelf behind me about lost connection from yeah that's yeah i think russell brand mentioned it to me and i thought wow that's such a nice thought
+and that's what the book is about it's about the real reasons for depression and anxiety fundamentally stem back to a loss of connection of some sort
+and it was telling when you were telling your story about the generational sort of cycle that's going on there your mother's you know your dad and her
+upbringing and then your father's dad and how like it was a lack of connection it seems
+that put them into the situations they were in and then that lack of connection made them a certain way which then nearly made
+you treat them with a lack of connection as well and i think it seems like much of the
+reason you're able to break the cycle is because you've realized that and you're like as you say bringing
+bringing him close despite you know i talk about this a lot with my friends that have um an estranged parent or have lost a
+parent and i always tell them i was doing it this week i was saying you've got to forgive them for
+their own faults because their faults have come from some kind of trauma and tony robbins
+says it as well he says you've got sometimes we've got to forgive our parents for being imperfect not being the parents we hoped they were yeah
+it's so true and like you said you you know memories memories can form like your literally
+change your characteristics and your personality and your belief system and i had really negative beliefs around commitment around um
+you know people being faithful people sticking together like when things got tough to people and even i'd be affected if like
+celebrities that i really loved like they'd break up i'd think see that even they can't stay together i just thought no one stays together no
+one's loyal no one's no one's ever like actually happily married and stays together but now as a married man with two kids who i love
+i'm really really like i don't believe that i believe that you can be happy i believe that when i see an old couple on the bench you know 78 year old couple
+i love that i think how amazing they've spent their life together i want to be like that i want to be a couple that are stuck together so
+it's you know my child has affected my um my my love and commitment as a as a relate in a relationship to
+rosie but also as a parent like i don't want to be impatient and intolerant and snappy and swear and shout but
+that is my default setting that's what my head's trying to do when indian miley screaming at me i want to slam the door and walk out the
+house or i want to scream and shout back at him because that's what i that's what i had as a kid so i have to actively work against that so
+although i might be screaming in my head i just take a breath and i like almost just sort of um yeah just take a
+moment to just sort of calm myself and then i can react very differently but that is a that's a muscle you have to train it
+because otherwise i'd just be screaming and shattering all day long you know so that's definitely it's hard
+to do that when you've had it all your life when you just got you know screamed that shouted at it's just it's like what you know it's
+default it's a default yeah like it truly is like a it's like a computer program and you have to sort of try and undo that code um and i read a
+book called um calm calm parents happy happy kids and it's that thing you can either fight
+flight or or pause and have a breath you can fight and swear and shout and scream and slam the door you can
+run out of the house and just deal with it and let them deal with it and just not even deal with any emotion and show no emotional control or you can
+pause and have a breath and that's the secret it's just having that right in these two years old her brain is not rational she
+can't understand why i really want to just clean the side and put her down on the floor right now and so like you've got to literally remind
+yourself every time and then you can start to really respond differently we're all human you have days where you
+you get it i have days like i mean course i have days where i shout and i lose the plot and i feel terrible but also i know that
+she won't hold it against me like the amount of times i was showered at i i love my mum to death so it's not like
+she shouted at me i think she's terrible and i don't love her for today like i think it's okay to not be perfect not be a perfect
+parent and the other dad had a row of rose and i said i'm i'm sorry i'm not perfect every day i'm sorry that some days i'm surprised
+rosie's my wife i said i'm i'm i'm sorry that i'm not perfect every i love you so much i'm so
+affectionate and sensitive but if i'm stressed and i've got something gone sometimes i'm snappy sometimes i'm impatient and
+i don't shout the kids i might shout at you and i'm sorry and it's nice to say that out loud and have
+a bit of a chat about it because then you kind of move on and you can just you know get on with it and you learn from it you're getting busier right with
+the app coming with the app stuff you're doing you're getting more requests than ever before surely dude i'm so i've this has been the year
+like i've i mean i've worked hard really over the last years you know during the growing stage like with social media you know it's hard building
+You must be really busy
+an audience and then i kind of had great success with the books and now like you know this a year
+since p with joe um the 24-hour challenge i i then done wake up with joe which is three workouts a week for a lockdown two
+because i thought they need to exercise people need to move i'm i've now had the book pr i've been doing radio interviews i've
+done the channel for so the bbc children need 24 hour channels i've not stopped like i don't know how i'm still
+going but i now at this moment need more energy than ever because this is the busy time this is like leading up to christmas i'm also doing a
+january bootcamp five days a week i'm doing live workouts through the app you know which is great because it means people are going to go
+i want to give it a go and it's a really amazing way of marketing the product but i'm going to be exhausted if you think about your state and your mood and how
+you feel within yourself in the midst of all this like chaos and then we've got the pandemic rattling on outside as well
+what impact has it had on you um all of this busyness and now you've got
+two kids you know that are you growing up and screaming at you and don't want to be put down
+have you felt a change i deal with it in different ways like usually i have these like blocks where i'll i work for like two three months and then
+i go right i'm gonna go to santa monica for a few weeks so let's go and have a nice week in dubai just to unwind and leave the phones and
+stuff and i've missed that i've missed that just that reset button because i've had a i'd like a couple of days away um just
+when lockdown was over but it wasn't enough because i actually spent my time filming workouts because i said i was gonna do
+three workouts a week so although i was there relaxing i'm still there and my what i do is so physical like
+you know being being physical and doing exercise but also doing if such an amazing energy through the camera is so draining but
+last week has been the most emotionally draining i was doing like radio interviews with um
+like jamie oliver and ricky gervais and uh doing all these things i'm it's out of my comfort zone completely
+and then i had phone calls every every hour on the hour to promote the new book so that is a different type of emotion and
+when we talk about the body code so you know i am the physical body like the energy and nikki is like the cto he's the
+brains he takes all the stuff all the things i can't the process stuff nikki's on a laptop doing zoom calls nine hours a day like managing this
+agency and all the other marketing stuff so together we have this perfect kind of relationship where
+we are working as equally as hard but we're taking we're doing what we can do sure so i don't feel like burning out
+but i do think at the end of january i need to block a month out so i've taken the month off hoping to go you know somewhere nice
+like i love costa rica i'd love to go with the kids amazing you know just just just unwind and basically when i have that time
+down off the offline and i'm not filming it really re-energizes me when i come back i'm like i'm like resetting like
+body coach volume 2 ready to go again sort of thing you talked a little bit there about marriage earlier and you've also
+you've also heard me on this podcast talking about marriage right i want you to tell me where i i'm getting it wrong yeah and
+also why you think i'm getting it wrong so i listened to two episodes of your podcast and i i really hear i hear myself and you when
+Marriage, tell me where I’m going wrong
+i was like 25 and i was a lot and i feel i feel like a part of you is lost because you've got everything on the surface you could
+possibly want you've you've smashed it in business like you've got an amazing story and you've got you know incredible success which is
+wonderful but there's maybe you're missing that deeper connection with one person you know you've got amazing friends and you've got a great network of people you
+work but i do feel like the love between one person you know it's different it's a different kind of relationship but you
+can always lean on them so when i was 25 i was in a relationship from 19 and i really i was running away i
+couldn't commit to i didn't i used to say like exactly what you were like this marriage is like this
+religious thing it's a contract and why should that person get half of what i've gotten what it's not gonna work all my other
+friends are unhappy they're all divorced you know one in three marriages so the more you tell yourself that the more it becomes true and the truth is
+how you feel now is how you feel and what you believe now is what you believe but when you meet someone and you you
+realize and when you do fall in love in whatever sense that could be it was almost like with rosie i was telling her every day i
+loved her and it wasn't enough it was i needed to tell her more i needed to have something
+stronger between us so i said can we have a baby you know then she felt pregnant we had indie so for me in my head the ultimate
+bond between two humans and he's another child and then when she was pregnant i never thought i would get excited about the
+idea of like proposing and getting married but it was just it just changed my mind has changed
+as i started to think you know i love this girl i don't want to be waking up you know every other week with a different girl
+in a different hotel i'm like that's not who i have been and it's never who i'll be so i love being with i love being close
+to one person i think i'm quite um emotional right there um and then after to marry me we had this amazing wedding day and
+i do love being mad and i just think when you have kids and you start seeing your children grow and you
+you see how wonderful that can be how much joy they bring you i just think your perspective will change over time and you're just not there yet it might you
+might not get that till you're 35 you could be 45 i was 30. i met rosie at 30. okay and
+i've been the happiest since i turned 30. honestly i've just been i'm commit because being being honest
+and being committed is two of the most wonderful things being sneaky being deceitful not being honest or being
+jealous and insecure they're feelings you do not want to go through your life with so when you find someone you know be
+committed and be loyal it's a really it really takes your love to another level you believe in the you know there's a bunch of words people use in
+uh in this in this realm of like love and marriage uh they say you know you gotta find your soul mate i don't
+know if it's soulmate but everyone says oh hard you know loves hard work marriage is hard work it isn't
+it doesn't have to be hard work not if you're with the right person of course you could get with someone too young marry the wrong person it all goes wrong
+and you know that's a bad experience but it doesn't mean that the next relationship won't be better and you can't improve and learn from it
+but you know i do feel like rosie is is the kind of female version of me like when we met you know we were just having
+so much fun and she's she's a wonderful parent i watch her and i see how patient she is i think i learn a lot from her because
+i i've got like a two or three minute kind of tolerance of marley screaming and screaming in my face where i just have
+to walk out the room i just can't handle it whereas she can be in there like 20 minutes all through the night and i'm like because
+yeah with indie crying or marley teething i think it's amazing she's just got this natural
+innate like motherly patience and love and tolerance so i watch that and i literally like go i need a bit more of
+that and i sort of learn from it but yeah i mean you know maybe maybe you might have one relationship last five
+years but i do believe that when you are in a relationship like give it all don't don't be thinking this is going to end soon this
+my last one didn't work out i know now it's going to break down and we're going to end up breaking apart we're gonna end up leaving each other
+she'll have an affair i'll i'll leave her it won't work that just it's hard to be happy in that situation so i think take every
+relationship and just maximize it to the best of your ability like you would with
+someone that you were of a business partner if we went into business together you're trying to try and make that partnership so like
+awesome and so effective and efficient and it's the same with a relationship you've got you know keep keep
+keep doing the things that make you happy and and yeah i think with rosie like just having a night out going for
+dinner um and the you know the secret is if you stop kissing you're [ __ ] if you don't kiss your girlfriend and
+you stop kissing you just bypass each other and you don't because everything starts from a kiss i mean
+it could become a massage it could become you know you might do a bit of hanky-panky but if you stop
+kissing that one thing that intimacy i feel like i feel like everything breaks down seriously
+can you kiss him it's one of the it's probably the only thing that i've thought about going and seeing a therapist about is
+like i have a fairly negative pessimistic let's say
+perception on romantic relationships um and i think i've identified that
+on one hand i'm my expectations are probably like somewhat unm unmutable and then on the
+other hand i kind of see relationships as being like a bird in a cage is the best way where does that come
+from like so i know your mom and dad and they're arguing at each other my parents that's the only th that's the only
+marriage role model in your your base and your opinion on yeah so i i have these v but when i say my parents screamed at
+each other i'm like my mum i've never seen since a human able to
+perform this screaming match she did nigerian woman if you don't know nigerian women i do visualize it like around the
+kitchen table the sound is un like you've never seen my dad actually said one day he said i your mom was
+screaming at me this is i think when we lived in manchester probably before i was born your mum was screaming at me and i went
+out like went shopping did all that she had no idea i came back and she's still screaming she had no idea that i'd left
+the house and the the the the sound of it i i have this like mental image of my
+dad sat passively just this like passive white guy just sat there watching tv just looking at the screen
+and my african mother like kind of stood above him just bellowing into his face at full volume for like six
+hours she didn't lose energy we talked about like exhausting yourself she didn't lose her energy and she would
+follow him around the house and so i looked at my dad and thought he's trapped and this is what my you know that that
+experience of seeing your mum shout is that effect is that like affected your you know your
+you know when you argue are you confrontational are you like because me and rosie more like silent tree and we sulk and we're so stubborn and we'll
+like go two days without talking we don't scream and shout each other you are you quite shallow i will never shout
+i see you're calm never i will not do it i i will the minute so i will try and explain myself in a very
+calm way and then i'm like okay i'm going right away i will like do you ever say sorry do you ever admit you're wrong
+or do you find it hard for me so if you'd asked me that question two years ago the answer would have been like no i
+never say sorry like because i always kind of think i'm right and it's like my way or the highway in the last year and when i was i got
+with this certain person um who i won't name and she kind of taught me to like grow up a
+little bit and and i started to apologize for things and i started to learn to apologize a
+little bit more but i'm i've got to be honest i'm not going to lie it's like the whole point of this podcast is not to [ __ ] lie like i'm still not that good at it it is hard
+i'm the same i find it hard to say sorry in the moment but i do if i go away for a little half an hour an hour have a walk or do a
+workout i do come back and i go i was a bit disrespectful there i do apologize but yeah it's an ego thing it's like you just gotta let your guard
+down one thing i say about relationships which i really think is valuable i can't remember where i heard it i read it but it was about
+you can be in a relationship with someone and this expectation thing where you want them to do everything perfect and be everything in one and be like this
+amazing like just like unicorn right but you might find them really attractive and really
+funny but intellectually they just don't challenge you just you can't have conversations about what they don't understand you but you can ring me or nicky and we you can
+get that that that that part of a relationship with from someone else so there's no pressure on that person you're with to like be really
+intelligent really understand business and really understand social media like that's something i've learned that sometimes you have to love the person of
+what they've got you know love they're they're really affectionate love that they're really caring considerate but maybe other elements of their
+personality you have to get from someone else because the chances of you finding the unicorn it's so rare isn't it
+that you're going to find that and also you like you might be amazing at certain things but you might not be good at one yeah i'm not a unicorn this is the
+problem who is he from no wonder no one's a unicorn really no one's completely perfect because
+when you're in a relationship you want the other person to like you know do everything like you and it'd be interesting the same things you
+like rosie's not into you know motorbikes but i got my brother and my my my little brother george and
+my dad so i kind of get i scratch that itch and i come back and then i spend time with rosie and the kids so it's
+really about finding the needs that you need as a human being in in maybe in multiple people and then
+you can really just focus on what you love about your partner it does help you talk to a little i
+talked a little bit about that about going to therapy have you ever gone to therapy so this week i had my deadline for my
+book happy sexy millionaire which you can now pre-order and it's been an absolute
+labor of love over the last couple of years and because i had the deadline on sunday i was head
+down smashing it out um typically like me forgetting to
+eat my meals and things like that and um and this is where he all saved me once again and i was in my office until 6 a.m
+in the morning i was getting very very tired i had two heels and um i had dinner as well and it's for
+me that was the perfect that was the reason why i've teamed up with huel because someone like me in that situation would
+basically either completely skip meals i would not get my sort of vitamins and minerals i wouldn't get protein
+then i'd start feeling like [ __ ] um because i didn't have the time and that's as i've said in this
+podcast before the reason i've um i'm so attached to huell the company the brand the
+the founder julian because it really does save my ass and it has done for three years and if you ask someone like
+me you know that does have uh a very time limited life then i really really
+recommend you give huel a shot i really recommend you you give berry flavour huel a shot because that
+is my favorite flavor and um yeah so this week i just wanted to shout out because you definitely saved me on sunday
+when i had my book deadline and also go and check out my book happy sexy millionaire it's quite nice it's like um
+yeah it's nice i talked a little bit about that about
+going to therapy have you ever gone to therapy i call it the gym but yeah i think my therapy from a kid and i look back
+like for sure like i was stressed i didn't want to go home i would be always out the house always
+playing sport i think it was my therapy and i dealt with things through sport and maybe that's why i became the body coach but i think
+Therapy
+i had um i had one therapy session with a counselor at once um because i was basically in a
+relationship i didn't want to be in and i needed to talk to someone about it and i had that session and i i just
+spoke and and verbalized everything i was going through and it was almost like just by saying i was like i know i need to walk away from
+this now and i i went home and that was it so it was a re it was an investment it was like an hour of my time
+um i i spoke to someone because it wasn't my mum who's invested my dad who has invested it wasn't her parents and
+my friends who really cared about her it was like a completely neutral person and it really helped because it changed
+the rest of my life because i left a relationship i wasn't happy in i met rosie i got married and i had kids
+you know and this is the situation i was 19 when i met that girl i was backpacking i was in a bar in australia you're very different
+10 years later so maybe maybe there can be such thing as a relationship that's really great at a certain time in your
+life but then when it's not right and it isn't working having a child and marrying that person is definitely the wrong thing to do
+and i didn't really realize that until i met rosie just how how unhappy i probably was in that last
+relationship so yeah i've had it once and i think if i n if i feel like i need it i'd be open to
+it i've got a lot of friends that do it it's like i see it as like personal training for the mind isn't it it's like why not why not take care of your brain
+and your heart and your mind and that can be done through therapy so i'm open to it um i just haven't felt i haven't had the
+calling i'm more interested in um i really like the idea of doing an ios ceremony can we do it together do you
+know why i'm just i listen to your podcast i listen to like certain people that do it and i i'm drawn to it because of that gateway
+Psychedelics & mental health
+and opening up that even more love and more connection when you realize we're all so interconnected and
+obviously you can meditate for 10 years or you can go and do an rsc ceremony and apparently you get it's like a fast track
+to that feeling but yeah you've talked about it have you have i mean i was in mexico and tulum and they they were doing like peyote
+ceremonies out there and i i just couldn't quite convince enough to do it but i would love to do ayahuasca one day like go proper into the amazon do it
+properly with a shaman and like you know feel feel that mother nature they talk about that feeling of like the earth and
+that are connected to the human race it must be a wonderful feeling have you ever done mushrooms i've never done mushrooms now i've never
+i've never done drugs so i couldn't really um i've never done anything like that i've never done mushrooms or ayahuasca but i
+the more sorry i've just i've just invested almost a million dollars into a psychedelic company that's using it to
+kill men's health disorders we talked about this didn't we yeah for the psilocybin so my dad was involved in the trials um the imperial
+college london he's involved he was basically um one of the uh not the guinea pigs but yeah he
+it was a trial between psilocybin um a placebo and an antidepressant drugs and obviously the the studies come back that
+like this can really help and it's a natural it's a natural product from the from the earth so yeah i can see that
+growing in the next few years for sure when it when it gets appropriate has it been approved in the u.s for like yes it's impression and stuff um don't
+quote me on this but uh it's an it's in the final stage of fda approval psilocybin so it's very very
+close and there's a company called compass pathways which has just gone public and is as of right now worth about two billion
+which is really dive sort of leading the pack and developing psilocybin but it's crazy that i've not tried it but
+i've looked at all the research and development videos and studies and data and it like blow blew my mind are you are you
+tempted to try yourself are you scared and nervous about it cause i know the numbers i've been through i've looked at every drug and i've seen
+where mushrooms and psilocybin um rank in terms of the harm they could possibly do to you and the harm they can
+do to others when you're on them it's below alcohol it's blown like every it's at the bottom it's the bottom thing on the list
+yeah it's been shown to really um really help with addiction and depression and trauma from that so
+yeah i suppose i wonder what experience about for us who maybe we're not depressed and we're not anxious i wonder what that experience would be like but
+yeah you know i listened to a lot of podcasts you know tim ferriss is big on it rogan you know yeah
+it's just kind of it feels like this scary thing but it's because it's been going on for thousands of years you know we've kind of tribes and
+it's not some dirty chemical drugs been manufactured in the lab i think it it's non-addictive it opens up so what
+they say is it opens up like neurological pathways that maybe is all these memories locked did you hear the tim ferriss podcast he said
+like he'd done an ayahuasca ceremony or maybe it was psilocybin and he had this vision of trauma that came
+through that he completely blocked out really yeah so he got he experienced them child abuse like he
+literally didn't remember it and he had this vision and all these memories of being abused and it like completely like
+opened up his mind he's now obviously sharing about it but that was like something so it's quite in a way you don't know
+what you're unlocking you can unlock really beautiful memories and amazing things like it can also show you like
+quite traumatic upsetting things but either way like you can learn from it i think you know what i did this morning is the
+the the founder one of the founders of the company a thai um which is leading the charge in
+terms of psychedelics they're really developing about 10 different compounds in the space i i said to him i need to get you on
+this podcast would you come on and so he's he's um as far as i know he's an incredibly successful biotech guy he's been doing
+it for decades and um he's going to come onto the podcast and really talk through all of these things so like ibogaine and psilocybin
+and all of that so that would be interesting fascinating i've been listening to that one yes but listen ayahuasca
+mushrooms psilocybin if you want to do it then i've been saying to my all these people in this room now
+i would say let's go and do a retreat with like a shaman and um they've told me what the best way to do
+it is like the best retreat the best shaman the best place i'd love to do something like that yeah i would be up for it i mean it's
+it's a real person it's like personal growth like you read a lot of books i'm not well read i wish i had more patience and
+more time and well i wish i had more um commitment and discipline to reading but i do i do i'm drawn to it and it always
+it almost they say like it will call you like my dad's i've done an eyewash or someone in wales and he said it just calls you like the plant mother
+nature like you'll have a calling one day and it'll be like i'm ready at the moment we're just sort of experimenting with the idea of it and
+your dad did the psilocybin trial with imperial so what was his feedback to you after he did it yeah i mean it was um
+it sometimes takes a little bit longer to integrate you know you have the experience and you know it's in a very controlled room
+like it's in a proper like clinical setting so you're like in a hospital room and they're holding your hand and talking through it and i'm not sure the exact dosage but he got
+blasted with a decent dose of psilocybin um and yeah you know he saw some things and it unlocked a little bit of
+you know trauma and some visual stuff that he saw but again it's just about moving forward it's about it's about taking what you
+see and integrating into your life and saying i've had these experiences but how can i be present today how can i enjoy
+my life today and you know with depression is i don't think it's going to be cured i don't think you can cure it like that
+because of the way the brain works but you're going to learn to deal with it and and spot the signs and kind of counteract it
+quicker um but yeah he had a positive experience for sure and he's he's really proud that he took part because he
+he genuinely wants to help people like he said if if people can come off chemical antidepressants and be given a
+really beautiful natural um you know natural product that can actually help them feel happier and
+especially for that post-traumatic stress syndrome disorder like people dealing with some really really harsh stuff and they're getting
+blasted with you know antidepressants which are very addictive and it's like morphine isn't it it's like it's not even
+it's not even like good for you so they're very addictive as well i don't think you're going to get the same thing yeah the side effects are really really you know crazy um
+sometimes i think that opioids i think the opioids yeah antidepress i think opioid i think antidepressants are like opioids
+or amphetamines it's one of them it's like it's basically the drug that you know you do not want to be taking in a very small dose but over time it can
+real generate real addiction and you see it in america like the prescription drug addiction over there is is really destroying people's lives over
+there my next question you would have heard this on the podcast if you've listened to the eddie hearn one uh it's kind of a new question i'm
+asking and it's a question i really really love because i think it gives a unique sense of perspective um you're an incredibly busy guy you're
+If you were to die today what would you regret
+running around at the moment doing this that and the other you know all over the place um if you found out god forbid touch
+glass um that this week was your last week for whatever reason god forbid or you walked
+out here and you got hit by a truck what what would you regret
+having not done or not doing more of i really wish i had like this long list of
+bucket things i wish i'd done but i'm i've always even when i was at university like i would
+go traveling in my half term my summer holidays i always i've always maximized life to the
+at that moment in time you know i've always i've never kind of i've never regretted or like missed out on things i've always
+traveled with my friends i've always you know done the things i want so if i had a week left on earth
+i wouldn't really regret anything i'd be proud i'm proud of what i've achieved in this short time i'm 35 i feel like i've
+i've been good i've done some good things i'd probably bring everyone together and like throw my wedding party again because my wedding day was wicked
+like all you know your best friends and all your mate your mates and we had fun fair and we had all the food and we were
+dancing and i think i'd try and recreate that if i knew i had seven days i'd get everyone together and say look it's my last week
+come down let's have another blowout and have a party um but i wouldn't regret yeah i just really wouldn't i think
+it's a shame to live your life like that you know regretting and wishing your child was different wishing you know you you i've and i've got
+friends that kind of live in that mindset of always looking back and almost thinking about a moment in time if they just done it differently they
+were like life would have been different today but you can't think like that you can't get stuck between the future and the past can you because that's really
+really depressing whereas if you actually just think look i've done what i've done even the bad things and the times i
+wasn't nice or disrespectful like i learned from it and today i'm a better person for it a lot of people
+when you ask them that question they reflect on like a lack of balance in their life they'll say oh god i work too much i didn't see the kids enough and
+and those kinds of things that's typically what you hear it's like you know i really wish i spent more time with this person or
+or that person i think if i was to answer that question i'd probably feel i'd probably say that i'd say why didn't i spend enough time with my
+family i think the reason is because a lot most traditional businesses like if you're a grafter eddie hearn always on the road always
+around the world you know footballers again away every weekend they're training their you know traveling about musicians
+away from their family and it's hard for like you know stability stability and so they do sacrifice a lot for that fame and
+success whereas my fame and success has come through an iphone in my kitchen so i've really even before lockdown i
+filmed all my workouts at home so i have a great balance where i can do what i'm doing and be successful but
+also leave my phone for two weeks and go away and not not worry about it or i can you know put my phone down like i i spend
+quality time my kids every day i'm adamant about that so i do you know breakfast i make them breakfast every day
+i have two and a half hours so between like five and 7 30 where i don't have my phone and i do dinner time bath time but story
+time like i love it it's like my routine and i know get one set down i can go back to work or you know watch a film
+but it's having little moments at just having that structure so that you don't feel like you've missed out and you ask them how their day's been and indy's
+favorite thing is like she loves cooking and she loves doing her handwriting so even just running in there and doing 10
+minutes with handwriting with her i mean she's two years old and she's doing the alphabet she's she's got like these dots you follow the
+dots and just seeing her with a shaky hand to like now a month later she's banging out the a to z and
+it's like immaculate that's that's fun it's amazing so i'm not missing out on these moments although
+i'm really busy i'm also optimizing my time with them as well if you know i mean when you said that india's really into cooking i thought
+she's going to be the next body coach and then i thought oh god i wonder if joe would want her to be on social media oh i don't know i had this
+dilemma with rosie you know when i was bringing out my cookbook my weaning 15 book so i got a book deal and i was genuinely enjoying that journey i
+Social media
+was learning to win indy for the first time i didn't know what to do i was working with a nutritionist and i shared so much you know we got 50
+000 pre-orders and i worked hard for them pre-orders because i shared everything you know i shared the dinner i was it was camera
+at breakfast it was camera at lunch it was indeed you like that darling do another one of them like so i shared so much in order to have
+that success but now i've kind of i've just gone a little i just don't want the phone out during dinner time so
+i'm producing less content i'm not producing as much recipe stuff because i want to have that
+time just with us and i used to just film every gusto recipe every recipe was on instagram so yeah
+i've had to sort of step back a little bit and there's no way you're going to keep your kids on social media it's just whether they're 10 or 15 they're going
+to eventually get it but would you like to though if you could there's two buttons in front of you one of them was she won't
+join social media until she's 21 and the other one was she'll join at 10. oh 100 no if i have if i could have my life
+about social media like i have an unhealthy relationship with it and i you know i watched the social dilemma on netflix and i was like i
+cannot believe how addictive we are how these devices are so well designed i would hunt i know
+i wish me rosie and and the kids weren't on social media but i know i wouldn't have been the body coach p
+which i wouldn't have happened so it's almost this like trade off it's like a trade of business life you want to have the success and
+have this amazing life and also reach millions of people the only way you can do that is social media it's not tv it's not radio it's
+social media so it has its pros and cons but i i hope that i hope that we kind of
+we can somehow learn to control this mental health epidemic that we've got going on with social media and the
+narcissism of instagram i just hope that we're trying to go actually you know what that was cool in 2010 and 2020 but maybe now let's be
+more humble let's just be kinder and let's like share useful content do you know what i'm trying to say yeah because it could
+you know india she's gonna get she's gonna get her phone she's gonna open it on that first day when she's 10 years old
+and she's going to see kylie jenner in a bikini on a yacht in a louis
+vuitton bikini on a massive yacht looking back at it with her ass looking perfect and perfect
+boobs and a perfect face and perfect hair and india's gonna stare down into that phone and think
+okay yeah what's my life yeah and it isn't it's that comparative thing and it it happens to me like i follow a lot of
+instagram accounts and you know my explore page is basically like motorbikes or it's you know fitness models and it
+it's like because i'm in that in that in that kind of atmosphere in that um world and it does you think oh these
+guys are in such good shape you know i'm looking a bit skinny i'm a little bit positive like whoever you are you still start to compare yourself oh god
+it affects your confidence whether you know it subconsciously or not and you know i wish i was more tanned i wish i was on holiday i wish i had a bit
+more muscle with this i wish i wasn't so skinny or i wish i didn't have a little bit of body fat on my tummy this year because you
+you're just bombarded with these visual representations so yeah i think that in that effect it almost like you
+can't really stop that if you if you're looking at it all the time you can't it's almost like you have to just
+unfollow someone's account you said didn't you said like unfollow the accounts that don't serve you yeah and i've started doing that if i get to
+one and i go why did i follow that bang unfollowed you know what it is as well so i was when i wrote my i started writing well i
+finished my book now but when i started writing the book um people are quite crazy at the time the title's happy sexy millionaire
+and in this one chapter i really focus in on comparison and this is a bit of an exclusive and i
+go through all of the studies on why we compare ourselves to other people and why we compare our
+you know our car to someone else's car and the conclusion i came to is we're not actually gonna ever be able to stop
+comparing because our brains are wired that way for survival they like that's how our brain works it's
+very very lazy if you show someone three tvs in a shop an expensive one a middle one
+and a a cheap one statistically people will pick the middle one because they think
+that one's gonna break and it's [ __ ] that's the cheap one and they think the expensive one is maybe two flashes so it's just
+if you show them three stakes on the menu statistically people will pick the one below the most expensive yeah you know even i actually when you
+come to say that i sort of feel the same like i'll be like no i don't i don't need that you know the wagyu one because
+i'm happy with a 20 pound one in the middle whatever yeah you're right it extends across everything if i said to you joe would you rather
+um drive 10 minutes to save 10 pounds on a 200 pound jacket or drive 10 minutes to
+save 10 pounds on a 20 20-pound jacket people go well i'll draw i'll save the 10 pounds on the temp
+on the 10-pound jacket and you go why it's 10 minutes it's going to cost you to drive and you're going to save 10 pounds
+but the rain is just assume it's like the very the conclusion yeah what's the summer
+because i'd like to know what you're sharing about that the conclusion is that our brains are so so lazy they make such
+lazy snap decisions and conclusions because those snap decisions helped us to survive when we
+were when we were 10 000 years ago alliance running towards you you can't [ __ ] like right okay is it you've got just like so our brain does
+it at super speed and and in the context of social media it's like i loved my nokia phone
+yeah until until the new one the iphone comes out right i was the proudest kid in school showing
+everyone oh look snake i can do snake on here yeah but then but then the minute that same thing which hasn't changed in value
+exists in a world of iphones which is what social media is it's like me looking at kylie jenner immediately
+even though i haven't changed in value i am less than your brain tells you i agree i agree with that and i i feel that myself
+sometimes when i when i watch that show that the netflix documentary um the social dilemma did say all of the guys that created the
+products that created the like buttons all those people said my kids aren't on social media yeah and that's the alarm bell it's like saying
+you know it's like um that joke of you know i wouldn't trust an eye surgeon who's wearing glasses like i'm getting
+my eyes laid on saturday by the way but they say you know don't you know if that person that created it and that does it
+every day is saying to you like get your kids off social media it's not good for their mental health and that is what it is it's not about
+it i don't think it kills ambition i think it just really affects people's mental health and their self-esteem sometimes that's
+irreversible and you could be like a young teenager that has an eating disorder you know all
+through your life or is um is binging or under eating or you know not respecting your body and
+that can really stem from like how you feel about yourself right so i i try and use my social media to obviously promote
+healthy food and fitness that's a positive part of social media and i think your content is positive i think some of the quotes that you share
+like they know like the ten things and all these little sometimes i really want to go bang wow like it's just a nice little
+light bulb moment so you're using it for positive and we have to just always focus on that focusing the people that are bringing
+the good stuff out of it i think you've probably heard me say before that my the way i use my instagram i genuinely believe has like
+saved my life a little bit because i would have before if you scroll down my instagram right now you'll see what i
+was like oh picture of a lamborghini picture of a louis vuitton bag and then at some point when i became a
+ceo of a company and i felt a sense of responsibility not to be that guy i thought okay so how can i use this i'll post quotes and because i've done
+that for the last like i don't know two three years it's meant that when i do have it means
+that i don't buy stuff to post it yeah and i if i'm in a helicopter going over sri lanka sat next
+to my girlfriend which i was no one will know because i actually don't have a place to put it so i'm now making decisions on your
+close friends list i'm so glad i'm on that that's why i get through your nice villains yeah that's
+only there's only 100 people on there but like i i don't have a place to put it and so when i'm making the decision
+it's not based on social media because i'm not gonna be able to tell really anybody other than like a couple of my close friends my question
+though which is kind of attached to that is about money something that a lot of people probably won't talk to you about
+now listen it's always uncomfortable it's uncomfortable it's just awkward everyone articles come out like joe buys this much
+What roll does money play in your life?
+you know this million pound house it's like why is that important but i just know that people are obsessed aren't they ask what
+you want to ask and i'll be honest yeah so an unavoidable consequence of success like the thing is the reason why i'm actually not uncomfortable about asking
+you this question is because if there's anyone on planet earth on off camera that i know
+has the most genuine sincere intentions it is you probably of all the people i've met i'm like i can't think of a guest i've met
+who is more sincere about their intentions more oh thank you steven you're all maximum sincerity right so
+some people are as well but you're maximum so um i've got no problem asking you this question which is an unavoidable consequence of your success
+over the last year previously is money right it's what allows you to have a camera to dp with
+joe right of course yeah so this year i mean you've made a lot of money
+right like every year um what role does money play in your life just be honest with me
+it's a it's that it's that thing of you know it talk we talk about you know freedom of time and like you know owning yeah i've always been
+about time and being with friends and family so for me it's like it's removed a lot of stress because when i was a kid i
+remember money was a stressor like we you know we had um we we never had food in the house so my
+mom would have to go to my nand and we'd have to get like borrowed pints of milk and running next door you know when you're on a council
+stay it was quite common you'd go and ask for a pint of milk or a couple of i remember asking like a bag of sugar for our cereal and stuff so i i didn't
+have any money growing up and you know i was on school dinners you know i was my mum was on
+benefit so it was it was all like iceland two for one buy and get them free it was crap food and that affects
+that affects things as well you know the food you're eating but i suppose for me when i started to make money it was a gradual thing i didn't win the
+lottery and wake up a million pounds you know i i released my online plan and one person signed up
+and then it was 10 and it grew and it was gradual and so it was a nice way of becoming like with my followers it was a
+nice gradual thing i didn't just jump off of love island with two million followers and have money thrown at me and i think
+that does affect your ego differently and i think anyone that's young that gets thrown into the media with money and
+fame it would affect you in a certain way um so it definitely allowed me to have more
+freedom and to take care of my family i think i'm not someone who has been successful and left
+people behind that would make me seriously unhappy i've helped my brother out i've helped my dad you know i got my mama house
+we've done amazing holidays together with all the boys you know they know i'm there if they need me and and that's that's a nice feeling but
+yeah the question is around motivation around money as well i feel like as time has gone on i've become less motivated by it and i remember that story said
+about you're up here and you could have run down the center and even got 20 grand i have days that too where i think i could go and do another gusto post and
+10 000 people might sign up or i could go and film another workout and it could get two million
+views and i have and when i feel like that i have to remind myself of like why i do what i do and and that mission thing
+about there's someone at the end of that youtube video just waiting for a new workout and they live in scone for when they've got no man in their proper skin
+and they're waiting for the workout and i remind myself for that so yeah money money allows it just allows freedom it's
+less stress and money was always something we always argue about i think maybe my marriage i'll be honest is easier because we
+don't argue about money and maybe your mom and dad used to argue about money like school uniform the new trainers you wanted the school tripped me on this guy
+i remember like going on a school trip was really hard for mum and dad we couldn't afford to do the school trip sometimes and
+you know they would always work really hard and it would you know sometimes i did sometimes i didn't so i think having a bit more man in the
+bank means there's less pressure on you as a person and therefore you can sort of you can go through life a bit
+easier but i had to overcome as we talked about kind of earlier i had to overcome that that feeling though like that
+[ __ ] if more money isn't gonna have an impact then what the hell are we doing steve like what are we
+doing here because you know 16 year old steve told me it was money was the whole game and you get more of it get more happy
+it's just like that your happiness goes up with your bank balance your ego inflate because i i can i can imagine when you said about you know
+i used to go to like china white and punk and like you know shoot over there and i never had money i
+was skint i was a university kid i had like 20 quid in my pocket i'd be in there on a freebie but i imagine if you had man at that
+time you'd be the one with the bottles spraying it about and all the lights and all the girls come with the big flares is that what you were like did it
+inflate your egos you know spend more money i i and i've got to be as self-aware as i possibly can be here
+i um i don't think it's ever had an impact on my perception of myself however i did like i've nev i genuinely
+feel the same opinion of myself as i always have since i was
+three like i've it's never changed i bet people around you changing like because they knew steve had the dough and you were there
+to come over i was rolling into clubs and spending i remember this one club in manchester called neighborhood they had this little star next to my name because
+i was like the number one spender and i'd walk in there and get five bottles of dom praying i didn't think i was anything else but i was still doing it
+like that's a really important point to make like you you hear about these rich [ __ ] and these like young kids that like
+they get all this money then they start treating people like [ __ ] and they change all of my friends say to me you haven't changed at all yeah you just
+we're still doing it you just bought you just i suppose you were like the facilitator you just you were the fun how did you exactly brought people together and you
+and you could have the fun and i think you know maybe fight a bit more at that time maybe i would have done this because i do i mean my thing now is going to a
+nice restaurant so i love going to like zuma or nobu and having a meal my friends i didn't have that kind of
+flashy kind of like nightclub vibe but you know at the time the thing is at that time that was what you wanted to do at that time you don't do it now and
+i think if you had fun like it's good it's all good but yeah money i've got out my system yeah get out your system
+and it's weird because i'd i looked at those people in the clubs and i'd looked at rich people and thought oh god like yeah when i when i become
+one of them then i'll be super happy so then you go and do it i went and got this massive packing mansion in the
+countryside and i'm sat there like nope yeah spray the bottles for a year and you're getting all the bottles free and you're
+like okay nope so when you um when you like when you you exit and you know or even before
+that you've been financially secure for a long time has your motivation dropped or increased because i
+at the moment i'm feeling quite demotivated but i'm more excited by the legacy and the potential of like
+building the body codes to a point that in 20 years time i can look back when i'm a bit older and go i started that i created that company
+you know that's still going do you did you find a really good question lost motivation because you're like you know what
+i can chill now i ain't got i ain't got the hustle in me anymore it's a really good question and again i've been writing a lot about
+motivation lately so i think i've got a pretty good answer to this um you know one of the the best sort of easiest to
+answer this question is just referring to my gym routine i think you might have heard on the podcast i said in one of the episodes that every
+february march i'm the most motivated person on planet earth to work out and i say to myself i'm gonna get i'm
+have a great body for summer and then summer comes i drop the photo on social media summer
+ends and i literally can't bring myself to the gym because my motivation my why was anchored to a timeline which is
+somewhere in summer and looking good and so the minute i post and everyone likes it it was like i genuinely couldn't get
+myself to the gym and i was going like two times a day before and this relates to our motive our other motivations in other parts of our life
+like when you lose when you lose the anchor with your y which is what you described after p with joe yeah you've got to [ __ ] find it again
+it's like the gold medalist you've got to go and find it again and you've got to re-anchor yourself to something that hopefully doesn't have a short-term timeline against it
+gary vaynerchuk says the same thing he says the worst day of my life will be when i buy the jets it's been his yeah that's his thing isn't it it's
+forever this is moonshot and you you i didn't hear that before that that term moonshot is nice because it's like joe
+so big don't just do something you know you can do in six months do something you think will take you 20 years this is what the conversation we
+had right yeah that's what you said and i went home and i was thinking the same as it's nikki i said i love that i love the idea of a
+moonshot what's our moonshine he's like well our moonshot is that we build the body coach and we have an exit so that someone comes along and
+buys it and it continues to flourish for years to come because otherwise i was the it's like mr motivator smashed
+it in the 80s or 90s whatever it was and i would have just been the body coach the mr motor of this time
+unless i build it to sell and i build it to sustain itself and grow and continue to help people and that's
+really where my heads are now i think i've had a shift in my mentality towards that but i did lose motivation at several parts of my life and it was
+always as i described with the 20k and email downstairs it was when i was doing things without
+that real intrinsic deep sense why so when before social change started i had no
+motivation to do any marketing for anybody or to send emails to anybody and then search chain starts and i'm going to the [ __ ] ukraine at 3am in the
+morning i spent what was it i spent 11 of the 12 months last year in hotel rooms happy
+driving for this mission of building this company with super key thing with people i loved yeah right because
+it didn't have to be social media we had a purpose we had a worthwhile goal
+i was working with people i loved towards that worthwhile goal and i felt competent in doing so if you have those three things like competence
+a worthwhile goal and you're working with people you love yeah and lastly i'd say a sense of control like autonomy because
+a lot of people don't we have that in our lives a lot of people working in factories and other industries don't have that sense of feeling of autonomy over their
+time and have you got the hustle now could you like go back and do the eleven months on the roads too no no no i remember used to always being in
+the airport always rolling that little wiggly thing around i thought it must be like no matter how much money you're making no matter how much money
+and how much you're building there must be an element of loneliness and that exhaustion where you think i just need to be like settled in one place and now you're
+in london think you're sticking about are you gonna hit the road again um great question and it's something i've reflected on if you told me now
+to fly to the ukraine and do a talk i'd be like [ __ ] off i've said this to my assistant i can't
+understand where it where the motivation came from and it's because i've lost it i've lost the anchor i've quit social
+change so when i re even with this mindset i think go to the [ __ ] ukraine and do a talk at 9am
+to a bunch of people for an hour [ __ ] off yeah he lost it i've lost it
+because because i've quit so my anchor's gone and i can't even get myself back into the mindset however i will get my anchor back at
+some point yeah and i'll find something else that and i'm not trying to find it at the moment yeah just it's nice to slow things i
+think the lockdowns helped us just think we don't need to be on this hamster all the time like it's alright a
+few months of the year like you said you know nothing in nature blooms all around like you can have a couple of quiet months because you know you know your event didn't happen i
+really wanted to be at that event in manchester but i'm hoping that happening i i need to come back it's gonna be huge
+yeah i know i mean like you showed me the music i got me and nicki got mad like goosebumps just listen to the music you're gonna play
+um but yeah you've got loads of heady i think it's important to just have these months where you go i'm not everywhere at the moment but i
+know in six months i've got this great project and there's your moment to bloom and that's kind of where my head's at now rather than like come on what should we do now let's do
+another this let's let's do more of this i'm like it's okay to be not busy and not be successful for a few months
+and to create a void in your life that's what my mentor said to me he's one i think he was one of the first investor ever in spotify he
+said steve i met him after i resigned and he said steve listen it's so tempting to just sort of grab the bull again and just go and run and
+run and run and run he said but the reason you were successful before is because you were really hungry yeah so he said create a void in your
+life resist the temptations just to run back into something and just let it be the concept that's probably
+not easy for me to understand like just the i'm getting it now though i'm getting it now because i like i said i've always had like
+two books a year i've had a dvd out i've had merchandise pots and pans you know
+protein stuff i've always had something but actually now i know i need to just chill out and take some time off because
+i can't i don't want to be hammer i don't want to be selling stuff to some people all the time i want to just be get back to my free
+content what i'm good at what i start you know the organic stuff that i generally started doing in the beginning because that's when i'm
+happiest when i'm getting millions of views on my youtube channel i love that i love that people are actually like doing those workouts it's 15 minutes of
+my time but it's helping someone really transform their day and so i'll continue to um you know push that mission which is to
+get people moving and if it's within this one person a day like it's enough sometimes i just reflected them when you said that
+i think of one of the conversations we had in that restaurant which was you were saying you know i've done the pbj and what's next and i'm saying i was i
+remember saying she's like joe this is a false peak because like did i say this yeah i said i don't think i'm going to achieve
+anything in my life that's going to have more impact because there may never be another lockdown and there may never be like 80 million
+people in their living room doing my workouts again but you were like joe don't be silly there's something else there's something that has to be like
+if you don't you're going to lose it you can lose motivation so yeah you said the thing about the moon shot like imagine eradicating
+you know whatever it may be like going for that real like still steve steve jobs or bill gates like
+vision of like changing the world it's exciting it might never happen but at least have a crack but you have that you this is why i refer to it as a false
+peak because mountaineers when they're climbing they look up the mountain and they see these peaks and it because of the perspective when you're
+climbing a mountain it looks like the top and they stop and they go oh [ __ ] that
+was but it's a false peak and i think for you this is going to be a false peak because now you have more power than you've ever
+had so you have this i in my view again no not telling you live your life you have a responsibility to you're a
+[ __ ] mbe you know everyone knows your name now and you've got the power to do things on a global level that even
+i'm not sure yet you realize you're capable of doing and i think when you realize what you're capable of then um
+you're gonna find a why because listen you you can't waste the power you've got you just simply can't and there's a lot
+of pain out there there's a lot of people getting fat there's a lot of people not eating right and they need someone that has your power it's like
+it's like you know life is giving you this this responsibility and gone joe listen we need you and i think that's i mean that's enough to get our bed for
+every day that is the goal mate and it's so lovely to hear you say that and i do believe that we have a purpose and we have
+we have an energy inside us and i bumped into this guy once on the street in london and he was really i think he was a shaman of some
+sort and he he he basically put his hand on my shoulder he does my workouts and he's like there's something about you like you've
+got an energy there's something pushing you forward isn't there like it's more than views and fame and numbers that there's something inside
+yeah like there is it's this energy that is constantly like just go and film the work i know you're tired but do it and
+it's that that's that thing of giving i i'm my happiest i'm giving and sharing and the minute i stop that
+even if i sell the body coach you know i know that that moment will come where i feel like you know i still need to be
+doing what i'm good at and still needs to be reconnecting and that is my energy that's that and i didn't have that i was really lost and
+confused until 25. i came back from this trip to america i started to become a personal trainer
+and it was like i just knew in that moment this is what i was going to do and i've just put all my energy and love into it since so yeah let's see what we
+can do in 2021. thank you so much for your time joe it's been an absolute pleasure and i'm super excited to bring you back on for a third
+time once you've conquered the world and we'll be like we were sat here and you said this and then
+and uh it's been a pleasure man and i really do enjoy your podcast i take little nuggets from it i think you're always sharing a positive message so
+keep doing it um it's good to see that you're growing and building and i am i hope this episode does really well for you
+thank you i appreciate you all good luck thank you for sharing all of your wisdom and learnings i'm continuing to be
+inspired by you i can't wait to see what you achieve in the next few years now go and get your moonshot can build a rocket
 
 ----------
 
@@ -1110,15 +9041,990 @@ paste here
 --07--
 
 -----
-Date:
-Link:
+Date: 2020.12.07
+Link: [# Lessons From 50 Of The Worlds Greatest Minds with Jake Humphrey | E59](https://www.youtube.com/watch?v=qrX3fPA9eps)
+
+Note:
+**Advantages:**
+
+- Insights from high-performance individuals across various industries.
+- Practical advice from successful people like Matthew McConaughey on decision-making ("Don't leave crumbs").
+- Highlighting the importance of learning from failures and mistakes to achieve success.
+- Emphasizes the value of being honest with oneself about weaknesses and working on them.
+- Shares strategies for managing time effectively and the concept of "Lombardi time" for punctuality.
+
+**Drawbacks:**
+
+- The challenge of dealing with negative feedback and criticism, particularly in public forums like podcasts.
+- The struggle of balancing a high-profile career with personal life and relationships.
+- Dealing with personal insecurities and anxieties while being in the public eye.
+
+**Tips and Advice:**
+
+- Focus on the good stuff, especially during challenging times, to maintain a positive outlook.
+- Learn to manage and embrace failure as a part of the growth process.
+- Be vigilant about not leaving "crumbs" or unresolved issues that could lead to regret.
+- The importance of being present and focused in the moment for personal and professional growth.
+
+**Lecture Content:**
+
+- Insights into high-performance habits and mindsets from various successful individuals.
+- Discussion on the importance of decision-making and personal growth.
+- Strategies for overcoming challenges and achieving success in different fields.
+
+**Main Challenges:**
+
+- Dealing with criticism and negative feedback in a constructive manner.
+- Overcoming personal insecurities and anxieties related to performance and public perception.
+- Balancing professional ambitions with personal life and relationships.
+
+**The Importance and Usefulness of the Topic:**
+
+- Provides valuable insights into the habits, mindsets, and strategies of high-performance individuals.
+- Offers practical advice for personal and professional growth.
+- Helps listeners understand the commonalities and differences among successful people across various industries.
+
+**Accomplishments:**
+
+- Successful podcast featuring interviews with high-performance individuals.
+- Personal growth and learning through the process of interviewing and interacting with guests.
+
+**Summary of the Content:** The podcast episode features a discussion with Jake Humphreys on his experiences interviewing high-performance individuals across various fields. It covers key lessons learned, such as the importance of making decisions without leaving "crumbs" or future regrets, as exemplified by Matthew McConaughey. The conversation also delves into challenges like dealing with criticism, personal insecurities, and the balance between professional and personal life. The episode provides valuable insights and practical advice for achieving success and personal growth.
+
+**Interesting Quotes/Insightful Sentences:**
+
+- "Don't leave crumbs" - a metaphor for making decisions that you won't regret later, shared by Matthew McConaughey.
+- "Successful people make more mistakes than anybody else because they're constantly challenging themselves to do stuff." - Reflects on the importance of embracing failure as part of the journey to success.
+- "Focus on the good stuff" - A strategy for maintaining a positive outlook and overcoming challenges.
+- "We are human, we are fallible, and I do think we have blind spots." - Acknowledges the human aspect of dealing with personal weaknesses and the journey towards improvement.
+
 Transcription:
 
-paste here
+Intro
+this week on the diver ceo we have a returning guest jake humphreys he is an entrepreneur he
+is a tv presenter he's also now a podcaster and jake has spent the last
+year on his podcast sitting down with some of the most high performance people some of the most accomplished
+people in their industries from acting to business to sports you name it and so because of that experience
+because of all the insights he's gained over the last year since we last spoke i wanted to sit down with him and
+compare notes we have a lot of high performance people on this podcast too i wanted to understand the similarities
+i wanted to pick into the minds of some of the guests and what he's learned from them how are they the same what makes them
+different and that's what we're going to talk about today so without further ado i'm stephen bartlett and this is the
+dire of a ceo i hope nobody's listening but if you are then please keep this to yourself
+What are the key lessons you've learnt in the last year
+you've um you've had what 30 people on your podcast today you've got
+a lot more coming up one of the key questions that i that i wanted to ask you because it's you know
+something that i asked myself is what are those like key lessons that you've learned you've interviewed
+you know high performance athletes actors authors um and really sort of high
+performance people from all industries what are the key lessons and the themes i think there is one key lesson that was
+summed up for me by matthew mcconaughey the oscar-winning actor who came on my pod recently and his phrase is don't leave
+crumbs and what he means by that is like when you're making a decision
+don't leave stuff behind don't make a bad decision now that later on you've got to go back and pick that crumb up and be regretful about it and
+that's brilliant because sometimes when we talk on the podcast we talk about really like big
+blue sky thinking you know like we've talked to you about social change setting up social change sometimes to people that are listening and that can
+seem like unreal almost untouchable because it's this huge multi-million dollar business that
+you've created but actually don't leave crumbs is about making the decisions for a big
+big business like that and creating something amazing but also like make sure that you don't have an extra
+drink and even in case it leaves you with a hangover tomorrow and you've got work to do or make sure you simply choose your clothes the night
+before so you're not doing it in a rush and like i still leave crumbs all the time like i'll tell you when we uh when we
+interviewed matthew like he's the first hollywood actor we've had on the pod so for me it was quite a big moment
+and i thought i really want to be looking good for this so i thought i'd have a shower and a shave before we do the interview and i was having a shave in the bathroom
+my wife was in the bath and she was going to come down and like listen in the corner in my study because she was like she loves dallas buyers club she was
+excited and uh she starts having a shave and she goes it's 9 54.
+i was like and i thought it was like 9 30 or something we put the kids to bed and then the next thing i'm running
+downstairs i haven't done my hair properly i'm on i've got two wi-fi zone because our upload speed living in the
+countryside is horrendous so i was then on the wrong wi-fi i then looked for the script i'd written for the questions for matthew couldn't find
+them and i was like i was the last one in i'm getting beaten to the interview on my own podcast
+by a hollywood actor and i left crumbs and now that's a good lesson for me because i do it all the
+time and i think that you only learn about the crumbs you leave by doing it and i just i just really want people i've had a few
+negative comments that have come my way about the podcast direct messages from people saying um
+you're getting this all wrong we're in a global pandemic i'm having a really hard year and here you are with a podcast that's
+just celebrating success all the time and showing up how um how we're all doing badly compared to your great guests
+and for me the podcast is a that hurts me to think that because i don't want anyone to come to
+the high performance podcast and leave in that way but it's the absolute total opposite of that because when we talk about what
+lessons can you learn from people on the podcast the other biggest one is they mess up all the time i think
+i genuinely believe successful people make more mistakes than anybody else because they're constantly challenging themselves to do
+stuff and you you're no stranger to making decisions that at the time you just simply don't know
+but you have to find a way of making that decision um and i'm sure there are times when you've made 10 or 15
+life-changing decisions in a week you know the the the point about those crumbs and you know rushing down the stairs
+when you realize that you were like what could you have done in hindsight to um to prevent those crumbs being left
+behind per se i just need to be really honest with myself that i have weaknesses and i need to address them rather than thinking that everything's
+fine and i am notoriously late i am always a few minutes late and always my new year's
+resolution is this is the year that i'm not going to be late is but it just i'm surprised you know that you're
+late because um the industry you work in i know it's very and look at all the guests
+i've had on my podcast we had um sir clive woodward who won the rugby world cup and you think of all of the discipline
+and the rules and the mindsets you need to win a rugby world cup the number one thing that stands out for him is something
+called lombardi time which was created by the players and they lombardi obviously is a famous
+name in american sports and they call it lombardi time because it's a name that sort of resonates with winning and it was 10 minutes early
+so if you say to any former england rugby player what's lombardi time they'll tell you 10 minutes early so listen i'm hearing this stuff steven on a
+weekly basis and still not getting it right and i think it just goes to show that we are human we have
+we are fallible and i do think we have blind spots which there are some things some people find really hard i don't there are some
+things that is not an issue for other people and it is a recurring problem for me to deal with
+but no one's perfect and how do you emotionally feel about the fact that you have blind spots
+in terms of like do you beat yourself up about it yeah yeah i think so
+yeah um i think it's a really common phrase isn't it to hear that you're your
+own biggest critic i think i'm probably less my own biggest critic
+than i was previously like when i first started in my presenting career and i used to come off air on the
+formula one i would solely focus on the bad stuff on the issues on the problems and that
+was instilled in me by david coulthard because he'd step straight out of a formula one car straight into broadcasting and
+tv is a friendly and lovely place to be most of the time you know we're really good at telling each other how great we are and we had
+our first production meeting just after the first race and i was just grateful to get through it it was my
+first ever bit of live formula one so i was just glad to have survived so i was ready for this lovely you were great you were great you
+were great this was great we started the meeting and david coulthard went well sorry
+can we just stop and that this is unheard of he goes i'm just not interested in this and the
+producer was like sorry i don't understand he's like i'm not interested in sitting here and going through all the good stuff
+how does going through the good stuff make the boat go faster why are we not talking about the bad stuff and that was a revelation from me
+i was like yes the good stuff's already good so you focus on the good stuff now i have a different mindset and
+bearing in mind my first race was 2009 so this is 11 years ago and for a long time my focus was on
+the stuff that i was struggling with or the stuff i wasn't very good at or the times where i didn't feel life
+was very good so i would look at a bad month or a bad year and go right why was i not flowing why was i not
+really in a happy place why was this why don't we focus more on the good
+stuff and that is my mindset change that is the thing that i for 2021 that is going to be my focus
+let's focus on the good stuff so we realize what the good stuff is just do more of it let's focus on the times when you were flowing and when you were
+feeling great when you were barreling around the place and when you were the guy and when everyone wanted to work with you what was i doing what was i eating how
+was i sleeping who was i spending my time with what was feeding me what was making me feel
+fantastic that's probably a better place to focus on i particularly after the sort of crap
+2020 we've all had i feel we've become a nation maybe even
+Your experience with failure and anxiety
+a planet with this light obsession on failure to not fail anymore to be good and it's
+almost like a badge of honor isn't it like i'm sure if you said to me three or four months ago how's your relationship with failure my
+love failure love faith bring failure on that's how i learn failures where i grow i need to be on the absolute edge so i'm
+failing all the time i want to fail forwards and i want to fail often like i still do but when i fail when i
+leave crumbs when i'm late for an interview with matthew mcconaughey i'm not thinking why did that happen
+because then i'm focusing on the failure i will allow it to be there and i will do my best not to do it again
+but i'm gonna try for 2021 to think about the good stuff man and just to see how that changes things for me
+super interesting you know do you focus on your failure um i i don't focus on the failure i
+think i was just i was actually asking myself that question when you were talking i was thinking do i am i someone that dwells on failure to
+be fair i don't i'm very very good at being detached from it all i think i talked earlier in this podcast about
+this like um video game mentality that i've taken on my life where
+i see my my worst days and to be honest a lot of them no i
+think it's just my worst days as if i'm playing a video game and that i am
+i am not what's happening and it's and i i think that detachment from what's happening
+has allowed me in my most chaotic moments to remain calm it's allowed me to form a
+sort of calm within my chaos so if i have a big failure or i really really [ __ ] up and i'm i'm disappointed
+with myself or whatever i'm very good at detaching from that um so i think i think the absolute
+absolute ownership of what you're doing for me is powerful which is is that the total opposite of what
+you're saying because like whatever i do i have to absolutely believe it and own that decision because then if it goes
+wrong or people question it i can say listen i really thought it was the right thing it's like the emotional detachment it
+means that i'm not i don't think that i'm going to die although i am totally responsible for changing it so i can think of i'm
+thinking specifically about the day where um i was driving to work get get the emails and the text messages
+saying that our whole server's been hacked and every client we have has been sent really really personal specific abuse by them
+from our email server that's come from my business partner's email that looks like it was meant to be sent to my assistant
+but the client was just accidentally ccd and this happened this happened about four years ago five years ago
+so i'm driving to work and i'm getting all these and in that moment one has a choice whether they want to
+fall into the problem and become the problem and become consumed by it or if they want to hold it out in front
+of them and deal with it there yeah if it consumes me i'll be crippled with anxiety crying in the corner
+but if i can hold it out in front of me and realize that this isn't gonna kill me this isn't gonna end me
+yeah this isn't you know but this is something that i have to deal with out in front of me then it becomes much more um possible to
+be rational and to think in terms of probabilities and i've come to learn especially over the last year or two
+that when you can um make your decisions based on probabilities of the outcome you can make really really good decisions yeah um
+you know i was thinking a good example of that is actually um a friend of mine yesterday texts me and
+he said to me that it's interesting he said to me that
+at his marketing agency his clients passwords have maybe been
+exposed to one outside individual so there's one guy another company that might have seen all of his clients
+passwords and he said steve i'm going to call all of my clients now and tell them that all of their passwords have been exposed
+so i said let's go through the probabilities here if you lined up a hundred people like the guy that might have seen these
+passwords how many of them would do something malicious with that information we both agreed it was probably less than one percent
+of like reputable people that would take a bunch of passwords and do something malicious so i said okay so one person out of 100
+or less so your probability of harm is less than one percent um what's the probability of harm if you
+call all of your clients and tell them that all of their passwords have been leaked probably greater than one percent
+yeah so let's think about ways we can get that less than one percent down to like zero so i said
+email all your clients and tell them you've done a security review and that um you you highly recommend they all turn on two-factor
+authentication today and that means the probability of harm goes from less than one percent to zero
+and but he was like in the in the emotional mindset he was just like i'm going to call them all yeah apologize because you probably felt a duty of care
+but if you do the two-step authentication i suppose you're still it's like you zero yeah yeah yeah yeah yeah yeah music to zero percent
+it's a duty you're balancing their duty of care and you know how do i remove harm from my clients but also
+remove harm from my business but he was so emotional when he called me that he wasn't thinking rationally yeah
+and that's why holding it out in front of you allows you to think in terms of rational employment perspective that perspective is so
+important to have like i've always had like this irrational fear of imminent disaster
+so when i was a kid i used to come in from school my mom would go and walk the dog and she might be 15 or 20 minutes most kids would just watch cartoons
+i would be like out the window after 10 minutes singing where's my mom where's my mom and then these little voices come in my head all maybe
+something really bad's happened to her maybe she's like slipped over and banged her head and or maybe she's lying in a field right i
+might have to go and find one my mum is and then she reappears i'm like oh thank goodness even now with my kids if i'm out someone
+they go around the corner i don't just think to myself i'll walk around the corner and my kids will be there until i can see my kids again and there
+might be parents listening to this that relate the worst possible things that could happen to one's children is a
+is happening to my kids until i can see them so i find myself like speeding up or saying to my friends yeah hey let's go and sit over here so we can keep
+just literally so i can keep an eye on the kids and then i'm a little bit of a hypochondriac so i fear that and then
+when my phone goes and or someone sends me a message going hey jake can we have a chat later like it could be someone from
+whisper or it could be someone from bt sport or someone about the pod i don't go yeah yeah cool i'll call you later i'm like oh what could that be
+my brain goes to worst case scenario and i found myself really quickly going so it's got a really important call to make
+my heart's racing 10 to the dozen and then as soon as i if i find out what it is i'm like oh
+thank goodness where does this come from i don't know because there is no skeleton in the closet like a friend rang me the other
+day and the message that you gave me was he's separating from his wife which is massively sad but he rang me
+and said listen i'm really sorry to call you with this um quite awkward news i'm immediately thinking oh my goodness right
+what on earth can this be but in my head it's gonna end everything it's gonna cost me my marriage my kids
+my job my house isn't that ridiculous but i now have the perspective that i know
+this is how i am i've had this since i was like 11 or 12 years old i know this is how i'm made so that is a
+really powerful thing for me because i then think when i feel this feeling beginning like when my kids go around the corner i now
+say to myself listen your kids are going to be fine playing the other side of a tree
+you know yourself well enough to know that this is just a rational anxiety it's your brain and it's just playing a trick on you
+that's all this is you talk a lot about responsibility yeah um there you just said this is how i'm made yeah
+that sounds like giving up responsibility yeah yeah so now i think i'm taking i yes you're
+right you are totally right but then i feel like i'm taking the resp i'm slowly still learning even at 42.
+i'm taking the responsibility back by saying right i'm not going to allow myself to get anxious about that because i know what i'm like if i'm the
+most chilled out person in the world and i find a reason to be anxious maybe i should be worried about that i'm going to tell them about the lift
+jake so we're on the fourth floor here and uh jake jake came up uh
+knocked on the door looking pretty sweaty and said uh i just took breath he said i just took the stairs because i
+opened the lift and i didn't trust it this lift there's never been any problems with it if you look at the stats around deaths in lifts or things
+you and me are not hanging out today that seems somewhat connected to what you're saying yeah i think you're probably right yeah
+maybe i should have taken the lift because i know that everything will be fine in the lift and i should know that i'm a bit claustrophobic but
+i think it just goes to show that again and you've spoken about this so powerfully over the years on your podcast is that from the outside world
+you look at someone like me and think wow a couple of kids few businesses great house nice broadcasting career
+what a lovely carefree life he must live every day man is riddled with little anxieties and little worries
+um a few years ago probably almost to the point of derailing as we've discussed on your previous
+podcast with me but now knowing myself knowing yourself is so powerful because
+only then like can you love yourself you think that's also somewhat linked that you said earlier on about that comment you
+read where people are like jake you know you shouldn't be doing a podca happy podcasting sad times basically
+yeah the fact that you remembered that and you referred to it as hurting you seems also somewhat correlated to this
+yeah i think i don't know i think it's a i think it's a it's a fair point
+i find that a harder thing to get i find external criticism is a harder thing for me to deal with i
+find that more i find that a more difficult um thing to own in my head why
+um i think because probably human beings just want people to like what we're doing i mean i find it confusing as well
+because i think if you're being offended by my high performance podcast like
+wow that that shows the level of offence that some people can take because i really want i honestly
+want it to just be a holy positive experience from the moment that someone clicks subscribe or starts listening to
+the pod to the minute they leave i just i just want people to be happier to get
+takeaways to live a more empowered life to go and be successful i honestly believe it like
+it comes you've got thousands and thousands and thousands of reviews on your podcast yeah it's rated five stars
+people pour their heart out telling you how much they love it how much value it brings and we're talking about this one guy i'm
+a human i suppose am i i think you slightly over index a little bit in terms of caring about this stuff though
+and i i actually you know when people asked you know what you're like after meeting you i said he's just such a nice
+guy such a good guy and you are such a good guy and it it's
+maybe that is part of i don't know is that somewhat connected to your i think so don't you think that
+don't you think the two are completely connected though that if i wasn't the kind of guy that genuinely wanted people to
+you know be in a better place i wouldn't give a [ __ ] whether someone said my podcast was useless i'd be like well i don't care anything i'm just doing it to
+make some money for me that podcast and i will openly say this i've not made a penny from
+creating and operating for an entire year and we talk all the time that this is about the outcome not the income
+and and i think the reason why it has been successful is that whether it's me or whether it's
+damien or whether it's the guys that help us to film and edit the podcast together all of us totally believe and buy into
+what we're doing like i genuinely think that it is what people need to hear
+because it is empowering people and do great things who have been you know a lot of my friends messaged me
+after you had johnny wilkinson yeah and they said that was [ __ ] weird it was deep wasn't it i had to listen to
+that back five times and i did the interview you know what was the remark i haven't heard it what was the surprising
+so the the bravery really from from someone who won a rugby world cup as a certain
+person and now is a completely different person i mean i can give you like a sort of salacious headline like he told us that
+winning the rugby world cup is no more important than doing the washing up and the the way that he squares that off in his
+mind is he says what are you doing if you're playing rugby moving your body to achieve a goal what you're doing if you're doing the washing
+up moving your body to achieve a goal and if i make winning the rugby world cup more important or to hold more value
+than doing the washing up and i'm no longer a rugby player what am i less valuable because i'm no longer doing the thing that was more important
+that was the that is the sort of sentence that he was sharing with us which i think is
+brilliant and brave and i can relate to it and i and i can understand it um
+[Music] but i think that for me the sort of the real the real
+revelation that came out of the johnny wilkinson episode and what i really want people to understand if they listen to it
+is that when you strip everything back he is someone who has
+totally changed from where he was when he was conquering the world because when he was conquering the world as a rugby player
+he thought he had to stress and struggle and sacrifice and fail and now he realizes that
+stressing and struggling and sacrificing and failing leads to
+more stress and struggle and sacrifice and fail and actually one of the amazing things
+he said he said when i released a book after winning the rugby world cup i wouldn't be surprised if there wasn't a spike in mental health
+cases from people that read that book because the book was saying you've got a struggle you've got a struggle you've got to you've got to
+really struggle in life to be successful and i think that that is something that i
+when we first started the high performance podcast i loved it when people spoke to me about
+the battle and the struggle and the strife and the sacrifice and the late nights and the early starts
+because i wanted people at home to go yeah man i'm gonna work harder i'm gonna commit more i'm gonna
+sacrifice more now i think that is so so so wrong that
+is the total antithesis of what i now the message i now want my podcast to give to people
+it's tough isn't it because it's hard to find someone who's been really successful at the very top of
+their game whether it's business or sport hasn't done that yeah so i've contended with this i've like contended mentally
+with this idea as well well again when i started putting content out there especially when i was really young like 18
+i was bragging about how late i was staying up i was like look at me at 4 a.m and i'm still working
+and i was doing that because i was trying to portray an image that i was i don't know a superhuman or something and my content
+followed that theme and then i got to the point where i probably flipped the other way because of public pressure and people's and the
+the world now thinks that if you go on the high performance podcast and say hard work really really matters you will
+take an l you are an [ __ ] for saying that because you're going to make people depressed and anxious and you're a hustle porn star
+and then i got to another place which is if it's the truth it's the truth and i'm comfortable with
+the truth and so there's so many levels of nuance it's like the most successful people you'll
+encounter at the very top of their industries worked like hell to get there yeah yeah
+yeah it's you know will smith you know circlive woodward or um any anyone in it
+that's a very consistent theme elon musk right but it but what i've come to do over the
+years is detach that from happiness first and foremost because it doesn't necessarily mean they're happier
+and then also redefine what success is because success can be being a great parent yeah or is
+it to you then i it has to be happiness i feel like yeah that's my answer yeah
+that has to be because you can still have the hard work and you can still have the
+sacrifice but you don't have the struggle that's the that is the mistake i made i thought the struggle was part of the hard work
+and it was part of the early starts and the late finishes and it was part of sacrificing some things that's what i thought the high
+performance podcast was about but it isn't you're totally right it's about happiness and you can still get up at five like i probably take too
+much on and i probably get up early than i need to and i go to bed later than i need to
+but i am so happy and that's what it has to be and it can't be happiness at the
+detriment of others happiness yeah it has to be being happy content with yourself and spreading that happiness and that again
+is something that johnny wilkinson spoke about which for me has been one of the biggest revelations being absolutely present
+absolutely totally present so when i'm here with you my phone is down on the floor and it's
+actually on silent but it should be off because i need to be totally present with you right now because what's happened is gone what's
+yet to happen which is me going off to do a game at bt sport is a story i can write that in my head if i like but i'm probably going to get
+it wrong because it hasn't happened yet exactly the way the day's going to go so i need to like look you in the eye right now and i can now promise you that
+on this podcast i am absolutely here with you and it might be in half an hour i leave but
+that's cool because when then we're done and i'm then traveling and then i'm totally present and i'm
+into that that is a really important thing that has again been a mindset change for
+me on the high performance podcast and maybe now i sit and talk to you maybe this whole thing is like a totally selfish
+exercise for me because i must have said four or five times that this podcast has rewritten the way that i see the world
+and the way that i operate and i think maybe maybe i want this podcast to be messages to my kids like i talk
+already about my anxiety probably another of my anxieties is how much longer am i going to be on the earth you never know what's around the
+corner i love the fact that if it all ended for me as a walk out onto shoreditch high street today and a car comes along
+what can my wife say to my kids that oh i don't know my dad very well listen to these 25 episodes listen to these 30
+episodes of the high performance podcast there's your dad that's him you walk out here today then
+What would you regret if you were to die today
+yeah touch glass um and bus comes boom yeah it's over what are the things you
+you in you would regret not having done more of uh traveling with the kids probably but
+they're only little they're only young it's such a hard question for me because
+i think i think probably um maintaining relationships with people has always been an issue for me
+because i i failed my a-levels as you know at school so all my mates went off to uni so that was kind of lost because
+they went off having fun and i redid them and then i've always found that one of the issues
+with trying to really be present is that you're totally present in that part of your world at that moment and so i was then totally plugged into
+life on children's bbc and then i got this amazing opportunity at formula one and i was totally plugged
+into my life in formula one and then i got you know a big opportunity at bt sport and i had to
+make that work so then i was totally plugged into my new producers and my my new colleagues and you know i
+had a conversation with someone the other day and they said you know like who you who are your real friends
+it's a hard question that for me once i moved beyond my wife because i've got four or five mates who
+i'm close with but they're i would probably name people that live on my street well i've
+only lived there for four years i might name a couple of parents on the school run my kids have only gone to that school for four years
+i'd name a couple of people i've run my production company whisper with but that's only been going less than a
+decade i'd now probably class damian hughes and i do the high performance podcast with
+well i've done that for less than a year but i'm in this and maybe that is
+possibly the only regret i think but maybe i don't need i don't know maybe we don't need to hold
+on to people for too long maybe we have to accept that people come and go from our lives and that's okay
+and do you think it's because you you haven't sort of perhaps you said like you haven't prioritized investing in those relationships as much
+i think it's because i'm always too invested in the thing that i'm doing at that moment
+like i am so absolutely committed to whisper coral eyewear the high
+performance podcast bt sport my kids my wife and my family
+there isn't an awful lot left right i guess the question the better question to ask would be then but you're are you happy
+because that if that is the ultimate goal then you know society will tell you to live have loads of friends and do this
+and have this car and whatever but then the question the most important is be happy happiest i've ever been
+i've been the happiest i've ever been yeah so you've got to be doing something right right yeah i think yeah i mean i i love what i do
+like i really like work i like getting up early i like having five or six things on the
+burn all the time i like having a whole page of jobs that i'm gonna do other people are not like that my wife
+is the opposite she's got four or five jobs she's like oh man i feel so stressed i got i don't want all this stuff whereas
+sometimes i sit there and i'm not making a list of big things on the horizon and i'm i need
+to have a lot of them and again maybe i give a c to everything and i'd be better to have fewer things and give them more than an
+a matthew mcconaughey tells a great story about cutting off two of his big businesses because he was giving a b
+to five things and he wanted to be an a in three things the guests you've had on
+Are successful people happy?
+your podcast all these wonderful people you've met do you sometimes get the impression that some of them aren't
+that happy yes yeah um it's one of the things i've
+learned from doing this as well yeah it's really interesting and and i totally get that everyone is
+everyone is in it for different reasons aren't they like we spoke to sean wayne who and i
+would say you know sean wayne is not a household name he's one of the most successful rugby league managers in the uk
+but if someone wanted to get into the high performance podcast and they wanted like a first podcast to listen to
+don't just go for the big names i'm telling you now sean wayne gave us the most moving and
+revelatory interview and he in his sort of broad northern accent
+he said you don't i'm not bothered about being happy he said i'm not not happy i don't care about happy and that
+was not you know happiness was not his thing he's con as soon as he achieved something within moments it's about the next thing
+and we sort of broke it down that he was very badly abused by his dad as a kid you know physically punched in the face by a big man often
+and that his entire life his entire energy comes from wanting to redress the
+balance and he's now a rugby league coach the the england rugby league coach because he
+he has this deep-seated desire to make the lives of other people better now he might personally never be happy
+after the story that and the path that he's been through but he's definitely making other people
+happy and he is also totally comfortable with not being happy
+now that's not everyone's story that's his story um but i certainly think that
+we like in the past we've thought that success and happiness are mutually exclusive what do you want to be here
+and be successful you can be happy how wrong are we to think like that the
+very flame of success should be happiness
+that should be the absolute nub the crux of everything what's the point otherwise man what is the point i i get that a lot
+with guests that i've had on they seem to some guests seem to be very neurotically obsessed with
+the next thing and the next thing and the next thing in the next thing and when you ask them to pause and reflect on hey when this ends or
+um or why they're doing it it always seems to flick back to their childhood eddie ham was the was the same um i know
+he's been on yours he was on mine last week and he uh when i was talking to him about his aspirations for the future
+with matroom he says i want to sell for five billion and we'll do this and we're gonna there and i said why do you wanna sell for five billion you're happy now he goes
+he goes well you know we should be doing we could we should be selling five billion that's why i want to do it but why does that matter and he goes and
+he goes back to his dad when he's younger he goes back to the fact that his dad used to criticize him and didn't give him praise and it's
+and it's weird that those early moments have driven so and it's the same with me
+to be honest they drove this like obsessive desire to just keep climbing a never-ending mountain
+and that's the trend that i've seen in very successful guests and very successful people is often some kind of
+it's a strange thing to say but something that went not to plan yeah when they're younger seems to be
+the reason that we all adore them admire them it's something that had hit them in their emotions or their wiring that
+sent them into an obsessive state in in never as good as you think it would be though you know when you get
+when you achieve those things that you want to achieve like the the biggest thrill i've ever had was
+when i spent 9 750 pounds on a green mgf it's my first ever car
+i could still remember the number plate njn and i looked at that car i bought it from an elderly gentleman in
+colchester and i went to his house and i said i've got a banker's draft and i was working on children's bbc
+he took me out to his garage and you know those old like um fluorescent light strips they flicker
+come on i remember it's still on my head as vivid as the day it happened the light flicking and just lighting the car up for a
+second and then it goes and i looked at it and i was like i cannot believe now fast forward to
+where i am now you know a successful tv presenter invested in coral eyewear run a podcast
+um have two beautiful children um who have a production company the kids
+and my personal relationships are aside from this because that is that is on a deeper level than anything else but in terms of material successes
+nothing and i mean nothing man nothing has come close to spending less than 10 grand
+on a green mgf so you've got to enjoy the journey you've got to enjoy the travel because a
+it's not as good when you get there as you think it will be b you spend an awful lot more time getting
+there than arriving like you have to answer this totally honestly
+you have you've totally left social change now yeah with money in the bank yeah that you
+wouldn't have had if you hadn't walked away from that business right yeah what is more thrilling to you to
+look at your bank account now and see the number in the bank account or to know the journey you went on the social chain
+oh yeah of course i mean the bank could be double triple quadruple
+ten times it wouldn't matter now if i said to you if i came to you in manchester when you went to nab frozen pizza just to feed yourself and i
+said listen dude you can either absolutely work your nuts off for the next 10 years
+like build a business hang out with people develop some good relationships or i'll just bang 100 mill in your bank
+account today there you go yeah and now here you are you've got 100 mil and the thrill came from
+the journey there's something like i'm always conscious of my own like hindsight bias
+because it seems to be the case that every broke person um goes on the journey to
+get rich you know that ends up being successful they get the money they go it doesn't matter but it's a wonderful thing to say when you have you right like
+part of the reason it doesn't matter is because there's so much of it now it really mattered when i was stealing those pizzas right and when i was like
+going behind the sofas in this pub looking for the pound coins and i found 13 pound coins so i went back the next day and like it really really mattered in fact
+it was all that mattered you know in that moment so i'm super conscious of that bias that we have because
+um and you should be by the way and we we are the same on high performance when i say or you
+know you need to have the bad times to appreciate the good times and um the the the traumas and the difficult
+things will will equip you for the rest of your life i honestly know that there are people that would
+listen and go hold on a minute middle class white guy from a lovely village in
+norfolk yeah you've had a few issues with mental health and bullying and that as you know the death of my
+grandma which was quite tragic and things like that you haven't really struggled yeah so then i think it's
+important that we uh we've done an interview that we haven't put out yet for the podcast with ceo khaleesi
+first ever black spring box captain and he tells us a story in the podcast about not being able
+to sleep at night because his stomach hurts so much because he was so hungry so his grandmother gave him sugar water just to get him to
+school so he could have a day at school and she died in his arms at eight years old when he sits on the podcast
+and says he will go through some really dark and difficult horrendous times you know he grew up
+in the most deepest poverty you could imagine in south africa when he sits there and goes
+you can get through it and you can use it as a flame and a fire that is i think when you listen um
+Burnout in the world of successful people
+it's um i i have to say i also completely agree that uh you know the things that have mattered
+most to me professionally especially as i reflect have been doing as you say doing work i love but then like doing it with people i love
+um and a mission that's worthwhile and there's just always people talk about this topic of burnout a lot um
+and i tend to believe and i'd like to get your opinion on this i tend to believe that your burnout is somewhat inevitable if
+you're doing things that you don't intrinsically love doing especially if you're doing it with people you don't
+you know really really love as well and i feel like in any facet of your life if you're doing it too much you don't enjoy it the outcome
+is burn out um but is burn out a topic that's been sort of prevalent on your podcast no you know it
+i suppose partly the reason why burnout hasn't come up very often is because we're talking to people who are in the midst
+of their successes or who have been successful and they love what they're doing and they love what they're doing they're full of passion whereas
+people who have perhaps tried to do something that wasn't quite right and have suffered burnout and it hasn't worked
+we we don't know about them because the burnout ended the dream but it's so funny that's such a good point
+that the fact that your pod you haven't had that come up as a topic on a podcast that speaks to people who have clearly been intrinsically
+driven by their passion to the very top of their game passion is everything you know you say you spoke to eddie hearn what's his
+what's his podcast no passion no point i mean he is a great advocate of finding something that you believe in
+but i also get that again you had a real passion for what you do like i honestly
+like i have a such a deep love and a passion for all the things that i'm involved in because if i didn't
+then i wouldn't do them or i'd try and find something else but there were times in my life where i've done certain things like i don't
+as a tv presenter you often get asked to do like corporates you know standing up at awards and things like that and you
+you need to welcome people on stage and shake your hands have a photo and i i find them a real struggle i don't know
+why i just don't get a thrill out of doing those things so that's a good thing for me because i
+i've noticed that's something i don't like and that for people that are listening to this thinking you know what what's my passion like what am i one of
+one of the really good ways of finding you is to look at all the things that is not you
+who are the people that don't make you feel good what are the days when you feel drained and exhausted what are the the
+trips or the phone calls or the conversations or the lunches where you leave thinking every time i see that person i feel like
+this if you can see the see the stuff that isn't good for you and strip that stuff away you will
+eventually and it might take a while be left with who you are and that's the time to really then think right
+what am i about what am i as a person because i don't think you you can obviously get
+tired and you can be in and you can have problems but i think with real passion i don't think you suffer burnout
+because every day i seem to get this like so you've not got kids yet right but when you do you have argument you have a
+beautiful feet remember when my daughter was born i love her with every piece of my heart right i had this real
+fear that when my son was born where's the love going to come from yeah no you do there's a feed that is
+it's a quite common thing for parents like my daughter had every single bit of love in my body so my wife
+obviously would we're really super close but love for your child is so different it feels very different from the moment
+that child is born and i could not have loved my daughter not one percent more so then my son is
+about to be born my daughter's gone off to the grandparents and i'm watching my wife in labour thinking i've got nothing left for for sebastian
+what's this about sebastian's born and within two seconds i love him equally so there's no
+diminishing of the love for my daughter not one bit but all this new love has just appeared
+out of nowhere and i could love my son exactly the same how is that possible and it is exactly
+the same when you have a real passion or a real love for something like every day that i get up and i'm making
+phone calls or i'm having conversations or i'm you know brainstorming or blue sky thinking or thinking about guests or
+heading to do live television it's all filler it's filled up again i'm full i'm ready to go
+you know i don't feel like i'm like the cup is draining slowly because i love the stuff that i'm doing
+and that's a great point because i think people tend to believe that passion is a singular thing yeah and then they're searching for it aimlessly
+like it's an easter egg hidden somewhere yeah and that you can drain you can't drain your passion yeah you can have multiple
+passions yeah and you know you've met a ton of you know high-profile people on your you
+How do you deal with assholes
+know from your from your presenting career but also from your podcast i'm sure you've come across a bunch of [ __ ] as well
+yes i'm not gonna ask you to i'm not gonna ask you to name them holly tucker on her podcast came out with her you
+know what it's like she created not on the highstreet.com she said i'd rather have a hole than an [ __ ] in other words
+i would rather hang out with no one than hang out with someone that i don't like which i which i thought was uh which i thought
+was a good one but then matthew mcconaughey said do you want an [ __ ] or an idiot give
+me the [ __ ] because at least you know where you stand really yeah so he was like at least and
+i i do relate to that somewhat the people that i really struggle with in my life are the people who
+one day you see them and they're like your best mate the next day it's like you've never met them before i do struggle with that i i like to know
+where i stand with people i'm cool if you want if you and me want to have like a distant professional relationship
+and you'll send me a text saying happy new year i hope the podcast goes well maybe hook up sometime in 2021
+and we never see each other socially and you come back on high performance i come back on here and we use to and throw a bit professionally
+that's absolutely that is cool what i don't want is
+hey let's have a coffee do you let's meet up in london yeah great oh man it's so nice to see you so how's things how's life we chat a bit more have you got a
+partner how's your dog as your life and then you hear nothing for six months and you think whatever happened to that dude
+and then they reappear again i'm so sorry for not texting you back there's the truth i feel like you're
+shouting um there's the there's the difficult thing for me not knowing where i stand with people i you
+know i don't want to be everyone's best friend but i do want meaningful relationships with people and they can be meaningful
+from a distance or super intense on that point of arseholes as well i think um what made you what made you ask
+that i just i just one of the things i i could you know what it is i remembered one day
+you meet a lot of people and when you do this podcasting thing and you you have an initial perception of how they're going to be
+and then you meet them and sometimes you know sometimes they're souls i actually don't think i've had anyone on the podcast that was an [ __ ] but i have
+had experiences i remember this one day i got in this plane i think i was flying emirates or virgin or something
+um and in front of me i saw that guy from the food guy the guy that eats all the
+food on tv someone give me his name oh um yeah yeah yeah yeah um everyone in the podcast
+man versus food guy yeah man versus food i mean i don't know his name yeah and i don't care about saying this
+um and we run this huge food channel at social change so we have you know tens of millions of followers on a food channel
+so i text the food team and i'm like oh my god he's on the plane they said i'll go up go up and ask him a question which
+is a question we always ask us on our food channel so i went over to ask him this question he was sat in um business i sat in
+business as well and he's just he just he looks at me and goes
+listen give me a second okay and i'm like whoa so i walk back to my my chair and i have
+to tell the 500 people in this like company group oh so i went up to him and this person that you all
+absolutely love i've he's just cussed me out um and he will never know the impact he had
+on me or the 500 people that i then told and also the you know hundreds of thousand people that i'm
+telling right now um if you got to the point though where you're brave enough to call that sort of stuff out because i think that is the important
+thing when he's when he does it to his face yeah for me that would be like
+ego because you go from you yeah it would be like do you know who the [ __ ] i am or it'd be like
+why are you saying that for me the piece was like no reaction yeah because there was no win there was no win
+in me calling him out i wasn't going to win so the win for me was saying okay no worries and we're going back to my chair
+and also not letting it ruin my day um but but i'm sure you the reason i asked you the question is because you have tons of
+guests in your presenting career but also your podcast when you encounter an [ __ ] um i guess how'd you deal with it
+you just know that you're there for a stop and not stay i think and you um does it break your heart a little bit
+sometimes um when it's someone that you uh admired yeah i suppose so i suppose i don't
+worry too much about it because i just think you know what you can you're just not for me and also
+like who am i to sort of judge whether their behavior is arseholery if it's clearly a rude and unfair and unkind absolutely
+i i now feel like i'm 42 and i'm a parent and i want my kids to operate in a world
+where um they can be themselves and they can't be bullied or pushed around i think we're
+i'm old enough now and i definitely wasn't like this a few years ago where i can hold my chin up and say that behavior is really not
+acceptable would you call someone yeah you would but i wouldn't do it in an arrogant look at me i'm a being a dick
+where i just say listen i just think that behavior isn't acceptable and have you done that um yeah
+to someone someone i work with you in your presenting career uh yeah name
+and address and actually do you know what you find is that often i've done it twice and
+both times they've gone yeah i'm really sorry that is actually unacceptable i mean we we had an interesting experience because
+my wife used to work in production so heard she was a production secretary which is not very high up the ladder of
+people in television and i was a presenter so she would be looking after security
+taxis tickets logistics clothing call times all the stuff that makes
+television happen but is not the glamorous side and the number of times i would say i met this person today
+aren't they great and she'd be like really and then we would meet those people
+and i'd be like oh yeah i think you know my wife harriet and they were like oh right yeah hi
+because they would be you guys love to come around sometime for some food and harry's like that's not how they were really when they
+thought i was just sorting out their travel and that is the definition of an article yes i think it is because you just treat
+everyone the same man and they're treating you well because you can potentially benefit them in some way
+i don't know it's weird isn't it like why i've got a job on the television why treat me any differently because you're all connected and you can
+that is what really annoys me we see that and i saw that in my business over the years and i i came to believe that even with me
+leaving the business it won't break the business but i do believe that like so i believe one person leaving a business doesn't break it and you can apply this to your
+relationships your life your friendship circle but an [ __ ] staying can me leaving
+the business i don't actually think will be as detrimental to a couple of [ __ ] staying in the business not that there are any but
+um i know what you mean yeah don't you think though like this is like it sounds naive and
+churlish and a bit childish probably from a 42 year old bloke that has a
+decent career and runs a few businesses but like i honestly think that we do have the power to make the world
+positive and happy despite all the issues because all you have to do is worry about your immediate circle
+and that is why i get frustrated with people who spread negativity and criticism and i just i've just got no
+space in my life now for negativity from people because i just think if let's say that i know seven people
+and i just say you know i'm gonna really radiate a positive energy i'm gonna lift them up i'm not gonna be critical i'm gonna do
+everything i can to make them feel like a million dollars the only agreement is that they have to
+do the same and you say that to those people listen i'm going to do this thing i'm going to be really super positive and i'm going
+to do everything i can to help you and if you ever need something i'm going to be the person that comes and helps you out all i'm asking is that you do it for the
+people in your circle be the change see how quick that would radiate yeah so my seven
+so if i go if each of them goes to seven you know what i mean yeah no and it just feels stupid doesn't mean that's that's what karma is yeah you
+know i don't believe in wishy-washy karma isn't like oh if i help a lady then someone's going to help me in the future but i think from a logical perspective if i help
+everyone i encounter maybe they'll be more helpful and that can make its way back around to
+maybe my niece you know but you know so true i just i can't see any i can't see any benefit
+any benefit to criticism and negativity and like driving other people down someone that get feels better for driving someone
+else further down is like for me the absolute epitome they are the worst of them do you ever get jealous
+Do you get jealous?
+be completely honest uh yeah um i get jealous but i only ever get
+jealous through comparison and that is ridiculous you know it's the nasty is it the nasty jealous where you're like
+why have they gotten yeah probably yeah yeah but you've got but i think that is innate i think that is
+almost there i am giving up responsibility again for someone that talks about 100 responsibility but i think that it's
+innate in human nature to to compare and to contrast and look at someone else
+so it's not a very long experience for me i will look at someone and i'll go but hey listen i'm so happy
+and i've got all this i'm gonna and actually sometimes i look at life as a graph and you literally don't know where life
+is gonna take you so let's say like the people that i now sit with in a tv
+studio like um i sit with they say when i when i had robin van persie stephen jarrod and rio
+ferdinand were all the pundits on bt sport there was a time where all three of those were three of the most famous
+footballers in the country earning phenomenal sums of money competing on the world stage representing their country
+and i was a a guy post a level failure trying to sort of find a
+job and earning six thousand pounds a year and there was a time where they were there and i was there and our graphs over the time have done
+whatever's happened look where i've ended up sitting next to them on a tv studio now it may well be that they go up there
+again and something happens to me and i go down here or it might be that i do that and they do that but you never know where that graph is
+going to go and that is what i think is that for me is one of the most exciting things about this world that we live in
+like you are only one step away from a phone call where someone goes hey guess what and your graph goes so don't worry about
+where other people are on that graph because it might be in five years time you're right alongside them i guess that's where that that hate a
+lot of the hate comes from so if you take the jealousy feelings that even you have as you know one of the nicest people i know and you just you know times it by ten
+but you know and that's the you know people feel a certain way about their lives and how their lives are going
+that's because it's it's chucked in our faces all the time yeah what is instagram if it isn't a tool for comparison what is it
+why are you having a great day and we i and i'm we're jealous of that i'm not jealous we're guilty of it making other
+people jealous of what we do but we went out for uh we went for a couple of days away as a family to a
+lovely hotel called clifton and it was lovely but the kids for some reason were just badly behaved and it
+does happen sometimes and we had this meal it was breakfast actually and they were like it took ages for the food to come
+and the kids were like climbing the wall and that's having to say to the waiter at least i'm really sorry but like we've been waiting for 20 minutes which is
+fine for me and my wife but the kids yeah they need and it was a posh hotel where you're trying to said you get to
+just stay at the table sit and sit nicely don't make too much noise and then at the end of it i was
+stressful man and i said hey i'll tell you what the family will want to know where we are so i'll get my phone out and i go kids kids just
+smile and we take a photo and we put it we have a family what's up group with harriet's mum and dad my mum and dad all
+the cousins all the aunts and uncles right we're all smiling everything looks great just had a lovely breakfast at the hotel
+i said and then then we get loads of messages back like from people like my sisters are going oh you're
+your life always looks perfect and my brother going oh another great day for you and i think actually yes like i've just
+given them an absolute falsification of what my sunday morning cleveland house was like that was a stressful hour and i've taken
+the one thing that wasn't stressful why have i put that in the group why haven't i just gone hey guys hope you're having a good sunday call we've just had
+a [ __ ] half an hour here having some breakfast but hey don't we all that's and that's what we all do all the
+time why else do all the people you follow on instagram put the things they put out there i i've
+you know i think the world has somewhat flipped is flipping back the other way in the sense that when we
+all started instagram it was this new thing you had these filters and it was like a show the best holiday you've ever had in your
+life to the world that was kind of the that's the thing you'd get the rewards for and that represents
+in terms of being able to relate to that or it's like 0.00 of the viewer's life like most of
+our lives the 99 of our lives as i've said in this podcast before is like eating the pot noodle in bed and now i see that the win with personal
+branding and building um an instagram page is the antithesis of showing that it's like
+i've just woken up with my face covered in spots in fact the last you know two podcasts ago we had christian here who's like a superstar
+influencer entrepreneur and i was trying to understand why her community are so engaged with her so engaged with
+her versus even like even compared to mine or other people's and it's because she wakes up in the morning she goes
+my face is covered in spots oh my god i'm not gonna put the filter on today and you see the spots on her face and
+stuff like that and then she'll cry on her instagram story because her you know her best friend lost her mother and
+you really can resonate with that you can and also the amount of supply
+on social media of that realness is low demand is super high because it
+represents the 99 of our lives supply is super low and uh and people joe wicks is the same he he will
+he will tell you everything i feel like [ __ ] today you know and people just and that's the thing i think you can
+form a bond with a real deep bond so even as i reflect on my instagram now
+i said to my team earlier this week i'm like i need to like go on my instagram story more and do a lot of the stuff that i do on
+the podcast which is just like telling you the [ __ ] stuff too yeah um and so i i say this yeah if you want
+to build a personal brand i'm like you know you really need to get comfortable with that make you happy though let's go back
+to where we began would you make me happy yeah because i know that it would not make me happy i my
+instagram isn't a lie it is real but it's real with the things
+that i choose to share basically yeah do you know what i mean by the way i have no lunch can i knock yourself down it's actually yeah
+this one actually worked this month so it's um what is it this one this is not had one present for you though when
+i saw that you've got huels yeah it's just great i was panicking i'd undone it and i was going to flip fuel
+all over your lovely rug in here doesn't matter that that would be a cool piece of promo um nutritionally complete
+drink yeah yeah yeah i think it's great man so i've eaten nothing today what's the time it's vegan 20 past one so this is perfect for
+me now this is my lunch and my breakfast try let me know what you think
+this is my favorite flavor of all that's good and if you have this all day
+um which i don't know if that's to be recommended but all of your sort of essential minerals
+are in there vitamins high in protein so it's 20 grams of protein at the same time slow releasing
+carbs spill a bit on your really lovely glass table it's fine don't mind low sugar gluten free yeah it's great
+that's nice it's lovely yeah and i drink it because um because i skip meals
+that's how i first well i'm trying to intermittently fast because i've seen um other people's six packs on social
+media and they make me feel at me okay they make me feel like i just need to
+you know right why do you feel the need to share more of yourself on instagram like so yeah so what's the benefit the
+Connecting with our audience
+benefit is if i share more of my truth all the the tough stuff which is pretty much why i started the
+podcast in the first place i feel that i'm helping a lot of people and do i enjoy helping people and
+getting um and helping them overcome their problems yes yeah i mean you do that already on this
+podcast yeah but i don't do it on instagram and i i think that do i want to have a deeper connection with my audience on
+instagram yes what am i doing on instagram predominantly just posting quotes to be honest so if i want to have a deeper connection
+with my audience on instagram then i should go deeper with them yeah as i do on this podcast because the podcast audience are like a cult
+you know they're super engaged because of the depth and the realness so i think it would make me happy in the
+long run there must be a reason i don't do it that's a good point this i mean it's been a huge revelation for me doing a
+podcast because when you're a football presenter you don't get nice messages
+on instagram you don't get like an engaged core saying this resonated with me that resonated
+with me partly because you're not the story you're there to facilitate former pros to be the superstars i mean i liken my
+job on the football to like being a referee like if i'm not seen that's probably a good thing i make them look good i make
+them feel good and people let's be totally frank tune in to watch the game more people will tune in for man united
+the more tuning for norwich city more people won't tune in for me because i'm just
+the facilitator whereas with the podcast the nicest thing has been this genuine
+conversation connection like creation of a proper community and that's that's been
+a totally new thing to me i thought i knew everything that was to know about broadcasting and you know with a million followers on
+twitter and an instagram account and running a tv production company and being a tv presenter like i knew what it
+was about i knew how to connect to people i've never known anything like it never seen feedback like it never had fulfillment like it
+it's amazing is there something crazy about podcasting though versus all other channels and i think it's that depth
+the messages you get if i post something on instagram i'll get a oh i can totally relate the podcast you
+get a like essay about you know they return with their story
+yeah and it's like depth begets depth yeah yeah yeah i totally see what you're saying
+and i and it's um it stops it from like because when i
+first started the high performance podcast i wanted it just to be me opening up amazing people to benefit
+other people and i will now admit part of the thrill of that podcast is seeing the response and seeing
+seeing the reaction and i'm i'm not foolish enough to think that isn't my ego at work it absolutely is my ego that
+likes it but it is like it's amazing when you see hi i listened to your podcast and i
+changed jobs after wanting to do it for 20 years hi i listened to your podcast and i've quit doing something that's
+been bad for me for my whole life i've reached out to create relationships with people that are allowed to die
+from listening to our podcast bloody hell what's the most emotional moment you've
+had with a guest that you can recall on the podcast is there a particular
+moment that you know yeah who there's quite a few times that i've kind
+of um that i've sort of edged towards tears and i think you know someone i've
+already mentioned sean wayne you know when um when someone talks to you about
+that sort of the devastation of being physically abused by a parent and
+they've got i suppose what was emotional for me was the was the learning during the interview with sean and i
+knew very little about him before we spoke the learning that all of the good stuff
+he's done you know he talks about if he's got an issue with one of his players he doesn't just have to chat with him after training he turns up at
+their house in the evening he says what's the deal man how can i help how can i solve this um
+and he is now a parent himself and a really loving and caring parent to have the start in life that sean had
+and to for your whole life to be about helping other people that was like
+that that was a that was a hugely moving conversation with him yeah i think all of all of the guests
+i've had that have um moved me in the same way is almost identical it's nice isn't it i
+don't know whether you're like this with podcasts but i love that we have footballers on and don't talk about football
+we have rugby players and i don't really talk about rugby um we just talk about it
+my podcast is a podcast about life exactly like this one is and we were talking before we started recording today about the
+Tips for starting a podcast
+the desire to try and avoid the typical talking points with guests and i think this is maybe just a general a general point for people that are
+trying to start a podcast you know um there are so many podcasts out there yeah and
+in order to what would your tips be then for someone who's considering starting a podcast from what you've learned in your
+30 or you know you've you've recorded a total of 50 so far but yeah we've done that live
+what tips what did you give to someone who's thinking of starting their own first of all go for it because i honestly what i honestly
+was this close to not doing it the great thing about podcasts that you that i didn't have in my life was
+ownership so i'd spent my career working for children's bbc working for
+formula one and the bbc working for the premier league on bt sport and i sat down with someone they said
+like how's your career and i said yes great i'm really happy i love doing the football i love being with the players
+and everything and they said what if you've got a phone call tomorrow to say that that had ended what would you be left with
+and i was like um today i have to go and find another job they said so what do you own of all
+these years of graft and hard work like what's yours and the answer was nothing and then the next question they
+you know they obviously knew what they were talking about i said what do you really want to do and i said well i don't really care
+if liverpool beat man united or norwich city be ipswich not really but i
+love like the effort and the graphs and i love sitting with the pundits i love the way that
+rio ferdinand and steven gerrard watch a game of football i love how they turn up looking smart or they bring their own food in little
+plastic containers still or the day that i first met lewis hamilton and he walked in the room and he like
+took off his watch and he didn't just chuck his watch on the side he got it and he closed up the clasp
+and he put it down and he moved it and he goes bracelet off and he went
+[Music] i just looked at i thought ah that desire for perfection that elite mindset
+mentality i said to them that's what i want i want to speak to elite performers and elite thinkers
+because i think that everyone can benefit from that everyone can think and operate and perform better because
+there's no tricks there's no secrets like you just need to have the passion and go out and do it
+and they said well then that's what you should do a podcast so that was it right great i'm doing a podcast and then i mentioned it to a couple of
+people and they went why you can't do a podcast i was like why because everyone does podcasts like there's literally so many
+podcasts you can't you're not gonna make a splash there's thousands of podcasts and then i rang an old friend of mine
+from children's bbc and she is i don't really even ever told her this but she's the reason i do the podcast
+fern cotton who does happy place i said hey i think i'm doing a podcast now she is
+such a nice person she is not the sort of person to go oh hold on a rival podcast yeah she'd never even
+consider she would oh my god you'd be great at doing a podcast like she spoke about what it was about
+and i said but my issue is i just think that like there's loads of them out there and then she was the one that said look
+we worked together at children's bbc yeah television had been invented for 50 years there must have been
+hundreds of channels thousands of programmes did you think i'm not going to work in telly because there's already loads of tv programs no course you
+didn't you just thought well i'm gonna work in telly and make my mark she said you need to do exactly the same thing with your podcast
+um so the first thing you is you have to do your podcast you have to go out and do it but the second and that's the biggest
+challenge though isn't it starting it's just in every facet of life yeah entrepreneurs contact me and i'm like the biggest risk you face
+of all the things that might yeah i think you can do a podcast risk-free though you know you can spend a very minimal sum of money if any money at all
+on on the equipment 100 but then you can you can so cheap yeah no you could start
+you could do a great podcast in terms of sound quality with less than 100 pounds yeah the risk
+though is overthinking it to the point of procrastination to the point of select
+paralyzing yourself i think in all facets of life business my dm's are full of people that are like
+steve i want to start a business i have an idea i want to start a podcast or this project but there's just this one problem which
+is preventing me starting and i always say the biggest risk of the success of your business the number one thing that's going to stop
+you becoming a billionaire honestly is the probability that you'll just never start and also
+that you'll think you need all of the answers to all of the questions you have before you start yeah well i don't know this i don't have the
+funding i don't like when i started my business i was 18 didn't know the word entrepreneur no money went on google and typed in
+like how to build a website spent three months googling it but that was me starting you know um and i think it's the same
+with podcasting i'm like my first episode was dog [ __ ] i was downstairs inside
+what is it when telly would say the first is the worst you know that's the way it is that's the way it has to be but the point is
+you got going you started and i think you need to begin and then you need to be consistent and
+you need to keep going and don't expect instant success and instant gratification but i think the other thing for it like i get a lot of
+i get a lot of people sending me letters saying i want to be on the television
+and i always reply in the positive because i always say well someone has to be doing my job
+in 20 years time when i'm 62 i will not be presenting the premier league on bt sport i just won't be someone has to be could
+be you why not make it you make the decision now that it's going to be you that's the next well-known sports tv broadcaster and
+then i remind them that when i started out in 1998 99 to be on the telly to be a
+broadcaster you actually needed a job that was not very easy to go and get now
+you can pick up your phone and you're a broadcaster you can have a youtube channel you can have an instagram handle
+you can have a twitter page you can have a podcast as long as you've got a passion because
+you then funnel everything into that passion and everything feeds everything else so the instagram handle points people towards
+the podcast the podcast is fantastic so people go and watch the podcast that you've recorded on
+youtube and then you start to build an audience there and you make a little bit of money and it slowly starts to build
+be consistent but have the passion have the thing that's different like i will get maybe 10 times a week hi jake
+um i just wonder whether you would come and be on our podcast we just want to talk about you know your journey and how
+you got to where you are now it'd be really great to have a chat and you roll your eyes and it's like man you've got to be better than that
+everyone can go and have a conversation about your journey and the highs and the lows and the struggles
+what's the niche what's the team yeah so tell me anything tell me what someone would have to say to you that has
+basically no listeners or is starting out that would make you go on their podcast because like passion would be absolutely
+definitely about their passion and i have done plenty of podcast interviews in the last year where there hasn't been a big audience
+but i've really loved the fact that the person has come to me known a lot about me and said i really
+want to explore this particular area with you i think just the broad brush stroke of can we just talk about your inspiration and
+talk about your upbringing and talk about how you first got into broadcasting yeah let's like i'm a bit like this now
+and everything i do like even when i'm broadcasting i'm not interested in canon united win the league i am much more interested
+in um looking at one of the players marcus rashford for example and having a really proper
+deep conversation with paul scholes and rio ferdinand like explain to me how hard it is for him to
+concentrate on football when he's got so many people criticizing him on social media for doing the school
+dinners or how difficult is it for him to run out of old trafford and really
+perform at a high level when he hasn't got 80 000 people how much of a difference does it really make to have the crowd at
+old trafford they're inspiring you and driving you on like that is a much much more of an interesting
+conversation for me because it feels much more real yeah than just the general stuff so that would be my advice to people is
+make it really specific make it really passion based and there's that big about like having
+How to contact high performance people
+you want them to show evidence that they've done their research on you so because listen people send emails invite you
+onto a podcast or dms whatever but most of our lives um and the success of our lives
+as least as i can recount it in my journey has been predicated on me knowing how to ask someone for something
+that they really didn't have a huge clear incentive to give me yeah asking in the right way so we're not just
+talking about inviting jake onto podcasts here we're talking about how you ask for something how you knock on a door that uh you know
+maybe is a bit above you at that point i think that often you get a lot of respect there
+just for asking the question and i think i think the other thing is for people to remember when they're in our position
+you've been in that position as well like you have been there and don't expect them to be perfect by the way
+like everything that you now find easy about sitting here and recording this podcast once you didn't find easy
+yeah you found it a struggle that's the really important point and those people are often right at the beginning of their journey and they're
+finding their way and why can't you give them 10 minutes even if you can't go on their podcast stephen why can't you just go do you
+know what just give me your number i'll give you 10 minutes 10 minutes of your day is nothing could change your entire life
+so there's a lot of people asking for 10 minutes this is the problem and if you add it up there's then we don't have much time left for anything else and i i sometimes think to myself
+if i gave all of these people 10 minutes i wouldn't be the type of person that they'd be asking for you can't do stuff you don't have time
+to do but you probably can do 10 minutes once in a while a couple of times a day yeah
+the thing that annoys me a couple of times with the dm's the night once in a while yeah once a couple times a day yeah
+anyway yeah do you know i'm doing it anyway for like i told you about my friend that called me with a problem like so i give him 20 minutes to solve
+the problem with him i'm doing that all day every day and my employees all at social change now that i've left contacted me more than
+i think they did it when i was there asking me how to solve problems with each other with the company what
+should we be doing so yeah i still feel like i'm mentoring a lot of people don't always look for like the
+instant value and stuff no i know that when someone rings you and goes um stephen i know i'm a social
+chain and i know i wasn't very high up the chain at social chain but and i know you've left i [ __ ] love
+what you did a couple of quick questions right yeah you might look at it and go do you know what i remember that person i just
+haven't got the time i've got to get in the gym right let's say you did yeah what you've done is you've seen the value to you
+in that moment of giving them 10 minutes of your time what about if that person then goes on and thinks
+wow i've been so impressed by what i've done at social channel i'm going to set up my own business i'm going to do this and suddenly the snowball effect comes
+and then in a couple of years time you get the phone call steve and i'd love you to be on the advisory board of this business i set up because i actually set
+it up because you gave me a bit of inspiration a few years ago there's the value you never see it's invisible if you don't give them the few
+minutes at that time i call it hand it out man invisible pr yeah you never see it in the moment you never
+see the impact it's having but when it matters the most it will show up so for example the guy told you about from man vs food
+we have a huge food channel and we're looking for hosts for this food channel that would potentially get paid a ton of money
+and in that one moment he will never see he saw the value giving you 10 seconds in that moment and then with
+no value yeah but but now he's clearly going to be excluded from the process of deciding who hosts the food channel yeah just because of that
+10 seconds he'll never know because it's invisible pr um but what i see what does make me annoyed is i'll get messages from
+someone and i'll say steve i swear to god i got this message i screenshotted and said it's my friends because it
+it's synonymous of the wrong approach steve um i'd love to know uh how you did what you
+did i've produced thousands of videos podcasts interviews
+blogs on how i did what i did there's actually a video called like how i built a 200 million company or whatever
+and for me when someone says that i think you don't actually want to know because
+if you really wanted to know you would have put that into google yeah or you would have put more effort in you're being super lazy and then i said
+to the guy i saw it you're not fine got the video where i explained how i didn't i did what i did and i sent it to him he goes uh you know
+you should write a book i
+maybe he just doesn't yet know what he doesn't know and if you showed him these these little
+bits in 10 years time he'd be embarrassed and maybe if you looked at some of the early interactions you had with people
+you'd be embarrassed about what you i know i would some of the emails i sent i've i so i have a really old hotmail account
+that i've had literally since the beginning of time and i don't use it anymore but sometimes it's quite cathartic for me to go back into that hotmail account
+zoop back to the very beginning we're talking about emails i was sitting in 2001. and i'm surprised man i get my tone
+wrong and i'm a bit bulshy and i'm a bit pushy and i think this doesn't sound or
+seem like me maybe i just think benefit of the doubt man always benefit of the doubt and i'm not
+saying you need to bust your balls and spend two days giving this person a private seminar but definitely do i mean i think it's
+great you replied and just reply go listen here's all the stuff that i've done but when he replies and says
+you should write a book a he's giving you a compliment b he might be a bit nervous you know the
+problem is so there's thousands and thousands of people like this on a weekly basis yeah so my
+my decision as to who to help or to who to engage with is based on the message they send
+and if someone says some people would message me go so um so what is social change come on like if
+you just googled it yeah if you if you clicked on the word in my bio there's a description of exactly what it
+is but people will still and for me that's laziness because if i like i can't think
+of a point in my life where if i wanted to know whether i was 16 or 26 whether if i
+wanted a piece of information i would have just my my attempt at getting it would have just been to
+message the person you know the public figure whatever you say so uh how did you uh win that uh formula one
+championship lewis i would have at least tried you know what i mean do you think there's an issue here with um
+like with a social media now there's a complete lack of formality so like when you and i were growing up and we wanted
+to run a business that someone had set up and sold for hundreds of millions you literally could not get to that person
+unless it was a real graft to get there so by the time you did manage to get an email address for some ceo of some big
+business it had been such a journey you weren't going to lose the opportunity or waste the opportunity
+because it had taken you two or three months just to get to the point of being able to send something part of the issue now is the people who
+want information from you literally this is how long it takes steven bartlett
+direct message h-i-s-t-e-v hi steven um can i know about your
+business right that's taken me 30 seconds that's how long it is so that's why
+the quality of effort is so low because because they're just used to it that's how we now communicate with each other but then the other thing
+is 20 years ago when you were trying to get hold of a ceo of a big business
+there was quite a good filtration process so that by the time you got the email address of that guy or that woman at the top of that
+business it was a journey you would have had 20 knockbacks 10 or 15 setbacks blah blah blah blah blah
+so actually the person that got those email addresses were the grafters man and the ones that were
+finding the route and finding the path and it shows though that the most important thing one of the
+2020 growth hacks for your career is knowing how to ask yeah because everyone everyone has now
+got the email or the dm but there's a real art in knowing what to say when you're in there
+i know that people like you are getting a lot of messages every day all of the same quality but that's great
+because it's easy to stand out if you want to say a good thing if you send me a voice note that jumps
+up in the queue if if the voice note is um well researched as you say jumps up in the
+queue further if you're asking here's the thing for me it's like if you're asking me for something and you're making some attempt to
+acknowledge the fact that um that you know i don't have a lot
+of time that also jumps up in the queue because i think you this person's a little bit more you know savvy and it's being more realistic um but yeah it
+makes a huge difference coral yeah i want to talk about this so
+What are you working on?
+i eyewear brand i received these lovely um sunglasses in the post and as i said to you before
+we got on out i'd usually look a little bit weird in sunglasses but this pair of sunglasses and i'm not just saying this
+and i actually said this behind your back as well so this is how you know it's legit right um i actually think i look quite cool
+you do look good yeah and i would never wear sunglasses like this normally because i couldn't find
+the right shape yeah tell me all about coral and and what this is this is your first sort of significant investment yeah it's the first time i've ever
+invested in a business really obviously whisper group is different because i was a founder and we set that up together
+um but i've wanted for a long time to do what i can to help people who are perhaps in a
+position where i can have some influence on their lives so about a year ago i set up a scholarship
+with the uea the university of east anglia in norwich it's pretty simple when people apply for
+the film and tv course they're means tested so they have to fill in a form so we can find out their
+family income and if the family income is below a certain level i will pay five grand a year every year
+that they're at university so 15 grand over the time of their course to make it affordable for them to go to
+uni so it's literally my way of finding people who wouldn't get a chance in the tv industry it's similar to the ethos we
+have at whisper like we want to lift up people that are underrepresented and i think there's amazing tv talent out
+there and they literally will never get the opportunity to have a tv career purely for financial means and that
+really makes me sad so i set that up and then i had this great relationship with the uea and they introduced me to a
+young guy called george bailey and he's a 19 year old student he's 20 now at the uea
+and he had this idea for recycled eyewear and it is literally taking fishing that's out of the sea
+taking plastic out of landfill and turning them into eyewear and ice and i said you know what george
+like that's a really good idea i really like it but it will be everywhere already because it's so
+simple because when we sort of run through the numbers there's something like nine million pairs of eyewear sold in the uk every
+year almost all of them virgin plastic covered in lacquer full of glue full of
+metal bad for the environment not doing any good for the planet at all
+so i sort of heard what he said and thought this would be happening already and i was actually in london for a meeting with my agent in west london i
+thought the perfect place for recycled sustainable eyewear brand is west london so i went into all of the high street
+eyewear places that you could possibly imagine you know david klullo and um sunglasses
+hut and all of these others on oxford street and bond street i was in that area and i said the same thing every time i walked in hi
+can i see your range of recycled eyewear blank faces can i see your green range
+your sustainable range the same nothing response and i was straight on the phone to george i said
+listen we need to make this happen we really need to make this happen and we're not the only brand in the world
+making eyewear from recycled material but we're the only brand who have gone
+and got our own eyewear designer so it's original designs handmade in a factory in italy we then
+offset all the carbons when that gets delivered to you there's not been a single hit on the planet from the carbon and
+the plastic has been taken out of the world to create those the lenses are infinitely recycled and
+we have a system where you send the lenses or the whole eyewear back to us and we can recycle them so it all goes again
+so the phrase i use is planet positive it's not just like not putting pollution into the planet it's actively removing
+plastic and turning it into something that you would otherwise have gone and purchased um and look we're a startup we're small
+it'll be a slog and it'll be a battle but i wouldn't have got involved like everything else i've been talking to you about if i
+didn't passionately believe that those are the answer none of us go shopping now
+without a plastic bag in our hand already or a reusable tote bag or whatever but none of us think twice before we go
+and buy a pair of sunglasses and coral i wear i want to be the answer the case there that's made from plastic
+oh this case or this case yeah that's recycled plastic the cloth inside recycled plastic you'd never know would
+you no even one of the things that really struck me as well is how high quality it all feels like it feels super luxury like the
+the case and then well that's the thing we want we also didn't want people to think yeah i want to sort of help the environment but i'll have to look a bit
+rubbish we actually want people to think i can still buy a really nice high-end high-quality bit
+of eyewear you got a little note there from george yeah what's he said on this says hey there thank you so much for choosing coral and our vision to make
+the eyewear industry kinder to our planet smiley face george that's super nice
+yeah no i i was you know i was i was nervous because when friends send me things and then he probably sometimes i don't say yeah and i'm i'm
+known for being really honest with my friends um and saying oh i don't really like this about it or whatever because i just think the truth sets you
+free and that's what people really value as you said earlier it's like the the critique is often um more valuable at certain stages than
+just total praise one word you said earlier that i has become incredibly important in my
+The importance of consistency
+mindset these days is the word consistency yeah um maybe from meeting exceptional guests
+maybe just from understanding the root cause of my own accomplishments but um i you know i used to think that
+intensity was was the answer but if you look at all of the success that i've had whether it's getting a million followers
+on instagram or social channel whatever it was it was that word and i never really appreciated the importance of
+that word up until recent i think when i was writing my book what have you learned about consistency i've learned
+exactly as you have that consistency is the root of all good stuff because if you find
+something that works for you you have to do it consistently like i used to say consistently relentless
+i regret the use of the word relentless a little bit now i i do think you have to be relentless but i now change it to you have to be
+consistently happily relentless and if you can be consistently
+happily relentless i don't think you will go far wrong because you'll be doing a passion project which
+is what makes you happy you will be consistently doing things and consistency is absolutely key for people to understand what you're
+about and let's be totally frank we can sit here and be fluffy and friendly and say oh you know let's not
+push people too hard in the modern world because it might cause issues and whatever you do have to be relentless
+for success but it's okay to be relentless if you're being relentless and you're happy being relentless
+so try in 2021 to be consistently happily relentless and let's see where
+we all are in 12 months time i have one more question for you it's probably a question people don't really
+Addressing the gender imbalance
+talk about in the podcasting game but um we have struggled at times to get
+women to come on the podcast yep um for a variety of different reasons
+men seem much more willing than women have you found the same thing yeah we have yeah it's
+interesting you should say that yeah we have i don't think that we have found women
+not willing to come on the podcast i think it's only when you start doing a podcast about
+relentless high achievement that you realize how dominated by men
+the tops of our industries are yeah that's the problem and i you know we keep on saying right who should we get on as really great
+inspirational female leaders and all the suggestions people keep making to us are in the sports space i keep saying no not sports women
+because we are totally i am totally plugged into the fact that i want to celebrate
+brilliant successful females you know i have a daughter and i want her to listen to this podcast in years to come
+when she's old enough and go that's who i want to be that's what i want to be inspired by and i think that sometimes we like to
+trick ourselves into thinking oh no we live in a really equal society now what are you talking about there's loads of powerful females at the top of
+businesses when you break it down we are still in a male dominated society
+and it's a good reminder that we need to keep on lifting up female role models and pushing them to
+the absolute top and we are on the high performance podcast we are totally aware of that um and we will
+continue to do what we can because actually when we get brilliant female leaders on
+there and we just recorded with joe malone um who set up the amazing joe malone brand she now runs
+joe loves we've recorded with holly tucker who was fantastic dame kelly holmes who was really inspirational and moving steph horton is
+going to be on the series in the not too distant future we've had brilliant female
+leaders on our pod but it is still a challenge compared to the amount of
+male leaders lining up going i'll definitely come on there and talk and there is something else that maybe
+we need to address in the next 12 months black women at the top of business mate
+where are they why what is happening that is not allowing them to shine as they should
+and that's one thing and i just say one thing that really is pissing me off massively at the moment is when people talk about the
+over-representation of black and mixed-race or female role models in society
+and they say oh everywhere you turn now you know that's all this and i drive this home to the whole time i say listen you've got this completely wrong
+the reason why we now have to promote and push and celebrate and shout about black men and black women
+and women in general and underrepresented areas of society is that if you are a
+little kid growing up in norwich or manchester or birmingham or
+los angeles you have to see those people there to believe that you can get there as well
+there's no good saying oh yeah they'll eventually make it through we have to show them now that you can no matter who you are no
+matter what the color of your skin no matter what your gender no matter what your background no matter how affluent you are
+you can get there and that's why we have to push them to the forefront now to inspire the next generation because
+once they're there they'll stay there and it'll be a much better more equal society for everyone we've both got a big responsibility yeah
+with our platforms yeah and it and we should we absolutely should listen thank you for your time no one
+was incredibly busy it's always nice to sit down yeah thanks for lunch no it's always
+fascinating and i i you know you're discovering um incredible stories through your own podcast high performance and
+it's uh it's really powerful to kind of compare notes sometimes with with people uh
+because yeah my one of the things i've learned from doing the podcast which i'm sure you have as well is that the themes that have made people
+successful and giving them that high performance mindset are actually quite consistent yeah yeah yeah i think when i
+started my podcast i was expecting to find 50 different ways you know to become
+successful but it all seems to be distillable down to these simple themes like you know consistency and discipline and
+passion and then for me anyway much of the root cause of that consistency or that obsession with
+that passion has come from often in many circumstances something that might not have gone
+right yeah on the playground or some insecurity they had or something their dad or mum said to them
+um and that for me is fascinating but yeah thank you again for your time it's pleasure and um it just reminded me that we're all on a
+journey right and i said to harriet when i was coming on here today i said oh i'm going back on diary of a ceo with steven
+and she said again what are you going to talk about because you only went on there a few months ago and you know when i now sit here and
+talk to you i'm a different person to the one that you spoke with before i began doing my podcast before i began doing my
+stuff with coral airway even in the last year i feel like i'm sitting here as a different person
+and i didn't realize that you could learn and change and develop and adapt quite so much quite so late so man look
+joe biden took him until he was 77 until he nailed it as the president you know sometimes you have to wait a
+long time in life for your dream job or your dream opportunity what has changed since we last spoke for you in terms of who you are just a much
+deeper understanding of how other people operate i hadn't
+i've spent my life hadn't like on my own journey me as a presenter me learning me setting up a business
+what am i gonna do the high performance podcast was the first time i'd ever sat down and just said from the outside this is
+what i think you're doing can you just explain it please what a growth period it's been for me personally
+absolutely unbelievable and therapy at the same time right yeah it's therapeutic absolutely um
+[Music]
+foreign
 
 ----------
 
 -----
+
 --06-- 
 
 -----
