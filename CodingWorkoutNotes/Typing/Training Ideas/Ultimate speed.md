@@ -11,4 +11,5 @@ This notes is the ideas worth check to make incredible increase of speed
 10. Use music to make speed increasing. Especially if you know well the song even use speed up can improve effects. (association with OSU! comes to mind)
 11. Type make music rhythm - listen type sound in headphones from MonkeyType
 12. Play game where you type lirycs of songs - but this need some level os speed already. [Page link](https://lingoclip.com/?ref=https%3A%2F%2Flyricstraining.com%2Fja)
-13. .
+13. Look at the word and next write it without looking, then the next word. It's easier version of remember the line. When this is mastered, try 2 words, 3 words and so on. 
+14. 

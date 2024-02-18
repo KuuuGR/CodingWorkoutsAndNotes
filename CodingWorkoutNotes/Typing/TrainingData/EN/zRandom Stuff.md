@@ -72,7 +72,8 @@
 70. [# Actually, ChatGPT is INCREDIBLY Useful (15 Surprising Examples)](https://www.youtube.com/watch?v=zIWqTJu9HaA)
 71. [# The LEAKED GPT-4 system prompt is Insane!](https://www.youtube.com/watch?v=70tZ43aa5J4)
 72. [# Zuck: "Meta AGI will be OPEN-SOURCE!" (I was wrong about Meta)](https://www.youtube.com/watch?v=hVStWmSYr4E)
-73. 
+73. [# Who Is Emanne Beasha? What Really Happened To Emanne Beasha From America Got Talent?](https://www.youtube.com/watch?v=GZTzJiI6nkI)
+74. 
 
 
 
@@ -377,14 +378,186 @@ paste here
 ----------
 
 -----
+
 --74--
 
 -----
-Date:
-Link:
+Date: 2024.02.16
+Link: [# Newest Chinese GPUs vs NVIDIA: Unpacking 3 Critical Problems](https://www.youtube.com/watch?v=GDPNDOSZWQM)
+
+Notes:
+### Summary of the Content
+
+Researchers from Georgia Tech and Tianjin University have developed a new semiconductor technology using graphene, which could significantly enhance computer chip performance. This breakthrough aims at overcoming the physical limits faced by silicon-based chips, offering a potential to build chips that run much faster, are more efficient in heat dissipation, and could spark a new era in electronics. The research focuses on overcoming the challenges of further scaling down transistor technology by exploring three-dimensional structures and new materials like graphene, despite its lack of a natural band gap, through innovative manufacturing processes.
+
+### Advantages
+
+- **Faster Performance:** New technology could allow computer chips to run orders of magnitude faster.
+- **Heat Dissipation:** Improved thermal management, crucial as devices become smaller and more densely packed.
+- **High Electron Mobility:** Offers 10 times higher electron mobility than silicon, allowing for quicker data processing.
+- **Manufacturability:** Compatible with conventional manufacturing processes, making it economically viable.
+- **Scalability:** Successfully fabricated in large quantities on silicon carbide wafers, defect-free.
+
+### Drawbacks
+
+- **Graphene's Zero Band Gap:** Initially, graphene's lack of a natural band gap posed a significant challenge, as it couldn't be used directly as a semiconductor.
+- **Technical Challenges:** Numerous technical hurdles remain before mass production can be achieved.
+- **Integration with Existing Technology:** Efforts are needed to integrate new technology with traditional silicon or silicon carbide technology effectively.
+
+### Tips and Advice
+
+- **Continued Research:** Emphasizes the importance of ongoing research in finding viable alternatives to silicon and improving semiconductor materials.
+- **Industry Collaboration:** Collaboration between academia and industry is crucial for bringing laboratory innovations to market.
+
+### Lecture Content
+
+- **Semiconductor Physics:** The importance of band gap in semiconductors and how it affects transistor functionality.
+- **Innovative Manufacturing and Doping Techniques:** How researchers introduced a band gap in graphene, creating semiconducting epigraphene (SEG).
+
+### Main Challenges
+
+- **Scaling Down Technology:** Overcoming physical limits to fit more transistors into a single die.
+- **Heat Dissipation:** Addressing the heat dissipation challenge, especially in vertically stacked devices.
+- **Material Limitations:** Finding materials that offer better performance and heat dissipation than silicon.
+
+### The Importance and Usefulness of the Topic
+
+- **Electronics Revolution:** This breakthrough could revolutionize the electronics industry, paving the way for faster, more efficient devices.
+- **Future Technologies:** Sets the stage for advancements in computing, potentially impacting various sectors, including AI, healthcare, and energy.
+
+### Accomplishments
+
+- Developed a new semiconductor material that promises significantly faster and more efficient computer chips.
+- Successfully introduced a band gap into graphene, making it a viable semiconductor material.
+- Fabricated the new graphene-based chips in large quantities, defect-free.
+
+### Interesting Quotes or Insightful Sentences
+
+- "This could really spark a new era in electronics."
+- "In my humble opinion, the most important invention in the history of humanity."
+- "If we can figure out the graphene-based chips, this will be huge."
+
+This summary encapsulates the groundbreaking nature of the research, its potential benefits, and the challenges that lie ahead, highlighting the transformative impact it could have on the electronics industry and beyond.
+
 Transcription:
 
-paste here
+the semiconductor technology is at my heart but  also at the heart of the economic competition  
+between the US and China which has led to several  restrictions on China's ability to access this  
+critical technology and there are two major  parts to this. first restrictions on the most  
+critical semiconductor manufacturing equipment  produced by companies like ASML, LAM research,  
+KLA and others and the second part is directly  affecting the sales of advanced AI chips to  
+China these restrictions are clearly stimulating  domestic developments in China. As a chip designer  
+I'm purely interested in specs and facts so  today let's dive into the most advanced AI chips  
+from China that are according to some specs even  better than Nvidia GPUs. let me explain. before  
+the US restriction took effect the NVIDIA share  of Chinese AI Market was over 90% but now as we  
+will see many other companies are trying to get a  slice of this pie including companies like Huawei  
+Alibaba and meta X and many startups like Biren  inflame Hygen and many others they are doing okay  
+so far but there are three main challenges that  all of these companies are facing related to the  
+design manufacturing and the software stack for  these new Chips. let's start with the first one  
+designing chips without a doubt they can get the  brightest minds to design chips however no one  
+is drawing circuits by hand anymore like it was  many decades ago it's just not possible to Place  
+and Route 200 million transistors in a square  millimeter by hand for the last decades we've  
+been using electronic design automation tools or  so-called EDA tools for this. these tools run a  
+lot of math in the background to find the perfect  spot for each transistor or better to say for  
+each logic cell in a chip in order to achieve  the best metrics in terms of power consumption  
+speed and area and these tools are an absolute  work of art so smart so quick and so capable  
+so far all the Chinese companies and startups are  using Synopsis and Cadence tools and Synopsis and  
+Cadence are American companies they are already  under some partial restrictions related to the  
+gate all around technology which are mostly  sub three nanometer designs yet it doesn't stop  
+Chinese companies from using these tools for  Designing let's say seven and five nanometer  
+chips however Huawei started to develop their  own in-house EDA software and right now they're  
+running a pilot version of it and reportedly this  pilot version can handle chip layouts down to 14  
+nanometers I guess it's just a matter of time  until Huawei can fully switch to their in-house  
+designed EDA software we will talk about some  very promising startups later on but currently  
+the most competitive AI GPU in China is Huawei  910b GPU it's an analog of nvidia's A100 GPU and  
+fabricated by SMIC or some call this company  SMIC in 7 nm domestically from the officially  
+available specs this GPU is capable of 512 Tera  flops at 8bit Precision yet if we compare it to  
+Nvidia H20 GPU which is the best chip Nvidia can  sell on Chinese market right now it's capable of  
+296 teraflops at 8bit Precision again according to  its official specifications so in theory 910b is  
+more powerful than Nvidia H20 GPU and it's closer  to the performance of a 100 GPU however all these  
+official specs are provided at 1 GHz clock and as  we know the clock speeds can be changed easily so  
+here I personally still B on the performance  of Nvidia GPUs let me know what you think in  
+the comments the 9910 GPU is definitely in high  demand in China many Chinese hyperscalers have  
+placed orders for it which Huawei is trying to  fulfill BYU recently bought hundreds of servers  
+containing new Huawei GPU they've already received  them and ramping them up for LLM training and  
+what's more Alibaba and Tencent are lining up too  and fulfilling this demand is a big challenge for  
+SMIC both Huawei and Kirin mobile chip fabricated  at the same SMIC fab which has limited capacity  
+of about 25 to 30,000 Wafers a month which can  be roughly very roughly translated into about  
+10 Millions GPUs a year and it's pretty clear  that right now it's a very unique moment for  
+Huawei to step into AI Hardware game and they  are reportedly prizing the fabrication of AI  
+GPUs over fabrication of their mobile chips  which go into the mate 60 phones it's worth  
+mentioning that Huawei chip is in 7 nanometers  and TSMC fabricating a 7 nanometer chip with  
+very high yield using EU machines from ASML that  SMIC has no access to instead they're equipped  
+with some older immersion deep ultraviolet  machines DUV machines from ASML still they  
+are able to fabricate 7 nm and 5 nm chips with  these tools using multi-pattering techniques I  
+won't go too much into the details about this  process in this video because I've previously  
+made one about half a year ago explaining exactly  how they manage it and you can check it out right  
+after this video the fact is it's working just at  a bit lower yield which makes this fabrication or  
+cost per die more expensive so to keep up with  the demand SMIC is now opening new fabs and I  
+believe that with time and substantial Investments  which they are getting they will be able to solve  
+the manufacturing bottleneck and even if they  won't be able to go beyond 5 nanometers due  
+to the limitations of DUV machines they are in  parallel to this investigating other lithography  
+techniques one of them concerning in the use of  particle accelerators instead of EUV machines  
+you say impossible I don't think so by the way of  comparison the EUV technology is also very complex  
+and it was considered Impossible by many and it  took ASML at least a decade to make it work let me  
+know what you think in the comments unfortunately  I happen to know that about 60% of you watching  
+this video are not subscribers if you've ever  enjoyed my videos could you consider subscribing  
+to the channel the bigger the channel gets the  bigger the guests that I can interview for you  
+get thank you for China to be self-sufficient in  the manufacturing of AI chips they need to figure  
+out the fabrication of high bandwidth memory  as we discussed in my previous videos memory  
+bandwidth is one of the biggest bottlenecks of  GPU performance China has no high band memory  
+production at the moment but as it was rumoured  already last year CXMT memory technology was  
+buying some older memory manufacturing equipment  from Applied Materials and LAM research and right  
+now it's already ramping up its production it's  genuinely agreed that Huawei has already some  
+quite decent AI GPUs but it's not only about  designing a GPU and then manufacturing it you  
+also have to build a software stack for it to make  use of its architecture or to take advantage of  
+its architecture and efficiently distribute the  workloads and that's actually one of the keys  
+that made Nvidia a leader in AI Hardware one of  the key factors that enabled Nvidia to shift from  
+a gaming to AI giant was the development of their  software stack Cuda at the same time they've also  
+heavily invested in the developing hardware for  deep learning like their tenser course and by  
+optimizing the whole stack Nvidia has developed  more efficient processing of deep learning  
+algorithms and now with the Boom in generative  AI Nvidia is benefiting from their long-term  
+strategy and this is another challenge for Chinese  companies and startups because building a software  
+stack from scratch for a new piece of Hardware  is a big deal some Chinese companies like MetaX  
+trying to make their hardware to work with Nvidia  CA platform just making it compatible others are  
+investing in developing of their own software  stack like Huawei and Chinese startup Biren has  
+struggled with this too you might be surprised why  I haven't started this video with Biren because  
+Biren was considered one of the most competitive  GPUs in China they've successfully raised several  
+massive rounds of funding from Top investers and  in August 2022 they presented their new BR 100  
+GPU and I remember them at Hot Chip conference  where they were presenting it right after Tesla  
+introduced their dodo supercomputer Bern's BR 100  GPU was built on TSMC 7 nanometers and they're  
+using TSMC's Advanced Packaging Technology called  chip on wafer on substrate packaging and they used  
+to this packaging because it allows to integrate  multiple dies and memory in one package and that's  
+at the core of this chip which is if you look into  it resembles a lot Nvidia GPUs architecture but  
+the problem with this packaging that at the  moment there is no manufacturer in China who  
+can do CoWoS packaging anyway Biren was doing  great overall its single chip performance was  
+reaching p flops levels which is comparable to  the latest Nvidia gpus until tsmc suspended the  
+manufacturing of beer and gpus due to the expert  regulations and so now they might have to change  
+or pivoted a little bit in the design to be able  to fit to domestic manufacturing offerings still  
+they continue to raise money and have just raised  another round of $280 million I will be keeping an  
+eye on them more threats is another Chinese  company that has been developing gaming and  
+data centers gpus for a couple of years now their  latest GPU s 4000 is designed for AI acceleration  
+in data centers it is capable of 200 tops at 8bit  precision and 100 teraflops at 16bit Precision so  
+it isn't super fast however it's already been  used for training of large language models  
+they've built a cluster out of 1,000 gpus and  used it to train a 70 billion parameter model  
+in one month we don't know much more about this  GPU apart of that they also used to be clients  
+of tsmc now they won't have any choice obviously  they will have to switch to smic technology which  
+is already overbooked as you see Nvidia has no  shortage of competition in China there are many  
+startups who are pitching their Hardware to the  company even before they have a prototype ready  
+like the state-backed Hygen technology which is  marketing its new GPU Shensuan 2 and there is  
+one big advantage that this chip is reportedly  compatible to NVIDIAs CUDA platform which means  
+that Nvidia customers can easily switch them  with minimal design changes then just last  
+month the startup called Intelifusion announced  its Deepedge10 Chip and the Company claims that  
+this chip is compatible to nvidia's H20 GPU but  again I found no specs it definitely looks like  
+there is no lack of cheap designs and cheap  designers in China but the problem is that the  
+most of the advanced packaging and Manufacturing  capabilities in China are likely to be prioritized  
+for Huawei so these startups will have to think  twice about where they will manufacture their new  
+Chips having in mind everything we discussed  today the whole picture I'm pretty sure that  
+in 5 years they will have managed to figure out  the manufacturing process you know they already  
+training AI models similar to GPT-4 GPT-4.5  and pretty soon they might be able to do it on  
+their own domestically designed and manufactured  hardware and this will be a huge win for China and  
+if you want to support me creating more videos for  you you can do so through Patreon you can find all  
+the links in the description to this video thank  you so much and I will see you very soo. Ciao!
 
 ----------
 
@@ -392,11 +565,139 @@ paste here
 --73--
 
 -----
-Date:
-Link:
+Date: 2023.07.06
+Link: [# Who Is Emanne Beasha? What Really Happened To Emanne Beasha From America Got Talent?](https://www.youtube.com/watch?v=GZTzJiI6nkI)
 Transcription:
 
-paste here
+what's your name Iman Iman I'm from
+Northport Florida right on yeah and how
+old are you I'm 10. you're 10. uh yeah
+I'm here with my parents and my brothers
+and your brothers are you the only girl
+in your family yeah oh and what do your
+parents do well my dad owns an ice cream
+factory
+is a talented young singer who gained
+widespread recognition after her
+captivating performances on season 14 of
+America's Got Talent in 2019. she
+possesses an extraordinary vocal range
+and a powerful voice that belies her age
+[Music]
+during her time on America's Got Talent
+she was just 10 years old and still
+managed to impress both the judges and
+the audience with her exceptional Talent
+delivering breathtaking Renditions of
+Ness and Dormer which is an aria from
+the Final Act of Giacomo pux in his
+Opera to add it
+[Music]
+[Applause]
+[Applause]
+foreign
+[Applause]
+she performed the stunning rendition of
+Lucio Dallas Crusoe well act not only
+and perleno's golden buzzer but also
+distinguished her as the only individual
+act to receive the buzzer across various
+editions of the global Got Talent
+franchise
+the group zakuro had also won it twice
+[Applause]
+[Music]
+[Music]
+[Music]
+she then continued her incredible
+performances and advanced to the
+deserved final spot bisha did not win
+the competition but it opened doors to
+numerous opportunities for her but this
+wasn't her first appearance in Got
+Talent series
+she appeared in season five of Arab Got
+Talent in 2017 when she was just eight
+years old
+[Applause]
+[Music]
+[Applause]
+and even won the whole competition
+to honor her remarkable victory bisha
+was bestowed with the prestigious King
+Abdullah medal of Merit by King Abdullah
+second himself during the Independence
+Day festivities at rabidon Palace on May
+25
+2017. with that Iman made history as the
+youngest recipient ever to receive this
+esteemed medal
+foreign
+[Music]
+remember hitting the golden buzzer
+now let's get to know little about her
+emman bisha was born on September 18
+2008 in Amman and comes from a diverse
+background with a Jordanian father of
+circassian Heritage and an American
+mother
+our parents first recognized her
+extraordinary Talent at the age of two
+[Music]
+and when she reached six years old she
+started her Opera Journey currently she
+resides in Florida and is being
+homeschooled this brings us to the
+question of what is she doing now well
+she has continued to pursue her passion
+for singing and has been actively
+performing and engaging with her growing
+fan base
+[Music]
+good
+[Music]
+additionally two years prior in late
+2021 she had the opportunity to
+participate in the Arab Fashion Week and
+mesmerized the crowd with her
+performances adding to her
+accomplishments in January of 2022 she
+had the honor of performing at the MLK
+commemorative service paying tribute to
+the legendary civil rights leader
+[Music]
+[Applause]
+[Music]
+recognizing how impact and influence a
+man was appointed as the first ever
+youth Ambassador for Feed the Children
+in 2020 further highlighting her
+dedication to making a positive
+difference
+she has been awarded the esteemed Global
+child prodigy 2020 award solidifying her
+position as a rising star
+[Music]
+she has also headlined the prestigious
+night of a Million Dreams Gala
+dedicating her talent to supporting
+Florida children
+as a singer she has released three
+impressive singles so far and we can
+expect more from her in the future
+if you are looking for her cover or
+other singing videos then you should
+check out her YouTube channel which has
+over 81k subscribers as of now
+yes
+and if you want to be up to date on her
+activities you can also follow her
+Instagram account or visit her website
+for a glimpse into her current endeavors
+despite being so young she has already
+achieved incredible Feats and she is
+likely to grow even more
+no
 
 ----------
 
