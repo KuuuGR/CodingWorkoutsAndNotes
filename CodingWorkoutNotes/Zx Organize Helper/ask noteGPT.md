@@ -5,6 +5,11 @@
 
 📌 Based on the video transcription provide,  several (as much as you can) ANKI flashcards in the form of question-answer.
 
+
+-------
+➜ maybe you point also some interesting facts
+
+
 -----
 
 1. make notes with contains Advantages, Drawbacks of using,  Tips and Advices from this video transcription

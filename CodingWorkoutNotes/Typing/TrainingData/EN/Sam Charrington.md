@@ -914,7 +914,7 @@ paste here
 ----------
 
 -----
---23--
+--23-- [The TWIML AI Podcast with Sam Charrington](https://www.youtube.com/@twimlai/videos)
 
 -----
 Date:
@@ -1049,35 +1049,1627 @@ paste here
 --12--
 
 -----
-Date:
-Link:
+Date: 2017.03.01
+Link: [# Reprogramming the Human Genome with AI, w/ Brendan Frey - #12](https://www.youtube.com/watch?v=R5vDx5o9rzo)
 Transcription:
 
-paste here
+
+Introduction
+[Music]
+hello and welcome to another episode of thermal talk the podcast where I
+interview interesting people doing interesting things in machine learning and artificial intelligence
+I'm your host Sam Carrington in earlier episodes of the podcast we've talked
+about some of the many implications of machine learning and AI in healthcare but we've not yet had an opportunity to
+dive deeply into this application area well that changes now I'm excited to
+share with you a really interesting conversation I had with Brendon Frye professor of engineering and medicine at
+the University of Toronto and co-founder and CEO of the startup deep genomics
+you're going to love this show and learn a ton I met Brendan at the rework deep
+learning summit in San Francisco a few weeks ago and I expect to share with you a few other conversations from that
+conference over the next few weeks one of the questions I'm often asked is
+which AI events are worth going to well there are a ton of them nowadays and it
+can be difficult to separate the good from the bad so what I'll be doing regularly here on the podcast is sharing
+some of the events on my radar I'll be sharing them on the twimble website as well for March I'm planning to be at a
+bunch of events in the Bay Area the week of the sixth I'll be at AI by the bay
+which looks to be a really interesting technical conference and next the Google
+cloud developer conference the following week obvious strata Hadoop world which
+is a great event for machine learning and analytics discussions with a particular emphasis on data engineering
+and infrastructure and then the week of the 20th I'm attending another couple of
+events by rework this time their machine intelligence and autonomous vehicle summits what I'm most excited about
+however and I'll only share this brief teaser now is an event I'm organizing called the future of data
+summit which will take place in Las Vegas in May stay tuned I'll share all
+the details on a future podcast going back to the strata Hadoop conference for a sec you may remember that we partnered
+with O'Reilly last year to offer a free ticket to their AI and strata conferences to lucky to mln AI listeners
+well we're at it again we've partnered with the good folks at O'Reilly to bring you another
+opportunity to win a free ticket to strata Hadoop world in San Jose California joint will and thousands of
+innovative leaders and practitioners at strata Hadoop world to develop new skills share best practices and discover
+how tools and technologies are evolving to meet new challenges one lucky listener will win a pass but everyone
+can save 20% on registration with discount code PC twibell that's PC Twi
+ml to enter visit our brand new Facebook page at facebook.com slash twimble ai
+where you'll find full details of course I'll link to the Facebook page in the
+show notes which will be posted at twill Malaya com slash talks last 12 since the
+conference is coming up quickly you'll only have until March 3rd to enter winners will be notified shortly
+thereafter and announced on the next podcast one more quick note before we jump into the interview towards the end
+of my chat with Brendan I mentioned a sci-fi series that I like but I blank on the title well the series is called the
+xenogenesis trilogy and it's by Octavia Butler it's also been re-released as
+Lilith's brood so you may see that as well in any case I'll post a link to the
+books in the show notes and now on to the show [Music]
+so hello everyone I've got Brendan Frye on the line with me Brendan and I met recently at the
+Welcome Brendan Frey
+rework deep learning summit in San Francisco where he delivered a really really great
+presentation called reprogramming the human genome Yai is needed Brendan was
+kind enough to agree to discuss his presentation and work in the field here on the podcast so welcome Brendan hi Sam
+thanks for having me on the show I'm really excited about this conversation
+you know we've talked about deep learning and machine learning AI in
+general and healthcare several times on the show not in a lot of detail but just
+covering the news and there's been a lot of advancement in this area one of the
+things that we talked about was Beth Israel Deaconess did the work with
+applying deep learning to breast cancer detection google deepmind is active in
+applying deep learning to eye disease and when I think about examples like the
+ones that I've tended to see they are often they also fit into the pattern of
+hey we've got a bunch of image data we know deep learning is great for helping us kind of find patterns and image data
+let's apply deep learning algorithms to see if we can you know either augment or
+replace you know the medical technicians that are you know finding tumors and
+things like that but when I heard and thought about the your presentation and
+the way you walk through what you guys are doing it struck me that and let me
+know if this is fair but it struck me that you guys are applying or trying to
+apply deep learning at a much more fundamental level like looking at the you know interactions between proteins
+and things like that that create disease and that's not that strikes me is just
+super exciting and that's why I wanted to really get have this conversation yeah so you know maybe to get things
+How did you get into genomics
+started and you didn't start your research career in genomics how did you find your way into the field yeah so in the 1990s
+I was machine learning researcher I did my PhD with geoff hinton and we were
+looking at image data and and speech and text as well we published one of the first papers on deep learning in 1995
+which which appeared in science and so really it was those were good days just discovering new algorithms and trying
+them out but we didn't have big datasets and we didn't have fast computers and so so that was really a big bottleneck of
+course that's completely changed now but around 2002 by that time I was a
+professor around 2002 my wife and I at the time discovered that the baby she
+was carrying had a genetic problem we went and saw genetic counselor and and
+had to deal with very difficult news it was the feedback was there could be it could be nothing or could be a really
+big problem so that was a really difficult experience emotionally to go
+through that and and really changed change my focus in terms of in terms of what I was doing as a researcher and I
+decided to to stop working on on vision and speech recognition and text analysis
+and really focus and sit on the human genome and figuring out how to how to connect what's going on in people's DNA
+to to their health and also how to how to figure out how to treat treat disease
+and so it was my assessment of what you guys are doing relative to some of the
+What is your approach
+examples I provided is that fair how do you think out the the approach you're taking yeah yeah that's that's accurate
+so the a lot of other players in the field are essentially leveraging their previous experience on on the image
+analysis to to then look at medical images our approach is very very different we're starting with the genome
+as the input and the genome is just a long string of letters a C G and T 3 billion of them from your mom and three
+billion from your dad and the challenge there is really to to figure out that
+what the language is so so first of all the the language in the genome is not understood and how how words are put
+together to to lead to to life essentially is not well understood
+and so reverse engineering how the genome works is a big challenge and then of course once that's done figuring out
+how you can manipulate the genome what you can do to to fix diseases is the second challenge so yeah I've been
+working on that for about 13 years and applying machine learning techniques to crack that problem and in your talk you
+Statistics
+presented some pretty staggering statistics I think it was that the
+lifetime risk for genetic related disease is something on the order of 65
+percent and eight million births per year with serious genetic disorders yeah
+that's right it's a big problem and you know we've we've been able to sequence
+the genome and now we can sequence individual genomes for about $1,000 and in a few years it should cost less than
+a trip to the grocery store to have your genome sequence and so we can read the text of your genome but the tragic truth
+is that we are not currently able to accurately figure out what's wrong with you if you have a particular mutation
+let alone figure out how to fix it and so there's really a big gap I called out the genotype-phenotype gap there's a big
+gap between our ability to read the text of the genome and then make sense of it and an act on it and so those statistics
+you gave like eight million births per year with a serious genetic disorder that's if it's kind of horrendous when
+you think we can sequence their genomes we can find the mutations but we don't really have the ability currently to
+figure out what's going wrong and that's what we're working on so both in my research lab and now at the genomics we're figuring out how to how to
+understand those mutations or what their implications are so you know I'd like to
+Biology
+I'd like to understand all this better and I'd like the audience to understand
+all this better you know what's the way how can you give us kind of a you know
+push us off the deep end perhaps in the biology and genomics how you know how biology works and what are
+the various issues and implications so that we can talk to have a conversation about this yeah sure so a common pattern
+in the field right now is if people get a lot of data and then they kind of say well let's just throw in a big bucket
+and give it to machine learning researchers know all at all yeah and I think that's a
+really bad approach how so our approach is very much a systems approach and that
+we try to understand biology we we bring to bear very carefully all biological knowledge that we can that we can
+ascertain and then we build our machine learning systems to mimic that biology and so for example DNA is replicated
+when a cell divides DNA is replicated so that's an important process the way DNA
+is used within a cell is DNA is transcribed into RNA molecules RNA
+molecules are chopped up and put back together again in a process called splicing the spliced RNA molecules then
+they are translated into proteins and then the proteins go off and do things in the cell and one of the things the
+proteins do is they bind to DNA so the proteins interact with DNA and they actually interact with DNA in a way that
+controls transcription the proteins also interact with RNA in a way that controls splicing and similarly processes of
+translation and so and so you can think of biology is these multiple layers of processing complex interactions highly
+nonlinear and really the phenotype that we see whether it's maybe cancer or a
+neurological disorder is something that's gone wrong within one of these processes and so and so that's a brief
+summary of what's actually going on in the biology so in between the DNA and your phenotype multi multiple layers of
+complex biological processes that are nonlinear and combinatorial and and so
+what we do is we build machine learning models for each of these processes so right now in the biology community
+there's just an explosion of datasets profiling what's going on with themselves essentially allowing
+scientists here right inside of cells and measure the single molecule level what's going on and so there's a rapid
+growth of datasets in the last few years and it's going exponentially and what we do is we use those those massive
+datasets to train models to mimic these cellular processes and like to give you
+an idea the kinds of datasets looking at we have trillions of data points that we used to travel oh wow so
+Computational Biology
+for any given one of these interactions you know before we even start talking
+about the computational side of things just as a community of biologists how
+well do we understand what's you know really happening in the end of processes
+and when we have a data set that we're looking at yeah well that's that's one of the things that we spend a lot of time on
+here at the genomics is basically taking known biology and then figuring out what
+kinds of data we have that allow us to better model that known biology and then
+also try to account for unknown biology as well which is one of the nice things that machine learning offers people in
+the past have tried literally writing down programs computer programs to try to simulate what's going on in a cell
+and the sending podcast those yeah you might guess that kind of approach breaks pretty easily first of all we don't know
+all the rules second of all quantities in the cell or real value they're not they're not binary and logical and so that approach
+doesn't really work that well people have also tried to write down stochastic differential equations describing the
+concentrations of molecules in the cell another work for small small sort of very simple contained systems where
+there aren't many molecules that kind of approach can work but it won't work for for living cells there's just too many
+different molecules and the processes are too complex so the approach that we take is the machine learning approach we
+can measure different data sets for these different molecules and then we train machine learning techniques to mimic the relationships between those
+data sets that then emerge due to these biological processes is there some characterization for how many
+relationships there are well we have a road map we have a technology roadmap at
+deep genomics which lists all the different modules that we're trying to account for and we have a couple dozen
+described in our roadmap but the number is much larger than that and growing
+every year as well but having said that it's sort of a notion of diminishing
+returns you can get quite a bit out of just modeling one or two processes for example
+mentioned splicing where we're an RNA molecule was chopped up and then glued back together again and that process
+depends on words essentially in the RNA molecule sequence so RNA like DNA is a
+sequence of letters and the machinery inside of the cell recognizes little patterns of letters or words and those
+words tell the machinery how to cut up the arms as letters those letters
+What is RNA
+represent proteins so the sequence of words is a sequence of proteins in the
+RNA or DNA that right oh there's two kinds of words in there okay yeah so so one kind of word and the
+RNA molecule is a sequence of letters does encode a protein so it corresponds to amino acids but make the protein but
+there are other words in the RNA that are more like control commands so it's kind of like in a computer you have
+print statements and then you have control logic right right the preak statements are like proteins but what's
+even more important than the print statements is the control logic itself because that's that's what it creates the system that's responsive to its
+environment and that can do different things otherwise we just keep printing the same thing over and over okay and so
+the the ability of the system to respond to different circumstances and and be
+dynamic is really crucial on that and that's achieved with these control statements if you like that are also
+embedded within the RNA sequence so so we have a system that was trained to to
+mimic this process of splicing and just to give you an example one of the leading causes of infant mortality in
+North America is spinal muscular atrophy and there's a mutation in the DNA that
+leads to this disease and and a mutation is in the RNA molecule as well and it
+causes this process of splicing to go wrong it leads to - normally a certain
+chunk of RNA is included in in the Croteam that makes up a certain gene called SMN smn1 or smn2 and if there's a
+mutation then that chunk is left out and that leads to the disease usually those
+infants die within the first year of birth recently at therapy was was was
+given FDA approval and what's interesting about that therapy is that it doesn't target that particular
+mutation it actually modifies another part of the RNA molecule which goes to
+show you the importance of combinatoric right this is not the biology is not something where there's a correlative
+effect or there's a particular mutation you just need to fix that Mon mutation quite often you need to change something
+else in order to fix the problem that's occurring in the genome and so how I'm
+What causes a disease
+just thinking about the the scale of this system and the interactions you
+mentioned a you know on the order of a dozen molecules or sorry modules for a
+given disease is it typically only one
+direct cause or they're all often you know combinations of things happening in these different subsystems that is what
+causes the disease to spring forth yeah that's a good question and one thing
+I've learned about biology is almost anything goes and so there's sort of the what's called the central dogma biology
+which is very simple and but then you realize that a lot more complicated things can happen so yeah in the context
+of diseases there's there diseases called Mendelian disorders which are you
+can think of them as just a single mutation if you like in one gene and a very simple relatively relatively simple
+mechanism still hard to find those still hard to figure out how to how to treat those diseases but but relatively simple
+in the sense it's just one mutation or one gene but at the other end of the spectrum is a much more complicated
+situation where you have many different mechanisms or many different causes that
+combine together to result in the in the disorder or the disease so a couple
+examples there would be diabetes or autism spectrum disorder and so if you take autism spectrum disorder as an
+example the phenotype isn't even simply described if the whole range of phenotypes really and also the when you
+when you look at the heritability of the disorder you find out that it can't just be pinned down to a single
+mean as many different genes and even within those genes it's not just a mutation in a particular location as a
+wide range of different genetic variability different mutations at different places within that gene and so
+the kinds of systems our building can be used for both situations so we can pin down the single mutation is causing a
+disease and we can also use their systems to understand the complex combination mutations but that is
+involved in a disease okay let me take a maybe a little bit of a tangent there
+What is CRISPR
+were a couple of technologies that you mentioned in your presentation that I wanted to hear a little bit about the
+first is one that I've heard quite a bit about recently but haven't really had a chance to dive into it and that is
+CRISPR it sounds like well tell us about CRISPR what is that and what are the
+implications of it yeah so CRISPR cap 9 it's a what's commonly referred to as a
+gene editing system and it's a fairly straightforward idea you basically
+program if you like a template into the into the system so it's a group of
+proteins effectively and other molecules and you essentially program a template into those and then in living cells you
+you insert these these molecules of system and then the template will find
+us match within the within the DNA and then once it's found a match the system
+will then edit the DNA according to your specification so it was different in the different ways that can happen it could
+it could be as simple as the template finds a match and then it sticks there or it could be that the template finds a
+match and then and then the DNA is actually edited so it's changed and
+that's that's basically an example of gene editing which CRISPR casts nine is one instance and so how does that play
+Problems with gene editing
+into the kinds of work that you're doing in your lab and a company yeah so there
+are a couple problems with with gene editing systems and one of them is off target effects and so and so the
+template might not be perfectly specific which means the the system might bind to the DNA in
+two different places and edit the DNA in two different places and so one of the places the correct one maybe there's a
+mutation you're trying to fix to address some sort of a disease what happens is the system will also bind somewhere else
+to some other region of the DNA and then edit the DNA there and that could actually lead to a problem and so and
+that's called an off target effect the other one is that suppose the other problem with these kinds of systems that
+suppose there's a particular mutation that you're trying to correct trying to fix it may be that the sequence
+surrounding that mutation is just not good in terms of designing a template so
+you can't actually design a template in your crisper cast mine system that will that will work properly in terms of
+finding that mutation and then correcting the mutation those a couple different problems with these gene
+editing systems another problem is delivery I just have to do with the fact that the machinery you need to get
+inside of the cell it involves several different molecules and each of those
+molecules has different properties in terms of in terms of whether or not it can successfully be be delivered into
+the cell and so there's several different issues with gene editing systems and there's a few different ways
+in which our technology that we develop a deep genomics can be helpful so one of them is because we we have these machine
+learning systems that can mimic biological processes one biological process is this template matching so how
+well the template matches the DNA that's actually a biochemical process that occurs within the cell so our systems
+can identify off target effects and predict predict what might happen the
+other example is when you can't actually edit a particular mutation so the
+mutation of the patient has and you'd like to fix it you can't actually edit that mutation because the you can't
+design an appropriate template so then what do you do well one idea is maybe
+you can edit some other region of the DNA and somehow there will be some sort of compensatory effect but in order to
+do that you actually need a model you need a system that can mimic how that DNA is going to be processed because you
+can't you can't just fix mutation you need to introduce a mutation somewhere else that is going to
+correct the problem introduced by the first mutation so for example the first
+mutation disease mutation may cause a problem with splicing and what you'd like to do is introduce a mutation
+somewhere else that will reverse that problem with splicing all right and again that happened that again that that
+requires that you have some sort of a model for how the cell is going to process that piece of DNA to control
+splicing and that's the kind of model we build okay so you guys the work that you're doing can improve these genome
+editing systems and at the same time the work that you're doing around diseases
+the genome editing system is one way that this work would eventually be
+deployed if you will I wouldn't've into practice that's right at this point in
+time indeed genomics we have not developed any products to address that particular therapeutic approach the gene
+editing system approach but it is a research endeavor at this point mm-hmm and so why have I heard so much about
+CRISPR you know maybe not this year but towards the tail end of last year is it just that it was yeah new or were there
+new research results or is it better faster cheaper like what's the big deal
+with all critters yeah yeah it's the leading to all sorts of breakthroughs in terms of research so the ability of
+genome biologists to conduct different experiments different screens fabulous
+tool for research and in terms of medicine is a lot of promise there are some issues that need to be worked out
+but those are being looked at and I think it's very likely that it will it
+will prove to be a useful therapeutic technique under some circumstances in any case and so the other question that
+Cheaper genome sequencing
+I had in terms is just the context in which you're doing your work is you
+mentioned then you mentioned this in early in our conversation now is the
+increasing drive towards cheaper and cheaper sequencing and at the
+deep-learning summit you mentioned some new technology that you were expecting to drive the cost down to as little as
+twenty dollars within the neck year or so what can you give me a kind
+of a quick summary of the activity there yeah yeah sure there's just as I
+mentioned before this rapidly growing diverse array of different bio technologies that allow us to measure
+what's going on inside of cells and genome sequencing is of course an important one it's the one that kind of
+gives us the software if you like for the basic source code of the person or the cell and yeah there's technologies
+like the Oxford nanopore technologies and other companies have similar technologies which will which will allow
+cheaper sequent much cheaper sequencing genome sequencing but that's not the only technologies helpful there's other
+kinds of methods that allow you to for example look inside of DNA and see which genes are being transcribed and measure
+how quickly they're being transcribed as a transcription rate of the gene
+techniques that allow us to measure quantitatively how much protein is being produced and where the protein is being
+located within the cell by the by the molecules that the shuttle proteins around so there's a lot of different
+kinds of bio technologies being developed that allow us to essentially look inside of cells and measure what's going on okay so lots of stuff going on
+Machine learning and deep learning
+you know maybe let's I've kind of been just trying to satisfy some curiosities I've had about the biological side of
+this but maybe let's kind of bring the conversation to machine learning and deep learning and maybe let's start by
+talking through you know prior to the work that you and others are doing to apply deep learning
+it sounds like machine learning is traditional machine learning linear regression and things like that were
+applied to these types of problems well how was talk about the kind of the
+standard to date approach sure yeah you know and I should emphasize that deep
+snow mechs the word deep is is referring not just to deep learning but also these deep layers of biological processes that
+get stacked upon one another mmm that relate the image of the phenotype and really that's what's most crucial and as
+you might guess for each one of these modules the first thing we do is try a linear it's a simplest technique quite often
+the best technique when you have a lot of data it does it does help to to look at more sophisticated methods and so
+deep learning is a big part of what we do at deep genomics ok yeah so really in
+in biology two approaches have been taken unsupervised learning and supervised learning and so wait way back
+in the late 1990s people trained hidden Markov models on on DNA sequences and
+those hidden Markov models were able to learn patterns that indicate the starts of genes and the ends of genes and the
+locations of exons within the genes the exons where those parts of the genes that actually there like the print
+statements they're the parts of the genes that tell you what the protein content is okay oh yeah that was back in
+the late 1990s researchers were training hidden Markov models to tomorrow gene
+structure and can you give us a 30,000 foot view into what a hidden Markov model is oh yeah sure so a hidden Markov
+Hidden Markov models
+model is like a machine and course simulated inside of the computer that
+has several different state and the the mode can switch back and forth between
+different states and so for example it might be in the promoters so the
+structure of a gene is there's a promoter there's an exon and then there's an intron and there's an exon an
+intron and that's just alternates until the end of the gene there's a couple other parts to the gene but for
+simplicity that's just best to say those are the components of the gene so the hidden market model would start off in
+the promoter state and then it was switched to the exon state and then back to the intron state and then back to the
+back and forth right mm-hmm and so that's so that's a hidden Markov model
+it has a finite set of states and then there's a model for how the probability
+distribution that describes how them all switches between states so for example if you're in the promoter states and
+there's a high probability that you'll switch to the exon state if you're in the x1 state the high probability switch
+to the intron state if you're maint in the intron state high probability switch to the exon state and so on okay
+so it's the probabilistic model it just allows this machine to switch and forth between the different states
+and then for each of the states part of the hidden Markov model is also a description of what the data will look
+like in that state and so for example when there's a transition from the exxon
+state to the interim state the hidden Markov model also has a component or
+probability distribution over what the DNA symbols will look like at that transition point and and so if you run
+the hidden Markov model just just simulate it which means let it flip back and forth between these different states
+and for each state let it generate some of the DNA sequence if you're on the hidden Markov model you'll end up with a
+synthetic if you like a synthetic gene sequence okay and the way the hidden Markov models trained is to make the
+synthetic gene sequence the output of the hidden Markov model match the real data as best as possible until in the
+late 1990s researchers train these hidden Markov models using actual examples of DNA sequences and these
+models were able to automatically learn what the structure of a DNA sequence looks like so they were able to learn
+that there's a promoter with an exon and an intron and that there's alternation
+between these exons and introns so that's one example that's unsupervised learning and there are lots of other
+examples of how unsupervised learning has been used in genome biology ranging
+from as I said modeling DNA to to actually just visualizations of
+dimensionality reduction taking taking for example expression gene expression
+measurements which would be say 20 mm gene expression measurements and compressing them down to a three
+dimensional or a two dimensional representation for visualization so though a whole wide range of different
+uses of unsupervised learning and then the other the other process been taking the supervised learning where you're
+actually trying to solve a very specific task and probably the one of the earliest uses of supervised learning in
+the context of genetic medicine of what was called the genome-wide Association study and in the genome-wide Association
+study what you do is you measure for each patient a what's called the
+genotype which is just a measure of of a verizon clothes mutations might be
+measured using a microarray people might have heard of the name snip array and snip sensor single nucleotide
+polymorphism and that's just a location within your DNA which could have a
+mutation in it and so these snip arrays would measures say five hundred thousand different possible mutations in your in
+your DNA another way you might measure genotype is whole genome sequencing so you've literally read out the three
+billion letters or if you have if you can do it for both your paternal and maternal DNA you have six six billion
+letters and so what however you however you go about measuring this genotype you
+can essentially think of it as a vector so it's going to be a sequence of [Music]
+letters AC G and T so for a 500 nucleotide array or 500 letters para
+front for a 500,000 degree side snip arrayed have 500,000 letters and then
+you can imagine encoding that vector as a binary vector so the letters a C G and
+T you can encode it using one hot encoding so a is 1 0 0 0 right C should
+be 0 1 0 0 different ways of doing that or what's often done is what you do is you compare to compare the person's
+genetics to the reference genome and so then you represent whether or not they have a mutation there compared to the
+reference genome something like that so so basically though you represent the person's genetics is a big long vector
+of zeros and 1 and then we choose is use linear regression to try to predict the
+phenotype so you've got a whole bunch of patients with cancer and a whole bunch of patients without cancer and and then
+you just try to predict the whether or not they have cancer using linear regression that's what a genome-wide
+Association study is so it's probably the simplest and and one of the original uses of machine learning in genomic
+medicine ok and what are the challenges associated with that approach well if
+Challenges
+you think about it what that approach is essentially assuming is that your phenotype is a linear function of your Jin
+headaches exactly maybe or not and and
+so you know we already talked about these complex non-linear biological processes that relate your genetics to
+your phenotype and we know from experience that this relationship is not linear and so it's a it's an assumption
+that has been used successfully to find mutations that are involved in disease
+but it doesn't really accurately mimic the biological process and so there are
+a few consequences of that of that limitation and and one of them is that the at the genome the genome-wide
+Association study is not guaranteed to find the colville mutation okay and so it may actually find a mutation that is
+enriched for example that is common in patients with with cancer but it's not
+guaranteed to be the mutation that actually caused the disease and that's a big problem if you're trying to find a
+drug or a therapy to treat the disease because that mutation would be the wrong one now there are there techniques
+called fine mapping where you we look for nearby mutations and try to try to
+couple up those mutations with the one you found in the genome-wide Association study and that that fine mapping
+approach has been used to to find the the causal mutation the one that should
+be treated with the drug but it's still limited and doesn't doesn't solve all
+the problems and I guess there are a few different other issues and one of them
+one of them is the amount of data that's required and so because of the way the
+genome-wide Association study works if you think about it there's three billion letters in the genomes rebilling
+possible places it could be a mutation and preach of those locations you're going to try to use that location to
+predict whether or not the person is cancer and then compare it against the experimental data so there's really three billion different places you can
+look and the problem is if you don't have much data just by random chance one
+of those locations is going to match up with the with the phenotype that is just even if the DNA is just noise even here
+just generate a whole bunch of noise patterns you do that for your cases and your controls just by chance one of the
+locations one of the positions in the genome you're going to get a good agreement between that me Asian and whether or not the person has
+so-called cancer even though it's just noise it's meaningless and so and so I'm
+going to get a lot of false positive that's right large number false positive okay and the
+only way to get rid of that in a genome-wide Association studies collect more and more data and and that's the
+way you get rid of those false positives but the problem there meaning you're not addressing you try and adjust it to kind
+Deep Learning
+of brute force statistics as opposed to a better technique that's right that's
+right you're just trying to get so much data the overwhelm the the fact that you have involved with what's really going
+on well so the approach we take which is this deep learning approach allows us to build models that take us from the DNA
+to these intermediate molecular phenotypes are so variable if you like variable representing things like
+transcription and splicing and those intermediate biological processes are
+really what's crucial for disease and so by modeling those explicitly we can take
+those big sequence of three billing letters and user machine learning technique to map it down to a much
+smaller space that represents what's really going on inside of the cell and then we can relate that much smaller and
+more compact representation with the phenotype whether the person is cancer or not okay and so it strikes me then
+that basically what you guys are doing is feature engineering for this
+particular type of system is that a fair way to think about it it's a it to some
+degree yes it's a I would say instead of feature engineering its biological
+engineering and the Chocolate word ten we're choosing we're choosing because these features that we're looking at are fairly complex
+and high-level right um and and also it certainly doesn't do what you're doing
+Feature Engineering
+justice but if you think about you've got all this raw data that doesn't really Express or kind of model the
+underlying phenomena and you guys are creating these meta models if you will
+that does based on the raw data it's kind of feature engineering ish yeah you
+will be the thing is we do have data for these intermediate variables so for example got it okay yeah
+one of the one of the ways you might think of it as feature engineering is we actually model where a protein will bind
+to the DNA right so so protein binding to DNA is a very important biological
+process and understanding how a mutation disrupts that is really important for understanding disease you might sort of
+say well what we've done is we've designed features that describe how the protein is binding to the DNA but the
+way we actually account for that is we obtain training data for where the
+protein bound so we've got a data set of DNA sequences and whether or not the protein bound to that DNA sequence and
+then we train a model for that so if you like each of these features is actually a machine learning system and so that's
+where that's where it's quite different from traditional feature engineering where you actually hand code the features so we don't we don't really
+handle the features we obtain training sets and then we train them all to extract the features ok yeah but it is
+you know it is it does have that you know that sort of confidential structure to it and we do there is this notion
+where each of these features is validated we do carefully validate each of these we call them a bio module 3 we
+validate each bio module to make sure that it's really accounting for that particular biological mechanism the
+other way you can think about this actually is multi path multi task training and so in deep neural networks
+one of the techniques that works really well is it's called multi task training that's where you you train your system
+to solve multiple tasks at the same time okay so you might have you might have a very simple example might be a input as
+an image and your training it to to classify animals and at the same time
+you're also training it to classify some other some other kind of objects and the
+idea is that they what it learns about those two for example faces so maybe trying to cross classify faces and
+you're also trying to classify animals under some components to those two different problems that are that are shared value for example the detection
+of body parts or the detection of eyes something like that and so by training
+the systems with all these two different tasks at once that can learn sub components that can learn intermediate
+variables if you like that are useful for the two different tasks and so you can also think about what we're doing
+that way we have this these very deep multi-layer architectures and they're trained to predict genotype but they're
+also trained to predict protein binding they're also trained to predict splicing they're also trained to predict transcription and these different
+processes that are going on within the cell and by training them jointly to solve these different tasks they get
+better at solving any one of them and in particular they can get better at detecting disease and also predicting
+the effects of therapy are the different modules how do I ask this question or
+Modules
+they'd if you think about this is a if the model that we're talking about here is in a deep neural network are the
+different modules expressed explicitly as layers meaning like the network
+architecture or does the training process kind of cause the modules to be
+expressed in the layers does that question make sense yeah yeah no it does it's a good question you're sort of asking what's the mapping between the
+layers of biology and the layers of our machine learning systems yes yeah so so
+we have two separate Maps if you like two separate networks if you like one network represents the biological
+processes and for each if you like for each node and each arrow in that network
+we train a deep learning system and so and so the biological network of ten layers deep and each layer is modeled by
+a deep learning system with ten layers and there's an overall depth of a hundred that's one way you can think
+about it and so because the system is trained in a modular fashion we can focus in on each component to the
+biological network and then train a deep neural network to model that component
+and sometimes sometimes use a shallow Network sometimes linear regression is sufficient so the complexity of each of
+those biological modules in terms of machine learning is carefully selected
+using the traditional machine learning types of techniques cross-validation and and perturbation analysis and methods
+like that and does it ever make sense to then training these models as a stopped
+Ensemble approach
+neural network to think of it more as like an ensemble approach where your modules are more separate and you're
+training them independently and then you've got some discriminator network you know it's sort of the overall idea
+that each of these modules does have a place within the biological system but
+having said that we do we do sometimes run into situations where there are fairly different ways we can conceive of
+building each module just like in traditional machine learning you might have different types of you might use a
+random forest in one case in a neural network and then you'd like to combine the outputs and see what happens that
+sort of thing happens for forgiving biological module and I conceive of different ways we can build the machine learning system you know process and
+then combine the outputs the the other the other interesting aspects of this is the sort of end to end training that's
+once we put the system together then we can fine-tune it to make the overall
+system perform better so even though each module is initially built using a
+machine learning system could be a deep neural network independently of the other modules once we put them together
+we can adjust all the modules so they work better together okay in your presentation you had a slide where you
+Inductive vs transductive learning
+were talking about kind of applying you know what you were doing and applying AI to these types of problems and you spent
+quite a bit of time talking about inductive learning versus transductive learning and how that seems to be you
+know something that's overlooked in practice can you recap that for us yeah
+there's a big focus right now just on collecting data and I think not enough attention is being paid to analyzing the
+data when it comes to genomic medicine and so there are a lot of private and
+public efforts to just collect data you know the big genome projects the 100000
+genome project the way the way success is measured is in the number of genomes as opposed to the information that's
+being extracted right and and so I think more attention needs to be paid and
+analyzed the data now if you look at a genome-wide Association study where it's this idea of correlating mutations with
+the output that's what I would call is more more of a transductive reasoning approach where basically you're just
+comparing you're comparing your mutation to the training data and then trying to
+make a sort of a winner-take-all or taking a voting approach trying to make a prediction for that mutation mm-hm
+now I that's one type of machine learning a different kind of inductive
+learning an inductive learning what you do is you take your training data and then you build a machine learning model of what's going on and then you apply
+that model to the test cases so you apply the model in the future and the
+advantage of inductive learning is if generalization so for inductive learning
+you can learn in sort of a in one way to view it as you're learning the rules of
+what relates the input to the output you're learning more general patterns and this allows you to to take that
+learning and apply it to completely new circumstances and so for example if there's a completely new mutation that's
+never been seen before if you use inductive learning you might hope that your machine learning model can still
+figure out what's going to happen without new mutation in contrast the transductive learning approach if
+there's a new mutation has never been seen before the transductive learning approach can't do anything and so that's
+- for genome-wide Association studies for example if there's a mutation in a patient that it doesn't exist in the
+training set then the genome-wide Association study can say nothing about that mutation whereas with the inductive
+machine learning approach you might hope that it could take the system particular look at that mutation and say oh this
+mutation is going to cause something to go wrong with splicing and that's going
+to lead to the disease and actually that's what we find with our systems so the systems we've trained a deep genomics were able to analyze mutations
+that have never been seen before that don't exist in any database okay okay oh that's huge
+yeah I'm really exciting actually so maybe let's let's dig into the data
+Data landscape
+aspect of this a bit in order to do what you're doing I'm imagining
+your benefit you're benefiting pretty significantly by you new datasets coming
+online all the time like how is that landscape change and what are some of the types of data that you're looking at
+yeah it's one of the most exciting areas right now is biotechnology just the the
+number of different kinds of datasets is growing very rapidly in the sizes of those datasets so 10 years ago we were
+looking at small datasets consisting of a few thousand examples and now deep
+genomics we look at datasets with billions of examples so we're the amount of data has just grown very very rapidly
+and it's going to continue to grow there are publicly available datasets so these are publicly funded research
+efforts from university labs and so there's plenty of publicly available
+data and then is also different kinds of proprietary data data coming from patient populations or data that we
+generate within deep genomics to to study particular aspects of biochemistry and sort of fine-tune or model if you
+like and then in terms of the in terms of what the data is telling us as I
+mentioned before it's these datasets are measuring all sorts of things that are going on with themselves so it's giving
+us more and more accurate resolution higher and higher resolution in terms of
+pinpointing different processes going on with themselves and relationships between those processes so I really do
+think that in five to ten years because of this massive growth and data if we combine machine learning techniques with
+all these data sets we're going to be able to produce models of these cellular processes they're quite accurate and
+reliable hmm I took a look at one of their papers the paper that goes into
+Data sources
+the work that you're doing about around deep bind and one of the points that you brought up there was
+a difficulty of extending results that are seen with in vitro analyses to in
+vivo analyses and I'm assuming that well that's that's tied to this issue of the
+or to what degree is this tied to this issue of the data sources that you're getting being primarily in vitro and
+maybe we could talk through some of the issues there yeah yeah so so yeah
+there's different kinds of data and in vitro is data that is measured under it's in the test tube and so the state
+of this measured in the lab under very controlled conditions in vivo at the other end of the spectrum is within the
+living organism and so it's the idea that they it would reflect more accurately was actually going to happen
+in say a patient and and historically there's been a big disconnect between
+these datasets but as we sort of fill in if you like if we fill in the map of all
+the different kinds of things we can measure within the cell and we also fill in the different kinds of conditions
+under which we can measure that data and so in vitro and vivo but also different
+kinds of organisms different kinds of cell types different tissue types and as we as we measure more and more data for
+these different dimensions if you like of different conditions in which we measure the data we get a more accurate
+understanding of how different kinds of data relate to one another and so we're also building better and better models
+that are accounting for confounding factors or experimental bias or or
+example is a confounding factor in might be one oh yeah so there's different a wide range of different kinds of
+confounding factors but I'll lump them all together into one group so
+experimental bias is a big one and the experimental bias just means how your experiment was conducted you know what
+what were they very what were some of the technical details that were used to obtain the data and those things can
+have a big impact on the on the data itself actually one of the first projects I worked on in genome biology
+we we used a particular kind of unsupervised learning method to analyze
+the data we thought we discovered something really interesting and it turned out what we discovered who did the experiment on which day got
+it and so that's an experimental type of confounding factor and then there are
+confounding factors that are biological so for example if you're looking at let's take the genome-wide Association
+study approach a very very simple machine learning technique and so if you're looking at a bunch of patients
+that have a disease and a bunch of patients that don't have the disease the
+problem is that those patients are not really independent and identically drawn from some simple distribution they're
+actually related to one another in some way and so so maybe half of your cases
+are derived from a single ancestor that lives a hundred thousand years ago or something like that so that kind of
+structure in the population is going to lead to dependencies of course between these measurements and those
+dependencies can lead you astray it's a little bit like you know suppose you're to one problem of all machine learning
+researchers are familiar with is suppose you have a training data of a hundred examples and you take one of your
+examples and just replicated a million times right you do not have a training set a bonafide training set of a million
+and 99 examples uni is here yeah training data yeah just copied one of the examples a little bunch of times but
+that's an example of a confounding factor that really does arise in human genetics and is really important to to
+avoid and is the idea that your approach or a deep learning in general is has a
+AI impervious to confounding factors
+higher level of is more impervious to these types of compounding vectors yeah
+yeah that's that's right and so because we're building the system to model these different biological components we can
+factor out certain confounding factors and so as I mentioned for example our system could detect mutations that have
+never been seen before which obviously means that it's not sensitive to the -
+to the structure of the human population terms of the genetics okay but at the same time you know I
+should add that of course our systems are being trained using data that has biases because basically all the rings
+biology is highly pious right and so it's not like the problem is completely gone but yes they're more impervious
+yep awesome awesome well this is this has been fantastic maybe any closing
+Closing thoughts
+thoughts on things that guys are working on or you know what you're excited about yeah I guess the the challenges for us
+are so we have our systems are working well and we're making good progress in
+terms of addressing interesting machine learning problems as well as having an impact in medicine but I think one one
+area that's interesting to talk about is the kinds of problems that we're facing in terms of our machine learning techniques and how those relate to what
+generally the the field is looking at and and and being challenged with and
+one of those is is building systems that can explain themselves and so this is
+going to people have been talking about this quite a bit recently is how do you build or train a neural network say or
+deep learning system that in such a way that it can actually explain what's going on so we can explain why it makes
+a decision right right and you know so that's that's really important for for
+earning trust and so if we have a if we have a machine learning system that predicts that you you know woman should
+have a disease-causing mutation in the context of say breast cancer in the system recommends a double mastectomy
+then you really do want the system to be reliable and trustworthy and be able to explain you know why why it made that
+decision why I made that provided that advice and so I think that's a really
+interesting area for machine learning you know I don't have the answer to to how we do that but people are working on that area and a lot more work needs to
+be done well on that point I did do an interview with Carlos gastrin not too
+Deep Neural Networks
+long ago and our listeners might remember that one if you're interested in this issue of explained ability check
+out that interview but traditionally if you can use traditionally when talking
+about deep neural networks I guess people you know when we're looking at machine one your models
+people look to other types of models and not deep neural networks because of this
+explained ability challenge that is you know particularly acute with
+neural networks like do you see where do you see that going do you see light at
+the end of the tunnel yeah that's a good point and I actually think that that belief is completely wrong minded so
+here's the traditional argument for why you should look at simple techniques like linear regression or random forests
+or something like that uh-huh so the argument goes like this to figure
+out an explanation for why machine learning system made its prediction what you do is you should look inside of the
+machine learning system you should look at the parameters okay so linear regression is really simple because for each input there's
+only one parameter connecting it to the output and so you can just look at that parameter and if it's positive it means
+that input has a positive impact on the output and if it's negative it has a negative impact and so that's that's the
+justification for looking at simple machine learning systems right okay now this is why I think that's completely
+wrong minded if you if you turn to your friend and ask them why did you make the
+decision you just made you don't crack open their skull and look at their synapses to figure out the explanation
+okay that's not what you do and yet that's what the traditional argument is
+for why you should use simple machine learning systems you're going to look at the parameters and so therefore you need a simple system no you don't do that
+so what you do is you ask your friend to explain themselves well why did you make the decision you made so I think the
+future of machine learning is all about using complex deep neural Nets but training them in such a way that they
+actually produce an explanation at the output so we don't crack them open and look at the parameters we actually train
+the system so that the output of the neural network is an explanation as well as a decision going like that it does
+MultiOutput Neural Networks
+make sense so I'm thinking of the picture I have in my head is we talked earlier about neural networks that are
+trained to produce multiple outputs and so in this case one of the outputs is the explanation and the other output is
+the you know the thing we're asking it to make a decision so you got it that's exactly right you can think of this as a multitask
+training problem yeah we're one output the decision the other output of the explanation and so really I think that
+that's the future of machine learning in terms of explanation and there are obviously similarly challenging
+technical issues for for how we get that to work and it's not really working well yet but I think that is really where
+things where things will go in that regard and the other I guess the other observation I can make is as what what I
+find really exciting about this area deep genomics is working on is the kind of artificial intelligence we need and
+so if you look at some recent big successes like deep mines alphago or
+Google Google's results or Facebook so if you look at some of the really exciting results that have come out of
+those labs they're for things like games which humans invented or image
+recognition which humans have evolved to be good at or my each recognition which humans invented or of all and over
+evolved now these are all tasks that humans are good at whereas what I think really exciting about genomic medicine
+is that the AI systems we build need to go beyond what humans are capable of mmm
+so now a human is that ever going to be capable of understanding genome or how to cure genetic disease or no group of
+humans will right it's so complex and so combinatorial and so really what we need is superhuman AI and so now it's making
+me think of this making me think of a sci-fi book that I like black Savior Butler I forget the name of the book but
+basically there is these races aliens that come down to an earth that's been
+you know kind of ravaged by disease and this gift that these this alien race has
+is to effectively repair a genetic disorder what that has to do with AI who knows but uh you're also I mean there's
+some interesting things kind of switching the subject here there's also some interesting things happening up in Toronto right yeah yeah so you're asking
+about things happening in Toronto so I can't talk a lot about it right now within the next couple weeks there's
+going to be an announcement for a new type of artificial intelligence Institute in Toronto we have over 170
+million dollars of funding for it and ideas to to build or rebuild the the AI
+research capacity in Toronto and and ensure that we can use that capacity to
+to foster innovation in the startup community and other and other bigger
+businesses in the in the area oh yeah that's review announced in a few weeks and it should be really big big
+news for Toronto I think big news for the AI community more broadly that's fantastic we'll definitely keep our eyes
+open for that and so before we go where can people learn more about what you're up to and keep tabs on you yeah if you
+can go to WWE beyond omics com also to Google me and we have various
+papers posted online there where you can for example a tutorial paper that describes the approach and how you can
+use machine learning not just deep learning which is just different kinds of machine learning techniques to to
+approach problems in genomic medicine also well Brendon thanks so much this was an amazing conversation I really
+appreciate you taking the time out you got family with a pleasure
+[Music] alright everyone that's our show for today a huge thanks to all you listeners
+out there I appreciate all of the notes and comments that you share be as a mailing list final form the show notes
+pages via Twitter iTunes and all the other channels that you use to share your love for the podcast and don't
+forget to visit our brand new Facebook page at facebook.com slash liminal ai and give us a like and register for the
+Strada hadoop giveaway while you're there the notes for this show will be up at twill malay Icom slash talks last
+twelve and there you'll find links to all of the resources mentioned in the show thanks so much for listening and
+catch you next time
 
 ----------
 
 -----
+
 --11--
 
 -----
-Date:
-Link:
+Date: 2017.03.01
+Link: [# Building AI Products with Hilary Mason - #11](https://www.youtube.com/watch?v=To0i4gpbzy0)
 Transcription:
 
-paste here
+Introduction
+hello and welcome to another episode of
+twiddle talk the podcast where I
+interview interesting people doing
+interesting things and machine learning
+and artificial intelligence
+I'm your host Sam Charrington I want to
+start out by wishing everyone a very
+happy and very belated new year I'm
+finding it really hard to believe just
+how quickly the last few weeks of last
+year in the first few weeks of this year
+flew by needless to say I'm super pumped
+to bring you this new episode of the
+show before we get going
+I've got a bit of a holiday gift for
+some of you that's right over the last
+few weeks I've received a few requests
+from listeners who wanted to listen to
+the podcast on their favorite home
+assistants well it's taken a bit of
+doing but I'm happy to report that the
+podcast is now available on both Amazon
+Alexa and Google home check this out
+Alexa play the podcast this weekend
+machine learning you'd like to play the
+program called this week in machine
+learning right yes this week in machine
+learning and AI getting the latest
+episode here it is from tune in to
+Google play's a podcast this week in
+machine learning learning in the AI
+podcast twin will talk number 10
+francisco webber statistics versus
+semantics for natural language
+processing note that for whatever reason
+Alexa doesn't like when you ask for the
+podcast using its full name this week in
+machine learning and AI but this week in
+machine learning works fine on Google
+either works if you have any problems
+just repeat the commands that I used in
+the demo now I like to think that at
+least some of you are listening at home
+on your phone speakers and I've just
+commanded your device to play the
+podcast if that's the case enjoy it nice
+alright moving along to our program
+this time around our guest is Hilary
+Mason who I interviewed last year at the
+O'Reilly aí and strata conference in New
+York City
+I don't know that she'd refer to herself
+this way but Hilary was really one of
+the first quote-unquote famous data
+scientists I remember the first
+opportunity I had to hear her speak was
+back in 2011 at the Strange Loop
+conference in st. Louis at the time she
+was chief scientist for bitly the
+company that popularized short links on
+the web nowadays she's running fast
+forward labs which helps organizations
+accelerate their data science and
+machine intelligence capabilities
+through a variety of research and
+consulting offerings I tracked Hillary
+down at the AI conference after hearing
+from an attendee that her talk on
+practical AI product development was
+their absolute favorite session Hillary
+and I had a wonderful although somewhat
+brief chat that I'm sure you're going to
+enjoy and learn a lot from of course you
+can find this week's show notes at
+twibell AI comm slash talk slash 11 and
+now on to the show all right hey
+everyone I'm here with Hilary Mason of
+fast forward labs and we're at day two
+of the O'Reilly AI conference the first
+actual allow AR conferences we were just
+discussing that's a and Hillary gave a
+talk yesterday that I didn't get a
+chance to see but I heard great things
+about it so why don't we start by having
+you introduce yourself and then you can
+tell us what your talk was about sure so
+I'm Hilary Mason and the founder of a
+independent machine intelligence
+research company called fast forward
+labs and we look into approaches and
+algorithms that are emerging in the
+machine learning AI space but that are
+not yet widely understood and we do our
+own independent research to make them
+useful to people so we write reports
+that are a survey of the techniques from
+a technical perspective at a conceptual
+level talking about where we think it's
+going to go any ethical issues that
+might come up do a survey of the
+commercial landscape and so what vendors
+are out there what we think the
+interesting application opportunities
+are we also build working prototypes of
+these things and finally we act as
+Nicoll advisers to our clients like
+their nerd friends and help them
+actually build their and machine
+learning products more effectively
+because yeah that's what we do and
+everyone needs a nerd friend yeah I mean
+we all have that friend even you know if
+you are a nerd you have your nerd friend
+on your music nerd friends and your your
+friend who's most likely sitting in
+front of a computer at 9 p.m. yeah we
+all have those people right all right so
+you talk what was the title of your talk
+What was your talk about
+so my talk was practical AI product
+development and what I was trying to
+accomplish with this talk was that
+coming into this AI conference there's a
+lot of hype and a lot of lack of clarity
+around what it means to actually build
+an AI product what an AI product is so
+what I was trying to talk through are
+some of the challenges we've seen going
+from the idea and the algorithm going
+from the press release if you want to
+say it that way to use a product so
+being able to say we have a data set we
+have a business problem we understand
+and we have some you know we're willing
+to invest in trying to make something
+how do we actually do that and how does
+it differ from data analytics and how
+does it differ from software product
+development there's a lot of people
+today are trying to take a machine
+learning product and sort of put it into
+the software development framework and
+they tend to run into a few common
+friction points when they do that okay
+The body of your talk
+and so I suppose those friction points
+were the body of your talk yes
+so things like how agile software
+development is really optimized for
+building a product with commodity
+technology um but that isn't how you
+build a data product because you have to
+understand that maybe even if it's a
+good idea sometimes the algorithm you've
+chosen won't work and you have to make
+sure that the accuracy of the system is
+within sufficient bounds there's a lot
+of work to do around how you production
+alized and operationalize these things
+how you monitor not just that the server
+is up but that the model continues to
+return high-quality results over time is
+the context and the data changes and
+through all of those details are
+something that
+you really have to learn right now by
+doing it and we have yet to really
+standardize on a common accepted
+practice and so in my talk I was sharing
+what we've learned and what we do and
+then hoping to have conversations with
+people around what they do and what
+they're trying to do and so yes that's
+what the talk with it seems like agile
+would be perfect for this environment
+where you know things like working
+closely with your customer the end user
+of your your product you know failing
+Why Agile
+fast kind of at least the things we
+commonly think about agile there's also
+a whole software development lifecycle
+thing which may be what you're referring
+right so on the surface is absolutely a
+compatible philosophy we do everyone
+falls and be exactly because when you go
+to implement the details when you run
+into the problem when you have to say
+you know how long do I will do I think
+it's going to take me to find an
+algorithm that can produce the useful
+result and it doesn't take into account
+the machine learning process of
+developing really experimenting and
+saying that you know I might try to
+solve problem a but it turns out problem
+a is really a lot harder than I thought
+it would be but I can sell problem B
+that's also useful in this product
+context and it also doesn't deal with
+the once you have something that sort of
+works doing the simplification and
+scalability work which is just as hard
+as the initial algorithmic work but
+often gets overlooked in a you know a
+icon conference where everyone's excited
+about what shining in me okay so to me
+that says that it's not that agile
+methodologies are fundamentally you know
+ill placed in these types of problems is
+that our sensibilities for estimating
+and you know understanding the
+development process that kind of feed
+into an agile methodology are off like
+we don't have all Salama feelings right
+they agree but the the mechanisms are
+second-class citizens so you can
+allocate a spike time to
+figure out an algorithm that that's the
+hack and there's no first-class
+mechanism for this sort of
+experimentation in iteration okay okay
+Stories
+and so how did you with that being kind
+of the premise for your talk what were
+some of the things that you that you
+dope into so I love to tell stories so I
+talked about a couple of projects we've
+attempted that didn't work out someone
+was using a deep learning image
+classifier to let you take a picture of
+your plate and get a calorie estimate
+which okay that sounds may be that
+sounds like a good idea my team we
+thought it was a good idea at least
+worth trying we found a lot of data
+there's a lot of food photography out
+there and there's also a lot of data on
+you know a cheeseburger has this many
+calories did not work because that data
+a cheeseburger can have anywhere from
+300 to 2,400 calories and these datasets
+just simply don't agree and we did you
+know first were like okay we want the
+actual calorie count from the plate and
+then we decided on a more modest problem
+which was can you tell us if it's very
+healthy healthy or not at all healthy
+eventually we decided that it was no
+longer worth the time and investment
+because the the quality of result we
+could get was not actually useful and of
+course this is a fun story to tell
+because a couple months after we did
+this whole process Google announced that
+they had in fact solved this problem and
+you know to me that sort of validates
+that it was a good idea but we didn't
+have the resources to make it work so I
+talked about that story also went into
+depth on that brief which is a
+extractive summarization prototype we
+built using neural networks for articles
+so being able to take an article and
+pull sentences out of that article that
+are an effective summary of the entire
+content of the article and that's
+something where there's a product design
+piece and there's an algorithm design
+piece and they have to work together
+well in order to make a usable useful
+fun prototype and so so I went through
+that whole example in the talk how can
+you talk about that one in a little bit
+more detail how did you go about that
+and what was the process like yeah so
+when so the work we do is always framed
+around an application and so as much fun
+as is it might be to say like okay we
+want to spend four months using deep
+learning to analyze text which is really
+what we did we decided to focus first on
+summarization and then under
+summarization they're sort of two major
+schools of system one is
+extractive so pulling words and
+sentences out of the body of text and
+and there's abstractive which is
+constructing a summary that may contain
+language that does not appear in the
+underlying text that's new language we
+focused on extractive because again in
+the product context we could actually
+build something with a high enough
+quality result to be useful whereas on
+the abstractive side we're still as a
+community very early and so the results
+are kind of variable so again there was
+that focus and then within that we
+looked at a couple formulations of the
+problems the one is can I take any
+article and extract those sentences and
+that's that the system we ended up
+building is trained on about 18,000
+human authored summaries with quotations
+of news articles and it works very
+effectively on those we also did a
+second formulation of the problem around
+multi document summarizations if you
+have 5000 documents on the same topic
+can you cluster them effectively and
+then summarize each cluster and for that
+we used LD a for that first step and
+actually my colleague Mike Williams will
+be at strata tomorrow talking about all
+of the technical fun stuff underneath it
+yeah if you're interested in that okay
+and so for that for that example the
+data set that you use was that a public
+data set yes it's from a website called
+the browser which is a terrible website
+name and because of the ambiguity there
+but and yes so it's a public data set
+and one that turned out to be quite
+effective interesting and LD a latent
+latent display allocation
+display allocation absolutely and how
+does that I've heard that come up a few
+times I don't really know how it works
+what's the 30,000 foot on that case oh
+the point conceptual overview is that
+and it's a non supervised or
+unsupervised algorithm meaning you take
+the stream of text and it is able to
+infer they're unrelated clusters
+in the text fairly effectively one of
+the limitations is that you have to tell
+it how many clusters to look for which
+you may or may not have an intuition for
+going into an analysis which again means
+that practically the way people handle
+that on any given body of tax just to
+sort of try ten clusters 100 clusters in
+the narrow or their way in intuitively
+and by clusters are we talking like
+pet product reviews
+engrams are we talking conceptual
+clusters now we're talking to do
+documents in this particular case so we
+applied it to you Amazon product reviews
+and we found particularly great results
+in the pet product review category
+because this is a section where people
+are quite passionate about maybe I
+didn't say it was yes I just do surprise
+I guess um but we were you know a couple
+of examples we ran into where things
+like a dog toy that um you know 90% of
+the reviews were five-star and 10% were
+one-star and so when you look at the
+clusters of those reviews you see that
+you know most of them are things like
+this is cheap I can buy it in Amazon
+it's great this is really good for my
+dog's emotional well-being and yes
+people are very concerned with their
+dogs of additional well-being and then
+the the 10% were sort of like yeah my
+dog ate part of this and had to have a
+$4,000 surgery and so that's the kind of
+structure you're able to pull out with
+LGA and the utility there I think is
+fairly obvious or rather one of the
+things I mentioned in the talk is that
+we tend to see these algorithms applied
+to making things we already do more
+efficient so if you can make that 20
+page article down to two pages that's
+making me more efficient but if you can
+make me able to read five thousand
+documents which I could not possibly I
+could not possibly ever stand to read
+five thousand reviews of the same dog
+toy I can't worry about but now I can
+get a similar amount of value and that's
+sort of a really useful AI product and
+optimization
+when you say a similar amount of value
+what was your what was your optimization
+functional you how did you measure
+whether the value is similar and so
+that's a really good question
+and in the case of our brief prototype
+we had you know some human curated test
+data but to be honest a lot of this is
+really intuition which I know is a dirty
+word in this context the world of AI but
+I really do believe in the value of user
+testing feedback loops and human
+intuition and guiding the product
+aspects of these the sort of work so
+takeaways
+what were the did you have a kind of an
+enumerated list of takeaways for this
+from the talk was it prescriptive or was
+it so it was more laying out a shared
+vocabulary and then sharing some
+experiences but I'm not going to presume
+to tell you how it's done for because I
+think that where we are in the
+development of the practice of AI
+product building is still very early and
+this is um you know I've been a data
+scientist at the very beginning and it's
+very similar to what happened with the
+evolution of the profession of data
+science where a lot of people are doing
+a lot of different interesting things
+that are all related and but there's no
+one vocabulary no one process that
+everyone has agreed on yet and so I
+shared my point of view I got to talk to
+people afterwards for an hour and a half
+out here and hearing other people's
+point of view and it's just we're at one
+of those really exciting moments I think
+yeah yeah have you done have you set in
+what else do you think is cool
+on anything else at the event like what
+else do you think is cool and
+interesting kind of in this realm so at
+this particular conference one thing I'm
+really impressed by is the different
+perspectives in the room so most of the
+conferences I've been to are either
+technical or sort of business or sort of
+product to design here we have everyone
+in the same room which is great you know
+VCS business startup people big company
+people and you know software developers
+machine learning professors all here so
+that's really cool and I've heard a
+couple of them
+you know I always love the opening
+keynote they were pretty great and then
+there's been pox on everything from you
+know tensorflow for mobile poets such as
+Pete worden talk and he is a great
+office if you haven't seen it all the
+way over to the future of natural
+language generation from the fix that
+automated insights you know it's just a
+few of the things I've been enjoying
+yeah nice nice so how long have you been
+outro
+doing that for word labs the password
+Labs is going to be two and a half years
+old soon okay and we are eight people
+plus two interns based in Brooklyn
+oh nice warm Brooklyn we are actually
+moving our office this week over to
+Atlantic as Barclays Center oh oh yeah
+you or any of your audience shoulda let
+us know and come stop by if you're in
+the Newbridge nice nice awesome well I
+appreciate you taking the time I know
+you've got a meeting to run off to Thank
+You IRA to get an overview of your talk
+yes great to have this conversation
+thank you all right Thank You Larry
+alright everyone that's it for today's
+show a quick note for you guys tomorrow
+I'm off to reworks deep learning summit
+in San Francisco if any twimble
+listeners are attending or will be in
+the area please reach out to me I would
+love love love to connect up with you
+also please do leave a comment on the
+show notes page at slim le I comm slash
+talk / 11:00 or tweet to me at at Sam
+Cherrington or at twiddle AI to discuss
+this show and let me know how you liked
+it thanks so much for listening catch
+you next time
+you
 
 ----------
 
 -----
---10-- [The TWIML AI Podcast with Sam Charrington](https://www.youtube.com/@twimlai/videos)
+
+--10-- 
 
 -----
-Date:
-Link:
+Date: 2017.03.01
+Link: [# Statistics vs Semantics for Natural Language Processing with Francisco Webber - #10](https://www.youtube.com/watch?v=kNnY7K_Fd2M)
+
 Transcription:
 
-paste here
+Introduction
+hello and welcome to another episode of we'll talk the podcast where I interview
+interesting people doing interesting things in machine learning and artificial intelligence
+I'm your host Sam Charrington once again the recording you're about to hear is part of a series of interviews I
+recorded live from the O'Reilly AI and strata conferences in New York City my
+guest this time is Francisco Weber who is the founder and general manager of artificial intelligence start-up
+cortical IO Francisco's presentation at O'Reilly AI was called AI is not a
+matter of strength but of intelligence to set the stage for my conversation
+with Francisco recall that in the last interview Pascal Fung noted how recent
+advances and natural language understanding have been based largely on ignoring language structure and focusing
+on statistics well in this interview you hear Francisco argue that the next advance in NLU will come from shifting
+our attention from statistical models to models based on a more sophisticated model of the brain a warning in advance
+this conversation is very technical and moreover rather abstract don't be afraid
+to listen to it a couple of times to allow the idea as an opportunity to sink in you'll find this week's show notes at
+twin Olay Icom slash talks last ten you might be particularly interested in a
+link to Francisco's presentation slides which are helpful to review alongside the podcast and now on to the show
+Franciscos background
+hello everyone here at the O'Reilly AI conference and I am with Francisco
+Webber who gave a great talk earlier on AI is not a matter of strength but of intelligence
+so welcome Francisco hello great to be here and to talk about my talk actually
+nice why don't we start out by learning a little bit more about you and hearing a bit about your background yeah so I'm
+coming from the Natural Sciences trained in medicine in Vienna but have since
+ever saw a built-in affinity to technology and ended up sort of going into the natural
+language processing information retrieval domain where I'm in for like 20 years now but I've been the sole
+quota Clio is actually my third company I previously worked in the field of
+patent information which is also a sort of complex natural language issue and
+that was basically where I learned of the limitations of the current systems
+and that motivated me to actually try and find something substantially
+different okay so tell us a little bit about cortical yeah so cortical is all
+about two things in fact so one thing is a theoretical framework that we have
+discovered I would say and that we explore that is about how the human
+brain to be more specific actually the neocortex supposingly handles language
+information and the other is that we basically use this theoretical framework
+to also create a real technology that we basically offer to the markets currently
+this is mainly for enterprise customers they have a lot of problems out there
+and so say the effort to revenue ratio makes us work there for a while but we
+do also have a public API where basically everybody can play around with
+our technology for free yeah so that's that's what the company sort of does and
+we try to find a really alternative way
+to deep learning and to the more traditional ways of statistical modeling
+and machine learning for the moment our approach doesn't
+actually use any statistics so which might not be the case in the future so
+there are some motivations to maybe team this up with deep neural networks or so
+so that's but in fact it's not our specialities or I leave this to orders to try out what we basically do is that
+we have solved I would say or we have found a solution to the famous
+representational problem that exists in natural language understanding since decades basically a very fundamental
+issue is that basically says if you find out how to represent language which
+means text at some point in a way that you can actually compute with it then
+many of the big problems like ambiguity like vocabulary mismatch all the
+traditional problems we have in NL you basically are solved in in one in one
+approach and that's what I actually presented today is that by this little shift in how to generate the features
+everything falls in place afterwards you know in a very convenient and and most
+importantly efficient manner so tell us about this shift yeah so our approach
+basically is founded on the work of Jeff Hawkins who is a researcher in in in the
+area of cortical processing so he works on finding out how the human neocortex
+actually processes data they assayed data in general because one of his
+findings was that regardless what kind of data so might it be sound hearing or
+seeing or touching all of that data when it comes to the neocortex looks the same
+it is it has the same format which is a what is called a sparse distributed representation so
+it's like a large vector of binary features where you have like two of two
+to five percent of those features are actually set to one and all the rest is zero and everything is encoded into such
+a such an SDR and that was basically our first goal is to find a systematic
+unsupervised because otherwise it's not doable in practice a systematic
+unsupervised way of converting text into such a an SDR ok now I've heard a couple
+Neural nets
+of times even at this event there were a couple of comments that were made that was one of them was even I think in the
+keynotes this morning there was a comment about how you know what we've got with neural nets or don't have the
+complexity and the nuance available to express what's actually happening in the
+brain and and in another talk the the kind of follow-on statement was so
+therefore we shouldn't try we should just use these as tools and now it sounds like you have a totally different belief system around this well I mean
+fundamentally what we use as neurons nowadays has in fact very little to do
+with real neurons right so it was an abstraction that was made
+like 3040 years ago on a compared to
+today on a very rudimentary understanding of what neurons actually do nowadays we know more we know that
+for example the actual learning happens through the building and unbuilding of
+synapses between them and if you actually model a neuron not not
+chemically so it's not about sort of creating all the molecules that are there because that's something that
+nature uses yes so nature you know in evolution you always have the components
+from the previous evolution evolutionary state and you have to play with this kind of LEGO bricks and do
+something which sometimes looks a bit inefficient but what is key on the other
+side is what is the mechanism that those real neurons create and that is what
+Jeff Hawkins actually has figured out and is about to even figure out in more
+detail and so certain aspects like the the sparse binary representation are
+actually key for this to work properly and by working on text so our approach
+was basically okay if Jeff is right with his theory everything he says about the general way how the cortex processes has
+also to be true for language as the language is generated by the cortex - and so we basically took his theoretical
+framework as a set of constraints and we tried to say okay if that is the limitation how can I put everything I
+know about language in this within this limitation and it took a while actually
+25 years or so in general I mean not I know Jeff's work since since a little
+bit over 10 years but everything that was sort of needed to me at least to
+sort of understand and to operate at this abstraction level took a while but
+then ahead at some point while I was listening to his talks reading his book
+on intelligence and so and it was literally sort of taking a shower and in
+a second I had this visual idea so to say how how this could happen because it
+boils down to a sort of visual aspect in
+the sense that as a necessity we have to find a representation where two words
+that mean similar things have to actually look similar and when I say look there sdrs have to be similar and
+literally similar so in fact and that's also what the brain is doing to put one
+word representation on top of the other word representation and by measuring the overlap how many of the
+bits actually stay at the same position you get two things one is how related
+are those words and the second is by looking where the overlap happens within
+this representation because this is a two-dimensional it's like a bitmap with
+128 x 128 pixels and like 2 percent of
+those 16 thousand bits are set to 1 therefore are like pixels dark pixels if
+you want and so it's actually a visual thing and you can try this out on our
+website when you take two words that are sort of have a common context or so you
+can actually literally see that they look similar yeah and interestingly I mean it's it's hard
+to know or maybe even impossible to absolutely decode what it means but if
+you as I have done stare a lot into these representations you end up seeing
+the differences like in a blink of an eye you might not know the details but to identify that two words are similar
+in this representation takes a million seconds yeah and that is already a a
+hint so to say that shows what the major
+gain is of this approach which is efficiency and that's what our brain is
+famous for so I know that on the deep learning in the deep learning community
+things like precision and so are the key metrics and they are of course important
+it's like having classes that are blurry nevertheless at the very end the choice
+of algorithm is not so much on the precision but it relates to
+down-to-earth energy efficiency yeah I mean the brain works with something like 10 watts or something
+so I don't even want to know how much power the GPU servers eat up and that is
+already a very good hint of how well a certain approaches if and
+that's why I chose the title also of brute force because statistics
+especially if you do statistics of large combinatorial spaces like like language
+I mean you basically can create an indefinite number of combinations of
+words to make meaningful sentences so to do a statistics on such an open system
+it's a real hard work because you have to provide endless examples to have like
+a micro bit of a semantic payload in
+your representation yeah and it works up to a certain point no question I mean the statistical systems work but what
+you see is that in order to make the model a little bit smaller or to gain a
+tenth of a percent in precision you have to put a lot of effort in yeah so from
+to get from sixty to sixty one percent precision you might even double the
+effort like going from 1 to 60 is the same as from 60 60 to 61 yeah drag you
+drag you back a little bit just it sounds like understanding the Jeff
+Hawkins stuff is important to understanding what you guys are doing to some degree yes so they so he's defined
+Real neuron
+this sparse data representation this SDR and is there also a different concept of
+a neuron that underlies that absolutely so he's modeling a real neuron but on
+the functional level so he's also modeling a neuron if you want but he's modeling everything that is relevant
+within the neuron for processing data is part of his model and everything that might be housekeeping building up
+proteins and stuff like that is not part of the actual data processing layer and
+therefore not represented there so he's basically tried to expand the simplistic
+concept of neural net neuron to become a real neuron and sometimes if you face the
+problem the way it is the solution is much easier to understand because it's
+it's basically a model-based approach versus a model free approach as well so
+if bringing in to one sentence yeah and so on this base of this more robust
+State action
+model of a neuron there's this notion of the SDR which is capturing you know and
+I think of a neuron I think of the you know there's state plus action right and so this is capturing this even more it's
+state action in time that is key to what Jeff is doing okay because his networks
+have time built in okay so it's not only of deciphering a pattern of input bits
+but it's rather memorizing a sequence of
+patterns because in reality things are interconnected so to say they have a
+semantics built into the system everything and therefore it is highly
+unprovable if not impossible that by having an initial state a you can
+predict which are the let's say physical possible next steps and that's what the
+processing relays on the fact that not like in statistics after state a any
+state could happen because I need to do the statistics for it but the reality is that after a step a there is a certain
+set of steps which have all to be possible in reality and what we learn as
+walking brains if you want is what are those potentials what are the potential
+outcomes and how many hints from the initial state could point me to the
+right next state and that's in the end what the brain is doing yeah the brain is nothing more than a sequence learning
+engine that does prediction based on what it has seen so far and if you think
+through the that on a let's say philosophical level you will find out that you basically can
+The brain
+solve or explain everything we do that basically follows this basic computation
+yeah so there are two interesting aspects so this one is there is no processor so the brain does this by
+being a memory system which is interesting I mean in computers it's exactly the other way around yes the
+processing happens in the processor and the RAM is just a dormant store yeah and
+the brain obviously does this differently and and and and the other
+aspect is that the prediction is in fact the condensed intelligence because the
+more I'm right in predicting the more I'm intelligent and by the way I mean
+there you know there have been very behavioral ways of looking at intelligence that's the reason why the
+dog looks intelligent to the dog owner because the dog owner knows the dog and
+knows what predictions the dog is making about things and is right in doing so
+and therefore the dog indirectly so to say looks it more intelligent to the owner than to everybody else yeah so
+there's the SDR capture all of that are just the state so the SDR is all about
+getting a an explicit representation of
+the state so that's the other difference in in the world of brains and STRs you
+only work with what is called semantically grounded information so every bit in representation of the SDR
+actually corresponds to something real and concrete so for the visual system
+it's pretty easy because in the end every bit of the image that is produced on the retina if you have two dots that
+Visual system
+are close to each other and have the same color or nearly the same color you are probably right in guessing that they
+are part of the same item in the physical world if you have now a representation that
+gives you the same phenomenon namely that two bits that are set to one stay
+close to each other it's easy to guess that they are related and they are part
+of the same maybe subunit of the system the only thing you have to be sure is
+that the data that is provided is actually inherently semantic so it has
+to be part of a system in a very abstract level so the world is a system
+therefore any data that I can hear or see or so about the world is semantic
+because there are rules of physics rules of biology and so on and the same thing
+is true for language language is data that is inherently tied together by a
+Language
+framework of grammar of syntax and all these aspects we know since a long time
+but we have we had the problem on how to
+actually store these mechanisms and the realities don't store the mechanism but
+just were the examples just or the detailed information the explicit information and are those words or those
+yeah so in our approach we declare the
+semantic atoms in language to be words I mean there are like smaller units like
+full names for example but they have no meaning by themselves so the first time you actually have a meaning is when you
+have a word and all the subsequent meaning of a sentence of a paragraph a
+document and utterance even comes out of the sequence of those words and so what
+Semantic Fingerprint
+we do is basically we convert every single word into such a sparse
+representation we call this because it's a hard to say we call this a semantic fingerprint and the interesting thing is
+that through the way how we convert the semantic fingerprint you take advantage
+of some of the properties that are inherent of sparse binary vectors for
+example can make a union of as many sparse vectors as you want and you don't lose
+information yes you can always say from an unseen vector if it was part of the
+union or not if you try to do the same thing with the dense representation let's say the the ASCII encoding you
+have 8 bits and every possible combination corresponds to another character if you make a union of a
+couple of them no way to say what was the initial part and as I said the the
+generation of this pattern is done in a way that every single pixel of our
+Context
+fingerprints corresponds to an explicit learned context and you can in fact
+reward a context it's a context which is basically technically it's a bag of
+words if you want it's a bag of words of utterances in which the word occurred
+mm-hmm and so is a what's the scope of an SDR
+in this model is it at the level of a corpus at the level of a language at the level of an utterance
+well not another as an utterance in fact all of that so the what we do is in
+principle we generate the atoms which is a fingerprint for a word but if I want
+to create a fingerprint for a sentence I just convert every single word into its
+fingerprint I make a stack and aggregate them together let me can over of all of them and then I have depending on the
+Unions
+location on the fingerprint you can do this because of this Union proper exactly exactly yeah that's the reason why we have to
+stay on the sparse site yeah and if you make for example a union of let's say ten words that are in a sentence
+you of course fill up the the representation therefore after making
+the Union we we do what we call responsive Phi we introduce a threshold
+to cut away everything that fills the fingerprint on more than the 2% and so
+we end up with a fingerprint for a sentence that has basically the same topology that is directly comparable
+a fingerprint of a word and we can do this with a sentence with a paragraph with a book yeah of course use the SDR
+for book or for whatever let's say a
+book is it n dimensionality where n is the number of unique words in the book no so there is the topology and there is
+Semantic Folding
+that's the name why why we call it semantic folding there is this semantic
+space folded into the representation so the way how we do this how we generate
+the word as the ours is that we take a collection of documents which are the
+reference documents that's for a human that would be everything you ever read and heard all language elements that you
+have exposed to and we digest them and
+we do this of course using machine learning because we are not like humans we have not the time to wait 20 years or
+so so that's in fact where we apply machine learning and what we do is that
+we first of all cut the training material in little pieces and then we
+define the size of our fingerprint which is a metric space so there is no
+dimensionality if you want it's a two dimensional metric space and we position all of our training snippets on this
+Semantic Map
+space in a very simple rule two snippets
+that are similar stay close together and two snippets that are different stay far
+apart from each other and then it's you know one of these classical iterative
+algorithms similar to have you're learning a bit like this local
+inhibition mechanism and what you end up with is that you have all snippets about
+animals in one region all snippets about family in another region and so on and
+you get a semantic map and this semantic map is basically used to encode every
+word because I can take all the words that are in my training material and for
+each of the words I can say light up the decisions of the snippets where this word occurs in and then you get this
+distributed representation and because you have to fold it in semantics so to
+Representation
+say to similar words like cat and dog look similar if you look them on the on
+the semantic map representation of the fingerprint mm-hmm so you mentioned earlier a kind of a you
+give an example of a 128 by 128 matrix at that size matrix like what are you
+able to represent like is that a book all of the books I've ever read or what
+it actually represents is a semantic space because it's it's it's it's the
+the fundamental of the representation and if you just do the math of selecting
+300 bits which is about close to 5% of 16,000 bits the number of combinations
+you can do is like the number of stars in the Milky Way so it's a huge community oral space and as you know we
+have not the same assumption as in statistics that in principle every word could be combined to every other word
+Semantics
+yeah so that's one of the central simplification methods is to say in the
+language statistics that every word is independent which is absolutely not true if you have on the semantic level a
+certain set of adjectives that you associate to certain um yeah so there is
+semantic sort of glue between everything and in reality that shrinks the
+combinatorial space and that's precisely what we need to learn the semantics of it mm-hmm okay okay that reminded me of
+word Tyvek it's it's it's a natural
+development that we have started NLP and information retrieval with so called
+document vectors everything will sort of derived from a document
+and we found out over the years that word vectors the representation of
+individual words seems to be more appropriate nevertheless there is a
+fundamental but crucial difference so were to act like other word embedding
+mechanisms use they try to do dimensionality reduction and they end up
+with a dance vector and to put even more on it a dance vector of double or float
+numbers so sort of computationally expensive representations we don't do a
+dimensionality reduction we might even to an increase the dimensionality at
+some point if you want but we make it a sparse representation so we have sparse
+binary vectors versus dense floating-point whether the double vectors yeah which already sort of gives
+Visual Support
+you a hint on where the efficiency will be all right right so I have we talked
+through have we got to what you talked about in your talk or is this all been bad I understand I mean specially
+because you are listening to this without any visual support and this is a very visual thing yes yeah typically
+when I when I show this and people see the the fingerprints on the screen and how they interact and how they overlap
+you can see in their faces ah I understand this yeah you don't need to know anything about machine learning or
+so it's so intuitive but if I imagine to sort of follow a description that is
+purely verbal then yeah so the the rest
+basically was that I gave a number of practical examples where we apply this
+and I can cite a few for example we do
+Similarity
+pro let's say we have certain prototype ways of solving typical problems and
+what is the case is that we solve all of them with one unique operator which is
+similarity yes so we only had the only sort of verb we have in our universe is is similar or
+is not similar and so one thing you can do of course is search yeah
+so you can and since you're operating on essentially these Mars vector
+representations is when you hear similar like is it fair to think geometrically similar Geographic so we actually
+measure this by calculating the overlap between two fingerprints which is the
+most generic way I mean we we do offer a number of distance metrics as I said
+this is a metric space so we have different ways of calculating a distant metrics like a Euclidean distance and
+others but I have to say that in fact the pure overlap count is fully
+Search
+sufficient to get the result all of it and it's very computationally efficient
+yeah so one of the prototypes as I said is search imagine you have a collection
+of documents you convert each of the documents into a fingerprint you have a user who types in a language based query
+I'm looking for information about red spot cause you create a fingerprint of
+that query and you just match how much overlap you have between all the documents and the query and you rank all
+your documents according to the size of the overlap very generic it's it's it's
+a real search mechanism so what you get is really all the balanced aspects that
+you have in a document so it's not just does a document contain the word sports car but it's about the aspects that you
+might have developed in in a documents that make it match or less and in theory
+the document need not even say sports car and exactly are doing theoretical arity to the this concern yeah so it
+could be the race car it could be a text about the race car and my query could be about sport cars and it would still sort
+of give a good match yeah and how does it apply to non-english languages I didn't hear anything
+completely independent of languages so as I used to say
+give me enough dictionaries and encyclopedias in Klingon and I put you
+up a Klingon system no problem the point is that we have even brought this to a
+step further because we were able to not only train in different languages the
+semantic spaces but to also topologically align them and as a result
+and I gave the example in in my talk we take the word philosophy in English has
+a certain representation and the word philosophy in French has the same representation so the better patterns
+are the same and what this means is you could have a system that contains
+English documents and you can post French queries and it will still work
+without any translation or or anything in between only for those words that
+have a fair degree of overlap or well the word the words with the same meaning
+regardless of the language have the same fingerprint right so a second prototype
+where I could give you an example is classification so our classifiers
+are actually just fingerprints I don't need to train my classifier if I say I want to get let's say all the tweets
+about mobile phones I can take the word mobile phone create a fingerprint and
+then compare the fingerprint of every incoming tweet to my fingerprint of the
+Fingerprinting
+word mobile phone and even if it talks about iPhone it will have sufficient
+overlap for me to detect it and even if the tweet is in Chinese it will be
+converted into something that I can filter with my English mobile phone fingerprint even simultaneously in
+Chinese because your fingerprinting that based on its language representation and
+there's the similarity is transferable
+from one the the Chinese description of the new iPhone generates the same
+fingerprint as the English description of the new iPhone why is that because the surprised at
+that definitely definitely you should be surprised yes and no I mean people who
+know two languages are able to do this in the same way yeah so there has to be a let's say mathematical way of doing
+this and the point is that we aligned the two semantic spaces so we have one
+topology that we generate in one language and we can then with a with a pure dictionary lookup mechanism which
+is the dumbest way of doing a translation right we can convert all the
+distributed snippets in the vocabulary of the other language and use the same
+distribution that we have trained with for example the English methods and
+therefore you have now the convenience to listen let's say to the Twitter firehose and regardless of what language
+message comes along you can filter it with an English example and I've done
+that just to give you a a feeling on efficiency I've done that in real time
+on the fire hose with my notebook yeah so it was sort of running locally
+through the I'm trying to run through the physical analogy or the biological
+Transferability
+analogy of this like in you know the the notion here is that you've kind of
+extracted this model that you know more closely represents what's happening in the brain then and and you can you have
+this kind of transfer ability across languages I'm is there some you know
+again we're kind of way beyond you know the pale of what's actually gonna happen but like is there something like you
+take the you know some part of the brain from someone who learned Chinese and you transplant it into a person you know and
+then you know who has some other part of the brain that is kind of symbolically to English and they could then you know
+translate on the fly yeah in theory in theory that would be possible the truth
+is that there has been research for example comparing the brain patterns of people who have
+who have been grown up with two languages they have they have a sort of
+Brain Patterns
+speech area in the brain that is actually intricately mixed yes so the
+the two languages are represented in in a mixed fashion whereas people who have
+been grown up in one language and who have then learned the other one they have added the second area so to say and
+that's the reason why a native speaker of two languages can actually easily do
+translation on the fly and can listen or read text in two languages without even
+noticing that there might be two languages right in someone who has just learned another language has always in
+his head to map from the one region into the other region now interestingly there
+is and I showed this also in my presentation there is sort of new
+research in in brain science that supports our representation strongly so
+Brain Science
+they were able to do an fMRI study to be precise so there has been an earlier
+version of this experiment where people were exposed to words and then they made
+like snapshots from their fMRI activity and what they found out it was in
+encoding Ameland if i remember well what they found out is that you can actually
+calculate starting with the picture an fMRI picture you can say what word this
+person was hearing when this picture was taken yeah so this is as you say Wow but it comes better and they have sort
+of trained a machine learning algorithm to make this transfer to correlate the
+picture with the word that the persons have been hearing and the absolutely
+unbelievable thing is that let's say you have been in the fMRI first the model
+Machine Learning
+has been trained on your images to map to certain terms if now you present this
+very same model the images taken from my brain it will still recognize the terms properly and then whether we
+speak the like same language no I'm this has been done in English I'm
+I'm pretty sure that even if I would do this with with the Portuguese meaning of
+your English terms it still might work out but but why not the fact is that
+obviously if two individuals have been grown up sufficiently similar from a
+cultural point of view yeah so we both went to school for more or less the same time we more or less read the same stuff
+we've heard about the world in the same way the representation ends up being
+similar across individuals and in the end it makes a lot of sense I mean just
+imagine if we would really be wired completely different from one to each other it's it would be very hard to have
+a simple conversation yeah and in fact if you if you do the the investigation
+for example I'm pretty sure again this is just guessing but the fMRI pictures from I don't know some distant tribe
+living somewhere in the Amazonian jungle they're the overlap between the two
+representations is probably less because they have just not been exposed to a very similar kind of environment yeah
+and and there is a newer publication which is I think it's from this year I
+think it's it's it's from a lab in the MIT and there they were actually able to
+create a map of about thousand words armed basically nearly the entire cortex
+NLP
+and and what it shows is that every it's not like every word has a specific
+position but every word has a pattern of all sorts of positions all over the
+cortex that lights up which is in fact exactly what we are doing with our fingerprints so I claim that we are the
+first NLP algorithm the get support by fmri Wow
+so this is fascinating stuff how do you help people make it practical like what
+if I'm you know if what what are the problems that hey if I have this problem I should be looking at this as a
+possible approach so so as I said earlier we are very strong with this
+approach in doing similarity calculation and therefore classification and as you
+might know in business natural language processing nearly all problems can be
+reduced to one or several classification problems okay so we do all sorts of
+Classifications
+things yeah I mean companies who say we want to classify our inbound emails in
+product requests complaints and I don't know looking for a person and individual
+in the company and believe it or not I haven't seen any working machine
+learning solution for that problem out there I mean I've been visiting like 150
+companies over the last two years of course trying to sell our stuff right
+but I haven't seen a working solution for simple I mean this is really one of
+the most basic issues you could have and nearly nobody is actually using
+technology for that because the the the statistical approach has a lot of noise
+that comes in has false positives which is by the way the the biggest problem in
+Use Cases
+business and we solve we solve this in a couple of weeks you know so we we make
+use of the efficiency of the approach in solving this kind of problems within
+very short time for people so that's that's a specific use case are there is
+there like a higher level characterization like you know in terms of problem yeah so we have customers in
+the domain in a lot of customers for example are in the banking domain there
+we solve problems like compliance monitoring or your customer activities or automation of business
+processes that depend on some text input at some point we have consumer good
+companies who want to know how to segment their customers for example we
+have manufacturing industry where for example in technical products the
+Manufacturing Industry
+documentation that the manual of the product is so complicated good example is car industry for example modern cars
+so complicated that if something breaks you need to visit the manual or to find
+out what is this funny light meaning there is this dangerous or can I just continue and people can't find anything
+because they have the problem that the person in the car doesn't speak the
+technological language so an example that I've that I've learned is the query
+where do I find a donut in in the US I didn't know that before but obviously
+the donut is this fair wheel that is sometimes pretty good hidden so if you
+look for donut in the in the manual you probably don't find it yeah and there is a lot of these issues yeah I mean to be
+even a more extreme case a person speaking only Spanish driving a US car
+LinkedIn
+and being unable to actually find the the right answer could use our system to
+sort of pose a Spanish query and be pointed to an English page for example
+so as I said I mean in principle we have solutions all across the domain we can
+do things like for example you have a LinkedIn profile you'll describe
+yourself in your LinkedIn profile I can make a fingerprint of your profile and
+if I do a fingerprint of my profile we probably have a lot of overlap as we are interested in the same kind of topics
+traditionally to make matching of people in HR for example you need it to
+actually if one person says I'm expert in GTE and the other person or the other job
+description contains Java Enterprise there was no way of matching it yeah in our case we match this easily right Wow
+Learn more
+so the very fascinating stuff how can folks learn more find out more about it
+contact you so basically on our website cortical dot IO what do I do RT IC al
+that IO exactly you can go there you find a white paper where you get
+basically a more in-depth introduction to the whole approach you find access to
+a public rest api that you can play around it's trained on Wikipedia and
+English Wikipedia data you can then even spin up an instance containing the
+software on Amazon or Asia to play around if you have more proprietary data
+so that you that you want to use and of course you can contact us if you need
+help to sort of get started I mean the problem is that many of us who have been
+struggling using conventional tooling sometimes it needs a little bit of help
+Keywords
+to sort of get the right angle on how to solve something yeah so we do for
+example offer a keyword extraction functionality you can throw in a text
+and you get like the ten most important keywords out of it and I've observed that many people try to systematically
+extract keywords and then try to do some magic with that and I just told them
+okay that keywords you need them if you want to show keywords at some point but you don't need them to make any
+computation because you can compare the fingerprints directly so yeah it's a bit
+of a change of mindset exactly well thanks so much Francisco ISM it was
+great talking to you and amazing learning a little bit about what you guys are up to thanks a lot thanks back again
+alright everyone that's it for today's show please leave a comment on the show notes page at twilly Icom slash talks
+Outro
+last 10 or tweet to me at at sam Charrington or at swim le i to discuss
+this show or just reach out let me know how you liked it thanks so much for listening and catch you next time
 
 ----------
 
@@ -1085,11 +2677,334 @@ paste here
 --09--
 
 -----
-Date:
-Link:
+Date: 2017.03.01
+Link: [# Emotional AI: Teaching Computers Empathy with Pascale Fung - #9](https://www.youtube.com/watch?v=-lH74mQO8Vk)
 Transcription:
 
-paste here
+Introduction
+hello and welcome to another episode of we'll talk the podcast where I interview
+interesting people doing interesting things in machine learning and artificial intelligence
+I'm your host Sam Cherrington once again
+the recording you're about to hear is part of a series of interviews are recorded live from the O'Reilly AI and
+strata conferences in New York City my guest this time is Pascal Fung professor
+of Electrical and Computer Engineering at Hong Kong University of Science and Technology Pascal gave a really interesting
+presentation at the AI conference focused on how we teach computers and
+robots to understand human emotion and be empathetic she also had some really
+interesting things to say about the theoretical foundations of the various
+modern approaches to speech understanding and we dig into all of this in our conversation as always I'll
+be linking to Pascal and her research in the show notes which you'll be able to find at twilly I comm slash talk slash 9
+as is unfortunately the case with my other field recordings there's a bit of unavoidable background noise but it's
+not too bad and now onto the show [Music]
+alright hey everyone I'm here at the O'Reilly a conference and with Pascal
+Fung who is a professor of Electrical Engineering at Hong Kong University of
+Science and Technology and I sat in on her talk earlier on emotions and AI and
+had we enabled computers to recognize emotions and she graciously agreed to spend a few minutes with us to tell us a
+little bit about what she's working on so welcome Pascal thank you how about we
+Background
+start with talking a little bit about your background and the kinds of things you work on sure so my background I am
+electrical engineer and computer scientist and I've been working on
+speech recognition since 1988 and then move on to statistical machine
+translation in the 90s and after I became a professor at HKUST I lead a
+team working on speech language and more recently on emotion and mood recognition
+or sort of using statistical modeling and machine learning methods that's my I
+worked at different places before I was student and while working on my PhD
+thesis at Bell Labs I was very lucky to work with some of the best people in the
+area and in the early 90s when I started my thesis it was when the the field of
+natural language processing was transforming from a heavily knowledge-based linguistics base feel to
+statistical modeling and at the times that is modeling for language was very
+controversial why she didn't believe you could learn language or study language or understand language was just
+statistics but you know 20 years 20 years later and now that is the
+mainstream approach everything we do is with machine learning statistical
+modeling in natural language processing one of the slides you put up had a quote
+Speech Recognition
+from a professor who I think you mentioned you work with us and for every linguist I fire
+for jellinek he's uh he's sort of the father of statistical speech recognition
+so we owe the field a lot to him he passed away a few years ago and then
+this quote of his was yeah his controversial but what was the quote the
+quote was that every time my fire linguist the speech recognition accuracy goes up so it came from the at the time
+at IBM he was leading the IBM group with a group of mathematicians and
+information theoreticians to work on the problems of speech recognition ok which
+was previously worked on using knowledge based approach in AI and actually his
+group wasn't allowed to use that approach this somehow they did it anyways so there was always a little bit
+of conflict between the knowledge-based AI community and the at a time the
+statistical minded people so there were papers written about the empiricists
+versus rationalists in the 90s and you know there was I remember my first
+conference presentation on a statistical basis language processing paper I was
+yelled at by some of the senior people in the field yeah those were the days
+but now it's totally not controversial at all because you can see you machine learning is everywhere right and yeah
+right so he said that because the approach he proposed his group opposed
+was very radical at a time which is not looking at how to imitate human at all
+I'm just looking at the input and output wear of the tassel so for example for
+speech recognition the input is speech speech wave found are waveforms and the
+output should be words right and for machine translation the input could be French and output should be English
+right and they basically treated all these problems as a kind of information
+theoretic problems to solve so a different mathematical approach from the traditional knowledge-based AI
+approach at the time can you maybe give a 30,000 foot background of information
+Information Theory
+theory and how it plays into all this okay I'll try so information theory was
+invented by the entire field came from a paper written by Claude Shannon 1948
+called the mathematical theory of communication so it basically looks at
+you know the information coding for example if you want to transmit
+telephone signal through telephone cable there's only that much information you
+can transmit and how many simultaneous calls can transmit in one cable is
+limited by paths but by physics actually right and so the information theory
+really is talking about you know how do you encode transmit and decode
+information so the earliest application was of course telephone systems so no
+coins so was no accident that closed and there was also at Bell Labs and then
+later on information theory was then apply a Cheney at the time when caution
+and came up with this information theory he already had paper on the information
+of language all right yes yes he actually wrote a paper very early about
+how language can be encoded and learned okay and so he was one of the earlier
+pioneers of AI even though people don't think of him that way you had no idea
+yes and he actually also had a sent if American paper on the the first chess
+playing game chess playing algorithm or in the 60s so yeah so information theory
+became an entire field of research and it's applied widely in many many
+different areas most importantly in telecommunications and communications
+then of course in all the statistical learning field we also use information
+theory for example look at how how we
+can learn how we can learn to model a
+language my information theoretic point of views so it's more like you can think
+of as message encoding kind of way yeah rather than linguistically motivated way
+so it's a different way of looking at mathematical approach of looking at problems right you mentioned that in
+your talk and I found that fascinating and it never occurred to me I think you you pose the idea of thinking of machine
+translation problem as you've got this you've got this message that is you're
+trying to translate French to English you've got this message that's in noisy English yeah English so for example is
+exactly that so for example the word orders are different in different languages so it can be you can think of
+that word reordering as a kind of a distortion right and then some of the
+words are actually in French English some of the words are the same like 40% yeah but other words are different so
+you can again think of a word that's different a different language being a kind of noise I mean are kind of
+distortion I'm sorry and if you can learn that distortion that you learn the translation so and that is some
+information theoretic approach that's what Google Translate still based on mm-hmm
+interesting so how you starting from what are some of the you know the
+Algorithms
+algorithms or approaches that kind of come out of the information theory
+background like how is it applied more concretely to that problem okay so for
+example all modern speech recognition software is based on the noisy channel
+model okay so the whole idea of you can train a speech recognizer with lots of
+data so let's say voice search and all that so based on what other people have said
+and it's based on these days millions of hours of speech today like Siri for
+example yep it's trained on these data and then it uses different kind of
+machine learning method and but all these speech recognition methodologies
+based on one big paradigm is still the noisy Channel model which is speech in
+words out yes I saw that through this channel now the latest approaches has
+turned part of these of these methods into using deep learning to replace some
+modules for example replacing how phonemes can be modeled or replacing
+part of the predicting what will come after it which word so some of this is
+now enable by deep learning but the whole paradigm is still a information
+theory approach similarly for for things like Google Translate it's still based
+on the what I just talked about the fancy channel model okay and recently
+there's some research work on using new or not but we haven't seen any
+commercial application that's that claims to be using neuron that four so
+end-to-end neural net for for machine translation yet okay mm-hmm okay so how
+did you how did you kind of get in not to mention all the encryption software
+all that is based on information theory right yeah okay that is not my field but that's actually a main application for
+for this kind of yeah okay awesome awesome how did you get into the study
+Emotion
+of emotion how did I get into the study of emotion basically we noticed that for
+so I've been working on spoken language understanding force for a long time yeah and I've participated on
+different efforts from different generations of virtual agents when we call virtual assistants today okay so
+the earliest system in the 80s was funded by DARPA which was a ticket
+booking system while you call and say I want to go from here to there and then it's trying to to to book a ticket for
+you okay and from that time on that we have seen different generations of dialo systems up until today we have Siri and Cortana
+right and working on these dialogue systems I've noticed that we've always sort of just look at literal meaning of
+a user query so the machine just pays attention to you know what is the
+destination the origin city how many takes do you want you know what kind of
+restaurant you're looking for so a very sort of literal interpretation of your
+query which means that your query has to be very clear these days people always complain all Siri doesn't work well and
+all that to us researchers we can see why doesn't work
+well because the system assumes users to be very clear and say explicitly what
+they really want to get right and you know unless the users are lawyers I mean
+very few people talk that way you know we talk naturally we expect you to understand what I mean right
+and for some you just laughed because you know I was trying to be funny and that kind of information is completely
+lost in our dialogue systems of previous generations and but it is very very important for to communication if we
+want to go back go past the current sort of sort of a plateau of understanding we
+have to also incorporate the understanding of emotion intent and all that in addition to understanding the
+meaning of the words so that's what I started working on incorporating so I do
+not recognize I don't work on recognizing emotion for emotions sake it's really recognizing emotion for
+communications so it's well I that's what I call empathy module and then when I look at
+the future applications what we do and some of the most immediate applications
+that immediate in the sense that in the next 20 to 30 years you will see widespread application will be health
+care and elderly care because by the year 2050 there will be more old people
+than young children in the world so and so elderly care is a big area and
+governments will be running out of resources human resources the cake take care of this elderly so they we're gonna
+need a lot of machine assistance now my mother lives spends a lot of time alone
+she's very independent she's in her seventies she doesn't want to live with me and she
+wants to be left alone to do her own thing and I'm always worried and in her
+independence you know I worry about her health she seems healthy when I see her but at
+her age I want to make sure that she's fine right now for example I want to know she's fine right right so this kind
+of I want to know her her health conditions but also her mental
+conditions so if she doesn't want to live with her with me now how about if I
+have if we build a home robot who can be there at her you know at her home or be
+around her all her and converse with her sometimes just to get a sense of how
+she's doing simple things right and then sends me a message so I know how she I
+mean all sends me a curve of her vital signs in addition to her emotional state then that will help the guilty children
+busy guilty children but also help the elderly because in a lot of people have
+emergency problems like a heart attack or something all right that could I be they could have been saved if someone no
+and then there are others who can get lonely and depressed
+and then they can also be helped a machine to some extent not completely by
+machine living with just machines is also very sad but but when there are not
+enough humans around people around then the machines can help so this is why I
+want to work on pathetic robots indicating people in the case of a
+Empathy
+crisis situation like a heart attack where does empathy and what does that
+come in I think heart attack it's it's basically its emergency then the robot
+has to basically alert call the ambulance right that's the first thing but what what empathy comes into play is
+that so daily reminder to take medicine right in some of the aging studies
+people have found that a lot of elderly they don't want to take medicine to some
+unless somebody talks to them okay like sometimes you have to sort of entice
+them I mean some elderlies are like children so in that case so the Machine
+doesn't just say take your medicine and repeatedly insisting that you take your
+medicine like with the same command that would be extremely annoying and it will have the opposite effect right so the
+Machine needs to know that the elderly is hesitant or resisting and how is the
+person's patient's emotional state and to know whether now the machine consists
+or it's time to call a doctor or a nurse or whether you know telling the patient
+a bedtime story will soothe them so that requires empathy if you think about all
+the nurses you know in the hospital love their job a lot of their work and their
+tasks are very repetitive and sometimes the pattern nurses are the ones who
+really have a very good bedside manner right and what is the best time manner other than being empathetic just being
+empathetic you know for both doctors and nurses so if you want doctors and nurses to be unperfect obviously you want the
+healthcare robots to be empathetic right right you talk I interpreted its focus
+generative empathy
+on empathy recognition but your description is also talking about what
+you might call generative empathy right right so empathy has two sides it's the emotional recognition right and then the
+the appropriate emotional response okay so empathy I only in my talk I focus
+mostly on the emotion recognition Parker because that is hard until we can recognize the emotion we don't know how
+to react right right so I focus on that and but the response part I talk to
+Lipper at the end that we're trying to learn the appropriate response as well from data so also using deep learning
+use cases
+you mentioned healthcare as a use case I think there's all often for awhile now
+people have talked about a customer service use guy sure sure you know the the hold line will recognize when you're
+getting frustrated in fact at AT&T Bell Labs in the 90s
+already there they a group worked came
+out with the system called how may I help you so when you call the AT&T line it's it's
+a virtual assistant virtual operator that talks to you first and says how may I help you and you basically say
+whatever you want and then it goes to different categories yeah and that is the intention classifier okay and also
+at a time 1818 AT&T had the internal programs to analyze all these call
+center data or see whether people upset they're happier and all that so that is already the beginning of emotion
+recognition that was my first contact with emotional recognition and it was war for customer service indeed it is a
+big area but I don't get the sense that it's widely deployed or at least not in
+a way that I would see yeah yeah I said back-end so this is the
+thing because it's not consumer facing it's really for it's really in the in the area the realm of data analytics
+yeah so it's more of a tool used by corporations to improve the efficiency
+of their call centers in a performance management performance yeah they do do that there are companies that provide
+technology - right so you also talked
+CNN and emotion
+about the use of convolutional neural nets and recognizing emotion and kind of
+do some interesting correlations across you basically that the cnn's were able
+to functionally approximate a cochlear functionality yeah the human perception
+system indeed that's what we found that so so I think my talk I started out by
+saying okay of traditionally speech recognition look at these human human
+some perception system and try to imitate that but we sort of hit the bottleneck and we had to move away from
+that and go with the information theoretic approach where we actually try
+and though we don't try to imitate humans model at all and what's interesting with CNN is that a lot of
+times CNN or other deep neural net are being used as a black box so we know it
+works we don't know why and humans being humans are always interesting knowing
+why and in fact there's a a practical reason is that if you ever
+want to commercialize the technology like that right to provide to your customer they want to know why what it's
+learning so so we then look take we then took a look at the CN n different layers
+of CN n and saw that it was actually as I mentioned they my talk that it's
+basically approximating the future Bank in our cochlea that's connected the
+auditory system and then we also saw that it's picking up on the amplitude the peaks in the amplitude that
+correspond to different emotions so we thought that was very interesting that we can actually see what's going on for
+example it was always CNN was first applied to image recognition and they
+used like seven eight nine layers of CNN
+to achieve that purpose and image recognition they were able to see that each layer so for example one layers
+recognizing the edges of image and the other layers looking I think maybe
+something else some features on your face and all that so it's all very obvious and really nice and we were
+never able to explain how deep neural networks on speech and language so it
+was interesting to see why works on emotion we still are not able to figure
+out what it's doing on languages so what each layer is recognizing we were hoping
+that each layer will correspond to some linguistic functions such as syntax or
+semantics we haven't seen anything that that that neat yet so yeah so it's not
+blind mean learning learning some it's learning something which has a physical meaning but you made the point that it's
+Perception
+it's also an error to correlate it too tightly to brain function because that doesn't really a dozen it's not because
+no so even though I said approximates humans perception system it's really the hearing system right it's not the
+understanding part it's the hearing system and we know exactly how hearing system function we know very
+very well we don't guess but how how our minds functioning and understanding the
+meaning we don't know we're activating our you know I mentioned 100 billion
+neurons and 100 trillion synapses to get that until we have new network of that
+size it's hard to come up with something similar to human cognitive ability so
+it's not we don't have that so that's why I say it's no coincidence that we
+can use we can explain what CNN is doing for perception so speech recognition and
+emotional condition are both perception problems perception is actually easy
+because we understand human perception how our skin feels the temperature we
+actually understand the physics of that very very well but once you go into an understanding which is language
+understanding which is the trance you know if I want to use a noisy channel model it will be from words to meaning
+right once we're getting into the realm of that we are kind of clueless as to how humans so there are a lot of
+linguistic theories about how humans think we must understand but you know
+for every language Theory there are other people who say no right so there is no no there's no scientific truth
+that we all share right now about how human mind understands language or
+understands anything else how do you know a video of a cat is funny or not
+how does our mind interpret humor we actually don't know a lot of marketers I
+know so yeah how do you predict for example one thing we were asked since we could classify music we were asked by
+companies say hey can you predict whether a song is gonna be a hit or not
+or not be amazing no you know because you know even we look at big data of all
+the past hit songs yeah I can learn it cannot predict what the
+next one not yet maybe so all we can do right now is use engineering models to approximate input
+and output you know what I mean it's really a mimicry like just looking at this input can we come up with output
+that's similar to to the truth so we're not no we're knowing anywhere near to
+imitating human minds and that would be even though so even the term deep
+learning is a new term for something that has been around for a while so that's a particular kind of machine
+learning right it is it is no deeper let's say there are the kind of machine
+learning methods is the terminology and also your network it's a very very
+rudimentary kind of neural network you know for speech recognition that might be tens of thousands of neurons for
+emotional recognition much much fewer so that cannot compare to the human brain
+Emotion Recognition
+one of the things that I noticed in your presentation is the when you're doing
+the emotional emotion recognition you're mapping it to kind of the you know these
+names common names we have promotion angry sad yeah is that model even too
+simple or is there an underlying more nuanced model for emotion yeah well so
+there's a lot of research done on the underlying model for emotions such as
+valence arousal you know and there are models that try to protect that first before they
+predict the final label and to interrupt you because I saw the slide but these folks haven't valence arousal those
+valence is like the strength of the emotion and arouser is the string okay valence is the positive and negative of
+the emotion and so the various you know angry sad cool yeah it's a combination
+of they're a combination of different values of valence and arousal this is
+one emotion theory so these are models the psychologists came up with
+to try to organize what we know about emotion and so it's just human minds
+were symbolic animals you know we need to have names we give them so everything yeah so it's just easier for us to give
+a name to emotion so we know what we're talking about yeah rather than give this vague you know number right valence
+arousal if I tell you all this is valence or also this and this number you wouldn't know what I'm talking about if
+I say he's you know he's showing happiness on his face you kind of kind of know so it's kind of a emotional
+recognition is kind of like speech recognition when it was only recognizing isolated words it's oversimplified for
+sure yeah we're not good at all with emotional conditioning you saw my slides the
+performance is nowhere near the ability the performance of recognizing words
+recognize the emotion is much harder right right now one reason is you pointed out is that it's hard to define
+what emotion is you know for example maybe it's easy to see if somebody's
+happy but is he smiling because he's happy as he's smiling because he's trying to be polite right and also what
+about emotions like frustration how can you tell sure some some some things are obvious
+you know when someone's frustrated if they're rolling their eyes or something but there are other times you know from
+the voice from the tone of your voice we can tell a lot of things right but we
+cannot tell everything all the time so it is a long ways to go you saw the
+accuracy the accuracy these days even the best commercial systems is just like 60 percent you know at most 70 percent
+and speech recognition we're talking about above 90% right so there's a long
+way to go for emotional recognition and especially some more complex emotions like humor sarcasm sarcasm yes sarcasm
+and humor and and deceit you know is
+this person lie right and there are colleagues in the field who have come up with systems that
+there has some nice um percent accuracy in detecting deceit and literally performs better than humans turns out we
+are now very good at detecting receipt we're not good at all and humans are not very good in recognizing emotions yeah
+you know what we found with when we did some human subject studies is that we
+found that women are better than men
+there was actually quantifiable and then women can detect motion across languages
+language in language they don't know interest also better than men in the same language so you can talk about why
+the reason you know we're programmed to be mothers we must recognize the emotion of the baby early on and I think there's
+some merit to that soon although I am NOT an anthropologist I cannot prove
+that but yeah and then the reasons you
+know you see there are a lot of women who are nurses doesn't mean men cannot be but just happen that way alright a
+lot of the caregivers are women you know
+kindergarten teachers you know just nannies you know so if we want to build
+robots we want them to be more like that one pathetic all right great well thanks so much for
+Outro
+taking the time to sit down with me it was a great discussion I really appreciate it thank you would you like
+to share how folks can find your research or are you on any of the social media that works well it's easy to
+google my name okay which is Pascal faux pas al e phone is fu ng if you google my
+name you come to my website which lists all my our publications our projects and
+all that and they interesting and they can email me via that website as well great right great well thanks so much
+thank you alright everyone that's it for today's show if you enjoyed this show or
+have something to add to the discussion please leave a comment on the so notes page at Twilley i.com slash
+talk / 9 or tweet to me at at sam Charrington or at to MLA I to let me
+know what you think thanks so much for listening and catch you next time
 
 ----------
 
@@ -1097,11 +3012,471 @@ paste here
 --08--
 
 -----
-Date:
-Link:
+Date: 2017.03.01
+Link: [# Deep Learning: Modular in Theory, Inflexible in Practice with Diogo Almeida - #8](https://www.youtube.com/watch?v=DIVfEMf3dfg)
 Transcription:
 
-paste here
+
+Introduction
+hello and welcome to another episode of twit talk the podcast where I interview
+interesting people doing interesting things in machine learning and artificial intelligence
+I'm your host Sam Charrington the recording you're about to hear is part
+of a series of interviews I recorded live from the O'Reilly AI and strata conferences in New York City last month
+I'll be sharing these interviews on the podcast over the next several weeks and I'm sure you'll enjoy them this time I
+interviewed Iago Almeida senior data scientist at healthcare startup and lytic Diego and I met at the AI
+conference where he delivered a great presentation on in the trenches deep learning titled deep learning modular in
+theory inflexible in practice Diego and I discussed the ideas he presented which
+are centered on the data software optimization and understanding issues
+surrounding deep learning Diego is also a past first-place Cagle competition
+winner and we spend some time discussing the competition he competed in and the approach he took to win it Before we
+jump in a bit of a listener warning our conversation gets pretty technical pretty quickly I do try to make sure to
+summarize key points from time to time and I really think that if you hang in there I'm sure you'll learn a ton of
+course let me know how you like this level of detail I'll be including links
+to do go and a bunch of the data sets and other things that we discuss in the show notes which you can find at Twilley
+i.com slash talk slash eight also as is
+the case with my other field recordings there's unfortunately a bit of unavoidable background noise sorry for
+that and now on to the show
+Meet Diogo Almeida
+alright hey everyone I'm here at the O'Reilly AI conference and I'm sitting
+with Diogo Almeida who just did a really interesting talk on deep learning and he was kind enough to sit down with us and
+talk a little bit talk a little bit about what he talked about Diogo why don't you introduce yourself cool
+I'm Tiago Mehta I work at this supercool medical deep learning startup where we
+work on giving like really accurate really fast really safe medical diagnoses and this is something that we
+hope will completely change the world before that in past life I was a
+mathlete so I broke a 13-year losing streak for the Philippines in the international math Olympiad was in the
+top team in the world at the interdisciplinary competition in modeling and there's a website for
+machine learning competitions called kaggle that I won first place on in one competition as well one was that this
+was in 2013 because the cause-effect Paris challenge tell us about that oh
+it's just a very weird challenge where in most machine learning you have like
+tabular data so you know like you have columns of features rows of observations and in this problem your data was pairs
+of sequences so you have something like altitude and like one exact one observation is like altitude and height
+and you have like a pair of sorry a sequence of pairs of like which altitudes correspond to which heist in
+some unordered manner and the idea was given this you're supposed to predict whether altitude is causes height or
+height sorry the Alton Hydra the same thing I'm Ehren altitude in temperature right so you were supposed predictive altitude causes temperature temperature
+causes altitude and obviously that alidade causes temperature right for us uh-huh but there's a lot of like very
+complicated tasks that we don't know the answer to and it's kind of like the basic task is to if you know the saying
+correlation doesn't imply causation right it's supposed to do the opposite of that so you're supposed to figure out
+how the correlation implies causation okay which is extremely useful because you have like lots and lots of observational data right it's very hard
+to have like a controlled study so the more accurate we can get a view of the world from purely observational data the
+more we can either have informed priors before running the control study or figure out
+how to order the controlled study in an appropriate way okay and this is also the kind of analysis you would use for
+Diogos background
+like a root cause analysis or something in like an IOT use case where you've got all these observations and you're trying
+to figure out what the the underlying condition is or I'm not as familiar with that there are there were there was
+traditional statistical work and there was a that actually was a background for this topic but I kind of didn't paid
+much attention to that because I kind of went my own way and it was much more for fun than for winning and winning was a
+very nice side effect nice and I I went to a much more like software oriented
+way of just like build a really complicated powerful model and have it
+solve this based on like rather than like hand engineering stuff why not just like automatically engineer a lot of
+informative variables and then solve it with that okay so can you walk us through the process like how do you how
+Diogos methodology
+did you formulate a methodology for attacking that was this your first cattle competition or had you guys my
+first serious one I I've done like one or two before that I didn't really like really spend much time on yeah but like
+you know you quit like after two days because it turns out your teammates weren't useful or something like that so
+I have like played with it before but I've never really gotten all out until this one so my methodology was well some
+background is that there are like statistical tests with people use you know that did very well in this task
+okay and or sorry that people used to using this task and put it roughly in
+perspective these godlike points six ish a you see so you see a paper in nature or science about a new test for
+causality probably gets around point six a show you see okay you see for those that don't know is area under the curve
+and that's a performance metric yeah so we were we were solving a ranking problem okay we were trying to rank the
+outputs given that we know which ones were which ones caused each other just a little bit of complicated metric because
+we actually had three output classes so we did like a bi-directional AUC but that doesn't really matter much
+and so these tests would like point 6hc they're roughly a single feature because it's just the prediction you extract it
+directly from the data the most of the other competitors in like the top ten
+had you know tens of features or something like that and the second
+placer I think had like a whooping like 100-something features okay and I had
+fifty thousand so okay so what I did was I found like a very simple way of
+determining causality which would be the rational B if X causes Y then Y is a
+function of X you know there's noise in there somewhere right so roughly you can tell how good one is a function of the other based on
+how well they can be approximated by functions and this is kind of like a very vague like recipe for how to create
+these features but the ideas are rather than you know hard coding statistical tasks like you know like add a Gaussian
+integrate this thing out whatever I just figured that we have an entire field of curve fitting which is called machine
+learning right and these are often like built after natural like very natural priors so the idea would be try like a
+ton of machine learning algorithms all of the ones through computationally feasible try different metrics for what it means because v is this is it's kind
+of like a not like a very exact term right like throw like these are all the features now throw them all into like
+big boost decision tree um train this thing for a week on like a
+fifty core machine and then you know take a nap the entire time so that was
+roughly my solution Wow and so the solution was that was
+primarily based around the boosted decision tree as opposed to some super complex ensemble or some yeah actually
+it's a weird story that for this competition I was so far ahead for
+almost all the competition I didn't even try so the what was it like for
+basically everything beyond the last week like you know like maybe a month or a month and a half before I even saw the
+competition late I was like so far ahead that the between like me and second place was like the equivalent of like you know
+second and like 50th or something like that oh wow so I was like feeling really confident and I actually stopped pay
+attention to this because I felt that like oh this is gonna be easy right but
+then during the last week you know someone you know people started sharing their solutions like I only got 10th or
+something here the features I used and all of a sudden like everyone started rising okay and this is definitely by
+creating ensembles of everyone's different solution like people likely kind of hinted at with it but I think
+there's only one person but like they had like a lot of good stuff in there that other people started using okay and once people were getting performance they like to make more of it or
+something like that so people are signing to rise right right and like I didn't haven't even in sümbül this far
+and I unfortunately had a model that took out like a week to try and think I said yeah so and I only had a one week
+left for the competition so I decided that I tried like a few last-minute
+attempts at since Tom Blaine uh-huh but nothing beats my like my super big one week long model okay
+and so I just stuck with that thing and that ended up actually winning and it actually was very scary because people
+ended up passing me on the the trainings on the validation leaderboard yeah but
+in testing your body was like was completely flipped because by day overfit yeah they oh they like they had
+like hundreds of submissions while like my best submission was like my sub tenth it was like it was Labor's very like
+hands off competition for me I cared about it a lot and I like I wrote like lots of software that was I thought nice
+um but like I was really I really really thought that would have been like an absolute slam dunk okay so it's exciting
+though okay so where did the 50,000 features come from so you can imagine
+like exponential growth when you're just trying like every combination of this with every combination of this you know there was like every combination of
+metric that I can think of every combination of machine learning algorithm that was like computationally tractable there was like symmetric
+features so you could like augment your thing with like different features because like it doesn't matter if your
+eye is right there was a a new instill a
+n-- when i talked about the competition we is not all of the input was numerical
+some of it was categorical okay and like it you just can't like throw categorical data into a numerical algorithm right
+right so it becomes actually a complicated problem how do you compare those different ways of calibrating your baguette or something like that well I
+mean either you can it's very easy to convert the maracle's categorical yeah but you lose a lot of information from your ID so what I did was I did
+different ways of converting from like like this is like a categorical
+numerical pair metric you know this stuff like compare you know compute sorry convert numerical to categorical
+via like clustering or bidding or something right and then you know when you want to convert categorical to
+miracle you do something like the PCA you know like get the first principal
+component or something like that in projection to the first principal component and basically are just looping through all of these things so you can
+imagine like a lot of less than four loops okay in the end I had a bunch of them so like if it ended up with like 50,000 - and I almost skipped a detail
+there which is I also used a feature selection algorithm and I'd like to make it a little bit smaller my gosh help
+performance a bit but it ended up not being important okay I usually omit but for the sake of clarity that was also
+done okay okay wow that sounds pretty cool and now that was a little bit of a
+digression interesting story though yeah
+absolutely absolutely generalized to new problems as well I believe the competition organizer was applying it to
+some sort of biology problems and they were showing that it actually predicted causality on that as well oh really so
+yeah hopefully that kind of thing could be really useful oh nice nice but what
+Deep learning myths
+you were talking about here was deep learning yeah and I didn't catch I
+didn't catch all of your talk I caught the last bit of it but it seemed like
+what you were going through kind of a bunch of war stories lessons learned like you know you hear a lot about deep
+learning you know but there are a lot of things that people broadly believe about deep learning that actually are false
+and why don't you explain kind of what your intent was for the talk and I kind of
+walk us through you know an overview of what you presented cool so the way I see it is like there's these two competing
+these views on deep learning like upstream views which is deep learning will solve all our problems and learning
+is complete garbage or less sorry it's all hype yeah an exaggeration with maybe for exaggerating views you can say that
+and there's evidence for each of these views you know like there's some amazing results of deep learning there's some mate like extremely poor results on deep
+learning right and the idea is that like these are not as informative of the stuff in the middle so the idea is that
+you draw all this evidence in like this one dimensional plane you know you'd like try to like draw like a max margin hyperplane you might
+get like you this interesting decision boundary cuz like this is where the interesting stuff lies like this is the stuff that's going to be moving slowly
+over time if deep learning is doing well all right or the other way if people are starting to like find all sorts of failure cases
+and the idea would be if we talk about like these examples and like the edges
+of our understanding or the edges of our everything or like edges of you know like all the things are limiting deep learning
+nowadays and like keeping us from solving all of our dreams that can hopefully give people an impression of
+like what everything else is like because it's like just very extreme on the other ends of the spectrum and I feel like that's just not very much
+talked about because when you said like a lot of people are on the deep learning hype train or kind of being sat at home
+and like being grumpy because now all of the all of the questioners are silenced dry hmm
+so if we kind of map out what the coroner cases are and the failure modes
+Understanding deep learning
+and things like that it'll help us push forward our understanding of this thing is the basic premise and kind of like acknowledging it also helps I don't
+think what I did was the greatest acknowledgement of it but I think it was a more thorough one than I've seen before uh-huh and realistic especially
+in that I think that sometimes just understanding your problem really well um really helps you to solve that
+problem so I know now that I mean like I do research as well and this stuff's
+very important to me and by looking at it from like a kind of a higher level I
+can kind of see better like this seems like something that looks really promising to me or this
+doesn't seem promising at all right like for example one of the problems with
+deep learning nowadays is everything's very local right like um you can all come in Watsons you use the gradient
+right or maybe higher order derivative e things but they for practical purposes
+use the gradient and this can be insufficient for some applications right and it makes you like life like going to
+a higher level maybe I can start with a lower level right like SGD doesn't work
+for my spatial transformer network this is unfortunate like let me try ad and
+let me try our miss problem but if you go to a higher level you realize that the problem is the local learning the spatial transformer network not
+necessarily the gradient descent so to tell us about spatial transformer networks are yeah so this is just one
+example I use of a kind of network but it's very easy to see the issues of
+local learning with it's very nice because it's a differentiable Network it's very easy to see exploration
+problems in reinforcement learning domains this is one that you have a derivative of and it should be easier to
+optimize and it is but you sometimes don't get what exactly you you it doesn't like to feel its full potential
+so are you kind of seeing that there are a lot of people coming into the space that you know that you know try to throw
+Spatial transformer networks
+deep learning at a given problem the common way of solving it is using stochastic gradient descent and they
+don't really think about you know how that's working in that it's you know finding a local optimization and there
+are some problems that you know for which they get kind of stuck in that local and that is unfortunately the case
+like I have seen many people introduced to deep learning who think that let's stitch together and architecture that's
+differentiable in a bingo bango collar day we've like solved problem X right like they there and they realize the
+latest that the limitations of requiring large data sets but they they think
+that's what it amounts to and I think often times very often times it doesn't so back to spatial
+transformer networks what they are is basically instead of like a single metric that learns how
+classifying image you have to networks one of them learns which part of the image to look at and the other part
+takes what that network looked at and does the classification on it and this is a huge advantage because a lot of the
+times your input image might be really large and you don't want to run the network overall all of it it might have
+like unnecessary information it might be really useful to like co-localize so
+like have the where as well as the what there's really good reasons to use this and in fact if for medical problems if
+it worked well I would use it for everything number one number two is if it worked well I'll use it for every computer vision problem because what
+these spatial transformer networks can do is not only find the region but it can also transform the region into a
+canonical location so rather than having to learn filters of like cats at every orientation you might have to learn
+filters of cats at only one orientation which like would reduce in resulting like much better date and parameter efficiency but back to the issue here is
+that you have these two networks that are they're not competing but they're working together but they only using the
+current network the current other network as its source of signal basically so if your classification
+network gets really good early on in training your localization network gets stuck in this Optima right because like
+if it changes anything at least a little bit your classification network will do worse so like the gradient tells it's like hey hey just just stay where you
+are you're pretty good or move you a little on the small region right which might be very far from the intended purpose right if like correctly like
+zooming all the way into the thing you care about and like rotating it a lot and on the other hand if the spatial
+transformer network converges early so imagine the classification network is garbage it might the zoom into like
+regions of the image that are just independent of the class but makes the classification network tends to perform
+a little bit better on so it might like for example if you're trying to classify
+kinds of dogs or like imagenet and it turns out like your classifier starts
+out like just being good at telling grass means dog and the localizer noticing like just zooms into the grass
+right like to zoom-zoom-zoom grass and basically you've cut the dog out of the image in the moment you can cut the dog
+out of the image you get no gradient signal and when you have go no green signal you're stuck there forever
+and this is a problem that people just don't really like to acknowledge in networks right like that's that's
+actually a very complicated relationship because now you need to like maintain a balance and all of that and I don't
+think people even know how to do that like people don't how to do it - the generative adversarial metrics either another example I gave of this yeah yeah
+Talk structure
+so what was the what was the overall structure of your talk so the title of
+the talk was deep learning modular in theory and flexible in practice uh-huh so I want I first wanted to talk about
+the successes of deep learning not should not get anywhere rather to show that deep learning is very modular and
+it can do a lot of things and you know get them into the mode like wow we can solve everything and I actually think
+that I had a somewhat bold claim than that first part which is that deep
+learning today steep learning components can solve any problem any like
+computable problem if you ignore the practical aspect which would be I mean I
+think it's interesting to point out right because then now that you I salute that you know like the back glass specs
+are the issue right right and those Pecha aspects are data software optimization um in probably order of
+difficulty of how to understand them and the latter part of the talk I talked
+about these issues with deep learning like specifically data software optimization and then a final section
+and understanding just because I wanted to point out that while understanding is not necessary for like getting things to
+work which maybe is what we care about understanding is very necessary to make progress and we just it's amazing how
+little we understand about anything well let's come back to that maybe walk through the different sections so data
+Data walk
+walk us through the points that you were driving home around that okay so from a
+super high level it's that neural networks are extremely data deficient Maran they don't have to be that way and
+data efficiency is the root cause of all problems because if we were day deficient the size of data sets went
+matter right the data sets we use are kind of flawed in that like they have
+known issues that you know researchers know about and they new nations like they're noisy or like what kinds of known issues like
+penn treebank is a very small data set therefore making bigger networks is not very helpful because the overfits
+therefore you should generally only publish regularization research on it or
+something like that so you're referring primarily to kind of the known that kind
+of thing it's the kind of things that you know like the mainstream deep learning researchers published on to write in to them hey I have something
+cool use my thing right and that is I mean it's important right like the
+alternative is publishing they said no one knows about which is also very hard to get any information from but well one
+Reproducibility
+has kind of a is almost like a reproducibility kind of issue where there are elements that are inherent to
+the data set that you know drive towards or require a certain class of solution
+yeah it's a horrible state of affairs where like you need to like if you you
+know you read a paper the paper usually has a high level it doesn't have all the little details have some notes for and you implement the paper exactly as it
+says and it gets not anywhere near close to what they were they had right and
+you're like yo what the f and then you know you maybe you email the authors
+maybe they eventually reach the source code and you run the source code cuz you won't believe them and you're like wow they just reproduce exactly what the author said it turns out like it just
+has like a bunch of magic hyper parameters like you said you know LT regularization to news you need this learning rate schedule for
+sure use this optimizer and also preprocessor your dataset in this way and sample it in this way mm-hmm and
+like these are all things that you really want to be robust to right and you just you just aren't right like that
+is it's it's a very unfortunate like aspect of the world right like uh huh
+you're you're put into this position where if you don't do you know if you
+don't play the game you never get stood up the odd results and people don't listen to you you do play the game I
+mean some people listen to you but some don't because they know the game mm-hmm but then like it's the only way to get
+people to see your thing mn by the game you mean in terms of the researchers like there publish you know you know winning the
+Research
+competition's for whichever data set there is usually it's usually like you
+want to get people interested in your papers yeah and it's very different if you just didn't care and you wanted to publish interesting things right right
+but if you want to get eyeballs sometimes like unless you're already a respected person it's kind of what you
+have to do yeah right so like ID like it so sometimes that
+kind of thing is important I think that it's kind of very qualitative thing and which is unfortunate in the data world
+that they gets to get a feel of a data set like Wednesday's that's starting to get like really overfit mm that perhaps
+it's not useful anymore and I feel like some research it's like qualitatively feel that about like so far 10 and so
+far 100 especially so far 10 I'm not represent sure but if I'm 100 isn't watching a data set this is a data set
+of 32 by 32 RGB images okay it's a popular use baseline because it's
+a very small baseline and images of anything in particular see four 10s 10 classes okay 10 Coleman classes and they
+are the popular data set because it's a really small data set 32 by 32 images you barely see anything and it's not in
+mist because people have like basically decided like and this research is not enough mm-hmm so like they just don't
+listen to em this research at all all right it's starting to be that way pretty far down mm-hmm just because we're getting to be so good on it now
+okay yeah there's known limitations that
+makes it it makes it hard if you have a genuinely good result to tell people if
+you have a genuinely good result mm-hmm especially because like as you scale up like it's also very computationally demanding right so and you you describe
+Data Overfitting
+the the data sets is being over fitted oh for sure which I explained elaborate
+on that because I tend not to think of data as being inherently well the
+community is over fitted they said not even the algorithm itself oh there's actually this cool test that someone did I can't remember who where
+they showed us like four pictures you know images and they asked like these
+are these are the four days that's the are sorry maybe not they said like do you know what they said this pictures from this pictures from this pictures
+from this picture right like many people did like CFR is a very canonical dataset um there's a places dataset my large
+teen understanding one right and there's image nap which like more general so and so you're basically saying that if
+someone can really know these datasets so well they are not generalizable yes
+like people have actually reported like native results are generally not reported as much right just so much of
+it writes a very empirical field so maybe this is uninteresting now but this just happened so much like people
+have noted that the inception architecture you know seems to work much better an image in it than it doesn't
+other tasks and it is a pretty complicated thing right right so maybe
+maybe that makes sense or I I've had friends that I talk to I'd hate that a
+lot of my references are friends but there's like the field moves so fast right that like sometimes even archives
+can't keep up which is I think super awesome for being a bit where and anyway they chat about sometimes how ResNet I'm
+oftentimes don't work for the computer vision architectures right or one of the the best practitioners of using
+continents a friend of mine standard yellow man he works at deep mind he has
+not been able to find batch norm to work for him and I find that to be really interesting like is it because all of
+his other parameters were too into batch norm is there something that he solves the Batchelor solves also that is not necessary
+mmm is this easy just wrong honestly I don't know but I think that there's a
+bunch of cool stuff there that maybe we can figure out right and and is this
+Generalization
+inherent issue inherent to deep learning or is it just the approach we've taken I
+mean I would argue it's not even an issue in deep learning it's actually like maybe we can look at the bright
+side of this I was like it's a miracle it even works so going to the
+understanding topic right there's as far as I know no practical theory in deep
+learning like there's nothing that can actually guide us understandings like there's what I call stories
+like every paper has like a high-level story if this is why I think it works yeah and if you like really try to vet
+the story really well you can like very easily like disprove it and I know of no story that's like 100% bulletproof so
+I'm willing to make that claim and so we have these stories and like the the
+guide people but they they rarely work out just useful tools unfortunately so what we have instead is empirical
+results what we do is we want generalization generalization is kind of like a lofty concept and we don't really
+know like it's not like you can in like traditional statistics you can kind of do that but like deepen it's just much
+harder to see if so many parameters like you can't really measure it well you can't measure the VC dimension but it's really it's so big that it
+doesn't matter there's a lot of things that what's the VC dimension its I
+probably would screw this up but I'll give you like my best like first-order approximation what it is it's roughly
+how powerful your model is so it shows
+it kind of corresponds to like how much data you need in order to get generalization okay so like very curvy
+powerful models have like a high VC dimension which means that you need a lot of data you see doesn't stand for very curvy does it know it stands for
+I know the V stands for vapnik and the C stands for another person's name yeah
+okay sorry so generalization like in a
+you know like in the very old-school machine learning sentence a sentence that I don't think we'll come back to personally like you could have bounds
+and like how much data you need in order to get like this epsilon difference between trainer vests and stuff like that and that's just not something
+that's gonna happen in deep learning and as long as we keep using deplane we're probably not going to get that right so what we have is empirical results and
+with these empirical results we just have a bunch of experiments and a bunch of datasets and we show like it seems to
+work in the datasets we've tried hopefully it works in everything and so
+like this is where you might see it as a pro but I sorry as a con but I see this as a huge positive deep landing right
+like it's actually super cool that it generalizes right like you can get a new computer vision to ask um I use computer
+vision because like that's one of the easier domains and you know kind of a ton of data you can just generalize you know you can
+use it to generalize you can use imagenet features to generalize on that but that's just not something that makes sense right um
+I mean like if you look at it from like a really strict perspective of like there's no guarantee that this should
+work but it runs to work and that's really interesting alright and I think
+that there's something about deep learning that allows it to generalize so well you know you can even generalize to
+domains that you've not even trained on I think there's been some work on generalizing imagenet models to cartoons
+and like even like cartoon drawings of the things that they were classifying sometimes activate or there's something
+related to that yeah so yeah it's a wonder of deep learning I actually there
+are some experimental result to try to explain after the fact why things work but without being falsifiable it's
+questionable how useful it is so perhaps maybe deeply exploiting some
+of these kinds of explanations there was a recent one on physics recurred that
+deep learning is the more like deeper the kind the class of things the deep
+learning is very good at fitting are a very like in very natural class of functions therefore since deep deep
+learning models only can fit like a sufficiently fit a small subset of the function space but that happens to be
+like a very common like based on physics kinds of functions that would occur okay
+so you started out talking about data and that overfitting problem and then
+Data
+tools was that the network software software software I there's two more things in data though okay is that the
+data we have which is problematic there's a data that we data we have and we use like datasets data we have that
+we don't use and there's like tons and tons of data that we have that we don't use but I think that we just don't know how to use well unsupervised learning
+multi task learning transfer learning we kind of use but we don't do very smart things I think and even like this
+implicit stuff like the trajectories of the networks that you've passed through maybe there's some interesting information there and the last kind was
+the data that we don't have that we needed like for example measuring these things
+that we really care about that we are just missing right now like we have we have no way of measuring
+long-term dependency like how well networks capture longer in dependencies we don't have like in general RNN benchmark mm-hmm we don't have a good
+benchmark for visual attention you don't have a good benchmark for hierarchical learning like how do we even know if
+we're learning hierarchical stuff right do we want to learn hair cool stuff I don't know but like if I would think
+that if we want to learn something having benchmarks were to be really good right so that was roughly it for data um
+I'm a software perspective it was more about like how the tools we use nowadays
+really limit what we can do and like every tool is flawed in some ways this hits home for me personally because I'm
+a software engineer okay and I want to use really good tools you mean tensorflow doesn't solve every
+problem in the universe no I think they introduced some really good ideas they
+definitely brought something to the table but it alone isn't enough um it
+might like the the like I think better things could be built on top of it I don't think that it's the low-level
+components that are a problem and I actually don't think that hardware is that big of an issue like a speak of an issue that people make it out to be and
+in in theory in practice if you really want to get the art results I think sometimes that's needed but there's like
+higher level problems that you can solve without hardware so the idea with behind software is that you can like very like
+easily see situations where like the
+software we have actually prevents us from doing what we want to do so I I
+think I have like two examples that really resonated with me where that an
+example of bad software is when it's
+easier to explain in words the technique benefits with code because ideally you want to like Express ID that you wants
+like the flow from ideas to code to be very easy and the flow from ideas to words is generally pretty good and that
+just means that you have a bottleneck and like words to code and maybe it's a reality of life we'll never be that simple did you
+provide a specific example yeah I had like a list of like many examples okay
+of like different kinds of tricks that are hard to do in various frameworks so
+the depending on the framework you do some things can be kind of difficult so like for what is it for
+Tricks and frameworks
+so when you say tricks and frameworks the the basic idea being you know kind
+of the at you know the research I did see that you thought put a lot of paper
+you were just showing a lot of papers which is great documenting kind of where the ideas came from so in the research
+you know we're introducing all these various tricks to improve solvability of the of the deep learning networks and
+it's not what I'm hearing is the tools are you know on the one hand you know
+great there and create they're raising the level of abstraction and making this stuff you know more easily adoptable but
+you know that also prevents us from implementing some of these tricks which have to be plugged in at lower levels
+yes so when I mention trick I use that as a general term of like this like one
+unit of thing that you do to a neural network like you can think of layers as
+tricks but ranks being more than just layers like for example an additional regularizer might be a trick right or
+doing like they could be pretty complicated I think like doing unsupervised pre-training might be a trick and the argument that I would have
+is that no framework makes everything really easy and easy in this sense is
+that I would I would ideally like it such that everything just gets solved
+for me like I'll be able to like yeah like this is probably not going to happen but we can get closer right like
+I would like to express like very declaratively like what I want this neural network to be like literally like
+take this neural network in this database apply this transformation run this transformation do like train on
+this training set like I want it to be that simple and I added like I don't think it can be
+but like striving towards that I think is good sure and like a lot of the frameworks like
+doesn't support a bunch of the thing like it makes it a large number of lines
+of code in order to do something rather than few mm-hmm so what should be an example like batch normalization is like
+a pretty simple thing right or sorry so it's actually not a very simple thing
+in terms of implementation but like many frameworks can do batch normalization very very well like my torch can do
+batch normalization amazingly because like they can just implicitly keep it state and in torch like each of the
+nodes applies its updates on its own like when flowing through the Grad and like applying the update so that's very
+good but tensorflow for example like in
+order to apply Bachelet you have to have to do quite a few things right like you need to create like some state for if you're doing the rolling mean
+approximation you create some state for the mean some state for the variance you need to make sure to like apply the
+updates to this thing you need to only apply the updates at training time and then it becomes like much more
+complicated and just like calling a layer on something right um depending on
+how you wrap it of course but it's like this this kind of things used to layer in Torah tried mm-hm and like every framework has its
+trade-offs but I just don't think that we are at like the efficient frontier yet of like this is like we like I think
+we can get benefits for free basically and I actually have written a few libraries that the try to get these
+benefits for free and I think they've been pretty successful I'm still experimenting with them because I think
+there's just so much to do there but it's a it's an open problem and are
+these libraries are these standalone frameworks or libraries to plug into other existing frameworks mostly they go
+on top of yeah no right answer flow okay cuz I think that there actually are both I think that they're both like very good
+baselines I'm a big fan of the computational graph I think the design of Theano is actually like quite
+excellent I'm a huge fan of Theano and its developer is it has the downside of distributed computing but I think that
+it's abstraction of was actually quite good but you can capture that abstraction level very well it's
+optimizations are like thing I probably wouldn't do by hand anyway so you get them for free it's it's a it's a
+very I'm more focusing on piano test flow similar but kind of has a mix of abstraction levels so I'm focusing in
+the low level aspect I think those lower aspects are actually like quite good like they might actually be on an
+efficient frontier of trade offs you know trading off like usability versus
+usability versus like um flexibility yeah yeah flexibility performance and I
+think that that's like there's that just one of you right like merluza you know have computational graph have like all
+the basic operations and they are optionally use an optimizer in order to do that like another view would be like the torch it all right catfish view
+where you bundle up the pieces of functionality that have a lot of like
+the highly optimized pieces right and like that's the view you go for a hat max performance I think it's also very
+different philosophically there's nothing wrong with either of these views I'm fine building on top of that there's knowing what you're using it's more of
+yeah it's more of the level and how you construct the computational graph which I think should be independent of piano
+or tensorflow like these are just different levels right like you could have like a really nice low level thing
+but change the high level thing on top of it and it should be fine which is why I not the biggest fan of tensor flows
+like many different abstraction levels and I think most well all of the best
+people I've talked to who use sense flow they kind of only use a little bit of it and they think that a bunch of it is
+like it's not the greatest but I I don't care I'm not using it okay and like it
+is those higher levels that I think is very interesting and like that's also where the user interacts with it right
+like if you're having Kody interact with Kody doesn't matter you can have like the ugliest interface anywhere in the world like your compiler can just you
+know switch things around and all of that stuff okay so data software was the
+Local Learning
+third fixation optimization so I touched a little bit into it with local learning yeah and Andre carpathia had a great
+quote which I can't remember off the top of my head but it roughly goes along the lines of that neural networks only do
+memorization they don't do thinking mmm and this is problematic because this
+already not as good but this brown line because we'd ideally like them to think we want them to do like cooler complicated things right that like blow
+our minds in a coolness right and they do blow our minds already but perhaps those things were simpler than we
+thought yeah and what's gonna happen when you want to do something pretty darn complicated yeah right like we'll see right like
+there's some tasks that we think that would require some pretty complicated levels of thinking in order to do perhaps playing Starcraft you need to
+like think many moves ahead and imagine what the opponent's gonna do in order to like take actions and Nolan Reese are
+not very good at imagining what to do yet maybe that will change but we'll see
+and and doing likes to say that um as a heuristic of what neural networks can do
+is anything a human can do in less than one second but I mean if that's a hard
+limitation mm-hmm then there's a lot of tasks so take more than one second for variable to do and right will this solve
+generally I for us maybe not like when you phrase it that way right so and it's
+like it should be possible right like it's modular in theory like you can't just just have architectures that give
+it a magic set of parameters would solve that task so smashing is how do we do that right and it's just there's just
+many tricks on that and I talked a little bit about the downsides of local learning how we don't pay attention to
+exploration in supervised learning and like mostly its attention reinforcement
+learning but we treat it as like obviously the plane like there is some implicit exploration because you're you
+know you're using stochastic gradient descent so your gradients noisy but roughly it wasn't noisy you'd you know
+be plopped on a point and you just kill climb down some direction and be stuck there and like you don't even know how
+good of a solution it is right all right so that's that can be I don't know like
+that that can be a very unsatisfying because if the answer is I mean this
+goes back to I was talking my life in terms of limitations like maybe local learning just can't solve this right and
+that would be super duper and satisfying cuz local learning is like our most a learning algorithm we have right like
+using gradients is really really good for trending lots of parameters like we're gonna have to have make like a lot of plant like a lot of different plans
+we want generally I without great this merit so yeah we're gonna have to figure
+it out so we're gonna have to figure out tricks and how to do this better maybe tricks for more principled exploration and maybe this will make it
+such that these won't be problems anymore or at least our will find much harder problems right though hopefully
+always be problems and that keeps the field going right yeah yeah but hopefully they're not intrinsic to the
+way we do optimization and people are making better optimizers yeah you know
+it's quite slow the progress right so data software optimization and
+Outro
+understanding and we talked a little bit about that earlier are there are you gonna post your slides up somewhere
+probably I think that well the I think I think that O'Reilly people but the
+slides up somewhere okay but they haven't asked me for the slides yes I think I supposed to do it after the presentation okay which is probably good
+since there was like last minute editing going on but it'll almost certainly be
+up somewhere okay and how can folks that folks want to learn more about what you're up to or find you do you have a
+github or Twitter or I had do have a github it's even though that's probably
+not a great way to come on what's the github.com slash do go di oggi o 149
+okay and probably email would be the best way this is something I love
+chatting about it would be di oggi o at oh god my company names hard to spell
+analytic which is e NL i TI c dot-com
+okay great cool thank you awesome hey thanks so much
+alright everyone that's it for today's interview please leave a comment on the show notes page at Twilley Icom slash
+talk slash eight or tweet to me at at sam Cherrington or at twilly i to
+discuss this show or let me know how you liked it thanks so much for listening and catch you next time
 
 ----------
 
@@ -1109,11 +3484,328 @@ paste here
 --07-- 
 
 -----
-Date:
-Link:
+Date: 2017.03.01
+Link: [# Explaining the Predictions of Machine Learning Models with Carlos Guestrin - #7](https://www.youtube.com/watch?v=MEJTxcfzvqQ)
 Transcription:
 
-paste here
+
+Introduction
+[Music]
+[Applause] hello everybody and welcome to another episode of we'll talk the podcast where
+I interview interesting people doing interesting things in machine learning and artificial intelligence
+I'm your host Sam Charrington the
+recording you're about to hear is the first of a handful of interviews I was fortunate enough to be able to record
+live in New York City from the O'Reilly AI and strata conferences that I attended last week I'll be sharing these
+interviews on the podcast over the next several weeks and I think you'll really really enjoy them I'm especially excited
+to lead off this series with an interview with Carlos Estrin now if that
+name sounds familiar it's because I've discussed Carlos's work on the show a number of times most recently when I
+discussed Apple's acquisition of his company Tori back in August in addition
+to Carlos's new role at Apple he's also the Amazon professor of machine learning at the University of Washington earlier
+this year Carlos along with one of his PhD students Marko Ribeiro and postdocs
+Samir Singh published some very very interesting research into the explained ability of machine learning algorithms
+my conversation with Carlos is focused on this research and the paper that the
+group recently published called why should I trust you explaining the predictions of any classifier this paper
+has been on my reading list for a while and I encourage you to take a look at it of course you'll find links to Carlos
+and the paper in the show notes which you can find at twimble AI comm slash talk slash seven a quick
+note about the background noise and this and the other on-site recordings they're not too bad considering the noisy
+caverns in which they were recorded but some of you might find the murmurs and bumps a bit annoying if you find
+yourself in this camp please accept my apologies and now on to the show
+[Music]
+so hey everyone I'm here at a strata conference in New York City and I happen
+Meeting Carlos
+to find Carlos gastrin who we've talked about on the podcast before he's the
+Amazon professor of machine learning at the University of Washington and we've known each other for a bit so Carlos say
+say hi hi thanks for having me here and it was great running into you it's great
+event yeah absolutely absolutely in fact I think we probably had a briefing like
+right and at this very table a year or two ago yeah and I think we method this event not very place right right that
+room over there yeah yeah yeah so I guess I'll say very briefly to the
+audience we're not in the most convenient spot for podcasting so if there's the occasional trolley rolling
+by just try to block that out because if you want some lunch is right behind us right but I'm sure you'll you'll won't
+About Carlos
+remember that at all because we're going to have a great conversation here first of all congratulations on the the
+acquisition of Tori Nadeau a graphlab yeah abiding people I mean that was
+amazing yeah we're very excited to work with Apple it's great awesome awesome so
+why don't we why don't we just start with introductions like introduce yourself talk a little bit about about
+your background I think a lot of people kind of know what you've been up to but sure I'm happy to share so well I'm
+Carlos Carlos guess me working with Delaney for a long time so I was a
+professor at Carnegie Mellon for about eight years and then the University of Washington since about 2012 and been
+excited about machine learning for a long time and worked on many areas of machine learning
+most recently copper has been exciting to me are really around dealing with big
+data and the two sides of that so when one side algorithms for machine learning that scale to very large data sets so
+how can you scale up to deal with tons of tons of tons of data and the second side is what I think about is the human
+side of machine learning so how can a human understand large datasets how can a human understand and what mission and
+the algorithm is doing and bringing some kind of human perspective into the mix so I think about those two sides the
+computer perspective and the human perspective of machine learning in large datasets and I imagine is also a fair
+Big Data
+amount of overlap and intersect between those and of course right so the bigger your data in a sense the harder it is to
+figure out how to make it work but it's also hard to figure out what's going wrong with that so debugging a machine
+learning algorithm that requires it to run in a cluster with tons of machines is just almost an impossible task and
+and honestly the way I think about it is that there's no machine learning without humans in the loop right now we're
+trying to build this incredibly intelligent application they're going to be self-sufficient and but we'll always
+have humans be part of the process at some point and so making that more human
+is a very important part to mission and it's very understudied in my field but
+it's something that I'm very excited to engage in as well yeah yeah so there's there's humans in the loop and lots of
+Explainability
+places actually and one of the places that humans are most certainly in the loop is you know on the the back end of
+a machine learning recommendation and your group has done a lot of interesting
+work very recently at least on explain ability can you talk a little bit about
+how you value arrived at that yeah so so just again in one sentence we're
+interested in being able to provide more transparency to machinery Meo to explain why emotion or any model makes a
+particular prediction or why behaves a certain way now we fell into this
+thought that kind of interestingly in various ways so for example in academia were working with various folks in
+application domains and we said oh come use machine learning solve this problem is gonna be awesome gonna change your
+life and their response was like sounds great but why should I trust this model
+what is it doing right and I was like it's got great accuracy so that's one
+side but somehow unsatisfied it satisfy no it's not enough it's really not enough okay talk about why it's not
+enough and then on the other side once we build a company around machine learning you know three data graph we
+start working for other companies that brought machinery into production and there was always a step that nobody talked about what was very fundamental
+you trained the model to do something recommendations or whatever predictor and predict fraud right anyone deployed
+into the service that every time you swipe your credit card it makes a prediction about fraud right you don't just make that happen on the Box you
+know make sure that model is working well and is doing things for the right reason because if it's not you're gonna get fired right you really want to
+understand why that thing is behaving the way it is so we by talking to notice that I we've talked about on the podcast
+Legislation
+before in Europe there's legislation that's coming down the line there's mandates explain ability for machine
+learning and predictive applications yes there's legislation Europe and not just that even in the US for certain
+application domains in the financial sector they mandate certain models you
+are allowed to use versus others because they believe those models to be more interpretable or more believable or
+something and so for certain tasks in that sector you you have to use a particular kind of model okay
+it's and and that just you know blocks a lot of the high accuracy models you
+might want to use so it is a real issue and I think that issue gets a bubbled up in three areas so one is discuss general
+use of a model how can they gain trust that service is doing things for the right reason so if I go to some movie
+content recommendation see Netflix I want to know that I got recommend the Lord of the Rings because I also like
+Star Wars that gives me a sense that thing is doing the right things it recommending things that make sense to me and they can begin to gain a
+relationship of trust with that artificial intelligence system underneath so that's a kind of a more
+personal consumer thing but if you think about from see a decision that's really
+important the really life change like a doctor making decisions about the treatment of a patient right there you want transparency so if you
+Transparency
+have a system that says the patient's gonna have cancer with 90% probability
+most doctors are gonna ignore that system because they might not trust it and also because there's a holistic
+approach to medicine that we want to have where it's not enough to just make that one prediction but if the system
+were to say you know this patient is likely to have cancer because if you
+look at their MRI results you see this lump and if you look at this related
+cases they were diagnosed in the same way or and if you look at this latest study this all corroborates the evidence
+then I can gain a more holistic view and I can gain trust in the system so that's the second piece it's kind of gaining
+deeper insights as to what's happening in that prediction and the third way which is more kind of personal for me is
+as a data scientist I want to be able to make the models always better and I want understand when it's working what's not
+working so they can improve it and so those three areas public perception of
+machine learning making more informed decisions not just a prediction for machine learning and improving the
+models through feedback and so transparency and explanation gonna be indispensable to make that happen
+and unfortunately as a field we haven't invested enough in that topic right right but you guys have started to invest in
+New paper
+this and you was it a month or two ago you published a paper there yeah the paper came out just yeah a couple months
+ago and it's a resistant called Lyme that my student McCrory Bader and postdoc Samir
+saying wrote some years now a professor UC Irvine um and we wrote this paper
+based on the feedback - were hearing and the need to do something more in this area and it means some other works in
+the kind of explain ability machine learning but what was unique about the perspective that you know Marco and
+Samir brought into the world is how they approach the problem so a lot of the
+work in machine learning has been about finding models they're transparent or explainable I talked about in the
+financial sector so this models have to be simple so that somebody can understand it but the problem with that is that a simple
+models than to be inaccurate right and so you're compromising accuracy for
+explaining variety and that's what is the wrong compromise to have in fact when you are making the comment that you
+drawing the analogy with Netflix earlier I was thinking to myself you know it actually kind of rather that Netflix
+Netflix analogy
+recommends movies that I want to see and not tell me how it got that then recommend movies that I kind of know
+really yeah yeah it says it's read this is the reso right so actually do it but
+but for me the way I'm thinking about is accuracy is number one right you wanna
+have high accuracy for the right reasons but that's the main thing otherwise you're not gonna be able to solve the
+image processing tasks that we've seen solved really well deep learning today yeah if you don't have the most accurate models if I want to allow to use a very
+simple model like a shallow decision tree you're never gonna be able to detect objects in an image right so
+what's the point right you know we're not gonna build that kind of deficient telogen system so what we did was say
+okay let's take our accuracy as a requirement right and so that means that
+we want to be able to give a data scientist the flexibility to choose any mother they want yeah and the question
+is can we provide an approach that can explain the prediction for any model right that was like the question and I
+think it's a really beautiful question and you know the way that the work came
+together was was really interesting of course it's only scratching the surface of the possibility but what basically
+Marcus Muir did was come up with a system that says okay I want to explain a particular prediction why did you like
+the movie or why does this patient have cancer and the way we're going to explain it is in a simple way it's good
+just for this prediction and we're gonna do it by highlighting the pieces of the input that we believe the model was most
+important for the model to make this decision right so for the doctors example it is this particular area of
+the MRI this particular studies they're going on this related cases so that's
+kind of a small explanation for the recommendation system Netflix that you are unhappy with it might be that the
+underlying systems complex and very accurate by the explanation were to give you it's kind
+of very simple but some hearts to be faithful right it has to say it behaves like the model for this particular
+prediction it's not like the model only uses you know Lord of the Rings for
+everything but for this prediction that's what was what my right right so that's how we we went about doing that
+and you know we we did a bunch of user studies that really showed that this can
+be very powerful and can be used in various ways so it's pretty cool what's the nature of the user studies so one of the really cool user studies that Marco
+design let me let me just step back and say it's really hard to evaluate explanations because it's a subjective
+thing right how do you even figure out that's doing anything interesting and so Marco and maybe if it's if it's better I
+How it works
+want to get into kind of how it works and what the what the research actually showed if it's better to do that first
+we can do that first and then circle back to the users is it is you're the boss so let's let's talk about how it
+works okay so the way it works is to say I want to have a particular particular
+prediction I want to explain why was made why did the model make the finish in the same way and the way when explain
+it is let's look at the behavior of the system the behavior of this complex model around this prediction so not
+everywhere but around it so for this particular patient I'm going to try to explain why the model thought he had
+cancer so let's look at patients around that some that were predicted to have cancer by the model assume they were not
+predicted to have constant by the model and fit a simple explanation that
+explains the difference between those similar patients it doesn't explain the difference between every patient just
+patients are kind of like you so patients that had most same characteristics as you that have cancer
+had this things going on and paste in the smoke actresses you that don't have cancer and these other things going on
+and that gives me a lot of sin sites for this particular decision and that's how okay more or less how it works
+so as a coarse approximation of what I'm hearing take the example of
+that you use in your course you know predicting real-estate prices based on a bunch of different variables it almost
+sounds like you know you might have a model that's a regressive regression
+model that's predicting based on house size right and the the the the lime
+system is almost a reverse regression that's going the other way like predicting what the inputs might be
+based on the output so one way to think about it is house prices are very
+complex it depends on the neighborhood you live in yup the the characteristics of the house everything about it there is a simple
+explanation why your house costs showing you five million dollars right that's how much your house got and so X can you
+give me a raise so so uh you know why
+did your house cost I mean why did the house cost certain amount who knows really complex the models can be very
+complex right but your specific house can I explain why the model presents five million dollars that's very doable
+I can look at your house and I located similar houses the like it and I can fit
+locally a simple model with only a few variables they were most important that's basically let's say linear and it
+says around your house the variables that were most important were square
+footage and zip code and the number of
+bathrooms mm-hmm that's real important for $5,000,000 house mm-hmm for for uh you know five hundred thousand dollar
+house it might be a different thing is more important mm-hmm and so that's the kind of thing that the model will say
+right so in so that's that's kind of how it works it provides the key pieces of
+the import they were most distinctive for a particular prediction and as I
+said this is one way to do explanations which scratching the surface there's all sorts of other ways you can imagine doing it and I think there's a lot of
+opportunity to do even more but one of the challenges is how do you figure out if this makes any sense whatsoever
+if these kinds of explanations are good if the algorithm is working at all like there's so many dimensions that this can
+go wrong yeah how can you even figure out if this is at all reasonable right
+and Marko Samir and I spend a lot of time banging your head against the wall
+to figure out how could even test this how can you even measure it I mean
+explain my explanation and a marker had a couple of brilliant ideas that really
+surprised me and so let me let me give you one of them so he wanted to know if
+explanations are good and intuitive that would mean that somebody who is not a machine learning expert a layperson
+could look at it and make good decisions from it okay so that's it that's what that's we thought so how can we test
+that hypothesis mm-hm so he the two two tests validated the hypothesis in a really brilliant way so
+the first one was if I can interrupt you yeah it sounds like the that the aim of
+Human readable explanations
+the research was not just to spit out like an ordered list of features in
+terms of you know weighting or importance in the output but more generating human readable description am
+I reading too much into this or is that it was a human interpret about human interpretive all necessarily readable
+okay that's one way to explanations can be many things right we explored the human readable explanations in the
+visualizations we explore different ways to explain things okay
+but yeah so so here's the experiment that he did which was pretty brilliant so he took a data set and just a little
+background which is kind of a funny story that I just told there's this famous data set called the twenty
+newsgroups data set but why like twenty newsgroup state news groups okay a dataset that's been around for about
+thirty years in the machine learning community and it's from newsgroups which you might not
+know what they are but they're later called forums yeah now called Facebook pages right the way they have a topic
+and people talk about the topic and they post things right and the data set was famous because that it was given the
+text of the posting can you predict whether this was about Christianity or atheism or hockey or computers or
+whatever the topic was and basically any more emotional approach gets 94%
+accuracy so everybody use this data set in their in their classes like I use in
+my class I said oh my Sheila is so cool gets 94% accuracy when Marco run his explanations on that it turns out that
+the main features being used are things like the email address of the poster okay like so Sam at gmail.com
+always post in the I don't know what your interests are and let's say podcast
+news brings up podcasting yeah rector forecasting clearly and and
+obviously it's a great predictor right but it doesn't generalize to somebody else right and so it's not a
+good feature it's a good feature for you another good feature for the world right and so if you remove that those kinds of
+features there are Christian went down from 94% to only 57% yeah so the state
+has said that everybody has used for decades a mission listen well actually
+so well Wow anyway about CDF and explanations so the question that he starts coming back to the user study was
+as an expert he discovered this with explanation can somebody who's not
+machine expert discover this and improve the performance of machine learning system we took this data set and any
+there was one getting fifty seven percent accuracy and then clean the data as much as this curve scrub the scrub
+scrub to remove all this bad features and retrain the model and use able to get about 70% accuracy okay by removing
+all the bad features like samma gmail.com and now and then coming up
+with a new model or new model train on that train on the same day that's the go sound the clean data and
+there was the dirty data yeah and the question was using explanations could mechanical Turkish who know nothing
+about machine learning and identify bad features we don't we said look at explanation just cross out things that
+you think should be relevant for this decision are interesting we didn't say anything else just cross out things that you think are irrelevant and we thought
+okay good crossing it out get performance of clothes to Marco's gold
+standard mmm from known experts meaning so you ran the you ran the lime system
+Explanation system
+the explanation system begins the dirty data set yeah you came up with these explanations and included things like
+emails that should be irrelevant and you asked if turquoise yes turquoise if they could figure that out figure out what
+parts of the explanation right what what in this sense what features you thought should not have been used as part of
+this decision and how did they go so after just three rounds of Mechanical
+Turk occurs crossing things out they were able to get better accuracy DeMarcos gold standard dataset Wow
+so they were able to clean the data better then marketed what is around in
+the round was showing the so so I get into details but we showed the
+explanations to a number of Mechanical Turk occurs yeah they were able to cross it out and retrain the model okay then
+we showed the new model to mechanical different said Mechanical Turk is the cross some things out we should again so
+we just did that three times three iterations yeah we've known experts and by looking at explanations they were
+able to find all sorts of problems in beta clean it and get better performance in mark or did like sitting down and
+like trying to clean the data himself Wow which was surprising that means the non expert this is just an example
+suggest a non experts are able to understand explanations of complex
+machine learning system and provide some feedback to that system that can be used
+to improve the performance that's it yeah which was really surprising wow that's that's very cool it was very cool
+and then the second users so so then they know Marco is bold and then want even more interesting still mark and and
+the second one was also really exciting so here's what he wanted to ask when you
+train a machine learning model usually training or some data and you evaluate it on some data you hold out it's called
+the Nessa sure so that you don't kind of get a biased prediction of how well the
+model do mm-hmm so you can imagine some models might do well on the training set but don't don't do well on the test
+dataset so we want to throw out those models yeah and some of those will do all the tests it set and and then you
+want to keep those models so that's what you typically do if you go back to the training newsgroups data set if we had
+just looked at the trainings groups with the email addresses net in the death set you do well on the test set so you think
+you're doing well but it wouldn't ever validate way well right but if you had tested on some other data set they
+didn't have some as you mail.com any would have done badly then you will be able to throw it out so here's the
+experiment that marketed which i thought was brilliant he split the data into a
+training setting at Assad right and he trained a bunch of models a lot of
+models and different random subsets of that input date of the training data yeah and some models did well on the
+training data and some of those did badly on the training data okay he threw out everything that the body nutrient
+datum because we only want to keep high accuracy models okay so he kept only things that were accurate in the
+training data right and then he looked at the test dataset and some of those did well the test dataset is the models
+did badly on the test dataset right and then he said oh the mom up till now I
+Data scientists
+mean this is pretty standard what any data scientist would do yeah yeah yeah priest on run a bunch of models see what
+sticks against the wall yeah exactly yeah now he he did the following took mechanical turkeys would know nothing
+about machine learning yep and show them explanations for the models that did they don't say anything about hit
+processes and it was all randomized and blind and what everything right so the explanations for models they were doing
+well on the test set yeah and models that did badly on the test set okay and they both look equally good on
+Results
+the training set yeah and the that's what you mean the
+validation actually was a hidden in this case it was a hidden asset so something
+that you wouldn't do as a data scientist but he held off some additional data
+assimilation they run lots of models they did well on the training set and he picked out some that did badly on the
+test and did well on the test mm-hmm and then showed explanations for
+all those models to make up called Turkish and US which model do you think is gonna be better in the real world
+based on the explanations of why they're making the predictions yeah and they they were asked to pick between
+one between yeah between two and you are comparing them with a coin flip yeah right so yeah so a coin flip gets 50%
+accuracy 87% Wow so totally untrained unwashed Mechanical
+Turk masses are basically creating you know feet doing feature engineering on
+models in there so the first part to situation II the second part it was like model selection basically right they
+were labor to look at explanations and figure out this model is stupid yeah even though on the training set it
+looked great yeah but in the real world it's gonna be bad wow that's pretty amazing and that was amazing to me and
+the fact that we can do that as I said we're only scratching the surface here but the fact we can do that to me says
+humans will be in the loop run there is there are sites who have humans in the
+loop because even kind of the statistical problems that underlie this question like if we discussed for a long
+time we talked about why this irrelevance officially humans might be able to pick those out and they'd be
+able to do better future engineering they'll be able to understand problems they're going in the data even on trained folks and now if you imagine
+doing this to get more insight for doctors or more systems in the real world I think you
+could do really amazing things so it's pretty exciting to me to start you know exploring this further and further that's very cool let me ask you this
+this is kind of in the weeds question but were the features what you might think of as natural features or
+engineered features yeah so so he that's that's the the really interesting or a
+really interesting question so the underlying models use the engineering engineered feature so for example he
+also showed this was good for deep learning models for images which is really you know learn complex features
+of the data but the way that he explained was from pieces of the import so there's something that he made was
+the input is interpretive all okay and by selecting pieces of images or part of
+the text a human to look at that and say oh this makes sense if we looked at like the seventh player
+for neural net where I can say oh this is a like a human be like what is that yeah and why do I care you know and so
+that's why we we biased towards this approach doesn't mean that in the long run we want to invent something better that looks at the features because the
+problem might be down in the future might be down in the weeds and that's kind of where the research should go but
+as a first step we looked at pieces of the input and it's totally model independent model network models yeah
+yeah we've done this with deep neural networks we've done this with booster decision trees we've done this with lots of different kinds of Mao Wow
+so I know we need to get you off to your next session where can folks learn more about this so if you just search for my
+name in lime you'll find our paper it was a kdd this year line Li a me L IME
+okay you can also find a github project that Marco has been putting together we
+open sourced some of these ideas but yeah it's been a pretty exciting working
+just keep tracking know Marco Samir there'll be a lot more in the pipeline
+this is a really cool thing that's awesome that's great and if folks want to reach out to your on Twitter or I was
+already get in touch with you I'm on Twitter gastrin it's my last name window and so reach out awesome back we're also
+as you know on a Coursera teaching machine learning that's another place that I interact
+with folks yeah and it's a great course I highly recommend it very case study focused I really enjoyed it okay thanks great all right thanks so
+much yep a handshake here on the idea Thanks
+[Music] alright everyone that's it for today's
+show thank you so much for listening and for your continued support a quick story
+if you follow me on Twitter you know that I recently called out an iTunes review that I'm actually particularly
+proud of in this review a user that originally rated the podcast a 2 out of
+5 based on their disappointment with the switch to the interview format came back
+and revised that review to a four noting that the interviews were getting better
+and that the format was really starting to grow on it now don't get me wrong please I really really really appreciate
+those of you that left five star reviews on iTunes and I hope the rest of you go run and do that right now but it also
+felt great to see that in spite of his initial misgivings the shows just kept getting better and the user eventually
+came around that kind of feedback is great to read Thanks to everyone who
+stuck with the show through the transition and I hope you're continuing to learn a ton please join the
+conversation by commenting on the show notes at the twilly Icom website or by
+reaching out to me on twitter where you can find me at at sam Charrington or at
+Twilio alright everyone thanks again for listening and catch you next time
+[Music]
 
 ----------
 

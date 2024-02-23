@@ -6,6 +6,8 @@
 6. [# All You Need to Know About Swift Macros | Swift Macros Deep Dive (Part 1) | @SwiftBird](https://www.youtube.com/watch?v=LrY9f5kOQ_4)
 7. [# 15-Year-Old App Goes All Swift | Caffeine Refactored | @SwiftBird](https://www.youtube.com/watch?v=fehxCCKWpZA)
 8. [# iOS Dev Job Interview - Must Know Topics](https://www.youtube.com/watch?v=XTAziR-tY-A)
+9. [# Autorelease Pool, Lazy Initialization & More | Advanced Memory Management in #Swift](https://www.youtube.com/watch?v=5Yi3KFLz8Ms)
+10. 
 
 
 
@@ -1094,11 +1096,251 @@ paste here
 --09--
 
 -----
-Date:
-Link:
+Date: 2024.02.21
+Link: [# Autorelease Pool, Lazy Initialization & More | Advanced Memory Management in #Swift](https://www.youtube.com/watch?v=5Yi3KFLz8Ms)
+
+### Notes on "Lazy Initialization, Autorelease Pool, and Alternatives to Reference Counting" Episode
+
+#### **Advantages:**
+
+- **Lazy Initialization:** Improves app performance by delaying object creation until needed, saving resources.
+- **Autorelease Pool:** Manages memory efficiently in ARC and MRC, ensuring objects are released at appropriate times without leaking memory.
+- **Alternatives to RC:** Offers different memory management strategies like garbage collection and Rust's ownership model, which can be more suited to specific use cases.
+
+#### **Drawbacks:**
+
+- **Lazy Properties Thread Safety:** Lazy-initialized properties are not inherently thread-safe, which can lead to issues in concurrent environments.
+- **Garbage Collection Pauses:** Can introduce noticeable pauses in program execution, affecting user experience, especially in real-time applications.
+
+#### **Tips and Advice:**
+
+- Use lazy initialization for heavy objects or when initialization depends on conditions that might not always be met.
+- Employ autorelease pools to manage temporary objects efficiently, especially in loops or intensive operations.
+- Consider alternatives to reference counting for projects where their benefits outweigh the cons, such as Rust for systems programming.
+
+#### **Lecture Content:**
+
+- Explanation of lazy initialization, autorelease pools, and alternatives to reference counting, with a focus on Swift.
+- Distinction between lazy properties and computed properties.
+- Usage scenarios and considerations for autorelease pools in both ARC and MRC environments.
+- Overview of garbage collection and region-based memory management as alternatives to reference counting.
+
+#### **Main Challenges:**
+
+- Balancing memory management techniques to optimize performance without compromising safety or user experience.
+- Choosing the right memory management strategy for a given project's needs and constraints.
+
+#### **Importance and Usefulness of the Topic:**
+
+- Understanding different memory management techniques is crucial for developing efficient and effective software, especially in resource-constrained environments like mobile devices.
+
+#### **Accomplishments:**
+
+- Provided a comprehensive overview of memory management strategies in Swift, including practical tips for using lazy initialization and autorelease pools.
+- Introduced viewers to alternatives to reference counting, broadening the scope of memory management techniques available to developers.
+
+#### **Summary of the Content:**
+
+This episode covered the concepts of lazy initialization, autorelease pools, and alternatives to reference counting, focusing on their application in Swift programming. It highlighted the advantages of using lazy initialization to save resources, the role of autorelease pools in managing memory efficiently, and explored other memory management strategies like garbage collection and Rust's ownership model. Practical advice was offered on when to use these techniques and the challenges associated with each.
+
+#### **Interesting Quotes or Insightful Sentences:**
+
+- "Lazy initialization—one of the easiest tricks to make your app appear faster."
+- "Without an autoreleasepool block, you’ll be accumulating all the garbage until the entire loop finishes."
+- "Reference counting seems like the optimal choice for systems which heavily rely on real-time interactions and at the same time have a limited amount of resources."
+
+The episode emphasized the importance of understanding and effectively applying different memory management techniques in Swift to improve app performance and user experience.
+
+QA:
+### ANKI Flashcards for "Lazy Initialization, Autorelease Pool, and Alternatives to Reference Counting"
+
+**Q: What is lazy initialization in Swift?**  
+A: Lazy initialization is a technique where object creation is delayed until it is needed, saving resources and improving app performance.
+
+**Q: Why are lazy properties in Swift always declared as variables?**  
+A: Lazy properties are declared as variables because their values are not retrieved until they're called for the first time, and variables allow reassignment at any point.
+
+**Q: Can computed properties in Swift be declared lazy?**  
+A: No, computed properties cannot be declared lazy. They act like lazy properties in terms of deferred execution but are computed from scratch every time they are called.
+
+**Q: What is an autorelease pool in memory management?**  
+A: An autorelease pool is a mechanism that keeps objects for a while and sends a release message to each when it's drained, extending the objects' lifetime momentarily.
+
+**Q: How do autorelease pools differ under Automatic Reference Counting (ARC)?**  
+A: Under ARC, instead of an autorelease-pool object, an @autoreleasepool block is used, which acts like a box that releases every object created within it when the block ends.
+
+**Q: What are the alternatives to reference counting for memory management?**  
+A: Alternatives include garbage collection, region-based memory management, and Rust's ownership model, which enforce memory management rules at compile time.
+
+**Q: What is the main downside of garbage collection in memory management?**  
+A: The main downside is that it can introduce pauses in program execution, as it freezes the entire program momentarily to manage memory.
+
+**Q: How does Rust's ownership model manage memory?**  
+A: In Rust, each object in memory has an owner, and when that owner goes out of scope, the objects owned by it are destroyed, allowing explicit lifetime management of objects.
+
+**Q: Why are global symbols in Swift considered lazy by default?**  
+A: Global symbols are lazy by default to avoid initializing every static property at launch, which would introduce a significant delay.
+
+**Q: What is the key difference between real lazy properties and computed properties in Swift?**  
+A: Real lazy properties are executed only once and then keep the resulting value, whereas computed properties run from scratch every time they are called.
+
+
 Transcription:
 
-paste here
+Intro
+Hello and welcome to the Swift  Bird. Or rather, welcome back.
+This is the second part of the third  episode on the first topic in this series…
+…never mind.
+I’m Yakov, and today we’ll be talking about  lazy initialization, the autorelease pool,  
+and the alternatives to reference counting.  Hopefully, after that I’ll be able to leave  
+memory management alone, and instead  focus on something more practical.
+If you find this video helpful, please give  it a thumbs-up, subscribe to the channel,  
+and consider sponsoring it at  the links below. With that said,  
+let’s move on to the first topic of  today, which is lazy initialization.
+Lazy Initialization
+In Swift, as in many other languages,  when you want to create a new object,  
+the runtime needs to do two things for  you. First, it finds some unused bytes  
+in memory. That step is called allocation.  And second, it actually creates the object  
+so it can be used in your program. This  second step is called initialization.
+The separation of these two operations opens  a few opportunities to make memory use more  
+efficient. The key technique for that is  called lazy, or deferred, initialization.
+Swift, still being a modern language by  today’s standards, does quite a few tricks  
+to optimize the initialization process, and lazy  initialization plays an important role in it.
+Here’s the key idea. Instead of  creating the object directly,  
+you provide instructions how to do that  at runtime. These instructions look like  
+a closure and act as a recipe that’s used  only when needed. If your program doesn’t  
+need the object, it doesn’t use this  recipe, and no resources are wasted.
+In Swift codebases, you find this pattern  used all across the place. For example,  
+preparing data to be displayed may involve  formatting dates. The DateFormatter object  
+is a relatively heavy one in terms of  initialization, so unless you actually  
+have a date to format, it makes a lot  of sense to declare the formatter lazy.
+Another scenario where lazy initialization  can help is when your app implements some  
+sort of caching mechanism. In that case, you  can defer initializing your networking stack  
+until the user has requested something  that doesn’t exist in the local cache.
+There’s a few things to keep in  mind when using lazy initialization.
+First, lazy properties are always declared  as variables. That’s because their values  
+are not retrieved until they’re called for  the first time, and constants do not allow  
+that. It also means that at any point, you can  reassign a lazy variable with any other value.
+Second, computed properties cannot be declared  lazy. Though in terms of deferred execution,  
+they act just like lazy properties,  there’s one crucial difference:  
+computed properties run from  scratch every time you call them,  
+while real lazy properties run only once  and then they keep the resulting value.
+Third, global symbols cannot be declared lazy  too—but that’s because they’re already lazy  
+by default. That makes a lot of sense,  because if the app tried to initialize  
+every static property at launch,  this would introduce a hefty delay.
+With the last two points in mind,  sometimes you’re left with a dilemma  
+what to use for declaring constants. The  expressions look very similar—and in fact,  
+the difference gets important only  in a handful of cases. In general,  
+I use a static constant when I’ll be using it  more than once, and for single use I go with a  
+computed variable. But again, the difference  is really negligible in most scenarios.
+And one more thing to be aware of,  lazily-declared properties are not  
+thread-safe out of the box. If multiple  threads attempt to access the property,  
+the closure which emits it  may be called more than once.
+That is lazy initialization—one of the  easiest tricks to make your app appear faster.
+Autorelease Pool
+Now, let’s talk about a thing lots of developers  
+have heard of—but never used in  practice. The autorelease pool.
+As with many other memory-management concepts,  
+the autorelease pool emerged back in the days of  Objective-C, and even before Automatic Reference  
+Counting arrived. But it survived the ARC  transition, and even made it to Swift.
+The autorelease pool is an interesting tool.  In MRC, it offers some elements of automatic  
+memory management; but in ARC, it lets you  regain some manual control over memory,  
+that was taken away from you by ARC. In either  mode, autorelease pools play an important role,  
+and if you use Cocoa without  them, you’re leaking memory.
+As you know, before Automatic Reference  Counting, you had to send retain and release  
+messages to each object. But in addition  to these two, there is a third message,  
+aptly called autorelease. What it does is, instead  of deallocating the object immediately, it adds  
+it to an autorelease pool—which is basically a  scratchpad. It keeps the objects for a while,  
+but when it’s drained, as it’s called in this  whole “pool” concept, it sends a release message  
+to each of the objects. Normally, the pool is  drained at the end of every event-loop cycle.  
+So by sending autorelease instead of release,  you extend the object’s lifetime for a moment.
+But why would you want that? You see,  it’s quite common for methods to create  
+and return objects which are only needed for a  short time. The calling code gets the result,  
+processes it in some way, and then discards.  Without the autorelease pool, it would be the  
+calling method’s responsibility to dispose  of the created objects, but it may not have  
+enough information to decide whether it’s safe to  release them. By sending the autorelease message,  
+the called method clearly indicates that  it wants nothing to do with the object  
+after it’s returned. And the autorelease  pool handles the cleanup automatically.
+This technique is used in  many built-in Cocoa APIs,  
+such as NSString initializers and more.  Moreover, Objective-C has an entire  
+naming convention for that. The guidelines  suggest how you should name your methods  
+so it remains clear who’s responsible  for releasing the objects they produce.
+But I’m going too much into detail here.
+In ARC, including Swift, instead of an  autorelease-pool object now you use an  
+@autoreleasepool block. It looks like a closure—or  block, as they’re called in Objective-C and some  
+other languages. To the developer, it acts like  a box with one particularly useful feature:  
+when the block ends, every object created within  it receives a release message. In other words,  
+you set explicit boundaries which  limit the object’s lifetime.
+In Cocoa and Objective-C, especially  its pre-ARC variant, the importance of  
+autorelease pools is quite significant—to the  point where each thread must have at least one  
+pool available—otherwise you’ll be leaking  memory. Adding objects to an autorelease  
+pool was often used to group many short-lived  objects together, or defer their deallocation,  
+or do both. You see, releasing each  object individually imposes some overhead,  
+and in that scenario draining the whole  pool in bulk can be more efficient.
+In Swift, the autorelease pool is available for  your convenience—but you don’t really have to  
+use it. One of the situations where it may come  in handy is similar to the old use case. Imagine  
+you’ve got a loop whose each iteration creates a  new object. You don’t need the object itself—just  
+some part of it. Without an autoreleasepool block,  you’ll be accumulating all the garbage until the  
+entire loop finishes. But with this block, the  objects are released at the end of each iteration.
+That’s a pretty rare use case, but as always,  
+the more tools you have at your disposal,  the more flexible your code can be.
+Alternatives to Reference Counting
+I’ve got one last topic for today. And  this one is not about lazy or pools—
+or lazy pools.
+It’s not even about Automatic Reference  Counting at all. Quite the opposite:  
+it’s about the alternatives to RC.
+I’ve already touched on the basics of manual  memory management in a previous video,  
+so I don’t want to repeat myself. Besides,  allocating and deallocating memory manually  
+can’t really rival reference  counting in its ease of use.
+The main competitor to RC is garbage collection,  
+and just as reference counting, it comes  in multiple flavors. The most common one  
+is called tracing garbage collection,  and it uses the mark-and-sweep approach.
+This approach consists of two phases happening  at regular intervals. During the mark phase,  
+the garbage collector goes through the entire  memory graph, starting from the program’s root,  
+and checks which objects are accessible.  Those that are receive a flag. Then,  
+during the sweep phase, all memory  is scanned from start to finish,  
+and objects which don’t have the flag  are considered garbage—and cleared.
+The main downside of garbage collection  is that it can introduce pauses to the  
+program’s execution. Instead of managing  memory on an object-by-object basis,  
+it freezes the entire program for a moment.  No one enjoys glitches while scrolling or  
+doing other stuff, and early iPhones weren’t  very powerful. That fact—as well as reference  
+counting’s constant-time complexity—seems to be  the main reason for iOS to favor RC in the end.
+But actually, early versions of Cocoa  on macOS supported garbage collection  
+as the alternative to manual memory management.  
+The only alternative—as there was no  Automatic Reference Counting back then.
+Heck, Cocoa even supported coding in Java.
+Besides garbage collection, we’ve  got something called region-based  
+memory management. This technique  is not very common, so I won’t stop  
+here for long. Basically the program’s  memory is divided into multiple regions,  
+each having an expiration date. When it arrives,  the whole region is emptied. This approach works  
+for programs whose objects have predictable  lifetimes, but on iOS, it’s not really common
+And then we have something quite unique. It  is Rust with its ownership model. In Rust,  
+each object in memory has an owner,  and when that owner goes out of scope,  
+the objects owned by it are destroyed.  You can move a value to a different owner,  
+or borrow it for a moment and then return. In  Rust, these rules are enforced at build time,  
+so when the program runs, the lifetime of  each object is known beforehand. That makes  
+the language extremely efficient, placing it right  next to C with its fully-manual memory management.
+By the way, in last year’s update, Swift added  similar tools for explicit lifetime management.
+So, to summarize, reference counting is  not the only technique that exists to make  
+memory management more approachable. Some  of the alternatives may be even easier to  
+use. But reference counting seems like  the optimal choice for systems which  
+heavily rely on real-time interactions and  at the same time have a limited amount of  
+resources—in other words, systems  like your smartphone or laptop.
+Tip for Your Interviews
+By now, I’ve covered many frequently-asked  questions about memory management in  
+Swift. If you’ve got more, leave them in the  comments so I can do a follow-up video later.
+But my best interviews—on either side of  the table—were never about remembering  
+stuff. You may not know one specific fact,  but if you’re familiar with the big picture,  
+you can make assumptions, think  out loud, and often come to the  
+right answer in the end. And even if it’s  completely wrong, your ability to analyze  
+and reason usually earns you more points  than an answer that you simply remembered.
+Outro
+And that marks the end of this episode.  This was the last video on memory management  
+in Swift—at least for now. But I’ve got  many more topics planned for this series.
+I just wish I had more time to work on them.
+You can help me by giving this video a  thumbs-up, subscribing to the channel,  
+and supporting it at the links below.  All of that is great motivation for me.
+I’ll see you soon with a new video.  Until then, make your references fly!
 
 ----------
 

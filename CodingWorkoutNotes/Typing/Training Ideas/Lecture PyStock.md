@@ -3,4 +3,5 @@ Some ideas can by used in a future lecture or talks
 2. Propose webpages to learn touchType and increase type speed
 3. Obsydian - the text editor
 4. If you some kind of musician you have advantage - piano player, guitar player
-5. 
+5.  Material good to introduce [# Drop + OLKB Planck Review](https://www.youtube.com/watch?v=iO0h-MEpQh0)
+6. 

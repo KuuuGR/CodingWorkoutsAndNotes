@@ -1131,23 +1131,746 @@ paste here
 --05--
 
 -----
-Date:
-Link:
+Date: 2021.07.19
+Link: [# My Favourite (Minimal) Mechanical Keyboard - Planck EZ](https://www.youtube.com/watch?v=aCSpkGKomH4)
+
+### Notes on Plank EZ Ortholinear Mechanical Keyboard Review
+
+#### Physical Overview:
+
+- **Design:** Minimalist, with a stripped-back look featuring a single color and keys floating above a thin board.
+- **Size Comparison:** Compared to an iPhone 11 Pro Max, highlighting its small and portable design.
+- **Key Features:** Ortholinear layout, USB-C connection (no Bluetooth), fully customizable backlight functionality.
+- **Aesthetic Appeal:** The design pleases the "inner design nerd," emphasizing the importance of a pleasing workspace.
+
+#### Typing Experience:
+
+- **Comparison:** Only the second mechanical keyboard owned by the reviewer, compared against the IQ UNIX F60 and standard Apple keyboard.
+- **Key Feel:** Described as light, with cherry MX browns chosen for a balance between tactile feedback and quiet operation.
+- **Sound Test:** Provided to compare the typing sound with another keyboard featuring cherry MX browns.
+
+#### Missing Keys and Adaptability:
+
+- **Layout Adaptation:** The lack of a number row and other traditional keys, substituted by combo keys and layers for additional functions.
+- **Learning Curve:** Initial difficulty adapting to the new layout, with a suggestion to keep the configuration screen open for reference in the early weeks.
+- **Customization:** Highlighted the fully customizable nature of the keyboard through a dedicated configuration website.
+
+#### Unique Features:
+
+- **Music Mode:** A fun, albeit not practical, feature allowing the keyboard to play musical notes.
+- **Portability and Design Satisfaction:** Emphasized the joy of using a well-designed tool in daily work, despite recognizing it as a luxury rather than a necessity.
+
+#### Considerations:
+
+- **Muscle Memory Adjustment:** Noted a challenge in adjusting back to traditional staggered keyboards after becoming accustomed to the ortholinear layout.
+- **Audience:** Positioned the review as aimed at average users rather than expert enthusiasts, making it accessible to a wider audience.
+
+### Interesting Phrases:
+
+- **"Pleases my inner design nerd":** Captures the personal satisfaction derived from using a well-designed product.
+- **"Customizing your workspace can do wonders":** Highlights the impact of a personalized workspace on productivity and enjoyment.
+- **"Ortholinear layout":** A specific term that underlines the keyboard's unique design and its supposed ergonomic benefits.
+- **"Light keys":** Describes the typing experience, implying both ease of use and a potential compromise on the tactile feedback some users may expect from a mechanical keyboard.
+- **"Music mode":** A novel feature that, while not essential, adds a playful aspect to the product, reflecting the creators' attention to detail and user experience beyond mere functionality.
+- **"Struggle going back":** Reflects on the impact of adapting to a new typing layout, which can alter one's proficiency on more conventional keyboards.
+
+These insights and phrases from the review encapsulate the blend of design appreciation, functionality, and the personal journey of adapting to a new tool that could redefine one's interaction with technology.
+
+Analyzing the comments under the video review of the Plank EZ Ortholinear Mechanical Keyboard, we can observe a range of responses that highlight different aspects of the product and the content presentation. Here's a breakdown:
+
+### Positive Feedback on Presentation:
+
+- **Appreciation of Enthusiasm:** Commenters like @stuysarti and @beaudanner express enjoyment of the presenter's enthusiasm, indicating that the energy and passion in the video make the content more engaging. This suggests that conveying genuine interest and excitement about a topic can significantly enhance viewer reception.
+
+### Product Features and Concerns:
+
+- **Lighting Appeal:** @BenMarriott's comment about the attractiveness of the lights, with a humorous acknowledgment from the creator, underscores the aesthetic appeal of the keyboard's customizable backlighting as a significant draw for potential buyers.
+- **Layout Transition Challenges:** @nicoou raises a valid concern about the difficulty of switching between the Plank's layout and other keyboard layouts, especially when using different keyboards in various settings. This highlights a potential usability issue for those considering making the Plank their primary keyboard.
+- **Specific Feature Requests and Observations:** @beaudanner mentions a desire for RGB lighting on the regular Plank model, indicating a niche interest in further customization options. @RainMakeR_Workshop comments on the unconventional placement of the shift and escape keys, suggesting that certain design choices might not align with user expectations.
+
+### Typing Technique and Health:
+
+- **Concerns Over Typing Technique:** @Patrickblox recommends learning to type properly to avoid repetitive strain injury (RSI), sharing a personal journey towards a more ergonomic typing method. This comment adds an important health perspective to the discussion on keyboard choice and typing habits.
+
+### Miscellaneous:
+
+- **Curiosity and Specific Questions:** @myutubedance inquires about compatibility with the latest iPad models, showing that potential users are interested in the keyboard's versatility across different devices.
+- **Personal Preferences and Humor:** Comments like @kiboards1830's playful critique of the choice of MX Browns switches indicate the subjective nature of keyboard preferences among the mechanical keyboard community.
+
+### Insights and Recommendations:
+
+- **Engaging Presentation:** The positive reception of the presenter's enthusiasm suggests that content creators should strive to share their genuine interest and excitement about their topics to engage their audience effectively.
+- **Addressing Usability Concerns:** Highlighting and addressing potential challenges, such as layout transition difficulties, could help viewers make more informed decisions about the product.
+- **Ergonomics and Health:** Including discussions on ergonomics and typing health, especially when reviewing keyboards, could provide valuable information to viewers and potentially broaden the appeal of the content.
+
+Overall, the comments reflect a mix of appreciation for the video's presentation, interest in specific product features, concerns about usability and health, and personal preferences. These insights can guide content creators in refining their approach to product reviews and addressing the diverse interests and concerns of their audience.
+
+Analyzing the comments on the video review of the Plank EZ Ortholinear Mechanical Keyboard, several interesting sentences stand out that encapsulate the diverse perspectives and highlight key points of discussion:
+
+1. **"Love your videos! The enthusiasm is well shown on all of them, but more so on this one."** - This comment by @stuysarti reflects the positive impact of the presenter's enthusiasm on audience engagement, emphasizing the importance of passion in content creation.
+    
+2. **"Worth it for the lights alone!"** - @BenMarriott's comment underscores the aesthetic appeal of the keyboard's lighting features, suggesting that visual customization options can be a significant selling point for tech products.
+    
+3. **"Great video, I guess the major issue is switching between layouts, when using different computers at work for example, and even more when you need to use an AZERTY layout keyboard every day."** - @nicoou brings up a practical concern about the adaptability challenges posed by the keyboard's unique layout, highlighting the potential difficulty for users who switch between different keyboards.
+    
+4. **"Love your enthusiasm. At 1.75x it's even better :)"** - @beaudanner's humorous comment not only compliments the presenter's energy but also playfully suggests that increasing the video playback speed enhances the viewing experience.
+    
+5. **"The shift and escape keys seem backwards to me. I don't get why they're that way around."** - This observation by @RainMakeR_Workshop points out a specific design choice that may not intuitively align with user expectations, highlighting the subjective nature of ergonomic design.
+    
+6. **"How on earth you type like that is beyond me."** - @jadeng1147 expresses amazement (and perhaps skepticism) at the presenter's typing technique on the keyboard, indicating curiosity about the learning curve associated with its use.
+    
+7. **"Looks interesting, but being a touch typist (learnt on manual typewriters and this was before the age of computers) I think I would struggle with the changed layout, key distances and being so small."** - @MrAjayz shares a personal perspective that touches on the potential challenges faced by users with traditional typing skills when adapting to modern, minimalist keyboard designs.
+    
+8. **"Very good video! However, I would seriously recommend that you learn to type properly - as someone who has dealt with RSI, the way you type makes me cringe because it looks straining and painful."** - @Patrickblox provides constructive criticism rooted in concern for the presenter's health, emphasizing the importance of proper typing techniques to prevent repetitive strain injuries.
+    
+
+These sentences offer valuable insights into the factors that influence product appeal and usability, the importance of presentation style in content creation, and the personal considerations viewers bring to their interactions with technology reviews.
+
+
 Transcription:
 
-paste here
+Intro
+this is the plank ez an incredibly
+portable well-designed and well-built
+ortholinear mechanical keyboard that was
+that was a lot of words basically this
+is a beautifully minimal
+small light mechanical keyboard that is
+just a joy to use
+a little disclaimer before we start i am
+absolutely not an expert on mechanical
+keyboards
+this is only the second one i've ever
+owned i've never built my own
+so this is a review for more of an
+average user than an expert enthusiast
+i bought this keyboard as i spend a huge
+portion of my life in front of a screen
+and creating things on the computer
+brings me a lot of joy
+the keyboard is the main tool for this
+creating so i wanted one that i could
+appreciate the design of and that felt
+really great to use
+in saying that you absolutely don't need
+an expensive keyboard it's very much a
+luxury
+but having this here to work on every
+day pleases my inner design nerd
+and customizing your workspace can do
+wonders for your attitude and approach
+to your work your play
+and just overall productivity so what is
+a plank
+ortholinear keyboard well you can kind
+Physical Overview
+of see the main characteristics at first
+look
+namely there are a lot less keys on this
+thing than a typical keyboard
+and they're all in a perfect grid with
+no staggering between keys that you
+normally see on a standard keyboard
+this means you get a much smaller
+lighter keyboard and they say it's a lot
+easier and faster to type on with the
+grid layout as your hands and have to
+move as far to reach all the keys
+planck refers to the style of the
+keyboard with the minimal keys and the
+grid and while you can build your own
+playing keyboard with individual parts
+the ez is a pre-built fully assembled
+version with a warranty support
+all of that it's the less diy option but
+it's perfect for people like me who just
+want to start typing
+so let's jump into the review and we'll
+start with the physical appearance
+this is a really stripped back look with
+a single color and all the keys sort of
+floating
+above a thin board i love the look
+function based design makes me very
+happy
+being able to see the keys and how they
+connect to the board and kind of the
+lights underneath and all the
+that area there is it's really cool size
+wise this is small
+here it is compared to an iphone 11 pro
+max this this could actually fit in a
+large pocket
+and it doesn't take up much room in my
+bag at all when carrying it from home to
+work and back
+so we have the grid on the front here
+with the keycaps we have the board
+we have some rubbery feet on the bottom
+and some of the logos and branding of
+those behind the plank in this
+particular build
+and i love this quote they've added to
+the back as well it really sums up the
+idea and the philosophy behind this
+keyboard
+to wrap our tour up we have a usbc cable
+here at the back there isn't a bluetooth
+option for this but that's never really
+bothered me and it would probably mean a
+much heavier keyboard due to a battery
+the planky z also has full backlight
+functionality
+all fully customizable i'll cycle
+through a bunch now to show you they're
+they're really fun they're really cool
+and i kind of change whichever one i'm
+using at any given time
+based on my mood and uh kind of how it
+all feels and fits together so
+let's have a look at the lights
+[Music]
+[Music]
+is
+[Music]
+please
+[Music]
+Typing Experience
+okay so in terms of type feel sound the
+whole experience this is only my second
+mechanical keyboard so i'm comparing it
+to the iq unix f60 here
+as well as the standard apple keyboard
+the main word i'd use to describe typing
+on this
+is light the keys aren't heavy the
+priority here seems to be on portability
+and minimalism so there's no metal the
+keycaps feel light and easy to press
+while it does have a plastic feeling
+there's never a feeling of lesser
+quality it feels very well made very
+well designed and well built
+i went for cherry mx browns for switches
+as i sometimes work in a co-working
+space and wanted something relatively
+quiet
+so here's a quick typing sound test
+i'll also compare that with typing on
+the iq unix i think that's how you
+pronounce it
+which also has cherry mx browns
+Missing Keys
+you may be asking one big question so
+far in this video where are all the
+missing keys
+this keyboard it kind of seems to be
+missing some pretty important ones
+we don't have a numbers row we don't
+have much punctuation here either
+or other kind of essential keys like
+media controls and other controls for
+your machine
+all of these are accessed through combo
+keys you'll notice we have two layer
+keys either side of the spacebar
+you hold each of these down to access
+the raised layer of keys or the lower
+layer
+for example if i hold the raise key here
+this whole top row is now numbers being
+one two three four all the way up to
+nine and zero at the end here holding
+this one then now your symbols and
+punctuation
+this does take some time to get used to
+and for the first few weeks of owning
+this i had the configuration screen open
+for trickier things like shortcuts to
+increase or decrease photoshop brush
+sizes with the square brackets or
+underscores and dashes um good to have
+that they're referenced while you're
+learning but trust me after a few weeks
+things settle into memory
+and i never really need to reference
+anything these days it all just feels
+very very natural a lot of muscle memory
+there this configuration is done through
+this website here and you can actually
+remap
+everything and then push the update to
+your keyboard so this thing is
+completely customizable
+i actually haven't played around much
+with that but it is there
+so if you do get this keyboard bookmark
+this page for the first few weeks of use
+and i've linked it down
+in the description as well in terms of
+using this on a macro of windows the
+keyboard is really well set up for both
+operating systems with no specific
+command key
+instead a key that just says os as well
+as the alt key for option
+if you're on a mac okay before we finish
+this is more of a fun one the keyboard
+plays music
+this doesn't seem to work well in a
+standard typing mode only while in the
+music mode so you can't have this arm
+while working
+uh i don't think at least it could be
+wrong but this is just what i found
+myself
+but it's just so much fun that i had to
+show you it
+really feels like the old kind of i feel
+like i'm playing
+the old game boy or game by pocket back
+in the day a lot of nostalgia feelings
+uh with this sound here
+[Music]
+overall i'm incredibly happy with the
+plank easy having a keyboard
+like this small and light this portable
+while also being fully mechanical and
+just so beautifully designed it's a
+fantastic combination
+the only cons i've found are the slight
+learning curve to get used to having
+less keys
+and also that your muscle memory gets
+very used to typing on this ortholinear
+style keyboard
+so i struggle going back to typing on a
+standard staggered keyboard now which
+you know can be a bit of a bother
+sometimes when i just set my laptop for
+example
+those two small grabs aside this thing
+is awesome i love it it looks so great
+on my desk and it fits so well in my bag
+and it brings that little bit of joy to
+my typing every day
+when i'm working and using it so that's
+it for this week
+i have the link to check it out in the
+description below let me know any
+thoughts in the comments and thank you
+very much for watching
+i'll see you next week bye
 
 ----------
 
 -----
+
 --04--
 
 -----
-Date:
-Link:
+Date: 2024.02.18
+Link: [# 3 things I’ve learned after buying a custom keyboard](https://www.youtube.com/watch?v=xmGHorZd_48)
+
+### Summary of the Content
+
+The video features a review of New Feet's first custom keyboard, the GEM 80, from the perspective of someone new to the custom keyboard scene. It provides insights into the advantages of custom keyboards over pre-built ones, the process of building and customizing a keyboard, the importance of 'thock' in keyboard customization, and the potential costs involved in the hobby.
+
+### Advantages of Custom Keyboards
+
+- **Customization**: Offers extensive options for switches, keycaps, and even the sound and feel of the keyboard.
+- **Personalization**: Allows for a keyboard that meets the exact preferences and needs of the user.
+- **Quality**: Typically involves higher-quality materials and components.
+
+### Drawbacks
+
+- **Cost**: Customizing a keyboard can become expensive, especially with high-end parts.
+- **Complexity**: The vast array of choices and possibilities can be overwhelming for newcomers.
+
+### Tips and Advice
+
+- **Start Small**: For those new to the hobby, it's advisable to start with a keyboard that doesn't require a massive investment.
+- **Research**: Understanding the different components (switches, keycaps, plates, etc.) is crucial.
+- **Experiment**: Be open to trying different combinations to find what works best for you.
+
+### Main Challenges
+
+- Navigating the complexity and variety of customization options.
+- Balancing cost against the desire for quality and customization.
+
+### Importance and Usefulness of the Topic
+
+Custom keyboards can greatly enhance the typing experience, making it a worthwhile investment for those who spend a lot of time at their computers. The hobby also offers a creative outlet and a deep community for sharing tips and advice.
+
+### Accomplishments
+
+The video accomplishes the goal of demystifying the process of building and customizing a custom keyboard, especially for beginners.
+
+### Interesting Quotes or Insightful Sentences
+
+- "Custom keyboards are the typing equivalent of the sort of person who whips out a Mont Blanc pen in a meeting."
+- "It's a bit like dating... you're probably going to be tinkering and adjusting for years."
+
+### Lecture Content
+
+- Differences between custom and pre-built keyboards.
+- The concept of 'thock' and its importance in the keyboard community.
+- The potential financial investment required for high-end customizations.
+
+This review serves as a comprehensive guide for those curious about entering the world of custom keyboards, emphasizing the joy and satisfaction derived from creating a personalized typing experience.
+
+### Useful Notes from Comments for Keyboard Lecture
+
+#### Insights on Customization and Preferences
+
+- **ISO Versions Demand**: There's a noticeable demand for ISO layout versions of keyboards, indicating a preference or requirement for specific key sizes and arrangements, such as a full-size Enter key. This highlights the importance of layout customization in meeting user needs.
+- **Customization Flexibility**: The discussion about replacing keycaps and accommodating different switches under a single keycap (like a full-size Enter) reflects the deep level of customization possible but also points to potential challenges in achieving desired configurations.
+
+#### Cost and Value Perception
+
+- **Expense of the Hobby**: Several comments touch on the high costs associated with custom keyboards, emphasizing the hobby's potential to become quite expensive. The mention of a heavy, high-quality keyboard like the Keychron Q1 Pro underlines the premium some are willing to pay for specific features, including weight and build quality.
+- **Value vs. Expense**: There's a sentiment that much of the custom keyboard market is overpriced, suggesting that the perceived value may not always align with the cost. This is tied to the "Ikea effect," where individuals may overvalue something they've built themselves, influencing their willingness to invest in custom builds.
+
+#### Community and Learning
+
+- **Keyboard Meets**: The suggestion to attend keyboard meets indicates the value of community engagement for learning and experiencing different aspects of the hobby firsthand. This could be an essential tip for newcomers looking to deepen their understanding without fully committing financially.
+- **DIY and Modding as Entry Points**: The idea that starting with a moddable pre-built keyboard can serve as a gateway into custom keyboards suggests a practical approach for those curious about customization without immediately diving into more complex and expensive custom builds.
+
+#### Technical Advice and Modding Tips
+
+- **Tape Mod**: Mention of the tape mod as an easy starting point for modding indicates a simple yet effective way to alter the sound and feel of a keyboard. This could be a useful tip for those looking to experiment with customization without extensive commitment.
+- **Thock as a Buzzword**: The discussion around "thock" being a buzzword and not universally sought after within the hobby suggests that preferences for keyboard sounds and feels are highly subjective, and there's no one-size-fits-all in keyboard customization.
+
+#### Segments within the Hobby
+
+- Different motivations for engaging in the hobby were highlighted, including DIY/tinkering, aesthetics, engaging in full absurdity with extreme customizations, and vintage keyboard collecting. This segmentation could be useful in understanding the diverse interests and approaches within the custom keyboard community.
+
+These insights from the comments provide a nuanced view of the custom keyboard hobby, touching on user preferences, the impact of customization on perceived value, the importance of community engagement for learning, and practical tips for newcomers interested in modding and customization. This information could enrich a lecture on keyboards by addressing the breadth of interests and approaches within the hobby.
+
+Certainly! Based on the transcription and comments, here are some interesting facts that could enrich a lecture on keyboards, particularly focusing on the custom keyboard community:
+
+1. **Customization Depth**: The level of customization in custom keyboards extends far beyond just aesthetic changes. Enthusiasts can tweak everything from the sound and feel of the keyboard (the "thock") to the specific resistance and feedback of each key, illustrating the hobby's depth.
+    
+2. **Community Engagement**: The custom keyboard community places a significant value on meet-ups and sharing experiences. These gatherings are not just for showcasing builds but also for newcomers to experience different keyboards firsthand, highlighting the community's inclusive and supportive nature.
+    
+3. **Psychological Investment**: The "Ikea effect," where individuals value something more highly if they've personally invested effort into its creation, plays a significant role in the custom keyboard community. This psychological principle can influence both the satisfaction users derive from their custom builds and their willingness to invest in the hobby.
+    
+4. **Diverse Entry Points**: There are multiple entry points into the hobby, from modifying pre-built keyboards to diving into full custom builds. This flexibility allows for a broader range of participants, from those with a casual interest to hardcore enthusiasts.
+    
+5. **ISO Layout Demand**: The demand for ISO layouts and the challenges associated with customizing keyboards to meet this preference reveal the global diversity of the keyboard community. It underscores the importance of accommodating different typing habits and regional standards.
+    
+6. **Sound Customization**: The pursuit of the perfect "thock" demonstrates the nuanced preferences within the community, with enthusiasts going to great lengths to fine-tune the sound profile of their keyboards. This aspect of customization is so detailed that it can involve adjustments to individual keys.
+    
+7. **Economic Aspects**: The discussion around the expense associated with custom keyboards highlights a fascinating economic aspect of the hobby. Some enthusiasts are willing to invest significant amounts into their keyboards, indicating a strong perceived value and a thriving market for both components and complete custom setups.
+    
+8. **Educational Resources**: The community's reliance on video tutorials and shared knowledge for building and modding keyboards points to a rich ecosystem of educational content. This content not only helps newcomers get started but also fosters continuous learning and skill development among more experienced members.
+    
+9. **Modding as a Gateway**: Simple modifications, like the tape mod, serve as accessible entry points for those curious about customizing keyboards. These mods can significantly change the keyboard's sound and feel, illustrating the impact even minor tweaks can have.
+    
+10. **Diverse Motivations**: The hobby attracts individuals with various motivations, from those seeking a unique aesthetic to others interested in the tactile feel or the pursuit of vintage collections. This diversity reflects the wide appeal of custom keyboards and the myriad ways people find satisfaction in the hobby.
+    
+
+These facts showcase the richness of the custom keyboard hobby, highlighting its complexities, community dynamics, and the deeply personal connection many have with their keyboards.
+
 Transcription:
 
-paste here
+Intro
+new feet just released their very first
+custom keyboard and in this video I'm
+going to take a look but here's the
+thing I'm a fresh certified custom
+keyboard virgin and if you're on the
+verge of buying or building your very
+first custom keyboard come on let's jump
+in
+together contrary to popular opinion and
+my YouTube feed I am not a massive
+keyboard nerd I don't know what lubing
+is well I do but I don't ever do it with
+keyboards I haven't a clue about what
+all the different kind of switches mean
+or represent beyond the classic linear
+bumpy or clicky options and the last
+time I saw this much foam I was on my
+first overseas holiday in ABA and I
+nearly drowned in this video I'm going
+to be building and tweaking my very
+first custom keyboard and sharing all
+the stuff I've learned about this nerdy
+little hobby along the way and if you're
+thinking about jumping down that
+particular Rabbit Hole I reckon there
+are broadly three things you should know
+before you get started firstly let's
+The big difference between custom and pre-built
+talk about the biggest difference
+between a custom keyboard and a regular
+good quality off-the-shelf keyboard like
+this one this is the new Fe s75 version
+2 by the way I reviewed it last year and
+it performs really well as an allrounder
+and here is new's first custom keyboard
+the gem 180 and you're probably thinking
+well why would I buy this that I've got
+to build myself when I could just go and
+buy this instead well the answer
+probably depends on how fussy you are
+for me it's all a bit like dating stay
+with me here so first of all cast your
+mind back to when you were a total new
+be to the dating scene maybe you started
+going on a few dates maybe you met some
+nice people you started to get a feel
+for what and who you're into and also
+what you're really not into and both of
+those things are a really important part
+of the process in terms of deciding who
+you might ultimately spend a big part of
+your life with now it might be that you
+go on your first date and you end up
+meeting the love of your life and you
+realize that they're the perfect person
+for you and there's absolutely nothing
+you want to change about them ever in
+which case good for you stop this video
+and go and get yourself one of these
+instead what I think happens in a lot of
+cases if people are being really honest
+is that if you're lucky you might
+eventually end up in a relationship
+where the foundation is solid but deep
+down you know there are a few things
+that could be a little bit better little
+insight into my marriage there this is
+your custom keyboard type of
+relationship you basically enter into it
+knowing that you're probably going to be
+tinkering and adjusting for years and
+that's okay as long as you're prepared
+to jump down that rabbit hole together
+let's take the gem at for instance the
+amount of customization is unlike
+anything I've ever seen on a regular
+consumer keyboard it ships Bare Bones
+which means you get the foundations of
+your keyboard all assembled and ready to
+go you just then need to install
+switches and key caps you can swap out
+the switches of course this one landed
+with these purple ones on but I got a
+whole pack of these lemon switches and I
+use the included switch and Cat puller
+to swap out and replace everything this
+is how it sounded before I
+did and then
+afterwards newy have collaborated with
+gatron to produce a completely new line
+of switches for this release there's
+mint which is a Superlight linear switch
+raspberry which is also linear but
+requires a bit more force and has less
+travel and then lemon which which is a
+tactile or bumpy switch with even more
+Force required all of these will give
+you a slightly different level of
+tactility depending on how you like your
+keys to feel now if you don't fancy
+these there are a ton of others to
+choose from to and of course you can mix
+and match so if you want the letter keys
+to be one style but the shift key to
+have a bit more of a bump to it that's
+totally up to you in terms of the
+foundation for my custom keyboard
+relationship I went for this Cosmic
+mocha color to tie in with all my desk
+accessories and I'm super happy with the
+quality of the frame the weight and the
+these coffee and cream retro colors
+there are plenty of others to choose
+from including some that are a bit more
+futuristic but let's say I didn't much
+like these retro double shot PBT key
+caps I can easily swap them out for
+another set newy have made a bunch of
+key cap sets to go with each of the gem
+80 color themes but there are a million
+and one different key cap sets that you
+can pick up for this classic 80% 10
+keyless layout and that is classic
+keyboard nerd lingo for a keyboard
+that's not got a number pad see I've
+learned all sorts this week in terms of
+further custom imization you can go into
+software like via and then start
+swapping around the way the keys work
+it's as easy as connecting a cable
+loading the software and then dragging
+and dropping the keys with the commands
+that you want this is a feature that's
+also starting to be present on a lot of
+non-custom keyboards now too which is
+great but we can go further if I flip
+this over remove the screws and then
+start taking this to Pieces we can begin
+playing with what's going on on the
+inside in here you'll find a bunch of
+sound dampening materials including
+three layers of foam and a silicone P
+base you can actually add more to this
+if you like more or less bounce in your
+keyboard or even change the Acoustics by
+adding a different kind of plate
+material such as aluminium polycarbonate
+or pom or adding different types of
+gasket like strips beads or more it's a
+bit like having a custom performance car
+but with this one you get everything you
+need to tweak exactly how it feels and
+sounds without needing to buy an
+entirely new vehicle every time you want
+to make a change on to my second big
+What is 'thock'?
+thing now I've just discovered that
+there's a kind of Holy Trinity when it
+comes to custom keyboards that I hadn't
+really thought about until testing out
+this one but before we go into what
+makes up this Trinity we need to talk
+about thiness now any self-respecting
+keyboard nerd which is not me by the way
+seems to be in search of the perfect
+thock now there is quite a lot of debate
+over what thiness really means but
+simply put thock is a sound it's a deep
+rich muted sound signature that's found
+in certain mechanical keys keyboards now
+if you're into ASMR it's probably the
+sort of thing that will light you up if
+you want to listen to it for a long
+stretches of time and when you've heard
+it I can fully understand why some
+people go chasing it if you want to try
+building a keyboard that sounds thy
+you're going to be wanting to consider
+three key variables this is the Trinity
+I was talking about there are more of
+course but let's start with three volume
+pitch and depth now each of these
+different elements can be controlled by
+using different types of switches key
+caps and material materials on the
+inside and it's a bit like fine-tuning a
+piano you can add a new Switch here that
+sounds quite nice you can add a gasket
+pad there it's even nicer let's try a
+metal plate instead of a plastic one not
+sure about that let's try something else
+if we take the space bar as a single
+example newy have added these extra
+silicon pieces here which they call
+their ghost bar the idea is that it
+should sound like all the other switches
+rather than Hollow and rattly like some
+of the space bars do now with everything
+on it sounds like this
+now you might not be able to tell the
+difference but trust me it feels really
+different and you can do this with all
+aspects of this keyboard now if you're a
+bit of an experimental by Nature I can
+totally see why a people get lost in
+finding the perfect combination of keys
+switches and more and B why people
+describe this as a hobby you could conco
+a kind of Sonic recipe that gives you
+your perfect volume pitch and depth dep
+that pleases you most and then spend
+months maybe years refining that recipe
+now I'm just beginning to understand why
+people can and do become obsessive about
+The cost of custom
+this the third and final thing I want to
+share about my Adventures into custom
+keyboards is that if you take the red
+pill and go down the rabbit hole this
+hobby can get really expensive really
+quickly now I went over to mod designs
+page to check out their sonic keyboard
+and this was genuinely like building a
+custom car you can pick out pretty much
+anything and just like a high-end car
+what started as a Bas pric
+$299 product quickly racked up to more
+than $600 for a keyboard that will
+arrive and I will need to build myself
+you can go much much higher than that
+too if you're a serious custom keyboard
+Enthusiast I saw this video the other
+day about
+$35,000 custom keyboard it's making me
+think that custom keyboards are the
+typing equivalent of the sort of person
+who whips out a mon Blan pen in a
+meeting it can fundamentally do the same
+thing as a 50 Cent BYO but the premium
+build and feel and Prestige makes a
+statement both to the people that see it
+and to the person using it now
+Conclusion - Gem80 review
+thankfully if you're in off the-shelf
+keyboard territory right now and you
+want to level up your keyboard game
+maybe you want to dip a toe in the water
+with custom boards the gem at isn't
+anywhere near that expensive this one
+I've been using in today's video starts
+at $149 but if you add on the
+connectivity option options switches
+themed key caps matching wrist rest
+you'll be looking at just over $200 it's
+not too bad if like me you're kind of
+building your collection still
+experimenting with your taste but don't
+want to get into crazy custom keyboard
+pricing territory just yet it feels like
+they've made a keyboard specifically for
+people who are custom curious and they
+kind of know they'll need a bit of
+handholding when they're taking the
+plunge for the first time just in case
+you're wondering by the way newfi aren't
+sponsoring this video but they did send
+me this keyboard to try out ahead of the
+pre-order and the link in the
+description is Affiliated so if you're
+fancy picking up one of these for
+yourself and you do want to support the
+channel head in by the link below and
+use my code and get yourself a sweet
+sweet 10% discount on this or anything
+else in their store enjoy folks if you
+got any questions about this one you
+know what to do maybe you're an
+experienced custom keyboard person and
+you've got some suggestions for me as a
+relative amateur to improve my
+experience if so great let me know all
+your favorite modifications down in the
+comments and maybe I'm make a followup
+or perhaps there are some other big
+things that anyone who wants to get into
+custom keyboards needs to know that I've
+not covered here drop a comment below
+and let us know and in the meantime if
+you don't feel like building your own
+keyboard after watching this you might
+want to check out my head-to-head to
+head of the three best off-the-shelf 75%
+lowprofile keyboards I've tried lately
+and I promise I'm not really a keyboard
+guy see you next
+time
 
 ----------
 
