@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typing/TrainingData/EN/Steven Bartlett.md",
+                "file": "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typing/TrainingData/EN/Steven Bartlett.md",
+                "file": "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typing/TrainingData/EN/Steven Bartlett.md",
+                "file": "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typing/TrainingData/EN/Steven Bartlett.md"
+                "file": "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md"
               }
             }
           }
@@ -146,45 +146,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6715f082df2e099d",
+  "active": "7e12dc168d0eac36",
   "lastOpenFiles": [
-    "Typing/TrainingData/EN/Steven Bartlett copy.md",
-    "Typing/Keyboards/QMK/Planck.md",
+    "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/analysis.md",
+    "Typing/Knowledge/DiscoRD servers/Kiakl/address.md",
+    "Typing/Knowledge/DiscoRD servers/Kiakl/proposal-info.md",
+    "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md",
+    "Typing/Knowledge/DiscoRD servers",
+    "Typing/Knowledge/DiscoRD servers/Kiakl",
+    "Typing/Knowledge/Letters frequency.md",
+    "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts",
+    "Typing/Keyboards/YouTube/Transcriptions.md",
+    "Typing/Keyboards/YouTube/Notes.md",
     "().md",
     "Typing/TrainingData/EN/zRandom Stuff.md",
-    "Typing/TrainingData/EN/Lex Friedman.md",
-    "Typing/TrainingData/EN/Steven Bartlett.md",
+    "Typing/TrainingData/EN/zMorePodcasts.md",
+    "Typing/TrainingData/EN/Steven Bartlett 02.md",
+    "Typing/TrainingData/EN/Steven Bartlett 01.md",
     "Typing/TrainingData/EN/Sam Charrington.md",
+    "Typing/TrainingData/EN/Lex Friedman.md",
+    "Typing/emptySheet 600.md",
+    "Typing/emptySheet 99.md",
+    "Untitled.md",
+    "Zx scratchBook/RusishAttack.md",
+    "Zx scratchBook/Bookmarks.md",
+    "Typing/Knowledge",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "2024-02-22.md",
+    "Typing/TrainingData/EN/Steven Bartlett copy.md",
+    "Typing/Keyboards/QMK/Planck.md",
     "Typing/Training Ideas/FastType music collection.md",
     "Typing/TrainingData/PL/różności.md",
     "Typing/TrainingData/PL/Zbiór.md",
-    "Untitled 1.canvas",
-    "2024-02-22.md",
-    "Untitled.canvas",
-    "Typing/Keyboards/YouTube/Notes.md",
-    "Typing/Keyboards/YouTube/Raw.md",
     "Zx Organize Helper/ask noteGPT.md",
-    "Zx Organize Helper/make Notes.md",
-    "Zx Organize Helper/Gain Knowledge.md",
-    "Zx Organize Helper/Expanded_Raw_99.md",
-    "Zx Organize Helper/Organise Knowledge.md",
-    "Typing/Training Ideas/Lecture PyStock.md",
-    "Swift/various.md",
-    "Mojo/Mojo set.md",
-    "Untitled.md",
     "Typing/Keyboards/QMK",
-    "Typing/Training Ideas/Ultimate speed.md",
-    "Write documentation/Link and notes.md",
-    "Write documentation/project documentation.md",
-    "Swift/Sean Allen/Links.md",
     "Swift/Sean Allen",
     "Typing/Training Ideas",
     "Zx scratchBook",
     "General Developer/Improve",
-    "General Developer",
-    "Write documentation",
-    "Typing/TrainingData/EN",
-    "Typing/TrainingData/PL/erotyka",
-    "Typing/TrainingData/PL"
+    "General Developer"
   ]
 }

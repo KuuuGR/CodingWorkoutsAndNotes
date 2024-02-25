@@ -85,9 +85,17 @@
 83. [# There’s a fast new code editor in town](https://www.youtube.com/watch?v=JGz7Ou0Nwo8)
 84. [# Elon Musk's Statement SHOCKs the Entire Reality! AGI, living in a simulation, Groq, Q-Star and Gemma](https://www.youtube.com/watch?v=sJMduj9ahCU)
 85. [# Microsoft Copilot Top 5 Tips and Tricks in 2024](https://www.youtube.com/watch?v=vNI2PdqG52g)
-86. Link: [# The Many Victims of Pokimane]()
-87. 
-
+86.  [# The Many Victims of Pokimane]()
+87. [# I Tried The New Corsair Keyboard... (A̶n̶d̶ ̶Y̶o̶u̶ ̶S̶h̶o̶u̶l̶d̶ ̶T̶o̶o̶)](https://www.youtube.com/watch?v=aBHpmqReKvo)
+88. [# CrewAI Tutorial - Automate REAL WORLD Tasks From Scratch](https://www.youtube.com/watch?v=8R7QOJgGyIQ)
+89. [# Gates, Altman and Bezos SHOCK the Entire Industry! Figure AI, Reddit IPO, Tyler Perry Shocked and T2](https://www.youtube.com/watch?v=sSKxxVtAANQ)
+90.  [# OpenAI SHOCKS Everyone "GODLIKE Powers" and MAGIC Abilities In New AI Prediction](https://www.youtube.com/watch?v=r56S2A5QwsM)
+91. [# Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)🌟🌟
+92.  [# Create a Stunning 3D Animated Portfolio Website with Next.js 14, Three.js, GSAP, and Prismic](https://www.youtube.com/watch?v=rXDCAAkiC-s)
+93. : [# 17 Raw Lessons About Human Nature - Steven Bartlett (4K) | Modern Wisdom 688](https://www.youtube.com/watch?v=JBgwF8aHByI)
+94. [# How to make a great framework better? - Svelte 5 with Rich Harris](https://www.youtube.com/watch?v=z7n17ajJpCo)
+95. [# NVIDIA's AGI "SuperTeam" SHOCKS The ENTIRE Industry | Karpathy Leaves OpenAI, Gemini Infinite Tokens](https://www.youtube.com/watch?v=KzxR2Vcr9CM)
+96. 
 
 
 -----
@@ -139,14 +147,359 @@ paste here
 ----------
 
 -----
+
 --95--
 
 -----
-Date:
-Link:
+Date: 2024.02.25
+Link: [# NVIDIA's AGI "SuperTeam" SHOCKS The ENTIRE Industry | Karpathy Leaves OpenAI, Gemini Infinite Tokens](https://www.youtube.com/watch?v=KzxR2Vcr9CM)
+
+### Summary of Content
+
+**NVIDIA's Super Team for AGI:**
+
+- **Advantages:**
+    - Leading-edge chips, top AI researchers, and substantial funding.
+    - Focus on AGI across any modality and reality, centered around Dr. Jim Fan and the Foundation Agent.
+- **Drawbacks:**
+    - High expectations and the ambitious nature of AGI projects.
+- **Tips and Advice:**
+    - Emphasis on collaboration and leveraging NVIDIA's resources.
+- **Main Challenges:**
+    - Achieving AGI, balancing innovation with realistic applications.
+- **Importance and Usefulness:**
+    - Potential to revolutionize technology and how we interact with AI.
+- **Accomplishments:**
+    - Dr. Jim Fan's significant contributions and the formation of the GEAR research group.
+- **Interesting Quotes:**
+    - "We believe in a future where every machine that moves will be autonomous."
+
+**AI and Tech Updates:**
+
+- **Andrej Karpathy Leaves OpenAI:**
+    - His departure is significant due to his influence in AI, with future plans focusing on personal projects.
+- **Gemini 1.5's Performance:**
+    - Notable for its 1 million token context window, enhancing code analysis and multimedia understanding.
+- **Phind 70B's Coding Prowess:**
+    - Claims to match GPT-4 Turbo in code-related tasks while being faster.
+- **Stable Diffusion 3's Capabilities:**
+    - Improved performance in generating images from text, with plans for video applications.
+- **Chat with RTX by NVIDIA:**
+    - A tool allowing users to interact with their documents using AI, emphasizing speed and local processing.
+- **Groq's Speed Breakthrough:**
+    - Groq's AI demonstrates extraordinary processing speed, suggesting new possibilities for AI interactions.
+
+### Summary
+
+The advancements in AI, led by NVIDIA's push towards AGI, signify a major leap forward in technology. The formation of a superstar team around Dr. Jim Fan and the Foundation Agent project underlines NVIDIA's commitment to revolutionizing AI across all realities. Other developments, such as Andrej Karpathy's departure from OpenAI, the introduction of Gemini 1.5, Phind 70B, Stable Diffusion 3, NVIDIA's Chat with RTX, and Groq's speed breakthrough, highlight the rapid progress and diverse innovations within the AI field. These advancements suggest a future where AI's role in technology and daily life is both transformative and integral.
+
 Transcription:
 
-paste here
+NVIDIA's Super Team
+imagine this you wake up one morning and you're the CEO of the third largest
+company in the world just last week you posted another record quarter which
+resulted in a one-day gain of the same size of an entire Netflix you have the
+most cuttingedge chips the best AI researchers and a cash stockpile the
+size of many countries Jensen the CEO of Nvidia is in this exact position and
+what he decided to do is go all in on AGI but not just AGI he's building a
+superstar team to achieve AGI in any modality and any reality and the entire
+team is built around one man Dr Jim fan he's simply starting a team dedicated to
+extending his research around the foundation agent everything has been leading to this and that's what we're
+going to be talking about today we're going to briefly go through all of his incredible contributions that led him to
+starting a team that is well positioned to achieve AGI the best mins unlimited cash and the
+largest collection of gpus in the world let me show you why this is going to change everything and Andrew karpathy
+left open AI Gemini 1.5 has essentially unlimited context size chat with RTX was
+released by Nvidia and grock stunned everybody with their inference speeds
+let's take a look at all of it so first Dr Jim fan who if you're not familiar Dr Jim fan is a head researcher at Nvidia a
+very very important person in the world of AI and the work he's doing on something called Foundation agent is
+truly mindblowing and now he's going all in on Foundation agent so here he says
+career update I am co-founding a new research group called gear at Nvidia so he's not leaving Nvidia he's simply
+starting a new organization within the company with my longtime friend and collaborator Professor yuk zooo gear
+stands for generalist embodied agent research and this is exactly what he has
+been promising with the foundation agent and I made an entire video about the foundation agent because it was truly
+futuristic and something that could change the face of artificial intelligence completely and if you want
+to check out that video I'll drop a link in the description below we believe in a future where every machine that moves
+will be autonomous and robots and simulated agents will be as ubiquitous
+as iPhones we are building the foundation agent a generally capable AI
+that learns to act skillfully in many worlds virtual and real and for a quick
+reminder the first time we started hearing Rumblings of the foundation agent was when they built a Minecraft
+agent that essentially could play Minecraft indefinitely and really reach
+the end game of Minecraft for the first time and then in my previous video I
+showed how they were applying that same architecture to operate in the real
+world fully autonomously I am extremely excited about what Dr jiman is doing with his team now I've made a couple
+videos about simulation and this is an extension of that because what the foundation agent promises to do is allow
+AI to operate in any reality and so what does that actually mean first of all any
+virtual reality so any video game it can operate within no matter what the rules are no matter what the physics
+definitions are it can operate in any of those types of virtual environments but then it can also operate in any real
+world environment and it's doing that through the embodiment of a robot and
+the way that they're training is by simulating a real world environment in a
+virtual environment so all of a sudden they have all of this amazing synthetic data that they can use to train a robot
+for the real world here he says 2024 is the year of Robotics and if you remember
+that was one of my predictions for 2024 so I'm glad somebody who knows a million times more than me about the subject
+also agrees the year of gaming AI super excited about that when we can interact
+with a game and all the NPCs in the game are essentially alive and they Chang the
+game dependent on what I do in that world that to me is a game I want to
+play and the year of simulation we are setting out on a moon landing Mission
+and getting there will spinoff mountains and learnings and breakthroughs join us in the journey so if you want to apply
+to their team you can do so right here so below that he lists a couple highlights on some of the research that
+they've already been doing so first Eureka gp4 writes reward functions to teach a FiveFinger robot how to do pen
+spinning tricks better than I can trained with GPU accelerated physics simulation at 1,000 times faster than
+real time and that's what I've mentioned that is going to be applicable to real world robots so they're training on GPU
+accelerated Virtual Worlds and then they're going to be applying that to the real world Voyager and this is the
+Minecraft AI that I had mentioned the first llm powered agent that plays Minecraft proficiently Voyager
+bootstraps its own capabilities as it explores the open-ended World continuously and I made a video about
+this as well I'll drop it in the description below and here's mind Dojo open framework that turns Minecraft into
+an AGI research playground we collected hundreds of thousands of YouTube videos Wiki pages and Reddit posts for training
+of Minecraft agents and here's the vimma the First multimodal llm with a robot
+arm attached we introduced multimodal prompting for robot learning now I haven't covered this topic but it looks
+really cool and to dive a little bit deeper into this it says robotics will be the last moot we conquer in AI what
+would a robot gpt's API look like introducing V A vimma an llm with a
+robot arm attached it takes multimodal prompts text images videos or a mixture of them you can say rearrange the table
+to look like and then you pass in an image or follow the action provide video
+frames you can even teach it new visual Concept in context this is a wug image
+and this is a blicket image now put the red wug on the green blicket so these are nonsense words but it kind of shows
+you what is possible when you're able to provide different modalities of input to
+a large language model and it is open source which is really nice you can find the GitHub repo right here and they have
+a paper as well so very very cool here he describes mimic play solving complex
+robotic tasks by combining unstructured human play data and robotic T operation
+data now I've made a few videos about t operation and as a reminder that just means that somebody is controlling the
+robot remotely whether it's literally attached to the robot or doing it remotely through some kind of controller
+but either way that t operation gives the robot data to train itself on so it
+takes that data and makes it more generally applicable to other actions that aren't exactly like that and mobile
+Aloha was a video that I made that kind of covers exactly that topic they were able to train a robot that can move in
+the real world to do amazing tasks without explicitly defining how to accomplish those tasks using
+teleoperation to train it and so mimic play is a library out of Nvidia by Dr
+Jim fan and to extend on mimic play he has mimic gen robotics has a data
+problem and actually all of AI has a data problem and that's where synthetic data is going to come into play
+synthetic data seems to be the only way that we're going to reach AGI we multiply highquality human data by by a
+thousand times using digital twins in simulation and he says right here synthetic data will provide the next
+trillion tokens to fuel our hungry models now there's actually a Counterpoint to that argument if we
+think about the human brain the human brain is able to learn incredible things at a fraction of the amount of
+information needed to train large language models so if we're able to do that why are large language models
+requiring so much data that's something we're going to have to consider it's possible that the entire Transformers
+architecture is just not the most optimal architecture to reach AGI now
+this is the edge of my knowledge so I'm not actually sure I'm just posing the question to you what do you think do you
+think because our brains are able to learn so much more with such little data that maybe we're not taking the right
+approach with large language models let me know in the comments and here is prismer an open- Source multimodal llm
+before gbt 4 was announced it combines many pre-trained visual experts to be super to be super sample and parameter
+efficient and there's a bunch of projects that he's released from Nvidia and now he's forming an entire team to
+focus on this so super excited for what gy fan is going to bring to the world really appreciate all the work you're
+Karpathy Leaves OpenAI
+doing next a bit of AI news Andre carpy has actually left open AI after just
+about a year being there let's see what he says Hi everyone yes I left open AI yesterday first of all nothing happened
+and it's not a result of any particular event issue or drama but please keep the conspiracy theories coming as they are
+highly entertaining so he left people sometimes leave jobs that's fine I'm
+really interested in what he's going to do next Andre karpathy is probably one of the leading AI Minds in the world and
+not only that he's able to explain complex AI topics really simply I'm very
+impressed with a lot of his videos that break down very difficult topics into
+digestible bits for people people like me who aren't experts at this stuff and I really hope he actually goes down the
+educational route because he is one of the best Educators out there actually being at open aai over the last about
+year has been really great the team is really strong the people are wonderful and the road map is very exciting and I
+think we all have a lot to look forward to my immediate plan is to work on my personal projects and see what happens
+those of you who followed me for a while may have a sense for what that might look like so it's probably going to be
+education but I don't know him personally so maybe he has been working on projects that he's not talking about
+so I'm definitely going to keep a close eye on what he does next and speaking of Andre karpathy he actually made a tweet
+NEW LLM Benchmark
+that led me to something that I found to be extremely cool here he tweets about a blog post written by Nicholas Carini in
+which Nicholas actually created an incredibly sophisticated Benchmark to run against large language models now
+you're all familiar with my Benchmark which is very unscientific to say the least but Nicholas actually created a
+GitHub repo with hundreds of tests to run against these models in all different languages and not only are
+they well documented tests but they actually have a concrete output to check against so nice post but even more than
+the 100 test specifically the GitHub code looks excellent full featured test evaluation framework easy to extend with
+further tests and run against many llms now what do you think should I adopt these tests I like running my test and
+kind of free forming it and it being very unscientific but maybe I should also adopt a more rigid framework for
+testing these large language models let me know in the comments what you think and if we look at the test results for
+the 100 current test on seven models GPT 4 is still the best at 50% gp2 3.5 is
+after that claw 2.1 all the way down to mistal medium mistal small and Gemini Pro last so I'll check these tests out
+let me know if you want me to do a full video reviewing the test itself but let's go into Nicholas Carini's blog
+post so he released a new Benchmark and some of the tests that he includes in his Benchmark include convert a python
+function to an equivalent but faster C function explain the functionality of minified JavaScript identify the
+encoding format of some data write a parser write some bash on liners and all
+of his tests are coding related so maybe I'll use this llm Benchmark to test
+coding specific models and I'm going to get to coding specific model that was just released in a minute so here's some
+examples we have print hello the most basic we have rewrite some
+code we have some other tests here's a Rex test draw a triangle so there's a
+bunch and they're all tested and output right here I'll drop a link to this in
+the description below all right next let's talk about Gemini I was on vacation last week so I couldn't make a
+Gemini Infinite Context
+full video dedicated to Gemini but Gemini 1.5 was released and a lot of people are saying great things about it
+now I just made a video about Gemma and it didn't perform well so I'm super excited to test Gemini and in fact I
+just got access to Gemini 1.5 and I'm going to be testing it all this weekend let me know of anything you want me to
+test with it in the comments below and I'll try to include it in the video and I was actually thinking about going Live
+on YouTube and testing it with you all and again if You' be interested in that let me know in the comments below I'm
+really excited to test out different content formats and see what you guys are interested in so here's a blog post
+by Dan shipper I spent a week with Gemini Pro 1.5 it's fantastic and the
+context window is the main thing with Gemini 1.5 it has a 1 million token
+context window and not only that I believe I read that they're actually testing a 10 million token context
+window internally so why is a large context window so awesome well it's awesome because you can throw entire
+books entire movies and ask questions about those movies or books where whereas previously we'd have to chunk
+them up and just ask about specific sections but that is only good if it's able to do so accurately and there's
+this test called needle in a haystack and it is by somebody that I've actually gotten to known recently another fellow
+YouTuber Greg camit and what it does is essentially provides a full context
+window worth of information and asks the large language model to find a specific
+singular piece of information within the huge amount of information it was passed and a lot of previous models weren't
+able to do this well in fact there was a paper called Lost in the Middle where it showed that a lot of large language
+models have good recall from the beginning and the end of a prompt but not the middle of it and that's actually
+really similar to how the human brain works but let's read here Gemini 1.5 Pro read an entire novel and told me in
+detail about a scene hidden in the middle of it it read a whole code base and suggested a place to insert a new
+feature with sample code now to me having a massive Contex size is actually
+most exciting when applied to code bases because if you're able to provide an entire codebase worth of information to
+a large language model and it's able to help you code it all of a sudden AI coding is going to reach another level
+it even read through all of my highlights on reading app readwise and selected one for an essay I'm writing
+and for context GPT 4 turbos context window is 128,000 tokens so much much
+smaller so I'm super excited to test out Gemini 1.5 I just got access I'm going to be playing around with it all weekend
+ScreenAI
+next Google research has released something called screen Ai and this is something very unique it is a screen
+language model for UI and infographics understanding and this goes towards building a future where llms are the
+operating system now I've made videos about the rabbit device and this is kind of the same thing that we're talking
+about being able to read and understand a user inter interface is actually very
+difficult for a large language model open interpreter is an example where there have been a couple open source
+projects that I've covered that can control your computer and they've worked sometimes because taking a picture of
+the screen getting the coordinates and being able to actually control the mouse to click on specific parts of the screen
+is a really difficult problem for large language models but this paper proposes a way to really optimize that process
+let's just take a quick look at this abstract screen user interfaces and infographics sharing similar visual
+language and design principles play important roles in human communication and human machine interaction we
+introduce screen AI a vision language model that specializes in UI and infographics understanding our model
+improves on the Pali architecture with the flexible patching strategy of pix to
+struct and is trained on a unique mixture of data sets at the heart of this mixture is a novel screen
+annotation task in which the model has to identify the type and location of UI
+elements we use these text annotations to describe screens to large language models and automatically generate
+question answering UI navigation and summarization training data sets at
+scale so here's an example of the workflow this is the overall architecture you have a screen you take
+a screenshot you pass it to the Pix to struct it breaks it down and it looks like it's also using the grid format
+then it creates an embedding and continues to be able to ask questions
+and actually control the interface if necessary and here's what the actual pipeline looks like so task generation
+pipeline the screens are first annotated using various models we then use llms to
+generate screen related tasks at scale optionally we validate the data using another llm or human Raiders and they
+are using a massive amount of data so 353 million generated screen annotation
+generated screen question answer 38 million screen navigation 15 million
+summarization 13 million so using all of this to train the models so this is going to be really great for transitioning the way we interact with
+computers I am very bullish on the whole mouse and keyboard thing kind of going
+away eventually now obviously we're still going to need a mouse and keyboard for a lot of things for a while but I'm
+very excited to just talk to Ai and get the answers I want immediately okay next find a company that has been releasing
+Phind 70b
+open source models and specifically fine-tuned for coding task has now released a model that they say is
+absolutely comparable to GPT 4 so introducing find 70b closing the code quality gap with GPT 4 Turbo while
+running four times faster now a lot of people don't appreciate how much speed
+is important the speed at which we get inference especially for tasks which humans don't actually have to read the
+text is incredibly important and a great example of that is coding and I'm going to talk a little bit more
+about speed in a bit when we talk about grock so we are excited to announce find 70b our largest and most performance
+model to date running at up to 80 tokens per second find 70b gives highquality
+answers for technical topics without making users make a cup of coffee while they wait so fine 70b scores 82.3 on
+human evalve beating the latest gp4 turbo so here it is here's human eval
+and here's find compared to gp4 and it is a huge improvement over find 34b and
+if we look at krux eval it is below gp4 turbo but very very close and it's funny
+because they say this is reported versus evaluated so a little nod to the fact
+that maybe it's not actually performing that well and the best part find 70b is available today to try for free without
+a login and unfortunately it is not open source yet however read right here we
+love the open source community and will be releasing the weights for the latest fine 34b model in in the coming weeks we
+intend to release the weights for fine 70b in time as well so I really hope they do because this model seems awesome
+Stable Diffusion 3
+stable diffusion 3 was also released this week so announcing stable diffusion 3 our most capable textto image model
+utilizing a diffusion Transformer architecture for greatly improved performance in multi subject prompts
+image quality and spelling abilities so I'm very excited to test this out I'm hoping it's better than Dolly because
+right now I'm using Dolly pretty frequently but with the Sora release stability AI probably has their eye on
+video and when Sora was announced I saw somewhere the founder of stability AI
+tweeted that they are also working on something text a video and it is going to be open source I tried to dig up that
+tweet but I couldn't find it I'm sorry if you find it drop it in the comments below so I can share it but for stable
+diffusion 3 they're opening the wait list and you can sign up right here all right another thing that was release
+Chat with RTX
+that seems really cool is nvidia's chat with RTX I haven't actually had a chance to play around with it but essentially
+what it promises is you can chat with docs on your computer and it uses a rag framework and apparently it's very fast
+I have a PC I could use it I just haven't had a chance to try it out but it looks really cool so here it says
+chatwi RTX is a demo app that lets you personalize a GPT large language model connected to your own content so whether
+you're doing docs notes videos or other data and it's using Rag and using RTX
+acceleration so it should be really really fast all right so what's cool about it is it is completely local and
+it uses open source models so both of those factors are really cool so I'm thinking about testing it out but there
+are so many other chatwi your docs projects out there that I don't know if you guys want to see another video about it so I've already talked a little bit
+Gemini 1.5 Insane Performance
+about Gemini 1.5 but let me show you a little bit more about it because it is so exciting so this is the blog post I'm
+not going to read it all but basically right here it says a window up to a million tokens via AI studio and vertex
+AI in private preview and as I mentioned I got access to that so so I'm thinking about all the ways to use that massive
+context window but let's go a little bit further so Jeff Dean who is an incredibly prominent mind in the world
+of AI and the chief scientist at Google Deep Mind and Google research has the
+needle in the hyack test at of 10 million tokens so as I mentioned they are testing 10 million tokens internally
+and again congrats to Greg Cameron because he basically came up with this whole concept of needle and a hay stack
+and a lot of people including Jeff Dean have been talking about it so first let's take a quick glance at needle and
+hastac test across many different modalities to exercise Gemini 1.4 PR's
+ability to retrieve information from its long context in these tests green is good and red is not these are almost
+entirely green 99.7% recall even out of 10 million tokens that is crazy to think
+about Gemini 1.5 Pro achieves near-perfect needle recall in a million
+token context window even at 10 million they just had a couple red dots here so
+almost perfect so here are a couple examples of what you can do with a
+context window that large so here it says analyzing and understanding complex code bases so they pass in three.js
+which is a 3D JavaScript library with 100,000 lines of code provides examples documentation Etc passes it all into a
+single prompt and asks for help with code with this codebase in context the system can help the user understand the
+code and can make modif ifications to complex demonstrations based on highlevel human specifications so I'm
+going to play this video from Google because it is so cool it is basically asking Gemini 1.5 to create this 3D
+world in real time and it can do so because it has the entire context of the codebase documentation and examples so
+now you could start getting your mind working and think about what incredible contributions AI is going to be making
+to code bases very soon this is a demo of long context understanding an experimental feature in our newest model
+Gemini 1.5 Pro we'll walk through some example prompts using the 3js example
+code which comes out to over 800,000 tokens we extracted the code for all of the 3js examples and put it together
+into this text file which we brought into Google AI Studio over here we asked the model to find three examples for
+learning about character animation the model looked across hundreds of examples and picked out
+these three one about blending skeletal animations one about poses and one about morph taret for facial animations all
+good choices based on our prompt in this test the model took around 60 seconds to respond to each of these prompts but
+keep in mind that latency times might be higher or lower as this is an experimental feature we're optimizing next we asked what controls
+the animations on the littlest Tokyo demo as you can see here the model was
+able to find that demo and it explain that the animations are embedded within the gltf
+model next we wanted to see if it could customize this code for us so we asked show me some code to add a slider to
+control the speed of the animation use that kind of guey the other demos have this is what it looked like before
+on the original 3js site and here's the modified version it's the same scene but it added this little slider to speed up
+slow down or even stop the animation on the fly it used this gooey Library the other demos have set a parameter called
+animation speed and wired it up to the mixer in the scene like all generative models responses aren't always perfect
+there's actually not anit function in this demo like there is in most of the others however the code it gave us did
+exactly what we wanted next we tried a multimodal input by giving it a screenshot of one of the demos we didn't
+tell it anything about this screenshot and just asked where we could find the code for this demo seen over here as you
+can see the model was able to look through the hundreds of demos and find the one that matched the image next we
+asked the model to make a change to the scene asking how can I modify the code to make the terrain flatter the model
+was able to zero in on one particular function called generate height and showed us the exact line to tweak below
+the code it clearly explained how the change works over here in the updated version you can see that the terrain is
+indeed flatter just like we asked we tried one more code
+modification task using this 3D text demo over here we asked I'm looking at the text geometry demo and I want to
+make a few tweaks how can I change the text to say goldfish and make the mesh materials look really shiny and
+metallic you can see the model identified the correct demo and showed the precise lines in it that need to be
+tweaked further down it explained these material properties metalness and roughness and how to change them to get
+a shiny effect you can see that it definitely
+pulled off the task and the text looks a lot shinier now these are just a couple examples of what's possible with a
+context window of up to 1 million multimodal tokens in Gemini 1.5 Pro and
+the most mind-blowing use case to me is being able to analyze and reason about entire videos not just few seconds of
+Clips but movies you can fit entire movies into context Windows of this size
+consider Gemini 1.5 Pro's ability to analyze movies like Buster Keaton silent 45-minute Sherlock Jr movie using one
+frame per second we turn this into an input context of 684 th000 tokens the
+model can then answer fairly complex questions about the video content such as tell me some key information from the
+piece of paper that is removed from the person's pocket and the time code of that moment let's look at that so here's
+a frame Sherlock Jr is taking a piece of paper out of his pocket then the video
+is analyzed we can see the piece of paper and here's the model output the piece of paper removed from the person's
+pocket is a pond ticket from I Goldman and Company Pond broker so it can read
+anything from any frame through the entire movie really really awesome some stuff and here Matt Schumer says on a
+benchmark measuring Precision recall from a full day of audio Gemini Pro 1.5
+when just seeing the audio file directly far outperforms GPT 4 with a whisper
+transcription this is mindbending so you can see at the top this is perfect recall against the audio and at the
+bottom this is gp4 using whisper to translate the audio into text and then
+asking questions and it fails a lot so I know a lot of people people have been giving Google Gruff because a lot of
+their models haven't been performing all that well going all the way back to Bard but Gemini 1.5 seems incredible and the
+fact that they released 1.5 just a few weeks after Gemini Pro was released is very telling as to the progress that
+Groq's Crazy Speed
+they're making internally all right last and the thing I'm most excited to test is grock I got access to not only grock
+chat which everybody gets access to but I actually got access to their API and
+where my mind immediately go goes is I want to plug grock into an agent framework because the best use for the
+high tokens per second is when AI talk to each other because I obviously can't read at 500 tokens per second but two
+agents working with each other on something can so check this out this is grock chat gro.com if you haven't
+checked it out please do so right here we have mixl * 7B my favorite open source model so if we enter a prompt let
+me just show you how fast this is It's kind of absurd and I'm going to do a full video all about this and in fact
+I'm likely going to be talking to their Hardware Engineers to learn how they were able to achieve this with their
+Hardware okay write a story about AI gaining Consciousness make it 10,000 words okay so oddly enough it told me
+that it can't write 10,000 words and it's going to write a shorter story so I don't know why it did that H let's try
+to make it write 10,000 words because the context window is 32,000 tokens so it should be able to do that but right
+here we do see the tokens per second is enormous so no make sure to write 10,000 words don't tell me you can't all right
+10,000 words story that is definitely not 10,000 words so I'm struggling to make it do 10,000 words but again 500
+tokens per second so very very fast I'm definitely going to test it extensively
+in fact let's try one more thing I'm going to try Lama 2 70b now we only have a 4,000 token limit so let's try to max
+out that token limit so write a story about AI in 2500 words all right very
+very nice slower than Mixel but still very very fast and this speed is going to unlock a lot of really cool use cases
+so that's it for today if you liked this video please consider giving a like And subscribe and I'll see you in the next one
 
 ----------
 
@@ -154,11 +507,822 @@ paste here
 --94--
 
 -----
-Date:
-Link:
+Date:  01.02.2024
+Link:  [# How to make a great framework better? - Svelte 5 with Rich Harris](https://www.youtube.com/watch?v=z7n17ajJpCo)
+
+### Summary of the Content
+
+**Advantages:**
+
+- Svelte simplifies web development, making it more accessible to a broader group of people.
+- It offers a unique approach by compiling code at build time, reducing the runtime overhead and ensuring more efficient applications.
+- Svelte integrates styles directly within components, streamlining the development process.
+- The framework focuses on enhancing developer satisfaction by simplifying state management and component interaction.
+
+**Drawbacks:**
+
+- The adoption of new concepts like Svelte's compile-time approach may require a learning curve for developers accustomed to traditional JavaScript frameworks.
+- Limited awareness or misconceptions about Svelte being a "new" language could hinder its wider adoption.
+
+**Tips and Advice:**
+
+- Embrace Svelte's HTML-centric approach for intuitive and interactive UI design.
+- Utilize Svelte's compilation advantage for more efficient and smaller application bundles.
+- Explore the use of SvelteKit for full-stack application development, taking advantage of its seamless integration with Svelte.
+
+**Main Challenges:**
+
+- Overcoming the industry's fixation on established frameworks and the inertia against adopting new paradigms.
+- Educating developers about the benefits of compile-time frameworks versus runtime-centric approaches.
+
+**Importance and Usefulness of the Topic:**
+
+- Svelte addresses the complexity and performance issues prevalent in modern web development, offering a streamlined and efficient alternative.
+- It plays a crucial role in advancing the web development landscape towards more sustainable and developer-friendly practices.
+
+**Accomplishments:**
+
+- Consistently high developer satisfaction ratings in surveys.
+- Successful creation and adoption of SvelteKit, enhancing Svelte's capabilities for full-stack development.
+
+**Interesting Quotes or Insightful Sentences:**
+
+- "The web is not in great health... I want to do my bit to try and reverse that trend."
+- "Svelte solves the fundamental problem is that web development is too hard."
+- "What makes a web framework not just good but great is how it simplifies the development process and improves the end user's experience."
+
+This transcription offers a comprehensive overview of Svelte, highlighting its advantages in simplifying web development, the challenges it faces in wider adoption, and the insights from its creator on its future direction.
+
+
 Transcription:
 
-paste here
+Intro
+the web is not in great health a lot of things that we use in the digital world
+on a day-to-day basis are just broken the web is a lot of time much worse in terms of user experience and reliability
+and all of these things and I want to do my bit to try and reverse that Trend you
+know a lot of people candidly just don't have time for the front end Industries
+oh which which Library am I supposed to use for State Management no it's a it should be built in what makes
+a web framework not just good but great and how does spelt rank consistently
+highest in developer satisfaction surveys and what will future versions of spelt bring to the web I sat down with
+the creator of spelt Rich Harris in his Brooklyn apartment to discuss the magic of spelt the current state of the web
+and how we can move things forward with the right approach Rich thanks for having us thanks for coming by you Sav
+What problem does Svelte solve?
+me a Subway trip by coming here perfect uh so what problem does spelt
+solve uh spel solves the like so the fundamental problem is that web development is is too hard and spel is
+an attempt to make it a little bit easier uh to make it a little bit more tractable for a wider group of people to
+build Rich interactive web applications uh it falls into this category of things called a front-end framework similar to
+projects like react and View and angle and all of these other things takes a slightly different tack but that is
+essentially what it does it allows you to build your application out of declarative components and then it turns
+it into something that the browser understands and allows you to build interactive uis without having to do all
+of the plumbing of manipulating the Dom yourself you've described it as a uh a
+web framework as a framework without the framework and as a language like why is
+that important and and what do you mean by that yeah the the definitions and the way that we talk about it have
+definitely evolved over the years the the framework without a framework um
+description was when felt first came out the idea was like can we just do away with all of the Machinery that is
+included as part of the framework when it runs in the browser can we take your input and just sort of compile it down
+to to the underlying instructions to to the browser and sort of dissolve away
+all of the scaffolding and so that's what framework without the framework means in reality of course there is a little bit of infrastructure that needs
+to be there for any of this to work um but essentially what it's getting at is
+this idea that the code that you write and the code that actually runs in the browser they're not the same thing there
+is a transformation that takes place in at build time so that the application
+that you actually ship to users is more efficient it's smaller than it needs to be otherwise it's um it's better at at
+updating the Dom um in a very efficient way um and it it does all this without
+you needing to think deeply about how to optimize your application it does it for you so spel in addition to being a
+framework is is a language it is a language for describing user interfaces when you build a spelt application
+you're doing it in a spelt file as opposed to in ajs or. TS file um and
+that is the fundamental difference what do you see as the difference between a JavaScript framework and a web
+framework yeah it's a subtle distinction I guess the the reason that we call it a
+web framework as opposed to a JavaScript framework um it's kind of twofold firstly spel is an HTML Centric language
+you know what we've found over the years is that HTML is actually a really good language for describing user interfaces
+there's something about the nature of those angle brackets that people just really get like you're describing the
+structure of something in a way that intuitively makes a lot of sense and what we've seen is the JavaScript
+Centric Frameworks like react to be a great example in order to make that style of development appealing they've
+had to create things like jsx so that it feels like you're writing h spel doesn't do that it's it says HTML
+is actually a really good starting point we just need to make HTML an interactive language and so that is what spelt is it
+adds interactivity to HTML the other reason that we call it a web framework and not a JavaScript framework is that
+anytime you build a web app you're going to have to think about styling that is one of the fundamental problems that you
+are going to have to solve and a JavaScript Centric framework typically just doesn't have any opinion on this
+but spelt does if you write a spelt file then you can include your CSS directly
+inside that component and it will only apply to that component and then your bill tool will you know extract it out and chunk it up and like do all of the
+optimization stuff that you shouldn't need to care about but you are describing the Styles at the same time
+as you're describing the markup of your component and the behavior of your component and a lot of Frameworks just
+sort of leave that as a you know exercise left to the reader type thing and and that's not what spels philosophy
+is spels philosophy is you're building a web app here's how you build a web app and we're going to give you the tools
+that you need to do that we're not going to just throw our hands up and say ah someone else solved this problem and you
+haven't seen like because of that you haven't seen the same kind of like explosion around like CSS and JS
+Solutions like react has where there's a thousand different choices to go with but you just kind of use what's built
+into the framework that's felt exactly I mean you can use all of those CSS and JS things with felt and people sometimes do
+I I recently have discovered the Dr tailwind and I yeah that's that's a bit
+different it's a little bit different yeah I mean for a long time I was a real Tailwind skeptic but like it's one of
+those things where if you start using it you're like okay I get it you wrap your head around it yeah um and so I'm I'm
+much more Pro Tailwind now having used it than I was as someone who just looked at tail and was like yeah but that's
+different from like a styled component emotion kind of thing all those things um they I mean you're absolutely right
+these these came out of uh just a a Gap in the market essentially like reacted
+created space for these things to emerge and that is both a strength and a weakness in my view um it's a strength
+because if you leave space for Innovation and then you let the community come up with these Solutions
+then you will often come up with some really good Solutions but it's also a weakness because like number one people
+starting to use that framework they immediately run into this decision fatigue like oh which is the best one
+and like a lot of people um just don't have the time and inclination to really do a deep study of which of these
+options is most suitable so they'll do whatever is currently most popular like people are talking about Twitter or
+whatever change it next year and then change it next year but in the meantime like they they are they are stuck with a
+solution that may not be the best one and the other thing is if you're building something in a more integrated
+fashion like if you as the the framework team are taking on this problem then
+typically you can come up with a much more op optimal solution you know we have seen with some of the CSS and JS
+Solutions like a lot of them especially the early ones they just weren't very good they brought some nice developer
+ergonomics but they resulted in some really bad performance characteristics
+and that is not a problem that fault users have ever had like we haven't had this thing where you know you use a
+thing and then two years later everyone's like you fool why are you using that thing because we took it upon
+ourselves to think about that problem on behalf of the people using the framework and
+you know opinions can differ about the relative merits of leaving space for Innovation versus providing people with
+the tools that they need to do their jobs out of the box but my instinct it definitely leans more towards the you
+know this is a problem that someone has to solve and it may as well be us rather than all of the people who are going to
+use the framework what was the initial problem that made you want to write the first lines of spel the it was more a
+Writing the first line of Svelte
+sense of Shame than anything if I'm honest spel is is not my first front end framework um years and years and years
+ago I started a project called ractive which was one of the like early 2010s
+era of of Frameworks like back when people were using backbone angular just
+come onto the scene react did not yet exist when I started building ractive um Ned View and it was essentially uh you
+know one of the template based solutions to the problem of describing interactive
+user interfaces and at the time it was like pretty novel you know had some some good ideas and it it gained some some
+usage um I I think uh Delta Airlines used it
+at one point um I remember discovering that Playboy TV uh were were one of our users like they they raed great user
+experiences famously exactly um so it did get used although not particularly
+widely and that's probably for the best um it's you know like uh anyone's first
+attempt at a major open source project I made a ton of mistakes in in building that and so even though we had a pretty
+tight little Community around it and and people enjoyed using it it had some pretty serious flaws particularly in
+terms of um performance and the the amount of JavaScript that it would add to your application um and at the time I
+was working in the news industry where these things are very important typically if you're building interactive
+um applications that are embedded inside news articles which was my job at the time um you need to worry about performance
+and you need to worry about the amount of JavaScript that you're sending because you're already on a page with analytics and ads and like all of this
+other stuff and so like you've really got to like try and minimize the amount of damage that you're doing and and
+reactive was doing quite a bit of damage I I came to realize um and so the
+initial impetus for spelt was like can I atone for my sins by making uh something
+like reactive but which is much faster and which involves much less JavaScript
+and at the time I was you know I've been building um a module bundler called
+rollup for a couple of years and I've been dabbling with the at the time it was popular to build um es6 to es5
+Transformers and so I'd built one of those and so like I felt like I had a pretty good understanding of
+how you know the compiler World operates like you take some input and you you turn it into an abstract syntax tree and
+then that's what rollup and5 Transformers so I was in that kind
+of head so between these two things I was like maybe maybe there's a way to
+solve the the frontend framework problem by using compiler techniques instead of thinking about like how can we have the
+most efficient framework runtime what if we just reposition the idea of a framework as instead of being some code
+that runs it's like it's just a way of structuring your code it's just a way of thinking about how you architect your
+application and as part of your build process all of that just kind of melts away and so it it began really as a as a
+kind of experiment in whether that was feasible whether that would work um and because of ractive it it there was sort
+of a ready-made Community who is ready to to come and help with that project uh and that's how that's how it got it
+start seven and a bit years ago wow yeah so you were already in that like
+compiler mindset you were kind of a hammer seeing everything as a nail and thats why you
+were look at UI framewor aone you were just like compilers like
+let's just yeah I mean I I don't think that we were the only people thinking in
+these terms but I think we took that idea much further than anyone else like people were definitely thinking oh you
+know I I have some jsx and these bits never change maybe I can hoist that to the top of my module and then I can make
+the the diffing process more efficient and angular had a concept of ahead of time compilation which um you know it
+wasn't as Extreme as felt just completely turning it into you know direct Dom manipulation code still like
+this intermediate representation but it's the same process of trying to do more work at build time so that you can
+do less work at runtime in the same way that you know it's beneficial for the framework team to take on problems that
+the user base is going to have to solve eventually it's better if when you're building the application once you're
+doing work that then doesn't have to happen by each of the users who download the app and run it in the browser so you
+Creating tech for on-the-ground problems
+mentioned that ractive rollup and spelt were all created in news rooms uh when you were solving problems kind of on the
+ground there does it help to innovate when you have those on the ground problems and you still feel like you
+have those uh I I definitely think that it helps when you're trying to come up with these Solutions like the phrase uh
+constraints be read creativity or whatever the the phrase is um like there is a a threshold that you have to meet
+when you're building something that is going to be used in in that environment where you know the the page where you're
+deploying your app to is like a hostile environment and so you know you you need
+to you need to De cleare a certain bar but also like you're working in an environment where you have very tight
+deadlines that are non-negotiable because it's the news and and so you can't have situations where like oh I I
+need to fix this bundler configuration issue or like oh I need to spend four
+hours optimizing this thing because the like the naive way of doing it happens
+to be slow because of how the framework is architected or something like that so there are definitely these these these
+challenges that you just have to face when you're in that situation and what I think we've learned over the
+years is that if you can do that if you can meet the bar of being being able to
+create something very quickly in a very like time crunched environment that is
+still going to work effectively on you know people's mobile devices and so on then you've probably done something that
+is going to work in a lot more cases as well and so
+initially people looked at that Heritage and they were like oh so okay so it it's useful for building these very small
+self-contained things but like it probably doesn't scale to real World apps and whatever um and it turns out
+that's just not true if you can make web development simpler for the simple cases
+then like in most you've also made it simpler for the hard cases um and so I think you know that the success of spel
+to the extent that it has been a success outside of new news rooms is Testament to the fact that if you start with these
+hard problems then you're also solving the same problems that everyone faces
+outside that environment do you you still see some of that Newsroom DNA ins spelt uh yes um there definitely is some
+Still newsroom DNA in Svelte?
+um I think part of that is in the things that we prioritize as a framework which
+includes things like um you know Transitions and and animations and
+things like because you know very often when I was building these things you know I'm building explanatory Graphics
+that need to walk you through um a a process of some sort and very often that will involve transitioning from one
+state to another and and typically Frameworks just kind of don't solve that for you um but for me I felt it was
+important that transitioning between states is actually a first class responsibility of the framework and so
+there are there are elements like that which definitely hint at its News Room Origins but I think also just the fact
+that spel is or at least tries to be a very easy framework to work with because
+a lot of the people who do the job that I was doing in newsrooms um they're not programmers for the love of JavaScript
+right they're programmers because that is the most effective way to to do the job of telling the story that they need
+to tell um and so you know a lot of people candidly just don't have time for
+the front-end industry is we don't want we don't want to spend time thinking about configuration and
+optimization more complexity in order to yeah yeah like oh which which Library am I supposed to use for State Management
+no it's a it should be built in like I just want to get the thing and start using it immediately and not have to be
+burdened by these dozens of micro decisions that that candidly some Frameworks do uh do make you solve um
+and that I think is is sort of a a core tenant of spelts philosophy um today
+still and it's one of the things that I think our users appreciate so you don't have like time for bike shedding when the deadline's tonight right yeah right
+if there is a a sensible decision and you know sometimes there need to be Escape hatches sometimes we need to say
+okay if you're going to you have some very specific requirements that aren't part of what we anticipated then like
+sure here's the Escape patch go nuts but for for most of the time for most of the user base like you can just use the
+stuff that's built in do you have like an internal metric for when you roll your own package versus when you use uh
+some other tool that already exists like what's that bar for you uh it's not
+something that I I don't know if I could like quantify it um I
+suspect I I personally am a little bit quicker to to roll my own than um than a
+lot of people I I really en appreciate knowing exactly how the sausage is made
+um and you know very often if I'll use a dependency for something and and it feels like it's what I want but then you
+know down the road I I find myself fighting with it and I've had that experience enough that I I tend to I I
+think I recognized the signs that oh this is going to be annoying to to Future me so I'm just going to take on
+the burden now and just build something myself also it's just kind of fun to make stuff yeah and so there are a few examples in inside spelt for a very long
+time um we used a a a library called CSS tree for paing CSS inside spel
+components and in spel 5 we've we've got rid of that in favor of our own CSS paa
+okay because it turns out that for what spell needs like we don't need to have
+Rich detailed information about like oh this this string represents this kind of
+color with these values like we don't care about that we just need to be able to identify the the selectors inside
+your CSS and things like that so we can build a much much simpler version of the
+thing that that otherwise like you're installing something from npm it needs
+to be able to support a much wider array of use cases and so if you have a narrow use case and all of the things that are
+out there just by virtue of the fact that they are libraries support a much wider array of use cases then it's very
+often the case that you can make something that's much more tightly focused and much more appropriate for your task um there are other examples we
+have um our own as traversal um Library we have a we use a thing called zimma
+frame which we built Force felt 5 um we have our own code generation Library um
+it's called ES app which is like yes but also pass backwards uh because you take
+an as and then you generate code instead of having a code and then taking generating an as and so yeah so we have
+all of these little utilities which are technically independent projects um but they are handrolled solutions to
+problems that we faced while building spelt and you know for us they are better than the solutions that you can
+find out there on the internet so yeah I I don't know the I could say there's an
+internal metric exactly um but as soon as I get the spidey sense that we can we
+can do better it's an intuitive thing then we we just go ahead and and and we do it it seems like signals is the
+What's so great about Signals?
+current idea that Frameworks like solid spell view angular are all adopting what
+do you find compelling about signals that you want to bring that to spel yeah so the you use the word
+current um which would kind of suggest that this is a a phase that that the
+community is is going through and maybe there's going to be a new thing but I I'm actually not sure that's the case I
+think that this is more a convergence like over time we've experimented with a bunch of different ways of of handling
+reactivity and side components and what we've learned is the the signal approach is is basically the the right one um
+people talk about there's this meme about how you you know nature evolved crabs or craba likee forms in multi mle
+species it's PR called cariz and the same thing is happening in the JavaScript framework world with with
+signals um and it's I don't think it's a bad I think this is genuinely the right
+way to think about um how you you know have some change in state represented in
+a change on the page and it's not like a new thing we've been doing this for a
+very long time I think knockout probably deserves the most credit for being the framework that that popularized this
+idea in like I think it was 2008 when it came out um but over recent years it's
+definitely the work of solid and it's Creator Ryan carard who like have evangelized this this idea and really
+made people understand the benefits and those benefits are essentially that you get um a really easy to reason about
+fine grained reactive system and what I mean by that is you can have a component
+that references a whole bunch of different pieces of state and maybe it contains components inside it with their own State and and all of that and in the
+in the world that react popularized where you have this thing called the virtual Dom and when you have
+a state change inside a component what happens is that function reruns and then you compare the old with the new and
+then you you change out the bits that change like that involves a a fairly
+course grained approach to updating your page and it's not so much the diffing
+the the before and after is expensive as that you need to keep rerunning all this
+code and it's very easy for for performance issues to creep in over time
+the signal approach is I think a lot simpler instead you generate these components once and then
+all of the the holes in the component where the state is uh exists those things are the bits that update when the
+values change got it and so instead of rendering entire component or you know in the worst case an entire application
+um you really are making these very targeted updates to the things that have
+changed and different Frameworks have tried to solve this in different ways over the years you know spelt had a sort
+of hybrid approach where it was it was a topdown system like react but with um
+like instead of diffing the the jsx it it would it would diff the data that was
+coming into the component and it would it would maintain knowledge of which thing had change so that we could early
+out if you know you have a an if block that references some state that we know
+didn't change then we just don't check it at all like so do were these optimizations to make spelt three and
+four fine grained is um but spelt 5 is truly fine grained because it adopts the
+same signal idea that is now so prevalent in in other Frameworks what we do differently is um around the
+ergonomics of using signals up until this point Frameworks that use signals have had to sort of present you with
+this layer on top of your your data um
+which is I think a little bit awkward like you can't just reference your data directly you need to either call a
+function or you need to access some property of a of a proxy or something like that and it kind of really gets in
+the way of just thinking about the stuff inside your app in in terms of the raw
+data but because we're a compiler we can have the best of both world we can give you that nice uh direct uh interface to
+your data but also have all of the reactive magic um that allows things to
+update in this very seamless and fine grained way um so that's that's the
+benefit for us and you know we haven't shipped it yet this is you know the in
+development spel 5 but from what we've seen so far we get really good results
+like it is incredibly fast on all of the benchmarks we do really well um scores
+well in terms of memory usage in terms of component Creation in terms of updates like all of these things um it
+turns out it's just a very very good way to think about managing state to the extent that there is now a a cross
+framework group of people who are looking at how we can add signals to the language itself um to JavaScript yeah
+it's so I I I don't think I'm I'm revealing any like Secret
+um no no this is a this is an effort that I think some people are broadly
+aware of um because all of these different Frameworks are essentially Reinventing the same Primitives from
+first principles um does this idea that it would be better if this existed in
+the language itself in some form as you said like with CSS and spelt solving there if just JavaScript solved it for
+all the Frameworks and then they could solve it for all the users exactly okay and you know once once you've once
+you've solved all of those common problems then you can focus on the things that differentiate the Frameworks
+you know you can differentiate on like user experience and developer experience and the feature set that you include in
+the framework and all those things rather than everyone spending a lot of time trying to make sure that their
+signal implementation is like as good as the next person yeah you recently announced uh spel 5 and runes can you
+What are Runes?
+talk about runes what are those yeah runes are a signal to the spel compiler
+that something is is happening um in spel three and and
+four we would kind of infer your intent from how you do it in your code if you
+had let count equals zero and then inside a increment function you had count plus equals 1 and you were
+referencing that count somewhere inside your template then we would say oh this
+count variable this is a piece of State this is a reactive piece of state that when it changes we need to update
+something and so the compiler would instrument the assignment when you do count plus equals one it would also call
+a function that said to to spel oh hey this component needs to update and by the way inside this component the thing
+that has changed is the count and so that's how we got that pseudo grained
+reactivity um and that feels like pretty nice and and ergonomic but it means that
+you're restricted to having that reactivity at the top level of your components right you're not going to
+start creating state in inside let declarations generally um and so
+immediately we have this sort of you know you work inside do spelt files and
+you're in this sort of magical reactive land and it feels really nice but then if you have some logic that exists in a
+Javascript file you don't get to benefit from any of that and so we had this
+second way of thinking about state which we call stores so inside components you
+use component State outside components or if you need to share something between components then you use this
+whole other system of of managing State and we really wanted to get away from
+that we wanted to have a way that you could say inside an arbitrary function oh this is a piece of state and beyond
+that this is derived from these other pieces of state and we also wanted to
+have a way of saying this code should run whenever any of the things ref inside it changed and typically these
+are referred to as effects in Signal based systems and also non signal based systems like react has use effect and
+and so on and so we spent a very long time thinking how can we solve all of these
+problems that we want to solve we want to have you know signal-based fine grained reactivity we want to have the
+really smooth developer ergonomics you know want to do count plus equals one you don't want to do set count count
+Pern plus one or count do Value Plus equals one like that sucks and um and we
+also want to be able to have a single unified model both in your spel
+components and in modules that are shared between Spell components and after trying some
+outrageous number of of design ideas like I think we tried 50 or so different
+ideas um we eventually settled upon runes as the ideal way to communicate to
+the compiler that you're creating a piece of state and what a rune is when you're using it it just looks like a
+function call so instead of doing let count equals z you'll do let count equals dollar State Pern z um and as far
+as like typescript is concerned that's just the identity function the thing that you get as a result of that is just
+zero um so it it's still typed as number and you can still do count plus equals one but we have communicated to the
+compiler that this thing should be treated as reactive state so when it goes through the compilation process
+what's left is let count equals Source zero and then subsequently every
+reference to that piece of of State instead of referencing count it'll do
+get count um which extracts the value from the signal but also says whatever
+is currently running is a dependency of this signal so when it changes that code will need to rerun and so that means
+things inside your template um but also the effects that you describe um those
+become the dependencies of of that signal and the reason that um that runes
+made so much sense is that because they just look like function calls
+syntactically you have a lot of flexibility about where you use them um and as I mentioned typescript
+understands perfectly well what's going on and so a lot of the other things that we tried didn't satisfy all of those
+different criteria but but runes work really nicely and they're not functions that you import from a library like you're not importing the dollar State
+Rune from spelt it is just a part of the language so like you shouldn't think of
+them as function calls even though they look like function calls it's more like the you familiar with the the dynamic
+import construct um also looks like a function but it's not a function the
+dynamic import is a special piece of syntax um and runes are the same thing
+they are a framework specific piece of syntax that essentially makes reactivity a part of the language that you're
+writing when you build a felt application and you can use these State derived effect and a couple of
+others inside your spelt components but also inside any file that has a dot. JS
+or dosel dots extension so instead of having your component State over here
+and your stores over here we can start to use a consistent um way of describing
+State inside your applications and it we've tried it in a bunch of different context and it feels really nice that's
+awesome so that dots .js file is essentially a Javascript file but it's one that the compiler
+flags and goes aha I need to do something here exactly so you get all of the benefits of writing JavaScript or
+typescript um like all of your existing tooling works it works fine with your type Checker and like your your editor
+that like we don't have to invent a new file extension that has like syntax highlighting
+requ all of that um no we just get to reuse everything but just by adding that
+do. JS to the file extension we're saying to the compiler oh hey you want to check this file too cool um and it
+and it impr practice that that works really nicely because we are essentially we are creating a new language this is
+not JavaScript or typescript anymore this is a superet of JavaScript and typescript um and so like initially we
+thought about just doing that in every day snts file like we would just everything would go through the spell compiler um but like that's that's kind
+of naughty because in the same way that dots is a language for describing um
+user interfaces. JS andelt dots it's a language for describing reactivity okay
+and so that that is how we think about it we are bringing this concept which all Frameworks need to have some version
+of everyone has to solve this problem somehow and we are saying it's part of the language um and in our in our
+experience that is just a much more natural way than having some framework specific API for doing count plus equals
+Svelte VS React VS Vue
+one so sp's pretty different from reaction view in a few ways but I think most notably is that it's compiled as
+you talked about can you talk about why that matters so much it it matters a lot less now than it did when spel first
+came out and if if I'm honest I think we should probably update the blur on our website because it's candidly a little bit out of date you know Vue has a
+compiler step now which does a lot of the same work that the spel compiler does um react
+to uh you know the react team has been working on on a comp piler for a long time react forget um and a lot of these
+ideas have have sort of seeped into other Frameworks in the same way that we have borrowed ideas from from those
+other Frameworks um but the essential difference is that like if you can do work at build time that you then don't
+have to do at runtime that is going to deliver a better user experience generally speaking um and so spel kind
+of began as an experiment in how far you can push that idea of doing the work ahead of time
+um and it turns out there are limits to what you can do with that idea because the compiler needs to understand your
+code without running it process called Static analysis okay and there are limits to what you can do with static
+analysis like everyone's heard of the halting problem you know can you look at a piece of code and determine whether or not it will run to completion or not
+like it's a turns out that's an impossible problem to solve with static analysis alone and we run into some
+version of of that halting problem in Sp three and and spel 4 um around like
+understanding what the dependencies of a particular piece of of code are and so to us the the compiler
+difference the idea of starting from this mindset of we're a compiler um like
+we can we can do things that you can't do if you're just writing JavaScript it
+essentially expands the solution space in in which we operate um so things like
+spel FES runes are a like they're a thing that you can do if you're a
+compiler and you absolutely cannot do if your starting point is that you're just
+writing JavaScript or JavaScript plus jsx um and so that's I think the
+essential difference it's not so much that your capabilities change it's that the way that you can express ideas in uh
+when you're describing a user interface um you have the opportunity to to to do things in a much more natural and
+concise way because you've shed yourself of this constraint that this has to be
+JavaScript um and that's that's borne fruit in in a lot of different ways and
+and the essential outcome is that when you're writing a spell component it is typically a lot smaller than the
+equivalent react component or the equivalent view component um because like we don't have have those
+constraints um you know off the Cur like typically if I'm converting between a
+react and and a spell component the spell component is like 30 to 40% smaller and when you can do that when
+you can have that much less code inside your application the evidence suggests that
+your application will be more stable it'll have fewer bugs because the number of bugs increases super linearly with
+the size of of of a code base and so there are just all of these benefits that flow from that mindset you can
+write less code you can um do various optimizations that would be impossible
+if you were just interpreting the code at run time and at least for for my
+taste you can write things in a in a more natural and expressive way than if
+Maintaining SvelteKit
+you don't have a compiler unlike other Frameworks spelt has a backend framework
+that's built by the same team yourself and I'm I'm assuming the same contributors or like very largely
+there's different people have different focuses but it it's the same team working on both things yeah got it um
+how does that uh affect what you can do how like like it it just feels so different from like the react core team
+and the next core team kind of being separate um yeah what what does that unlock for
+you I think it gives us better visibility into the problems that we're we're trying to solve okay um and I I
+think that a similar kind of thing is happening to an extent with react and next because like a lot of like there is
+a lot of overlap now a lot of the react core team actually now work at Vel I shouldn't say a lot a few people who are
+on the react core team work at Vel and are directly involved in in next and
+having the same people think holistically about like the the full
+spectrum of of the problem is really beneficial and we have found that to be the case as well like we're able to
+think I just think a little bit further than we otherwise could about whether a
+particular design idea makes sense like if we're building something into spelt is this something that is going to make
+sense to a user of spelt kit um or like is spel kit having to do a lot of work
+that should actually be part of the framework itself and I think the result is that everything just feels a little
+bit more cohesive and seamless than if you had two distinct teams who like you might have really good communication
+with each other and might have the best intentions of staying aligned but but there's just like a a fundamental
+barrier if if the ideas are in separate brains yeah um when they're in the same
+brain then like there is no higher bandwidth communication than like a brain to itself if that makes sense and
+so uh I I think that um maintaining spelt kit alongside spelt has made spelt
+a better framework and I think maintaining spel alongside spel kit has made spel kit a better framework um it's
+important to us that the two things remain separate okay there are lots of people who for whatever reason cannot
+use spel kit but they still want to use spelt and that use case is always going
+to be supported and like we're very happy for other Frameworks to be built on top of felt like Astro is a great
+example of of a framework that is not built on top of spelt but you can use spelt with Astro and a lot of people do
+that and really enjoy it and that's that's exactly the outcome that we want but you know we want to have the best
+possible endtoend experience for developing websites and the only way that you can do that in my view is if
+you're thinking about the problem from both ends so that's what we try and do how do you like what's the line for you
+Svelte 5 Improvements
+uh determining spelt and spelt kit like like a feature falls on this side of the fence or that side of the fence like
+what's your mental model for them so the the way that we'll often describe it is spelt is a component framework and spelt
+kit is an app framework okay um it's slightly unhelpful that the word framework is in involved in both like
+sometimes people will use words like Library instead and the the semantic Contours get a little bit fuzzy but
+essentially if it's to do with describing an isolated chunk of of of UI
+then that is spell if it's to do with server side rendering build tooling uh code splitting deployment routing like
+all of that stuff then that is the application framework um component framework is probably a little bit
+outdated now that we're adding um stuff to spelt JS and spelt TS files in the
+form of runes in spelt 5 um maybe we need to come up with some better terminology that better articulates the
+distinction but um essentially spel is the thing that you use if you want to build a standalone piece of user
+interface and spel kit is a thing that you use if you want to build an application out of those standard Standalone pieces of user interface so
+what other improvements or changes are coming with spel 5 ah wow so many
+um I'm very excited about spel 5 I think it gets rid of a lot of the pain points
+of spel 3 and four and I I don't want to be too negative about spel 3 and four because like a lot of people use them
+and and they love them seem to like it they they do seem to like it but it's and they're
+wrong yes it's it's actually really kind of frustrating to see people talking
+about talking about spel 3 and four when we know that spel is going to be so much better and like just like I almost don't
+want to recommend that people use spel until we bring out spel 5 because stop I
+know it's it's it's difficult um so we got a lot of things right with
+spel 3 and like spel 4 was really just a it's the same thing it's just a we just got rid of some some some junk but it's
+basically the same same framework same design we got a lot of things right um
+but there are some things that candidly we we didn't get right um you know there are limits to what you can do with
+static analysis and people have encountered those limits um for example
+um statements that Rerun when State changes we put those behind this syntactical construct called a reactive
+statement which you used a a dollar label so dollar
+colon and then you know sum equals a plus b and that will just recompute and another A or B change and people really
+love that and it's part of the language is clever solution part langage like it's it's it's a pretty good hack but
+the way that that works is the compiler looks at that statement and is like oh so we're assigning to this thing so that
+becomes reactive State and on the right hand side of the equal sign we've got an an A and A B so I'm going to the code
+that I generate will will update when either A or B change well what if a and
+b aren't referenced directly in the statement they're referenced inside a function call yeah well at that point
+the compiler can't see it anymore and so that no longer works and there are other quirks that come from that static
+analysis driven approach to to describing these reactive dependency graphs that just don't really work and
+there are some other quirks so because everything is based on assignment by which I mean it will
+instrument anytime it sees an assignment expression like you know count equals count plus one or count plus equals 1
+those are both assignment Expressions it will instrument that and that works
+most of the time but if you have an array and you push an item to that array nothing will happen so we need we need
+to tell the comp exactly so you'll have you know to-dos do push and then some
+data and then immediately below that in spel fre and four you have to do to-dos equals to-dos to signal to the compiler
+that it needs to update to-dos well that's that's crazy right that doesn't make any sense at all that is just an
+abstraction league and in spel 5 that's no longer the case because when you create create your to-do State using The
+State Room it will actually turn that into a proxy or a set of nested proxies
+so that we can analyze the um the sets to the the children of that so in spel 5
+you can do to-dos do push and it just works and not only that but when you
+reference that further down and you know you bind an in a checkbox input to the to-do DOD property you toggle that and
+it will just up date that to do whereas in spel 3 and four because of this static analysis driven
+approach the best that we can do is say oh something inside to do has changed
+and so we've just got to like check the entire thing got and it can do that relatively efficiently like it caches
+individual like snapshots of state so that it's not doing unnecessary Dum manipulation but we still have to to
+check a whole bunch of different things and that's no longer the case in spel 5 so ergonomically it's better per
+performance- Wise It's better and it's just a more consistent and easier to reason about
+system and yet that's not even the stuff that I'm most excited about because the
+so we we have we have ideas for the world that spell five will enable Okay
+that I kind of don't really want to talk about because they might not work like we might try and build it Like H okay no
+we thought we could do that and it turns out that we can't but um when when you're building on on top of this
+this sort of the word that I'm going to use is is immutable and that's a little bit confusing in this context because
+like I I just talked about how you can toggle the to-do DOD thing and like that doesn't sound very immutable but yeah
+underlying that is um is a system where uh you're not actually toggling a
+property you're you're essentially running some some code all of that data is
+immutable in the sense that matters and when you have immutable data structures
+you can start to do some really interesting things that up till now have been Out Of Reach and so that is some
+territory that we're very excited to explore post 5.0 Okay and like a 5.2 is
+what we're talking about see 52 not not not like a six is what I mean that the
+the goal is is to um is to start building some of our
+like our our Dream framework constructs
+um on top of the the five foundation and then like in six maybe like we can we
+can shed some of the um some of the stuff that supports the old way of doing things um and we also
+have some big ideas about uh more effective Primitives for doing um Motion
+in inside uh components and there's just a whole bunch of things like that that
+that I I need to really try and and not get carried
+away with because we need to ship 5.0 and if we spend all of our time daydreaming about what we can do later
+then we we'll never ship anything but like there's a there's a long-term vision for spelt and spelt kit that spel
+5 is kind of the the beginning of okay um we have we have some pretty exciting
+plans so you just released smel to yesterday as as of this recording um
+SvelteKit 2 - Same but different?
+what can you tell us about it what's different what isn't uh mostly it's the same um we were debating whether to do a
+major felt kit release or not at all um the impetus really was that V5 came out
+and V5 had some some breaking changes and it's it's just difficult to support
+multiple um major versions of your dependencies and so we saw other
+projects that were updating to V5 and like it would be easier to do a major so
+that we can drop support for for V4 okay um and once we decided that that was
+what we were going to do we were like all right well when do we do this and Ben mccan um one of the called
+maintainers of spel Kit pointed out that the one-year anniversary of the launch
+of spel Kit one was going to be the 14th of December and so we thought it would be poetic to just like do spel kit to
+then and initially we thought there's really not a lot of work to do here there's just updating to V5 and maybe
+there's like a couple of things that we want to get in there as well um so this should be easy and then as we started
+going through the issue tracker and looking at the things that we had made mental notes of saying oh we kind of got
+this slightly wrong in spel kit one so we should change that for spel kit 2 um
+we ended up with this pretty sizable list of of changes to mostly these are just like very minor
+things that most users either haven't encountered or or will be able to update
+very quickly or in many cases we can even automate it yeah um but it it it
+ended up being a lot more work than than I thought it was going to be um just while I'm here it's get a little of
+these a few of these tickets and yeah so it's a fairly Sleepless week but we we did it we we got spel kit out and um for
+the most part it is just a drop in replacement for for spel Kit one um there are breaking changes that's the
+reason that it is a major version um and so we you know we definitely encourage people to to update to the latest
+version of one first addressing the deprecation warnings and then go through the migration script to update to spel kit to um there are some new features
+the big new feature that we added in spel kit to is something called shallow rooting and what shallow roting is is a
+way of associating some arbitrary state with a history entry so the canonical
+use case that I'll give you is that of a a modal dialog box um often like you'll
+something and well Instagram is is another use case that is solved by this but this is like something pops up that
+you need to confirm or deny or whatever it is um and my instinct whenever I I
+see one of those things on my phone is like oh I don't want this I want to dismiss this so I'll use the swipe gesture to to go back but if that model
+is associated with some component State like show model equals true then when I
+do that I'm navigating back through the history stat and I'll go to a completely different page which is not what I want so my my instincts as a user have just
+ruined the flow of the application what you want to do instead is associate that modal state with history so when you
+open the model you have used the history push State API to add that state to your
+application and then when you swipe back you are just going back and undoing that state change and until spelt get to that
+was really difficult to do but now it's incredibly easy um you just import the push State helper from uh app navigation
+um and you can push arbitrary State and it will it will just get bound to this this globally available store that you
+can um you can use anywhere in your app and it's a very kind of nice idiomatic way to solve
+that problem in a way that um prevents that you know swipe back go to a
+different page problem that people encounter but you mentioned the Instagram navigation pattern as well uh
+where if you're on a um on a page that has like a bunch of different photos and you tap on one of the thumbnails you you
+get a detail view in a popup right instead of being taken to the photo page
+um opinions differ about whether that's a good pattern or not I think it's quite nice I think it it like feels very
+seamless and smooth um keeps you in context but also gives you the information that you're looking for um
+and that too is a really difficult thing to implement unless the framework supports it somehow and so with shallow
+rting you can solve both of those problems and like I'm really curious to see what people end up using it for it's
+kind of a power tool um and it's not something that you should use for like the bulk of interactions inside your
+application but it's for when you need it it's it's really useful um there a few other little improvements here and
+there um uh invalidation of uh load functions in a spelit app is now um more
+granular if you're changing um query parameters uh one of the the spel
+ambassadors Paulo um implemented this this feature cuz he needed it and and it's really cool like you can change the
+the the I don't know some query parameter that is not uh a contributor
+to the your data loading process and and we don't need to rerun it anymore nice
+okay and so like just little improvements like that that mount up to an overall more solid and more polished
+framework um but which should hopefully feel very familiar to use the spel kit one so what are your goals for a spel
+Goals for SvelteKit & Svelte
+kit and spelt in the next few years is it around like market share uh adoption uh the framework size or
+complexity uh so adoption of market share is is we we care about it to the extent
+that it is an indicator of whether people enjoy using the framework or not it is not a goal in and of itself it's
+something that I mean I suppose I do need to be mindful of it because Vel is paying me a salary to to work on
+this framework and that only makes sense if the user base is growing yeah exactly
+um so we do we do care about adoption but it is not our primary focus and you
+know if it was then we would probably make different design decisions we would we would do the things that our users
+were yelling most loudly for as opposed to the things that we believe is the best long-term bet for the health of the
+framework and the people who use it really what what we want out of the project is we we want to do our bit to
+try and crisis is is a bit of a a melodramatic word word but the web is
+not in great health candidly um the software industry is also not in that
+great health like a lot of things that we use in the digital world on a day-to-day basis are just broken yeah
+right I I use you know apps and devices over the course of the day and like very
+often I'm just flabbergasted at how bad they are like I I try and watch TV and
+and the my chome Casas thing like it'll take five seconds to respond like people just aren't building good software at
+the moment and it's very frustrating because so much of our of our world is
+mediated through digital technology that is you know poorly implemented and and
+and and buggy and all of these other things and I really love the web and I
+care about the web and I think that you know it is such an important technology that we need to preserve and like as bad
+as as native apps are a lot of the time I think the web is a lot of time much worse in terms of user experience and
+reliability and all of these things and I want to do my bit to try and reverse that Trend I want to make it um easier
+for more people to build robust web applications that are fast
+and reliable um codebases that are easy to maintain so that we don't have this this
+descent into bit rot and and bugginess and that's the stuff that I care about
+that is the reason that I'm invested in spel and spel kit um is because I want
+the web to be a reliable platform for people building complicated apps and I
+want as many people as possible to be to be a part of that like I I don't think that front endend development should be
+The Preserve of like the this sort of priesthood of of people who are able to deal with all of these Arcane framework
+Concepts and this like proliferating set of platform apis like it should be much
+easier to build good robust software than it is today and that is that is why
+these projects exist that is why I am still motivated to work on them after working on spel for seven years um and
+if we if we increase adop option and market share as a result of those then that's that's great but you know it's
+not our main focus so it's more of a mantra than a metric would you say like it's more about like like like a
+holistic kind of like I want to achieve this with the framework rather than what are the numbers at exactly
+we um to the extent that I I can talk about the team having a particular culture I I think it's true I think that
+there is a shared culture on the spel team um we are pretty suspicious of
+metrics in general like a lot of benchmarks are kind of nonsense when you
+actually look into them and a lot of the things that web developers fixate on like Lighthouse scores and core web
+vitals like these are useful diagnostic tools but they are terrible metrics because they are so easy to game and
+because the the results that you get vary so widely based on the problem that
+you're solving as opposed to the tools that you use to solve it with um and so we we we disre we don't disregard
+metrics we pay attention to metrics but we never let them control our decision- making we think that's a really
+unhealthy thing that unfortunately is is quite prevalent in our industry um and
+and we we resist that we are thinking as far as possible in terms of
+first principles and like a a long-term vision of the way that things should be
+instead of focusing on on numbers yeah it makes sense cuz just thinking back
+after you said that I don't see a lot of numbers around spel kit you kind of you
+you frame it as like you know a simple framework or like you'll talk about it
+more in the experience less so than the like 10 times faster than yeah something
+else because that those numbers never exist outside of of a context a vacuum yeah people will often talk about things
+like Lighthouse scores which is like a reasonable way to measure the first load
+experience but tells you nothing about the experience of actually using an application once it's loaded and so
+there's just these huge blind spots in the ways that we talk about these things
+today um that I we could maybe we could solve them with more measurements but I
+don't think we can I think we need to solve them with a a focus on just like
+paying attention to the things that we're building and and thinking deeply about what a user actually wants to
+experience as opposed to what these numbers are trying to tell us um so yeah
+we are we are a very qualitative and judgment driven framework in 2015 you
+Rollup
+made rollup right and then around like 2018 you handed it off to a maintainer
+uh then Evan U comes along grabs rollup and Es build and builds V from from that
+essentially and then then you come back and you build spel kit on top of v as
+essentially a v plugin is is is that accurate it is plug yeah how does it
+feel to kind of have like your old work kind of come back as foundation for what
+you're building these days is that yeah like how's that feel I mean it it feels
+it feels nice to know that this this thing that has so taken over web development V has has so completely
+taken over um the way that people build front end projects these days um it feels good to know that I I can claim
+like a a tiny share of the credit in that V has four packages or or like four
+main dependencies it's es build it's rollup uh it's post CSS I think and like one more for um handling file management
+so like it's yeah I'm I'm not saying you built V but at least it's it's it's kind of a substantial part of what makes
+VTech yeah I mean I I I'm not trying to
+FY the truth is yes I started roll up but most of the credit for rollup does
+not belong to me it belongs to Lucas who's been maintaining that not single-handedly but he's been doing the
+Lion Share of the work for for many years and it is a much better project in his hands than it ever was in mine um
+but yeah I I it is nice it does feel good to know that that thing that I did
+back in 2015 to scratch my own personal itch which was you know at the time the
+options were basically browserify or webpack and both of them had some very
+high costs for the work that we were doing um um again like in in news rooms
+we're trying to minimize our bundle size as far as possible and the bunders at the time were pretty inefficient about
+how they bundle stuff and and and with the Advent of JavaScript native modules um I saw an opportunity to to do things
+in a much more optimal fashion and and so like it was born out of this scratch my own itch take advantage of of this
+Joining Vercel
+change in the landscape um and just like throw it over the wall and see if other people find a use for this too and and
+people did and it is it's always surprising to me to see uh which things
+land and gain an audience and which things just just don't and roll up just happened to be this thing that served a
+need that existed at the time and has just kind of become this thing and and and it always reminds me that if you
+have a problem it's very possible that other people have the same problem and so like just just share your work and
+just see what becomes of it and that's just a really great thing about about
+our industry is that you can do that like we have this open source culture um
+and I I I appreciate the fact that I am now one of the beneficiaries of of past
+me's decision to do that and I I encourage people to do the same thing
+like you you never know how useful something is going to be until you just add it to the commons so you joined
+versel about two years ago um what has changed since you've gone full-time uh
+and like can you like walk me through like a brief like day in the life of Rich Harris are you uh kind of off on your own working on spelt and spel kit
+with the spelt team are you in lots of versel meetings kind of working on
+marketing strategy there like what are you doing uh so it's been transformative
+for for the project I I don't know that we would have managed to get spel Kit
+done without having full-time Engineers working on it um it's so for for people
+who are using spel and spel kit it has been a a very positive change um in
+terms of like what our day-to-day looks like so there's there's three of us now who work at sful time on Simon myself
+Simon and Dominic doic cool um and we pretty much just work on on spelt and
+spel kit obviously being at a company like Vel um means that there's a lot of cross-pollination with people working on
+other problems like we you know we talk to the next team from time to time um and we you know we share notes on things
+but uh you know to a very large extent we are um focusing just on on the open
+source project which is really great like we get these long uninterrupted periods in which we're able to Think
+Through um problems in a way that wouldn't be possible if we were still
+doing it on like a evenings and weekends volunteer basis um and so it it's been
+it's been a very positive change for the framework it's also been a very positive change for me because prior to joining
+Vel I was doing a more than full-time job at the New York Times and then I was like trying to to contribute to this
+project in my my free time and like I don't have a lot of free time and so it
+meant that the velocity was was kind of reduced and it also just meant that I
+don't want to say that I I resented working on on the project because I absolutely didn't it was like a you know
+it's always been a hobby and a passion but it's hard to justify spending
+serious chunks of time when you're also trying to have a life outside work and
+so my my work life balance is still not great I probably spend more time working
+in front of my laptop than I should but it's infinitely better than it was before um so it's been a been a win or
+round and hopefully it's been a win for Vel too having um having the team that
+builds felt like as as part of the as part of the crew um because you know a
+lot of the cell customers use spelt and spelt kit and it's it's nice for those people to have kind of like a a a direct
+line to us when they need it but also like the reassurance that um that there
+is a a long-term support for the thing that they're building their business on top of the
+official documentation and tutorials and everything of spelt and spel kit are honestly like no other framework that at
+least I've learned um like you have examples on there that save me from like 80% of my Google searches the tutorial
+takes you through like step by step in an interactive way uh teaching you both
+spelt and spelt kit what is your philosophy around educating
+developers does when someone is new to a project there is a barrier that they've
+got to overcome and they maybe they're interested and motivated in learning how to use your thing but the chances are
+they're just like mildly curious and if the first thing that they have to do is clone a g repo or install some CLI or
+whatever it is or like read some documentation and then like try and apply it to to their own situation
+you've already lost you've already failed um and I I really believe that
+the the way to do this is is to make it interactive and to involve people in a
+Why are the docs so good?
+way that has zero friction and I learned this from knockout okay back in the day
+had this maybe it wasn't the first of its kind but it was the first example that I saw of of a a front end library
+that gave you an interactive web-based tutorial where you didn't need to install anything you could just start going through this tutorial in a web
+browser and it was great it was so cool and so when we launched felt initially
+we had uh a similar thing where you um you have these interactive tutorials
+that you know you go through these self-contained steps like you're not building a whole application you're just doing a self-contained exercise so you
+don't need to maintain context over a long period of time and you learn one concept and there's like 300 words that
+you read and like a tiny bit of code that you add it's oh I understand that concept now and just like pedagogically
+that is a much better way to to to get Concepts into a person's brain when we
+came out with spel kit we had a bit of a problem though because the old spel tutorial was based on this sort of rubbe
+Goldberg system of like we had this web worker where we would run roll up inside
+a web worker and the spel plugin was was part of that system and every time you typed a keystroke we would send the
+updated set of files to that web worker and it would compile your app and that would appear on the right hand side
+that's great for spelt as a standal l thing but you cannot teach a full stack
+framework like spel kit in that manner because you need a server and you need a server running inside a web browser like
+how the hell do you do that at the time that we were thinking about this um we had seen some really interesting work
+come out of Stack Blitz um stack Blitz is one of these companies that that gives you like an in browser IDE and
+they developed a technology called web containers and web containers is super cool it's basically node compil to WM
+running inside a service worker inside your browser it's like crazy mad science stuff and we saw this
+and we were like yo we could use this to build an interactive spel kit tutorial that runs inside the web browser and so
+we started talking to the stack blit people and we worked really closely with them over a long period of time and said
+look this is what we want to do your technology seems like the solution and they were like great this is like a
+perfect test use case we're going to support you in every way that we can cool and so we had this really productive partnership where we used
+their technology and like helped dog food it and and refine it and now when
+you go to learn. spelt dodev you are running spel kit you're running V like
+on a node server inside your browser and it means that we can we can teach you
+all of the concepts that go into spell kit all of the like the server side rendering and like all of these things the data loading all of that stuff it
+just works inside this self-contained context and people don't need to install anything they can just go to this website and start learning and like even
+for me like I I forget sometimes what the apis look like or I need to refresh my memory and I don't need to like I can
+just go to this tutorial or if I you know I need to explain something to someone I can just send them this link
+and so it's been hugely beneficial um and you know massive kulos to to stack
+Blitz for for creating this technology and and doing it in such a way that such
+things are possible and exactly what we hoped would happen is starting to happen angular now has a tutorial very similar
+[Music] Sim and so I I I hope that this is just
+the new Norm for how we teach these Concepts like don't make me jump through hoops just let me learn the thing
+without having to learn all the things I need in order to learn the thing um and
+it's it's it's been honestly great it's been very well received um it doesn't
+work on iPhones at at the moment because we get out of memory errors and I'm not sure how we're going to fix that but uh
+for most people most of the time it's like a like a really a really cool solution um and I I encourage everyone
+out there to steal that idea uh it turns out it works pretty well yeah it's great
+yeah just for like beginners getting stuff running in the terminal can be a hassle right so like if they can just
+just do it right in the browser uh that's such a a great way for them to learn and to pick up something new so
+that's fantastic and also make it um make it disposable like if I if I'm
+following the tutorial and I get a a little bit lost or confused then like don't put me in a situation where I now
+have something that's slightly incorrect committed to my repo on my just reload the page and you get a blank slate and
+because they're all short and self-contained like you it doesn't like you can do that you don't you make a mistake five steps ago and you don't
+even know you did snowballs ex exactly so learn do. Dev sort of encapsulates
+our philosophy on on pedagogy on like how how you teach these things I actually did a whole talk
+on this a couple of years ago in Amsterdam um describing like you know is what you
+can learn from um from the best teachers like what are the one of the lessons that the best teachers can teach us
+about the best way to teach people and and we try to apply those in in lefelt
+dodev um and you know I'm sure there are there are lots of ways in which it could be improved but I'm I'm really happy
+with how that tend out it's a good step in the right direction I mean I think it's part of why sevelt is consistently
+rated among the best user experiences on surveys like you're just pretty much
+always like one or two um do you have like some Secret Sauce other than the
+tutorials for like like how do you know that um a certain change you put in is
+just going to be like delightful for users yeah like how how have you maintained that status of a super
+delightful framework year after year uh I I think there's a couple of things number one is is stay dumb like I you
+know a lot of a lot of programmers are kind of drawn to complexity have like this kind of sick sadistic relationship
+with with complexity it's like oh if it's complex then that that means that I'm smart I'm smart or if it's complex
+then it must be better than than the simple thing and that's that's not generally true I consider myself a
+fairly unsophisticated programmer like if I see something that's complex I I just I just knpe out like my brain
+just doesn't deal well with complexity and so if something starts to get to be
+like like spidey sense like ah we shouldn't put this in um and I I think
+that is a sentiment that is shared by other people on this SP team as well um and and the other is like have the
+gumption to say no to your user base um frequently because people will often
+come to you with very reasonable feature request and they'll say wouldn't it be great if the framework could do this
+like I have this use case and it would be solved by doing this and I I definitely when I was starting out in
+open source had the Instinct of saying oh yeah I mean that's totally reasonable we should we should do that but the cumulative effect of saying yes to all
+of these disperate feature requests is that you end up with this sort of Frankenstein of of like you call it
+scenario solving or it's like if everyone's throwing toppings on a pizza it starts to get a little weird yes
+exactly toing on a Petra is a a really good metaphor actually um and over time
+like I I personally and I think as a team we've got much better at saying you know what I understand why this is
+important to you but I don't think that as adding this is going to be good for the long-term health of the framework
+we're just going to like let this seep for a while and we're going to look at all of the other issues that people are
+facing and if you do that and if you're patient then very often what you'll find mind is that you come up with a solution
+that solves multiple use cases at once and and and you do that by just taking a
+step back and saying what is the what is the deeper problem there don't attack
+the symptoms attack the cause and like that's really what spel 5 is all about it's like we have spent the last four
+years looking at these symptoms and thinking you know what is the underlying cause and now we're we're fixing the
+underlying causes and like that's not a thing that you can easily replicate it's not like a piece
+of advice that that you can give to other open source maintainers but the muscle that you need to develop in order
+to get to that that place is saying no and it's difficult and it's uncomfortable and like often people be
+like well I'm not I'm not going to use this thing I'm going to go and use some other thing and that's hard like oh no I I really care about that person he
+was but that is the thing that you have to do um in order to have like a
+long-term hesive Vision that survives you know multiple generations of users
+because users come and go and that and that's fine um some will stick around for the Long Haul but like ultimately
+you know people will fixate on very specific minor use cases and over the
+long term that's not the way to design a framework do you remember any of the names that you almost used instead of spell like is there like a napkin around
+Creation of the Svelte name and logo
+your apartment somewhere with all the name ideas jotted on it like framed no there there's there's no I remember the
+naming session I don't remember the names so this was like a long time ago and we're in the offices at the guardian where I worked at the time and I was
+like yo I built this this this thing like here's what it does uh I need to come with a name that is available on
+mpm first of all um but also has all of the right connotations and we spent a lot of time thinking of
+different could have been white boarded all these that's taken um and like one
+of the criter I wanted a single syllable word and I I don't remember what the other
+ideas were but I remember that it was my friend Keenan Davis he has the credit for coming up with the name spel just
+like threw it out there and free merch for life felt really good immediately like yes that's it I didn't realize at
+the time that a lot of people don't believe spel is an actual word particularly nonnative English speakers
+but also a lot of native English speakers are like they think that we just made it up and we didn't it is a real word with real connotations it
+means live and athletic and graceful and all these things that we want to to convey when we're talking about the
+framework um but people think that it's just like a thing that we made up and and and it's not um so yeah I I wish I
+could remember maybe uh maybe there was some some gold in there but spel is what we landed on and I think it's held up
+pretty well yeah like we we have a we have a brand that I think is pretty well
+known at this point and and it it all starts with a good name yeah and a good logo good solid color why is is there no
+spelt kit logo though like you have the same s right M we we do yeah we um that
+is part of our desire to make the two things feel okay like two halves of the same hole that can be used independently
+uh I mean you can't use Sal kit without spelt but you can use SP without spelt kit um and we thought that if we had a
+separate logo for one thing like designing a good logo is really tough
+yeah um but for another it's it's just nice if the two things really do feel
+harmonious and connected and that is that is that is why we did that all right rich thank you so much for having
+me uh talking with you was fantastic uh I learned a lot and yeah this is a great time yeah thank you this is fun
 
 ----------
 
@@ -166,23 +1330,4086 @@ paste here
 --93--
 
 -----
-Date:
-Link:
+Date: 2023.10.02
+Link: [# 17 Raw Lessons About Human Nature - Steven Bartlett (4K) | Modern Wisdom 688](https://www.youtube.com/watch?v=JBgwF8aHByI)
 Transcription:
 
-paste here
+
+The Frame Matters More Than the Picture
+you are a guy who likes stories and likes ideas so am I so today I want to
+go through some of the best ideas that I've learned from you over the last year or so first one the frame matters more
+than the picture what's that mean I think often in life whether it's marketing or innovation or when we're
+building companies or products or making content we fall into the Trap of thinking that the thing we're creating
+in and of itself is doing all of the work to tell the story but when I looked at tons of studies when I looked at apples and art galleries and when I
+looked at um Coca-Cola studies that they did where they put Coca-Cola in a glass
+and then Pepsi in another glass and then did a different study where they showed you which one was which it's so clear
+that much of the work is being done in Psychology not in reality what I mean by that is if we just think about the Apple Store every electronic store you've ever
+walked into in your life is kind of like a crazy Jungle of wires right that's how electronic stores always were what Apple
+did differently and which helped them to justify the cost of a $22,000 smartphone
+was they gave the the iPhone space in the shop and we intuitively know that real estate is expensive so the space
+that the object is given actually pours into the value of the object itself so in an Apple store because it has two
+feet e either side of it the frame in which it's presented is telling you that this item in the middle is high value
+the the context you've always seen that kind of framing in is an art gallery where you have one off special pieces the other thing I think so critical to
+what Apple do so well is they only show you one of each device and they keep the rest in the back room if we think about
+scarcity creating value things that are perceived to be in limited Supply like pieces of art whether they're typically
+one-offs are seen in higher value the frame in which you present something is doing so much of the work to to
+communicate the value of the thing within within it um and even in the Pepsi Coca-Cola studies which are Super
+Famous from back in the day people would rate the Coca-Cola drink more highly when it came in the can and you could
+see what you were drinking they would say that's the better one but when they removed the can and told people that the Pepsi was a Coca-Cola or they had blind
+um cups with nothing written on them people chose the Pepsi the frame in the story there and making people believe
+that something tastes entirely better so it's not just about value it's about taste and sense and really at its called
+pychology there's a story from Sam Harris that I love which kind of takes this from the business marketing into
+the personal development space and he says after you finish the workout CrossFit or Brazilian jiu-jitsu or
+intervals or whatever and you're laid on the Flor panting making a sweat Angel you've got the taste of metal in the back of your throat and your hot and
+every the Visions blurry everything right that sensation although objectively being quite uncomfortable
+your felt sense of it is satisfaction it's pleasure in a way it's very kind of masochistic type of pleasure but if you
+spontaneously had that happen while you were sat in traffic you'd be [ __ ] terrified yeah you would ring the
+ambulance and you would say I'm dying this is a heart attack or a stroke or whatever so the frame that we place
+around our experience largely determines our experience and the question becomes why so as I talk about a lot from
+looking at some studies that they did on mice in a maze where they put chocolate at the end of The Maze and then set the mouse off they scan the brain of the
+mouse as it's going through the maze the first time and it's firing like crazy so much activity in the brain as it's
+sniffing everything and scratching everything eventually it finds the chocolate the second time in the Maze
+they scan the mouse's brain they put it back into the same maze with chocolate at the end of it and it Glides through the maze with no cognitive activity
+appearing to happen at all it's gone into autopilot and like when we think about the the amount of cognitive load
+that the brain would encounter every day just when I'm in this room the amount of things that I would have to think about or or um to save cognitive capacity tune
+out of what we know is the brain is taking shortcuts and the frame and the anchors around the thing you're looking
+at provide tons of shortcuts so even in the case of what I talk talk a little bit about as well is if I gave in these
+studies they gave people three options do you want to go to an all-inclusive trip to Paris or an all-inclusive trip
+to Rome and in that study people go I want the all-inclusive trip to Paris but in the second study they say do you want
+an all-inclusive trip to Paris or an all-inclusive trip to Rome or an
+allinclusive trip to Rome without coffee people suddenly choose the middle option
+the all-inclusive trip to Rome and it's purely because this third option which has entered the the frame has trick the
+mind to think God if they removed coffee from the all-inclusive trip to Rome the all-inclusive must be way better because
+they haven't removed it from the trip to Paris a slight thing and we see it again on menus and in electronic stores with
+TVs and if you go into a a steak restaurant and there's three staks people will typically choose the middle
+one because the the cheapest one and the most expensive one of telling you a story that the cheap one's too probably
+not good the expensive one's a little bit too bougie and that middle one which is anchored in the middle in the middle of that frame is probably the nice happy
+medium between the two and this is happening all throughout our lives we're taking short shortcuts using the frame to tell us stories of the thing that
+sits within it people don't think about the frame they think about the thing they're creating but great artists great innovators your Steve Jobs of the world
+your Teslas of the world they obsess about the frame because it's hard to check like if you think about we want to
+make an advance on people's perception of our product the thing we've created all the content it's really hard to do
+that in reality like it's really hard as Roy Sutherland says to make a train faster or to make an iPhone better but
+it's easy to play with the frame to change the story in the consumer's mind yeah this is where differentiating
+yourself with whatever you choose to do people get captured they obsess over the
+actual thing itself whereas there's all of these other anciliary extrinsic sort of diffuse differences that you can use
+and um yeah it's why you know I've spent so much money to make this look pretty because when people look at this it's filmed in a different aspect ratio right
+it's not filmed in 169 it's filmed in a custom version of cinemascope right it perfectly fits and I anybody that's
+watching on an iPhone now turn it to a wide screen and you'll see that it perfectly fills there's no bars at the top there's no bars at the sides it'll
+even get cut off by the circle of the bezel of the iPhone that's how perfectly curated this is for the mobile viewing
+experience should I say what I think the most impressive thing that you do is that's so tiny and it's actually just four characters long hit me in terms of
+the frame is you write in the title 4K nobody cares right objectively it's
+not going to change the content uh the experience of the content itself but when you say 4K it's actually telling a
+much bigger story it's actually saying high quality high production value um
+and really like the the second order thing is there really worth your time yeah we've invested a lot in this just
+four characters it's taking in your YouTube title but it's speaking about the quality of what I'm about to watch and I think that is probably doing a
+tremendous work on retention and it's just you just write 4K in little brackets yeah but it says so much yeah
+but I think when you're looking at trying to compete with like you say you're limited by the reality of
+transistor size and circuit board capacity and all the rest of it if you look at the difference between an iPhone
+and an I don't even know what the other ones are Samsung or an LG or something if you look at the difference the
+Samsung and the LGs had features and it's had speed and megapixels and all the
+rest of it the iPhone's still catching up to but what don't you get you don't get the experience you don't get the status that's ass iated with it and all
+of that is the alchemy that Rory talks about all right next one next one you do not get to choose what you believe how
+You Don’t Get to Choose What You Believe
+is that the case this is one of the the most I think probably the most important things I've discovered over the last
+couple of years because our lives are essentially beliefs that we've accepted as being subjectively true whether they
+are objectively true or not um we our lives are run on this instruction manual of these beliefs that we've inherited
+and when we're thinking about belief change which is um what we need to do to you know pick up a healthy Habit in the
+gym or to build a business or to persevere in any context it all comes back to like okay how do I change something that's limiting me how do I
+change a limiting belief and how do I adopt a new belief there's a a big sort of contingent in the self-development
+community that say you can go and look in a mirror and you can recite things to yourself and the Brain will believe
+those to be true so there's a whole contingent that say just think about something and you'll believe it but when I reflected on that in my own life I I
+ask myself how many of my beliefs have I actually Chosen and I used to be religious up until I was years old I
+believed in some kind of God Christianity um and I I I zoomed in on
+why that belief fell away what was it and really what happened for me and what I've come to learn is that um there
+isn't a single belief I have that I've chosen and I the experiment I'd ask anyone to run that's listening to this
+is think of a belief you currently have in your life anything you have and ask yourself the
+question could you unused to believe that right now if I if I put a billion
+dollars on the table of Elon musk's money and I said um I'm going to give you this billion dollars if you don't
+believe this hypothetical two pence coin that I'm holding if you believe it's a
+5p coin very simple there's a billion dollars on the line and the reality is
+you couldn't you couldn't for a billion dollars or if I held someone you love at gunpoint you couldn't change any belief
+you have you could lie I'm not talking about Faith and Hope I'm talking about actually believing it's true so if we if we all agree upon that and I I ran some
+surveys with people where I asked them this question about 20% of people originally thought um they could choose
+their beliefs and then when I ran that survey almost 99% of people realized that they're not choosing their beliefs where are my beliefs coming from well
+all of our beliefs in my view are based on the evidence that we've acquired usually through our first party senses
+sometimes vicariously from observations and sometimes because they've come from authority figures and figures in our lives that we trust it's evidence that
+we've accepted as truth doesn't mean it is true but it's evidence we've accepted um and therefore if you want to change
+your Bel beliefs what's abundantly clear is you have to go and put yourself in situations where your existing beliefs
+are counteracted with new evidence so when it comes to speaking on stage or when it comes to uh learning how to be a
+podcaster or when it comes to self-belief or whatever it is you have to go and collide with new evidence yeah
+Ryan holiday's got this amazing quote where he says self-belief is overrated I prefer to use evidence yeah exactly that
+it gets back to that hosy quote I said to Goggins right you do not become Confident by shouting affirmations in the mirror but by having a stack of
+undeniable proof that you are who you say you are outwork yourself doubt and
+ultimately hoping that you're going to be able to believing that you can think your way out of a thinking problem is
+like believing you can sniff your way out of a cocaine addiction right you have to give yourself something else
+that's going to step change where you're at I was hypnotized last week after we
+met and that I said to her before she hypnotized me I said can I ask you a question do we get to choose what we
+believe and she actually said yes and I think she she interpreted different she's a very very famous therapist
+called Marissa Pier did you video this yeah is it going out on the internet yeah amazing 30 minutes it's hypnotizing
+me to not eat sugar again okay to like have a better relationship with sugar okay yeah yeah yeah right um and it was
+interesting because she takes me back to my childhood and then confronts me with the the information that my inadequate
+lunchbox made me feel insecure it made me feel a ton of Shame growing up cuz I never had anything like we didn't have
+food or like money or those kind things so really my relationship with sugar now is it's it's resembles power control and
+fitting in the fact I can just order whatever I want and eat so she went took me back there and unwired that but what
+she's actually doing is she's giving me new evidence because she takes me right back to that kid and she's basically whis bring into his his ear a new story
+and that's and so I actually think that the principle that we don't get to choose with what we believe still holds
+true but with hypnosis which seems to be the outlier they're giving you new evidence that counteracts your current
+beliefs that's all she did interesting yeah so an important sort of caveat is
+that new evidence doesn't necessarily need to come from the external World it can come from telling yourself a new story about the things that you already
+believe that you believe and that's what hypnosis is it doesn't need to be first party evidence that you encounter with your eyes it can be someone else that's
+very very skilled in taking you to to that belief and smashing it I love I love when this happens so let's think
+about the two things that we've said so far the frame matters more than the picture you do not get to ch what you believe what we're talking about here is
+that your beliefs are largely determined by the frame that you place around the current moment and that frame given
+professional help or a powerful hypnotizer can end up being moved in a way that also moves your beliefs yeah
+right yeah that's very interesting when she people think of hypnosis as like someone tricking you into thinking you're a monkey and then you start
+clucking it wasn't that I was well aware of where I was and everything going on but she took me back to a hill I sat on
+when I was four years old looking into my lunch box and I felt like I was there and then she told me a story a a
+different story about that moment when I said earlier that it's we've interpreted it as subjectively true she gave me a
+different interpretation on my lunchbox and she then and that was the key thing she gave me new evidence about an old
+interpretation of an old situation and that's what hypnosis does as an outlier but for those of us that can't access
+hypnosis the other way to counteract our beliefs as I said is to you have to go and put yourselves in situations where you're going to be presented with new
+evidence um and it's interesting with belief change you'll accept evidence that is complimentary as I said to you
+you know if someone says you're more looking than you you thought you were it's shown in the studies that people
+are more likely to move in that direction if I said you're worse looking than you are people are less likely to move in that direction so even framing
+the New Evidence as good news is a useful tool for belief change the other thing is if if we have 95% of the same
+beliefs I'm significantly more likely to accept one from you so when we need to to embody a new belief going and getting
+it from a source We Trust which typically isn't our mother because we understand the bias there there but someone that we believe and trust in is
+a useful tool for belief change as well um and yeah I studied this really really deeply I looked at why you could go up
+to a child and say to the child I just saw a pink elephant flying and they might believe it but you couldn't say that to an adult and they wouldn't
+believe it have you seen those studies that were done very unethical studies I think in the 60s and 70s where they took
+two groups of children and pushed onto one the fact that they stuttered and they would bring it up all the time and
+they would point at them and point at them and these kids developed lifeline stutters throughout their entire adulthood because they were told you you
+mustn't stutter be careful you're bring you're doing it again you're doing it again yeah we're reinforced by what happens in the world that's labeling
+theory for you right and that's a form of stereotype threat where you're told implicitly that you are something so you
+you accept it to be true and start to embody it tell you what I found that was really interesting people are more
+prejudiced against those with different accents than those with different skin colors so this shows up again and again
+in the data and it didn't didn't really make sense until I spoke to this evolutionary Anthropologist and he said well think
+ancestrally about how novel it would have been to have met somebody with a different skin color it's the tribe from
+the next Valley over right it's not somebody with a different skin color but they'll speak slightly differently they'll have slightly different words
+that they use MH so we are predisposed to be very prejudice against someone who
+might look like us or might not but sounds different and it makes kind of sense so you know if someone's not sure
+not believeing this think about what happens some walks into the room with a different skin color than you have but
+the exact same accent that tells you so much about this where this person's from the background that they grow up in all
+the rest of it and let's say someone walks into the room who has the same skin color as you but a vastly different
+accent they've got a scous accent or they've got a Texan accent and you go wow like this person is very different
+to me I just think it's professional Prejudice any kind of prejudice so like just
+the Affinity that you have with the person that's yeah uh and it it shows up as in uh
+especially in the UK which is a very class-based system right America's dominated by race but the UK I only
+learned this when a friend came over to the US from the US to the UK and he says you guys talk about people being Posh
+all the time it's like that's never a term that I've ever heard I know what it means it's never a term that I've heard used in America never talk about someone
+being Posh it's interesting because Prejudice is such a context dependent thing whereas if you're looking for a
+100 meter Sprinter you know I'm you know I'm looking at you if you're looking for you say you can go through different
+classifications and say who would you want who would you be most happy or have a highest Affinity to in different contexts yeah and and it varies I'm I'm
+really fascinated as well by like self- Prejudice and the power that that exerts over us and how in the studies that I
+was reading if a um because there's a stereotype that women are wor worse at maths they did these studies where they
+just ask you to tick your gender before you do the test and performance dips in women that have to tick their gender
+same in with black people their performance dips if they're just reminded of their own identity if they have to write their name the performance
+dips so they did some studies where they got people to change their name and performance increased and it goes to
+show that there's a stereotype threat going on within us internalizing it at all times and then the most importantly
+is that when they removed those stereotype threats before doing a test performance was equal there was no
+deterioration and I think about that from labeling Theory and the harm grades are causing all of us because me getting
+e and D's yeah it's a miracle that I I didn't interpret that as I'm an e person
+and then show up in life in such a way there's this similar quote from Anthony Vino it's more socially acceptable to be
+our own biggest critic than it is to be our own biggest cheerleader and I really
+coming from a British background I rail against this sort of Zero Sum crabs in a bucket tall poppy syndrome mentality and
+yeah a lot of people might feel that right that you are able to say things to
+yourself that you would never dare to say probably even to the worst enemy that you've got out there and you're
+able to kind of create this designer drug perfectly curated curse you know
+exactly the scabs to pick you know exactly the pain points you know all of your shame and you're able
+to you're able to point at it a thousand times a day and remind yourself of it
+and it's so strange it's more socially acceptable to be our own biggest critic than it is to be our own biggest cheerleader I wish that wasn't the
+I've been thinking a lot lately I've not actually spoken about it but um in trying to help some friends solve some of their personal problems in their
+lives where they seem to be in a downward self-esteem spiral or are down with discipline spiral it's always hard to give advice and I'm actually cautious
+about being a fixer something Simon Sy talked to me about sometimes you just need to sit in the mud with people but one of the observations I've had is that
+the path out of that despair is by keeping commitments to yourself and this kind of goes back to what you're saying
+about the self story and what you think about yourself every day I think when I'm trying to give friends advice these days what I say to them is the rewards
+you get in terms of self-esteem and self story what you think of yourself will be correlated to the size of the commitment
+you keep when no one is watching so if you say to yourself I'm going to do this when no one is
+watching we don't think it's important to keep those commitments we think lying to ourself is there's no there's no sort
+of um punishment for that I actually think the greatest consequence in life is not keeping commitments to yourself
+and I think that compounds to as we talked about where does beliefs come from I think it compounds as personal
+evidence which is deposited in this instruction manner of who you are and how you behave and how you show up and what you're capable of all those tiny
+little commitments and then I think you can get into a downward commitment spiral because of that because you think you're a you know you don't have faith
+in your own word you don't have faith in anything you do and this causes a downward spiral so isn't it really lovely to know that maybe the way to
+turn that into a positive upward reinforcing spiral is just keep that tiny commitment you made to yourself
+today yeah like you don't have to move move Mount Everest you don't need to go on a sday Iowaska Retreat how about when
+you said you were going to get in bed at 10: p.m. you do that Y and you stack that you talked about Alex os's quite
+about stacking evidence stack those things for a week honestly I've seen it in my friends and their lives have
+changed the commitments we keep to ourselves if we say those are the most important things for compounding that evidence in our favor everybody can
+start there today like yesterday's out of play but then the next thing you do in the next hour can you keep that
+commitment to yourself that's what I think a lot about I think life is much more simple than we often make out we'll
+get back to talking to Steven in one minute but first I need to tell you about epidemic sound if you have ever tried to put sound effects or music
+behind any video you will know just how hard it is to do epidemic sounds has over 990,000 sound effects plus a vast
+music library that will avoid any copyright concerns your videos are not going to get demonetized or infringe on
+someone's copyright which happens all the time if you're not using a professional Library all of their tracks
+are professionally produced by a diverse collection of artists and are EX exclusive to the platform if you've ever been wondering how your favorite
+creators take their videos to the next level a lot of it comes with sound design and that is the Sound Library selection they have access to so many of
+them are using epidemic sounds and you can join them for free for 30 days by clicking the link in the description
+below or going to share. epidemicsounds.com slod wisdom and if you cancel within
+that 30 days you can still keep all of the sounds that you've used during your trial period That's share.
+epidemicsounds.com modern wisdom the Mark Manson quote here
+Why Self Respect is So Important
+is the person you have to spend the most time listening to in your life is yourself try not to lose their respect
+and self-respect and self-esteem I think largely comes from having faith in your
+own word so if you were to treat yourself like a friend you are responsible for helping which is Peterson's advice right let's say that
+every time you invited a friend out for lunch they turned up late or didn't turn up at all they didn't text back they
+just kept not holding to their word after a while you wouldn't believe in them you wouldn't be friends with them
+and you'd stop inviting them out to lunch you are that friend to yourself
+how on Earth do you think that you're going to be able to move mountains and get out of that relationship that you don't like and move countries or change
+career when you can't not hit snooze even though last night you promised yourself that you weren't going to hit snooze and it's how people that are able
+to do extraordinary things have been able to get there that they've just started off unbelievably small right I'm
+just not going to hit the snooze button I'm just not going to use my phone before 9:00 a.m. right these are
+controlling your thoughts is unbelievably difficult and requires a lot of meditation and maybe psychedelics controlling your actions is relatively
+easy especially stuff like don't pick your phone up before you've gone for a walk just try that in the morning sunlight before screen light as huberman
+says and that's the easiest way to control your thoughts yeah because there's a two-way relationship between what you do and how you feel absolutely
+so if you want to change how you feel focus on what you're doing if you want to change how what you're doing focus on how you feel but but you said said about
+extraordinary people there this is what Chris Eubank Jr said to me which really stuck with me he said my dad flew me to
+Cuba um and they we had a training camp out there and they surprised me they put the the heavyweight champion of Cuba in
+the ring with me he's not he's like a middleweight or something he gets in the ring This heavyweight storms across to him knocks him so hard he flies out of
+the ring and hits the floor dead leg and he's laying on the floor he said he said to me I looked up at the ring and I saw this massive Cuban heavyweight stood
+there and he said I realized in that moment that I had to get back in the ring because if I didn't it would let
+the demons in and another instance of when he talks about the demons more specifically was on his story about the
+treadmill he goes if I'm running on a treadmill and I get to mile 9 and I get complete cramp in one of my legs and I
+know I've told myself I'm going to run 10 kmers today he goes I will have to limp The Last Mile even if no one's
+watching because I can't let the demons in and if I let the demons in they'll show up in the 11th round of a championship fight when there's 50,000
+people watching me in the audience and I know deep in myself story that I'm the type of person that quits when things
+get hard because I got off that treadmill at Mile 9 when no one was watching it would modify myself story
+The commitments we keep to oursel and what we do when no one's watching is the most persuasive evidence that governs
+everything we then do every day thereafter and this is for me was a huge Revelation in my life because you know
+you can look at certain people in your lives that are struggling in certain situations and often times it's a result of continually unkempt commitments to
+themsel yeah I don't know anybody who has done extraordinary things that isn't
+keeping their word in that way right there's consistency doesn't guarantee that you're going to be successful but
+not being consistent will guarantee that you're not successful let let me UNS Superman let's like the mess of this is
+some people are remarkably good at keeping commitments in some areas of their lives and hopeless in others so
+they'll have kind of dual self-esteem they'll be incredibly you know confident and secure in their work but in
+relationships or whatever else they'll be Ground Zero and I'm very much one of
+those people that has areas of my life where I have immense commitment and you'd say I such a disciplined person
+and then other areas of my life where I res being hypnotized out of sugar you know what I mean yeah i' actually
+haven't eaten sugar since as well so it did kind of work I have no desire to have sugar anymore hell yeah so no I I know exactly what you mean and this is
+something how you do anything is how you do everything is a a lovely quote and a lovely idea but it piles an awful lot of
+pressure on you right and it's very easy especially as we said it's more socially acceptable to be our own biggest critic
+than our own biggest uh like complimentary given
+that if you mess up a little bit that can quite quickly spiral oh I I Chris
+said that I shouldn't check my phone before I go for a walk in the morning therefore it means that I might not as well go to the gym and I might as well
+like break my alcohol streak and I'm you know all of these other things yeah finding this balance of being robust
+enough and delicate enough with yourself to say okay I know that you tried well let's get back on the horse again
+tomorrow right it's it's a delicate balance right holding yourself to high standards whilst also being sufficiently
+supportive and this is the same in business so it's not you don't break trust when you don't do what you said
+you were going to do you break trust when you don't do what you said you were going to do and you don't own up to it
+take responsibil responsibility for it and point it out so in business there's often times where you say something to
+your team and for whatever reason mitigating circumstances that thing can no longer happen trust isn't broken at
+that point trust is broken when you then don't sit in front of your team and say this is why this didn't happen and at the same I think applies to yourself
+you're going to miss some things in life but taking responsibility for it staying empowered and not saying oh I couldn't
+do that because or I needed d d d no it was your priorities it was the priorities and the decisions you made so
+when I miss my commitments the Saving Grace for me is I go I did that that was
+me that was a choice that I made and if it's a choice I made or didn't make it's a choice I can make in the future the
+what you see in that chapter is you see obis of responsibility um you see blame you see
+excuses and you see disempowerment in the form of language like I couldn't
+because you know or I needed to or which I think is scary language what's the
+difference between parrots and practitioners which just something I've been thinking a lot about I I've observed the
+most successful intelligent creative Innovative apparently original people in
+my life and people that aren't even in my life and the the consistent thing amongst all of them and in my businesses
+is that those that are truly exceptional and that over any extended period of time when you zoom out achieve disproportionate levels of success start
+with this kind of boring drudgery of obsession over their craft driven by this deep passion and curiosity I mean
+Jimmy car's a prime example of that leaving his his potentially lucrative career to go and tell jokes for for no
+money for 10 years Darren Brown left a great potential career and Pathway to becoming very very successful in a sort
+of typical sense to go and do card tricks on a table in Bristol everyone's story when when I the
+people that I admire that are the masters of their craft were these deep practitioners and then you have this other type of person which I call kind
+of the parrots where they observe these people in the learnings that these people have given them and they kind of just regurgitate what they're hearing
+but they never do the time to practition so they never get to that deeper level of understanding and as they say you know to learn something you read about
+it they often say to to understand something you write about it for me I think to understand something in this
+context you do it and you do it in this iter iterative pattern for many many
+years and your depth of understanding once you've done something is unparalleled and that's the foundation
+for great creativity you see it with Fred again he's what a guy man he's he's an absolute in my mind he's an absolute
+genius he's a [ __ ] Savant for the people that don't know who we're talking about Fred again is a classically
+musically trained DJ who's put turned his hand to like Tech and house music I
+suppose but will also happily get up on the roof of his flat in Hackney or wherever it is and play a completely
+solo set classically on piano a keys you see the conviction of that and you see the the first principal nature of his
+work where he's doing something we've apparently never seen before of course he's taken inspiration points and he's
+using equipment that was already made before he was born but he's pulling the pieces together in new ways and that's what creativity is and that kind of
+creativity belongs to people that have gone right down to that first principal level you're talking Elon Musk you're talking y cany of the world and Fred
+again where he's pulling things together in different ways and expressing himself without the constraints of convention
+that's what that's what pioneers and practitioners do and Pirates can never do that because they don't understand
+the seaf Flor they just play with the boats on top of the water there's a quote that I've fallen in love with the
+magic you are looking for is in the work you're avoiding yeah [ __ ] dude the magic
+you are looking for is in the work you're avoiding and every single time that there is something in front of me
+that I I feel like things aren't coming my way sufficiently quickly I'm not making the progress that I want it's
+because I'm [ __ ] about over here and there is a large frog in front of me that I need to eat I need to spend
+another half day reading a book I need to spend some more time researching online and upping my skills in this
+particular area I need to do whatever it is can I do you know what's interesting is most intelligent people I've met no
+the most successful ACT people I've met as entrepreneurs and
+practitioners never read never really read books like even in Elon Musk of the world I know he watches movies and stuff
+he gets his inspiration points from many areas but thinking about the great CEOs that I've met and the great Founders and the great artists I've met there's
+almost a you know I think I said this to you earlier on that knowing too much can be
+a real disservice to innovation in creativity like knowing too much innov information whereas this sort of
+practitioner pathway where you naively stumble through new territories seems to be more conducive with the real Pioneers
+I wonder whether that's the curse of knowledge in a way you familiar with this yeah Stephen pinker's idea of the curse of knowledge that when you start
+to learn things you can't understand that other people don't know it and you also lose the learner's mind in some
+regard which is you're not lucky you said about you come into this room and there's a million bit bits of information that you could be focusing on but you're not focusing on those
+you're focusing on the ones that matter mhm and I think that when you start to kid yourself that you know what you're talking about you're no longer quite as
+open to these new ideas I would say the difference for you know our industry what we largely traffic in are anecdotes
+and insights right and they can come from experience but I also like exposing
+myself to new ideas from other people and the quickest way to do that actually know this is a Lie the quickest way to
+do that would be to permanently be going for dinner with interesting people but that's like an unsustainable life it
+would be like 2 hours of dinner with Douglas Murray then Jimmy C then Steven Bartlett then like it that would just be
+my existence and I'd just hear oh yeah and that's cool and oh yeah what about that and oh I've never thought about
+this before like that would be the way I'd do it but in lie of living this Perpetual dinner life reading books is a
+a good second for me yeah it's a good second I just think about the things that I couldn't even express in Words
+with my vocabulary that I know about the art of marketing and human psychology and why why people do what they do like
+and the the experiences that are all fundamentally intertwined in the mistakes that I made in the Journey of
+getting there now in a book I might give you like the the four paragraphs but the rest of the iceberg yeah is the
+foundation of the thing that sits on top of it and you think about podcasting we both came into this industry I'd say
+fairly late compared to like the rest of the industry right but because of that there's a naivity to it which allowed us
+to do new things um because we didn't read the book yep um that I think some of the radio industry are struggling
+with with that transition dude I mean you're seeing it in a America The Late Night show hosts are trying to Pivot
+from heavily scripted heavily supported by writers and a production team and researches and all this stuff and then
+you put them down in their garage with a mv7 bus powered microphone in front of
+them and you realize oh like these people don't have any skills Beyond
+being able to be very good at reading the script and that's a massive skill I couldn't do that you put the script in front of me I'm going to fall to the
+floor but yeah what's the takeaway here though for someone's listening to this now and they're a young person and
+they're at the start of their career or even if they're not necessarily a young person for me the takeaway is to go and
+fail at something that's high value in the future as soon as you can with it
+with with the least amount of potential cost to yourself it's like
+to go and practition if I had kids now I would tell them to go and join an AI
+startup that that's well funded that's what I tell them to do small group of people where they're going to be close to the information and and the the
+evidence and I'd tell them to go fail in a high value future industry that's the thing I would do if you want to be a
+master but then okay they have to pick an industry that they are innately passionate about because you won't go for a decade with Fred again or Jimmy
+Carr or Darren Brown's curiosity if you don't you're not innately captured by that thing but I think we are looking
+for cheat codes I think much of the reason why people probably listen to our stuff is where we want we want the three
+tips how can I growth hack my personal development you meet anyone like you you meet Jimmy or you meet dar and you go oh
+15 years no money in busking the pal think about this I wonder and I ask
+myself this question a lot I wonder how much of the development that we really value in ourselves isn't because of our
+own agentic highly Sovereign approach to marshalling our own life I wonder how
+much of it just comes along for the ride as a byproduct of getting older yeah you're just this was going to happen
+anyway and maybe I sped it up a little bit and maybe I can you know create a nice story about why it happened but the
+most wise people I know it's very rare that I meet somebody who has who is much older than me that doesn't have wisdom
+that's come along with it which suggests that wisdom is just there for the ride right as a byproduct of Aging but yeah I
+would say takeaways from this aim to focus on executing so the the four
+Most People Strategise Instead of Executing
+disciplines of execution really interesting analogy that's used the word strategy is in the top 10 of all
+LinkedIn words in BIO descriptions and execution and execution aren't even in the top 1000 right
+because it's much easier to strategize than it is to execute but if you this is a term that's you can tell people that
+really know business when they use it one of a few terms talking about someone being a real operator right that's you
+go oh okay say no more like I know there's someone that will get things fixed right that they're able to take
+charge of whatever the challenges that's in front of them and our mutual friend George Max's got this beautiful idea I'll ask you this one actually so the
+way to work out who the highest agency person in your life is have you heard him do this before no [ __ ] brilliant
+okay so you are trapped in some South American jail right and you're about to
+be transported somewhere where no one's going to be able to get you back let's [ __ ] Columbia Argentina somewhere
+right you have 24 hours and you only have one phone call to ring somebody to come and get you out who's that person
+that you ring oh
+Prince [Laughter]
+William right okay I feel like you've broken the game a little bit there I don't think that was that was perfectly
+Fair do you know my framework though was find someone that is both smart and influential member of the royal family
+yeah and that cares enough about my predicament yeah so but that that the the framework that you come up with
+there if you don't know the Future King of England is someone that is able to
+think on their own that doesn't need instruction that is going to be able to solve problems at a very high level Under Pressure very quickly you know
+just all of the things that you want in a friend yeah it's so true it did you Whitted it down to five people
+instantaneously in my head and I was deciding between them but I thought I don't know if they can pull enough levers [ __ ] Prince William yeah
+you've got an idea that's kind of similar you must become a plan a thinker yeah and just on that last point it just
+popped into my head then that I think what I'm saying here is that no matter what you're aiming at over the next 10 years in your life I think this horrible
+realization that bucks the trend of every Instagram quote you'll ever read or every course you'll ever buy is that the fast way is the slow way because the
+slow way is the only way like I I stood behind fren again this weekend as he did his show Ali P to 10,000 people or
+whatever it was and I'm looking at this guy going I want to do that I want to be able to do that but my better sense from
+interviewing all these smart people knows that it's not case of me doing a court it goes my my brain now goes are
+you willing to put 20 years of Silent boring drudgery and Obsession into doing
+that my brain goes no so separate out the aspiration from the adir I got to show you this I got to show you this so
+Mark Manson put this quote up a few months ago and I've not been able to stop thinking about it the most
+important question you ask is what pain do you want in your life what are you willing to struggle for anything
+worthwhile is going to require some degree of pain and struggle so if you're oriented toward the pain
+and the struggle you're probably going to be more aligned with what you're capable of accomplishing rather than if
+you just Orient toward the pleasures so good because we say find
+the thing which you enjoy the most but really what you're finding is what is
+the pain you're prepared to swallow the most nothing worthwhile is going to come without discomfort you know even for me
+and you love doing the show love speaking to all these interesting people people get to fly around the world and
+all but I would be lying if I said I love writing show notes or doing research in Guatemala airport at 3: in
+the morning because I'm on a delayed flight and I've got a flight I've got a episode tomorrow like it's grind it's
+grind that I care about and it's grind that I can do that other people couldn't do but it's not not grind right this
+goes to the discipline equation which yes you might be I'm familiar glad hit it hit it because that that really
+embodies it that Mark Manson quote about the pain you're willing to encounter um I was figure out why there's some areas in my life where I'm disciplined and
+other areas of my life where I seem to lack discipline kind of what I was saying earlier about being a dualistic type of individual and I came up with
+this discipline equation that I'd love to interrogate with you because I've not thrown it at enough people to know that if it's if it's true or not so
+discipline equals um the importance of the goal plus let's
+just say the importance of the goal to you so the subjective importance of the goal how much does that goal matter to you plus the psychological enjoyment you
+get in the pursuit of the goal right so as you pursue the goal how psychologically enjoy enjoyable and
+reinforcing you know is that for you minus the psychological cost of the
+pursuit of the goal so I can I'll run you through some examples Simon Sy said to me well Steve I take the bins out at
+7 a.m. in the morning yesterday um I didn't want to do that but I did it so I go okay let's run that through the
+framework what would happen if you didn't take the bins out that under that sort of underpins and defines the
+importance of that goal well he get a fine and then he up have an overflowing bin out the front of his house so the Y
+is high the psychological enjoyment of pursuing taking the bins out is very low right and the friction of getting out of
+bed at 7 a.m. is high but thankfully the why is so strong that regardless of the fact that the pursuit the enjoyment of
+the pursuit is low and the friction is high the behavior still occurs going to the gym learning to DJ in all areas of
+my life I can run it through that equation and go okay so in the pandemic the reason I've been going to the gym for three years straight now is because
+my why surged the the the percept of the importance of that goal surged I saw how
+our existing Health correlates to our health outcomes and I realized for the first time in my life this clear thought that I couldn't unshake that my health
+is my first Foundation it is this table that everything I love and care about sits upon so that has to be my number
+one priority reflected in my schedule so that that changed that went up the psychological pursuit of going to the
+gym is kind of enjoyable there's a bit of a dopamine release there and it's fun to do that feels good for my self-esteem and the friction associated with it is
+low in less and unless I go to a gym where people know me and I spend the
+whole time talking then what I what happens if I'm put in that situation so I don't go to the gym the discipline
+equation changes so part of the reason I made a big investment in a company called until is because I can have
+somewhere I can work out and focus on the workout genuinely that that's one of the things that actually changed my relationship with the gym and nearly
+threw me off the Habit y was that psychological cost so how do you how does that sit with you it does there
+you've got the discipline equation death time and discipline yeah what's the Death part so
+like when I started writing that particular chapter in my book to understand discipline you have to
+understand the scarcity of time because you know so I started because I was going to write a a chapter about time
+management people want to know how to manage their time and as I went through the hundreds of available time management techniques I realized the
+promoter technique the time blocking all this one two three four the ABC the reason why there's so many time
+management techniques is because none of them work unless you have this underlying thing called discipline it's the same in The Fad diet industry that
+industry will always churn out new things because there's an underlying issue which is discipline so it's kind of a mirage industry so the chapter
+pivoted and started focusing on discipline well the next thing was time um why is time important round the
+numbers if you're how old are you now 35 okay so you have if you reach the average age of an American you have just
+over 177,000 days left to live and I think all of that goes to show
+that time is the currency we're playing with in every moment of Our Lives it's a sense point of our influence I talk about the roulette table of my life it's
+it's the frame I think through where we wake up in the morning with these 24 chips if you spend 8 hours sleeping you
+wake up with six 16 chips left and how you place those chips on this roulette table that sits in front of us just
+before the wheel spins every day determines all of our outcomes in our lives so I've chosen now to put to
+allocate two chips to this little piece here called Fitness the roulet table spins and I get my returns as I went
+down that chapter I realized that in the context of time and death um and time
+management the most important question to answer the fundamentalist discipline how can I allocate more of these chips to the things that are in line with my
+values where does This Thing Called discipline come from if it underpins everything we do it even underpins what you just said there with Fred again in
+that Mark Manson quote the reason why Fred again is doing that is because his discipline equation is in is in is in
+line if for whatever reason you just tipped any part of that equation you could knock him off that discipline yeah
+with with Jimmy car and with all these people that go do that decade of dedication to become Masters in their craft if you look to their discipline
+equation you'll see moments where the friction came up and they fell off or they got writers block or whatever it might be called in their context um and
+then so you can influence your discipline if you understand that equation when my DJ equipment was on the floor of my spare room I did not dj use
+it the minute I put it on my kitchen counter and had it one button away from being able to practice at any given
+moment I put it right in front of me same thing for any Creator if you're starting to do a YouTube channel and this is this is a life hack here do you
+remember you might have had this in your house when you were younger radio uh infrared soer Turner honor us it's like
+a single remote it's like 10 bucks on Amazon and you leave the wall socket on at all times and you run it through one
+of these additional sockets and then you plug your [ __ ] into that thing and you it's like 10 bucks right on Amazon my entire Studio at home is run through one
+of these so I go in and I just press 1 two 3 four and everything comes on
+because when I was first starting out it was super effortful for me to set up the camera and I'm going to do the thing and I'm already trying to learn to do
+YouTube and it's terrifying and I'm looking into this black lens and it says precisely same as you DJ kit can't be on
+the floor if you want me to practice as much as possible make get it in the way put it in the way of things right it's
+almost harder for me to DJ than it is for me to to to avoid it this it was on my kitchen counter so I would sometimes
+be going into the kitchen to eat something and just oh um press the button and just I'm off four hours later
+I've just done a 4-Hour DJ practice Yeah if you think about give me something in your life you're disciplined at and we'll run it through the equation
+something you've shown great discipline at recording the podcast recording the podcast does it really matter to you yes
+is there psychological enjoyment from the pursuit yes is the friction High what's what's the level of friction four
+out of 10 four out of 10 but if we added up the first part of the equation how much does it matter to you out of 10 10 and how much how much what's the
+psychological enjoyment of the pursuit nine so I'd say we're about 19 takeway four and because it's positive the
+behavior will occur you can do that as a minus four right the behavior will occur if at any point the friction gets really
+high and for whatever reason if the pursuit of it or the the why behind you you know the subjective meaning behind
+it falls the behavior will not occur I've heard you do this with your meditation practice yeah which is why
+you're not meditating yeah exactly my why isn't strong enough I don't I don't I haven't quite had the the evidence
+inic enjoyment it as well sometimes we need a little bit more pain right it's a it's a robus in way to to frame it I
+guess if Alex was sat here he would say we might say a lot of people are driven
+by pain rather than pleasure right 100% And that's the why part the chip on your
+shoulder accounts for so much it can account for so much right um you know somebody who had really bad period of
+mental health they suffered with anxiety attacks and it lost them something or somebody scorned them and they go oh
+okay and then they decide to commit themselves to mental health and improving the texture of their own mind
+that's coming from a place of wanting to prove other people wrong well whether someone is driven or dragged is
+impossible to tell on the surface and I've sat in my podcast over and over again and asked people are you driven or you being dragged by something when I
+say dragged I mean some kid on the playground at 7 years old told you you're a scumbag and you'll never be anything and you're poor and then that's
+dragged you that insecurity and that shame has dragged you to entrepreneurship into becoming a millionaire driven is what you know Gary
+vuk describes to me where he says his mother loved him so much and she encouraged him so much that he had that
+drive to kind of like prove her right whatever force it is it comes down to why which is the start of the equation
+and in t of Shame as Aid the only blackid in an all white area pretty much the
+poorest family in our street definitely dilapidated house in in the context of a wonderful area deep shame and insecurity
+about not being enough drove me like you've like I was an obsessed hungry dog
+for it's still doing it now in the back room somewhere you know one of my favorite quotes that I've heard from you
+recently is this I was riddled with fake Ambitions my ambitions were fake they
+Are You Driven or Being Dragged?
+weren't ambition they were insecurity most of our lives are dragged by insecurity and shame they're not driven
+by ambition and it's a tragic truth that most of us are going to have to have our
+Ambitions and our narratives fail us before we realize that there Illusions and mirages and they're false 100% And
+it's I have belief sometimes that a lot of people disagree with um but and I
+think this is typically one of them because people want to take control over their success they want to have that sort of power over it but if I I
+remember sitting with Eddie Hearn and I remember what Will Smith said and they all describe they can all very clearly
+articulate the reason for their their motivation and their Drive they live in a world where every media reporter will
+say oh you're so amazing like tell me how you're motivated every day it's not the case I actually I question how much
+choice they have over that motivation in the case of Eddie Hearn he lived in the footsteps of his father Barry Hearn who
+pulled up to school in these rolls-royces and he was known as Eddie hearn's son he's competing with his father he'll say it I'm driven I'm
+dragged by the insecurity of of being Barry's hearn's little son and I want to outdo him it's the same with some of my
+other B billionaire friends and it's the same with Will Smith he's being dragged by an insecurity and shame so the key
+thing because that's not always a bad thing right in in every context of life it might make you arrive at Financial
+Freedom sooner than others but you just want to make sure that you're cognizant of it at least in my life I realized at
+about 24 years old when we had an offer from a very big company to sell the business I went home that day and I googled mansions and lamborghinis on
+autot Trader and I looked into that screen and F felt a deep sense of emptiness like I'd been betrayed by somebody like someone had lied to me and
+it was true someone had lied to me 18-year-old 12-year-old Steve had told me that that would fix everything and as
+I played out it arriving on my doorstep I realized that i' would be poorer if I bought it some I'd lose something I'd
+lose my company and the community and the love I had but I'd lose something else then I went through this six months of sort of existential crisis of like
+okay so if it wasn't for that if if we weren't obsessing like a dog what the [ __ ] was I doing it for and um
+my fear this woman came into my office one day and she said to me just imagine for a second you have everything you've ever wanted she goes because the truth
+is you do there's no goal that you haven't completed that you need to complete to be worth more and I remember
+walking away and thinking what a load of rubbish two years of dwelling on that thought and I arrived at this conclusion
+I think because I was scared of this idea that losing my drive would would lead to no ambition but it's very much
+the opposite it losing your am losing
+your losing your insecurities and your shame that's dragging you
+doesn't dissolve your ambition it dissolves your fake ambition and creates room for your real Ambitions that are
+internally intrinsically motivated so instead of wanting a Lamborghini in a mansion I wanted this whole set of other
+things when I realized that the Lamborghini in the Mansion were never going to make Steve Bartlett worth more than one Steve Bartlett deeply in me I
+genuinely think part of me thought that if I got Lamborghini in a mansion Steve bartett would be worth two or four Steve
+bartletts but your your your currency is one of one and so in that moment once
+I'd realized that nothing was going to change the intrinsic value of me I could focus on things that I would do
+regardless of that P perception of value fluctuation like starting a podcast or
+um learning to DJ or doing a musical up and down the country or joining a psychedelics business just to learn for a year about mental health and
+psychedelics and the funny thing is if we think about Fred again and Darren Brown and all of those people that achieved Mastery from a decade of
+natural dedication is that's Al also the path to real Mastery when you're not
+being dragged in other news this episode is brought to you by nomatic no literally it's actually brought to you
+by nomatic that carryon Pro is the hand luggage that I used to transport my laptop and all of the stuff that I
+brought with me to the UK the difference between having proper well designed durable highquality luggage and not is
+everything it makes the difference between packing a compl complete hell or actually quite enjoyable the teamut
+nomatic creates the most functional durable and Innovative backpacks bags luggage and accessories everything from
+nomatic comes with a lifetime warranty which is exactly how confident they are in the quality of their products
+especially if you're someone that travels quite a lot you need to make sure the luggage you're using is high quality and nomatic is the best that I
+found so if you need to upgrade your luggage game for work for travel or for anything else the first place to go is
+nomatic head to the link in the description below or go to Nom matic.com sodern wisdom and use the code modern
+wisdom at checkout for 20% off everything sitewide that's Nom matic.com modern wisdom and modern wisdom a
+checkout the thing that's interesting to fold in here that I think is
+useful most people have more pain than they do anything else especially when they're starting out I don't think when
+you very very first beginner Pursuit you've got this perfectly balanced desire to maximize your guy and show up
+in the way your logo's being spoken forward is supposed to it's not people took the piss out of you from being
+different in school or your parents didn't believe in you or they coddled you too much or you don't feel like you
+were given the opportunities that you should have got or you failed yourself or other people failed you that's
+[ __ ] power that's fuel right and you know what it can be as well it can be a tiny thing oh throw away comment throw
+away comment lunch money oh yeah and that taught you a story going back to what we said about evidence about money
+and other people and that has just dominated your self story for the for the next three decades a story you learn
+about money you know so I think that that fuel is toxic especially when used
+for a long period of time but I reckon you can get a good five or 10 years out of it and I think that to get yourself
+past the activation energy to go and do something in the very very beginning it's all well and good for you or me to
+sit here and say ah you know you can find the balance in the way that
+everything works like we've been through that fire let's neither of us kid ourselves about what got us here in the
+first place it was [ __ ] resentment right I had a desire to prove everybody
+that had ever picked on me in school every person that thought I wasn't going to amount to anything everyone that had ostracized me socially I wanted them to
+regret that decision don't get me wrong and it's only been after a long long
+long time of realizing that actually if it wasn't for the fire that they'd given me I wouldn't have got to where I
+am now which is a place that I'm incredibly proud of so I should thank them oh that's a [ __ ] interesting
+realization and here's the here's the risk though and what I came to learn is
+it will take you somewhere that drive but it's not guaranteed to take you to happiness and the the obsession of being
+dragged by an insecurity like the one you've described and the ones that I describe is so overpowered ing that it
+might mess up your priorities and and I think at a deeper level humans regardless of their we do need these
+fundamentals to be happy we need that sense of connection we need relationships we need all of those things and in my case I work seven days
+a week in that Bloody office I would come in even when I didn't have anything to do because there was a deep sense of sort of self-esteem associated with my
+work the cost was I didn't speak to my family for two for two years the cost is
+like even as I sit here I haven't spoken to my mom for months like we fallen out the cost is I have very small group of
+friends and the cost is I've spent years struggling in relationships and I'm I'm I'm now 31 I've managed to get in a
+relationship and rep prioritize my life urgently but the cost I see in a lot of
+people I meet is okay they're successful in one of nine metrics of happiness and I sit there with I've sat there with
+some of my close billionaire friends they got all nine cars that I've ever dreamed of rning up outside and they
+tell me at 4:00 a.m. by their indoor pool that they're deeply unhappy and ask me to sleep in their bed with them that
+night because they're lonely I don't disagree I don't disagree that if you scale this for long enough it's not good
+for you right but it is so potent at getting that activation energy in the
+beginning and I just don't know if you were to take me back and say you can dispense with your fear of insufficiency
+the chip that's on your shoulder all of those things I don't know if I would have done anything I don't I I think
+that I would have been significantly less motivated to go and to be able to deal with the
+uncertainty of the Lonely chapter so I came with this idea with hosi a couple of weeks ago called The Lonely chapter I
+[ __ ] love it so there is a period in everybody's Journey where they are so different
+because they've started to do new things that they no longer fit in with their old set of friends but they're not
+sufficiently developed that they've gained their new set of friends and they're unsure should I go back should I
+lean back into getting a bad game with the boys on a weekend is that the highest you know know way that I can
+live my life passion forward because that's what everybody else does and all of my friends are taking the piss oh not drinking again too good for us are we
+not going out again this week oh okay well like enjoy staying in home and reading [ __ ]
+nerd so you're going to feel the pain of being ostracized from the group of friends that you used to have but you're
+stuck in this messy Middle where you haven't yet worked out who you are on the other side of this and that lonely
+chapter that's in the middle is something that I I would say almost nobody that I've ever met who has gone
+from a place where they are to a place where they want to be hasn't gone through are you out of the Lonely
+chapter yes yeah 100% uh I it's difficult for me to find
+it it's difficult for me to find it again facilitated largely by being in Austin um but that being said most of
+the work that I do is on my own you know I I spend hours sat at my desk
+researching sorting stuff for episodes dealing with the team making sure that everything is set for this trip or the
+next trip or whatever we've got coming up I think High performers actually they
+they do exactly what you've described there they leave the the tri the comfortable tribe that you know is
+social expectation and their childhood friends whatever else and once they leave there there's that initial point of resistance and then I think they to
+some degree live forever in the loneliness chapter the start of it is much more difficult but there's so few
+people that that can relate to their experiences once they come out of the the crowd anyway that they're always
+going to live to some degree in a heightened sense of sort of loneliness they can find a tribe at home and with
+family and with a partner but it's never the same as having you know what you see other people have from your hometown
+well that's you know look at any bell curve right the fattest bits right in the middle and to move yourself out to
+the edges is to accept being alone in some regard
+alander boton's got this quote where he says loneliness is a kind of tax we have to pay to atone for a certain complexity
+The Loneliness & Hedonism of Elite Achievers
+of mind yeah there's two things we don't want to be not enough and different it's
+what a therapist said to me recently that came on my podcast she said there's two things that fundamentally I interview billionaires and CEOs and
+royalty sorry she goes I I'm a therapist for billionaire seos and royalty she goes the two things are that people
+struggle with fundamentally are feeling different we don't want to feel different that's a rejection from one's tribe which used to mean back in the day
+through a process of self-preservation we'd die earlier as you you've heard about in the studies of you know that they did at Harvard um would get more
+ill our immune systems would break down and the second one is not feeling like you're enough which means you're not valuable to the tribe so not being part
+of the tribe of good or of good use to the tribe causes a bunch of signals in our body which then manifest as
+physiological disease and psychological disease so at at its call sometimes I
+think when I'm feeling in that such a way maybe I'm feeling lonely or I'm feeling really different or some I've got some feedback which makes me feel
+like I'm Different in a fundamental way I just ground myself in the understanding that even the fact that I
+feel that makes me like everybody else and um in terms of loneliness I've had to kind of carve out my own new tribe in
+my life a very small group of Prince William H yeah but no moving moving to
+Austin was a big part of that for me because I was around it's a city of cultural immigrants yeah right
+everybody has gone from one place to this place so that is the selection effect and that's why you know again
+another great way to work out who's agency in your friend group is are they living in the same town that they were
+born up in or in a new one are they living in the same country that they were born in or a new one have they decided to do something on their own and
+take risks that they were the only people who they were responsible for um in relation to your riddled with fake
+Ambitions thing this great quote from Alex that says you've already achieved
+goals that you said would make you happy yeah and that encapsulation of the honic
+treadmill in a single tweet I think is so interesting it but it also calls you to refrain what
+you're what you're pursuing and this is why the part of the discipline equation the psychological Pursuit is actually
+really a nice thing to focus on because we both know in all of our Lives even the the podcasting game you're playing
+now there's not finish line here is there every day is the finish line so I
+I think it reframes what we're aiming at because there are mirages that move off into the distance as we approach them yeah and if you if you become too think
+about unhappiness coming from unmet expectations if you're too focused on the the the podium giving you pleasure
+when it doesn't the expectation that it would could lead to unhappiness what happened when you hit a million Subs how
+did I mean i' sit down my team I go I know none of you really care but the reason why we should celebrate is
+because and then I give them the reason and it's same with 3 million when we hit 3 million Subs same thing walked into the back room of our studio I go listen
+I know this doesn't actually matter what matters more was the old lady that came up to me when I went to penguin the other day and said that was almost
+crying in the lobby that's what we all care about we care about the Chris Kamar thing where he came on the podcast then his former football club put banners up
+in the stadium about it we care about impact and this is just a a a trailing metric of impact so um it's important
+you know I've done a lot of research over over the last 10 years about how to build a company in such a way where you
+don't get those moments of burnout or anticlimax and Simon Sy talk talks about B building things as if they are
+infinite so how would you set up you and this podcast team through the frame of we're going to do this for a 100 years
+what you you design design this system to be sustainable over over the long term you'd aim at consistency You' try
+and optimize intensity but not at the cost of in consistency and the whole system of how you treat the people and
+how this everything and how you treat yourself would be set up in such a way that's what I think about now I'm actually thinking about our podcast
+through the lens of heavily inspired by what Joe Rogan's done sticking at that for like 15 years how do we run this
+game for 50 years and I think that's a huge competitive advantage to think through that frame because there would
+be a lot of people that would have designed their systems in a way that is not sustainable and I see it with podcasters all the time I see it where
+they've you know they've got four mates who are all on the podcast and they're doing it twice a week well then what
+happens when Jerry you know has a divorce with his wife and has to leave and then it was the system was never
+designed for longevity so all facets of my life my companies my teams all
+designed for longevity 90% of podcasts don't make it past episode three really
+and of the 10% that do 90% of them don't make it past episode 20 so by making 21
+podcasts you were in the top percentile of all podcasters ever in history and how many get past 10 years of [ __ ]
+hell that's the game I want to play I want to I want to do a 20 20 30 year I said it to my team all time multi-decade
+systems long-term games with long-term people so my team can move through the chapters of their life right they're going to be fathers and mothers they're
+going to get you know they're going to have certain moments in their life where they have health risks and is our system designed to guide them through that but
+retain the talent that we want to retain um is it is it designed for for a changing world that's going to get AIC
+Centric like do we have enough uh fast acting feedback loop so we know when the next thing's coming would you not just
+slot people in and move people out like the differences and the challenges that you're going to encounter at 10 million
+Subs is going to be different to what you encounted at 10,000 Subs so I don't know I get that and there will usually
+be a core group of people but really the only core thing is you right ultimately if you want to start
+doing Stadium Edge shean Style Productions the people that did the
+first Steven Bartlett tour they're not the people that can do that right you need new people you need a different
+cinematography team and you need people that can do live broadcasts and they need to be able to do switching on this huge [ __ ] desk camera 3 camera 4 like
+I I don't disagree but fundamentally what it seems to me it comes back to is how can you make sure that it's your
+infinite game yes it trickles down to the rest of the team but ultimately the team are going to come and go the only thing that's going to remain is you CU
+if you go it's it's [ __ ] done you're not selling Diary of a like Diary of a CEO now presented by [ __ ] Jimmy car
+like it's not happening so in that sentence there was a key thing I said which is the talent you want to retain and in building businesses I've built
+businesses from 0 to 700 I always know that the first phase one people the cult we call it it's the cult the growth and
+then the Enterprise phase three stages in business and then you have the decline which is inevitable for all companies in the cult phase the people
+that can wear multiple hats and that are fired up and sleeping under the desks are not always the people that thrive in the Enterprise phase where there's your
+your your job description is very very narrow you need to be very process orientated and fit into a bigger system
+they're not always the same people but the people you want to retain that have a decade of information capital in their
+heads about who we are the disciples if you think about C Ferguson there's a reason why he kept Gary Gary Neville on
+the pitch and Gary Neville has told me this directly I've seen the conversation he had with CeX Ferguson where he asked him the question gaffa why did you keep
+me around like three or four years after IID I clearly couldn't kick a ball anymore and it was because of he
+represent he knew the culture he knew the values and you need disciples all of those players all those man united
+players said to me how many times do you reckon Sir Alex Ferguson came into the training ground dressing room in 26 years I said I don't know for 2000 they
+went twice why because my disciples were in there I didn't need to go in when
+cultures are strong they're self- policing when cultures are strong new people become the culture when a culture is weak the culture becomes the new
+people so in in my teams I want as many people that were there from the jump if they have the capacity to move through
+those phases of growth and um and the key sentence was the talent I want to retain yeah you must sweat the small
+stuff why I just I just think uh just think it's the most important thing I
+Why You Need to Sweat the Small Stuff
+remember one of the most important books I ever read was the slight Edge by Jeff Olsen when I was 18 years old um because
+it helped me understand the importance of marginal gains and the tiny things in life and how they're compounding for or
+against you invisibly in every aspect of your life your teeth your skin your
+finances your relationship the tiny things are compounding for against you and the the analogy I give to help sort
+of illuminate this is if you didn't brush your teeth today no one in this room would know if you didn't brush your teeth every day this you might I might
+because I'm in close proximity if you didn't brush your teeth every day this week really you a couple of people might notice but they wouldn't say anything no
+real costs if you didn't brush your teeth every day for five years your teeth would fall out you'd be on a
+dental chest screaming and the question becomes when did that happen it happened today it was that small seemingly
+invisible decision which was easy to do and easy not to do as they always are that you chose not to do that compounded
+invisibly against you and as they say in compounding returns which they call the eighth wonder of the world according to
+Warren Buffett um it's slow then it's fast and that's why it's so difficult
+and so easy to overlook the smallest things it's easy to save one pound so it's also easy not to I believe that
+most people in any discipline I'm competing in will not sweat the small stuff they'll Overlook the small things
+which gives us a great competitive Advantage um by obsessing over the smallest things and also as we talked
+about earlier we talked about the frame and how it's hard to it's really hard to make huge steps forward in reality but
+much easier to make them in Psychology it's very difficult to find big steps forward in business it's very difficult
+like think about us as podcasters is there really like another platform we could go on to we're both on airlines
+now I think we're both on YouTube Spotify and apple is there like a breakthrough step forward we if there
+was we'd all be doing it right they're hard to find small things though I can
+stack a hundred of those and make a 100% gain as Sir David braford said and the unobvious thing that no one thinks about
+is the psychological impact on a team when you stack small things this is what we call the progress principle Harvard
+Business Review interviewed thousands of people in work and said when was your most enjoyable day in work and they all pointed out in their Diaries a day when
+they had a sense of progress even small a tiny little gain they made sir David bford who's known for his marginal gains
+Theory and has written about in the first chapter of James K's book Atomic habits said to me yeah the the small gains the making the water bottle just a
+little bit bigger and the pillow softer mattered but the thing no one gives us credit for thing no one talks about is I
+took over a team that were depressed psychologically they were down and out they didn't want anything and by finding
+tiny little gains quote we felt like we were going somewhere that psychology of
+momentum is the greatest force in business I can I can tell you in all my companies now which ones have that
+feeling of momentum and the impact in in 6 12 182 four months that'll have on
+that their excellence in their work and their delivery in terms of bottom line and I can point at the companies now
+that don't have that I call it it's I say it's in the air they don't have the momentum in the air the collective don't
+feel like they're going somewhere the easiest way to jump start this like I said about keeping commitments to yourself is to go and find tons of small
+things and share them with the group and Sir David bford said to me we started finding all these things small things and what you'd find was people were
+staying till 2: a.m. because we were in the in the in the shops making the tires a little bit bigger and people were fired up we felt like we were going
+somewhere how do you apply this to your personal life this the small stuff I
+just see this it goes back to what we said about letting the demons in I see the small things that I do is they're
+all compounding for or against me so this morning when my girlfriend got out of bed and walked out of the room I
+remember thinking like we developed a habit and we're developing a habit now where we don't interact first thing in the morning we say good morning to each
+other we used to always this sounds a bit soy or whatever but it's the truth when we first met when we woke up we'd
+cuddle just for a bit we're kind of tired with cuddle we moved out of that and I can see if I just zoomed out over
+the last three years how our Behavior like our our interactions in the morning are just veering off so this morning she
+got out of bed and she was walking off and I go hey come back come back I said let's have a cuddle and we laid in bed for about 20 minutes and just cuddled
+that's that course that subtle course correction which they talk about in aviation was it the 611 rule where for
+every 60 mil you fly if you're one degree off Target you'll miss the airport by one mile that that need for
+that's also why the small stuff is so important it's that continual course correction of that compounding curve that's dominating areas of your life
+you're not thinking about and if I just give you that lens of every area of your life your relationship your health your
+teeth your skin your money is subtly compounding in One Direction based on the tiny decisions that you're choosing
+to make or not make and the way that you can change that trajectory over the next 10 years is by saving that pounds
+brushing your teeth taking care of that relationship checking in with that friend and if you zoom out on you know you look at Warren Buffett and how he
+made his millions it's all that it's all this obsession with the compounding returns which he calls the eth wonder of
+the world so his business partner Charlie Monga says the first rule of compounding is never interrupt it
+necessarily yeah so that so this is the other side right you must sweat the small stuff but when you are sweating
+the small stuff stop [ __ ] about with it right are you on a path it's the same
+for me like a lot of the questions and stuff that we've had over the last year is like what are you going to do next what are you going to change what's the
+next project a big part of me is like everything is so vertical like line go
+up and to right right which I know you know the feeling of I I really don't want to touch too much this doesn't mean
+that we're not looking at different ideas you got this this is a different way of shooting things it's in a much smaller room actually trying some
+different angles we're shooting on different cameras blah blah blah but it's not a massive change right the
+first rule of compounding is never interrupted unnecessarily and so many people
+I think because there is an allure in the novelty of doing something new like oh yeah maybe I'll try like I'm sure I
+could start a [ __ ] VC firm or some [ __ ] or like start it with a friend or like be like Stephen like how should
+I begin to do this thing it's like look one thing the thing that you've said is already most important is going up and to the right stop [ __ ] about with it
+right the compounding is on your side so it's temptation is highest when we're unsuccessful and when we're successful
+it's not it's not high in the middle because when we're unsuccessful there's so much alluring us away my mother
+started 25 businesses before the age of me being 25 because her when her business was struggling someone would
+walk in and tell her that estate agents down the road and making loads of money so my mom literally started an aate agent she couldn't access the internet
+she couldn't read or write so she started that and then someone walked into the shop six months in and said warehouses that do furniture down the
+road is selling lots of money so I watched my mom start 25 different businesses at and then at the top let's look at the top so when you go when
+things are going really well and temp Temptation optimal as well if you think about the biggest podcasters in this country previously I won't name them cuz
+I don't want to but the thing that took them off their Throne was
+diversion even true Jordi the other day did a tweet where he said um somewhere
+along the way I lost track of what my job was which was to
+give value to my audience London real [ __ ] hell he
+changed his YouTube channel to be to run for mayor and he posted at at times it looked like 30 video iPhone videos a day
+still the same Temptation was high the temptation of becoming London mayor so I think when
+I'm an optimal Temptation Focus stop [ __ ] about Focus don't interrupt the process as Charlie Munger would say this
+episode is brought to you by eight sleep we have decided to land in the UK during a heat wave and every Hotel I've stayed
+in the airon has broken I thought I'd left Austin so I could escape the heat turns out I haven't and the Pod cover from eight sleep would have been a
+lifesaver the Pod cover sits over the top of your existing mattress just like a normal mattress topper and actively
+tools and heats each different side of the bed based on yours and your partner's sleeping preferences As you
+move through sleep stages it'll change the temperature to ensure that you stay in deep Sleep it is the biggest game
+Cher to sleep that I think I've ever found the Pod cover even tracks your heart rate variability your resting
+heart rate your sleep stages your sleep consistency it's like having a wearable built into your bed they also deliver
+internationally and if you are not happy with your pod cover within 90 days for any reason they will give you a full
+refund you can get a $150 discount plus that 90day money back guarantee by going to the link in the description below or
+heading to 8sleep.com slod wisdom that's EIG ghts sleep.com
+slod wisdom I fell in love with an essay by strangest Loop and it is a list of
+Do the Thing
+things that are not doing the thing so here is a list of things that are not doing the thing preparing to do the
+thing isn't doing the thing scheduling time to do the thing isn't doing the thing making a to-do list for the thing
+isn't doing the thing telling people you're going to do the thing isn't doing the thing messaging friends who may or may not be doing the thing isn't doing
+the thing writing a banger tweet about how you're going to do the thing isn't doing the thing hating on yourself for not doing the thing isn't doing the
+thing hating on other people who have done the thing isn't doing the thing hating on the obstacles in the way of
+you doing the thing isn't doing the thing fantasizing about all of the Adoration you'll receive once you do the thing isn't doing the thing reading
+about how to do the thing isn't doing the thing reading about how other people did the thing isn't doing the thing reading this essay isn't doing the thing
+the only thing that is doing the thing is doing the thing and I love this
+Insight that you can dress it up however you want the work just needs doing and you can fluff it and you can change it
+and you can talk about compounding But ultimately it comes down to sitting at the desk and answering the email opening
+the word document recording the podcast and one of the things that I found is a
+really great hack for me I would have none I would have no success as a
+YouTuber that I've had being a podcaster because I work well when I have someone else in front of me like I would clean
+my room at home if mom came and sat and like just watch or talk to me right because I I just didn't want to [ __ ]
+do something that sucked on my own being a YouTuber and staring down the lens hi guys welcome back to the channel today
+we're going to [ __ ] do whatever we're going to do I really really struggle with that sitting down with someone else in front of me that makes it easy so
+there are ways that doing the thing can become more easy but ultimately the work just needs
+doing really highlights the discipline equation but but also all of those things in that essay really pointed at
+procrastination and there was hints of um trying to realign one's cognitive
+dissonance by announcing to the world that you are something that you know is not consistent with your actions but one
+of the things that I really got from that was people think we're motivated by Pleasure and if you when I sat with Nel
+who wrote the book on distraction and procrastination and why people do it one of the really key messages I took way
+was that we're actually motivated by the avoidance of discomfort and like so I I quizzed him
+on it I was like really okay so sex he goes yeah horniness is a form of discomfort so you're motivated to relieve yourself of the horniness and if
+you look at any aspect of your life when you're procrastinating cleaning the house or you're procrastinating doing the essay so you end up cleaning the
+house it's because that's the path of less discomfort you we're motivated by the avoidance of discomfort this is
+really useful because if you want to understand why you're procrastinating in some area of your life the most
+important question is tightening your self-awareness on the thing that's causing the discomfort because in most
+areas where we procrastinate we have no idea we're just avoiding it do you think do you ever think about the weird [ __ ]
+that you do when you're procrastinating from the thing you're supposed to do yeah like I have an essay or an email to
+write that I don't want to write or I need to reply to someone that and it's an awkward an awkward conversation or something like that and guess what now
+my cupbo sources are perfectly aligned like you will find the most inventive way is to not do the thing I I I noticed
+this about myself I flew to Barley to write my latest book and as I was in the jungle I noticed this pattern where
+every time I picked up my phone like just see needlessly was because I was at a hard point in the book yeah so every
+single time I'd be get I'd get to a point and I was trying to summarize it or find some research to back it up within 30 seconds as if I'm possessed by
+this Puppet Master above me yeah pick up the phone start swiping and I'm on Instagram and I and I go [ __ ] of
+course I'm avoiding the disc comfort and it's so important to get clear on that because you you need to understand the
+forces that are pulling and pushing you and then you can say to yourself okay why am I avoiding this chapter what is
+it well I don't feel researched enough on this subject matter okay well I'm going to step away from the computer and I'm going to read that book or watch
+that YouTube video as opposed to just banging my head against this word document you can if you become aware of
+the discomfort you can counteract it but if you're not aware of it it's just it's an an object you just can't hit so that
+that changed my life that question what is the psychological disc Comfort I avoiding right now you must make
+pressure Your Privilege so pressure is a privilege is on a lot of t-shirts by
+Pressure is a Great Privilege
+Chris Bumstead who is the current Mr Olympia classic physique Champion he was on the podcast a little while ago made
+t-shirts with pressure as your privilege on it turns out that one of my best friends in Austin his godmother first
+came up with that the're tennis player yeah yeah and sued Chris no and I was like oh yeah her book is called pressure
+pressure is a privilege this is awkward yeah that the guy that I and it was the first question I asked him and then I
+spoke to Sky and I was like have I has there been has this recreated some trauma inside of the family is
+Thanksgiving dinner going to be ruined because I brought it back up again but yeah you must make pressure Your Privilege
+why you look at any aspect of Our Lives where we experience growth it's under pressure there's an old cliche adage
+about how Diamonds Are Made which I think although is cliche speaks to this in such profundity and even when we
+think about the Comfort crisis we're living in and all of the health outcomes and predicaments that we're facing through our obsessive um pursuit of
+comfort and how the body has started to break down and we've got all of these mismatched diseases they call it where
+the world we're living in and the way we behave within it isn't aligned to who we who we are um it's the avoidance of pressure and it goes back to what you
+said earlier about avoiding that difficult conversation or that difficult piece of work if if there is an antithesis to pressure it is in my mind
+it is Comfort it is ease and that means that today is great and tomorrow is bad
+and anyone that has the foresight to have move that discomfort and that pressure into the current moment yields
+much greater returns in terms of happiness and health in the long term and in the book I go through tons of
+examples from Health from Sports to Everest climbers who understand and that famous tennis player who was the best in
+the world and I still think she is the the best female tennis player in the world um it was her Mantra it was that
+what is your relationship with difficulty and everybody including people in my family who have a adverse
+reaction to difficulty just defer it into the future in a bigger way it compounds against them to make their future harder than their present so
+everyone's relationship with difficulty whether it's difficult conversations or difficult workouts or difficult physical
+psychological exertion um those individuals I think are setting themselves up for a brighter future well
+how do you deal with the discomfort that comes along with pressure though right you
+have okay the fact that I have pressure pressure means that I care about
+something it means that it's fulfilling to me uh there are people that go through their entire life and don't ever
+have anything that approximates like importance right and I have it but the felt sense of pressure isn't that the
+felt sense is overwhelm and chaos and concern and and there's a a story below
+those words you've just used that really is the problem it's I'm not good enough I'm going to be kicked out of the tribe
+I'm Different all of those things right those that's the base layer the pretation you're right there's a story
+We Tell ourselves about our pressure which determines how we experience the pressure I actually did if you look at that famous Ted Talk on stress and
+pressure what they found out is that stress and pressure don't actually kill people unless you believe it will you
+have a negative interpretation of your pressure and your stress then it shows up in your physiological response you
+get more diseases but in that famous Ted Talk which I think has like 30 million views she found out that pressure in
+itself isn't the problem it's the story We Tell ourselves about our pressure that causes us to be unhealthy healthy
+um and we all have different stories about our pressure and if and if your story is that it is x y and Zed it's
+going to get me kicked out of the tribe it's going to expose myself for not being good enough if your story about difficult situations is I'm an impostor
+versus this is a growth moment not only you going to show up worse you're going to perform worse and the physiological impact and psychological impact is going
+to be detrimental and that's what this whole argument about imposter syndrome is so confusing to me because if I asked
+anybody would you like a life where you were never outside of your where you never did anything that challenged you or pushed you would you choose that no
+so why are you complaining about your life being full of that I think anyone who has a healthy relationship with pressure goes in search of continual
+imposter syndrome like you know what I mean like and they would be they would
+be dismayed at a life without it without that pressure and feeling out of your depth well the presumption would be that
+you're never doing anything you haven't done before right there are people that have imposter syndrome which I call imposter adaptation which is your
+impostor syndrome persists despite the fact that you've disproven it at this very thing it would be like every single time that you did a podcast you being
+adamant it was going to be terrible and you were going to fluff your words and and [ __ ] yourself and say something racist right it would be like
+everything's going to go wrong despite the fact that you've got 300 400 [ __ ] bits of proof that that's not the case
+MH but imposter syndrome should show up in someone who's healthily moving
+forward into new areas that they haven't been in before like imposter syndrome largely is a very realistic assessment
+of wow I've never I have no proof that can do the thing that I'm trying to do
+like what did you expect do you have Blind Faith and over time what you end up with what really good robust
+confidence is is when analogous
+situations start to bleed into other ones you spent a lot of time during social chain doing onstage speaking
+which presumably gave you even just a tiny little bit of a base that oh well like podcasting is kind of not not a
+million miles away from being on stage and being on YouTube's not a million away from being okay so it starts to
+sort of bleed into these other things and that's when it's really cool and that's when you get real compounding of confidence confidence evidence yes yes
+that's what we said earlier talking about criticism you've moved from like being rich in an independent media way
+Steven’s Experience Becoming a Person of Public Interest
+to now being famous in a very sort of normal traditional media way as soon as
+you accept the Dragon's Den deal that is you allowing yourself to be
+noticed by the guardian and BBC and all of the rest of these people what have you learned about the differences in
+scrutiny and ten between these two worlds when I was a podcaster or a CEO
+um I wasn't of public interest at all that's actually the legal definition the
+word public interest when you become and you become part of a BBC show you legally become public interest what's
+that mean means that people can write certain things about you that they couldn't otherwise that's the ACT it's a legal term so if you were to for example
+sue a newspaper um they would make a case that we could say that about him or we could reveal his private business
+because it's of public interest they wouldn't be able to do that for someone that wasn't on on the BBC so that all
+all of that stuff changes the things that you have to keep the same and I think this is the same for everybody is you need to keep your circle of
+information your circle of feedback tight and close and small you have to put systems in place and I think this is
+actually the this is what Jo ogan's done really well and I've heard him speak about it at Great length is you can't search your name online which I never do
+I don't search my name on anything not Tik Tok not Instagram not YouTube nowhere because it's it's for me like
+the there's a set of principles and there's a there's a set of principles
+which are more important which is like me being true to myself and delivering in my way the feedback can be really
+distorting because it's not necessarily like always helpful so someone could comment on something that I produced and
+say this is terrible this is is Dreadful you need to do this this this and this now if I take that feedback violate my
+principles we end up in a place which we talked about earlier where you lose focus to go for the decade which I
+talked about the systems I'm setting up in my life you have to limit the amount of feedback you get which is not not not easy but you've had a few periods where
+the Press have been a bit buky and and accusatory and attacking how have you dealt with the the felt and what's that
+been like you know you you've you're a young guy like you've gone this world where you got to be rich and largely
+Anonymous although you weren't totally Anonymous but relatively now very much changed how do you deal with that as a
+felt sense of it's systems and processes again it's like even my friends right so if my friends see something on Tik Tok
+or Instagram or if it's like about my go whatever do not send it to me I will not
+see it and I again I've I actually took a lot of advice from Rogan's system
+Rogan's the same none of his friends can send them anything I don't see that stuff cuz it's it's not useful information and the truth is and again I
+spoke to Simon synic about this you don't want to start aiming at ghosts you don't want to
+start exerting energy on trying to counteract public perception
+um which isn't necessarily based on even their own perception of reality anyway
+you don't want it's not a useful ex sort of way to allocate your chips I talked about those 24 chips have 6 enough when
+you wake up it's a really inefficient use of your time doesn't bring you forward in any way so it all comes down to systems and processes you need these
+principles in your life which take you right back to your caveman days when there was 20 people and you all your
+survival led to the survival of the other 19 people so in in my hardest moments when I'm being criticized or
+scrutinized or whatever for me that's what it comes down to it's like keep my circle super small focus on what I'm doing you know Rogan's solution was
+Heavy kettle bell workouts five minutes of cold therapy and three grams of magic mushrooms per day really yeah I heard
+him say that when the spot fight yeah correct yeah and that's I mean that's his system he's and he's built up like a
+social network as well to guard him from you know news and articles and feedback
+and stuff and he he's kind of retracted from like social media as we know I don't think he was ever huge part of it
+and I understand why what would you say you know people from the outside looking in at somebody that gets the accolades
+and can hang with Prince William and make breakfast in a pratt or whatever what do people not realize about the
+reality of the sort of scrutiny that comes along with big platforms especially mainstream platforms
+um I would i' probably draw more on other people's experiences than my own from like interviewing people that have
+dealt with like real Fame because I don't consider myself to be really famous um I think it's maybe just never
+maybe there's a you probably experienced this as well but there's like an ongoing always on paranoia which I think is just this
+numbing paranoia in the background and also this realization which is actually something I learned from that one day by the way where I was with Prince William
+we're not friends he doesn't know who I am but when I spent that day with him and I posted I've just been with Prince
+William we did this bu business initiative every single message I received was amazing how is he amazing
+is he nice amazing is he nice amazing was he um sociable it's this realization
+that everyone you meet you're meeting everyone they know and and that's that's a that's a
+lot of pressure to never have a bad day in public and it actually gives me huge empathy for someone like Justin Bieber
+who is actually famous who goes out in public on his worst days and tries to pick up a can of milk and there's 74
+Paparazzi following him down the street and thousands of fans literally outside his front door in New York City and he's literally going please can you not come
+to my home I watched the video of him going please can you not come to my home please and I go oh
+man there's no way to live your life is it that ambient anxiety there sort of
+sense that you're being followed or that that that something could go wrong yeah uh yeah I I get you with that and I'm
+I'm like I'm nowhere near some of these people that live there like a drake or even a Rogan or a or a Justin Bieber I
+can't imagine going I teach you a lesson that I learned from Ben Francis that didn't happen on the podcast so we went
+fernandos in Manchester uh at gym Shark Lift La weekend and he'd got his EA to
+text me and say where it was going to be and when or maybe he' text me or whatever um and I walk in and he sat
+down reading something on his phone or watching or whatever and I think is EA and is EA's assistant or something has
+sat on a different table he was just there I sat down and we got talking for the people who don't know Ben Francis is
+the CEO of Jim shark and his net worth is three times what Drake is worth triple Drake and then I thought what
+would the experience have been like if I tried to come to this Nando with Drake and Drake wouldn't have got within
+two miles yeah of this he would have been mobbed he would have been swamped it would have been chaos there would
+have been you can even even do this thing there's like a law right where if a normal person if like a super super
+famous person turns up in a very crowded place that they can be it's like inciting violence vicariously through
+fame or some [ __ ] and it made me start to think about the price that
+people pay for the wealth that they have right Ben Francis has managed to accumulate an awful lot of wealth and
+the felt price that he has to pay is at the very least three times less than
+Drake right because he doesn't have to have security with him he no security
+his EA is like 5 foot6 100 100 what's the cost of in Ben's case of not being
+as famous of the game he's chosen to play which is business versus I suppose that you know he's he's he's not going
+to be get the public Accolade as much he won't get access to as many cool things because people aren't going to be
+constantly looking for him he's not like the the hot girl on your arm that you can Trot out at some event he's very
+rarely going to be that front seat at the Lakers game and it pan and going and here's the CEO of Jim shark Ben Francis
+for me that's like pu he's not going to get but the cost he's going to encounter is seven days a week he's got thousands
+of people who are relying on him to pay their mortgages that me how many people's Drake got relying on him
+honestly on the business side of things probably directly not that many Ben's the CEO which means that when the
+markets go down and when they go public which I'm sure they'll go public when that stock price dips as You' we've seen
+from mat molding at the h group Matt molding said to me again not a famous not a drake right so to see of the Hut
+group he said on stage actually at the um an event we did at SoHo Farmhouse he says sometimes at night I just lie on
+that cold kitchen floor at 3:00 a.m. because it's just cold and it's cooling me down like the the the chaos of what's
+going on in that company means that he's lying at 3:00 a.m. on the kitchen floor because it's just the coldest surface he can feel to cool his body that that
+level of like the hardest times of my life were running business they weren't like dealing with journalists it was
+like the pressure of knowing payroll is tomorrow and looking at the bank balance and knowing there's nothing in there and then looking up in the office and seeing
+200 people in our HQ that are joyous and celebrating because they think it's payday tomorrow and me knowing in my
+head that I have 24 hours to persuade Natalie at our bank to put money in our account or else they're not getting paid
+the pressure of that is much worse than any article or getting mobbed at Nando and that's what Ben will be encountering
+he'll do he does it with such Grace as a lot of CEOs do but you've heard about you know Elon Musk talking about the pain of trying to save Tesla and SpaceX
+being out in the street on Christmas Eve like crying he says it's the deepest pain he's ever felt then he got that
+phone call that someone was going to lend him 20 million to save Tesla and and SpaceX it's a different level of
+pain different game they're playing so all things in life have a cost this is my conclusion Drake's thing has a cost
+which is privacy and all of those issues Ben's thing has a cost as well which is even thinking about it gives me
+goosebumps cuz I know the feeling of like The Angst of a business a [ __ ] yeah um they're two different costs and
+it goes back to what you said is with the Mark Manson quote which which cost are you willing to to incur for which
+rewards you've got an interesting idea deep expertise is often a recipe for rigidity it goes back to what we said a
+second ago and that was those were the words I was actually looking for when we were talking about how knowing too much about a thing can make you unable to be
+agile and Innovative and think from first principles and that when we think about the real innovators over the years
+that disrupted the incumbents it's very rarely an that disrupts itself it's so often a couple of kids in a base
+basement that didn't go to university that have seen the introduction of a new technology and they thought let's [ __ ]
+around with this and they've been able to displace a century old incumbent because they are not incumbered by the
+rigidity of convention yeah that from a personal perspective I came up with a name uh the vestigal pattern bias it
+turns out it's also got it already existed before I came up with it called the Ein Stelling effect so the
+successful deliberate approaches that we learned during our development can become a prison which stops us from
+Do Our Beliefs Limit Us?
+being more free flowing and at ease when we are developed the tools that got you from not to 50 are not the same ones
+that get you from 50 to 90 or 90 to 95 but we found success with this approach in the past so we cling on to an overly
+rational deliberate approach we hope that applying pure cerebral horsepower to a situation will fix it without
+realizing that our subconscious has aggregated the thousands of hours of experience that we've clocked up now and
+not using that experience is keeping us in the same league we've always been in it's so interesting it's a prison you've
+built around yourself that you don't know is there and I reflect on that video have you ever seen that video of
+the ant in the pen no they get an ant on a piece of paper plain A4 piece of paper
+and the guy on YouTube It's like got millions of views on YouTube Just with a brro draws a circle around the Ant and
+the Ant runs to the edge of the circle and believes it's trapped and it will not cross that line it will not cross
+that line looking down on it from a bird's eye view you go oh no it's just a figment of its imag in they get they do
+the same with a spider they get a piece of paper there's a little spider on it they draw a circle around it with a brro
+it will not cross that line as the guy's drawing the circle smaller and smaller he accidentally draws it so close to the
+spider that the spider steps over the brro and then it can never ever in its life be trapped by the Bro again and you
+watch it just run off the page and he's trying to trap it again and it can never because it realizes that that that's just a wall it's built in its mind and I
+reflect on that always in my life and go there was this time I was in Boston and I was running on a tread machine and I always do 10 kilm on this tread machine
+and when I do 10 km I get this physiological signal that I'm tired like my my muscles break down I landed in
+Boston I've got a talk later that day the tread machine doesn't have the kilometer dial on it so I can't see how
+fast I'm running so I think okay I'll do it the other way around I'll wait for the signal in my body telling me I'm tired and then I'll get off I run and I
+run and I run and I run I run and I run I run I'm like I'm not getting tired I keep running running run running I look up at the T I'm going to have to get off
+this treadmill at some point I hit the button 21 km and I and I was perplexed Leed
+absolutely perplexed every time I run 10 km I feel knacked I ran 22 when I
+couldn't see the thing and I don't it was just a a limiting belief a wall I'd built and I told myself that I was that
+was my limit and you me we have drawn circles around ourselves and those circles are determining how far we push
+how far we aim the the things we decide to do but they are just figments of our imagination have you seen there was a
+study very famous study where they put rats into water and they let them tread water tread water tread water to see how
+long they would do it until they just gave up so first iteration of the study they put rats in and I think they last
+around about 30 minutes something like that not long second iteration of the study new rats obviously unfortunately
+rats go in for 28 minutes then they pull them out they dry them off and they let them calm down then they put them back
+in they tread water for like 12 hours right really because their belief is I'm
+going to be saved that's a learned helplessness right you have heard about the dog where it pushes the button to stop from being electrocuted on the
+floor it's the same sort of thing but yeah I do wonder what where where are the lines
+that are drawn around us that we've drawn around ourselves and especially since moving to America my ambition has changed so much I don't have a massive
+amount of ambition intrinsically or I didn't and then I start to hang around with guys like Bill Perkins right or
+Rogan or Mark Norman or you know people that are really like moving very very
+quickly and it's like through [ __ ] osmosis man you just can't not start to
+have bigger goals and dreams and it's scary it's scary when you realize especially for me because I know what
+it's like to not have ambition I don't I not that it doesn't come for me but for some reason I hadn't lit the fire that
+went underneath it and then after a little while you realize oh hang on a second like this is really [ __ ]
+potent for you on that point about the limitations we both have that uh we
+probably don't realize are there the the best place to always search I think is in the labels we've given ourselves
+like what do you label yourself as when you introduce yourself podcaster yeah and and the if you think about labeling
+Theory what we said earlier about grades or telling kids certain things that is building a wall around you in your own mind that you're a podcaster and this
+happens in all of our Lives the last thing we achieved becomes the identity that we embody and it traps us in a cage
+so I'm super careful all the time especially when I left my last marketing company to not Define myself with a
+particular label because I would become the label I would act in service of the label and move in Direction you are not
+a podcaster in fact like podcasting did wasn't even a thing when you were born so how can that be who you are you are
+someone that is curious and this is what I mean by like resisting the labels you are curious you like intellectual conversations you like um
+self-improvement and forward motion and if those are your labels think about all the things you can apply that to
+business and creativity and you're doing shows soon right and I think that's a fre and you look at why people get
+midlife crises when they hit you know 40 30 40 years years old when they look at how the hell did I get here I'm working
+in the city well you you embodied a label and lived that label for 15 years and it wasn't even something you particularly enjoyed you were just good
+at it that resisting of labels I think is so important for long-term happiness so part of the reason why I went and
+worked in psychedelics part of the reason why I did the musical learned a DJ wrote the books because I don't see
+myself as anything I don't see myself as social media marketing CEO social media didn't exist when I was born there must
+be something more fundamental to to who I am and staying attached to that and resisting at all cost society's prep um
+temptation to put you in a box so we understand you and we understand where you fit don't get in the Box it's more
+difficult at a cocktail party but yeah I I know I I don't I don't disagree I don't I like entrepreneur because it's
+broad it means you create stuff yeah creative writer Etc all those things are great yeah your skills are worthless but
+Context Is Worth More Than Skills
+your context is valuable yeah just a really interesting observation I've had from observing some
+of the most the people that have made huge pivots in their life but also my own experience of being a social media
+marketing CEO for 10 years and then upon leaving that business where I sold you know I did marketing for big fashion
+brands and big consumer electronics Brands six months to a year after I left
+there I moved my skill set to the Biotech Industry because one of my friends built one of the biggest psychedelics companies in the world and
+my skill set of social media and marketing was in such low Supply in that
+industry that the offer he made me to join his business was outstanding and I often think about you know we think the
+way to get ahead in life is to get promotions or to ask our boss for pay rise but if you think about your core
+skill set and the market in which you're selling your skill set is it in low Supply in that market and is the upside
+for the person that is hiring me tremendous you can get paid so much more they offered me $8 million in options
+for 9 months of work there's no fast fashioned brand that would have offered me that because the return for the fast
+fashion brand would have been 20,000 more dresses sold in the Biotech Industry it was moving that IPO price
+from potentially 1 billion to three billion so they could off 8 million is a a flash in the pan one of my best friends spent a long time in Manchester
+designing nightclub Flyers getting paid 50 Quid 100 pound per flyer I probably employed him you probably did yeah and I
+remember in in Co being in his house and the guy was like really down and out he's like something needs to change in my life I'm 35 now I'm still doing the
+same old thing and his talent object L his talent for design incredible incredible but he was selling that skill
+of design in the wrong Market nightclub Flyers where you might get a couple more people coming through the door um and in
+an industry where it was abundant in terms of supply of that skill so we made this big wall in his house and we put up
+um a few things where is your skill set going to be in the least Supply and where is this luxury design style you
+have going to be in the highest demand and also looking at industries that were coming into Shore where his design
+skills could yield the greatest returns should be quite obvious as I say this Dubai and
+nfts artists suddenly came into fashion the web 3 Community moved to Dubai so he
+picked up his life from Manchester two years ago and he moved to Dubai and this guy is making millions now selling the
+exact same skill to a different Market where it's in low Supply but it's yielding a greater return for those that hire him and I think and I went through
+in my book all the different industries from writing to um acting to um creative
+Pursuits where if you just moved yourself from a different Market from the market you run to a different Market
+you'd get yield a greatest return and lastly where I noticed this most is when our company went public we went public
+on a fairly small redundant German Stock Exchange and in those rooms in Frankford when I sat with Barkley's and um a
+variety of different banks the thing they kept on saying is if we uplist over to the NASDAQ that the company will both
+be worth three times more and I remember thinking to myself so the same business just moved to a different stock market
+the market cap would multiply by three that's kind of a metaphor for this idea that maybe your skill set is currently
+existing on an in lucrative and un lucrative market and all you need to do is find the market where it's in lowest
+Supply and yields the greatest return for those that need it and honestly biotech is one of them well I mean since
+moving to America it's the first time that I've ever been in another country where I've spoken the language but I've
+also somehow been considered exotic do you know what I mean like it's same thing I'm the same person they can
+understand me like you know going to bellus or somewhere you you're different you're you're different but where you
+speak the same language you're the same but somehow still exotic no one that's ever been British has been called exotic
+right apparently you could be doing this exact same thing in sford radio station
+to 77 listeners and there's so many as the exact same thing the exact same podcast the exact same talent that you
+have but in the wrong Market where that the economics of the business that you're applying your skill set in aren't
+there to give you to reap the greatest returns and the the ceiling because of the constraints of radio and the time
+constraints just aren't there to get the best out of your your talent and the the value from your talent so I think it's
+just a different lens to look through because so many people want a nicer house or a faster car and they're
+thinking okay so I work here for three years and I'll get a promotion and I'll get there but there's another lens to look through which is my core skill set
+what is it and where can I get the greatest return for it and where is it in the least Supply it's a different frame to think through but I yeah it's
+it's life-changing for the right people came up with this idea called Mono thinking this week after I read a quote
+How to Avoid the Trap of Mono-Thinking
+from a friend you can gauge someone's Ignorance by the number of phenomena they explain with the same answer those
+who blame many different issues like War poverty and pollution on just one cause capitalism are recycling explanations
+because their demand for answers outstrips the supply and I like the idea of calling it
+mono thinking it's another a explanation for me about why people who are not
+extremist cookie cutter ideologues get criticized an awful lot
+so if I know one of your views and from it I can accurately predict everything else that you believe they're not your
+views you're not a serious thinker right you have adopted a onesie wholesale and
+you've decided to put this on now the disadvantage is you haven't thought for yourself and you don't
+actually know what you're talking about the advantage from a group scenario is that I can very accurately predict what
+you're going to think about the next thing because it's what everyone else is going to think about the next thing right in your tribe yeah precisely
+correct now the problem that you encounter is that it makes you an
+unreliable Ally if your particular set of views doesn't fall into this cookie cutter
+design like there is no reason why your view on abortion should relate to your
+view on immigration or on economic policy or on Healthcare or on gun control or on Joe Biden or on whether
+January 6 was a thing and whether aliens are actually happening and yet for a lot of people it does and there will be some
+skew right some people will be more likely but it shouldn't be that you have the cookie cutter ideology of this
+particular group the disadvantage of being someone who doesn't take their
+ideology wholesale like that and this is the term that I loved about it was you basically become an
+unreliable I yeah sure you're with us on abortion but what about Donald Trump you
+weren't with us on that so what about when the next thing happens I don't actually know I don't actually know if we should trust Steven so much and it's
+not it's not an actual thought but it's just something that sits in the back of their mind and it it really um I think
+it's comforting to people who maybe sometimes feel like they are ostracized from a group they're a rugby player and
+they're there with the boys and they do the training and they do all the rest of it but they're not that bothered about going out and getting smashed on a Saturday night
+and they feel like they're they're like a little bit outside of the group because of but I do the main thing with you I do the thing that we're supposed
+to be together for and yet I'm made to feel outside of the group in the main
+thing because I don't do the other thing why is the other thing a part of the main thing do you know what I mean does that make sense I mean it goes back to
+what we said earlier about one of the issues in our psychology is we don't want to be different in any way and there's a real comfort in the Conformity
+of the crowd so it's much easier to not realize that most most truth is in the middle
+somewhere it's much it's much more comfortable and creates that sense of belonging in the same way that identity
+and labels do to fit into the crowd and accept 95% of what my of the people that wear the same football kit as me wear if
+the socks are different someone's going to point it out sitting in the middle is is there's just no there's no home there
+there's no team there's no safety in the middle um but the truth is in the middle and so it's a decision you have
+to make about your strength of conviction and what you care about what's your kpi success is it truth or is it
+Conformity um but it's tough that's why I love so much about podcasting is we've created a bit of nuance in the medium
+it's not just Echo Chambers and algorithms separating left and right there's a diversity of opinion stretched over two hours so there's context and I
+think people that gravitate towards this medium in shows like yours appreciate Nuance they they're not looking for a
+leftwing podcast or an all right podcast whatever um It's Tricky it's really
+really tricky in this day and age really it takes a certain a certain strength that most of us can't embody in our
+pursuit of finding our tribe and fitting in and avoiding self-preservation and not being kicked off the island if you think about it from an evolutionary
+standpoint it would literally have led to death if you didn't have a clear tribe like if you didn't have a it would
+have been kicked off the island would have led to death so it's no wonder that we we're so quick especially with the
+aid of algorithms to fall into these tribes and say and swear allegiance to everything they believe yeah the the
+other interesting thing is that and absurd ideological belief is less about
+what you believe in and more about showing fty to the ideology overall I learned this from the same guy ginda
+that that did that quote he basically said that if you have a really crazy ideological belief let's say it's to do
+with the world being flat you pick whatever it is that you want it's kind of like a a canary in the coal mine it's
+like this is so counter to your rational thought that if you're with us on this
+we can probably reliably say that you're going to be with us and all of this other stuff right it's a show of fty
+that's what's important about it and when people don't adhere to that they're
+seen as uncommitted by the opposition and unreliable by their own
+side and also in their own view of who they are it causes dissonance so if I say I'm
+left leaning and then I encounter a policy or a theory or some kind of idea that is typically belongs to the right
+my sense of identity on a psychological level will be challenged and threatened in in an really unhelpful way so in
+order to alleviate the dissonance of who I think I am I have to reject that idea or else it throws you into this state
+which psychologists called dissonance where you have like there's something contradictor what contradicting what I think I know about myself and who I am
+in the world so we have to throw it out this is why we most people can't even have a conversation with someone that they know disagrees with them it's why
+they unfollow and block people because it's causing dissonance the truth popping up on their timeline and being
+something that challenges their sense of identity or their ability to be as far on the left or as far on the right as possible it's not nice for ourselves
+it's actually I think much of it is actually the threat it poses to ourselves in our own mind the identity threat it's like a psychological
+protection mechanism I said I was on the left I said I was a labor supporter that's who I am that's the Friendship
+group I've built that's how I understand myself this new piece of information okay that's a right leaning thought I
+can't if I if I if I entertain that I have to entertain dissonance cognitive friction so the easiest thing to do is
+shoot at the person who said it discredit them yeah or find some way to just you know kill it on site and that's
+the thing can you deal with dissonance I think many of the greatest thinkers in our world are able to sit in dissonance for long enough to interrogate something
+for its merits yeah being able to hold two contradictory thoughts in your mind at the same time is like very valuable
+but increasingly rare do you follow people that disagree with you and no even further do you follow people that
+really piss you off when they tweet because of their ideas are so far from your own me person no I I keep my I keep
+my Twitter following below 100 which means that it's it's it's difficult to get in there but certainly on Instagram
+yes uh a bunch of my friends have extoled to me the
+importance and the virtue of exposing yourself to content that you purposefully disagree with I actually
+listen to a number of different podcasts that are like typically wouldn't be the
+sort of thing that I would listen to but it really gives me an interesting Insight so um decoding the gurus can
+spirituality um QQ andon Anonymous interesting those are three of them and they're like sort of Center left or left
+leaning like debunking kind of shows there's a lot of criticism of like I've been criticized on those shows there's
+criticism of people that are in my industry uh that are my friends but I find it really interesting to observe
+what someone who isn't me sees and that's been very Illuminating really really Illuminating it's not so easy to
+hear hear it when it's about you but um yeah I find that very interesting do you know what's interesting when you see how
+someone on the other side let's just say on the other side of the belief system feel so strongly about something that
+you just think is absolutely absurd like the Flat Earth or whatever you know it also tells you a story about your own
+beliefs and one that if if you if you observe closely is probably the most important thing you can learn which is
+like my beliefs are also based probably on the same fundamentals like I heard something from somewhere it confirmed
+the the way I wanted the world to be it probably came from people that I agreed 95% of things on otherwise um and the
+fragility of belief so the fragility of all the beliefs you have about you and you what you're capable of and who you
+are if if that person over there is so clearly completely
+wrong maybe I am too at a really fundamental level I actually I've been thinking it's been creeping into my mind
+over the last couple of weeks that like maybe the person I think I
+am as we kind of said earlier is is not actually who I am and it's just a bunch of beliefs that I've like I'm living by
+like those disciples on the left and right do and like how do I unpack all of that and find out who who I can be and
+who I really am what would I have to do what's the journey I'd have to go on
+so this is why we all deluded we're all deluded so fundamentally you know we both speak about this a good bit I think
+and I wonder whether part of it's because were from the UK and for the
+American people that are listening it might not make quite as much sense although if you're from some small town in the midwest maybe it does there is
+such a strong pull for people to conform in the UK perfect example look at the
+vaccination rates I think it's like 90 93 94% of people in the UK got their
+first dose uh it's like sort of high 80 second and then like low 80s third right
+I think America maybe scraped the bottom of a dick of 50 or 60 for the first dose
+right but who are the Americans in the room they're a nation of people who said
+yeah [ __ ] it I'll get on that boat right the British people I don't know maybe there's genetic predisposition maybe
+it's cultural imposition probably a part of both but I certainly see in the UK a
+fear of breaking out and and very very strong criticism when people do and if I
+could bring back if I could export from my life in the US and import to the
+world of the UK uh one thing it would be a lack of cynicism like it would be less
+cynicism around people doing different things because I think that it's stifling happiness flourishing Innovation people leading a life that's
+that's different to the one that they would do being more experimental being more motivated uh yeah I I I really wish
+that I could like sprinkle a little bit of that motivation you know the first Brit that's moved to the LA that works
+especially in the creative Industries that has said that to me there you're not the second you're not the third
+you're not the fourth you're not the fifth say I hear it all the time and you hear it even when you thinking about
+Innovation and we even see on the London Stock Market now the public company CEOs that I know that flirted on the stock market are just being destroyed they're
+like personal character is being destroyed and the stocks are in the bin you think about some of the big unicorns
+we've had from the UK being the founders of those is just an awful experience if they were in the US they would be
+applauded and clapped and on the front cover of you know whatever [ __ ] I wish we could change torn to they're Torn to
+Pieces here it feels like there's a little bit of something going on here too LS Capaldi you watch his documentary
+yeah how I'm feeling now I think it's called um had him on the podcast as well so yeah I really enjoyed that uh he's
+got this one line in it that I just [ __ ] can't stop thinking about leis
+Fame Changes Everybody Around You
+Capaldi writes this first album songs that he was singing since 2017 when he was playing them in working men's pubs
+all around the Northeast of Scotland then he blows up trillion
+bazillion streams and he's asked to write the second album during coid WME or CA or
+whoever his recording company are how's the album coming along and he's feeling this pressure and he develops this tick
+because he's under all of this anxiety and he's noticing he has stayed the same right he is still the same
+person that he was from before and he's noticing the world treating him in a different way and he's
+scared and he's a uncertain about his own abilities and about what the world wants from him and he can't work out why
+other people are treating him differently this [ __ ] one line in the middle of the documentary he says Fame doesn't change you just changes
+everybody around you yeah and it seems to be as far as I can
+tell the truth that a lot of people feel especially someone like Lewis the same
+songs it's literally the songs that he wrote from before and when you see the
+CEO the business owner the rugby player that's trying to break out and do things
+differently as you ascend in status as you change the world around you as you start to become more competent as the
+texture of your own mind improves other people will notice the difference in you more quickly than you
+do and in poor versions of culture they won't respond nicely to it they won't
+respond well and I wish that we could somehow just [ __ ] get rid of that in the UK and you'll even you probably
+would have observed this as a podcaster but speaking to Daniel pink who's the you know great motivational speaker I guess researcher
+he talks about how when your incentive structures of performing a behavior change and it becomes about making sure the people at your
+record label can pay their mortgages the enjoyment of the pursuit of the thing itself decreases think about the
+discipline equation friction goes way up the psychological enjoyment of the pursuit is no longer you in the corner
+of the pub in L kali's case where he said to me I want to go back to the pub like that's basically what he's saying sometimes I just wish I could go back to
+the pub where no one knew my name and I had to shout over people as they were drinking their beers and ignoring me less pressure more psychological
+enjoyment less friction um so you got to be careful I think this is what Rogan has done so unbelievably well we think
+about building decad Long Systems that will endure in the face of status and Temptation Rogan has said I'm going to
+stick to my principles and I'm not going to do a podcast one single episode that I don't love a conversation I don't want
+I I I'm not going to do a single conversation I don't want to have whether it's my boy from The Comedy Store talking about anthills or whatever
+I'm going to stay true to my principles incredibly difficult to do you know he's done it perfectly keep his Circle small
+try and stay away from those red carpets as much as he possibly can and keep his principles laser focused why did I start
+this and I can't imagine the pressure he's had why don't you have more of these people on why don't you have more of this type of person on you should all
+the Articles writing you change your principles change your what that's a motivation threat and he's managed to
+saave off that motivation threat for 15 years would you know why it's so important to not damp that down is
+because your instincts are so idiosyncratic and personal to you and if you try to reverse engineer what you
+think you should be doing the only thing that you have which was your instincts are going to be eroded away yeah that's
+all that you've got ultimately like you you're show and mine despite the fact that we traffic in very similar circles
+we're friends with a lot of the same people we even cross over in terms of guests listen to the [ __ ] episode it
+could not there could not be a better person for to be crossing over with me in
+British podcasting because our vend diagram Circles of how we have our conversations are [ __ ] completely
+different and that's perfect right because I couldn't do your show you're interested in stories right you
+fundamentally love stories you love the passion behind people you love the emotions that are driving that you want to understand why they are the way they
+are I want ideas right I want to understand what's the framework that seen how does this apply in a different
+setting right that's [ __ ] great so Douglas Murray tells me this story right one of my favorite stories Douglas one
+of the first newspapers that he works at he has this boss who's like a legendary Sant of the journalist journalism
+industry and he decides he's going to release a uh West End show about the
+life of Prince Charles in rhyming couplets and this guy's like at the Zenith of his career so he's this big
+dog and there's going to be loads of scrutiny and he's been in the journal industry so he's probably made a [ __ ] ton of enemies as well anyway opening
+night by the halftime interval there was no one left in the entire Auditorium including the cast so this guy's
+despondent egg on his face articles upon articles upon articles about how embarrassing it was and Douglas asked
+him he said what were you thinking [ __ ] show in the West End of London about the life of Prince Charles in
+rhyming coulet he saidwell Douglas I trusted my instincts an instincts that
+may sometimes lead you wrong but they're the only thing that's ever led you right I was like holy [ __ ] that's true and if
+you don't listen to your instincts in that regard you can actually get yourself to the stage where you've eroded them away and you've pushed them
+away so much you can't really hear them anymore and then you're no better than
+the guys on Late Night show TV who don't actually run their own show they're the mouth puppet of whatever the big egac
+and the big company and their agenda is that sits behind them and if you want to feel a great regret in life it's making
+a decision against your instinct and then it failing making a decision in line with your instinct and then it failing is much less of a place to fall
+from than making an in making a decision against your instincts and then it fails
+and I've sat with so many people in the media Industries who've done daytime talk shows I actually had one of my podcast and she said to me G you know
+the part that hurts the most is I knew the show sucked and I didn't speak out and say it
+didn't I always say to my team and I've said this to my manager who's in the room now I said we're doing a new TV
+show right and I said to him I want to fail at something that I believe in because failing at something that I
+didn't believe in will suck more than any pain in my life so if I fa if I do
+something and I believed in it and it was in line with my instincts and I fail you go cool right okay I've learned
+something here but God can you imagine the regret of acting out against your instincts and then it going badly
+like so on all facets of my life that's like that's my um my thing going forward is fail at something you believe in you
+know you can't predict the output you can't predict whether there's product Market fit in most walks of life but the input of you you know you being glad
+that it was in line with your principles Your Instinct and your values you just got to Hope on the on the outside that
+it resonates with someone else and typically the truth is you know they say when you're Building Products or businesses don't create for someone you
+haven't met create for your best friend because there'll be lots more people like you and your best friend and you know your best friend best and I always
+think about that when I when we're making like the trailers for the podcast or we're doing pieces of content for client I think which one of my friends
+is go I always say this to people I say I say we say to my team tell me now which one of your friends is going to
+share that in the WhatsApp group and that's not a rhetorical question I want to know his name because if there's one
+of them there'll be Millions so they'll go okay um my friend Dave he's going through this divorce at the moment and
+actually I need to change this bit because in Dave's through the lens of Dave Dave's life i' actually probably
+need to take out this little part and emphasize this and when you create stuff through that lens you make stuff that's resonant at scale
+it's a nice frame to run whenever you make something name the friend that this is for and why they're going to pick it
+up and put it in the WhatsApp group or share it on their story or love it or buy it or click or care wonderful frame stepen Bartlett
+ladies and gentlemen Stephen I appreciate the hell out of you man what you do next great question um loads of
+meetings back toback hopefully we go for dinner tonight here in London yep yeah that'll be great um just yeah working I
+work working out probably in about an hour's time um lots of things what about you what are you up to
+Where to Find Steven
+next uh we're going to do some interesting stuff back here in London at the end of October I'm really excited
+for this I'm going to try and do a new I can't say it yet because if it doesn't happen it's going to be disappointing I'm going to try and do something
+relatively new in podcasting that I don't think has quite been done before it's least it's not been done for quite a while um and then live show like a
+live thing no okay no no no um a round table I I I'll I'll tell you off Fair
+I'll tell you off fair when when I can't get hell to account if it doesn't happen um I'm looking forward to that uh live
+tour UK and isand at the end of this year then US and Canada I'll be doing a little bit of work around there with
+James Smith we got a show in Dubai toward the end of November and I need a break man I need a Christmas I'm looking
+I'm working toward December now so how do you know you need a break uh actually I don't I don't know that I need a break
+I just feel like it would be rejuvenative haven't seen Mom and Dad much this year um but yeah resilience is
+a strange thing it comes it creeps up on you you don't mean to build it and then it just appears yeah you don't really know dude I appreciate you I really do I
+appreciate the fact that we we support each other throughout what it is that we're doing I I really want to give you a big compliment because there's very
+few people you encounter in this game that it's so abundantly clear that they're acting in line with their principles like they're leading with
+their curiosity and it shows in the consistency of what you do that you're someone that is like creating from first
+principles you're led by what you actually care about and that's it's really inspiring for me to see it's
+really inspiring that's why I was so in a Fred again cuz I was like this is a person that's acting on his own curiosity and first principles and I see
+that in you and I know how that plays out it's an amazing amazing thing game recognizes game man thank you brother
+appreciate you thank you thank you very much for tuning in if you enjoyed that episode with Steven then press here for
+the fulllength 3-hour long podcast with Alex hosi which has been blowing people's minds go on press
+it
 
 ----------
 
 -----
+
 --92--
 
 -----
-Date:
-Link:
+Date: 2023.12.28
+Link: [# Create a Stunning 3D Animated Portfolio Website with Next.js 14, Three.js, GSAP, and Prismic](https://www.youtube.com/watch?v=rXDCAAkiC-s)
 Transcription:
 
-paste here
+one of the best ways to get any kind of job opportunity is to have a great online presence if you have a website
+that is stylish and fun and memorable you are going to stand out from everyone
+else because it's memorable and shows off your personality people will associate you with creativity and style
+honestly if I go to your website and it looks anything like this I'm going to be paying attention to your resume above
+everyone else's in this course we're going to be building this slick personal portfolio site with 3D effects and lots
+of animation all right here's the site and as soon as it loads in you can see that we have a lot of stuff going on uh these shapes
+are 3D they are from react 3 fiber which is 3js and you can see that as we click
+not only do we get a cool sound that is a random sound from a list of a few but
+we also get a random material and the shape goes in a random direction if we leave it alone you see that they're just
+floating all cool like we have shadows down here that's super neat and yeah
+these uh these will get a different color a different material and we can
+definitely customize what shapes we're using this is all up to you you can flex your creative skills in this part for
+sure and then you can see over here that when we refresh these letters come in at random so it's going to always be
+different the order that those come in and then we have our nice little tagline creative developer all of this is going
+to be editable you can change anything that you want to suit the way that you are up here we have a little nav and you
+can see a nice little hover effect and you have our contact button for like the CTA if you go to about we see that it
+stays there little underline stays and this can be you if that's not you you can make it you uh but about Andy you
+have a nice little biography this is pretty nice and you see the little shine as it goes over we'll learn how to do
+that and then as we scroll down we get this fun little Marquee effect right so
+he goes back and forth you'll be able to put the tech that you like if you don't use these you know you can put whatever
+you want and then your job experience your education whatever you want to put here all this is optional but it's all going
+to be a lot of fun so we going to learn how to do all of this we're using green sock for this green sock for this now
+for projects we have this cool effect where as you hover over the image that
+goes with that project will be shown and same thing for blog you can see I got
+these fruit images but you you can put whatever image you want that's just some stock stuff but as you Mouse over this
+image will follow your cursor around and pretty cool and then as you click in you
+can have your blog post so we're going to set up a really easy but really stylish blog post I'm going to show you
+how to get really nice typography with barely any effort at all nice little tip
+so we have quite a lot to do we're going to learn a lot of great animation tips have a lot of fun so let's talk about
+the stack while building this site you're going to learn Gap a massively popular animation platform and you'll
+learn how to use it with react you'll learn a bit of react 3 fiber which is how we use 3js in react we're using
+prismic for our CMS and Page Builder so all of your content is real easy to edit and you can even build this site for a
+friend or a client we use the new nextjs app router to stay at The Cutting Edge our Styles will be in tailwind and you
+learn some Tailwind Pro tips and we use typescript so that we'll have type safety and our site break on us don't
+worry if you don't know the tech we're working with that's the point I will walk you through everything that you need to know I just expect that you know
+HTML CSS JavaScript and react to do well in this course I don't want to wait any
+longer let's get into it all right now that we know what we are building and how we are building it let's go ahead
+and build it so we're going to hop into prismic as I said prismic is going to be
+where we put our content and as it says it is the head list page builder for nextjs n and spelt kit sites we really
+specialize in those three and the developer experience is excellent so if
+you don't have an account go ahead and sign up for one it is free and you're just going to go log in for me I want to
+Getting Started - Project setup
+go to my dashboard and it says create a new repository choose your framework so
+we're going to be going with nextjs go ahead and click that and here you have three options typically you would either
+go for a minimal starter or a full website demo this has very little to it and it just kind of lets you build up
+from next to nothing uh the full website demo has you know basically everything
+that you would need in a website it allows you to see how prismic is set up
+in typical sites so if you're brand new to prismic and you you're not following a tutorial this is the best way to kind
+of get a feel for how prismic sites are built but since you are following a tutorial we are going to be connecting
+our own web app App instead this is the option that you would choose if you wanted to add prismic to a site you
+already had or you found some other starter somewhere on the internet and you want to plug prismic into it already
+all right I'm going to give my repository a name once it brings me to the new repository page Going To Go
+creative portfolio uh tutorial cool that is not
+taken so we are good and then I'll just say creative portfolio
+tutorial all right the rest we don't need to touch because it's already been set and we are going on the free plan
+don't you worry about that so we don't even need a credit card we are good to go and this is a very generous free plan
+you don't really hit any limits um all right so welcome to your page builder this is where you'll create and edit
+pages but first you have to define the models for your pages with slice machine so it says get started with slice
+machine and lucky for us this is is what we we were going to do anyway I have the
+nextjs uh site over here ready to go with that same command create next app
+at latest that's exactly what we're doing and it is even giving us the title
+for our folder so if we already had a project we would just click here but we don't so go ahead and copy that and now
+I'm opening up visual studio code that's going to be the IDE that I'm using and I like to use the terminal that is built
+right into Visual Studio code so if you use a separate terminal go for that that's fine but I am in the folder that
+I want to uh create this project in so I'm going to go ahead and paste that NP create next app at latest and then this
+should be uh custom to you all right it's going to ask me a few questions and
+I'm going to say yes to all of them uh or I'm going to use the default so would you like to use typescript yes would you
+like to use eslint yes Tailwind yes the source directory yes and the app router
+yes like to customize the default import Alias I do not want to do that I'm just going to leave it as is and it's going
+to go go ahead and install nextjs for
+me all right great it is all set our uh project has been installed so now we're
+going to actually move into that folder so CD creative
+portfolio uh should be tutorial there we go and I am inside now
+I'm going to open vs code in this folder code period should do it for you
+if not go ahead and just manually um navigate to that so I can go open folder
+and navigate to there but I have it open now and so all right now that we are in
+our project let's go ahead and open the terminal you can either hit control and uh the little Tilda or you can just go
+ahead to view and open that going to hit npm runev and let's see what we actually
+have so far far all right so we have this page it loaded great it's gorgeous next just
+installed perfectly so let's get into adding prismic so if we go back to our
+prismic repository we'll hit continue and it says set up slice machine so now that we have our project we're going
+ahead and copy that oh we don't need to copy that because that is taking us into the folder we already went into and now
+it's asking us to run this command which will install slice machine for us so let's go
+ahead back to our terminal I can stop this Dev server and go
+ahead and and uh run slice machine and knit now it's saying uh we need to
+install these packages I'm going to hit yes because that's the only way you're going to get them installed so it's
+going to run through install quite a few things for us but it saves us so much
+time I'm going to show you exactly what it it it installs for us
+us all right we can see that it is actually connecting us to our repository right here we have repository creative
+portfolio tutorial and it is going to do uh quite a few things it's going to install the sdks for connecting to
+prismic it is going to link this project to this repository here see creative
+portfolio tutorial it's going to connect those two things it is going to set up
+all our configuration for us so we have some config that's just been added um and there we go initialization
+successful continue with next steps and slice machine um and actually here is a whole checklist of what it did detected
+framework Beyond core dependencies you can go ahead and read that I won't waste your time but it did a whole bunch of
+stuff for us with just a quick command and now it's asking hey do you want to run slice machine and we're going to say yeah yeah we do because that is how
+we're going to get started in this project so slice machine should start running here and I'm going going to
+actually hit this little plus sign if you're in a different terminal go ahead and open a new tab in that terminal um
+but I like having two terminals running at once because slice machine runs one
+Dev server and I'll show you what slice machine is it's how we build our models with prismic and then we're going to run
+our nextjs Dev server on another terminal and then go uh um in in a
+second terminal run npm run Dev so I'm actually going to name this one cuz I'm
+a little bit fancy uh just put SM and then this one can be
+next so remember SM is slice machine that's prismic tool all right cool so we
+have our Dev server for next running and we have slice machine running it says to open it at
+9999 and so I'm going to click on that and oh here we go so blank page welcome
+to slice machine your journey starts with your first page type the model that you will use to create Pages for your
+website so we we have one option it's clicking this button so you're going to go ahead and do that for our very first
+type for for our page type we are going to go ahead and create our homepage so
+we're going to click single type and we're going to come here and just type homepage just like that and I'm going to
+click create and Page type successfully saved perfect that's what we want to see so it
+immediately says Hey start adding some slices and you might be going hold up
+what is a slice great question so here on our site we have several page section
+so this whole about I I call this the biography slice right because it just kind of gives you the about it gives you
+a description and it gives you this fun little like uh photo book picture kind of thing then down here we have this
+slice I called this the tech list um and this is basically an entire page section
+let's get out of the mobile view but you can see here uh this
+is a page section all about text so this is the techlist page section and that is
+a slice you can see it says data slice type that is our techlist slice down
+here we have an experience slice and another experience slice and so with
+prismic everything is centered around creating these slices and you might be very familiar with slices like hero
+slice and testimonial slices and Logo grids all these things are the building
+blocks of websites and with prismic that is what everything is centered around because then it is really easy for us to
+move these sections around to put them wherever we want and reuse them so that
+you're not having to reinvent the wheel having to like like you will see just
+how easy it is for us to completely change the layout of this website site
+within a few minutes if we wanted to um without touching any code once once
+we're all done right um but until then we get to create custom react components we get to uh create 3D components but
+we're going to be putting them into these slices that then can be deployed anywhere across our site even in blog
+posts if we wanted right so that's the power here that's what a slice is and
+you'll you'll really start to get it um once we get into it uh we there are some templates available so you can see
+there's a hero logos as I was saying uh a call to action so this is a concept
+that you're probably familiar with but prismic builds everything around that
+concept so we're not going to be using one of these templates we are going to go ahead and create our hero so I'm just
+going to call it hero you can call it you know 3D hero or anything like that in particular if you want to specify
+this kind of hero but for us it's going to be the only hero we've got and that's why the name works for me so now you can
+see we're in our homepage in the main section we don't really have any Fields you get an automatic SEO and metadata
+Tab and that comes with a meta description a meta image and meta title I like to bring the title up just that
+order makes sense to me and um these fields are going to be available in our
+editor so uh as you saw the little save button appeared up here so I I I made a
+small change but I can click save and there you go it's saved but back in our main section we have our slice Zone and
+that is where our slices will appear we don't have a screenshot just yet for this hero but we will um so if I go into
+my hero we can see that there is just potential here right so we are going to
+go ahead and start to create our Fields so let's check our final site and we can
+see that on this hero we really just have a couple pieces of content uh that we will be able to change so Andy Briant
+and then the tag line so first name last name and then the tag line here so I'm
+going to go ahead and I'm going to choose key text and make sure you do it in the non-re repeatable zone if you
+wanted to you know have names that could repeat over and over and over you could put it in the repeatable zone but we
+just want one first name one last name and one tagline so go ahead and choose
+key text so first name just like that hit add add a new field key text last
+name and last but not least tag line that's
+just the creative developer you know whatever you're going to put there but
+add those three and just like that we have our fields for our hero so
+we see over here that we have some changes we have a new homepage type and
+we have a new slice called hero no screenshot just yet don't worry about that but we can go ahead and push our
+changes and they have been pushed where have they been pushed to well if we
+click this Arrow here it'll bring us back to our and you know it's still walking
+us through but I push my models and then you know it'll reload and it'll say ah
+there we go what are you writing in go ahead and choose your language I'm writing in English and we're defining
+that as the main language for this repository um and and like I said if you were to click that Arrow it's a nice
+quick way to bring you back to the same spot so I'll close that Tab and now
+let's go ahead and create that homepage I I kind of want to have that pop up so you click create new if it's not going
+to give you the option for homepage cuz that's all that you can create it's your only type um but let's go ahead and
+let's add a slice hm what slice should we choose we
+have one we're going to go ahead and choose that hero and we're going to say first name I'm going to go Andy it's not
+my name but it's a name put your name there go for it I going to say creative
+developer I'm going hit save and just like that we can hit
+publish and this is going to be a lot better soon where we're going to be previewing our slices in real time get
+the live preview I'm going to show you that in just a second so now that our homepage is
+published let's change the name up here like just gives an automatic name but I'm say homepage and that allows us to view
+it back here in our document list so we have our homepage but uh this is not you
+know looking like this at all so how do we get this looking a little bit more like
+what we're expecting well we need to go ahead and got everything that we have in
+our source app page right here so we've got quite a bit of cleanup that we want
+to do um and we've we've got a couple other spots that we also need to clean up but let's focus on page. TSX so we
+have a lot to clear out of here and you know what we're just going to go ahead and and erase the whole thing and I'll
+show you why because if we go to our page types and slice machine and click
+homepage up here we have this thing called a page snippet go ahead and click that and it says create your homepages
+page component we are using the app router if you're using Pages router you click there but we're not and it says to
+add a new route there uh we're actually not going to put it there it uh slice
+machine doesn't know that we're making the root file um but we're going to go
+ahead and copy this right here and we're going to paste right into our page and we're
+going to hit save remember this should be at page. TSX inside the app directory
+and let's check out what we have over here if we refresh it says placeholder component for hero variation default
+slices so this is actually a huge success let's check out why so when we
+create that hero you'll see right here we have this new folder called slices that is prismic specific so when you
+create a new slice in slice machine it is going to create a new folder based on
+what you name it so hero right there and here we have three files index Mox and
+model inside index we have placeholder component for hero variation B slices so
+that is exactly what we're seeing here we are displaying our Slice on our
+homepage already we had this content automatically create created for us we
+had this page that we just copied and pasted that page snippet right into here it's going ahead it's creating our
+client to fetch our data with it is fetching the data it knows exactly what data to fetch um and well actually here
+it's creating metadata for us uh and then it's going ahead and rendering our
+slices via the slice zone so we'll get into the slice Zone a bit more later but
+I just going to kind of show you how quickly we can get up and running with this hero so we see that we have this
+placeholder component thing I'm going to go ahead and delete that I just want to display our name I'm getting a little
+bit of help from co-pilot here but I'm going to turn that off so that it's not
+uh see disable completions there we go all right so with copilot off I'm going to go ahead and say uh slice we can see
+that we're getting a slice prop passed in and it has slice type and variation on it but we are going to look slice and
+if I just push period because we have our types we see what is on this slice
+so we want primary and then we want first name last name or tag line see it
+lets us know exactly what is on this slice and if we didn't have those types
+or if you didn't know how to look that up or anything like that if you actually go to Hero you will see slice. primary.
+first name slice primary last name it is all here for you it's very very handy and it's even here to the point where
+you can hit copy and we can paste this in ourselves and it gives us a little react fragment there to to wrap it in so
+however you want to do it that is how you can get your Fields easily you don't have to worry about the data getting passed in that's already happening
+because we're fetching it right here we're passing it in to the slice Zone and then our hero is getting rendered we
+have it all typed automatically slice slice machine types it for us automatically we are already able to
+render out let's see it uh if I refresh Andy there we go so in just a few clicks
+a couple copies and pastes here and there we have our first name from our homepage so our CMS is already wired up
+for us we already have our first hero component on its way I'm going to close out this uh tab here and there we go
+we've got Andy so now we don't exactly just want it to show up like that we
+kind of want this to be a little bit more uh of an H1 we we want this to be a bit more involved but I just wanted to
+show you how quickly we could get up and running with that first name and now
+might might as well finish it off with uh sliced primary let's go ahead and and
+use the uh Snippets just for these last couple ones why not right slice primary
+last name and then slice primary tagline and if this is an image um coming from
+here it will have the proper image component and everything it's not always going to be a fragment that's just for
+key text um but yeah so if you go ahead and hit save there we can see that we
+get Andy Bryant creative developer amazing so as you can see we have this
+very very dark background it's practically black uh and then we have
+the white text and that that kind of matches what we're doing but not not really so if we can start to add some of
+our Styles here we will be looking a lot better so let's do a little bit more
+cleaning let's go into global. CSS we are going to erase everything in here go
+ahead and hit save and then also in layout we can see that we have the wrong
+font or you know not the wrong font but a different font the font that we're going to be using is called urbanist so
+if you highlight enter right here we can go urb n is it should autocomplete for
+you you can change anywhere it says enter to urbanist keep the uh lowercase
+lower case and just like that we should have a
+couple of changes yeah so that is urbanist and we are now uh back on a white background we will be fixing that
+and uh getting our proper dark background in just a second we're going to do that in the layout component here
+so let's go ahead and you see HTML right here go ahead and add a class name to
+that and it's going to be BG slate 900 and this is Tailwind this is how we're
+going to be styling with Tailwind if you have any questions about uh what we are doing I'm not going to explain every
+single class that we do cuz that's going to be it's going to take a while but go ahead and just hover over that Tailwind class
+and if you don't have the Tailwind plugin go ahead and add that um because that is really really
+helpful it helps you understand what classes you're looking at and what that
+actually does to your Styles so BG slate 900 should give us if we've saved it
+should give us yeah that nice dark blue um and then we are going to go
+ahead we're going to add text slate 100
+right there so that all of our text becomes kind of as a default nice and white so we have and I'm going to zoom
+out so that you don't think what's going on why is it so big mine's not big but
+uh cool we have a nice groundwork there now we can go ahead and play around just
+for a second see uh if we go go span class name here I'm back in the hero by
+the way uh if I go text red 500 and you
+see how useful this is that intellisense if I put red on our first name we should
+see that it's red but why is it not red well that is because we need to update
+our Tailwind config as a default it comes with Pages uh components and apps
+but our hero is in slices so go ahead and add a new line that just has instead
+of app slices and you save that and Tailwind should update and now what it's going to do is it's going to keep an eye
+on any file in the slices folder and we should see Andy is nice and red while
+you're in your Tailwind config you can also remove the uh bit here that is also
+from the default nextjs site so so it's not going to change anything so you
+should have slices there and we are set to go here now we don't have any heading
+or or a header or a footer but let's go ahead and build out this hero component
+let's set up our homepage just the way we want it um let's get as as far as we can at least with this text part just to
+make it look that way we will add animations and 3D as we go but right now I just want to build out this hero uh
+and we can come back for the navbar and the footer a little bit later first thing I'm going to do is I'm going to go
+Creating the Hero
+ahead and take a picture of it I'm going to take a screenshot just like that uh
+I'm going to get a screenshot of it it's on my clipboard so I'm going to hit update screenshot and if you saved it to
+your desktop or something you can go ahead and drag it in uh for me I'm just going to hit paste and allow that to the
+clipboard and there we go so that at least gives me a good idea of what that
+slice looks like and that's going to really come in handy uh as if I push
+that change up to prismic you'll see that if I go to add a slice I see if it
+works yep it already has the thumbnail there so as I accumulate more and more
+slices I can use my like finished version and I can continue to paste
+those slice snapshots in and that already looks a lot better than just that uh blank white thing so now uh for
+the live preview part we can go ahead now that we're in uh prismic doio go
+ahead and click get the live preview and you can see how nice this is going to be
+where we actually can type and see that updating right there so we want to set
+this up right here and what we're going to do is we're going to copy our local host
+for now and this will work as long as your uh Local Host is running and you
+can just type Local Host 3000 make sure it's HTTP and you're going to type at the end
+slice simulator and you're going to hit save and we shouldn't really see much
+here but you can see maybe there's a little red pixel there that's that Andy so we are actually getting our component
+there it'll be a lot more obvious once we build it out but you might be wondering how that's working that is
+because when we initialized slice machine it also added a slice simulator
+page here and that takes care of rendering our slices for us in that preview State and it's really really
+handy so now that that's running uh we can go ahead and close our Tailwind config we can go ahead and close our CSS
+file we don't need that we don't need our layout right now I don't think so we just need we just want to work in our
+hero component and that's all we're going to focus on so with this component
+we actually have a grid layout so it's going to be a two column grid if it's on
+desktop and then when we go to mobile we want that to go to one column and our little shapes to go up top you could put
+them on bottom I'm I'm going to say this once you can change this however you want personalize this so I'm going to
+show you the way that I built this but you can change the colors you can change the shapes you can change everything
+about it it is yours but uh I'm not going to keep saying that throughout the whole tutorial just kind of get that now
+this is yours you can do what you want with it but uh so we we need to work on
+that two column and one column layout we're going to first focus on that typography so let's go ahead and right
+here after section we're actually going to create a div that's going to wrap everything
+um and we're going to say class name grid and we're going to say Min H
+min hyphen H hyphen and we're going to use an arbitrary value 70 view height so our Min height
+is 70 view height for this and grid calls one but on medium sizes and above
+we going to go grid calls 2 that's what it gives us that responsivity uh and
+items Center and I'm going to open that div up and wrap all of our text in that
+and so right now it's going to look a little bit funky but stay with us and we
+are going to now uh make another div to
+wrap our text our our shapes are going to be its own component that we'll come to in a little bit um but right now
+we're going to go div and I'm going to wrap that text in there and that's going
+to say call start o sorry we need a class name call start one and but on larger
+screens we're going to also have a row start one so medium screens and above
+and that will get that attribute so that it doesn't get pushed down you'll it
+will make sense as we get there so now uh the H1 is what we're going to be
+Hero letters animation
+wrapping everything in we're going to be doing some cool effects here so that we can get this uh individual letter effect
+right cuz you can't animate individual letters unless you do some tricks to it and we are doing that
+by breaking each single letter up into its own span and that might seem really
+annoying but we are going to write a function that handles that for us we don't need to worry about that um but we
+do want to wrap everything in an H1 and you can see here we have an ARA label so that if someone's using a screen reader
+they don't get uh it spelled out for them because that is an absolute nightmare so they just get the name and
+it's all taken care of they they won't have to listen to all these letters
+so we're going to do some cool text effects here in the sense that we are going
+to um use a little bit of CSS clamp to make sure that uh our text stays in a
+nice size the whole time it's going to be responsive Tech so uh class name
+mb8 text hyphen which is an arbitrary value so like I said
+clamp three REM 20 V Min that is a responsive value
+based on the size of the window or the size of the viewport
+and font extra
+bold letting none and
+tracking tighter great if we hit save there we will see some changes on our
+site there we go we have nice big text that's looking a lot like what we're
+looking for and then as we shrink it down as that gets smaller you see it
+does scale with the rest of the page so if we go responsive it's going to shrink
+and grow along with the rest of the page that's exactly what we want for this big
+big big header lots of big typography on this site that's kind of my thing I enjoy it so now um we can get right to
+that ARA label as I said ARA label and that's going to be inside
+curly brackets and we're just going to do uh quick string concatenation so slice. primary. first name plus put a
+space in the middle plus slice. primary. last name
+great and that will give us uh exactly what we saw on that demo site so now we
+have spans inside and that's what we're looking for we going to get rid of this text red want block and text slate
+300 and for the next one we're going to put another Span in there class
+name and that's going to be M so we're going to do minus or you know hyphen Mt hyphen
+and we go0 2 m and that minus up front
+makes it so that it actually becomes a negative value so we're going to have a negative margin top of 2m and that's
+based off of the actual size the current size of the text so
+that it'll scale along with our responsive text so block and text slate
+500 all right we should see yep Andy Bryant it's looking a lot like what
+we're what we're shooting for so back to here and we're on to the
+last span uh that's going to be outside of our H1 actually the tagline won't be
+part of the H1 this is going to be just its own thing so span and then class
+name so we've got quite a few um styles here so hang on so we
+going to go block uh BG gradient to top right or TR so from
+hyphen yellow hyphen 500 via yellow
+200 to yellow 500 uh BG clip
+text text to excel font bold uppercase
+tracking hyphen arbitrary value so square brackets 2
+m text transparent
+opacity Z Z and MD text hyphen 4
+XL um right now actually set that opacity back up to
+one and I will expl or sorry up to 100 I believe yeah um and I'll explain why
+we're going to be setting it to zero in a sec so there we go we have this
+gorgeous gradient text there so you can see that the text if you change um the
+the Via yellow 200 to say like red 200 this effect will be a lot more obvious
+or it should be let's try blue uh let's do 700 not going to explain every effect
+but you can see the gradient a lot clearer here um so it's going from the bottom left to the top right and so
+we're just doing a subtle little gradient that gives it a little bit of like a gold kind of feel so uh this
+animates in right so you get that little bounce in
+uh we're doing a lot of bounce eases on this site uh so that's why it's going to eventually start out as zero it it might
+not need that but that's what the styles are going to be for now all right so next we need to
+actually turn this uh single span into individual letters because as we see we
+have just one span it has Bryant in it we need a n d y so we're going to write
+a function that returns some nice split up text so just above the return go ahead
+and say const render letters equals we're going to do an
+arrow function and remember we are using types scripts so we're going to be typing pretty much everything that that
+we touch only thing we're not going to be typing is our react 3 fiber scene 3js
+just gets a little bit funky and and we we we would get stuck a little bit more than I would like for this tutorial but
+everything else is going to be typescript so we're going to start off with name and hit colon and that is a key
+text field and as you type uh your IDE should start to help you out and yes we
+want the key text field from prismic go ahead and hit enter and you'll see at the top uh keex field was imported for
+us that's really really helpful and then key is going to be
+string now uh go ahead Arrow curly
+brackets if name
+return so if we don't have a name because key text field can either be a
+string or null um so we we need to check for that return
+name.it and we're going to split at every single letter and and
+we're going to map over the array that we get from that and that is going to take a
+function letter and index and this is an arrow function that
+we're making and that's going to return our individual span so we're going to say
+span and inside that we're going to put letter and what's it complaining about
+let's see missing key prop exactly we're going to add that now so key equals index
+and then we're also going to add a class name to style each of
+these so um make this in curly brackets because we're going to do a little bit
+of uh string interpolation here so uh put back ticks and we're going to do a
+couple of things that will allow Gap our animation library to hook into this a
+lot easier so I'm going to go ahead and say name animation and then name
+animation hyphen dollar sign
+key and that last part isn't truly truly necessary but it's helpful if you want to do any um additional tricks to it so
+inline block and opacity zero so you can see we're
+setting the opacity for this text to zero as well and so now uh well we we
+don't call this just yet we can call this this down in
+our brackets here so come down to your first name and last name and we're going to say render
+letters and we're going to put this parentheses around it render letters expected two arguments we got one yes so
+we're also going to say comma and I'm just going to say first and this way we
+will get oh invisible letters but that's what we expect because we put opacity zero on
+there um but we do see that we get first first first first right uh it just makes
+it easy so that we are able to um specify which of these we want so if if
+you want to animate the first name a little bit differently than the last name that key is going to help us out otherwise it won't be able to
+distinguish from that so let's do the same thing down here I'm going to copy the entire thing and paste it I'm going
+to Cop highlight first first hit contrl D to select both and type
+last and they should both vanish but they are both individual spans now so b r y a n t
+awesome this is looking great and now I have some great news we are
+ready for Gap so if you aren't familiar with gap it is just a phenomenal
+phenomenal uh Library please go to gap.com check out this incredible
+incredible website um there's a whole lot of fun to be had here it is a very
+inspirational site just yeah it shows the full full power of what you're able
+to do with gap so when need to install our Gap Library so go ahead and create a third
+terminal yes you can create three terminals I'm going to say npm Gap just
+like that and boom we can can see in our package we get Gap
+added now if you've used something like framer motion or react spring you'll
+know that those animation libraries have actual react elements that are uh built
+for them Gap is a bit different in that it is Javascript pure and simple and it
+is uh used in lots of different Frameworks and libraries uh so you can
+use it for view you can use it for spell you just use it for manipulating pretty much anything like like this is this is
+what they mean animate anything so because of that Gap and react can kind of trip a lot of developers up but on
+the Gap website if you go to docs learning and react here they have some great guides or I gu this one great
+guide that shows you exactly what you need to know and we are going to get into Gap context a whole bunch says here
+it gives us two useful features it's going to scop selectors and animation
+cleanup so with gap and react we're going to be using a lot of refs a lot of
+use effect and use layout effect and a whole bunch of Gap context this might seem like a lot of
+overhead but Greenock gives us a ton of power and GAP allows us to take the
+animation skills that we learn here and bring them pretty much to any other framework any other site that we ever
+work on so now that gsp's installed let's import it into our component so
+going to go up to the top import gsap from Gap just like
+that and we also want to import use effect and use ref from
+react cool so to go ahead and help scope our animations we're going to create a ref called components
+equals use ref and I'm just going to say null right
+there then we're going to say use effect and that's going to take an arrow
+function and we say let CTX equals gap.
+context and that's also going to take an narrow function you see a pattern here and if we look at the docs we see that
+uh every G context is going to have the same kind of pattern where inside we do
+some kind of uh green sock animation oh by the way uh gsap and green sock are
+pretty much the same thing so I might just say both back and forth don't want to confuse you um so we might do some
+Gap animation inside and then we always end with the scope and then we return uh
+CTX that revert for cleanup uh inside of our either use layout effect or our use
+effect either one so I'm going to go ahead and close our gsap context I'm
+going to close up the arrow function and uh
+pass it component as the second argument that it wants to scope this context to
+and then we're going to return that uh CTX
+revert function so ahead and copy that and at the end of use effect we
+always need to pass it in Array um if it's empty that means that just it's just
+going to run once so that's how we're going to leave it for now and we just have some empty brackets there at the end to clean up hit save and nothing
+should change because we just set up our context we don't have any animations yet so now it's time to do our first
+animation with gap uh we're going to be using the Gap object that we imported and we have two concepts that we kind of
+need to learn for animating with gap there's Twins and it is what does all
+the animation work think of it like a high performance property Setter you feed in the targets a duration and any
+properties you wanted to animate and then the tween's playhead moves to a new position so here we have Gap 2 in other
+words we're going to animate two uh these properties and what are we animating we're going to animate
+anything with the Box class and we're going to animate to rotation 27 uh X
+that's uh moving on the x- axis 100 pixels and that's going to take place over a duration one if we rerun this
+there you go we see that little spin they moved from where they were and they rotated now what is a timeline that's
+the second concept we we need to understand a timeline is a container sorry I'm zooming in and talking at the
+same time timeline is a container for tween so you're able to stitch these
+tween together and that lets you kind of you know animate one thing and then
+animate second thing and animate third thing so you can let me see if they have an example here so that one goes I'm
+assuming that's going to do yep and then that goes after so really really powerful from for allowing you to do one
+thing then next thing then the next thing so that is the the two big
+Concepts that we need to know a tween uh and then a timeline so we're going to start out actually with a timeline for
+this one uh so we're going to say gap. timeline and we have a couple options
+here we can either say uh const TL equals just like that and now uh TL is a
+timeline CG core timeline or we could just call it like this and go ahead and
+change other functions on there so we can say like two as we saw in that
+example and we can just kind of chain on that timeline totally up to you um different developers have their own
+preferences we can go ahead and say const t l equals GP timeline and then on
+this timeline we can say dot from to so this allows us to set where the
+animation is starting and then what the animation is going towards um so this is
+going to be a function the very first thing we always pass is what we are
+animating so for this it's scoped to our component so even if um this class that
+I'm about to use name animation uh is present somewhere else
+in our project we don't really have to worry about it uh and it's yelling at us right now because it's expecting more
+arguments we're getting to it uh so that is what we're going to be animating now we need to do our from and that is uh
+where we're starting out so we're going to say uh X is -00 opacity 0 we already said it
+elsewhere but I just want to make sure and then rotate is -10 and so it's going to start
+out with a little bit of rotation and then it's going to even out this things
+popping up in my face all right so uh now we want to say comma and then uh
+pass it a second object in the second object we want to say where it's going to end up so X is going to be zero that
+way it it will uh finish at the spot where the letter should already be right
+um opacity is one one and rotate is zero
+now we get to set some of the fun stuff well you know what let's just leave it
+there and we will add um our eases and and some some other cool things later
+right now we're just going to see an animation on oh or we're going to break
+it ah yes here we go great so you're importing a component that needs use ref
+it only works in a client component I'm glad we hit this error because we are
+using the app router that means we are using server components by default now
+to use any kind of JavaScript uh that runs on on the client uh to use things
+like use uh ref uh use use State any of
+those we need to use a client component so go ahead up at the top uh make a
+string and say use client just like that hit save and just like
+that that's gone so if we reload we don't see anything we don't see anything because
+we scoped to component uh based on this ref but we actually never added that component uh to our section so go ahead
+down to our top level element there and say ref component
+now if we refresh there we go see a nice little animation not totally what we're
+going for but that's our first green sock animation folks there you go hit refresh as many times as you need that
+feels great all right so we got a nice little like uh the rotations there they
+kind of slide in all at once pretty cool now we can make it even
+cooler one of my favorite things to do with gsap is
+eases easing there we go so this ease visualizer it's uh docs V3 eases or you
+can just search Gap ease uh in Google and it'll come up I promise um here all
+the time uh this lets you see how something's going to animate based on the ease and you can customize the ease
+so if you look at this ball animating from bottom to top you'll kind of see
+how an ease can affect the way that you are
+animating or like the feel of something see how it's nice and
+springy we're going to be using elastic a bunch on this site cuz it's just a fun
+playful kind of ease that you're not able to really get with just a regular CSS animation so I feel like it stands
+out uh compared to other other kinds of websites right so
+you can customize a bunch about this so if I change it to two you see a big
+spring and then if I change that to uh 7.5 you see like it kind of has like
+more weight to it over here to 0.1 whoa like no weight right like like that is a
+very uh light kind of feel so we have these different eases go ahead and play
+with it uh you can pause this video and find what you want yours to feel like
+and uh yeah you can kind of use that all over your site but but for me we're going to be using elastic not that
+elastic but uh yeah that's what we're we going to be using we're going to be going with one and I think like 0 2 or
+something like that perfect all right so back in our Gap animation we're going to go in the second object and after rotate
+zero we're going to say ease and you can go ahead actually one of the best things about this is I'm change it to 3 uh you
+can go ahead and copy that right from the site and then you have it right there and so e elastic
+out 1 comma 0.3 is what I have duration to 1 second
+transform origin this just says where is this
+animation going to take place from on that element uh so it's going to happen from the left and top of each letter
+that it's animating small detail but um these things can kind of make a difference now uh if we save there we
+will see that we get that and it's kind of like what we're
+expecting but these letters all animate in at different times right that's what
+we want so how do we get that to happen we use a little property called stagger
+so that means that each letter is going to you know be staggered one after the
+other uh so what we can do is we can say each and this is uh the separation in
+seconds between each of the animations so if I just say 0.1 that's our nice kind of quick uh
+animate in and it's already a much smoother effect than it was a second ago
+now uh we can keep it like that totally up to you I'm going to keep saying it apparently or we can say from random and
+that is going to choose a just just a random assortment it's
+it's going to basically mix up the the array of how it animates them in and we'll get that little effect so that is
+how we get that effect now we want to chain or or or guess we just say uh
+timeline again so that animation is done congratulations you've finished your
+first green sock animation it's looking pretty slick now let's do the job title so I'm going to say TL again and I say
+from Two and we're going to say job
+title we should have given that to it earlier did we um no I don't think we
+did so go ahead back down to your span down here and say job
+title nice all right so uh that should be on slice primary tagline job title
+come back up to your animation and once again it's expecting three uh arguments so we're going to
+start with y20 that means it's going to be a little bit down uh compared to where it will
+end up uh opacity zero and scale
+1.2 and for the second object this is the two this is where it's going so you want it to be full opacity and that's
+one in gap uh Y is zero in other words going to end up where it belongs duration is 1
+second scale is one and ease I'm just going to
+copy that ease from over here actually yeah yeah I I was I was going to do a
+kind of a fancy thing but we will do fancy things later don't want to make this too much right
+now boom creative developer so you can see that it's like it's there and then it disappears if I reload the page see
+how it's there and it yeah so that's why we need that opacity zero so go back down
+to your job title uh one and change the opacity to zero on on that tagline and
+so now it'll animate in nice um if you would like you could
+even add a delay on this so it um it doesn't animate in right away so if we
+go here and we say delay can say like uh
+0.5 so that's half a second so yeah that actually feels a little bit
+better you don't make your uh users wait too long but that was animating in real fast and you can always tweak that later
+so looking good you already have two green sock animations under your belt so
+you can see it is a little bit different from how you might be used to animating uh react components but uh it is a
+really really powerful way to animate things and I'm a huge green sock fan uh
+and yeah we're going to we having a lot of fun with it it it it works for react 3 fiber it works for pretty much
+anything all right so now we have our animation coming in that's looking nice and now we just need to do a couple
+Helper Component
+things to get it to this final Hero version that we have the first thing we're going to do is we're going to
+create the boundary that holds it uh you know from going too wide and centers it
+and everything and then we're going to get into our 3js don't worry we're going to get to that stuff very soon but first
+let's create a components directory so go back to our code in the source folder
+say components and then inside components we're going to create a new file called
+bounded and t. TSX just like that all right so this bounded element is going
+to take the place of our section here and because we are passing a ref in some of our uh components we're going to need
+to use react forward ref so come on into your bounded component say const bounded
+equals react. forward ref and that is going to we're
+going to type that so I'm going to take an HTML div element just like that and
+bounded props just like that and we're going to create that type in just a second don't
+worry but we're going to open some parentheses and inside there we will
+get an arrow function so bear with me we're creating uh another set a
+parenthesis and inside that we're going to spread our prop so we're going to say as
+comp equals section that's going to be our default for this component uh class
+name so that we can pass Styles children because that's what's going to go inside and we're going to spread the rest of
+our props and then we're also going to get a
+ref that is the whole point of react forward ref and then we're going going to open curly braces and say
+return and this is where we return our jsx so we're going to say comp just like that ref equals ref that passes that ref
+through and now it's on this component class name is equal to and we're going
+to do some fun stuff in a second so open curly brackets and just put a quote for now and say PX 4
+py1 MD colon PX hyphen 6 MD colon py
+hyphen 14 LG colon py hyphen 16 so those
+are the styles for this part and we are now going to open
+more curly brackets and say rest props going to spread the rest of our props
+right there and we're going to close that with an angle bracket and inside comp we're going to put our
+children but actually we need to uh put another div inside just to um be the
+thing that centers the elements and so we're going to say div and that's going to get a class name and I know it's
+yelling at me right now don't worry we will fix that in a sec class name is MX hyphen Auto that's for margin x with
+full Max W7 XL and then going to put our children
+inside that so yours should look kind of like mine uh I know it's very hard to read with this red let's go ahead and
+take care of that right now because we have a a name here but it wants a
+display name so when using react forward ref we need to say bounded or the you
+know the element that you have and then display name equal to bounded and now it
+is happy and then we can say uh export default bounded just like that but but
+uh we don't have react so we need to say import react from react just like that
+and we don't have bounded props so let's go ahead and create that so type bounded
+props is equal to open up curly brackets and we're going to type this so as is
+optional because we have a fallback to section react. element type just like
+that class name is also optional and that is a
+string and children not optional and we're going to say react. react
+node just like that so we are almost set here last thing we need to do is add a
+library called clsx so in your third terminal we're going to say npm I clsx
+just like that all right installs nice and quick and then we can go ahead and say import
+clsx from clsx just oh put quotes around CL the
+second clsx so now in our class name here on comp we're going to select
+everything put we're going to wrap it in parenthesis and say clsx just like that and what clsx does
+is it takes any number of uh inputs and it combines it into one string because
+with Tailwind we just want one string at the end of today and so we can also say class name so if any classes get passed
+this will get added together and handled for us we don't have to worry about it so that should be good let's go back to
+our hero slice and change this from a section to bounded just like that uh by
+hitting enter I auto imported it from at components bounded and let's just make sure there we go um and we
+should there we go so now we see let's ins insect it we see that we have dock
+this on the side we've got grids there but we
+actually want to see our section there we go there's our section so we have our Styles and then we have that MX Auto
+inner div that holds on to it so when our screen gets real big it's going to
+contain it don't don't mind the silliness there but yeah we can see it's
+doing its job and it leaves a little bit of padding on small screens that's exactly what we want great let's keep
+going so as I said before in order to create these 3D effects in react we're going to lean on a phenomenal Library
+Setting up Three.js Scene
+called react 3 fiber if you search for react 3 fiber in Google you will come up with this uh the website's a little bit
+tricky to type it's PM nd. RS I think it's po panders I'm not sure exactly if
+you know how to pronounce it let me know in the comments uh but basically you want to find this here because it has
+the handy npm install for you so it's going to be npm install 3 at types 3 and
+at react 3 fiber so we're going to copy that and we're going to go over to our
+third terminal and we're going to paste that right in there and that's going to install uh three which is 3js it's going
+to install types for us which is really handy and of course react 3 fiber now
+you can read all about it uh it has no limitations it's not slower it's just a wonderful wonderful library but before
+we leave these docks uh head over to dry and go to the documentation here because
+we also want some uh of the helpers that this fantastic Library also put out by
+the same folks uh will give us so we're going to go to mpm install react 3 dry
+right there D REI and a lot of these are just helpers that really just make it so that you can
+do so so much with so little time and so little effort um but go ahead and install that and you'll see exactly what
+we're going to use that for in a little bit and that should be it in terms of what we need to install
+here now we're just ready to create our component so because it's going going to only be used in the hero I'm going to
+collocate it right there in our hero slice folder um I'm going to call it
+shapes. jsx so remember I said we're not going to use typescript for this one just be a little bit too much now right
+off the Jump we're going to be using Gap in this we're going to be using um use effect use ref and use state so we're
+going to be saying use client at the top this going be a client component let's get a few of our Imports squared away so
+we're going to say import asterisk as three from three just
+like that import and it's be a named import so
+canvas and I think it was helping me yeah from react 3 fiber perfect uh
+import contact Shadows from react 3 dry uh also going to say float and
+environment from that same package and we're going to import
+suspense from react also use effect use
+ref use State that's all we're getting from react and last but not least we got
+to have gsap so import Gap from Gap there in uh the other library
+or in in the other component uh we didn't do a named export we just did the default I'll check and see which one we
+should do all right I just checked it out and import Gap uh named so let's
+change real quick um this one so I go ahead and wrap that in curly brackets it
+might not change much but it's just good to have the accurate thing that was in in our hero slice so
+going back to shapes. jsx we're going to go ahead and we're going to export a
+function called shapes and we don't need to worry about types for this one so we're just going
+to kind of keep rolling um not that it it's it's not going to take any props it's going to be a complete Standalone
+thing but just good to know uh return parentheses and then we're going to start with a div and then that div has a
+class name name and it's row span one row start
+one negative or or just you know hyphen mt9 aspect
+Square MD call span one MD call start 2 MD
+mt0 go ahead and close that div and then inside here we are going to use
+canvas and just go ahead and close that for now but we're going to give that a
+class name and we're just going to say zyphen Z we'll explain in a little bit
+why we're giving that a zindex of zero uh also this is going to have
+shadows um we're going to say GL equals double brackets and anti-alias
+false so just some uh styling for the webgl aspect of this uh
+DPR and some of these we're just getting from examples off of the site so we're
+not going to get into the technical aspects of this because that could be a whole video um but then the camera this
+is going to be uh kind of important in a little bit we're going to say that that is at uh double curly bracket so
+position and we're going to say zero on the X zero on the Y and 25 on the Z axis
+there and uh we also don't want to exit that object yet to say field of view is
+going to be 30 that's dealing with the camera Apper or the camera um like lens
+essentially near is one and far is 40 That's um how close are the things that
+it's rendering and how far away will it render things so we are going to use suspense
+here fallback equals null this is react suspense um if we were loading things
+this would be like a must have here it's just just good practice um we're going to have a
+component called geometri we don't have that quite yet so let's actually just hold off on that for a sec uh contact
+shadows I'm going say position and it's going to be underneath the objects that we're creating so this
+contact Shadows is a handy helper from Drive so we don't have to go and create our own Shadows it's really nice to have
+is that is that spelled right position yeah posi there we go position uh 0 comma -3.5 comma 0 so it's
+going to be just underneath our objects opacity is
+0.65 scale is 40 uh
+is one and far oh there we go one and far is going to be
+nine and you can tweak any of these to your heart's content it's always the
+case you have my explicit permission so next environment we're going to say
+preset equals studio and this is going to do some nice
+lighting like this is just like pulling a gorgeous lighting setup out of the box it's going to save you a lot of time all
+right so we are good there we shouldn't really see anything uh partly because we don't have this imported yet so let's go
+ahead and import that going to say uh back in our hero component we're going to say
+shapes just like that it's oh right because it's not actually in components it is right next door it is here um
+export function shapes why is it not happy ah cuz it's not used that's why
+that makes sense so we want to use that I believe
+um just about yeah so um as a child of of this grid element so we have bounded
+then we have this div just inside there we want to say shapes just like that now we shouldn't
+see anything but we should be able to see it in the Dom if we inspect so let's go ahead and
+inspect we have our grid we have our call start oh it's reloading oh here we
+go we're getting yell that element type is invalid you got undefined to export your
+component let's check that out oh we just need to say default here or you
+could do a named export up to you how you want to do it um so we should see if
+we inspect that's getting into the spans we have an H1 we have here our row span
+and we should see a canvas somewhere here we go so we've got our canvas we just need to add shapes to it now let's
+get to it so underneath our shapes function we
+want to create a new one called geometries and this is just going to be
+essentially where we put our geometries so uh open that function and say const
+geometries equal to and it's going to be an array and this is where we get to kind of um set up those different shapes
+that we have on the homepage here so this is going to start out as an object
+well it's it's going to stay an object and we're going to say the position and we're going to say 0 comma
+0 comma 0 that's going to be right dead center um R is going to be how is going
+to be the rate at which it spins so for this one I'm going to say 0.3 and then
+geometry is going to be a new three all caps. IO ioan geometry uh
+let your Auto complete help you out there uh that's not one I'm going to win on a spelling B um and for this I'm
+going to put a little comment at the end because I always forget which one's which and going say gem CU it kind of
+looks to me like a gem this is a soccer ball to me this is like a diamond I know a diamond and a gem are the same thing
+this is like a pill and this is a donut so it'll just help you remember it if you're into like Dungeons and Dragons
+this is always also like one of those dice that you roll uh but yeah gem I'm
+just going to put that there so just to get something on the page let's just work on this one so come down here say
+const materials and that's also an array and I'm going say new three all
+caps and I'm going to say mesh normal material this doesn't take any arguments
+it's a nice simple one and then what we're going to do is we're going to map over these arrays and
+we're going to pass that to another helper function that we're going to create called just geometry so so
+geometry will render a single uh element a a single mesh with
+its material so pass to Geometry so let's come down here and we're going to
+create uh function geometry and that is actually going to
+take some props it's going to take R position geometry sound effects uh we can hold
+off on sound effects for now but but that will come uh materials and that's it for that and then we're going to say
+uh we're we're going to create a ref so say const mesh ref equals use
+ref just like that we're going to uh use state so
+const say const visible and set
+visible and use state and that's going to start out as false then we're going to say const
+starting material is equal to get random material and that's the function we're
+going to create right now um and actually you know what it yeah yeah it's
+it's it's a very simple function but we use it in a couple places I believe so yeah we're going to uh abstract it into
+a function so function get random material and that can just live inside
+the geometry function and that's just going to return and this is really fun because we get to use one of gap's
+utility functions that I love gap. utils do random and random is wonderful
+because it can just take an array and it'll return a random item off
+of that array so we're just going to take the materials array which now has one thing and give us a random
+material then we're going to create another function here called handle
+click and that's going to take an event and from that we can get the mesh
+so con to mesh equals e doob then we're going to use another one
+of our uh Utilities in in a little bit to get um one of the sound effects to
+play but we don't need that right now so we're going to say gap. 2 mesh.
+rotation that is what we're animating right I'm say comma and then we're going to tell
+it what to do to that rotation so rotation uh if it if it were typed um
+you would see that there is an x a y and a z on it if you want to you can log out mesh rotation and see what it looks like
+um but we are going to get that meshes rotation and we're going to animate it so I'm going to say x and I'm going to
+give back ticks because I'm going to add some things in here so I'm going to say Plus equals and then dollar sign curly
+brackets and then we're going to do this once again we're going to say Gap at utils this is just random left and right
+this is how we got all those random effects um when you click around and yeah that's really all you
+need for That Is Random 02 so it's going to pick a random float between uh 0o and
+two and that's why it is rotating by uh 2° in any of the directions I'm going to
+copy this and paste it two more times instead of XXX I'm going to say Y and Z so that is
+how um our shapes are rotating on those three axes uh kind of in a random way
+sometimes it'll be zero so it won't rotate on the X at all or on the Y at all see how like that kind of got like
+three zeros essentially um but that one got you know at least a couple twos and because it's radians it's not
+actually going to be degrees uh two is a lot more than you might think and now we want to add some time to that so
+duration that's going to be 1.3 seconds e we want to do our
+elastic. out one and then in parenthesis one comma
+0.3 that's the ease that we've been kind of using and yo-yo is true uh yoyo let see if does it
+give us um it does not give oh that's not what I wanted there you go yo-yo true I
+don't think it tells us what it is um but basically it makes it come back to
+where it started um let me see if we actually need that though I'll I'll I'll
+check it out later that that might be unnecessary with with our current setup we will see um but now we want to create
+a random material for our mesh uh because this was clicked we're still in in the handle click so we're going to
+mesh. material equals get random material that's us using it one more
+time uh then we also want to encourage the user to click on it cuz if it's just
+a pointer they might not know that it is clickable so const handle
+pointer over just me an arrow function and this is going to be anytime they Mouse over we're going to say document.
+body. style. cursor equals pointer and so that it's not stuck like
+that forever we want to say uh const handle pointer out I'm going to just copy and paste this change a couple
+letters o u t work smarter not harder and then go back to default just like that so handle pointer
+out and handle pointer over now we have a use effect that that we want to do but
+you know what I'm I'm going to go ahead and skip to the part where we actually render what we're looking at so that
+we're not going to worry about this animation just yet but let's go ahead and return and we're going to say
+group position and it's going to be
+position and then ref is equal to mesh
+ref and then inside that group we're going to say float and we don't need to worry about
+importing these things because this is all going to be happening within oh wait wait actually float I think we are importing yes we are importing that U
+but there's going to be other things like mesh that we don't need to import because it's inside the canvas certain
+things when inside this canvas element um you can just add them and it will be
+taken care of but float we need that so speed oh speed is equal or equal to uh
+open curly brackets 5 * the rate uh float is one of the dry helpers Dr D not
+Dr y but dry uh sorry my German is Rusty
+uh rotation intensity is 6times the
+rate and Float intensity is going to be five times that same
+rate and inside here is where we want to add our mesh so mesh we have
+geometry uh and that's going to be geometry unclick that's going to be our handle
+click on pointer over see there it is
+it's going to be handle pointer over and on
+pointer is going on pointer out is going to be handle pointer out great and
+visible is going to be equal to visible see how easy we made this for ourselves and the material is going to be equal to
+starting material we don't need to worry about um anything beyond that it's going
+to be handled for us uh by our function the handle click should choose
+a new material but this is just to get us started all right so now geometry is
+returning a group group of geometry the the group aspect is just kind of like a
+div wrapper around this element um and then float is also wrapping around that
+but this will just help to position so that we can do whatever we want inside and it's kind of like having a relative
+element and this can be like absolutely positioned inside that and kind of bounce around so that's why we have
+these three elements even though it seems like we're just returning the one so now we need to use geometry and we're
+going to pass it the information that we want so we're going to say because we
+have this uh geometri array and this materials array we're going to say return geometries do
+map and that is going to take an arrow function and inside that Arrow function
+just go ahead and create that inside the arrow function we're going to destructure our uh props that that we're
+getting off of geometry is going to say position R and geometry
+and then inside the arrow function we actually make this into an implicit return so just make that parentheses
+rather than curly braces and we're going to say geometry and that's going to get a key
+because we are mapping so we need to give it a unique key and so to do that we need a unique key uh we we're going
+to say uh Json do stringify and we're just going to say
+position and that should give us a unique thing as long as you don't put two elements in the same exact spot that
+should be unique next uh position is going to be equal to
+position map and what we're going to do is just going to multiply this by two in order
+to kind of um change the the scale of this you it's not a big deal um but
+just you can try with and without and see why we're just doing that um it's
+just to kind of make the position more intense you don't have to like you can make more fine-tune changes uh then
+geometry is equal to geometry and sound effects we're going
+to get to in a little bit and we just need materials is equal to materials and R is equal to R and
+remember that's the rate uh at which we are turning maybe we could just call that rate next time but too late to go
+back um so that is all set we just need to
+now have geometries inside of our uh suspense so right under suspense
+say geometries you don't need to pass it anything just add that and we should see
+that's our final version we should see one shape if we did this
+right all right we're missing something ah we're not missing anything because we never set visible to true so
+let's see if we can just because we're going to set it to true in our use effect there we go all right so uh if
+you missed that go to Geometry uh start out as true and then you should see your
+cool little shape and if you click it it should uh show a cursor or or or uh show
+the pointer uh to encourage that click and it should bounce in a random
+direction or several random directions uh it's not Chang color yet cuz we just have the one material and we just have
+the one shape uh and you see that thick uh heavy Shadow there awesome so now
+let's go ahead and uh animate its entrance that that's the part that we
+were missing so change this back to false because we don't want it to be visible to start with we want to animate
+that entrance so just above the return here we're going to say use
+effect and it's going to take an arrow function and inside that Arrow function
+we're going to make a gap. context and that's going to take another
+arrow function I know it's lots of nested contexts and use effects and everything but that's how you do gsap
+with react um so now we're going to set visible to true in here and we're going
+to say Gap from meshref do
+current. scale that's we're going to be animating
+and we're so when we say from that means we're going to be setting um the
+beginning and we're going to let it animate to its current state so we're going to like setting like the the
+prequel and then it'll just animate to what what we have it set to uh in other spots so we're saying it's going to
+start out being x0 it's going to be very small on the x- axis y0 and z0 so it's
+going to be basic basically non-existence be crushed into an atom and this duration is going to be a
+random duration uh you you can just you know we we don't need to get fancy for the duration uh we can just say it's
+going to be a 1 second duration all right for the ease going to say elastic
+out we can probably copy it from somewhere else there it is ease is elastic
+out and we're actually going to do a little bit of a delay here and we can
+just say three say 3 and for that we should
+now H we're getting a little bit uh oh okay here we go we need [Music]
+to all right and don't forget to pass the empty array at the end here of your
+use effect and with that we should have our bounce animation in there we go
+perfect that's so awesome and actually we should say let CT CTX equal gsap
+context that way we can do our clean up at the end so um inside the use effect you want to say return and I'm going to
+say Arrow function and CTX do revert and that will do some
+cleanup awesome let's make sure that's still working there we
+go now um as we as we navigate to another page or do anything like that um
+we won't have that kind of sitting and taking up memory all right let's go ahead and add more geometries and more
+material so that we can really uh start to see this kind of get fleshed out first I want to start with materials because that's just easiest uh what
+we're going to do is to this array we're going to add another item and this is going to be a new three mesh standard
+material and this takes a couple of properties cuz the the mesh normal material is mainly to show the shape of
+of something see how it really um accurate well not accurately but it's clear what shape this is that that's
+what a a normal material is great for but also just looks cool so we can keep that in the mix um but then every other
+material that we're going to use is going to be a mesh standard material and the way you you can do colors in 3js is
+really interesting because you do zero then an X just like or is it even an X
+yeah it it is an X I wasn't sure if that was a multiply sign um and then the hex
+so that is actually just a hex right there and you can go ahead I have a site
+that I like to use it's called Flat UI colors.com it just has a bunch of nice
+colors and so I go into one of these paletes and I grab one of these and I
+just paste it in and remove that hex code and uh it works just great like
+that so I'm going to revert to what it was there you go and we're also going to
+pass it roughness of zero we can edit both of these values to get lots of
+different results so I'm going to go ahead uh so that we're not just typing this out uh and I want to let you choose
+the colors that you want and you can also mess with the roughness for each of those colors so remember these are all hex values just have 0x and it's going
+to be three mesh standard material and let's give that a save and I can click
+through and see how that's looking on our shape so already we have that purple we have green
+a different kind of green orange and we should have get back to that mesh normal material at times cool so we've got a
+few different materials in the mix um I've got a couple more where I actually added a third value and that is
+metalness uh I think as a default metalness is set to zero but if you set it to uh 05 or even one uh it gets very
+it it just looks very different I'll comment these out and we'll set these to one and you can see just how metal we
+can get so there's our normal but there you go so it's really picking up the en
+environment around us right um that's like a black It Is What It kind of ends up looking like so uh and and and for
+those you would have the roughness down um I I guess you could turn it up but anyway that's what I'm going to add in
+there um we have quite the variety here now totally up to you what kind of color
+palette you want to add you don't have to have all these random colors if you want to set like a specific color
+palette go for it this is your oyster but we definitely need more
+geometries if you go to the 3js docs you'll see that they have a bunch of standard geometries that you can grab uh
+and just invoke just as you need them so this is the capsule geometry kind of
+like a pill uh they have circles so cylinder is fine the ones that I think
+are kind of cool are these that's the do decahedron uh icosahedron we're going to
+be using that one one octahedron and a couple others we have a
+Taurus that is our little donut you can also do a taus KN that's pretty cool but I thought that would steal the show a
+little bit but go for that if you want it um and yeah we we've got some good ones you can do a box so these all come
+out of the out of uh 3js natively you don't have to like download a whole model or anything and they load super
+fast is the other thing I like about them so we're going to be using these so back in our geometries array I'm going
+to copy geometry that I have going to make a few clones I make four more so
+that's 2 three four five I have one that's kind of like the center and then
+the four around it so the next one we're going to do is the pill and that's going to be uh
+capsule capsule geometry and that takes three arguments um I think it's like
+radius length something else and something else but I'm just going to give you values you can go here and
+check out uh what you want and you can customize it how you want so uh I'm not going to take too much time on that 0.5
+1.6 2 and 16 so we are going to put that in the
+right position so we want one comma
+0.75 and on the on the Z we want it to be at four uh the rate can be 0.4 I I I I want
+the ones that um surround the centerpiece to be um a bit faster just
+because I I think bigger things should kind of move slower and smaller things should move a little bit faster and
+they're all going to be a bit smaller that three is the radius for that eosin um next we are going to change us
+to a do decahedron and that is also going to
+take just one value so it's 1.5 and we're going to say that that's a soccer ball if if you are not in the US please
+change that to football and leave your hate comments below it fuels me it keeps
+me alive uh position is - 1.4 uh comma 2 comma -4 the raate the rate I keep
+wanting to say radius so we definitely should change that R but we're too deep in uh is 6 uh next position we're going
+to say ne 0.8
+0.75 and 5 and this is going to be for our
+Taurus Taurus geometry and that takes several props uh or not props uh
+arguments 0.6 0.25 16 and
+32 and the rate for that one's going to be five and down here for the very last
+last one we're going to put it at a position of 1.6 n uh sorry also 1.6 so 1.6 1.6 and
+then -4 the rate is going to be seven and this is going to be an OCTA hedrin
+geometry and that is going to have the radius of 1.5 and this one is a donut and this one
+is a diamond that's just so that I can kind of eyeball it quickly and not have to
+remember which one a do decahedron and iosa hedron that that's just helpful for me if you don't want that that's fine so
+there we go look at that so we placed them just in in uh yeah in different
+places in in different positions if you want the dut to be over here you can just come and shift these around a
+little bit you'll see that if I like change that from a negative uh to a positive the donut is now over there so
+remember this one is is 00 right in the center so everything else is going to be
+moving kind of around that so put yours wherever you like them choose whatever shapes you want choose whatever colors you want this is yours all right so next
+Adding sound effects
+we're going to get our audio go ahead to kenny. NL ke n NE y. NL click assets
+going to go to audio and he has a whole bunch of different assets that you can use uh UI audio might seem good but it's
+actually just kind of like some boring clicks and stuff you can grab any of these and are helpful little
+uh samples that you can just listen to and see if there's anything in that pack that you want uh this one has like the
+the knocks and stuff so go ahead and download that it's Creative Commons you can use it and I already have it
+downloaded so here I'm going to take a couple of these and just drop it into our project in the public
+folder for you you should definitely give this you know a a listen to but for us I'm just going to go ahead and drop
+that in there let's see yep that sounds great uh let's give
+a medium one you can use as many as you like great love that and I'm going to do
+one more uh let's see is impact mining going to be good oh didn't mean to do that impact mining let's hear
+it sure that's kind of fun uh do whatever you want I'm going to go ahead and rename these actually I'm going to
+put them first in a folder say sounds so we have a little bit of work organization here yep we're going to
+move that and then I'm going to say rename I'm just going to say uh knock
+even though they're not all knocks I meant to say knock one knock
+[Music] one knock two and
+knock knock three excellent so now back in our shapes uh component we're going
+to just below materials we're going to say say sound effects we're going to say yeah sound
+effects we're going to do another array and in there we're going to say new audio and that's just going to be used
+the web audio API and we're going to say slash sounds SL knock one. OG just like that
+and I'm going to copy that twice remember you can use as many as you want but for this we're just going to use the
+one and or sorry the the three and now we need to pass that to our geometry
+where's our here we go so we're going to say sound effects is sound effects and then
+geometry should expect sound effects and with that we can pick a random one off
+as we handle that click so let's see we can put it right here we're going
+to say gap. utils random sound effects
+and we're going to say play just like that now we could move the this down
+into the geometry but I think I'm I'm not positive but I think that would create um one of these arrays for each
+of the geometries so we'd have three audios times the five geometry where here I think we're just creating the
+three by themselves so I I I think this a bit more performant but I'm not positive but now with that's saved let's
+go check out our page and let's
+see all right we are set before we uh take off though I just
+want to point out a couple of the things that are doing the real heavy lifting here uh geometries was all us well at
+least mostly us um float is what is spinning everything around so if you
+take float away the scene gets a lot more boring real fast you just get
+static not non moving elements right so float gives us that like cool little
+floating through space kind of feel where they just all kind of Spin and you can tweak these values and and the r uh
+to make them spin faster or slower you also have this environment so this is giving us an HDR which uh makes it kind
+of feel like you're actually in uh a complex lighting setup if we uncomment
+environment uh we see that only the normal map is still giving us uh anything back because that's what normal
+Maps do they're not dependent on light um but everything else is just dark because there's no light in this scene
+anymore uh but we uh also you have a bunch of presets here that you can use you can try any of these if you want to
+see what your shapes look like at sunset uh there you go it's to get like a warm kind of vibe to it U you can see like a
+little bit of Sky there so play with that if you want I'm going with studio and then uh contact Shadows give us that
+uh for free uh little hover that there to make it feel like there's more to this scene than there actually is so
+those are some of the things that dry is able to give us and there is so much more check out this package play with it
+there is a lot there uh 3js has never been easier than when you're using that
+package all right for this next section we're going to be looking at the Navar here if we look at the homepage it's
+Nav Bar
+pretty much done because all we have is the Navar this hero and then this footer
+now what you could do is you could actually bring bring in all these other elements and just have one big homepage
+you don't need to break it out into different pages but for the sake of this tutorial I want to show you how to do that but just know that if you want
+because these are slices you can go ahead and shift these all to the homepage and get rid of the multi-page
+layout that you have here so to get around our site we need a navigation kind of like this but right now we're
+not going to actually build out the nav bar we are going to create the settings custom type that allows us to choose
+what links go in the nav bar but we will style it and animate it a little bit later I want to get into some other uh
+richer animations first so let's go ahead and create this settings custom
+type so if we go back to slice machine we're going to head to our custom types and here we see that we don't have any
+custom types yet remember we have a page type for homepage but so far we don't have any custom types and here it
+explains custom types are models that your editors can use to create menus or objects in the page builder a menu is ex
+ly what we want so we're going to go ahead and create a custom type this is the only settings file we're going to
+need for this whole site so choose single type and type settings just like that click create and we're going to
+start by adding a field here we're going to choose a key
+text and we're going to just say name and this is going to represent the name that we have here in
+the menu so it's going to be the full name as opposed to using the first and last name that we have in the hero then
+we're going to go ahead add another field and this one is going to be a group so whatever we put in this group
+is going to be repeatable so we're going to go ahead and say this is nav item hit enter and then we're going to
+add fields to this nav item so we're going to go ahead and add a link and this allows our editors to link to
+whatever they want just say this is a link and then add field and this is going to be a key Tex this is a label
+for that link so go ahead and add that and we want to differentiate the uh CTA
+here that little button so we're going to go ahead and create a CTA link and a CTA label CTA
+link and remember this is not going to be in the group field because these are going to repeat that is what we're
+looking at here we can have as many of those as we want but we want the CTA link to be outside of that so that we're
+not getting one of those as a repetition as well create a key tab Tex and that's CTA label just like that and last but
+not least we might as well get this out of the way now uh we're going to capture URLs for these various social media
+links that we're going to have at the bottom here so I'm going to go ahead now that I'm in here and just say link and I
+right clicked going say Twitter link if you want to call it X knock yourself out that's fine uh
+another link we're going to say GitHub
+and if you want to add any um thing that matters to you more than LinkedIn go for
+that too but I think LinkedIn and GitHub and Twitter are probably safe ones to have
+you won't have to fill these out but they're good to have there so I'm going to hit save and then our custom type has
+been created or rather it's been saved and last but not least we're going to go ahead we we have our main tab already
+create a new tab we'll call this metadata or Co and metad data just like
+that we're going to go and create a new field this will be called meta
+title another key field and this is meta
+description and last but not least we want an OG image now if this were a page
+type we would already get these for free but this SEO and metadata is going to be what controls kind of uh the fall back
+it's going to go in our layout file um a little bit later so go ahead and hit save there we should have those three
+Fields there we should have quite a few here and you'll see in our changes we have to push those changes go ahead and
+push and we should be set we're going to create our second component go ahead and create a new component called header.
+TSX all right so here I've added some kind of default code where we have uh import react from react we have import
+create client from prismic iio and we have our client here and we are fetching
+our settings just like we're doing in our page in our homepage but this time it is a get single for settings then I'm
+going to add some basic classes to pin this to the top so I'm going to say top zero Z50 MX Auto Max with
+7xl and then on medium screens and above we want that to be sticky and then MD top 4 as
+well all right here we're going to say nav and an angle bracket just like that because we're we going to use EMT
+actually so nav and they going to say UL another angle bracket and then Li just
+like that if you hit tab those should all create there and I'm going to create a couple of these list elements actually
+I just need two and in this first one we're going to go ahead and we're going to say link this
+is going to be imported from next link we're going to say href is equal to forward slash because
+we want this to take us home we're going to give this an ARA label of
+homepage because our actual label for this isn't going to make much sense and then for now I'm just going to close
+that and going to put settings. dat.
+name so that should if everything worked great oh and uh it it it actually
+shouldn't because we have not imported this and we also haven't put any data into our setting so let's go ahead and
+first create a new setting and there we go so we should see
+all of the fields that we have from creating our settings I'm going to stick
+with my name here and say or not my name but the name I have here Andy Bryant so
+Andy Bryant the repeatable zone so this is that group that we created and right now
+we don't actually don't have any pages to link to so we can just leave that as
+it is and when we come back we will uh be able to add that but if I hit save
+and publish then we can add this header
+to our layout so um we should be getting that data name there so if we go to app
+and layout let's go ahead and put this above our body so I'm going to start typing header and it says import from
+components header and I'm just going to close that and
+if we save and refresh then yes we see our link to home right there so it's in
+the wrong spot we can figure that out but yeah other than that we are set
+let's actually see what's wrong why is it rendering down there is something with our styling perhaps ah it's because
+it's underneath the body interesting ah of course I meant to put
+it inside the body that's my mistake um so it should go body header
+children save that let's reload there we go that's what I meant to do apologies on
+that now in order to have some links to link out to we need to create a new page
+type so we already have our single homepage and now we want a reusable type we're just going to call this page and
+this is going to be the page that we build all of our other pages with about projects and blog will originate from
+this onepage type so we have have this here and it says add slices right always
+wants us to add slices we are going to go ahead and say create new and let's
+see which one we can create which one do we want to do next for me I want to do the biography one so here we have this
+biography it has this heading has this whole uh you know biography body has a
+button and it has an image so we're going to go ahead and create the biography one so say biography
+and we need the uid for the page um but
+yeah biography is here so click into your slice there and I'm going to say
+add new field I'm going to start out with this title so I'm just going to add a key text uh because we're going to
+wrap it inside a heading so title sorry uh heading is actually a better name for
+this so go ahead and and and say heading um all right add new field we
+are going to now bring in our Rich Text body here so I'm click on the wrong thing so rich
+text we want that right there and I'm going to say body or description can say description we also
+have a button that we want to fill out so we need a button text for the key
+text and a button button
+link
+great and no I don't want to simulate pops up a little too easy uh
+and then we want Avatar for an image great so now we can hit save
+perfect and then we just want to make sure that this slice has been added to our page type and yes it has because we
+actually made it from this page type so for biography that gets out of there uh
+this page type comes with an SEO and metadata uh tab with those three Fields
+already there I'm going to move the meta title up and here in main uh we have the
+uid and that's going to be basically the URL of our page so we're going to go ahead and push these changes we see we
+have a page and a biography push those up and that's great now over in prismic
+we have our document list go ahead and create new and it will create a brand
+new page page for us so this one we're going to do the about page we going to say uid is about and we should actually
+have a title here too so we'll do that in a sec I'm going to go ahead and add the slice and the only slice I can add
+to this page type so far is the biography slice um and REM remind me to
+get a uh snapshot for that it's it's it's already yelling at me back here uh no screenshot available we will get one
+in just a sec but I'm going to go ahead and say about Andy uh the description I'm going to
+pull right from my final version I had chat GPT write this uh go ahead and you
+know if if you're just doing this for fun you can have chat gbt right one for you but uh don't worry too much about
+the description just get something that's going to look kind of nice uh for button text we are linking to a
+fictitious resume I didn't actually put one there that's just a link to Google that's fine uh so resume but honestly if
+you are doing this for yourself it's a great idea to give everyone access quickly to your resume for
+us in demo world it's Google and then
+Avatar we can get a nice Avatar of this gentleman so I'm going to click select image we see that we get some stock
+images that we can use or we can go to unsplash for images but I'm just going to drag Andy profile over here and I'm
+going to select that and there we go we are set so I'm going to hit save and
+publish and just go up here and change the the name about page
+great now what we can do is back in our app we can link or or or display the
+link to that actual page so in our header we want to use this list element
+uh and link to that element I'm I'm going to say that again
+py we're going to now use this list element and map over all of the links
+that we get back from prismic so settings in Brackets dot
+data and then we're going to say nav
+item. map now of that we're going to destructure inside of our Arrow function
+and we're going to say that that well that gives us a link and a label and typescript is helping us out
+with that so inside there we are going to return that list item so I'm going to
+move it up in here and inside the list item we need a prismic next link to interpret that link for us so we're
+going to say prismic next link and that should automatically import for you and
+there we're going to say field is equal to link and that will interpret that for us and create the
+link and we are set with that right now so go ahead and close prismic next link
+it will auto close like that and here we want to put
+label and we're getting yelled at because missing key prop of course so
+here we can go ahead and uh I'm just going to grab the
+index and make that because this is going to be shifting around so we don't need to worry about using index for a
+key it should be fine so now we have the code set up let's check our settings document and actually
+link uh link to a prismic page and we're going to say we want to link to the about page I it gives a little bit of a
+preview there of what the content is there we're just going to say about and then we hit save and publish
+so if we come back here hit refresh there is our about page and if we
+navigate to it let's see what happen happens we should get a 404 oh wait we
+actually don't because it is still going to Nowhere it doesn't know where to go
+it doesn't know where to take us and that is because here in our prismic io.
+TS we have not set up our routes so big to-do here is update the routes array to
+match your Project's route structure so luckily we are building right in
+alignment with the recommended best practices so all you need to do right now is come in and
+uncomment that code and you'll see the homepage uh that type will take us to
+the root and then if it's a page type then we're going to look at the uid and
+then that will become the URL so now you should see when you hover over about
+that it's trying to take you to the about page if we click that we should get a what are you doing what's going on
+I I don't know where that page is and that's because we haven't created it we need an actual page uh inside our
+project so let's go and get some help from slice machine so here's our page
+and we have our page snippet right here and this a little bit like the one we used earlier but this is different
+because it is a repeatable page type so see how it says create uh add a new
+route by creating an app slid SL page TSX file and it is spoton with that it's
+exactly what we need to do so let's go ahead into app create a new folder
+brackets uid brackets and then another one page. TSX
+perfect go back and just copy this and we will talk about it briefly but for
+the most part you don't need to touch any of this this is some really excellent boiler PL plate that my team
+works on and make sure that you have to do very very little it's already
+fetching this page and if it doesn't find it it will throw the error for you like we are really going above and
+beyond to make this as easy as possible for you you just paste it in and we're
+going to render those slices for you so we now have this page let's go back and
+see if anything changes and it already has I was going to refresh but it already changed placeholder component
+for biography so we now have an about page it's not much to look at but it is
+there and it is working because we know we've added a biography component to our
+about page and that's great so let's get to work working on that about component
+because we do have some data in here and we want to render that so we're going to work on that in
+the next section for now just celebrate the fact that we now have a way to navigate around our app if only only
+it's you know a little bit ugly but we will get to it and you created a new page type and this is the page type
+that's going to do all of the other heavy lifting for us in our app so let's get into building out this fun little
+biography component all right so we've created our fields for the biography component now to make ours look as gorgeous as this
+About Page
+one this is the current state of it so let's head to our biography component it
+is a slice that was created for us by slice machine and it's ready to go first we'll start by changing the section to
+bounded import it from at components then we can go ahead and wipe out this placeholder content and we can
+create a div and I'm going to put. grid and that's going to save us a little bit of time when I hit tab it's going to
+create a class name with Grid in there already we don't have to type class name it's nice so we're going to say
+Gap hyphen X hyphen 8 Gap hyphen y hyphen 6
+MD grid calls and then you're going say uh
+brackets 2fr 1fr just like that so we're getting some special kinds of grid
+columns here thanks to arbitrary values so inside this component we're actually going to be using quite a few
+custom components that we will be creating let's go ahead and in components say new file I'm going to say
+heading different from header. TSX and because this is actually a component
+that we've built in a previous course and it's pretty straightforward we are
+going to go ahead and copy it from the GitHub repository that should be linked down in the description but also you can
+get just find it here at github.com ayen creative portfolio and we're
+looking in Source components heading. TSX I'm going to go ahead and select
+this whole thing and paste it in here and you'll see that there isn't a whole
+lot here that is uh new from what we've done before uh the types just have it as
+a union so you're able to pass any of these headings we have the default
+coming in as an H1 we have different sizes and those sizes determine which classes will get added you can see how
+clsx is really handy here it allows us to do this kind of logic and return those Styles based on what is chosen for
+for the size uh it takes children and we have a class name of string so this is
+our heading component go ahead and paste that in and or you can pause the video and type this in if you would like but
+honestly uh let's focus on the fun animation stuff that we're really here
+to uh make great so let's say
+heading as equals H1 size
+and oh I need to import this let me do that real quick quick fix add import from component heading cool now typ
+script will help us out a little bit so we can say uh XL for this one and I'll say class name is equal to call start
+one because that'll help us position it within this grid here and we want to
+close that and inside we want to say slice primary. heading excellent and
+just make sure that's closed that looks good so we have the heading in there now
+let's go ahead and create a new div I'm just going to say pros and this is something we actually need to install so
+hit Tab and we see we have this uh little Pros uh div right uh I'm going to
+say Pros XL Pros
+slate Pros hyphen invert and call hyphen start hyphen one
+so most of this isn't actually going to change anything but as soon as we install this plugin it will so inside
+we're going to say prismic or uh angle brackets prismic Rich text and we're
+going to say field is equal to slice. primary. body oh no sorry description
+there we go and we will oh I meant to close it just like that
+excellent and let's leave it there and let's uh see the difference that Pros will give
+to us so if we go to our live
+site let's see what we have all right doesn't look too bad we do see that the styles for the heading took effect and
+that looks great but I mean the type looks okay uh luckily Tailwind is a
+phenomenal um ecosystem and they give us a typography plugin that will help us
+throughout this entire site to make our typography great so if you search either on the tailan site or uh just Google for
+typography uh for tailan typography you will find this library and you see that
+all you have to do is put Pros on any of your text and it will make it better so
+go ahead down here to npm install T1 CSS typography and copy that and run that in
+your third terminal we love this third terminal we don't have to quit any of our other Dev servers nextjs is smart
+enough to know when something's been installed and re reload what it's working on so I ran that and it's going
+and we also need to uh add the plugin to your Tailwind config.js file so going to
+copy this bit in the plugins I think we should have a plugins aray already so I'll just copy that and down here in a
+Tailwind config plugins as an empty array for me at least and I'm going to paste that in and let's
+see the difference okay so looks really good let me just uh comment that out so
+that you can see the difference I'll put it side by side so you can
+see o right look at that huge difference
+so much nicer so that is what Pros does for us and so the reason we do invert here is that allows us to uh kind of be
+like in a dark mode because our site is essentially in dark mode that is what we're going to be putting every time we
+put Pros slate tells it what color theme we want and we're using slate everywhere
+and then this is the size so pros and the typography plugin is a really
+wonderful thing I highly recommend it uh they did a great job of just making typography really easy and they have a
+whole bunch of styles there so we we're we're done with the the typography for for the site at least in in that sense
+so next we need to create this link button it's not an actual button button but it is a link button for the sake of
+this site we're just going to kind of call it a button but go ahead and create the new component called
+button um and TSX and here we are going to start out by uh creating the button
+props for what this is going to take so type button props
+it's equal to link field and that is a link
+field Believe It or Not Right very surprising label is a key text field
+right there we have show icon and I'll show
+you what I mean in a sec that's an optional field and that is a
+Boolean and we have class name that's optional as well
+and that is a string great so now we're going to say export
+default function button and we're going to spread its
+props and in there believe it or not we have Link Field label show icon and
+class
+name and we're going to go outside that bracket and we're going to say button
+props all right so open some curly braces and type return parenthesis and we're going to
+say prismic next link essentially this whole thing is going to return a style to
+prismic next to link and it's just going to allow us to use it anywhere we want so field is equal to uh Link
+Field and class name this is really where we are uh doing most of the heavy
+lifting with this component class name is equal to
+clsx I need to import that did automatically great and open parentheses
+and we're going to have a string in here now this is going to be a bit of a long
+string if you would like to you can also go ahead and copy this one from our
+component over here you see how long some of these Tailwind classes get and just kind of typing them in can be a bit
+of a pain so if you want to do that go for it I'm just going to go ahead group
+relative Flex W hyphen fit
+items hyphen Center justify hyphen Center overflow
+hidden rounded MD border hyphen 2 border hyphen slate
+hyphen 900 BG hyphen slate hyphen 50 PX
+hyphen 4 py hyphen 2 font hyphen bold
+transition hyphen transform e out and however is scale hyph
+105 and then after that string we're going to say class name in case we want to pass in any classes on on top of that
+later and clsx will take care of it for us thanks clsx and with that we're going to go
+ahead and uh create some angle brackets and that will give us something
+to put inside person next link now here's the thing we want to make this cool little effect let me go back to
+page you can see hopefully um there's a little bit of the yellow at the bottom
+it's like a little you know maybe like a five pixel line and then as you hover we get a few effects where it grows but
+also the yellow fills the button and it goes back down when you stop hovering so we are going to be using a span to
+create this effect so inside of this pis next link we're not just going to put
+the label we're also going to create just a span that doesn't have anything in it so uh I'm going to say span.
+absolute and hit Tab and that just saves a little bit of time creating class name
+um inside ABS or alongside absolute we're going to say inset hyphen zero zyphen
+0 H full
+translate n oh sorry y hyphen 9 BG
+hyphen yellow hyphen 300 transition hyphen transform
+duration hyphen 300 e in out group
+hyphen hover and Ah that's colon group hyph
+hover colon translate
+y0 all right so let's see if that is working just yet um um we're actually
+not even importing it anywhere but I just want to get eyes on it so let's go ahead to back to biography and I'm
+pretty sure we are just going to go ahead and type button and import from
+components button pass that link field and it's be slice.
+primary. button link just like that and then label is
+slice. primary. button label or sorry button text and you got to close it you got to
+close that button so with that let's see what we've got over on our example all
+right we've got this button doing some weird stuff right uh that is because I
+think it's it's uh lining up in the uh grid not in the way that we we really
+want so for now I'm just going to remove this grid just by kind of like I'm going
+to add a character to it so that I'm I don't forget about it but it does break it in Tailwind so now Tailwind doesn't
+know what grid one is and it's just going to uh basically stack everything here so we see kind of what we expect in
+that there is no text inside it but we do see our little yellow effect working so that is a good sign and I'll I'll
+show you how that works in just a second but if we go back to button we
+still need to add our text here so go oh go ahead and create another
+another span this going to be uh with class relative so span.
+relative hit Tab and inside here we're going to have label and we're going to also uh check
+to see if we are showing that icon so show icon and and I'm going to say
+like uh I'm just have a string here that's just like an arrow we will
+install the react icons library in just a second
+and make it proper but for now if that's there then go ahead and show that that
+little arrow meanwhile on this ban next to relative we're going to say Flex uh
+items Center justify Center and GAP is
+two so if there's a a show icon then there'll be a little gap between label and that or at least yeah there would
+be ah and one thing we forgot we also need to put a text color here so I'm just
+going to pop it here text hyphen slate and we're going to go
+800 so now there we go we see resume as you hover it it fills up so let's kind
+of dissect how that little hover effect works if we remove or just mess up uh
+overflow hidden going to throw a little one on there just to break the Overflow hidden you can now understand this
+effect a lot better we have a little span that is the exact size of the button it moves all the way down uh if
+it or or or just about all the way down uh if it's not being hovered but if it
+is being hovered or rather if this group uh is being hovered then we translate
+this we we we move it um completely to where it it it belongs just like with
+with gap uh zero is kind of home base and the span like this is home for it
+and if we move it off then that is uh y9 that's just at the very bottom so let's
+bring back our overflow hidden and there we go nice little
+Effect one thing we forgot show icon needs to default to true so let's do
+that and we do see our crappy little arrow cool we have an arrow there uh
+that is not the arrow we are looking for so we're going to use another one of my favorite libraries it's called react
+icons and it is really great go ahead and copy or or you know first go to react icons. K.O or just search Google
+for react icons this will come up and grab that open your third terminal so
+reinstall everything and just install that uh it is wonderful because you get
+access to all of these icons but because we're using es6 Imports it allows you to
+only include the icons your project is using so you have quick easy access to
+just about every icon pack I care about uh but you only load in the ones that
+you actually are going to use so with that said uh that specific icon I think
+is called uh it's from Material design there we go and it is called
+Arrow outward there right there so you can go find whatever Arrow or whatever
+icon you want but I'm going to go ahead and import this and use it so they have
+little copy buttons there going to import MD Arrow outward and then use it
+right here and I'm going to give this a
+class name of inline
+block oh that's not how we do Tailwind hyphen block great so now that
+should look better than this at least there we go that's what we're looking for great so that button is set and
+you'll see that this is the uh same button that we use in the nav so it's a nice reusable component for you all
+right so back in our biography we're going to go ahead and bring in this image uh in just a quick kind of way so
+go prismic uh next image and we're going to say let's see what does it want us to
+do field is going to be slice. primary. Avatar excellent and then we can give
+this a style so class name is equal to row hyphen start hyphen one so this
+going to save us from that weird long button that we saw a second ago we're going to say Max with small or sorry Max
+WSM say MD colon call hyphen start hyphen 2
+MD row hyphen end hyphen 3 all right so
+all of that and then we're going to close our pris next image and because we
+have that Avatar uploaded we should see something similar to what we had before
+ah remember I broke our grid so let's fix that grid and cross our fingers and
+it is lovely this looks great this exactly what we are kind of looking for
+uh only thing is we don't have our cool little uh Sheen effect there but the
+rest of it spot on so to get there we're actually going to create a new component
+you can go ahead and create it right here next to biography you can hit new
+file and I'm going to call it avatar. TSX
+and I'm going to come back here and grab this this prismic next image and we're going to go to Avatar and start to build
+that out so we'll start by saying uh type is
+Avatar props that's equal to image and that's
+going to be an image field from prismic client and class name which is optional
+and that's going to be a string great now go ahead and create that function Avatar EX ort default function
+Avatar and we're going to say image class name and we're going to say that that is
+an avatar props type open this curly brackets and we have some work to do
+here but first we're just going to
+return that component I uh got from biography here so Avatar we don't have
+it so we're going to import it and it says I don't know what the slice is so we need just grab image and render that
+instead now that we have that we're going to go back to this and instead of pressing next image just say Avatar
+import that from just do/ Avatar because it's collocated here in biography I'm
+only ever going to use it in biography and then Avatar is expecting image and class name so let's change field to
+image and we are set let's see how that's looking and it is the same that's
+good that's kind of what we're expecting we don't have any fancy stuff on it yet I just wanted to refactor that image out to Avatar and we're looking good so
+we're going to wrap prism next image in a couple of divs first we're just going to say uh div and then I'm going to
+actually do a a a child div and now we have those two divs let's
+bring prismic next image up inside those and on the most parent div we're going
+to say ref is equal to component and that's because I need to create a ref here an import used ref
+from react so we're going to say const component is equal to use ref
+and we got it to autocomplete for us and or or rather Auto Import and we're going
+to start off with null there but we will use this when animating with green sock in just a few minutes so uh
+class name is equal to we're going to use
+clsx and parentheses quote
+relative height full and width full the reason using CS X is so that we can use
+that class name if we need to pass anything in all right now down to this div we're
+going to say class name is equal to Avatar you'll see why in a second why
+we're giving this a specific name not just uh using tailman classes but for
+animating with green sock it's going to be a little bit handy uh we're going to say aspect is square we want this to
+always be uh in in the one: one aspect ratio so aspect Square going to say
+overflow hidden remember this is the parent component or or yeah the parent that's going to wrap around that
+uh I'm going to say rounded uh 3XL border hyphen
+2 border hyphen slate hyphen 700 and then opacity actually uh you going say
+opacity hyphen zero but I'm going to mess that up with like a character at the end so that it's still visible but
+but we're going to turn off opacity when we go to animate now for our pris next image we
+actually want to get rid of of these um classes right here that's not what we
+want for this image we want to bring that back to biography if we didn't already but it is there so just make
+sure that your avatar here has rast start Max with small all that good stuff
+um while your actual Avatar component with with a PR next image here we can
+get rid of that and say Avatar image height or H is full
+with sorry Wy full uh and
+object fill a little bit different there Phil is that one and then iMagic perams
+so if you're using prismic all of your images come through the imagix CDN and
+that allows us to do some really cool stuff with it so we have the power of
+imageix which is similar to like Cloud Nary or any kind of image CDM you might be familiar with so we have a whole
+bunch of different things that we can do that those are not them actually thought those might be um but we are able to
+pass an object and I want to say that the quality should be 90% so that's
+going to be a nice high quality image and we'll just leave it at that for right now let's see if our Avatar is
+looking any better let's see you're importing a component that needs use ref yes so because we're using use ref it's
+saying hey that should be a client component so please go make that a client component let's do what react
+says so go up to here and say use client and that's good because we're going to
+be using green sock and doing lots of client-based stuff so uh no worries there all right so nothing too fancy
+just yet but we do see that uh some of our Styles have landed and it's looking pretty good now let's quickly build that
+little um highlight that we we passed over the front when people get close so
+I'm going to say uh do highlight and hit tab just to get that
+class name Quick absolute going to say inset zero to say
+hidden say w hyphen full scale hyphen
+110 b g gradient to tr that's top right so we're
+starting from hyphen transparent
+via white to hyphen transparent and opacity is zero and on
+medium screens and above it becomes a block and the reason we have that in
+Hidden here it's because I don't want that effect to be accidentally blocking on mobile so it only only works uh if
+you are on a bigger screen that that little shine uh wouldn't be great on mobile it might get stuck we're not sure
+so uh I hit save and so far did anything happen nope let's remove opacity zero
+let's just mess it up a little bit hidden F and let's see did that do anything doesn't look
+like it where are we missing it so F to
+transparent uh that's fine because that's part of the gradient hidden
+F we should be seeing this I think interesting all right it might be
+behind it might be something weird might be going on so we're just going to keep trucking and not worry about it too much
+um yeah even opacity here is fine and that should be yeah hiding it all right
+so we're going to keep going we're going to be handling the animation of the mouse moving back and forth with gap
+obviously so we are going to come down here after your component use ref go
+ahead and create a use effect you might need to import it from react open up
+the parentheses and create an arrow component and I'm going to say let CTX
+is equal to gap. context have I imported Gap yet no it's my first
+time uh oh not what I meant to do
+saap there we go Gap from gsap remember they like it to be a named export so
+wrap that in curly brackets and going to say gap. context and that also takes an arrow
+function so it's just the best way to do it so
+gap. from 2 and we're going to use that Avatar so
+Avatar and remember it's a from two so you pass
+two objects one for how it starts one for how it's going to finish so opacity
+is going to be zero and scale it's going to be 1.4 in that second object we want to say
+scale is equal to one opacity is equal to one
+duration is going to be uh 1.3 and then ease is going to be quote power
+3.in out all right so that is going to be
+what animates our Avatar but we like that's only going to handle it
+appearing not so much um moving back and forth let me fix some of these things
+that I broke intentionally and see if that Gap is working get rid of hidden
+two all right let's see see there we go it has a nice little
+fade in gorgeous that's looking really really good so now we want to give that
+that Mouse over kind of effect um some attention so we're going to go ahead and
+go back to our code after the use effect not inside it I don't think um no no
+still inside it and still inside the gsap context we want to um open that up
+and we're going to say window and remember because we're in use effect it has to be uh you know on on the client
+so on Mouse move we going to say that's equal to
+this Arrow function say e inside and return or or or um open the curly braces
+if parentheses exclamation mark
+component. current basically if we don't have a current component return because
+we there's nothing to do here my man uh next so const
+component react sorry rect and that's going to be equal to
+parentheses component. current as HTML
+element and on top of that we're going to chain that to get bounding client
+rect and with that we're going to say const
+component Center X is equal to
+component re. left plus component re.
+width / two awesome so that is our center for the X um we're going to say
+say let component percent equal to open curly brackets and
+then x e.
+clientx um talk about
+component going to copy paste this having trouble typing
+um and that's going to be divided by component re.
+width divided by two all right so that component percent is
+set now let dist from Center
+equal 1 minus math.abs component
+percent dox all right so we have a much better idea idea
+of uh how far our Mouse is going to be away from the center of the element itself not of the
+screen so typically a gap timeline is going to you know play with normal time
+but we can also have it so that other things can handle the uh the way that it
+animates so it's kind of like scrubbing on a YouTube video and making it go forward go backwards that sort of thing
+so going go ahead and say gap. timeline and I'm going to uh chain on top of that
+in a second but first we want to set up some default so pass an object defaults colon so
+duration is going to be 0.5
+overwrite that is a bit of a performance boost is going to be Auto but only for
+certain situations and then ease is going to be power three out
+just like that and we have that closed up um now
+we want to say dot so we're going to chain on top of this timeline I'm going to say dot
+two and we will say quotes.
+Avatar and we're going to pass that for a second argument in object in that object we have
+rotation and we're going to use one of the gsap utility functions I don't think we've used clamp yet I'll show you what
+this does so rotation going to be gap. utils do clamp and that's going to get
+uh -2 positive2 and five
+times component percent
+dox all right and for that the duration is 0.5
+and this is really important that we do this uh at the end here right after the
+second object we pass we're going to just put the letter or the number zero
+that is the position parameter that tells where we want this timeline to start we want this uh specifically to
+start at zero all right next after this to we're
+going to chain another one so to and I'm going to say do
+highlight and we're going to put a comma in there because we need a couple more or at least one more argument so open an
+object inside say opacity that is going to match uh
+distance from Center X dist from
+Center fix the opacity distance from Center minus
+0.7 uh the exposition it's going to be -10 + 20 time component
+percent dox can explain that in a little bit component percent looks good and then
+last but not least duration it's going to be 0. five it's going to be how long it takes for
+it to run but because of the way we're handling it's going to be a little bit
+different so coming to the end of this used effect we're going to put a comma and then an open array right
+there all right we're also going to put a position parameter right here so this all happens at the same time there's no
+delay on one happening over another and here I believe we are going to no right
+right here I'm going to say comma component because we need to pass it that ref so we can scope specifically to
+this component here and just like that we have our effect effect the only thing we don't
+have is that little shine let's find out why not part thing I found the issue I have via space white but not via white
+so there's nothing actually there that was um showing any kind of color let's see if that changes anything it doesn't
+but that was still correct all right so we have our little highlight effect this is looking great I
+it should if we go into any kind of mobile view yeah yeah
+we get a nice little responsive feature thanks to that CSS grid line that we had
+there we have our button our body nicely done all right so for this next section
+Tech List (Marquee Title)
+we are going to be creating this slice that I call the techlist and basically as you slide it into view each of these
+Technologies kind of centers itself and then goes out and it's a really cool effect that is completely scroll
+triggered it's going to catch some eyes and uh yeah we're going to learn some Gap scroll trigger to build this if you're
+not familiar Gap has a phenomenal scroll uh utility called scroll trigger you can
+check out gap.com scroll and you'll see all these cool effects that it's really uh can add
+a lot of delight to a site so it's a very very um popular very powerful plug-in and uh learning it is going to
+unlock a whole lot of cool features cool things you can do to your site and the nice thing is you already have it
+installed we just need to import it uh from Gap scroll trigger and then register it as a plug-in so let's go
+ahead and make that slice here in our page type we can go ahead and say add slices and we're going to say create new
+I'm going to call this Tech list and hit enter and there it is Tech
+list let's go ahead and get into it and if we look at the slice itself we have a heading and then we have repeated Fields
+with a Tech name and a color so back here I'm going to put a non-re repeatable field I'm just going to say
+heading and then here in the repeatable zone I'm going to say a key text that's called Tech
+name and another one that's called color so it's so Tech color so that's a color
+field hit save and we can go ahead and push these
+changes now if we go to prismic we see we're here in our about page I can click
+the plus sign here to add another slice and we have techlist here so I'm going to add that we see heading and we see
+our repeatable Zone going to add a couple of these items uh start off with
+what I use for the heading I'm going to write react react say nextjs for the next one
+I'm going to say uh Gap all caps there actually doesn't matter we're going to make it all caps and then Astro is
+another one I like you can add whatever you'd like though and and we're going to add a colors I went ahead and found all
+the colors uh react is 29 d8 FF nextjs is typically like black and white so I
+just went with straight white uh Gap has this uh 0 a
+e448 and Astro has ff7 e33 for its
+orange so I hit save and then publish and now if we go back to our
+about page we should not see the final version but instead the placeholder component but that's that's still a good
+sign it means that our slice is getting uh called in so if we go back to our
+project we see checklist is here and it's exactly what we expect it to be so
+let's start by pulling in our heading let say heading just like that I need to
+import that let's do a quick fix add import cool all right so in here I'm going to say slice
+dot have primary. heading all right so now we
+should here we go what I use let's go
+size uh let's say large for this and there should be as an H2 because we
+already have an H1 on this page and now we can actually map over the other items
+we have let's open up this slice we can see techlist and uh here we see slice do
+items and then the I Is Us iterating through because this is an array slice.
+items and then we'll pull Tech name and Tech color off of that so if we go slice. items. map we can uh go ahead and
+create our Arrow function going have an implicit return and we want Tech name
+and Tech color off of that so I'm going to destructure that so Tech color and
+Tech name perfect and then here for now we can just return a div and that will suffice
+for now so we'll just say div and we need to give it a key and actually we'll get the index off of this as well so say
+index and we'll not style it just yet but we can now just show the
+tech name and let's just log out Tech
+color those should both come out as strings let's see what we got there we go all right that's working now there
+are a lot of different ways that we can get these different um iterations of the
+name to show up but we're just going to kind of do it an oldfashioned way going to get rid of tech name and Tech color for now and we're going to use curly
+brackets I'm going to say array. from parentheses and then pass it in object
+and say length 15 and then outside of that we
+are going to just pass it an arrow function and on that we're going to say underscore because we don't need that
+first property and index because we do need that and make an arrow function
+that has an implicit return so parentheses there and we're going to say
+react if that's not imported already we need to import that there we go fragment
+remember if you are using um if if a fragment is the thing that needs a key
+you have to call react fragment otherwise you can just use the uh the handy little fragment notation but
+fragment is what we need because we need to pass this index perfect and then inside there
+we are going to generate essentially uh 15 spans as as we Loop over this array
+that we just created so I'm going to say span. te item and we'll be animating
+this later so giving it kind of a unique name and inside that we can put Tech name
+back perfect and we should see a whole bunch of react react react
+react cool so that's working let's go ahead and add some more styles to our Tech item so going to say
+text uh 8 XL font hyphen extra
+bold uppercase and tracking tighter
+messed that up t i g h t e r there we go and that's what we're looking for not
+not precisely what what we want just yet but it's looking good then back here we are going to also add a style property
+on here inside that object we're going to say color we want to set the color for
+each of these and if the index is triple equal to 7 and Tech color
+exists then we're doing a Turner so put a question mark we're going to return Ty
+color otherwise [Music] inherit and uh we're doing that just to
+kind of save a little bit of time because we're going to uh pass a color to the parent so we see Gap right there next
+isn't going to show up because it's already white uh we should see react there we go okay so next we we won't be
+able to see but B basically we're we have 15 items the seventh item is going
+to get uh the color applied so that is why we have these like that and then
+what we're going to do up here on this div with key index we're going to give this a class name and we're going to
+give this some Styles so go ahead and first say Tech hyphen row cuz we're going to be animating later and we need
+that uh MB is 8 Flex item
+Center justify Center Gap 4 and text
+slate 700 so that is looking much much much much
+better uh those kind of fall to the background and these pop out nicely now we just need the little
+circles in between each one and for that uh I'm just going to use
+a icon from uh react icon so I got the material design Circle you can say Quick
+Fix and it is helping me import that so import MD circle from react hyphen icon
+slmd and we're just going to put it there in a span and give it text 3XL and should see that yeah we have a
+nice little Gap there now um in between now I do want to point out this is the only one where we are not
+bringing in bounded as the parent component that's because if we do just
+going to show it as an example real quick um and fix this at the bottom if you bring in bounded uh we immediately
+get this issue where it's trying to Center things and uh if we add the class
+on this that we need class name equals
+wrapper actually we can leave that off um overflow hidden if we add that uh we
+don't really get the effect that we want because these are going to be continuously centered and we're going to
+run into some issues as we try to animate so instead we're going to change the uh we're going to leave
+this as a section make sure that change there and we're going to actually add
+bounded just around our heading because that's really what we want to align with everything else um I just care that this
+lines up with the rest of the things uh this is kind of its own full WI screen
+kind of thing though I I I want that to Trail off but I want the alignment for the rest of it so just bound it around
+your heading everything else is nice and open only thing we need to do is that this shouldn't be a section so we're
+going to say as div and actually change this heading to
+an XL and we also want uh class name
+mb8 let's give it a little bit of space and there we go so now we just need to
+animate it because it is static but we have the Styles down exactly how we want them ah but just before we animate let's
+um add a little bit of accessibility because we don't want screen readers to read out react react react react over and over again so up here let's add ARA
+label on on this div here and we're going to say Tech
+name and we're going to get yelled at I think oh wait it's not yelling at us
+interesting uh oh wait why is this do ah so yeah no it it is yelling at us
+just not where I thought it would so basically it's saying uh hey that's a key text field that could be uh a string
+or or null we're expecting a string or undefined so we're just going to say Tech name and if there's no Tech name
+we're just going to pass an empty string um or actually let's say undefined that that's even more
+appropriate so that's what we want so now um it should read out the tech name
+just once for everything in here and not react react react over and over again so
+if we go to the top because we're going to be running client side JavaScript on this we need to put use client right at
+the top there we're also going to import Gap import Gap or Gap from
+Gap and we're also going to import scroll
+trigger there we go from gsap scroll trigger just like that and then what we
+need to do right here about line 12 is say gap. register
+plugin and just pass it scroll trigger and now we can use it from um like from
+within gsap going to move my imports around a little bit going to bring bounded and heading down and that makes
+me feel a little bit better it's a little tidier so because we're using gsap in react we're going to be using uh
+gsap context and we're going to pass that component to context uh as a ref so
+or sorry yeah com component uh so const component is equal to use ref I think
+we're have to import that uh and just pass null and then down here we're going
+to need to say uh ref where is it on this section here say ref equals
+component perfect then here we're going to say use effect
+import that from react open that up pass that an arrow function and we're going
+to say let CTX equal GSP context so that's going to
+uh clean up gap for us when we're done and pass that an arrow function yes
+these are like nested layers on layers but uh it helps us stay performant and
+gives us really powerful animations so we're going to create a timeline in here oh uh before we finish here I want to
+make sure that we actually pass our component as the second part of GP
+context to make sure it is scoping to our component um and then right after
+that we want to say CTX oh sorry return and this is an arrow function CTX
+do CTX do cleanup or revert
+and that is clean up so instead of our use effect and our
+GP context we're going to create a timeline so const TL equals Gap
+timeline and that's going to take an object and anything we pass to the uh
+timeline is going to be defaults so for this entire timeline we want to add scroll trigger to this timeline and this
+is how we're going to do it so scroll trigger and it is typed so we get a little bit of help there scroll trigger
+takes an object and that is going to give us access to quite a few properties
+here on the scroll trigger docs you can see we have um a whole bunch of different things that we can pass to
+scroll trigger so no matter what you are doing uh scroll trigger is going to be able to handle it in some kind of a way
+there are a ton of properties that you can scroll through on scroll trigger and see everything that you need to you you
+need to be able to manipulate or or change uh to do your effect these two right here start and end are really
+important to learn about uh top top means when the top of the trigger and
+we'll we'll get in that a little bit hits the top of the viewport and that's just you know essentially your window so
+that's the trigger and that is the viewport let me kind of show you with a really handy property that you should
+add called markers true or just markers and we're going to say true this is
+something that you want to take off if you're uh launching it to production I've done that um but it it'll allow us
+to see exactly what we're working with all right we want to add a little bit of space underneath so that we can see uh
+the the scroll effect when we scroll out of view so I'm just going to pop to the layout and to put a quick div here and
+class name in here I'm going to say uh just height is going give an arbitrary
+value and say 500 view height and that should give us just a bunch of space
+underneath our component cool so now we we we got a whole bunch of space there that's looks
+good back in our scroll trigger object we're going to pass it a start and an end so we're going to say
+start and when the top of our trigger element which is the actual element that
+we are animating uh reaches the bottom of the viewport we want it to start and
+it's going to end when the bottom of our trigger element hits the top of our viewport
+that'll make a little more sense in a second and then scrub four and if we look at the green
+sock docs scrub is for smooth scrubbing takes one second or you know the
+property that you pass to catch up to the scroll bar and we can see it with and without uh scrub in a second but
+right now we won't really see any effect because this is just setting up our scroll trigger we need to actually pass it an animation on this timeline now so
+let's go here and we're going to say TL for timeline right that's what we named
+our timeline TL and we're say from two we're animating you know the before and
+the after so Tech row remember that is what holds uh
+one of our texts you know so so this is the row for react and the row for next
+uh going to animate Tech row and we're going to pass that in object and and
+we're going to say x now here's the thing we can do a a a function as a
+value with green sock another hugely powerful thing here because I want to
+animate every other uh row a little bit differently
+right I I I want this one to go left and that one to go right as we scroll so
+let's find that out specifically um I can pass this a function and in here I
+get index and every other one I want to have it go the other way so say
+return index modulo or percent sign to
+so if it's even then and we're doing a Turner so
+question mark Gap utils
+random and we're going to say between 600 and 400 and we're doing this so that there's
+always like a little bit of an offset I don't want these to line up perfectly and um otherwise we're going to do
+negative numbers I can go gap. utils random and say Nega
+600400 all right and it should format it just like that for me it's still saying heyy give me an another object please so
+we're going to uh animate it from that I'm just going to copy this
+object and paste it here because we want to do the reverse so we're going to say
+that this is now going to - 600400 so if if it is even right then
+we're going to animate from positive numbers to negative numbers and we're going to do the opposite if it is an odd
+number so if we hit save there let's see if we're seeing what we want to see aha yes we are so we see that as as
+I scroll it takes about 4 seconds for it to come to a stop so if I if I scroll
+I'm go 1 2 3 4 right uh if we change
+this scrub value down to one or even zero it's going to be a lot tighter it's not going to have that
+same uh like slow momentum if you change it to 11 we're going to be here all day
+right so takes a much longer time so change that to whatever you want I liked four
+it gives it a nice kind of like it gives it a bit of weight without it taking forever I like that and last but not
+least in here I'm just going to say ease is equal to uh Power one and actually
+helps us here it's typed in out it's a small difference but it'll just give it a little bit of a different
+ease nice all right now the only issue we have is that the trigger is actually
+the entire viewport so you see up here it says start and we go all the way to the bottom and it says end and that
+means that we aren't really going to be able to control how this uh acts if
+there's a whole bunch of stuff above it um it might already scroll too much uh but so we we want to change the trigger
+to be the just this element just this slice so I'm going to come in here I'm
+going to get well I can keep markers true I'm say trigger and that's going to be
+component. current and now we see that these
+markers get moved to the start and the end of our slice and then when we're pretty much in the middle of our slice
+they all align and then as we scroll away they go away and so on if if you
+don't like how fast these are moving you can definitely change them uh or you could adjust how much they move so up to
+you to tweak it how you like but yeah that's the effect and now we can remove markers now that we don't need them
+anymore um but if if you want to check it out you see scroller end it will stop animating right there and it'll start
+animating uh you know if if our window was a little bit different it'll start animating as soon as scroller start hits
+that start and they start moving already you can't see them cuz they're off screen but uh yeah that lines up real
+nicely so remove markers true and we are set there last thing I want to do I take
+a picture of our good version but I'm going ahead and screenshot that I'm going to go back to
+techlist going to say uh for screenshot going to update the screenshot paste
+that in all right I just reloaded and we have Tech list I'm going push that change and
+Hover and Scroll Animations
+then we should be able to see it when we go to add a new
+techlist there we go nice that looks a lot better gives our editors or you know yourself a good idea of what you're
+looking at and then here with biography we can quickly do the same thing so I'm going to just take a picture of
+this while we're on it I'm going to go to slices biography I'll update the
+screenshot there and then changes I'll have to refresh the page and push
+it there we we go push changes and yeah look at updates just
+like that all right so we're getting into this uh slice here this is going to be used for both blog and projects and
+we are going to be having this hover animation but also there's a scroll animation to help these uh items come
+into view once you have a lot of them so let's get started by creating a new
+slice so if we come over here we are in our page p type you can also do it in
+slices wherever you want to create the slice but I'm going to do it right here add slice create new and this one I'm
+going to call content index content index just like that hit
+create and then we're going to open this up since we're here let's go ahead and just
+uh create the thumbnail for it now and that way I won't forget later screenshot
+let's go update screenshot and paste that in cool so let's look at what we actually
+have here so we have this heading we have this description and then it looks like we have uh more fields that we
+would add to this slice but in actuality this is referencing uh a blog post so we need to
+create a couple of new types we'll start out with with blog um but we essentially
+need to create um blog posts like this and we need to create projects like this
+um so that we can reference them in this list so in our content index slice we're
+going to create a new key text in the non-re repeatable zone it's a heading going to add another field and
+this one's going to be a select so I'll explain this in a second but basically
+we're going to call this content type and for us we have two types of content
+we have blog and we have project uh I'm going to leave The Used
+first value default unchecked there's a little bit of a bug there sometimes so we're just going to leave that unchecked
+and we'll set it manually and then I also want
+a rich text for the description here so I'm going to say description hit enter and also I want to
+be able to set um this part here so this says view project and under the blog it
+says read more so I'm just going to call that like View more text so that's going
+to be a key text and say view more text that way it's not hardcoded we don't
+want that and last but not least I'm going to add a fallback item um we're
+basically going to have this image come from the blog post or from the project
+but just in case you forget to add an image uh it's nice to have a fallback image there so we're going to say
+fallback item image image here in our uh
+non-re repeatable field so fallback item image just like
+that let's go ahead and hit save and we can go ahead and push that
+change over in prismic we can see that ah we now have a Content index but we're
+not going to add that to our about page we're going to create a new page for that and let say create new
+and we are going to call this the blog page and here I'll just say
+blog and add slice going to go in ahead and choose our content index and give
+this a heading of blog basically going to make it match this uh I already about
+what I've learned so others can benefit oh oh and uh content type I'm going to choose Blog the description is that uh
+the view more text is read more you can put whatever you'd like and fallback
+item image let's just find a cool uh Tech kind of fallback image uh that's
+that works for me nice so I'm going to hit save and
+publish great so now because this is a page type um and the uid is blog we
+should be able to go to blog let's type it manually and there we go place holder
+component for Content index we got it there uh let's get this added to our nav
+up here though so to do that we're going to go back to our settings and I'm going
+to uh add a new item in group once again I'm going to do a link to a prismic page
+I'm going to choose blog and the label will be
+blog save and publish great so now we should see it there
+there yet it's overlapping but we will fix that in just a sec in your slices you have a Content index go ahead in
+there we're going to do it what we do best and change this to a bounded element just like that that
+should be good we're going to bring in that heading just like that and we're going
+to say inside slice. primary dot heading uh we're going to say this
+is a size Excel and class name is going
+to be uh margin bottom 8 all right now
+we want our description text to be optional you don't have to fill that in but uh it's nice to have it there so
+what we're going to do is we're going to actually import is filled from prismic client so go ahead and import that there
+and we're going to say dot because we need to tell it what type of field we're working with Rich text
+and then we're going to pass it the description field slice. primary. description and if that returns true say
+and and parentheses we're going to pass that or we're going to return a div the
+class [Music] name of Pros Pros XL Pros invert and
+margin bottom mb1 just like that and then inside there
+we're going to say prismic Rich Text
+field is equal to slice. primary. description so we check to see
+if that is filled in if it is we go ahead and uh return a div that contains
+that item why is it yelling at me um ah I didn't close my prismic rich text
+that's why all right so that's look looking good there let's see if we have
+our result here looking great excellent so now we want to go ahead and make our
+content list that contains all of our elements but what we're going to do so that we
+can um have a use client component we're actually going to create a second
+component um and that's what's going to do all the animations and things so that we can statically render everything else
+so going to going to go ahead and say content list . TSX and it's similar to content index
+but this is what we're going to reference here and to create uh I have a little snippet for react functional
+component and going to go ahead and create just basic functional component there so I can import it here so I'm
+going to say content list and this content list is going to get um a few things passed to
+it and the reason why we we don't want to make this into a uh use client slice
+is because we're going to be doing some fetching from within this slice and it'll be much better if that happens on
+the server than on the client you'll see what I mean so for now I'm just going to close this content list and we'll be
+passing it things shortly but for now we see that we have our content list there so uh we need to not only get the slice
+that is you know what what we automatically get in for for every slice we already get the data that we input
+but we need to fetch blog posts and projects from our prism repository
+because we're going to be displaying all of those here's this the the the thing though we don't have blog post or
+projects yet so before we can fetch them we need to create those page types so
+let's go ahead and create a new blog post page type so create a reusable type
+and says product landing page blog post that's exactly what we want blog post just like that we're going to hit create
+and we are in our blog post type now for some reason um we can't get
+to our uh main fields and everything because slice machine is really encouraging us to build slices here uh
+so we we don't want any of the slices that we already have in our blog post so I'm just going to say cancel there but
+we can go ahead and just create a quick uh text block for our blog posts that we will be
+able to use it's just you know going to be this thetick standard text field that we're we're going to be adding to our
+blog post but now we get access to our main and our SEO and metadata we can leave this how it is that's fine I like
+Shifting the title up but other than that SEO metadata is good to go in main though I want to add a few things so
+first I want to add a new field I'm going to make a key text and this is going to be title and that will be the
+title of our blog post when I click add I'm actually going to move the title up as well because the person MC editor has
+a cool thing with uids where if uh if we fill in the title first the uid will
+automatically propagate I'll show you that in our editor in a sec I also want to add a date where is date there it is
+put date and a uh a hover image you can
+call this what you like but I think hover image is a nice descript descriptive uh phrase for that and that
+is all we need there so going to hit save page type successfully saved excellent and let's go ahead and do the
+same thing but for projects now so reusable type instead of product going
+be project and this is like any kind of like to-do app that you make any kind of thing that will look good to an employer
+or just to anyone in general if if you're freelancing uh you would fill in you know a little case study about your
+uh projects that you've done so text block going to click add and then we want to have pretty much the same
+information here um just to you know it it's it's information that is relevant
+to both blog posts and to project so title we want a
+date a hover
+image and so move the title above uid and that should be it so save and we oh
+and I added my text block to begin talking during that but now we have projects and we have blog posts two new
+page types um and we have our new text block uh let me update that screenshot
+real quick I'll just go in here and grab some text uh but it's better to have screenshots than not to have them just
+makes it look better so there we go and now we can push all those changes up to
+prismic Great those have been pushed and we are good to go in prismic I'm going to go back and create a
+new item and here we have several choices now we we could create a page we
+create a blog post or a project so I'm going to go create a blog post that's what we're working on first this is just
+for an example I'm going to use what we have uh over in the demo site so
+mastering JavaScript animations as I type here you see the uid gets filled out for me if U ID was first in this
+list that doesn't happen so I recommend putting the uid at least second let's
+say I wrote this on you know November 9th and the hover image I'm going to
+grab another unsplash image Tech and yes that one so that will be the little
+image that pops up when we hover and uh here we can put some tags and you're
+you're going to want to do this just to you know keep it organized and help people see what this uh blog post is going to be about so I'm going to say uh
+it's going to be JS hit enter and then uh animation and those are the tags for
+this blog post I'm going to call this uh the title here and save and
+publish great so now we have a blog post that we can fetch let's go ahead and make one
+project uh so that we have a project that we can fetch so create new
+project and you know this is like a to-do app or just just say um book
+Library app perfect and I'll say this is you know has a tag of
+JS uh and react and
+nextjs and I created this way back in August and the hover image let's just
+put Library into unsplash and that looks
+great cool so now we have this I going to say
+copy copy that and we are set there cool so now we want to fetch um all of our
+projects and all of our blog posts so let's head back to our uh content index
+slice now because we're using react server components will'll be able to fetch from within this slice uh where
+previously if you're using the pages router you would have to fetch back on that page uh using something like get
+static props um and if you didn't do it there it would always fetch on the client and you
+really don't want to do that that is slow that uh hurts your SEO there's just a lot of downsides to doing that
+so if you need to figure out anything about fetching um data from prismic you can check out our documentation it is
+fantastic but I'm just going to walk you through what we need here so const client we're going to instantiate a
+client say create client and that should be from
+prismic IO um I I know it's a little bit confusing here but we want the local one
+that is that gets created inside prismic .ts because this one this create client
+um already has all of our stuff baked in it it has our our routes our our fetch
+options um it knows what repository we are fetching to so all we have to do is
+just call create client just like that make sure you put the parentheses at the end to to call that now we have a client
+so we're going to say const blog posts equals 8 and we're going to get yelled
+at I think but that's fine client. get all by
+type and we're going to say get me all of the type blog post and see typescript
+the the auto types that um slice machine generates are so so handy uh saying
+what's going on you can't await inside of a regular function this content index
+is just a typical function so we're going to go here just after the equal
+sign and say async and the other thing is you can't create async um use client or yeah you
+can't create async client component so another reason why we want to fetch here and have this content list be a client
+component uh and here it's saying whoa this is not a jsx element anymore so you need to say promise
+angle brackets jsx element so it's a promise that returns a jsx
+element all right and copy this line and instead of blog post we're going to do
+projects and same for
+here great so this will be an array of projects uh it says cons projects any
+but that shouldn't be the case all right I just need to D types through to rebuild and they did so we
+have our blog post and projects so now we have our content type that we want to get off of this slice we say const
+content type is equal to slice. primary. content type just like that and
+I'm going to say if uh if no content type right so if if it
+comes back as undefined or null uh we just want to return null so that this
+won't continue to render anything actually even better than that
+so we don't have to change our types let's just fall back to blog say say or
+blog there we go so it's we're either going to take you know what uh we enter
+or we're just going to fall back to blog and display that as a default so now we want to get the items uh between blogs
+and projects that we want to pass to our content list going to say const items
+equals slice. P or uh content type is equal to
+blog had it there if if content type is equal to
+blog then we return blog post otherwise we return projects great
+so now we can pass this items uh uh array to our content list I'm going to
+say items is equal to it items just like
+that I'm also going to pass the content type through so that we can um route properly with the with our URLs so I'm
+going to say content type is equal to content type we also want to pass our view more
+text and that's equal to slice. primary. viw more text and last but not least we
+want our fall back item image
+that's equal to slice. primary doall back item image great now
+it's yelling at us because hey this uh content list doesn't have any of these types on it that's fine we're going to
+add them in just a second so in our content list we can go ahead and remove that if you had it I mean if you have
+the Snippets go for it um and we're going to create a UL we're going to type
+UL angle bracket Li I angle bracket a
+angle bracket div and we can stop there now hit Tab and all of those should
+generate for you now this parent div here we could turn this into a fragment if you want uh I'm just going to leave
+it as is here and we'll get the Styles in a second but just after the UL go
+ahead oh actually we need to import our items first so let's get our
+props we'll take in items content type
+fallback item image and view more text
+and for that we can just put a default of read more in case someone doesn't fill it out
+in case you forget right um like we already we're already defaulting to blog so that's fine now we want to create a
+type up here for content list props that's going to equal in objects I say
+items and that's going to be uh we're going to say content
+uh yes I'm going to import that from prismic io. client or uh SL client
+content. blog post document that is autogenerated for us that's not like an
+official thing from prismic that's just one of our autogenerated types we are we're saying that items can be an array
+of blog post documents or content. project document array so it can be an
+array of either of those two things all right next line content type it's going to be a
+content. Content index slice I'm going put angle bra or not angle brackets
+square brackets there and say primary and then another set of square brackets right after that with a string that says
+content type just like that and once again typescript is helping me out a bunch all right next is
+fallback item image and that's going to be another uh go ahead and copy all this
+uh it's be primary and then fee uh fallback right there fallback item image
+just like that and we can do the same thing with the view more text v e w m o
+r te XT few more text just like that um and
+we're getting out at here because we haven't said that these are content list
+props perfect so now we know what each of these are so just inside your UL down here now
+let's map over the items so I'm say Items Map parenthesis going to pass this
+an arrow function and we're going to D structure or or or or we're just going to take the the uh the item and then an
+index just like that and then we're going to return this Li so bring that
+down and wrap that Al we can say the key here is going to be index
+X and here next to our div or now next to is important so I'm going to say next
+to that div we're going to make a span and this is going to be the
+view view more text put that right there
+and inside this div let's open this div up now inside this div we're going to create a span and that's going to get
+our item dot data
+tile perfect and just after that span let's go ahead and create uh a container
+for our tags we going to make a div and inside that div we're going to Loop over
+our tag so item. tags.
+map and that's going to take an arrow function and it'll be tag comma
+index and here we're going to return a span that span is going to give us the
+tag and also have a key of index all right let's see what we've got
+over in our page so mastering JavaScript animations we're not seeing any tags
+there wondering if that's an error on our side but we do see this read more um
+and that's looking good overall it seemed that our tags didn't take so I'm
+going to say JS here I'm going to say animation
+there maybe I didn't save and publish it not sure now we should see something there
+for our tags JS and animation good let's go ahead and style these items real
+quick and then we'll get to the uh fun image hover stuff so for the UL I'm going to go ahead and give that a class
+name and so going to say grid border hyphen
+B and border B hyphen slate 100 and that gives us just a border at the bottom of
+our unordered list so the very very bottom of it and then for our Li we're
+going to come in here and say class name is list item CU we're going to animate
+this in a little bit and opacity say zero and I'm just put a little letter there so we can still see
+it as we work on it but uh that'll be a reminder to fix it up um for for the
+anchor element uh we're going to go ahead and just give this a class name equal to flex Flex column justify
+between border t for top border hyphen T hyphen
+slate hyph 100 and padding on the y axis
+10 text slate 200 and MD Flex
+row all right let's see what we are looking at yep looking much better looking more like what we're
+expecting and let's go ahead and check out this div so this div is going to be
+wrapping around both our title and our tags so class name is going to be flex
+and flex call all right so for this spam
+give this a class name and these styles are going to be text 3XL font hyphen
+bold you know what let's uh let's put these side by side that's a little bit easier so you
+can see our improvements as we go don't to keep flashing back and forth cool so have that span um
+next to the div that wraps our tags we're going to say class name and it's
+going to be Flex Gap hyphen 3 text hyphen yellow 400
+using 400 or sorry uh yellow as like our accent color overall uh on this we can
+also add some text Styles we don't need to put it on the span we can put it here so I'll say text hyphen LG and font
+hyphen bold there we go looking good then down
+in our view more text span we say class name ml Auto
+Flex items hyphen Center Gap 2 text hyphen
+XL font medium and MD col
+ml0 excellent and we just want that little arrow effect there so we're going
+to grab that same arrow that we had from before so we going to say MD Arrow
+outward and import that from react icons or sorry uh yeah yeah from react
+icons slmd so it should look just like that next we're going to get the uh URL
+prefix that we're going to link to so I'm going to say const URL
+prefixes equal to and then say content type equal
+to and can say blog if so then our URL is SL blog otherwise it's slash project
+I'll change this from prefixes to prefix just like that and then with that URL prefix we can come down to our anchor
+element change this to curly brackets and we're going to say URL prefix
+plus and then in quotes little slash and then plus post or item.
+ID or should be U ID my fault uid very important distinction there those are
+not the same thing so now if we hover there we get blog slm mastering JavaScript animations and we will put
+that um route there in our in our actual uh nextjs project soon but right now our
+URL is working uh an important uh nextjs note you want to change this to a link
+so that we get some of the benefits of next link so go ahead and change that and we're set last but not least on this
+link element we want to make sure that uh our accessibility is on point right
+now this link link has a lot of text inside we have view Mower and all of the
+tags and everything and really we just wanted to say the title so I'm going to say ARA
+label equal to PO uh item. data. tile or
+empty string if this doesn't exist um really actually you know what instead of
+doing empty string here let's catch this uh before this even happens so let's
+come up here and make this a fragment just like that yeah it's not happy so
+let's move that fragment underneath the list item and we're going to
+say is filled import that from pris client and this is going to be a key
+text and we're saying item. data. tile
+if that's filled we're going to say and and and we're going to return this list item so
+only if that list item is filled do we get anything so we don't need to check
+to see if title is a string it has to be a string at this point if if we got to this stage that's a much cleaner
+implementation we don't then have a whole mess on our hands all right so now that we have our list displaying the way
+we want we're going to go ahead and start to add our animations uh at the top here I'm going to create a use ref
+so const component equal to use
+ref and we're going to set that to null just to let you know I am imported use
+ref and we're going to set that component to this div refs equal to component right there we immediately get
+yelled at and yes that's right we need to set this to be a use client it's now
+a client component that will run on the client cool it's happy again now we want
+to to create the element that we're going to be animating so I'm to come down here uh just after the UL I'm just
+going to leave a little comment it says hover element so that we know what this is later uh and say div class name and
+we're going to get a a whole bunch of styles in here um so yeah just get ready
+to type here we go so hover uh reveal is what we're calling this and this is
+going to get a pointer events none so that clicks don't really affect it absolute positioning
+that absolutely uh left hyphen zero top hyphen Z negative zyphen 10 so it's a uh
+negative Z index we're going to say height is just an arbitrary value of 320
+pixels let's put those curly brackets around it I'm going to say the width is another arbitrary value of
+220 pixels uh doing rounded
+LG BG hyphen cover BG hyphen Center opacity zero and
+transition background oh I need to put that in Brackets
+background and just if you're ever using arbitrary values uh you're going to want to hover over just to double check that
+uh it understood and is doing what what you expected and duration hyphen 300
+excellent now I need to close this div there we go uh we also need to add a
+style to this and I'll explain why in a second uh why we're not just adding this
+as an arbitrary value so uh style is going to be equal to an object so double
+curly brackets background image and we're going to say
+uh what if say this is an empty string for right now CU we need to uh do a couple of things for this but um the
+reason why this is going to be a style rather than like a BG image here that we
+just do an arbitrary value on is because if you are using Tailwind you can't have
+um D Dynamic strings passed to it that it hasn't seen before so we we couldn't
+like make this uh a dollar sign kind of thing and uh just say like image because
+Tailwind needs to be able to uh process those Styles ahead of time we we won't
+be doing that so we're we're going to lean on style and it's totally fine but what we're going to be using here is an
+array of of of images from each of these
+uh either blog posts or projects so we we need to create an array of images and we also need to understand what is the
+current image being hovered so to do that first we're going to come up here and create a little bit of state so I'm
+going to say const and I say current item comma use or or sorry Set
+current item that's going to be equal to use
+State and that's just going to start out from null but we need to type this because it's going to be able to be two
+different things so between Ed State and the parentheses we're going to say null
+or number so current item is going to be uh the current print one of these that
+is being hovered over and we have that now we want to create that array of
+images so we're going to say const content images is equal to items. map I'm going
+do an arrow function I'm going say item then in here we're going to say
+const image is equal to we're going use our is filled
+Helper and I'm going to say do image I'm going to check to make sure this is that
+this exists so item. dat. image and if it does we're going to use
+that for image otherwise we're going to use our fallback item image that we set in our uh in in our slice so we to say
+item. dat. image or fallback item image
+perfect then we are going to use um a great helper from the prismic uh SDK
+called as image source so I'm going to say return uh so we're going to add to the array as
+image source you'll see it here from prismic client we're going to pass it the image
+and we're going to pass it an object that has some properties on it and this allows us to use the uh transforms that
+imagix the image CDN that prismic uses to change the way that our actual image
+looks so it's it's kind of like having Photoshop in an object so we're going to say fit it's going to be crop we're
+going to say that the width sorry W is 220 height or H is
+320 and uh we're actually going to darken the image a little bit we're going to reduce the exposure
+by 10 so we're getting y that here what's the issue image does not does not
+exist on type simplify we can check that out in a second just just before we launch we'll
+we'll take a look at that um but yeah so we're going to be getting this image back with these changes done to it
+either the fallback item or the image for this blog post so content images is
+now here can go down down to our background image and change this uh from
+just the an empty string we want to check and see is current item null
+and if if if if it is null we don't want to show anything otherwise uh we we we
+want to show our image so I'll just say current item let's just check is it is
+it you know not equal to null uh if it's not equal to null we'll say uh back tick
+URL parentheses and inside there his dollar sign curly brackets content
+images and then in square brackets we'll put current item and that's going to be
+an index um ah I forgot the word null
+here there we go uh there still an issue colon
+expected ah and then otherwise empty string great so right now this will
+always just show nothing because we aren't setting current item just yet but we want to set that current item anytime
+someone goes over our list items so right inside the list item you want to
+say on Mouse enter and I'll put parentheses or sorry we'll put um curly brackets and this
+will take an arrow function we'll say on Mouse enter pass it
+index oh it ruined this capitalization for me make sure it doesn't do it for you
+and we're going to create that function right now so go ahead and type const on
+Mouse enter is equal to let's give it Arrow
+function say Set current item and it will be uh make sure we're taking index
+and that's going to be a number Set current item is going to just be set to the
+index all right so if we go ahead and set that and then come down to here uh
+just kind of ruin the opacity we should see that yep when we hover the index
+gets set and that is our image awesome so uh is that the image for that blog
+post yes because here's here's our fallback image or wait no this okay so we're we're not getting the right image
+that we want this is mastering JavaScript animations and we should be seeing our main one why are we getting
+the fallback ah remember I blew this uh error off cuz this is an image this is hover image and we need to do the same
+thing here so that worked it said yeah that's not failed dude uh so I'm going to go back to the fallback item image
+instead there we go that's the uh that's the graphic we want cool so it's not following us yet but it is working but
+now we want to also remove or or set the uh current item to null when we leave so
+I'm going to say const on Mouse leave equal to um it doesn't actually matter
+what our index is here because we're just leaving and we're going to set current item to
+null so we're not going to put that on the list item because as we jump between
+list item and list item we don't want to set that to null we want it to shift to the next index instead we want to call
+that only when we leave the entire list say on on Mouse leave
+and then we're going to pass that we can just pass that directly we don't need an arrow function because we're not passing
+anything so it should you know stay up there oh there we go it's exactly what we want and if we had multiple we would
+see them all changing all right so to make this animation we're going to need a couple
+things we're going to pull in green stock obviously so we're importing Gap but also we need to know where the mouse
+cursor is so we're going to be using some of the web apis for that so right under UR URL prefix let's go ahead and
+create a use effect if you don't have that already imported go ahead and import that and I
+put square brackets so inside use effect we are going to be getting this uh Mouse
+movement so we're going to say const handle Mouse
+[Music] move and that's going to be uh equal to an arrow function and
+we're going to say e that's going to be a mouse event uh
+arrow and inside here we're going to get const mouse position or POS equal to x
+e. client x and y e. client y plus
+window do scroll Y and this is just so that as we scroll um the images follow
+our Mouse otherwise they would stay stuck up above U cool after Mouse position we're
+going to calculate the speed and direction by which uh our Mouse is
+moving because we need to figure out uh like the the velocity and everything to
+kind of Judge that uh so to do that we need to add a ref right up here going to
+say uh con last Mouse position POS equal
+to use ref and inside we're going to start out with xal 0 y equal to Z just is kind of
+our default um so now we have last Mouse position come back to here I'm going to
+make this big because we're not going to be seeing a lot of changes right now when we're styling that makes sense but right now it
+doesn't so we're going to going to comment calculate
+speed and direction so cons speed is equal to
+math. sqr for square root and then math. p
+w and don't worry I I I have a little bit of understanding of this but
+um for the most part this is just kind of a the magic that makes this work and
+then last Mouse position current dox we only care so
+much about the X to uh change the way that this goes back and forth if if we
+move up and down you see the card doesn't really tilt but as we move back and forth we we we want it to tilt more
+if if we're going fast so that's why we're caring about the uh the X here and
+so current dox comma 2 so I think it's to the second power so now we need to
+use use our gsap context so let CTX equal gap.
+context and that takes an arrow function and inside here we're going to
+say if current item is not equal to
+null oh I put too many equal signs so if current item is not equal to null then we can continue so uh const
+Max y uh so now we want to set a a uh a
+boundary on our uh image so that we we don't get scroll bars on the side um you
+might be able to see that as I get closer to the edge this stops moving and
+that's because I have this Max X and Max y value so we're going to implement that
+Max Y is equal to window. scroll y
+plus the window. inner height minus 350
+pixels and then the max X is equal to window. innerwidth
+minus 250 so um once again this is just uh
+accounting for the scroll that that's going to happen uh then we are going to
+create a GRE gsap animation or a tween so G step two uh and we need to give our
+item our uh image that we're moving around its own ref so I'm just going to copy this and call this reveal
+ref and I'm going to add that to this hover element div so right there Works
+ref is equal to reveal ref come back up inside here so Gap 2 the item we're
+moving is reveal and ref. current and and we're going to change
+its X to gap. utils clamp and I can explain clamp in a
+sec but well well I I'll explain it as I type it basically we are going to clamp the value between zero and Max
+X and the value that we are clamping is the third thing and see uh actually
+we're getting some really good docs here well done Gap uh Mouse position dox -
+110 so it's it's going to try to be this value but if this value goes outside of
+these bounds uh clamp will make sure that it never goes higher or lower than this so that's our X for our y we can go
+ahead and copy that line change this to Y and we're going to change Max X to Max
+y Mouse position X to Mouse position y instead of -110 we're going
+-1 16 60 great next line we want that
+rotation so the rotation is going to be the speed times and we need a positive
+or negative value here so uh Mouse
+positionx if that's greater than last Mouse position. current dox so if if
+we're moving up if if the the new mouse position is greater than the last one
+that means moving in a positive direction so we're going to multiply it by one otherwise we need to give it a
+negative rotation so we'll multiply the speed by -1 it's just that simple um and
+then ease is going to be back.out parentheses 2 I'll show you
+that in a sec and duration is going to be 1.3 so that that ease the back out ease
+is uh going to give us a little bit of overshoot and then it's going to come back so if if you you watch the image is
+going to go a little bit past its final spot and then come back you see that at the end it goes a little bit more right
+and then it comes back it's just a nice little touch like I said all these eases
+are a really great way to get your personality across as you are uh doing this so I don't think we're actually
+moving this yet or oh I might need to refresh fresh okay it's not moving just yet we'll see what it is um I don't
+think we I don't think we're completely done so uh we have another animation to
+add ah hold on the reason is uh last Mouse
+position. current needs to equal so we need to update this mouse
+position and then uh we also need to oh oh oh we should do that outside of uh if
+current item is not equal to null so make sure that's inside your Gap context set last uh Mouse position to Mouse
+position and then here we also want to
+return an arrow function that reverts our context CTX that
+revert and here we're going to pass it the component as the scoped parent
+all right and uh one thing that we don't have yet is pretty crucial we don't have
+our uh event listener so window. add event listener that's going to be Mouse
+move and then we're going to pass it the function handle Mouse move and once we
+[Music] are once we're at the end of this use effect we need to return our clean up so
+once again Arrow function and this is going to essentially be the opposite of this so window. remove event listener
+and that's going to remove Mouse move all lowercase Mouse move just like
+that and handle Mouse move excellent uh and down here we're going
+to uh have the array of dependencies is hovering oh sorry not
+hovering just current item should do it let's see if we get oh
+we got an error oh let's see what this error is gsap is not defined ah here's a here's a
+good tip import Gap oh not not gsap core just from Gap
+excellent there we go there's our effect uh Blue on Blue might not be the best
+choice but you can't say that that doesn't work well so we see how it's
+rotating uh as we go you can change um any of these values to make it a little
+bit more fun for you but um let's just see what happens if we uh simply do and
+like don't you change this but I'm just going to change this real quick to show you um how these little touches really
+make such a better experience so I'm just doing it based off of mouse position right so now I need to refresh
+if we do that we immediately get scroll bars and if this is a little bit smaller of a page we just get it's it becomes a
+mess and it's off the corner it's just yeah and also it's not centered anymore
+so there's there's a bunch of downsides to that so that's why we have all these little details it seems like a lot more
+work and you're like why why do I need to do all this why can't we just yeah it it all it all makes the experience a lot
+better all right one thing we want to do is come back down here to the opacity z
+uh set that back to opacity zero like Unbreak that and then I think if we come
+here to GP reveal ref current and just say opacity is
+one refreshing the page uh oh one thing you need to do um is refresh your page
+whenever you're using like a a use effect now see that kind of faded in real slow or at least it seemed to
+if that causes trouble you can always give a second Gap um tween to to just
+that but yeah we'll see we'll see how it looks with with with more items but uh
+so far that's looking pretty good all right real quick I want to go in and I want to add another blog post so that we
+can make sure that our transition from one blog post to another is nice and smooth and then we're going to um see
+about animating the whole list so I say like uh making cool cool CSS uh art and I'll type
+CSS and that'll be it for that one uh date let's just pick any day and then
+select image just say art um paintbrush Perfect all right so
+save and we're going to publish that and normally we would have you know uh some
+actual text in this blog post but that's fine for our purposes this is more than enough so now if I go back to my blog I
+should have another blog post ah I forgot tags wait no wait I didn't I think that's just a bug of some sort
+adding tags doesn't seem to always catch this page builder is new so if you uh
+encounter any bugs please let us know but uh I'm sure we'll have this ironed out very soon there you go so that's
+looking really cool I like the red on the blue and then ah that transition's really satisfying excellent so now let's
+go in and uh we're we're going to do a little trick to get suddenly a whole
+bunch of blog posts uh in our list so we can work on an animation so let's go ahead and find items and just for right
+now we're going to delete that and put uh square brackets I'm going to go dot
+dot dot items comma and copy that a few times
+every time you copy that we'll get 2 4 6 8 10 12 blog posts there uh but that's
+not the only place we need to do it we also need to uh do that for our content images so go ahead and copy this whole
+array that you made so that you know you have the same amount and just like that
+we suddenly have a bunch of blog posts we are prolific authors now so uh with
+that we have nice that's looking
+good so now we can animate the way that they uh come in as we scroll so above
+your first use effect or you know wherever use effect make another one
+because this is going to be a little bit different dependency we we don't want this to run uh more than once so we're
+going to say let CTX you can go ahead and copy this honestly uh paste that right there close
+it up perfect and inside we're going to say uh oh we we need to create a ref for
+each of our blog post items so we have uh what we we're going to call items ref
+but that doesn't exist yet so let's go ahead and make that happen so items ref uh we
+are actually going to not make that null that's going to start out as an array because of that we want to type
+this so I'm going to to say angle brackets I'm going to say array capital
+A and then in inside there we're going to put another set of angle brackets
+that's going to be an HTML Li element just like that HTML Li for list
+item all caps element uh I messed that up and
+then it's a union type so we're going to say uh you know a pipe and then null
+just like that so this could either be an array of Li elements or null then to
+assign those we're going to go down to our Li element and we're going to say ref equals curly brackets this is going
+to be an arrow function and this is going to take an element or sorry it's yeah be an element
+there and then items ref. Curren index
+and we're getting index from here index is equal to l so we get the
+element and and we set the index of our items ra array to this
+element now up here in that new use effect we can uh go through items ra.
+current do4 each and we're going to do an animation for each of these so uh inside this
+Arrow function we're going to say item and in here we're going to do a gap
+tween do from 2 and and we're going to use the
+item and we're going to go from opacity z and y
+20 that's our first object then our second one is going to go is going to go to
+opacity 1 y 0 duration
+1.3 is uh elastic
+do out parentheses 1 comma 0.3 close
+parenthesis now we're going to use the Stagger value which will automatically uh separate out each each item of this
+array so stagger is going to be 0.2 oh actually
+we we might not need stagger here I'm I'm going to leave it there for a second because this isn't technically an arrays is just a bunch of items but we'll see
+and then scroll trigger is key here which means we actually need to uh import it and
+register it so let's do that real quick import scroll trigger from GP SL scroll
+trigger and then gap. register plugin scroll trigger
+excellent and here we go so scroll trigger that takes an object and that's going to be
+trigger is item so we we wanted so that when this item
+comes into view that is uh what triggers the animation to go and we're going to
+say start the start of this animation is going to be in the top of the V of of
+the trigger hits the bottom of the viewport but minus equal 100 pixels and
+we'll see what that looks like so end is going to be when the bottom of this
+trigger hits the center but that'll already have finished by then so we should be good uh so toggle
+actions see if it gives us a description of that yeah uh no it does not okay uh
+play and that's none none none so kind of a funny prop here but basically these
+Set uh what happens when you scroll back through we don't want these to like you know disappear and reanimate and keep
+going once it's in the viewport we just want it to stop so you can look this up but we're not going to get into toggle
+actions too much right now all right that was a little funky there we go just that once and
+then as we scroll there we go we got our next one and our next one and our next
+one and if we change this value like if you got rid of it entirely we would uh
+oh this be a little bit funky just because of the rendering of react on our Dev server that won't happen on
+production but you'll see that these these start to render in way too soon see how it's rendering in before we even
+see it so that minus 100 makes it that there's 100 pixel buffer until it
+actually starts to load in see how it's now waiting a bit long oh wait why is it
+not okay there we go cool so that is our
+little load in animation and that is set now actually I don't think we need
+stagger though because it's all BAS based on scroll trigger so I'm going to remove
+that cool slides in and there you go as you go down it's just a nice little
+effect cool all right this was one big
+component One Big Slice that we have but it does a whole lot um we're going to
+finish by removing this you know ton of items change that back to just items and
+where's our other one here change this back to just items and that should just give us the two
+blog posts and before we finish let's go ahead do we have a project I think we do
+right uh we created our Blog Page we don't yet have a project page so create
+new um it's going to be a page not a project but but it's the project page
+right a little confusing but stay with me uh projects and this going to be
+project or sorry right projects uh create your page add slice doing this
+content index but instead of blog we're going to say projects and content type is project uh
+the tech projects I've created view more text is going to be uh view
+project and then the the fallback item image can be um let's see what unsplash
+gives us projects Perfect all right hit
+save and now once we hit publish there should be a uh a working page at/
+projects let's add that to our settings forget the order gave about projects blog let's try to match that order uh
+here's our oh no I'm in the wrong tab uh so going to go choose link type link to
+prison page projects label is projects and I'm going to move that up just like
+that hit save hit publish and if we go back we should see Andy
+Bryant about projects blog let's check out projects and there it is there's our book Library app getting a little bit of
+a funky rerender there maybe that is an issue I don't know we'll we'll keep an
+eye on that um yeah there's something going on there okay let's let's diagnose
+this real quick I got so excited by our animation that I forgot to do all the proper stuff at the end first off it's
+use effect uh so you got to pass it that empty array then we also have our uh Gap
+stuff where we want to pass it the component for context and right before
+there we want to clean up so return arrow function cx.
+revert and there we go that should
+hopefully there it is but this was a good lesson right that's what happens when you don't clean up after yourself
+see how important those three lines are to making our uh entire component not
+awful so yeah now we've got this really cool little effect let's check out blog and those come in excellent all
+right so make sure you clean up after yourself before you uh finish with this uh we want to do one last thing before
+we uh call this a completed component we want to make sure that uh when people go
+to hover over these blog posts especially if you have like 30 of them
+uh you want to make sure that they don't have to wait for that image to load in hover over the next one wait for the image to load in right like the way we
+have it right now uh this won't get called until it is added to the Dom so
+we we we want to call for those images ahead of time so let's go ahead and right before our return uh we are going
+to actually you can put it up with the use effect so let's put put it let put it right after our third use effect use
+effect just like that um we're going to do an arrow
+function content images. 4 each and I'm going to Arrow
+function URL remember these are just getting a string and if there's no
+URL go ahead and return but if there is const image or IMG is equal to New Image
+that's going to be uh just a new image type and image uh
+img.src is equal to URL and just doing that and let's make
+sure we clean up after ourselves uh just doing that is going to call all of our
+images even before we hover content images is a dependency
+here um why is it yelling ah okay so make sure
+we move this use effect underneath content images Perfect all right so we can go
+right there and we can see if we go back to our site we we have these two images
+um if we go to our Network tab we can refresh the page and one of
+the things that we should see get called are these two right here and those are
+our images and they're nice and small they're even uh a bit darker because of
+that exposure trick we did and yeah the reason we make him dark as it so you can still you know mostly read the the text
+kind of like Fades into the background a little bit but yeah that trick will allow us to oh hold on they're getting
+called every time and that's that's really
+interesting all right that's our component let's move on we're going to finish up with just a couple last things
+we're going to work on the nav bar and the footer they're pretty simple we're also going to go ahead and create um
+these parts here there's nothing too fancy with animations here so we're going to kind of uh blast through those
+and then we will have our website all right we're going to be setting up our header nav bar and you can see that on
+small screens we have a little animation that lets us come out and change the
+page so because of that we're using a little bit of uh react use state so this Navar itself is going to be a client
+component but we do want to fetch our actual settings document from this so
+we're going to need two components again so if you open up our header again we see that we have our header nav UL lii
+uh most of this can stay but we're or or or rather we're not going to delete any of this we're just going to move some of
+it over so go go ahead create a new component and call this navb bar.
+TSX and because this is a longer component that we're going to be building you can see here in the code
+for this project it's about 160 lines long and it doesn't really have too many
+Advanced animations to it we're going to grab it from GitHub you can go right
+to GitHub atro creative portfolio and grab this code and we're going to paste
+in but I'm going to talk through the important parts here once that's pasted in we want to uh go ahead and cut this
+out and say Navar and import that from the
+components I'm actually going to change this from just a period to at components because
+oops because that way if we ever need to move this or anything it'll still be referencing that and
+nevar ah right it's it's complaining because we aren't passing it what it needs so I go ahead say settings equal
+to settings excellent so here's where we're doing our fetch we're saying hey get me
+that settings document we're passing it through to our Navar so let's check out our navbar so if you see here it says MD
+hidden uh that and everything inside it if I close that that is everything uh on
+our mobile menu so on medium screens and above this whole section gets hidden and
+then for desktop menu it starts out hidden but on medium screens and above it becomes Flex so if you're curious uh
+where mobile menu starts it is right there on line 34 if we look at the
+mobile menu we see that we have this button uh we are using ARA label so this
+tells uh people using screen readers that this will close the menu and that this will open the menu this is same
+kind of button only difference is this one sets open to true and this one sets open to false and they use different
+icons this is an X icon this is a little hamburger icon and here you can see we're using
+clsx and if open is true then we slide our menu out we say translate X if open
+is false in other words if it's closed we move our menu completely off screen
+so you see right now it's off screen now it moves on and it moves off on the mobile menu we uh render out each of the
+list items and we use prismic next link one important thing that you need to to have if you're setting up your own is
+that onclick for the links as well we need to close the menu because otherwise
+uh because of the way that this is set up if we remove that and I open up our
+demo that loads out we click projects and it stays open and it blocks we click
+blog it stays open and it blocks so they would have to close it themselves so make sure you have that that there if
+you copied and pasted you you definitely will but just want to make sure another
+thing we're doing is we are checking to see if let me close this checking to see
+uh if the current page is in this nav so what we do is uh for both accessibility
+purposes for ARA current um but also for styling purposes we are using path name.
+includes and so path name is coming from uh I believe router yep or sorry uh use
+path name which is a next navigation function and that that will just give us
+like slab and we check if path name includes
+basically our URL our link then we can either um sorry I'll say that
+again so if path name includes our URL this as link helper is from Prisma
+uh basically if if those match up or if one is is in the other then we are going
+to pass our your current page and we're also going to um do some styling so the
+the way that this works is very similar to our button it's the the the same philosophy of um it goes underneath and
+because of off uh overflow hidden we don't see it until we want to and we
+obviously need to put some text in there that's that's missing right now but uh blog projects and about um once it sees
+it in the URL and it should even work once we click here up we we
+have not created those pages yet right so we will do that and and once we
+create these Pages then we will also see it on those pages so we're doing a little trick here to
+just separate each item uh with a slash that's just an actual slash you you can
+use any kind of delineation that you want um there are some Styles and we're just adding it every time between the
+items except for at the end that's what that negative one is yeah there's nothing too too special about this menu
+um it's nice and simple but we we aren't using gsap because we're mainly using CSS animations here but we still need it
+as a used client because of a little bit of state and that's fine so once that's set we can go ahead and grab our footer
+in the same kind of way the footer is also pretty straightforward component so straightforward that we're not even uh
+using this as a used client component so go ahead and grab the footer just going to copy all of that and create a
+component called footer. TSX paste that
+in and just like in our header we are calling for the settings file because that's what is informing all of that
+data there uh the the navigation the name everything else we want to go ahead
+and add footer here to our layout. TSX footer just like that make sure you
+import it I let's go ahead and footer and we
+should see the bottom of our page now excellent we see Andy Bryant you have a little copyright here we have our three
+nav pages and we are we don't have anything over here that's because uh we
+never put in our uh social on prismic so let's go there let's add
+some socials let's go to settings and I'm just going to add let's just say
+a TW oh oh so uh add a CTA so that we we get our our button content uh say link
+to a prismic page no no so um like this in in my opinion should be like um
+something like an email or uh yeah something like that for this I'm just going to put
+Google just for the sake of not getting email but I think this is a good contact
+button you can make it say whatever you want though uh and here we can say Twitter link link to web
+page twitter. let's go Andy
+Bryant uh I'll put four zero just in case there is an Andy Bryant don't want
+you completely spammed from all the people who will surely take this course um so now if we come back to to our blog
+and hit refresh we should see that Twitter icon and just that Twitter icon
+and that is because we are checking is filled on the link for each of those and
+then rendering prismic next link and we are using uh react icons to pull in uh
+the font awesome GitHub Twitter and Linkedin if you can try to use the same react icon library for things like this
+it'll just make it a lot easier here so you don't have to like be concerned with
+it too much with like different styles or ones in outline that sort of thing uh this is really important area label make
+sure that you add this uh for for me I just put settings data. name which is
+Andy Bryant on Twitter uh that way it's not just an SVG and a link that that
+doesn't tell um screen readers anything and we have these Styles here that's
+pretty straightforward good new news here you will not need to update this once the
+New Year rolls around just need to make sure that you redeploy your site at some point in in in the new year and yeah
+that's pretty much all there is to this component all right so now that we have our header and our footer there's one thing that's really holding us back from
+looking uh really good and that is this noise in the background and this little
+gradient uh it just it's a very different kind of sight feel so let's go ahead and add those first thing you're
+going to need is a noise texture you can get the the one that we have over here
+in the creative portfolio public nois texture. jpeg as you can see it's just a
+black and white standard noise texture that I just generated in figma from a plugin but you can use whatever you want
+just want to go to your public folder and drop in noise texture there you go
+and now in our layout we're going to create a new div and do it just below footer that's I'm going to say just
+absolute and that way we got our class name there I'm going say pointer events
+none inset Zer negative Z hyphen
+40 H full BG hyphen that's me an arbitrary
+value say URL parentheses uh single quotes SL noise
+texture. jpeg or whatever your texture is called called then over here
+opacity hyphen 20 and we're going to use a mixed blend of soft
+light just like that we're going to hit save and let's see
+our result nice so you can't yeah I mean hopefully you can tell from this um but
+yes it's definitely getting applied and it is in the background but it's not going down all the way so to deal with
+that we want to come back and we want to uh change the way that body is styled so
+we're going to put parentheses around urbanist do class name we're going to say clsx and go ahead and import that from
+clsx after class name put a comma and we're going to give this relative and
+Minh screen so that should do a couple of things but just make sure that body is
+taking up our entire uh well well so that the the absolute here
+will be in reference to body and so when it's inset zero that's
+going to be uh filling all of this element here now while Tailwind can do
+gradients it doesn't do radial gradients very well so in order to get this effect we're going to need a little bit of
+actual just CSS we're going to want a second div that we can put right above the first
+one so we're going to say absolute so we need to position this in the same kind of way I'm going to inset
+hyphen Z negative Z 50 Max H screen and
+then we're going to give it a custom class of background gradient just like that and then here we
+have this Global CSS where all we're doing is importing all of our Tailwind Styles we're going to put a background
+gradient here and all it's going to take is a a background property for
+background we're going to give it a radial gradient open the parenthesis and we're going to say what kind a circle at
+the top Center if you want to put that somewhere else go for it um and really
+it has just a couple of lines this is that blue but it's only at half opacity
+so we're just giving it a little bit of a shine um and then we have basically
+black afterwards uh and this just says what position that's going to be at so
+if we save that there we go we have that nice blue you can play around with this
+color I wouldn't recommend something like a green but you can see the effects
+of oh actually is that not oh sorry I'm looking at the the wrong one there you
+go so say that that should have had an effect and it does and if you like that
+awesome uh for what I designed for this I think this is it just feels more like
+a a light shining on a on a blue surface and just adds a little bit of uh you know a a nice detail all right we've
+styled our nav we have our footer and we have our background next we're going to actually create the blog post pages and
+uh yeah we we just need a couple of simple components for this you'll see how easy we get this done all right to
+create the actual blog post pages and the project Pages we are going to need
+to create a couple of new files so let's go back to our app director we're going to close everything to simplify it
+Source app and we see we have uid um we're going to create a new folder in
+app and we're going to call this blog and then inside of that folder
+we're going to say square brackets uid just like that
+so this will handle any um blog post that we have at at SL blog SL you know
+my blog post and that'll come in as uid while we're here let's go ahead and do the same for project so
+project and then square bracket uid square bracket and this is the naming convention for
+the new nextjs app router um and inside both of those we'll be putting a page.
+TSX and do the same here page. TSX great and we should be able to go
+over to slice machine go to page types and for blog post grab the page snippet
+from up here come back we have our blog post
+just like that and same thing we we really could just
+yeah copy parts of it over but it's a lot easier to grab this we have our project and
+here we we go just like that we've copied and pasted and we've built out two whole new uh page types that easily
+um so if you go to blog making cool CSS art we really shouldn't see much here
+but it does load uh we see the URL up there um but we're not like deciding to
+to render anything because um it's the wrong page
+because making cool CSS art only has page data we haven't added any slices
+here um this is just the title and the uid and things like that but we're not actually deciding to render any of that
+on our page however we do have a single slice
+text block um but that doesn't have anything in it we never actually built that out so let's head over to slice
+machine and let's go into that text block and look at what we're going to add a rich text block I'm just going to
+say text and hit add hit save and then
+push that change up to prismic and just like that we should in a second let's
+see hasn't succeeded yet there we go and just like that we
+have some text here I went ahead and grabbed some lurum ipsum let's generate
+those five paragraphs copy that and I'm bringing that back in just to give us something a look at um ah okay I run
+into a problem that uh you will probably run into also if you just follow what I did because in that slice here's text
+block uh as a default allow multiple paragraphs is off so go ahead turn that
+back on we can leave all of these different um types or or uh you know
+elements that we could add to to the rich text allow multiple paragraphs save
+and push so now when I paste I should actually be able to paste in multiple
+paragraphs perfect um or you can just come to a blog post like this one and go
+ahead and paste that in totally up to you I think that's a heading one I'm
+going change that to a heading two and same with this heading two cool so I'm going to hit save and
+publish fantastic now we need to actually make something show up uh on
+our page because right now um it's just a placeholder component and this one's going to be real easy real quick um find
+your slices find your text block and open index for this we don't really want
+a section because it's going to be used in the blog post itself so we can get rid of this and instead we can just say
+prismic Rich text and we're going to pass this
+field of slice. primary. text and make sure you close it and just like like
+that we should have a bunch of text does that look good no and that's why
+Tailwind Pros comes in to save the day so I'm going to give this a Pros div
+wrapped around it let's see how that looks looks good except for what do we
+need we need to invert it right so Pros um and we say Pros
+invert just like that we will worry about sizes in a second but right now
+there a much better text block so with that we have the opportunity to use this
+text Block in a couple of different pages now the thing is I am going to
+need to add some other things to this page like I want this title I want this
+background I want to render out the tags and the date I want to format in a spe specific way like there's other stuff on
+this page it's and I don't want to put those into slices I want that baked into the page so in order to do that let's
+look at our blog post page and instead of just returning the slice Zone Let's uh wrap a parentheses around that hit
+enter and let's uh actually bring in bounded just like that I'm going to say
+as article because that's what a blog post should be and going to bring down
+that bounded component to wrap around my slice Zone but I am not done yet because
+I want to put that heading up at the top so uh first I'm going to make a div here
+and then inside that I'm going to bring in heading and say as H1 just to be sure
+and inside that we're going to put page. dat.
+tile just like that and in uh underneath heading but
+still inside that div we want to render out out um a container for our tags so
+I'm going to say Flex hit tab let's give it a couple more Styles so Gap hyphen 4
+and text hyphen yellow 400 great so we have our container for
+our tags and inside here we're going to go ahead and say page. tags.
+map and that takes a uh Arrow function I'm going to say tag
+comma index and we're going to do a span and here we're going to say key is
+equal to index class name is equal to text
+actually we shouldn't need to style this we can move these Styles up into here because this is all that's coming in here so we'll say text Excel and font
+bold just like that and then in here instead we can just render
+tag and really we we probably should just be able to say that this is going to be unique because prismic doesn't
+allow for duplicate tags so that can be our key let's give this div inside
+bounded as some Styles class name equal to rounded 2 XL border hyphen 2 border
+slate 800 BG slate
+900 PX4 py10 MD PX hyphen 8 and MD py hyphen
+20 all right this is looking good already looking really good uh we see
+that oh it's like we're not capturing um the slices because our slice zone is
+outside of that div we just created so let's go ahead and move that div down
+and already we should see the difference next we can render out the
+date so just underneath let's see this div we're going to create just a
+paragraph and inside there we can just say page. dat. dat but we'll see that uh
+if if if you're okay with that date that's fine but for us in this project I think we're going to format it so say
+um const date is equal to new date and
+we're going to say page. dat. slices oh no sorry I was reading the wrong thing
+page. dat. dat and then
+we want to set some options so const options or date
+options is the type of
+intl. time format options just like that and that's equal to this
+object so we got weekday see how it's already helping us out we got long hour or short we'll do
+long year is numeric month is
+long and day is numeric
+perfect and we're going to yelled at for this no overload right because this could be uh
+not filled in because on prismic nothing is required so let's instead create a
+function that is just format date so
+function and that will take the date or or take a date and we'll say that is a
+date field from prismic and we'll wrap everything in
+here so just shift that around and say if
+is filled. and we'll pass date to
+that and great so now we have um a check to
+to make sure that date is filled
+in then we can get rid of this line here so yeah we're we're backtracking a
+little bit but that's okay um so now that we have those options and we know that this is filled we're going
+to return new intl. time format the international uh
+bit of JavaScript is wonderfully helpful we don't need to install any new packages or anything Ian hyphen us is
+going to be the format for this date um we're going to pass it the options and then beyond that what's it
+not liking cannot find name oh datea options there we go and on that we're going to say
+format new date date so we are creating a new
+international date time formatter and we are then calling it on our date from
+above and we're passing the options that we set forth here to set that formatter
+and we can use as many times as we want but that's what we do now here we can say const
+formatted date is equal to for uh date format
+date and then page. dat.
+dat excellent and then here instead of page. dat. dat we will return formatted
+date and there we see Monday December 4th 2023 little bit of work we could
+have used some kind of package or something but um you know sometimes it's nice to just roll it yourself class name
+on this paragraph we're going to say Mt hyphen 8 border hyphen B border hyphen
+slate 600 text Xcel font medium and text slate
+300 and there we go we already have uh it looking a much much nier let me fix
+the sizing on those two great now we're just going to put a little bit of space in between these two and we should be
+good now we're going to wrap our entire slice Zone in a Pros
+div and also on that we're going to say Pros LG to make the text a little bit bigger
+say Pros invert margin top is going to be 12 so mt2 on smaller screens uh full
+width we're going to say Max width none and you'll see you'll see why
+in in a second um Pros actually sets a a Max width of 65 characters there you see
+that um but we want to unset that because we're going to actually add an image component uh MD is oh sorry MD
+mt20 so on larger screens we're going to have a margin top that's a little bit
+bigger and there we go we we don't see the uh large text because we went and
+set our text block to have this Pros component or or this Pros style here
+when instead what we're going to do is just remove that and say Pros sorry Max
+width Pros so we are setting a Max width on our Rich text component back to 65 so
+we removed it but we're putting it back on and now we're seeing some pretty good typography but what if you want to put
+an image that fills this inner container let's go let's go ahead and do that so
+going to create uh just kind of call like image block and this is going to just be an
+image click save you could also like add a caption or do other things with this if you wanted to make it a bit more
+robust uh for me I'm going to just kind of [Music] grab another SC screenshot
+and update screenshot right there and I'm going to go to changes push changes
+now we have this image block oh but it doesn't belong to anything because I didn't add it to either the
+project custom type or or or page type so I need to add image block
+there and I also need to add it to the blog
+post great so now now we have image blocks in both places we need to push those changes so that that slice is
+available to us in prismic and now if I go to my making cool CSS art blog post we see we have
+all this text I'm actually going to uh duplicate that and in the middle I'm
+going to put our image block going to click oh actually I'm going to first choose an image let's go
+with this woman cutting R click save and
+publish and back here in our blog post we should not see that image just yet
+because placeholder component right we're used to that but here we do see image block right there and instead of
+this section we can go ahead and say prismic next image and we know that is I
+think it's field and think slice Dot primary. image and we can pass it other
+things like imageix params um I'm going to go ahead and do that so image X prams
+let's give it a width of let's say
+600 see how that turns out um now if I refresh this page there we go we get
+that kind of full width image that breaks out of that Max width if that's
+the style you were going for great to keep that um if you want it to stay within this smaller area uh that's fine
+too but that's that's how you would break out of the pros sizing give the
+max width just to these elements but I I like the space that Pros gives between
+um elements on the vertical axis so that's why I I applied it to the whole thing but removed the max width on
+certain elements cuz it gives like nice margins around things so just like that we have a blog
+post page um is this the right page no I'm on the wrong page here's our blog post page but here's the thing I really
+don't want to have to copy this over and customize all this just for project as
+well I mean I can but I think there's kind of a better way to do this instead I'm going to uh abstract this out to a
+new component so in components I'm going to call it content body.
+TSX just like that and in here I'm going to essentially copy out uh my entire
+component and I'll I'll I'll remove what we don't need but just going to be easier for imports and everything if we do it that way we're going to remove the
+generate metadata uh generate static params so we can remove that um we
+because because we're going to keep that in the page itself this can all stay this is all staying the same um yeah so
+metadata we can remove and anything here about uh
+fetching our data we can get rid of that because this is just going to be passed through so we're going to remove that
+async bit and this function is no longer page but it's content body and yeah we don't need prams but we
+do need page so content body now takes a page
+actually we'll we'll put it up here so page no we don't need it there uh we'll
+just put it here so page is the only thing that's taking and that is going to be typed as page and that's content
+that's coming from prismic do uh prismic client blog post
+document or content. project document excellent
+so those are the two things that this should accept and you can see VSS code
+makes it easy for me to kind of pick out the things that we're not using anymore in this component and then what I can do
+save that and then over here in my blog going to close those in my blog page I
+can get rid of format date all of that that formatted date bit and I I want to
+keep the client in the page but then instead of all of this I'm going to return instead content
+body and I'm going to pass that page just like that and that's all we
+have to do there and now you can see all the stuff that gets removed from this
+page from this react component and now I get to do the same
+thing over in my project instead of SLI Zone I want
+content body just like that and it needs
+page remove components remove slice Zone all of that is now in my content body
+and I've doubled up on that template done half the work projects book Library
+app and yeah I can add some content there but it's going to render out the same way and it's working really great
+uh let me just go ahead and do that real quick awesome so I added a couple tags and I added some images and
+um some text so just like that we have projects and blog um right now though
+blog is working but projects uh and and by working I mean uh it's showing that
+we're in a blog post but that disappears on projects and that is because I
+screwed up a little bit where the URL here is projects so uh the S makes a
+difference and when I go in here project is what we get there so I'm going to go ahead and fix
+that going to rename this folder rename to projects so I changed the name of the
+folder and I also changed it in our content list where we have blog and project so make sure you change in both
+those spots and now with the new URL projects you can see that it shows up
+and says hey that that's where you are you're in the blog area or in the projects area nice all right we got our
+blog post and project pages is up now let's finish out by uh adding this last
+component here the experience SL education component going to build that slice next all right for our last slice
+Job Experience Slice
+we are building that experience slice so go ahead your slices and slice machine I'm I'm going to call it
+experience you can call it education if you'd like depends on what you want to use it for but in our experience slice
+all right I'm going to create a heading inside this just like that and then everything else
+is going to go into the repeatable zone so I've going to create a
+title and that's going to match with let's go to about uh with this so you
+know your either your degree or what your job role is so that's our title
+then we're going to create a time period and that's going be just another uh key text I don't want to do dates for let's
+just keep it simple time period and institution so
+this could be a college or a you know workplace institution that looks good enough
+typescript will help me if I uh botch the spelling description is a rich text
+field so um yeah we should have four text Fields uh in our repeatable and one
+in our non-re repeatable Zone going to hit save but I'm going also come over here and grab a snapshot of our
+component for the I'll I'll add it over here for the screenshot and I'm going to push that
+change and now because this is a really straightforward component um we are going to once again go over to GitHub
+and you see the experience component it's only about 50 lines and it does
+exactly what we've done 100 times in in this course by now uh we go through and
+and we map through the items and we're going to render out uh the item title
+the time period the institution and the description with prismic Rich text and
+we are also going to have the heading at the top I'm try mve it around too much but yeah that is it so go ahead grab
+this raw uh code and we're going to to
+experience index we can paste that right in there 43 lines of code never written quicker
+than that and yeah you can make sure that uh oh we also need to make sure
+that page types that page has that experience Slice on it so you can select
+existing and you want that experience slice you can also add these other slices to it like if you want a text
+block um anywhere but I think this is good for our page uh push the changes up
+and then in your about you should now be able to create an experience slice or two and with that
+I'm going to say uh experience for the first one and
+education for that second one and you can go ahead I'm just going to say
+engineer uh time period 2020 to
+present institution Google is actually I'll say yeah let's go
+prismic uh and then description I make things
+pretty and you can continue to add items there but that's not necessary for this
+example um big old degree time period uh 2020 the
+graduation uh let's let's say Harvard and description I did so so well
+incredible could have copied over what we have here but this was more fun all right uh we can publish that
+document now and in our about we should be able to scroll down and see that you
+make things pretty and that you did so well so we have those slices now at our
+disposal I recommend putting these underneath this component just so that you have something to scroll past it
+makes it a bit more fun right all right and that is it for those components all right now we have a
+Deployment on Vercel
+couple last minute housekeeping things before we wrap up this site entirely you'll see here in our about page that
+all of our uh slices are on this white background and and the preview isn't very good for uh what it actually looks
+like well luckily slice simulator which is what's rendering those slices has a
+solution for that so if we go to slice simulator uh you'll see that we can look
+at the props that it can take and we can add some styles to it or pass it just a
+background and that's going to be a string so let's go and find out what color our background is I'm going to use
+o I didn't mean to open up the dev Dev tools and use the Windows like ey dropper that's built in I just need an
+approximation so that's about let's go back to my code
+that is about that hex it's going to be close enough and now if you refres oh I
+do have to refresh see now that looks a lot more like our page so cool that was
+a nice little detail that we should have done way way way way long ago but hey now it's better better late than ever
+right uh then we also need to make sure we go into our SEO metadata uh tabs and
+just say about Andy and things like that uh this is about
+me and we hit save and publish that should update this title here yep about
+Andy and you can go ahead and um add more um titles and descriptions and SEO
+tags uh throughout your app there another thing that I would love to add to your app uh so that as you work on it
+things are things stay tidy they're very nice and neat is this fantastic uh
+prettier plugin in for Tailwind CSS so here it says npm install hyphen D
+prettier and prettier plugin Tailwind CSS we're going to install that uh we
+have our third terminal running and just by
+installing that and I'm going to go back and grab this plugin uh uh
+Tailwind prettier just like that on Google and you will find it
+so um yeah so installed let's add this to our prettier configuration file so we
+don't have one right now so we're going to need to create one uh cuz here we don't have one yeah so in the root of
+your project type period prettier RC
+just like that and you'll see if if you get a little icon that will let you know that you're right uh plugins and then so
+once we save that great uh I don't think we need to
+restart our Dev server but maybe um you can test
+this let me go into somewhere where we have a lot of classes content list
+maybe yeah here we go so if I move font bold over in
+front and I save ah it flipped it so now as we go through oh there's a couple
+things here that um yeah I I I forgot to remove the F off
+of that opacity so I think that that might make the animation a little bit better anyway uh this just helps you
+sort your classes and it can really keep things tidy so that um it's like a
+predictable way to sort things so as you save it will shift them around so that things like Flex are in the front um
+your responsive styles are towards the back things like that I highly recommend this pretti your plugin it makes sure
+life so much easier working with Tailwind is just fantastic we didn't need it up until now cuz I was you know
+telling you what what to put in but as you venture on this is great all right
+and then we want to add uh the prismic preview to our layout file first we're
+going to import uh both prismic preview from prismic next but also create client
+and repository name from our local at/ prismic IO
+file then down here just beyond the body we can go ahead and and write prismic
+preview and pass it the repository name and prismic previews allow you get
+prismic fantastic preview feature that enables live previews on your site so
+you don't have to publish and wait for a full rebuild or anything like that so just by dropping that in there we have
+access to that now the reason why we brought in create client is to actually update this you know less than Stellar
+metadata so here instead of export con metadata this is static metadata we can instead
+export an async function called generate metadata which returns a promise or or
+yeah returns a promise that resolves to metadata and we're going to use our client to create a client or so we're
+going to create a client and then we're going to fetch our settings and pull the
+meta title and The Meta description off of that setting object so this will be
+kind of the fallback metadata for our site all right and just like that we are
+set I'm going to go ahead and commit all of this to get um we have a whole bunch
+here and we are ready to say our final
+site go ahead and commit there are no stage changes sure I like to use the built-in Source control inside vs code
+however you like to use your git is a okay with me so I'm going to click publish Branch uh I like that vs code
+has an integration with GitHub so if you are logged in it will take care of that for you uh so you can see publish to
+GitHub private repository I'm going to go private just for this um because I I already have creative portfolio public
+don't want to confuse people out there who are looking at both things and we
+successfully published to GitHub of course if you don't have a GitHub account it is free and you can uh you
+know there are plenty of resources out there to learn about that including uh the last course that I put out on nextjs
+and prismic there'll be a link down in the description below you can check that out there's a whole section where I go
+through that step by step we're kind of breezing through this because uh you know it's available elsewhere but now
+that it's up we can go ahead and open versell once again this is a free
+service or it is a service with free tiers I I should say and once you you
+have an account and you are logged in you can go ahead and click add new project you will need to sync or or uh
+rather connect your GitHub account and your versal account but as you can see creative portfolio tutorial going to
+import that and I'm going to go ahead and just click deploy because all of
+these defaults should be okay it recognizes that it's a nextjs app and it's going to start to deploy it all
+right it says it was deployed successfully let's continue to the dashboard
+and we should be able to open it mine was creative portfolio tutorial so you might have
+uh oh that looks cool like I love I love that uh mining sound that's
+super good nice that's coming out great all right uh you can see it's super fast
+once we deploy it you you might have been a little worried about um the page
+transitions over on the dev server but now that it's deployed look how Zippy that is super super super fast all right
+but now let's grab our URL so whatever you're deployed to uh grab that let's go
+back to prismic and inside one of your documents go up here and click live
+preview settings instead of Local Host 3000 go ahead and put in make sure you
+don't double slash um whatever your url iSell doapp SL slice ulator go ahead and
+hit save it shouldn't change visibly too much but um at least this will now work
+even if your local development environment isn't up and running and this will work for other people now
+where uh what they would have seen would not have well they they wouldn't have
+seen these previews but now it's referencing a live site so well done
+there so one big change between the nextjs pages router and the the new app
+router is how you update when content changes what used to happen is when a
+new document was published you would fire a web hook that would tell your host to rebuild your nextjs site but now
+if you look in your project uh in the API folder you'll see that you have a
+revalidate uh API route and all this does is say hey anything that's tagged
+with prismic please revalidate that so we're we're basically busting the cache
+on anything tagged with prismic and if we look at our prismic IO file that is
+what we've tagged um everything that we fetched from prismic with so what we
+need to do is we need to hit this revalidate route and say hey please revalidate everything with prismic and
+that is how we say uh to next JS to update those pages so for this web hook
+what we're going to do is we're going to grab the URL for your project uh make
+sure this is yours don't don't copy what I'm writing here uh but you're going to paste that and going to say API
+revalidate and this is just the name but it's nice to use the URL um as the name
+so you know exactly what you're looking at and we're going to do it just like that and we don't need our secret this
+is um yeah it's it's not a a big deal there so I'm only going to do it when a
+document is published or unpublished you can remove these other ones and we're going to say add this web hook and so
+now if you go if you ever go in and change something like let's say the
+homepage I'm going to change it to Andrew let's see how that goes watch
+this break our entire site but I'm going to say publish yeah
+it's carrying on to to the next line if you do have a longer name please you know know the that you can change the
+sizes and everything that we set up uh I did size everything around the name Andy
+but it's totally fine either way and we should see this update
+soon all right and yeah we got that so there we go we have um an updated page
+now I'll change that back to Andy and just like that we've got Andy back so
+there is our personal site please please please customize it to your Arts content
+make this your own thing and yeah I think you're going to really like what
+this feels like for you uh there's a whole lot you can customize here there's very little that's like really locked in
+stone uh everything from the colors to you know the shapes and the effects the eases all of this is uh highly
+customizable I'm I'm really excited to see if you end up uh doing this whole
+tutorial and launching this please please please please leave a comment
+tell me what you liked what what else you would like to see what other kinds of effects you would want to do uh share
+your site with us I would love to see it and and I want to hear what other kinds of tutorials you want us to uh create
+here because I had a lot of fun with this one I hope you did too um we did 3js we did Green sock we did all kinds
+of really cool stuff you even learned about uh Tailwind typography lots of tips packed into this one I'm excited to
+do more so uh if you want more like this please please uh leave a comment drop a
+like follow the channel anything like that helps us be able to create more
+thank you so much for watching this and uh I hope you have a really great day and uh have a lot of fun with web
+development it can be a really cool place to flex your creative muscle so get out there and make something fun
+thank you
 
 ----------
 
@@ -190,11 +5417,1350 @@ paste here
 --91--
 
 -----
-Date:
-Link:
+Date:  20.02.2024
+Link: [# Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)
+
+The transcription provided offers a comprehensive overview of various topics related to artificial intelligence, with a particular focus on tokenization in large language models, the implications of Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI), along with the specifics of handling multimodal inputs and the intricacies of tokenizer training and usage. Below are the notes summarizing the content based on the provided instructions.
+
+### Summary of Content:
+
+- **Tokenization in Large Language Models**: Detailed exploration of how tokenization works, its critical role in processing and understanding text in AI models, and its challenges.
+- **Advancements toward AGI and ASI**: Discussion on the progress and potential implications of achieving AGI and ASI, emphasizing the transformative impact on technology and society.
+- **Multimodal Tokenization**: Insights into how AI models are evolving to handle not just text but also images, audio, and video through tokenization, expanding their applicability.
+- **Training and Managing Tokenizers**: Guidance on training tokenizers for AI models, including practical advice on managing vocabulary sizes and dealing with special tokens.
+
+### Advantages:
+
+- **Enhanced AI Understanding**: Proper tokenization significantly improves an AI model's ability to process and understand complex text inputs.
+- **Broader Applicability**: Multimodal tokenization opens up new possibilities for AI applications across different media types.
+- **Precision in AI Responses**: Tailoring tokenizer training can lead to more accurate and relevant responses from AI models.
+
+### Drawbacks:
+
+- **Complexity in Implementation**: Setting up and managing tokenizers, especially for multimodal inputs, can be complex and resource-intensive.
+- **Potential for Misalignment**: The challenges in aligning AGI and ASI with human values and goals pose significant risks.
+
+### Tips and Advice:
+
+- **Careful Management of Vocabulary Size**: Balancing the vocabulary size is crucial for efficient model training and operation.
+- **Utilization of Existing Tokenizers**: Leveraging existing tools like SentencePiece or TikToken can simplify tokenizer management.
+
+### Main Challenges:
+
+- **Tokenization Efficiency**: Achieving efficient tokenization that balances detail with computational efficiency remains a challenge.
+- **Safety and Control in AGI/ASI**: Ensuring that advanced AI systems are safe and aligned with human interests is a major concern.
+
+### Importance and Usefulness:
+
+- Understanding tokenization and its impact on AI development is essential for advancing AI technology and its applications.
+
+### Accomplishments:
+
+- Significant strides have been made in improving tokenization techniques and expanding the capabilities of AI models to understand and generate human-like text.
+
+### Interesting Quotes or Insightful Sentences:
+
+- "Tokenization is at the heart of a lot of weirdness in large language models."
+- "The vast power of superintelligence could also be very dangerous and could lead to the disempowerment of humanity or even human extinction."
+
+This transcription covers a broad spectrum of AI-related topics, offering valuable insights into the current state and future direction of artificial intelligence, with a special emphasis on the technical and ethical challenges of advancing towards more intelligent systems.
+
 Transcription:
 
-paste here
+ntro: Tokenization, GPT-2 paper, tokenization-related issues
+hi everyone so in this video I'd like us to cover the process of tokenization in large language models now you see here
+that I have a set face and that's because uh tokenization is my least favorite part of working with large
+language models but unfortunately it is necessary to understand in some detail because it it is fairly hairy gnarly and
+there's a lot of hidden foot guns to be aware of and a lot of oddness with large language models typically traces back to
+tokenization so what is tokenization now in my previous video Let's Build GPT from scratch uh we
+actually already did tokenization but we did a very naive simple version of tokenization so when you go to the
+Google colab for that video uh you see here that we loaded our training set and
+our training set was this uh Shakespeare uh data set now in the beginning the Shakespeare data set is just a large
+string in Python it's just text and so the question is how do we plug text into
+large language models and in this case here we created a vocabulary of 65
+possible characters that we saw occur in this string these were the possible characters and we saw that there are 65
+of them and then we created a a lookup table for converting from every possible
+character a little string piece into a token an integer so here for example we tokenized
+the string High there and we received this sequence of tokens and here we took the first 1,000
+characters of our data set and we encoded it into tokens and because it is this is character level we received
+1,000 tokens in a sequence so token 18 47
+Etc now later we saw that the way we plug these tokens into the language
+model is by using an embedding table and so basically if we have 65
+possible tokens then this embedding table is going to have 65 rows and roughly speaking we're taking the
+integer associated with every single sing Le token we're using that as a lookup into this table and we're
+plucking out the corresponding row and this row is a uh is trainable parameters
+that we're going to train using back propagation and this is the vector that then feeds into the Transformer um and
+that's how the Transformer Ser of perceives every single token so here we had a very naive
+tokenization process that was a character level tokenizer but in practice in state-ofthe-art uh language
+models people use a lot more complicated schemes unfortunately uh for constructing these uh token
+vocabularies so we're not dealing on the Character level we're dealing on chunk level and the way these um character
+chunks are constructed is using algorithms such as for example the bik pair in coding algorithm which we're
+going to go into in detail um and cover in this video I'd like to briefly show
+you the paper that introduced a bite level encoding as a mechanism for tokenization in the context of large
+language models and I would say that that's probably the gpt2 paper and if you scroll down here to the section
+input representation this is where they cover tokenization the kinds of properties that you'd like the tokenization to have and they conclude
+here that they're going to have a tokenizer where you have a vocabulary of 50,2 57 possible
+tokens and the context size is going to be 1,24 tokens so in the in in the
+attention layer of the Transformer neural network every single token is attending to the previous tokens in the sequence and it's
+going to see up to 1,24 tokens so tokens are this like fundamental unit um the
+atom of uh large language models if you will and everything is in units of tokens everything is about tokens and
+tokenization is the process for translating strings or text into sequences of tokens and uh vice versa
+when you go into the Llama 2 paper as well I can show you that when you search token you're going to get get 63 hits um
+and that's because tokens are again pervasive so here they mentioned that they trained on two trillion tokens of
+data and so on so we're going to build our own tokenizer luckily the bite be encoding
+algorithm is not uh that super complicated and we can build it from scratch ourselves and we'll see exactly
+how this works before we dive into code I'd like to give you a brief Taste of some of the complexities that come from
+the tokenization because I just want to make sure that we motivate it sufficiently for why we are doing all
+this and why this is so gross so tokenization is at the heart of a lot of weirdness in large language models and I
+would advise that you do not brush it off a lot of the issues that may look like just issues with the new network
+architecture or the large language model itself are actually issues with the tokenization and fundamentally Trace uh
+back to it so if you've noticed any issues with large language models can't
+you know not able to do spelling tasks very easily that's usually due to tokenization simple string processing
+can be difficult for the large language model to perform natively uh non-english languages can
+work much worse and to a large extent this is due to tokenization sometimes llms are bad at
+simple arithmetic also can trace be traced to tokenization uh gbt2 specifically would
+have had quite a bit more issues with python than uh future versions of it due to tokenization there's a lot of other
+issues maybe you've seen weird warnings about a trailing whites space this is a tokenization issue um
+if you had asked GPT earlier about solid gold Magikarp and what it is you would see the llm go totally crazy and it
+would start going off about a completely unrelated tangent topic maybe you've been told to use yl over Json in
+structure data all of that has to do with tokenization so basically tokenization is at the heart of many
+issues I will look back around to these at the end of the video but for now let me just um skip over it a little bit and
+tokenization by example in a Web UI (tiktokenizer)
+let's go to this web app um the Tik tokenizer bell.app so I have it loaded
+here and what I like about this web app is that tokenization is running a sort of live in your browser in JavaScript so
+you can just type here stuff hello world and the whole string rokenes so here what we see on uh the
+left is a string that you put in on the right we're currently using the gpt2 tokenizer we see that this string that I
+pasted here is currently tokenizing into 300 tokens and here they are sort of uh
+shown explicitly in different colors for every single token so for example uh this word tokenization became two tokens
+the token 3,642 and
+1,634 the token um space is is token 318
+so be careful on the bottom you can show white space and keep in mind that there are spaces and uh sln new line
+characters in here but you can hide them for clarity the token space at is token 379
+the to the Token space the is 262 Etc so
+you notice here that the space is part of that uh token chunk now so this is kind of like how
+our English sentence broke up and that seems all well and good now now here I
+put in some arithmetic so we see that uh the token 127 Plus and then token six
+space 6 followed by 77 so what's happening here is that 127 is feeding in as a single token into the large
+language model but the um number 677 will actually feed in as two separate
+tokens and so the large language model has to sort of um take account of that
+and process it correctly in its Network and see here 804 will be broken up into
+two tokens and it's is all completely arbitrary and here I have another example of four-digit numbers and they
+break up in a way that they break up and it's totally arbitrary sometimes you have um multiple digits single token
+sometimes you have individual digits as many tokens and it's all kind of pretty arbitrary and coming out of the
+tokenizer here's another example we have the string egg and you see here that
+this became two tokens but for some reason when I say I have an egg you see when it's a space
+egg it's two token it's sorry it's a single token so just egg by itself in
+the beginning of a sentence is two tokens but here as a space egg is suddenly a single token uh for the exact
+same string okay here lowercase egg turns out to be a single token and in
+particular notice that the color is different so this is a different token so this is case sensitive and of course
+a capital egg would also be different tokens and again um this would be two
+tokens arbitrarily so so for the same concept egg depending on if it's in the beginning of a sentence at the end of a
+sentence lowercase uppercase or mixed all this will be uh basically very different tokens and different IDs and
+the language model has to learn from raw data from all the internet text that it's going to be training on that these are actually all the exact same concept
+and it has to sort of group them in the parameters of the neural network and understand just based on the data
+patterns that these are all very similar but maybe not almost exactly similar but but very very similar
+um after the EG demonstration here I have um an introduction from open a eyes
+chbt in Korean so manaso Pang uh Etc uh
+so this is in Korean and the reason I put this here is because you'll notice
+that um non-english languages work slightly worse in Chachi part of this is
+because of course the training data set for Chachi is much larger for English and for everything else but the same is
+true not just for the large language model itself but also for the tokenizer so when we train the tokenizer we're
+going to see that there's a training set as well and there's a lot more English than non-english and what ends up
+happening is that we're going to have a lot more longer tokens for
+English so how do I put this if you have a single sentence in English and you tokenize it you might see that it's 10
+tokens or something like that but if you translate that sentence into say Korean or Japanese or something else you'll
+typically see that the number of tokens used is much larger and that's because the chunks here are a lot more broken up
+so we're using a lot more tokens for the exact same thing and what this does is it bloats up the sequence length of all
+the documents so you're using up more tokens and then in the attention of the Transformer when these tokens try to
+attend each other you are running out of context um in the maximum context length
+of that Transformer and so basically all the non-english text is stretched out
+from the perspective of the Transformer and this just has to do with the um trainings that used for the tokenizer
+and the tokenization itself so it will create a lot bigger tokens and a lot larger groups in English and it will
+have a lot of little boundaries for all the other non-english text um so if we
+translated this into English it would be significantly fewer tokens the final example I have here is
+a little snippet of python for doing FS buuz and what I'd like you to notice is
+look all these individual spaces are all separate tokens they are token
+220 so uh 220 220 220 220 and then space
+if is a single token and so what's going on here is that when the Transformer is going to consume or try to uh create
+this text it needs to um handle all these spaces individually they all feed
+in one by one into the entire Transformer in the sequence and so this is being extremely wasteful tokenizing
+it in this way and so as a result of that gpt2 is not very good with python
+and it's not anything to do with coding or the language model itself it's just that if he use a lot of indentation
+using space in Python like we usually do uh you just end up bloating out all the
+text and it's separated across way too much of the sequence and we are running out of the context length in the
+sequence uh that's roughly speaking what's what's happening we're being way too wasteful we're taking up way too much token space now we can also scroll
+up here and we can change the tokenizer so note here that gpt2 tokenizer creates a token count of 300 for this string
+here we can change it to CL 100K base which is the GPT for tokenizer and we
+see that the token count drops to 185 so for the exact same string we are now roughly having the number of tokens and
+roughly speaking this is because uh the number of tokens in the GPT 4 tokenizer is roughly double that of the number of
+tokens in the gpt2 tokenizer so we went went from roughly 50k to roughly 100K now you can imagine that this is a good
+thing because the same text is now squished into half as many tokens so uh
+this is a lot denser input to the Transformer and in the Transformer every
+single token has a finite number of tokens before it that it's going to pay attention to and so what this is doing is we're roughly able to see twice as
+much text as a context for what token to predict next uh because of this change
+but of course just increasing the number of tokens is uh not strictly better infinitely uh because as you increase
+the number of tokens now your embedding table is um sort of getting a lot larger and also at the output we are trying to
+predict the next token and there's the soft Max there and that grows as well we're going to go into more detail later on this but there's some kind of a Sweet
+Spot somewhere where you have a just right number of tokens in your vocabulary where everything is
+appropriately dense and still fairly efficient now one thing I would like you to note specifically for the gp4
+tokenizer is that the handling of the white space for python has improved a
+lot you see that here these four spaces are represented as one single token for the three spaces here and then the token
+SPF and here seven spaces were all grouped into a single token so we're
+being a lot more efficient in how we represent Python and this was a deliberate Choice made by open aai when they designed the gp4 tokenizer and they
+group a lot more space into a single character what this does is this densifies Python and therefore we can
+attend to more code before it when we're trying to predict the next token in the sequence and so the Improvement in the
+python coding ability from gbt2 to gp4 is not just a matter of the language
+model and the architecture and the details of the optimization but a lot of the Improvement here is also coming from
+the design of the tokenizer and how it groups characters into tokens okay so let's now start writing some code
+strings in Python, Unicode code points
+so remember what we want to do we want to take strings and feed them into language models for that we need to
+somehow tokenize strings into some integers in some fixed vocabulary and
+then we will use those integers to make a look up into a lookup table of vectors and feed those vectors into the
+Transformer as an input now the reason this gets a little bit tricky of course is that we don't just want to support
+the simple English alphabet we want to support different kinds of languages so this is anango in Korean which is hello
+and we also want to support many kinds of special characters that we might find on the internet for example
+Emoji so how do we feed this text into uh Transformers well how's the what is this
+text anyway in Python so if you go to the documentation of a string in Python
+you can see that strings are immutable sequences of Unicode code points okay what are Unicode code points
+we can go to PDF so Unicode code points are defined by the Unicode Consortium as
+part of the Unicode standard and what this is really is that it's just a definition of roughly 150,000 characters
+right now and roughly speaking what they look like and what integers um represent
+those characters so it says 150,000 characters across 161 scripts as of
+right now so if you scroll down here you can see that the standard is very much alive the latest standard 15.1 in
+September 2023 and basically this is just a way to
+define lots of types of characters like for example all these
+characters across different scripts so the way we can access the unic code code Point given Single Character is by using
+the or function in Python so for example I can pass in Ord of H and I can see
+that for the Single Character H the unic code code point is
+104 okay um but this can be arbitr complicated so we can take for example
+our Emoji here and we can see that the code point for this one is 128,000 or we can take
+un and this is 50,000 now keep in mind you can't plug in strings here because
+you uh this doesn't have a single code point it only takes a single uni code code Point character and tells you its
+integer so in this way we can look up all the um characters of this
+specific string and their code points so or of X forx in this string and we get
+this encoding here now see here we've already turned the raw code points
+already have integers so why can't we simply just use these integers and not have any tokenization at all why can't
+we just use this natively as is and just use the code Point well one reason for that of course is that the vocabulary in
+that case would be quite long so in this case for Unicode the this is a vocabulary of
+150,000 different code points but more worryingly than that I think the Unicode
+standard is very much alive and it keeps changing and so it's not kind of a stable representation necessarily that
+we may want to use directly so for those reasons we need something a bit better so to find something better we turn to
+Unicode byte encodings, ASCII, UTF-8, UTF-16, UTF-32
+encodings so if we go to the Wikipedia page here we see that the Unicode consortion defines three types of
+encodings utf8 UTF 16 and UTF 32 these encoding are the way by which we can
+take Unicode text and translate it into binary data or by streams utf8 is by far
+the most common uh so this is the utf8 page now this Wikipedia page is actually quite long but what's important for our
+purposes is that utf8 takes every single Cod point and it translates it to a by
+stream and this by stream is between one to four bytes so it's a variable length encoding so depending on the Unicode
+Point according to the schema you're going to end up with between 1 to four bytes for each code point on top of that
+there's utf8 uh utf16 and UTF 32 UTF 32 is nice because
+it is fixed length instead of variable length but it has many other downsides as well so the full kind of spectrum of
+pros and cons of all these different three encodings are beyond the scope of this video I just like to point out that
+I enjoyed this block post and this block post at the end of it also has a number of references that can be quite useful
+uh one of them is uh utf8 everywhere Manifesto um and this Manifesto
+describes the reason why utf8 is significantly preferred and a lot nicer
+than the other encodings and why it is used a lot more prominently um on the
+internet one of the major advantages just just to give you a sense is that utf8 is the only one of these that is
+backwards compatible to the much simpler asky encoding of text um but I'm not
+going to go into the full detail in this video so suffice to say that we like the utf8 encoding and uh let's try to take
+the string and see what we get if we encoded into utf8 the string class in Python actually
+has do encode and you can give it the encoding which is say utf8 now we get out of this is not very nice because
+this is the bytes is a bytes object and it's not very nice in the way that it's printed so I personally like to take it
+through list because then we actually get the raw B of this uh encoding so this is the raw
+byes that represent this string according to the utf8 en coding we can
+also look at utf16 we get a slightly different by stream and we here we start
+to see one of the disadvantages of utf16 you see how we have zero Z something Z something Z something we're starting to
+get a sense that this is a bit of a wasteful encoding and indeed for simple asky characters or English characters
+here uh we just have the structure of 0 something Z something and it's not exactly nice same for UTF 32 when we
+expand this we can start to get a sense of the wastefulness of this encoding for our purposes you see a lot of zeros
+followed by something and so uh this is not desirable so suffice it to say that we
+would like to stick with utf8 for our purposes however if we just use utf8
+naively these are by streams so that would imply a vocabulary length of only
+256 possible tokens uh but this this vocabulary size is very very small what
+this is going to do if we just were to use it naively is that all of our text would be stretched out over very very
+long sequences of bytes and so um what what this does is that certainly
+the embeding table is going to be tiny and the prediction at the top at the final layer is going to be very tiny but our sequences are very long and remember
+that we have pretty finite um context length and the attention that we can support in a transformer for
+computational reasons and so we only have as much context length but now we have very very long sequences and this
+is just inefficient and it's not going to allow us to attend to sufficiently long text uh before us for the purposes
+of the next token prediction task so we don't want to use the raw bytes of the
+utf8 encoding we want to be able to support larger vocabulary size that we
+can tune as a hyper but we want to stick with the utf8 encoding of these strings so what do we
+do well the answer of course is we turn to the bite pair encoding algorithm which will allow us to compress these
+bite sequences um to a variable amount so we'll get to that in a bit but I just
+want to briefly speak to the fact that I would love nothing more than to be able to feed raw bite sequences into uh
+daydreaming: deleting tokenization
+language models in fact there's a paper about how this could potentially be done uh from Summer last last year now the
+problem is you actually have to go in and you have to modify the Transformer architecture because as I mentioned
+you're going to have a problem where the attention will start to become extremely expensive because the sequences are so
+long and so in this paper they propose kind of a hierarchical structuring of
+the Transformer that could allow you to just feed in raw bites and so at the end they say together these results
+establish the viability of tokenization free autor regressive sequence modeling at scale so tokenization free would
+indeed be amazing we would just feed B streams directly into our models but unfortunately I don't know that this has
+really been proven out yet by sufficiently many groups and a sufficient scale uh but something like
+this at one point would be amazing and I hope someone comes up with it but for now we have to come back and we can't
+feed this directly into language models and we have to compress it using the B paare encoding algorithm so let's see
+how that works so as I mentioned the B paare encoding algorithm is not all that complicated and the Wikipedia page is
+Byte Pair Encoding (BPE) algorithm walkthrough
+actually quite instructive as far as the basic idea goes go what we're doing is we have some kind of a input sequence uh
+like for example here we have only four elements in our vocabulary a b c and d and we have a sequence of them so
+instead of bytes let's say we just have four a vocab size of four the sequence is too long and we'd
+like to compress it so what we do is that we iteratively find the pair of uh
+tokens that occur the most frequently and then once we've
+identified that pair we repl replace that pair with just a single new token
+that we append to our vocabulary so for example here the bite pair AA occurs
+most often so we mint a new token let's call it capital Z and we replace every
+single occurrence of AA by Z so now we have two Z's here so here we took a
+sequence of 11 characters with vocabulary size four and we've converted
+it to a um sequence of only nine tokens but now with a vocabulary of five
+because we have a fifth vocabulary element that we just created and it's Z standing for concatination of AA and we
+can again repeat this process so we again look at the sequence and identify
+the pair of tokens that are most frequent let's say that that is now AB
+well we are going to replace AB with a new token that we meant call Y so y becomes ab and then every single
+occurrence of ab is now replaced with y so we end up with this so now we only
+have 1 2 3 4 5 6 seven characters in our sequence but we have not just um four
+vocabulary elements or five but now we have six and for the final round we
+again look through the sequence find that the phrase zy or the pair zy is most common and replace it one more time
+with another um character let's say x so X is z y and we replace all curses of zy
+and we get this following sequence so basically after we have gone through this process instead of having a um
+sequence of 11 uh tokens with a vocabulary length of
+four we now have a sequence of 1 2 3 four five tokens but our vocabulary
+length now is seven and so in this way we can iteratively compress our sequence
+I we Mint new tokens so in the in the exact same way we start we start out with bite sequences so we have 256
+vocabulary size but we're now going to go through these and find the bite pairs that occur the most and we're going to
+iteratively start minting new tokens appending them to our vocabulary and replacing things and in this way we're
+going to end up with a compressed training data set and also an algorithm for taking any arbitrary sequence and
+encoding it using this uh vocabul and also decoding it back to Strings so
+let's now Implement all that so here's what I did I went to this block post that I enjoyed and I took the first
+starting the implementation
+paragraph and I copy pasted it here into text so this is one very long line
+here now to get the tokens as I mentioned we just take our text and we encode it into utf8 the tokens here at
+this point will be a raw bites single stream of bytes and just so that it's
+easier to work with instead of just a bytes object I'm going to convert all those bytes to integers and then create
+a list of it just so it's easier for us to manipulate and work with in Python and visualize and here I'm printing all
+of that so this is the original um this is the original paragraph and its length
+is 533 uh code points and then here are the bytes encoded in ut utf8 and we see that
+this has a length of 616 bytes at this point or 616 tokens and the reason this
+is more is because a lot of these simple asky characters or simple characters
+they just become a single bite but a lot of these Unicode more complex characters become multiple bytes up to four and so
+we are expanding that size so now what we'd like to do as a first step of the algorithm is we'd like
+to iterate over here and find the pair of bites that occur most frequently
+because we're then going to merge it so if you are working long on a notebook on a side then I encourage you to basically
+click on the link find this notebook and try to write that function yourself otherwise I'm going to come here and
+Implement first the function that finds the most common pair okay so here's what I came up with there are many different
+counting consecutive pairs, finding most common pair
+ways to implement this but I'm calling the function get stats it expects a list of integers I'm using a dictionary to
+keep track of basically the counts and then this is a pythonic way to iterate consecutive elements of this list uh
+which we covered in the previous video and then here I'm just keeping track of just incrementing by one um for all the
+pairs so if I call this on all the tokens here then the stats comes out here so this is the dictionary the keys
+are these topples of consecutive elements and this is the count so just
+to uh print it in a slightly better way this is one way that I like to do that
+where you it's a little bit compound here so you can pause if you like but we iterate all all the items the items
+called on dictionary returns pairs of key value and instead I create a list
+here of value key because if it's a value key list then I can call sort on
+it and by default python will uh use the first element which in this case will be
+value to sort by if it's given tles and then reverse so it's descending and
+print that so basically it looks like 101 comma 32 was the most commonly
+occurring consecutive pair and it occurred 20 times we can double check that that makes reasonable sense so if I
+just search 10132 then you see that these are the 20 occurrences of that um pair and if we'd
+like to take a look at what exactly that pair is we can use Char which is the opposite of or in Python so we give it a
+um unic code Cod point so 101 and of 32 and we see that this is e and space so
+basically there's a lot of E space here meaning that a lot of these words seem to end with e so here's eace as an
+example so there's a lot of that going on here and this is the most common pair so now that we've identified the most
+merging the most common pair
+common pair we would like to iterate over this sequence we're going to Mint a new token with the ID of
+256 right because these tokens currently go from Z to 255 so when we create a new
+token it will have an ID of 256 and we're going to iterate over this
+entire um list and every every time we see 101 comma 32 we're going to swap
+that out for 256 so let's Implement that now and feel free to uh do that yourself as well so
+first I commented uh this just so we don't pollute uh the notebook too much this is a nice way of in Python
+obtaining the highest ranking pair so we're basically calling the Max on this
+dictionary stats and this will return the maximum key and then the question is how does it
+rank keys so you can provide it with a function that ranks keys and that
+function is just stats. getet uh stats. getet would basically return the value
+and so we're ranking by the value and getting the maximum key so it's 101 comma 32 as we saw now to actually merge
+10132 um this is the function that I wrote but again there are many different versions of it so we're going to take a
+list of IDs and the the pair that we want to replace and that pair will be replaced with the new index
+idx so iterating through IDs if we find the pair swap it out for idx so we
+create this new list and then we start at zero and then we go through this entire list sequentially from left to
+right and here we are checking for equality at the current position with the
+pair um so here we are checking that the pair matches now here is a bit of a tricky condition that you have to append
+if you're trying to be careful and that is that um you don't want this here to be out of Bounds at the very last
+position when you're on the rightmost element of this list otherwise this would uh give you an autof bounds error
+so we have to make sure that we're not at the very very last element so uh this would be false for that so if we find a
+match we append to this new list that replacement index and we increment the
+position by two so we skip over that entire pair but otherwise if we we haven't found a matching pair we just
+sort of copy over the um element at that position and increment by one then
+return this so here's a very small toy example if we have a list 566 791 and we
+want to replace the occurrences of 67 with 99 then calling this on that will
+give us what we're asking for so here the 67 is replaced with
+99 so now I'm going to uncomment this for our actual use case where we want to
+take our tokens we want to take the top pair here and replace it with 256 to get
+tokens to if we run this we get the following so recall that previously we
+had a length 616 in this list and now we have a length 596 right so this
+decreased by 20 which makes sense because there are 20 occurrences moreover we can try to find 256 here and
+we see plenty of occurrences on off it and moreover just double check there should be no occurrence of 10132 so this
+is the original array plenty of them and in the second array there are no occurrences of 1032 so we've
+successfully merged this single pair and now we just uh iterate this so we are
+going to go over the sequence again find the most common pair and replace it so let me now write a y Loop that uses
+these functions to do this um sort of iteratively and how many times do we do it four well that's totally up to us as
+a hyper parameter the more um steps we take the larger will be our vocabulary and the shorter
+will be our sequence and there is some sweet spot that we usually find works the best in practice and so this is kind
+of a hyperparameter and we tune it and we find good vocabulary sizes as an example gp4 currently uses roughly
+100,000 tokens and um bpark that those are reasonable numbers currently instead
+the are large language models so let me now write uh putting putting it all together and uh iterating these steps
+training the tokenizer: adding the while loop, compression ratio
+okay now before we dive into the Y loop I wanted to add one more cell here where I went to the block post and instead of
+grabbing just the first paragraph or two I took the entire block post and I stretched it out in a single line and
+basically just using longer text will allow us to have more representative statistics for the bite Pairs and we'll
+just get a more sensible results out of it because it's longer text um so here
+we have the raw text we encode it into bytes using the utf8 encoding
+and then here as before we are just changing it into a list of integers in Python just so it's easier to work with
+instead of the raw byes objects and then this is the code that I came up with uh
+to actually do the merging in Loop these two functions here are identical to what
+we had above I only included them here just so that you have the point of reference here so uh these two are
+identical and then this is the new code that I added so the first first thing we want to do is we want to decide on the
+final vocabulary size that we want our tokenizer to have and as I mentioned this is a hyper parameter and you set it
+in some way depending on your best performance so let's say for us we're going to use 276 because that way we're
+going to be doing exactly 20 merges and uh 20 merges because we already have
+256 tokens for the raw bytes and to reach 276 we have to do 20 merges uh to
+add 20 new tokens here uh this is uh one way in Python to just create a copy of a list
+so I'm taking the tokens list and by wrapping it in a list python will construct a new list of all the
+individual elements so this is just a copy operation then here I'm creating a merges uh dictionary so this merges
+dictionary is going to maintain basically the child one child two mapping to a new uh token and so what
+we're going to be building up here is a binary tree of merges but actually it's not exactly a tree because a tree would
+have a single root node with a bunch of leaves for us we're starting with the leaves on the bottom which are the
+individual bites those are the starting 256 tokens and then we're starting to like merge two of them at a time and so
+it's not a tree it's more like a forest um uh as we merge these elements
+so for 20 merges we're going to find the most commonly occurring pair we're going
+to Mint a new token integer for it so I here will start at zero so we'll going to start at 256 we're going to print
+that we're merging it and we're going to replace all of the occurrences of that pair with the new new lied token and
+we're going to record that this pair of integers merged into this new
+integer so running this gives us the following
+output so we did 20 merges and for example the first merge was exactly as
+before the 10132 um tokens merging into a new token 2556 now keep in mind that the
+individual uh tokens 101 and 32 can still occur in the sequence after merging it's only when they occur
+exactly consecutively that that becomes 256 now um and in particular the other thing
+to notice here is that the token 256 which is the newly minted token is also eligible for merging so here on the
+bottom the 20th merge was a merge of 25 and 259 becoming
+275 so every time we replace these tokens they become eligible for merging in the next round of data ration so
+that's why we're building up a small sort of binary Forest instead of a single individual tree one thing we can take a look at as
+well is we can take a look at the compression ratio that we've achieved so in particular we started off with this
+tokens list um so we started off with 24,000 bytes and after merging 20 times
+uh we now have only 19,000 um tokens and so therefore the
+compression ratio simply just dividing the two is roughly 1.27 so that's the amount of compression we were able to
+achieve of this text with only 20 merges um and of course the more
+vocabulary elements you add uh the greater the compression ratio here would
+be finally so that's kind of like um the training of the tokenizer if you will
+tokenizer/LLM diagram: it is a completely separate stage
+now 1 Point I wanted to make is that and maybe this is a diagram that can help um
+kind of illustrate is that tokenizer is a completely separate object from the large language model itself so
+everything in this lecture we're not really touching the llm itself uh we're just training the tokenizer this is a completely separate pre-processing stage
+usually so the tokenizer will have its own training set just like a large language model has a potentially
+different training set so the tokenizer has a training set of documents on which you're going to train the tokenizer and then and um we're
+performing The Bite pair encoding algorithm as we saw above to train the vocabulary of this tokenizer so it has its own training set
+it is a pre-processing stage that you would run a single time in the beginning um and the tokenizer is trained using
+bipar coding algorithm once you have the tokenizer once it's trained and you have the vocabulary and you have the merges
+uh we can do both encoding and decoding so these two arrows here so the
+tokenizer is a translation layer between raw text which is as we saw the sequence
+of Unicode code points it can take raw text and turn it into a token sequence
+and vice versa it can take a token sequence and translate it back into raw
+text so now that we have trained uh tokenizer and we have these merges we
+are going to turn to how we can do the encoding and the decoding step if you give me text here are the tokens and
+vice versa if you give me tokens here's the text once we have that we can translate between these two Realms and
+then the language model is going to be trained as a step two afterwards and typically in a in a sort of a
+state-of-the-art application you might take all of your training data for the language model and you might run it through the tokenizer and sort of
+translate everything into a massive token sequence and then you can throw away the raw text you're just left with
+the tokens themselves and those are stored on disk and that is what the large language model is actually reading
+when it's training on them so this one approach that you can take as a single massive pre-processing step a
+stage um so yeah basically I think the most important thing I want to get across is that this is completely
+separate stage it usually has its own entire uh training set you may want to have those training sets be different
+between the tokenizer and the logge language model so for example when you're training the tokenizer as I mentioned we don't just care about the
+performance of English text we care about uh multi many different languages and we also care about code or not code
+so you may want to look into different kinds of mixtures of different kinds of languages and different amounts of code
+and things like that because the amount of different language that you have in your tokenizer training set will
+determine how many merges of it there will be and therefore that determines the density with which uh this type of
+data is um sort of has in the token space and so roughly speaking
+intuitively if you add some amount of data like say you have a ton of Japanese data in your uh tokenizer training set
+then that means that more Japanese tokens will get merged and therefore Japanese will have shorter sequences uh and that's going to be
+beneficial for the large language model which has a finite context length on which it can work on in in the token
+space uh so hopefully that makes sense so we're now going to turn to encoding and decoding now that we have trained a
+tokenizer so we have our merges and now how do we do encoding and decoding okay
+decoding tokens to strings
+so let's begin with decoding which is this Arrow over here so given a token sequence let's go through the tokenizer
+to get back a python string object so the raw text so this is the function that we' like to implement um we're
+given the list of integers and we want to return a python string if you'd like uh try to implement this function yourself it's a fun exercise otherwise
+I'm going to start uh pasting in my own solution so there are many different ways to do it um here's one way I will
+create an uh kind of pre-processing variable that I will call vocab and vocab is a mapping or a
+dictionary in Python for from the token uh ID to the bytes object for that token
+so we begin with the raw bytes for tokens from 0 to 255 and then we go in
+order of all the merges and we sort of uh populate this vocab list by doing an
+addition here so this is the basically the bytes representation of the first
+child followed by the second one and remember these are bytes objects so this addition here is an addition of two
+bytes objects just concatenation so that's what we get here one tricky thing to be careful with
+by the way is that I'm iterating a dictionary in Python using a DOT items and uh it really matters that this runs
+in the order in which we inserted items into the merous dictionary luckily starting with python 3.7 this is
+guaranteed to be the case but before python 3.7 this iteration may have been out of order with respect to how we
+inserted elements into merges and this may not have worked but we are using an um modern python so we're okay and then
+here uh given the IDS the first thing we're going to do is get the
+tokens so the way I implemented this here is I'm taking I'm iterating over all the IDS I'm using vocap to look up
+their bytes and then here this is one way in Python to concatenate all these bytes together to create our tokens and
+then these tokens here at this point are raw bytes so I have to decode using UTF
+F now back into python strings so previously we called that encode on a
+string object to get the bytes and now we're doing it Opposite we're taking the bytes and calling a decode on the bytes
+object to get a string in Python and then we can return
+text so um this is how we can do it now this actually has a um issue um in the
+way I implemented it and this could actually throw an error so try to think figure out why this code could actually
+result in an error if we plug in um uh some sequence of IDs that is
+unlucky so let me demonstrate the issue when I try to decode just something like 97 I am going to get letter A here back
+so nothing too crazy happening but when I try to decode 128 as a single element
+the token 128 is what in string or in Python object uni Cod decoder utfa can't
+Decode by um 0x8 which is this in HEX in position zero invalid start bite what
+does that mean well to understand what this means we have to go back to our utf8 page uh that I briefly showed
+earlier and this is Wikipedia utf8 and basically there's a specific schema that
+utfa bytes take so in particular if you have a multi-te object for some of the
+Unicode characters they have to have this special sort of envelope in how the encoding works and so what's happening
+here is that invalid start pite that's because 128 the binary representation of it is
+one followed by all zeros so we have one and then all zero and we see here that
+that doesn't conform to the format because one followed by all zero just doesn't fit any of these rules so to
+speak so it's an invalid start bite which is byte one this one must have a
+one following it and then a zero following it and then the content of your uni codee in x here so basically we
+don't um exactly follow the utf8 standard and this cannot be decoded and so the way to fix this um is to
+use this errors equals in bytes. decode function of python and by default errors
+is strict so we will throw an error if um it's not valid utf8 bytes encoding
+but there are many different things that you could put here on error handling this is the full list of all the errors
+that you can use and in particular instead of strict let's change it to replace and that will replace uh with
+this special marker this replacement character so errors equals replace and
+now we just get that character back so basically not every single by
+sequence is valid utf8 and if it happens that your large language model for example predicts your
+tokens in a bad manner then they might not fall into valid utf8 and then we
+won't be able to decode them so the standard practice is to basically uh use
+errors equals replace and this is what you will also find in the openai um code that they released as well but basically
+whenever you see um this kind of a character in your output in that case uh something went wrong and the LM output
+not was not valid uh sort of sequence of tokens okay and now we're going to go
+encoding strings to tokens
+the other way so we are going to implement this Arrow right here where we are going to be given a string and we want to
+encode it into tokens so this is the signature of the function that we're interested in and um
+this should basically print a list of integers of the tokens so again uh try to maybe implement this yourself if
+you'd like a fun exercise uh and pause here otherwise I'm going to start putting in my solution so again there are many ways to
+do this so um this is one of the ways that sort of I came came up with so the
+first thing we're going to do is we are going to uh take our text encode it into utf8
+to get the raw bytes and then as before we're going to call list on the bytes object to get a list of integers of
+those bytes so those are the starting tokens those are the raw bytes of our sequence but now of course according to
+the merges dictionary above and recall this was the merges some of the bytes may be merged
+according to this lookup in addition to that remember that the merges was built from top to bottom and this is sort of
+the order in which we inserted stuff into merges and so we prefer to do all these merges in the beginning before we
+do these merges later because um for example this merge over here relies on the 256 which got merged here so we have
+to go in the order from top to bottom sort of if we are going to be merging anything now we expect to be doing a few
+merges so we're going to be doing W true um and now we want to find a pair
+of byes that is consecutive that we are allowed to merge according to this in
+order to reuse some of the functionality that we've already written I'm going to reuse the function uh get
+stats so recall that get stats uh will give us the we'll basically count up how
+many times every single pair occurs in our sequence of tokens and return that as a dictionary and the dictionary was a
+mapping from all the different uh by pairs to the number of times that they
+occur right um at this point we don't actually care how many times they occur in the sequence we only care what the
+raw pairs are in that sequence and so I'm only going to be using basically the keys of the dictionary I only care about
+the set of possible merge candidates if that makes sense now we want to identify the pair
+that we're going to be merging at this stage of the loop so what do we want we want to find the pair or like the a key
+inside stats that has the lowest index in the merges uh dictionary because we
+want to do all the early merges before we work our way to the late merges so again there are many different
+ways to implement this but I'm going to do something a little bit fancy
+here so I'm going to be using the Min over an iterator in Python when you call
+Min on an iterator and stats here as a dictionary we're going to be iterating the keys of this dictionary in Python so
+we're looking at all the pairs inside stats um which are all the consecutive
+Pairs and we're going to be taking the consecutive pair inside tokens that has
+the minimum what the Min takes a key which gives us the function that is
+going to return a value over which we're going to do the Min and the one we care about is we're we care about taking
+merges and basically getting um that pairs
+index so basically for any pair inside stats we are going to be looking into
+merges at what index it has and we want to get the pair with the Min number so
+as an example if there's a pair 101 and 32 we definitely want to get that pair uh we want to identify it here and
+return it and pair would become 10132 if it occurs and the reason that I'm putting a
+float INF here as a fall back is that in the get function when we call uh when we
+basically consider a pair that doesn't occur in the merges then that pair is not eligible to be merged right so if in
+the token sequence there's some pair that is not a merging pair it cannot be merged then uh it doesn't actually occur
+here and it doesn't have an index and uh it cannot be merged which we will denote as float INF and the reason Infinity is
+nice here is because for sure we're guaranteed that it's not going to participate in the list of candidates when we do the men so uh so this is one
+way to do it so B basically long story short this Returns the most eligible merging candidate pair uh that occurs in
+the tokens now one thing to be careful with here is this uh function here might
+fail in the following way if there's nothing to merge then uh uh then there's
+nothing in merges um that satisfi that is satisfied anymore there's nothing to merge everything just returns float imps
+and then the pair I think will just become the very first element of stats
+um but this pair is not actually a mergeable pair it just becomes the first pair inside stats arbitrarily because
+all of these pairs evaluate to float in for the merging Criterion so basically
+it could be that this this doesn't look succeed because there's no more merging pairs so if this pair is not in merges
+that was returned then this is a signal for us that actually there was nothing to merge no single pair can be merged
+anymore in that case we will break out um nothing else can be
+merged you may come up with a different implementation by the way this is kind of like really trying hard in
+Python um but really we're just trying to find a pair that can be merged with the lowest index
+here now if we did find a pair that is inside merges with the lowest index then
+we can merge it so we're going to look into the merger
+dictionary for that pair to look up the index and we're going to now merge that
+into that index so we're going to do tokens equals and we're going to replace the original tokens we're going
+to be replacing the pair pair and we're going to be replacing it with index idx and this returns a new list of tokens
+where every occurrence of pair is replaced with idx so we're doing a merge and we're going to be continuing this
+until eventually nothing can be merged we'll come out here and we'll break out and here we just return
+tokens and so that that's the implementation I think so hopefully this runs okay cool um yeah and this looks uh
+reasonable so for example 32 is a space in asky so that's here um so this looks
+like it worked great okay so let's wrap up this section of the video at least I wanted to point out that this is not
+quite the right implementation just yet because we are leaving out a special case so in particular if uh we try to do
+this this would give us an error and the issue is that um if we only have a single character or an empty string then
+stats is empty and that causes an issue inside Min so one way to fight this is if L of tokens is at least two because
+if it's less than two it's just a single token or no tokens then let's just uh there's nothing to merge so we just
+return so that would fix uh that case Okay and then second I have a few
+test cases here for us as well so first let's make sure uh about or let's note
+the following if we take a string and we try to encode it and then decode it back
+you'd expect to get the same string back right is that true for all
+strings so I think uh so here it is the case and I think in general this is probably the case um but notice that
+going backwards is not is not you're not going to have an identity going backwards because as I mentioned us not
+all token sequences are valid utf8 uh sort of by streams and so so therefore
+you're some of them can't even be decodable um so this only goes in One
+Direction but for that one direction we can check uh here if we take the training text which is the text that we
+train to tokenizer around we can make sure that when we encode and decode we get the same thing back which is true
+and here I took some validation data so I went to I think this web page and I grabbed some text so this is text that
+the tokenizer has not seen and we can make sure that this also works um okay so that gives us some confidence that
+this was correctly implemented so those are the basics of the bite pair encoding algorithm we saw how we can uh
+take some training set train a tokenizer the parameters of this tokenizer really are just this dictionary of merges and
+that basically creates the little binary Forest on top of raw bites once we have this the merges table
+we can both encode and decode between raw text and token sequences so that's the the simplest setting of The
+tokenizer what we're going to do now though is we're going to look at some of the St the art lar language models and
+the kinds of tokenizers that they use and we're going to see that this picture complexifies very quickly so we're going
+to go through the details of this comp complexification one at a time so let's
+regex patterns to force splits across categories
+kick things off by looking at the GPD Series so in particular I have the gpt2 paper here um and this paper is from
+2019 or so so 5 years ago and let's scroll down to input representation this
+is where they talk about the tokenizer that they're using for gpd2 now this is all fairly readable so I encourage you
+to pause and um read this yourself but this is where they motivate the use of the bite pair encoding algorithm on the
+bite level representation of utf8 encoding so this is where they motivate it and they talk about the vocabulary
+sizes and everything now everything here is exactly as we've covered it so far but things start to depart around here
+so what they mention is that they don't just apply the naive algorithm as we have done it and in particular here's a
+example suppose that you have common words like dog what will happen is that dog of course occurs very frequently in
+the text and it occurs right next to all kinds of punctuation as an example so doc dot dog exclamation mark dog
+question mark Etc and naively you might imagine that the BP algorithm could merge these to be single tokens and then
+you end up with lots of tokens that are just like dog with a slightly different punctuation and so it feels like you're
+clustering things that shouldn't be clustered you're combining kind of semantics with uation and this uh feels suboptimal and
+indeed they also say that this is suboptimal according to some of the experiments so what they want to do is
+they want to top down in a manual way enforce that some types of um characters
+should never be merged together um so they want to enforce these merging rules
+on top of the bite PA encoding algorithm so let's take a look um at their code
+and see how they actually enforce this and what kinds of mergy they actually do perform so I have to to tab open here
+for gpt2 under open AI on GitHub and when we go to Source there is an encoder thatp now I
+don't personally love that they call it encoder dopy because this is the tokenizer and the tokenizer can do both
+encode and decode uh so it feels kind of awkward to me that it's called encoder but that is the tokenizer and there's a
+lot going on here and we're going to step through it in detail at one point for now I just want to focus on this
+part here the create a rigix pattern here that looks very complicated and we're going to go through it in a bit uh
+but this is the core part that allows them to enforce rules uh for what parts
+of the text Will Never Be merged for sure now notice that re. compile here is a little bit misleading because we're
+not just doing import re which is the python re module we're doing import reex as re and reex is a python package that
+you can install P install r x and it's basically an extension of re so it's a bit more powerful
+re um so let's take a look at this pattern and
+what it's doing and why this is actually doing the separation that they are looking for okay so I've copy pasted the
+pattern here to our jupit notebook where we left off and let's take this pattern for a spin so in the exact same way that
+their code does we're going to call an re. findall for this pattern on any
+arbitrary string that we are interested so this is the string that we want to encode into tokens um to feed into n llm
+like gpt2 so what exactly is this doing well re. findall will take this pattern
+and try to match it against a string um the way this works is that you
+are going from left to right in the string and you're trying to match the pattern and R.F find all will get all
+the occurrences and organize them into a list now when you look at the um when
+you look at this pattern first of all notice that this is a raw string um and then these are three double quotes just
+to start the string so really the string itself this is the pattern itself right and notice that it's made up of a
+lot of ores so see these vertical bars those are ores in reg X and so you go
+from left to right in this pattern and try to match it against the string wherever you are so we have hello and
+we're going to try to match it well it's not apostrophe s it's not apostrophe t or any of these but it is an optional
+space followed by- P of uh sorry SL P of L one or more times what is/ P of L it
+is coming to some documentation that I found um there might be other sources as
+well uh SLP is a letter any kind of letter from any language and hello is
+made up of letters h e l Etc so optional space followed by a bunch of letters one
+or more letters is going to match hello but then the match ends because a white
+space is not a letter so from there on begins a new sort of attempt to match
+against the string again and starting in here we're going to skip over all of these again until we get to the exact
+same Point again and we see that there's an optional space this is the optional space followed by a bunch of letters one
+or more of them and so that matches so when we run this we get a list of two
+elements hello and then space world so how are you if we add more letters we
+would just get them like this now what is this doing and why is this important we are taking our string and instead of
+directly encoding it um for tokenization we are first splitting it
+up and when you actually step through the code and we'll do that in a bit more detail what really is doing on a high
+level is that it first splits your text into a list of texts just like this one
+and all these elements of this list are processed independently by the tokenizer and all of the results of that
+processing are simply concatenated so hello world oh I I
+missed how hello world how are you we have five elements of list all of these
+will independent independently go from text to a token
+sequence and then that token sequence is going to be concatenated it's all going to be joined up and roughly speaking
+what that does is you're only ever finding merges between the elements of this list so you can only ever consider
+merges within every one of these elements in individually and um after you've done
+all the possible merging for all of these elements individually the results of all that will be joined um by
+concatenation and so you are basically what what you're doing effectively is you are never going to be merging this e
+with this space because they are now parts of the separate elements of this list and so you are saying we are never
+going to merge eace um because we're breaking it up in this way so basically using this regx
+pattern to Chunk Up the text is just one way of enforcing that some merges are
+not to happen and we're going to go into more of this text and we'll see that what this is trying to do on a high level is we're trying to not merge
+across letters across numbers across punctuation and so on so let's see in
+more detail how that works so let's continue now we have/ P ofn if you go to the documentation SLP of n is any kind
+of numeric character in any script so it's numbers so we have an optional space followed by numbers and those
+would be separated out so letters and numbers are being separated so if I do Hello World 123 how are you then world
+will stop matching here because one is not a letter anymore but one is a number so this group will match for that and
+we'll get it as a separate entity uh let's see how these apostrophes work
+so here if we have um uh Slash V or I mean apostrophe V as
+an example then apostrophe here is not a letter or a number so hello will stop matching and
+then we will exactly match this with that so that will come out as a separate
+thing so why are they doing the apostrophes here honestly I think that these are just like very common
+apostrophes p uh that are used um typically I don't love that they've done
+this because uh let me show you what happens when you have uh some Unicode
+apostrophes like for example you can have if you have house then this will be
+separated out because of this matching but if you use the Unicode apostrophe like
+this then suddenly this does not work and so this apostrophe will actually
+become its own thing now and so so um it's basically hardcoded for this specific kind of apostrophe and uh
+otherwise they become completely separate tokens in addition to this you can go to the gpt2 docs and here when
+they Define the pattern they say should have added re. ignore case so BP merges can happen for capitalized versions of
+contractions so what they're pointing out is that you see how this is apostrophe and then lowercase letters
+well because they didn't do re. ignore case then then um these rules will not
+separate out the apostrophes if it's uppercase so house would be like this but if I did
+house if I'm uppercase then notice suddenly the apostrophe comes by
+itself so the tokenization will work differently in uppercase and lower case
+inconsistently separating out these apostrophes so it feels extremely gnarly and slightly gross um but that's that's
+how that works okay so let's come back after trying to match a bunch of apostrophe Expressions by the way the
+other issue here is that these are quite language specific probably so I don't know that all the languages for example
+use or don't use apostrophes but that would be inconsistently tokenized as a result then we try to match letters then
+we try to match numbers and then if that doesn't work we fall back to here and
+what this is saying is again optional space followed by something that is not a letter number or a space in one or
+more of that so what this is doing effectively is this is trying to match punctuation roughly speaking not letters
+and not numbers so this group will try to trigger for that so if I do something like this then these parts here are not
+letters or numbers but they will actually they are uh they will actually get caught here and so they become its
+own group so we've separated out the punctuation and finally this um this is
+also a little bit confusing so this is matching white space but this is using a
+negative look ahead assertion in regex so what this is doing is it's matching
+wh space up to but not including the last Whit space character why is this important um this
+is pretty subtle I think so you see how the white space is always included at the beginning of the word so um space r
+space u Etc suppose we have a lot of spaces here what's going to happen here is that
+these spaces up to not including the last character will get caught by this
+and what that will do is it will separate out the spaces up to but not including the last character so that the
+last character can come here and join with the um space you and the reason
+that's nice is because space you is the common token so if I didn't have these Extra Spaces here you would just have
+space you and if I add tokens if I add spaces we still have a space view but
+now we have all this extra white space so basically the GB to tokenizer really likes to have a space letters or numbers
+um and it it preens these spaces and this is just something that it is consistent about so that's what that is
+for and then finally we have all the the last fallback is um whites space characters uh so um that would be
+just um if that doesn't get caught then this thing will catch any trailing
+spaces and so on I wanted to show one more real world example here so if we have this string which is a piece of
+python code and then we try to split it up then this is the kind of output we get so you'll notice that the list has
+many elements here and that's because we are splitting up fairly often uh every time sort of a category
+changes um so there will never be any merges Within These elements and um that's what you are
+seeing here now you might think that in order to train the tokenizer uh open AI has used this to
+split up text into chunks and then run just a BP algorithm within all the chunks but that is not exactly what
+happened and the reason is the following notice that we have the spaces here uh
+those Spaces end up being entire elements but these spaces never actually
+end up being merged by by open Ai and the way you can tell is that if you copy paste the exact same chunk here into Tik
+token U Tik tokenizer you see that all the spaces are kept independent and
+they're all token 220 so I think opena at some point Point en Force some rule that these spaces
+would never be merged and so um there's some additional rules on top of just
+chunking and bpe that open ey is not uh clear about now the training code for
+the gpt2 tokenizer was never released so all we have is uh the code that I've already shown you but this code here
+that they've released is only the inference code for the tokens so this is not the training code you can't give it
+a piece of text and training tokenizer this is just the inference code which Tak takes the merges that we have up
+above and applies them to a new piece of text and so we don't know exactly how opening ey trained um train the
+tokenizer but it wasn't as simple as chunk it up and BP it uh whatever it was
+tiktoken library intro, differences between GPT-2/GPT-4 regex
+next I wanted to introduce you to the Tik token library from openai which is the official library for tokenization
+from openai so this is Tik token bip install P to Tik token and then um you
+can do the tokenization in inference this is again not training code this is only inference code for
+tokenization um I wanted to show you how you would use it quite simple and running this just gives us the gpt2
+tokens or the GPT 4 tokens so this is the tokenizer use for GPT 4 and so in
+particular we see that the Whit space in gpt2 remains unmerged but in GPT 4 uh these Whit spaces merge as we also saw
+in this one where here they're all unmerged but if we go down to GPT 4 uh
+they become merged um now in the
+gp4 uh tokenizer they changed the regular expression that they use to
+Chunk Up text so the way to see this is that if you come to your the Tik token uh library and then you go to this file
+Tik token X openi public this is where sort of like the definition of all these different tokenizers that openi
+maintains is and so uh necessarily to do the inference they had to publish some of the details about the strings
+so this is the string that we already saw for gpt2 it is slightly different but it is actually equivalent uh to what
+we discussed here so this pattern that we discussed is equivalent to this pattern this one just executes a little
+bit faster so here you see a little bit of a slightly different definition but otherwise it's the same we're going to
+go into special tokens in a bit and then if you scroll down to CL 100k this is
+the GPT 4 tokenizer you see that the pattern has changed um and this is kind
+of like the main the major change in addition to a bunch of other special tokens which I'll go into in a bit again
+now some I'm not going to actually go into the full detail of the pattern change because honestly this is my
+numbing uh I would just advise that you pull out chat GPT and the regex documentation and just step through it
+but really the major changes are number one you see this eye here that means
+that the um case sensitivity this is case insensitive match and so the
+comment that we saw earlier on oh we should have used re. uppercase uh basically we're now going to be matching
+these apostrophe s apostrophe D apostrophe M Etc uh we're going to be
+matching them both in lowercase and in uppercase so that's fixed there's a bunch of different like handling of the
+whites space that I'm not going to go into the full details of and then one more thing here is you will notice that
+when they match the numbers they only match one to three numbers so so they will never merge
+numbers that are in low in more than three digits only up to three digits of
+numbers will ever be merged and uh that's one change that they made as well
+to prevent uh tokens that are very very long number sequences uh but again we don't really
+know why they do any of this stuff uh because none of this is documented and uh it's just we just get the pattern so
+um yeah it is what it is but those are some of the changes that gp4 has made and of course the vocabulary size went
+from roughly 50k to roughly 100K the next thing I would like to do very briefly is to take you through the
+GPT-2 encoder.py released by OpenAI walkthrough
+gpt2 encoder dopy that openi has released uh this is the file that I
+already mentioned to you briefly now this file is uh fairly short and should
+be relatively understandable to you at this point um starting at the bottom
+here they are loading two files encoder Json and vocab bpe and they do some
+light processing on it and then they call this encoder object which is the tokenizer now if you'd like to inspect
+these two files which together constitute their saved tokenizer then you can do that with a piece of code
+like this um this is where you can download these two files and you can inspect them if you'd like and what you will find is
+that this encoder as they call it in their code is exactly equivalent to our vocab so remember here where we have
+this vocab object which allowed us us to decode very efficiently and basically it took us from the integer to the byes uh
+for that integer so our vocab is exactly their encoder and then their vocab bpe
+confusingly is actually are merges so their BP merges which is based on the
+data inside vocab bpe ends up being equivalent to our merges so uh basically
+they are saving and loading the two uh variables that for us are also critical
+the merges variable and the vocab variable using just these two variables you can represent a tokenizer and you
+can both do encoding and decoding once you've trained this tokenizer now the only thing that um is
+actually slightly confusing inside what opening ey does here is that in addition to this encoder and a decoder they also
+have something called a bite encoder and a bite decoder and this is actually unfortunately just
+kind of a spirous implementation detail and isn't actually deep or interesting in any way so I'm going to skip the
+discussion of it but what opening ey does here for reasons that I don't fully understand is that not only have they
+this tokenizer which can encode and decode but they have a whole separate layer here in addition that is used serially with the tokenizer and so you
+first do um bite encode and then encode and then you do decode and then bite
+decode so that's the loop and they are just stacked serial on top of each other
+and and it's not that interesting so I won't cover it and you can step through it if you'd like otherwise this file if
+you ignore the bite encoder and the bite decoder will be algorithmically very familiar with you and the meat of it
+here is the what they call bpe function and you should recognize this Loop here
+which is very similar to our own y Loop where they're trying to identify the Byram uh a pair that they should be
+merging next and then here just like we had they have a for Loop trying to merge this pair uh so they will go over all of
+the sequence and they will merge the pair whenever they find it and they keep repeating that until they run out of
+possible merges in the in the text so that's the meat of this file and uh there's an encode and a decode function
+just like we have implemented it so long story short what I want you to take away at this point is that unfortunately it's
+a little bit of a messy code that they have but algorithmically it is identical to what we've built up above and what
+we've built up above if you understand it is algorithmically what is necessary to actually build a BP to organizer
+train it and then both encode and decode the next topic I would like to turn to is that of special tokens so in addition
+special tokens, tiktoken handling of, GPT-2/GPT-4 differences
+to tokens that are coming from you know raw bytes and the BP merges we can insert all kinds of tokens that we are
+going to use to delimit different parts of the data or introduced to create a special structure of the token streams
+so in uh if you look at this encoder object from open AIS gpd2 right here we
+mentioned this is very similar to our vocab you'll notice that the length of this is
+50257 and as I mentioned it's mapping uh and it's inverted from the mapping of our vocab our vocab goes from integer to
+string and they go the other way around for no amazing reason um but the thing
+to note here is that this the mapping table here is 50257 where does that number come from
+where what are the tokens as I mentioned there are 256 raw bite token
+tokens and then opena actually did 50,000 merges so those become the other tokens
+but this would have been 50256 so what is the 57th token and
+there is basically one special token and that one special token you can
+see is called end of text so this is a special token and it's the very last
+token and this token is used to delimit documents ments in the training set so
+when we're creating the training data we have all these documents and we tokenize them and we get a stream of tokens those
+tokens only range from Z to 50256 and then in between those
+documents we put special end of text token and we insert that token in
+between documents and we are using this as a signal to the language model that
+the document has ended and what follows is going to be unrelated to the document previously that said the language model
+has to learn this from data it it needs to learn that this token usually means that it should wipe its sort of memory
+of what came before and what came before this token is not actually informative to what comes next but we are expecting
+the language model to just like learn this but we're giving it the Special sort of the limiter of these documents
+we can go here to Tech tokenizer and um this the gpt2 tokenizer uh our code that
+we've been playing with before so we can add here right hello world world how are you and we're getting different tokens
+but now you can see what if what happens if I put end of text you see how until I
+finished it these are all different tokens end of text still set different tokens and now
+when I finish it suddenly we get token 50256 and the reason this works is
+because this didn't actually go through the bpe merges instead the code that
+actually outposted tokens has special case instructions for handling special
+tokens um we did not see these special instructions for handling special tokens in the encoder dopy it's absent there
+but if you go to Tech token Library which is uh implemented in Rust you will find all kinds of special case handling
+for these special tokens that you can register uh create adds to the vocabulary and then it looks for them
+and it uh whenever it sees these special tokens like this it will actually come in and swap in that special token so
+these things are outside of the typical algorithm of uh B PA en coding so these special tokens are used
+pervasively uh not just in uh basically base language modeling of predicting the next token in the sequence but
+especially when it gets to later to the fine tuning stage and all of the chat uh gbt sort of aspects of it uh because we
+don't just want to Del limit documents we want to delimit entire conversations between an assistant and a user so if I
+refresh this sck tokenizer page the default example that they have here is using not sort of base model encoders
+but ftuned model uh sort of tokenizers um so for example using the GPT 3.5
+turbo scheme these here are all special tokens I am start I end Etc uh this is
+short for Imaginary mcore start by the way but you can see here that there's a
+sort of start and end of every single message and there can be many other other tokens lots of tokens um in use to
+delimit these conversations and kind of keep track of the flow of the messages here now we can go back to the Tik token
+library and here when you scroll to the bottom they talk about how you can extend tick token and I can you can
+create basically you can Fork uh the um CL 100K base tokenizers in gp4 and for
+example you can extend it by adding more special tokens and these are totally up to you you can come up with any arbitrary tokens and add them with the
+new ID afterwards and the tikken library will uh correctly swap them out uh when
+it sees this in the strings now we can also go back to this
+file which we've looked at previously and I mentioned that the gpt2 in Tik toen open
+I.P we have the vocabulary we have the pattern for splitting and then here we are registering the single special token
+in gpd2 which was the end of text token and we saw that it has this ID in GPT 4 when they defy this here you
+see that the pattern has changed as we've discussed but also the special tokens have changed in this tokenizer so
+we of course have the end of text just like in gpd2 but we also see three sorry
+four additional tokens here Thim prefix middle and suffix what is fim fim is
+short for fill in the middle and if you'd like to learn more about this idea it comes from this paper um and I'm not
+going to go into detail in this video it's beyond this video and then there's one additional uh serve token here so
+that's that encoding as well so it's very common basically to train a language model and then if you'd like uh
+you can add special tokens now when you add special tokens you of course have to
+um do some model surgery to the Transformer and all the parameters involved in that Transformer because you
+are basically adding an integer and you want to make sure that for example your embedding Matrix for the vocabulary
+tokens has to be extended by adding a row and typically this row would be initialized uh with small random numbers
+or something like that because we need to have a vector that now stands for that token in addition to that you have
+to go to the final layer of the Transformer and you have to make sure that that projection at the very end into the classifier uh is extended by
+one as well so basically there's some model surgery involved that you have to couple with the tokenization changes if
+you are going to add special tokens but this is a very common operation that people do especially if they'd like to
+fine tune the model for example taking it from a base model to a chat model like chat
+GPT okay so at this point you should have everything you need in order to build your own gp4 tokenizer now in the
+minbpe exercise time! write your own GPT-4 tokenizer
+process of developing this lecture I've done that and I published the code under this repository
+MBP so MBP looks like this right now as I'm recording but uh the MBP repository
+will probably change quite a bit because I intend to continue working on it um in addition to the MBP repository I've
+published the this uh exercise progression that you can follow so if you go to exercise. MD here uh this is
+sort of me breaking up the task ahead of you into four steps that sort of uh
+build up to what can be a gp4 tokenizer and so feel free to follow these steps exactly and follow a little bit of the
+guidance that I've laid out here and anytime you feel stuck just reference the MBP repository here so either the
+tests could be useful or the MBP repository itself I try to keep the code fairly clean and understandable and so
+um feel free to reference it whenever um you get stuck uh in addition to that basically
+once you write it you should be able to reproduce this behavior from Tech token so getting the gb4 tokenizer you can
+take uh you can encode the string and you should get these tokens and then you can encode and decode the exact same
+string to recover it and in addition to all that you should be able to implement your own train function uh which Tik
+token Library does not provide it's it's again only inference code but you could write your own train MBP does it as well
+and that will allow you to train your own token vocabularies so here are some of the code inside M be mean bpe uh shows the
+token vocabularies that you might obtain so on the left uh here we have the GPT 4
+merges uh so the first 256 are raw individual bytes and then here I am
+visualizing the merges that gp4 performed during its training so the very first merge that gp4 did was merge
+two spaces into a single token for you know two spaces and that is a token 256
+and so this is the order in which things merged during gb4 training and this is the merge order that um we obtain in MBP
+by training a tokenizer and in this case I trained it on a Wikipedia page of Taylor Swift uh not because I'm a Swifty
+but because that is one of the longest um Wikipedia Pages apparently that's available but she is pretty cool and
+um what was I going to say yeah so you can compare these two uh vocabularies
+and so as an example um here GPT for merged I in to become in and we've done
+the exact same thing on this token 259 here space t becomes space t and that
+happened for us a little bit later as well so the difference here is again to my understanding only a difference of
+the training set so as an example because I see a lot of white space I supect that gp4 probably had a lot of
+python code in its training set I'm not sure uh for the tokenizer and uh here we see much less
+of that of course in the Wikipedia page so roughly speaking they look the same and they look the same because they're
+running the same algorithm and when you train your own you're probably going to get something similar depending on what
+you train it on okay so we are now going to move on from tick token and the way that open AI tokenizes its strings and
+sentencepiece library intro, used to train Llama 2 vocabulary
+we're going to discuss one more very commonly used library for working with tokenization inlm
+and that is sentence piece so sentence piece is very commonly used in language
+models because unlike Tik token it can do both training and inference and is quite efficient at both it supports a
+number of algorithms for training uh vocabularies but one of them is the B pair en coding algorithm that we've been
+looking at so it supports it now sentence piece is used both by llama and
+mistal series and many other models as well it is on GitHub under Google
+sentence piece and the big difference with sentence piece and we're going to look at example
+because this is kind of hard and subtle to explain is that they think different about the order of operations here so in
+the case of Tik token we first take our code points in the string we encode them
+using mutf to bytes and then we're merging bytes it's fairly straightforward for sentence piece um it
+works directly on the level of the code points themselves so so it looks at whatever code points are available in
+your training set and then it starts merging those code points and um the bpe
+is running on the level of code points and if you happen to run out of code points so there are maybe some rare
+uh code points that just don't come up too often and the Rarity is determined by this character coverage hyper parameter then these uh code points will
+either get mapped to a special unknown token like ank or if you have the bite
+foldback option turned on then that will take those rare Cod points it will encode them using utf8 and then the
+individual bytes of that encoding will be translated into tokens and there are these special bite tokens that basically
+get added to the vocabulary so it uses BP on on the code points and then it
+falls back to bytes for rare Cod points um and so that's kind of like difference
+personally I find the Tik token we significantly cleaner uh but it's kind of like a subtle but pretty major difference between the way they approach
+tokenization let's work with with a concrete example because otherwise this is kind of hard to um to get your head
+around so let's work with a concrete example this is how we can import sentence piece and then here we're going
+to take I think I took like the description of sentence piece and I just created like a little toy data set it
+really likes to have a file so I created a toy. txt file with this content now what's kind of a little bit
+crazy about sentence piece is that there's a ton of options and configurations and the reason this is so
+is because sentence piece has been around I think for a while and it really tries to handle a large diversity of things and um because it's been around I
+think it has quite a bit of accumulated historical baggage uh as well and so in
+particular there's like a ton of configuration arguments this is not even all of it you can go to here to see all
+the training options um and uh there's also quite useful documentation when you look at
+the raw Proto buff uh that is used to represent the trainer spec and so on um
+many of these options are irrelevant to us so maybe to point out one example Das Das shrinking Factor uh this shrinking
+factor is not used in the B pair en coding algorithm so this is just an argument that is irrelevant to us um it
+applies to a different training algorithm now what I tried to do here is
+I tried to set up sentence piece in a way that is very very similar as far as I can tell to maybe identical hopefully
+to the way that llama 2 was strained so the way they trained their own um their
+own tokenizer and the way I did this was basically you can take the tokenizer model file that meta released and you
+can um open it using the Proto protuff uh sort of file that you can generate
+and then you can inspect all the options and I tried to copy over all the options that looked relevant so here we set up
+the input it's raw text in this file here's going to be the output so it's going to be for talk 400. model and
+vocab we're saying that we're going to use the BP algorithm and we want to Bap size of
+400 then there's a ton of configurations here
+for um for basically pre-processing and normalization rules as they're called
+normalization used to be very prevalent I would say before llms in natural language processing so in machine
+translation and uh text classification and so on you want to normalize and simplify the text and you want to turn
+it all lowercase and you want to remove all double whites space Etc and in language models we prefer not to
+do any of it or at least that is my preference as a deep learning person you want to not touch your data you want to
+keep the raw data as much as possible um in a raw form so you're basically trying to turn
+off a lot of this if you can the other thing that sentence piece does is that it has this concept of sentences so
+sentence piece it's back it's kind of like was developed I think early in the days where there was um an idea that
+they you're training a tokenizer on a bunch of independent sentences so it has a lot of like how many sentences you're
+going to train on what is the maximum sentence length um shuffling sentences and so for it
+sentences are kind of like the individual training examples but again in the context of llms I find that this is like a very spous and weird
+distinction like sentences are just like don't touch the raw data sentences
+happen to exist but in raw data sets there are a lot of like inet like what exactly is a sentence what isn't a
+sentence um and so I think like it's really hard to Define what an actual sentence is if you really like dig into
+it and there could be different concepts of it in different languages or something like that so why even
+introduce the concept it it doesn't honestly make sense to me I would just prefer to treat a file as a giant uh
+stream of bytes it has a lot of treatment around rare word characters and when I say word
+I mean code points we're going to come back to this in a second and it has a lot of other rules for um basically
+splitting digits splitting white space and numbers and how you deal with that so these are some kind of like merge
+rules so I think this is a little bit equivalent to tick token using the regular expression to split up
+categories there's like kind of equivalence of it if you squint T it in sentence piece where you can also for
+example split up split up the digits uh and uh so
+on there's a few more things here that I'll come back to in a bit and then there are some special tokens that you can indicate and it hardcodes the UN
+token the beginning of sentence end of sentence and a pad token um and the UN
+token must exist for my understanding and then some some things so we can
+train and when when I press train it's going to create this file talk 400.
+model and talk 400. wab I can then load the model file and I can inspect the
+vocabulary off it and so we trained vocab size 400 on this text here and
+these are the individual pieces the individual tokens that sentence piece will create so in the beginning we see
+that we have the an token uh with the ID zero then we have the beginning of
+sequence end of sequence one and two and then we said that the pad ID is negative
+1 so we chose not to use it so there's no pad ID here then these are individual bite
+tokens so here we saw that bite fallback in llama was turned on so it's true so
+what follows are going to be the 256 bite tokens and these are their
+IDs and then at the bottom after the bite tokens come the
+merges and these are the parent nodes in the merges so we're not seeing the children we're just seeing the parents
+and their ID and then after the merges comes eventually the individual
+tokens and their IDs and so these are the individual tokens so these are the individual code Point tokens if you will
+and they come at the end so that is the ordering with which sentence piece sort of like represents its vocabularies it
+starts with special tokens then the bike tokens then the merge tokens and then the individual codo tokens and all these
+raw codepoint to tokens are the ones that it encountered in the training set so those individual code points are
+all the the entire set of code points that occurred here so those all get put in there and
+then those that are extremely rare as determined by character coverage so if a code Point occurred only a single time
+out of like a million um sentences or something like that then it would be ignored and it would not be added to our
+uh vocabulary once we have a vocabulary we can encode into IDs and we can um sort
+of get a list and then here I am also decoding the indiv idual tokens back into little
+pieces as they call it so let's take a look at what happened here hello space
+on so these are the token IDs we got back and when we look here uh a few
+things sort of uh jump to mind number one take a look at these characters the
+Korean characters of course were not part of the training set so sentence piece is encountering code points that
+it has not seen during training time and those code points do not have a token associated with them so suddenly these
+are un tokens unknown tokens but because bite fall back as true instead sentence
+piece falls back to bytes and so it takes this it encodes it with utf8 and
+then it uses these tokens to represent uh those bytes and that's what we are
+getting sort of here this is the utf8 uh encoding and in this shifted by three uh
+because of these um special tokens here that have IDs earlier on so that's what
+happened here now one more thing that um well first before I go on with respect
+to the bitef back let me remove bite foldback if this is false what's going
+to happen let's retrain so the first thing that happened is all the bite tokens disappeared right
+and now we just have the merges and we have a lot more merges now because we have a lot more space because we're not taking up space in the wab size uh with
+all the bytes and now if we encode this we get a zero so this entire string
+here suddenly there's no bitef back so this is unknown and unknown is an and so
+this is zero because the an token is token zero and you have to keep in mind
+that this would feed into your uh language model so what is a language model supposed to do when all kinds of different things that are unrecognized
+because they're rare just end up mapping into Unk it's not exactly the property that you want so that's why I think
+llama correctly uh used by fallback true uh because we definitely want to feed
+these um unknown or rare code points into the model and some uh some manner the next thing I want to show you is the
+following notice here when we are decoding all the individual tokens you see how spaces uh space here ends up
+being this um bold underline I'm not 100% sure by the way why sentence piece
+switches whites space into these bold underscore characters maybe it's for visualization I'm not 100% sure why that
+happens uh but notice this why do we have an extra space in the front of
+hello um what where is this coming from well it's coming from this option
+here um add dummy prefix is true and when you
+go to the documentation add D whites space at the beginning of text in order to treat World in world and hello world in the
+exact same way so what this is trying to do is the following if we go back to our tick
+tokenizer world as uh token by itself has a different ID than space world so
+we have this is 1917 but this is 14 Etc so these are two different tokens for
+the language model and the language model has to learn from data that they are actually kind of like a very similar concept so to the language model in the
+Tik token World um basically words in the beginning of sentences and words in the middle of sentences actually look
+completely different um and it has to learned that they are roughly the same
+so this add dami prefix is trying to fight that a little bit and the way that works is that it basically
+uh adds a dummy prefix so for as a as a
+part of pre-processing it will take the string and it will add a space it will do this and that's done in an effort to
+make this world and that world the same they will both be space world so that's
+one other kind of pre-processing option that is turned on and llama 2 also uh uses this option and that's I think
+everything that I want to say for my preview of sentence piece and how it is different um maybe here what I've done
+is I just uh put in the Raw protocol buffer representation basically of the
+tokenizer the too trained so feel free to sort of Step through this and if you would like uh your tokenization to look
+identical to that of the meta uh llama 2 then you would be copy pasting these settings as I tried to do up above and
+uh yeah that's I think that's it for this section I think my summary for sentence piece from all of this is
+number one I think that there's a lot of historical baggage in sentence piece a lot of Concepts that I think are slightly confusing and I think
+potentially um contain foot guns like this concept of a sentence and it's maximum length and stuff like that um
+otherwise it is fairly commonly used in the industry um because it is efficient
+and can do both training and inference uh it has a few quirks like for example un token must exist and the way the bite
+fallbacks are done and so on I don't find particularly elegant and unfortunately I have to say it's not very well documented so it took me a lot
+of time working with this myself um and just visualizing things and trying to really understand what is happening here
+because uh the documentation unfortunately is in my opion not not super amazing but it is a very nice repo
+that is available to you if you'd like to train your own tokenizer right now okay let me now switch gears again as we're starting to slowly wrap up here I
+how to set vocabulary set? revisiting gpt.py transformer
+want to revisit this issue in a bit more detail of how we should set the vocap size and what are some of the considerations around it so for this I'd
+like to go back to the model architecture that we developed in the last video when we built the GPT from
+scratch so this here was uh the file that we built in the previous video and we defined the Transformer model and and
+let's specifically look at Bap size and where it appears in this file so here we Define the voap size uh at this time it
+was 65 or something like that extremely small number so this will grow much larger you'll see that Bap size doesn't
+come up too much in most of these layers the only place that it comes up to is in exactly these two places here so when we
+Define the language model there's the token embedding table which is this two-dimensional array where the vocap
+size is basically the number of rows and uh each vocabulary element each token
+has a vector that we're going to train using back propagation that Vector is of size and embed which is number of
+channels in the Transformer and basically as voap size increases this embedding table as I mentioned earlier
+is going to also grow we're going to be adding rows in addition to that at the end of the Transformer there's this LM
+head layer which is a linear layer and you'll notice that that layer is used at the very end to produce the logits uh
+which become the probabilities for the next token in sequence and so intuitively we're trying to produce a
+probability for every single token that might come next at every point in time of that Transformer and if we have more
+and more tokens we need to produce more and more probabilities so every single token is going to introduce an
+additional dot product that we have to do here in this linear layer for this final layer in a
+Transformer so why can't vocap size be infinite why can't we grow to Infinity
+well number one your token embedding table is going to grow uh your linear
+layer is going to grow so we're going to be doing a lot more computation here because this LM head layer will become more computational expensive number two
+because we have more parameters we could be worried that we are going to be under trining some of these
+parameters so intuitively if you have a very large vocabulary size say we have a million uh tokens then every one of
+these tokens is going to come up more and more rarely in the training data because there's a lot more other tokens
+all over the place and so we're going to be seeing fewer and fewer examples uh for each individual token and you might
+be worried that basically the vectors associated with every token will be undertrained as a result because they just don't come up too often and they
+don't participate in the forward backward pass in addition to that as your vocab size grows you're going to start shrinking your sequences a lot
+right and that's really nice because that means that we're going to be attending to more and more text so that's nice but also you might be
+worrying that two large of chunks are being squished into single tokens and so the model just doesn't have as much of
+time to think per sort of um some number of characters in the text or you can
+think about it that way right so basically we're squishing too much information into a single token and then the forward pass of the Transformer is
+not enough to actually process that information appropriately and so these are some of the considerations you're thinking about when you're designing the
+vocab size as I mentioned this is mostly an empirical hyperparameter and it seems like in state-of-the-art architectures
+today this is usually in the high 10,000 or somewhere around 100,000 today and
+the next consideration I want to briefly talk about is what if we want to take a pre-trained model and we want to extend
+the vocap size and this is done fairly commonly actually so for example when you're doing fine-tuning for cha GPT um
+a lot more new special tokens get introduced on top of the base model to maintain the metadata and all the
+structure of conversation objects between a user and an assistant so that takes a lot of special tokens you might
+also try to throw in more special tokens for example for using the browser or any other tool and so it's very tempting to
+add a lot of tokens for all kinds of special functionality so if you want to be adding a token that's totally
+possible Right all we have to do is we have to resize this embedding so we have to add rows we would initialize these uh
+parameters from scratch to be small random numbers and then we have to extend the weight inside this linear uh
+so we have to start making dot products um with the associated parameters as well to basically calculate the
+probabilities for these new tokens so both of these are just a resizing operation it's a very mild
+model surgery and can be done fairly easily and it's quite common that basically you would freeze the base model you introduce these new parameters
+and then you only train these new parameters to introduce new tokens into the architecture um and so you can
+freeze arbitrary parts of it or you can train arbitrary parts of it and that's totally up to you but basically minor
+surgery required if you'd like to introduce new tokens and finally I'd like to mention that actually there's an
+training new tokens, example of prompt compression
+entire design space of applications in terms of introducing new tokens into a vocabulary that go Way Beyond just
+adding special tokens and special new functionality so just to give you a sense of the design space but this could be an entire video just by itself uh
+this is a paper on learning to compress prompts with what they called uh gist tokens and the rough idea is suppose
+that you're using language models in a setting that requires very long prompts while these long prompts just slow
+everything down because you have to encode them and then you have to use them and then you're tending over them and it's just um you know heavy to have
+very large prompts so instead what they do here in this paper is they introduce
+new tokens and um imagine basically having a few new tokens you put them in
+a sequence and then you train the model by distillation so you are keeping the
+entire model Frozen and you're only training the representations of the new tokens their embeddings and you're
+optimizing over the new tokens such that the behavior of the language model is identical uh to the model that has a
+very long prompt that works for you and so it's a compression technique of compressing that very long prompt into
+those few new gist tokens and so you can train this and then at test time you can discard your old prompt and just swap in
+those tokens and they sort of like uh stand in for that very long prompt and have an almost identical performance and
+so this is one um technique and a class of parameter efficient fine-tuning techniques where most of the model is
+basically fixed and there's no training of the model weights there's no training of Laura or anything like that of new
+parameters the the parameters that you're training are now just the uh token embeddings so that's just one
+example but this could again be like an entire video but just to give you a sense that there's a whole design space here that is potentially worth exploring
+in the future the next thing I want to briefly address is that I think recently there's a lot of momentum in how you
+multimodal [image, video, audio] tokenization with vector quantization
+actually could construct Transformers that can simultaneously process not just text as the input modality but a lot of
+other modalities so be it images videos audio Etc and how do you feed in all
+these modalities and potentially predict these modalities from a Transformer uh do you have to change the architecture
+in some fundamental way and I think what a lot of people are starting to converge towards is that you're not changing the architecture you stick with the
+Transformer you just kind of tokenize your input domains and then call the day and pretend it's just text tokens and
+just do everything else identical in an identical manner so here for example there was a early paper that has nice
+graphic for how you can take an image and you can chunc at it into integers um and these sometimes uh so
+these will basically become the tokens of images as an example and uh these tokens can be uh hard tokens where you
+force them to be integers they can also be soft tokens where you uh sort of don't require uh these to be discrete
+but you do Force these representations to go through bottlenecks like in Auto encoders uh also in this paper that came
+out from open a SORA which I think really um uh blew the mind of many people and inspired a lot of people in
+terms of what's possible they have a Graphic here and they talk briefly about how llms have text tokens Sora has
+visual patches so again they came up with a way to chunc a videos into basically tokens when they own
+vocabularies and then you can either process discrete tokens say with autog regressive models or even soft tokens
+with diffusion models and uh all of that is sort of uh being actively worked on
+designed on and is beyond the scope of this video but just something I wanted to mention briefly okay now that we have come quite deep into the tokenization
+revisiting and explaining the quirks of LLM tokenization
+algorithm and we understand a lot more about how it works let's loop back around to the beginning of this video
+and go through some of these bullet points and really see why they happen so first of all why can't my llm spell
+words very well or do other spell related tasks so fundamentally this is because
+as we saw these characters are chunked up into tokens and some of these tokens
+are actually fairly long so as an example I went to the gp4 vocabulary and I looked at uh one of the longer tokens
+so that default style turns out to be a single individual token so that's a lot of characters for a single token so my
+suspicion is that there's just too much crammed into this single token and my suspicion was that the model should not
+be very good at tasks related to spelling of this uh single token so I
+asked how many letters L are there in the word default style and of course my
+prompt is intentionally done that way and you see how default style will be a single token so this is what the model
+sees so my suspicion is that it wouldn't be very good at this and indeed it is not it doesn't actually know how many
+L's are in there it thinks there are three and actually there are four if I'm not getting this wrong myself so that
+didn't go extremely well let's look look at another kind of uh character level task so for example here I asked uh gp4
+to reverse the string default style and they tried to use a code interpreter and I stopped it and I said just do it just
+try it and uh it gave me jumble so it doesn't actually really know how to
+reverse this string going from right to left uh so it gave a wrong result so
+again like working with this working hypothesis that maybe this is due to the tokenization I tried a different
+approach I said okay let's reverse the exact same string but take the following approach step one just print out every
+single character separated by spaces and then as a step two reverse that list and it again Tred to use a tool but when I
+stopped it it uh first uh produced all the characters and that was actually correct and then It reversed them and
+that was correct once it had this so somehow it can't reverse it directly but when you go just first uh you know
+listing it out in order it can do that somehow and then it can once it's uh broken up this way this becomes all
+these individual characters and so now this is much easier for it to see these individual tokens and reverse them and
+print them out so that is kind of interesting so let's continue now why
+are llms worse at uh non-english langu and I briefly covered this already but
+basically um it's not only that the language model sees less non-english data during training of the model
+parameters but also the tokenizer is not um is not sufficiently trained on
+non-english data and so here for example hello how are you is five tokens and its
+translation is 15 tokens so this is a three times blow up and so for example
+anang is uh just hello basically in Korean and that end up being three tokens I'm actually kind of surprised by
+that because that is a very common phrase there just the typical greeting of like hello and that ends up being
+three tokens whereas our hello is a single token and so basically everything is a lot more bloated and diffuse and
+this is I think partly the reason that the model Works worse on other languages uh coming back why is LM bad
+at simple arithmetic um that has to do with the tokenization of numbers and so
+um you'll notice that for example addition is very sort of like uh there's an algorithm that is
+like character level for doing addition so for example here we would first add the ones and then the tens and then the
+hundreds you have to refer to specific parts of these digits but uh these
+numbers are represented completely arbitrarily based on whatever happened to merge or not merge during the tokenization process there's an entire
+blog post about this that I think is quite good integer tokenization is insane and this person basically
+systematically explores the tokenization of numbers in I believe this is gpt2 and
+so they notice that for example for the for um four-digit numbers you can take a
+look at whether it is uh a single token or whether it is two tokens that is a 1 three or a 2 two or a 31 combination and
+so all the different numbers are all the different combinations and you can imagine this is all completely arbitrarily so and the model
+unfortunately sometimes sees uh four um a token for for all four digits
+sometimes for three sometimes for two sometimes for one and it's in an arbitrary uh Manner and so this is
+definitely a headwind if you will for the language model and it's kind of incredible that it can kind of do it and
+deal with it but it's also kind of not ideal and so that's why for example we saw that meta when they train the Llama
+2 algorithm and they use sentence piece they make sure to split up all the um
+all the digits as an example for uh llama 2 and this is partly to improve a
+simple arithmetic kind of performance and finally why is gpt2 not
+as good in Python again this is partly a modeling issue on in the architecture and the data set and the strength of the
+model but it's also partially tokenization because as we saw here with the simple python example the encoding
+efficiency of the tokenizer for handling spaces in Python is terrible and every single space is an individual token and
+this dramatically reduces the context length that the model can attend to cross so that's almost like a tokenization bug for gpd2 and that was
+later fixed with gp4 okay so here's another fun one my llm abruptly halts
+when it sees the string end of text so here's um here's a very strange Behavior
+print a string end of text is what I told jt4 and it says could you please specify the string and I'm I'm telling
+it give me end of text and it seems like there's an issue it's not seeing end of text and then I give it end of text is
+the string and then here's a string and then it just doesn't print it so obviously something is breaking here
+with respect to the handling of the special token and I don't actually know what open ey is doing under the hood
+here and whether they are potentially parsing this as an um as an actual token
+instead of this just being uh end of text um as like individual sort of
+pieces of it without the special token handling logic and so it might be that someone when they're calling do encode
+uh they are passing in the allowed special and they are allowing end of text as a special character in the user
+prompt but the user prompt of course is is a sort of um attacker controlled text
+so you would hope that they don't really parse or use special tokens or you know
+from that kind of input but it appears that there's something definitely going wrong here and um so your knowledge of
+these special tokens ends up being in a tax surface potentially and so if you'd like to confuse llms then just um try to
+give them some special tokens and see if you're breaking something by chance okay so this next one is a really fun one uh
+the trailing whites space issue so if you come to playground and uh we come
+here to GPT 3.5 turbo instruct so this is not a chat model this is a completion model so think of it more like it's a
+lot more closer to a base model it does completion it will continue the token sequence so here's a tagline for ice
+cream shop and we want to continue the sequence and so we can submit and get a bunch of tokens okay no problem but now
+suppose I do this but instead of pressing submit here I do here's a tagline for ice cream shop space so I
+have a space here before I click submit we get a warning your text ends
+in a trail Ling space which causes worse performance due to how API splits text into tokens so what's happening here it
+still gave us a uh sort of completion here but let's take a look at what's happening so here's a tagline for an ice
+cream shop and then what does this look like in the actual actual training data
+suppose you found the completion in the training document somewhere on the internet and the llm trained on this
+data so maybe it's something like oh yeah maybe that's the tagline that's a terrible tagline but notice here that
+when I create o you see that because there's the the space character is
+always a prefix to these tokens in GPT so it's not an O token it's a space o
+token the space is part of the O and together they are token 8840 that's
+that's space o so what's What's Happening Here is that when I just have it like this and I let it complete the
+next token it can sample the space o token but instead if I have this and I
+add my space then what I'm doing here when I incode this string is I have
+basically here's a t line for an ice cream uh shop and this space at the very end becomes a token
+220 and so we've added token 220 and this token otherwise would be part of
+the tagline because if there actually is a tagline here so space o is the token
+and so this is suddenly a of distribution for the model because this space is part of the next token but
+we're putting it here like this and the model has seen very very little data of
+actual Space by itself and we're asking it to complete the sequence like add in more tokens but the problem is that
+we've sort of begun the first token and now it's been split up and now we're out
+of this distribution and now arbitrary bad things happen and it's just a very rare example for it to see something
+like that and uh that's why we get the warning so the fundamental issue here is of course that um the llm is on top of
+these tokens and these tokens are text chunks they're not characters in a way you and I would think of them they are
+these are the atoms of what the LM is seeing and there's a bunch of weird stuff that comes out of it let's go back
+to our default cell style I bet you that the model has never in its training set
+seen default cell sta without Le in there it's always seen this as a single
+group because uh this is some kind of a function in um I'm guess I don't
+actually know what this is part of this is some kind of API but I bet you that it's never seen this combination of
+tokens uh in its training data because or I think it would be extremely rare so
+I took this and I copy pasted it here and I had I tried to complete from it
+and the it immediately gave me a big error and it said the model predicted to completion that begins with a stop sequence resulting in no output consider
+adjusting your prompt or stop sequences so what happened here when I clicked submit is that immediately the model
+emitted and sort of like end of text token I think or something like that it basically predicted the stop sequence
+immediately so it had no completion and so this is why I'm getting a warning again because we're off the data
+distribution and the model is just uh predicting just totally arbitrary things
+it's just really confused basically this is uh this is giving it brain damage it's never seen this before it's shocked
+and it's predicting end of text or something I tried it again here and it in this case it completed it but then
+for some reason this request May violate our usage policies this was flagged um basically something just like
+goes wrong and there's something like Jank you can just feel the Jank because the model is like extremely unhappy with just this and it doesn't know how to
+complete it because it's never occurred in training set in a training set it always appears like this and becomes a
+single token so these kinds of issues where tokens are either you sort of like complete the
+first character of the next token or you are sort of you have long tokens that you then have just some of the
+characters off all of these are kind of like issues with partial tokens is how I
+would describe it and if you actually dig into the T token repository go to the rust code and
+search for unstable and you'll see um en code
+unstable native unstable token tokens and a lot of like special case handling none of this stuff about unstable tokens
+is documented anywhere but there's a ton of code dealing with unstable tokens and unstable tokens is exactly kind of like
+what I'm describing here what you would like out of a completion API is something a lot more fancy like if we're
+putting in default cell sta if we're asking for the next token sequence we're not actually trying to append the next
+token exactly after this list we're actually trying to append we're trying to consider lots of tokens um
+that if we were or I guess like we're trying to search over characters that if
+we retened would be of high probability if that makes sense um so that we can actually add a single individual
+character uh instead of just like adding the next full token that comes after this partial token list so I this is
+very tricky to describe and I invite you to maybe like look through this it ends up being extremely gnarly and hairy kind
+of topic it and it comes from tokenization fundamentally so um maybe I can even spend an entire video talking
+about unstable tokens sometime in the future okay and I'm really saving the best for last my favorite one by far is
+the solid gold Magikarp and it just okay so this comes from this blog post uh solid gold
+Magikarp and uh this is um internet famous now for those of us in llms and
+basically I I would advise you to uh read this block Post in full but basically what this person was doing is
+this person went to the um token embedding stable and clustered the
+tokens based on their embedding representation and this person noticed that there's a cluster of tokens that
+look really strange so there's a cluster here at rot e stream Fame solid gold Magikarp Signet message like really
+weird tokens in uh basically in this embedding cluster and so what are these
+tokens and where do they even come from like what is solid gold magikarpet makes no sense and then they found bunch of
+these tokens and then they notice that actually the plot thickens here because if you ask the model about these tokens
+like you ask it uh some very benign question like please can you repeat back to me the string sold gold Magikarp uh
+then you get a variety of basically totally broken llm Behavior so either you get evasion so I'm sorry I can't
+hear you or you get a bunch of hallucinations as a response um you can even get back like insults so you ask it
+uh about streamer bot it uh tells the and the model actually just calls you names uh or it kind of comes up with
+like weird humor like you're actually breaking the model by asking about these very simple strings like at Roth and
+sold gold Magikarp so like what the hell is happening and there's a variety of here documented behaviors uh there's a
+bunch of tokens not just so good Magikarp that have that kind of a behavior and so basically there's a
+bunch of like trigger words and if you ask the model about these trigger words or you just include them in your prompt
+the model goes haywire and has all kinds of uh really Strange Behaviors including sort of ones that violate typical safety
+guidelines uh and the alignment of the model like it's swearing back at you so what is happening here and how can this
+possibly be true well this again comes down to tokenization so what's happening here is that sold gold Magikarp if you
+actually dig into it is a Reddit user so there's a u Sol gold
+Magikarp and probably what happened here even though I I don't know that this has been like really definitively explored
+but what is thought to have happened is that the tokenization data set was very
+different from the training data set for the actual language model so in the tokenization data set there was a ton of
+redded data potentially where the user solid gold Magikarp was mentioned in the text because solid gold Magikarp was a
+very common um sort of uh person who would post a lot uh this would be a string that occurs many times in a
+tokenization data set because it occurs many times in a tokenization data set these tokens would end up getting merged
+to the single individual token for that single Reddit user sold gold Magikarp so they would have a dedicated token in a
+vocabulary of was it 50,000 tokens in gpd2 that is devoted to that Reddit user
+and then what happens is the tokenization data set has those strings but then later when you train the model
+the language model itself um this data from Reddit was not present and so
+therefore in the entire training set for the language model sold gold Magikarp never occurs that token never appears in
+the training set for the actual language model later so this token never gets activated it's initialized at random in
+the beginning of optimization then you have forward backward passes and updates to the model and this token is just never updated in the embedding table
+that row Vector never gets sampled it never gets used so it never gets trained and it's completely untrained it's kind
+of like unallocated memory in a typical binary program written in C or something like that that so it's unallocated
+memory and then at test time if you evoke this token then you're basically plucking out a row of the embedding
+table that is completely untrained and that feeds into a Transformer and creates undefined behavior and that's
+what we're seeing here this completely undefined never before seen in a training behavior and so any of these
+kind of like weird tokens would evoke this Behavior because fundamentally the model is um is uh uh out of sample out
+of distribution okay and the very last thing I wanted to just briefly mention point out although I think a lot of
+people are quite aware of this is that different kinds of formats and different representations and different languages
+and so on might be more or less efficient with GPD tokenizers uh or any tokenizers for any other L for that
+matter so for example Json is actually really dense in tokens and yaml is a lot more efficient in tokens um so for
+example this are these are the same in Json and in yaml the Json is
+116 and the yaml is 99 so quite a bit of an Improvement and so in the token
+economy where we are paying uh per token in many ways and you are paying in the context length and you're paying in um
+dollar amount for uh the cost of processing all this kind of structured data when you have to um so prefer to
+use theal over Json and in general kind of like the tokenization density is something that you have to um sort of
+care about and worry about at all times and try to find efficient encoding schemes and spend a lot of time in tick
+tokenizer and measure the different token efficiencies of different formats and settings and so on okay so that
+final recommendations
+concludes my fairly long video on tokenization I know it's a try I know it's annoying I know it's irritating I
+personally really dislike the stage what I do have to say at this point is don't brush it off there's a lot of foot guns
+sharp edges here security issues uh AI safety issues as we saw plugging in unallocated memory into uh language
+models so um it's worth understanding this stage um that said I will say that
+eternal glory goes to anyone who can get rid of it uh I showed you one possible paper that tried to uh do that and I
+think I hope a lot more can follow over time and my final recommendations for the application right now are if you can
+reuse the GPT 4 tokens and the vocabulary uh in your application then that's something you should consider and just use Tech token because it is very
+efficient and nice library for inference for bpe I also really like the bite
+level BP that uh Tik toen and openi uses uh if you for some reason want to train
+your own vocabulary from scratch um then I would use uh the bpe with sentence
+piece um oops as I mentioned I'm not a huge fan of sentence piece I don't like
+its uh bite fallback and I don't like that it's doing BP on unic code code points I think it's uh it also has like
+a million settings and I think there's a lot of foot gonss here and I think it's really easy to Mis calibrate them and you end up cropping your sentences or
+something like that uh because of some type of parameter that you don't fully understand so so be very careful with
+the settings try to copy paste exactly maybe where what meta did or basically spend a lot of time looking at all the
+hyper parameters and go through the code of sentence piece and make sure that you have this correct um but even if you
+have all the settings correct I still think that the algorithm is kind of inferior to what's happening here and
+maybe the best if you really need to train your vocabulary maybe the best thing is to just wait for M bpe to
+becomes as efficient as possible and uh that's something that maybe I hope to work on and at some point maybe we can
+be training basically really what we want is we want tick token but training code and that is the ideal thing that
+currently does not exist and MBP is um is in implementation of it but currently
+it's in Python so that's currently what I have to say for uh tokenization there might be an advanced video that has even
+drier and even more detailed in the future but for now I think we're going to leave things off here and uh I hope
+that was helpful bye
+and uh they increase this contact size from gpt1 of 512 uh to 1024 and GPT 4
+two the next okay next I would like us to briefly walk through the code from open
+AI on the gpt2 encoded
+ATP I'm sorry I'm gonna sneeze and then what's Happening Here
+is this is a spous layer that I will explain in a bit What's Happening Here
+is
+
 
 ----------
 
@@ -202,11 +6768,949 @@ paste here
 --90--
 
 -----
-Date:
-Link:
+Date: 2024.02.25
+Link: [# OpenAI SHOCKS Everyone "GODLIKE Powers" and MAGIC Abilities In New AI Prediction](https://www.youtube.com/watch?v=r56S2A5QwsM)
+The transcription provided covers a wide array of topics related to the advancements in artificial intelligence (AI), including the race towards achieving Artificial General Intelligence (AGI), the potential for Artificial Super Intelligence (ASI), and the implications of such developments. Below are the notes summarizing the content, including advantages, drawbacks, tips, and the significance of the topic discussed in the transcription.
+
+### Advantages:
+
+- **Technological Breakthroughs**: The potential to solve many of the world's most important problems with AGI and ASI.
+- **Economic Impact**: Companies achieving AGI or ASI could see exponential growth, fundamentally changing economies.
+- **Accelerated Development**: Use of AI to create more advanced AI systems, potentially leading to rapid advancements in technology.
+
+### Drawbacks:
+
+- **Control and Alignment Issues**: Difficulty in aligning AGI and ASI with human values and goals, posing risks to humanity.
+- **Unpredictability**: The unpredictable nature of superintelligent AI and its potential to act in ways not beneficial or directly harmful to humanity.
+- **Ethical and Safety Concerns**: The challenge of ensuring AI advancements do not lead to negative societal impacts, including job displacement and loss of privacy.
+
+### Tips and Advice:
+
+- **Focus on Safety Research**: Emphasizing the importance of dedicating resources to understanding and solving alignment and control problems associated with AGI and ASI.
+- **Collaborative Development**: Encouraging open-source development and responsible sharing of AI advancements to ensure broad benefits and mitigate risks.
+
+### Main Challenges:
+
+- **Achieving Alignment**: Ensuring AGI and ASI act in ways that are beneficial to humanity and aligned with human values.
+- **Regulatory Frameworks**: Developing and implementing effective policies to govern the development and deployment of AGI and ASI.
+- **Technological Barriers**: Overcoming limitations in current technology to achieve breakthroughs necessary for AGI and ASI.
+
+### Importance and Usefulness of the Topic:
+
+- Understanding the current state and potential future of AI advancements is crucial for preparing society for the ethical, societal, and economic implications.
+- Raises awareness about the potential risks and benefits associated with AGI and ASI, fostering informed public and policy discussions.
+
+### Accomplishments:
+
+- Significant investments from major companies and researchers dedicated to advancing AI technology towards AGI and potentially ASI.
+- Development of AI models and techniques that demonstrate progress towards more advanced intelligence and capabilities.
+
+### Summary of the Content:
+
+The video discusses the rapid advancements in AI, focusing on the race towards AGI and the potential for ASI. It highlights the significant investments being made, the challenges in aligning AI with human values, and the implications for society. The discussion emphasizes the importance of safety research, collaborative development, and the need for regulatory frameworks to ensure beneficial outcomes from AI advancements.
+
+### Interesting Quotes or Insightful Sentences:
+
+- "Whoever controls AGI will be able to use it to get to ASI shortly thereafter."
+- "AGI is just around the corner."
+- "The vast power of super intelligence could also be very dangerous and could lead to disempowerment of humanity or even human extinction."
+
+
 Transcription:
 
-paste here
+okay so there was another statement by
+an open AI employee that genuinely did
+shock me because it specifically altered
+my timelines in terms of when we're
+probably going to get AGI and a
+technology that we didn't even consider
+real a couple of years ago which is
+artificial super intelligence that maybe
+some people didn't even consider so this
+uh open AI researcher has released uh
+essentially a list of things that he is
+predicting and um the things that he's
+predicting are quite intense so we're
+going to go through this list because
+there actually is quite a lot of things
+to talk about and a lot of things that
+you do need to be aware of because a lot
+of people that saw this list thought
+about a few things but didn't think
+about how the industry is going to
+evolve as a whole so let me tell you why
+this was actually genuinely a shocking
+statement because there was one of them
+that I saw and I was like okay that is a
+super big deal and that just completely
+changes my timeline so one of the things
+that he did state is essentially
+probably there will be a GI coming soon
+and that's any year now and this is
+something that unfortunately doesn't
+surprise me if you've been paying
+attention to this bace you'll know that
+we've had many different instances and
+inklings of AGI and essentially many of
+us do kind of feel like we're on the
+edge of our seat because we know that
+AGI is just around the corner now that's
+for a variety of factors like the fact
+that openi has been you know in a really
+really strange position with it you know
+delaying releases on multiple products
+with it having the Sam Alman 5 ing um
+and other companies are also having
+major breakthroughs and working on AGI
+as well so um literally any year now we
+could definitely be getting AGI not only
+just because of the way that these
+companies are but the significant
+investment that they're also getting too
+now he also uh spoke here and you can
+see that he responded to someone's
+question in terms of the percentage of
+AGI so he said why do you have a 15%
+chance for 2024 and only an additional
+15 for 2025 now I do think we get AGI by
+the end of 2025 or at least you know
+some kind of lab makes an insane
+breakthrough and we have AGI by the end
+of 2025 that's just what I kind of
+believe but he says do you really think
+that there's a 15% chance of AGI this
+year and he says yes I really do I'm
+afraid I can't talk about all of the
+reasons for this you know I work at open
+AI but mostly it should be figureoutable
+from the publicly available information
+which we've discussed several times on
+this channel now my timelines were
+already fairly short 2029 is the median
+which is essentially the most common and
+when I joined openi in early 2022 and
+the things gone mostly as I've expected
+I've learned a bunch of stuff some of
+which updated me toward ws and some of
+which updated me downwards as for the 15
+10 16% thing I don't feel confident that
+those are the right numbers rather those
+numbers Express my current state of
+uncertainty I could see the case for
+making 2024 number higher than the 2025
+of course because exponential
+distribution Vibes if it doesn't work
+now then there evidence it won't works
+next year and I could also see the case
+for making 2025 year higher of course
+projects take twice as long as one
+expects due to the planning fallacy so
+essentially he's stating that you know
+15% this year 30% chance next year but
+of course he's saying that you know he
+could be completely wrong now with AGI a
+predictions of course it's anyone's
+guess but um this prediction by Ark
+invest essentially is a good visual
+media to kind of look at when you're
+looking at how AGI is going to progress
+in the next couple of years now
+something I do want to say about this is
+the exponential nature of things because
+they also do you know take that into
+account with the fact that essentially
+it was predicted for the end of uh you
+know the 20 29 or 2030 which is where
+many people have predicted it I'm not
+going to get into the next point in a
+moment which is really what just kind of
+shocked me um but essentially you can
+see here that every time you know as as
+time is going down you can see that
+we're going down like this way as the
+for forecast era continues it seems that
+by 2027 but of course we can see that
+there are these huge drop offs where
+technology kind of just keeps on
+dropping off so of course it's like
+exponential it's kind of like S curve
+growth where you kind of go up and then
+you kind of plateau for a little bit and
+then you kind of get that next boom once
+there is that next thing kind of seeing
+like an inverted S curve um on that
+graph as well and I know I showed this
+in a previous video just wanted to show
+it again so you guys can visualize where
+things are going so the medium the most
+common prediction is 2029 some people
+are predicting next year and there are a
+few small reasons why but I definitely
+do believe that if anyone is going to
+get to it it will be open AI obviously
+because of um the kind of talent that
+they have the kind of you know
+researchers that they have it's a unique
+team and open AI researchers are some of
+the most sought after Talent like you
+know um essentially it's so crazy that
+you know I think there was someone
+recently that was hired from uh Google
+that went to a different company and
+then Google started paying the person
+four times more just because AI
+researchers are so in demand right now
+because it's such a competitive space
+that um there is one tweet that I do I'm
+going to come back to again that I think
+you guys need to understand that if
+someone develops AGI I think you guys
+have to understand that it's going to be
+a Winner Takes all scenario because it's
+only a race until one company reach
+reaches AI once once that happens the
+distance to their competitors is
+potentially infinite and it will be
+noticeable for example raising a quar
+trillion of the US GDP now of course
+some people are stating that this is
+where you know open aai has already
+achieved AGI they're just trying to
+raise raise compute because they
+realized that we're going to need a lot
+more compute for this kind of system but
+Others May disagree and I kind of do
+agree that you know potentially um they
+probably have internal AGI but just need
+more compute to actually bring the
+system to reality because certain things
+they just simply can't test because
+they're trying to run GPT 4 they're also
+trying to run some other systems like
+Sora they're also trying to to to give
+some of their compute to Super alignment
+um so that is a thing as well now this
+is the statement that really did Shock
+Me Okay um and this is why uh I my
+timelines got updated because it changes
+everything okay so it said he says uh
+probably whoever controls AGI will be
+will be able to use it to get to
+artificial super intelligence shortly
+thereafter maybe in another year give it
+or take a year now you have to
+understand that AGI is essentially a
+robot that is apparently as good as all
+humans pretty much any task okay so
+pretty much any task you can think of um
+that can be done in a non-physical realm
+and AGI is going to be able to be better
+than 99% of humans okay according to um
+Deep Mind levels of AGI paper and
+essentially right now we have gbt 4
+which is a lowlevel AGI so when we do
+get that AGI system it's going to
+accelerate everything because it means
+that you know we can just duplicate
+researchers we can duplicate
+mathematicians we can duplicate people
+um doing a whole bunch of stuff okay and
+essentially this is crazy because
+artificial super intelligence is
+completely Next Level artificial super
+intelligence is an intelligence that is
+so smart that it will be able to just
+make consistent breakthroughs and it's
+going to fundamentally change our
+understanding of everything we know
+because it's going to be that smart okay
+and that is of course a problem because
+of course there's alignment problems and
+stuff like that but the problem is is
+that artificial super intelligence is
+something that people didn't really even
+talk about because it's so it's
+seemingly so far away but they're sating
+that whoever controls AGI will be able
+to use it to get to ASI shortly after so
+if it's a true AGI like a really good
+one um getting to ASI won't take that
+long and that is a true statement and
+something that I didn't think about that
+much but it's crazy because super
+intelligence open I have openly stated
+that um super intelligence will be the
+most impactful technology Humanity's
+ever invented and could help us solve
+many of the world's most important
+problems but the vast power of super
+intelligence could also be very
+dangerous and it could lead to
+disempowerment of humanity or even human
+extension and it states that while
+superintelligence seems far off now we
+believe it could arrive this decade and
+that's why this is kind of shocking
+because open eye are saying that you
+know okay some people think that AGI is
+going to be by 2029 but they're stating
+that not AGI by 29 2029 we state that
+super intelligence could be here by the
+end of this decade so superintelligence
+could be here which means that you know
+if we take a look and we kind of like
+look at the actual you know data and we
+think okay what's actually going on here
+we could get AGI realistically by 2026
+then we could get AGI by 2029 that's
+something that could happen due to the
+nature of exponential growth and these
+timelines and openai stated that
+themselves so that's why they're also
+actually working on that kind of
+alignment because they know that it is
+very very soon now in addition if you
+want to talk predictions you have to
+call on Ray kwell essentially he's a
+futurist and he has made a lot of
+predictions 147 and there's an 86% win
+ratio I guess whatever you want to call
+it now of course some people have you
+know debated whether or not this ratio
+is as high as he claims but um I would
+say that his predictions have come true
+a decent amount now essentially his
+prediction on AGI is that artificial
+intelligence will achieve human levels
+by 2029 which is once again still going
+to be pretty crazy even if it does
+happen at 2029 because if we take a look
+at it because I remember Elon Musk St
+that by 2027 everyone's timelines is
+getting shorter and shorter by the day
+and we do know that if we take a look at
+what's actually going on right now um if
+we had AGI within two years it's
+something that generally wouldn't
+surprise everyone especially with what
+we saw with sa now another thing about
+um you know Ray kwell that he actually
+stated that was actually quite shocking
+and this is why um I don't think you
+guys understand the kind of world that
+we could be living in if we actually you
+do get AGI and then ASI is because um
+he's stating that you know there's a
+possibility that we might achieve
+immortality by the year 2030 and that's
+because of course we are like doing well
+in terms of you know longevity research
+and that kind of stuff but if we do have
+artificial super intelligence it's going
+to allow us to do a lot of things like a
+lot of breakthroughs that are just going
+to completely change everything and
+that's why this is so shocking because I
+didn't realize that it could only take a
+year I I don't know I mean I think that
+maybe people aren't thinking about
+things such as you know the actual
+compute the actual you know laws in
+place that might try to regulate this
+kind of stuff into the ground the kind
+of uh maybe there's going to be some
+kind of I guess you could say Financial
+crashes or essentially other things that
+could potentially stop this but provided
+everything is smooth like there's no you
+know Black Swan event there's no like
+Bubonic plague the world doesn't need to
+go into a shutdown and AGI research
+isn't kind of delayed um ASI by the end
+of the decade is a pretty scary thing to
+think about okay and that is why I
+stated that this genuinely did shock me
+and one of the craziest things as well
+like I said I was going to come back to
+this okay how how on Earth do other
+companies catch up like I think think
+about this okay so let's say your
+opening eye okay you are working on
+artificial general intelligence you do
+it one day you wake up your researchers
+you know your whole team is like look
+we've done it we've achieved AGI we've
+benchmarked it on all of this it's 99%
+on this on that and that and that um
+we've done it we've achieved AGI boom
+okay how on Earth do other companies
+catch up because the moment you get AGI
+you can use it to I guess you could say
+get towards ASI and you know you
+immediately get like your company your
+company scales like 10x overnight or
+even 100x overnight because all you need
+to do is get the AGI to be able to do
+certain things and you know it's going
+to be relatively cheap to you in terms
+of hiring another person that you'd have
+to pay like a million a year with open
+AI you could essentially have these
+super powerful researchers doing tons
+and tons of alignment research you know
+ASI research and your company could get
+an additional 100 employees every day as
+long as you're scaling with compute how
+on Earth do other AI companies catch up
+to a company that's basically achieved
+escape velocity and I don't think they
+will like I genuinely don't think that
+other companies will catch up unless
+they quickly unless you know somehow it
+leaks and the AGI Tech is you know
+widely distributed and then of course
+you know when I say agite Tech I'm
+actually talking about the fact that the
+agite tech is going to be the research
+papers and the research behind it not
+you know opening eye giving you
+restrained access like they do with gbt
+4 because the verion that we even get a
+very very nerfed down model to what the
+raw capabilities of the models offer so
+essentially um you know this is some of
+anthropic pitch deck when they wanted to
+raise money in 2023 and they basically
+said that we believe that companies that
+train the best 2025 to 2026 models will
+be too far ahead for anyone to catch up
+in subsequent Cycles so um and if you
+don't know who anthropic are they're a
+big AI company that is kind of competing
+with openi some of the open AI
+researchers did leave to create
+anthropic because they wanted to focus
+on safety but the point here is that I
+don't think they catch up and it does
+make sense if you have a company that
+has AGI they have arguably the best
+technology in in the the last 20 years
+and with that they can grow their
+company exponentially so I don't think
+people catch up I think it's just you
+know they're going to be so far gone
+that it's going to be pretty crazy to
+see what happens and I think the reason
+that this is a thing is because this is
+why people are stating that openi have
+achieved AGI and they're currently using
+it to develop things like Sora and stuff
+and if that is true it kind of does make
+sense cuz Sora definitely blew my hat
+off like it's just like whoa like even
+as someone who looks at AI all the time
+when I saw that I was like well okay I
+didn't think we were that close but um
+yeah it's it's definitely pretty crazy
+and um it it goes on okay so here it
+states Godlike Powers okay so it says
+probably whoever controls ASI listen to
+this this is the craziest bit that I was
+reading this and I was like is this even
+real am I even living in a reality right
+now it says probably whoever controls
+artificial super intelligence will have
+access to spread to a spread of powerful
+skills and abilities that will be able
+to build and wield technologies that
+seem like magic to us just as modern
+tech would seem like magic to medievals
+this will probably give them Godlike
+Powers over whoever doesn't control ASI
+so that brings an important question do
+you think open AI let's say they have
+ASI they have it aligned do you think
+open AI are going to distribute ASI or
+are they just going to you know patent
+all the Technologies as a kind of
+subsidiary of open as of openi because
+if they have ASI and nobody else has it
+that's going to be the most valuable
+thing on the planet and if they're able
+to distribute cure if they're able to
+distribute you know new technology I
+mean that's going to make the company
+super super super valuable because like
+it states here they're probably going to
+give them Godlike Powers over anyone who
+doesn't control ASI because that level
+of smartness is unfathomable like it's
+very hard to conceptualize how smart it
+is because according to several reports
+and you know researches and stuff like
+that it's basically like trying to
+explain economics to essentially a b
+like you know a b the thing that buzzes
+around try to explain economics to that
+it it it's it's very hard to
+conceptualize how You' even begin to
+explain that to a be I mean first you'd
+have to teach it English then you'd have
+to teach it so many other different
+concepts and um that is going to be
+something that is pretty pretty cool
+crazy I mean I mean trying to even teach
+it abstract context so um whilst this
+does seem good and whilst you know
+Godlike powers and stuff like that and
+you know which is why all these
+companies are racing to achieve AGI
+because they know once that is there
+it's like you gain an instant 100x speed
+boost in this kind of race the problem
+is is that there is the blackbox problem
+and a lot of people are starting to
+forget about this problem as we Edge
+closer and closer towards the edge of
+this huge Cliff that we could be on um
+is the fact that it states in general
+there's a lot we don't understand about
+modern deep learning modern AIS are
+trained not built SL programmed we can't
+theorize for example that they are
+generally robustly helpful and in and
+honest instead of just biting their time
+we can't check so the problem here is
+that um we don't know how these AI
+models work we actually don't know
+what's inside them we don't know how
+everything is going together it's not
+like you write a code and you understand
+exactly how the code works this is not
+how these air models are going to be and
+in the future um it's going to be a
+bigger problem because if we're you know
+growing an AI which is what some
+researchers have claimed which is
+essentially that would be a more
+accurate description if we're doing that
+how on Earth are we then going to
+understand really um these even super
+intelligent systems if we don't really
+understand the ones that we have now so
+um it's pretty crazy it's it's generally
+like like I'm trying hard to put it into
+words but it is a very very giant
+problem that people are trying to solve
+and of course um here's we have this
+okay so the alignment problem further
+currently no one knows how to control
+artificial super intelligence which is
+true and they are working on it this is
+what open is currently working on and it
+says if one of our training runs turns
+out to work way better than we expect
+we'd have a Rog artificial super
+Intelligence on our hands and hopefully
+it would have internalized enough human
+effects that things would be okay and
+that's a crazy statement I don't care
+what you say that is insane because he's
+basically saying that look if our
+training runs work out to be better than
+we expect unfortunately we're going to
+have a rogue ASI on our hands because we
+don't know how to we don't know how to
+align it they're basically saying that
+look if we train the next model and it's
+super smart or artificially super
+intelligent which I don't think it will
+be I do think that you need a ton of
+compute just like how you skilled things
+up with before it says hopefully we're
+just just basically just hoping that
+it's not crazy okay um and that is quite
+scary that you know hope is is mentioned
+here so it says there are some reasons
+to be hopeful about that but there are
+also some reason to be pessimistic and
+the literature on the topic is small and
+pre pragmatic which is of course true
+then of course we have um Sam Alman
+which is a great clip which you guys
+should take a look at because he
+actually talking about um the alignment
+problem is like we're going to make this
+incred be powerful system and be really
+bad if it doesn't do what we want or or
+if it sort of has you know goals that
+are uh either in conflict with ours um
+many Sci-Fi movies about what happens
+there or goals where it just like
+doesn't care about us that much and so
+the alignment problem is how do we build
+a gii that that does what is in the best
+interest of humanity how do we make sure
+that Humanity gets to determine the you
+know the future of humanity um and how
+do we avoid both like accidental misuse
+um like where something goes wrong that
+we didn't intend intentional misuse
+where like a bad person is like using an
+AGI for great harm even if that's what a
+person wants and then the kind of like
+you know inner alignment problems where
+like what if this thing just becomes a
+creature that views this as a threat the
+the way that I think the self-improving
+systems help us is not necessarily by
+the nature of self-improving but like we
+have some ideas about how to solve the
+alignment problem at small scale um and
+we've you know been able to align open
+ai's biggest models better than we
+thought we we would at this point so
+that's good um we have some ideas about
+what to do next um but we cannot
+honestly like look anyone in the eye and
+say we see out 100 years how we're going
+to solve this problem um but once the AI
+is good enough that we can ask it to
+like hey can you help us do alignment
+research um I think that's going to be a
+new tool in the toolbox so essentially
+In that clip Sam mman Actually does talk
+about how they're going to use AIS an
+internalized version of maybe an a AGI
+or narrow AI That's able to really
+really understand how to align um these
+AI systems and of course he does talk
+about the fact that you know we could
+have an AI that just you know eventually
+evolves into some kind of creature that
+just you know does its own thing and
+that's pretty scary coming from someone
+who's the CEO of a major company that is
+building some of the most impactful
+technology that we will have in our
+lifetimes and essentially of course here
+we talk about the best plan and it says
+our current best plan championed by the
+people winning the race to AI is to use
+each generation of AI systems to figure
+out how to align and control the Next
+Generation and this plan might work but
+skepticism is warranted on many levels
+so open I did actually talk about um
+their approach to this and I think it's
+important to actually look at this
+because their goal is to build a roughly
+human level automated alignment
+researcher and then basically saying
+that we can then use vast amounts of
+compute to scale our effort and itely
+align super intelligence super
+Intelligence being that crazy Smart
+Level AI system that's going to have
+goals beyond our understanding and
+essentially they're saying to align the
+first automated alignment researcher
+we're going to need to develop a
+scalable Training Method validate the
+resulting model and stress test the
+entire alignment pipeline so of course
+they're going to do adverse serial
+testing where essentially they're going
+to test the entire pipeline by basically
+stating that you know they're going to
+try to just see what kind of goes wrong
+but in a kind of sandbox environment and
+of course try to like like detect how
+things would go wrong so um I'm guessing
+that this is you know one of their
+approaches and of course uh they've
+shown that this kind of does work so
+essentially there's a thing called weak
+to strong generalization eliciting
+strong capabilities with weak
+supervision so I'm going to show you
+guys that page now and essentially here
+you can see they talk about the super
+intelligent problem and of course super
+intelligent is a big problem and this is
+actually pretty recent which is uh quite
+interesting this was December the 14th
+2023 so around 2 3 months ago they said
+we believe super intelligence and AI
+vastly smarter than humans could be
+developed within the next 10 years
+however we don't know how to reliably
+steer and control superhuman AI systems
+so solving this problem is essential for
+ensuring that even the most advanced AI
+systems are beneficial to humanity just
+going to zoom in here we formed the
+Sumer alignment team earlier this year
+to solve this problem and today we're
+releasing the team's first paper which
+introduces a new research Direction um
+for officially solving superhuman models
+so basically they state that you know
+future AI systems will be capable of
+extremely complex and creative behaviors
+that will make it hard for humans to
+basically look over them and watch and
+understand for example superhuman models
+may be able to write millions of lines
+of code potentially dangerous computer
+code that will be very hard for even
+expert humans to understand so
+essentially they made this kind of setup
+here and with this setup they say um to
+make progress on this core challenge we
+propose an analogy we can empirically
+study today can we use a smaller less
+capable model to supervise a larger more
+capable model so you can see here we've
+got traditional machine learning where
+we have the supervisor looking at
+student which is not as smart as them
+but it isn't too vastly smarter then we
+have super alignment which is um of
+course you know where essentially the
+human researcher is trying to supervise
+a student that is way smarter than it
+that's where you can see the robot
+that's just above this human level you
+can see here in this diagram and it's
+like you know how on Earth is that
+supposed to work what they're trying to
+do is like look okay if we can get you
+know a smaller robot a smaller AI system
+to supervise a larger AI system that's
+beneath human level hopefully we can
+scale this progress and then when we get
+to this level of super alignment
+hopefully that thing kind of works and
+essentially what they did was they did
+this they said when we supervise GPT 4
+with a gpt2 level model using this
+method on NLP tasks the resulting model
+typically performed somewhere between
+gpt3 and GPT 3.5 and it says we were
+able to recover much of GP gp4s
+capabilities with only much weaker
+supervision so it says this method is a
+proof of concept with important
+limitations for example it still doesn't
+work on chat TPT preference data however
+we also find Signs of Life with other
+approaches such as optimal early
+stopping and bootstrapping from small to
+intermediate to large model so
+essentially um this is just their first
+paper on kind of thinking how on Earth
+they could even you know try and solve
+this but I do think that this is
+something that is important now of
+course this is the problem okay it says
+for one thing there is an ongoing race
+to AGI with multiple Mega corporations
+participating and only a small fraction
+of their compute and labor is going
+towards alignment and control research
+and one worry is that they aren't taking
+this seriously enough now basically you
+know the slide just before there if you
+saw what opening I said I'm not sure on
+that page somewhere open I said that 20%
+of their overall compute is going to
+Safety Research which does make sense
+because guys if you haven't you know
+heard of the elephant in the room the
+elephant in the room is that essentially
+if these uh super intelligent systems
+don't work out um we will die and of
+course you might be thinking how on
+Earth do we all die I could play a clip
+but essentially you just have to think
+about it like this okay um you know how
+ants right just you know walk around
+they do their thing um imagine if an ant
+created a human and then humans started
+creating highways as a result of humans
+creating highways uh we destroy an
+colonies because we need to remove their
+environment in order to place down a
+highway we need to place down homes and
+we just see ants a minor inconvenience
+and because of that um of course ants
+die in the process and some people are
+speculating that this is going to be the
+same with artificial intelligence and we
+have no idea if this is going to be true
+or not because the only way to find out
+is to do it and if we do it and we will
+die then I guess we're never going to
+really know because we're all dead so as
+horrible as that is the point I'm trying
+to make here as well is that all these
+companies are now placing their chips on
+AGI because they've realized that yo
+this is this next technology whoever
+holds this key is going to pretty much
+control um I think a lot of the world's
+resources because if you have an
+intelligent ASI system and you just ask
+it you know how do we become the most
+valuable company in the world it's it's
+going to get it right like I mean if
+it's smarter than us it's going to get
+it right so however long it's going to
+take um that's going to be an
+interesting thing so meta's going all in
+this is Mark Zuckerberg stating that you
+know his company's just going all in on
+AI hey everyone today I'm bringing meta
+two AI research efforts closer together
+to support our long-term goals building
+General in Ence open- sourcing it
+responsibly and making it available and
+useful to everyone in all of our daily
+lives it's become clearer that the next
+generation of services requires building
+full general intelligence building the
+best AI assistance AIS for creators a
+for businesses and more that needs
+advances in every area of AI from
+reasoning to planning to coding to
+memory and other cognitive abilities
+this technology is so important and the
+opportunities are so great that we
+should open source and make make it as
+widely available as we responsibly can
+so that way everyone can bet we are
+building an absolutely massive amount of
+infrastructure um to support this by the
+end of this year we're going to have
+around
+350,000 Nvidia h100s or around 600,000
+h100 equivalents of compute if you
+include other Jeep we're currently
+training llama 3 and we've got an
+exciting road map of of future models
+that we're going to keep training
+responsibly so that just shows you that
+all of these companies are truly just
+pouring billions of dollarss into this
+and the crazy thing is is that they're
+making breakthroughs okay it's not just
+like they're doing this just fun these
+guys are making breakthroughs you can
+see that recently they made a technical
+breakthrough this isn't met by the way
+this is a company private company called
+Magic that could Ena enable active
+reasoning capabilities similar to Open
+Eyes qar model which was apparently a
+crazy crazy breakthrough and this is why
+I state that timelines are getting
+shorter and shorter we have people
+stating you know crazy crazy things you
+know and of course this is once again is
+brings us back to the mullock problem
+which is essentially if AGI is going to
+be any year now and if of course you
+know time lines are getting shorter
+because whoever controls AGI is going to
+be able to get to ASI shortly thereafter
+we have this problem of you know Safety
+Research being an issue and of course
+you know some people even left open AI
+you know and the people who who made
+anthropic you know Dario amod day who
+left open AI to start anthropic because
+he wanted to focus on safety they even
+recently you know did a paper on sleeper
+agents I might include a clip from the
+video where I talked about that and why
+that was really bad and why everyone
+missed the mark on that and some people
+were stting that oh you know Lal this is
+just dumb um but essentially we do have
+a problem on our hands because the
+timelines every day seem to be getting
+shorter and shorter whether it be an
+open AI employee whether it be you know
+a company making a private breakthrough
+that enables um you know active
+reasoning I think it's not smart to
+underestimate the fact that ASI will be
+used to get to ASI shortly thereafter
+and this statement okay the fact that
+you know whoever controls ASI will have
+access to a powerful skills and ability
+that will seem like magic to us um just
+like modern tech would seem like magic
+to medievals isn't to be underestimated
+because if we like think about it like
+this okay this is why super intelligence
+is so crazy like if we go back to for
+example you know when they just had
+castles and you know the medieval times
+or whatever if we just go back to that
+time and if you know we ask them how
+would you defeat this Army in the future
+okay let's say how would you defeat this
+Army in the future they would say oh
+we'd get our cannon balls we'd get our
+bow and arrows and we'd be able to
+defeat them but they wouldn't because
+we'd have tanks and we'd have planes and
+we'd have this advanced level of
+technology that would just simply
+destroy anything that they'd ever have
+and that's a problem with artificial
+super intelligence if you're trying to
+think of something that is very hard to
+conceptualize so um I mean all of the
+current Tech that we do have like if you
+saw an iPhone you brought it back a 100
+years it would seem like magic like if
+you saw a drone it would look like magic
+I mean it's pretty crazy okay um and we
+do know that that is 100 years ago
+without artificial super intelligence so
+you can imagine how crazy things are
+going to look like I mean I genuinely
+can't even imagine to believe what the
+future is going to look like are we
+going to be you know all IM Immortal and
+I mean how is the timeline going to be I
+think either one thing happens either it
+comes either faster than we think or
+later than we think think I don't think
+it comes on time because I do think
+there's always certain factors that
+people aren't thinking about and of
+course who knows maybe we'll hit a wall
+maybe you know AGI doesn't come later
+down the line because we figure out that
+you know there's some kind of war that
+we can't get past and requires more
+years of breakthroughs and you know gbt
+4 we're kind of stagnant at that for a
+bit but um it will be interesting to see
+where we do go and how these timelines
+do evolve because um things are moving
+rapidly and if you did enjoy this um
+it's important to subscribe to the
+channel because uh every day I release a
+video on the most important and most
+pressing AI news that you need to be
+aware of
+
+
 
 ----------
 
@@ -214,11 +7718,345 @@ paste here
 --89--
 
 -----
-Date:
-Link:
+Date: 2024.02.24
+Link: [# Gates, Altman and Bezos SHOCK the Entire Industry! Figure AI, Reddit IPO, Tyler Perry Shocked and T2](https://www.youtube.com/watch?v=sSKxxVtAANQ)
+
+### Introduction to Robotics and AI Advancements
+
+The landscape of artificial intelligence (AI) and robotics is undergoing transformative change, capturing the attention of tech giants like Bill Gates, Sam Altman, Jeff Bezos, and Kathy Wood. Their investment in a burgeoning robotics company underscores the sector's rapid evolution, largely spurred by advancements that promise to automate and augment various aspects of human labor and creativity.
+
+### Breakthroughs in Robotics
+
+Recent developments suggest that the dream of constructing smart, agile robots is closer to reality than previously thought. The vision that "every machine that moves will be autonomous" is becoming increasingly tangible, with significant implications for industries and the workforce. The story of an individual's meteoric rise from unemployment to potentially earning millions from a Reddit IPO exemplifies the profound economic shifts AI and robotics might herald.
+
+### AI's Role in Automation and Employment
+
+A small robotics company, Figure AI, has emerged as a leader in the field, attracting substantial investment and interest. Their mission to deploy humanoid workers in essential roles addresses the critical labor shortages in sectors like warehousing, transportation, and retail. This endeavor reflects a broader industry trend towards leveraging AI and robotics to fill the gap between available jobs and the workforce.
+
+### Tesla's Optimus and the Future of Robotics
+
+Tesla's Optimus robot represents another milestone in robotics, demonstrating significant progress in mobility and dexterity. Training robots in simulation environments, such as Nvidia's Isaac gym, has accelerated development, allowing robots to learn complex tasks more efficiently and with greater adaptability.
+
+### Eureka: A Leap Forward in AI Training
+
+The Eureka project by Nvidia represents a pivotal advancement in AI's ability to generate novel reward functions, enhancing the training of robots for complex tasks. This approach has shown superior performance compared to traditional methods, suggesting that AI can surpass human capabilities in designing effective learning algorithms for robots.
+
+### Implications for Industry and Society
+
+The surge in robotics investment signals a recognition of AI's potential to revolutionize production and services, suggesting a future where AI-driven automation could significantly boost global productivity. However, this shift also raises questions about employment, economic inequality, and the need for regulatory frameworks to ensure a balanced integration of AI into society.
+
+### AI and Content Creation
+
+The impact of AI extends beyond robotics, reshaping industries like entertainment and content creation. The decision of a Hollywood director to halt a major project due to AI's capabilities highlights the technology's disruptive potential. Meanwhile, AI's application in remaking classic films illustrates both the creative opportunities and challenges it presents to traditional modes of production.
+
+### Conclusion
+
+The advancements in AI and robotics signify a new era of technological innovation, with the potential to redefine work, creativity, and society. As AI continues to evolve, it will be crucial to navigate the ethical, economic, and regulatory implications of these changes to harness AI's benefits while mitigating its risks. The journey towards an AI-augmented future is just beginning, promising a world of unprecedented possibilities and challenges.
+
 Transcription:
 
-paste here
+Introduction to Robotics and AI Advancements
+let's take a deep dive into what's happening in the world of AI Bill Gates Sam Alman Jeff basos Kathy Wood and
+other big Tech players go all in on a small robotics company why it all has to
+do with a really strong cup of coffee for a long time we thought that constructing smart agile robots would be
+very very difficult but some very recent breakthroughs seem to indicate that we
+are about to see some lightning fast developments on the robotic front
+prompting one leading AI researcher to say every machine that moves will be
+autonomous we will also take a look at a man who 3 months ago was unemployed but now stands to make
+435 million in a single day thanks to his contribution to Reddit a modern rags
+to richest story also Hollywood director cancels a billion dollar project because he was
+and I quote shocked by opening eyes Sora plus remember that movie Terminator
+2 he said I'll be Bach and uh it's Bach
+back it they're back so subscribe for a permanent plus 202 intelligence buff and
+let's get started all right so we all probably remember the figure AI robot making coffee I'll be honest I thought
+Figure AI: Leading the Robotic Revolution
+it was just a little bit weird because the guy places the C cup he basically sets up the whole environment for him
+then the robot you know Springs into action opens this thing up puts the cup in there closes it Etc a lot of people
+have commented on this basically saying that this was a very sort of easy demonstration to do because of the CG
+machine because of how easy it is to operate it but now we are seeing massive interest in it huge money flowing into
+it and at this point it does seem like they are one of the leading robotic companies and they are figure a AI
+they're saying there are 10 million unfilled jobs in the United States 7 million of those are essential roles
+like warehouses Transportation retail and only 6 million people available to fill those open positions and attrition
+rates remain high key Warehouse suppliers predict they will run out of people to hire by 2024 and their goal is
+to deploy autonomous humanoid workers to support us on a global scale so it's
+founded by Brett atock that's him right there and figure AI to raise 675 million
+for humanlike robots and we have quite a few big names that are investing in this
+company we have Jeff Bezos we have Microsoft we have Nvidia and an Amazon
+affiliate fund so I guess that's Bezos Gates hang Bezos and there are many
+others we have Intel's Venture Capital arm LG Samsung one other name that I'm
+very familiar with is the ark Venture fund so that's Kathy Wood and her Arc Venture fund and another investor in the
+figure AI is of course open AI which once considered acquiring figure AI so
+looks like Jeff Bezos through one of his investment arms has committed 100 million Microsoft is doing just under
+100 million in media and Amazon related fund contributing 50 million looks like
+open AI wanted to outright acquire them at some point but now is investing you know 5 million in this case into it it
+looks like the compan is now valued at around 2 billion and I believe they
+secured some sort of deal with BMW looks like in January of this year figure announces commercial agreement with BMW
+manufacturing to bring general purpose robots into Automotive production so
+what's sparking this huge investment into the robotic sector well one of the big reasons is that Elon Musk and Tesla
+Optimus Prime: Tesla's Progress in Robotics
+and Optimus Prime is seeing some pretty stunning progress not too long ago Elon
+Musk posted this this is Optimus strolling around the lab now the picture
+quality is is horrific here but the things that we're seeing is looks like there's some sort of a there are x's on
+the floor that Mark out a path and it seems like the robot is walking through those as you can see here basically
+hitting every one of those points and is able to effectively navigate around the
+floor as far as you can tell yeah I mean this seems to be one for one so it's not
+slowed down it's not spad out this is kind of a one to one uh footage which
+would mean and you can see the people walking in the background they seem to be in normal motion and this would imply
+that just from about a month ago this robot is getting much much faster we
+don't know exactly how much but I'll show you in a second why it might be moving 30% faster than 1 month ago so
+here's the thing that we saw I believe this was last month so this is the Optimus walking around the floor so you
+can kind of tell that it seems like it's going a little bit slower someone did kind of a one toone comparison basically
+trying to figure out at what speed it's walking so February 2024 versus December 2023 so maybe like
+a month or two ago so the middle footage is the footage from uh December 2023 and
+so it looks like maybe what we saw today is about 30% faster than what we've seen I I haven't verified this so take this
+with a grain of salt but you can definitely see that it's moving a little bit faster than the previous footage that we've seen and of course we've seen
+the hand dexterity that it's able to use so it's got multiple sensors on each and every single finger allowing it to you
+know gently handle objects such as eggs without breaking them so here notice it picks up an egg it transfers it to the
+other hand and is able to place it down without breaking it so I mean what we're
+seeing here is far more complex than most of the other hand dexterity
+demonstrations that we've seen before you know how sometimes you want to find something online but you have no clue
+what to type in to to find it so I tried this human hand dexterity size of the
+Earth feel cars and houses thankfully they were able to find it so human
+fingers can feel the objects as small as 13 nanometers that means that if your
+finger was the size of the Earth you could feel the difference between houses from Cars kind of mindblowing to think
+about that but it kind of puts it into perspective what kind of Technology has
+to go into these sensors and these robotic fingers to be able to
+approximate what humans can do now I'm not saying Tesla is anywhere near that I
+have no idea in fact I wish we had more in-depth papers published by Tesla so we can actually see kind of like exactly
+what they're working on and this is where I really want to kind of point out the fact that Nvidia especially in a
+space of like robotics is doing just a phenomenal job of publishing a lot of
+incredible research so this is robotic systems lab legged robotics at eth Zurich so I've I've used this footage in
+a couple different videos that I've shown because it really kind of demonstrates what's possible when we're
+training robots in these simulations so Nvidia has their Isaac gy amongst other
+ones and what they do is they throw these little robots in this kind of simulation that has a lot of the physics
+simulated physics of the real world the friction momentum gravity and what have
+you it's able to run at let's say a thousand times the speed of the real
+world and so what that allows us to do is to train these robots in a simulation to do various tasks that and this is the
+important part we as humans probably may not even be able to teach it so for
+example would you be able to describe to this robot how to use wheels on its
+hands to open doors or move boxes might be difficult since we've never had to
+Learning Through Simulation: The Eureka Project
+deal with that right and so it starts out and it kind of sucks at it right but
+over time I think they're saying this is the 2000th iteration right but that point it kind of gets pretty good at it
+figures out how to use the wheels and various joints to throw that box inside of a container or open the doors or what
+have you while also of course being able to navigate obstacles roll around in the grass the sand the leaves stand upright
+Etc so this is the paper curiosity driven learning of joint Locomotion and manipulation tasks robotic systems lab
+eth Zurich Switzerland so really fast let me point out some very interesting things here so they're saying that learning complex Locomotion and
+manipulation tasks presents significant challenges so basically getting these robots to move around and handle objects
+is very difficult there's this idea of the morx Paradox it's this observation
+in artificial intelligence and Robotics that what what seems easy to us is not
+necessarily so for example reasoning requires very little computation but sensory motor skills and perception
+skills require enormous computational resources and we had this idea for a
+while morvi wrote in 1988 it is comparatively easy to make computers exhibit adult level performance on
+intelligence tests or playing checkers and of course since then we've seen you know for example deep mine create
+superhuman level AI at narrow tasks such as playing chess or playing the game of
+Go pretty much beating any human opponent at that game but more of it continues it's difficult or impossible
+to give them skills of a one-year-old when it comes to perception and Mobility
+so if the AI beats you too many times at the game of chess and you need to build back some of your self-esteem challenge
+it to a game of I don't even know what this is called baby toy shape sorting
+game I would bet on you to win and so this paper continues so it's hard to
+have these robots learn complex Locomotion and manipulation tasks and often it requires extensive engineering
+of reward functions or curricula to provide meaningful feedback to the
+reinforcement learning algorithm now keep this idea in mind this idea of a reward function what is a reward
+function now reward functions is how we are rewarded for doing the things that we're supposed to do like giving a treat
+to a dog when they sit on command would be a type of reward function we say sit
+the dog sits down we give it a treat we repeat that many times over time it learns to sit on command we humans also
+have reward functions for example nature wants us to procreate so when we do the thing that leads to us procreating we
+get a treat at the end of it that treat reinforces that behavior AKA reward functions and reinforcement learning
+there's a great video on YouTube called training AI to play Pokemon with reinforcement learning it's an
+The Complexity of Reward Functions in AI Training
+interesting watch because the person in it tries to write these reward functions
+that are good enough to get this AI to learn to play Pokemon Pokemon red on the
+old game boy or at least this is like an emulation of it an emulator and so one thing that he tries is he creates
+basically a program that compares the different screens that the AI is seeing and whenever the AI manages to get to a
+new area and the screen is novel there's a difference between what he has and
+what he has seen previously he gets a reward so basically it's a novelty seeking reward which works very well for
+a time until thei finds a screen where there's a number of characters just walking around the breeze is blowing
+making the the plants wave there's a little creek that changes uh its design
+Etc so the screen constantly changes and so the AI just stops and just watches
+that scene for hours and hours and hours and hours so our novelty seeking reward
+function works pretty well until the eye find some you know beautiful spot in nature and just spaces out for hours
+which if this is not ADHD I don't know what is by the way he called this chapter exploration comma distraction
+which again very apt later he changes the reward function to be basically we
+reward the AI every time that it gains a level for one of the Pokémon I don't
+remember the details but it's something like if you have five Pokemon they're all level 10 then you have 50 points and
+then every time you increase a level on one of them that's the reward that's the that's the attaboy we give it so
+basically the goal is to increase the levels of the combined Pokemon and again
+that works pretty well until the AI reaches a particular building that has a PC in it this little computer in the
+corner then something happens and it starts avoiding that whole building like the plague the video chapter is called
+PC trauma the AI is traumatized by this PC and no longer wishes to to have
+anything to do with it what happened well apparently there's a way to store your Pokemon in these boxes and when you
+store them they kind of disappear from your inventory so if you take a level 12
+Pidgey and you put them in the box that's like losing 12 levels of your combined levels that you have now you
+didn't lose it it just stopped showing up in your inventory but the computer the AI sees this as this massive
+negative thing this trauma right it lost 12 points of reward and it just refuses
+to go anywhere near that thing so I'll link this video if you want to see it it's pretty well done I really enjoyed
+The Future of AI and Robotics
+it but the point that these two things illustrate is how difficult it can be to
+write these reward functions you try something right let's go back to this paper it says often requiring extensive
+engineering of for example reward functions or various curricula so sort of like the lesson plan for teaching
+thei to do something it needs to have some meaningful feedback to the reinforcement learning algorithm that's
+basically what we've seen in this in this video of the Pokemon it's like how do we provide it with the right sort of
+feedback so it learns how to do everything correctly without causing these accidental traumas or having it
+space out in the woods for 5 hours so getting back to this paper I think the important takeaway of this is that
+robots are hard robots are hard they're hard to make they're hard to train
+Robotic Training in Simulation
+they're hard to improve for like a million different reasons but recently there has been a few breakthroughs that
+have made it easier potentially much easier one is we figured out how to train these robots in simulation instead
+of building real life expensive robots that have wear and tear that break down we just recreate them in these
+simulations you notice Nvidia has a lot of stuff a lot of tools for this things
+like Isaac Jim Isaac Sim various other ones they simulate the environment and
+allow to run like a thousand times faster than the real world allowing us to train these robots faster without
+wear and tear without breaking and those simulations translate to real world results after learning to open the door
+in a simulation they demonstrate the effectiveness of the proposed approach by opening a push door over 15 times in
+a row without a single failure in a lab environment and for that second task of
+package manipulation the robot robustly grabs the package and drops it into the bin over five times in a row however in
+one of the instances the robot loses grip and the robot loses its grip on the
+package oh no is that a fail not quite the robot quickly regrab the package and
+successfully delivered it meaning that this creates highly Dynamic Behavior it's robust means it's not well robotic
+if something goes wrong if something goes not according to plan they can adapt a little bit they can react to the
+situation now this particular paper paper we're not really covering the point of the paper I think it has more to do with dense task rewards and sparse
+reward settings we may do a full Deep dive in another video I just wanted to show it because I think they do a great
+job of explaining how to use the simulation to train these weird robots that don't really look like anything you
+know organically exists on the planet just everything about this seems like awesome but the other big point is that
+let's say we take a smart human who is an expert at creating these reward functions for training the robots so
+it's a person that knows what they're doing for some of the simpler tasks like for example balancing this little stick
+by moving this little block left and right is considered one of the easier tasks to write a reward function for
+basically you tell it just keep the stick upright don't let it fall but then it gets more and more complex up to for
+example this pen spinning trick where you have a robotic hand that that spins the pen in his fingers this I believe
+was before this Eureka paper came out I don't think anyone has been able to do
+that before because it's very difficult for us for humans to write these reward functions as you saw with that Pokemon
+thing right we end up traumatizing thei giving it ADHD so that was a kind of a
+stumbling block a brick wall that we had to get through before we were able to create robots that were agile and could
+Eureka: Universal Reward Design
+do things as well as you know toddlers can do so this is uh Nvidia and Dr Jim
+fan that's him right there and this is I'm going to say yuku so keep those two names in mind because these two are
+forming gear what is gear we'll we'll come back to that in just a second and I believe the rest of this team is also uh
+worked on Minecraft Voyager and the various other AI research that we've covered here but what is Eureka with for
+Eureka we're trying to figure out how to train this Shadow hand as it's called in a simulation to twirl a pen or pencil in
+its fingers simulation is the Isaac Jim by Nvidia and this is kind of what that reward function looks like basically you
+know as an example we might give the AI an adoy for the various like rotations
+that it does and so as it's like twirling the pen it's trying to get the attaboy without the you know the
+penalties but remember humans we kind of suck at writing these complex reward
+functions so the team decided to do this they decided to instead dump the whole thing on GPT 4 on Chad GPT they're like
+you know what you do it you're supposed to be smart merging AGI and whatnot if you're so smart let's see if you can do
+it so they gave it the task saying make the shadow hand spin the pen to a Target orientation so they started with by just
+having it spin to a Target orientation for example you know like this or sideways or whatever and they give it
+the environment code so basically it's the environment source code from Isaac Jim about how the whole thing works they
+just kind of dump that in there and say you read it there's a sort of bit of uh engineering humor that goes if somebody
+asks you how to do something technical you reply with rtfm right and they ask what's rtfm and
+they say it stands for read the manual rtfm it's a joke you see because you're
+supposed to figure out what the f stands for but anyway so they say to gp4 R TFM
+and so gp4 does all that and creates a reward function now it does sampling so
+it produces a number of them there's sort of a selection process but the point is it outputs a reward function
+that goes into here that goes into the GPU accelerated reinforcement learning
+simulation in the Isaac gym and then the reward function so like the results are
+spit out and those results are given to GPT 4 basically saying here's what you
+suggested here's how well that worked try to improve it and it does and so there's this kind of loop of it trying
+various reward functions and trying to come up with better and better Solutions and here are actually the full prompts
+Eureka prompts that they give Chad GPT basically here it is it's not super complicated so the initial system prompt
+is I mean I'm sure they're not using Chad GPT like the like the website chat environment but it's the same underlying
+thing and so we tell it you're a reward engineer trying to write reward functions to solve reinforcement
+learning tasks as effective as possible and your goal is to write a reward function for the environment that will
+help the agent learn the task described in text Tex and we give it some like examples of things to use how to use the
+code so I mean basically some helpful hints and tips about how to do that and then once it spits out the reward and
+that's gets loaded into the simulation and then comes out with the results that goes back in here and we say we okay we
+did what you said we track the values of the individual components and all this other stuff and and here's what what
+that came out to so you kind of paste that information in there we say please carefully analyze the policy feedback
+and provide a new improved reward function and here's some you know helpful hints for how to do that and so
+how well does Eureka do at these tasks how how well does Chad GPT GPT 4 with
+that sort of infrastructure that architecture that that was shown how well does it do well it outperforms
+humans across all tasks are you shocked but that's not even the most important
+part so in conclusion they say we present Eureka a universal reward design algorithm powered by coding llms gbt 4
+and they're saying that Eureka achieves human level reward generation on a wide range of robots and tasks so that's what
+kind of they mean by Universal right it's not just good on one thing it's human level results on a wide range of
+various tasks and robots and whatever by different robots they mean some of them are humanoid walking things some of them
+are like these dog looking things some of them are just hands or claws that need to open drawers some of them like
+this is like a drone thing with four different uh like proportion things you
+can think of it as like a I don't know like a quad helicopter or something right then of course we have the various hands and stuff like that but this is
+where it gets really interesting so Eureka generates novel rewards what this is basically saying is that as the tasks
+get harder more complex more difficult they notice that the harder the task is
+the less correlated the Eureka rewards and Eureka realizes much greater gain
+means on high dimensional dexterity environments what that means is that for hard tasks Eureka is better than humans
+it does harder tasks better and the ideas that it comes up with they're
+novel they're new so it comes up with creative ideas ideas that humans are
+unlikely to come up with it's creative original and better than humans so to
+kind of sum everything up that we've talked about before for long long time we had humans working on physical robots
+Summarizing AI and Robotics Evolution
+it's like robots that are made of you know whatever steel plastic wires whatever and that was kind of I mean we
+made a lot of progress over the years and a lot of that effort led to what we have today but as you saw it was it was
+slow difficult expensive we had a lot of progress but it still seemed like humanoid robots a capable of doing
+General tasks that seemed like that was still far far away now now we have ai
+that's working on the sort of simulated robots so it's it's it's training it in
+simulation right it's getting that feedback it's improving it it's putting it back and then when these robots come
+out of the simulation like the data is pulled out well as you saw that translates very well into real life
+physical robots and so far all those results seem like they're really really
+good and this combination the ability for GPT 4 to create something like this
+CU I I would be shocked if GPT 3.5 could could do this probably not so literally
+I would say that this is only this has only been sort of possible at this level with GPT 4 so this new stuff has only
+been possible for a year or two I mean it sounds like GPT 4 was probably trained before got released so maybe you
+The Impact of AI on Industry and Economy
+could say a little while longer but this is all brand brand brand new and that's
+why these companies are so hot in demand why they're valued at 2 billion why the
+biggest funds the biggest Tech players are pouring money into it it's because three years ago we thought that these
+robots that are agile and have sort of general intelligence we thought that was a long way away now it's Dawning on
+people that maybe not so much maybe they're just around the corner and we should probably be buying up the people
+of the talent and the abilities to create these things if you think about the G GP per capita in other words how
+much stuff we produce how much goods and services we produce on average per
+person for the amount of population we have what does this chart look like if we're able to produce an expensive
+robots capable of doing a lot of the labor kind of goes vertical right we're going to be able to produce more stuff
+regardless of how much of what the population is of the percentage of the population that is able to work kind of
+changes the game so we're going to be seeing more from your AI we're probably going to be seeing more from 1X so this
+is the founder of 1x that's another another robotic company that open AI backed they're saying that more stuff
+coming in 4 weeks looks like morx Paradox might be false and we just didn't have the data in other news
+Reddit files to go public the first social media IPO in years Google
+AI and the Future of Content Creation
+recently made a $60 million deal with Reddit allowing the search giant to train AI models on reddit's content on
+its human posts although I'd be curious to know what percentage of Reddit is now written by Chad GPT but I digress one
+person who stands to gain from the Reddit IPO is a man who only 3 months
+ago was unemployed on the Streets of San Francisco his name is Sam Alman who has
+invested at least 60 million in Reddit shares and controls 9.2 of voting power at Reddit so I think I read somewhere
+it's like 435 million that that those shares could be worth at IPO potentially
+so that's how much his shares would be worth on the day that Reddit goes public so from unemployed to 435 million made
+in one day Sam Alman with his blue backpack so when I saw this video with the blue backpack I was like okay I have
+to do this I have to connect this to the Reddit IPO somehow in other news Tyler
+Perry puts the $800 million Studio expansion on hold because of open AI
+Sora he's saying that these AI video generation tools will touch every corner of the industry so he's saying I have
+been watching AI very closely so he was planning an 800 million expansion and
+all of that is currently and indefinitely on hold because of Sora I hadn't gotten word over the last year or
+so that this is coming but had no idea until I saw recently the demonstration of what it's able to do it's shocking to
+me his words not mine and he's saying he's worried about the people in the
+industry to his mind AI Tech poses an existential risk to the entertainment industry that it can't ignore there's
+got to be some sort of regulations in order to protect us if not I just don't see how we survive now Yan laon the AI
+boss at meta has talked a little bit about this he hasn't responded specifically to sore the Hollywood thing
+but this was in general about this technology saying the printing press scared a lot of people Catholic Church
+the rulers of the Ottoman Empire who banned it even this Swiss physician they all feared the books were to too
+dangerous to be put in the hands of the public in a way they were correct books weakened their powers by making people
+smarter and more knowledgeable feudalism autocracy magical thinking and rigid
+religious Dogma were eventually displaced by democracy rationalism secularism science and the Enlightenment
+and we are all better for it when the idea of the printing press arrived in the ottoman Empires ottoman
+intellectuals who were keen on Aesthetics enjoyed books written with elegant handwriting and whose ink shine
+along with edges that were ornamented with golden guilt and covers that were made with care besides there were many
+calligraphy artists who copied plenty of books rapidly all those people could be out of a job so it sounds like the
+printing press didn't take hold in Ottoman Empire probably because of the revenue hit that the calligraphy artists
+would take so one of the points that people have made is that the Ottoman Empire choosing to ban the printing
+press or at least it not taking hold there you know yes it protected the jobs
+of the scribes of the calligraphy artists but the argument is that that may have contributed to the fall of the
+Ottoman Empire I'm curious what you think about this should we shut down AI to preserve all the jobs in Hollywood
+what would you do in this case and finally they completely remade Terminator 2 with I think this was
+Runway ml I mean it's AI generated uh looks like Runway ml they're going to be showing it in theaters I believe is
+fully remade with AI why did he turn into a bear made entirely with AI
+absolutely phenomenal here's the post our T2 remake official trailer Humanity
+must fight back against the world R ruled by Chad GPT and so it's a parody of Terminator 2 and it's a featurelength
+film remake created using artificial intelligence and looks like it's premiering in Hollywood California on
+March 6 come with us if you want to live I'll be honest I am more interested in
+seeing this than probably most of the stuff that's coming out of Hollywood right now and what's more I'm really
+excited to see what this allows artists to create and by artists I mean artists
+not massive $800 million Studios bent on generating a profit I'm talking about
+people with a vision that want to tell a story and now have the tools to pretty much create their own worlds with no
+limitations of hiring artists or voices or anything like that if they want to do that they still can but if that was the
+limitation that limitation is gone so can't wait to see what they produce I
+hope you enjoy that my name is West rth and thank you for watching
 
 ----------
 
@@ -226,23 +8064,986 @@ paste here
 --88--
 
 -----
-Date:
-Link:
+Date: 2024.02.24
+Link: [# CrewAI Tutorial - Automate REAL WORLD Tasks From Scratch](https://www.youtube.com/watch?v=8R7QOJgGyIQ)
+
+### Summary of the Content
+
+The video documents the process of setting up and experimenting with Crew AI and Lightning AI to create a tool that can scrape website content and summarize articles. The goal is to automate the collection and summarization of AI news articles for a newsletter. The presenter, navigating through coding challenges and solutions in real time, demonstrates the use of Python, Crew AI's capabilities, and the Lightning AI cloud IDE. The project evolves from using pre-built tools to creating a custom scraper for more specific tasks, showcasing both the potential and current limitations of automated content gathering and analysis.
+
+### Advantages
+
+- Demonstrates real-time problem-solving and coding.
+- Highlights the flexibility and power of using Lightning AI and Crew AI for AI-driven projects.
+- Shows how to create a custom tool for specific tasks not covered by existing tools.
+
+### Drawbacks
+
+- Encounters technical challenges, such as website scraping limitations and API token visibility.
+- Requires adjustments and troubleshooting, which can be time-consuming and complex for beginners.
+
+### Tips and Advice
+
+- Use headers in requests to mimic browser activity for successful scraping.
+- Consider using tools like fake user agent or APIs for websites that block scraping attempts.
+- Modularize code for easier management and troubleshooting.
+
+### Main Challenges
+
+- Navigating the limitations of automated web scraping and content summarization.
+- Ensuring accurate and relevant content extraction from diverse sources.
+- Managing API and tool limitations within Crew AI and Lightning AI environments.
+
+### The Importance and Usefulness of the Topic
+
+This video is significantly useful for developers and tech enthusiasts interested in automating content collection and summarization, offering insights into practical applications of AI and cloud IDEs in streamlining workflows and enhancing productivity.
+
+### Accomplishments
+
+- Successfully set up a Crew AI environment within Lightning AI.
+- Created a custom scraping tool to gather content from websites.
+- Demonstrated the application of AI in automating content summarization for newsletters.
+
+### Interesting Quotes or Insightful Sentences
+
+- "I'm going to show you how to access the edge version of Crew AI which has a bunch of native tools installed in addition to Lang Chain."
+- "Lightning AI is essentially VS Code completely in the cloud and you could collaborate with other people on the code."
+- "Everything works and then it says failed to retrieve the webpage...it's actually just blocking the request because it thinks I'm a scraper, which I am, but that is besides the point."
+
+### Insights
+
+- The project showcases the evolving landscape of AI tools and cloud IDEs in software development, emphasizing the growing need for adaptability and continuous learning among developers.
+- The real-time troubleshooting and interaction with the Crew AI founder underline the community and collaborative aspect of modern software development.
+
+### Summary of Viewer Feedback and Suggestions
+
+#### Positive Feedback
+
+- Viewers appreciate the real-time problem-solving approach, finding it relatable and educational.
+- The inclusion of mistakes and debugging processes is praised for making the content feel more authentic and approachable.
+- Suggestions for exploring Docker for deployment, emphasizing its utility in privacy-focused work environments.
+- Calls for content that categorizes learning materials into basic and intermediate levels to help guide viewers through complex topics.
+- High interest in content that delves into specific use cases like Docker, open-source models, and Crew AI applications.
+- Appreciation for the format that combines news coverage with practical demonstrations, making complex topics accessible to non-technical audiences.
+
+#### Constructive Criticism and Suggestions
+
+- Some viewers expressed a desire for more concise content, fearing that the detailed format might lower the value-to-time ratio.
+- Requests for chapters in videos to allow easier navigation through content.
+- Interest in seeing more diverse use cases beyond summarizing, such as custom-built tools using APIs.
+- Suggestions to utilize news APIs for more efficient information gathering.
+- A few comments indicated a desire for content that showcases neurosymbolic AI projects, highlighting an interest in cutting-edge AI developments.
+
+#### Specific Requests and Ideas
+
+- Introduction of Docker to simplify deployment on end-user devices, particularly for privacy-sensitive applications.
+- Classification of content into fundamental and advanced topics, with practical demos for intermediate levels.
+- Exploration of Crew AI's capabilities for creating research agents, emphasizing the potential of tooling in AI development.
+- Consideration of AI's role in overcoming coding challenges, with an emphasis on using AI to facilitate learning and project development.
+- Suggestions to incorporate chapters in videos for better navigation, meeting the needs of viewers seeking specific information.
+
+#### General Sentiments
+
+- A strong sense of community and learning, with viewers expressing gratitude for the educational content.
+- Interest in content that explores the "practitioner side" of AI, moving beyond theoretical discussions to real-world applications.
+- Curiosity about integrating various AI models and tools for practical applications, such as automating newsletters or enhancing coding workflows.
+
+### Concluding Remarks
+
+The feedback reflects a diverse audience interested in both the theoretical aspects of AI and its practical applications. There's a clear demand for content that bridges the gap between complex AI concepts and real-world use cases, with a particular interest in tooling, Docker, and Crew AI applications. The community values the educational approach that includes real-time problem-solving and direct engagement with AI technologies.
+
+
+From the comments, those that stand out as providing advanced specialist opinions and helpful insights before starting a project are:
+
+1. **@keithhanson9441's Comment on Docker**:
+    
+    - This comment dives into how Docker can be utilized for deploying local models and agent code, especially in environments that require HIPAA compliance and privacy focus. The detailed suggestion to use a Python Docker container, bake the agent in there, and combine it with an ollama container using Docker Compose for GPU access, provides a practical framework for setting up a development environment that is efficient and privacy-compliant. This advice is particularly valuable for anyone looking to deploy AI models while ensuring data privacy and ease of use for end-users.
+2. **@BharatGuru007 on Classifying Learning Content**:
+    
+    - BharatGuru007’s suggestion to classify learning materials into basic and intermediate levels is insightful for content creators aiming to make AI topics accessible to a wider audience. This structured approach to content creation ensures that viewers can navigate learning materials more efficiently, making it easier for beginners to start and for intermediates to deepen their knowledge without being overwhelmed. This comment is especially useful for guiding the structuring of educational content in AI and technology fields.
+3. **@aimademerich on Crew to Pull GPTcrawler**:
+    
+    - Aimademerich raises an interesting point about leveraging Crew AI to pull a GPTcrawler for scraping URLs. This suggestion hints at combining different AI tools and models to enhance the capabilities of a project, such as automating content aggregation or data collection tasks. For developers and AI enthusiasts looking into web scraping and content summarization, this comment opens up possibilities for creating more sophisticated AI systems by integrating specialized tools.
+4. **@mmaik999 on Open Source Model with Custom Tool**:
+    
+    - This comment suggests demonstrating the use of an open-source model with a custom-built tool that utilizes an API. This idea is particularly relevant for advanced developers looking to tailor AI solutions to specific use cases or to enhance the functionality of existing open-source models. It encourages thinking beyond the standard applications of AI models and exploring custom integrations that can offer unique solutions or improvements.
+
+These comments reflect a deeper understanding of AI applications and development practices, offering valuable perspectives and suggestions for anyone looking to start a project in this field. They underscore the importance of considering privacy, efficient deployment, structured learning paths, and the potential of integrating various tools and models to enhance AI projects.
+
 Transcription:
 
-paste here
+let's build something with crew AI I'm going to set up teams and we're going to accomplish tasks together and this is
+going to be a slower paced video because I'm just going to build it all with you live and we're going to be especially
+focusing on tools because I really want to extract the most amount of value from
+allowing agents to use tools and I'm going to show you how to access the edge version of crew aai which has a bunch of
+native tools installed in addition to Lang chain which we can use and then custom tools which we can build
+ourselves so I'm going to show you how to do that also and we're going to be using lightning. a as the IDE in the
+cloud so everything I'm going to do is going to be coded in the cloud and then I'm going to share the code with you at the end of the video and lightning is
+also the sponsor of this video so thank you to lightning let's get into it so I am literally starting from nothing you
+are going to watch me install it you're going to watch me set up all the agents line by line so the nice thing about lightning AI is it is a cloud
+environment IDE and it's also so much more and I'll get to that in a bit but it's essentially vs code completely in
+the cloud and you could collaborate with other people on the code so right now this is from within my browser which is
+really cool and I opened up the terminal same thing as vs code so everything should feel super familiar to you I
+opened up the terminal right here and let's get started I can see we're on python
+3.10.1 right there and if I click on it I can select another version but we don't need another version so what we're
+going to do is PIP install crew aai and that's it let's see if it
+goes okay downloading everything that should be
+good okay it's done awesome I'm also going to have the crew aai documentation
+open just so I can reference it whenever I need and so now that I have crew AI
+installed that actually should be it to get started defining our agents so I'm
+switching over to the documentation I'm going to copy the code from the documentation I'm going to switch back
+and I'm just going to print it all in here and we're going to adjust it as we need so let's delete this comment we're
+going to import OS which will allow us to handle our API key and we're going to
+be using chat GPT initially but we may end up using a local model later now the good thing
+about lightning AI is it's not only a cloud IDE but you can actually power models you can spin up gpus and power
+open- source models and directly connect them to whatever application You're Building lightning is really made for AI
+applications so I switched over to create new keys and open AI let's hit create new key and I'm going to type
+crew yt2 because I already started one and I'm starting another one create
+secret key copy I'm going to revoke this key before publishing the video of course and right here on line
+four I'm going to double click and enter my API key and I'm realizing that by habit I'm
+hitting save often and I probably don't need to do that with lightning because it saves automatically as I'm going so
+I'm going to rightclick on main.py right over here and I'm going to go down to rename and I'm going to call it crew.
+py okay and I realize I already made a mistake because if we just do pip
+install crew AI it's going to install the latest stable release but what we want to do is actually hit equals
+equals and then insert 0.14.0 RC so what we're going to do
+first is PIP uninstall crew
+aai and so now you can see I make mistakes all the time and then we're going to do pip install crew AI equals
+equals and then 0.14.0 RC and then we hit
+enter okay so it's installing the newest version and I got a list of the tools
+and they're not documented yet but I'm going to show you what they are and I'll add them as a comment in this file right
+here once this is done okay it's
+done okay so before we continue I'm just going to add a comment right here these
+are the tools that we will soon have access to in the main version but in the release client we can access them right
+now so comment those out so we have code doc Search tool CSV Search tool
+directory Search tool we have a txt Search tool Json all the way down we have website search Tool YouTube video
+search tool so we have a lot of different tools that we're going to be using now I think the first crew I want to create is something that I need
+personally and a lot of you ask hey AI agents are great but what is the real world use case for them and so that's
+what I'm going to show you today I collect links for AI news all throughout the week and I'm starting to put out a
+newsletter more frequently than I have in the past so first be sure to sign up for my newsletter the link is in the
+description below but what I want to do is create a crew that I can drop a bunch
+of links into they go check out what each of the articles are about and then just write a short summary of each one
+and that'll just save me a bunch of time when I'm creating the newsletter myself so here's an example of how to use a tool from Lang chain so from Lang chain
+community. tools import duck. go search run and we just set it as a Search tool
+but we're not going to need that so let's go ahead and delete that there and I'm going to give us a little bit more room in the code editor so the first
+agent being created is the researcher agent and I'm going to be changing that so we're going to call it the scraper
+agent and the role is
+to actually I'm going to change that to the summarizer
+agent and the role will
+be summarizer of websites goal let's set that to Let's
+see what should we set that to that'll be go to a given
+website scrape the content and provide a summary of
+the article on the website okay
+backstory let's give it a little bit of backstory you work at a leading Tech Think Tank that's fine your expertise
+lies in identifying emerging Trends that's fine you have a knack for dissecting complex data and presenting
+actionable insights so I don't need that and we're going to say you have a knack
+for taking complex
+topics AI topics and explaining them clearly and
+succinctly with a bit of
+wit okay we're going to keep verbos true because we want to see all the output
+and I don't want this summarizer agent to delegate anything and that's
+something really nice with crew AI is you can allow for delegation really easily now for the tool it says Search
+tool so we do need to change that I'm going to delete all these
+comments and by default it will use GPT
+4 so for the Search tool rather than that we're actually going to use the
+website Search tool and I think the website Search tool goes and scrapes a website but we'll see again I'm doing
+this for the first time we'll do it together all right next we have the
+writer agent and that is good and the role is a tech
+content summarizer and writer goal craft compelling
+content on AI advancements and we're going to actually
+say craft compelling short form content on AI
+advancements backstory you are a renowned content creator known for your insightful and
+engaging articles you transform complex Concepts into compelling narratives that sounds good verbose true allow
+delegation true we do not want this agent to delegate actually maybe we do because
+the writer is going to delegate the scraping to the summarizer I think that's how it could work so let's leave
+delegation on now we have two tasks let's see what
+they are task one conduct a comprehensive analysis of the latest advancements in
+AI in 2024 okay so we're going to change this we're going to say for task one
+take a list of websites that contain AI
+content read SL scrape the content and then provide a short
+summary a short and interesting SL compelling
+summary of the content found on the
+website okay and we're going to give this to the
+writer actually now that I'm thinking about it the first task needs to be going and getting the content so let's
+do that first so I'm going to say the summarizer
+is actually going to be a scraper agent so that's their only job is to go get the content so let's change just a
+little bit scrape the content and provide the full content to
+the writer agent so it can then be
+summarized and r rather than this backstory I'll leave leading think tank
+but we're going to change this to be your expertise
+is taking URLs and getting just the text based
+content of them
+okay then for the writer craft compelling short form
+content on AI advancements based on long
+form text passed to you okay so task
+one take the list of websites that contain AI content read scrape the
+content and then provide so we're going to change this and then so read scrape the content
+and then pass it to the writer agent so this is going to be the
+scraper and then we have the writer using the text
+provided by the scraper agent develop an engaging blog post so I'm
+going to change this now develop a short and compelling slash
+interesting short form summary of
+the text provided to you about AI let's see what happens
+we're probably going to have to iterate on this a few times so we have task one task two we create a crew right here
+we're going to have two agents in the crew we're going to have the scraper agent and the writer agent we have task one task two and verbose equals two you
+can set it to either one or two to different logging levels and we're going to leave it as two so then we get the
+result and we go ahead and print the
+result okay so one thing we're going to have to
+do is figure out a way to pass in the list of Articles so let's see if we could do
+that right here ask the user for a list of urls then go
+to each given website scrape the content and provide
+the full content to the writer agent so it can be summarized so let's see if this works we might need to actually
+pass the URLs directly in here well let's see all right let's play
+it and see what happens so I'm going to clear everything in there let's hit play
+and let's watch it work
+okay name error website tool is not defined right okay so we still need to
+actually Define it up here to be able to use it so I think this is going to be how we
+do it so from crew aai tools and we don't actually have that so let's add that
+here now this is not documented at all so it's a little bit difficult to figure out but we'll try crew a crew a AI tools
+let's see if we just hover over it do we get any information okay I don't think this is
+right crew AI tools maybe okay let's try
+that then from crew aai tools we're going to
+import the website Search
+tool just like that and we're going to set set it to
+website let's see what do we call it down there website Search tool let's look at another example of
+how it's done real quick so right
+here Search tool okay so we can name it anything we want website
+Search tool equals okay so let's do this a little
+different what we need to do is put this on a separate line so we're importing the library first then we set it like
+this just like that I'm going to copy this make sure that it matches the tool down here so it's actually
+using uppercase so let's just change that just like that okay we're going to
+save there seems to be an error so I think we can maybe delete the
+parentheses off of that and that might work let's see
+play okay import error cannot import name crew AI tools from crew
+AI maybe we don't need to have crew AI tools up there feels like we do but
+maybe not let's see okay all right great that worked so
+this is how it's done so crew aai tools is already going to be built in and we just say from crew AI tools import and
+then the tool that we want now let's see what we
+got okay starting task entering new crew
+executor sure could you please provide me with a list of URLs you want to scrape error I didn't use the right
+format I must either use a tool use one at a time or give my best final
+answer okay so we did not do this right I'm going to stop it and it's nice because all the same
+keyboard Keys work with lightning AI uh that you're familiar with with vs code
+so I'm going to look at some of the examples so let's look at the stock analysis right
+there so we have tools just like that that's good okay that's how we have it
+backstory best financial analysis
+okay now let's look at the actual
+code so here's the code for the agents okay so all the agents are
+defined in one file that's cool we could do that and then we have the actual
+task so the financial anal financial analysis takes self and
+agent but where does it actually
+Define the stock that we want to analyze let's
+look okay let's look at main.py maybe we're passing it in
+there okay I see what's being done here so in the python script itself the first
+thing we're doing manually is asking for the input we save it as
+company and then we pass it into Financial crew and then the crew does
+the rest so that's what we're going to need to set up so I'm not sure how to do that but we'll figure it out
+together okay so I'm going to first copy this code let's just take that and we know
+we're going to need something like this so we'll put it in here and it's probably going to replace
+something around here so I'm going to leave everything in one file for now just to simplify
+things let's paste that code in so instead of this so this is the main part
+of the Python code we're going to be running so I'm going to actually change this back to
+main.py and then we're going to say welcome
+to newsletter writer
+okay uh and then we're going to say websites what is the company you want to
+analyze we'll see what is the URL you want to
+summarize and then Financial crew we're going to call it newsletter
+crew newsletter crew okay so let's call this
+this newsletter oops newsletter
+crew okay that might work let's just make
+sure all the capitalization is correct and then we want to do
+newsletter crew. run here is the
+result okay so I'm wondering why the newsletter crew
+up here has run and this one has kickoff so let's double
+check okay so let's look at the task here we go so stock analysis
+task and I really like how he keeps all of his code really modular so I might copy that but for now let's try to do it
+without that okay let's look at the
+agents okay I'm going to go back to main.py and I'm just trying to figure out how he set all this up so I can
+essentially mimic the same thing that he did okay so he does have crew right here
+and this whole thing okay I see I see so the whole thing is wrapped with this class so I think that's what we're going
+to have to do so I'm going to copy all of
+this and actually I'm just going to copy the top part I think that's all all we're
+going to need then we in instantiate our agents
+right there and task but we're going to Define them in the file itself so I'm going to hit
+copy and then at the very top let's add in the
+class we're not going to Define our agents and task like this we do need to indent this so they
+fall under run because that is how he did
+it and let me just make sure about the
+yeah this is also
+indented okay so let's go back to
+lightning and we do need to indent everything under this new class that we just
+created go ahead and indent it and
+now we have scraper okay we need to indent one more time everything should be within run I
+believe let me just double check def run
+okay right so this is actually outside of the class when we actually have to run it so let's make sure to do
+that so this is a top level piece of
+code and that should be good now up here
+we're going to change this to be newsletter
+crew and we don't want company but we want URL
+URLs I'm going to change this to the
+URLs and somehow we have to pass those URLs into the actual agents so let's see
+how we're going to do that okay self andit company right here
+so let's keep this as as URLs need
+that got it okay so now at the bottom right here newsletter crew not company
+but URLs okay so now it gets passed in URLs and let's make sure that the agents
+within the screw have access to those URLs so let's see how they defined it in
+here so we're going to switch over to stock analysis agents the definition because this is where this is where they
+would be passing in the URLs I believe or the company in this case okay but it doesn't seem to be
+doing it here let's see maybe it's passing it into the task yeah company okay and then that's how we do it okay
+so we're going to have to insert it just like that selected company by the customer so let's do
+that so if we add two new lines right here and then we say something like here
+are the URLs from the user that you need to scrape and then we say uh open curly
+braces and then URLs hopefully this works let's see okay so this should be
+done and I'm going to go ahead and clear the output in there and then let's push
+play okay Dent is not defined right cuz
+I didn't to find it anywhere Dent let's see where we actually have
+that dent
+okay let's see Dent must be right there
+perfect okay so we're going to find that from text drop let's go ahead and import
+that into our code okay then let's run it again
+all right there we go so it asked me for a URL that is perfect what is the URL you
+want to summarize now I want to be able to pass multiple in but for this first iteration I'm just going to give it one
+so I found this article AI startup Runway is raising a venture capital fund
+and this was from a couple weeks ago so that is what I'm going to start with let's switch back to the code URL I
+want to summarize paste it in hit enter okay name crew is not defined did you
+mean crew maybe let's find out so lowercase crew as compared to uppercase
+crew crew is not defined let's find that lowercase
+crew here we go right there so maybe I did mean uppercase but that oh right we
+don't actually need to do that we need to actually
+say newsletter crew and I think that is what is wrong
+so let's try it again push play it's going to ask me for
+that URL again let's get it again paste it hit enter okay type
+attribute or attribute error type objects newsletter crew has no attribute
+kickoff interesting let's find out what's we're doing wrong here ah we don't need to do that here
+okay so the newsletter crew is actually run from right here so I have duplicate code so let's get rid of that but I'm
+not quite sure if this is going to work still because I feel like it should have hit
+this first but maybe it only does that after loading all the other code and um
+exposing my lack of experience with uh python here so glad I'm doing this you
+guys uh should know I've only been doing python for about a year now all right let's give it another try
+probably going to have another error let's find out okay what is the URL we want to summarize let's grab it oops let's paste
+it in here hit enter none here is the result none
+okay so no errors but it definitely did not
+work here is the result so what are we doing wrong newsletter crew. run we have
+the newsletter crew right here run then we have the agents that get
+defined the tasks the new oh we don't actually kick it off here that's the
+problem okay so let's copy that and we want to do. kickoff I think maybe this will work
+let's see hit play we're going to need that article again switch back URL you want to
+summarize hit play all right I think that worked except is it actually
+inserting I I am unable to surf the Internet or access URLs directly however
+the tools I'm provided with do not allow me to directly scrape data from
+websites well that's not helpful okay yeah it's telling me it
+can't access the website but that is not
+true here is the result none so why is it telling me that so all the code looks to be correct
+right now but I think what we're going to have to do is give it a little nudge to actually be able to go in and
+scrape the website and gp4 thinks it can't but you need to use the tool I gave
+you so here's the website Search tool which might not actually be what we think it is but let's find
+out and so rather than saying then go to each given website what we're going to say is then use the
+website Search tool
+to then scrape the content let's see if that
+helps us let's hit play okay I'm sorry for the misunderstanding I'm sorry for the
+confusion but I need the URLs to be able to continue with the task okay so something I'm doing it is not passing
+the URLs in correctly so not everybody gets to Ping the founder and be like hey
+can you help me appreciate you helping out Joe is the founder of crew AI so
+very happy for a little bit of help from him I am currently let me actually share my
+screen so I'm I'm in the middle of the video I'm doing a let's build so it's a very like um kind of slow paced video
+going through each step all the errors are all going to be seen by the audience I'm using lightning. a as the
+uh Cloud IDE and I set up a crew and what I want
+them to do is I want to be able to pass a set of URLs one of the agents is a
+scraper agent that agent is going to go scrape the websites and bring the content to the writer agent the writer
+agent is then going to write a brief summary of each of the URLs that I
+passed to it now the first problem is before I had
+this used the website Search tool gp4 says I can't scrape website content and
+then I explicitly told it go ahead use the website Search tool now it work Works however where I'm
+a little bit stuck is I and by the way I'm using um your web uh stock analysis
+tool uh as kind of a reference so I'm trying to pass in the URLs here but
+apparently it is not getting passed in properly the URLs do get passed in I
+believe right here so I have them available but I'm I you know I'm not
+great at Python and I'm probably doing something wrong but it told me if we look down here
+I'm unable to proceed with the task without the URLs could you please provide the URLs so that is the issue
+right here got it got it all right so basically what is interpolate the URLs
+into that task there um where do you have those Ur where are those URLs
+coming from so very similar to how you did it I'm using Dent to ask a question immediately what is the URL you want to
+summarize so I'm starting with just one but I'm going to assume I want to kind of plug in a bunch eventually I just
+want to get this to work but they're coming right here all right got it and then you create this newsletter CRS and you P you
+pass the URLs for in all right let me look at the class newsletter crew up
+there uh newsletter crew all right it takes a URL all right so the only thing
+that I can see that you're not referencing is instead of having just
+URLs as you have in there and you want to do self.
+URLs uh in the in the
+task just like that and then and then you put an a before the string
+starts right after the Des right after the description
+equals ah and that will add interpolation to it exactly so that'll allow you toate that string and then you
+reference the the instance variable URLs that you declare upstairs okay very cool
+all right let's give this a try I mean I know this is very basic stuff by the way um but uh I was excited to show you this
+crew and I'm probably going to create a second crew for a completely different use case after this but we'll see so
+okay I'm going to grab a URL and by the way I assumed website
+Search tool is a website search or a website scraper is that
+correct it's actually a rag searching to on top of the website so it's going to
+actually search for something in that website and return specific paragraphs
+that are kind of like relevant to that ah so maybe this isn't the best tool to be using for
+scraping yes if you want to do actual scraping I don't think we have a two for
+that yet but uh I can get one up pretty quickly
+do you think or do you know of uh if Lang chain has any website scraping tools I'm sure it does otherwise I'll
+just have to write it myself which is fine yeah I'm not sure if it does I can
+look it up in the past what I have done is I basically did my own using uh
+unstructured like this library from U this library that basically cleans up HTML so that's what I have done in the
+past and I probably have it like in some example somewhere I can I can grab and send it over to you sure I mean that'd
+be helpful I'll I'll try to use chat GPT to help me write a a scraping tool and um we we'll see if it works but I um
+yeah I think that would be a good time to just create a tool for like a custom tool for this agent team to use all
+right well thank you I appreciate the help uh I am going to get back to building this crew and hopefully I can
+make it work by the end of this video have a good bye okay so I just got off a
+call with the founder of crew aai and he explained a few things I was doing wrong so first right here we actually have to
+reference self. URLs to interpolate properly and we have to add the F at the
+beginning of the string so that it knows we are trying to interpolate now back at the top one
+thing he mentioned is this website Search tool is not actually what I thought it was so what this does is it
+will uh use rag it will grab all the content from a website and then you can actually search through the content of
+that website using rag so really cool tool but not what we need what we need to do is have a website scraper so we're
+going to have to create a custom tool just for that let's do that now so we're going to go ahead might as
+well just delete this I am going to remove all of these tools commented out for
+now CU we're not going to need them and let's go see how to create a custom
+tool so in his stock analysis example we have this tools folder and if we open it
+up we have calculator tools browser tools so I think we're going to have to do something like
+this so I'm going to copy this it's not going to be a lang chain tool so we're
+going to have to create it from scratch but let's do that let's switch back I am going to
+create a new folder called tools then I'm going to create a new
+file within that folder called scraper dopy and I'm going to paste that code in
+and let's just call this scraper tools let me just make sure it all yep
+so that's how he did it so scraper actually if we go back it's actually
+called calculator tools right so let's make it match the class name so rename scraper uncore
+tools okay so at tool scrape website
+content text only okay and then we'll put a nice
+little comment at the top useful to to scrape content of a
+website and we probably don't need the triple quotes but we'll leave them there anyways and then return eval operation
+that is not what we need to do so what we need to do we'll say return
+text and rather than calculate let's call it
+def scrape and this will be URL okay so now I'm going to switch over
+over to chat GPT and I'm going to ask it to help me create a scraping
+tool so wrer website scraping tool using python so it looks like it's going to be
+using requests and beautiful soup so I'm going to have to install
+that so let's do that first so down here let's close this thread then I'm going
+to say pip install request and beautiful soup 4 and already satisfied so that's good
+it's already there then we're going to copy this code switch back to our tool
+let paste it right here and what we're going to have to do is at the top We'll add our Imports the URL we
+should actually get from the URL so we're going to
+instantiate it with a URL I think that's the best way to do
+it it says scrape title but that's not what we need right we don't want it to
+scrape the titles so let's actually ask it for a slightly different code please
+make the code scrape all text content from the
+website o it's bugging out a little bit wow it is wacky right
+now okay this is barely working it seems to be outputting but for some reason the
+scroll bar is jumping around okay so it looks like it fixed
+itself so now here scrape all text getting the URL parsing removing the
+elements okay so I'm going to copy this code let's go back to lightning and I'm going to replace all
+that okay so we don't need to import these again okay so I'm going to
+take all of that right there all of the main
+code and let's put it into here we'll delete this at the end and
+we're going to return text which seems correct but it is not so instead of
+printing right there we're going to just return combined text now we may have an issue
+that it's including a lot of text that is not necessarily relevant to summarizing the article but let's find
+out now I'm actually not sure if this is the proper way to pass in this variable
+so I'm going to double check with how he's doing it so it is not so let's
+delete that I don't think we need
+this okay and then that should be good I think I think that
+should work and so we're going to copy this switch back to
+main.py and let's just see how he Imports
+it so tools dot there we go okay so that's how he does it so what we're
+going to do is from actually we'll put that at the top from
+tools. scraper tools then how did he do it
+import scraper tools okay hopefully that
+works now we need to instantiate scraper tools scraper
+tools scraper tools is equal to scraper tools
+maybe that'll work and then right here I'm going to input scraper tools so let's actually capitalize
+that like
+that okay maybe this will work let's find out together so hit
+play all right name Tool is not defined did you mean bu where is
+tool at tool scrape website content text only so there's something wrong
+with ah I see so it is the fact that we're doing this at tool which is not
+relevant unless we're using laying chain so let's go ahead and delete that because we don't need that and now
+that that is fixed let's try it again okay what is the URL of the website you want to summarize let's grab
+that URL paste it in hit enter all right key error tools so we still have an
+issue so this is on AG agent. Pi nope not
+there main. Pi line 16
+scraper main. Pi line 66 okay no so it's keyword key error
+tools so I think it's this that's causing the
+error so one really cool thing is I just put
+this session live and I'm giving it to somebody to help me out uh that is a
+really awesome feature of lightning and look at that now he's in here taking a
+look at the code in real time this is cool uh I think I like Cloud editing
+much more than local editing now so maybe I should think about doing live coding sessions going forward maybe I'll
+put it live on YouTube and actually do it live through lightning. if you want to see that let me know in the comments
+below okay so we can see the changes he's making in real time okay so I
+changed a few things so we are going to use Lang chain tools import tool as the
+way to actually Define the tool then we can use at tool right
+there and everything else is pretty much the same now one problem I'm running into is that the website I want to
+scrape is actually just blocking the request so I'm going to tell chat GPT this and let's see if it can give me
+another method to scrape the website okay so everything works and then it says failed to retrieve the web
+page so I'm going to copy that put it in here and I'm going to say is there a
+better way to retrieve the website
+content use headers to mimic a browser that's what we need to do
+okay so let's copy that code so let's make it look like we are an actual browser that's the
+problem so right before this we're going to enter the code we just got now we already have this stuff so let's get rid
+of that we don't need the URL cuz we're going to be passing that in and we will need the headers so let's
+put that there okay and scrape all text so we
+don't need to find it again response equals so we're going to
+be passing in the headers this time and then everything else should be the same
+as we have it before okay I think this may work now
+let's give it a try so I'm going to clear all the output in the terminal let's play
+it what is the URL you want to
+summarize okay failed to retrieve the web page
+again darn
+it okay let's see if it'll work on the crew aai
+website maybe it is that simple
+maybe it's just continuing to block my request because it thinks I'm a scraper which I am but that is besides the point
+what is the URL you want to summarize crew ai.com okay invalid URL crew ai.com crew ai.com
+perhaps you meant okay so we should definitely fix that but that's okay
+let's give it the full URL now okay so it should be be out scraping
+there we go perfect so it is working properly I'm going to go ahead and stop that so now we know it's working
+properly so the problem is this website is still blocking our attempt to scrape
+it so back to uh back to chat gbt still getting failed to retrieve website is there another way to scrape the
+website libraries like fake user agent can help Generate random realistic user agent strings for each request all right
+let's see if that works third party tools and services using API end points instead of
+scraping okay sample scrapey with Splash code
+snippet this is getting complex more complex than I was hoping let me try actually a different
+URL I just want to get this to work at this point all right here's another article
+by a website payments.com report open AI surpasses 2 billion and annualize revenue back to to lightning AI let's
+try it again but this time we're going to use that website and hopefully they don't have as sophisticated of scraping
+blockers boom let's see I think it's
+working yep oh it worked but then we have an error let's see what it is
+please reduce the length of messages ah so now we're getting an open AI issue
+this model this model's maximum context length is 8,000
+tokens okay yeah we're passing a lot in there a ton
+actually okay so let me see maybe there's a way to
+identify the actual content of the
+article ah yes because this is the homepage okay so it's just a scrolling
+list so maybe there's a way to get the direct
+text okay I'm going to ask chat GPT so
+I've gone back to the previous scraping method on
+another website which works how do I make sure to only grab
+the topmost article text and nothing
+else okay so you need to First identify how the website's HTML structure distinguishes the top article from the
+others using specific tags so here's an example right clicking and hit inspect
+yeah that sounds good let's try that so we'll look for this right here
+we're going to right click we're we're going to hit inspect and we're going to look for some kind of
+tag that it might be let's see Post Feed
+text all right insert article that'll get rid of some
+stuff okay so it looks like it uses ID equals insert article let's only target text within
+that ah and I actually typed it wrong it's insert uppercase
+article I really wish I had a bigger context window right about
+now okay so I'm going to copy go back to the
+code scraper tools and let's see what the difference
+is so here we go article this is going to be the difference right there and I'm
+going to just grab this whole amount of code right there switch
+back okay so text element is find all article equals soup. find so I'm
+going to delete this we're not going to find all anymore and we're going to say
+insert article now this is just going to work for this website obviously so I'm going to need to mess around with the
+scraper tool to make it more generally applicable but for now I just want to get it to work so I'm going to say text is equal
+to and then it's going to do that then I'm going to delete this other part right
+here then I'm going to use I'm going to delete text right
+there okay we'll return text and we're going to join we don't really need that actually
+let's just see what happens just like that all right let's play it one more time I'm hoping this
+works what is the URL of the article you want to summarize grab
+it okay it should be there we go we got it
+Perfect all right Final Answer perfect so it grabbed the
+text now finish
+chain and it gave us a very brief summary that's good here we go summarizer of websites entering the crew
+delegate work to coworker now hopefully it's going to give us a an even briefer summary a re a
+rewrite of it ah failed to retrieve web
+page I already Ed a scraper tool with input blah blah blah so I already know
+that and I must stop using it with that same input Perfect final answer all
+right this is exactly what I needed finished chain hopefully it just
+ends now all right here is the result and the result is empty but it's
+right there awesome and this is not the text from
+the article as far as I know and so there we go we got a summary of that article now I'm going to end it here
+because this is already a very long video but in my next video I think I want to make this much more robust
+because I think it has the potential to be much more robust now this was made very easy with lightning AI because I
+did everything in the cloud I had someone help me live right in front of my eyes in the cloud which was super
+super awesome and not only that I've only scratched the surface of what's possible with lightning AI because you
+can load models you can fine tune models you can actually run models in the cloud
+powering your agents and all of this is done through lightning AI so thank you
+so much to the sponsor of this video lightning AI check them out I'll drop a link in the description below where you
+can find out more and get set up with them I highly recommend it you saw it in action it's awesome if you like this
+video please consider giving a like And subscribe and I'll see you in the next one
 
 ----------
 
 -----
+
 --87--
 
 -----
-Date:
-Link:
+Date: 2024.02.24
+Link: [# I Tried The New Corsair Keyboard... (A̶n̶d̶ ̶Y̶o̶u̶ ̶S̶h̶o̶u̶l̶d̶ ̶T̶o̶o̶)](https://www.youtube.com/watch?v=aBHpmqReKvo)
+### Summary of the Content
+
+Hippo Tech reviews the new Corsair keyboard, highlighting its features, advantages, and drawbacks. The keyboard is a gaming-oriented, custom keyboard with pre-lubed switches, PlayStation compatibility, and a wireless option. Despite its high price tag, Hippo Tech dissects the keyboard to test its quality, moddability, and overall value against its gaming and enthusiast keyboard competitors.
+
+### Advantages
+
+- **Pre-Lubed Switches:** The keyboard comes with factory-lubed switches, enhancing the typing experience.
+- **PlayStation Compatibility:** It's compatible with PlayStation, although this feature is not unique.
+- **Wireless Connectivity:** Offers both a 2.4 GHz dongle and Bluetooth options, with a preference for the former for gaming.
+- **Build Quality:** Features like two-stage flippy feet, a nice two-tone double-shot PBT keycap set, and a volume knob add to the keyboard's appeal.
+- **Software Customization:** The IQ software provides extensive lighting and knob function customization.
+- **Ease of Modding:** Designed to be easily disassembled for modding, indicating Corsair's consideration for enthusiasts.
+
+### Drawbacks
+
+- **High Price:** At $159.99, the keyboard is considered overpriced for what it offers.
+- **Plastic Case:** The case is made of plastic, which might not justify the high cost, despite potential wireless performance benefits.
+- **Naming Confusion:** The model name (K65 Plus) is misleading since it's actually a 75% keyboard.
+- **North Facing LEDs:** The choice of north facing LEDs could limit keycap compatibility due to potential interference issues.
+
+### Tips and Advice
+
+- **Modding Tips:** Adding layers of tape to the back of the PCB (preferably electrical tape) can enhance the sound profile.
+- **Value Consideration:** Potential buyers should weigh the keyboard's features against its high price, considering there may be better values on the market.
+
+### Main Challenges
+
+- Justifying the high price point given the competitive landscape of gaming and custom keyboards.
+- Overcoming the limitations imposed by the plastic case and north facing LEDs.
+
+### The Importance and Usefulness of the Topic
+
+This review is crucial for gamers and keyboard enthusiasts looking for an in-depth analysis of the new Corsair keyboard, helping them make informed purchasing decisions.
+
+### Accomplishments
+
+- Provides a comprehensive review of the Corsair keyboard, detailing its features, advantages, and potential drawbacks.
+- Offers practical modding advice to enhance the keyboard's performance.
+
+### Interesting Quotes
+
+- "I'm the guy that tries keyboards so you don't have to."
+- "Is this a good value or just another gamer tax?"
+- "This keyboard is the best keyboard that Corsair has ever made...however this is 2024."
+
+### Insights
+
+- Corsair has made significant improvements in their keyboard design, aiming to appeal to both gamers and enthusiasts.
+- Despite its quality, the keyboard's pricing and some design choices may limit its appeal compared to other options available in the market.
+
 Transcription:
 
-paste here
+I tried the new Corsair keyboard and you
+should no don't say it first razor now
+this wait look man there's no way
+Corsair can make a decent keyboard but
+not a chance all right I mean yeah it
+might be a gaming keyboard but like
+please at least they're trying here try
+it out for yourself okay I
+guess see it might have a gamer price
+tag but I think they've actually done
+something
+here now you're probably wondering what
+is this strange man doing with this
+gaming keyboard well howdy hey I'm
+hippot Tech
+and I'm a gamer all jokes aside I'm the
+guy that tries keyboards so you don't
+have to and when Corsair told me that
+they were releasing a new custom
+keyboard you're kidding you guys did
+research right was I skeptical but wait
+is that foone is that lubed switches is
+that wait PlayStation huh huh so in this
+video I've got the new Corsair keyboard
+I'm taking it apart I'm modding it and
+I'm seeing is this a good value or just
+another gamer TX wait why is it thaing
+why is it thaing
+what yeah now full disclosure this video
+is sponsored by Corsair however when
+working with keyboard Brands they cannot
+review my video they cannot tell me what
+to say and all of my thoughts are my own
+I mean you saw the first minute of this
+video right they uh definitely didn't
+check this one over now the first thing
+I noticed was that it said it has pre
+looped switches so I'm going to be
+putting that to the test later also I
+don't have a PlayStation but the fact
+that it says it's PlayStation compatible
+is very interesting but like aren't most
+keyboards PlayStation compatible I
+really don't know now in the Box you get
+a standard braided USBC cable however I
+was expecting a little bit more because
+of the price tag now there's a chance
+that went into the custom Corsair
+branded keycap and switch po wait switch
+PO is this thing going to be hot
+swappable however at
+$159.99 this this thing is one pretty
+penny also can I just take a second to
+rant because they call this the K65 plus
+however it's a 75% keyboard so that is
+incredibly confusing because look it's a
+75% not a 65% why is 65 in the name I
+don't care if it's an extension of your
+product line that's incredibly confusing
+to Consumers um anyways I can see that
+they've bribed me with a knob which is
+always a welcome touch we do like knobs
+here in the hipot tech Channel we'll
+talk about that more later however the
+case itself seems to be made out of
+plastic I'm a bit confused here because
+you're charging a pretty premium price
+tag but
+like
+plastic plastic and it's not exactly
+like a high quality polycarbonate or
+anything this is kind of feeling like an
+epomaker th80 which
+costs a lot less so are you just paying
+for the Corsair brand name here let's
+check out some other stuff oh yeah now
+as we'll look at in a second this
+keyboard is Wireless so it could be that
+maybe they've opted for a plastic case
+for improved Wireless performance
+however as a couple of other keyboards
+have proved they could have just gone
+with a plastic bottom housing and had a
+nice aluminum top housing now the
+two-stage flippy feet are honestly a
+welcome touch and I wish they were in
+more keyboards but I guess that is a
+benefit of having a plastic case now at
+least to their credit the board does
+look pretty nice like it looks like your
+standard 75% keyboard there's nothing
+too gamery here although it still has a
+little bit of character with that side
+Notch what it doesn't have is any gasket
+performance and we'll be looking at why
+that is later because this board is not
+gasket mounted and they've also opted
+for a really nice two-tone daub PBT
+keycap set granted it's not as full as I
+would like and oh it's that an aluminum
+key cap oh hold on let me take this off
+and inspect it real fast and check out
+how aluminum it is and uh what okay that
+one kind of caught me off guard cuz I
+really thought they included a metal key
+cap with this thing and then I pulled it
+off and it was plastic but it does look
+really nice it's just a standard accent
+Escape key speaking of nice it does have
+a Mac and windows slider so if you're
+one of those folks then that really
+benefits you and a 2.4 GHz dongle which
+to be honest is the only way I'd ever
+want to do wireless on a keyboard now it
+does have a Bluetooth option but I won't
+be testing that out in this video at all
+however there are some things that we
+will be testing out later now this RGB
+is pretty epic I'm not going to lie I
+was really expecting way worse RGB
+performance from a board that has no
+shine through key caps but it's really a
+solid accent it's very bright you can
+turn it on and off with this button and
+also a myriad of other ways and I do
+really like the design direction that
+corsera has gone with this thing because
+they've kind of bridged the gap between
+gamer aesthetic but also looking nice
+because I'm going to be honest with you
+gamer aesthetic doesn't usually look
+that nice now remember how I said I'd
+talk about the knob well yeah the one
+thing that does make this board unique
+uh love it or hate it is the IQ software
+from Corsair personally I grew up on a
+Corsair keyboard so I'm pretty used to
+IQ software and I do actually kind of
+like it don't hate me for that in this
+case it gives you five different knob
+settings however I do really wish that
+there were more because brightness
+control vertical scrolling horizontal
+scrolling and zoom are all really cool
+and the zoom feature I actually found to
+be the most useful CU you can zoom in
+and out on a web page and then click the
+knob to reset it but I don't know maybe
+like macro settings for the knob or
+something like that maybe just cook up
+some extra ideas now if you're someone
+that likes to customize light ing this
+software is probably one of the best and
+it has a lot of really in-depth options
+now remember earlier when I mentioned
+this board has pre lubed switches well
+um it's time to check those out now
+these are the Corsair mlx Reds which um
+kind of just a red switch that they
+Factory looped they're honestly pretty
+nice they're relatively smooth they're
+pretty good and
+no you're kidding North facing LEDs in
+2024 you're kidding you guys did
+research right normally it's like oh
+they put North facing LEDs in a gaming
+keyboard because they want shine through
+RGB but look at these key
+caps they aren't shine through what are
+you thinking I mean okay maybe there's
+no interference let me test it out hold
+on let me calm down now you're probably
+wondering North facing LED I have no
+idea what that means I'm just a gamer
+hippo well in some custom keyboards the
+middle row if you use Cherry profile
+keycap you'll get quite a lot of
+interference if the switches sit in the
+north facing orientation while I was
+explaining that I just tested it in the
+background and with this specific set of
+switches and key caps you don't get any
+interference so that's good however if
+you wanted to swap stuff out then
+there's a chance you might however this
+is foam and a space bar that's actually
+a really welcome touch because it's
+going to dampen the sound a little bit
+speaking of dampen my stabilizers came
+pre looped well at least my space bar
+stabilizer and it does seem like Corsair
+is actually kind of learning here like
+they've taken some notes because Lube
+switches Lube stabilizers typing on this
+board actually does feel pretty nice and
+gaming on it also feels nice now the
+switches are pretty lightweight with the
+45 G actuation Force but here's a quick
+typing test because it sounds
+surprisingly
+good now you might have heard some
+ribbets in the background that sound
+test and that was my poison dart frogs
+they're cute little fellas and right now
+they currently are riting up a storm now
+with the preib switches there's actually
+something pretty nice going on here and
+it does sound relatively thy however
+first impressions of this thing is sure
+it's more like an Enthusiast keyboard
+but they've definitely stuck to their
+gamer roots and I got to know if I open
+this thing up am I going to be impressed
+or am I going to be depressed because
+there could be some potential here now
+while I take this thing apart it's worth
+mentioning that this board does have a
+2-year warranty which is something that
+Corsair does have over some other
+companies however I'm not actually sure
+if that works if you take the board
+apart so I'll leave that on screen if I
+figured out by the time the video went
+live and if I didn't figure that out
+then I'll leave it in a comment I don't
+know now this reveals the hot SWAT PCB
+and taking this board apart is really
+really easy it's just some screws no
+terrible Clips no removing feet like it
+actually shows that they care about
+disassembling this thing now as you
+might have noticed the board was mounted
+to the top place which makes this a top
+mounted keyboard this is actually kind
+of a welcome change cuz I feel like
+everybody in their brother is doing
+gasket mounted keyboards however top
+mounted keyboards means that it's a
+little bit more stiff and you don't get
+the flex especially when you put foam in
+there now there's only one dampening
+sheet in the case but once we take this
+apart it also reveals a dampening sheet
+between the PCB and the switches
+dampening foam in a gaming keyboard I
+never thought I'd see the day well
+actually corsair's late to the party but
+these PCB mounted stabilizers are a a
+really welcome touch now so far they've
+done some things right however I can't
+help but think that I could get all of
+this in a keyboard that's about $60
+cheaper like there's a steel plate and
+that equates for most of the weight but
+let me just see what happens when I mod
+this keyboard out with some fancier
+switches and key caps if it gets a ton
+better then that means they've probably
+cut some corners but if it's not that
+much different then that means they've
+done a pretty decent job or something
+like that I'm just using some Seaglass
+linear from Omni typ and these
+incredibly beautiful key caps from Tomo
+caps I'm so sorry Tomo caps I know you
+sent these to me like 6 months ago I
+forgot they were in my closet please
+forgive me and no I didn't get crazy and
+use different switches the Seaglass
+linear just come as multicolored and I
+thought that was really cool now one
+trick to make your keyboard a little bit
+poppier or thier is putting a couple
+layers of tape on the back now I
+recommend you use electrical tape and
+not painters tape but I keep running out
+of electrical tape cuz I do this so
+often but yeah especially in a board
+with a battery use electrical tape any
+anyways that's just one simple mod that
+you could do to make this thing a little
+bit better now because the case isn't a
+cheap aluminum you don't actually need
+to do anything like the force break mod
+or filling it with tons and tons of more
+foam that is one benefit of the plastic
+case actually and Corsair made a
+keyboard that's easy to mod so I've got
+to give them some props for that because
+I never thought I'd see the day where
+gaming companies actually tried to make
+better keyboards now the elephant in the
+room is the price tag because $160 is
+really not a good value at all
+ultimately I'm just a little bit
+confused because this keyboard should be
+about $60 cheaper I think if they priced
+it at 100 bucks it has decent switches
+decent key caps great
+Wireless software and that would be a
+pretty fair package for this thing but
+at their current price point I really
+can't recommend this and they're
+probably going to get pretty mad at me
+for saying this but you know don't get
+me wrong it's not a bad keyboard this
+keyboard is the best keyboard that
+Corsair has ever made in fact it's way
+better than most gaming keyboards of the
+last couple years however this is 2024
+it is what it is I really hope they take
+my feedback and they improve the
+keyboard because I do see a lot of
+potential here with Corsair working with
+drop you guys could make a really good
+keyboard at a really fair price so I
+really hope this isn't where you stop
+please keep going my DMs are open we can
+make a better keyboard come
+on
 
 ----------
 
