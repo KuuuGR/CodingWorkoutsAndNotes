@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b60201c3959a3ce2",
+        "id": "ca7242935de0b76d",
         "type": "tabs",
         "children": [
           {
-            "id": "7e12dc168d0eac36",
+            "id": "4291f1147d8c42dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md",
+                "file": "Typing/Knowledge/Letters frequency.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 369.5
   },
   "right": {
     "id": "60c72b2817aee3b5",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md",
+                "file": "Typing/Knowledge/Letters frequency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md",
+                "file": "Typing/Knowledge/Letters frequency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md"
+                "file": "Typing/Knowledge/Letters frequency.md"
               }
             }
           }
@@ -146,45 +146,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e12dc168d0eac36",
+  "active": "4291f1147d8c42dd",
   "lastOpenFiles": [
-    "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/analysis.md",
-    "Typing/Knowledge/DiscoRD servers/Kiakl/address.md",
-    "Typing/Knowledge/DiscoRD servers/Kiakl/proposal-info.md",
-    "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts/address.md",
-    "Typing/Knowledge/DiscoRD servers",
-    "Typing/Knowledge/DiscoRD servers/Kiakl",
+    "Typing/Knowledge/Links.md",
     "Typing/Knowledge/Letters frequency.md",
-    "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts",
+    "Swift/Q-A Swift set.md",
+    "Swift/Links.md",
+    "Swift/various.md",
+    "Python/Links.md",
+    "Python/Youtube Scripe.md",
+    "Swift/Essential developer/Links.md",
+    "Swift/Essential developer/Links + Transcriptions.md",
+    "Zx scratchBook/AppPreparation.md",
+    "Zx scratchBook/Bookmarks.md",
+    "Zx scratchBook/RusishAttack.md",
+    "Typing/Training Ideas/YouTube.md",
     "Typing/Keyboards/YouTube/Transcriptions.md",
     "Typing/Keyboards/YouTube/Notes.md",
-    "().md",
-    "Typing/TrainingData/EN/zRandom Stuff.md",
     "Typing/TrainingData/EN/zMorePodcasts.md",
-    "Typing/TrainingData/EN/Steven Bartlett 02.md",
-    "Typing/TrainingData/EN/Steven Bartlett 01.md",
+    "Chillout/Coding relaxing music.md",
+    "Typing/TrainingData/EN/Scripped from  YouTube.md",
+    "Typing/TrainingData/EN/Chris Williamson.md",
     "Typing/TrainingData/EN/Sam Charrington.md",
-    "Typing/TrainingData/EN/Lex Friedman.md",
-    "Typing/emptySheet 600.md",
-    "Typing/emptySheet 99.md",
     "Untitled.md",
-    "Zx scratchBook/RusishAttack.md",
-    "Zx scratchBook/Bookmarks.md",
+    "Untitled 1.md",
+    "Chillout",
+    "Swift/Essential developer/Essential Developer.md",
+    "Typing/TrainingData/EN/Lex Friedman.md",
+    "Typing/TrainingData/EN/zRandom Stuff.md",
+    "Typing/TrainingData/EN/Steven Bartlett 02.md",
+    "Python",
+    "Typing/Knowledge/DiscoRD servers",
+    "Typing/Knowledge/DiscoRD servers/Kiakl",
+    "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts",
     "Typing/Knowledge",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "2024-02-22.md",
-    "Typing/TrainingData/EN/Steven Bartlett copy.md",
-    "Typing/Keyboards/QMK/Planck.md",
-    "Typing/Training Ideas/FastType music collection.md",
-    "Typing/TrainingData/PL/różności.md",
-    "Typing/TrainingData/PL/Zbiór.md",
-    "Zx Organize Helper/ask noteGPT.md",
     "Typing/Keyboards/QMK",
     "Swift/Sean Allen",
     "Typing/Training Ideas",
-    "Zx scratchBook",
-    "General Developer/Improve",
-    "General Developer"
+    "Zx scratchBook"
   ]
 }

@@ -95,7 +95,10 @@
 93. : [# 17 Raw Lessons About Human Nature - Steven Bartlett (4K) | Modern Wisdom 688](https://www.youtube.com/watch?v=JBgwF8aHByI)
 94. [# How to make a great framework better? - Svelte 5 with Rich Harris](https://www.youtube.com/watch?v=z7n17ajJpCo)
 95. [# NVIDIA's AGI "SuperTeam" SHOCKS The ENTIRE Industry | Karpathy Leaves OpenAI, Gemini Infinite Tokens](https://www.youtube.com/watch?v=KzxR2Vcr9CM)
-96. 
+96. [# A NEW SOCIAL NETWORK WITHOUT LIKES IS ________](https://www.youtube.com/watch?v=pWIrXN-yy8g)
+97. [# Large Language Models: They Are Not the Future.](https://www.youtube.com/watch?v=fsvKLxmtFmY)
+98. [# The FASTEST and SAFEST Database](https://www.youtube.com/watch?v=sC1B3d9C_sI)
+99. 
 
 
 -----
@@ -114,11 +117,446 @@ paste here
 --98--
 
 -----
-Date:
-Link:
+Date: 2024.02.26
+Link: [# The FASTEST and SAFEST Database](https://www.youtube.com/watch?v=sC1B3d9C_sI)
+
+### Summary
+
+**Tiger Beetle** is a financial transactions database designed to be a thousand times faster than existing systems. It is built from scratch to address the inefficiencies of using general-purpose databases for financial transactions. This innovation is not only about speed but also about creating a safer and more reliable database system.
+
+### Advantages
+
+- **Performance**: Achieves massive performance improvements by simplifying transactions into debit-credit schemas, allowing for batch processing.
+- **Safety**: Emphasizes safety with a development methodology called Tiger Style, inspired by NASA's rules for safety-critical code, and over 6,000 assertions to ensure code reliability.
+- **Efficiency**: Utilizes static memory allocation and zero-copy strategies to improve memory usage and latency.
+
+### Drawbacks
+
+- **Specificity**: Designed specifically for financial transactions, not a general-purpose database.
+- **Learning Curve**: Requires understanding of Tiger Style and the specific optimizations made for financial transactions.
+
+### Tips and Advice
+
+- **Use Assertions**: Embedding expectations and checks directly in code helps catch issues early and improves software reliability.
+- **Consider Simulation**: For complex systems, a deterministic simulation can speed up testing and debugging, making the development process more efficient.
+- **Embrace Specific Solutions**: For certain domains, like financial transactions, specialized solutions like Tiger Beetle can offer significant advantages over general-purpose databases.
+
+### Lecture Content
+
+The presentation covers the rationale behind creating Tiger Beetle, its key features, and the innovative techniques used to achieve its goals. It includes an overview of its performance optimizations, safety measures, and the Tiger Style development methodology.
+
+### Main Challenges
+
+- Overcoming the limitations of general-purpose databases for financial transactions.
+- Ensuring the database system is not only fast but also safe and reliable.
+
+### The Importance and Usefulness of the Topic
+
+Tiger Beetle represents a significant leap forward in financial database technology, offering lessons in performance optimization, safety, and the importance of domain-specific solutions in software development.
+
+### Accomplishments
+
+- Developed a highly optimized financial transactions database from scratch.
+- Introduced and implemented the Tiger Style development methodology for safety-critical code.
+- Demonstrated the power of deterministic simulation in speeding up development and ensuring reliability.
+
+### Interesting Quotes
+
+- "Why Big Iron when you can Beetle?" emphasizes the efficiency and speed of Tiger Beetle over traditional, bulky systems.
+- "Tiger style is a way that you can tackle the hardest software problem...solve them quicker with much better quality."
+
+### Visualization and Demo
+
+The presentation included a unique, interactive game-like visualization running in a browser to demonstrate Tiger Beetle's capabilities, even under extreme conditions like network partitions and disk corruption, showcasing its resilience and self-healing properties.
+
+
 Transcription:
 
-paste here
+this presentation was recorded on my live stream and honestly it was one of the best presentations I have ever seen
+in my life no this is not an ad it's just an amazing walkthrough of the technology that is tiger beetle you have
+to watch uh thanks Prime uh pleasure to be here with you all uh tell you a
+little bit about tiger beetle uh tiger beetle is a financial transactions database uh designed to be a thousand
+times faster than existing systems uh so I want to share with you the techniques we used to achieve this performance hope
+to convince you why tiger beetle is not only the fastest but also the safest database we could possibly have built uh
+but first I want to tell you why we designed a database from scratch uh so in the past existing Financial systems
+uh they' take like a general purpose database uh and then they'd add 10,000 lines of code around them uh to record
+the debits and credits as money moves so we noticed this in 2020 uh I was working
+on a central bank switch it was by the Bill and Melinda Gates Foundation uh open source switch and but
+looking around we saw this is what they were doing and then looking around everywhere else we saw well everyone else was also Reinventing accounting
+over general purpose databases so it was like a right of passage uh before you could work with money you had to roll
+your own Financial transactions database out of postgel sqlite uh so the problem is that these databases give you the
+Rowl transactions engine uh but you still have to build the financial transactions sh
+you can't just get in and drive uh the second problem is that the world is becoming more transactional so Financial
+systems today they need to drive a thousand times faster than they did in the past uh because transactions are
+becoming smaller and more frequent for example energy sources are changing uh
+from from coal to clean energy so as you move to solar the sun rises and sets and
+the price of energy changes it's cheaper you know when the Sun is hot um and it's maybe more expensive at
+night so if your smart meter can transact energy every half hour um it's
+it's it's literally valuable so you can actually Arbitrage solar prices but to do that your infastructure needs to
+handle a thousand times more load as you switch from monthly billing to to half hourly Bly billing so you also see the
+same increase in the cloud As you move from dedicated servers and monthly billing to serverless and postc billing
+uh except there it's often just map reduce billing every 15 minutes uh so you can't always set real-time spend
+caps and that's why Cloud Bulls can get out of control uh so cloud and energy
+are becoming real time and then there's actually realtime payments so 5 years ago India's realtime payments system UPI
+uh processed 10 billion payments a year uh the month of January alone they did
+12 billion so the volume of transactions across several sectors has increased 100 to 1,000 times in the last 10 years and
+yet the three most popular databases postris my SQL sqlite uh they're 20 to 30 years old designed for a different
+world in scale um so it's one thing to build a car with an engine from the '90s another to race Formula One uh but if
+you want to break ma 10 you need to rethink things uh not only performance but especially safety so this is the
+question we asked with tiger beetle how can we take the four primary colors of computer science network storage memory
+compute how can we blend them into a faster safer design for the future for our kids for the Next Generation for the
+next few decades so let's look at performance first as you go through three orders of magnitude acceleration
+uh things get hot anything that's not aerodynamic burns up so you suddenly see an impedance mismatch and that's because
+while the language of databases is sequel the language of financial transactions in the real world is really
+debit credit that's all that most most Financial systems need however if you
+want to debit credit to accounts and you trace the actual SQL queries that these systems do uh one financial transaction
+you need around 10 SQL queries and that is like kind of you know let's catch a
+plane from Cape Town to New York with one person in it then we come back again let's go again let's do that 10 times
+you know as you do the network round trip and that is one financial transaction and that's if you're pretty
+good you know they do a lot of direct flight so it's a rule of thumb in many systems of course you can use St
+procedures to get this down to one but that's only a 10x win so we took a step back and said hey uh debit credit is
+actually a pretty solid schema um everything you need to represent the who
+what when where why and how much of business it's also small you can pack
+one of these Financial transactions 128 bytes is two CPU cach lines why not just
+pack a few of these to together um let's put 8,000 of them in the plane and send
+them from Cape Town to New York in one trip uh so it's one you know that that's a 1 Megabyte database query 8,000 of
+these little um 128 byte transactions so that would give at least a thousand
+times more performance and this is the Breakthrough in Tiger be it's so simple like we really did nothing special this
+is all we did uh let's just put 10,000 more things in the query and hopefully you know we should get a thousand times
+more performance so when you make a trip to the database 8,000 transactions in one query and then
+these run through a single CPU call it's a nice hot tight Loop no rocks no contact switches CPU is like a sprinter
+you let it loose on the 100 m hard to go faster so I think a lot of distributed systems in the past they made the
+mistake maybe you know people thought um things were slowing down so they made the mistake of betting on the speed of
+light in fiber and then they take the data cut it up and they spread it across machines and then when you want to
+transact across your accounts the CPU must wait across the network you know to bring everything together but the secret
+of financial transactions is that they're transactional so there's always a
+counterparty one of the parties is almost always your bank account and there's just one of them you can't you
+can't Shard it uh so you could have a million customers you can Shard those um
+you know you try to get a little bit of horizontal scalability but all the shards are going to bottleneck on your
+hot bank account uh so you're actually making things slower as you go horizontal but now you're also getting
+lumpy you know Network weather in your late in your p100 latency so there's a
+saying that the number of people predicting the death of Mo's law doubles every two years uh but I think if you
+bet against Mo's law that could actually be twice as costly in two years as chips
+like the M3 keep transistor counts doubling um so that's why if you look at
+high frequency trading everyone's actually running single core they're getting massive scale going skyscraper
+vertical M law is that good they say so we were inspired here by Martin Thompson's elmax thread per Core Design
+um like elmax tiger beetle has replication but like elmax we don't make
+the mistake of going horizontal too soon so we're not overd distributed uh we are distributed multiple machines involved
+there's replication but we don't go too far so there's a time for going horizontal I think and that's where you
+drain to object storage but that's only once your hot data has cooled so the
+architecture of tiger beetle it's a classical replicated State machine uh and I think this actually just really
+makes a lot of sense if you say it backwards so it's a machine with state that you replicate uh first a request
+with 8,000 transactions comes in off the wire from the client Second Step you log
+this to disk for durability you replicate it in case a data center blows up and finally transactions are debited
+credited to the accounts reply sent to the client so this amortizes the death by a Thousand Cuts of dis Network even
+consensus so you get the gold standard of perfect atomicity consistency isolation durability by default and
+you're not sacrificing performance so if you get the design right things like
+consensus become free they're not expensive they're only expensive if the design is wrong I think so these are the
+big performance ideas we also put a few cherries on top um and here performance is about what
+you don't do so after startup we don't call Malo or free if you think through
+the physics of the database how data flows you can statically allocate the memory you need and decouple performance
+from memory usage so because they're no hidden allocations you get these hard p100 latencies no GC spikes and because
+every struct is handcrafted you're also more efficient with memory so gravity
+has inverted memory bandwidth is the new bottleneck so you don't want to burn bandwidth or thrash the CPU cache with M
+copies so we try to be zero copy as far as possible uh we do do a copy from the
+Kernel's TCP receive buffer um but from there we use direct IO to dma to disk so
+we save copies also with zero deserialization enforce little Indian what comes off the wires what goes to
+discs or fixed size cach line align structs um and then to eliminate CIS calls contact switches we to the kernel
+through IO uring uh use the kernel thread pool for async non-blocking Io so
+to handcraft everything like this we wanted a systems programming language and here the question
+was should we invest in the language of the last 30 years C or C++ or should we
+invest in a language for the next 30 Years Zig and rust so with static memory
+allocation we had a way to downgrade most issues around temporal memory safety convert those from physical to
+logical we didn't want a Fearless multi-threading because of the performance overhead and we had a
+single-threaded control plan uh thanks to a uring uh so rust's borrow Checker
+while a great choice for many applications made less sense for tigerle at the same time we wanted to handcraft
+memory have no hidden allocations in the standard lip you can see where I'm going with us and we wanted to handle memory
+allocation failure so Zig stood out uh for its ability to work with memory
+explicitly not to mention comp time um you can program Zig while the while the
+binary is been compiled and that's just a force multiplyer so as a result tiger beetle has zero dependencies pure Zig
+single binary it's about the size of a floppy disc so you get a whole distributed database everything and it's
+it's it's amazing just to actually shrink back to the past and get these small small binaries and then you run
+the single binary on a few machines now you've got a database it's extremely reliable predictable easy to operate and
+that's why we called a tiger beetle uh after one of the fastest creatures on Earth shout out to Don choot the
+original tiger beetle with me uh who coined the name um and the tiger beetle it's got the small footprint you know
+it's not only fast but small and it can thrive in tough environments so why Big Iron when you can Beetle uh of course it
+doesn't matter if you're database is fast if it's buggy so processing Financial transactions is close to
+nuclear not enough to be as safe as 30y old systems you need to be 10 times safer so
+to achieve this level of safety for tiger beetle uh we developed an engineering methodology called tiger
+style uh tiger style is based on NASA's power of 10 rules for safety critical code we have over 6,000 assertions in
+tiger beetle uh there's code to check the code everything is double triple checked thousands of trip wires so we
+either run correctly in production or shut down safely again static memory allocation is crucial uh to give the
+operator a reliable piece of software with well- defined shape so while these are techniques you don't see often uh
+tab t style is starting to be adopted even just by other companies as engineering methodology uh but for a
+database especially you need to be durable and here the research is exciting uh for example most uh existing
+database designs are from before 2018 however in 2018 uh fsync get showed
+that databases don't always handle disk failure correctly this can lead to data loss and then in the same year a paper
+from W medicon uh called protocol aware recovery for consensus based storage
+showed that distributed databases even with replication also don't handle disk
+failures correctly and this can actually lead to Global cluster data loss so for
+example even with raft uh rft's formal proof didn't actually include a storage
+fult model uh so the reason is that like SQL light which is like it's the best of them all
+um most databases were designed to handle partial dis RS you know during
+power loss that's what they were designed for they weren't really designed for whole other kind of storage
+fault beyond that um so they assume the data they read is the data they wrote or if they do have check sums they assume
+that the disk firmware will fsync correctly or that they are reading or writing you know from the the right
+place on disk and that might not actually be the case so even check sums don't protect you here um so these older
+designs they can survive they can't survive you know the 1% of discs that misfire in a year and
+this is a problem at scale and that's why in 2020 we took this research we just took it you know um we stand on the
+shoulders and and pay tribute to to the researchers and we we took their recommendations and we designed tiger
+beetle to be one of the first databases is to have a storage fault model so the big idea is that if you already have
+replication why wouldn't you want to embrace the endtoend principle be like ZFS but in the database and then you
+make your database selfhealing so to do this we took U the pioneering vew stamp replication or VSR consensus protocol
+from MIT we integrated VSR with tiger beetle storage engine so the consensus
+can repair each machine storage engine uh it's kind funny you know consensus
+gives you replication but for years it was never actually used to be self-healing uh you have to throw the
+whole machine away and um re-replicated a whole new one you can't really heal these things um but VSR enables tarab
+Beetle to run across machines and then have multi- region automated failover so
+when the data centers and discs are burning vssr keeps your transactions churning so to learn more come join Matt
+clad live on Twitch every Thursday for iron beetle um he's doing these code work walkthroughs and the code is all on
+GitHub py to open source so it's been just over 3 years since we started from scratch our first production release
+around the corner literally weeks now and at scale a single uh tiger beetle
+cluster can already process a 100 billion transactions just spin up a cluster and send them in um or you can
+take a very small rasbury Pi cluster run tagab on it and maybe you can do 10,000
+Financial transactions a second at least we could you know with micro SD cards which are very slow so on an office
+laptop things are getting a bit better tiger beetle can do you know 300,000 Financial transactions a second and
+that's just indexing all the data uh with primary indexes only it's about 640,000 a second and we're aiming for a
+million design Target U here's the crucial qu question how do you overtake databases with two to three decades of
+testing for example how do you test tarab Beetle for two centuries every day so tigerle was designed not only as a
+distributed database but as a new breed of deterministic distributed database so
+they two databases in the world the other is foundation DB they're like Neo they can fight not only in the real
+world but also in a simulation they can train faster so the simulator can speed
+up time it can fuzz two centuries every day uh it can take all our explicit
+fault models inject them check them like a model Checker but on the actual code
+uh and then automatically open a GitHub issue for any bugs we find and then we can replay these bugs again and again
+just perfect reproducibility from a seed to fix them so you get this massive developer velocity and a small team like
+ours can build a little Beetle like tiger beetle and this is how you know we feel this is the safest that we could
+possibly have built this um but we also had some fun uh with the simulator so
+Zig is the kind of language where you're like okay we're runting a database let's also make a game so we took Zig we
+cross-compiled the simulator that can run a virtual cluster we cross comile this the the simulator to WM so we could
+run a whole TIG virtually with like simulated Network and everything but we could run it all in like a browser tab
+so our friends Fabio Arnold Joey Ma they plugged the simulator into a zig rewrite of nanov VG game engine they drew
+illustrations on top so that as the simulation runs you see everything visualized so now that I've told you
+about tiger beetle I want to show you quickly about tiger beetle how it runs even in the browser you normally you
+wouldn't do this at home this is just a game right but it's a walking Sim and let's see uh law of
+demos there we are so what we've done simulator again and we've taken the
+fault models and we've said let's just start easy let's just make everything um everything perfect there's no Hardware
+faults let's just run a database in the browser let's just see if we can do that uh so it's going to be prime time
+everything is perfect are you
+ready so he has a cluster of five five tiger beetles descending um these are
+them here we can select our units they're getting ready to start
+up these are three clients that are going to send requests in from the network there's our leader who's been
+elected wait for it wait for
+it there they go so the requests are coming in the clust is replicating
+backing up and saying to the clients we got this we got your transactions and everything is
+perfect and each of these beetles is actual real
+zinc tiger beetle code they don't know that they're running in a simulation with fancy
+clothes they just think they're a database but they're in they're in the browser thanks to Zig and
+wum so that was pretty easy let's let's level up this is now red desert and what
+we're going to do here is we're going to introduce like a a flaky Network so we're going to mess with the network
+packets um packet loss of 13% we're going to replay packets and do Network
+partitions there you can see the mission impossible five uh glass box which is causing Network partitions and we can
+also do these ourselves let's I just put a network partition
+in so the cluster now is trying to recover and elect a new primary which is
+it's going to take a long time because we're just putting in so many faults here but the simulator is checking that
+we're getting maximum from availability and correctness uh and everything is working fine if the screen crashes then
+you know we found a bug but so far we're good so this is like chaos just on the network and everything is is recovering
+fine we we doing a leader election because the primary was partitioned do that one and we made it
+so this is sort of how far most databases go like if you can write a distributed database that can survive
+this you know then you've pass the Jepson test which is pretty amazing so this is really really really hard to
+survive and no one really goes beyond this but let's do that let's get
+radioactive what we're going to do now is just corrupt 10% of our IO to
+dis on each Beetle and you can hear that in the
+music so we've got 8% of reads are being corrupted 9% each time you write a disc
+one in 10 is going to get corrupt and tager beetle is going to detect this and self
+heel we can crash a be as well so now we're actually interacting and poking a
+deterministic simulation
+and you can engage duck mode as well so shout out to duck DB one of the most
+awesome analytics databases and you can use duct TV to CR the tiger
+beetle or you can zap them with a cosmic gray which is quite shocking but it
+survives we've done 31 requests and we're doing okay so far getting close to the end think we're
+going to make
+it so far so good Zig is a lot of
+fun so again shout out to Joey faia who cooked this up and also to the whole
+tiger beetle team and all our friends and family and supporters we did actually we didn't only make the walking
+Sim we made a little a little game within a game just to to P for and so
+thanks to everybody who's it's a whole lot of people that made this
+possible and uh yeah let us know if you can if you
+can beat the highest score wow um I'm pretty
+sure you know I I'm not going to say that I know exactly what everybody is
+thinking but I would just like to say that I'm pretty sure everybody here thinks that that's probably the coolest
+project they have ever seen in their lifetime that was awesome that was great
+and the the game was even better like the visualization of what was going on the network not working the packets like
+you could see that kind of like the the over sending between everything to try to recover and just watching it come back to life and then the crashing ah it
+was fantastic cuz it's it's hard to visualize what actually happens when people say all these things are happening like you don't actually have
+an idea of what it looks like you actually got to see the thing in a cartoonish way it was glorious Y no
+thank thanks so much this is kind of the dream is like how can we show this just to kids you know and like let them see
+computers and distributed systems see how this works and relate to it and then we just had so much fun making it so um
+yeah it's just a privilege like that we can be doing this and again a whole team you know cooking this up and just having
+fun so thanks thanks for the awesome uh glad glad you enjoyed it this wased glad
+was so awesome this you have no idea this you just accidentally raised the bar for every technical presentation
+ever to exist from here on out I'm not even sure what's going to like you you're you're the balers gate three of
+technical presentations thank you we're going to have tweets now like great you ruined it for everybody we no longer
+want to do this that was awesome I'm just so glad we could we could put you in there Prime
+I hope you liked liked liked your throne we had for you honored all right so so
+I'm sure we have a lot of questions I the first thing I saw is a lot of people were asking so Tiger Tiger uh tiger
+beetle specifically designed around Financial transactions right it's this is not a general purpose database this is not a drop in replacement for
+postgress this is actually a specific Financial database is that correct that that's it so this is like
+your bank fault so normally you know we take people's money and we put it in the filing cabinet with all our general
+purpose data and this is like this is like your bank fault so you put the money in tarab Beetle and then all the
+control plan meter data goes in your general purpose post gral sqlite so it's just a separation of concerns um but
+there's some good news is that the whole the H of tiger beetle is kind of designed like like an Iron Man suit so
+you can take the financial transactions um State machine out the business logic
+out and you can put another database inside so you can write your own business logic and use tiger be as a
+framework and suddenly you've got a whole new distributed database so we've been very careful like that so actually
+I'm kind of excited you know how we can make new databases with this as a
+framework all right I mean that that is even mind-blowing really is where we're
+at right now I think everyone in chat is just they're having a hard time even imagining how awesome this thing is uh
+that's fantastic all right so I'm going to get some some questions up from chat we'll see if anyone has anything that's worth saying uh chat always isn't the
+most reliable when it comes to insightful questions but if there is anything we'll see yeah do you have more
+info on this tiger style do you have a like a article you can share with chat
+anything you can point to cuz that is like I like the idea I've done a little bit of like development on Space stuff
+and it was very rigorous testing policy so I'm very curious how does this translate to real world
+software yeah great so thanks thanks so much so we if you go to the tiger beetle repo it's github.com tiger beetle tiger
+beetle in there you got a docs and tiger style. MD it's the whole tiger style Doc
+is right there and then if you go on tiger beetles YouTube we've got a talk there called tiger style and there we
+sort of fill that in as well so there's a talk tiger style and in the GitHub repo tiger be tiger be tiger style. MD
+you can also find out design dock for Tiger be as a database like how you know
+a lot of what I've showed you here too so and if you use tiger style let let let us know you know if people use it if
+you want to adopt it at where you work in a project just let us know and we can put your logo there or sort of start a
+little bit of a movement uh it's I think there's three or four companies Now using it which is pretty cool well can
+can you give us like a a quick because you know I'm looking through the MD and there's a there's a there's a decent
+amount of words it almost even looks like you might be quoting billbo bin down at the very bottom but uh shortcuts
+make long delays as we always like to say around here I think that's Mary but um can you give us like the three super
+high level points of like what is tiger style someone just walking by on the street if you had to tell somebody in 15
+seconds what is it so tiger style is a way that you can tackle the hardest hardest software
+problem you can ship it quicker like five times quicker five years quicker if
+it's a 10-year project you can do it in four or five and you can do it to a quality and and and much much tighter
+tolerances so kind of like what we did with tiger be or the storage fault model so those are the three big Ideas um
+tackle the hardest projects um solve them quicker with much better quality it
+it it's a way of taking responsibility as software is again uh software developers again for like handcrafting
+software but it's also quicker because of the deterministic simulation so you're a lot of the time on these
+projects the hard projects the time sync is the testing and debugging so if you have a simulator that can speed up time
+and reproduce bugs for you you can be fixing like 30 bugs in in 3 weeks um you
+can just go so much faster so it's you go slow to go fast all right all right um is there is
+what is the primary um way in which you are attempting to test this is it is it purely through simulation or fuzzing or
+is there is there also like a recommendation on using asserts and all that is there like a code style
+enforcement something like quote unquote clean code that's you're trying to enforce or is it just purely about
+testing nature okay so it's the the testing as well but the the other so tiger style is
+both how do you write code how do you test code in terms of writing code it's not like it's not very pedantic so we
+say like look um you know it's it's it's a it's a tight you know it's a tight
+beat and a rare Groove it's both so it's got a a coolness about it that it evolves it's not strict it's not none of
+that what what we think of like how you write code comes down to things like how you name things um and there's a lot of
+tips there that we've learned like use usually as programmers we write variables as like least significant bite
+order um so we will say like Max transactions Max replicas and then we
+will have like like time out for transactions but now in the source those
+things don't line up anymore so if you switch it to most significant bite order you'll get like you'll get something
+like LSM table count Max um LSM growth factor and now all these things just are
+nice in the source so there's little tips like that on the coding side the the biggest two tips on the coding side
+are assertions assertions are like um they're beautiful so it's it's basically
+saying look as you're coding you're thinking about this stuff you could write comments and it's great to do that
+but also encode your expectations what you expect what you don't expect put
+that also in the code AS assertions and and and we show you how to do that that you can stay fast so you separate
+control data plan and then you put your your expectations into the code and then
+as your code runs if it's running correctly great if it isn't it shuts down you get a nice stack tress you know
+exactly where it went wrong your your your understanding wasn't quite right and then you you tweak your
+understanding so it's it's fantastic you know for a team you you can document your your all your knowledge in the code
+and then combined with the fuzzing with the simulation T deterministic simulation testing is a bit more
+specific than it's a certain kind of fuzzing where you actually can you abstract the time that gives you
+timeouts in your code then you can speed the whole system up and run it quicker that that's the key thing plus when you
+run the software it always runs the same time so the the G the game that I showed
+you is running real tiger beetle code if you watch the game it's always the same and the code always runs the same every
+time but when you combine the simulation testing with the assertions that is really really powerful because now
+you're yeah you you the simulator is also checking you know no split brain in the consensus log it's checking many
+things cache coherency of our user Space page cach and what's on disk the dis is being simulated so it it can reach in
+and do all of this stuff but your assertions also help to find a lot of bugs so that's kind of the two you know
+how it it's ying and Y yin and yang it plays nicely together the assertions part is particularly interesting because
+you know being able to build a simulator for this is probably not tenable for most computer problems that people are
+building software for that they you know you can't it's it will be very hard for me to convince my boss that I need to
+simulate disc writing and all that right like he's going like okay slow down just you're just quering some data
+let's let's slow it down a little bit here uh but the idea of putting in assertions which is something I've just
+started to do a lot more ever since listening to that uh podcast with Le Lex fredman and uh carac where he talks
+about how he largely drove correctness through assertions and I realized like I never did a lot of asserting and that
+actually seems like such a powerful technique because you do get such good information and you know exactly what
+has gone wrong it is so much more clear than undefined is not a function it's more like no this was the expectation we
+did not like get there so therefore the undefined amount a function that's a consequence of who knows what just
+doesn't happen because of the assertion and so I I love that I think that that is such an amazing thing I I do have a
+followup because you do a lot of automatic um posting of GitHub issues I saw that that which was by the way super
+cool that you have this do you ever accidentally like post a security exploit by accident due to automatic
+GitHub issue posting like do you have to have some sort of filtering on this to prevent people from performing naughty
+stuff uh great question yeah so we we thought a bit about that so the these reports come from our simulation
+infrastructure We Run 100 CPU cores 24/7 so you get you do get two centuries of
+test time every day that's simulated but so it's actually like it's it's just
+it's not it's not um this is not reports coming from production deployments of
+tiger beetle so this is is there's no user data these are you know from it's the simulator that sends the reports uh
+tiger beetle proper doesn't have that code to do that so that's yeah and and
+also um what was interesting Prime is that the simulator the first version of
+it took it was 600 700 lines of code and it took 3 weeks to build so the tricky
+part was just that we had to think about it up front like with tiger style so we built tiger beetle for a year with these
+ideas in mind and because we had it like that then the simulator took 3 weeks so
+it it wasn't it wasn't actually and and then it really sped us up because you
+know often you can sync like two or three Engineers just into testing um and then this now it's it Yeah you sort of
+you can you give yourself a ratchet that you you make things reliable and then and
+you you can now sort of do like biodigital jazz as you work on these protocols you can try try really cool
+stuff like with the selfhealing protocols algorithms cuz now you've got a way to like climb these mountains
+safely with a rope okay okay that's I I do I do actually really like this because I now
+my brain's spinning about this because we have a particular problem of an internal tool in which needs to become more reliable and a lot of it is just
+like the problem is we do a lot of stuff through mocks and and testing and so you know all the tests seem to pass but the
+reliability still is fairly low and so it's like okay so maybe we can actually play these things in a more real
+environment that actually causes the real problems to be exposed and so something very very interesting about
+that that I'll I'll I'll definitely want to think about more because the simulation you're right if you think about it ahead of time and you put in
+the proper Hooks and everything so that when the day comes you have to write it you can write it in hundreds of lines of codes as opposed to rewriting things
+from on both sides to try to line up so it is something that's very interesting if you have long-term projects think
+that maybe a simulator might be a a potential future at some point
+um all right Judo keeps asking this question are there any plans to support the modeling of transactions other than numeric types for example if we we were
+let's see if one were to create a data type in corresponding logic functions for how to apply those transactions to
+an account add subtract Etc yeah cool awesome so if you if you
+go into our repo um look for stat machine. Zig that is the business logic
+so you you could actually just go and change it and then you compile it and and then that's your database uh so you
+you can if you if you want to like really customize it you can uh
+and yeah and and then you get all this infrastructure comes with it free so you
+get the static you don't in the state machine you don't worry about static allocation you don't see it there so
+we've kept all that away you just get to write really nice um imperative um
+business logic there's no IO no concurrency it's it's a very cozy environment you get the simulation
+testing comes with it uh yeah and and we're hoping to sort of extract this as
+a library open source vssr so that other projects can build on VSR and just have
+a rock solid foundation that is awesome okay one quick kind of more boots on the ground
+practical question uh a big thing when it comes to system languages right now people are very excited about rust and
+one of the big downfalls of rust of course is the compile time they just you know Meme after meme about the compile
+time what is it like working in a larger Zig project do you find that the the tools surrounding Zig and also just like
+developer happiness if you will what is that like including compile so I think
+okay great awesome question so um we love rust as well so we like to say you
+know rust and Zig and there's there's a time and a place and so Matt clad on the
+team wrote rust analyzer so it's been very interesting to see you know in terms of tooling like what what what can
+we do for Zig and Zig has got Zs which is great by AUST and um and Zig is is it
+feels good for us you know we've we've got a little open issue of things we're learning um things maybe can improve in
+this in standard Library we had something awesome the other day where we've got now Zig build check so you can
+check your Source you don't you're not actually interested in the binary you just want to check that that it would
+compile but that is so so fast so like it was just today in slack someone was saying wow just is it's hard to believe
+how fast this is um and what is exciting with Zig is how much they're investing
+not only in the language but in the whole tool chain you know the cross compilation story but also like they're
+thinking the next 30 years as well you know do we still want llvm in 30 years for sure but but do we also want new
+stuff like new back ends for sure so like it's so nice to see that they're they're doing that as well so um it's
+it's been a overall it's been a fantastic experience like we'll find if we find a bug like this happened two
+days ago we found a small bug in the standard lib um around process execution
+and when we reported it it had already been fixed because the language is just going so fast so this is what we want
+you know what we don't want us a language where you know it takes a year
+to to get iing in like we just put it into Zig and it was there so the
+velocity you get and it's a great Community now it's a perfect time it's like you want to paddle out and catch
+that swell now and nice people hanging at the backline there awesome that is that is super good
+um hey is there any where where can people find out more about tiger beetle about any of this stuff what is the best
+you know mediums to use yeah so we're on Twitter uh tagab Beetle DB on GitHub so there's a lot of
+like day-to-day info there um we've got a our newsletter we put a lot of time
+into it just as engineers so we like every single PR we do I it's the
+weirdest newsletter cuz every single PR we like write a whole story about it like the whole backstory of what was
+going I mean the PRS themselves you know you can read it there too but it's a nice way to see like a a very detailed
+change log um otherwise yeah and GitHub is the best place so github.com tiger
+beetle tiger beetle and then join our slack for questions we're happy to um
+we' just love to pay it for and connect with people and make friends and have
+fun awesome this was absolutely fantastic thank you Yan for joining us
+um the presentation again was you've set a new bar so really appreciate
+that uh I think the beetle just did it Prime so we just follow where the inspiration strikes and zigg and um just
+so nice to have so much fun you know um yeah so and thanks thanks to you and to everyone it's really awesome to hang out
 
 ----------
 
@@ -126,11 +564,664 @@ paste here
 --97--
 
 -----
-Date:
-Link:
+Date: 2024.02.24
+Link:  [# Large Language Models: They Are Not the Future.](https://www.youtube.com/watch?v=fsvKLxmtFmY)
+### Summary
+
+The video discusses the evolution and potential future of large language models (LLMs) in AI, emphasizing both their current utility and inherent limitations. Speakers from academia and industry, including AI scientists from Meta and notable figures like Sam Altman, highlight the need for a paradigm shift beyond current LLM capabilities to achieve more advanced, intelligent systems. The discussion points toward an era where AI can generate data, reason, and interact with the physical world, drawing parallels between the development of AI and the technological evolution seen in devices like cell phones.
+
+### Advantages of Current LLMs
+
+- **Versatility and Sophistication**: LLMs are capable of processing and generating text, offering a semblance of reasoning and productivity enhancement.
+- **Commercial Value**: They provide significant commercial opportunities, especially in enhancing productivity and content generation.
+- **User Engagement**: LLMs have made AI more accessible and demystified for the general public.
+
+### Drawbacks of Current LLMs
+
+- **Lack of Understanding**: LLMs do not understand the meaning of the text or the world; they are more akin to advanced autocomplete systems.
+- **Data Dependence**: Their performance is limited by the availability and quality of data.
+- **Lack of Physical Intuition**: They cannot interact with or understand the physical world, limiting their applicability in many real-world scenarios.
+
+### Main Challenges
+
+- **Developing a World Model**: Creating AI that can truly understand and interact with the physical world requires significant scientific breakthroughs and new architectures.
+- **Beyond Text**: Current LLMs are predominantly text-based, and transitioning to models that can learn from other data types like video is challenging.
+- **Causality and Reasoning**: LLMs lack an understanding of causality and are unable to perform experiments or learn from the physical world in meaningful ways.
+
+### Tips and Advice
+
+- **Focus on Innovation**: There's a need for innovative approaches to overcome the limitations of current LLMs, including new ways for AI to learn from the environment and interact with the physical world.
+- **Balancing Expectations**: While pushing the boundaries of AI, it's important to have realistic expectations about the capabilities and limitations of current technologies.
+
+### The Importance and Usefulness of the Topic
+
+Understanding the capabilities and limitations of LLMs is crucial for advancing AI technology. Recognizing the need for new approaches to make AI more interactive and intelligent can drive research and development efforts, potentially leading to breakthroughs that could revolutionize various industries and aspects of daily life.
+
+### Accomplishments
+
+- **Enhanced Productivity**: LLMs have significantly improved productivity in various tasks, including writing and coding.
+- **Increased Accessibility**: By making AI tools more user-friendly, LLMs have helped demystify AI technology for the wider public.
+
+### Interesting Quotes
+
+- "The future architecture of AI systems...once you figure out how to make this work, nobody in their right mind would use [current LLMs]." - Yang Leun
+- "We are still in the early phase of a much bigger revolution." - Sam Altman
+- "Most of human knowledge has nothing to do with language, and certainly all of animal knowledge has nothing to do with language." - LLM limitations highlighted by speakers
+
+### Lecture Content
+
+The content of the video primarily revolves around the discussions on the current state, limitations, and future directions of large language models in AI, with insights from leading researchers and industry experts. It underscores the need for AI that can understand and interact with the physical world, suggesting that the next leap in AI technology will require models that can learn in ways more akin to human or animal learning.
+
+
 Transcription:
 
-paste here
+more and more frequently new papers come
+out from Academia in the research Labs
+announcing massive new language models
+capable of analyzing huge amount of
+information this information is most in
+text format but llms capable of
+ingesting videos and audio are also
+starting to
+appear this is extremely exciting for
+the industry and yet there is a chance
+that this models might become obsolete
+in the future Yang leun is the chief AI
+scientist at meta and this is what he
+has to say about
+LMS so that's the future architecture of
+AI systems and in my opinion once you
+figure figure out how to make this work
+nobody in in their right mind would use
+Auto Le is not the only one to believe
+that larger language model are just a
+transition to more advanced
+tools right now these models are I hope
+to I not to I don't want to misinterpret
+they're much more stupid than many
+people assume they don't they don't Sam
+Alman has called them incompetent
+helpers of course they don't understand
+the world they can't reason they can't
+plan they don't know the meaning of the
+words that they produce they they're
+actually tokens they're highly highly
+sophisticated versatile sort of
+autocomplete systems but we should be
+careful not to
+anthropomorph artificial intelligence
+it's really it's kind of we confer
+almost our own Intelligence on something
+something which does not have human
+level intelligence now there's a debate
+and as we heard from the interruption
+the representativ from meta are not the
+only ones to believe that larger
+language models are not
+smart llms are really good when you have
+a lot of data we download that data from
+the web Wikipedia Reddit X all kinds of
+sources of content we train the AI model
+and it has language fluency wonderful
+but what if you don't have have data
+what if you want to create a new
+molecule you're a drug company you're a
+biotech company what if you want to
+create a new material an alloy you want
+to lightwe your vehicle because you're
+an automotive company or an aerospace
+company there is no data set to download
+from the internet if there were we'd
+already have that new material and so we
+now need to go to a different kind of AI
+an AI where we actually generate data
+2023 definitely the year of gen AI but
+2024 starts the era of gen data
+generative data llms by the themselves
+are not going to be enough the only way
+you can get that done is if there's a
+paradigm shift away from the chip and
+into a whole new computer even only a
+few days before open AI unveiled its
+latest product the text to video
+generation tool of Sora Sam Alman was a
+remote guest at the world government
+Summit and said with a very effective
+metaphor that we are still in the early
+phase of a much bigger
+Revolution the current technology that
+we have have is
+like I mean it's like that very first
+cell phone with the black and white
+screen that can only display those like
+numbers and you know just didn't do much
+but there was enough in there you're
+like I can make a call that's that's
+cool and at the time that seems great
+and then it took us I don't know how
+long from that but many decades from
+that to the iPhones we have today and
+the thing we have today is incredible
+and it took a massive amount of scaling
+in all these different ways to get there
+um but we have now is like unimaginable
+at the time of those like first
+primitive cell phones and I think that's
+that's why we have to push forward we're
+at this barely useful cell phone but
+people still like making phone calls it
+turns out and if you can make a better
+way for them to do it so they can go
+walk around the world while they do it
+sure that's great but that's not what we
+want to deliver we want to deliver the
+iPhone 16 or 15 or whatever the current
+one is for the record and to answer to
+Sam Alman at the time of his comments
+the iPhone on the market was the iPhone
+15 Petro perona is a renowned professor
+at Caltech and he summarizes the reason
+why we need a different approach if we
+want to have machines that can interact
+with the
+world right now we have been over
+indexing for you know very good reasons
+on the intelligence we can get out of
+analyzing batches of data that is
+available on the internet right now we
+are poisoned by correlations and we
+don't uh know how to build machines that
+can understand
+causation and to understand causation
+fundamentally you've got to allow the
+machines to carry out
+experiments and um uh and so why so well
+because um if you're a non-embodied
+agent well prediction is all what all
+you need to do and and correlation very
+good for prediction but if you need to
+change the world and so you need to do
+intervention then you need understand
+the C causes of things and then
+causation is fundamental being able to
+reason about that these new approaches
+are not just needed but are part of the
+Natural Evolution of technology and this
+idea is confirmed also by an authority
+in technology Evolution Ray Cardwell who
+was a guest at a recent event organized
+by the international telecommunication
+Union well large language models are
+actually going to go beyond just
+language they're already bringing in
+pictures videos and so on and I mean a
+lot of predictions of the future take
+today's large language models and just
+assume nothing's going to happen and
+that's been true at every different
+point people assume that the current
+technology is just going to remain and
+ignore the fact that it's really on a
+very sharp increase you know three years
+from now it's going to be a whole
+different type of Technology you're
+going to have to reinvent it and that
+and that's what we do with
+technology even if we don't know what
+exactly the future holds the researchers
+know what the final scenario looks like
+we still have some breakthroughs to get
+through you know AGI whatever you want
+to call it human level AI is not just
+around the corner there's no question it
+will happen there's no question that at
+some point in the future we will have
+machines that are smarter than us in all
+domains where we're smart they'll be
+working for us they're not going to want
+to you know take over the world uh but
+uh you know we'll set their their goals
+um and they'll be executing those goals
+for us but uh but they will be smarter
+than us in many ways um but we're not
+there yet you know we we still have to
+discover some major breakthroughs before
+before we get there just to recap
+language models fall under the
+discipline of machine learning and are
+the foundation of today's most talked
+about applications in AI like open AI
+chpt Google Gemini but also many other
+AI tools that aim at improving your
+writing your coding skills or boost your
+productivity these tools take advantage
+of the prediction capabilities of these
+models and the way they work will become
+more clear in the course of this
+video Y leun is probably the most
+frequently invited speaker that is vocal
+about the limits of larger language
+models since they became a trendy topic
+for example to those that support the
+idea the more intelligence is gained as
+larger language models become even
+larger theun basically responds the size
+does not
+matter he argues that even if a language
+model gets larger or it can process an
+enormous amount of text it still cannot
+learn to do practical
+things leun presented his views more
+recently at the world economic Forum in
+AOS and then at the world government
+Summit and then again at the world AI
+conference in France but it started even
+earlier and this opinion has not
+changed in recent times the the use of
+large language models that are trained
+in self-supervised manner just to
+predict the next word in a text train on
+gigantic amounts of text and we see this
+emerging property that they seem to
+acquire enough knowledge and uh and uh
+to some extent kind of superficial
+reasoning ability that they are useful
+as a writing aid for example but those
+systems are still very limited they
+don't have any understanding of the
+underlying reality of the real world
+because they're purely trained on text
+massive amounts of text but this may
+surprise surprise many people in the
+audience but most of human knowledge has
+nothing to do with language and
+certainly all of animal knowledge has
+nothing to do with language and so that
+part of the human experience is not
+captured by any of those AI systems now
+let's see in details what the
+limitations are for these
+systems they don't have any physical
+intuition um they don't know how the
+world works and that uh basically stops
+them from being able to plan actions in
+the world so that's one limitation okay
+so making llms bigger and training them
+on more data is not going to get them to
+reach human intelligence even if some if
+in some narrow areas they already see
+super intelligent actually super human
+in in some level of performance we have
+super human performance uh performance
+for things like translation of you know
+hundreds of languages from in any
+direction uh or um um image recognition
+for for various applications it's it's
+it's super human but those are narrow
+domains and uh the techniques in llm do
+not change that uh that thing so we have
+ai systems now that can pass the bar
+exam um which is mostly information
+retrieval um but we still don't have
+level five autonomous driving something
+a task that any 17-year-old can learn in
+about 20 hours of practice we still
+don't have domestic robot that can you
+know clear up the dinner table and fill
+up the dishwasher a task that any
+10-year-old can learn in in minutes uh
+so what it tells you is that we're
+missing something really big in AI to
+kind of reach not just human
+intelligence even dog
+intelligence the statement is supported
+by Lon with some specific examples so
+not everything can be put into text if
+everything could be put into text then
+you could become let's say a surgeon or
+a doctor but just reading books and you
+can't you could become a mechanic but
+just reading books and you can't you
+could learn to build I don't know
+anything out of wood by just reading
+books and you can't you have to practice
+you have to have someone that teaches
+you as we have seen in the previous clip
+llms lack of a relationship between
+cause and effect something that was
+brought up also at the panel on AI in
+Davos I mean they are entirely
+productive engines they're just doing
+associations getting to cality which is
+so critical when one interacts with when
+one tries to cross the chasm between
+bits and atoms that's a huge capability
+that's missing in current day models
+it's missing in models that are embodied
+it's missing in the ability of our
+computers to do common sense reasoning
+it's missing when we try to go to other
+applications whether it's manufacturing
+or biology or anything that interacts
+with the physical world aan Gomez is
+co-founder and chief executive officer
+at cohar a platform that helps companies
+to build
+llms he agrees that the current moders
+are too static they need to learn to
+interact with the world as well as among
+themselves if we just keep doing what
+we're currently doing with
+autoaggressive models will we make it
+and I would agree the answer is no uh
+and for the the reasons that both of you
+state which is like grounding and the
+ability to actually experience the real
+world gives you those causal causal
+insights um I I do believe those aren't
+insurmountable hurdles and I I think you
+both believe that as well um and so I I
+think people are working on that so far
+the dumb strategy has worked so well
+that we've just been able to be like
+build a bigger supercomputer scale up
+the model more data and we get
+performance we get extraordinary
+performance um and so what happens when
+that starts to Tire I think we know
+what's next we need online experience we
+need to be able to actually interact
+with the real world the way these models
+are deployed today we do all of this
+offline training and offline means
+there's no interaction with a person
+there's no interaction with the
+environment um and we deploy them we put
+them into a product it's static it
+doesn't learn it's fixed from there
+nothing you do changes that model it's
+weights and so that needs to change in
+order for these things to continuously
+learn and the other big hurdle is we
+humans we we learn through like debate
+like this right we discover new ideas we
+we explore the space of Truth and and
+what's possible knowledge um models they
+need to be able to do that amongst
+themselves as well so this idea of
+self-play uh and
+self-improvement right now a major
+bottleneck I'm sure Kaiu feels it as
+well I'm sure we all feel it is getting
+access to data that is smarter than our
+model as it is and so humanity and its
+knowledge is kind of a limiting an upper
+limit to the current strategy so we need
+to break through that that it's not just
+synthetic data and them interacting with
+themselves in this little box of
+isolation they need access to the real
+world to run those experiments and
+experience that to form a hypothesis
+test a hypothesis fail a thousand times
+and succeed once just like humans do to
+discover new things so what does it take
+to make llm smarter Lun argues that we
+need a mental model of the world around
+us and how can we develop such a model
+the answer is simple if you are a parent
+look at how a baby
+learns there's a lot of skills that
+include planning
+um that require uh you know any any task
+that you do consciously essentially um
+uh require you to have a mental model of
+the
+world uh which includes the the kind of
+physical qualities of the world and we
+acquire those models uh we form them in
+our in our prefrontal cortex when we
+were babies we learn how the world works
+when we were babies by watching the
+world go by and then interacting with it
+uh llms do not cannot do this they they
+don't have any sort of high bandwidth
+perception of what goes on in the world
+at the moment here is an example of a
+skill that babies learn and that is
+totally different from the way llms
+process information when they learn um
+you know your pen has a particular
+configuration when you when you drop it
+it's going to follow a particular
+trajectory most of us cannot predict
+exactly what the trajectory is but we
+can predict that the object is going to
+fall it takes babies about nine months
+to figure out that an object that is not
+supported fals okay intuitive physics
+that takes us nine months to learn when
+we babies how do we do this with
+machines Lun has some numbers to support
+these points and here they are now think
+about what a child sees through vision
+and try to put a number on how much
+information a four-year-old child has
+seen uh during his or her life and it's
+about 20 megabytes per second going
+through the optical nerve uh for 16,000
+wake hours for in the first four years
+of life and and
+3600 uh seconds per hour and you did the
+calculation and that's 10 to the 15
+bytes so what I tells you is that a
+four-year-old child has seen 50 times
+more information than the biggest llms
+that we
+have and and the four-year-old child is
+way smarter than the biggest LMS that we
+have the amount of knowledge it's
+accumulated is apparently smaller
+because it's in a different form but in
+fact the fouryear old child has Lear an
+enormous amount of knowledge about uh
+about how the world works you can pause
+the video at this point if you want to
+recap the figures
+mentioned Lun is not the first one to
+suggest exploring the way that babies
+learn to create a more advanced AI
+application there are many studies about
+how babies learn and some of the most
+recent reveal that babies already have a
+sort of universal knowledge the moment
+they come to this world part of this
+core knowledge is the understanding of
+some elements like objects social beings
+but also numbers and geometry but not
+wordss this core knowledge is what is
+missing from current
+llms Elizabeth spelly is one of the
+experts in this area and she believes
+that humans come with a core Universal
+Knowledge from the moment they are
+born it's suggests that they're learning
+language in a profoundly different way
+from uh the way in which uh infants are
+uh first of all they start out with the
+specific words where infants are
+starting out with these Universal and
+much more General abstract uh properties
+but second infants when they actually do
+figure out uh the meanings of different
+content words draw on systems of core
+knowledge for uh doing that uh and I
+submit that core knowledge will not be
+found in a large language model uh for
+two reasons one is that although it
+continues to exist in us as adults uh it
+is completely unconscious if you go back
+over the history of what people thought
+was in the minds of infants you won't
+find any claims about cor knowledge
+nobody thinks babies have it nobody
+thinks they have it uh themselves and
+what's more if you look at large
+language corpora you won't find any
+words or Expressions uh that capture
+representations from uh core knowledge
+uh we don't talk about uh Core Concepts
+because we can't because they're uh
+unconscious but also because we don't
+need to because they're Universal
+they're in every baby that's been born
+and they remain present and functional
+in all of us and so the question is
+where will the technology breakthroughs
+come from to make llm
+smarter certainly not from llms
+themselves according to
+Lon and so we're missing some essential
+uh uh science and and new architectures
+to take advantage of sensory input um
+that you know future assistent would be
+capable of uh of uh of taking take you
+know taking advantage of um so first of
+all before we get to human level AI uh
+we're going to need some breakthroughs
+that allow machines to understand how
+the world Works which they can't do at
+the moment uh can remember facts which
+they can't really do at the moment they
+don't really have persistent memory at
+least LMS don't
+um they can reason and they can plan and
+those are characteristics that are
+essential to intelligent Behavior
+current large Lang models cannot do any
+of those things at least not to the
+level that uh we'd like them to to do
+the solution according to Lon is to use
+video to train llms and this is an
+approach he has been working on for 9
+years the results are not reliable yet
+and the approach is different than the
+one us us to train neuron networks but
+there are some indications about what
+kind of architectures and models are
+needed well the 16,000 hours of uh video
+I was telling you about that is 30
+minutes of uploads on YouTube I mean we
+have way more data that we can deal with
+right the question is how do we get
+machines to learn from video the task is
+not as simple as it sounds and here is
+why uh what we need is new architectures
+when you say new algorithm it depends
+where kind of algorithms you're talking
+about so the basic algorithm we use for
+uh deep learning is called back
+propagation to adjust the parameters
+right that's with us like that's going
+to stay with us uh we don't have any
+good replacement for this or any even
+basic idea of how we could replace this
+so this works really well we're going to
+keep that so deep learning is here to
+say That's the basis of future AI
+systems um but what we need are four
+breakthroughs basically uh one is
+um the ability for systems to to learn
+how the world Works mostly by
+observation and a bit by interactions
+the way babies learn how the world works
+in the first few few months of
+life um you can in principle do this by
+training a system to predict so you show
+a system so that's the way LMS are
+trained right you you show uh a large
+neural network a piece of text and you
+mask the end of the text and you ask the
+system to predict the next word in that
+text and if the system is properly
+trained on trillions of uh of words uh
+then it can produce the next word and
+then you shift that into the input and
+you produce the next next word and Etc
+this called Auto regressive prediction
+that's how all llms work
+today now if you want people systems
+like this to understand how the world
+works why don't you do this with video
+so replace the words by video frames and
+then ask the system to predict what's
+going to happen next in the video
+predicting the next frame is too easy
+you have to have ask you to predict uh
+multiple frames and basically we don't
+know how to do this properly it doesn't
+work for video what works for text
+doesn't work for video and the only
+technique that uh so far that has a
+chance of working for video is a new
+architecture that I've called jepa that
+means joint embedding productive
+architecture I'm not going to explain to
+you what it is but here is the funny
+thing it's not a generative architecture
+so uh the so the joke I'm saying it was
+not a joke at all I really believe this
+the future of AI is not generative a lot
+of people now talking about generative
+AI like it's you know the kind of the
+new thing I think if we find ways to get
+machines to learn how World Works
+they're not going to be
+generative so we talked about the
+limitations of llms but they remain
+extremely sophisticated tools that
+create
+opportunities and this is particularly
+true if you are a startup or an investor
+we shouldn't lose sight of the
+incredible commercial value that exists
+in the TX based llms right I mean they
+give an incredible pretense of logical
+reasoning even common sense they solve
+real problems they can generate content
+they dramatically improve our
+productivity they're being deployed
+everywhere so you know as more of U here
+putting my on my more entrepreneur hat I
+just see so much value that remains to
+be reaped um on this opportunity to have
+a world model I think that's a great
+thing for researchers to work
+um but I think it's um for me as a
+startup company that's something that's
+a bit farther out and we'd love to have
+Academia and you know large company
+research Labs make the discoveries then
+we'll follow at consumer level in
+particular llms are helping to improve
+productivity but they're also
+contributing in making AI a more
+friendly topic to
+digest let's listen to Sam Altman I
+think it's a very good sign that even at
+these systems current extremely limited
+capability levels you know much worse
+than what we'll have this year to say
+nothing of what we'll have next year uh
+people lots of people have found ways to
+get value out of them and also to
+understand their limitations so you know
+I think it's AI has been somewhat
+demystified uh because people really use
+it now and uh that's I think always the
+best way to pull the world forward with
+a new
+technology
 
 ----------
 
@@ -138,11 +1229,1780 @@ paste here
 --96--
 
 -----
-Date:
-Link:
+Date: 2024.02.26
+Link: [# A NEW SOCIAL NETWORK WITHOUT LIKES IS ________](https://www.youtube.com/watch?v=pWIrXN-yy8g)
 Transcription:
 
-paste here
+Introduction
+Hi, I'm Ken Stanley. I live in San Francisco and I just started a new social network. It's actually a serendipity
+network called Maven. I can tell you a little story about this book, Kenneth. So this is the second physical copy I've got of your book, and you know why?
+Um, I lend it out to some of my friends and my friend Kate, uh, loved it so much that I never saw it back again.
+So, um, just so just so I can have the Bible in my studio. Um, I've got the second very nice copy of it, but, um, but, yeah,
+you know, I can't really think of any book that I've read that has changed my thinking as much as this book has. Uh, it has massive implications,
+not only for philosophy, but also for how we, as artificial intelligence researchers, think about building the next generation of AI.
+To achieve your highest goals, you have to be willing to abandon them. We have a nose for the interesting. That's how we got this far.
+That's how civilization came out. That's why the history of innovation is so amazing. Everything washes out when we
+start ruling by committee like we have to allow people to follow their passions to their extremes, and yet we run society as if this
+actually makes any sense at all. I think the gradient of interestingness is probably the best expression of like the
+ideal divergent search. You get to this problem that like, I don't know how to formalize interestingness.
+What you get to then are proxies for interestingness, that not everything that's novel is interesting, but just about everything that's
+interesting is novel. It is in my personality and nature to want to overthrow this. I guess we could say tyranny of
+objectives. My particular area of interest and research has been in what's called neuroevolution, which is
+a combination of neural networks and evolutionary computation. So I'm saying we got to flip this completely. Like the smart part is the exploration.
+The dumb part is the objective part, because it's freaking easy. The first interview that you had with me that was like, incredible.
+Yeah. And that was early on. I remember I used blender to create this 3D environment or the stepping stones and, uh, that was so crazy.
+I couldn't believe that I was like, wow, that's like the coolest thing I've ever seen. Like, just about anything that I've ever said because it's like a music. It's like this 3D thing moving
+around. It's like, wow, this is like, seriously professional. Well, I wasn't professional, but yeah. So yeah, I mean, that kind of thing can be cool. When you left OpenAI, you had,
+Sam Altman Story
+um, an interesting conversation with Sam Altman. This is obviously a huge departure from my career trajectory.
+Like, that's one reason I'm nervous because, like, I, I'm known for AI research, like that's where my reputation is staked.
+And I'm like, just leaving it to do a social network. He said that, you know, the thing that I think you need to do is to
+think about the theme of your career, not what you've been doing, like you've been doing AI research. That's what you've been doing.
+But what is the theme, the thread that connects everything you've been doing, like even maybe since before your career?
+Like, what are you about as a person? It's not AI research because he said, for example, like take my career. And what he said was that I have
+realized that I am all about scaling. It's scaling that's what connects all these things. You scale a startup. But the beautiful thing is that
+AI is all about scaling. There's a deep insight there, actually, um, you know, like to understand that at the heart of this
+AI currently is the idea of scaling. And there's nobody better than Sam, whose entire life is about scaling things, um, to actually like,
+you know, supercharge the scaling. Now, I personally don't know if scaling is about everything AI is about. Like, I'm not totally bought into the idea. It's all about scaling.
+I'm not even sure Sam would even claim that I'm not. I don't mean to put words in his mouth. Um, but it's the thing that ties together his career,
+so it's what he's about, honestly, all the AI is about. But what he's about scaling and it just made things click for me.
+Not just like about me, but about him. Like, that was the first thing I thought was, wow, this is so interesting that I understand him better. Like in this instant.
+It was such a short thing to explain, but it just made me understand why is he even here? Like, why is Sam Altman in
+charge of OpenAI? I just suddenly understood this. It's scaling. That's who he is. He's like the best in the world
+in scaling. And then he said, you don't seem, you know, you're not you. The theme that cuts across
+everything you've done, like the book that you wrote, the research that you've done, it's this open mindedness stuff.
+It's divergence you're interested in. You seem interested in, like these freedom exploratory type of systems, like divergence in all kinds of
+contexts. I'm about scaling. I don't think you said this literally, but basically I took it is I'm about scaling.
+You're about divergence. That that sounded so neat and nice. So Professor Kenneth Stanley has created a new type of social network,
+a serendipity network, where all of the popularity contest is gone, the likes are gone. It's designed to accumulate
+information to foster creativity. Just like things work in the real world. What it is not is a popularity
+What is Maven?
+contest. And that is clearly, I think, a radical move because basically all social media, I don't think there's
+an exception is a popularity contest. Um, you've got like. Buttons. You've got popularity, you've got followers, you've got popularity.
+It's all driven by that. Um, and so we have actually taken that away. Um, we don't use those mechanisms.
+Um, and so the question then is, what do you actually do in a system like that? You've taken away our drugs of
+choice. Um, of course. It's kind of like a detox. Um, so we're going to actually make your life more healthy, hopefully.
+Like, that's the hope here. But how? Like, how does it stay interesting? Well, the thing that really drives our system is following interests.
+So like one way that we put it is that you follow interests instead of following influencers. Um, and so following interest
+means that influence. It means that interests are kind of, uh, first class citizens, um, where like, you can follow an
+interest in our system the way you would follow a person, maybe in another system even has its own profile for the interest.
+And these interests arise whole cloth out of nothing in the system.
+So it's not like there's this fixed set, like in a lot of systems, there's like fixed sets of things that you can join or follow,
+like this is just created as it goes. Um, and so users kind of have an
+experience where they're discovering and adding new interests. Often they're through other users, like you'll see interests that
+other users follow. Sometimes you'll even find out if someone follows an interest because of you, because that's kind of a
+way of, uh, having a more, maybe a healthy form of validation socially. So it's like, oh, I got someone interested in something rather than,
+you know, somebody likes, um, my post or somebody trying to follow me like, I'm a brand, but you've got somebody interested in something
+because it's about the interests. And so people are finding new interests also through new posts. Um, like when you post something
+on the system, an artificial intelligence will extract interests out of it, and it'll suggest those to people
+who are exposed to that post, and so people can find new interests that way, too. And so adding interests is kind
+of the recreational activity. Instead of liking and following, fans of MLS will know that we've carved out a niche in the kind of
+center point between philosophy and artificial intelligence. And this book, the episode that we did on on this book was really
+emblematic of us starting to cut out that niche a few years ago. The main thesis of Kenneth and Joel's book is that objectives,
+or consensus mechanisms, lead to the notification of society,
+systems and everything. There's nothing really insightful or interesting about just doing objective optimization.
+Yeah, we've got plenty of good algorithms for doing that, and it's not counterintuitive at all. It totally makes sense,
+but it's not going to get us hardly anywhere interesting whatsoever. It's kind of the curse of optimization.
+And what that means is when you build an optimization system, you have to take a metric, you have to take a utility
+function or a cost function, and you have to optimize it, but then it suffers from the shortcut rule and Goodhart's law.
+The shortcut rule is that you get what you optimize for, exactly what you optimize for, and nothing else. Which means if you can't specify
+all of the richness and complexity that you want to capture in the cost function, then it's all gone. And Goodhart's law is this very
+interesting idea that when a target becomes a measure, it ceases to become a good measure, which means many of the systems we
+design, including current social networks, are divorced of all of the richness and creativity which exists in the real world.
+We need to create systems that capture the creative, generative processes which exist in our physical and social worlds.
+And with naive objective optimization, it's impossible. In my opinion, the reason why ChatGPT is the antithesis of creativity is
+it's designed to reduce entropy. It's designed to make things simple,
+whereas a creative process is about producing new information. So there's a tug of war with things like GPT, which are centralized
+because we have access to creativity, we have access to serendipitous novelty, and we can put it into GPT. But GPT is always pushing back on us.
+It wants to make things simple. This is model bias. In order to produce a truly creative process,
+we need to design platforms which eliminate this centralizing force. Maybe you could call it a self-organizing worldwide group chat.
+Um, it's got this self-organizing component, which I think is interesting to think about, that, you know, so what's happening?
+You know, usually when you go into a forum, you go into Reddit or something like that, and you have to choose which silo are you going
+to be addressing this obviously advantageous if you want to talk to people who share your interest, because you can choose a place
+where the interest is reflected, so go to that particular forum. But the thing is like that really is limiting when you think about it,
+because of the fact that like often as conversations meander within something like that, you touch on things that other
+people in other forms would have really found interesting. Um, you know, for example, like if I was, uh, had an issue with, say,
+the architecture in San Francisco. I mean, I could go talk to the San Francisco subreddit and like, tell people about my, my,
+my problem with it. Um, but then it starts to touch on general urban planning, let's say. Well, there is an urban planning
+subreddit, and none of them see this conversation, so they won't be part of it. Um, they probably would have had something to say about it. It might have been something
+interesting. Um, that's where self-organization, self-organization could have kicked in. I mean, people could have actually come in from there.
+And that is what Maven does, like constantly. Always, like every single thing anybody says is reanalyzed by the
+AI to think about what is now, who to whom is this now interesting as a conversation. And then those people are drawn in.
+So you're having because of that, basically different communities are getting crossed over constantly and cross-pollinating, um,
+because as the conversation meanders, new communities are brought in. Um, and that's what I mean by self-organizing.
+So there's constantly organizing around like who should be interested. Um, and, and so you don't have to think about like, which silo do I
+belong in? You just send it out. It gets sent to people who would find it interesting. And as the conversation continues,
+it'll just reorganize around those people. Um, and by adding interest, you're expanding your kind of, like,
+serendipity, surface horizons, things that might be interesting to you. And the system works in such a way that, like it's trying to expose
+things that match your interests. But in doing so, it will also sometimes expose things slightly adjacent, and so your interest will
+gradually expand as you discover, oh, I actually am interested. You know, like I didn't even think about 3D printing.
+But now I realize actually that's something I would like to follow. Like what's going on there when people talk about that. And then that becomes like part of your part of your interest set.
+Um, and so if you think about it in aggregate, like this system is a giant interest graph that's growing over time.
+The more people come in, the more we discover new interest. Because these aren't things like I said, they're not from a stock list.
+So it's just growing and growing. And this interest graph lets us understand things like what interests relate to others.
+You know, because we know people who follow this interest, all who follow that interest or like we see these interests co-occur a lot
+in posts like when people post like often AI and ethics occur at the same time or something like that. And so we have this like really
+interesting graph that I don't think anywhere else has, um, showing how everything is related in an interest graph and rather than in
+a person graph, um, which again, I think is arguably more healthy since it doesn't have this popularity contest aspect to it.
+And so the last thing I just wanted to mention about, like how it works as you're kind of expanding interest and discovering
+new things on the system is one thing that may people may wonder is, but where's the quality control? Um, you know, because like the,
+the kind of, um, top line billing for things like likes or follows is quality control. Um,
+it has all these other implications. You know, it has convergent aspects, like when we have consensus, we get convergence, which is an
+unintended consequence of likes, you know, so if like a million people like something, that's definitely consensus.
+But what happens is that we have these convergent points like throughout the day on these very, very high agreement things.
+And that filters out diversity. So we're counteracting that. And that's a good thing. So you get way more. Diversity is one effect of a system that's about following
+interest rather than, um, following influencers. But you still may be wondering, so you took out this thing which is
+the supposed the purported quality mechanism, what is left there? Well, we're doing something interesting, which is more subtle,
+which is worth a little mention, which is we're using something called a minimal criterion to. Stand what is not actually good
+content. So actually we're not interested in maximization. And I speak a lot like when I
+speak about like why greatness cannot be planned about like what's bad about maximization or optimization on everything.
+So we actually got rid of the idea of optimizing content. Um, but we do something which is saying there's a minimal
+threshold below that. We do try to circulate less if it's below a minimal threshold. And we have different ways to
+measure engagement to like sort of set our minimal threshold. But above that threshold there's no contest.
+Everything is treated evenly and agnostically. Um, and so you get this kind of churn of
+ideas that are all of like minimal, at least minimal interestingness. And it's worth noting that this kind of idea of a minimal criterion
+has been used in research in the field of open endedness. And there's also an interpretation of natural evolution based on
+minimal criterion. So it's not just like a totally ad hoc thing, and it does really interesting things,
+like it leads to a very rapid fast divergence and increasing complexity, like in artificial systems, um, but without convergent properties.
+And it's extremely simple. And so this is a completely different kind of quality mechanism. But there is it is in there.
+Um, and so you should be one maybe philosophically, just to make it make some sense. Is that kind of the philosophy
+behind the minimal criterion? Is that it really just pointless after a certain point to argue about is something better than something.
+It's like once things hit a good enough, especially in the world of subjectivity. Like if you're talking about like movies or something, or even like intelligence, like if
+you're talking about like, is this guy more intelligent than that guy? At some point it just stops mattering, like in an absolute scale.
+It's true. Like below a certain point, it's like it can matter a lot. You know, it's like if you if you're like in like, you know, the disability range of IQ or
+something, but above a certain point, um, it just gets ridiculous to like split hairs and like, is that actually better?
+Like, this person said this and that person said that, which is the better statement? They're both interesting.
+Um, when we actually try to rate them and then you get rich, get your get richer phenomena and all kinds of artificial
+aspects start to come into play, which have really nothing to do with any kind of true, objective, absolute sense of quality, because
+there is none in subjective domains. So we can say like above a certain amount, let's not play that game. It's stupid because it leads to
+convergence and it filters out all the diversity. And let's let diversity reign when you're within that range
+where things are good enough that there's not degenerating by a couple of co-founders. One of them is Jimmy Secretan,
+Cofounders
+who, um, some people might know. I worked with him many years ago on the pick breeder, uh, project. Jimmy actually was the lead of
+that project. And, um, we've talked for years about maybe reuniting at some point. He's had a lot of industry
+industry experience since then. He was a VP at brave recently. Um, and so it was just a good opportunity to get back together
+and work together again. Um, and my other co-founder is named Blas Moros, and he has some really unique experience
+building online communities. Uh, he's built some communities, like the lattice work, which some people may have heard of, or, um,
+also something called the rabbit hole, where people follow books and readings together that he's, uh, he's been sharing with people.
+This book changed my life, Kenneth. This book changed my life. If there were just a few things you can summarize, you know,
+WGCNBP
+from this book, what would it be? So the book is, um, a result of AI
+research, and it's a it's a really strange story because it's very
+unusual that AI research results lead to something that looks a little bit like social critique. In fact, I think I'm unaware of
+any other example like that, and I certainly wasn't trying to do something like that. That wasn't my career goal.
+Um, but the thing is that we were seeing results that had really large scale implications outside of AI. Um, and I mean, in hindsight,
+it starts to make sense to me that like, if if you're really trying to understand intelligence, which is like this one of the most
+salient aspects of being human, then you should expect to learn something
+about what it means to be human. I mean, that seems to make some sense in hindsight. So that should be happening. That should be a side effect of our field.
+Like to the extent we don't do that, it might be a sign that we aren't necessarily digging in the right places or learning the
+things we should be learning. But in any case, we what we found was this really strange, paradoxical, uh, phenomenon, which is that pursuing
+an objective can actually get in the way of achieving the objective. But it's more than that. It's also that it gets in the
+way of achieving anything else, even outside of the objective. You started with. Um, and this is something that
+originated from observing results from experiments. So this is not like an opinion. Um, this is just empirical
+results that we were observing in experiments that we did. Some of those experiments had people in the loop, so we had
+people searching through spaces. Finding in our case pictures was the original experiment. It's called Pic Breeder,
+and we saw this phenomenon of people only finding things when they're not looking for it, which is really hard to absorb.
+So you can only find things if you're not looking for them. It's like some kind of Zen statement or something like that.
+But if you think about it, it starts to make sense even algorithmically, because it also sounds philosophical, but it's
+really an algorithmic observation. But algorithmically it makes sense because there's this this phenomenon of deception and complex spaces,
+which is like a well understood. I mean, sometimes we use other other words for it, like we might call it like getting stuck in a local
+optimum or something like that, or premature convergence. But really what deception means is that it appears that you're going
+in the right direction when you're going in the wrong direction, or vice versa. It could appear that you're going in the wrong direction when you're going in the right direction.
+And the thing about that is that it's much more pathological and pervasive than the way that we usually think about it,
+because it's not a surprise that that exists in search spaces, but it's so pervasive in spaces that are complex, and that is what
+we didn't appreciate, I think, and that the book is really keying in on, because you see, like in complex spaces, that should be the
+rule rather than the exception. Like by complex, I just mean things that are hard, like things in the world that are hard to solve.
+So something like creating AGI or curing cancer or creating infinite
+renewable energy or things, we might want to do those things. The stepping stones that lead to those things don't look like those
+things. They aren't obvious. In other words, like if they were obvious, then we would just do them and they wouldn't be considered hard problems. So obviously we don't know what
+the stepping stones are. Which means that when we do find the right stepping stones, they will be surprising,
+which means they won't be things that we would initially guess are the important things you need to do to get to those things.
+Um, and this was initially observed in these artificial search spaces like pick breeder. Um, but it was clear that this is a
+general principle in all complex spaces because they will always have
+this kind of circuitous property, or else they're not complex. It's basically like a truism. And so the, the problem, uh,
+which the implication for the problem we have in society gradually grew
+in my mind over time after this, like looking at the AI results, especially from also talking to people about the results,
+because people often would ask, what does it mean for me? Because people would say, like AI conferences, they'd say,
+I have I have objectives like, is this like applicable to the way I think about things, or is this only about algorithms?
+But of course, it's not only about algorithms because we all are facing search spaces. Like that's a problem that's
+generally ubiquitous in life, not just in algorithms. And because of that, it started to emerge in my mind
+that like this matters to people, this matters to institutions, it matters to governments, it matters to education.
+Like there's objectives everywhere is completely saturating everything that we do. And if this deceptive principle,
+which I call the objective paradox because it's a paradox that pursuing something can cause you not to achieve it if it holds
+with really tough problems, then like we're all in trouble because like, we're all doing everything by setting objectives.
+And the more I thought about it, the more this seemed like a serious social problem. Um, even though it's not the
+kind of thing, you know, that is currently debated in society, like you don't have like protest going on about like anti objective
+movements or things like that, but that made it even more seem like this needs to be brought up. At least we can have a conversation.
+Maybe I can't change the way things work in the world, but at least we could have a conversation. Um, and it seemed important to to
+bring it up because nobody doesn't seem to be on anyone's radar. And I mean, just just give one concrete example, like think about like when you apply for science funding, since I know a
+lot of people who watch this show, probably do, they want to know what your deliverables are. That's your objectives.
+Like what are you going to achieve? Like we're already off to a bad start. Um, because that's not how
+innovative systems work. Innovative systems work by collecting stepping stones and not knowing where you're going, because they're interesting in their own right, because we don't
+know which ones will lead to what. And already the entire science funding system almost across the world works in the opposite
+objective paradox way. Um, and so that's a mistake. And most institutions work that way. Um, and so I, we wrote the book,
+Joel Lemon and I, um, to try to highlight this and start a conversation. In a way, a goal or a stepping
+Link to RL
+stone is like knowledge. So I kind of think of your, your philosophy as, as describing a kind of epistemic roadblock.
+So the, the paradox is that in science we want to accumulate knowledge and we're shooting ourselves in the
+foot because you're saying, well, you're only allowed to operate inside the space of there's no knowledge because the goal presumably
+shrouds out any other knowledge that you don't already know. So it's about this kind of paradox of the unknown unknowns.
+But I wanted to bring one other thing in, because some might say that it's, you know, there's in reinforcement learning, there's
+exploration versus exploitation, and you have a fixed goal. But people might argue, well, yeah, you have a fixed goal.
+Uh, there's this implicit motivation, you know, so. So the agent can still learn subgoals and do lots of kind of weird and
+wonderful things that might be somewhat orthogonal to the end goal. And I've always felt that. I mean, again, this is a teleology question. The reason why there is no
+teleology in evolution. It's a process that is divergent. It generates entropy and complexity all the time.
+And that is precisely because there is no end to teleology. You have these independent agents kind of doing things on their own and
+not necessarily sharing information with each other. Uh, yeah. So it's true that, um, you know, exploration versus exploitation is is
+very well known and well studied. I mean, it's no surprise to anybody that we should do some exploration. Um, but, you know, there's there's
+a couple things about that that I think fall very short of the, the kind of observations the book is making about how, what exploration
+really should be, you know, and one of them is basically like, related to what you just said, that, that it's just like just having this
+objective at all in mind can be just too much, too much of a drag
+on your ability to explore that. It just doesn't all add up. I mean, and we should we should note that, like, of course in AI,
+we concede in the book that modest objectives do work. So the book is not saying no objectives ever work.
+That's important to concede here. Um, modest objectives can work in a lot of the time. Reinforcement learning when it
+works works because it's what I would call a modest objective. So like you keep your eye on the ball, um, and exploration you
+can think of as a little bit of a distraction moving you around. But you need to have that distraction because you need to sometimes get off deceptive paths. And it works. That works out.
+Um, but the problem is when, like, you're looking at something that's, like, radically ambitious, you know, that's what, you know,
+I talk about something, uh, like curing cancer, like, this is like, way beyond, like where we understand what will lead to what?
+Um, then it actually doesn't make sense anymore. It becomes actually, like, a huge weight on your ability to
+explore more. Um, and that leads to, you know, that, like, it's actually the case that having an objective is much more
+powerful than a force for diversity. Like, sometimes, you know, what this this field that the original experiments that led to
+the book led to a field called quality diversity algorithms. And this whole field is sort of about this idea that quality is,
+is, is, is kind of like a, a huge, powerful force. And diversity is this very delicate feather.
+And you try to combine them together. And if you're not careful about it, it's always going to be the quality crushes diversity.
+Diversity is the hard thing to do. And so that leads to kind of the second point I want to make about exploration versus exploitation
+is that exploration is actually a very complicated subject. And when we think about it as just making random moves,
+that is the most trivializing way to think about what exploration means. Exploration is an intelligent process. It's not random.
+I mean, of course, in an algorithm it might be defined as something random, but real exploration means following gradients of interestingness,
+which is highly information rich, like understanding what's interesting in the world. People are really good at that.
+Like that's one of the remaining deficits, I think, for models today. Um, artificial models, because understanding interestingness
+is an extremely difficult problem. But those gradients, you can think of them as gradients you can follow, um, that's what it means to explore.
+It's not taking a random move in a reinforcement learning algorithm. And so exploration algorithms like forget about having an objective like
+it's its own topic in its own right, like the way to motivate to to represent where you want to go. What does it mean to be interesting?
+What is novelty? Things like that. They all have to be confronted in order to understand what it means to explore an informed way.
+And what that will do then is it will accumulate things that are interesting, and some of those things will lead to other interesting things. And eventually one of those
+might turn out to be the stepping stone that leads to something you care about. Or it may turn out to be something someone else cared about. But what you're doing is collecting
+stepping stones, and so you're making it more likely something, something important, will happen in the future. Yeah.
+And we were talking about this a minimum criterion earlier. But I suppose what we're trying to do is, is create algorithms
+Natural Plausibility / How Far Can We Go?
+which are naturally plausible, maybe even biologically plausible, because we see these fascinating dynamics in the real world and
+we select features of it, you know, so it needs to have diversity preservation. It needs to be entropy generating.
+And agents need to follow their own gradient of interestingness. And the almost all of the algorithms that that you've been associated
+with are population methods. So this kind of population idea seems really interesting. And I guess like one one question is
+how far can we go with computers, right? I mean, the reason why we have an interesting, um, concept
+built into us is because we're physically and socially embedded. So it's not necessarily that we have knowledge of what's interesting.
+It's quite serendipitous. But the I think the key is that the knowledge is actually embedded in the system, like the reason
+why a bird knows how to fly. Well, a bird doesn't know how to fly. The knowledge of flight is actually encoded into its physicality and how
+it's embedded in the system. Right. So I guess I'm saying like that's how interestingness works in the real world.
+And we want to write algorithms to do that artificially. Mhm. Yeah.
+I mean I think that the trick in this is that we really want these algorithms to do things that are interesting to us.
+Um, so it's, it's true, like our experience in things that we find interesting are idiosyncratic in some way.
+I mean, I guess it's, it gets philosophical because there's a question, is there any absolute way of thinking about what
+what it means to be interesting? Um, but it's like if you started a whole new world and things just evolved inside of that world
+independently of this world, uh, you know, to what extent is that interesting to us? Um, and that's actually like an
+artificial life kind of view, which I think probably some of it actually is interesting. Um, but like at the cutting edge,
+like, that's hard. Like, in other words, like the cutting edge of what's cutting edge for us. Um, so like the cutting edge of technology of all aspects of society,
+of art, of music, of, of, uh, political organization, like all of that stuff has a cutting edge. Um, and those things are interesting
+to us for idiosyncratic reasons that have to do with how we developed on this earth and our embodiment and all kinds of things.
+And so, like, it's just we have to somehow, if we want to incorporate
+machines into that cutting edge so that they can explore along with us, to push it forward in ways that we would actually care about,
+then they have to absorb a lot of the understanding that we have that
+comes from our legacy somehow, so that they can draw from that to understand what's interesting. And yeah, the problem is,
+is non-trivial and information rich, I think is is not like just like a couple of rules, um, like it's like your entire lifetime of experience
+bears on what you find interesting. Um, and so to endow them with sufficient representation to capture that is very challenging.
+And it doesn't just happen because they absorb all the language on the internet. Is the problem like that would be convenient, but interestingness is another matter than just knowledge.
+Um, and so it's this is a really tricky thing. Uh, but we can, um, we can imagine this happening.
+I mean, I can imagine trying to, you know, bring them into the fold of where we are at the cutting edge and helping
+them to see what's interesting. And they would, you know, gather some degree, pick up some degree of, of, uh, instinct from us.
+Um, I just want to point out that there's a whole completely different way of thinking about how to get interestingness, which would be which would be like from first principles, kind of like
+just starting with single celled things and just thinking like, well, would it just become interesting because, I mean, evolution did that.
+So I guess it's it's a little bit, um, it's a little bit circular because like, we're a product of that process.
+So it's like, well, that's why we think it's interesting. I mean, you could argue that like, well, if we weren't, we wouldn't find it as interesting. But I don't totally believe that
+because like, it seems like to me that it's like, not debatable that what happened on this planet is interesting no
+matter where you come from. Uh, now, I mean, we could definitely debate that, but, like, to me, it's just like there is some
+level at which, like, something happened here that's interesting. Like, it's not clear to me that like the TV show you like is interesting in some absolute sense, but just generally the entire process
+of evolution on Earth all the way up to humans is somehow it just seems intrinsically interesting. And I think the reason is because,
+like, there's some built in, there's some built in conditions that, uh,
+that, that encourage non-triviality of some sort or complexity, um, which is sufficient to be somewhat interesting, at least, um,
+from it, from the point of view of anybody who's intelligent, I guess you could say. And so that's obviously very
+debatable. And again, a huge side discussion about this. Um, but I think it's important to still think about even outside of the.
+Philosophical part of it, because we do want to understand if there are relatively simple principles that can help us to get a leg up on this,
+like in terms of actually producing interestingness, like generatively producing it like that are not that don't require like knowledge
+of what it was like to live your entire life and every other person who's ever lived on the planet. Like, that's a lot to ask.
+Like if there are some basic fundamentals that can sort of scratch at the surface of interestingness, then that can help us, um,
+get our foot in the door and start to move forward. I really like this idea that interestingness is just the
+knowledge that we don't understand. So we we have these, um, when I say anthropocentric, I mean, we have these like kind
+of human perspectives on things, and we think of knowledge as the kind of stuff you get on Wikipedia. But knowledge is everywhere.
+And in a sense, I think of intelligence as being everywhere. Intelligence is distributed far outside the brain.
+I was reading a book by Max Bennett earlier arguing that, you know, language is in the brain. Well, I don't think language is
+in the brain. Language is is an organism. Um, if anything, language tells us what to do, not the other way around.
+So, um, yeah, it's just a completely different perspective. And our anthropocentric priors really kind of guide how we how we think,
+if that makes sense. But but just just to close the loop, though, I was watching a presentation by Jim Fan from Nvidia.
+Jim Fan
+And you know, he's kind of got this these three axes where you have embodiment and you have skill and you have realities.
+And he's got these different agents that operate on different parts in that 3D space. And I just kind of disagree just
+based on my last point, because I think all of these things are entangled together. Like he's making the point that, oh, we could have these foundational agents that could generalize between
+different forms and different realities and have different skills, and they're all the same thing, right?
+All of these things are just embedded in the world. I guess a reality could be an environment and a form could be.
+I mean, I kind of think of those two as basically being affordances. So how can I interface with the environment?
+But if you think about it, interface I mean, you're great to talk about this because you did this poet, um, um,
+paper, which was kind of diversifying doing curriculum learning across different environments. But but in a sense,
+the environment affords an interface. You can only interact with it in a certain way. So you can kind of you can kind of
+think of the embodiment and the environment as being the same thing. But if you were trying to argue that intelligence was abstracted
+away from physicality, that you could build this general agent, that you could just plug into any world and it would just
+automatically be able to do anything. So do you see what I mean? There's this tug of war between I think intelligence just is the
+physical and social world. And another school of thought is, no, you have these intelligent agents that just know what to do in any
+world. I see, I see, yeah, yeah. That's, um, that's that's that's
+a hard question to think about. Um, like these other worlds and how they would relate. Um, or if there is something like
+truly general beyond any world and they could work successfully in any world that's conceivable. Uh, yeah. I, I wouldn't be confident in that.
+Um, I mean, it that I agree with I think I agree with that, but I, but I also not always sure like when you get down to very specific points,
+like it has to have a body, then I become less sure of things like that. Um, like, is that really essential in our world to have a body in order to
+be an active participant in the, you know, advance of knowledge or something like, I'm not sure that you need a body for that.
+You need some exposure to our world, though. I'm not saying you wouldn't have some exposure. Um, and so of course, we live in a physical environment with like
+vision and sound and things, and that there's some of that's going to have to get in somehow, um, in order to, to really
+participate in a meaningful way. Um, and so, but I just don't know exactly what the, you know, Desiderata are like, that you have to
+have this or you have to have that. I'd be a little more open to different variations than, you know, some strict, like, person who's
+only about embodiment or something like that. Very interesting. Just before we go on, on to that, to the other bits we discussed.
+Picbreeder
+Um, maybe we should just describe pick breeder in really simple terms. So this this picture on the front of your book came from pick breeder.
+Right. Pick breeder was an experiment in open endedness. I was really interested in
+systems that are what I what I call open ended. And now this kind of recognizes as a subfield in machine learning,
+basically open endedness but open ended systems. Actually, I should note, um, for historical reasons, that the
+terms open endedness where I first encountered is in artificial life, where there was a sub community there called open ended evolution or OE.
+Um, and so I was really interested in from, from that perspective. And of course, evolution is often cited as like the,
+the, the most canonical precedent of open endedness, like it's this process that for more than a billion years has been,
+you know, diverging into more and more interesting stuff and doesn't seem to end. It's almost eternal. Um, and so so it started out with
+these kind of open ended evolution researchers and artificial life. Um, but I always thought that this is a general issue across,
+like, not just artificial life, but AI as well, because I think open endedness is also the big thing that characterizes
+what it means to be human. It's it's interesting because it's what created humans like evolution created us. So we're a product of an open ended system.
+But I also think we produce open endedness. And that's like the most salient thing about us. So like civilization is basically a giant open ended system produced
+on top of human intelligence. So there's like an open ended sandwich with us in the middle. You know, we come out of evolution
+and then we produce civilization, and both are open ended on both sides. Um, and so to understand us and intelligence,
+I have this intuitive feeling. We need to understand open ended processes, because I will have to be one eventually.
+And a lot of the time that's like the last thing missing. I feel like like I can do all of these impressive analytic things that
+can like solve a test or something. To answer your question brilliantly, but like, it doesn't produce things that move civilization forward.
+Um, that's like inventions and ideas and, you know, like things that change the way we think. And that just doesn't really happen.
+Um, and that's like what it means to be human, I think. Because if you think about, like, what, uh, what is, um,
+how how much what do you think? What does it elicit in you? If you hear that somebody can multiply ten digit numbers in
+their head. It's impressive. But I wouldn't say, oh, the humanity. It's not the kind of thing where you're just, like, clutching your
+heart, like, that's just so moving. It's just like, that's impressive. That's that's like a computation the humanity comes out in.
+Like when someone invents something, you know, it moves you, it changes your life. Like that's humanity. Um, and that's open mindedness.
+And so I. And so I think that's what we need to capture. And so and also just as a
+practical matter for I people, the thing the other thing about it that I think is important is that because it produced us like we are a
+product of an open ended system, we might need to create an open ended system to produce another us. Um, and so that was really motivating
+me a lot with like the pick breeder. I want to understand how these things work, because I wanted to understand how brain like things
+could evolve artificially. And so I'm mentioning all this like in detail because like when you hear what this is, it doesn't sound
+like a really serious experiment. It's like what we're going to do is we're going to have people go on the internet and breed pictures.
+Um, so we're give them an interface where they could see a picture, and then they could see several pictures, and then they could
+choose one and it becomes apparent. And it has children. Um, just like if you're breeding dogs or breeding horses or
+something like that. Um, it could be, you know, it could be like sexual or asexual. It doesn't really matter.
+It could be both, but a lot of people would just do it. Asexual, meaning one, one parent because this is in a computer.
+So you could do whatever you want. Um, and so, so people would choose pictures and make children. And so you hear that you're like, oh,
+that's, that's like a toy. Like what? What is the point of all of this? But you see the point of it. For me, it wasn't the toy,
+even though I was hoping people would enjoy it as a toy because that would get people to use it, but was to see the unfolding,
+divergent process of discovery. That was really what interested me. I wanted to see a new tree of life form on the internet,
+a tree of life like, you know, the kind of phylogenetic trees you see, like with the single cell at the bottom and humans
+and some branch somewhere. Um, I wanted to see a new one happen, um, because I wanted to understand the process.
+It's not the individual images that I care really about. Like there are images. They were pretty impressive. Like people found things through random mutations.
+So this is not like Dall-E or something. This is not like modern image generation. This is like old school stuff. Through random mutation.
+They would find things like butterflies and skulls and cars and really impressive discoveries, extreme needles in a haystack.
+Um, but it wasn't the individual images that interested me. I wanted to understand the process because I thought if I could see
+an actual open ended process, then I could understand algorithmically how it works. Um, and this is something we
+desperately needed to understand. And the problem is, there's not a lot of reference to see processes like this. You know, evolution is a is a reference, but we can't see it
+because it's buried in the ground. Like you need to go digging and get fossils out of the ground. And I wanted to see every single
+little step exactly what happened in a process like that. So I could totally analyze it and understand it.
+I just thought something interesting will happen. Um, and it's, you know, it's notable that I didn't know what would would happen. I didn't know what we would discover.
+Um, it was totally unclear, which made it very hard to get to get funding, actually, because they're like, well, what's the point of all of this? But the point was to see the process.
+Um, and so we put this out there and indeed the the result was we we
+did discover this very shocking, fundamental thing about objectives like that, that people on that site, it turned out when they found these
+amazing things like the butterfly or the car, uh, it was because they were not looking for them. Or to be more clear,
+it was because everybody along that trajectory was not looking for it. Um, like the very last couple steps someone might have been
+thinking because they realized they're getting close. You know, they might have been thinking, oh, I'm getting close to a car. So I'm going to try to optimize this towards a car. But all the other steps along
+that trajectory, nobody was thinking about cars. Um, and so the only way to find things on there is by not
+looking for them and for people who were looking for things, which is most people, because that's how we've been trained to think.
+Most of us are acculturated to set an objective and go towards it by the time we're adults. So most people actually don't
+like pick breeder, I found. I think that's true because they would automatically come in with this predisposition towards
+setting an objective, and then it would be frustrating. It'd be extremely frustrating because the deceptive space,
+like any complex space, but it looks like they're going in the right direction. They're not. So they hit a dead end. They experience this intuitively, so they feel stuck, and then
+they're just like this. This sucks. And then they're like, but why did all these other people succeed in discovering all this stuff?
+Like, it doesn't make sense, but it's very frustrating to an objective person. And so I think this is why a lot of people would just leave quickly and never come back,
+because it just doesn't work. Like the way you would expect a toy to work. A quick point, but um, there's another amazing book called The Language Game,
+Language Game
+and it basically talks about, you know, there's this idea that what if culture and language itself was alive, it was a living, breathing
+organism. And the, um, yeah. So it's this idea that essentially we
+humans have this proto ability to, um, use improvization to make
+sense in the moment. And we also have other proto abilities like shared attention. Even babies will look at things.
+They'll they'll make sure you're looking at it. So there's an interactive shared attention process, and there's a
+whole bunch of things that we do that give rise to this incredible kind of social complexification that we have. And it's a bit mysterious how it
+happened in evolution. But the fascinating thing is that I think the real intelligence of. Humans is culture and society.
+If you take an individual human and you put them on Mars, or put them in a in the wilderness, then that human, it's like going
+back in time, a long, long while. So it's almost like our collective intelligence is the is the culture. And then if you contrast that to
+something like GPT. So they said, well, GPT isn't learning how to play charades. It's learning to find incredibly
+complex patterns across billions of words of language. Humans and GPT can write short stories, technical manuals and press releases and do simple tasks with language,
+such as answering questions. But GPT is not mimicking the human mind. It has no mind at all. So there's always this kind of
+interesting tug of war between like, you know, creating the actual, um, thing which has the high resolution dynamics,
+which is alive in the same way, versus kind of creating this very simplified version that appears to be like the thing you want to create,
+but actually isn't. Yeah. That's true. I mean, some way when you see like the intelligence is the
+society and the culture, like it's basically saying it's this collection of stepping stones or part of the intelligence of the process,
+you know, because I always speak in terms of stepping stone collection and open ended processes. And so, like that's what makes
+them really powerful. Is that, like the longer they run, the more stepping stones there are. It's like the next generation of inventions are going to be more interesting than the last generation,
+because there's more inventions to build on. Um, and so, you know, it's like back in the day when there was only like wheels and fire. There's only so many things you
+can do, but now you've got, you know, you've got computers, you've got the internet. So these are stepping stones that we can build on top of. And it's the whole collection of
+stepping stones, which is all of our culture and society is the potential we have to do something new. Um, so you could say that's a
+store of intelligence as part of an intelligence system. I mean, I think it makes it certainly means that any individual is
+empowered more, uh, to do more, to do more interesting things. Um, yeah. So, yeah, that's one way to think about it.
+I mean, just just a final point on that. I think, though, the the real gap between us and
+machines is this creativity. And I think also autonomy is is part of that. So the reason why we have built this
+incredible culture, this infosphere with all of these stepping stones is, is because every time you and I or any people have interactions,
+they, um, creatively do things just to just to understand each other,
+just to just to, um, make sense in the moment. You use this ingenuity of creativity and then that just gets
+recursively rinsed and repeated and reapplied and all of these things just bubble up into our culture. And, um, there's just nothing
+like that in, in AI systems. I mean, obviously, the closest we have gotten to that is all of the work that you've done.
+But I think the autonomy gap and the creativity gap, that's that's the elixir that we don't yet have. Yeah, that that is actually
+interesting because I, I've often said that, um, you know, one of the keys to getting open ended systems to work is that you don't
+just want to have more solutions, you want more opportunities or more problems is one way to think about it. But they're not necessarily problems. They're opportunities to do
+something new. Um, and so that's like where create that's what allows you to have creativity. Like you can't have Shakespeare if you don't have an audience,
+like to actually listen to it. Um, and you can't have giraffes if you don't have trees. What's interesting is that we
+are both like as as organisms in this world, both opportunities and agents in the world. We're creating opportunities for
+other people to do things just by existing. And what you said just made me realize that, like, it's the creative
+opportunity that like every single interaction provides, um, which is causing things to move forward. It's like me talking to you
+right now, like you're presenting an opportunity to me, and it's a creative opportunity. Like the way I'm addressing this
+conversation is actually creative because I'm trying to figure out like, what is actually something that I can create here with you.
+And also for the audience. Um, that's like not existing in the world yet. Like, that's why I'm having the conversation, like it already existed in the world.
+There'd be no point to have the conversation. Um, and it's kind of interesting that, like, everything is a creative act. Almost everything is a creative
+act in that sense. Like, everything you confront confronts you with a new opportunity to do something creatively.
+And that is that is really interesting how it's starkly different from the perspective of like GPT or something like it
+doesn't look at it wouldn't see things that way at all, which is really bizarre, you know, because I think a lot of us do see,
+like each, each interaction that we have as a new creative opportunity, although no one would probably articulate it that way,
+because it just occurred to me now, even to think of it like that. Um, but that's just like very deep in human nature that like, you want
+something new to come out of this. Not the same thing you just did yesterday. Um, and that's just not
+intrinsic at all in the AI. It's not trying to do that. So, yeah, it's not going to be a participant in the advance of things,
+of society, of culture and civilization. It's just not going to be a participant yet. Um, until we address that. Yeah. Although final point on that, I think
+Creativity
+the autonomy gap is quite interesting because people anthropomorphize AI. They think of it as an agent, or it could be an agent if only
+you gave it autonomy, even though they don't have agency. So they do silly things when you give them autonomy.
+But, um, you know, at the end of the day, people confuse combinatorial
+creativity with inventive creativity. And and also people confuse where
+the locus of the agency is. So it's more like a paintbrush. If I use a language model, I'm giving it the entropy.
+So I'm entropy smuggling from my physical and social world. And people kind of get confused and they think, oh, the language
+model is giving you the entropy. No, the entropy came from you. It might be surprising what it what it gave you. So yeah, you know, it's still interesting in the sense that
+they are tools which have become established in our kind of ecosystem. But they're not agents and they don't they don't do things on their own.
+Yeah. Yeah, yeah. I agree that they, they have what you might call combinatorial creativity. Like they can combine two things
+and sometimes it's it's really entertaining. Like when they do that. Um. Often though the things that
+they combine are because you ask them to combine them. So it's actually the real creative seed was from you, but then they do a good job with it. So that's actually entertaining.
+Um, but they can sometimes come up with their own combinations like it does happen. Um, and but I also agree that
+that's not transformational type of creativity. This is like a lower grade of creativity. But like even beyond that, I think the real problem is they don't really
+understand what's interesting. Um, like, regardless what kind of creativity we're identifying, like, I think this relates to things
+that Bowden said about creativity. Um, but like, regardless of even that, like, it's just they don't really understand what's interesting.
+So they can come up with arbitrary combinations. But it's not because they really have an intuitive sense of this is
+going to be interesting to somebody. Like often there are things that already were combined by somebody else or otherwise are just like
+totally arbitrary and are only interesting because an eye did it, but not really interesting in their own right. It's not like something you would ever be like, oh,
+that was great that you came up with this bizarre combination of ideas. Um, you know, like like I had, uh, like, for example. Yeah.
+I mean, one thing I had fun doing with GPT was like having it come up with ideas for movies. Um, it's just kind of funny,
+you know? And they they can be quite entertaining. Like to hear these ideas, so. So, you know, it came up with this idea or I was asked at one
+point to come up with sequels. So it came up with, um, a sequel to The Wizard of Oz, um, where she comes back and the
+wizard is a drug addict, and she has to help him recover, um, from his addiction. Um, and that's like, uh,
+that's just like an arbitrary combination of ideas. Like, it's like it actually really funny because it came up with it. But I don't think that's actually a really interesting idea.
+Um, it's like, doesn't make any sense. It doesn't really follow from, like, the ethos of, like, this kind of like Wizard of Oz, like fiction that like,
+he would turn into a drug addict and that would be like the next book. Um, but that's what it comes up with. So. So it's like that kind of combinatorial creativity it can do,
+but it's not. Yeah. It just doesn't have a sense of true interestingness and novelty. And I think that's deep,
+deep in like a deep challenge, uh, for us right now is to overcome that.
+Um, if we, if we wanted to get to AGI because that that's really like, the star of human nature. Yes. I mean, this is so interesting.
+I will ask you other question a second, but this is this is such a fascinating topic. I mean, um, I think of, uh,
+creativity as something novel, which makes sense. The early versions of information retrieval were kind of content
+filtering, and then it became more collaborative filtering and the kind of the bright line, I think, between those two worlds
+is one is is a social concept. So, I mean, for me, creativity is
+about the instantiation of a durable social concept, which means it's
+recognized that the relevancy is is kind of like social proof. Right?
+So, um, everyone thinks it's a good idea, so it stays and you get these weird phenomena where, you know, things go viral only
+because of the social proof. So it's got nothing whatsoever to do with the content of the thing. It's just because everyone else
+thinks so. So yeah, like maybe creativity is purely just a kind of social ranking function and nothing
+whatsoever to do with the entropy or the the embeddedness. I don't totally agree with that because I don't like consensus,
+like in creativity. Um, like I think consensus is, is anti creative in some ways. So like if everybody agrees something
+is really cool, that's consensus. Um, and so those things matter.
+Like things that we all agree on like those can be actually valuable creative products. So there's no doubt about that.
+But the problem is that the process requires some things that not everybody agrees on to actually get to see the light of day.
+Also, because those are stepping stones to things that everybody agrees on. You know, I mean, it's often the case
+that like some major breakthrough came from somebody who did something that nobody agreed on. Um, so we need room for things
+that we don't agree on also, which is why we need a diversity of interestingness detectors. Like, we don't want just one.
+Um, and this is like, yeah, this is why this is such a hard problem. There's not a universal sense of interestingness that we could
+actually formulate. I think it's it's like a set. That's why I like population based, like you mentioned, I like population
+based things like, I, I, I'm suspicious of everything being put into one single convergent system. Um, even though that that gets into
+really interesting questions about whether there could be such a like, like a super brain that just encompasses everything that
+civilization does in one mind. Um, but I think even if it could theoretically exist, it would be incredibly complex to actually
+construct compared to a population where there are actually like walls
+between different parts of it. Like that makes it a lot easier to have this bubbling up without consensus.
+Um, and so it's not that no one should care, you know, that's not like it's not like the most interesting things are
+things no one cares about. It's that there should there are different niches of expertise, like in different niches of, uh, you know,
+of esthetic preference and like, they're all somehow good to have a. Round because they flow into each other and then build on
+each other and intersect with each other over time. Could could I just ask another because I agree with you that.
+So collaborative filtering, the way it's implemented, it's basically, um, convergent. You know, it has a consensus mechanism. But but then we were talking
+about whether it's about the content or the social validation. And it might it might have sounded like I was saying, oh,
+it's completely arbitrary if it's social validation. But let's look at Carcinisation. So like, you know, the, the independent, um, morphological evolution of crab like forms.
+Well, the reason why they independently converged in different places in the phylogeny is because they were
+just so physically well attuned, and there could be a similar thing with social validation that it could just be so finely, socially attuned
+that that's the reason why these diverse clouds of memes exist. And then maybe they kind of converge together later on,
+but it's still sort of maintains that diversity preservation that that you, that you think is so important. And I agree.
+Yeah, that that could be I mean, the, the independent discovery of similar
+motifs, um, like crustaceans, um, is. Yeah, is there's an interpretation
+of that where it's because, uh, it's because, yeah, there's,
+it's a generally well adapted thing. And I actually because I usually don't like thinking about evolution in terms of adaptation.
+So that's why I struggle with that, because I, I understand that the adaptation arguments for evolution, but I feel like a lot of the
+adaptation explanations are the explanations for the less interesting parts of it. Like I'm always interested in the divergent aspect of evolution. I want to know why does it diverge?
+And so if you only go with adaptive explanations, you're actually sort of like asking for convergence, because it's like those are the things
+that work, whatever that means. So like that's where we should go. So it's like we should all converge to crustaceans eventually because
+it's such a well adapted form. Um, and I think that like actually maybe another explanation of why you see all of those things,
+like lots of different realizations of a similar theme is just because it's easy to make it. That could be it's actually a priori
+like property of the search space, that making stuff like that is just easy. It follows from a lot of different
+paths, so you'll just hit on it again and again, because what we're doing is just illuminating everything that's possible over time.
+Um, and so we'll just see these things and some things are just more likely than others because representationally in DNA,
+they just happen to be taking up more of the space, not necessarily because they're better or something in that way.
+Um, you know, because it's like, what is a crustacean better than a than a single cell? Like there's no really relative
+comparison. They're they both successful in their own right. Um, it's not an absolute competition
+over like, the entire world. And so, Kenneth, you've just created
+Why did Kenneth do Maven?
+this serendipity social network. Um, you know, why did you do it? Setting objectives can actually be bad for creative achievement,
+innovation, or even achieving the objective itself that you wanted to achieve. Um, it can get in the way because
+it closes your mind to all the other things that could lead in different directions, that would actually be opportunistic for you.
+In other words, it can be deceptive to set an objective. And and we did a lot of research in AI that showed this, um,
+algorithmically. But then we wrote this book for general audiences, not AI audiences, although it was meant to be also
+interesting to AI audiences. But we were hoping other people could appreciate it because we started to believe Joe Layman and I,
+my coauthor who worked on me on Novelty Search, we started to believe that the lessons there aren't just algorithmic,
+but are actually social like. In other words, they apply to the way we run institutions, the way that people run their individual lives,
+the way we run educational systems, the way we run businesses and investment like everything, because everything in this world
+is saturated. And objectives, including, by the way, social networks are extremely, objectively driven, like they're
+based on maximization principles. You maximize likes or you maximize followers. You try to maximize exposure by
+maximizing attention, and then you get more and it's reinforced. It's very objective. And so it reflects a widespread,
+ubiquitous culture, which is like worldwide, which is really interesting, um, which is just like we all
+believe in this idol of a, of objectives, that it should guide everything that you do. And the book is arguing that there
+are other incentives and or other, uh, gradients that you should follow, like especially interestingness, like not knowing where you're going
+to end up, but knowing that this path looks really interesting for independent reasons because it opens up a whole new playground
+of possibilities, even though I don't know what the payoff will be. Um, that that is very important to the advance of civilization,
+but it is not recognized in the way that we institutionalize everything that we do. And so, like the algorithmic
+insight led to this, like kind of social critique view. And that is why we wrote this book, because we wanted to we thought
+this is like a big problem. Like he's granting funding agencies run on objectives. Like that's really the most
+salient thing for us because we were like researchers. So it's like when we have to ask for money to do research, we would have to ask. We would have to tell them what is
+our objective, and we'd be evaluated based on the objective, whether it's worth funding the research, which is completely backwards,
+if what I'm saying is actually true, which I'm very confident that it's true. And so I wanted to convey that
+confidence to the world by writing it down and putting all the arguments in a book so everybody could see this. And then it applies to all kinds
+of things is not science funding. It's like investing. It's the way that we run the the country, the way the, our own education, everything I said. So we wrote this book.
+And so this is the beginning of the story, is we wrote this book and a book is old now. It's like eight and a half years old, but around when it was about seven years old.
+Um, that's around where this, this, this idea started swirling in my head of like that I should do this kind of, uh, new kind of social network.
+How did that lead to that? Well, the thing was that over the course of these seven years before I started feeling like I
+should do this, I was the thing that the book did, which might be an unintended consequence, was it created a situation where
+I became the worldwide focal point for people who don't like the fact that everything in the world is objectively driven.
+It's like I was the the place you go to complain about the system. Um, and everybody thinks they're in this system.
+I mean, I shouldn't say everybody. Of course, there's some people who just, like, are invested in objectives, but actually, you'd be surprised how few that is. Like I thought at first, the book
+would be very polarizing and that there would be like these two sides and it'd be super controversial. But I rarely meet someone who
+really is willing to stick up for objectives. That's that's actually quite unusual. So it's actually like the book
+seems to be a relatively popular message that most people agree with. But it's very paradoxical because of the fact that a lot of the
+people who I talked to are people who are literally perpetuating this objective system, and they actually hate it, you know?
+And so I started to realize this, like, but but the reason that they perpetuate this system is because everybody feels like they're locked into it because of the next level up, you know,
+so you could talk to some somebody who's running like some, you know, sort of like billion dollar like government federal lab or something.
+And they allocate money very objectively like to projects. But but if I talk to that person, they're like, I hate the way
+this whole system works. Like, we would love to change things like the way that your book describes, but we answer to Congress,
+or we answer to an executive, or we answer to like our investors or like it depends what organization is, but everybody feels like they answer
+to someone, and that someone they answer to is objectively oriented. And so there's no way to just do something radical and just like,
+tamp down, uh, tamp down those objectives. Um, and so, of course, um, you know, you what I'm talking about is
+just tamping down I'm not talking about eliminating objectives from the face of the earth. We can still we can, we can we can
+split the difference to some extent. We need to move the pendulum a little bit in the other. A direction's all I'm saying. So this is not like I'm saying like get rid of all objections that that
+would be a kooky thing to say. Um, but like, even moving the pendulum seems to be very hard. And so I got to meet people at
+all the levels, like at the top levels and the bottom levels, everybody affected by this system, and they all hate it.
+They're all sick of it. And even in, like, their personal life, like they don't, they feel like they they can't
+actually just do things because they want to just do them because they're fun or explore, like they have to justify everything they do.
+This is particularly true of adults. You know, the the younger you go, the less this is true, which is one of the sad things like if you're
+five years old, this is not true. You just go to the playground and you do whatever you want. You don't care what it's going to do for payoff. Um, but this is basically sucked
+out of us over the course of our education because the education system is extremely objective. Um, and so, you know,
+I met people at all levels. You know, I met people from like, I would meet diverse walks of life and also diverse age groups.
+Um, like, I would meet people like artists and doctors and retirement planners and military planners, like I met such a diversity of
+people, but I met everything, you know, from like, the most senior person to like a 14 year old high school student.
+Um, and like the 14 year old, actually, I met because his grandmother found me from hearing some of my stuff and,
+and asked me if I would come talk to her kid because he's too obsessed with objectives to her grandson. Um, and that was just, like,
+really surprising, you know, like, each one of these things is like a revelation for me as an because it's like, you wouldn't expect an AI
+researcher to have experiences like this. It's like a therapy session. I mean, these people came into my office and we had therapy, basically.
+I, you know, I basically snapped him out of the objective fixation. Um, and it was really interesting to me to, to experience that, like to
+see, like what it does to somebody because you're literally changing someone's life in 30 minutes. Um, and that's really
+fundamentally interesting. And so after experiencing these kinds of things over years, like seven years of this,
+you can imagine this is like messing with my head in a way which is different than like AI research. It's like a parallel life I was
+living. Um, I was seeing that like, you know, there's a huge demand for a more serendipitous world because,
+like, what we're really talking about here is serendipity. Um, you know, because when you talk about good things happening
+that aren't planned because you don't have the objective when you get to them, that's like the definition of serendipity. So unplanned greatness basically, which is, you know,
+it's not a surprise. The book is called Why Greatness Cannot Be Planned. Um, and so like, I think what people really wanted was more opportunity for serendipity.
+You know, a lot of people argue that serendipity is random. So for a lot of people, that would be a nonstarter from a business perspective, because you can't package randomness,
+like sell it to people. But the thing is that, um, I believe because my all my research and all the things I've been doing to me,
+serendipity is not random. Like that's a very important thing. Serendipity is, is something that that is that can
+be increased in probability by increasing the number of stepping stones that you collect in your life, or the number of stepping stones
+that we collect as a society. This jumping off points that are interesting. The more you have at your disposal
+that you've been exposed to, the more places you can get. Which means you're more likely to experience serendipity.
+That's why some people seem so much more luckier than others. It's not just an accident, like they put themselves out there
+collected more stepping stones. They've basically increased their serendipity surface so that it's more likely something chance
+will happen. That's interesting. Um, and this is why, by the way, like if you go to Wikipedia and you look at like the serendipity
+Wikipedia page, your salary convention page, there's a book on, uh, sorry, there's a page on this, like, serendipitous invention.
+It has like a whole list of, like, inventions from people that were serendipitous, you know, like the microwave, you know,
+was invented because somebody, like, walked by, like a radar device and it, like, melted a candy bar in his pocket. And.
+And what's really interesting about it is that if it was true that serendipity was random, those would all be just totally random people.
+But they're all really smart, really accomplished people. Like across the board. Like, that doesn't make any sense.
+If this is a random process, smart people have more of an opportunity to be exposed to something. Um, and by smart, you know,
+I don't mean conventional smart. I just mean people who actually do things that are interesting, which isn't necessarily conventional
+IQ or something like that. Um, those people have just more chance. More chance. And so serendipity is not random.
+And so coming from that perspective, I started thinking we should be able to do something about this. Like, everybody is so unhappy with
+the way that the world works. Um, you know, from my experience over years and I'm like, well, wait a second.
+You know, for a while I was thinking, well, this is all a reaction to social critique, but it's not because it's a reaction
+to algorithms, because the book is not a philosophical book. The book was based in concrete algorithms and empirical results,
+which had nothing to do with philosophy, like they were just things that I was exploring for algorithmic purposes. They're totally concrete things that were actually implemented
+and led to these conclusions. And so when I started thinking about this, um, like a, like a, like a year and a half ago when
+the book was seven years old, I started to feel like it because
+it comes from algorithms. It should be able to to swing this back to algorithms. Like there should be a systematic
+way to construct a world that works the way it should work, because everybody is so unhappy with the way the world works.
+And so I started trying to think like, what could that possibly be? What does that even mean? But then it was the first thing I
+thought was, well, it's going to be it's going to be on the internet because I can't algorithmic wise like the world itself.
+So something has to be different about the internet, like the internet could work in a different way. So then I was like, oh, it's just a network. It's some kind of new,
+new kind of a network which exposes people to stepping stones in this more open ended way, which is like inspired by open ended algorithms.
+It's inspired by things like a novelty search or minimal criterion types of algorithms. Poet like, it's inspired by these kind of insights we've had over the years.
+Um, and um, and then it could be wrapped around people through a network, um, to make the world work that way.
+So then I thought, oh, that's a serendipity network. That's like a cool idea, a serendipity network. It's like a thing you could imagine. But then the next thing I realized,
+which is, is that, well, obviously, like within a second I realized that's a new kind of social network, because as soon as you connect
+people in a network and it's information moving back and forth among people like that, that's basically a social network.
+So a serendipity network is a social network. Um, but what's so fascinating about it, at least to me at the time,
+is that the trajectory of thought that leads to this has absolutely nothing to do with social networks up to that point.
+It's a totally independent trajectory of thinking, like social networks has this whole history of decades now of thinking about
+mechanisms and stuff to increase engagement and blah, blah, blah. And that's why we have likes and follows, and it's super objective and it reflects the overriding, prevailing objective culture we
+live in. It's like just that started to seem really interesting to me, that this is just another angle of the same
+culture that we're seeing, that we all accept and assume as normal, because it's been beaten into us, that everything has to be objective.
+That just seems natural, but it doesn't have to be that way. Um, and so I started to think the Serendipity Network is a counterpoint
+that's like really interesting. So I see you have something in your mind. People presumably see this
+Agency + Politics Lens
+differently. So some people have come up to you saying, I really hate the way society is run. And you were giving the example of creatives and artists.
+And a lot of that is because it's not possible to quantify what they're doing. But I like the lens of agency. So what you're basically saying is,
+um, you want to live in a high agency society. And that's because the more agency you have, the more serendipity you have, the more stepping stones you collect.
+And then it becomes a political thing, right? So people on the left, they don't think we have any agency and people on the right, they they want a high agency society.
+The reason they don't want a government is because what does a government do? It erodes your agency. It's kind of like a agency eroding.
+Well, you know, it's that is an interesting point that I have not I've rarely addressed the connection of any of this to politics.
+It has come up in some rare occasions, actually, but very rarely like it's come up because there are specific cases
+that have happened where somebody's very political did come to me, uh, excited because they thought the book justified their point of view.
+Um, and in some cases, it was people who I totally disagree with their political point of view. But it was really interesting to
+me that, that they they saw the book as sort of empowering to them. And I've seen that on both sides. Um, and so rarely have I
+discussed this, though, um, and I want to point out though, that, like it it is the book is very apolitical because of the fact
+that I see this on both sides. But if you really dig into this, you know, I think what you just did by, by by putting agency as sort of
+like the, the abstraction of what I'm saying, you, you succeeded in couching this in a way that that would potentially bias people
+one way or another politically. So you've basically just pushed it to the right. Um, but I don't think that
+that's what people usually do. That's your interpretation of it. Not not not to the right necessarily. I think it's more of a, um,
+Agency Deprivation on Left and Right
+the words authority and paternalist, paternalism and autocracy. So in a, in a company, we run companies in a very autocratic,
+paternalistic way. We have, you know, like big corporations have, um, lots of ethics boards and,
+you know, policy boards and, and I think the justification is it's about control and alignment. And even with Facebook,
+for example, there's there's power seeking behavior. And the way you gain power is, well, the way you subjugate
+people is by taking away their agency to give you more agency. But you see this on the left hand. Right.
+So on, on, on the left you, you get kind of like, you know, um, you might be a, um, like Chomsky and anarcho syndicalist
+and you want a diffusion of agency, or you might be like Mao or Stalin or whatever and want to have like, you know, you don't want anyone
+to have any agency. So I think you see it on both sides. Yeah. That's that's right. Yeah. I think you see you see agency
+deprivation on both sides. Um, and so like, you can, you can interpret, you know. The book with respect to agency
+as sort of an argument against whatever side you want. I think, you know, because like, it's true that, you know,
+like I've heard this more right leaning argument, like, like that, that sort of like the book seems to enable, um, that like there's
+a lot of, like belief in top down planning that like, is like sort of leftist kind of belief that like, you just have the government plan
+everything and, and that this book sort of like disabuses all of that. So this is really great. But on the other hand, like from, from the left side, like you have this idea that like,
+exploration is extremely important in life, you know, and you think about like things like youthful exploration and it
+involves like doing things that you actually want to do, um, which could involve things like doing drugs. It could involve things like
+having partners in different forms that aren't necessarily socially sanctioned in the way that people on the right
+necessarily want them to be. Um, and so you feel this kind of like also attempt to kind of like control autonomy coming from the other side.
+Um, and so, you know, and it's true, like, if you go to either extreme, like obviously like you can have dictatorships on the left or the
+right or autocracy. Um, and then you get a lot of control and a lot of different ways, but it's a different kinds of control because there's different, different kinds of political
+inclinations there. Um, that I think I want I would like this book in this point to be totally apolitical, because I
+don't think it has to do with any particular political movement. Um, I think all of us can agree on this, which is rare, that we all want
+to be able to explore things that are interesting. Um, and it's true. We have to put limitations on that. That is true that that's what
+society needs to do. And I think every side would agree that some limitations are necessary somewhere.
+But we can we can disagree on what those limitations are. And that's left versus right. But the general point that we want to
+maximize our autonomy and ability to explore is still important, I think. And we can then go on to interpret it politically in terms of what those
+restrictions should be. Yes. Yeah. And I wrote an article recently
+and I was talking about the strange bedfellows, um, in, in the free energy principle. But that was just that you get
+people on the right who are, I don't know, they believe in crypto and decentralization and so on. And, and you would actually think
+that these people are arguing for, you know, agency maximization. But the interesting thing, though, is that when you look at the
+behavioral complexity of the sphere of the left and the right, all of the complexity is actually on the left. The left has this tendency to
+infinitely fractionate and kind of produce entropy. And there's a famous saying that the left eats itself,
+and that's kind of like, you know, almost saying that they're spending more time infinitely kind of, um, slicing and dicing them up
+and creating complexity, whereas the right is, is very, um, monolithic and homogenous. Yeah. Uh, okay. Yeah.
+I mean, I could see that. I mean, you know, and like, like the concept of a social experiment, like, you know, the left sometimes
+wants to do social experiments, this is actually exploration. It might be interesting actually might be bad,
+but it could be interesting. Um, and the disagreements come with this idea of where to put the constraints, you know,
+because I think we should all agree. I mean, algorithmically, I totally agree that open ended systems need to be constrained.
+Like there's some things you can't actually invest in. They're too dangerous to invest in. So we just won't go there.
+Um, and you know, even evolution has that. Like that's why some lineages stop. They basically have run into the constraints of the, of the physical world.
+Um, and so it's a question of what the constraints should be is really the political debate. Um, I mean, obviously in open ends
+goes beyond politics, because if you're building an algorithm, it's generally not a political issue. Well, it's becoming one because
+AI is becoming political. Um, but a lot of the time you just wanted the algorithm to do what you want it to do. And it's just nothing to do with politics.
+But these issues still come up. It's going to be open ended, it's going to explore, it's going to be creative and it's a creative algorithm. Then you're going to deal with
+what the restrictions should be. It's just not really political. In that case, it has. It's just more of an algorithmic question. But constraints just come up and
+we really fight with each other a lot about them. Um, but I've been I've been extremely happy that the book has
+remained effectively a political, um, because it allows it to make a general point that doesn't just get everybody that we don't
+immediately form sides on. Like, that's something I really would like to avoid because it hasn't done that yet.
+Um, like, we tend to like, do, like form camps immediately around every issue, you know, you don't you can't.
+It happens like lightning fast. It's like Covid happens, like everybody's on one side or another. It's like instantly, like we're all
+mad about one thing, but like here, like it hasn't happened. And I feel very happy about that because it's a social point that
+we could actually rally around here no matter what side we're on in politics, because not really a political point.
+You know, deep in your core, deep in your core. Why did you do this thing? Uh, well, I think so.
+The Ultimate Divergent System Is the World
+Deep in my core. Uh, the the the well, there's a number of things, um, it's even though it looks on the
+face of it like this is not a natural thing for me to do. Like, I remember somebody when I first tweeted about Maven,
+like somebody said, wow, I never would have expected him to do that. Um, and I can see that if. They simulate what people would
+think I would do. But the thing is that it actually really follows very naturally from who I am, because I've always been interested in these kinds of divergent systems.
+And like the ultimate divergent system is the world itself and the people in it. It's the people in it who do the
+surprising things, who invent the things is to facilitate that in the real world is like the sort of ultimate extreme of like
+investigating open ended systems, even though it isn't just pure AI, because obviously, if there's people in it, then the AI is coming
+from the people and the system. So it's not it's not only people. There's a system too. That's like connecting those
+people in an intelligent way, which is drawing from insights in AI. But it's not just pure AI research, but for me, it's basically an
+extension to the extreme of like, let's do the ultimate open ended experiment you could possibly do today.
+Um, and so in that sense, it's like really invigorating for me, like an experimentally, but also the thing that really appealed to me,
+which is I think is deep in my core, is that I was, um, like everybody
+I was starting to feel the, um, the, the social implications of
+AI more strongly. Um, like in the last couple of years. Um, and like, as somebody who's been around a little longer, um, like for
+a couple of decades in this field, I, um, I was used to not that not
+being part of it, you know, like, so. So it might be more shocking for me, like someone growing up in AI today might, might be less shocked and just just kind of like the way the field is.
+But for me, it was it was more like just like a playground where people were friendly and doing intellectual stuff.
+Like it wasn't like this polarizing political issue, like it was I going to go. So when that started to hit, you
+know, around the time of GPT and then Jet Chat, GPT just exacerbates it. A large language models and and then the image generators too.
+And like a very strong political ideologies start to grow up around it. Um and concerns and worries
+about things like ethics and safety and so forth. It was complicated, you know, to to square that with the way I
+thought about it before and it made me feel uneasy. I would say, um, because suddenly things that had
+just been really for fun, it became like really serious in my mind. Um, and I, I hadn't really grappled through, like, what exactly?
+I think because it's hard to really conclude on some of these things, like, what should we do? It's very complex.
+So like, unlike a lot of people who seem to immediately take like certitude style of views, I just like take a long time to
+decide what I think, um, on complicated topics like this. So I was like, not really in a camp, exactly, but just really trying
+to understand, um, and I just felt like I would just like to do something that's just, like, clearly socially virtuous like that.
+It isn't ambiguous in this way for a little while. Uh, well, I don't really know what's right or wrong.
+Um, and it just seemed like that, like doing something to make,
+you know, humans and the way that they interact with each other more human is just like an obvious, virtuous thing to do for the world.
+It might not work. I mean, I admit that, like, I could be wrong about how it's going to work, or it could fail,
+or it could even, like, succeed in a bad way, where it's actually unintended consequences overwhelm it. But at least what I'm trying to
+achieve to do something to facilitate communication that's different, that's serendipitous. Rather than popularity and
+attention driven. I feel very confident that that's a good thing. It's a good thing to be involved in, and it uses AI and it's open ended. So it's still using the things
+that I think about. And so it just seemed like such a good fit for the moment. Like to actually like take AI and
+just do something that's nice. And um, and then it just puts all the things together that I care about. And the only downside to it is
+that it's ridiculously ambitious and likely to fail. But other than that, it's a really, really good thing to try.
+Quick point on that, because a way of reframing what you're what you're saying is that living in a agency, amplifying society where people can
+Why is high agency social good?
+do what they want to do without being stuck in the orbit of other people,
+and that will have the effect, as you were saying, of increasing the behavioral complexity and diversity of knowledge and diversity
+of everything, diversity of stepping stones in our society. You're making the the kind of the statement that that is a
+virtuous thing to do, like that, that is what we want. But in simple terms, why is that a good thing?
+Yeah, right. Thanks for asking that. Um, yeah, I want to be more clear about that, you know, because just increasing like, serendipity surface
+is a kind of an abstract concept. Um, it's I think it's cool. And there's probably some people listening who think it's cool to
+think about, like, a more open ended type of network or something like that, where you have more discovery, more diversity, more divergence of thought. But like,
+why is that virtuous is the question. And when it comes to being virtuous, it's because it's a counterpoint to all the other stuff that's going on
+on the internet and social media. Um, and like all that, it's sort of, um, a coincidence because because that wasn't what was motivating me.
+Um, like when I like, thought about this at first, you know, it was more the kind of like why greatness cannot be planned
+and stuff like that, but but like once the idea came into my head, it was obvious that it is a counterpoint to a lot of stuff
+that is not virtuous right now. Um, and it's because of what is social media doing to us in our heads and doing to our society has become,
+um, like a rallying cry, like again, across left and right, like everybody sees that there are problems here. They may disagree on the problems to
+some extent, but we all recognize some of these problems universally, um, which are just bad for us. Like, and they span, uh,
+like a really wide range from, like just mundane things, like the fact that you just spent hours of your day addicted to something when
+you could have been doing something else to like much more dangerous things like disruption of democratic processes and things like that.
+Um, and you've got things like clickbait and you've got things like flame wars and you've got misinformation and you've got lots
+of things but toxicity that like, make you feel similar to, to me, it's like after if you just like, couldn't stop eating a big
+chocolate cake and just ate the whole thing in one sitting, it's just like you feel a little sick after you consume that feed.
+Like the doomscrolling. Um, and we all recognize it and describe it in different ways. You know, it's not the same for all
+of us, the way we see the problem. But I think we all know that there are some kind of problem here. And I think I've come to
+conclude that the reason there is this problem is that it is the unintended consequences of the deceptive objective.
+Like we think that having a the objective of maximizing likes and maximizing follows is a steady path to the ultimate best thing
+that you should be exposed to. Like that's the search process is we're going to get consensus, and we're going to show you the thing
+that's the most important of the day. And that that is actually that is actually a coherent thing to be doing that,
+that gradient actually makes sense. But it's a complex system and this is deceptive. And so we are seeing all of this
+stuff that makes us feel pathological is because actually that objective does not make any sense. It is a deceptive objective like
+all other deceptive objectives. And what I could do is help us to, uh, escape that and have a different alternative way for
+the world to work. One reading is it's just the wrong objective. It's a deceptive objective.
+Agency or Deceptive Objective (FB)
+So trying to create a system which is a high fidelity representation of how the world works. But Facebook have got this
+deceptive objective that just brings out all the worst in us. And, you know, I think I think we intuitively know that it makes us unhappy. But is it because of the erosion
+of agency? Is it because of the particular deceptive objective? I mean, I guess there's a thought
+experiment where what if it was a different objective, which was more closely aligned to how humans work? So is it the lack of agency,
+or is it that particular deceptive objective which is causing the harm? Well, it's it's a really complicated topic, obviously,
+because the the implications of the objective are really multifaceted. So it's not like there's just like one thing that this, this relates to,
+um, it's multi-dimensional. And so, um, there are some good things about it, you know, like I it's not like
+all ubiquitous bad news. Like there's some good things about social media, in fact, like, I would not advocate a world where
+everybody just shifted over to Maven and just dropped all the other social media, like, I don't I don't think that's good either,
+because it accomplishes some things that actually are good. Like for example, like I think it's useful for getting announcements out,
+um, like if you want to reach an audience and you have an important thing to say, and it's the people who care about the things you say,
+then this is very convenient that you have this megaphone which is provided by these systems that maximize followers and attention
+and things like that. Um, but it doesn't work for most people, you know, because it's very a tiny, tiny elite minority.
+You have the megaphone, like, those are the people who've attracted all the attention. And then the perverse incentive of it is that getting attention requires you to do things that I
+think like relates to what you're saying reduces agency, you know, because like, if you were really just being yourself,
+you wouldn't do those things. You wouldn't do those things in public, even like you're doing things that are actually embarrassing.
+Um, and people are doing it every day because your agency is reduced, because you're responding strongly to these powerful incentives.
+These incentives are, like surprisingly powerful. Like, I don't think anybody would have known, including the founders of these services. How powerful. Just a like is on the human psyche,
+but it's like it's a truly like, you know, hardcore drug. Um, and it can get you to do crazy things.
+Um, and so, like, you know, at first I think they might have sincerely thought this will actually lead to better content.
+Like, that's like the key here. We need a differentiator to know what's good. And this is so easy. Like you just have some press a
+button and then we can like get consensus. And it's just it's not like this is some like maniacal plan to control the world. Um, but like it has it turns out
+it's like a really powerful drug and it's reducing agency, you know? So like, it's from everything from the fact that, like, you know, you've
+got people you respect who are just, like, dribbling with clickbait. Um, which is embarrassing at some level because they're just
+responding to the fact that's what they need to do to get a megaphone, um, to things that I think are like more on the humorous level,
+which is that like something I didn't realize is that, like the truly pinnacle achievement in the world for like, the, like the most,
+the most accomplished person you could ever imagine would be to just have one little quote in one of those books of like, famous sayings like,
+that's what people really want. They just want to be like, you know, when you hear a quote of George Washington or something, they
+just want their name beside that, with their little pithy quote. And you see these these like wannabe sages every day with
+their pearls of wisdom, like dribbling out onto the internet. It somehow, like, even though they're like, like the most famous people
+in the world, they have, like, a Nobel Prize, but they just got to keep letting you know, like, I've got really interesting things to
+say that is not normal behavior. Like this is all responding to, like, this really deceptive, this really deceptive objective.
+Um, and in some ways a little embarrassing because to me, it diminishes the greatness in some way to see people acting like that.
+Like, I would think they're like above it in a way like these are, these are the great role models of our time. Um, and they're acting in this way because it shows we're all
+just human. Um, or at least I would have thought they were. And so I, I think, you know,
+like all of this is, is a reduction. And then another thing that reduces our agency is this, like the mundane fact that I would like to
+pursue things I'm curious about, but I don't feel like I can. That's clearly a lack of agency. Like when I tweet or something,
+you know, I have enough followers that it could be useful to tweet something because I can reach a number of people.
+Um, and so but because of that, I feel like I can't tweet certain things, um, because I know what their expectations are.
+It's like I'm a brand. That's why everybody talks about personal branding. I mean, what a disgusting idea to brand your own self. But this is like, considered
+just like normal stuff now. Like everybody's branding themself and you can't avoid it because you're going to lose if you don't, you know, like, because I might have some interest in washing
+machines or something, but I'm not going to I'm not going to start talking to my followers about that. Like that's not what they expect
+from me. It's going to be total disappointment. And I know, I don't know what I'm talking about too. So like part of my like, you know, brand is that I know what I'm talking about like everybody else.
+So if I start saying things that are like way off base and ridiculous, you know, I'm just diminishing my brand and,
+like, actually, the guy's an idiot. And so I'm embarrassed and I don't want to do that, but I actually might be curious about these things,
+like, where can I go to just talk about things I'm curious about is actually really interesting that I can't do it there. Then you've got this huge population, 99.9%, who don't have enough
+followers that they even could get their message out and are like, totally disempowered and have no agency at all.
+Um, you know, they actually have interesting things to say. Not all of them, but a lot of them do, obviously, because some of them
+don't even want to play that game. That's why they don't have their megaphone, but they still might have something interesting to say. Where can they go? So I think all of us have a
+really diminished agency in this, like totally deceptive, objective culture, um, which I think is like a really cool opportunity.
+It would be virtuous to fix that. I'm not saying that I know I can fix it. You know, I, you know, I'm like this savior like figure, like, that's not what I think.
+I'm just saying it's worth trying to do something about this that is virtuous to just try to try to create a real alternative. Yeah.
+YouTube Debasement
+That was that was beautiful. But yeah, just to comment on what you said, it's so true. I mean, what's even more interesting
+is how quickly it's become received wisdom and accepted by everyone. Like, um, LinkedIn, for example, they're giving out these top
+voice badges and people are now, you know, they're it's their full time job to be the marketing department for OpenAI.
+So every time a new model gets released, they'll use GPT and they'll generate a press release. And and then they've become a
+top voice on LinkedIn. And I always thought that YouTube was quite immune to this because YouTube does actually, you know,
+um, it optimizes for satisfaction. You get some very interesting long form content. But what little did I know,
+the more I learned about YouTube, the realize, the more I realize how debased and deranged it is. Because you start learning about
+thumbnail optimization and clickbait titles and how important the first five seconds are, and how you're doing this
+psychological manipulation. And actually just look at all the popular videos on on YouTube and it's just garbage. It's just debasement.
+And also it's it's debasing our behavior. It's lowering our moral standards in many ways and all sorts of weird
+stuff like that. And nobody notices. Yeah. Can I add to that? Because, um, there's also an interesting thing about that, like
+YouTube, when you think about that, that intuitively you would think that it would contribute to like another places we've talked about
+like open mindedness and how it contributes to the continued march of civilization, like more diversity, more divergence of ideas,
+more interesting things going on. So you would think YouTube is like going to absolute like pour rocket fuel on that.
+Like that's what I would expect. And to to a little extent, you see pockets of this like you do see certain new stepping stones
+that you wouldn't have seen before because there's such a vast amount of like opportunity now to reach an audience with something that
+hasn't really been tried before. Um, but somehow something about
+culture also seems broken at the same time, you know, because like, where are all the new musical genres that used to happen?
+Like, they don't seem to be happening anymore? Um, like, like things seem to have stopped somewhere around the year 2000, like I was, you know, I was saying like that, like in rock music,
+you used to have, like a new form, like every, like 10 or 20 years. Like what happened, like, the radio sounds exactly the
+same as it did 25 years ago. Um, and like, I think part of it is that this is another side effect of these kinds
+of objective driven algorithms. These are convergent algorithms that the like aggregate effect over decades with millions of
+people is incredibly hard to understand or digest. But I think we are actually seeing the aggregate effect now that like,
+it's actually causing a kind of like slowdown of cultural progress, um, and convergence to, like, already agreed upon standards.
+That is just like really deleterious to, to, to cultural and probably other types of progress that otherwise
+would be happening. That's so true. I mean, you could argue that it's a kind of continuation of globalization in general, but we've
+certainly seen this in the UK. So we used to have quite a distinct culture. And since even since MTV and
+cable TV and so on, but even more so since YouTube, there's just this global monoculture now. And I completely agree with you
+that all of the interesting diversity preservation has gone and everything's just becoming the same, um,
+slave to the algorithms and all that. So yeah, it's um, it's really interesting. The other thing I wanted to comment
+on is even things like our search engine and our infosphere, um, if you think about it, where's all the new information coming from?
+So, like, now we're using things like perplexity or we're using retrieval, augmented generation on top of the search results.
+So no one's looking at the search results anymore. No one's looking at the individual pages, and they're kind of cannibalizing each other. And now we're producing this
+thing where there's there's no fresh information to build the search index anymore. Right. So we're just kind of like feed,
+you know, um, garbage in, garbage out, and we're kind of eating our own poop to a certain extent. So, um, it almost feels like there's
+going to be a mode collapse of, of all of the information. And the reason for that is, as you said, we now have, um,
+an entropy and agency minimizing society, which is the complete opposite of what we need. Yeah, yeah. It's like ultimately it's a kind of a
+permission not to think is what it creates like to think for yourself, because everything's been ranked and everything's been already classified
+and there's already mass consent. Like, how can you disagree with a million people? Um, it's like it's already consensus.
+Like it's just you come in and you're like, this must be the best thing. And of course, you still have your own brain and you can still be like,
+I didn't really like that, even though everybody else seems to like it. But the truth is, it's having a massive effect on you. Um, like the fact that every
+single thing that, like, comes out even like a single sentence that somebody tweets out, like in the middle of a conversation
+is ranked. It's it's insane. Could you imagine if that was, like, happening while you're at the dinner table,
+like you're having a conversation, like numbers appear above people's heads while they're talking? Like, let's see who says the best thing to say. It would totally distort you.
+I mean, you would you would be mentally deranged from something like that. But that is what's happening. Um, that that's the way we experience
+the world on every level from like, like a, like a big new movie to like a single sentence on, on, on on X and it's just a, it's a,
+it's a crazy pathological perversion of human nature, um, which is being just, just totally like, like forced upon us.
+Um, and so, so yeah, like the idea, like some people can't even imagine there's an alternative world. It's weird because, like,
+25 years ago, there was an alternative world like, this stuff didn't even exist. Like I used to socialize, I think.
+So I had social, I had social, uh, social experiences, and there was no, like, buttons. And but now it's like, well,
+there is no such thing as, like a social network without a like button. Like, what the heck does it even mean? That's that is what social is.
+But there are alternative worlds. And I think, um, you know, I feel like it's possible to, to pursue one, um, in my case,
+like, the problem is it's really dangerous to, to pursue them because they seem crazy. It's like if you just say, oh,
+well, Facebook would be better if you got rid of like, button. If you got rid of reactions, you'd get rid of following your friends.
+And but it's like that's better. Like what. What is that like that's the whole premise of the whole system.
+Like I will not be able to sell that to Mark Zuckerberg. He won't do that. Um, and so like that's not that is so dangerous that that's why
+I think nobody's trying any alternatives because it sounds crazy. But the reason that I feel like I'm empowered to actually do
+something radical like that is because I came to the conclusion in the framework for it, not by trying to undo what already exists,
+but just a completely independent trajectory of thinking, like, I have nothing to do with all that stuff. I wasn't trying to get rid of it.
+I was just thinking about how serendipitous systems work. I was working on open end algorithms for decades.
+Um, like, I just have a trajectory of thought that just totally independent. And it just leads me to a point which happens to be different. And that's a reason that it
+isn't crazy. Like it actually comes from thinking it's not just I'm just trying to overturn the status quo, because those kind of that kind of radicalism often is just like
+doomed for failure. But I have like just a different set of thinking. And so, like, I think that that gives some hope that like, an alternative world could exist.
+Um, and it's worth a try, you know, worth a try to, to give this alternative and see what that might actually be like. It feels to me that human beings must be better than chess computers,
+The Space of Creativity, Measuring It
+and we just don't know yet. We haven't proven it yet because human beings have creativity and chess computers don't.
+So presumably there is something a human could conceivably do that would break the chess machine. We just haven't found it yet.
+And what? You know, my read on what you're saying there is that there's almost no scale when it comes to creativity.
+If you're doing something creative, one thing which is creative isn't necessarily better than another thing.
+Yeah, yeah, that's a good way to put it. Like, it's totally true. You know, it's like when we talk about evolution and we talk
+about fitness, we think of it as like this absolute measure that like helps us to understand, like why something survives,
+why something doesn't. But think about it. Like when you think about creativity, like think about it like between like very disparate species. It's like a meaningless thing to
+talk about, you know, like the fitness of bacteria versus the fitness of a human being. It's like, what do we even mean?
+Like, maybe we could mean that, like, the bacteria actually reproduces at a much faster rate. And actually,
+any given bacteria has many more offspring than any given human. Like there's different ways we could talk about. So there, winning. I don't know if you want to put it that way.
+They have more higher fitness than actually in absolute numbers. They also there's like way more bacteria than humans on the face
+of the Earth. Uh, but what's the point of this comparison like it's the creative aspect that's actually
+the interesting. It's like we're missing the forest for the trees. We're trying to be extremely objective. And of course, you generally wouldn't
+talk about bacteria or humans in that way because it would be ridiculous. But we do that with content, which is ridiculous because like,
+the actual interesting thing is the creative component, not some superficial stuff, like how many bacteria can you count in the world?
+Um, and so it's like these, these like more these orthogonal dimensions, like what humans actually do in
+their lifetime and stuff like that, that makes it worth caring about us, even though we don't actually have as much biomass on the world in total.
+And so yeah, it gets silly at some level in creative, very creative domains. Or when you care about creativity to.
+Try to be extremely objective, to make decisions about what we should focus on, what we should not focus on.
+And if you think about it like the entire social media world works that way. I just wondered whether you
+Market System / Profit
+could bring in the market system and the profit motive here, because you could argue that even in a corporation where the central goal
+is to make profit, there is still even though it's a constrained space, there is still an infinite number of instrumental subgoals that would lead
+to the company making more money. So, you know, the whole greatness cannot be planned. Idea is that we should be
+discovering new stepping stones, and the and the the powers that be in the company shouldn't necessarily be eroding your agency
+and telling you what not to do, but in a purely creative pursuit, or even maybe in a serendipity social network, there really is
+no grounding principle at all. Yeah, I mean, it's very true that
+corporations also face this issue. I mean, because of the fact creativity reoccurs and over and over again in many,
+many different situations. I mean, you can go from evolution to social networks to corporations, like it's just a ubiquitous issue.
+Um, and so, yeah, like even in corporations, like you will have a lot of convergence, obviously, if you have a single objective
+guiding the entire corporation and you'll wipe out things like research labs, I mean, you can't have them. They won't be doing research.
+At least you could call it a research lab. But if they're all basically subservient to the bottom line, it's not actually a research lab, because research means you have to
+do things that actually are not necessarily guided by the final, ultimate short time objective. And that's um,
+or even long time objective. We need to be independent of objectives in order to explore interesting paths. And that's a way of preventing disruption.
+You know, that's why it's strategically important, even though it may seem like it's off path, you know, because it's like, what what do we really care about? And other than the bottom line,
+if this is about profit. But the thing is that like, you won't be having any profits anymore if you're disrupted and disruption
+comes from unpredictable areas, and it's not just about optimizing along the path that you're on. Um, so to prevent disruption,
+you need some ability to look outside and that means, yeah, not caring only about equality maximization principle.
+And then of course, that crosses over, like you say, into social media really strongly because there isn't even a
+profit motive to a large extent. I mean, there has become a lot of profit motive. I mean, there's a lot of people
+who are using their brands to make money on social media. Um, but like from the point of view of the aggregate system or just
+an end user who's just trying to experience something interesting, what does profit even matter? It has nothing to do with what
+you're getting out of this thing. Um, which is partly why Maven is such a risky, risky endeavor. Um, but this is this is, uh,
+going to be, um, arguably better for, for, like, the end user to just be exposed to more interesting things for them
+based on what they are interested in. Um, and get away from the maximization principle that sort of guides everything in the world. Yeah.
+Agency to Power Seeking
+And we were saying before, because you could take a cynical take on this, but but you convinced me before that serendipity is a natural thing,
+because you could argue that, for example, I can go and set up a YouTube channel. And actually, serendipity is
+instrumental to power seeking or me wanting to be famous or whatever. But it comes back to this notion of agency.
+And I want to I want to try one one more time with this, because I just think it's so powerful as a lens to kind of think about some of
+some of the things you speak about. And I think of agency as a thing with preferences or volition, which successfully shapes the world
+around it to match its preferences. So that's kind of what I think of as, as agency. And I think it's really related
+to power seeking. So for example, one of the reasons why things want to shape the world around them
+is because they want to kind of commandeer or even steal agency away from the things around them. And then there's this notion that,
+um, you know, innovation in a sense or in its essence is quite heretical. Right? So, you know, there was this story
+of, uh, I think Giordano Bruno, um, in the sort of, uh, the 16th century
+in Florence or Rome or whatever. Um, he thought that the stars that we see at night are actually quite similar to the sun.
+And, you know, they might have their own planets and even suggested that the universe is infinite. And, uh, you know, there could be
+no celestial body at its center. And he was burned at the stake
+in 1600. Right. So, you know, there's there's the saying that science advances one funeral at a time.
+But I think the reason he was burned at the stake was because such an idea would diminish the agency of the Catholic Church.
+And similarly, you know, when this Einsteinian relativity was doing the rounds in the 1920s, even though Newton died hundreds
+of years ago, there were still people who were kind of like sequestering power and agency, just being on the orbit,
+in the orbit of the legacy of Newton. So presumably they were writing books and reputations were made and so on. And and as soon as you kind of
+tear down that myth, all of their power dissipates. So there seems to be like a real power dynamic to this as well.
+Yeah, I would agree with that. Um, and it's, I mean, we become invested in whatever has given us success or where
+we've staked our career, where we've built our reputation. I mean, it makes sense that that that would matter a lot to people.
+And people tend to have staked their reputation in the previous paradigm. I mean, it's basically always the case.
+I mean, the next paradigm hasn't happened yet. Um, and so if somebody comes around with a new paradigm,
+it's a threat to everybody. It's a threat to everybody with how they've staked their careers. And so it's it's going to be heretical, um, intrinsically heretical. Yeah.
+Um, and, you know, you can see, uh, like growing consensus around
+certain paradigms, like large language models like today. Um, and of course, there's always going to be,
+you know, some, some people, some cranks that are, you know, snipping at the side and saying, like, we, you know, we're going to get rid of LMS or something like that, but those aren't
+really the things that are a threat. I mean, it's more like if somebody really has something creative to say that's like totally out there,
+then that's a threat. And then we would expect there's going to be an immune reaction to protect the status quo.
+Um, it's a problem. I mean, you see that in I mean, that definitely happens in like, you know, the way grant review
+happens like that, like you're reviewed by your peers, but your peers generally represent the status quo.
+So, um, of course, it makes it hard to get anything through like a, like a grant committee, um, to get funded if it is truly heretical, like,
+how can you fund something heretical? Um, and it's just a big problem with,
+uh, the way that, you know, our objective based way of working. Like, if we try to imagine systems that actually can function around,
+um, assessing heresy, uh, in, like, a productive way, that's, like, not the way anybody really thought about the system.
+I mean, because, like, obviously some heresies are actually a waste of time. There's no question about that.
+Um, but like sorting between which are and which aren't is not really anything anybody's concerned with officially.
+Um, and so that that's just like, it isn't a really great function that we have right now. And I see the connection to agency
+and power seeking. Um, yeah. Because like, it's it gives you power to be connected to the status quo. Um, and yeah, you can build a
+career in the status quo. Uh, so that's, that's going to be, that's, that's maybe unfortunate side effect of, of actually
+discovering things. It creates power. And then people get invested and then they become entrenched in the last year's heretic is now like,
+you know, today's dictator. So, um, it's just a cycle that it's hard to get out of because we're humans. Yeah.
+Is Serendipity == Power Seeking?
+But some one interesting take, though, is that, I mean, first of all, there are many degrees of freedom when it comes
+to agency and power seeking. So just, uh, the agency to read the kind of books I want to read is a kind of power or dominion
+over my intellectual life. And there are some things we I mean, even like murdering someone, for example.
+We technically have the agency to do that, but we wouldn't because there'd be consequences. So there's all of these kind of conditioning forces and so on. Okay. Let's see.
+Is any serendipitous process a form of power seeking? I mean, the, um, that is that sounds cynical, but let's let's see.
+Does it make any sense? Um, so, you know, because I, I do think that, um, without without that point,
+without you making that point, I would have said that, you know, serendipity is one of the more pure types of motivations, if you can call
+it a motivation that like, you know, so just doing things because you're curious, um, just exploring the world or something like that.
+Um, it's not like intrinsically trying to figure out how to gain power in the world, because trying to explicitly gain power is,
+is an objective type of thing. I mean, that would be your objective then is to gain power. Um, and so, you know, if you're
+just truly just curious what would happen if I did this, I mean, it's not clear that you're actually explicitly aiming towards power.
+Um, but, I mean, so it seems like if you are getting power through serendipity, it's more implicit, like it's something like just by
+virtue of truly falling into something, some stumbling into something cool, it creates a little bit of power around you.
+It's like people might care about it. You might be empowered because you can do more because it's it's I mean, what does it mean to be cool?
+It's like something, something that does something that's worth some attention. Um, so there's there's some
+there's some like sort of, um, yeah, maybe tangential power. Power that's acquired through serendipity, but not always.
+I mean, I think some of it is just pure, um, just purely for your own consumption, you know, like if you find a show you like or something.
+I don't know what level of power, uh, you know, maybe you can tell your friends. So you did get a little bit of.
+You get a little empowered by it. Um, but I remember thinking, like, um, early on when I was, uh, you know,
+when I was researching neat, like, the earliest thing that I did was the neat algorithm, like in grad school. That was my dissertation.
+Um, like, I didn't have much. Experience like understanding how people get like known or something like that in research
+or or famous for that matter. I didn't really understand any of this, and I kind of just assumed that no one would care.
+Like I don't, I don't think I was really motivated by people caring because I was just like, the thing that's really good about this is
+that I'm allowed to do it more. It was more of that, like, I can just do what I want because it's interesting. And I thought that was really cool that I could just like,
+explore stuff. And I had no idea, like, a single person would ever care about this at all.
+But I thought, well, it's really I like the fact that no one seems to have done this before. That was sort of my motivation.
+Um, it did maybe create power in the future because other people did end up liking it, which really shocked me.
+Um, you know, like, I didn't actually expect that. Um, but, um, but I think, like, the motivations there were not
+very objective. I mean, it was just like, I just really just curious and just really grateful that I was
+allowed to pursue my curiosity. Like, I remember when I did my proposal that I felt very, very successful, that they approved it,
+but mainly just because it was like, well, I'm allowed to look at this for two years or something. I can just think about stuff I want.
+Um, that's I think that's more serendipitous thinking, um, than just like, how am I going to influence people and control
+things and stuff like that? Um, but this is an issue I haven't put huge amount of thought into. So maybe you have other thoughts
+about. Well, I think it's fascinating for a couple of reasons. I mean, first of all, I guess I'm only arguing that it's the same kind of stuff as power.
+So I'm not necessarily saying that, um, you know, serendipitous exploring will turn you into a, you know, into a maniac who
+wants to take over the world. I think there's a difference with having the volition and the ambition to want to take over the world.
+But the paradox is, as you just said, if the person were to be successful taking over the world, it would be via a serendipitous process.
+And in a way, there is because because you always make the argument that there's not a monotonic increase if you line up the objectives.
+But but in a way, there kind of is because the first stepping stone embarking on this serendipitous process is, as you just said,
+oh my God, I've now just got dominion over my creative thoughts. I'm no longer in the in the gravitational pull of these people.
+I can now explore things that I genuinely find interesting and I'm in a very happy place. So I now have power over my,
+you know, my even deciding how to brush your teeth on the left side or the right side is a kind of a kind of power and agency.
+And then and then for whatever reason, the thought might occur to you, oh, I want to take over the world, or it's an externalized process. And when you see several pockets of,
+you know, independent serendipity being executed, those pockets become clouds and then the clouds become very powerful. Yeah.
+I mean, there's I would probably more use the word autonomy than, than than power. When I think about like what I,
+what I would be excited about, um, when I get the chance to explore
+on my own, like I gained autonomy, rather than that person telling me that this is your project. Now I can just say my own project.
+And, uh, but I mean, autonomy is a form of power. Um, so. But I mean, going away from just like, uh, semantics.
+I think that, um, the problem is that there's some kind of entangling here between, uh, like, algorithmic issues and
+human psychology because, I mean, like, power seeking is not just an issue of an algorithmic question, like, is it an objective or not?
+It's also like a psychological issue, like with us. And, you know, algorithms might not have that
+psychological component to them. Like if I try to create an open ended algorithm or something, it's not really like the
+psychological explanation for why it's doing things. Um, but in terms of humans, we actually yeah,
+we do seem to like getting dominion over more and more stuff. So it's true that like a stepping stone might be interesting because
+it gave us more influence over the world, and then we can jump off from there to something else. That would also be serendipitous,
+which actually, as a side effect, creates even more influence. And in some way, we're following a gradient of power
+and getting more and more influence. Um, and that's, that seems to be, um,
+just something that's psychological, like the fact that we like that or care for that or um, and, um, but but I guess like the point
+about agency makes sense that, like, you know, you're actually gaining agency. Um, well, if you can do I'm not
+sure serendipity is causing you to have more agency. Or is it that agency is causing you to have serendipity?
+Um, because the agency is sort of, like, necessary in order to explore. But then you could argue that because you were successful and
+you found something, you'll have more agency on the next iteration of your exploration. I mean, so maybe they they feed
+into each other in some way. Um, but that's just a side effect of the way that society rewards things. I'm not sure that's like an
+algorithmic principle. Um, but yeah, there's definitely some, some entangling between these two ideas. I can see that.
+Morality
+What would your main argument be? For the morality of people being able
+to independently shape their world. Well, I guess there is a moral component to it. I mean, if I didn't think so,
+I wouldn't have gone on with Joel to write a whole book. I mean, I thought that this was actually a wrong that should be
+corrected in the world. And it it's, um, it's partly for practical or you could even say utilitarian purposes,
+that I actually think that we will be more effective as a society,
+um, by allowing more serendipitous exploration like that. That actually is important for our survival and continuing progress. So.
+But, but but I mean, it's also true that for individuals and, um, the,
+uh, like the human flourishing like to be to actually be happy, it seems like it does seem to be an intrinsic aspect of human nature,
+that there's a need for self-expression. I mean, I do believe that to, um, which is a really interesting
+thing about, you know, human nature because, like, when we think about things that are getting better at disseminating
+content to us that we would like, um, like that is that sort of implies that human nature is mostly about consumption.
+Um, you know, it's like the whole thing is to optimize your consumption, um, so that you're satisfied,
+you feel satisfied and like, it's like the ultimate end point of that seems to me to be like that. There'll be an AI that just basically
+24 hours a day generates movies that are just optimized for your brain. Um, so you don't have to do anything. Just sit there and consume.
+It's like all perfect for you. Like, that's the best show I ever saw. And in another best show you ever saw all day long. But the thing is that like that can't
+possibly work because of the fact that at least my theory is human nature requires self-expression. Um, you have to also, um,
+produce in, in addition to consume to be a satisfied person. Um, and that relates to serendipitous exploration, like you
+cannot produce without exploring. Um, and so like people deserve
+and need this, like in order to have meaningful lives, um, and that's harder to achieve. Um, but I think it's a moral issue
+though, um, because to me, yeah, there's a, there's a real, uh, diminishing of the value of life if everything is consumption.
+Um, and that seems to be actually where these systems are heading, like in terms of social media systems, um, content ranking systems,
+like, it's not just social media, like ranking of movies and ranking of books and everything about ranking, um, is all to optimize consumption
+so that you're, you know, most of your time is taken up consuming with the optimal thing, which is like the thing that
+most people want to consume. Um, and that does seem like there's like more and more going towards like,
+actually it can consume your day. Um, so it can work, I think, like you can actually just sit around consuming things all day.
+It's easier to do that than it was 200 years ago. Um, but but yeah, you're sacrificing something like really important,
+um, which gives meaning to life and existence, which is way harder to build for like as to, to enable self-expression.
+That's another maybe angle on, I think, why I wanted to do the Maven system because it's like, um, not trying to optimize for consumption.
+And it's true, giving you diversity of things. But the hope is that those trigger you to do something like, does your own self exploration, um, like it's going to lead you to
+participating in that discussion or just to doing something else outside in your own life? Um, because you've been exposed to
+something different than what's like the optimal consumption object, which is just something that we could keep you around for hours, but it
+doesn't really do anything for you. Um, so, yeah, I mean, I think there's a huge moral component to it. Um, and it's like really,
+really, uh, sad to me like that. Like, everything is consumption oriented. And when I just don't think,
+I think everyone is ultimately needs self-expression. We're just like running trajectories. And I had and we're kind of thing,
+Accounting for Our Intrinsic Drive to Explore (+Friston)
+you know, when I go to that place, I get the coffee, I get the dopamine. But then there's the question of, well, where does the volition come from? Because just from a neuroscience
+point of view, there there is kind of goal optimization because your brain is just doing this clever search problem.
+We don't know how it solves the search problem. So it's somehow cutting down the exponential trajectories. And it's doing all of these like little paths.
+And you know, we eat the cookie and we get the dopamine and and then the volition arises from that prediction process.
+But then aren't you just isn't that just a form of, of goal seeking in a way. And the, the serendipity and the
+stepping Stone collection is kind of instrumental to that. Well, it to me, it highlights that any grand theory which it sounds
+like this is one attempt at one, uh, needs to account for, um,
+our intrinsic drive to explore. For its own sake. Um, and if it doesn't account for it in a satisfying way, it wouldn't
+be a satisfying theory to me. So if it really like, it turns out like it's like a mystery within the framework of the theory.
+Why would anybody care about just exploring? Like, why wouldn't you just try to maximize dopamine immediately
+and go to the coffee shop or something like that? Well, then I feel like the theory is missing something. It's not.
+That theory is completely wrong. Throw it out. It has no value. But this is a thing we need to figure out.
+Like it's really, um, it comes up everywhere because it always seems to be the last afterthought, um, of like, every theory,
+every algorithm, like an AI. It's like all of them are very good at dealing with goals and how we figure out how to get rewards and
+things like that, but it's this huge afterthought of like, where is intrinsic motivation coming from? And I you know, obviously there are
+even intrinsic motivation algorithms. It's not that no one thinks about this, but even that often is thought of as an afterthought. It's like there's like the main branch of reinforcement learning,
+and there's this little weird section of intrinsic motivation people thinking about, but to me it's like, that's not the sideshow.
+That's the real show. Um, you know, it's like, it's amazing to me, like how insanely creative people are, um,
+that like, you know, because, like, even, like, mundane conversations are actually creative. Um, and like,
+that's something that really, like, hits me when I talk to, like, ChatGPT or something like that. It's like, I wonder why I can't.
+I don't want to. It's not that I can't, but I don't feel very motivated to just like, you know, just talk about like
+random stuff with it, just like, you know, shoot the breeze and just enjoy it like a conversation. Like it's just, like pointless.
+There's no it doesn't because it seems like even, like just talking to some random, like, let's say, someone who's not impressive in any
+other way, whatever that might mean. Like, you can still have a conversation with them where it's unpredictable and interesting,
+but people are just really good at doing that on like a moment by moment basis. And just like that is not part
+of current AI at all, like at the granular level or at the macro level, it's just not there. Um, and then these theories
+don't account for it either. Like, and yet it seems to me. But this is all just, um, you know, speculative that this is not
+like some kind of formal theory, but it's just my intuitive, strong belief that, um, this is central to what it means to
+be human and intelligent as a human. Is that like the fundamental drive is towards exploration? Um, you see it from childhood all
+the way out, and it's just like, I think it's. And if you want to know why, like, where does the drive come from?
+It probably relates to some extent to our success. Um, you know, like, as a species, like we're, um,
+it's useful to be this way. Um, it doesn't have to be that useful because, like, remember, evolution is not itself only about optimization.
+Um, but it has to be useful enough to keep us alive. Um, and so it's, it's it's useful enough.
+It may be that like, it's, you know, it's related to highly efficient algorithms that can create things like us, um, you know,
+for example, like early on in life when you're learning things like how do you walk or something or how do you how do you talk?
+Um, I think it may be helpful that it's not an optimization process that would actually be less efficient. It was an optimization process,
+like we optimize walkers. You know, this was a classic experiment in novelty search. We took like a biped robot and
+tried to evolve it to be the optimal walker. And we also did a novelty search. And the novelty search produces
+better walkers. Um, because it's just like the stepping stones, like starting from scratch or just like,
+not what you would expect. So actually optimization like the ones that lead to walking. So optimization turns out actually
+fairly relatively inefficient. And it may be better to just have this baby, just like interested in trying stuff
+like what can I do with my arm? And I just like, swing it around. What can I do with my leg? And maybe this is a good way to build
+up, um, like a repertoire of skills, which is why repertoires keep coming up in like quality, diversity and stuff like that.
+Um, it's just better for building up a repertoire than, like, you have to learn how to do this. You have to learn how to do this.
+This is like it's all big set of objectives. Each one is a separate optimization process. Um, like that's just like really inefficient and awkward.
+Um, and so maybe it emerges from the fact that's actually a good way of like, you know, encompassing a huge bundle of skills
+and abilities or a repertoire, um, and then emerges from that, that, that just like, remains a driving force throughout life,
+although it's squelched because of social types of pressures. Um, but it's still part of our nature, I think.
+Um, and so I don't actually want to claim to have an all encompassing theory here about this. Um, but I do think I can criticize
+any theory that doesn't have it. Um, yeah. Because, like, it seems to be always missing and always just like, well,
+you know, I don't why should I have to defend myself by how I'm going to fit it into Friston's theory? I mean, it's his problem.
+Like, if he can't, like, just show that strongly it's predicted by his theory, you know, that that we should have this huge drive.
+I think the theory needs to be, um, get some scrutiny. And again, I don't. Mean to criticize it like
+holistically. There's probably lots of good ideas in there. But something there really needs
+Pure Exploration? Any Planning?
+to be addressed. Yeah. I mean, there's also this spectrum of. Enactivism, which is to say,
+on the extreme enactivism side of things, you could just argue that there is no volition, there is no planning, there is no
+kind of sophisticated exploration. So you could just argue in some sense that, you know, I just happen to be here.
+And what we think is creativity is pure serendipity. It's just my local physical and social embedding.
+The reality, I'm sure is somewhere in the middle that it's a combination of serendipity but also some sophisticated planning
+and volition. Yeah, yeah. I mean, I accept that planning happens, I believe. So there's planning volition and it's
+a mix, like you said, that that's my, my, my guess about things. So, um. Yeah, we should we should try to understand.
+I just don't get interested in it because I feel like it's the easy thing to explain. Um, you know, it's like you have
+all these grandiose theories about how we plan it. Yeah. I mean, I agree, like, it's something we should figure out.
+Um, and by easy, I don't mean it's actually truly easy, but it's the easier part of the problem. I mean, it reminds me of
+Chalmers hard problem and stuff. I mean, I'm not talking about consciousness. That's a really, really hard problem.
+But, you know, Chalmers splits up consciousness into the easy part. And the hard part is it's the hard problem of consciousness.
+Um, I think that's really conceptually useful. Like to think about, like the easy part and the hard part, um,
+so that we understand there's still something missing here that like, even with all these grand theories like this still over
+here is not being addressed. I think it's sort of similar in the world of intelligence even, or like human intelligence and AI.
+Um, that like there's this like tendency to, like, spend all this time grinding away at the easy problem, um, of like,
+you know, just like just cognition and planning and following objectives and optimization, like, how does all this happen? And prediction.
+Prediction is another one of those, like, easy things. I think the hard thing is creativity. Like that's much more complicated
+actually, and difficult to explain because it requires computing things like interestingness, which are far harder to formalize
+than something like, you know, how well am I walking right now compared to five minutes ago? Like, you can you can pretty much
+formalize that kind of thing. Um, so there's the easy problem and the hard problem, and I just find the easy problem,
+like somewhat less interesting. Um, we really want to get to the heart of what is like going going to be AGI.
+Like, it's going to have to somehow account for the creativity side of things. Yeah. And I would argue there can be no creativity without agency. So there seems to be a very
+close relationship between those two concepts. Is there an interesting point there though, that on on most social media
+Most Social Media Users Consumer
+now 99% of people are consumers and they're perfectly okay with that.
+Maybe that's not the right way to to frame it, because everyone's a publisher in the sense that they have their photos and they have
+their status and stuff like that. But but most of their activity is consumption. Yes. Um. That's true. Uh, that will be still the case here.
+So, um, you know, I don't think we're going to fundamentally change the fact that the majority, the vast majority of users are
+just consumers and lurking. Um, and but remember that, like, you know, one thing people have been telling us is that, like,
+the emotional experience of, like, scrolling through this feed is very different. So for those people who just want to
+consume, um, you know, you're not going to have this feeling of, uh, constant conflict and like, constant emergencies, like this feeling.
+I remember when the pandemic started, like Twitter was absent or even Quora. I was just, like, sickening to scroll through. I mean, it's just like it caused
+mass panic in my mind. Um, like that kind of feeling of like everything is in your face, as it possibly can be to grab
+your attention, to freak you out as much as possible. Like, that's not like that at all. Um, people are just pursuing curiosity. Um, and so it's also, I think,
+a beneficial to, to those who don't care about actually producing content, but it's worth emphasizing that for
+those who want to actually be part of a conversation, it's it's definitely presents an opportunity because you don't need followers like, you
+come into the system and you know, there are there's there's no concept of following in the usual sense. You can actually like another
+person's profile, um, which just means you'll remember their profile, but it won't affect your feed in any way.
+So it's not like you'll see more of their stuff if you do that. So it's not following. It's just a way of remembering people that you thought were interesting. Um, and so because of that, um,
+you know, like the 1% of people or the point 1% of people who have like 10,000 followers or something, like out in the other parts of
+social media, uh, they have a huge, huge advantage over you. Um, in terms of you've got something interesting to say today,
+but nobody's going to hear it. So you got to build up that following. But on Maven, you can just day one like it doesn't matter. Everybody's equal in this sense.
+Like it's just going to be sent to people who share the interest that you have. So you have a shot, uh, regardless of following, um, that's equal to everybody else.
+And so for the 99% of people in that boat, it's worth a try, you know, because if you want to actually discuss like 99% of people who
+want to post who are in that boat, if you want to discuss something, you have a chance here to actually find like minded people
+who will actually respond to you. But even the people who are in that small elite, I still think they get a benefit because of that
+whole point we discussed about, um, the fact that they're not they're not obligated to continue to perpetuate their persona,
+that they feel they're obligated to, to perpetuate, like in all the other social media, because that's why people are following them,
+is because they are who they are. Um, and so like, yeah, if they want to inquire about some random concept that they don't
+really have authority in, um, they should feel totally comfortable because, you know, the thing about Maven is they can do it.
+And the people who follow them for other reasons will probably won't see it. It doesn't matter. They're in a different community
+sent to people who do have those interests. Um, so I think everybody can get a potential, um, productive benefit,
+uh, from just, uh, the different the different way that participation works in this case. Some people say that on Facebook
+Echo Chambers
+you get echo chambers. So in a way, your your desire to be heard is met through this fractionation into many,
+many small interest groups. In a way, no matter who you are, your voice can be heard, but of course heard in a weird echo
+chamber that nobody cares about. But you could say the same about Maven in a sense that your voice is heard, but only by John in Maryland.
+And, you know, like if I'm if I'm trying to get my voice heard by the right people to seek power or to get a job or something, you could
+argue that that doesn't help me much more than Facebook does. Yeah. No, I, I do agree that like if your point is to actually, uh,
+to amplify your voice, like to make an announcement, this is probably the wrong service for that. Yeah. Because it's not like a medium for
+virality. So it doesn't offer that. Um, what you get here is the
+opportunity to pursue your curiosity. Um, and so, like John and Maryland,
+it's probably not enough to start a social movement. Um, but if you're interested in whether it's even viable to start
+your social movement or like, what are the pros and cons or the arguments about what you want to say? Well, John and Marilyn might
+actually be an interesting foil to have a discussion with. Um, because John and Maryland is interested in talking to you about
+this, which is a good thing, because, like, how are you going to find someone who is interested in talking about this thing? Um, and so you can have a conversation there and it doesn't
+have to be this, um, inflammatory style of conversation where John needs to beat you because he needs to get followers for his cause.
+Um, even if he disagrees with you because he can't get followers for his cause through this. It's just it's just an intellectual exploration. And so for that purpose,
+this is really good. Like, you can talk to people about things you're interested in. And then if you want to go through amplification and like have a newsletter or something,
+you would do that somewhere else. Um, but we offer this opportunity to actually have a conversation. Yeah. No, you're absolutely right.
+So this is about this general theme of following your own gradient of interestingness. And you can talk to John in
+Maryland because he has the same gradient as you. Yeah. Yeah. And you're certainly not an echo chamber in terms of agreement because
+I mean, I mean, you you both may be interested in AI ethics, but you both may have the opposite opinion. Um, so that's different than
+following a person, you know, because you follow the person because you agree with them. So that's why I like that person.
+So you tend to have a lot of people who agree with you. Um, and so this is not like that at all. Do you feel social media is broken and are you seeing how it
+Is Social Media Broken? Maybe Edit, A Bit Like WHY Question
+affects people around you? Yeah. I mean, you know, I was feeling there was something I was feeling in I around the time
+that I decided to do this, uh, like a year and a half ago when I started thinking about this. Seriously, um, and I was just, like,
+getting this feeling, probably from social media of just negativity lingering around AI like increasing, which is like, really new to me.
+Um, because, you know, I was in AI for decades and it was like a really, um, like just like a nice, fun club of people pursuing their intellectual
+interests for a long time. Like, there was no ethical consideration. I mean, it would come up like, uh,
+you know, like in very abstract terms, like, like decades ago, like whether, you know, there might be danger in AI or something.
+So like, that's so far off, like, do you really need to worry about this? Um, but like, suddenly it just hit, like, a couple of years ago,
+you know, like everybody, not just me, but it's just, like, suddenly hit that, like, this is now like a political issue,
+a social issue. It's a polarizing issue. And I was starting to try to understand, like, where do I fit
+into all those issues that that are like complicated answers and arguments about them, like in terms of like the ethics and the safety
+and all these different things? Um, and then also this idea that like, just like our, our lives are going to be pervaded by like chat
+bots and stuff, which hadn't really occurred to me like concretely, um, for a long time. Um, and I yeah. So just kind of hit me all at once,
+like all this stuff. And I just started feeling like. I would just like to do something that's just like, definitively,
+clearly nice. Like just really nice. Like I was starting to feel like I'm not sure what I'm doing is nice anymore.
+It's not that I advocate that we all stop. I research, I'm not one of those people. I'm not saying stop, I research. But it was just for me personally as
+I'm sorting out all these issues, um, I was just like, what could be just like clearly, definitively, socially positive, at least to try,
+um, so I can just feel good, like I'm just doing something without having to think about all this other complicated stuff. It just makes my mental burden easier.
+And that's something that emotionally contributed also to going in this direction, because I just thought, you know,
+there's obviously there's obviously a problem socially with social media.
+Um, it's having a lot of bad effects on us, and there's not a lot of disagreement about that from like, all sides, like everybody seems
+to agree with that. It's got a lot of negative effects on discourse, on emotions, on how people feel about themselves. Like.
+And so I was like, you know, if I could help with that. Like, that actually is like a win win probably on all sides.
+So I could just do something I feel proud of basically for a while. And then in the meantime, I can think about what I really think
+about all these issues that are very complicated, because I wasn't really sure what I think about all of it. Um, it's hard to adjust when you
+just think of it as a game, basically for 20 years, and it's just like a fun game that you're playing, and then suddenly, like,
+it has all these social implications you didn't really think about. Like, it's just like any time to absorb this and understand it.
+So I'm just going to do something. I feel like Maven would be a social positive. I'm not 100% sure it's going to
+succeed. Um, but I feel like it's pretty clear it's trying to do something nice, because if I try to give up likes and
+follows, I'm going against the grain in a way that's extremely risky. It's not like I'm trying to exploit people and extract money from them.
+I'm like going the opposite direction. So how can I make that into a business? It's going to be complicated. Um, but I can feel good about myself.
+So that's kind of like another thing that led me in this, uh, direction. The thing that was nice about it is that it's it is dovetailing
+on my AI research. Right. It's not like I just like, oh, let's just forget about AI and do social media.
+It's like all the insights from quality, diversity, from open endedness, they all come to bear on this.
+So I didn't feel like I was just like giving up. Like all of the intellectual effort of the last 20 years, I felt like this just naturally builds on top of it.
+Like it doesn't have to be explicitly an autonomous AI system, just like Pick breeder itself wasn't, you know, like you can make a
+system that wraps open mindedness principles around people and still use a lot of the ideas, like the minimum criteria and stuff
+that I'd been thinking about. And so it wasn't like, just like I'm just dropping out. It's just like an extension,
+but like in a direction that allows me to sidestep a lot of these sticky issues right now. You know, I interviewed your
+AI X-risk
+student and coauthor, Joel Lemon, and, you know, he obviously he grew up on this idea of of greatness cannot be planned.
+And now he's very concerned with AI risk. And you were saying about ethics and actually a lot of this,
+a lot of your concern with Facebook, with ethics, with risk and so on is because it's serendipity eroding. So I said to Joel,
+how do you kind of juxtapose, juxtapose this kind of thing that you wrote about with Kenneth, which is that we should be serendipitous,
+and now you're being quite paternalistic and consequentialist, which is the complete diametric opposite of serendipity.
+How do you just juxtapose those two ideas? And he said, I don't know, like when it comes to those AI risk issues,
+safety issues, ethics issues, um, I just feel comfortable saying,
+I don't know about a lot of like, I don't know what I should conclude exactly about a lot of things. I do have opinions about it,
+of course, but I mean, that'd be a whole other show. Um, but like, yeah, I don't have firm conclusions to come to yet.
+Um, and, um. I think we need some time, um, to understand, uh, like, like open mindedness. Um, it still is.
+Like, it's super fascinating for just, like an autonomous AI perspective, it may be essential to achieving AI.
+Uh, but what are the implications of it in terms of safety and things like that? Uh, it's like a very complicated issue. Um, so, yeah, I mean,
+I agree with Joel. It's a little bit tricky to, um, to try to reconcile all these different things now with
+everything we've been doing. Um, and, uh, yeah, why not just drop some people into a nice open ended system and
+do something else for a while? Um, while I'm trying to figure this out, um, and, um, you know, I think there are things open
+ends can contribute. One thing I think is you can't get out of. You can't get out of the
+problems of AGI, uh, without confronting open mindedness.
+Like, I think openness is part of this. Like it has to be confronted. Like the whole problem is that it is open ended. In my view, like that is actually the most
+fundamental aspect of the problem. Like if it wasn't open ended, it wouldn't be as much of a problem, but it also wouldn't be very interesting.
+Um, and so I wouldn't be AGI in my view. Um, but then on the other hand, like the open mindedness is helpful
+then for understanding what the risks are at some level, because like controlling an open ended system, which is like a paradoxical thing to
+try to do is the problem of safety. Um, like how do you actually get an open ended system to not go over certain lines that are like
+really like unacceptable, but still have it be open ended? Like that's a challenge? Well, that's what open ended
+research is about. Um, so in some sense, openness could be very important to continue to research because
+we need to understand this now from a safety point of view. Um, but anyway, for now, uh, I'm yeah, going to be, uh, just,
+uh, building this network, uh, and, uh, but yeah, on the side, I think about these things a lot. Yeah, and I agree.
+I don't know, I'm a little bit skeptical about AI safety, but just as a thought experiment, I could be the technology that
+if you democratize it, it could just have catastrophic, you know, um, unforeseen consequences. And then as you were just alluding
+to, if you place constraints in the system, then you have all of the problems that you've spent your career talking about.
+So it seems like it's almost it's almost like, um, Pandora's box that this is the one technology that kind of breaks everything.
+And now we need to have a paternalistic society. Yeah, yeah.
+Except, I mean, the the thing that I think about is just that, you know, humans are also very dangerous and open ended. Yeah, we are open ended.
+And we have AGI sort of like we are general, um, and we're really dangerous and we can, like, kill each other and kill
+many of each other and so forth. And we can destroy society if we want. If we if we put our minds to it, we could do it. Um, and, um, but so we've been
+confronting this issue. It's not like a new issue, actually. Um, the issue of how to control an open ended system is the issue
+of society itself, or I would say the issue of civilization, because civilization also confronts the problem that,
+like, it needs to be open ended enough to continue to progress. Like if you put the brakes on too much, then progress stops and like
+you have extremely authoritarian systems, then, um, like if people can't have any freedom at all, um, but, you know, then there's the
+problem is there's too much freedom and too much freedom to too much open ended is also extremely dangerous. Like there have to be brakes on
+something. Um, but it's interesting that this is this is a problem we have been dealing with.
+Like, that's how I think about it. So it's not like a new problem, actually. It's new what it's applying to.
+But the problem itself has existed. And so I think that, like, you know, all the institutions of government and society and culture have grown up
+around trying to control an open ended system from going out of control but still be open ended. We actually have a lot to draw
+on there, like how we've done this in the past. Um, but it's different than let's make a benevolent dictator that,
+like, loves us all. Like, that actually is not what society has done. And when it tried to do that, it didn't work very well. Um, and so like this is much more
+complex, like a cultural and sociological level, you know, controlling open ended systems. But it's I think it's
+interesting that we've seen it, um, and it involves people. You can think of it as being an agency problem.
+So we're a society that values individual agency. And the technologies that have a large blast radius at the moment
+are controllable in the sense that it needs significant resources to get access to them. But if you did believe that I
+posed an existential risk and it's democratized, then given a high agency society, it would presumably be impossible to control it.
+Yeah. Um, yeah, it's true. AI is a very special, uh, case that
+isn't like things that have come before. I mean, I agree with that. Um, and but you can something like institutions are relevant, like,
+because institutions prevent certain things from happening. I mean, like a bunch of people could get together and build a nuclear
+bomb if there weren't institutions. Um, like, like if you say anybody could just do whatever they want, they can go mine uranium and do
+whatever they want. Um, like, like there are restrictions on what can go where and how it can go because there are institutional restrictions. And I think AI needs to be embedded
+in some kind of institutional framework, but it's probably some of the institutional framework or AIS which would bound what I can do.
+So it's probably a multi-agent thing. Um, but in the end that's just like, you know, really speculative. Like, what am I even talking about?
+Like in reality right now, what you're saying, I think is true, like we're looking at, um, unprecedented possibilities that
+that can't be fully understood. And therefore it makes sense to, to move cautiously, um, and think about it.
+But but I think also you can't just not move. Also you have to move. Um, and so it's just a needle threading exercise for, for society.
+I kind of think of a lot of this goal directedness stuff that you're talking about as being a story of agency and how there's
+Agency Interpretation of Kenneth's work
+a very complex, natural way of things in the world. And we all have spheres of agency, and there are physical agents and
+social agents, and you could think of agency or autonomy as just being a
+kind of force of yourself around the world, around you, a bit like a gravitational force of the sun. You know,
+things orbit around the sun, and having autonomy is about having things orbit around you rather than you orbiting around other things.
+So it's about the you know, there's almost you can kind of imagine a solar system of, of, of orbits and where the,
+the kind of the generating sources of agency are coming from. And then, of course, it gets much more complicated when you think about
+that in the world of intelligence, because then agency isn't just about this very simple gravitational force. It's about active sense making and
+planning and being able to kind. If you and I develop sophisticated behaviors to change the world around you. Well, that's that's interesting.
+Um, so. Yeah. I mean, the agency point is interesting. I can see the connection between
+agency and objectives. Um, we're sort of like, uh,
+objectives reflect the set of rules that already confine you.
+And so you're operating within those set of rules. Um, but you could create your own rules, and that would be to actually,
+um, express some agency in the world. So if, if goals are an instrumental fiction and I guess what I mean by that, if planning and goals
+are an instrumental fiction, there are a way of post-hoc rationalizing complex behaviors. So we we kind of project this
+cognitive map if you like to understand physical phenomena. And it's not to say it doesn't exist in the real world. Of course it does.
+But it's um, it's very diffused. And what we think of as planning is
+actually a very complex, low level information sharing between all the particles in the system and so on. But but then but then the
+question is, well, obviously, if we if we simulated the system at a sufficiently high resolution, um, obviously we would capture
+those dynamics. But I think what you're saying is, well, why don't we come up with an abstract model and still capture as
+many of the dynamics as possible? And I guess that's that's the gap that I'm trying to understand. Mhm. Mhm. Yeah.
+So maybe it's like instead of because that's that's pretty high level abstract to to think about like how you know at what,
+how many dynamics can be captured through some abstract algorithm. I mean I think maybe it's better to think like what exactly more
+concretely am I saying? I mean like algorithmically capture something, um, like what exactly am I talking about?
+Like, basically what I'm talking about is the fact that for individuals, um, in order to have serendipity,
+you need to be exposed to the right stepping stones. Um, like, this is what leads to serendipity.
+And like, the assumption that I have is that the right stepping stones for you are not the same as the right stepping stones.
+For me, um, it's very idiosyncratic. Like what is actually going to be transformative for you. It also makes it hard to predict for
+you what's transformative for you. So nobody really can say for sure. Um, but it has something to do with exposure.
+Um, like, you need to be exposed to things that would be transformative, or else they just won't lead to the transformation. You're the one who can make the transformation if you were exposed
+because someone else won't do it. But if you're not exposed, you won't do it. Um, so it's important for people
+to be exposed to things. I mean, it goes all the way back to pick breeder that we saw things like, you know, the the woman there
+who really loved the bugs. Um, and so being exposed to bugs
+or bug precursors was like a triggering event for her, although she didn't know it. Um, and then she was, like,
+really crazy inside a bug space. Um, and so that was important for her to get exposed. And like, the pick breeder system
+was good at, like, large scale exposure of stepping stones, partly because it's images. So it's a little bit of a it's a
+little bit of a cheat because like it's really easy to scan huge numbers of images very quickly. It's not so much true of like
+just content in general or especially written content. Um, but so people were getting a diversity of exposure, which meant
+that they can go in many directions, which is like in aggregate, very divergent as a system. Um, and so this, this is,
+it was interesting is that it's conflicts with social media, which is actually consensus driven and convergent because of that, which
+is basically like it's basically based on a model that says, like, if more people agree that something would be interesting to you,
+then you have a higher probability of being exposed to that thing, um, which is like antithetical to your idiosyncrasies, but it's
+still going to be true that like, if most people like it, then there is a high chance that you'll like it because you are
+one of most people usually. Um, but what it doesn't do is expose you to the things that are idiosyncratic to you,
+because consensus can't do that. Um, so you're missing all those things. Um, and so then then what? We should be doing in a system
+that's geared towards serendipity is not allowing consensus to decide what you're exposed to. Um, and so that's clearly radical.
+I think that's quite radical because like, all of social media rests on this assumption. It's almost like a natural law
+in social media. Like people don't even question that. Like that is like it's like the way in the notes,
+you use the word social. It's like you call them social features. Like as if that like there's a, there's synonymous with being social is like you have to have
+these things. These are consensus mechanisms. Um, but I think like what I'm saying and like these kinds of
+want to say algorithms like the insights from the algorithms don't see the algorithms themselves because I'm not saying like run novelty search on top of a person. Um, but the insights from the
+algorithms they suggested that won't work for a serendipitous exposure.
+Um, and so what we can do is basically try to expose you to things
+that match your interests. And then. From there, you'll be able to see lots more of that. Like opportunity. Surface, you could say, of what
+might actually be triggering to you. And the assumption is like, look, there's like a lot of stuff bubbling around under the surface
+of all of this consensus, um, which is very like spiky in terms of convergence, you know, because like, if you think about it, like a lot of
+a lot of the conversation of the day, even if it doesn't involve somebody with a big megaphone, like it goes back to the person
+with the big megaphone, you just don't realize it. Um, you know, if Yann LeCun says something about AI today because
+he has, I don't know, 300,000 followers or something on X, then like, a lot of people are going to be talking about that
+thing unwittingly or not. Um, and so there's a lot of convergence day by day on like what are the topics?
+And yet there are lots of people who have something interesting to say in AI. And I wouldn't say that, like Yann LeCun isn't interesting because he's obviously earned
+his place and his megaphone. But the thing is, he's redundant because he says similar things constantly and
+they keep on dominating. And of course, it's not just him. There's like maybe a hundred people that, like, are like this. Um, but those people basically are dominating and consenting
+conversation. And then there's the 100,000 people who aren't those people because after all, like, you know, I think I read
+the statistics that like on X, like it's about 0.1% of the population that has 10,000 followers or more. So 99.9% of them are at a level
+where you're likely never to hear anything they have to say unless they're replying to Yann LeCun. Um, and so those people have lots
+of interesting things to say, but not interesting in a consensus sense, but interesting to you. Um, in a sort of idiosyncratic sense,
+some more than others, but they have idiosyncratic things to say. Um, summer would probably be consensus. Interesting.
+But like, they just have trouble getting consensus because they don't have enough followers yet. Um, but the thing is that, like,
+all of that churning stuff, um, you're not getting exposed to generally in a consistent level. Um, and so it would make sense to
+intentionally design something to work like an open ended system, because an open ended system would have these mechanisms that
+actually that kind of exposure would be routine rather than like require enormous effort and a megaphone and very rare.
+Um, and so that would be, that is possible actually, to create a system like that, we understand how systems like that work.
+They're actually not that hard to understand the problem with the reason that they can be built. The reason they're hard to build,
+like artificially, is because they're missing human intelligence. Um, I mean, because human intelligence is part of what makes
+these kinds of systems run, and that hasn't quite been conquered yet. But the thing is, like if humans are in the loop, the outer structure
+of such a system is understood. Like we do understand this now we have humans in the loop if the social network.
+Um, so we just have to fold this thing around them that has this kind of exposure and we can fix that. But I just want to point out that,
+like the side effect of that, it's not just about increasing serendipity, it's that the incentive change being so dramatic changes
+like a number of things that really change dramatically, you know, like where's the incentive for clickbait? It's not there anymore because
+there is no such thing as virality. Um, and like you, why would you promote yourself in a situation like that?
+Like if you actually want to cause a scene, say something offensive, maybe that gets you attention here. What's the point of getting you
+won't get more attention because it won't be amplified? Um, and so like in a large sense, like human behavior is vastly
+changed. The incentive system has vastly changed on top of it. And so this should be it should be
+actually a good form of like detox from like all of the bad things that you see that are happening as unintended consequences.
+You said something interesting about Yann LeCun. I noticed this as a podcast interviewer myself. People only really talk about three things at a time. Three themes.
+People are incapable of thinking about too many things because of this convergence. I feel sorry for Yann LeCun because
+he always practices saying the same things over and over again. So obviously, for me as a podcaster, there's a trade off between, um,
+clout and actual real sources of entropy. And I'm trying not to influence the the interviewee with my own
+views and sources of entropy, because, again, that creates these convergent measures. But anyway,
+on to the most important thing. You were just saying that, um, some people argue that certain things are just the way they are.
+Status Game
+So there's this book called The Status Game by Will store. And he says that we all, you know, we play the success game,
+we play the virtue game, we play the dominance game. And you could argue that this is the real reason why social networks
+have virality, because people are playing the social games. And if you create an a social network,
+then there's no game to be played. So maybe people won't be interested anymore. Mhm. Well um, so,
+so first I mean I that the fact that the word social get gets like, uh, you know, kind of um, entangled with this issue of like popularity.
+It's just like crazy to me, like I can't. The word should be separated in my view.
+Um, you might argue that the network would fail because everybody is too motivated by popularity driven mechanisms,
+so there's no way we're going to have a network like commercially successful network or even successful enough to have a community.
+But that's different to me than saying it's not social. Like that's a strange point to me. Like, like socializing didn't used
+to have to do with these things. Like, these are all ridiculous new ways of describing what it means to be social.
+I mean, there was no like button in my life before, like 20 years ago. I mean, I did plenty of socializing. It was not a problem.
+Not only that, but I mean, maybe more relevant to that because that's more of just an emotional reaction. Like it's basically, um,
+it's there is precedent for having networks that are successful without these mechanisms. Um, and, you know, bulletin board
+services are really interesting. Great precedent, you know, because I obviously I spent of course, a lot of time thinking about this.
+I understood that like, this is a very radical proposition, including risky proposition, like, will people be able to stick
+around in a place that's lacking things that they instinctually expect at this point, which are not only like instinctual but like
+actually literally addictive? Um, and so it's like, you know, it really is like a detox. So you take people out of that,
+like, can that even work? And of course, I was thinking about that. I mean, I think one thing that creates an opportunity for that is like it the counterpoint to
+the fact that it is so pervasive and people are so disgruntled, gives a little bit of a boost to the opportunity to have an alternative.
+Like it may not have been in an earlier like ten years ago, um, as potentially obviously appealing. Like, why this?
+Like, it's not as fun as that, but but now people know that like, this actually makes me feel ill. Like when I do this all day.
+Maybe not everybody, but enough people that there's an opportunity there. But going back to precedent, like
+precedent is interesting here because like whether or not people would just do it as some reactionary thing, um, like these bulletin board services.
+I started studying because because I was trying to understand, is there any example of successful social networking, like without
+these popularity mechanisms? Um, and I was, you know, surprised, like looking at phpBB, which is like 1990s technology.
+You know, it's just a really boring thing that nobody in the industry talks about. I mean, like, I'm not an expert,
+actually, I should be on the industry, not my industry. But, you know, I listen to some, um, you know, some of the pundits
+and the pundits and the critics and things in the industry, and you like, never hear them talk about, oh, wow, phpBB like really interesting,
+you know, cutting edge thing. But it is actually cutting edge, like they still exist and at huge scale. Um, you know, like probably the
+biggest I think is city data, um, which has like on its form, 2 million people. Um, none of these mechanisms,
+like completely absent from it. Um, and I was trying to understand, you know, why why is that? And there's lots of those,
+by the way, it's not just city data. They may be the biggest, but there's lots of just local websites with very thriving communities of people
+who have none of these mechanisms. They just use primitive bulletin boards a lot of time. phpBB. Um, and why is that?
+Um, well, it's like obviously there are like different. One reason is because, like, everybody there is interested in the same thing. Um, so they have shared interests,
+um, and they know that people are interested in what they have to say, and they also are motivated because you don't have to be
+famous in order to actually be part of the conversation. Um, like nobody has a particular megaphone over anybody else.
+Um, and I was, you know, I'm shocked when I look at phpBB, uh, individual contributors like you can see for people, you can
+see how many times they put their posts have been read in aggregate, and there are tens of millions, tens of millions of reads on
+complete nobodies, like, like, you know, Mr. Poodle 24, you know, he's got like 20 million views, um, like he would be a celebrity in
+Twitter with that kind of thing. But this is in like, this world where is this? Doesn't even get noticed. Um, and so people are getting
+they are getting attention. Um, but it's through completely different mechanisms and they feel part of that community.
+Um, and so like some of that guided some of the design choices that, that I went to because I was trying to understand, you know, they're very
+different kind of way of presenting conversations and things like, like it's very more simplistic than most of these networks,
+like networks use these kind of hierarchical structures to, like, have conversations break down into trees and things like that.
+Like phpBB is like totally linear. It's more like a dinner conversation. It's just the topic is set by the first poster and then post,
+post, post post post. Everything's just in order. The only thing you see is the latest, like there's no attempt to rank anything at all. Um, it's just time, that's all.
+Um, it's ridiculously simplistic and that I wasn't necessarily taking the lesson that we're just going to recreate phpBB,
+because I want to apply some of what I understand about open endedness. But I thought in some ways it's like taking phpBB into the future.
+This is like the futuristic version of phpBB. You don't need to go to one website. You just automatically get sent
+to the people who find what you say interesting. Um, and we will. Will actually have one thing that we that is maybe not clear,
+that comes up in sort of implicit in some of what you're saying is we will have some quality mechanisms. I'm not totally against.
+Like you made an interesting point, which I thought was really insightful in the notes about why would you in Pick breeder
+have things like star ratings. Um, you know, you did do things like that, like you let people have individual autonomy and their
+individual paths, but you still gave some ability to express quality directly and explicitly. Like,
+why wouldn't that also be true here? I think that's thought provoking to think about that. Um, and but you know what may
+not be obvious? I mean, even like having visited Maven is that there actually is a quality mechanism in there.
+Um, but what I took was the minimal criterion idea, which is like obscure, probably, um, like I wrote a bunch of papers
+with minimal criterion maybe. Well, not a bunch, maybe like five. They had minimal criteria, like there was not novelty search with minimal or minimal criterion. Novelty search.
+There was minimal criterion co-evolution. Poet had a minimal criterion inside of it. It's this like obscure idea which I've like always, I've loved for
+the whole time that I've thought about it, which nobody else. Well, maybe a few, but it never caught on.
+Like the way something like Novelty Search did. Um, it's more obscure, but I but I've always really loved it.
+And, um, because it's, it's a way of interpreting evolution,
+um, that I really liked, um, where it's like, you don't necessarily think about it as on a continuum of quality,
+where it's like fitness is often presented that way, but rather you think of it either you succeeded or you didn't like.
+If you get over the threshold, it doesn't matter. There's no need to rank. And the thing about this is it's about interpretation. It's not like a right or wrong type
+of thing, because it's not really saying any specific explicit thing you should do, but it's just like interpretations of evolution.
+I really like this minimal criterion view because it suggests it puts an emphasis on a different aspect when you think about evolution rather
+than the aspect of competition, which, like I said, like I think leads to convergence. So I'm trying to understand what leads to divergence. Well, the minimal criterion is
+very effective at having some kind of quality standard. Like there's a minimal quality standard.
+You can't go below, so you can't degenerate. But other than that you have total divergence.
+Um, and I think that's really appropriate for very subjective domains where it's very hard to say this is better than that. Um, and it really is that way with text and, and speaking, you know,
+because if you think about like, um, stuff that's said on Twitter, that's very subjective, like pearls of wisdom or something,
+um, like those really don't belong in a ranking. It's quite odd, actually, to have like a strict continuum like this.
+I was thought of this because like someone on Maven said, like a, like a few weeks ago like list. Could you just everybody reply
+with some really succinct pearl of wisdom that's meant a lot to you throughout your life. So you get this big list of like,
+little pearls of wisdom from everybody. And I read through all of them, and I just absorbed them in my own way because, like, they mean specific things to me.
+Some of them resonate more than others. And I was just thinking like, what would I have done if one was ranked at the top? Because it would be the rich get
+richer, so there would be this extremely like top level piece of wisdom, so I wouldn't be thinking about anything.
+I would just be like, I don't want to waste my time on the crappy ones. This is the good one. And then I can just leave and there
+would be no thinking involved, and I wouldn't get to absorb each one for its own right, like how it interacts with me in my idiosyncratic way. And so of course,
+there is total crap in the world, and we don't want that, um, you know, like I wouldn't want like the reply that said, like, everybody should
+just eat bananas or something. Um, but but there is something above that threshold. It starts to be much less clear,
+like how we should rank things. So I've always been interested in this minimal criterion. But what you said and we have that.
+So basically we have a minimal criterion standard. So you're going to see this kind of evolutionary divergence where like the stuff below that you won't see circulate as much.
+So there is a quality standard, but it's not a maximization algorithm. That's what's so interesting about it. It's just a minimal algorithm.
+So above that you just get churn like total churn round robin the way you put it. Um, but your point made me think
+because I was thinking, why didn't I just go to, uh, you know, the, the pick breeder view of the world, like, we could have done that,
+too, in this kind of context, um, and tried to intermingle, like ratings in some level. But I think, like,
+I thought about this a lot just since I've read your your notes, and I think I concluded that, um, it's not that it's like there's a
+strict principle that would like that suggest you shouldn't do that. It's more that like, I think the medium is the
+interaction of the medium with the quality standard is very subtle. Um, so I obviously made a decision, but it was intuitive and implicit,
+like I hadn't really thought about it a lot until you pointed this out to me. But I think that, um, after thinking
+about it like there's there's a mismatch between the pick breeder way of showing things and like, uh, this kind of text based social media
+content because I think the pick breeder stuff worked because I could really quickly show you all kinds of perspectives simultaneously,
+like there was only one section of the pick breeder site that showed top ranked. Like all time top ranked and like
+but but then there was a newest top ranked like new, top ranked or the highest quality new stuff. There was random, there was most
+branched, and so there was like a whole set of different categories. Plus you could like go into individual, like you could go to
+like faces or something, um, like individual categories. And I and I think that that works there because there are pictures,
+you can see all of it at once, but I can't present all of content that way to you. And I think that if I gave you
+top ranked, um, as an option, like if I gave you a bunch of different panels, you would spend your whole life there,
+like in the consensus driven world, and it wouldn't be propraetor at all. Like, we need to get divergence, we need to expose you to diversity.
+And so, like, if I have this very narrow window like the screen of a phone and I also it's much harder for people to consume the content because
+it's not pictured if to read it. I think the minimal criterion works a lot better. Um, because it doesn't require
+you to prevent present all these different views simultaneously and have people like, like equitably look at all of these different options.
+Like it's just like totally intuitive. It's just like every other social media from their perspective. But under the hood, we're taking care of things to make sure that
+this is divergent and has like a bottom where you can't go below it. Um, so I think that's why we get to that point. Yeah.
+Facebook
+Because when I, when I started using it and we'll introduce it properly, you know, for folks to understand. But I was met with a little bit of
+mild confusion because I didn't understand what was going on, because we all have a mentor kind of reference frame to understand the world. And we were talking about goals and
+planning are quite a common one. So the thing about pick breeder is, um, I mean, the clue's in the name with the neat algorithm.
+There is a topology there, and in my mind and in the user experience, you can actually see the topology. You can understand the structure.
+And on Maven my, my read of it was that it was quite flat. So there's this minimal criterion but we don't know what that is.
+And then so it's a bit like the bias variance trade off. There's some structure. And then like you allow for
+complete variation above the minimal criterion. And then all of those posts are kind of round robin allocated to
+to folks who use the system. And then um, I guess I'm naturally looking for the next level of structure.
+Now, based on your answer, I agree with you. You convinced me that the the kind of the wheel store status game thing,
+um, it might be a component of the reason why Facebook is viral, but I agree with you. Look at my discord server.
+Look at, you know, these PHP websites, people love recognition. They they're interested in things. They love this serendipitous process.
+So yeah, absolutely. That that completely works. But I think what Facebook did though is, is they chose a proxy
+for interestingness, which perhaps is quite deeply ingrained with us because it's this social status thing that we all care about very much.
+And what you're desperately trying to do, I assume, in Maven, is to not choose any one topology, but to allow the topologies to
+emerge naturally. But I guess my point is, is that without the user experience kind of guiding what the topology is,
+then it's almost like you don't get this reflexive feedback loop that you need for the system to work. Yeah, it's such a complicated thing.
+I mean, there's a lot of points to that. So like Facebook in its genius. Um. Is, you know that. I don't know if it's genius as
+much as obvious. Like, I feel like this were the first things I would try to like. Like it's like I would put a like button. It's just such an obvious thing
+to think of. Um, I think what what wasn't necessarily obvious was how addictive that is.
+Like, that is such a, such a like a worm into human psychology. Like it wouldn't be obvious at at first.
+I mean, I notice it like getting likes on a post, an X or something. It's like very distracting and consuming, like when your post
+is getting a lot of likes. And that is weird because it's just a number going up, like there's there's nothing actually happening.
+Um, like, it's not like I'm learning anything or something, but I can't look away from it anyway. Um, and so you could say that's
+genius because it hit on something really, really powerful. Um, and I don't think we can create anything as powerful as that.
+Like that is. It's just like, you know, it's like, um, you know, um, you know, green beans can't
+compete with heroin or something. Like, it's just like heroin is going to win. Like on the addiction scale. Um, but like, so we're going to
+that is an uphill climb. I think at some level, um, that we have to deal with. Um, but there is but in terms of
+structure, there is still structure. Like, it's it's still not as powerful as that in terms of an addiction mechanism.
+Um, but we certainly have structure. I mean, it's not just like you kind of sort of present it as kind of like a flat like thing
+where it's like it's like you totally have to just, um, derive your own structure from reality. You can't get any from the
+system itself, but you have to. The thing is, what we tried to do, there's two things we tried. The first thing is we tried to
+replace, you know, the the kind of addiction mechanism which is this like, um, this kind of, uh, self-affirmation that you get,
+like when you get these kinds of signals, like a, like signal or a follow signal with something else to do because you need something
+to do to occupy your time. Um, something that feels like an activity and that was to follow interests.
+Um, so that's why we said you follow interests and not influencers. That was like our first slogan, its current slogan.
+Maybe we'll change the slogan. Um, but so like, yeah, we see that. So like, by following interests, of course, like, your world will
+not look like my world. Um, they're all customized around interests. Um, and, you know, the system is
+using AI to generate interests. So those interests, it's not like you just decide what your interests you can if you want, you can just
+type them in, um, but you're seeing them surface constantly. And we've definitely seen people have been using that the way
+that it's intended, which is to constantly expand that, like surface of serendipity. Um, because they see something pop
+up, you know, it's like you see something like, like like I for, um, uh, for architecture. And it's like, yeah,
+I hadn't thought about that. So it's like, okay, I'll click that one and then I'll follow that. And now that becomes something that they're interested in and they didn't know.
+And you definitely see people growing their interest graph. Um, and so that's that's a new activity that we've introduced.
+I don't think it's as compelling as getting likes or follows, but it's something that's, it's a it's a recreational activity.
+And the other thing is though that you mentioned like the reinforcement signal like that, that's something that obviously is it's like directly
+is the likes and follows two. But it's important um, for, for keeping people engaged. And there is a subtle thing
+going on like that. Um, I mean, in addition to the minimal criterion, which is a weak reinforcement signal, but there's the the fact that replies get resurfaced in our system,
+like our system is very respectful of replies, like in a way that like, um, X isn't, for example, like x. Sometimes you see replies in your
+main feed, but it's not systematic. Like generally that's not that common. Um, I'm not sure what the
+algorithm is to decide, but you don't see them that much. But in ours, every single reply goes back to the top.
+And this is like respecting phpBB style, you know, because they're like the the top thread you'll see when you go there is always the
+one with the most recent reply. Um, and so we kind of show like the last few replies, always like whenever we like pop something
+back up to the top of the feed. Um, and this is basically causing that thing to get more exposure. It's just implicit.
+Um, and so like the most engaged posts, you see more and you're going to see like what's most recent on them.
+So there is a mechanism and it's even arguably objective, which is you could say it's bad in the big picture.
+But like you point out, like the real truth is, it's not that you don't want any objective mechanisms that you want to balance.
+Um, like we can have people say something as high quality and pick breeder and still get an overall divergent process, but you can't have
+a dominate. That's a big problem. So I'm just trying to reduce the domination of the objective component, because I've always
+thought like when it comes to quality and diversity, the real problem is that quality kills diversity. When you make it like the primary
+thing, like all the quality diversity algorithms are about trying to put quality in a box so it won't destroy diversity,
+because if you're not careful, that's what will happen. Um, and so we still have some we still have some structure because of that. It's just like through the, um,
+yeah, through the actual exchange between person and person.
+Um, and you would start to notice that hopefully implicitly, like as a user. That like the big conversations keep
+coming back over and over again. And that's what phpBB users experience. So that's been shown to be
+enough to keep people around. From an engineering perspective. Do you have a cold start problem, and do you have any thoughts on how
+Cold Start Problem
+the dynamics of the system will change at different levels of scale? Yeah, there's definitely a cold start problem, obviously. Of course.
+Um, we face a stark, horrendous version of the cold start problem because, I mean, you have, uh, just the general cold
+start problem for any company. Then you have the cold start problem for social network, which I think is, like generally really bad.
+Um, and then you have a cold start problem for a social network in the world today, which is worse than it used to be.
+Um, because already are all these social established social networks, you know, when, when X started or Twitter started,
+uh, it was a lot easier. And in fact, um, one of our investors, our leader investor is of Williams,
+um, who is one of the founders of X or of Twitter. He founded it. Um, so we've had a lot of conversations about like, how did he
+start Twitter and stuff like that. And the story there is just, uh, um, of course it's just impossible to reproduce today.
+You couldn't do it that way. Um, it was a different world where things like this could catch on organically, just independently.
+But now you're fighting against the fact that people already have homes or are more compelling places to go because we're saying, come here
+and talk to a few dozen people. Or he could go over there and talk to a million people, like, what would you rather do? That's a horrible cold start problem. Then it's even more exacerbated
+by the fact that we don't use addiction mechanisms. So we're not exploiting human psychology in the usual way that
+can get you like, you know, off the ground with something like this. Um, so we obviously have an enormous cold start problem.
+Um, and so but the thing about cold start problems is, I know much has been written and said about cold start problems.
+Um, but I think like one important insight about cold start problems. And by the way, I'm not an authority because I haven't succeeded yet.
+So don't take my word for this. Like I could be wrong. But what I think is that, um, you know, every cold start
+problem has to be solved in a way that is different from the past. Like there's not like a formula for how to win in the cold start race.
+So there's all this conventional wisdom, but it's from the past. It's like, this is how it was won before. The next thing that cold starts successfully,
+it'll be totally counterintuitive. It will be something nobody thought of as a way of handling the cold start problem.
+And so this is a unique situation that has never been confronted before. Like how can Maven actually solve the cold start problem? And it will be solved in a way that
+doesn't reflect conventional wisdom. Um, and so I think, you know, what gives us the opportunity. So we're obviously working on this
+from many angles because that is our problem as the cold start problem. Um, like we have. But we have some opportunity, some
+inroads into the cold start problem. Uh, one of them is just like we do have the the goodwill of people because of the fact that
+many people resonate immediately with the idea of getting some way out of all of the mess, um, like, it's now in the air.
+And, you know, some of our investors like, say, and like they keep pounding on us, too. They're like, look, this is the time to act like like, look at everybody's upset.
+Like some new article comes out, but it's in the air that, like, everybody's disgruntled with social media for numerous reasons.
+And it's not. It's like it's at a general public level, like pundits are saying, but also individual level,
+like individual people. People say, you know, I just feel I feel slimy and yucky and anxious and tired after I go through my feed.
+Or there's like terms like doomscrolling and it's like that creates a huge opportunity, you know, it's like an opportunity
+to actually go through a feed and not feel that way. Um, that so many people have been telling you. So I think if enough people can latch on to that, that's something,
+something else that I think is going to help, which is I wanted to preview a little, is that we are adding other features to like,
+obviously you're just seeing like version one here, we're going to add some other cool features I think like there's some of them
+are like just gestating right now, but um, they're going to be some more pick breeder ish things you can do in the service.
+These are you know, some people say, you know, there has to be a single player mode. Like that's one way out of the cold start problem. That's one thing you hear sometimes,
+like something fun to do if there aren't other people around. Which makes sense, because if you're starting cold, there's no other people. Okay, we're taking that to heart.
+There'll be there could be some fun things to do like that. Um, so we're going to, you know, approach this not just at the
+high minded level, but also at the practical level, too, but hopefully coming out from these all these different angles, um,
+and exploiting the fact that, like, we actually are saying something virtuous, which is very unusual, you know, we're taking away all of
+these nasty things that exploit human nature and just letting people just be themselves. Like, you can just pursue
+something for curiosity's sake. You don't have an incentive to get attention anymore because you can't get any followers.
+Um, and so like, what would be the point? So you also don't have a reason to be embarrassed because like, you don't
+have followers. They don't care. Um, if you want to go ask something about something you don't know about because I feel I have enough
+followers on X that I feel like I don't want to say certain things because I know what they expect, and I'm going to sound like an idiot,
+you know, because I actually only know about the things I know about. But there are some things I'd like to talk about, but, like, I don't really know well about them. Very uncertain, but I just basically
+don't feel comfortable doing that because I have all these followers. Well, you don't have that problem here. Um, and so you can do all these things. And I think that that can be.
+Powerful because, you know, people would will like to have some relief from this kind of pervasive nastiness which like,
+just like surrounds everything. I just like wonder what it's doing to us that every single thing you do is launched into the most
+cynical Darwinian competition you could possibly imagine. It's like, it's not even like the big things. It's like every single statement, like just one little reply for
+like one sentence. It's immediately launched into a Darwinian competition for the top comment. And it's just crazy, like, what is that doing to our psychology?
+You can go here, you can relax. You can just be yourself, pursue your curiosity. I think we have a chance because
+of that. The reason why I asked you the question about the scaling, though it was a bit of a trick question.
+Um, Facebook, they went through this kind of I mean, you can think of it as a revolution that Facebook and Google, um,
+invented this relevance ranking, which is this idea that we've got a whole bunch of data in our system, and we do some collaborative
+filtering and machine learning, and we do some objective optimization, and we create these convergence things.
+And and in a way that's very good because, you know, there's lots of complicated information and it's a way of discarding what's not relevant
+and giving you what what is relevant. But on your system, it's almost like going back in time to the 1990s where you just you
+just have a PHP bulletin board and you just do round robin and you just give people what they want. And so my observation was that
+it works brilliantly. Now at the very beginning, you almost don't have a cold start problem. It works great. But but but the question is more like, well, what will happen
+when you have a million users? Yeah, yeah, I missed that part of the question. That is a really interesting part of the question. Um, you know,
+probably my mind doesn't go there first because I'm like, that's like the best problem to have. So that's like what I think
+about less. I think I really got to worry about the problem of, are we going to have even like, you know, a like 10,000 users? Um, but like, yeah, that's really
+interesting to think about. So what happens at scale? And, and many people have commented this like the very earliest users on Maven, you know, loved the nice community,
+everybody they could trust. Like it's just like everybody is really interesting. Thinks about what they're saying. Obviously you pour in a million people.
+That's not true of everybody anymore. I mean, people have I've heard people say like about Usenet, if anybody's old enough to know,
+remember Usenet. I know some people old enough to remember Usenet, that they say that was the golden age of social media.
+Like everybody was interesting and polite to each other and just said, said things sincerely. They weren't looking for attention like that. That kind of, uh, you know, that
+that kind of, uh, Usenet era stuff. Um, that's going to be, um, you know,
+people people talk or people remember that from social media. Um. And and that is. That that is going to change at
+scale. And people say like, why did using that fail or like not fail? But why did it sort of go out of style? Well, because there's millions
+of people poured in. It was the it was the smart people. I heard somebody say this recently, like it was like the top 10% or
+something of IQ was there. And as soon as everybody else came in, it went downhill. Um, I'm not endorsing that.
+I don't necessarily think IQ is what tells us whether somebody is good at social media, but but it's it's somehow there's like the best people
+of some kind of theory and but I do agree I don't agree with that. But I agree that like obviously the more people you pour in,
+the more people you're going to get that aren't doing what we wish they would do. They're going to make the experience worse for other people. Um, how does that scale?
+Um, but I think that first, it's just super interesting to think of the minimal criterion at scale that is, that is that is going
+to kick in more like right now. Minimal criterion is almost irrelevant. And that's why, I don't know, I probably no one would notice it one way or another.
+It's it's not necessary at the moment because the people who have come in generally have some connection to me or my co-founders.
+And so there's a level of trust that they're just generally people have similar interests and everybody's sort of on the same page.
+There's a few there's a few people who came in who probably weren't great. Um, but like, it's not really a
+problem at this point. Um, and so, um, so there it's yeah,
+you've got this kind of like community we almost curated there. Nice. And so it doesn't really matter. You might not even. I don't even know if you knew
+there was a minimal criterion. I'm assuming you didn't know that, uh, when you visited there, you probably. I would assume you wouldn't know that. Is that true?
+It looked like there wasn't, but I assumed that there had to be. Because you're building a system that.
+Convergence from Other Platforms (Maven)
+Because we can think of it topologically. So on, on Facebook, it's quite homogenous. And in your system, you can think of this landscape where you have
+peaks going out to the horizon, and it's much more even and balanced. And then you might argue, well, there's a real risk that you might
+have something very important which doesn't really get mixed together because you so many people are independently thinking of very
+important things, and they're not being raised up because we don't have this kind of homogenizing force. But but then you can bring in.
+Well, you do, because we're in a globalized world and everyone's everyone lives in the same world. Everyone watches the news,
+everyone uses Facebook and so on. So there's this weird kind of like convergence from other platforms that will leak into your system.
+So our other systems leading to convergence in general, like outside those systems, that's the implication of what you're saying.
+Um, so actually I would just, just so I don't lose that train of thought about the military train. I do think it's really interesting to scale. I just put that like to hold
+that point in the conversation, too, because like, that's, um. You know, we see really interesting dynamics in these minimal criterion
+algorithms, like when we run them in like without people, and they're very good at diverging and filling up a space of possibilities.
+Um, and so I think at scale, you would start to see that true filling, um, like filling up because the space of possibilities that like
+we play with in these toy domains, like a robot in a maze is not so interesting. But this space of possibilities of
+human thought is super interesting. Um, and so I think that's one benefit at scale that like, never, ever seen an experiment
+like that at scale with people. That will be interesting. But you're saying that nevertheless, like the world is inside of this
+kind of convergent loop, like it's, it's it's most systems and it's not just like conventional, what you might call social media,
+but things like YouTube. It's like they're they all working on this like based kind of convergence stuff. And I mean, I see commentary in the news every day, even today,
+like about, um, why things like Pitchfork are closing down and stuff like, it's like these, these ranking algorithms are turning into
+the controlling force of culture. Um, and I do wonder how much that's affecting, uh, everything because, you know, like,
+like things that seem weird to me culturally that I don't understand. Like, for example, it seemed like until around the
+year 2000 that, like, rock music was evolving in some way. Like, you could be pretty sure that, like, the music of today is really
+different than 20 years ago. Um, and like, I was enjoying that until around then, and then it seemed to stop, like now it's
+like almost 25 years later, like, I it doesn't sound much different from what it was 25 years ago. And I'm like sorely disappointed.
+I expect it to be in shock by now. Um, and I wonder if it's because, like, there's this major convergent mechanisms like across culture.
+Objectives Creeping in Later
+Are you worried about, um, objective measures creeping into Maven in the future? The ultimate like version of
+drifting towards quality over diversity is is a sellout. Like if I did that um, but it's you know, I would be a
+little worried. Um, because. Yeah, like, commercial pressures exist. Um, but, uh, I don't imagine
+myself doing that at the moment. That seems unlikely. I mean that's our differentiating factor two. It's kind of interesting.
+Some people have said like, you know, you're going to have to introduce like these things in like people just like somebody said to me,
+like, um, the only reason anybody going to go to another social network is they can take their followers with them, like you're
+going to have to have followers. And so I'm just like, well, but that's our differentiating factor also. So it cuts both ways.
+Like if we just have followers and likes like why would why would you go to us? You already have that in your other network. Like it's just absolutely makes
+no sense. I mean, I understand that's like the argument in things like, um, threads or blue Sky or Mastodon,
+like they are basically just Twitter run by different management. Um, and then like, you know, you kind of try to import your followers.
+Um, they all have a, uh, like some other kind of, you know, motivation. Like, why, why should you just go play the same game somewhere else?
+Um, some of them try to say, like, we have a more kind of, like, fun filled culture. We're not about arguing, but but I mean, who's to say that you can't control culture?
+Um, and so, you know, I think just like, just create creating another one of those is just not, not going to do anything.
+It's going to be an absolute failure from a business perspective. So it's some incense. Incense is an advantage that we
+are so different. Like it allows us to differentiate in this market. Um, and I'm not sure what we
+would gain by becoming more objective other than just like having no differentiation. Yeah. And I've been reading this book,
+Will Zuck Copy?
+Broken Code, talking all about the evolution of, of um, you know, Facebook and Zuck had this methodology of just copying everyone
+else's ideas as quickly as possible. But your one is so paradigmatically different, even more so now that I've understood it more deeply
+speaking with you, that there's no risk whatsoever of him copying it. Um, which is actually a bit of a moat.
+Right? Right. Yeah. Exactly. Yeah. So I can't get rid of likes that would be or or friends. I mean, that'd be. Could you imagine?
+That's not going to happen. I mean, they could try to start a separate service, but I think it's way outside their philosophy to do something so crazy. Um, and so nobody else can get
+rid of it either. It's the ex isn't going to get rid of likes. It's not going to happen. So. And I by the way, I think those
+services still serve a purpose. You know, I think of it not as social I think of as an announcement service.
+Like I feel like it's really weird that we think that social means having popularity metrics. But like to me it does help you to
+get a megaphone, and it's useful if you want a megaphone or if you want to listen to the people who like. If you think whose megaphone you want
+to hear, like, I don't feel like we should get rid of all of that. It's just very convergent because there's only so many
+megaphones to go around. Um, but there's nothing necessarily like there's a lot of bad side effects to it,
+but I don't think we should just completely get rid of it, or that it's necessarily the case that Maven has to replace all of that.
+Like, we can have something good for having megaphones and making announcements to our followers, and we can have something for exploring and curiosity. Um, and they can coexist.
+And but yeah, I don't see, uh, Zuck or anybody else in this field like going going in our direction. Um, it's just impossible. Yeah.
+Panopticon / Social Identity
+There was this really interesting thought experiment about a panopticon, which is this hypothetical building
+where I think it's a prison, and everything you do can be observed through a kind of series of mirrors. And the whole idea is that when,
+you know, when you're in front of the judgmental eyes of others, you don't explore any new, interesting behaviors, you don't
+discover yourself and so on. And we're talking about Yann LeCun earlier, and in a way, you might feel sorry for him,
+because it's not necessarily that he's incapable or doesn't want to talk about other things. It's almost like because his personal
+identity and because people's, um, understanding and expectations of what he says are so kind of diffused and solidified in the system.
+He has no free will. He can talk about nothing else because that's what he's supposed to say.
+And the only way to break out of that pattern is to kind of step away from your social personal identity. Yeah, yeah.
+Which is really hard and risky and frightening to do that. So it's it's true. I do think he, like almost everyone
+else in his position, is trapped. Um, that's why it was very interesting to me to, uh, experience just dropping out of my field, um,
+which effectively did, you know, because I was, like, machine learning research and then just like, nothing, um, and, um, my mind,
+like, just outside of Maven, even, like, it just completely started going in new directions, like in machine learning, you know, because
+it's like it no longer mattered. Like I have no incentives anymore. Um, like, like I don't I'm not trying to satisfy anybody's
+expectation professionally. Um, I don't have to publish a paper. So I just I just noticed immediately, like a liberation in my thinking,
+which. Yeah, made me think a lot about this issue of why people start to get stagnating when they get older.
+Um, like, is it just aging or is there, like, more to it? You know, because it's just like the the social effects being so powerful.
+Um, so I've kind of been enjoying just like my mind being completely free. Um, not not having any I mean,
+I still have social media expectations, so. That's still true. Like if I talk about AI online, I know what people expect.
+But like in terms of just like thinking about AI or what I need to do, I don't need to do anything. I can just think about whatever
+I want to think about. It's kind of interesting. Yeah, I've often thought about this. Um, you know,
+yoga teachers talk about the tyranny of your social embedding. And of course, they don't use that technical language.
+They'll talk about it in terms of, um, not thinking about your social world and just being present and experiencing things
+as they are and just being. But basically what they're talking about is escaping the tyranny of the social world,
+which erodes your agency and forces you to do things and makes you worry. And yeah, I agree with you. It's not about aging.
+Um, I think as you as you get more and more sclerotic and ensconced in the social world, you kind of like, you don't need your
+optionality just just disappears. Yeah, yeah, it's very true. It learns this epic tag cloud and it's not hard coded in any way.
+It just grows over time. It's a bit like a huge cloud, you know, a new interest arises. Um, and it might be a side effect of
+old interests, you know, that this is sort of like the idea of this, like diverging, kind of like going into new areas from where you've been, you know, because if you're talking about computers,
+then you might start talking about AI as it as a side effect of that. Now AI is introduced into the system. It's a new interest at that point.
+Computer. Your computers was an original interest. Now we have AI as an interest. Um, it's implicit that like AI is related to computers,
+like that's you think in a graph they would be related in some way. Um, but we don't actually have like this
+massive data structure that shows all those implicit relationships. They just exist implicitly. We extract them at certain points.
+So like when you go to the profile of an interest, because like I said, you can follow interest as if they're almost like people and has a profile
+like one section of that profile are, uh, related interest. And those related interests are known for reasons like that. They co-occur.
+Um, and so it's, it understands that these have co-occurred before and it figures that out at that point. But the whole graph is not stored in
+any one place, at least not not now. Um, and so it's an implicit graph that's growing and it has different aspects to it.
+You know, it's not like one graph either, because there's also the, uh, interest graphs that go through people, you know,
+because you can say that I have these interests and then I overlap. That overlaps a lot with you. And then we can see what what are
+the other interests you have. And so those are interests that are likely interesting to me too. Um, you know, because like,
+we share a lot of interests anyway. Um, and so we could actually say, you know, what is the graph that goes from interest to person
+interested in it to other interests, to another person interested? So there's a there's a graph like that too.
+Um, and all those exist implicitly inside of the system. And I think eventually we would if the system is successful,
+we would analyze those like we would try to extract some parts and let you see it more explicitly, because that would be fun.
+You know, it would be fun to see the graph, to navigate the graph explicitly along its edges and just see what this thing looks like.
+Um, it's a little bit like like visualizing like the family tree in evolution or something like what's related to what.
+Um, and that tool is not exist yet, but I imagine we would eventually build it, um, just because it would be fun for people to see and probably
+also useful scientifically for, for, uh, for researchers. Professor Kenneth Stanley, it's been an absolute honor.
+As always, thank you so much for joining us today. Thank you again. This was a great opportunity. I always loved being on the show.
+Be happy to be here any day. Amazing, amazing.
 
 ----------
 

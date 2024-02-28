@@ -7,7 +7,8 @@
 7. [# 15-Year-Old App Goes All Swift | Caffeine Refactored | @SwiftBird](https://www.youtube.com/watch?v=fehxCCKWpZA)
 8. [# iOS Dev Job Interview - Must Know Topics](https://www.youtube.com/watch?v=XTAziR-tY-A)
 9. [# Autorelease Pool, Lazy Initialization & More | Advanced Memory Management in #Swift](https://www.youtube.com/watch?v=5Yi3KFLz8Ms)
-10. 
+10. [# 65 tips to use Xcode like a PRO 👨🏻‍💻👩🏽‍💻](https://www.youtube.com/watch?v=sF5CO58oh4o)
+11. 
 
 
 
@@ -1081,14 +1082,1360 @@ paste here
 ----------
 
 -----
+
 --10--
 
 -----
-Date:
-Link:
-Transcription:
+Date: 2024.02.26
+Link: [# 65 tips to use Xcode like a PRO 👨🏻‍💻👩🏽‍💻](https://www.youtube.com/watch?v=sF5CO58oh4o)
 
-paste here
+Here are the 65 tips distilled from the livestream transcription to help you use Xcode like a pro:
+
+### Advantages:
+
+- Streamlines development workflow.
+- Enhances productivity and efficiency.
+- Improves code navigation and management.
+- Facilitates debugging and troubleshooting.
+
+### Drawbacks:
+
+- Some features may not be intuitive or well-documented.
+- Certain shortcuts may vary based on keyboard layout or Xcode version.
+
+### Tips and Advice:
+
+1. Use `Command + J` to move focus between editors.
+2. `Alt + Click` to open a file in a new editor pane.
+3. Use `Command + Shift + O` to quickly open files or symbols.
+4. `Command + R` to run your app, and `Command + .` to stop it.
+5. `Command + B` to build the project.
+6. Navigate using `Command + 1` through `Command + 8` for different navigators.
+7. `Command + 0` to show/hide the navigator.
+8. `Control + 6` to navigate within a file using the function drop-down.
+9. `Command + [`, `Command + ]` to indent lines.
+10. Use `Command + Click` on a symbol to see its definition or references.
+11. `Command + Option + Left/Right Arrow` to fold/unfold code blocks.
+12. Use Interface Builder efficiently with constraints and auto layout visual debugging.
+13. Utilize Xcode's version editor to compare and contrast different versions of your code.
+14. Take advantage of Xcode's built-in documentation and quick help.
+15. Customize your Xcode theme and layout for better readability and comfort.
+16. Use breakpoints and the debugger to systematically track down bugs.
+17. Utilize the `lldb` debugger in the console for advanced debugging techniques.
+18. Explore the `Assets.xcassets` for efficient asset management.
+19. Use `SwiftUI Previews` for real-time UI development (if using SwiftUI).
+20. Leverage the power of `Git` integration for version control directly within Xcode.
+21. Explore Xcode's Test Navigator for unit and UI testing.
+22. Use the Report Navigator to access logs and build reports.
+23. Customize your code snippets library for faster coding.
+24. Use `Cmd + Ctrl + E` for quick edit all in scope.
+25. Learn the shortcuts for commenting code: `Cmd + /`.
+26. Utilize `#warning` and `#error` directives for compile-time reminders.
+27. Keyboard shortcuts for moving lines: `Ctrl + Cmd + Up/Down Arrow`.
+28. Practice using `Multicursor` editing for simultaneous changes.
+29. Bookmark lines of code for easy navigation.
+30. Utilize the Mini Map for quick file navigation.
+31. Explore the `Swift Package Manager` integration for adding dependencies.
+32. Customize the toolbar for your most used actions.
+33. Utilize the `Simulator` for testing across different devices and OS versions.
+34. Learn to manage and use `Launch Arguments` and `Environment Variables`.
+35. Explore the `Core Data` model editor for visual data modeling.
+36. Use `Quick Look` in the debugger to inspect UI elements.
+37. `Cmd + Shift + J` to reveal the current file in the Project Navigator.
+38. Use `Cmd + Ctrl + Z` to quickly switch between the editor and assistant editor.
+39. Understand and use `Build Configurations` for different environments.
+40. Explore `Behavior` customization to automate tasks on certain events.
+41. Learn to use `Instruments` for performance profiling.
+42. Utilize `Code Coverage` tools to ensure your tests are comprehensive.
+43. Explore `Localization` and internationalization features within Xcode.
+44. Utilize `Command-Line Tools` for automation and scripting.
+45. Explore advanced `Find and Replace` features, including regular expressions.
+46. Familiarize yourself with `Accessibility Inspector` for accessible app development.
+47. Use `Memory Graph Debugger` and `Address Sanitizer` to find memory leaks and issues.
+48. Leverage `SceneKit` and `SpriteKit` editors for game development.
+49. Utilize the `Network Link Conditioner` for testing under various network conditions.
+50. Explore customizing `File Templates` for consistent file structures.
+51. Use the `Xcode Source Control` features for managing branches and merges.
+52. Leverage `Xcode Cloud` for CI/CD and cloud-based testing (if available).
+53. Use the `Energy Organizer` to monitor and optimize app energy usage.
+54. Explore `ARKit Scene Viewer` for augmented reality projects.
+55. Utilize `Device and Simulators` window for managing provisioning profiles and devices.
+56. Explore `Data Model Inspector` for Core Data entity configuration.
+57. Use `Asset Catalog Creator` for managing app icons and images.
+58. Explore `Reindent` shortcut (`Ctrl + I`) to quickly format your code.
+59. Use `Transformations` to quickly change case or manipulate text.
+60. Utilize the `iOS Simulator` to test WatchOS and tvOS apps.
+61. Learn to use `Playgrounds` for quick prototyping and learning Swift.
+62. Explore `Swift Packages` for reusable code management.
+63. Use `Refactoring` tools to improve and clean up your code base.
+64. Explore `Live Issues` for real-time code warnings and errors.
+65. Customize `Code Folding` shortcuts for a cleaner workspace.
+
+### Main Challenges:
+
+- Keeping up with the plethora of features and shortcuts Xcode offers.
+- Customizing Xcode to fit individual workflow and project needs.
+
+### The Importance and Usefulness of the Topic:
+
+- Knowing these tips can significantly speed up development time and make coding more enjoyable.
+- Helps developers harness the full power of Xcode, leading to better, more reliable apps.
+
+### Accomplishments:
+
+- Gaining a deeper understanding of Xcode's capabilities.
+- Improving efficiency and productivity in iOS app development.
+
+### Summary of the Content:
+
+- This list covers a wide range of Xcode tips, from basic navigation shortcuts to advanced debugging and testing strategies, designed to make app development more efficient and effective.
+
+### Interesting Quotes or Insightful Sentences:
+
+- "Xcode is not just an IDE; it's a comprehensive suite for building, testing, and delivering world-class apps."
+
+Remember, the effectiveness of these tips may vary depending on your specific version of Xcode and personal workflow preferences. Explore and adapt them to best suit your development style!
+
+
+
+Transcription:
+Hello, What's up everyone? Welcome to this new livestream where we are going to
+cover 65 tips to use Xcode like a pro. So 65 is quite a good number when you think of it.
+Last time we did 30 tips to be a better iOS developer so it's more than twice the amount of tips.
+So brace yourself. I'm expect this live stream to land somewhere
+around 2 hours, 2 hours and a half. We'll see where it lands, but at least
+I'm really excited to finally be doing it. It was supposed to happen last week but I lost my voice so had to reschedule.
+But as you can see my voice is back. I'm back to full health and I have all the energy that
+I think I will need to go over this long list. So just like last time, we're going to use an
+external resource to have this list of 65 tips. So we're going to use a website that is in
+the description if you want to check it out. I'm going to switch to it. So the website is called Xcode tips.
+It's a really great website because basically it contains.
+I'm looking for the name it curates. I don't know what's the right word but it's a
+collection of 65 tips and as you can see these tips, they have been illustrated with really nice visuals.
+So if you want to check the website yourself you have the link in the description. As you can see, the creator has also made
+a Mac app, so if you want to support him, you know how you can do it.
+And we're going to cover all of this. So let me look at the chat also.
+So I see a few familiar names and faces. So we're going to talk about shortcuts mostly.
+So I've scrolled to the bottom of the page because we're going to take them in
+chronological order of when they were published. And I also have Xcode open so we'll
+be able to switch back and forth from Safari to Xcode to actually try these tips.
+So the first one is how to move focus. So if you do command j, apparently it allows
+you to move focus between two editors in xcode. So let's actually try it.
+So I'm moving to Xcode. Going to close this. So I'm going to open. Actually no, I need to open another file. So like that.
+So you see I did alt click to open another editor. So I have a view controller and a view
+model and if I do command j I can move focus to one editor or the other.
+So I guess the interest is that you can also, yes, you can also do it with the left and right arrows
+on the keyboard because if you click, you can do it. But I mean, you can just click and it's even faster.
+But if you want to do everything with the keyboard, it's a nice way to navigate between two open editors,
+two editors that are open simultaneously on Xcode. Okay, that was for the first tip.
+Let's move on to the next one, which is moving a line up and down.
+So a shortcut that will allow us to move a line up and down. And here it's interesting because I think we get
+into the realm of the shortcuts that I will not be able to demonstrate to you. The reason is that you can see
+it uses the square brackets key. And the thing is, I'm french. I have a keyboard with a french layout.
+And on the french keyboard layout, believe it or not, but you don't have a dedicated key to do this character.
+You do it by doing alt, shift and five. And usually these shortcuts, they don't work for us.
+On the azure t, the french keyboard layout. So let's see, it should be alt, command and square brackets.
+So let's try and see. I'm going to try and take this line. And if I do, n square brackets.
+Yeah, if I try and do it, it doesn't work. So actually I think if you have a
+query keyboard it's going to work really fine. But if you have, like me, an asiatic keyboard, if
+it's one of these shortcuts that you can't really use,
+or at least you have to manually remap it. But it can be quite useful to be able to easily move a line up or down.
+Yeah, I know people say that QWERTy is so much better for coding, but I've used, let me display the comment on the live stream.
+I know people say that QwERTy is so much better for coding, but I've used AzErt all my life. I never really made a switch.
+And I guess now it's, I don't know, at 33 years old, maybe it's a bit too late to make the Switch.
+Plus, it's a big commitment because if you buy a MacBook Pro for several thousand euros with a
+query layout and you end up not liking it, I mean, you cannot just switch it easily.
+So you can't switch the layout keyboard easily. So the keyboard layout easily. So that's why I never really made a switch.
+But if you are watching live and you have either a french keyboard or another non QWERTy keyboard.
+And you know the shortcut to do this action? Please let me know. But if you have a QWERTY keyboard, lucky you,
+you can do this nice shortcut to move lines. And as you can see, it's particularly useful when you're
+writing Swiftui because in Swiftui, because of the way we use modifiers, there is a lot of one liners where
+the order in which you call them is very important. Let's move on to the next tip.
+So this one, you might know it. So running with command r, but also to stop
+command and then full stop, which in a way makes sense to stop with full stop.
+Once again, we don't really have a full stop key on our keyboard in France. We have to do shift and semicolon,
+so we'll see if it works. So of course if I go to Xcode, of course command r, we know it, it's launching the app.
+You can see that right now it's building. And if I do, actually, I see that you can
+see it's building, but can you actually, no, you can't because my excel window, window is a bit too high.
+So I'm just moving it ever so slightly down so that you can see what's happening because you
+couldn't see what was happening at this level. So I did command R. So it started the app.
+Okay, it's trying to attach it. Okay, so it's starting the app in a simulator,
+and now if I try to do command full stop, now for me it does something else.
+When I do command full stop, it opens the details of the scheme.
+So actually if I go here also for me, for me it's command and semicolon.
+So it's the same keyboard than full stop, except that it's on shift full stop on this key.
+But for me it's command semicolon to do the stop, which in a way is interesting to see this, because
+it shows that this collection of tips has been made for us keyboards or for query keyboard.
+If you have a non query keyboard, be mindful that the shortcut might exist, but it
+might have been mapped to something else. So in my case, it was command and semicolon.
+So let's move to the next one about choosing the execution scheme.
+And yes, you're right, you raise a very good point, Tom. So let me display your comments in the broadcast.
+So maybe you can find in key bindings in settings. Actually, let's try and do that. So I'm going to go in
+settings, in Xcode, then key bindings. And if I search, for instance to move a line up and down.
+So move, line up. So move, line up.
+It's alt shift and carrot. And alt shift and dollar. So let me try it.
+So alt shift. Okay, so actually, yeah, so actually I can do it.
+You know what? Eleven years, even more. I started Xcode in 2010.
+So almost 14 years of using Xcode and I discovered this only now. So yeah, very good comment, thank you for it.
+So if you want to use these shortcuts that I'm showing to you, since I'm showing to you the query
+bindings, check in Xcode in Xcode settings and then key
+bindings to find what's the appropriate binding for you. And you can also rebind it here if you want.
+So here I can actually do it by doing command, command option and then either dollar or carrot.
+Super nice to learn this. I always like these live streams because I always learn new stuff.
+Okay, so this one is carrot and zero and
+it allows you apparently to choose your scheme. So let's see what happens if I do carrot and zero.
+No, it's not what I want. So I'm going to check in the settings. So something to choose the scheme. Choose scheme.
+So for me it's carrot and okay, so no, it should be like carrot because yes, it's the control.
+Okay. Because in french keyboards you have two carrots. You have the carrot on control and then you
+have the carrot to put like the diacritic sign over some vowels that we have in French.
+So you see it's this thing, for instance, you can put it over an a and e.
+So we have two of these. And so it's control. It's control and then control zero.
+And so this one also works for me on my keyboard. And then you can choose the scheme here I'm on
+a project that has only one scheme, but if you are running several schemes can be super useful. If you are also splitting your project across several swift
+packages, it can be useful sometimes to only run the scheme of a package because this way it will be
+faster to build than your full app. So this one can be very useful. And it's control and control and zero.
+Let's move on to the next one. So next one is editor history.
+So what's happening? So if you click on content and then
+you do control shift left or right. Oh, it's to have a history of where you were in Xcode.
+So let's see. I think it's the same thing than these two controls right here. So let's see, I do have delegates
+syndrogate model view controller provider coordinator, and then I do control command left.
+Okay, so that's what it does. So it allows me to navigate the stack of my navigation inside Xcode.
+And it's the same thing than these two controls right here, just programmatically.
+So I've used these two things more often than not actually, they're actually quite useful.
+It is kind of control that when they add them, you're like, yeah, I've been living very well without them, why should I need them?
+And then you find yourself using them a lot. I also know that in slack I use them a lot.
+And so you can also use them programmatically, which can be very useful when you're really deep diving
+into some code and you don't want to just take the trackpad and start moving your mouth. You want to do everything with the keyboard.
+So that's a nice shortcut. Let's move to the next one, which is navigators.
+So if you do command one, command eight, or command zero, so you can switch between like, oh,
+masking the left inspector being on, I guess, the
+file inspector or the debug inspector. So let's see, let me go back to Xcode. So I'm going to close it.
+And so if I do command one, indeed I open this thing, which is the project navigator.
+If I do command eight, it shows this thing. Okay, is it like 121-234-5678 so actually it works
+with all of the numbers on your keyboard. And if you do zero, you close it and open it.
+That's very nice, especially if you follow my live stream, you can see that often I close this thing to have more room to show the code.
+So command zero, that's when I will remember, and then you can just dial in to have the right inspector.
+What's nice is that if you play first person shooter, like using the numbers usually to choose your
+weapon, so it's kind of the same thing. You can choose your weapon within Xcode. So that's kind of a nice analogy.
+But the command zero one is super good to know.
+I'm looking at the chat because I see a few messages. Oh, good question, heaven san.
+Thank you for your great streams. I've been watching for a year plus now. Thank you for watching. Thank you for being a regular watcher.
+Question for you, have you tried developing for Vision Pro and are you planning to? So I'm going to answer it quite quickly.
+I had tried to do a live stream about getting started with Vision Pro. I think it was in July.
+But I ended up being in the bad situation
+where the new beta fixed code didn't build with the sample project and so I basically had to
+cancel the live stream like after ten minutes and I removed it because it had no value.
+So I put it a bit on pause. I haven't planned to focus on Vision Pro for now,
+mostly because I think I will rather focus on content. I want to make content on how to learn Uikit.
+When you do a swift UI, I think it's going to speak to more people and help more people.
+But I can tell you that I have tried Vision Pro. I've been able to try it because photoram has bought one
+and I was in the office of photorum two weeks ago. Unfortunately it was also when I was sick, so
+I only tried it for like 15 minutes. And then actually I went to the office, tried
+it, did a few other things, starting to feel bad, book a train ticket and came back home. So I didn't try it for a long time.
+But I did try it. It was interesting. So I think I will cover it at some point, but until
+I have one at home, I don't think I will focus on it too much because it's still niche content and minor star is
+to make content that will help as many people. And I think helping Swiftui developers learn Uikit will
+be more impactful than doing stuff about vision Pro. But thank you for asking. And yes, I know that Uikit for Swiftui
+has been requested for a long time. I've really started to work on the outline yesterday. So it's coming.
+I'm not saying it's coming next week, even though it might if I'm motivated and I prepare everything for the first one.
+But it's coming. It should happen in the coming weeks. My plan is to have it happen by the end of March at the latest.
+And I see you're saying you can trigger search by doing command shift f. Thanks for mentioning it.
+I guess we will see it like further than the list, but it's nice because indeed it will
+give you the focus on the search field. As a bonus, let's go back to the
+list and move to the next tip. So next tip is about view debugger.
+So in the view debugger you have several controls. So you have this one that allows you to capture the
+viewer key and from there apparently you can do things. Oh, you have these controls.
+So I knew about this one, but not about the other. Okay, so let's try and explore this toolbar.
+So for this I'm going to run my app in the simulator. So it's my app that interacts with the movie API
+and it's the app we had built in the live stream from almost two years ago on how to have
+a good architecture for a Uikit project. So now I'm going to click on this button to
+capture the view interface and so we can see. So when we move it, we have this cursor to
+isolate and only show part of the view hierarchy. We have this thing to move the
+how farther apart each view is. And then we have these things which I must say I have never used, so we can show the clip contents.
+Okay, then this one is about showing the
+constraints, I guess it only shows the constraints
+that are applied and it masks the content. What does this one do? So we have wire frames. Okay.
+So it's kind of like what? You can also just show the content if you want. Oh, that's nice.
+And this one change canvas background color. Okay. So if it can help you just see better. Okay.
+And the last one is just to move from two d to three d.
+Okay. The constraint, one, I don't get what it does actually, because when I click on it,
+yeah, I don't really get what it does. If you know, let me know in the chat.
+But yeah, if you don't know, this view is very useful. It works better for uikid than swiftui.
+In swiftui things tend to be flattened, and also when you have a big app it tends to fail, especially
+when you try to capture from a device. This works better on simulator than on device.
+But if you don't know about it, it's nice to learn about it. Let me go back to the web page
+and move on to the next tip. Okay, so we are on this one show document items.
+So control six is going to show us the outline and then we can navigate and move.
+Okay, I'm going to move to a big file. So I'm doing command one because I've learned this shortcut.
+Then command zero to hide. And so if I do, what did they say? Control six.
+Control six. Okay, so it just, if I had clicked, you see here. So here, this shows me the outline of the file.
+So I do control six and then I can move to this method. For instance, when you click, I don't remember.
+Oh yeah, you can also filter. So I guess I can also do it if I do control six and then I filter.
+For instance, for table view, I get all of the entries related to table view. So that's quite useful.
+Once again, you can always click to get it, but if you use it a lot, you have a shortcut so that you don't need to always go and search for it.
+I guess it makes sense. I know for whom it makes particular sense. If you're one of the lucky people who have
+an XDR display with the apple stand and you
+put it vertically and then you have to move your cursor all the way up the XDR display,
+then I guess this shortcut can be really useful. To be honest, me, I'm still the kind of people
+that would still click just because in the moment I don't think I will remember to do like control six.
+But it does exist, and it's good to know that it exists.
+Where were we? Vim mode. Is it the right one? Yes. Vim mode start new line.
+So what is this vim mode? I guess it's insert mode. I guess so. By doing o and then shift o.
+Or is it if you are in vim mode? So when Vim mode is active in xcode, you can create a new line below the current one with the key o.
+The shortcut shift o creates a new line above the current line. In both cases, xcode switches to insert mode.
+So I guess vim mode is. When it doesn't insert, it's going to overwrite instead.
+But I don't know how you enter vim mode in Xcode. I'm going to search for it.
+Okay. I don't have the shortcut to start it. I'm not going to lie.
+I've never used Vim mode before. So you have no idea how you do it? And if I do like shift o? Yeah.
+No, because I'm not in vim mode. How do you enter this thing?
+I have no idea. I've never used it. Maybe in the editor or in the edit menu.
+I'm looking in the edit menu to see if there is an option for like enter v mode.
+You can enter vim mode from the settings. I guess it's a setting that you do, maybe in text editing.
+I'm looking to see editor Vim mode.
+So you're saying it's editor and then maybe I missed it. Editor vim mode.
+Oh yes, it was there and I missed it. So now I'm in Vim mode. And so you see, if I start writing, I guess it, yeah.
+Oh no, it's because. Okay, I need to know the shortcuts from Vim, but let
+me tell you, I don't know the shortcuts from Vim. So what I'm going to do is I'm going to exit
+this thing because, no, it's like it's editor vim mode. All right, I don't use this thing.
+I guess I'm not geeky enough to use this thing. So I will, ah, stop here.
+I will stop here. But I can tell you story time I used to have when I was start when I started
+my career, I had found a great way. When you meet like new coworkers and you're trying to see if they are cool people or not, it was
+like I would ask someone like, what's the software that you've used the most in your life?
+And they would tell you what's their answer? And then I would say, well, for me it's vim because I opened it five years ago and
+I haven't been able to exit it since. And from that you have two kind of people. People who will just laugh at the joke and go about
+it and people who will look down on you and be like, but it's like you do like Colon Q or colon
+WQ to exit and everyone knows that and it lets you see who is cool and who is not cool. So fast.
+So little tip that I can recommend. Little life hack.
+Okay, let's go back a bit.
+So we were here find next and previous. This one can be useful when you want to find next occurrences of something.
+So it's when you're searching. So you need to search. So command f and then command g and command shift g.
+So let's see. So I'm going to do it again with table view. So command f, table view and then
+command g and command shift g. So that's nice knowing that if you do return or enter,
+you are doing the same thing on command g, but command shift g, I'm never sure between G and J.
+No, it's g in English. J is the other one. Is this one, this one g.
+So in the search command g and also, oh, what's nice is that even if the focus is outside of
+the search bar, you can see here, the focus is here, but there is still something written in the search. You can still do command g and
+command shift g to navigate the occurrences. So that's really useful because you don't need to click again and then hit enter again
+or click on the two controls here. So that's quite a good one to know.
+Nice one. What do we have next? Show and hide debug area.
+Also something that I do a lot in the live streamers. So it's command shift and y that
+shows and hide the debug area. So let's try it. So I'm just going to move it so that you can really see it.
+And so command shift and y. Yes, it does show and hide it. That's kind of Useful, especially if when you
+launch your project so like this, usually it's going to appear yes by default. And sometimes it's like hiding what you want to see.
+So you can do command shift and y. Kind of a nice one.
+Let's see what we have next. Where are we?
+Okay, we are here. Multicursor. Yes. So this one, I've talked about it in videos, in newsletter, email.
+So it's control shift and then the keys and you can create several cursors to edit
+multiple lines at the same time. So let's see for instance here.
+So I do control shift and then I move the cursor down.
+But you can see I've created several cursors so I could do for instance like self like this.
+It's not correct, but if I wanted to do it, I could modify all of the lines together like this.
+And then if you do control, you can also, when you do control, you can select several things.
+So when you select with control, it's going to select, taking into account the camel case, you can see for
+instance for text properties, it stops before properties.
+If you do alt shift, it's going to select the whole identifier. And if you do command shift, it's
+going to select the whole line. It's having the behavior, but that's the standard behavior of control.
+Optional alt and command. When selecting stuff, they behave that
+way independently of multiple cursors. But multiple cursors, they can be very useful. When you need to edit a lot of lines together,
+they make you save some time, which is always nice. Plus it always feels like very satisfying when
+you make your change many changes together. Like all at once.
+It feels very satisfying. It's a nice experience. And I see there is another one because
+you can also do it with your mouse.
+So you can do control shift and then click on several places.
+So here I'm just doing it at random. But then you can change several places together.
+So for instance, you could do the same thing here. I don't know if you want to edit the beginning of each line.
+I don't know why you just want to add something like this. It's completely wrong. But if you need to do it, you could do
+it like that and it can be quite nice. Another good use case for it.
+Even though Xcode also has a feature for it. But you can put several cursors like this, you
+can see before the beginning of each argument of a function declaration, and then at the end, and then you hit enter and you put it, you
+split it across several lines can be nice. And also it feels very satisfying to make that change.
+So this one, the multiple cursors, I'm a big user of them. They're really nice.
+Interface builder distance this one is very useful, I think I shared it on LinkedIn a long time on LinkedIn
+and Twitter a long time ago, and it might have been one of my first viral posts on LinkedIn.
+And so if you use option and you over UI
+elements inside interface builder, so that's why I choose. Maybe you've been wondering why did it choose
+a Uikit project for this live stream? Because Uikit is less fashionable these days.
+Or rather I've been picking swiftui as examples when showing code examples more and more.
+The reason is because I knew there would be shortcuts about interface builder, so that's why
+I wanted to have a UI kit project. And so here can see I have this view, I select
+it, I press option, and then when I over my cursor,
+over the UI image view, I see displayed the distance that
+the label overview has with respect to the image view. And so it's eleven points
+horizontally and 199 points vertically. And this is very useful, especially when you
+want to make sure that your design matches what you have in Figma for instance.
+Let me go back to the website. Also I see a question in the chat which is question for later.
+I have never been able to find and replace in multiple files in Xcode. Would be happy to know how to do it.
+So if you want to change multiple files in Xcode without the refactor and the rename, I'm not
+sure that there is a way to do it. At least I've never had the use case of wanting to do it.
+So to be honest, I don't know on that one. If someone knows in the chat, please let us know.
+But I would have suggested like refactor or the rename or also in Xcode but it's not technically the refactor
+but you have the search and replace here, which is
+quite powerful and can work across file. It works at the level of the Xcode project.
+Okay, next tip is interface builder views under the cursor. So when you have several views under your cursor
+you can get the whole stack of views. So let's see how it works. It's supposed to be control, shift and click.
+So let's go back to it. So for instance, here, if I do control, shift and click, you can see, I can select of
+course the image view, but also the view behind it and the view controller behind the view.
+So that's very useful. That's super useful. To be honest, I wish keynote had this
+feature, because it would save me time when I'm making my videos with the animated code.
+But that's very useful to be able to select something that is on a lower z axis on the storyboard.
+I'm looking at the chat. So yeah, the final replace is a little bit hidden, but I guess that's what you wanted.
+And while we're at it, one extra information. I won't demo it because I don't have the code ready in mind.
+But when you do search and replace in xcode, you can also use regular expressions, and that makes it very
+powerful because you can capture a part of what you have searched for and then reuse it in the replace.
+So that can be very useful. For instance, if you want to turn a function call into calling a property, calling a method, and
+you want to keep one of the arguments name the same, that can be very powerful.
+You have lots of examples on the Internet about this, and I need to make a newsletter email about it one day.
+Actually, no, actually, you know what, on my channel I have one of my early videos, one of
+the first videos on the channel, which is about tips in Xcode or in the refactoring in Xcode.
+But I think I have an example of it in my early videos on my channel. But I would recommend looking at it because
+it can be quite powerful for bigger refactors. It can save you like a lot of time. It has saved me a lot of time in the past.
+Let me get back to safari now. So we've seen this tip on interface villa, which was really cool.
+Next one is open quickly. Oh yes, one of the first things, one of the
+first shortcuts I learned in Xcode, which is really powerful. It's command shift o, which allows you to open quickly
+so you can open quickly files, so you can see movie view controller, movie view model, movie cell, et cetera.
+But you can also open search for types, for instance, so you can see the type.
+Movie is in movies service. But when I search for movie, the type also appeared.
+So that's extremely useful. You can also find protocols in here, so you can find all of the big declaration.
+I would say you won't find methods like calling a
+method on a table view, but you will find the file names, the protocol names, the actor, the structs, the
+enums, so all of the type level declarations. So command shift o. This one is extremely useful.
+If there is only one shortcut that you should take away from this live stream. Honestly, I think it's this one.
+It's the one I have used the most in Xcode over the last ten years, without a doubt.
+So definitely command shift o, that's the one you want to remember.
+That's the one that will save you so much time because you don't need to go here and then search
+here or search here and it's so much better.
+Actually, I said search here, but I'm not sure that. No, I don't think that you can actually see.
+Yeah, I'm moving so that you can see it. I meant search here with the little filter where
+you could do, for instance, movie like this. By the way, if you don't know that there is a filter here, there is a filter and you can
+search here and you can even if you remove it, you even have a history of what you've searched.
+So it can be super useful. Let me go back to the list of tips.
+Show view frames. So this one, it's in debug in the simulator,
+and you can show the frame of the views. So let me go back to the simulator.
+Okay, I'm going to go into light mode. It might be easier to see. And so debug.
+Where was it? Actually, I've already forgotten. It's debug view debugging. Show view frames.
+So actually it's in Xcode, not in the simulator. So debug view debugging.
+And then you do show view frames and then it shows the frames in the simulator.
+So that's good to know. It's really weird that I guess it makes sense that it's in Xcode and not the simulator because I guess
+you can also see this when you are on the device and not only on the simulator. So this can be quite useful.
+To be honest, I didn't know about this thing. I don't know this shortcut. I will show you the one that I did know.
+I knew the one. Let me go back to simulator. In the simulator, if you do debug and then
+color blended layers, I knew about this one. But it's the layers, so it's not the frames.
+The layer is one layer of abstraction down.
+So like the layer I think is the ca layer and ca layer. So coordination is under Uikit.
+So Uikit is a higher level of abstraction, and the frames are higher level of abstraction. So I knew about this one, but I didn't know
+about the other one, so that's good to know. You see, that's what I like about these
+live streams is that even though I've been using Xcode on an almost daily basis for
+like 14 years, I'm still learning new things. So I can imagine that for someone who is watching
+and who is younger to the iOS ecosystem, you must
+be learning an even larger amount of things.
+But it's always nice when you also learn something yourself during the live stream.
+This way you're like, all right, everyone has learned something. It's been a good life. Next tip is about increasing and decreasing font size.
+So command plus, command minus, and then command shift zero to put it back.
+It's important to put it back because when you move it, then you want to be able to put it back to how it was.
+So command plus, command minus, and then command shift zero.
+No, this one didn't work. So command shift zero didn't work. But at the same time, kind of makes sense
+because there is no zero key for me, I need to do like shift to have the zero.
+So I'm looking key bindings for font.
+So command plus actually, for me to reset, it's control.
+So for me it's control command. And the a with the, I think it's the acute accent.
+So let me see. Yes, it's this one.
+Like that. What was the shortcut they shared? Okay, so actually I was doing command
+shift, but it was command control. So command control would have worked because this one is the same key than this character.
+It's the zero key. In France, you just need to do shift to get the zero, but it's the same key. Okay, so that's nice.
+I knew about command plus and command minus. What's really nice is to do about command shift zero, because sometimes when you zoom in, then you're
+like, oh, but what was the right size? And you never show what was the original right size? And so now you know that you just need to
+do command shift and then zero to put it back. So it's nice because sometimes I'm like, even during
+a live stream, I'm like, okay, I would like to show it a little bit bigger, but then I'm like, how do I put it back?
+And now I know that I can just put it back like this. So it's really nice if you want to quickly adjust
+the font size during a presentation, but to have the comfort of knowing that you will still be able to put it back like it was and not be like,
+was it like this or was it like that? And you're never sure and it's just so annoying.
+That's a good one to learn. I'm really happy that I've learned this one. Let's move on to the next one.
+Next one is, oh, multicursor. The third one. So this one is what it's option.
+And then you select an area. Okay, so let's see.
+Let me go back to xcode. So for instance, here I do option
+and then I select oh, like that. So wait, you do it like, wait, you do it like that.
+Okay, so you can do it vertically. So that's good to know. You can do it vertically, but the other
+one was to go over like that. And then once you've done that, what can you do? If I do for instance like VAR.
+Okay, so it does multiple Cursors. Cursors, okay, so it can be like it's an alternate.
+You can do control shift and then like this. Or you can do alt. Also alt and then like that.
+That can be good. You can see that it's very easy to screw it up at the end, so be careful. Also, if you do escape, then
+you leave the multicursor mode. So I guess it shows that you have
+several options when you want to do multicursor. You can also select things like this, I guess.
+And then you could screw your code. But you can do it.
+To be honest, I've never used it. I've always used the control shift variant. But it's good to know that this one exists.
+Maybe there are situations where it makes sense to select your code with more like using
+the cursor than the keyboard keys. It's a good one to know.
+Then fuzzy search. So if you do command, so control five.
+So it's just like control six. But to open this one. And then you can do fuzzy search. So it's like you see you write nt but it's
+going to search not nt in the contiguous position. It's going to search that there is an n
+and then maybe other characters and then a t. So it's interesting. So let's see.
+So first, remember we had learned control six. To open this one, control five opens that one.
+Oh, so actually you can also do like command command four for this one, command five.
+Okay, so command five. And then for instance, if I type. Let me fix this before because I screwed up something.
+So command five. And if I search mc actually
+it didn't show me movie cell. So maybe the behavior changed because here it did
+fuzzy search for me it's not doing fuzzy search. So maybe Xcode changed its behavior actually.
+Or maybe there is an option. Oh look. So for movies view model it did fuzzy search because I write movie d and it found movie
+and then view model with a d. So actually sometimes it works but for others like
+oh just Mc didn't work but moc no mv. Okay you need to have maybe I
+guess here it expected like three characters. There might be some rules to this fuzzy search that I'm not aware of, but it does exist.
+Just be aware that the way it works, I don't want to say it's inconsistent, but there are some rules that I'm not aware of.
+But at least you can do command five. Control sorry control five.
+To search among the files that are at the current directory level.
+So that's good to know what's next. Adding or removing breakpoints.
+Oh that's an interesting one. So this one control backslash.
+Knowing that there is no backslash key on the french keyboard, I'm not sure it's going to work.
+So let's see, I guess there is one, there is a remapping. So let's search for it.
+So breakpoint, how do you add breakpoint? Create breakpoint. So for me it's command and then back quote like this.
+So yes, command back quote and then I can add or remove a breakpoint. So that's nice. If you don't want to do this.
+When you add a breakpoint, you can click here and then you can drag to remove it. Well if it's there you can just do this.
+So either command backslash or command back quote,
+but you can do it like this. I didn't know there was a shortcut to add breakpoints. Honestly, I've always been doing it the way like
+where you click here and then you move it and then you just drag it to remove it.
+But good to know that there is a shortcut for this.
+Next one is appearance preview interface builder. So you can trigger between light mode
+and dark mode in interface builder. So let's go and find it.
+I did command shift zero, but I meant command zero. So like that.
+So here I have my main storyboard and so you can see, oh yes, by default I guess is the
+theme I have in Xcode and by extension in macOS. So I'm in dark mode and if I click I can toggle it.
+So to go from light to dark, from light to dark, to be honest. Maybe it's force of habit, but I always find that
+interface builder, it's easier to use it when you have the light version because I don't know, I guess I
+find that some of the visuals, they contrast more over the white background than the dark background, but that might
+just be like force of habits. But at least if you want to see how it looks like in dark mode, you can do
+it without launching the app in the simulator. Of course you still want to validate by launching the app
+in the simulator, and even better on a real device. But it's good to be able to do it just with the flick of a button, just to see if
+things are happening as they should or not.
+For the following tip, reindeeting this one is very useful. So control I.
+I've used it a lot. And then there is this one, which is command
+shift and then one of the direction key.
+So let's see. First we're going to do command I because you can select before you do it.
+All right, so I guess I get it. So let's go like here for instance, and
+let's make a mess of things like that. And so if I hit Ctrl and I
+it's supposed to re indent, it didn't. Why let me search for indent.
+I know it has a different name than a reindent, but you can also find it with think it's in instructor maybe
+you need to select the code for it to appear.
+Where is it? No, it's not in a refactor. But if you select and then you do control I.
+Okay, so you need to select first. You need to select.
+Okay, and I was looking to see, because when you do it, it's in the editor.
+So it's editor structure. Okay, so it's indeed control I, but you need to select before.
+All right, so by doing command shift and down, you select
+the whole file and then you do control I to reinden. So I'm just going to show it again by
+selecting this part and then doing control I. So this one is extremely useful.
+I've used it more than once, even though a good practice also is to use something like, I
+think it's called swift format that formats your code automatically, and then you run it as a precommit
+hook so that when your code is committed, it always applies the same indentation rules, among other rules.
+But that's a really nice way to not end up in pull request. Saying in a pull request like indentation is wrong.
+It's not what you would call a comment on a pull request with a lot of added value, but control I definitely
+one that I've used a lot before and so, okay, so apparently maybe you can only just select part of the struct.
+So let's just see if I put my cursor on the struct. No, I was like, maybe if I select, actually no,
+you need to select what you want to indent. All right, so this one also one of the most
+useful one because it's just like doing it by hand is so annoying and it's so easy to do with
+the shortcut, so you really want to use it. Next one is print current view controller.
+It talks about using symbolic breakpoints, so I've talked about them quite a lot in videos,
+on my channel, in newsletter emails also. But creating a symbolic breakpoint is really nice
+because it allows you to create a breakpoint that will trigger when the method is called. And since in objective c you can catch
+all methods like that, you can use it even for internal methods defined inside Uikit.
+So here what they suggest is that you put a breakpoint on UI view controller, the method viewed
+appear and then you po the first argument which is self, and then it's going to show in
+the console what is the QL view controller. So let's try and do it. So we're going to do command eight to
+open the breakpoint then new symbolic breakpoint, sorry, that might have showed outside of the screencast.
+So the symbol is going to be UI view controller.
+View did appear so like this. So we are the syntax that is inspired from objective c.
+And then you're going to add an action and it will be po dollar arg one like this.
+And then you want to select automatically continue after evaluating actions because you don't want to pose the
+execution every time a view controller is displayed. So let's see here. You can see, so navigation controller is
+called then app architecture movies view controller. And if I move you can see we have the movie details controller.
+So it can be a nice addition if you want to know where you're at. This won't work in objective C, so in
+objective C in SwiftuI, so be warned. But if you're doing Uikit, if you're working on a Uikit app and you want to know every time which
+view controller is displayed without the need, because you can also capture the viewer key and then you have the
+information you can see here in the viewer key. But on a big app, capturing the
+viewer key can take some time. On a device it tends to fail more often than not.
+So it's good to have this info in the debug console.
+And by the way, with the same approach you can also be able to write a message on
+the dialogue method of UAV view controller. This way, if when you pop a view the
+message isn't displayed, it means it probably means that there is a memory leak in your app. So I made a video about it.
+I think it's called the ultimate tip to catch memory leaks. Almost two years ago now.
+And actually I think it's still one of the most popular videos on the channel. If you don't know it, you might want
+to check it because the tip is interesting. And the approach of using symbolic breakpoints to build
+these kind of custom debugging tools is also interesting because you can apply it to other instances.
+And I've been masking all of the panels using the shortcuts and I'm very proud I've been able to remember all of
+the shortcuts to do it like a real computer geek. So I'm really proud of myself right now.
+So let's move. Where were we? Move breakpoint to user.
+When you move a breakpoint to the user, this breakpoint will be available in all of your project. So you can do that.
+So maybe I should have kept because this would have been a good example. So I should have kept it.
+So I'm going to recreate it very quickly. Ui view controller view did appear like that.
+I had the action of doing Po dollar Arg one and so you could do.
+So it's control click, you can do right click or
+control click and then move breakpoint two and you can see that you can move it at the user level and it means that it will be in all of
+your Xcode projects you open with your xcode. So that's good to know. That's very good to know.
+To be honest, I've never used it, but I mean I worked a lot on the photo room app in
+Xcode and there is only one project, so I didn't need to have more than one project at once.
+But in my previous job I did work on several projects and it would have been useful to use this feature of Xcode.
+So I guess it's something that you probably want to know and want to use because for this kind of
+helper, breakpoints that are more like debugging tools and they are not specific to a given project because they work
+at the UI kit level, for instance, that's something that might be very useful indeed.
+So I'm going to leave the breakpoint here and not remove it in case we need it for another tip. That was a very good one.
+Revealing project Navigator. So this one, I've used it several times by doing
+your right click, not by doing the shortcut of command, shift and j but can be useful if like well
+imagine that you have this file open and you ended up here, maybe by doing a lot of command, clicking into several files and you ended up like here.
+And you want to know where is the file? Where is this file? In my project you can do command shift and j
+and you can see it, shows it where it is. And the other way to do it is to right click, I think right click here
+and then navigate reveal in project navigator. So I've used it a lot, but with the
+right click approach it can be so useful. Like for instance, imagine, I don't
+know, like join the app delegate. No, not in the app. They join the coordinator and you're like okay, so here I come and click,
+I have my coordinator main coordinator here. I have a movies view controller.
+I do a command click. Okay, I get movies view controller. All right, I mean movies view controller, where is this?
+You can see it because it's a small project but you don't know where it is. Let's imagine everything is closed. You can do either command shift j or
+right click navigate reveal in project navigator and then you know where it is. So it can be super useful.
+I've used this one more than once. It's a very good tip to know what's next.
+Let's see. I think we've reached like the middle of the list almost.
+So I was seeing almost 2 hours of live stream. I think I'm not that far from that prediction open in new editor.
+So I showed it to you right at the beginning. So you do alt shift and then click and then you
+can choose where you want to have the new editor. Oh, I didn't know about the alt shift. So the one I knew about is when you do
+alt so alt or option, I'm holding it down and then I click on movies model and you can see
+it, opens it into a new editor on the right. And if I do alt and they say alt and shift.
+So alt shift, I click on movie view model and then I can decide if I want it. Okay, so if I hit the right key
+it's going to put it on the right. But if I close it and I do it again and then I choose bottom.
+So the down key and I hit enter again, it puts it on the bottom. Okay.
+And I guess I can also do it like that to put it here for instance, you can put editors wherever you want.
+Okay, so that's a good one. That's a good one. I would say most of the time you will want
+to have them side by side because if you have a 16 x nine or 16 x ten aspect ratio
+screen, that's what is the easiest in terms of legibility. But maybe if you have, well once again, if you're one
+of the lucky few who have the XDR display in portrait mode, then maybe you want to have your files.
+I mean I say the XDR display, but you can also put a regular screen also in portrait mode. Then maybe having two files on top
+of each other makes more sense. Like this. It feels weird actually, if you are
+old enough to have used Xcode. So I think it was before Xcode four. So up until Xcode three it used to be
+that I think the Explorer for the files was here and then the file was here.
+So it felt quite small and the screens were smaller back then. You would get like 20 inch iMax and things like that.
+So it used to feel quite small to edit a file in Xcode back then. But maybe I just didn't knew the right way to
+do it because I used this version of Xcode for near a few months and then Xcode four was released
+and it started to put everything into one app because before when you wanted to create a view.
+Oh interestingly it seems that it remembers. No, it put it on the bottom but I don't want that.
+I wanted to say that in Xcode now we are used to having interface builder inside Xcode, but
+before Xcode four it was actually a separate executable. And when you would come and click would
+actually come and click from a window of that separate exectable to a window of Xcode. And this kind of like interap communication felt quite
+magical the first time that you use this, especially when like me you were a windows user before
+you were like wow, this works like apps can communicate like this and everything works without crashing.
+It was quite impressive. Okay, let's see what we have next.
+Search documentation for selected text. So wow, it's a big one. Control, alt, control, option, command and then
+shift to search for the documentation. So let's see, I'm going to close all of this.
+So for instance UAV controller, so control, option, command and shift.
+Okay it does it, it opens the doc right at the right place.
+Personally I've been doing alt shift a lot and then you scroll down and then you do like open developer documentation.
+So it also works. Oh, I guess what's interesting is that no control alt shift control no control alt command slash.
+It searches for it so then you need to select it if you want to see it. But it searches for it so it can be a good one to know.
+Personally, I've always used alt and click and it has always
+worked for me, but that's a good one to know. To be honest, I'm sure that this one, I will never remember
+it the day that I will have a reason to use it. And yeah, the option click is the easiest one.
+It's my go to definitely. What do we have next? Jump to next or previous change.
+So it's when you have a change in the sense of git changes. So control slash and control backslash and control I.
+That's interesting. So let me put a few changes, random stuff.
+And so if I do so it works. Okay, control slash, control backslash for me
+it's control back quote and control I. Control I oh no, maybe control l no this one
+doesn't work, but control backslash does work for me.
+Let me look for the other one then. So it's for changes or other maybe change.
+So control next change. Okay and oh it's control and pound, where is the pound?
+Okay so it's with shift okay so it's like control
+back quote for me and control shift back quote.
+Okay so that one works. I didn't know that one. And for the US it's control backslash and control.
+I don't know if it's like pipe or l or capital I, so I'm not sure. Actually you will need to search into the settings
+of Xcode to be sure or just try the free possibilities, but you can do that.
+One thing that's worth noting is that at work I had to disable the fact that Xcode uses git.
+So here I had to disable it because enabling it, it would make my Mac randomly freeze for
+a couple of seconds every like hour or so. So I had to disable it and I was quite sad that I had to disable it.
+But if you also have this weird issue where your Mac seems to freeze for a
+couple of seconds every hour, try disabling xcode. Watching the git repository.
+That might be because of this. My best guess is that there is some operation that happens every hour and for some reason it
+runs on the main thread when it shouldn't. But that's the thing.
+And what's weird is that it freezes not only excel, but the entire Mac. So everything is frozen.
+It's so annoying. And that was the culprit, at least for me.
+So this shortcut, unfortunately I wouldn't be able to use it to use it at work.
+Oh yes, the debug gauges, they are super useful. So let me show them to you.
+So when you run your app from Xcode and
+you go here, so in this inspector right here. So it's what gets open when you trigger a breakpoint.
+Actually I trigger my symbolic breakpoint because when I recreated it, I forgot to check the
+box to automatically continue after evaluating the actions. Let me get back.
+And so when you click here on cpu you get these nice gauges and graphics about
+percentage of cpu being used and with comparisons, same thing for memory use, disk and network.
+So memory one is especially useful if you want to see if you have a memory leak.
+But the four ones are quite useful. It's good to know that they exist.
+I think I've mostly used the memory one, but if you do something that is very intensive, you
+might want to check your cpu consumption. So that's a good one.
+I'm wondering when you run on device, if you have also one about battery usage. I'm not sure. Maybe you do, but I'm not sure.
+But you have at least these four indicators, I
+guess these four dimensions that you can analyze.
+You're saying, how did you find that? Can you tell me what you're referring to? I'm not sure, honestly.
+I've seen so many tips in 1 hour that I have already forgotten what I was talking about like half an hour or five minutes ago.
+So can you tell me which tip you are mentioning and then I will tell you how I learned about it.
+Oh, maybe it's like how I learned about the fact that it was freezing that Xcode,
+observing the git was freezing the Mac. I'm not the one who found it, it's one of my colleagues who find out about it.
+I guess he searched on Google or things like that, but he's the one who find out. So I don't know how we did it actually.
+But kudos to him because it was a very good catch and it did solve the issue.
+Oh, column breakpoint. These ones are pretty cool. So I did a full video about them actually
+something like in May or June of 2022.
+So it's a feature that was added in Xcode like two years ago. It's especially useful when you have closures, several closures
+defined on one line, because you can put a column to a breakpoint, to a specific column.
+And this way the breakpoint will only be called when that closure here is being called.
+So you know what, we're going to try it just here in the app delegate.
+So we're doing things like old school. So I'm defining an array of
+three elements, then I'm doing map. So I'm going to do the classic stuff.
+So like you square it and then you filter,
+zero, dot is multiple of two, something like that.
+And so here I can do, right click create colon breakpoint.
+So if I relaunch normally, the breakpoint should eat. Yes.
+As you can see, it triggers only the filter. If I put a breakpoint here, it would
+have triggered when you define the array first.
+Maybe then when disclosure is called, maybe then when disclosure is called, it's not even for sure. So in the past, you would have needed to
+put each element on a dedicated line to be able to put a breakpoint on it.
+With the current breakpoint, it's even better because it gets triggered for the specific colon.
+It's also even more useful when your closure is asynchronous, because then you are sure that it will
+be triggered, that the breakpoint is triggering when the closure is called and not when it is defined. And so here you can see the arguments.
+So I have one, and then if I keep running. So because I moved the code, I lost the breakpoint.
+So I'm going to relaunch it. You can see the arguments. It's one and then it's four, so it's indeed the square.
+So it's indeed being called after the call to map four and then nine. So you can see colon breakpoints.
+Really useful, especially if you write code that leverages this kind of syntax a lot.
+Let me put the code back how it was.
+You're saying, Amir, I did a quick video on convert points. Did I use them in the real world?
+Since I did the video, I'm sure I've used them at some point or another, probably when debugging issues around one line closures.
+To be honest, I'm not a big fan of writing several closures on one line.
+I prefer to put them on each on their line because it's easier, especially when reviewing code. But I think one reason why they would be useful
+on breakpoints is, as I was saying, when you have a closure that is asynchronous and you want to make sure the breakpoint triggers when the closure is called and
+not when it is defined, then it's really useful. I haven't worked on a code base that use
+a lot of such closures because the code bases I've been using, they were using mostly async awaits.
+But if you work in a code base that uses Ericssoft, that uses promise kit, that uses compression
+handlers or even combine, this can be quite useful. So I would say it's kind of like the thing
+that you maybe like, I don't know, once a month, once every fortnight, this kind of time frame.
+You don't use it every day, but when you can use it, it's nice because it saves you some time.
+It was a nice addition to Xcode. What do we have next?
+Next we have deactivate, reactivate, colon breakpoint.
+Okay. So if you click on them and then if you move them. So that's just how a regular breakpoint works.
+So I'm just going to put the code back just to show you. So you can add the colon breakpoint and then
+if you click on it you can, I was about to say de enable but disable it.
+And then if you click on you re enable it and then you can just drag it to remove it.
+And let me show you just to make sure. But if I do command eight, the current breakpoint, they
+also appear here, so you can also control them from the dedicated inspector and remove them from there.
+So basically they behave just like regular breakpoints would.
+But it's good to still point it out. Then delete to end of line.
+So control and k is going to delete to the end of the line. So let's have a look. So let's see.
+We are here and I do control and k. Oh yes, it does it. To be honest, I've never used it because
+I'm more of a school of doing. So first command shift and then the right key to select the whole line and then backspace.
+But you can do command key, so that's a control key. Sorry. So that's a good one to know.
+I guess it's control key for clear to know.
+I guess it can be useful. Not going to lie, I'm still going to stay off the course of where you do this.
+And then you write whatever you want. But that's a good one to know.
+You learn something new every day. What do we have next?
+Fix all issues. Okay, so when you have several issues and you want to fix them and they have a fix
+possible so you can do, that's a big one. Control alt, control option shift
+and f to fix everything. So let me create issues in my code.
+So, for instance, here, you know what I'm going to do. Multiple cursors, Amir, you're saying control
+k is how you clear terminal. Like, for years I've been writing clear, like calling the command clear to clear terminal, and now you
+tell me that there is a shortcut for it. It's going to change my life. I'm doing a lot of terminal stuff these
+days because I work on something else than the iOS app at photo room recently. So. Wow.
+I'm also going to remember it and to try this control k thing tomorrow because it
+might save me not a lot of time. Because writing clear and doing control k is not that much of a time difference.
+But it's funny when you learn something like that that you should have known for years, you're like,
+oh, it's glad that I have learned it. But also like, I've spent like 15 years doing stuff without knowing about it.
+You feel a little bit like, self conscious about yourself, but thank you for sharing it.
+Okay, so now I've screwed up the code in the sense that we have errors that have fixed it, as you can see.
+And so if I do the shortcut, control option, command
+and f, indeed, it applied them all at once.
+To be honest, if you're in a situation where you need to apply a lot of fix it, you might not be in the best of situations.
+I've never been into that situation, to be honest, but I guess it can happen if you do a command paste or this kind of stuff and you're like, okay,
+it's not working, but I would like it to. I mean, you know that these errors are normal and you
+just want to fix them so it can be nice. Another case where it can be nice is, I guess, maybe, I don't know, there is an update of Xcode and some behavior is
+not triggering errors and you want to also apply all of the fix it so you can do it now you know it.
+That's a good one to know. I guess when there are choose, it's not that big of an issue. When there are like ten or 20 issues in a
+file, it might be a good one to use. Just before you use it, make sure that you know what you're doing, because Fix it is not
+meant to sweep issues under the rug. Make sure that you understand the fix and that you understand why you've written wasn't working correctly, because otherwise you're not
+making a gift for your future self. You're just like swept something another rug and you're going
+to trip over it at one point or another.
+But good shortcut to know reveal in changes Navigator.
+So this one of course, I guess only works if you have enabled git.
+So if you do command shift m on a change, so let's see, for instance, I'm going to change this to, I
+was about to a let, but it won't work because you cannot have it won't work if I do that.
+But you know what, I'm going to go into a movie service and here going to
+change these things to vars for instance. And so if I select that line and I do command shift m, it shows me so the
+inspector about source control Navigator, and then you can see the changes and you can navigate them and
+you can see what's been changed in your code. To be honest, I've never used this, I've never used this feature
+of Xcode at all, so I guess it can be useful. But I've mobin of the school where I use
+a software to handle everything that's git related. So either source tree or tower, but I've never
+relied on the source control of Xcode actually. So I've never been a user of this.
+But if you are a user of it, well know that command shift M can bring you to the list of changes.
+But me, I will keep opening tower to see my changes because that's just the habits I've taken.
+What do we have next? Embed selected text, so we select some text.
+Oh yes, this one is super useful. This one, it was added not that long ago in Excel, maybe two or three years ago.
+And you're going to see, it's so nice, it's like you select some content and if you open a parenthesis,
+it's going to put your selection between parentheses. Same thing for double quotes,
+same thing for calibra braces. And I would say same thing for angle braces.
+And you see, you can even do it recursively like this. So it's kind of funny when you do it like that, but it makes you win so much time.
+If you want to turn something into a string, put it into a tuple, this kind of stuff,
+this shortcut is really useful even imagine you're writing
+Swiftui and you have like, I don't know, I'm going to just write some code here. But you're writing Swiftui and you have some string like
+that, you can select it and then you can open parentheses, wrap it, and then you do text like this
+and that's it, you've turned it into a text and with a low amount of keyboard manipulation.
+So that's a pretty cool one. This one, I've used it a lot. And you don't even need to remember a shortcut.
+You just need to remember that when you select something, then you can wrap it around other characters quite easily.
+So this one, definitely one that I would recommend.
+It also works not for back quotes, it doesn't work for back quotes. It works for single quotes.
+Also, what do we have after that one, which
+was very useful, we have the fold unfold. So folding and unfolding code.
+So option command left and right to fold and unfold.
+So let's see. So for instance, I have this method and I can.
+No, it's command option. Command option left and right.
+And then I guess I have to go here to unfold same thing at the movie service.
+Okay, so that's pretty cool. That's pretty cool. So you just do the same thing. And if you had clicked like here on the folding ribbon.
+So to be honest, I don't use folding that much.
+It doesn't work when I do it. Oh no, it's because I was using the wrong key combination.
+So it does work. I don't use it a lot. Folding mostly because I'm kind of like the school
+of thought that if you need to use folding to find your bearings in your code, maybe it's because your code is not split enough.
+The ribbon is hidden by default. So how do you show the ribbon? You do into the settings, text editing, and
+then you have something called cold folding ribbons. You need to click on this if you want to have it.
+It's cool that it's hidden by default, and I think that I've also hidden it by default.
+So at some point when I record videos, sometimes I find it to be prettier without the folding ribbon.
+But actually, let's see, the shortcut still works even if you disable the folding ribbon.
+So that's good to know. Actually. Actually I'm going to disable it because I don't think it's that pretty and I don't know, I don't like to see
+it in the frame, but it's just because I might be a bit too perfectionist about what I show in the frame.
+It's not that much of a big deal, but being able to fold like this is nice. Just keep in mind that if you need to use
+it a lot, might be a sign that there's something wrong with your code and you should split it. More abstract things more, but it can be
+useful occasionally if you want to focus on a specific part of a method. It can be useful to be like, okay, I don't
+want to focus on this, I just want to, look, sorry, I don't want to focus on this. But just like I don't know, I
+want to focus on this part. I don't know why, but that can be useful or also if you want, now I see one
+reason why it can be very useful to fold. If you're presenting a code to colleagues, for instance,
+and you want to direct the attempt to something, you can be like, okay, so this part, don't, look, I want to talk about this.
+This can be useful when presenting, folding can be useful and maybe I should even use it more than I
+do, but that's a good one to know. And I didn't know that this shortcut to be able
+to fold and unfold and honestly knowing about it, maybe I will find myself using it a bit more.
+We'll see, we'll see in the coming weeks, in the coming months. But that's a good one to know.
+I'm glad that I've learned it. Okay, what do we have next?
+Interface builder guides. So if you do command, underscore, control, command, I guess
+it's l, you can add horizontal guides to a scene
+and you can also add a vertical guide. I didn't know about that.
+I'm learning this for the first time. So how would it work? Let's see.
+So let me put it again. So they said command and underscore now,
+but it's not something else for me. How is it called? It's called a guide interface builder.
+Let me search for something. I don't know, like guide. Oh, so it's, yes, so it's command and underscore.
+Indeed. And the other one is control, command and pound.
+So I'm going to try this one, which might be easier.
+Okay, so it did put one and then you can move it. And I guess the interest is then you
+can, if I add a view, I guess.
+No, I didn't meant to put it there. You know what, it's not the right view to do it.
+You know what, I'm going to do it here on the launch screen one because it's going to be easier.
+So how was it? It was like that. Then I move it here, for instance.
+And so when I add a view like label, for
+instance, I guess, yes, I can snap to this guide. Okay, that's interesting.
+With constraints, I'm not sure it's that useful. Maybe it's a remnant of the days before the constraints, if you remember, we talked about
+it on the live stream about what translates auto resizing mask into layouts actually does.
+We talked about the fact that in xcode you didn't, and in iOS you didn't always had constraints. They were introduced with iOS
+five, if I remember correctly. Either iOS five or iOS six, I'm not sure actually, but one of the two of them maybe iOS six, but I'm not sure.
+And so maybe before that, since you would hard code positions, it would make sense to have these guides now.
+I mean, you see like you put the guide as 40, but you're going to put a constraint as 40 anyway in that case.
+So I would say it's less useful, but I had no idea you could do it. And then to remove it, you just drag it.
+Okay, so good one. I'm not sure I would ever need to use it because I've never needed to use it before, to be honest.
+But it's good to know that there is this possibility that you have this feature in software like Photoshop, or I think
+even on keynote you might be able to do it. I had no idea you could do it also in interface builder, but that's a good one to know.
+I didn't expect to learn this this evening, but that's a nice one to know.
+Creating and renaming a window tab. Okay, so when you do command t, you can open a tab in Xcode.
+I've done it a lot, but always unwillingly.
+I wanted to do something else, and then I did command D, or like I thought I was in Safari and actually excluded.
+Add the focus so you can do that. So let's see if I open another tab,
+and then you can rename it by doing. So.
+Option shift command t. Okay, so option shift command t like that.
+And then you can rename it like tab two. Like that. Okay, you can't even double click or simple click or do
+a right click, so you need to do this shortcut. Okay. I don't use tabs, so I'm not
+sure how it could be useful. But I guess if you have a structure where you have several tabs for several things, being able to give
+them a name might be more than useful. I just feel that this is the poster child of a
+feature that is like hidden and not discoverable at all. So I think there is a lesson to learn that
+if you have a feature that behaves the same way in your app, it's a sign that it's not discoverable,
+and basically no one will use it, because what's the proportion of Xcode users that first use tabs and then
+that know about this feature existing. To be honest, if you use tabs, if you're an enthusiast tab user, maybe you're more likely to
+know about it, but it still feels like a feature that is not discoverable at all.
+Oh yes, command P to print by mistake. Yes, this one. Let me put you on the live command p to print.
+Another story time. When I was at my first software engineering job,
+actually I wasn't doing iOS, I was doing like Java and library and it was awful. But at some point I was in my
+emails on outlook on a Windows computer. I was telling you it was awful and I don't know how I did it, but I wanted to print
+an email and I actually printed my entire inbox. So like the printer in the other open space
+started to print out of things and I had just printed my entire inbox over the printer.
+So kind of a fun story. It happens faster than you think. And when printers are fast canceling it, you
+try to cancel it, but you've already wasted like 20 or 30 sheets of paper. So it's kind of funny when it happens.
+I still remember it even though it happened like nine years ago, eight years ago, something like that.
+That was a funny one. Okay, what do we have next here?
+Oh yes, toggling dark mode. This one I've used a lot in the simulator, especially during live streams, and I think
+I've also shared this one on social media. So command shift and a. So let me relaunch the app in the simulator.
+I hope I haven't broken it after all of the changes I've made. Actually I think I did it like earlier
+when I switched from dark to light. So command shift a on the simulator
+you switch from light to dark. It's very nice and it allows you to see the shift happen in real time to
+make sure that it's fluid and everything. So kind of nice and very useful one.
+Very useful one. What do we have next?
+Toggle changes repose. So toggle between changes and repositories in
+the source control navigator with command Q. Okay, so we saw before that command one Q
+refer, et cetera, would open the different inspectors.
+And if you do command Q, then you switch tabs inside the source control inspector, which is on command Q.
+So it's good to know that you can do that. I don't know if you can do it with like others where you can switch between several modes.
+Oh yes, you can do it also with local and cloud build so on command nine it's the only one
+where you can do it because it's the only ones where you have more than one tab. So that's a good one to know.
+That was a quick one, but an interesting one. Even though like I told you, I don't use source control vinix code. So I know that I will never use this one.
+Kickstarter back project okay, so this one is a promo. So since I'm using the website as a source, I'm
+going to ready to give them a bit of promo. So they started a quick Kickstarter project to print decks of Xcode tips learning cards.
+So if you want to back the project you have a link. So you know what, I'm just going to open it.
+So unfortunately it didn't succeed. But I don't know if you can buy them or not.
+But honestly, if you can buy them and you have an iOS team buying the physical cards and
+having them in your office, that might be a nice thing to have laying around the office. So if you like the idea and you want to consider
+it, honestly, I think it's also a great way to support the person who created all of these nice drawings.
+So that's definitely a great idea. And I'm a bit sad to see that the project wasn't successful on Kickstarter because it was a pretty cool idea.
+Next one is to improve the debug output. So in the settings of Xcode, in themes and
+console, or you can change the font color. So let me see it.
+I'm not sure I want to do it because I don't want to break my x code. Let's see.
+So console and then so it was debugger console output.
+Okay, so for now actually it's white so I can change it. I can put it back on white later so I can
+change the oh yes, you can see it changes color. So if you want to put it in a color that's a
+little bit more like visible, I guess it can be useful. I guess it can be especially useful.
+I don't know if you have a project where for some reason your console is floated by stuff
+that is not super useful or you feel like you lack visibility, you can do it like that.
+So that's kind of interesting. I didn't know that one at all.
+So I'm glad to have learned it, but it makes sense that you can change. You have a lot of control over
+the way content is displayed in Xcode. By the way, if you were wondering which theme I
+use, I use presentation dark, which is one of the built in themes for all of my content.
+I think I've just changed the background. It's not pure black by default. I've put it to pure black because I think it
+looks better on video, especially since iPhones have OLED screens
+and iPads have also screens with very good contrast.
+Most Apple devices have very good contrast, so having a pure black background is better, I feel.
+So this is the only change I've made. But besides that I have the native presentation dark presentation dark theme.
+Let's go back to the list of tips.
+This one is very useful to find a problematic constraint by the fact that you can filter using
+the memory address of the broken constraint. So for this we are going to need to, you know what?
+Actually I can show it to you in another way because here we have addresses of view controllers. So what I can do, I can copy the address
+of this view controller right here, the movies view controller. Then I can capture the interface of the app and I can
+paste the address here and you can see that I have it.
+It's the only one that's left. So it's the only one that stayed visible.
+And I'm going to try and do it with a constraint, with a broken constraint also. So let me go to the main storyboard.
+If I want to break the constraint, it could be very easy. I can just do a constraint for width
+that makes no sense, like width equal. I need to change it. I'm going to say width equal 200, which don't
+make sense because I also want to have the view pinned to the leading and trailing closures.
+Closures, trailing borders. So now I should see something in the
+debug that says yes, this constraint will be broken because it's the wrong constraint.
+So I copy its memory address, I capture the viewer key, and then I'm going to paste here
+and you can see it identified the constraint. I can see what's important, let me zoom in, is
+that when I select it, you can see it being selected here on, let me put it like that.
+Yeah, you can see it being selected right here. So it's clearer for me which constraint is failing.
+It can be very useful. When you have a controller which is quite complex with lots of constraints, being able to zero in
+on the constraint that's failing is very useful. And the way you do it is because you have the memory address being printed here.
+Where was it? Yes, here we have the memory address being printed here
+and so we can paste it here in the filter, and this way we zero in on the faulty constraint.
+So this tip is extremely useful. I've used it in the past and more generally, the
+idea with this tip is that when you capture the
+view hierarchy, you can filter using memory addresses. And there are several situations where the debug
+output will give you as the only information, or nearly the only information, the memory address.
+And you might be like, okay, why do I do with this? You can actually use it here. Just be mindful that these addresses, they
+change every time you relaunch your app. So they won't stay the same from one launch to another.
+So don't be surprised if at the next launch your search no longer works. You will need to copy the new
+address and paste it back here. But besides that, it's a great tip and
+one that I would definitely recommend using.
+All right, put Xcode like it was before.
+What do we have next? This one was really cool. This one was really cool. No, this one I've covered.
+So library SF symbol. So when you need to find the name of an SF symbol, you can do command, shift and
+l and then search for the name. So let's see if I do image.
+I guess it's Ui image because we are not in Swiftui system name like that.
+And so here. And they said to do command, shift and l.
+Command, shift and l. Okay, and I guess it's, where is it?
+Oh, it's here. So. Yes, then you need to select this thing here. So this tab here and here.
+Then you can browse SF symbols. So I don't know, like for instance if I want to have like I'm doing pencil.
+I think it's what they did. Also I was thinking about people, but I can just
+double click it and then I have the icon. And let's try and do people just so that I go with my id.
+You can see we have the full name like this. So that's a good one to know, especially because you might have installed the app.
+There is an app called SF symbol browser which I have downloaded and installed and I've used it quite a lot.
+It's quite a nice app, but it's good to know that you don't even need to install this app. You can just browse the SF symbol
+catalog using this nice little trick. So that's a good one to know.
+That's a really nice one. Then simulator add image.
+Oh yes, this one is very useful. I won't show it to you. Yes, actually I can't show it to
+you because I have an image. It's interesting. So you will see an image, which
+is a video I will release tomorrow. So you're going to know in exclusivity what will be the video I will release tomorrow.
+But if you need to add, imagine that you work on an app like photoruma, for instance, that operates on images.
+It can be nice to have. Let me just check. I just want to check. Yes. Okay. Just wanted to check.
+I don't know that there wasn't anything weird in the camera role, but there is nothing weird. There is only the default images.
+So it's imaging that you want to add an image that you want to use inside an app. An easy way to do it is to take an image and
+just drag and drop it and it's going to be added. I just drag and dropped it over the
+simulator and it's been added to the photo app on the simulator and you can see
+in exclusivity what tomorrow's video will be about. So that's really useful. This one, I've used it because like I said
+on photorum, if I use these images, it's not perfect because it's not the kind of images that photor room is mostly used for.
+So I want to have images of products, of people. So being able to drag and drop a set of images is extremely useful.
+So that's a very good tip, especially since it's super easy to do. But it's so easy that if you don't know about
+it, you might be thinking, how do I do it? You might search for an import command or whatever, but it's really intuitive, just
+like drag and drop and you're good.
+Okay, what do we have next? Open interface guidelines. So if you do command shift h in xcode,
+apparently it's going to open the human interface guideline.
+So let's see that. And then I see a question in the chat that I will answer. So yep, it works.
+So you do command shift h and it opens the human interface guidelines.
+So I guess Apple really wants to make it super easy to be able to check when you have a doubt. So just know about it.
+So command shift h for human interface guideline, it just opens the URL in safari.
+So that's quite a good one. I saw a good question, which was can
+these drag and drop things work for other files as well, like PDF or JSON?
+Good question. I would say best way is to try, I don't
+have a pdf on hand, so I cannot try it, but I would say maybe it does and then it will put it into the files app, something like that.
+So that might be able to work, but to be honest, I've never tried it.
+So I would expect it to work and put it into the files app, but actually I'm not sure.
+So I will let you try it and you can tell me if it worked.
+But that would be cool if it worked. Next tip is about showing non localized strings.
+So the idea is that if you have strings which are not localized.
+Oh, they will become uppercase if they have not been localized. Okay, so that's interesting. So I don't think I have
+localized anything in my current app. I'm not also sure that there
+are any things to localize. Maybe there are titles. Let's see.
+Otherwise I will add a title to the first view.
+Yes. Upcoming movies. So there is this thing. Let's see. I don't think.
+Yeah, there is no location strings file. So what we can do is that we can edit the scheme and apparently it's in
+the options show non localized strings.
+All right, let's run it again. And you can see now it's all uppercase
+to show us that this is not localized. So that's kind of a nice one. That's kind of a nice one.
+I don't know if it also works. I guess even if you've created custom wrappers
+for sometimes instead of calling ns localized string
+for key people, create nice properties so you can call localized on a string.
+I guess it would work because we are past the point where the code has been compiled. So that would make sense.
+So that's pretty useful. Honestly, that's pretty useful. I might have heard of it in the past and then forgotten.
+I don't think I've ever used it. But if you're ever asked to work on an app
+where localization was done either in a poor way or not very rigorous way, and you're asked to audit the
+app, it can be a great way to just see,
+to have them repup at you because they will be in uppercase, so they will be very visible.
+So that's a good one. One that I didn't know about. That can be very useful. If you ever need to audit an app and
+find all of the strings which are not localized. Because even if in the code you try to localize everything,
+it's always easy to miss something or to miss, like, I don't know, like one string where the key was built using
+a special function and it was not visible. It wasn't obvious in the code
+that it was not localized. So this one can be cool and maybe they
+won't mention it in the tips, but also, and we saw it in the better apps developer.
+There is also an accessibility inspector in Xcode that allows you to see more easily what the activity
+layer sees and what could be missing. So this tool is also very useful when you need to audit.
+Oh, this one I love it. This one I think I covered in the video. Is that so? In the simulator you can record and
+you can also save as a gif. So in the simulator when you do command r, you start recording.
+Be aware that it's very easy to start a recording and then not realize it and end up with a file that's several gigabytes.
+It happened to me because you want to do command r to build, but the focus is not on Xcode, it's on the simulator.
+So it starts recording and then it keeps recording for hours. So it happened to me in the past, but still
+command r, start recording, then stop, and then you can do right key to see what's going to happen. By default it saves to desktop, but you can also save.
+So it saves the video to desktop, but you can also save as animated Gif. And if you do alt, it will
+save both as video and animated gif. So it's quite a useful feature.
+The recording, I will still give one caveat of it
+is that if I remember it correctly, when it records the video, it records at 60 FPS, but the giF,
+I think it's only at 30 FPS. So animations can look really janky. So personally, when I've used this, I was recording a video
+and then I was manually turning the video into a GiF with a tool that's called the gif ski that you can
+find on the App Store, because this way the Gif, I
+could put it at 50 FPS and the animations look better. But being able to record what's happening in the terminal
+and get a video from it can be very useful. Typically a use case where I've used it a lot is when making a pull request or a merge request to your colleagues to
+show a demo of the feature, you record a video. So either on device using screen recording or on simulator using this feature.
+This way your colleagues can see the feature in action. I found that it brings so much value
+and it's so easy to make it. You've seen how easy it is to make it. So I would really recommend to do it.
+And then the GiF can be useful if you want to include it, maybe on a web page, in a wiki, maybe on an
+email, but for the GiF, I would recommend to get the video and then convert as a GIF with a higher frame rate than
+the one that xcode and the simulator will produce. Because a GIF with a low frame rate animations
+don't look good and it's really not nice.
+And you are saying so morph files are quite big to share on stack. That's true. GiF files can be quite big.
+Usually a GiF like this, since there is only like black and white, maybe it will be lower in size.
+But GIF is not particularly optimized in terms of color compression.
+So I would expect GiF can go up in
+a disk space and in size quite fast. I've experienced it.
+I've shared a lot of gifs on social media and on Twitter. You have a limit either on Twitter or Twitter.
+On LinkedIn you have a limit of ten megabytes and you reach them quite fast.
+Okay, it's been 1 hour and 45 minutes, so let's try and cover. Okay, we have a few ones to cover,
+but we've done most of the job. Interface builder bound rectangles so we can select
+an option to show the bound rectangles. So let's try and enable it.
+I need to go into Xcode. So let's go into the storyboard. And so where was it?
+So it was here, this button
+here, and then bound rectangle. Okay, so it's this thing here. And then you do bounds rectangle. Okay.
+And you can see the bounds of each view. So it's similar to the thing we did to show
+the frames when it was running on device, except that this time you have also the layout rectangles, I guess
+in that case they coincide with the bounds, I guess.
+And the layout, you have a bit more option. You can see that you have the baselines for the characters also.
+So that can be useful. That can be useful if you need to see the bounds. I wouldn't enable it all the time
+by default, but it can be useful. It's good to know that you can also, if you want, you can hide the device bezels if
+you want to hide them or not show them. That's kind of good to know it.
+Placeholder background also.
+So like UI image view, if you disable it, then it will just show nothing. If you haven't set an
+image programmatically in the storyboard.
+I meant, so that's good to know that you have these options and they are on this menu.
+Okay, let's go back to the website. Next tip is about an additional tool called Pixie.
+Apparently it's about the fact that you can download the package of additional tools on Apple website.
+One very useful tool, that package is pixie. Check on pixel scale your designs.
+Okay, didn't know about that one. I will for obvious reasons not try to download and install a package while I'm live, but this package of
+additional tool strikes code is good to know. I didn't know about it, but if I
+have time I will check it out. But it seems to be like the color picker.
+Yeah, I don't have many things to say about it because I've never used it before, but apparently to get
+to downloading it, so you do Xcode and then it's where developer tools, more developer tools and then it opens
+and then you need to log in. So I'm going to log in, but if you want to try these tools, you can give them a try.
+Okay, vim mode again. Find current word. So I guess it's to find
+other occurrences of the current word. Yeah, text node. Text node. Text node. All right, I won't try it again because we've
+seen that I'm not good at doing Vim and since I've never used it, I have zero insight to share about whether this makes sense or not.
+So I will just need to trust the vim users that this is useful. And I can imagine it being useful because you switch from one occurrence to the next one.
+But I wouldn't be able to say really in which situations it makes sense to use it.
+So I will move to the following one. Okay, we have only twelve tips left to go.
+So search scopes. So when you do a search in excel, you can choose,
+oh, this one is very useful because you can create, yes. So this one is very useful because you can exclude things and include things.
+Let me show you. So I'm going back to excel. In the search here you can see you can say
+in project and you can create a new scope. And for instance, you can be in the project where
+all of the for files where all the questions are met and so you can choose all any none.
+And then you can say file. For instance, you see none of the conditions are
+met and it will be file contain localizable. And by doing this you are excluding all
+of the localizable strings from your search. This can be useful.
+One reason why you would use this is if you do a search and you have things that pollute your search, like
+I don't know, for instance, you have a lot of JSON files for your mocks in the app and it always find
+results in them and it announce you and annoys you. You could create a scope that is like excluding
+the JSON here it would be like excluding localizables.
+This can be useful in some situation, to be honest. What's good is that when it's enabled, it's shown
+in bright blue, so you see that it's happening. If you give it a good name, you see what's happening. So that's pretty good to know.
+And you can just enable or disable it by just clicking on it. This one can be really useful.
+I've used it to exclude the localizable, because it was quite a nightmare to use it. I see.
+A good question, is it saved in the project file? Will committing it let colleagues see the scopes?
+I would tend to say no. You know what, I'm going to try and open on my other screen, source tree.
+Because this repo is using source tree.
+Yeah, I can confirm it's not changing anything in my repo. So maybe you can commit a given file
+in xcode that I'm not aware of it. Maybe there is a way to commit it, but by default it's not committed.
+But I agree that being able to share it at a team level could be very useful.
+Either you can commit it or I'm sure that there is somewhere a third party tool that does the job for you.
+I'm sure of it because I remember reading about such tool, I just forgotten about it, but I'm pretty sure
+that there is such a tool that does exist. But this ability to exclude scope is very useful.
+I've used it in the past, I think for local example, and it did save me some time.
+Let's see what we have next. Will it be as useful? Oh yes. Add errors and warnings.
+So this one is if you then you do command five. Okay to show them. But yeah, we saw it to navigate to this thing here.
+But the tip is that you can do hashtag error and hashtag warning to add compile time error and compile time warning to your code.
+That's very useful. Especially like the warning can be useful if you want to leave yourself.
+I would say it's a to do, but it's more like aggressive than a to do. So it can be nice if you're stopping your work for
+today and you want to have something that will jump to you the next day when you will resume working. Warning is very useful.
+Error can also be quite useful, especially error I find to be quite useful if you do like
+you make sample code because you're an SDK developer, you have an API or whatever.
+You made a sample code for iOS and your user need to put, for instance, their API key and you want to draw their attention to the
+place where they need to put their API key. Then you put an hashtag error next to it, and the
+first time they try to build, they will have this error. It will lead them right to this place. So hashtag error is a great way to
+catch the attention of a developer the first time that they open the project. So there are a lot of ways to use these two things creatively.
+I have videos about hashtag error on my channel. I think I have one maybe about hashtag warning, I'm not sure.
+And I have one also about how you can use at available to create deprecation warning that will
+be automatically triggered when you drop a version of iOS so you could also use them.
+You're saying I'm here, you can add a placeholder for that use case. So you can add a placeholder. That's a good question.
+You can add a placeholder for your API key, for instance. But what's going to happen is that people will run your project, it will make a network call, and then
+they will see an error that says, oh, you need to update the API key in your project. Most likely if your server responds with that, but
+then they will be wondering, oh, but where should I put the API key in the project? Even if you've written it on the web page, people will not.
+You can't assume that people will read, I've been writing a lot of documentation at work recently. You cannot assume that people will read anything.
+So if you have something that when they first try to build, it fails and it directs them to where they need to make the change, that's a great way of doing it.
+Another group of people that used this, not really this, but something similar.
+Creatively, when you use Eric Swift, you're supposed to store the result of an observation in something called a dispose bag.
+Otherwise you have a memory leak and if you don't, they will give you a warning. And the warning explicitly says that this
+should go in a disposal bag. Visit this URL to learn why. And it's a great way to convey
+message to developers for actions that are important to be implemented correctly. So I would say these two things, they are useful.
+So warning and error as a developer. But if you are an SDK developer,
+then they are even more useful. Or even if you're a core team developer and you're an SDK developer for your colleagues.
+It can also be really useful. And yes, using this placeholder.
+Indeed, indeed. That's even better. Or that's even better. That's equivalent. But because it triggers an error when
+you don't set it, set it. So, yeah, that's also a very good strategy.
+I guess the advantage of using. Yeah, I'm going to show it in code. You're right. So that people can see it.
+I had shown it in a video two years ago, I think.
+But like, for instance, here. So it would be something like this place holder.
+So like that. So yeah, you can do it.
+One small advantage maybe of using hashtag error is that
+you have a bit more room to write stuff. I mean, you can also write stuff with the placeholder. But actually, I'm trying to see when you do
+a placeholder, can you put more than one? Can you put like, spaces? You can put spaces. Okay.
+So I guess you could also do it. I guess it's a question of choice. I used hashtag error because I don't know, I
+like the fact that it was very intentional and it was very obvious what you had to do. But using the placeholder is nice.
+And if you try to build and you still have a placeholder, let's see what happens.
+Normally, it shouldn't be able to build. If it does, it's going to be weird.
+I'm trying to build. Okay. Yeah. It says editor in placeholder file.
+So here you could say, for instance, replace. So you could say something like replace
+with your API key, something like that.
+That could make sense. So, yeah, that's a great suggestion. That might be even better than
+using hashtag error in that case. Good suggestion. That's a good one. Thank you.
+Let's see where we are. We only have a few tips to go over, and that's a
+good thing because I'm starting that my voice is starting not to go, but I feel like it's getting a bit tired.
+Simulator dynamic type. Oh, yes, that one is useful. So on the simulator, command option and plus
+or minus to change the font size. So is the simulator still running?
+Let me run the app again in the simulator. So it's running and then command option plus and minus.
+That's so useful. I don't think if I knew about this one, but that's so useful to check that it displays as it
+should, and you can see it's available in the menu. Features increase and decrease text size.
+The thing is, then you don't have the shortcut to put it back to how it is. By default.
+So you have to wonder which was the right one. That's always a bit annoying when there isn't a way to put it by default at the default value because
+then you're left like okay, what was the one where I started with, but it's a good one, can be
+really useful if you need to test. To test dynamic, type back to the list of tips.
+Show only errors. So if you have errors in warning and warnings
+when you build, you can only show the errors. So here it will be in this view here
+by clicking so on the little thing here. So it's called show only errors.
+That's the name of the label, sorry. If it appears off screen and when you select it, you will only see the errors.
+So let me see, I'm going to show like this would be an error for sure, and then
+this would be a warning, I guess. Yes. So we have an error and a warning.
+If I click here, we only see the errors. Can be useful if you are in a project where
+there are a lot of warnings and it's overwhelming. Also, if you have a lot of warnings, it's not a good thing and you should fix them.
+But if you're ever overwhelmed by a big amount of warnings or warnings that triggered before because something wrong happened,
+or like you're saying Tom in the chat, because you've added swiftly into the project, it can be for this
+kind of like transient state, it can be a great way to focus on what might be actually the root
+cause of the issue. So that's a good one. And all of these detail like filters and all of
+these little filters at the bottom can be really useful.
+And you can also, you have the one next to it, which is to show issues from documents that you've been recently building.
+So I'm not sure what recently means in that case, but maybe it can be useful also if you have a lot of warnings and you want to know the one that you've
+created recently, but I've never used that one, so I'm not sure what recent means in that context.
+Okay, we have only eight tips to go. Quick actions. This one is very useful.
+So command shift a to open a menu that lets you run a lot of quick actions. So for instance, let's go back here.
+So in the movie, if I do command shift a and then quick action in it, generate member wise initializer, I guess
+I need to do it at the type declaration. So let's retry it again.
+Yes, it generates the member wise initializer, so you can also do it by
+doing right click refactor and then generate. So it's more of a shortcut than anything else.
+But there are some interesting actions there.
+I'm trying to find one, the one to split the argument's name across several lines. I don't remember who it's called.
+Yes, split section by line. No. Is it that one?
+No, there is one. I don't know how they call it, because it's about like formatting format to multiple lines.
+This one very useful. And there is also a shortcut which is control m. So to be able to format over several lines, which
+can be useful when you start to have a lot of arguments, you can see here it's on the colon,
+I'm hiding it, but it's on the colon 101. So by using this shortcut, you get to use
+less column and it's a bit more readable. So this one is really useful and I see someone.
+So both control M is useful and also command shift a. And I see a really interesting command
+that says get used to this shortcut. So command shift a because Apple will probably
+add the AI Xcode stuff to this menu. So yes, we could expect something like a rewrite with AI or something like that.
+Yes, if it's added, it will probably be added there, or in a copilot style where it makes
+suggestions wherever you have your cursor currently. But you're right, that's a very good suggestion.
+And I do hope that this year at WC we finally get some kind of like copilot forex code, because it would
+be really nice to finally have something equivalent to copilot after the rest of the world being able to use it for
+the last like two or three years. What do we have?
+Oh, format to multiple lines. So I've just showed it to you and they choose the exact same example, which is a table view method.
+So control M, I'm just going to show it again because then I will add chapters to my YouTube videos, to the YouTube replay, and the chapter
+must be at least 10 seconds of length. So I need to show it again so that I can create a chapter for this tip.
+But you can see control M to be able to format to split across multiple lines.
+One thing that's tricky is that in the first beta of the QNX code, it used to be in some of the menus here, and then they removed it.
+And I think there is no menu entry. It's either the shortcut like this or it's using the command shift a menu.
+But besides that, I don't think you have a menu to do it even in like editor.
+I'm not sure that there is here format to multiple lines. I was lying. It's in editor structure and
+then format to multiple lines. But I think in the first bit of X one you could get it with a right click and that's what they removed.
+So remember control M, this one is a very useful one.
+And we're getting into quite recent tips because these are features added to Xcode this year.
+So, yeah, October 16, 2023. So we're getting to really recent features.
+Another features of Xcode this year is to be able to add bookmarks to your code.
+So you can do a click and then control command and quote. Or I think you can just do a right click, create book.
+Create bookmark. So like here for instance, right click bookmark
+and then it puts your bookmark here. So it's quite useful to have the bookmarks. You can see it's also visible here.
+In the past, before bookmark, what I used to do is to put the breakpoint and disable it. It was kind of like a makeshift bookmark.
+When you have several files open and you want to remember where each of them is, it was very useful.
+Now, of course, you can use bookmark, which are even better. It can be very useful, like you're debugging a
+complex problem and you have your attention split across three different files, and you really don't want to forget where these files are, where you put a
+bookmark on each of them. And this way, even if you close one of them by mistake or you quit Xcode by mistake
+or something like that, you will still have the bookmarks to be able to find them again. So bookmarks are extremely useful in Excel.
+I think it's a really great addition that they made this year. Matthew, you're saying another useful command is command shift
+control a to show the commit relative to each line in a file and who made the change. Yes, so it's this thing.
+So how is it? No, you are saying command control shift a.
+Yes, so it's this. So since I only worked on the. I worked on the project, it's my name, but
+yes, it's what is now called the offers view. It used to be called blame because
+it's the name of the command git. Git blame. To know who to blame for what's happening. Now they find a less aggressive way of phrasing it.
+It's called offers. And yes, it showed you who committed each line.
+Be careful that sometimes it might be that the commit might be because just someone did
+a refactor and they reinvented things, but they didn't write the line originally. So be careful.
+Sometimes it can be a bit deceiving, but it's good to have you to have an idea of
+in which context was the change made exactly.
+It's a fancy way, it's a fancy way to do a git blame. Exactly.
+Find ancestor types. So you select a tip and then you do find ancestor
+types and it shows you all of the inheritance hierarchy.
+So for instance here movies ucontroller, you can also do a right click, I would have done a right click.
+And then you do find ancestor types and it showed you. So Moviesview controller inherits from UAV controller, which
+inherits, you can see it here from UI responder, from NS objects, and then you have
+also all of the protocols that it implements. You can see there is quite a few, but it makes sense
+for something so central as UI view controller that can be quite useful, especially if you are dealing with a type and you don't
+know where it comes from and you want to have a sense of okay, what's the layer of the land here you can see okay, so this is a view controller.
+It does this and this and that, so it can be quite useful.
+Of course here my type was called movies view controller, so it was quite obvious what was the underlying type.
+But for instance, Ui table view, you can see okay, no, you cannot see because you
+don't have access to the source code. So it only works when you have access to the source code. So it only works for your source code.
+But for instance here, this type movies service I can do find ancestor types I can see okay, it's movie
+service and it implements a protocol, movie servicing. Once again, I had everything visible, but it could have
+been in an extension, it could have been less obvious. So the right click find menu can be really useful.
+Same thing for the protocol here, or right click find confirming types. You can see all the types
+that conform to movie servicing. So we have movies mock service and the actual movie service. So that can be also quite useful when
+you need to navigate a large project. Line bookmark so line bookmark, actually I
+think I showed it to you before. You have two types of bookmark. You have a file bookmark and line bookmark. I think I showed you a line bookmark, so on
+line 37, but if I go into movie service and I draw right click bookmark, you can just bookmark just
+like here, I've bookedmarked, I think the file, yeah, I bookedmarked the file and maybe actually I bookmarked this type.
+Yeah, I'm not sure what is bookmarking, but it's not bookmarking a specific line. Maybe it's bookmarking.
+No, actually it's bookmarking the line where I was. So I'm not sure what's the difference between these two? Command.
+To be honest, I think I've always used the one with a specific line of code, but I
+don't know what's the difference between the two. Maybe like if you move, maybe if you move your code,
+like one is going to move and not the other. To be honest, I'm not sure.
+So yeah, you have these two options for bookmarking. I'm not sure what the difference is between them.
+I think I've always used the first one just because it's the first one in the list and it feels like the most precise.
+But what's important to remember is that you can do bookmarks.
+That's the important thing. Okay. And there is a ShortcUt to do it. So control command and here this ThIng, which is a quote,
+let's see, is it the same on the french keyboard? So control command and quote. Let's see. Control command and quote.
+No, it doesn't work. Let me see what's the settings for my keyboard. So it would be about bookmark.
+Okay, so for me it's U with an Accent. Okay. So yes, and it adds the bookmark to the given line.
+All RigHt. And if there is something on the line, it shows me what there is on the line from this view right here, which can be useful if
+you're just like scanning through a list of bookmarks. All right, we are getting to the final four tips.
+So yeah, when I said around 2 hours and 20 minutes, I was quite good. So bookmark description.
+So we can add SOmeThing to the bookmark, so we can add a description.
+So this is a description and it's going to appear here. So it can be useful if you're debugging and
+you are just like leaving notes for yourself to be like, oh, maybe this is where this thing is happening or stuff like that.
+At least you have a place where you can write text so that can be useful.
+I've never needed to use it, to be honest. But if you ever find yourself having to use
+it or if you need to put some extra information, like, I don't know, like a credential, a
+login, something, a debug message that you want to reuse, it's a place where you can put it.
+What DO we HAVe next? QuICKLY, open a bookmaRk. Oh, so if you put a name to the bookmark,
+then you can open it from command shift o. So I'm going to change, for instance, to
+this is my favorite bookmark, and then I
+can do I switch to another file? I do like FaVORite. Oh, you can see it's happening. This is my favorite bookmark.
+So the bookmarks, they also happen when you do command shift o. So when I was telling you that command shift o is one of the best shortcuts that you can use
+in Xcode, and then it's going to open it. So that's good. Also, like, if you want to make it easy to search, you can add search information right here.
+So that's a pretty good one. Penultimate tip.
+Mark bookmark as complete so there is even a to do list. You can mark it as complete so you
+can use it as a to do list. That's really cool. I didn't know about this. I'm learning this right now.
+Once again, when we're talking about features who are not easy to discover, you see you need to hover your mouse here.
+And I don't think I've ever done it, or if I did, I didn't pay attention because you can go pretty fast on it,
+so you can use it as a to do list. That's good to know. That's good to know.
+You could have done it by just writing. Like, you could have done it by just writing done.
+No, not like that. Here you could have written done here.
+It could have been also a possibility, a way to do it. But you have a built in view for this.
+And can you actually, I'm looking like in the filter? Oh, yes.
+If you click here, you're going to filter out the ones that are marked as done. So you can use it as a to do list
+for what you have to do in your code. So a great use case I can see for it is if you are training or onboarding either
+junior developers or just like developers getting started with your code base and you're guiding them for the first feature they need to make.
+What you can do is that together you can put bookmarks in the code to where they will need to make the changes and
+write a quick description of what need to be changed, and then they can check it as they are doing it.
+Plus you can move so you can order as you want, so you can order them in a logical order.
+So indeed, most hidden feature in Xcode hard agree on that one.
+But for onboarding people. It can be really useful. Or if you have a project that you are sharing as
+part of a tutorial, this will be also very useful.
+And I see a message this appears in git. So no, this is not in git. Let me check.
+I'm opening source screen on my other screen just to check, but I wouldn't expect it to appear in git.
+This is purely like inside Xcode. Maybe there's a way to commit them, I'm not
+sure, but by default they don't appear in git. They are only local to your xcode.
+And now let's go for the final tip. Select next occurrence.
+So whenever you have a text, if you are on it, you do shift option and then you select it.
+So that's just to select it and then you do command option e to find and to select the next occurrences.
+So let's try and do it. So for instance here I select it and then I do command shift e.
+You can see it works and then you can change everything all at once. What's a bit weird is that you see here, it
+selected that one even though you probably don't want it. So it might not always work as you expect. But if you want to do a replace all for
+a local variable, it can be alternate to doing edit
+all in scope, even though I would still prefer to do right click edit all in scope because it's not
+that long error that longer to do it. And you're sure that it actually
+only edits that specific symbol. Because with the other one, as we've seen, it can
+be a hit or miss here, you probably don't want to edit either this one here or this one there.
+But good to know. It's a very like text editor level feature.
+But if you have a use case for it, or if you find yourself doing this thing that I've just shown you a lot, then you will be glad to
+know that there is a shortcut for it. Is there a shortcut for editor in scope?
+I'm not sure there is one. Maybe you can create one. I remember that you had this option on the touch bar
+on the previous MacBook Pros, and it's one of the things I was very happy to use the touch bar for. Maybe the only useful thing I've ever used the touch bar
+for, but I don't think that there is one you can do command shift a and edit on in scope. If you don't want to do a right
+click that can be faster, arguably, but I don't think there is one you know what?
+Let's check. Let's check. Edit. Oh, look at that.
+Command. Control, command e. So there is one actually.
+So yep, there is one. Control, command e. There is one.
+And we've learned something more. So we've learned 66 tips, actually, not 65.
+We've learned one more. So thank you for the question. And yes indeed, in the filter bar
+you can show only the unchecked bookmarks.
+You're absolutely right. All right, let me go back. Yes, we've covered all of this, so
+we've covered quite a lot of content. It's been 2 hours and 18 minutes. Let me go back to full screen just to say goodbye.
+I don't think I will do a q and a at the end this time because my voice is starting to feel a bit of a
+strain on my voice, so I'm going to take it slow. But I'm really glad about this live stream.
+I really enjoyed covering all of these tips. I've learned a few things for sure.
+I saw a lot of cool messages and interaction in the chat, so thank you all for watching
+live and for interacting because having this interaction in the chat makes it just so much nicer. Imagine if I had spent almost two and a half
+hours speaking by myself at home on a Monday evening. That would have been quite a weird experience.
+So thank you for being here. As always, the replay will be available immediately
+on YouTube with the same link, and I will add the chapters in the coming days. Adding the 67 chapter markers is going to be a
+fun one, but also a useful one because it will make the video much more discoverable on Google.
+And I guess, yeah, I just have to say once again, thank you for watching the live stream live.
+Thank you for watching the replay. I mean, if you're at this point of the live stream or of the video, is that you've watched everything.
+So thanks a lot. I hope you've learned something new.
+If you knew some tips that I didn't cover during this live stream, please share them in the comments. I would love to know about them and I'm sure that
+all the other viewers would also love to learn about them. And I guess I will just say see
+you next week for another live stream. Which will be. It will either be how to write a simple macro because
+I have the project ready for that, or maybe it will be how to learn ui kit when you know, Swiftui.
+If I manage to prepare everything that I want to prepare, that's all I had to say.
+Have a good evening, have a good rest of your day. Depending on where you are in the world for me. It's almost 10:30 p.m.
+So I'm going to go to bed pretty soon. But yeah, once again, thank you for watching and see you next time. Bye.
 
 ----------
 

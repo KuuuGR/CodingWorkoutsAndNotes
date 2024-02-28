@@ -5,4 +5,7 @@ If you’re looking to thrive in uncertain times, achieve unprecedented goals, a
 3. [Lewis Howes](https://www.youtube.com/@lewishowes/videos)
 Lewis Howes is a 2x New York Times best-selling author, 2x All-American athlete, keynote speaker, and entrepreneur. The School of Greatness shares inspiring interviews from the most successful people on the planet—world-renowned leaders in business, entertainment, sports, science, health, and literature—to inspire YOU to unlock your inner greatness and live your best life.
 4. [Deep Dive with Ali Abdaal](https://www.youtube.com/@DeepDivewithAliAbdaal/videos)Dr Ali Abdaal is the world’s most followed productivity expert and author of 'Feel Good-Prod5. 
-5. 
+5. [https://www.youtube.com/@MachineLearningStreetTalk/videos](https://www.youtube.com/@MachineLearningStreetTalk/videos)MLST is the top AI podcast on Spotify. Subscribe now! Welcome! We bring you the latest in hes native english UK transcription at least here: [# A NEW SOCIAL NETWORK WITHOUT LIKES IS ________](https://www.youtube.com/watch?v=pWIrXN-yy8g) already added in random stuff
+6. [Seattle Crafter Meetup](https://www.youtube.com/@seattlecraftermeetup/videos)
+7. [Rachel's English](https://www.youtube.com/@rachelsenglish)
+8. 
