@@ -1,15 +1,9 @@
 
-
-https://www.youtube.com/watch?v=VXQ9BS62xNQ
 I think it's also very useful to watch videos in Polish with Polish subtitles, to verify how well you understand what you hear. Here are some:
-
-- BezPlanu (traveling)
-
-- Billie Sparrow (a variety of subjects really, mostly lifestyle)
-    
-- Arlena Witt (learning English)
-    
-- Kasia Gandor (science, climate, health)
+- BezPlanu (traveling) //done
+- Billie Sparrow (a variety of subjects really, mostly lifestyle) //done
+- Arlena Witt (learning English) //done
+- Kasia Gandor (science, climate, health) //done
 
 
 

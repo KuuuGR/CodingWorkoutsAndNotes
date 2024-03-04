@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typing/Knowledge/Letters frequency.md",
+                "file": "Typing/TrainingData/PL/erotyka/PortalKobiet.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"Typing/Layouts/XD75/\" ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typing/Knowledge/Letters frequency.md",
+                "file": "Typing/TrainingData/PL/erotyka/PortalKobiet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Typing/Knowledge/Letters frequency.md",
+                "file": "Typing/TrainingData/PL/erotyka/PortalKobiet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typing/Knowledge/Letters frequency.md"
+                "file": "Typing/TrainingData/PL/erotyka/PortalKobiet.md"
               }
             }
           }
@@ -148,43 +148,53 @@
   },
   "active": "4291f1147d8c42dd",
   "lastOpenFiles": [
-    "Typing/Knowledge/Links.md",
+    "Typing/Layouts/YMD40/files/ymdk_air40_01.pdf",
+    "Typing/Layouts/XD75/files/Archive01.zip",
+    "Typing/Layouts/XD75/files/Archive copy.zip",
+    "Typing/Layouts/XD75/files/xiudi_xd75_layout_ortho_5x15_mine-40cover (9).json",
+    "Typing/Layouts/XD75/files/xiudi_xd75_xiudi_xd75_layout_ortho_5x15_mine-40cover (16).hex",
+    "Typing/Layouts/Planck V6/Info.md",
+    "Typing/Layouts/YMD40/files/Archive.zip",
+    "Typing/Layouts/YMD40/files/ymdk_ymd40_air40_ymdk40air_atm32u4_01.hex",
+    "Typing/Layouts/YMD40/files/ymdk_ymd40_air40_ymdk40air_atm32u4_01(1).hex",
+    "Typing/Layouts/YMD40/files/ymdk_ymd40_air40_via.hex",
+    "Typing/Layouts/YMD40/files/ymdk_ymd40_air40_layout_ortho_4x12_mine.json",
+    "Typing/Layouts/YMD40/files/ymdk40air_atm32u4_02.json",
+    "Typing/Layouts/40% QMK/Info.md",
+    "Typing/Layouts/YMD40/Info.md",
+    "Typing/Layouts/XD75/files/Image10.png",
+    "Typing/Layouts/XD75/files/Image11.png",
+    "Typing/Layouts/JJ40/Info.md",
+    "Typing/Layouts/XD75/xd75/Image11.png",
+    "Typing/Layouts/XD75/xd75/Image10.png",
+    "Typing/Layouts/XD75/xd75/MicrosoftTeams-image (11).png",
+    "Typing/Layouts/XD75/xd75/MicrosoftTeams-image (10).png",
+    "Typing/Layouts/JJ40/files/PhotoJJ40.jpeg",
+    "Typing/Layouts/JJ40/files/PhotoJJ40.png",
+    "Typing/Layouts/JJ40/files/Zrzut ekranu 2023-01-26 o 20.44.12.png",
+    "Typing/Layouts/JJ40/files/MicrosoftTeams-image (12).png",
+    "Typing/Layouts/XD75/Info.md",
+    "Typing/Keyboards/QMK/Planck.md",
+    "Typing/TrainingData/PL/dataMining/instruction.md",
+    "Typing/MonkeyType/Themes.md",
+    "Zx scratchBook/RusishAttack.md",
+    "Typing/emptySheet 99.md",
+    "Flutter/links.md",
+    "Typing/TrainingData/EN/Sources.md",
+    "Chillout/Coding relaxing music.md",
+    "Chillout/Pomodoro.md",
+    "Typing/TrainingData/PL/różności.md",
+    "Typing/TrainingData/PL/Igor Janke.md",
+    "Typing/TrainingData/PL/erotyka/PortalKobiet.md",
+    "Typing/TrainingData/PL/Zbiór.md",
     "Typing/Knowledge/Letters frequency.md",
+    "Typing/Knowledge/Links.md",
     "Swift/Q-A Swift set.md",
     "Swift/Links.md",
     "Swift/various.md",
     "Python/Links.md",
     "Python/Youtube Scripe.md",
-    "Swift/Essential developer/Links.md",
-    "Swift/Essential developer/Links + Transcriptions.md",
-    "Zx scratchBook/AppPreparation.md",
-    "Zx scratchBook/Bookmarks.md",
-    "Zx scratchBook/RusishAttack.md",
-    "Typing/Training Ideas/YouTube.md",
-    "Typing/Keyboards/YouTube/Transcriptions.md",
-    "Typing/Keyboards/YouTube/Notes.md",
-    "Typing/TrainingData/EN/zMorePodcasts.md",
-    "Chillout/Coding relaxing music.md",
-    "Typing/TrainingData/EN/Scripped from  YouTube.md",
-    "Typing/TrainingData/EN/Chris Williamson.md",
-    "Typing/TrainingData/EN/Sam Charrington.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Chillout",
-    "Swift/Essential developer/Essential Developer.md",
-    "Typing/TrainingData/EN/Lex Friedman.md",
-    "Typing/TrainingData/EN/zRandom Stuff.md",
-    "Typing/TrainingData/EN/Steven Bartlett 02.md",
-    "Python",
-    "Typing/Knowledge/DiscoRD servers",
-    "Typing/Knowledge/DiscoRD servers/Kiakl",
-    "Typing/Knowledge/DiscoRD servers/Alt Keyboard Layouts",
-    "Typing/Knowledge",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Typing/Keyboards/QMK",
-    "Swift/Sean Allen",
-    "Typing/Training Ideas",
-    "Zx scratchBook"
+    "Untitled.canvas"
   ]
 }
