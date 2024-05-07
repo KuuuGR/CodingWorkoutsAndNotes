@@ -1,2 +1,8 @@
-- Data Analyst
+- Data Analyst 💐
+- CyberSecurity
+- DevOps
+- Reverse Engenering
+- Mobile
+- Alghoritms
+- DeepLearing
 - 
