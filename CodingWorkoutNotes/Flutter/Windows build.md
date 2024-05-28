@@ -1,4 +1,4 @@
-1. **Check if everything is fine**: This command provides a detailed report of the development environment (where `-v` stands for verbose).
+f1. **Check if everything is fine**: This command provides a detailed report of the development environment (where `-v` stands for verbose).
 ```Terminal
    flutter doctor -v
 ```
@@ -37,3 +37,10 @@ You may need to restart and open editors for them to read new string.
 
 Now i go to build folder and type
 flutter create .
+
+
+```bash
+flutter clean  
+flutter pub get  
+flutter build windows --release
+```

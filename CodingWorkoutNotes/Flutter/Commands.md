@@ -31,4 +31,10 @@ flutter run --profile
 Get-ChildItem -Recurse | Select-Object -ExpandProperty FullName > files_list.txt
 ```
 
-3. 
+3.  
+
+```bash
+flutter clean  
+flutter pub get  
+flutter build windows --release
+``` 

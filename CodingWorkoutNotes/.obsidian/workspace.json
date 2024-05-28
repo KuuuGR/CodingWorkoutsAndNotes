@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/X/SoloLearn eSc.md",
+                "file": "Flutter/Windows build.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93f887f5c1f60fe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flutter/OwnApps/HealTH/YouTube reSources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51d9697597d570f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swift/X/!SoloLearn eSc.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#LearnSwift",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Swift/X/SoloLearn eSc.md",
+                "file": "Swift/X/!SoloLearn eSc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Swift/X/SoloLearn eSc.md",
+                "file": "Swift/X/!SoloLearn eSc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swift/X/SoloLearn eSc.md"
+                "file": "Swift/X/!SoloLearn eSc.md"
               }
             }
           }
@@ -146,48 +172,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24fb54527c9aa15b",
+  "active": "51d9697597d570f5",
   "lastOpenFiles": [
-    "Flutter/Commands.md",
-    "Flutter/ProfileMode/Profile mode for diagnostics.md",
-    "General Developer/MsDos commands.md",
+    "Flutter/Windows build.md",
+    "Typing/TrainingData/YouTube ReSource Channels.md",
+    "Flutter/OwnApps/HealTH/YouTube reSources.md",
+    "Typing/TrainingData/DataProcess.md",
+    "Typing/TrainingData/YoutubeTranslation.md",
+    "Typing/emptySheet 99.md",
+    "Typing/emptySheet 600.md",
+    "Swift/Links.md",
+    "Swift/Q-A Swift set.md",
+    "Swift/various.md",
     "Flutter/links.md",
-    "Flutter/AppBravery uDemy.md",
+    "Typing/Keyboards/ideas.md",
+    "Typing/Knowledge/FastTypeTube/ChannelsToGetTips.md",
+    "Typing/Knowledge/FastTypeTube/YouTube viedos.md",
+    "Typing/Knowledge/Layouts/AppLayouts info data.md",
+    "Typing/Knowledge/Layouts/BigText of Raw Layouts.md",
+    "Typing/Knowledge/Layouts/Keyboard layouts doc.md",
+    "Typing/Knowledge/Layouts/Letters frequency.md",
+    "Typing/Knowledge/Layouts/Layouts.md",
+    "Typing/MyLayout/layout tester.md",
+    "Typing/MyLayout/Ideas.md",
+    "Typing/Training Ideas/FastType music collection.md",
+    "Typing/Training Ideas/Lecture PyStock.md",
+    "Typing/Training Ideas/Respond.md",
+    "Typing/Training Ideas/Ultimate speed.md",
+    "Typing/Training Ideas/YouTube.md",
+    "Flutter/OwnApps/HealTH",
+    "Flutter/OwnApps",
+    "Typing/Knowledge/Layouts",
+    "AI projects/Keylapp",
     "Flutter/ProfileMode",
-    "Swift/X/SoloLearn eSc.md",
-    "AI projects/QRPrettier/Ideas.md",
-    "AI projects/QRPrettier/QRKnowledge/Basic QR.md",
     "AI projects/QRPrettier/QRKnowledge",
     "AI projects/QRPrettier",
     "Typing/Untitled",
     "AI projects",
-    "Swift/Links.md",
-    "Swift/various.md",
-    "General Developer/TechStuff/GPT prompts.md",
-    "General Developer/TechStuff/Linuxes.md",
-    "General Developer/Portfolio/GPT talks.md",
-    "General Developer/CyberSecurity/GPT talks.md",
     "General Developer/Portfolio",
-    "Typing/Knowledge/Ortholinear Stuff/GPT talks.md",
-    "General Developer/CyberSecurity",
-    "Typing/Knowledge/Keyboard layouts doc.md",
-    "Flutter/Windows build.md",
-    "Typing/Knowledge/Ortholinear Stuff/Stenography.md",
-    "Typing/Knowledge/Ortholinear Stuff/YouTube knowledge.md",
-    "Typing/Knowledge/Ortholinear Stuff",
-    "Write documentation/project documentation.md",
-    "Write documentation/Link and notes.md",
-    "Python/Youtube Scripe.md",
-    "General Developer/TechStuff/ML and DL.md",
-    "General Developer/Fields of interests.md",
-    "General Developer/TechStuff",
-    "Typing/Training Ideas/FastType music collection.md",
-    "Typing/Training Ideas/Lecture PyStock.md",
     "Typing/Keyboards/Layouts/JJ40/files/PhotoJJ40.jpeg",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
-    "Typing/Knowledge/FastTypeTube",
     "Typing/Keyboards/Layouts/XD75/files/Image11.png",
     "Typing/Keyboards/Layouts/XD75/files/Image10.png",
     "Typing/Layouts/XD75/xd75/Image11.png",
