@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Windows build.md",
+                "file": "Swift/X/!SoloLearn eSc.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Swift/X/!SoloLearn eSc.md",
+                "file": "Typing/keyboard set.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#LearnSwift",
+                "query": "let x = Double(dict_a[\"b\"]!) / Double(dict_a[\"a\"]!)",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,13 +171,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51d9697597d570f5",
+  "active": "6162e34117e441e9",
   "lastOpenFiles": [
     "Flutter/Windows build.md",
-    "Typing/TrainingData/YouTube ReSource Channels.md",
+    "Flutter/Commands.md",
+    "Swift/X/!SoloLearn eSc.md",
+    "Flutter/AppBravery uDemy.md",
     "Flutter/OwnApps/HealTH/YouTube reSources.md",
-    "Typing/TrainingData/DataProcess.md",
+    "Typing/keyboard set.md",
+    "Typing/TrainingData/YouTube ReSource Channels.md",
     "Typing/TrainingData/YoutubeTranslation.md",
+    "Typing/TrainingData/YouTube DATA.md",
+    "Typing/TrainingData/DataProcess.md",
+    "Typing/Training Ideas/FastType music collection.md",
+    "Typing/Training Ideas/Lecture PyStock.md",
+    "Typing/Training Ideas/Respond.md",
+    "Typing/Training Ideas/Ultimate speed.md",
+    "Typing/Training Ideas/YouTube.md",
     "Typing/emptySheet 99.md",
     "Typing/emptySheet 600.md",
     "Swift/Links.md",
@@ -190,16 +199,6 @@
     "Typing/Knowledge/FastTypeTube/YouTube viedos.md",
     "Typing/Knowledge/Layouts/AppLayouts info data.md",
     "Typing/Knowledge/Layouts/BigText of Raw Layouts.md",
-    "Typing/Knowledge/Layouts/Keyboard layouts doc.md",
-    "Typing/Knowledge/Layouts/Letters frequency.md",
-    "Typing/Knowledge/Layouts/Layouts.md",
-    "Typing/MyLayout/layout tester.md",
-    "Typing/MyLayout/Ideas.md",
-    "Typing/Training Ideas/FastType music collection.md",
-    "Typing/Training Ideas/Lecture PyStock.md",
-    "Typing/Training Ideas/Respond.md",
-    "Typing/Training Ideas/Ultimate speed.md",
-    "Typing/Training Ideas/YouTube.md",
     "Flutter/OwnApps/HealTH",
     "Flutter/OwnApps",
     "Typing/Knowledge/Layouts",
